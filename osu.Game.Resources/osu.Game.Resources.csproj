@@ -48,10 +48,13 @@
     <EmbeddedResource Include="Textures\menu-osu.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\Exo2.0-Regular.otf" />
+    <EmbeddedResource Include="Samples\welcome.mp3" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Samples\welcome.mp3" />
+    <EmbeddedResource Include="Fonts\Exo2.0-Regular.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Exo2.0-Regular_0.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
