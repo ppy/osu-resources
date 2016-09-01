@@ -56,6 +56,16 @@
   <ItemGroup>
     <EmbeddedResource Include="Fonts\Exo2.0-Regular_0.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Keyboard\key-caps.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-confirm.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-delete.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-movement.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-1.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-2.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-3.mp3" />
+    <EmbeddedResource Include="Samples\Keyboard\key-press-4.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
