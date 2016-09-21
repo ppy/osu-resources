@@ -66,6 +66,21 @@
     <EmbeddedResource Include="Samples\Keyboard\key-press-3.mp3" />
     <EmbeddedResource Include="Samples\Keyboard\key-press-4.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\FontAwesome.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\FontAwesome_0.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_1.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_2.png" />
+    <EmbeddedResource Include="Fonts\FontAwesome_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\osuFont.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\osuFont_0.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
