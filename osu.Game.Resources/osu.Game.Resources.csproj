@@ -39,6 +39,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Textures\menu-osu%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-glow.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-glow%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-hit.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-hit%402x.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
+    <EmbeddedResource Include="Textures\KeyCounter\key-up%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
@@ -80,14 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Fonts\osuFont_0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Textures\KeyCounter\key-glow.png" />
-    <None Include="Textures\KeyCounter\key-glow%402x.png" />
-    <None Include="Textures\KeyCounter\key-hit.png" />
-    <None Include="Textures\KeyCounter\key-hit%402x.png" />
-    <None Include="Textures\KeyCounter\key-up.png" />
-    <None Include="Textures\KeyCounter\key-up%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
