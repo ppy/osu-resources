@@ -95,9 +95,18 @@
     <EmbeddedResource Include="Textures\Menu\background%402x.jpg" />
     <EmbeddedResource Include="Textures\Menu\background.jpg" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Tracks\circles.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg1.jpg" />
+    <EmbeddedResource Include="Textures\Backgrounds\bg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\bg4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
