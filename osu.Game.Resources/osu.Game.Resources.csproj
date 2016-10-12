@@ -45,6 +45,7 @@
     <EmbeddedResource Include="Textures\KeyCounter\key-hit%402x.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-up%402x.png" />
+    <EmbeddedResource Include="Beatmaps\241526 Soleily - Renatus.osz" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
@@ -107,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Textures\Backgrounds\bg4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Beatmaps\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
