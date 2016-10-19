@@ -110,7 +110,16 @@
     <EmbeddedResource Include="Textures\Backgrounds\bg4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Beatmaps\" />
+    <EmbeddedResource Include="Textures\Play\osu\approachcircle%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\disc%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\number%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\ring%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\osu\ring-glow%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\osu\triangle%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
