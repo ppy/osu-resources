@@ -38,8 +38,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Menu\avatar-guest.png" />
-    <EmbeddedResource Include="Textures\Menu\avatar-guest%402x.png" />
     <EmbeddedResource Include="Textures\Menu\logo%402x.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-glow.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-glow%402x.png" />
@@ -48,6 +46,10 @@
     <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-up%402x.png" />
     <EmbeddedResource Include="Beatmaps\241526 Soleily - Renatus.osz" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Online\avatar-guest.png" />
+    <EmbeddedResource Include="Textures\Online\avatar-guest%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
@@ -124,7 +126,7 @@
     <EmbeddedResource Include="Textures\Play\osu\triangle%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
