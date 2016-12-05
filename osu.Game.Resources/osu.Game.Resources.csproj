@@ -187,10 +187,21 @@
     <EmbeddedResource Include="Samples\Checkbox\check-off.mp3" />
     <EmbeddedResource Include="Samples\Checkbox\check-on.mp3" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Menu\menu-edit-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-freeplay-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-multiplayer-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menu-play-click.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuback.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuclick.mp3" />
+    <EmbeddedResource Include="Samples\Menu\menuhit.mp3" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\SongSelect\select-difficulty.mp3" />
     <EmbeddedResource Include="Samples\SongSelect\select-expand.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Menu\heartbeat.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
