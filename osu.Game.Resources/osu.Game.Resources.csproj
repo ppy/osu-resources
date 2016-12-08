@@ -207,6 +207,29 @@
   <ItemGroup>
     <Folder Include="Samples\Sliderbar\" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\drum-sliderwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\normal-sliderwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-sliderslide.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-slidertick.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\soft-sliderwhistle.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
