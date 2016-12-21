@@ -9,9 +9,8 @@ varying vec4 v_Colour;
 uniform vec2 g_Position;
 uniform vec2 g_Size;
 
-uniform float g_B;
-uniform float g_C;
-uniform float g_D;
+uniform float g_Period;
+uniform float g_PeriodOffset;
 
 uniform float g_StrokeWidth;
 uniform float g_StrokeHeight;
@@ -29,7 +28,7 @@ void main(void)
 
 	// Normalized 
 	float normalizedY = gl_FragCoord.y - g_Position.y;
-	float yVisible = abs(normalizedY - (g_Size.y / 2.0 * sin(g_B / g_Size.x * gl_FragCoord.x + g_C) + g_Size.y / 2.0));
+	float yVisible = abs(normalizedY - (g_Size.y / 2.0 * sin(g_Period / g_Size.x * gl_FragCoord.x + g_PeriodOffset) + g_Size.y / 2.0));
 
 	if (yVisible > g_StrokeHeight / 2.0)
 	{
