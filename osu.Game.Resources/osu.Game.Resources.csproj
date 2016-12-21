@@ -431,6 +431,9 @@
     <EmbeddedResource Include="Textures\Flags\ZW.png" />
     <EmbeddedResource Include="Textures\Flags\__.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Shaders\sh_DottedLine.fs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
