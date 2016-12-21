@@ -28,7 +28,7 @@ void main(void)
 
 	// Normalized 
 	float normalizedY = gl_FragCoord.y - g_Position.y;
-	float yVisible = abs(normalizedY - (g_Size.y / 2.0 * sin(g_Period / g_Size.x * gl_FragCoord.x + g_PeriodOffset) + g_Size.y / 2.0));
+	float yVisible = abs(normalizedY - ((g_Size.y / 2.0 - g_StrokeHeight / 2.0) * sin(g_Period / g_Size.x * gl_FragCoord.x + g_PeriodOffset) + g_Size.y / 2.0));
 
 	if (yVisible > g_StrokeHeight / 2.0)
 	{
