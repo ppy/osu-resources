@@ -201,7 +201,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Samples\Menu\heartbeat.mp3" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Samples\Gameplay\drum-hitclap.wav" />
     <EmbeddedResource Include="Samples\Gameplay\drum-hitfinish.wav" />
@@ -224,6 +223,18 @@
     <EmbeddedResource Include="Samples\Gameplay\soft-sliderslide.wav" />
     <EmbeddedResource Include="Samples\Gameplay\soft-slidertick.wav" />
     <EmbeddedResource Include="Samples\Gameplay\soft-sliderwhistle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-hitcircle-overlay%402x.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-hitcircle-overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum%402x.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner%402x.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer%402x.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
