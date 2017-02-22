@@ -38,30 +38,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Menu\logo%402x.png" />
+    <EmbeddedResource Include="Textures\Menu\logo.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-glow.png" />
-    <EmbeddedResource Include="Textures\KeyCounter\key-glow%402x.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-hit.png" />
-    <EmbeddedResource Include="Textures\KeyCounter\key-hit%402x.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-up.png" />
-    <EmbeddedResource Include="Textures\KeyCounter\key-up%402x.png" />
     <EmbeddedResource Include="Beatmaps\241526 Soleily - Renatus.osz" />
     <EmbeddedResource Include="Samples\Sliderbar\sliderbar.mp3" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-fail.png" />
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-fail%402x.png" />
     <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-idle.png" />
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-idle%402x.png" />
     <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-kiai.png" />
-    <EmbeddedResource Include="Textures\Gameplay\Catch\fruit-catcher-kiai%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Shaders\sh_CircularProgressBar.fs" />
     <EmbeddedResource Include="Shaders\sh_CursorTrail.vs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Textures\Menu\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\welcome.mp3" />
@@ -98,11 +89,6 @@
     <EmbeddedResource Include="Fonts\osuFont_0.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Cursor\cursor%402x.png" />
-    <EmbeddedResource Include="Textures\Cursor\cursor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Textures\Menu\background%402x.jpg" />
     <EmbeddedResource Include="Textures\Menu\background.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -119,13 +105,12 @@
     <EmbeddedResource Include="Textures\Backgrounds\bg4.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\osu\approachcircle%402x.png" />
-    <EmbeddedResource Include="Textures\Play\osu\disc%402x.png" />
-    <EmbeddedResource Include="Textures\Play\osu\number%402x.png" />
-    <EmbeddedResource Include="Textures\Play\osu\ring%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\approachcircle.png" />
+    <EmbeddedResource Include="Textures\Play\osu\disc.png" />
+    <EmbeddedResource Include="Textures\Play\osu\number.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\osu\ring-glow%402x.png" />
+    <EmbeddedResource Include="Textures\Play\osu\ring-glow.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Fonts\Exo2.0-Black.fnt" />
@@ -172,11 +157,10 @@
     <EmbeddedResource Include="Fonts\FontAwesome_5.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Cursor\cursortrail%402x.png" />
     <EmbeddedResource Include="Textures\Cursor\cursortrail.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Online\avatar-guest%402x.png" />
+    <EmbeddedResource Include="Textures\Online\avatar-guest.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\seeya.mp3" />
@@ -200,6 +184,179 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\Menu\heartbeat.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Noto_000.png" />
+    <EmbeddedResource Include="Fonts\Noto_001.png" />
+    <EmbeddedResource Include="Fonts\Noto_002.png" />
+    <EmbeddedResource Include="Fonts\Noto_003.png" />
+    <EmbeddedResource Include="Fonts\Noto_004.png" />
+    <EmbeddedResource Include="Fonts\Noto_005.png" />
+    <EmbeddedResource Include="Fonts\Noto_006.png" />
+    <EmbeddedResource Include="Fonts\Noto_007.png" />
+    <EmbeddedResource Include="Fonts\Noto_008.png" />
+    <EmbeddedResource Include="Fonts\Noto_009.png" />
+    <EmbeddedResource Include="Fonts\Noto_010.png" />
+    <EmbeddedResource Include="Fonts\Noto_011.png" />
+    <EmbeddedResource Include="Fonts\Noto_012.png" />
+    <EmbeddedResource Include="Fonts\Noto_013.png" />
+    <EmbeddedResource Include="Fonts\Noto_014.png" />
+    <EmbeddedResource Include="Fonts\Noto_015.png" />
+    <EmbeddedResource Include="Fonts\Noto_016.png" />
+    <EmbeddedResource Include="Fonts\Noto_017.png" />
+    <EmbeddedResource Include="Fonts\Noto_018.png" />
+    <EmbeddedResource Include="Fonts\Noto_019.png" />
+    <EmbeddedResource Include="Fonts\Noto_020.png" />
+    <EmbeddedResource Include="Fonts\Noto_021.png" />
+    <EmbeddedResource Include="Fonts\Noto_022.png" />
+    <EmbeddedResource Include="Fonts\Noto_023.png" />
+    <EmbeddedResource Include="Fonts\Noto_024.png" />
+    <EmbeddedResource Include="Fonts\Noto_025.png" />
+    <EmbeddedResource Include="Fonts\Noto_026.png" />
+    <EmbeddedResource Include="Fonts\Noto_027.png" />
+    <EmbeddedResource Include="Fonts\Noto_028.png" />
+    <EmbeddedResource Include="Fonts\Noto_029.png" />
+    <EmbeddedResource Include="Fonts\Noto_030.png" />
+    <EmbeddedResource Include="Fonts\Noto_031.png" />
+    <EmbeddedResource Include="Fonts\Noto_032.png" />
+    <EmbeddedResource Include="Fonts\Noto_033.png" />
+    <EmbeddedResource Include="Fonts\Noto_034.png" />
+    <EmbeddedResource Include="Fonts\Noto_035.png" />
+    <EmbeddedResource Include="Fonts\Noto_036.png" />
+    <EmbeddedResource Include="Fonts\Noto_037.png" />
+    <EmbeddedResource Include="Fonts\Noto_038.png" />
+    <EmbeddedResource Include="Fonts\Noto_039.png" />
+    <EmbeddedResource Include="Fonts\Noto_040.png" />
+    <EmbeddedResource Include="Fonts\Noto_041.png" />
+    <EmbeddedResource Include="Fonts\Noto_042.png" />
+    <EmbeddedResource Include="Fonts\Noto_043.png" />
+    <EmbeddedResource Include="Fonts\Noto_044.png" />
+    <EmbeddedResource Include="Fonts\Noto_045.png" />
+    <EmbeddedResource Include="Fonts\Noto_046.png" />
+    <EmbeddedResource Include="Fonts\Noto_047.png" />
+    <EmbeddedResource Include="Fonts\Noto_048.png" />
+    <EmbeddedResource Include="Fonts\Noto_049.png" />
+    <EmbeddedResource Include="Fonts\Noto_050.png" />
+    <EmbeddedResource Include="Fonts\Noto_051.png" />
+    <EmbeddedResource Include="Fonts\Noto_052.png" />
+    <EmbeddedResource Include="Fonts\Noto_053.png" />
+    <EmbeddedResource Include="Fonts\Noto_054.png" />
+    <EmbeddedResource Include="Fonts\Noto_055.png" />
+    <EmbeddedResource Include="Fonts\Noto_056.png" />
+    <EmbeddedResource Include="Fonts\Noto_057.png" />
+    <EmbeddedResource Include="Fonts\Noto_058.png" />
+    <EmbeddedResource Include="Fonts\Noto_059.png" />
+    <EmbeddedResource Include="Fonts\Noto_060.png" />
+    <EmbeddedResource Include="Fonts\Noto_061.png" />
+    <EmbeddedResource Include="Fonts\Noto_062.png" />
+    <EmbeddedResource Include="Fonts\Noto_063.png" />
+    <EmbeddedResource Include="Fonts\Noto_064.png" />
+    <EmbeddedResource Include="Fonts\Noto_065.png" />
+    <EmbeddedResource Include="Fonts\Noto_066.png" />
+    <EmbeddedResource Include="Fonts\Noto_067.png" />
+    <EmbeddedResource Include="Fonts\Noto_068.png" />
+    <EmbeddedResource Include="Fonts\Noto_069.png" />
+    <EmbeddedResource Include="Fonts\Noto_070.png" />
+    <EmbeddedResource Include="Fonts\Noto_071.png" />
+    <EmbeddedResource Include="Fonts\Noto_072.png" />
+    <EmbeddedResource Include="Fonts\Noto_073.png" />
+    <EmbeddedResource Include="Fonts\Noto_074.png" />
+    <EmbeddedResource Include="Fonts\Noto_075.png" />
+    <EmbeddedResource Include="Fonts\Noto_076.png" />
+    <EmbeddedResource Include="Fonts\Noto_077.png" />
+    <EmbeddedResource Include="Fonts\Noto_078.png" />
+    <EmbeddedResource Include="Fonts\Noto_079.png" />
+    <EmbeddedResource Include="Fonts\Noto_080.png" />
+    <EmbeddedResource Include="Fonts\Noto_081.png" />
+    <EmbeddedResource Include="Fonts\Noto_082.png" />
+    <EmbeddedResource Include="Fonts\Noto_083.png" />
+    <EmbeddedResource Include="Fonts\Noto_084.png" />
+    <EmbeddedResource Include="Fonts\Noto_085.png" />
+    <EmbeddedResource Include="Fonts\Noto_086.png" />
+    <EmbeddedResource Include="Fonts\Noto_087.png" />
+    <EmbeddedResource Include="Fonts\Noto_088.png" />
+    <EmbeddedResource Include="Fonts\Noto_089.png" />
+    <EmbeddedResource Include="Fonts\Noto_090.png" />
+    <EmbeddedResource Include="Fonts\Noto_091.png" />
+    <EmbeddedResource Include="Fonts\Noto_092.png" />
+    <EmbeddedResource Include="Fonts\Noto_093.png" />
+    <EmbeddedResource Include="Fonts\Noto_094.png" />
+    <EmbeddedResource Include="Fonts\Noto_095.png" />
+    <EmbeddedResource Include="Fonts\Noto_096.png" />
+    <EmbeddedResource Include="Fonts\Noto_097.png" />
+    <EmbeddedResource Include="Fonts\Noto_098.png" />
+    <EmbeddedResource Include="Fonts\Noto_099.png" />
+    <EmbeddedResource Include="Fonts\Noto_100.png" />
+    <EmbeddedResource Include="Fonts\Noto_101.png" />
+    <EmbeddedResource Include="Fonts\Noto_102.png" />
+    <EmbeddedResource Include="Fonts\Noto_103.png" />
+    <EmbeddedResource Include="Fonts\Noto_104.png" />
+    <EmbeddedResource Include="Fonts\Noto_105.png" />
+    <EmbeddedResource Include="Fonts\Noto_106.png" />
+    <EmbeddedResource Include="Fonts\Noto_107.png" />
+    <EmbeddedResource Include="Fonts\Noto_108.png" />
+    <EmbeddedResource Include="Fonts\Noto_109.png" />
+    <EmbeddedResource Include="Fonts\Noto_110.png" />
+    <EmbeddedResource Include="Fonts\Noto_111.png" />
+    <EmbeddedResource Include="Fonts\Noto_112.png" />
+    <EmbeddedResource Include="Fonts\Noto_113.png" />
+    <EmbeddedResource Include="Fonts\Noto_114.png" />
+    <EmbeddedResource Include="Fonts\Noto_115.png" />
+    <EmbeddedResource Include="Fonts\Noto_116.png" />
+    <EmbeddedResource Include="Fonts\Noto_117.png" />
+    <EmbeddedResource Include="Fonts\Noto_118.png" />
+    <EmbeddedResource Include="Fonts\Noto_119.png" />
+    <EmbeddedResource Include="Fonts\Noto_120.png" />
+    <EmbeddedResource Include="Fonts\Noto_121.png" />
+    <EmbeddedResource Include="Fonts\Noto_122.png" />
+    <EmbeddedResource Include="Fonts\Noto_123.png" />
+    <EmbeddedResource Include="Fonts\Noto_124.png" />
+    <EmbeddedResource Include="Fonts\Noto_125.png" />
+    <EmbeddedResource Include="Fonts\Noto_126.png" />
+    <EmbeddedResource Include="Fonts\Noto_127.png" />
+    <EmbeddedResource Include="Fonts\Noto_128.png" />
+    <EmbeddedResource Include="Fonts\Noto_129.png" />
+    <EmbeddedResource Include="Fonts\Noto_130.png" />
+    <EmbeddedResource Include="Fonts\Noto_131.png" />
+    <EmbeddedResource Include="Fonts\Noto_132.png" />
+    <EmbeddedResource Include="Fonts\Noto_133.png" />
+    <EmbeddedResource Include="Fonts\Noto_134.png" />
+    <EmbeddedResource Include="Fonts\Noto_135.png" />
+    <EmbeddedResource Include="Fonts\Noto_136.png" />
+    <EmbeddedResource Include="Fonts\Noto_137.png" />
+    <EmbeddedResource Include="Fonts\Noto_138.png" />
+    <EmbeddedResource Include="Fonts\Noto_139.png" />
+    <EmbeddedResource Include="Fonts\Noto_140.png" />
+    <EmbeddedResource Include="Fonts\Noto_141.png" />
+    <EmbeddedResource Include="Fonts\Noto_142.png" />
+    <EmbeddedResource Include="Fonts\Noto_143.png" />
+    <EmbeddedResource Include="Fonts\Noto_144.png" />
+    <EmbeddedResource Include="Fonts\Noto_145.png" />
+    <EmbeddedResource Include="Fonts\Noto_146.png" />
+    <EmbeddedResource Include="Fonts\Noto_147.png" />
+    <EmbeddedResource Include="Fonts\Noto_148.png" />
+    <EmbeddedResource Include="Fonts\Noto_149.png" />
+    <EmbeddedResource Include="Fonts\Noto_150.png" />
+    <EmbeddedResource Include="Fonts\Noto_151.png" />
+    <EmbeddedResource Include="Fonts\Noto_152.png" />
+    <EmbeddedResource Include="Fonts\Noto_153.png" />
+    <EmbeddedResource Include="Fonts\Noto_154.png" />
+    <EmbeddedResource Include="Fonts\Noto_155.png" />
+    <EmbeddedResource Include="Fonts\Noto_156.png" />
+    <EmbeddedResource Include="Fonts\Noto_157.png" />
+    <EmbeddedResource Include="Fonts\Noto_158.png" />
+    <EmbeddedResource Include="Fonts\Noto_159.png" />
+    <EmbeddedResource Include="Fonts\Noto_160.png" />
+    <EmbeddedResource Include="Fonts\Noto_161.png" />
+    <EmbeddedResource Include="Fonts\Noto_162.png" />
+    <EmbeddedResource Include="Fonts\Noto_163.png" />
+    <EmbeddedResource Include="Fonts\Noto_164.png" />
+    <EmbeddedResource Include="Fonts\Noto_165.png" />
+    <EmbeddedResource Include="Fonts\Noto_166.png" />
+    <EmbeddedResource Include="Fonts\Noto_167.png" />
+    <EmbeddedResource Include="Fonts\Noto_168.png" />
+    <EmbeddedResource Include="Fonts\Noto_169.png" />
+    <EmbeddedResource Include="Fonts\Noto_170.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\Gameplay\drum-hitclap.wav" />
@@ -236,8 +393,14 @@
     <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer.png" />
     <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\Noto.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Menu\dev-build-footer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
