@@ -382,10 +382,6 @@
     <EmbeddedResource Include="Samples\Gameplay\soft-sliderwhistle.wav" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-hitcircle-overlay%402x.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-hitcircle-overlay.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum%402x.png" />
     <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner%402x.png" />
     <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner.png" />
@@ -398,6 +394,20 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Textures\Menu\dev-build-footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Taiko\disc.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\ring-glow.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\ring-overlay.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Taiko\don-inner-ring-overlay.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\don-inner-ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Play\Taiko\katsu-inner-ring-overlay.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\katsu-inner-ring.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
