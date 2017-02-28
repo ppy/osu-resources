@@ -402,12 +402,13 @@
     <EmbeddedResource Include="Textures\Play\Taiko\ring.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\Taiko\don-inner-ring-overlay.png" />
     <EmbeddedResource Include="Textures\Play\Taiko\don-inner-ring.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\Taiko\katsu-inner-ring-overlay.png" />
     <EmbeddedResource Include="Textures\Play\Taiko\katsu-inner-ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Textures\Play\Taiko\spinner-inner-ring.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
