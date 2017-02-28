@@ -382,14 +382,6 @@
     <EmbeddedResource Include="Samples\Gameplay\soft-sliderwhistle.wav" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum%402x.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner%402x.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer%402x.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer.png" />
-    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Fonts\Noto.fnt" />
   </ItemGroup>
   <ItemGroup>
@@ -409,6 +401,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Textures\Play\Taiko\spinner-inner-ring.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-inner-hit.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer-hit.png" />
+    <EmbeddedResource Include="Textures\Play\Taiko\taiko-drum-outer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
