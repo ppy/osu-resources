@@ -601,20 +601,20 @@
     <EmbeddedResource Include="Textures\Drawings\visualiser-line.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\A.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\B.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\C.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\F.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\S.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\SPlus.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\SS.png" />
-    <EmbeddedResource Include="Textures\Badges\ScoreRanks\SSPlus.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Textures\Cursor\menu-cursor.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Textures\Cursor\menu-cursor-additive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Grades\A.png" />
+    <EmbeddedResource Include="Textures\Grades\B.png" />
+    <EmbeddedResource Include="Textures\Grades\C.png" />
+    <EmbeddedResource Include="Textures\Grades\F.png" />
+    <EmbeddedResource Include="Textures\Grades\SPlus.png" />
+    <EmbeddedResource Include="Textures\Grades\SS.png" />
+    <EmbeddedResource Include="Textures\Grades\SSPlus.png" />
+    <EmbeddedResource Include="Textures\Grades\S.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
