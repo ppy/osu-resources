@@ -93,9 +93,6 @@
     <EmbeddedResource Include="Textures\Menu\background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Tracks\circles.mp3" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Textures\Backgrounds\bg3.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -630,6 +627,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Fonts\Venera-Light_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tracks\circles.osz" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
