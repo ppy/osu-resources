@@ -664,6 +664,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Samples\SongSelect\confirm-selection.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-1.wav" />
+    <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-2.wav" />
+    <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-3.wav" />
+    <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-4.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
