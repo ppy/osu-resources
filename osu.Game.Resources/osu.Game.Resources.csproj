@@ -39,6 +39,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Samples\UI\check-off.wav" />
+    <EmbeddedResource Include="Samples\UI\check-on.wav" />
+    <EmbeddedResource Include="Samples\UI\generic-select.wav" />
+    <EmbeddedResource Include="Samples\UI\generic-hover.wav" />
+    <EmbeddedResource Include="Samples\UI\sliderbar-notch.wav" />
     <EmbeddedResource Include="Textures\Menu\logo.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-glow.png" />
     <EmbeddedResource Include="Textures\KeyCounter\key-hit.png" />
@@ -157,9 +162,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Samples\SongSelect\select-difficulty.mp3" />
     <EmbeddedResource Include="Samples\SongSelect\select-expand.mp3" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Samples\Menu\heartbeat.mp3" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Samples\Gameplay\drum-hitclap.wav" />
@@ -622,34 +624,9 @@
     <EmbeddedResource Include="Textures\Profile\levelbadge.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Samples\UI\check-off.wav" />
-    <EmbeddedResource Include="Samples\UI\check-on.wav" />
-    <EmbeddedResource Include="Samples\UI\sliderbar-notch.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Samples\UI\generic-hover.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Samples\UI\generic-click.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Samples\UI\melodic-1.wav" />
-    <EmbeddedResource Include="Samples\UI\melodic-2.wav" />
-    <EmbeddedResource Include="Samples\UI\melodic-3.wav" />
-    <EmbeddedResource Include="Samples\UI\melodic-4.wav" />
-    <EmbeddedResource Include="Samples\UI\melodic-5.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Samples\Gameplay\restart.wav" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Samples\Menu\select-1.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-2.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-3.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-4.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-5.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-6.wav" />
-    <EmbeddedResource Include="Samples\Menu\select-7.wav" />
     <EmbeddedResource Include="Textures\Menu\menu-background-1.jpg" />
     <EmbeddedResource Include="Textures\Menu\menu-background-2.jpg" />
     <EmbeddedResource Include="Textures\Menu\menu-background-3.jpg" />
@@ -660,6 +637,21 @@
     <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-fail.png" />
     <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-idle.png" />
     <EmbeddedResource Include="Textures\Play\Catch\fruit-catcher-kiai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\UI\overlay-pop-in.wav" />
+    <EmbeddedResource Include="Samples\UI\overlay-pop-out.wav" />
+    <EmbeddedResource Include="Samples\UI\screen-back.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Menu\button-back-select.wav" />
+    <EmbeddedResource Include="Samples\Menu\button-direct-select.wav" />
+    <EmbeddedResource Include="Samples\Menu\button-generic-select.wav" />
+    <EmbeddedResource Include="Samples\Menu\button-hover.wav" />
+    <EmbeddedResource Include="Samples\Menu\button-play-select.wav" />
+    <EmbeddedResource Include="Samples\Menu\button-solo-select.wav" />
+    <EmbeddedResource Include="Samples\Menu\osu-logo-heartbeat.mp3" />
+    <EmbeddedResource Include="Samples\Menu\osu-logo-select.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
