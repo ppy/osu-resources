@@ -657,6 +657,13 @@
     <EmbeddedResource Include="Samples\UI\generic-hover-soft.wav" />
     <EmbeddedResource Include="Samples\UI\generic-hover-softer.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\UI\generic-select-soft.wav" />
+    <EmbeddedResource Include="Samples\UI\generic-select-softer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\SongSelect\confirm-selection.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
