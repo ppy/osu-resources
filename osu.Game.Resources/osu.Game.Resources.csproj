@@ -670,6 +670,16 @@
     <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-3.wav" />
     <EmbeddedResource Include="Samples\SongSelect\song-ping-variation-4.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\normal-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\normal-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\normal-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\normal-hitwhistle.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\soft-hitclap.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\soft-hitfinish.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\soft-hitnormal.wav" />
+    <EmbeddedResource Include="Samples\Gameplay\Taiko\soft-hitwhistle.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
