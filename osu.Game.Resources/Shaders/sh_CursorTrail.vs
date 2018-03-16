@@ -16,16 +16,16 @@ uniform float g_FadeClock;
 
 void main(void)
 {
-	// Transform to position to masking space.
-	vec3 maskingPos = g_ToMaskingSpace * vec3(m_Position, 1.0);
-	v_MaskingPosition = maskingPos.xy / maskingPos.z;
+    // Transform to position to masking space.
+    vec3 maskingPos = g_ToMaskingSpace * vec3(m_Position, 1.0);
+    v_MaskingPosition = maskingPos.xy / maskingPos.z;
 
-	// Transform to position to masking space.
-	vec3 drawingPos = g_ToDrawingSpace * vec3(m_Position, 1.0);
-	v_DrawingPosition = drawingPos.xy / drawingPos.z;
+    // Transform to position to masking space.
+    vec3 drawingPos = g_ToDrawingSpace * vec3(m_Position, 1.0);
+    v_DrawingPosition = drawingPos.xy / drawingPos.z;
 
     v_Colour = vec4(m_Colour.rgb, m_Colour.a * pow(clamp(m_Time - g_FadeClock, 0.0, 1.0), 1.7));
      
-	v_TexCoord = m_TexCoord;
-	gl_Position = g_ProjMatrix * vec4(m_Position, 1.0, 1.0);
+    v_TexCoord = m_TexCoord;
+    gl_Position = g_ProjMatrix * vec4(m_Position, 1.0, 1.0);
 }
