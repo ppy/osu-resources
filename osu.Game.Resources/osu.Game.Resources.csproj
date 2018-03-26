@@ -7,6 +7,11 @@
     <Copyright>ppy Pty Ltd 2007-2017</Copyright>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="**\*.*" />
+    <EmbeddedResource Include="Beatmaps\**\*" />
+    <EmbeddedResource Include="Fonts\**\*" />
+    <EmbeddedResource Include="Samples\**\*" />
+    <EmbeddedResource Include="Shaders\**\*" />
+    <EmbeddedResource Include="Textures\**\*" />
+    <EmbeddedResource Include="Tracks\**\*" />
   </ItemGroup>
 </Project>
