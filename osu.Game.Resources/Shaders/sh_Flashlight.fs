@@ -3,6 +3,7 @@
 #endif
 
 varying vec2 v_Position;
+varying vec4 v_Colour;
 
 uniform vec2 mousePos;
 uniform float flashlightSize;
@@ -17,5 +18,5 @@ void main(void)
 
     float smoothnessRange = flashlightSize * smoothness;
 
-    gl_FragColor = vec4(0.0, 0.0, 0.0, smoothstep(flashlightSize, flashlightSize + smoothnessRange, dist));
+    gl_FragColor = v_Colour * vec4(1.0, 1.0, 1.0, smoothstep(flashlightSize, flashlightSize + smoothnessRange, dist));
 }
