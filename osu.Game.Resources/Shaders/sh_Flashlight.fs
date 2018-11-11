@@ -5,18 +5,30 @@
 varying vec2 v_Position;
 varying vec4 v_Colour;
 
-uniform vec2 mousePos;
-uniform float flashlightSize;
+uniform bool rectangular;
+uniform vec2 flashlightPos;
+uniform float circularFlashlightSize;
+uniform vec2 rectangularFlashlightSize;
 
-const float smoothness = 0.1;
+const float smoothness = 1.1;
 
 void main(void)
 {
-    vec2 diff = mousePos - v_Position;
+    if(rectangular)
+    {
+        vec2 diff = abs(v_Position - flashlightPos);
 
-    float dist = sqrt(diff.x * diff.x + diff.y * diff.y);
+        float alpha = 1.0 - smoothstep(rectangularFlashlightSize.x, rectangularFlashlightSize.x * smoothness, diff.x);
+        alpha *= 1.0 - smoothstep(rectangularFlashlightSize.y, rectangularFlashlightSize.y * smoothness, diff.y);
 
-    float smoothnessRange = flashlightSize * smoothness;
+        gl_FragColor  = v_Colour * vec4(1.0, 1.0, 1.0, 1.0 - alpha);
+    }
+    else
+    {
+        vec2 diff = flashlightPos - v_Position;
 
-    gl_FragColor = v_Colour * vec4(1.0, 1.0, 1.0, smoothstep(flashlightSize, flashlightSize + smoothnessRange, dist));
+        float dist = sqrt(diff.x * diff.x + diff.y * diff.y);
+
+        gl_FragColor = v_Colour * vec4(1.0, 1.0, 1.0, smoothstep(circularFlashlightSize, circularFlashlightSize * smoothness, dist));
+    }
 }
