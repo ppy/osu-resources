@@ -6,5 +6,5 @@ vec4 getColourAt(vec2 diff, vec2 size, vec4 originalColour)
 
     float alpha = length(smoothstep(size, size * smoothness, diff));
 
-    return vec4(originalColour.xyz, alpha);
+    return originalColour * vec4(1.0, 1.0, 1.0, alpha);
 }
