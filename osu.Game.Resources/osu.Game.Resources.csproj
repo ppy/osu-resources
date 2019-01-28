@@ -1,10 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Title>osu!ui</Title>
-    <Product>osu!ui</Product>
+    <Title>osu!resources</Title>
+    <Product>osu!resources</Product>
     <Company>ppy Pty Ltd</Company>
-    <Copyright>ppy Pty Ltd 2007-2017</Copyright>
+  </PropertyGroup>
+  <PropertyGroup Label="Nuget">
+    <Title>osu!resources</Title>
+    <PackageId>ppy.osu.Game.Resources</PackageId>
+    <Authors>ppy Pty Ltd</Authors>
+    <PackageLicenseUrl>https://github.com/ppy/osu-resources/blob/master/LICENCE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ppy/osu-resources</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ppy/osu-resources</RepositoryUrl>
+    <PackageReleaseNotes>Automated release.</PackageReleaseNotes>
+    <copyright>Copyright (c) 2019 ppy Pty Ltd</copyright>
+    <PackageTags>osu game resources</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Beatmaps\**\*" />
