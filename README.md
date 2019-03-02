@@ -1,4 +1,4 @@
-# osu! resources
+# osu!resources
 
 [![Build status](https://ci.appveyor.com/api/projects/status/github/ppy/osu?svg=true)](https://ci.appveyor.com/project/peppy/osu-resources) [![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/ppy)
 
