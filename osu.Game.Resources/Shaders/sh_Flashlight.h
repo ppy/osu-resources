@@ -1,5 +1,8 @@
 ﻿#ifdef GL_ES
     precision mediump float;
+#else
+    #define lowp
+    #define highp
 #endif
 
 varying vec2 v_Position;
