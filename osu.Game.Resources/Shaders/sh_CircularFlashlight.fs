@@ -1,7 +1,7 @@
 ﻿#include "sh_Flashlight.h"
 
-// highp diff prevents loss in precision when calculating smoothing distance on GL_ES platforms
-vec4 getColourAt(highp vec2 diff, vec2 size, vec4 originalColour)
+// highp precision is necessary for vertex positions to prevent catastrophic failure on GL_ES platforms
+vec4 getColourAt(highp vec2 diff, highp vec2 size, lowp vec4 originalColour)
 {
     float dist = length(diff);
     float flashlightRadius = length(size);
