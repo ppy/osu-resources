@@ -1,18 +1,8 @@
-﻿#ifdef GL_ES
-    precision mediump float;
-    // Not all GPUs support high precision, so we should fall back to medium precision.
-    #ifndef GL_FRAGMENT_PRECISION_HIGH
-        #define highp
-    #endif
-#else
-    // Since glsl 1.1 doesn't define precision qualifiers but GL_ES does, 
-    // Define them as nothing to avoid compilation issues.
+﻿#ifndef GL_ES
     #define lowp
+    #define mediump
     #define highp
 #endif
-
-
-
 
 varying highp vec2 v_Position;
 varying lowp vec4 v_Colour;
