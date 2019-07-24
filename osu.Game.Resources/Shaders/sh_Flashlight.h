@@ -1,9 +1,3 @@
-﻿#ifndef GL_ES
-    #define lowp
-    #define mediump
-    #define highp
-#endif
-
 varying highp vec2 v_Position;
 varying lowp vec4 v_Colour;
 
