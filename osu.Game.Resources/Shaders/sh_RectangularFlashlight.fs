@@ -1,6 +1,6 @@
 ﻿#include "sh_Flashlight.h"
 
-vec4 getColourAt(highp vec2 diff, highp vec2 size, lowp vec4 originalColour)
+lowp vec4 getColourAt(highp vec2 diff, highp vec2 size, lowp vec4 originalColour)
 {
     diff = abs(diff);
 
