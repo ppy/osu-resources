@@ -6,9 +6,9 @@ uniform highp vec2 flashlightSize;
 
 uniform lowp float flashlightDim;
 
-const float smoothness = 1.1;
+const mediump float smoothness = 1.1;
 
-lowp vec4 getColourAt(vec2, vec2, vec4);
+lowp vec4 getColourAt(highp vec2, highp vec2, lowp vec4);
 
 void main(void)
 {
