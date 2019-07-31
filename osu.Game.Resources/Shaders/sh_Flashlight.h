@@ -1,18 +1,14 @@
-﻿#ifdef GL_ES
-    precision mediump float;
-#endif
+varying highp vec2 v_Position;
+varying lowp vec4 v_Colour;
 
-varying vec2 v_Position;
-varying vec4 v_Colour;
+uniform highp vec2 flashlightPos;
+uniform highp vec2 flashlightSize;
 
-uniform vec2 flashlightPos;
-uniform vec2 flashlightSize;
-
-uniform float flashlightDim;
+uniform lowp float flashlightDim;
 
 const float smoothness = 1.1;
 
-vec4 getColourAt(vec2, vec2, vec4);
+lowp vec4 getColourAt(vec2, vec2, vec4);
 
 void main(void)
 {
