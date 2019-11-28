@@ -2,8 +2,8 @@ using System.Reflection;
 
 namespace osu.Game.Resources
 {
-    public static class ResourceAssembly
+    public static class OsuResources
     {
-        public static Assembly Assembly => typeof(ResourceAssembly).Assembly;
+        public static Assembly ResourceAssembly => typeof(OsuResources).Assembly;
     }
 }
