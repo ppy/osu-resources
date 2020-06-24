@@ -22,5 +22,5 @@ void main(void)
 
     vec3 hsv = rgb2hsv(colour.rgb);
 
-    gl_FragColor = hsv.x < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a) : vec4(0);
+    gl_FragColor = hsv.x < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a * hsv.z) : vec4(0);
 }
