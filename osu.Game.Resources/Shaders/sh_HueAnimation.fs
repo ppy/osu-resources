@@ -1,3 +1,5 @@
+#include "sh_Utils.h"
+
 varying mediump vec2 v_TexCoord;
 varying lowp vec4 v_Colour;
 
@@ -18,9 +20,9 @@ vec3 rgb2hsv(vec3 c)
 
 void main(void) 
 {
-    vec4 colour = texture2D(m_Sampler, v_TexCoord, -0.9);
+    vec4 colour = toSRGB(texture2D(m_Sampler, v_TexCoord, -0.9));
 
     vec3 hsv = rgb2hsv(colour.rgb);
 
-    gl_FragColor = hsv.x < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a * hsv.z) : vec4(0);
+    gl_FragColor = hsv.x < progress ? toSRGB(vec4(v_Colour.rgb, v_Colour.a * colour.a * hsv.z)) : vec4(0);
 }
