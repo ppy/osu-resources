@@ -22,7 +22,9 @@ void main(void)
 {
     vec4 colour = toSRGB(texture2D(m_Sampler, v_TexCoord, -0.9));
 
-    vec3 hsv = rgb2hsv(colour.rgb);
+    /*vec3 hsv = rgb2hsv(colour.rgb);
 
-    gl_FragColor = hsv.x < progress ? toSRGB(vec4(v_Colour.rgb, v_Colour.a * colour.a * hsv.z)) : vec4(0);
+    gl_FragColor = hsv.x < progress ? toSRGB(vec4(v_Colour.rgb, v_Colour.a * colour.a * hsv.z)) : vec4(0);*/
+    
+    gl_FragColor = colour.r < progress ? toSRGB(vec4(v_Colour.rgb, v_Colour.a * colour.a)) : vec4(0);
 }
