@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Title>osu!resources</Title>
     <Product>osu!resources</Product>
     <Company>ppy Pty Ltd</Company>
@@ -24,5 +24,11 @@
     <EmbeddedResource Include="Shaders\**\*" />
     <EmbeddedResource Include="Textures\**\*" />
     <EmbeddedResource Include="Tracks\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Resolves references to LocalisableString. -->
+    <PackageReference Include="ppy.osu.Framework" Version="2021.611.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>
