@@ -12,22 +12,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Invalid {0} specified."
         /// </summary>
-        public static LocalisableString Invalid(string attribute) => new TranslatableString(getKey(@"invalid"), @"Invalid {0} specified.", attribute);
+        public static LocalisableString Invalid(LocalisableString attribute) => new TranslatableString(getKey(@"invalid"), @"Invalid {0} specified.", attribute);
 
         /// <summary>
         /// "{0} cannot be negative."
         /// </summary>
-        public static LocalisableString NotNegative(string attribute) => new TranslatableString(getKey(@"not_negative"), @"{0} cannot be negative.", attribute);
+        public static LocalisableString NotNegative(LocalisableString attribute) => new TranslatableString(getKey(@"not_negative"), @"{0} cannot be negative.", attribute);
 
         /// <summary>
         /// "{0} is required."
         /// </summary>
-        public static LocalisableString Required(string attribute) => new TranslatableString(getKey(@"required"), @"{0} is required.", attribute);
+        public static LocalisableString Required(LocalisableString attribute) => new TranslatableString(getKey(@"required"), @"{0} is required.", attribute);
 
         /// <summary>
         /// "{0} exceeded maximum length - can only be up to {1} characters."
         /// </summary>
-        public static LocalisableString TooLong(string attribute, string limit) => new TranslatableString(getKey(@"too_long"), @"{0} exceeded maximum length - can only be up to {1} characters.", attribute, limit);
+        public static LocalisableString TooLong(LocalisableString attribute, LocalisableString limit) => new TranslatableString(getKey(@"too_long"), @"{0} exceeded maximum length - can only be up to {1} characters.", attribute, limit);
 
         /// <summary>
         /// "Confirmation does not match."
@@ -147,7 +147,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Invalid {0} specified."
         /// </summary>
-        public static LocalisableString FollowInvalid(string attribute) => new TranslatableString(getKey(@"follow.invalid"), @"Invalid {0} specified.", attribute);
+        public static LocalisableString FollowInvalid(LocalisableString attribute) => new TranslatableString(getKey(@"follow.invalid"), @"Invalid {0} specified.", attribute);
 
         /// <summary>
         /// "Can only vote a feature request."
@@ -207,7 +207,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Can&#39;t edit a poll after more than {0} hours."
         /// </summary>
-        public static LocalisableString ForumTopicPollGracePeriodExpired(string limit) => new TranslatableString(getKey(@"forum.topic_poll.grace_period_expired"), @"Can't edit a poll after more than {0} hours.", limit);
+        public static LocalisableString ForumTopicPollGracePeriodExpired(LocalisableString limit) => new TranslatableString(getKey(@"forum.topic_poll.grace_period_expired"), @"Can't edit a poll after more than {0} hours.", limit);
 
         /// <summary>
         /// "Can&#39;t hide results of a poll that never ends."
@@ -317,7 +317,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This username will be available for use in {0}."
         /// </summary>
-        public static LocalisableString UserUsernameAvailableIn(string duration) => new TranslatableString(getKey(@"user.username_available_in"), @"This username will be available for use in {0}.", duration);
+        public static LocalisableString UserUsernameAvailableIn(LocalisableString duration) => new TranslatableString(getKey(@"user.username_available_in"), @"This username will be available for use in {0}.", duration);
 
         /// <summary>
         /// "This username will be available for use any minute now!"
@@ -387,7 +387,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Exceeded maximum length - can only be up to {0} characters."
         /// </summary>
-        public static LocalisableString UserTooLong(string limit) => new TranslatableString(getKey(@"user.too_long"), @"Exceeded maximum length - can only be up to {0} characters.", limit);
+        public static LocalisableString UserTooLong(LocalisableString limit) => new TranslatableString(getKey(@"user.too_long"), @"Exceeded maximum length - can only be up to {0} characters.", limit);
 
         /// <summary>
         /// "Username"
@@ -412,7 +412,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You must have {0} to change your name!"
         /// </summary>
-        public static LocalisableString UserChangeUsernameSupporterRequiredDefault(string link) => new TranslatableString(getKey(@"user.change_username.supporter_required._"), @"You must have {0} to change your name!", link);
+        public static LocalisableString UserChangeUsernameSupporterRequiredDefault(LocalisableString link) => new TranslatableString(getKey(@"user.change_username.supporter_required._"), @"You must have {0} to change your name!", link);
 
         /// <summary>
         /// "supported osu!"
@@ -427,7 +427,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} is not valid for this report type."
         /// </summary>
-        public static LocalisableString UserReportReasonNotValid(string reason) => new TranslatableString(getKey(@"user_report.reason_not_valid"), @"{0} is not valid for this report type.", reason);
+        public static LocalisableString UserReportReasonNotValid(LocalisableString reason) => new TranslatableString(getKey(@"user_report.reason_not_valid"), @"{0} is not valid for this report type.", reason);
 
         /// <summary>
         /// "You can&#39;t report yourself!"

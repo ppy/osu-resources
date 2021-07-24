@@ -58,14 +58,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="audio.autoplay" xml:space="preserve">
+    <value>Прайграйце наступны трэк аўтаматычна</value>
+  </data>
   <data name="defaults.page_description" xml:space="preserve">
     <value>osu! - Рытм у адным *націсканні* ад вас! Гульня з Ouendan/EBA, Taiko і арыгінальнымі гульнявымі рэжымамі, а таксама з поўным вартасным рэдактарам бітмап.</value>
+  </data>
+  <data name="header.admin.beatmapset" xml:space="preserve">
+    <value>калекцыя бітмапаў</value>
+  </data>
+  <data name="header.admin.beatmapset_covers" xml:space="preserve">
+    <value>вокладкі калекцый бітмапаў</value>
+  </data>
+  <data name="header.admin.contest" xml:space="preserve">
+    <value>конкурс</value>
+  </data>
+  <data name="header.admin.contests" xml:space="preserve">
+    <value>конкурсы</value>
+  </data>
+  <data name="header.admin.root" xml:space="preserve">
+    <value>кансоль</value>
+  </data>
+  <data name="header.admin.store_orders" xml:space="preserve">
+    <value>адміністратар крамы</value>
+  </data>
+  <data name="header.artists.index" xml:space="preserve">
+    <value>спіс</value>
+  </data>
+  <data name="header.changelog.index" xml:space="preserve">
+    <value>спіс</value>
+  </data>
+  <data name="header.help.index" xml:space="preserve">
+    <value>індэкс</value>
+  </data>
+  <data name="header.help.sitemap" xml:space="preserve">
+    <value>Карта сайта</value>
+  </data>
+  <data name="header.store.cart" xml:space="preserve">
+    <value>кошык</value>
+  </data>
+  <data name="header.store.orders" xml:space="preserve">
+    <value>гісторыя замоў</value>
+  </data>
+  <data name="header.store.products" xml:space="preserve">
+    <value>прадукты</value>
+  </data>
+  <data name="header.tournaments.index" xml:space="preserve">
+    <value>спіс</value>
+  </data>
+  <data name="header.users.modding" xml:space="preserve">
+    <value>модынг</value>
+  </data>
+  <data name="header.users.show" xml:space="preserve">
+    <value>інфармацыя</value>
+  </data>
+  <data name="gallery.close" xml:space="preserve">
+    <value>Зачыніць (Esc)</value>
+  </data>
+  <data name="gallery.fullscreen" xml:space="preserve">
+    <value>Пераключыць поўнаэкранны рэжым</value>
+  </data>
+  <data name="gallery.zoom" xml:space="preserve">
+    <value>Павялічыць / паменшыць</value>
+  </data>
+  <data name="gallery.previous" xml:space="preserve">
+    <value>Папярэдні (стрэлка налева)</value>
+  </data>
+  <data name="gallery.next" xml:space="preserve">
+    <value>Наступны (стрэлка направа)</value>
   </data>
   <data name="menu.beatmaps._" xml:space="preserve">
     <value>бітмапы</value>
   </data>
   <data name="menu.beatmaps.artists" xml:space="preserve">
-    <value>featured artists</value>
+    <value>ліцэнзаваныя мастакі</value>
   </data>
   <data name="menu.beatmaps.index" xml:space="preserve">
     <value>спіс</value>
@@ -96,6 +162,9 @@
   </data>
   <data name="menu.help._" xml:space="preserve">
     <value>дапамога</value>
+  </data>
+  <data name="menu.help.getabuse" xml:space="preserve">
+    <value>паведаміць пра парушэнне</value>
   </data>
   <data name="menu.help.getfaq" xml:space="preserve">
     <value>faq</value>
@@ -142,6 +211,9 @@
   <data name="menu.rankings.kudosu" xml:space="preserve">
     <value>кудосу</value>
   </data>
+  <data name="menu.rankings.multiplayer" xml:space="preserve">
+    <value>мультыплэер</value>
+  </data>
   <data name="menu.rankings.score" xml:space="preserve">
     <value>па ачках</value>
   </data>
@@ -187,6 +259,9 @@
   <data name="footer.help.report" xml:space="preserve">
     <value>Паведаміць пра праблему</value>
   </data>
+  <data name="footer.help.wiki" xml:space="preserve">
+    <value>Вікі</value>
+  </data>
   <data name="footer.legal._" xml:space="preserve">
     <value>Правы і статус</value>
   </data>
@@ -204,6 +279,9 @@
   </data>
   <data name="footer.legal.terms" xml:space="preserve">
     <value>Умовы выкарыстання</value>
+  </data>
+  <data name="errors.400.error" xml:space="preserve">
+    <value>Няправільны параметр запыту</value>
   </data>
   <data name="errors.404.error" xml:space="preserve">
     <value>Старонка не знойдзена</value>
@@ -229,6 +307,12 @@
   <data name="errors.405.description" xml:space="preserve">
     <value>Прабачце, але старонкі, якую вы запыталі няма тут!</value>
   </data>
+  <data name="errors.422.error" xml:space="preserve">
+    <value>Няправільны параметр запыту</value>
+  </data>
+  <data name="errors.429.error" xml:space="preserve">
+    <value>Перавышаны ліміт запытаў</value>
+  </data>
   <data name="errors.500.error" xml:space="preserve">
     <value>Як жа так! Нешта зламалася! ;_;</value>
   </data>
@@ -250,6 +334,9 @@
   <data name="errors.reference" xml:space="preserve">
     <value>На ўсялякі выпадак, вось код, які вы можаце паведаміць падтрымке!</value>
   </data>
+  <data name="popup_login.button" xml:space="preserve">
+    <value>увайсці / зарэгістравацца</value>
+  </data>
   <data name="popup_login.login.forgot" xml:space="preserve">
     <value>Не помню свае даныя</value>
   </data>
@@ -259,11 +346,17 @@
   <data name="popup_login.login.title" xml:space="preserve">
     <value>Увайдзіце, каб працягнуць</value>
   </data>
+  <data name="popup_login.login.username" xml:space="preserve">
+    <value>імя карыстальніка</value>
+  </data>
   <data name="popup_login.login.error.email" xml:space="preserve">
     <value>Імя карыстальніка або эл. пошта не існуе</value>
   </data>
   <data name="popup_login.login.error.password" xml:space="preserve">
     <value>Няправільны пароль</value>
+  </data>
+  <data name="popup_login.register.download" xml:space="preserve">
+    <value>Спампаваць</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
     <value>Спадар, вам патрэбны ўліковы запіс. Чаму вы ўсё яшчэ не маеце яго?</value>
@@ -273,6 +366,9 @@
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Налады</value>
+  </data>
+  <data name="popup_user.links.follows" xml:space="preserve">
+    <value>Спіс праглядаў</value>
   </data>
   <data name="popup_user.links.friends" xml:space="preserve">
     <value>Сябры</value>

@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         /// <summary>
         /// "notification_type is not valid {0}"
         /// </summary>
-        public static LocalisableString NotificationType(string type) => new TranslatableString(getKey(@"notification_type"), @"notification_type is not valid {0}", type);
+        public static LocalisableString NotificationType(LocalisableString type) => new TranslatableString(getKey(@"notification_type"), @"notification_type is not valid {0}", type);
 
         /// <summary>
         /// "Order is not valid"
@@ -27,37 +27,37 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         /// <summary>
         /// "`{0}` payment is not valid for physical items."
         /// </summary>
-        public static LocalisableString OrderItemsVirtualOnly(string provider) => new TranslatableString(getKey(@"order.items.virtual_only"), @"`{0}` payment is not valid for physical items.", provider);
+        public static LocalisableString OrderItemsVirtualOnly(LocalisableString provider) => new TranslatableString(getKey(@"order.items.virtual_only"), @"`{0}` payment is not valid for physical items.", provider);
 
         /// <summary>
         /// "Trying to accept payment for an order in the wrong state `{0}`."
         /// </summary>
-        public static LocalisableString OrderStatusNotCheckout(string state) => new TranslatableString(getKey(@"order.status.not_checkout"), @"Trying to accept payment for an order in the wrong state `{0}`.", state);
+        public static LocalisableString OrderStatusNotCheckout(LocalisableString state) => new TranslatableString(getKey(@"order.status.not_checkout"), @"Trying to accept payment for an order in the wrong state `{0}`.", state);
 
         /// <summary>
         /// "Trying to refund payment for an order in the wrong state `{0}`."
         /// </summary>
-        public static LocalisableString OrderStatusNotPaid(string state) => new TranslatableString(getKey(@"order.status.not_paid"), @"Trying to refund payment for an order in the wrong state `{0}`.", state);
+        public static LocalisableString OrderStatusNotPaid(LocalisableString state) => new TranslatableString(getKey(@"order.status.not_paid"), @"Trying to refund payment for an order in the wrong state `{0}`.", state);
 
         /// <summary>
         /// "`{0}` param does not match"
         /// </summary>
-        public static LocalisableString ParamInvalid(string param) => new TranslatableString(getKey(@"param.invalid"), @"`{0}` param does not match", param);
+        public static LocalisableString ParamInvalid(LocalisableString param) => new TranslatableString(getKey(@"param.invalid"), @"`{0}` param does not match", param);
 
         /// <summary>
         /// "Pending payment is not an echeck. ({0})"
         /// </summary>
-        public static LocalisableString PaypalNotEcheck(string actual) => new TranslatableString(getKey(@"paypal.not_echeck"), @"Pending payment is not an echeck. ({0})", actual);
+        public static LocalisableString PaypalNotEcheck(LocalisableString actual) => new TranslatableString(getKey(@"paypal.not_echeck"), @"Pending payment is not an echeck. ({0})", actual);
 
         /// <summary>
         /// "Payment amount does not match: {0} != {1}"
         /// </summary>
-        public static LocalisableString PurchaseCheckoutAmount(string actual, string expected) => new TranslatableString(getKey(@"purchase.checkout.amount"), @"Payment amount does not match: {0} != {1}", actual, expected);
+        public static LocalisableString PurchaseCheckoutAmount(LocalisableString actual, LocalisableString expected) => new TranslatableString(getKey(@"purchase.checkout.amount"), @"Payment amount does not match: {0} != {1}", actual, expected);
 
         /// <summary>
         /// "Payment is not in USD. ({0})"
         /// </summary>
-        public static LocalisableString PurchaseCheckoutCurrency(string type) => new TranslatableString(getKey(@"purchase.checkout.currency"), @"Payment is not in USD. ({0})", type);
+        public static LocalisableString PurchaseCheckoutCurrency(LocalisableString type) => new TranslatableString(getKey(@"purchase.checkout.currency"), @"Payment is not in USD. ({0})", type);
 
         /// <summary>
         /// "Received order transaction id is malformed"

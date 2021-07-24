@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Delete {0}"
         /// </summary>
-        public static LocalisableString Delete(string type) => new TranslatableString(getKey(@"delete"), @"Delete {0}", type);
+        public static LocalisableString Delete(LocalisableString type) => new TranslatableString(getKey(@"delete"), @"Delete {0}", type);
 
         /// <summary>
         /// "Loading unread notifications..."
@@ -27,7 +27,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Clear {0}"
         /// </summary>
-        public static LocalisableString MarkRead(string type) => new TranslatableString(getKey(@"mark_read"), @"Clear {0}", type);
+        public static LocalisableString MarkRead(LocalisableString type) => new TranslatableString(getKey(@"mark_read"), @"Clear {0}", type);
 
         /// <summary>
         /// "No notifications"
@@ -97,12 +97,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You&#39;re now owner of difficulty &quot;{0}&quot; for beatmap &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(string beatmap, string title) => new TranslatableString(getKey(@"item.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now owner of difficulty ""{0}"" for beatmap ""{1}""", beatmap, title);
+        public static LocalisableString ItemBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(LocalisableString beatmap, LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now owner of difficulty ""{0}"" for beatmap ""{1}""", beatmap, title);
 
         /// <summary>
         /// "You&#39;re now owner of difficulty &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapOwnerChangeBeatmapOwnerChangeCompact(string beatmap) => new TranslatableString(getKey(@"item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact"), @"You're now owner of difficulty ""{0}""", beatmap);
+        public static LocalisableString ItemBeatmapsetBeatmapOwnerChangeBeatmapOwnerChangeCompact(LocalisableString beatmap) => new TranslatableString(getKey(@"item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact"), @"You're now owner of difficulty ""{0}""", beatmap);
 
         /// <summary>
         /// "Beatmap discussion"
@@ -112,7 +112,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Discussion on &quot;{0}&quot; has been locked"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionLock(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock"), @"Discussion on ""{0}"" has been locked", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionLock(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock"), @"Discussion on ""{0}"" has been locked", title);
 
         /// <summary>
         /// "Discussion was locked"
@@ -122,37 +122,37 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "New post on &quot;{0}&quot; by {1}: &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNew(string title, string username, string content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new"), @"New post on ""{0}"" by {1}: ""{2}""", title, username, content);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNew(LocalisableString title, LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new"), @"New post on ""{0}"" by {1}: ""{2}""", title, username, content);
 
         /// <summary>
         /// "New post on &quot;{0}&quot; by {1}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewEmpty(string title, string username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty"), @"New post on ""{0}"" by {1}", title, username);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewEmpty(LocalisableString title, LocalisableString username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty"), @"New post on ""{0}"" by {1}", title, username);
 
         /// <summary>
         /// "New post by {0}: &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewCompact(string username, string content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact"), @"New post by {0}: ""{1}""", username, content);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact"), @"New post by {0}: ""{1}""", username, content);
 
         /// <summary>
         /// "New post by {0}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewCompactEmpty(string username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty"), @"New post by {0}", username);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewCompactEmpty(LocalisableString username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty"), @"New post by {0}", username);
 
         /// <summary>
         /// "New review on &quot;{0}&quot; by {1} containing problems: {2}, suggestions: {3}, praises: {4}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNew(string title, string username, string problems, string suggestions, string praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new"), @"New review on ""{0}"" by {1} containing problems: {2}, suggestions: {3}, praises: {4}", title, username, problems, suggestions, praises);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNew(LocalisableString title, LocalisableString username, LocalisableString problems, LocalisableString suggestions, LocalisableString praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new"), @"New review on ""{0}"" by {1} containing problems: {2}, suggestions: {3}, praises: {4}", title, username, problems, suggestions, praises);
 
         /// <summary>
         /// "New review by {0} containing problems: {1}, suggestions: {2}, praises: {3}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNewCompact(string username, string problems, string suggestions, string praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact"), @"New review by {0} containing problems: {1}, suggestions: {2}, praises: {3}", username, problems, suggestions, praises);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNewCompact(LocalisableString username, LocalisableString problems, LocalisableString suggestions, LocalisableString praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact"), @"New review by {0} containing problems: {1}, suggestions: {2}, praises: {3}", username, problems, suggestions, praises);
 
         /// <summary>
         /// "Discussion on &quot;{0}&quot; has been unlocked"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionUnlock(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock"), @"Discussion on ""{0}"" has been unlocked", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionUnlock(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock"), @"Discussion on ""{0}"" has been unlocked", title);
 
         /// <summary>
         /// "Discussion was unlocked"
@@ -167,22 +167,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Reported by {0} on &quot;{1}&quot;: &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblem(string username, string title, string content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem"), @"Reported by {0} on ""{1}"": ""{2}""", username, title, content);
+        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblem(LocalisableString username, LocalisableString title, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem"), @"Reported by {0} on ""{1}"": ""{2}""", username, title, content);
 
         /// <summary>
         /// "Reported by {0} on &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemEmpty(string username, string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty"), @"Reported by {0} on ""{1}""", username, title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemEmpty(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty"), @"Reported by {0} on ""{1}""", username, title);
 
         /// <summary>
         /// "Reported by {0}: &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemCompact(string username, string content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact"), @"Reported by {0}: ""{1}""", username, content);
+        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact"), @"Reported by {0}: ""{1}""", username, content);
 
         /// <summary>
         /// "Reported by {0}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemCompactEmpty(string username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty"), @"Reported by {0}", username);
+        public static LocalisableString ItemBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblemCompactEmpty(LocalisableString username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty"), @"Reported by {0}", username);
 
         /// <summary>
         /// "Beatmap status changed"
@@ -192,7 +192,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; has been disqualified"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetDisqualify(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_disqualify"), @"""{0}"" has been disqualified", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetDisqualify(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_disqualify"), @"""{0}"" has been disqualified", title);
 
         /// <summary>
         /// "Beatmap was disqualified"
@@ -202,7 +202,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; was promoted to loved"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetLove(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_love"), @"""{0}"" was promoted to loved", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetLove(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_love"), @"""{0}"" was promoted to loved", title);
 
         /// <summary>
         /// "Beatmap was promoted to loved"
@@ -212,7 +212,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; has been nominated"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetNominate(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_nominate"), @"""{0}"" has been nominated", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetNominate(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_nominate"), @"""{0}"" has been nominated", title);
 
         /// <summary>
         /// "Beatmap was nominated"
@@ -222,7 +222,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; has gained enough nominations and entered the ranking queue"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetQualify(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_qualify"), @"""{0}"" has gained enough nominations and entered the ranking queue", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetQualify(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_qualify"), @"""{0}"" has gained enough nominations and entered the ranking queue", title);
 
         /// <summary>
         /// "Beatmap entered ranking queue"
@@ -232,7 +232,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; has been ranked"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetRank(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_rank"), @"""{0}"" has been ranked", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetRank(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_rank"), @"""{0}"" has been ranked", title);
 
         /// <summary>
         /// "Beatmap was ranked"
@@ -242,7 +242,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&quot;{0}&quot; was removed from Loved"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetRemoveFromLoved(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_remove_from_loved"), @"""{0}"" was removed from Loved", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetRemoveFromLoved(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_remove_from_loved"), @"""{0}"" was removed from Loved", title);
 
         /// <summary>
         /// "Beatmap was removed from Loved"
@@ -252,7 +252,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Nomination of &quot;{0}&quot; has been reset"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetResetNominations(string title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_reset_nominations"), @"Nomination of ""{0}"" has been reset", title);
+        public static LocalisableString ItemBeatmapsetBeatmapsetStateBeatmapsetResetNominations(LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_state.beatmapset_reset_nominations"), @"Nomination of ""{0}"" has been reset", title);
 
         /// <summary>
         /// "Nomination was reset"
@@ -267,22 +267,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} commented &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetCommentCommentNew(string username, string content, string title) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemBeatmapsetCommentCommentNew(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} commented &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetCommentCommentNewCompact(string username, string content) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
+        public static LocalisableString ItemBeatmapsetCommentCommentNewCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetCommentCommentReply(string username, string content, string title) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemBeatmapsetCommentCommentReply(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetCommentCommentReplyCompact(string username, string content) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
+        public static LocalisableString ItemBeatmapsetCommentCommentReplyCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.beatmapset.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
 
         /// <summary>
         /// "Chat"
@@ -297,17 +297,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} says &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemChannelChannelPmChannelMessage(string username, string title) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message"), @"{0} says ""{1}""", username, title);
+        public static LocalisableString ItemChannelChannelPmChannelMessage(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message"), @"{0} says ""{1}""", username, title);
 
         /// <summary>
         /// "{0}"
         /// </summary>
-        public static LocalisableString ItemChannelChannelPmChannelMessageCompact(string title) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_compact"), @"{0}", title);
+        public static LocalisableString ItemChannelChannelPmChannelMessageCompact(LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_compact"), @"{0}", title);
 
         /// <summary>
         /// "from {0}"
         /// </summary>
-        public static LocalisableString ItemChannelChannelPmChannelMessageGroup(string username) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_group"), @"from {0}", username);
+        public static LocalisableString ItemChannelChannelPmChannelMessageGroup(LocalisableString username) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_group"), @"from {0}", username);
 
         /// <summary>
         /// "Changelog"
@@ -322,22 +322,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} commented &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBuildCommentCommentNew(string username, string content, string title) => new TranslatableString(getKey(@"item.build.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemBuildCommentCommentNew(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.build.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} commented &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBuildCommentCommentNewCompact(string username, string content) => new TranslatableString(getKey(@"item.build.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
+        public static LocalisableString ItemBuildCommentCommentNewCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.build.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemBuildCommentCommentReply(string username, string content, string title) => new TranslatableString(getKey(@"item.build.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemBuildCommentCommentReply(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.build.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemBuildCommentCommentReplyCompact(string username, string content) => new TranslatableString(getKey(@"item.build.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
+        public static LocalisableString ItemBuildCommentCommentReplyCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.build.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
 
         /// <summary>
         /// "News"
@@ -352,22 +352,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} commented &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemNewsPostCommentCommentNew(string username, string content, string title) => new TranslatableString(getKey(@"item.news_post.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemNewsPostCommentCommentNew(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.news_post.comment.comment_new"), @"{0} commented ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} commented &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemNewsPostCommentCommentNewCompact(string username, string content) => new TranslatableString(getKey(@"item.news_post.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
+        public static LocalisableString ItemNewsPostCommentCommentNewCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.news_post.comment.comment_new_compact"), @"{0} commented ""{1}""", username, content);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot; on &quot;{2}&quot;"
         /// </summary>
-        public static LocalisableString ItemNewsPostCommentCommentReply(string username, string content, string title) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
+        public static LocalisableString ItemNewsPostCommentCommentReply(LocalisableString username, LocalisableString content, LocalisableString title) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply"), @"{0} replied ""{1}"" on ""{2}""", username, content, title);
 
         /// <summary>
         /// "{0} replied &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemNewsPostCommentCommentReplyCompact(string username, string content) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
+        public static LocalisableString ItemNewsPostCommentCommentReplyCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
 
         /// <summary>
         /// "Forum topic"
@@ -382,12 +382,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} replied to &quot;{1}&quot;"
         /// </summary>
-        public static LocalisableString ItemForumTopicForumTopicReplyForumTopicReply(string username, string title) => new TranslatableString(getKey(@"item.forum_topic.forum_topic_reply.forum_topic_reply"), @"{0} replied to ""{1}""", username, title);
+        public static LocalisableString ItemForumTopicForumTopicReplyForumTopicReply(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.forum_topic.forum_topic_reply.forum_topic_reply"), @"{0} replied to ""{1}""", username, title);
 
         /// <summary>
         /// "{0} replied"
         /// </summary>
-        public static LocalisableString ItemForumTopicForumTopicReplyForumTopicReplyCompact(string username) => new TranslatableString(getKey(@"item.forum_topic.forum_topic_reply.forum_topic_reply_compact"), @"{0} replied", username);
+        public static LocalisableString ItemForumTopicForumTopicReplyForumTopicReplyCompact(LocalisableString username) => new TranslatableString(getKey(@"item.forum_topic.forum_topic_reply.forum_topic_reply_compact"), @"{0} replied", username);
 
         /// <summary>
         /// "Legacy Forum PM"
@@ -402,7 +402,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} unread message|{0} unread messages"
         /// </summary>
-        public static LocalisableString ItemLegacyPmLegacyPmLegacyPm(string countDelimited) => new TranslatableString(getKey(@"item.legacy_pm.legacy_pm.legacy_pm"), @"{0} unread message|{0} unread messages", countDelimited);
+        public static LocalisableString ItemLegacyPmLegacyPmLegacyPm(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.legacy_pm.legacy_pm.legacy_pm"), @"{0} unread message|{0} unread messages", countDelimited);
 
         /// <summary>
         /// "New beatmap"
@@ -412,17 +412,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "New beatmap &quot;{0}&quot; by {1}"
         /// </summary>
-        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNew(string title, string username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new"), @"New beatmap ""{0}"" by {1}", title, username);
+        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNew(LocalisableString title, LocalisableString username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new"), @"New beatmap ""{0}"" by {1}", title, username);
 
         /// <summary>
         /// "New beatmap &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNewCompact(string title) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new_compact"), @"New beatmap ""{0}""", title);
+        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNewCompact(LocalisableString title) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new_compact"), @"New beatmap ""{0}""", title);
 
         /// <summary>
         /// "New beatmaps by {0}"
         /// </summary>
-        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNewGroup(string username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new_group"), @"New beatmaps by {0}", username);
+        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNewGroup(LocalisableString username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new_group"), @"New beatmaps by {0}", username);
 
         /// <summary>
         /// "Medals"
@@ -437,12 +437,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Unlocked &quot;{0}&quot;!"
         /// </summary>
-        public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlock(string title) => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock"), @"Unlocked ""{0}""!", title);
+        public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlock(LocalisableString title) => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock"), @"Unlocked ""{0}""!", title);
 
         /// <summary>
         /// "Unlocked &quot;{0}&quot;!"
         /// </summary>
-        public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlockCompact(string title) => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact"), @"Unlocked ""{0}""!", title);
+        public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlockCompact(LocalisableString title) => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact"), @"Unlocked ""{0}""!", title);
 
         /// <summary>
         /// "Medals unlocked!"
@@ -452,102 +452,102 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You&#39;re now guest of beatmap &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now guest of beatmap ""{0}""", title);
+        public static LocalisableString MailBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now guest of beatmap ""{0}""", title);
 
         /// <summary>
         /// "The discussion on &quot;{0}&quot; has been locked"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionLock(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock"), @"The discussion on ""{0}"" has been locked", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionLock(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock"), @"The discussion on ""{0}"" has been locked", title);
 
         /// <summary>
         /// "The discussion on &quot;{0}&quot; has new updates"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNew(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new"), @"The discussion on ""{0}"" has new updates", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNew(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new"), @"The discussion on ""{0}"" has new updates", title);
 
         /// <summary>
         /// "The discussion on &quot;{0}&quot; has been unlocked"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionUnlock(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock"), @"The discussion on ""{0}"" has been unlocked", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionUnlock(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock"), @"The discussion on ""{0}"" has been unlocked", title);
 
         /// <summary>
         /// "A new problem was reported on &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblem(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem"), @"A new problem was reported on ""{0}""", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetProblemBeatmapsetDiscussionQualifiedProblem(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem"), @"A new problem was reported on ""{0}""", title);
 
         /// <summary>
         /// "&quot;{0}&quot; has been disqualified"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetDisqualify(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_disqualify"), @"""{0}"" has been disqualified", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetDisqualify(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_disqualify"), @"""{0}"" has been disqualified", title);
 
         /// <summary>
         /// "&quot;{0}&quot; was promoted to loved"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetLove(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_love"), @"""{0}"" was promoted to loved", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetLove(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_love"), @"""{0}"" was promoted to loved", title);
 
         /// <summary>
         /// "&quot;{0}&quot; has been nominated"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetNominate(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_nominate"), @"""{0}"" has been nominated", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetNominate(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_nominate"), @"""{0}"" has been nominated", title);
 
         /// <summary>
         /// "&quot;{0}&quot; has gained enough nominations and entered the ranking queue"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetQualify(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_qualify"), @"""{0}"" has gained enough nominations and entered the ranking queue", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetQualify(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_qualify"), @"""{0}"" has gained enough nominations and entered the ranking queue", title);
 
         /// <summary>
         /// "&quot;{0}&quot; has been ranked"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetRank(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_rank"), @"""{0}"" has been ranked", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetRank(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_rank"), @"""{0}"" has been ranked", title);
 
         /// <summary>
         /// "&quot;{0}&quot; was removed from Loved"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetRemoveFromLoved(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved"), @"""{0}"" was removed from Loved", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetRemoveFromLoved(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved"), @"""{0}"" was removed from Loved", title);
 
         /// <summary>
         /// "Nomination of &quot;{0}&quot; has been reset"
         /// </summary>
-        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetResetNominations(string title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_reset_nominations"), @"Nomination of ""{0}"" has been reset", title);
+        public static LocalisableString MailBeatmapsetBeatmapsetStateBeatmapsetResetNominations(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmapset_state.beatmapset_reset_nominations"), @"Nomination of ""{0}"" has been reset", title);
 
         /// <summary>
         /// "Beatmap &quot;{0}&quot; has new comments"
         /// </summary>
-        public static LocalisableString MailBeatmapsetCommentCommentNew(string title) => new TranslatableString(getKey(@"mail.beatmapset.comment.comment_new"), @"Beatmap ""{0}"" has new comments", title);
+        public static LocalisableString MailBeatmapsetCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.comment.comment_new"), @"Beatmap ""{0}"" has new comments", title);
 
         /// <summary>
         /// "You&#39;ve received a new message from {0}"
         /// </summary>
-        public static LocalisableString MailChannelChannelPm(string username) => new TranslatableString(getKey(@"mail.channel.channel.pm"), @"You've received a new message from {0}", username);
+        public static LocalisableString MailChannelChannelPm(LocalisableString username) => new TranslatableString(getKey(@"mail.channel.channel.pm"), @"You've received a new message from {0}", username);
 
         /// <summary>
         /// "Changelog &quot;{0}&quot; has new comments"
         /// </summary>
-        public static LocalisableString MailBuildCommentCommentNew(string title) => new TranslatableString(getKey(@"mail.build.comment.comment_new"), @"Changelog ""{0}"" has new comments", title);
+        public static LocalisableString MailBuildCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.build.comment.comment_new"), @"Changelog ""{0}"" has new comments", title);
 
         /// <summary>
         /// "News &quot;{0}&quot; has new comments"
         /// </summary>
-        public static LocalisableString MailNewsPostCommentCommentNew(string title) => new TranslatableString(getKey(@"mail.news_post.comment.comment_new"), @"News ""{0}"" has new comments", title);
+        public static LocalisableString MailNewsPostCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.news_post.comment.comment_new"), @"News ""{0}"" has new comments", title);
 
         /// <summary>
         /// "There are new replies in &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString MailForumTopicForumTopicReplyForumTopicReply(string title) => new TranslatableString(getKey(@"mail.forum_topic.forum_topic_reply.forum_topic_reply"), @"There are new replies in ""{0}""", title);
+        public static LocalisableString MailForumTopicForumTopicReplyForumTopicReply(LocalisableString title) => new TranslatableString(getKey(@"mail.forum_topic.forum_topic_reply.forum_topic_reply"), @"There are new replies in ""{0}""", title);
 
         /// <summary>
         /// "{0} has unlocked a new medal, &quot;{1}&quot;!"
         /// </summary>
-        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlock(string username, string title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock"), @"{0} has unlocked a new medal, ""{1}""!", username, title);
+        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlock(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock"), @"{0} has unlocked a new medal, ""{1}""!", username, title);
 
         /// <summary>
         /// "You&#39;ve unlocked a new medal, &quot;{0}&quot;!"
         /// </summary>
-        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlockSelf(string title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock_self"), @"You've unlocked a new medal, ""{0}""!", title);
+        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlockSelf(LocalisableString title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock_self"), @"You've unlocked a new medal, ""{0}""!", title);
 
         /// <summary>
         /// "{0} has created new beatmaps"
         /// </summary>
-        public static LocalisableString MailUserUserBeatmapsetNewUserBeatmapsetNew(string username) => new TranslatableString(getKey(@"mail.user.user_beatmapset_new.user_beatmapset_new"), @"{0} has created new beatmaps", username);
+        public static LocalisableString MailUserUserBeatmapsetNewUserBeatmapsetNew(LocalisableString username) => new TranslatableString(getKey(@"mail.user.user_beatmapset_new.user_beatmapset_new"), @"{0} has created new beatmaps", username);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

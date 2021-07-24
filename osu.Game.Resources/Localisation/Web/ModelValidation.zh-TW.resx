@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid" xml:space="preserve">
+    <value>所指定的 {0} 無效。</value>
+  </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} 不能為負數。</value>
   </data>
@@ -94,6 +97,9 @@
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
     <value>時間戳</value>
   </data>
+  <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
+    <value>該圖譜目前為鎖定討論狀態，無法被推薦</value>
+  </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>登錄後才能推薦</value>
   </data>
@@ -126,6 +132,9 @@
   </data>
   <data name="comment.deleted_parent" xml:space="preserve">
     <value>無法回覆給已刪除評論。</value>
+  </data>
+  <data name="comment.top_only" xml:space="preserve">
+    <value>不允許回覆置頂評論。</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>訊息</value>

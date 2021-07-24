@@ -17,17 +17,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "changes in {0}"
         /// </summary>
-        public static LocalisableString BuildTitle(string version) => new TranslatableString(getKey(@"build.title"), @"changes in {0}", version);
+        public static LocalisableString BuildTitle(LocalisableString version) => new TranslatableString(getKey(@"build.title"), @"changes in {0}", version);
 
         /// <summary>
         /// "{0} user online|{0} users online"
         /// </summary>
-        public static LocalisableString BuildsUsersOnline(string countDelimited) => new TranslatableString(getKey(@"builds.users_online"), @"{0} user online|{0} users online", countDelimited);
+        public static LocalisableString BuildsUsersOnline(LocalisableString countDelimited) => new TranslatableString(getKey(@"builds.users_online"), @"{0} user online|{0} users online", countDelimited);
 
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString EntryBy(string user) => new TranslatableString(getKey(@"entry.by"), @"by {0}", user);
+        public static LocalisableString EntryBy(LocalisableString user) => new TranslatableString(getKey(@"entry.by"), @"by {0}", user);
 
         /// <summary>
         /// "changelog listing"
@@ -37,37 +37,37 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "changes since {0}"
         /// </summary>
-        public static LocalisableString IndexPageTitleFrom(string from) => new TranslatableString(getKey(@"index.page_title._from"), @"changes since {0}", from);
+        public static LocalisableString IndexPageTitleFrom(LocalisableString from) => new TranslatableString(getKey(@"index.page_title._from"), @"changes since {0}", from);
 
         /// <summary>
         /// "changes between {0} and {1}"
         /// </summary>
-        public static LocalisableString IndexPageTitleFromTo(string from, string to) => new TranslatableString(getKey(@"index.page_title._from_to"), @"changes between {0} and {1}", from, to);
+        public static LocalisableString IndexPageTitleFromTo(LocalisableString from, LocalisableString to) => new TranslatableString(getKey(@"index.page_title._from_to"), @"changes between {0} and {1}", from, to);
 
         /// <summary>
         /// "changes in {0}"
         /// </summary>
-        public static LocalisableString IndexPageTitleStream(string stream) => new TranslatableString(getKey(@"index.page_title._stream"), @"changes in {0}", stream);
+        public static LocalisableString IndexPageTitleStream(LocalisableString stream) => new TranslatableString(getKey(@"index.page_title._stream"), @"changes in {0}", stream);
 
         /// <summary>
         /// "changes in {0} since {1}"
         /// </summary>
-        public static LocalisableString IndexPageTitleStreamFrom(string stream, string from) => new TranslatableString(getKey(@"index.page_title._stream_from"), @"changes in {0} since {1}", stream, from);
+        public static LocalisableString IndexPageTitleStreamFrom(LocalisableString stream, LocalisableString from) => new TranslatableString(getKey(@"index.page_title._stream_from"), @"changes in {0} since {1}", stream, from);
 
         /// <summary>
         /// "changes in {0} between {1} and {2}"
         /// </summary>
-        public static LocalisableString IndexPageTitleStreamFromTo(string stream, string from, string to) => new TranslatableString(getKey(@"index.page_title._stream_from_to"), @"changes in {0} between {1} and {2}", stream, from, to);
+        public static LocalisableString IndexPageTitleStreamFromTo(LocalisableString stream, LocalisableString from, LocalisableString to) => new TranslatableString(getKey(@"index.page_title._stream_from_to"), @"changes in {0} between {1} and {2}", stream, from, to);
 
         /// <summary>
         /// "changes in {0} up to {1}"
         /// </summary>
-        public static LocalisableString IndexPageTitleStreamTo(string stream, string to) => new TranslatableString(getKey(@"index.page_title._stream_to"), @"changes in {0} up to {1}", stream, to);
+        public static LocalisableString IndexPageTitleStreamTo(LocalisableString stream, LocalisableString to) => new TranslatableString(getKey(@"index.page_title._stream_to"), @"changes in {0} up to {1}", stream, to);
 
         /// <summary>
         /// "changes up to {0}"
         /// </summary>
-        public static LocalisableString IndexPageTitleTo(string to) => new TranslatableString(getKey(@"index.page_title._to"), @"changes up to {0}", to);
+        public static LocalisableString IndexPageTitleTo(LocalisableString to) => new TranslatableString(getKey(@"index.page_title._to"), @"changes up to {0}", to);
 
         /// <summary>
         /// "Love this update?"
@@ -77,7 +77,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Support further development of osu! and {0} today!"
         /// </summary>
-        public static LocalisableString SupportText1(string link) => new TranslatableString(getKey(@"support.text_1"), @"Support further development of osu! and {0} today!", link);
+        public static LocalisableString SupportText1(LocalisableString link) => new TranslatableString(getKey(@"support.text_1"), @"Support further development of osu! and {0} today!", link);
 
         /// <summary>
         /// "become an osu!supporter"

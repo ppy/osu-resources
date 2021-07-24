@@ -61,6 +61,9 @@
   <data name="all_read" xml:space="preserve">
     <value>Alle notifikationer læst!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Slet {0}</value>
+  </data>
   <data name="mark_read" xml:space="preserve">
     <value>Ryd {0}</value>
   </data>
@@ -69,6 +72,9 @@
   </data>
   <data name="see_all" xml:space="preserve">
     <value>se alle notifikationer</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>gå til chat</value>
   </data>
   <data name="verifying" xml:space="preserve">
     <value>Bekræft venligst session for at se notifikationer</value>
@@ -96,6 +102,12 @@
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Du er nu ejer af sværhedsgraden "{0}" for beatmappet "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Du er nu ejer af sværhedsgraden "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Beatmap diskussion</value>
@@ -244,6 +256,9 @@
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} ulæst besked|{0} ulæste beskeder</value>
   </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Nyt beatmap</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medaljer</value>
   </data>
@@ -255,5 +270,17 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
     <value>Opnået "{0}"!</value>
+  </data>
+  <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>Der er nye svar i "{0}"</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>{0} har oplåst en ny medalje, "{1}"!</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
+    <value>Du har oplåst en ny medalje, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} har oprettet nye beatmaps</value>
   </data>
 </root>

@@ -77,7 +77,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You do not have permission to nominate for mode: {0}"
         /// </summary>
-        public static LocalisableString NominateIncorrectMode(string mode) => new TranslatableString(getKey(@"nominate.incorrect_mode"), @"You do not have permission to nominate for mode: {0}", mode);
+        public static LocalisableString NominateIncorrectMode(LocalisableString mode) => new TranslatableString(getKey(@"nominate.incorrect_mode"), @"You do not have permission to nominate for mode: {0}", mode);
 
         /// <summary>
         /// "You must be a full nominator to perform this qualifying nomination."
@@ -122,7 +122,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsByArtist(string artist) => new TranslatableString(getKey(@"show.details.by_artist"), @"by {0}", artist);
+        public static LocalisableString ShowDetailsByArtist(LocalisableString artist) => new TranslatableString(getKey(@"show.details.by_artist"), @"by {0}", artist);
 
         /// <summary>
         /// "Favourite this beatmap"
@@ -142,7 +142,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "mapped by {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsMappedBy(string mapper) => new TranslatableString(getKey(@"show.details.mapped_by"), @"mapped by {0}", mapper);
+        public static LocalisableString ShowDetailsMappedBy(LocalisableString mapper) => new TranslatableString(getKey(@"show.details.mapped_by"), @"mapped by {0}", mapper);
 
         /// <summary>
         /// "Unfavourite this beatmap"
@@ -152,7 +152,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "last updated {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsUpdatedTimeago(string timeago) => new TranslatableString(getKey(@"show.details.updated_timeago"), @"last updated {0}", timeago);
+        public static LocalisableString ShowDetailsUpdatedTimeago(LocalisableString timeago) => new TranslatableString(getKey(@"show.details.updated_timeago"), @"last updated {0}", timeago);
 
         /// <summary>
         /// "Download"
@@ -187,32 +187,32 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "approved {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateApproved(string timeago) => new TranslatableString(getKey(@"show.details_date.approved"), @"approved {0}", timeago);
+        public static LocalisableString ShowDetailsDateApproved(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.approved"), @"approved {0}", timeago);
 
         /// <summary>
         /// "loved {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateLoved(string timeago) => new TranslatableString(getKey(@"show.details_date.loved"), @"loved {0}", timeago);
+        public static LocalisableString ShowDetailsDateLoved(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.loved"), @"loved {0}", timeago);
 
         /// <summary>
         /// "qualified {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateQualified(string timeago) => new TranslatableString(getKey(@"show.details_date.qualified"), @"qualified {0}", timeago);
+        public static LocalisableString ShowDetailsDateQualified(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.qualified"), @"qualified {0}", timeago);
 
         /// <summary>
         /// "ranked {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateRanked(string timeago) => new TranslatableString(getKey(@"show.details_date.ranked"), @"ranked {0}", timeago);
+        public static LocalisableString ShowDetailsDateRanked(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.ranked"), @"ranked {0}", timeago);
 
         /// <summary>
         /// "submitted {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateSubmitted(string timeago) => new TranslatableString(getKey(@"show.details_date.submitted"), @"submitted {0}", timeago);
+        public static LocalisableString ShowDetailsDateSubmitted(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.submitted"), @"submitted {0}", timeago);
 
         /// <summary>
         /// "last updated {0}"
         /// </summary>
-        public static LocalisableString ShowDetailsDateUpdated(string timeago) => new TranslatableString(getKey(@"show.details_date.updated"), @"last updated {0}", timeago);
+        public static LocalisableString ShowDetailsDateUpdated(LocalisableString timeago) => new TranslatableString(getKey(@"show.details_date.updated"), @"last updated {0}", timeago);
 
         /// <summary>
         /// "You have too many favourited beatmaps! Please unfavourite some before trying again."
@@ -227,7 +227,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This map is currently {0}."
         /// </summary>
-        public static LocalisableString ShowHypeCurrentDefault(string status) => new TranslatableString(getKey(@"show.hype.current._"), @"This map is currently {0}.", status);
+        public static LocalisableString ShowHypeCurrentDefault(LocalisableString status) => new TranslatableString(getKey(@"show.hype.current._"), @"This map is currently {0}.", status);
 
         /// <summary>
         /// "pending"
@@ -247,12 +247,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "If you find an issue with this beatmap, please disqualify it {0}."
         /// </summary>
-        public static LocalisableString ShowHypeDisqualifyDefault(string link) => new TranslatableString(getKey(@"show.hype.disqualify._"), @"If you find an issue with this beatmap, please disqualify it {0}.", link);
+        public static LocalisableString ShowHypeDisqualifyDefault(LocalisableString link) => new TranslatableString(getKey(@"show.hype.disqualify._"), @"If you find an issue with this beatmap, please disqualify it {0}.", link);
 
         /// <summary>
         /// "If you find an issue with this beatmap, please report it {0} to alert the team."
         /// </summary>
-        public static LocalisableString ShowHypeReportDefault(string link) => new TranslatableString(getKey(@"show.hype.report._"), @"If you find an issue with this beatmap, please report it {0} to alert the team.", link);
+        public static LocalisableString ShowHypeReportDefault(LocalisableString link) => new TranslatableString(getKey(@"show.hype.report._"), @"If you find an issue with this beatmap, please report it {0} to alert the team.", link);
 
         /// <summary>
         /// "Report Problem"
@@ -347,7 +347,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "achieved {0}"
         /// </summary>
-        public static LocalisableString ShowScoreboardAchieved(string when) => new TranslatableString(getKey(@"show.scoreboard.achieved"), @"achieved {0}", when);
+        public static LocalisableString ShowScoreboardAchieved(LocalisableString when) => new TranslatableString(getKey(@"show.scoreboard.achieved"), @"achieved {0}", when);
 
         /// <summary>
         /// "Country Ranking"
@@ -367,12 +367,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Click &lt;a href=&quot;{0}&quot;&gt;here&lt;/a&gt; to see all the fancy features that you get!"
         /// </summary>
-        public static LocalisableString ShowScoreboardSupporterLink(string link) => new TranslatableString(getKey(@"show.scoreboard.supporter-link"), @"Click <a href=""{0}"">here</a> to see all the fancy features that you get!", link);
+        public static LocalisableString ShowScoreboardSupporterLink(LocalisableString link) => new TranslatableString(getKey(@"show.scoreboard.supporter-link"), @"Click <a href=""{0}"">here</a> to see all the fancy features that you get!", link);
 
         /// <summary>
-        /// "You need to be an osu!supporter to access the friend and country rankings!"
+        /// "You need to be an osu!supporter to access the friend, country, or mod-specific rankings!"
         /// </summary>
-        public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be an osu!supporter to access the friend and country rankings!");
+        public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be an osu!supporter to access the friend, country, or mod-specific rankings!");
 
         /// <summary>
         /// "Scoreboard"
@@ -497,7 +497,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Length (Drain length: {0})"
         /// </summary>
-        public static LocalisableString ShowStatsTotalLength(string hitLength) => new TranslatableString(getKey(@"show.stats.total_length"), @"Length (Drain length: {0})", hitLength);
+        public static LocalisableString ShowStatsTotalLength(LocalisableString hitLength) => new TranslatableString(getKey(@"show.stats.total_length"), @"Length (Drain length: {0})", hitLength);
 
         /// <summary>
         /// "BPM"

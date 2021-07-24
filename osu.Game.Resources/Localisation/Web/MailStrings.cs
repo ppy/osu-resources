@@ -12,12 +12,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Just letting you know that there has been a new update in beatmap &quot;{0}&quot; since your last visit."
         /// </summary>
-        public static LocalisableString BeatmapsetUpdateNoticeNew(string title) => new TranslatableString(getKey(@"beatmapset_update_notice.new"), @"Just letting you know that there has been a new update in beatmap ""{0}"" since your last visit.", title);
+        public static LocalisableString BeatmapsetUpdateNoticeNew(LocalisableString title) => new TranslatableString(getKey(@"beatmapset_update_notice.new"), @"Just letting you know that there has been a new update in beatmap ""{0}"" since your last visit.", title);
 
         /// <summary>
         /// "New update for beatmap &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString BeatmapsetUpdateNoticeSubject(string title) => new TranslatableString(getKey(@"beatmapset_update_notice.subject"), @"New update for beatmap ""{0}""", title);
+        public static LocalisableString BeatmapsetUpdateNoticeSubject(LocalisableString title) => new TranslatableString(getKey(@"beatmapset_update_notice.subject"), @"New update for beatmap ""{0}""", title);
 
         /// <summary>
         /// "If you no longer wish to watch this beatmap, you can either click the &quot;Unwatch&quot; link found in the page above, or from the modding watchlist page:"
@@ -37,7 +37,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Hi {0},"
         /// </summary>
-        public static LocalisableString CommonHello(string user) => new TranslatableString(getKey(@"common.hello"), @"Hi {0},", user);
+        public static LocalisableString CommonHello(LocalisableString user) => new TranslatableString(getKey(@"common.hello"), @"Hi {0},", user);
 
         /// <summary>
         /// "Please reply to this email IMMEDIATELY if you did not request this change."
@@ -62,7 +62,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Your support keeps osu! running for around {0}! It may not seem like much, but it all adds up :)."
         /// </summary>
-        public static LocalisableString DonationThanksKeepRunning(string minutes) => new TranslatableString(getKey(@"donation_thanks.keep_running"), @"Your support keeps osu! running for around {0}! It may not seem like much, but it all adds up :).", minutes);
+        public static LocalisableString DonationThanksKeepRunning(LocalisableString minutes) => new TranslatableString(getKey(@"donation_thanks.keep_running"), @"Your support keeps osu! running for around {0}! It may not seem like much, but it all adds up :).", minutes);
 
         /// <summary>
         /// "Thanks, osu! &lt;3s you"
@@ -82,12 +82,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You will now have access to osu!direct and many other supporter benefits for {0}."
         /// </summary>
-        public static LocalisableString DonationThanksBenefitSelf(string duration) => new TranslatableString(getKey(@"donation_thanks.benefit.self"), @"You will now have access to osu!direct and many other supporter benefits for {0}.", duration);
+        public static LocalisableString DonationThanksBenefitSelf(LocalisableString duration) => new TranslatableString(getKey(@"donation_thanks.benefit.self"), @"You will now have access to osu!direct and many other supporter benefits for {0}.", duration);
 
         /// <summary>
         /// "Thanks a lot for your {0} towards osu!."
         /// </summary>
-        public static LocalisableString DonationThanksSupportDefault(string support) => new TranslatableString(getKey(@"donation_thanks.support._"), @"Thanks a lot for your {0} towards osu!.", support);
+        public static LocalisableString DonationThanksSupportDefault(LocalisableString support) => new TranslatableString(getKey(@"donation_thanks.support._"), @"Thanks a lot for your {0} towards osu!.", support);
 
         /// <summary>
         /// "support"
@@ -102,12 +102,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Just letting you know that there has been a new reply in &quot;{0}&quot; since your last visit."
         /// </summary>
-        public static LocalisableString ForumNewReplyNew(string title) => new TranslatableString(getKey(@"forum_new_reply.new"), @"Just letting you know that there has been a new reply in ""{0}"" since your last visit.", title);
+        public static LocalisableString ForumNewReplyNew(LocalisableString title) => new TranslatableString(getKey(@"forum_new_reply.new"), @"Just letting you know that there has been a new reply in ""{0}"" since your last visit.", title);
 
         /// <summary>
         /// "[osu!] New reply for topic &quot;{0}&quot;"
         /// </summary>
-        public static LocalisableString ForumNewReplySubject(string title) => new TranslatableString(getKey(@"forum_new_reply.subject"), @"[osu!] New reply for topic ""{0}""", title);
+        public static LocalisableString ForumNewReplySubject(LocalisableString title) => new TranslatableString(getKey(@"forum_new_reply.subject"), @"[osu!] New reply for topic ""{0}""", title);
 
         /// <summary>
         /// "If you no longer wish to watch this topic, you can either click the &quot;Unsubscribe topic&quot; link found at the bottom of the topic above, or from topic subscriptions management page:"
@@ -182,7 +182,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Thanks to them, you have access to osu!direct and other osu!supporter benefits for the next {0}."
         /// </summary>
-        public static LocalisableString SupporterGiftDuration(string duration) => new TranslatableString(getKey(@"supporter_gift.duration"), @"Thanks to them, you have access to osu!direct and other osu!supporter benefits for the next {0}.", duration);
+        public static LocalisableString SupporterGiftDuration(LocalisableString duration) => new TranslatableString(getKey(@"supporter_gift.duration"), @"Thanks to them, you have access to osu!direct and other osu!supporter benefits for the next {0}.", duration);
 
         /// <summary>
         /// "You can find out more details on these features here:"
@@ -202,7 +202,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This is a confirmation email to inform you that your osu! email address has been changed to: &quot;{0}&quot;."
         /// </summary>
-        public static LocalisableString UserEmailUpdatedChangedTo(string email) => new TranslatableString(getKey(@"user_email_updated.changed_to"), @"This is a confirmation email to inform you that your osu! email address has been changed to: ""{0}"".", email);
+        public static LocalisableString UserEmailUpdatedChangedTo(LocalisableString email) => new TranslatableString(getKey(@"user_email_updated.changed_to"), @"This is a confirmation email to inform you that your osu! email address has been changed to: ""{0}"".", email);
 
         /// <summary>
         /// "Please ensure that you received this email at your new address to prevent losing access your osu! account in the future."
@@ -227,7 +227,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You can perform the reset from {0}"
         /// </summary>
-        public static LocalisableString UserForceReactivationPerformReset(string url) => new TranslatableString(getKey(@"user_force_reactivation.perform_reset"), @"You can perform the reset from {0}", url);
+        public static LocalisableString UserForceReactivationPerformReset(LocalisableString url) => new TranslatableString(getKey(@"user_force_reactivation.perform_reset"), @"You can perform the reset from {0}", url);
 
         /// <summary>
         /// "Reason:"
@@ -292,7 +292,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "An action performed on your account from {0} requires verification."
         /// </summary>
-        public static LocalisableString UserVerificationActionFromDefault(string country) => new TranslatableString(getKey(@"user_verification.action_from._"), @"An action performed on your account from {0} requires verification.", country);
+        public static LocalisableString UserVerificationActionFromDefault(LocalisableString country) => new TranslatableString(getKey(@"user_verification.action_from._"), @"An action performed on your account from {0} requires verification.", country);
 
         /// <summary>
         /// "unknown country"

@@ -64,6 +64,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Завяршэнне пакупкі</value>
   </data>
+  <data name="cart.info" xml:space="preserve">
+    <value>{0} тавар у кошыку (${1})|{0} прадметы ў кошыку  (${1})</value>
+  </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Я хачу праглядзець іншыя тавары перад завяршэннем пакупкі</value>
   </data>
@@ -109,6 +112,9 @@
   <data name="checkout.pay" xml:space="preserve">
     <value>Аплата праз Paypal</value>
   </data>
+  <data name="checkout.title_compact" xml:space="preserve">
+    <value>праверыць</value>
+  </data>
   <data name="checkout.has_pending._" xml:space="preserve">
     <value>Вы маеце незавершаныя пакупкі, націсніце {0} каб праглядзець іх.</value>
   </data>
@@ -127,6 +133,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Так як аплата была праз eCheck, чаканне пацверджання аплаты праз Paypal можа займаць да 10 дзён!</value>
   </data>
+  <data name="invoice.title_compact" xml:space="preserve">
+    <value>рахунак-фактура</value>
+  </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Ваша аплата яшчэ не была пацверджана!</value>
   </data>
@@ -139,6 +148,15 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>націсніце тут, каб узнавіць аплату</value>
   </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Адмяніць заказ</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Гэты заказ будзе адменены, і аплата за яго не будзе прынята. Пастаўшчык плацяжоў можа не вызваліць рэзерваваныя сродкі адразу. Вы ўпэўнены?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Зараз гэты заказ нельга адмяніць.</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Праглядзець рахунак</value>
   </data>
@@ -150,6 +168,9 @@
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Працягнуць пакупку</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Тэрмін дзеяння спасылкі на заказ для гэтага замовы скончыўся.</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} для {1} ({2})</value>

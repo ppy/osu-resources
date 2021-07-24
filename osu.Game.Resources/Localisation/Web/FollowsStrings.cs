@@ -32,7 +32,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} by {1}"
         /// </summary>
-        public static LocalisableString CommentTableLatestCommentValue(string time, string username) => new TranslatableString(getKey(@"comment.table.latest_comment_value"), @"{0} by {1}", time, username);
+        public static LocalisableString CommentTableLatestCommentValue(LocalisableString time, LocalisableString username) => new TranslatableString(getKey(@"comment.table.latest_comment_value"), @"{0} by {1}", time, username);
 
         /// <summary>
         /// "forum topic"

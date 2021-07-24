@@ -64,6 +64,9 @@
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>дазволіць кудосу</value>
   </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Старонка бітмапы</value>
+  </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>выдаліць</value>
   </data>
@@ -79,6 +82,9 @@
   <data name="discussions.edited" xml:space="preserve">
     <value>Апошняе рэдагаванне {0} а {1}.</value>
   </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Cкладанасць госця {0}</value>
+  </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Адмоўлена ў атрыманні кудосу.</value>
   </data>
@@ -87,6 +93,9 @@
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
     <value>Абмеркаванні для гэтай бітмапы былі адключаныя.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Нельга размясціць дыскусію ў адключаным рэжыме.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Выбраць тып каментарыя</value>
@@ -148,6 +157,9 @@
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
     <value>Каб апублікаваць у агульных, напішыце тут (Усе цяжкасці)</value>
   </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Націсніце тут, каб апублікаваць агляд</value>
+  </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
     <value>Каб размясціць у шкале часу, напішыце тут ({0})</value>
   </data>
@@ -181,6 +193,9 @@
   <data name="discussions.mode.general" xml:space="preserve">
     <value>Агульнае {0}</value>
   </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Водгукі</value>
+  </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
     <value>Шкала часу</value>
   </data>
@@ -204,6 +219,39 @@
   </data>
   <data name="discussions.new.unpin" xml:space="preserve">
     <value>Адмацаваць</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Новы водгук</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Выдаліць</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[ДЫСКУСІЯ ВЫДАЛЕНА]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Выдаліць праблему</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Незахавана</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Паведамленні ў раздзеле "Усе цяжкасці" не могуць быць адзначаны часам.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Калі гэты {0} пачынаецца з пазнакі часу, яна будзе паказана ў часовай шкале.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>уставіць абзац</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>уставіць пахвалу</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>уставіць праблему</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>ўставіць прапанову</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} зроблены {1}</value>
@@ -252,6 +300,18 @@
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Заўвага: Гэтая бітмапа была пазначана стваральнікам як незавершаная.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Галасоў "супраць" яшчэ няма</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Галасоў "за" яшчэ няма</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Апошнія галасы супраць</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Апошнія галасы за</value>
   </data>
   <data name="hype.button" xml:space="preserve">
     <value>Надаць хайп бітмапе!</value>
@@ -325,6 +385,15 @@
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>намінавана {0}</value>
   </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Не хапае шуміхі.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Выдаліць з любімых</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Прычына выдалення з любімых:</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Намінацыі: {0}/{1}</value>
   </data>
@@ -336,6 +405,15 @@
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Усё яшчэ ёсць нявырашаныя праблемы, якія трэбы вырашыць у першую чаргу.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Гэтая карта cможа маць рэйтынг {0}, калі праблем не знойдзена. Гэта #{1} у {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>чаргу ў рэйтынг</value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>хутка</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
     <value>{0} скінуў прагрэс намінацый {1} з-за новай праблемы {2} ({3}).</value>
@@ -381,6 +459,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Рэжым</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Непрыстойны змест</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Згуляна</value>
@@ -430,8 +511,14 @@
   <data name="general.converts" xml:space="preserve">
     <value>Уключыць канвертаваныя бітмапы</value>
   </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Падпісаныя маперы</value>
+  </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Рэкамендавана цяжкасць</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Усе</value>
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Усе</value>
@@ -496,6 +583,21 @@
   <data name="genre.electronic" xml:space="preserve">
     <value>Электронная музыка</value>
   </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Метал</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Класічная</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Фолк</value>
+  </data>
+  <data name="genre.jazz" xml:space="preserve">
+    <value>Джаз</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Любая</value>
+  </data>
   <data name="language.english" xml:space="preserve">
     <value>Англійская</value>
   </data>
@@ -523,11 +625,27 @@
   <data name="language.swedish" xml:space="preserve">
     <value>Шведская</value>
   </data>
+  <data name="language.russian" xml:space="preserve">
+    <value>Руская
+</value>
+  </data>
+  <data name="language.polish" xml:space="preserve">
+    <value>Польская</value>
+  </data>
   <data name="language.instrumental" xml:space="preserve">
     <value>Інструментал</value>
   </data>
   <data name="language.other" xml:space="preserve">
     <value>Іншае</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Не вызначана</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Схаваць</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Паказаць</value>
   </data>
   <data name="played.any" xml:space="preserve">
     <value>Усе</value>
@@ -558,5 +676,14 @@
   </data>
   <data name="panel.favourites" xml:space="preserve">
     <value>У абраных: {0}</value>
+  </data>
+  <data name="variant.mania.4k" xml:space="preserve">
+    <value>4К</value>
+  </data>
+  <data name="variant.mania.7k" xml:space="preserve">
+    <value>7К</value>
+  </data>
+  <data name="variant.mania.all" xml:space="preserve">
+    <value>Усе</value>
   </data>
 </root>

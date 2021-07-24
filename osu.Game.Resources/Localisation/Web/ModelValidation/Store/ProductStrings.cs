@@ -27,7 +27,7 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation.Store
         /// <summary>
         /// "You can only order {0} of this item per order."
         /// </summary>
-        public static LocalisableString TooMany(string count) => new TranslatableString(getKey(@"too_many"), @"You can only order {0} of this item per order.", count);
+        public static LocalisableString TooMany(LocalisableString count) => new TranslatableString(getKey(@"too_many"), @"You can only order {0} of this item per order.", count);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

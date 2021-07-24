@@ -142,12 +142,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "There are posts around {0} ({1}). Please check them before posting."
         /// </summary>
-        public static LocalisableString NearbyPostsNotice(string timestamp, string existingTimestamps) => new TranslatableString(getKey(@"nearby_posts.notice"), @"There are posts around {0} ({1}). Please check them before posting.", timestamp, existingTimestamps);
+        public static LocalisableString NearbyPostsNotice(LocalisableString timestamp, LocalisableString existingTimestamps) => new TranslatableString(getKey(@"nearby_posts.notice"), @"There are posts around {0} ({1}). Please check them before posting.", timestamp, existingTimestamps);
 
         /// <summary>
         /// "{0} in this review"
         /// </summary>
-        public static LocalisableString NearbyPostsUnsaved(string count) => new TranslatableString(getKey(@"nearby_posts.unsaved"), @"{0} in this review", count);
+        public static LocalisableString NearbyPostsUnsaved(LocalisableString count) => new TranslatableString(getKey(@"nearby_posts.unsaved"), @"{0} in this review", count);
 
         /// <summary>
         /// "Difficulty Owner"
@@ -182,7 +182,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} / {1} blocks used"
         /// </summary>
-        public static LocalisableString ReviewBlockCount(string used, string max) => new TranslatableString(getKey(@"review.block_count"), @"{0} / {1} blocks used", used, max);
+        public static LocalisableString ReviewBlockCount(LocalisableString used, LocalisableString max) => new TranslatableString(getKey(@"review.block_count"), @"{0} / {1} blocks used", used, max);
 
         /// <summary>
         /// "View Review Post"
@@ -197,7 +197,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "each block may only contain up to {0} characters"
         /// </summary>
-        public static LocalisableString ReviewValidationBlockTooLarge(string limit) => new TranslatableString(getKey(@"review.validation.block_too_large"), @"each block may only contain up to {0} characters", limit);
+        public static LocalisableString ReviewValidationBlockTooLarge(LocalisableString limit) => new TranslatableString(getKey(@"review.validation.block_too_large"), @"each block may only contain up to {0} characters", limit);
 
         /// <summary>
         /// "review contains references to issues that don&#39;t belong to this review"
@@ -215,9 +215,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReviewValidationInvalidDocument => new TranslatableString(getKey(@"review.validation.invalid_document"), @"invalid review");
 
         /// <summary>
+        /// "invalid discussion type"
+        /// </summary>
+        public static LocalisableString ReviewValidationInvalidDiscussionType => new TranslatableString(getKey(@"review.validation.invalid_discussion_type"), @"invalid discussion type");
+
+        /// <summary>
         /// "review must contain a minimum of {0} issue|review must contain a minimum of {0} issues"
         /// </summary>
-        public static LocalisableString ReviewValidationMinimumIssues(string count) => new TranslatableString(getKey(@"review.validation.minimum_issues"), @"review must contain a minimum of {0} issue|review must contain a minimum of {0} issues", count);
+        public static LocalisableString ReviewValidationMinimumIssues(LocalisableString count) => new TranslatableString(getKey(@"review.validation.minimum_issues"), @"review must contain a minimum of {0} issue|review must contain a minimum of {0} issues", count);
 
         /// <summary>
         /// "block is missing text"
@@ -227,17 +232,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues"
         /// </summary>
-        public static LocalisableString ReviewValidationTooManyBlocks(string count) => new TranslatableString(getKey(@"review.validation.too_many_blocks"), @"reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues", count);
+        public static LocalisableString ReviewValidationTooManyBlocks(LocalisableString count) => new TranslatableString(getKey(@"review.validation.too_many_blocks"), @"reviews may only contain {0} paragraph/issue|reviews may only contain up to {0} paragraphs/issues", count);
 
         /// <summary>
         /// "Marked as resolved by {0}"
         /// </summary>
-        public static LocalisableString SystemResolvedTrue(string user) => new TranslatableString(getKey(@"system.resolved.true"), @"Marked as resolved by {0}", user);
+        public static LocalisableString SystemResolvedTrue(LocalisableString user) => new TranslatableString(getKey(@"system.resolved.true"), @"Marked as resolved by {0}", user);
 
         /// <summary>
         /// "Reopened by {0}"
         /// </summary>
-        public static LocalisableString SystemResolvedFalse(string user) => new TranslatableString(getKey(@"system.resolved.false"), @"Reopened by {0}", user);
+        public static LocalisableString SystemResolvedFalse(LocalisableString user) => new TranslatableString(getKey(@"system.resolved.false"), @"Reopened by {0}", user);
 
         /// <summary>
         /// "general"

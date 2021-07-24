@@ -62,7 +62,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} song|{0} songs"
         /// </summary>
-        public static LocalisableString SongsCount(string countDelimited) => new TranslatableString(getKey(@"songs.count"), @"{0} song|{0} songs", countDelimited);
+        public static LocalisableString SongsCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"songs.count"), @"{0} song|{0} songs", countDelimited);
 
         /// <summary>
         /// "osu! exclusive"

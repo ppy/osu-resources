@@ -167,7 +167,7 @@
     <value>Silahkan sign in untuk melanjutkan</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Captcha tidak valid. Harap muat ulang halaman.</value>
+    <value>Anda telah berulang kali gagal memasukkan kredensial pengguna yang valid. Harap selesaikan captcha berikut dan coba lagi. (Muat ulang laman ini apabila captcha tidak terlihat)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Alamat IP Anda dikunci. Mohon tunggu beberapa menit.</value>
@@ -299,7 +299,7 @@
     <value>profil {0}</value>
   </data>
   <data name="show.comments_count._" xml:space="preserve">
-    <value>Telah menulis {0}</value>
+    <value>Telah mengirimkan {0}</value>
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} komentar|{0} komentar</value>
@@ -373,11 +373,11 @@
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmap Loved</value>
   </data>
-  <data name="show.extra.beatmaps.ranked_and_approved.title" xml:space="preserve">
-    <value>Beatmap Ranked &amp; Approved</value>
-  </data>
-  <data name="show.extra.beatmaps.unranked.title" xml:space="preserve">
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Beatmap Pending</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>Beatmap Ranked &amp; Approved</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>Diskusi</value>
@@ -676,17 +676,17 @@
   <data name="show.stats.total_score" xml:space="preserve">
     <value>Jumlah Skor</value>
   </data>
-  <data name="show.stats.ranked_and_approved_beatmapset_count" xml:space="preserve">
-    <value>Beatmap Ranked &amp; Approved</value>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Beatmap Graveyard</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Beatmap Loved</value>
   </data>
-  <data name="show.stats.unranked_beatmapset_count" xml:space="preserve">
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Beatmap Pending</value>
   </data>
-  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>Beatmap Graveyard</value>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Beatmap Ranked &amp; Approved</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>Anda sedang di-silence.</value>

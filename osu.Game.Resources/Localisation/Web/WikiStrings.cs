@@ -12,7 +12,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Requested page is not yet translated to the selected language ({0}). Showing English version."
         /// </summary>
-        public static LocalisableString ShowFallbackTranslation(string language) => new TranslatableString(getKey(@"show.fallback_translation"), @"Requested page is not yet translated to the selected language ({0}). Showing English version.", language);
+        public static LocalisableString ShowFallbackTranslation(LocalisableString language) => new TranslatableString(getKey(@"show.fallback_translation"), @"Requested page is not yet translated to the selected language ({0}). Showing English version.", language);
 
         /// <summary>
         /// "The content on this page is incomplete or outdated. If you are able to help out, please consider updating the article!"
@@ -22,7 +22,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Requested page &quot;{0}&quot; could not be found."
         /// </summary>
-        public static LocalisableString ShowMissing(string keyword) => new TranslatableString(getKey(@"show.missing"), @"Requested page ""{0}"" could not be found.", keyword);
+        public static LocalisableString ShowMissing(LocalisableString keyword) => new TranslatableString(getKey(@"show.missing"), @"Requested page ""{0}"" could not be found.", keyword);
 
         /// <summary>
         /// "Not Found"
@@ -42,7 +42,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Search existing pages for {0}."
         /// </summary>
-        public static LocalisableString ShowSearch(string link) => new TranslatableString(getKey(@"show.search"), @"Search existing pages for {0}.", link);
+        public static LocalisableString ShowSearch(LocalisableString link) => new TranslatableString(getKey(@"show.search"), @"Search existing pages for {0}.", link);
 
         /// <summary>
         /// "Contents"
@@ -62,12 +62,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This translation is provided for convenience only. The original {0} shall be the sole legally binding version of this text."
         /// </summary>
-        public static LocalisableString ShowTranslationLegal(string @default) => new TranslatableString(getKey(@"show.translation.legal"), @"This translation is provided for convenience only. The original {0} shall be the sole legally binding version of this text.", @default);
+        public static LocalisableString ShowTranslationLegal(LocalisableString @default) => new TranslatableString(getKey(@"show.translation.legal"), @"This translation is provided for convenience only. The original {0} shall be the sole legally binding version of this text.", @default);
 
         /// <summary>
         /// "This page contains an outdated translation of the original content. Please check the {0} for the most accurate information (and consider updating the translation if you are able to help out)!"
         /// </summary>
-        public static LocalisableString ShowTranslationOutdated(string @default) => new TranslatableString(getKey(@"show.translation.outdated"), @"This page contains an outdated translation of the original content. Please check the {0} for the most accurate information (and consider updating the translation if you are able to help out)!", @default);
+        public static LocalisableString ShowTranslationOutdated(LocalisableString @default) => new TranslatableString(getKey(@"show.translation.outdated"), @"This page contains an outdated translation of the original content. Please check the {0} for the most accurate information (and consider updating the translation if you are able to help out)!", @default);
 
         /// <summary>
         /// "English version"

@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}&#39;s post?"
         /// </summary>
-        public static LocalisableString BeatmapsetDiscussionPostTitle(string username) => new TranslatableString(getKey(@"beatmapset_discussion_post.title"), @"Report {0}'s post?", username);
+        public static LocalisableString BeatmapsetDiscussionPostTitle(LocalisableString username) => new TranslatableString(getKey(@"beatmapset_discussion_post.title"), @"Report {0}'s post?", username);
 
         /// <summary>
         /// "Report"
@@ -27,7 +27,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}&#39;s comment?"
         /// </summary>
-        public static LocalisableString CommentTitle(string username) => new TranslatableString(getKey(@"comment.title"), @"Report {0}'s comment?", username);
+        public static LocalisableString CommentTitle(LocalisableString username) => new TranslatableString(getKey(@"comment.title"), @"Report {0}'s comment?", username);
 
         /// <summary>
         /// "Report"
@@ -37,7 +37,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}&#39;s post?"
         /// </summary>
-        public static LocalisableString ForumPostTitle(string username) => new TranslatableString(getKey(@"forum_post.title"), @"Report {0}'s post?", username);
+        public static LocalisableString ForumPostTitle(LocalisableString username) => new TranslatableString(getKey(@"forum_post.title"), @"Report {0}'s post?", username);
 
         /// <summary>
         /// "Report Score"
@@ -47,7 +47,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}&#39;s score?"
         /// </summary>
-        public static LocalisableString ScoresTitle(string username) => new TranslatableString(getKey(@"scores.title"), @"Report {0}'s score?", username);
+        public static LocalisableString ScoresTitle(LocalisableString username) => new TranslatableString(getKey(@"scores.title"), @"Report {0}'s score?", username);
 
         /// <summary>
         /// "Report"
@@ -57,7 +57,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}?"
         /// </summary>
-        public static LocalisableString UserTitle(string username) => new TranslatableString(getKey(@"user.title"), @"Report {0}?", username);
+        public static LocalisableString UserTitle(LocalisableString username) => new TranslatableString(getKey(@"user.title"), @"Report {0}?", username);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

@@ -12,12 +12,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "talking in {0}"
         /// </summary>
-        public static LocalisableString TalkingIn(string channel) => new TranslatableString(getKey(@"talking_in"), @"talking in {0}", channel);
+        public static LocalisableString TalkingIn(LocalisableString channel) => new TranslatableString(getKey(@"talking_in"), @"talking in {0}", channel);
 
         /// <summary>
         /// "talking with {0}"
         /// </summary>
-        public static LocalisableString TalkingWith(string name) => new TranslatableString(getKey(@"talking_with"), @"talking with {0}", name);
+        public static LocalisableString TalkingWith(LocalisableString name) => new TranslatableString(getKey(@"talking_with"), @"talking with {0}", name);
 
         /// <summary>
         /// "chat"
@@ -97,7 +97,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Public channels you join via &lt;a href=&quot;{0}&quot;&gt;osu!lazer&lt;/a&gt; will also be visible here."
         /// </summary>
-        public static LocalisableString NoConversationsLazer(string link) => new TranslatableString(getKey(@"no-conversations.lazer"), @"Public channels you join via <a href=""{0}"">osu!lazer</a> will also be visible here.", link);
+        public static LocalisableString NoConversationsLazer(LocalisableString link) => new TranslatableString(getKey(@"no-conversations.lazer"), @"Public channels you join via <a href=""{0}"">osu!lazer</a> will also be visible here.", link);
 
         /// <summary>
         /// "no conversations yet"

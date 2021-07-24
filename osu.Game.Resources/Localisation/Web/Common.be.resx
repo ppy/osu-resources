@@ -76,8 +76,17 @@
   <data name="array_and.last_word_connector" xml:space="preserve">
     <value>, і </value>
   </data>
+  <data name="badges.new" xml:space="preserve">
+    <value>НОВАЕ</value>
+  </data>
   <data name="buttons.admin" xml:space="preserve">
     <value>Кіраўнік</value>
+  </data>
+  <data name="buttons.authorise" xml:space="preserve">
+    <value>Аўтарызацыя</value>
+  </data>
+  <data name="buttons.authorising" xml:space="preserve">
+    <value>Аўтарызіруемся...</value>
   </data>
   <data name="buttons.back_to_previous" xml:space="preserve">
     <value>Вярнуцца ў папярэднюю пазіцыю</value>
@@ -91,11 +100,17 @@
   <data name="buttons.change" xml:space="preserve">
     <value>змяніць</value>
   </data>
+  <data name="buttons.clear" xml:space="preserve">
+    <value>Ачысціць</value>
+  </data>
   <data name="buttons.click_to_copy" xml:space="preserve">
     <value>націсніце, каб скапіяваць</value>
   </data>
   <data name="buttons.click_to_copy_copied" xml:space="preserve">
     <value>скапіявана!</value>
+  </data>
+  <data name="buttons.close" xml:space="preserve">
+    <value>Зачыніць</value>
   </data>
   <data name="buttons.collapse" xml:space="preserve">
     <value>згарнуць</value>
@@ -115,8 +130,14 @@
   <data name="buttons.permalink" xml:space="preserve">
     <value>нязменная спасылка</value>
   </data>
+  <data name="buttons.pin" xml:space="preserve">
+    <value>замацаваць</value>
+  </data>
   <data name="buttons.post" xml:space="preserve">
     <value>Размясціць</value>
+  </data>
+  <data name="buttons.read_more" xml:space="preserve">
+    <value>чытаць далей</value>
   </data>
   <data name="buttons.reply" xml:space="preserve">
     <value>Адказаць</value>
@@ -151,11 +172,20 @@
   <data name="buttons.show_deleted" xml:space="preserve">
     <value>Паказ выдаленыя</value>
   </data>
+  <data name="buttons.show_less" xml:space="preserve">
+    <value>паказваць менш</value>
+  </data>
   <data name="buttons.show_more" xml:space="preserve">
     <value>паказаць больш</value>
   </data>
   <data name="buttons.show_more_options" xml:space="preserve">
     <value>паказаць больш параметраў</value>
+  </data>
+  <data name="buttons.unpin" xml:space="preserve">
+    <value>адмацаваць</value>
+  </data>
+  <data name="buttons.update" xml:space="preserve">
+    <value>Абнавіць</value>
   </data>
   <data name="buttons.upload_image" xml:space="preserve">
     <value>запампаваць выяву</value>
@@ -190,11 +220,26 @@
   <data name="count.months" xml:space="preserve">
     <value>{0} месяц|{0} месяцаў</value>
   </data>
+  <data name="count.notifications" xml:space="preserve">
+    <value>{0} апавяшчэнне|{0} апавяшчэнняў</value>
+  </data>
+  <data name="count.plus_others" xml:space="preserve">
+    <value>+ {0} іншый|+ {0} іншыя!</value>
+  </data>
+  <data name="count.post" xml:space="preserve">
+    <value>{0} пост|{0} пастоў</value>
+  </data>
   <data name="count.second_short_unit" xml:space="preserve">
     <value>сек</value>
   </data>
+  <data name="count.star_priority" xml:space="preserve">
+    <value>{0} прыярытэт зоркі|{0} прыярытэт зорак</value>
+  </data>
   <data name="count.update" xml:space="preserve">
     <value>{0} абнаўленне|{0} абнаўленняў</value>
+  </data>
+  <data name="count.view" xml:space="preserve">
+    <value>{0} выгляд|{0} поглядаў</value>
   </data>
   <data name="count.years" xml:space="preserve">
     <value>{0} год|{0} гады|{0} гадоў</value>
@@ -235,6 +280,9 @@
   <data name="dropzone.target" xml:space="preserve">
     <value>каб загрузіць, перацягніце сюды</value>
   </data>
+  <data name="input.search" xml:space="preserve">
+    <value>пошук...</value>
+  </data>
   <data name="pagination.previous" xml:space="preserve">
     <value>папер.</value>
   </data>
@@ -256,6 +304,33 @@
   <data name="score_count.count_miss" xml:space="preserve">
     <value>Промах</value>
   </data>
+  <data name="scoreboard_time.d" xml:space="preserve">
+    <value>%d дзён</value>
+  </data>
+  <data name="scoreboard_time.dd" xml:space="preserve">
+    <value>%d дзён</value>
+  </data>
+  <data name="scoreboard_time.h" xml:space="preserve">
+    <value>%d гадзін</value>
+  </data>
+  <data name="scoreboard_time.hh" xml:space="preserve">
+    <value>%d гадзін</value>
+  </data>
+  <data name="scoreboard_time.m" xml:space="preserve">
+    <value>%d месяцаў</value>
+  </data>
+  <data name="scoreboard_time.mm" xml:space="preserve">
+    <value>%d месяцаў</value>
+  </data>
+  <data name="scoreboard_time.s" xml:space="preserve">
+    <value>зараз</value>
+  </data>
+  <data name="scoreboard_time.y" xml:space="preserve">
+    <value>%d гадоў</value>
+  </data>
+  <data name="scoreboard_time.yy" xml:space="preserve">
+    <value>%d гадоў</value>
+  </data>
   <data name="time.days_ago" xml:space="preserve">
     <value>{0} дзень таму|{0} дні таму|{0} дзён таму</value>
   </data>
@@ -270,5 +345,11 @@
   </data>
   <data name="title.notice" xml:space="preserve">
     <value>Заўвага</value>
+  </data>
+  <data name="wrong_user._" xml:space="preserve">
+    <value>Вы ўвайшлі як {0}. {1}.</value>
+  </data>
+  <data name="wrong_user.logout_link" xml:space="preserve">
+    <value>Націсніце тут, каб увайсці як іншы карыстальнік</value>
   </data>
 </root>

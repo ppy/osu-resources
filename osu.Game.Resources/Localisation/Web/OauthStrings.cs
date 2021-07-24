@@ -42,7 +42,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Owned by {0}"
         /// </summary>
-        public static LocalisableString AuthorizedClientsOwnedBy(string user) => new TranslatableString(getKey(@"authorized_clients.owned_by"), @"Owned by {0}", user);
+        public static LocalisableString AuthorizedClientsOwnedBy(LocalisableString user) => new TranslatableString(getKey(@"authorized_clients.owned_by"), @"Owned by {0}", user);
 
         /// <summary>
         /// "No Clients"
@@ -112,7 +112,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "By using the API you are agreeing to the {0}."
         /// </summary>
-        public static LocalisableString NewClientTermsOfUseDefault(string link) => new TranslatableString(getKey(@"new_client.terms_of_use._"), @"By using the API you are agreeing to the {0}.", link);
+        public static LocalisableString NewClientTermsOfUseDefault(LocalisableString link) => new TranslatableString(getKey(@"new_client.terms_of_use._"), @"By using the API you are agreeing to the {0}.", link);
 
         /// <summary>
         /// "Terms of Use"

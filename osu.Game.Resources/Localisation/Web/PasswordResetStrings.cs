@@ -82,7 +82,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Resetting password for account &lt;strong&gt;{0}&lt;/strong&gt;."
         /// </summary>
-        public static LocalisableString StartedTitle(string username) => new TranslatableString(getKey(@"started.title"), @"Resetting password for account <strong>{0}</strong>.", username);
+        public static LocalisableString StartedTitle(LocalisableString username) => new TranslatableString(getKey(@"started.title"), @"Resetting password for account <strong>{0}</strong>.", username);
 
         /// <summary>
         /// "Verification code"
@@ -97,7 +97,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Need further assistance? Contact us via our {0}."
         /// </summary>
-        public static LocalisableString StartingSupportDefault(string button) => new TranslatableString(getKey(@"starting.support._"), @"Need further assistance? Contact us via our {0}.", button);
+        public static LocalisableString StartingSupportDefault(LocalisableString button) => new TranslatableString(getKey(@"starting.support._"), @"Need further assistance? Contact us via our {0}.", button);
 
         /// <summary>
         /// "support system"

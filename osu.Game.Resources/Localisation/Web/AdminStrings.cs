@@ -72,7 +72,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Forum #{0}: {1}"
         /// </summary>
-        public static LocalisableString ForumForumCoversIndexForumName(string id, string name) => new TranslatableString(getKey(@"forum.forum-covers.index.forum-name"), @"Forum #{0}: {1}", id, name);
+        public static LocalisableString ForumForumCoversIndexForumName(LocalisableString id, LocalisableString name) => new TranslatableString(getKey(@"forum.forum-covers.index.forum-name"), @"Forum #{0}: {1}", id, name);
 
         /// <summary>
         /// "No cover set"

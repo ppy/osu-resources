@@ -118,8 +118,17 @@
   <data name="disabled.warning" xml:space="preserve">
     <value>若你沒有遵守規則，我們原則上在一個月的期限以內不會考慮解禁您的帳號。在此之後，您如有需要，可以隨時聯絡我們。請注意，在一個帳號被封禁後創建新帳號會&lt;strong&gt;使您的封禁期限被延長&lt;/strong&gt;。而且&lt;strong&gt;每當您創建一個新帳號，您都是在更嚴重地破壞規則&lt;/strong&gt;。我們強烈建議您不要誤入歧途。</value>
   </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>如果您認為這是一個錯誤，歡迎您與我們聯繫（通過 {0} 或點擊本頁右下角的"？"）。請注意一點，我們始終對於我們的作為充滿信心，因為它基於非常可靠的資料證據。我們保留了無視您的請求的權利，如果我們認為您是故意不誠實。</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>電子郵件</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>您的帳戶已被視為盜用。在身份確認前，它可能將會被暫時停用。</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>有以下原因，會導致您的帳戶被停用：</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
     <value>您已違反一條或多條{0}或{1}</value>
@@ -129,6 +138,9 @@
   </data>
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>服務條款</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>成員按遊戲模式篩選</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>你的帳號已經一段時間沒有登入了</value>
@@ -289,6 +301,9 @@
   <data name="show.comments_count._" xml:space="preserve">
     <value>發表了 {0}</value>
   </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} 則留言|{0} 則留言</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>變更個人簡介封面</value>
   </data>
@@ -358,11 +373,11 @@
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>喜歡的圖譜</value>
   </data>
-  <data name="show.extra.beatmaps.ranked_and_approved.title" xml:space="preserve">
-    <value>已進榜和批准的譜面</value>
-  </data>
-  <data name="show.extra.beatmaps.unranked.title" xml:space="preserve">
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>待處理的圖譜</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>已進榜 &amp; 批准的圖譜</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>討論</value>
@@ -661,17 +676,17 @@
   <data name="show.stats.total_score" xml:space="preserve">
     <value>總分</value>
   </data>
-  <data name="show.stats.ranked_and_approved_beatmapset_count" xml:space="preserve">
-    <value>已進榜 &amp; 批准的圖譜</value>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>已拋棄的圖譜</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Loved 圖譜</value>
   </data>
-  <data name="show.stats.unranked_beatmapset_count" xml:space="preserve">
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>待處理的圖譜</value>
   </data>
-  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>已拋棄的圖譜</value>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>已進榜 &amp; 批准的圖譜</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>您正被禁言。</value>

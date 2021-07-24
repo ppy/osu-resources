@@ -284,6 +284,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString UsersModdingHistoryControllerDefault => new TranslatableString(getKey(@"users.modding_history_controller._"), @"modder info");
 
+        /// <summary>
+        /// "multiplayer history"
+        /// </summary>
+        public static LocalisableString UsersMultiplayerControllerDefault => new TranslatableString(getKey(@"users.multiplayer_controller._"), @"multiplayer history");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

@@ -61,6 +61,12 @@
   <data name="all_read" xml:space="preserve">
     <value>Усе апавяшчэнні прачытаныя!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Выдаліць {0}</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Загрузка непрачытаных апавяшчэнняў...</value>
+  </data>
   <data name="mark_read" xml:space="preserve">
     <value>Ачысціць {0}</value>
   </data>
@@ -69,6 +75,12 @@
   </data>
   <data name="see_all" xml:space="preserve">
     <value>гл. усе апавяшчэнні</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>схадзіць у чат</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Калі ласка, пацвердзіце сеанс для прагляду апавяшчэнняў</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>усе</value>
@@ -93,6 +105,15 @@
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Бітмапа</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Гасцявая цяжкасць</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Цяпер вы ўладальнік цяжкасці "{0}" на бітмапе "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Цяпер вы ўладальнік цяжкасці "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Абмеркаванне бітмапы</value>
@@ -175,6 +196,12 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>Бітмапа была ранкавана</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" была выдаленая з Любімых</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>Бітмапа была выдаленая з Любімых</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>Праблема, якую размясціў {0} выклікала скід намінацыі бітмапы "{1}" </value>
   </data>
@@ -189,6 +216,12 @@
   </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} пракаментаваў "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} адказаў "{1}" ў "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} адказаў "{1}"</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Чат</value>
@@ -217,6 +250,12 @@
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
     <value>{0} пракаментаваў "{1}"</value>
   </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} адказаў "{1}" ў "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} адказаў "{1}"</value>
+  </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Навіны</value>
   </data>
@@ -228,6 +267,12 @@
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
     <value>{0} пракаментаваў "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} адказаў "{1}" ў "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} адказаў "{1}"</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Тэма форуму</value>
@@ -247,6 +292,18 @@
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} непрачытанае паведамленне.|{0} ннепрачытанныя паведамленні.</value>
   </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Новая бітмапа</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Новая бітмапа "{0}" ад {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Новая бітмапа "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Новая бітмапа ад {0}</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Медалі</value>
   </data>
@@ -258,5 +315,68 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
     <value>Адкрыта "{0}"!</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
+    <value>Медалі разблакаваны!</value>
+  </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Цяпер вы госць бітмапы "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Дыскусія пра "{0}" была зачынена</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Дыскусія пра "{0}" мае новыя абнаўленні</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Дыскусія пра "{0}" была разблакавана</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Была выяўлена новая праблема на "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" была дыскваліфікавана</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>"{0}" была павышана да Любімых</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" была намінавана</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" набраў дастатковую колькасць намінацый і ўвайшоў у чаргу рэйтынгу</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" была ранкавана</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" была выдаленая з Любімых</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Намінацыя "{0}" была скідана</value>
+  </data>
+  <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>Бітмапа "{0}" мае новыя каментарыі</value>
+  </data>
+  <data name="mail.channel.channel.pm" xml:space="preserve">
+    <value>Вы атрымалі новае паведамленне ад {0}</value>
+  </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>Журнал зменаў "{0}" мае новыя каментарыі</value>
+  </data>
+  <data name="mail.news_post.comment.comment_new" xml:space="preserve">
+    <value>Навіны "{0}" маюць новыя каментарыі</value>
+  </data>
+  <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>Ёсць новыя адказы ў "{0}"</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>{0} разблакаваў нову медаль, "{1}"!</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
+    <value>Вы разблакавалі нову медаль, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} стварыў новыя бітмапы</value>
   </data>
 </root>

@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0}&#39;s Modding History"
         /// </summary>
-        public static LocalisableString BeatmapsetActivitiesTitle(string user) => new TranslatableString(getKey(@"beatmapset_activities.title"), @"{0}'s Modding History", user);
+        public static LocalisableString BeatmapsetActivitiesTitle(LocalisableString user) => new TranslatableString(getKey(@"beatmapset_activities.title"), @"{0}'s Modding History", user);
 
         /// <summary>
         /// "Modding"
@@ -57,7 +57,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "blocked users ({0})"
         /// </summary>
-        public static LocalisableString BlocksBlockedCount(string count) => new TranslatableString(getKey(@"blocks.blocked_count"), @"blocked users ({0})", count);
+        public static LocalisableString BlocksBlockedCount(LocalisableString count) => new TranslatableString(getKey(@"blocks.blocked_count"), @"blocked users ({0})", count);
 
         /// <summary>
         /// "Hide profile"
@@ -112,7 +112,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "If you feel this is a mistake, you are welcome to contact us (via {0} or by clicking the &quot;?&quot; in the bottom-right-hand corner of this page). Please note that we are always fully confident with our actions, as they are based on very solid data. We reserve the right to disregard your request should we feel you are being intentionally dishonest."
         /// </summary>
-        public static LocalisableString DisabledIfMistakeDefault(string email) => new TranslatableString(getKey(@"disabled.if_mistake._"), @"If you feel this is a mistake, you are welcome to contact us (via {0} or by clicking the ""?"" in the bottom-right-hand corner of this page). Please note that we are always fully confident with our actions, as they are based on very solid data. We reserve the right to disregard your request should we feel you are being intentionally dishonest.", email);
+        public static LocalisableString DisabledIfMistakeDefault(LocalisableString email) => new TranslatableString(getKey(@"disabled.if_mistake._"), @"If you feel this is a mistake, you are welcome to contact us (via {0} or by clicking the ""?"" in the bottom-right-hand corner of this page). Please note that we are always fully confident with our actions, as they are based on very solid data. We reserve the right to disregard your request should we feel you are being intentionally dishonest.", email);
 
         /// <summary>
         /// "email"
@@ -132,7 +132,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You have broken one or more of our {0} or {1}."
         /// </summary>
-        public static LocalisableString DisabledReasonsTosDefault(string communityRules, string tos) => new TranslatableString(getKey(@"disabled.reasons.tos._"), @"You have broken one or more of our {0} or {1}.", communityRules, tos);
+        public static LocalisableString DisabledReasonsTosDefault(LocalisableString communityRules, LocalisableString tos) => new TranslatableString(getKey(@"disabled.reasons.tos._"), @"You have broken one or more of our {0} or {1}.", communityRules, tos);
 
         /// <summary>
         /// "community rules"
@@ -237,7 +237,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0}&#39;s posts"
         /// </summary>
-        public static LocalisableString PostsTitle(string username) => new TranslatableString(getKey(@"posts.title"), @"{0}'s posts", username);
+        public static LocalisableString PostsTitle(LocalisableString username) => new TranslatableString(getKey(@"posts.title"), @"{0}'s posts", username);
 
         /// <summary>
         /// "click to sign in"
@@ -292,7 +292,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report {0}?"
         /// </summary>
-        public static LocalisableString ReportTitle(string username) => new TranslatableString(getKey(@"report.title"), @"Report {0}?", username);
+        public static LocalisableString ReportTitle(LocalisableString username) => new TranslatableString(getKey(@"report.title"), @"Report {0}?", username);
 
         /// <summary>
         /// "Send Report"
@@ -305,9 +305,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReportActionsCancel => new TranslatableString(getKey(@"report.actions.cancel"), @"Cancel");
 
         /// <summary>
-        /// "Foul play / Cheating"
+        /// "Cheating"
         /// </summary>
-        public static LocalisableString ReportOptionsCheating => new TranslatableString(getKey(@"report.options.cheating"), @"Foul play / Cheating");
+        public static LocalisableString ReportOptionsCheating => new TranslatableString(getKey(@"report.options.cheating"), @"Cheating");
+
+        /// <summary>
+        /// "Using multiple accounts"
+        /// </summary>
+        public static LocalisableString ReportOptionsMultipleAccounts => new TranslatableString(getKey(@"report.options.multiple_accounts"), @"Using multiple accounts");
 
         /// <summary>
         /// "Insulting me / others"
@@ -342,12 +347,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. If you wish to appeal your restriction, please &lt;a href=&quot;mailto{0}@ppy.sh&quot;&gt;contact support&lt;/a&gt;."
         /// </summary>
-        public static LocalisableString RestrictedBannerMessage(string accounts) => new TranslatableString(getKey(@"restricted_banner.message"), @"While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. If you wish to appeal your restriction, please <a href=""mailto{0}@ppy.sh"">contact support</a>.", accounts);
+        public static LocalisableString RestrictedBannerMessage(LocalisableString accounts) => new TranslatableString(getKey(@"restricted_banner.message"), @"While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. If you wish to appeal your restriction, please <a href=""mailto{0}@ppy.sh"">contact support</a>.", accounts);
 
         /// <summary>
         /// "{0} years old"
         /// </summary>
-        public static LocalisableString ShowAge(string age) => new TranslatableString(getKey(@"show.age"), @"{0} years old", age);
+        public static LocalisableString ShowAge(LocalisableString age) => new TranslatableString(getKey(@"show.age"), @"{0} years old", age);
 
         /// <summary>
         /// "change your avatar!"
@@ -372,12 +377,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Joined {0}"
         /// </summary>
-        public static LocalisableString ShowJoinedAt(string date) => new TranslatableString(getKey(@"show.joined_at"), @"Joined {0}", date);
+        public static LocalisableString ShowJoinedAt(LocalisableString date) => new TranslatableString(getKey(@"show.joined_at"), @"Joined {0}", date);
 
         /// <summary>
         /// "Last seen {0}"
         /// </summary>
-        public static LocalisableString ShowLastvisit(string date) => new TranslatableString(getKey(@"show.lastvisit"), @"Last seen {0}", date);
+        public static LocalisableString ShowLastvisit(LocalisableString date) => new TranslatableString(getKey(@"show.lastvisit"), @"Last seen {0}", date);
 
         /// <summary>
         /// "Currently online"
@@ -392,7 +397,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "From {0}"
         /// </summary>
-        public static LocalisableString ShowOriginCountry(string country) => new TranslatableString(getKey(@"show.origin_country"), @"From {0}", country);
+        public static LocalisableString ShowOriginCountry(LocalisableString country) => new TranslatableString(getKey(@"show.origin_country"), @"From {0}", country);
 
         /// <summary>
         /// "formerly known as"
@@ -402,22 +407,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Plays with {0}"
         /// </summary>
-        public static LocalisableString ShowPlaysWith(string devices) => new TranslatableString(getKey(@"show.plays_with"), @"Plays with {0}", devices);
+        public static LocalisableString ShowPlaysWith(LocalisableString devices) => new TranslatableString(getKey(@"show.plays_with"), @"Plays with {0}", devices);
 
         /// <summary>
         /// "{0}&#39;s profile"
         /// </summary>
-        public static LocalisableString ShowTitle(string username) => new TranslatableString(getKey(@"show.title"), @"{0}'s profile", username);
+        public static LocalisableString ShowTitle(LocalisableString username) => new TranslatableString(getKey(@"show.title"), @"{0}'s profile", username);
 
         /// <summary>
         /// "Posted {0}"
         /// </summary>
-        public static LocalisableString ShowCommentsCountDefault(string link) => new TranslatableString(getKey(@"show.comments_count._"), @"Posted {0}", link);
+        public static LocalisableString ShowCommentsCountDefault(LocalisableString link) => new TranslatableString(getKey(@"show.comments_count._"), @"Posted {0}", link);
 
         /// <summary>
         /// "{0} comment|{0} comments"
         /// </summary>
-        public static LocalisableString ShowCommentsCountCount(string countDelimited) => new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited);
+        public static LocalisableString ShowCommentsCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited);
 
         /// <summary>
         /// "Change Profile Cover"
@@ -467,7 +472,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Upload available for {0} only"
         /// </summary>
-        public static LocalisableString ShowEditCoverUploadRestrictionInfoDefault(string link) => new TranslatableString(getKey(@"show.edit.cover.upload.restriction_info._"), @"Upload available for {0} only", link);
+        public static LocalisableString ShowEditCoverUploadRestrictionInfoDefault(LocalisableString link) => new TranslatableString(getKey(@"show.edit.cover.upload.restriction_info._"), @"Upload available for {0} only", link);
 
         /// <summary>
         /// "osu!supporters"
@@ -482,7 +487,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "set {0} as profile default game mode"
         /// </summary>
-        public static LocalisableString ShowEditDefaultPlaymodeSet(string mode) => new TranslatableString(getKey(@"show.edit.default_playmode.set"), @"set {0} as profile default game mode", mode);
+        public static LocalisableString ShowEditDefaultPlaymodeSet(LocalisableString mode) => new TranslatableString(getKey(@"show.edit.default_playmode.set"), @"set {0} as profile default game mode", mode);
 
         /// <summary>
         /// "none"
@@ -497,7 +502,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Achieved on {0}"
         /// </summary>
-        public static LocalisableString ShowExtraAchievementsAchievedOn(string date) => new TranslatableString(getKey(@"show.extra.achievements.achieved-on"), @"Achieved on {0}", date);
+        public static LocalisableString ShowExtraAchievementsAchievedOn(LocalisableString date) => new TranslatableString(getKey(@"show.extra.achievements.achieved-on"), @"Achieved on {0}", date);
 
         /// <summary>
         /// "Locked"
@@ -512,7 +517,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString ShowExtraBeatmapsByArtist(string artist) => new TranslatableString(getKey(@"show.extra.beatmaps.by_artist"), @"by {0}", artist);
+        public static LocalisableString ShowExtraBeatmapsByArtist(LocalisableString artist) => new TranslatableString(getKey(@"show.extra.beatmaps.by_artist"), @"by {0}", artist);
 
         /// <summary>
         /// "Beatmaps"
@@ -602,7 +607,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "accuracy: {0}"
         /// </summary>
-        public static LocalisableString ShowExtraHistoricalRecentPlaysAccuracy(string percentage) => new TranslatableString(getKey(@"show.extra.historical.recent_plays.accuracy"), @"accuracy: {0}", percentage);
+        public static LocalisableString ShowExtraHistoricalRecentPlaysAccuracy(LocalisableString percentage) => new TranslatableString(getKey(@"show.extra.historical.recent_plays.accuracy"), @"accuracy: {0}", percentage);
 
         /// <summary>
         /// "Recent Plays (24h)"
@@ -637,7 +642,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} kudosu"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryAmount(string amount) => new TranslatableString(getKey(@"show.extra.kudosu.entry.amount"), @"{0} kudosu", amount);
+        public static LocalisableString ShowExtraKudosuEntryAmount(LocalisableString amount) => new TranslatableString(getKey(@"show.extra.kudosu.entry.amount"), @"{0} kudosu", amount);
 
         /// <summary>
         /// "This user hasn&#39;t received any kudosu!"
@@ -647,62 +652,62 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Received {0} from kudosu deny repeal of modding post {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionAllowKudosuGive(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give"), @"Received {0} from kudosu deny repeal of modding post {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionAllowKudosuGive(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give"), @"Received {0} from kudosu deny repeal of modding post {1}", amount, post);
 
         /// <summary>
         /// "Denied {0} from modding post {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionDenyKudosuReset(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset"), @"Denied {0} from modding post {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionDenyKudosuReset(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset"), @"Denied {0} from modding post {1}", amount, post);
 
         /// <summary>
         /// "Lost {0} from modding post deletion of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionDeleteReset(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.delete.reset"), @"Lost {0} from modding post deletion of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionDeleteReset(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.delete.reset"), @"Lost {0} from modding post deletion of {1}", amount, post);
 
         /// <summary>
         /// "Received {0} from modding post restoration of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRestoreGive(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.restore.give"), @"Received {0} from modding post restoration of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRestoreGive(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.restore.give"), @"Received {0} from modding post restoration of {1}", amount, post);
 
         /// <summary>
         /// "Received {0} from obtaining votes in modding post of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionVoteGive(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.vote.give"), @"Received {0} from obtaining votes in modding post of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionVoteGive(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.vote.give"), @"Received {0} from obtaining votes in modding post of {1}", amount, post);
 
         /// <summary>
         /// "Lost {0} from losing votes in modding post of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionVoteReset(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.vote.reset"), @"Lost {0} from losing votes in modding post of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionVoteReset(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.vote.reset"), @"Lost {0} from losing votes in modding post of {1}", amount, post);
 
         /// <summary>
         /// "Received {0} from votes recalculation in modding post of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRecalculateGive(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.recalculate.give"), @"Received {0} from votes recalculation in modding post of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRecalculateGive(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.recalculate.give"), @"Received {0} from votes recalculation in modding post of {1}", amount, post);
 
         /// <summary>
         /// "Lost {0} from votes recalculation in modding post of {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRecalculateReset(string amount, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.recalculate.reset"), @"Lost {0} from votes recalculation in modding post of {1}", amount, post);
+        public static LocalisableString ShowExtraKudosuEntryBeatmapDiscussionRecalculateReset(LocalisableString amount, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.beatmap_discussion.recalculate.reset"), @"Lost {0} from votes recalculation in modding post of {1}", amount, post);
 
         /// <summary>
         /// "Received {0} from {1} for a post at {2}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryForumPostGive(string amount, string giver, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.give"), @"Received {0} from {1} for a post at {2}", amount, giver, post);
+        public static LocalisableString ShowExtraKudosuEntryForumPostGive(LocalisableString amount, LocalisableString giver, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.give"), @"Received {0} from {1} for a post at {2}", amount, giver, post);
 
         /// <summary>
         /// "Kudosu reset by {0} for the post {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryForumPostReset(string giver, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.reset"), @"Kudosu reset by {0} for the post {1}", giver, post);
+        public static LocalisableString ShowExtraKudosuEntryForumPostReset(LocalisableString giver, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.reset"), @"Kudosu reset by {0} for the post {1}", giver, post);
 
         /// <summary>
         /// "Denied kudosu by {0} for the post {1}"
         /// </summary>
-        public static LocalisableString ShowExtraKudosuEntryForumPostRevoke(string giver, string post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.revoke"), @"Denied kudosu by {0} for the post {1}", giver, post);
+        public static LocalisableString ShowExtraKudosuEntryForumPostRevoke(LocalisableString giver, LocalisableString post) => new TranslatableString(getKey(@"show.extra.kudosu.entry.forum_post.revoke"), @"Denied kudosu by {0} for the post {1}", giver, post);
 
         /// <summary>
         /// "Based on how much of a contribution the user has made to beatmap moderation. See {0} for more information."
         /// </summary>
-        public static LocalisableString ShowExtraKudosuTotalInfoDefault(string link) => new TranslatableString(getKey(@"show.extra.kudosu.total_info._"), @"Based on how much of a contribution the user has made to beatmap moderation. See {0} for more information.", link);
+        public static LocalisableString ShowExtraKudosuTotalInfoDefault(LocalisableString link) => new TranslatableString(getKey(@"show.extra.kudosu.total_info._"), @"Based on how much of a contribution the user has made to beatmap moderation. See {0} for more information.", link);
 
         /// <summary>
         /// "this page"
@@ -728,6 +733,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Medals"
         /// </summary>
         public static LocalisableString ShowExtraMedalsTitle => new TranslatableString(getKey(@"show.extra.medals.title"), @"Medals");
+
+        /// <summary>
+        /// "Multiplayer Games"
+        /// </summary>
+        public static LocalisableString ShowExtraMultiplayerTitle => new TranslatableString(getKey(@"show.extra.multiplayer.title"), @"Multiplayer Games");
 
         /// <summary>
         /// "Posts"
@@ -762,7 +772,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "weighted {0}"
         /// </summary>
-        public static LocalisableString ShowExtraTopRanksPpWeight(string percentage) => new TranslatableString(getKey(@"show.extra.top_ranks.pp_weight"), @"weighted {0}", percentage);
+        public static LocalisableString ShowExtraTopRanksPpWeight(LocalisableString percentage) => new TranslatableString(getKey(@"show.extra.top_ranks.pp_weight"), @"weighted {0}", percentage);
 
         /// <summary>
         /// "View Details"
@@ -807,7 +817,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} vote|{0} votes"
         /// </summary>
-        public static LocalisableString ShowExtraVotesVoteCount(string countDelimited) => new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited);
+        public static LocalisableString ShowExtraVotesVoteCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited);
 
         /// <summary>
         /// "Account Standing"
@@ -817,12 +827,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&lt;strong&gt;{0}&#39;s&lt;/strong&gt; account is not in a good standing :("
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingBadStanding(string username) => new TranslatableString(getKey(@"show.extra.account_standing.bad_standing"), @"<strong>{0}'s</strong> account is not in a good standing :(", username);
+        public static LocalisableString ShowExtraAccountStandingBadStanding(LocalisableString username) => new TranslatableString(getKey(@"show.extra.account_standing.bad_standing"), @"<strong>{0}'s</strong> account is not in a good standing :(", username);
 
         /// <summary>
         /// "&lt;strong&gt;{0}&lt;/strong&gt; will be able to speak again {1}."
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingRemainingSilence(string username, string duration) => new TranslatableString(getKey(@"show.extra.account_standing.remaining_silence"), @"<strong>{0}</strong> will be able to speak again {1}.", username, duration);
+        public static LocalisableString ShowExtraAccountStandingRemainingSilence(LocalisableString username, LocalisableString duration) => new TranslatableString(getKey(@"show.extra.account_standing.remaining_silence"), @"<strong>{0}</strong> will be able to speak again {1}.", username, duration);
 
         /// <summary>
         /// "Recent Infringements"
@@ -857,7 +867,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingRecentInfringementsActor(string username) => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.actor"), @"by {0}", username);
+        public static LocalisableString ShowExtraAccountStandingRecentInfringementsActor(LocalisableString username) => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.actor"), @"by {0}", username);
 
         /// <summary>
         /// "Ban"
@@ -952,7 +962,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You need to be an {0} to unlock this feature."
         /// </summary>
-        public static LocalisableString ShowPageRestrictionInfoDefault(string link) => new TranslatableString(getKey(@"show.page.restriction_info._"), @"You need to be an {0} to unlock this feature.", link);
+        public static LocalisableString ShowPageRestrictionInfoDefault(LocalisableString link) => new TranslatableString(getKey(@"show.page.restriction_info._"), @"You need to be an {0} to unlock this feature.", link);
 
         /// <summary>
         /// "osu!supporter"
@@ -962,17 +972,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Contributed {0}"
         /// </summary>
-        public static LocalisableString ShowPostCountDefault(string link) => new TranslatableString(getKey(@"show.post_count._"), @"Contributed {0}", link);
+        public static LocalisableString ShowPostCountDefault(LocalisableString link) => new TranslatableString(getKey(@"show.post_count._"), @"Contributed {0}", link);
 
         /// <summary>
         /// "{0} forum post|{0} forum posts"
         /// </summary>
-        public static LocalisableString ShowPostCountCount(string countDelimited) => new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited);
+        public static LocalisableString ShowPostCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited);
 
         /// <summary>
         /// "Country rank for {0}"
         /// </summary>
-        public static LocalisableString ShowRankCountry(string mode) => new TranslatableString(getKey(@"show.rank.country"), @"Country rank for {0}", mode);
+        public static LocalisableString ShowRankCountry(LocalisableString mode) => new TranslatableString(getKey(@"show.rank.country"), @"Country rank for {0}", mode);
 
         /// <summary>
         /// "Country Ranking"
@@ -982,7 +992,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Global rank for {0}"
         /// </summary>
-        public static LocalisableString ShowRankGlobal(string mode) => new TranslatableString(getKey(@"show.rank.global"), @"Global rank for {0}", mode);
+        public static LocalisableString ShowRankGlobal(LocalisableString mode) => new TranslatableString(getKey(@"show.rank.global"), @"Global rank for {0}", mode);
 
         /// <summary>
         /// "Global Ranking"
@@ -997,7 +1007,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Level {0}"
         /// </summary>
-        public static LocalisableString ShowStatsLevel(string level) => new TranslatableString(getKey(@"show.stats.level"), @"Level {0}", level);
+        public static LocalisableString ShowStatsLevel(LocalisableString level) => new TranslatableString(getKey(@"show.stats.level"), @"Level {0}", level);
 
         /// <summary>
         /// "Progress to next level"
