@@ -67,20 +67,71 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Для падрабязнасцей націсніце тут.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Некаторыя актывы, якія змяшчаюцца на гэтай карце, былі выдалены пасля прызнання непрыдатнымі для выкарыстання ў osu!.</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Запавольвайце, гуляйце больш.</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Спіс бітмап</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Бітмапы</value>
   </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>няма бітмап</value>
+  </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>спампаваць</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>спампаваць з відэа</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>спампаваць без відэа</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>адкрыць у osu!direct</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Гібрыдная бітмапа патрабуе выбраць хаця б адзін рэжым прайгравання для намінацыі.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>У вас няма дазволу на намінаванне на рэжым {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Вы павінны быць поўным намінантам для выканання гэтай кваліфікацыйнай намінацыі.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Патрабаванне да намінацыі ужо выканана.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Вы сапраўды жадаеце намінаваць гэту бiтмапу?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Намінаваць бiтмапу</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>заўвага: вы можаце намінаваць толькі адзін раз, таму, калі ласка, пераканайцеся, што вы вылучаецеся для ўсіх рэжымаў гульні, якіх вы збіраецеся</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Намінаваць для якіх рэжымаў?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>18+</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Абмеркаванне</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>ад {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Дадаць да абраных</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Увайдзіце, каб дадаць бітмапу ў абраныя</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Каб спампаваць нейкую бітмапу, вам трэба ўвайсці!</value>
@@ -109,6 +160,24 @@
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Увайсці</value>
   </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>зацверджана {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>любімая {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>кваліфікавана {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>ранкавана {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>апублікаваная {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>апошняе абнаўленне {0}</value>
+  </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
     <value>Вы маеце зашмат абраных бітмап! Калі ласка, выдаліце некатрыя з іх і паўтарыце спробу.</value>
   </data>
@@ -126,6 +195,12 @@
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>праца ў працэсе</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Калі вы выявіце праблему з гэтай бітмапай, дыскваліфікуйце яе {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Калі вы выявілі праблему з гэтай бітмапай, паведаміце пра гэта {0} каб папярэдзіць каманду.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Паведаміць аб праблеме</value>
@@ -145,17 +220,41 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Усё яшчэ ідзе падлік даных...</value>
   </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Непрыстойны змест</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Колькасць правалаў</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Крыніца</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Гэта карта ўтрымлівае раскадроўку</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Шанц поспеху</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Тэгі</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Гэта карта ўтрымлівае відэа</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Гэта карта ўтрымання змяшчае відавочны, абразлівы альбо трывожны змест. Хочаце прагледзець яго ў любым выпадку?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Непрыстойны змест</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Адключыць папярэджанне</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Спіс бітмап</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Паказаць</value>
   </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>дасягнуты {0}</value>
@@ -201,6 +300,9 @@
   </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Ачкі</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Час</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
     <value>Ніхто з вашай краіны яшчэ не гуляў на гэтай мапе!</value>
@@ -268,11 +370,17 @@
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ранкавана</value>
   </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Зацверджана</value>
+  </data>
   <data name="show.status.loved" xml:space="preserve">
     <value>Любімая</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Кваліфікавана</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>У распрацоўцы</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
     <value>У чаканні</value>

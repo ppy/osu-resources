@@ -64,8 +64,11 @@
   <data name="delete" xml:space="preserve">
     <value>{0} tisztítása</value>
   </data>
+  <data name="loading" xml:space="preserve">
+    <value>Olvasatlan értesítések betöltése...</value>
+  </data>
   <data name="mark_read" xml:space="preserve">
-    <value>Típus törlése {0}</value>
+    <value>{0} törlése</value>
   </data>
   <data name="none" xml:space="preserve">
     <value>Nincsenek értesítések</value>
@@ -75,6 +78,9 @@
   </data>
   <data name="see_channel" xml:space="preserve">
     <value>menjen a csevegéshez</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Az értesítések megtekintéséhez hitelesítse a munkamenetet</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>összes</value>
@@ -99,6 +105,15 @@
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Vendég nehézség</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Mostantól tulajdonosa vagy a(z) "{0}" beatmap "{1}" nehézségének</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Mostantól "{0}" nehézség tulajdonosa vagy</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Beatmap megbeszélés</value>
@@ -278,6 +293,18 @@
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} olvasatlan üzenet.|{0} olvasatlan üzenet.</value>
   </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Új beatmap</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Új "{0}" beatmap {1} által</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Új beatmap: "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Új beatmap-ek {0} által</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medálok</value>
   </data>
@@ -292,6 +319,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medálok feloldva!</value>
+  </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Mostantól vendégje vagy "{0}" beatmap-nek</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>A hozzászolás le lett tiltva ezen a beamapen:{0}</value>
@@ -346,5 +376,8 @@
   </data>
   <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
     <value>Feloldottál egy új medált! "{0}"</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} új beatmap-eket hozott létre</value>
   </data>
 </root>

@@ -47,7 +47,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Cover size should be at {0}. You can also drop your image here to upload."
         /// </summary>
-        public static LocalisableString CoversCreateInfo(string dimensions) => new TranslatableString(getKey(@"covers.create.info"), @"Cover size should be at {0}. You can also drop your image here to upload.", dimensions);
+        public static LocalisableString CoversCreateInfo(LocalisableString dimensions) => new TranslatableString(getKey(@"covers.create.info"), @"Cover size should be at {0}. You can also drop your image here to upload.", dimensions);
 
         /// <summary>
         /// "Remove cover"
@@ -102,17 +102,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Last edited by {0} {1}, edited {2} time in total.|Last edited by {0} {1}, edited {2} times in total."
         /// </summary>
-        public static LocalisableString PostEdited(string user, string when, string countDelimited) => new TranslatableString(getKey(@"post.edited"), @"Last edited by {0} {1}, edited {2} time in total.|Last edited by {0} {1}, edited {2} times in total.", user, when, countDelimited);
+        public static LocalisableString PostEdited(LocalisableString user, LocalisableString when, LocalisableString countDelimited) => new TranslatableString(getKey(@"post.edited"), @"Last edited by {0} {1}, edited {2} time in total.|Last edited by {0} {1}, edited {2} times in total.", user, when, countDelimited);
 
         /// <summary>
         /// "posted {0}"
         /// </summary>
-        public static LocalisableString PostPostedAt(string when) => new TranslatableString(getKey(@"post.posted_at"), @"posted {0}", when);
+        public static LocalisableString PostPostedAt(LocalisableString when) => new TranslatableString(getKey(@"post.posted_at"), @"posted {0}", when);
 
         /// <summary>
         /// "posted by {0}"
         /// </summary>
-        public static LocalisableString PostPostedBy(string username) => new TranslatableString(getKey(@"post.posted_by"), @"posted by {0}", username);
+        public static LocalisableString PostPostedBy(LocalisableString username) => new TranslatableString(getKey(@"post.posted_by"), @"posted by {0}", username);
 
         /// <summary>
         /// "Delete post"
@@ -142,7 +142,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} post|{0} posts"
         /// </summary>
-        public static LocalisableString PostInfoPostCount(string countDelimited) => new TranslatableString(getKey(@"post.info.post_count"), @"{0} post|{0} posts", countDelimited);
+        public static LocalisableString PostInfoPostCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"post.info.post_count"), @"{0} post|{0} posts", countDelimited);
 
         /// <summary>
         /// "Topic Starter"
@@ -162,7 +162,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} posts total"
         /// </summary>
-        public static LocalisableString SearchTotalPosts(string postsCount) => new TranslatableString(getKey(@"search.total_posts"), @"{0} posts total", postsCount);
+        public static LocalisableString SearchTotalPosts(LocalisableString postsCount) => new TranslatableString(getKey(@"search.total_posts"), @"{0} posts total", postsCount);
 
         /// <summary>
         /// "Really delete topic?"
@@ -192,17 +192,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "in {0}"
         /// </summary>
-        public static LocalisableString TopicInForum(string forum) => new TranslatableString(getKey(@"topic.in_forum"), @"in {0}", forum);
+        public static LocalisableString TopicInForum(LocalisableString forum) => new TranslatableString(getKey(@"topic.in_forum"), @"in {0}", forum);
 
         /// <summary>
         /// "{0} by {1}"
         /// </summary>
-        public static LocalisableString TopicLatestPost(string when, string user) => new TranslatableString(getKey(@"topic.latest_post"), @"{0} by {1}", when, user);
+        public static LocalisableString TopicLatestPost(LocalisableString when, LocalisableString user) => new TranslatableString(getKey(@"topic.latest_post"), @"{0} by {1}", when, user);
 
         /// <summary>
         /// "last reply by {0}"
         /// </summary>
-        public static LocalisableString TopicLatestReplyBy(string user) => new TranslatableString(getKey(@"topic.latest_reply_by"), @"last reply by {0}", user);
+        public static LocalisableString TopicLatestReplyBy(LocalisableString user) => new TranslatableString(getKey(@"topic.latest_reply_by"), @"last reply by {0}", user);
 
         /// <summary>
         /// "New topic"
@@ -232,12 +232,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString TopicStartedBy(string user) => new TranslatableString(getKey(@"topic.started_by"), @"by {0}", user);
+        public static LocalisableString TopicStartedBy(LocalisableString user) => new TranslatableString(getKey(@"topic.started_by"), @"by {0}", user);
 
         /// <summary>
         /// "started by {0}"
         /// </summary>
-        public static LocalisableString TopicStartedByVerbose(string user) => new TranslatableString(getKey(@"topic.started_by_verbose"), @"started by {0}", user);
+        public static LocalisableString TopicStartedByVerbose(LocalisableString user) => new TranslatableString(getKey(@"topic.started_by_verbose"), @"started by {0}", user);
 
         /// <summary>
         /// "Delete topic"
@@ -277,7 +277,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This topic has been inactive for a while. If you don&#39;t have a specific reason to post here, please {0} instead."
         /// </summary>
-        public static LocalisableString TopicCreateNecropostNewTopicDefault(string create) => new TranslatableString(getKey(@"topic.create.necropost.new_topic._"), @"This topic has been inactive for a while. If you don't have a specific reason to post here, please {0} instead.", create);
+        public static LocalisableString TopicCreateNecropostNewTopicDefault(LocalisableString create) => new TranslatableString(getKey(@"topic.create.necropost.new_topic._"), @"This topic has been inactive for a while. If you don't have a specific reason to post here, please {0} instead.", create);
 
         /// <summary>
         /// "create a new topic"
@@ -347,12 +347,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You subscribed to {0} topics."
         /// </summary>
-        public static LocalisableString TopicWatchesIndexInfoTotal(string total) => new TranslatableString(getKey(@"topic_watches.index.info.total"), @"You subscribed to {0} topics.", total);
+        public static LocalisableString TopicWatchesIndexInfoTotal(LocalisableString total) => new TranslatableString(getKey(@"topic_watches.index.info.total"), @"You subscribed to {0} topics.", total);
 
         /// <summary>
         /// "You have {0} unread replies to subscribed topics."
         /// </summary>
-        public static LocalisableString TopicWatchesIndexInfoUnread(string unread) => new TranslatableString(getKey(@"topic_watches.index.info.unread"), @"You have {0} unread replies to subscribed topics.", unread);
+        public static LocalisableString TopicWatchesIndexInfoUnread(LocalisableString unread) => new TranslatableString(getKey(@"topic_watches.index.info.unread"), @"You have {0} unread replies to subscribed topics.", unread);
 
         /// <summary>
         /// "Unsubscribe from topic?"
@@ -717,7 +717,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Current Priority: +{0}"
         /// </summary>
-        public static LocalisableString TopicsShowFeatureVoteCurrent(string count) => new TranslatableString(getKey(@"topics.show.feature_vote.current"), @"Current Priority: +{0}", count);
+        public static LocalisableString TopicsShowFeatureVoteCurrent(LocalisableString count) => new TranslatableString(getKey(@"topics.show.feature_vote.current"), @"Current Priority: +{0}", count);
 
         /// <summary>
         /// "Promote this request"
@@ -727,7 +727,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This is a {0}. Feature requests can be voted up by {1}."
         /// </summary>
-        public static LocalisableString TopicsShowFeatureVoteInfoDefault(string featureRequest, string supporters) => new TranslatableString(getKey(@"topics.show.feature_vote.info._"), @"This is a {0}. Feature requests can be voted up by {1}.", featureRequest, supporters);
+        public static LocalisableString TopicsShowFeatureVoteInfoDefault(LocalisableString featureRequest, LocalisableString supporters) => new TranslatableString(getKey(@"topics.show.feature_vote.info._"), @"This is a {0}. Feature requests can be voted up by {1}.", featureRequest, supporters);
 
         /// <summary>
         /// "feature request"
@@ -742,12 +742,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} no votes|{1} {0} vote|[2,*] {0} votes"
         /// </summary>
-        public static LocalisableString TopicsShowFeatureVoteUserCount(string countDelimited) => new TranslatableString(getKey(@"topics.show.feature_vote.user.count"), @"{0} no votes|{1} {0} vote|[2,*] {0} votes", countDelimited);
+        public static LocalisableString TopicsShowFeatureVoteUserCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"topics.show.feature_vote.user.count"), @"{0} no votes|{1} {0} vote|[2,*] {0} votes", countDelimited);
 
         /// <summary>
         /// "You have {0} remaining."
         /// </summary>
-        public static LocalisableString TopicsShowFeatureVoteUserCurrent(string votes) => new TranslatableString(getKey(@"topics.show.feature_vote.user.current"), @"You have {0} remaining.", votes);
+        public static LocalisableString TopicsShowFeatureVoteUserCurrent(LocalisableString votes) => new TranslatableString(getKey(@"topics.show.feature_vote.user.current"), @"You have {0} remaining.", votes);
 
         /// <summary>
         /// "You don&#39;t have any more votes remaining"
@@ -792,12 +792,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Polling will end at {0}"
         /// </summary>
-        public static LocalisableString TopicsShowPollDetailEndTime(string time) => new TranslatableString(getKey(@"topics.show.poll.detail.end_time"), @"Polling will end at {0}", time);
+        public static LocalisableString TopicsShowPollDetailEndTime(LocalisableString time) => new TranslatableString(getKey(@"topics.show.poll.detail.end_time"), @"Polling will end at {0}", time);
 
         /// <summary>
         /// "Polling ended {0}"
         /// </summary>
-        public static LocalisableString TopicsShowPollDetailEnded(string time) => new TranslatableString(getKey(@"topics.show.poll.detail.ended"), @"Polling ended {0}", time);
+        public static LocalisableString TopicsShowPollDetailEnded(LocalisableString time) => new TranslatableString(getKey(@"topics.show.poll.detail.ended"), @"Polling ended {0}", time);
 
         /// <summary>
         /// "Results will be shown after polling ends."
@@ -807,7 +807,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Total votes: {0}"
         /// </summary>
-        public static LocalisableString TopicsShowPollDetailTotal(string count) => new TranslatableString(getKey(@"topics.show.poll.detail.total"), @"Total votes: {0}", count);
+        public static LocalisableString TopicsShowPollDetailTotal(LocalisableString count) => new TranslatableString(getKey(@"topics.show.poll.detail.total"), @"Total votes: {0}", count);
 
         /// <summary>
         /// "Not bookmarked"

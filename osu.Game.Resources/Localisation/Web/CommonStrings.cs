@@ -242,12 +242,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} badge|{0} badges"
         /// </summary>
-        public static LocalisableString CountBadges(string countDelimited) => new TranslatableString(getKey(@"count.badges"), @"{0} badge|{0} badges", countDelimited);
+        public static LocalisableString CountBadges(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.badges"), @"{0} badge|{0} badges", countDelimited);
 
         /// <summary>
         /// "{0} day|{0} days"
         /// </summary>
-        public static LocalisableString CountDays(string countDelimited) => new TranslatableString(getKey(@"count.days"), @"{0} day|{0} days", countDelimited);
+        public static LocalisableString CountDays(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.days"), @"{0} day|{0} days", countDelimited);
 
         /// <summary>
         /// "hr|hrs"
@@ -257,12 +257,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} hour|{0} hours"
         /// </summary>
-        public static LocalisableString CountHours(string countDelimited) => new TranslatableString(getKey(@"count.hours"), @"{0} hour|{0} hours", countDelimited);
+        public static LocalisableString CountHours(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.hours"), @"{0} hour|{0} hours", countDelimited);
 
         /// <summary>
         /// "{0} unit|{0} units"
         /// </summary>
-        public static LocalisableString CountItem(string countDelimited) => new TranslatableString(getKey(@"count.item"), @"{0} unit|{0} units", countDelimited);
+        public static LocalisableString CountItem(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.item"), @"{0} unit|{0} units", countDelimited);
 
         /// <summary>
         /// "min|mins"
@@ -272,27 +272,27 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} minute|{0} minutes"
         /// </summary>
-        public static LocalisableString CountMinutes(string countDelimited) => new TranslatableString(getKey(@"count.minutes"), @"{0} minute|{0} minutes", countDelimited);
+        public static LocalisableString CountMinutes(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.minutes"), @"{0} minute|{0} minutes", countDelimited);
 
         /// <summary>
         /// "{0} month|{0} months"
         /// </summary>
-        public static LocalisableString CountMonths(string countDelimited) => new TranslatableString(getKey(@"count.months"), @"{0} month|{0} months", countDelimited);
+        public static LocalisableString CountMonths(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.months"), @"{0} month|{0} months", countDelimited);
 
         /// <summary>
         /// "{0} notification|{0} notifications"
         /// </summary>
-        public static LocalisableString CountNotifications(string countDelimited) => new TranslatableString(getKey(@"count.notifications"), @"{0} notification|{0} notifications", countDelimited);
+        public static LocalisableString CountNotifications(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.notifications"), @"{0} notification|{0} notifications", countDelimited);
 
         /// <summary>
         /// "+ {0} other!|+ {0} others!"
         /// </summary>
-        public static LocalisableString CountPlusOthers(string countDelimited) => new TranslatableString(getKey(@"count.plus_others"), @"+ {0} other!|+ {0} others!", countDelimited);
+        public static LocalisableString CountPlusOthers(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.plus_others"), @"+ {0} other!|+ {0} others!", countDelimited);
 
         /// <summary>
         /// "{0} post|{0} posts"
         /// </summary>
-        public static LocalisableString CountPost(string countDelimited) => new TranslatableString(getKey(@"count.post"), @"{0} post|{0} posts", countDelimited);
+        public static LocalisableString CountPost(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.post"), @"{0} post|{0} posts", countDelimited);
 
         /// <summary>
         /// "sec|secs"
@@ -302,22 +302,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} star priority|{0} star priorities"
         /// </summary>
-        public static LocalisableString CountStarPriority(string countDelimited) => new TranslatableString(getKey(@"count.star_priority"), @"{0} star priority|{0} star priorities", countDelimited);
+        public static LocalisableString CountStarPriority(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.star_priority"), @"{0} star priority|{0} star priorities", countDelimited);
 
         /// <summary>
         /// "{0} update|{0} updates"
         /// </summary>
-        public static LocalisableString CountUpdate(string countDelimited) => new TranslatableString(getKey(@"count.update"), @"{0} update|{0} updates", countDelimited);
+        public static LocalisableString CountUpdate(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.update"), @"{0} update|{0} updates", countDelimited);
 
         /// <summary>
         /// "{0} view|{0} views"
         /// </summary>
-        public static LocalisableString CountView(string countDelimited) => new TranslatableString(getKey(@"count.view"), @"{0} view|{0} views", countDelimited);
+        public static LocalisableString CountView(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.view"), @"{0} view|{0} views", countDelimited);
 
         /// <summary>
         /// "{0} year|{0} years"
         /// </summary>
-        public static LocalisableString CountYears(string countDelimited) => new TranslatableString(getKey(@"count.years"), @"{0} year|{0} years", countDelimited);
+        public static LocalisableString CountYears(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.years"), @"{0} year|{0} years", countDelimited);
 
         /// <summary>
         /// "days"
@@ -477,12 +477,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} day ago|{0} days ago"
         /// </summary>
-        public static LocalisableString TimeDaysAgo(string countDelimited) => new TranslatableString(getKey(@"time.days_ago"), @"{0} day ago|{0} days ago", countDelimited);
+        public static LocalisableString TimeDaysAgo(LocalisableString countDelimited) => new TranslatableString(getKey(@"time.days_ago"), @"{0} day ago|{0} days ago", countDelimited);
 
         /// <summary>
         /// "{0} hour ago|{0} hours ago"
         /// </summary>
-        public static LocalisableString TimeHoursAgo(string countDelimited) => new TranslatableString(getKey(@"time.hours_ago"), @"{0} hour ago|{0} hours ago", countDelimited);
+        public static LocalisableString TimeHoursAgo(LocalisableString countDelimited) => new TranslatableString(getKey(@"time.hours_ago"), @"{0} hour ago|{0} hours ago", countDelimited);
 
         /// <summary>
         /// "now"
@@ -502,7 +502,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You&#39;re signed in as {0}. {1}."
         /// </summary>
-        public static LocalisableString WrongUserDefault(string user, string logoutLink) => new TranslatableString(getKey(@"wrong_user._"), @"You're signed in as {0}. {1}.", user, logoutLink);
+        public static LocalisableString WrongUserDefault(LocalisableString user, LocalisableString logoutLink) => new TranslatableString(getKey(@"wrong_user._"), @"You're signed in as {0}. {1}.", user, logoutLink);
 
         /// <summary>
         /// "Click here to sign in as different user"

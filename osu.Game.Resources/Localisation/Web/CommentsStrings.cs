@@ -15,14 +15,24 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Deleted => new TranslatableString(getKey(@"deleted"), @"deleted");
 
         /// <summary>
+        /// "deleted {0} by {1}"
+        /// </summary>
+        public static LocalisableString DeletedBy(LocalisableString timeago, LocalisableString user) => new TranslatableString(getKey(@"deleted_by"), @"deleted {0} by {1}", timeago, user);
+
+        /// <summary>
+        /// "system"
+        /// </summary>
+        public static LocalisableString DeletedBySystem => new TranslatableString(getKey(@"deleted_by_system"), @"system");
+
+        /// <summary>
         /// "{0} deleted comment|{0} deleted comments"
         /// </summary>
-        public static LocalisableString DeletedCount(string countDelimited) => new TranslatableString(getKey(@"deleted_count"), @"{0} deleted comment|{0} deleted comments", countDelimited);
+        public static LocalisableString DeletedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"deleted_count"), @"{0} deleted comment|{0} deleted comments", countDelimited);
 
         /// <summary>
         /// "edited {0} by {1}"
         /// </summary>
-        public static LocalisableString Edited(string timeago, string user) => new TranslatableString(getKey(@"edited"), @"edited {0} by {1}", timeago, user);
+        public static LocalisableString Edited(LocalisableString timeago, LocalisableString user) => new TranslatableString(getKey(@"edited"), @"edited {0} by {1}", timeago, user);
 
         /// <summary>
         /// "pinned"
@@ -42,7 +52,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} reply|{0} replies"
         /// </summary>
-        public static LocalisableString RepliesCount(string countDelimited) => new TranslatableString(getKey(@"replies_count"), @"{0} reply|{0} replies", countDelimited);
+        public static LocalisableString RepliesCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"replies_count"), @"{0} reply|{0} replies", countDelimited);
 
         /// <summary>
         /// "Comments"
@@ -72,7 +82,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Press enter to {0}. Use shift+enter for new line."
         /// </summary>
-        public static LocalisableString EditorTextareaHintDefault(string action) => new TranslatableString(getKey(@"editor.textarea_hint._"), @"Press enter to {0}. Use shift+enter for new line.", action);
+        public static LocalisableString EditorTextareaHintDefault(LocalisableString action) => new TranslatableString(getKey(@"editor.textarea_hint._"), @"Press enter to {0}. Use shift+enter for new line.", action);
 
         /// <summary>
         /// "save"

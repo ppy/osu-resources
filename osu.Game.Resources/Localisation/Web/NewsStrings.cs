@@ -37,7 +37,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString ShowBy(string user) => new TranslatableString(getKey(@"show.by"), @"by {0}", user);
+        public static LocalisableString ShowBy(LocalisableString user) => new TranslatableString(getKey(@"show.by"), @"by {0}", user);
 
         /// <summary>
         /// "Newer post"

@@ -79,6 +79,9 @@
   <data name="see_channel" xml:space="preserve">
     <value>前往聊天</value>
   </data>
+  <data name="verifying" xml:space="preserve">
+    <value>請驗證會話以查看通知</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>全部</value>
   </data>
@@ -133,6 +136,12 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>{0} 的新主題</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
+    <value>{0} 在《{1}》上發表了新的審閱，问题：{2}，建议：{3}，赞：{4}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
+    <value>{0} 发表了新的审阅，问题：{1}，建议：{2}，赞：{3}</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>討論於 "{0}" 已解鎖</value>
   </data>
@@ -141,6 +150,15 @@
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
     <value>Qualified 圖譜問題</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>{0} 在「{1}」中回報問題：「{2}」</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
+    <value>{0} 在「{1}」中回報問題</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
+    <value>{0} 回報問題「{1}」</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
     <value>由 {0} 回報</value>
@@ -178,6 +196,12 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>圖譜已進榜</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>「{0}」已從 Loved 中移除</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>圖譜已從 Loved 中移除</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>「{0}」的提名已被重置</value>
   </data>
@@ -192,6 +216,12 @@
   </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} 評論了 「{1}」</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} 在「{1}」中回覆了「{2}」</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} 回覆了「{1}」</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>聊天</value>
@@ -220,6 +250,12 @@
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
     <value>{0} 評論了 「{1}」</value>
   </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} 在「{1}」中回覆了「{2}」</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} 回覆了「{1}」</value>
+  </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>最新消息</value>
   </data>
@@ -231,6 +267,12 @@
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
     <value>{0} 評論了 「{1}」</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} 在「{1}」中回覆了「{2}」</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} 回覆了「{1}」</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>論壇主題</value>
@@ -256,6 +298,12 @@
   <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} 上傳了標題為 “{1}” 的新圖譜</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>新圖譜 "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>{0} 上傳了新圖譜</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>成就</value>
   </data>
@@ -274,11 +322,56 @@
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>您現在是圖譜 "{0}" 的客串作者</value>
   </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>「{0}」的討論已被鎖定</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>「{0}」的討論有新的更新</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>「{0}」的討論已解除鎖定</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>「{0}」中被回報了一個新問題</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>「{0}」已被取消資格</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>「{0}」被提升為 loved</value>
+  </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" 已被提名</value>
   </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>「{0}」已獲得足夠的提名，因此進入了上架隊列</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>「{0}」已進榜</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>「{0}」已從 Loved 中移除</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>「{0}」的提名已被重置</value>
+  </data>
+  <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>圖譜【{0}】中有新的留言</value>
+  </data>
   <data name="mail.channel.channel.pm" xml:space="preserve">
     <value>您收到了來自 {0} 的新訊息</value>
+  </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>更新日誌【{0}】中有新的留言</value>
+  </data>
+  <data name="mail.news_post.comment.comment_new" xml:space="preserve">
+    <value>新聞【{0}】中有新的留言</value>
+  </data>
+  <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>"{0}" 中有新的回覆</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>{0} 解鎖了新成就，"{1}"！</value>
   </data>
   <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
     <value>您已解鎖了新成就 "{0}"！</value>

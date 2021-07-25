@@ -12,7 +12,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "An email has been sent to {0} with a verification code. Enter the code."
         /// </summary>
-        public static LocalisableString BoxSent(string mail) => new TranslatableString(getKey(@"box.sent"), @"An email has been sent to {0} with a verification code. Enter the code.", mail);
+        public static LocalisableString BoxSent(LocalisableString mail) => new TranslatableString(getKey(@"box.sent"), @"An email has been sent to {0} with a verification code. Enter the code.", mail);
 
         /// <summary>
         /// "Account Verification"
@@ -37,7 +37,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "If you can&#39;t access your email or have forgotten what you used, please follow the {0}."
         /// </summary>
-        public static LocalisableString BoxInfoRecover(string link) => new TranslatableString(getKey(@"box.info.recover"), @"If you can't access your email or have forgotten what you used, please follow the {0}.", link);
+        public static LocalisableString BoxInfoRecover(LocalisableString link) => new TranslatableString(getKey(@"box.info.recover"), @"If you can't access your email or have forgotten what you used, please follow the {0}.", link);
 
         /// <summary>
         /// "email recovery process here"
@@ -47,7 +47,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You can also {0} or {1}."
         /// </summary>
-        public static LocalisableString BoxInfoReissue(string reissueLink, string logoutLink) => new TranslatableString(getKey(@"box.info.reissue"), @"You can also {0} or {1}.", reissueLink, logoutLink);
+        public static LocalisableString BoxInfoReissue(LocalisableString reissueLink, LocalisableString logoutLink) => new TranslatableString(getKey(@"box.info.reissue"), @"You can also {0} or {1}.", reissueLink, logoutLink);
 
         /// <summary>
         /// "request another code"

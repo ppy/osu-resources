@@ -95,6 +95,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderUsersModding => new TranslatableString(getKey(@"header.users.modding"), @"modding");
 
         /// <summary>
+        /// "multiplayer"
+        /// </summary>
+        public static LocalisableString HeaderUsersMultiplayer => new TranslatableString(getKey(@"header.users.multiplayer"), @"multiplayer");
+
+        /// <summary>
         /// "info"
         /// </summary>
         public static LocalisableString HeaderUsersShow => new TranslatableString(getKey(@"header.users.show"), @"info");
@@ -477,7 +482,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Maintenance usually takes anywhere from 5 seconds to 10 minutes. If we&#39;re down for longer, see {0} for more information."
         /// </summary>
-        public static LocalisableString Errors503Description(string link) => new TranslatableString(getKey(@"errors.503.description"), @"Maintenance usually takes anywhere from 5 seconds to 10 minutes. If we're down for longer, see {0} for more information.", link);
+        public static LocalisableString Errors503Description(LocalisableString link) => new TranslatableString(getKey(@"errors.503.description"), @"Maintenance usually takes anywhere from 5 seconds to 10 minutes. If we're down for longer, see {0} for more information.", link);
 
         /// <summary>
         /// "@osustatus"

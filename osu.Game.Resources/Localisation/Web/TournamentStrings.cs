@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Registration: {0} to {1}"
         /// </summary>
-        public static LocalisableString IndexRegistrationPeriod(string start, string end) => new TranslatableString(getKey(@"index.registration_period"), @"Registration: {0} to {1}", start, end);
+        public static LocalisableString IndexRegistrationPeriod(LocalisableString start, LocalisableString end) => new TranslatableString(getKey(@"index.registration_period"), @"Registration: {0} to {1}", start, end);
 
         /// <summary>
         /// "Community Tournaments"
@@ -57,7 +57,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Please {0} to view registration details!"
         /// </summary>
-        public static LocalisableString ShowLoginToRegister(string login) => new TranslatableString(getKey(@"show.login_to_register"), @"Please {0} to view registration details!", login);
+        public static LocalisableString ShowLoginToRegister(LocalisableString login) => new TranslatableString(getKey(@"show.login_to_register"), @"Please {0} to view registration details!", login);
 
         /// <summary>
         /// "You are not registered for this tournament."
@@ -72,7 +72,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Registrations close on {0}"
         /// </summary>
-        public static LocalisableString ShowRegistrationEnds(string date) => new TranslatableString(getKey(@"show.registration_ends"), @"Registrations close on {0}", date);
+        public static LocalisableString ShowRegistrationEnds(LocalisableString date) => new TranslatableString(getKey(@"show.registration_ends"), @"Registrations close on {0}", date);
 
         /// <summary>
         /// "Cancel Registration"
@@ -117,7 +117,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} to {1}"
         /// </summary>
-        public static LocalisableString TournamentPeriod(string start, string end) => new TranslatableString(getKey(@"tournament_period"), @"{0} to {1}", start, end);
+        public static LocalisableString TournamentPeriod(LocalisableString start, LocalisableString end) => new TranslatableString(getKey(@"tournament_period"), @"{0} to {1}", start, end);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

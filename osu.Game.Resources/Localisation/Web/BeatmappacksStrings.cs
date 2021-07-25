@@ -35,7 +35,7 @@ namespace osu.Game.Resources.Localisation.Web
         ///                     {0} extract the zip&#39;s/osz&#39;s yourself,
         ///                     or the beatmaps will display incorrectly in osu! and will not function properly."
         /// </summary>
-        public static LocalisableString IndexBlurbInstructionDefault(string scary) => new TranslatableString(getKey(@"index.blurb.instruction._"), @"Installation: Once a pack has been downloaded, extract the .rar into your osu! Songs directory.
+        public static LocalisableString IndexBlurbInstructionDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.instruction._"), @"Installation: Once a pack has been downloaded, extract the .rar into your osu! Songs directory.
                     All songs are still .zip'd and/or .osz'd inside the pack, so osu! will need to extract the beatmaps itself the next time you go into Play mode.
                     {0} extract the zip's/osz's yourself,
                     or the beatmaps will display incorrectly in osu! and will not function properly.", scary);
@@ -48,7 +48,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Also note that it is highly recommended to {0}, since the oldest maps are of much lower quality than most recent maps."
         /// </summary>
-        public static LocalisableString IndexBlurbNoteDefault(string scary) => new TranslatableString(getKey(@"index.blurb.note._"), @"Also note that it is highly recommended to {0}, since the oldest maps are of much lower quality than most recent maps.", scary);
+        public static LocalisableString IndexBlurbNoteDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.note._"), @"Also note that it is highly recommended to {0}, since the oldest maps are of much lower quality than most recent maps.", scary);
 
         /// <summary>
         /// "download the packs from latest to earliest"
@@ -73,7 +73,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} may not be used to clear this pack."
         /// </summary>
-        public static LocalisableString ShowNoDiffReductionDefault(string link) => new TranslatableString(getKey(@"show.no_diff_reduction._"), @"{0} may not be used to clear this pack.", link);
+        public static LocalisableString ShowNoDiffReductionDefault(LocalisableString link) => new TranslatableString(getKey(@"show.no_diff_reduction._"), @"{0} may not be used to clear this pack.", link);
 
         /// <summary>
         /// "Difficulty reduction mods"
@@ -103,7 +103,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You need to be {0} to download"
         /// </summary>
-        public static LocalisableString RequireLoginDefault(string link) => new TranslatableString(getKey(@"require_login._"), @"You need to be {0} to download", link);
+        public static LocalisableString RequireLoginDefault(LocalisableString link) => new TranslatableString(getKey(@"require_login._"), @"You need to be {0} to download", link);
 
         /// <summary>
         /// "signed in"

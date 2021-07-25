@@ -22,7 +22,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} item in cart (${1})|{0} items in cart (${1})"
         /// </summary>
-        public static LocalisableString CartInfo(string countDelimited, string subtotal) => new TranslatableString(getKey(@"cart.info"), @"{0} item in cart (${1})|{0} items in cart (${1})", countDelimited, subtotal);
+        public static LocalisableString CartInfo(LocalisableString countDelimited, LocalisableString subtotal) => new TranslatableString(getKey(@"cart.info"), @"{0} item in cart (${1})|{0} items in cart (${1})", countDelimited, subtotal);
 
         /// <summary>
         /// "I want to check out more goodies before completing the order"
@@ -62,7 +62,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Return to the {0} to find some goodies!"
         /// </summary>
-        public static LocalisableString CartEmptyReturnLinkDefault(string link) => new TranslatableString(getKey(@"cart.empty.return_link._"), @"Return to the {0} to find some goodies!", link);
+        public static LocalisableString CartEmptyReturnLinkDefault(LocalisableString link) => new TranslatableString(getKey(@"cart.empty.return_link._"), @"Return to the {0} to find some goodies!", link);
 
         /// <summary>
         /// "store listing"
@@ -107,7 +107,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You have incomplete checkouts, click {0} to view them."
         /// </summary>
-        public static LocalisableString CheckoutHasPendingDefault(string link) => new TranslatableString(getKey(@"checkout.has_pending._"), @"You have incomplete checkouts, click {0} to view them.", link);
+        public static LocalisableString CheckoutHasPendingDefault(LocalisableString link) => new TranslatableString(getKey(@"checkout.has_pending._"), @"You have incomplete checkouts, click {0} to view them.", link);
 
         /// <summary>
         /// "here"
@@ -127,7 +127,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "save {0}%"
         /// </summary>
-        public static LocalisableString Discount(string percent) => new TranslatableString(getKey(@"discount"), @"save {0}%", percent);
+        public static LocalisableString Discount(LocalisableString percent) => new TranslatableString(getKey(@"discount"), @"save {0}%", percent);
 
         /// <summary>
         /// "As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!"
@@ -152,7 +152,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "If you encountered a problem during checkout, {0}"
         /// </summary>
-        public static LocalisableString InvoiceStatusProcessingLine2Default(string link) => new TranslatableString(getKey(@"invoice.status.processing.line_2._"), @"If you encountered a problem during checkout, {0}", link);
+        public static LocalisableString InvoiceStatusProcessingLine2Default(LocalisableString link) => new TranslatableString(getKey(@"invoice.status.processing.line_2._"), @"If you encountered a problem during checkout, {0}", link);
 
         /// <summary>
         /// "click here to resume your checkout"
@@ -187,7 +187,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Order placed {0}"
         /// </summary>
-        public static LocalisableString OrderPaidOn(string date) => new TranslatableString(getKey(@"order.paid_on"), @"Order placed {0}", date);
+        public static LocalisableString OrderPaidOn(LocalisableString date) => new TranslatableString(getKey(@"order.paid_on"), @"Order placed {0}", date);
 
         /// <summary>
         /// "Resume Checkout"
@@ -202,7 +202,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} for {1} ({2})"
         /// </summary>
-        public static LocalisableString OrderItemDisplayNameSupporterTag(string name, string username, string duration) => new TranslatableString(getKey(@"order.item.display_name.supporter_tag"), @"{0} for {1} ({2})", name, username, duration);
+        public static LocalisableString OrderItemDisplayNameSupporterTag(LocalisableString name, LocalisableString username, LocalisableString duration) => new TranslatableString(getKey(@"order.item.display_name.supporter_tag"), @"{0} for {1} ({2})", name, username, duration);
 
         /// <summary>
         /// "Quantity"
@@ -302,7 +302,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "you will be notified when we have new stock. click {0} to cancel"
         /// </summary>
-        public static LocalisableString ProductNotificationSuccess(string link) => new TranslatableString(getKey(@"product.notification_success"), @"you will be notified when we have new stock. click {0} to cancel", link);
+        public static LocalisableString ProductNotificationSuccess(LocalisableString link) => new TranslatableString(getKey(@"product.notification_success"), @"you will be notified when we have new stock. click {0} to cancel", link);
 
         /// <summary>
         /// "here"
@@ -322,7 +322,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You need to be {0} to get an osu!supporter tag!"
         /// </summary>
-        public static LocalisableString SupporterTagRequireLoginDefault(string link) => new TranslatableString(getKey(@"supporter_tag.require_login._"), @"You need to be {0} to get an osu!supporter tag!", link);
+        public static LocalisableString SupporterTagRequireLoginDefault(LocalisableString link) => new TranslatableString(getKey(@"supporter_tag.require_login._"), @"You need to be {0} to get an osu!supporter tag!", link);
 
         /// <summary>
         /// "signed in"
@@ -337,12 +337,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Checking availability of {0}..."
         /// </summary>
-        public static LocalisableString UsernameChangeChecking(string username) => new TranslatableString(getKey(@"username_change.checking"), @"Checking availability of {0}...", username);
+        public static LocalisableString UsernameChangeChecking(LocalisableString username) => new TranslatableString(getKey(@"username_change.checking"), @"Checking availability of {0}...", username);
 
         /// <summary>
         /// "You need to be {0} to change your name!"
         /// </summary>
-        public static LocalisableString UsernameChangeRequireLoginDefault(string link) => new TranslatableString(getKey(@"username_change.require_login._"), @"You need to be {0} to change your name!", link);
+        public static LocalisableString UsernameChangeRequireLoginDefault(LocalisableString link) => new TranslatableString(getKey(@"username_change.require_login._"), @"You need to be {0} to change your name!", link);
 
         /// <summary>
         /// "signed in"

@@ -12,7 +12,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "I&#39;m convinced! {0}"
         /// </summary>
-        public static LocalisableString SupportConvincedTitle(string d) => new TranslatableString(getKey(@"support.convinced.title"), @"I'm convinced! {0}", d);
+        public static LocalisableString SupportConvincedTitle(LocalisableString d) => new TranslatableString(getKey(@"support.convinced.title"), @"I'm convinced! {0}", d);
 
         /// <summary>
         /// "support osu!"
@@ -272,7 +272,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "The maximum number of beatmaps you can favourite is increased from {0} &amp;rarr; {1}"
         /// </summary>
-        public static LocalisableString SupportPerksMoreFavouritesDescription(string normally, string supporter) => new TranslatableString(getKey(@"support.perks.more_favourites.description"), @"The maximum number of beatmaps you can favourite is increased from {0} &rarr; {1}", normally, supporter);
+        public static LocalisableString SupportPerksMoreFavouritesDescription(LocalisableString normally, LocalisableString supporter) => new TranslatableString(getKey(@"support.perks.more_favourites.description"), @"The maximum number of beatmaps you can favourite is increased from {0} &rarr; {1}", normally, supporter);
 
         /// <summary>
         /// "More Friends"
@@ -282,7 +282,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "The maximum number of friends you can have is increased from {0} &amp;rarr; {1}"
         /// </summary>
-        public static LocalisableString SupportPerksMoreFriendsDescription(string normally, string supporter) => new TranslatableString(getKey(@"support.perks.more_friends.description"), @"The maximum number of friends you can have is increased from {0} &rarr; {1}", normally, supporter);
+        public static LocalisableString SupportPerksMoreFriendsDescription(LocalisableString normally, LocalisableString supporter) => new TranslatableString(getKey(@"support.perks.more_friends.description"), @"The maximum number of friends you can have is increased from {0} &rarr; {1}", normally, supporter);
 
         /// <summary>
         /// "Upload More Beatmaps"
@@ -292,7 +292,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "How many pending beatmaps you can have at once is calculated from a base value plus an additional bonus for each ranked beatmap you currently have (up to a limit).&lt;br/&gt;&lt;br/&gt;Normally this is {0} plus {1} per ranked beatmap (up to {2}). With supporter, this increases to {3} plus {4} per ranked beatmap (up to {5})."
         /// </summary>
-        public static LocalisableString SupportPerksMoreBeatmapsDescription(string @base, string bonus, string bonusMax, string supporterBase, string supporterBonus, string supporterBonusMax) => new TranslatableString(getKey(@"support.perks.more_beatmaps.description"), @"How many pending beatmaps you can have at once is calculated from a base value plus an additional bonus for each ranked beatmap you currently have (up to a limit).<br/><br/>Normally this is {0} plus {1} per ranked beatmap (up to {2}). With supporter, this increases to {3} plus {4} per ranked beatmap (up to {5}).", @base, bonus, bonusMax, supporterBase, supporterBonus, supporterBonusMax);
+        public static LocalisableString SupportPerksMoreBeatmapsDescription(LocalisableString @base, LocalisableString bonus, LocalisableString bonusMax, LocalisableString supporterBase, LocalisableString supporterBonus, LocalisableString supporterBonusMax) => new TranslatableString(getKey(@"support.perks.more_beatmaps.description"), @"How many pending beatmaps you can have at once is calculated from a base value plus an additional bonus for each ranked beatmap you currently have (up to a limit).<br/><br/>Normally this is {0} plus {1} per ranked beatmap (up to {2}). With supporter, this increases to {3} plus {4} per ranked beatmap (up to {5}).", @base, bonus, bonusMax, supporterBase, supporterBonus, supporterBonusMax);
 
         /// <summary>
         /// "Friend Leaderboards"
@@ -307,12 +307,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Thanks for your support so far! You have contributed {0} over {1} tag purchases!"
         /// </summary>
-        public static LocalisableString SupportSupporterStatusContribution(string dollars, string tags) => new TranslatableString(getKey(@"support.supporter_status.contribution"), @"Thanks for your support so far! You have contributed {0} over {1} tag purchases!", dollars, tags);
+        public static LocalisableString SupportSupporterStatusContribution(LocalisableString dollars, LocalisableString tags) => new TranslatableString(getKey(@"support.supporter_status.contribution"), @"Thanks for your support so far! You have contributed {0} over {1} tag purchases!", dollars, tags);
 
         /// <summary>
         /// "You have given away {0} of your purchases as gifts (that&#39;s {1} worth), how generous!"
         /// </summary>
-        public static LocalisableString SupportSupporterStatusGifted(string giftedTags, string giftedDollars) => new TranslatableString(getKey(@"support.supporter_status.gifted"), @"You have given away {0} of your purchases as gifts (that's {1} worth), how generous!", giftedTags, giftedDollars);
+        public static LocalisableString SupportSupporterStatusGifted(LocalisableString giftedTags, LocalisableString giftedDollars) => new TranslatableString(getKey(@"support.supporter_status.gifted"), @"You have given away {0} of your purchases as gifts (that's {1} worth), how generous!", giftedTags, giftedDollars);
 
         /// <summary>
         /// "You haven&#39;t ever had an osu!supporter tag :("
@@ -322,12 +322,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Your current osu!supporter tag is valid until {0}!"
         /// </summary>
-        public static LocalisableString SupportSupporterStatusValidUntil(string date) => new TranslatableString(getKey(@"support.supporter_status.valid_until"), @"Your current osu!supporter tag is valid until {0}!", date);
+        public static LocalisableString SupportSupporterStatusValidUntil(LocalisableString date) => new TranslatableString(getKey(@"support.supporter_status.valid_until"), @"Your current osu!supporter tag is valid until {0}!", date);
 
         /// <summary>
         /// "Your osu!supporter tag was valid until {0}."
         /// </summary>
-        public static LocalisableString SupportSupporterStatusWasValidUntil(string date) => new TranslatableString(getKey(@"support.supporter_status.was_valid_until"), @"Your osu!supporter tag was valid until {0}.", date);
+        public static LocalisableString SupportSupporterStatusWasValidUntil(LocalisableString date) => new TranslatableString(getKey(@"support.supporter_status.was_valid_until"), @"Your osu!supporter tag was valid until {0}.", date);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

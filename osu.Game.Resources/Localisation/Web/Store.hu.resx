@@ -151,6 +151,12 @@
   <data name="order.cancel" xml:space="preserve">
     <value>Megrendelés törlése</value>
   </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Ez a megrendelés törlésre kerül, és fizetést nem fogadunk el érte. Előfordulhat, hogy a pénzforgalmi szolgáltató nem enged fel azonnal tartalékot. Biztos vagy ebben?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Ez a megrendelés jelenleg nem törölhető.</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Számla megtekintése</value>
   </data>
@@ -162,6 +168,9 @@
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Fizetés Folytatása</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>A rendelés fizetési linkje lejárt.</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} {1} ({2})</value>

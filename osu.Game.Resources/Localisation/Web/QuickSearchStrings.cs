@@ -42,17 +42,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "No results for {0}"
         /// </summary>
-        public static LocalisableString ResultEmptyFor(string modes) => new TranslatableString(getKey(@"result.empty_for"), @"No results for {0}", modes);
+        public static LocalisableString ResultEmptyFor(LocalisableString modes) => new TranslatableString(getKey(@"result.empty_for"), @"No results for {0}", modes);
 
         /// <summary>
         /// "More {0} Search Results"
         /// </summary>
-        public static LocalisableString ResultMore(string mode) => new TranslatableString(getKey(@"result.more"), @"More {0} Search Results", mode);
+        public static LocalisableString ResultMore(LocalisableString mode) => new TranslatableString(getKey(@"result.more"), @"More {0} Search Results", mode);
 
         /// <summary>
         /// "{0} Search Results"
         /// </summary>
-        public static LocalisableString ResultTitle(string mode) => new TranslatableString(getKey(@"result.title"), @"{0} Search Results", mode);
+        public static LocalisableString ResultTitle(LocalisableString mode) => new TranslatableString(getKey(@"result.title"), @"{0} Search Results", mode);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

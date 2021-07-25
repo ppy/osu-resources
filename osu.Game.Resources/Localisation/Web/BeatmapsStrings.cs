@@ -32,7 +32,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Deleted by {0} {1}."
         /// </summary>
-        public static LocalisableString DiscussionsDeleted(string editor, string deleteTime) => new TranslatableString(getKey(@"discussions.deleted"), @"Deleted by {0} {1}.", editor, deleteTime);
+        public static LocalisableString DiscussionsDeleted(LocalisableString editor, LocalisableString deleteTime) => new TranslatableString(getKey(@"discussions.deleted"), @"Deleted by {0} {1}.", editor, deleteTime);
 
         /// <summary>
         /// "deny kudosu"
@@ -47,12 +47,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Last edited by {0} {1}."
         /// </summary>
-        public static LocalisableString DiscussionsEdited(string editor, string updateTime) => new TranslatableString(getKey(@"discussions.edited"), @"Last edited by {0} {1}.", editor, updateTime);
+        public static LocalisableString DiscussionsEdited(LocalisableString editor, LocalisableString updateTime) => new TranslatableString(getKey(@"discussions.edited"), @"Last edited by {0} {1}.", editor, updateTime);
 
         /// <summary>
         /// "Guest difficulty by {0}"
         /// </summary>
-        public static LocalisableString DiscussionsGuest(string user) => new TranslatableString(getKey(@"discussions.guest"), @"Guest difficulty by {0}", user);
+        public static LocalisableString DiscussionsGuest(LocalisableString user) => new TranslatableString(getKey(@"discussions.guest"), @"Guest difficulty by {0}", user);
 
         /// <summary>
         /// "Denied from obtaining kudosu."
@@ -167,7 +167,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Type here to post to General ({0})"
         /// </summary>
-        public static LocalisableString DiscussionsMessagePlaceholderGeneral(string version) => new TranslatableString(getKey(@"discussions.message_placeholder.general"), @"Type here to post to General ({0})", version);
+        public static LocalisableString DiscussionsMessagePlaceholderGeneral(LocalisableString version) => new TranslatableString(getKey(@"discussions.message_placeholder.general"), @"Type here to post to General ({0})", version);
 
         /// <summary>
         /// "Type here to post to General (All difficulties)"
@@ -182,7 +182,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Type here to post to Timeline ({0})"
         /// </summary>
-        public static LocalisableString DiscussionsMessagePlaceholderTimeline(string version) => new TranslatableString(getKey(@"discussions.message_placeholder.timeline"), @"Type here to post to Timeline ({0})", version);
+        public static LocalisableString DiscussionsMessagePlaceholderTimeline(LocalisableString version) => new TranslatableString(getKey(@"discussions.message_placeholder.timeline"), @"Type here to post to Timeline ({0})", version);
 
         /// <summary>
         /// "Disqualify"
@@ -232,7 +232,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "General {0}"
         /// </summary>
-        public static LocalisableString DiscussionsModeGeneral(string scope) => new TranslatableString(getKey(@"discussions.mode.general"), @"General {0}", scope);
+        public static LocalisableString DiscussionsModeGeneral(LocalisableString scope) => new TranslatableString(getKey(@"discussions.mode.general"), @"General {0}", scope);
 
         /// <summary>
         /// "Reviews"
@@ -312,7 +312,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "If this {0} starts with a timestamp, it will be shown under Timeline."
         /// </summary>
-        public static LocalisableString DiscussionsReviewEmbedTimestampDiff(string type) => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this {0} starts with a timestamp, it will be shown under Timeline.", type);
+        public static LocalisableString DiscussionsReviewEmbedTimestampDiff(LocalisableString type) => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this {0} starts with a timestamp, it will be shown under Timeline.", type);
 
         /// <summary>
         /// "insert paragraph"
@@ -337,7 +337,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} mapped by {1}"
         /// </summary>
-        public static LocalisableString DiscussionsShowTitle(string title, string mapper) => new TranslatableString(getKey(@"discussions.show.title"), @"{0} mapped by {1}", title, mapper);
+        public static LocalisableString DiscussionsShowTitle(LocalisableString title, LocalisableString mapper) => new TranslatableString(getKey(@"discussions.show.title"), @"{0} mapped by {1}", title, mapper);
 
         /// <summary>
         /// "Creation time"
@@ -392,22 +392,22 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This beatmap was approved on {0}!"
         /// </summary>
-        public static LocalisableString DiscussionsStatusMessagesApproved(string date) => new TranslatableString(getKey(@"discussions.status-messages.approved"), @"This beatmap was approved on {0}!", date);
+        public static LocalisableString DiscussionsStatusMessagesApproved(LocalisableString date) => new TranslatableString(getKey(@"discussions.status-messages.approved"), @"This beatmap was approved on {0}!", date);
 
         /// <summary>
         /// "This beatmap wasn&#39;t updated since {0} so it was graveyarded..."
         /// </summary>
-        public static LocalisableString DiscussionsStatusMessagesGraveyard(string date) => new TranslatableString(getKey(@"discussions.status-messages.graveyard"), @"This beatmap wasn't updated since {0} so it was graveyarded...", date);
+        public static LocalisableString DiscussionsStatusMessagesGraveyard(LocalisableString date) => new TranslatableString(getKey(@"discussions.status-messages.graveyard"), @"This beatmap wasn't updated since {0} so it was graveyarded...", date);
 
         /// <summary>
         /// "This beatmap was added to loved on {0}!"
         /// </summary>
-        public static LocalisableString DiscussionsStatusMessagesLoved(string date) => new TranslatableString(getKey(@"discussions.status-messages.loved"), @"This beatmap was added to loved on {0}!", date);
+        public static LocalisableString DiscussionsStatusMessagesLoved(LocalisableString date) => new TranslatableString(getKey(@"discussions.status-messages.loved"), @"This beatmap was added to loved on {0}!", date);
 
         /// <summary>
         /// "This beatmap was ranked on {0}!"
         /// </summary>
-        public static LocalisableString DiscussionsStatusMessagesRanked(string date) => new TranslatableString(getKey(@"discussions.status-messages.ranked"), @"This beatmap was ranked on {0}!", date);
+        public static LocalisableString DiscussionsStatusMessagesRanked(LocalisableString date) => new TranslatableString(getKey(@"discussions.status-messages.ranked"), @"This beatmap was ranked on {0}!", date);
 
         /// <summary>
         /// "Note: This beatmap is marked as a work-in-progress by the creator."
@@ -447,7 +447,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Are you sure? This will use one out of your remaining {0} hype and can&#39;t be undone."
         /// </summary>
-        public static LocalisableString HypeConfirm(string n) => new TranslatableString(getKey(@"hype.confirm"), @"Are you sure? This will use one out of your remaining {0} hype and can't be undone.", n);
+        public static LocalisableString HypeConfirm(LocalisableString n) => new TranslatableString(getKey(@"hype.confirm"), @"Are you sure? This will use one out of your remaining {0} hype and can't be undone.", n);
 
         /// <summary>
         /// "Hype this beatmap to make it more visible for nomination and ranking!"
@@ -462,17 +462,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You&#39;ll get another hype {0}."
         /// </summary>
-        public static LocalisableString HypeNewTime(string newTime) => new TranslatableString(getKey(@"hype.new_time"), @"You'll get another hype {0}.", newTime);
+        public static LocalisableString HypeNewTime(LocalisableString newTime) => new TranslatableString(getKey(@"hype.new_time"), @"You'll get another hype {0}.", newTime);
 
         /// <summary>
         /// "You have {0} hype left."
         /// </summary>
-        public static LocalisableString HypeRemaining(string remaining) => new TranslatableString(getKey(@"hype.remaining"), @"You have {0} hype left.", remaining);
+        public static LocalisableString HypeRemaining(LocalisableString remaining) => new TranslatableString(getKey(@"hype.remaining"), @"You have {0} hype left.", remaining);
 
         /// <summary>
         /// "Hype: {0}/{1}"
         /// </summary>
-        public static LocalisableString HypeRequiredText(string current, string required) => new TranslatableString(getKey(@"hype.required_text"), @"Hype: {0}/{1}", current, required);
+        public static LocalisableString HypeRequiredText(LocalisableString current, LocalisableString required) => new TranslatableString(getKey(@"hype.required_text"), @"Hype: {0}/{1}", current, required);
 
         /// <summary>
         /// "Hype Train"
@@ -512,7 +512,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Disqualified {0} ({1})."
         /// </summary>
-        public static LocalisableString NominationsDisqualifiedAt(string timeAgo, string reason) => new TranslatableString(getKey(@"nominations.disqualified_at"), @"Disqualified {0} ({1}).", timeAgo, reason);
+        public static LocalisableString NominationsDisqualifiedAt(LocalisableString timeAgo, LocalisableString reason) => new TranslatableString(getKey(@"nominations.disqualified_at"), @"Disqualified {0} ({1}).", timeAgo, reason);
 
         /// <summary>
         /// "no reason specified"
@@ -552,7 +552,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "nominated by {0}"
         /// </summary>
-        public static LocalisableString NominationsNominatedBy(string users) => new TranslatableString(getKey(@"nominations.nominated_by"), @"nominated by {0}", users);
+        public static LocalisableString NominationsNominatedBy(LocalisableString users) => new TranslatableString(getKey(@"nominations.nominated_by"), @"nominated by {0}", users);
 
         /// <summary>
         /// "There isn&#39;t enough hype."
@@ -572,7 +572,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Nominations: {0}/{1}"
         /// </summary>
-        public static LocalisableString NominationsRequiredText(string current, string required) => new TranslatableString(getKey(@"nominations.required_text"), @"Nominations: {0}/{1}", current, required);
+        public static LocalisableString NominationsRequiredText(LocalisableString current, LocalisableString required) => new TranslatableString(getKey(@"nominations.required_text"), @"Nominations: {0}/{1}", current, required);
 
         /// <summary>
         /// "deleted"
@@ -592,7 +592,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}."
         /// </summary>
-        public static LocalisableString NominationsRankEstimateDefault(string date, string position, string queue) => new TranslatableString(getKey(@"nominations.rank_estimate._"), @"This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}.", date, position, queue);
+        public static LocalisableString NominationsRankEstimateDefault(LocalisableString date, LocalisableString position, LocalisableString queue) => new TranslatableString(getKey(@"nominations.rank_estimate._"), @"This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}.", date, position, queue);
 
         /// <summary>
         /// "ranking queue"
@@ -607,12 +607,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Nomination process reset {0} by {1} with new problem {2} ({3})."
         /// </summary>
-        public static LocalisableString NominationsResetAtNominationReset(string timeAgo, string user, string discussion, string message) => new TranslatableString(getKey(@"nominations.reset_at.nomination_reset"), @"Nomination process reset {0} by {1} with new problem {2} ({3}).", timeAgo, user, discussion, message);
+        public static LocalisableString NominationsResetAtNominationReset(LocalisableString timeAgo, LocalisableString user, LocalisableString discussion, LocalisableString message) => new TranslatableString(getKey(@"nominations.reset_at.nomination_reset"), @"Nomination process reset {0} by {1} with new problem {2} ({3}).", timeAgo, user, discussion, message);
 
         /// <summary>
         /// "Disqualified {0} by {1} with new problem {2} ({3})."
         /// </summary>
-        public static LocalisableString NominationsResetAtDisqualify(string timeAgo, string user, string discussion, string message) => new TranslatableString(getKey(@"nominations.reset_at.disqualify"), @"Disqualified {0} by {1} with new problem {2} ({3}).", timeAgo, user, discussion, message);
+        public static LocalisableString NominationsResetAtDisqualify(LocalisableString timeAgo, LocalisableString user, LocalisableString discussion, LocalisableString message) => new TranslatableString(getKey(@"nominations.reset_at.disqualify"), @"Disqualified {0} by {1} with new problem {2} ({3}).", timeAgo, user, discussion, message);
 
         /// <summary>
         /// "Are you sure? Posting a new problem will reset the nomination process."
@@ -642,7 +642,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Filtering by {0} requires an active osu!supporter tag"
         /// </summary>
-        public static LocalisableString ListingSearchSupporterFilter(string filters) => new TranslatableString(getKey(@"listing.search.supporter_filter"), @"Filtering by {0} requires an active osu!supporter tag", filters);
+        public static LocalisableString ListingSearchSupporterFilter(LocalisableString filters) => new TranslatableString(getKey(@"listing.search.supporter_filter"), @"Filtering by {0} requires an active osu!supporter tag", filters);
 
         /// <summary>
         /// "no results"
@@ -752,7 +752,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Filtering by {0} requires an active {1}"
         /// </summary>
-        public static LocalisableString ListingSearchSupporterFilterQuoteDefault(string filters, string link) => new TranslatableString(getKey(@"listing.search.supporter_filter_quote._"), @"Filtering by {0} requires an active {1}", filters, link);
+        public static LocalisableString ListingSearchSupporterFilterQuoteDefault(LocalisableString filters, LocalisableString link) => new TranslatableString(getKey(@"listing.search.supporter_filter_quote._"), @"Filtering by {0} requires an active {1}", filters, link);
 
         /// <summary>
         /// "osu!supporter tag"
@@ -1202,12 +1202,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Playcount: {0}"
         /// </summary>
-        public static LocalisableString PanelPlaycount(string count) => new TranslatableString(getKey(@"panel.playcount"), @"Playcount: {0}", count);
+        public static LocalisableString PanelPlaycount(LocalisableString count) => new TranslatableString(getKey(@"panel.playcount"), @"Playcount: {0}", count);
 
         /// <summary>
         /// "Favourites: {0}"
         /// </summary>
-        public static LocalisableString PanelFavourites(string count) => new TranslatableString(getKey(@"panel.favourites"), @"Favourites: {0}", count);
+        public static LocalisableString PanelFavourites(LocalisableString count) => new TranslatableString(getKey(@"panel.favourites"), @"Favourites: {0}", count);
 
         /// <summary>
         /// "4K"

@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>New problem {0} ({1}) triggered a nomination reset.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nomination by {0} was reset by {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nomination was reset by {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>This beatmap has reached the required number of nominations and has been qualified.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Nomination resetting</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nomination reset received</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Explicit mark</value>

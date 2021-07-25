@@ -17,7 +17,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString MatchDifference(string difference) => new TranslatableString(getKey(@"match.difference"), @"by {0}", difference);
+        public static LocalisableString MatchDifference(LocalisableString difference) => new TranslatableString(getKey(@"match.difference"), @"by {0}", difference);
 
         /// <summary>
         /// "FAILED"
@@ -47,27 +47,27 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} wins"
         /// </summary>
-        public static LocalisableString MatchWinner(string team) => new TranslatableString(getKey(@"match.winner"), @"{0} wins", team);
+        public static LocalisableString MatchWinner(LocalisableString team) => new TranslatableString(getKey(@"match.winner"), @"{0} wins", team);
 
         /// <summary>
         /// "{0} left the match"
         /// </summary>
-        public static LocalisableString MatchEventsPlayerLeft(string user) => new TranslatableString(getKey(@"match.events.player-left"), @"{0} left the match", user);
+        public static LocalisableString MatchEventsPlayerLeft(LocalisableString user) => new TranslatableString(getKey(@"match.events.player-left"), @"{0} left the match", user);
 
         /// <summary>
         /// "{0} joined the match"
         /// </summary>
-        public static LocalisableString MatchEventsPlayerJoined(string user) => new TranslatableString(getKey(@"match.events.player-joined"), @"{0} joined the match", user);
+        public static LocalisableString MatchEventsPlayerJoined(LocalisableString user) => new TranslatableString(getKey(@"match.events.player-joined"), @"{0} joined the match", user);
 
         /// <summary>
         /// "{0} has been kicked from the match"
         /// </summary>
-        public static LocalisableString MatchEventsPlayerKicked(string user) => new TranslatableString(getKey(@"match.events.player-kicked"), @"{0} has been kicked from the match", user);
+        public static LocalisableString MatchEventsPlayerKicked(LocalisableString user) => new TranslatableString(getKey(@"match.events.player-kicked"), @"{0} has been kicked from the match", user);
 
         /// <summary>
         /// "{0} created the match"
         /// </summary>
-        public static LocalisableString MatchEventsMatchCreated(string user) => new TranslatableString(getKey(@"match.events.match-created"), @"{0} created the match", user);
+        public static LocalisableString MatchEventsMatchCreated(LocalisableString user) => new TranslatableString(getKey(@"match.events.match-created"), @"{0} created the match", user);
 
         /// <summary>
         /// "the match was disbanded"
@@ -77,7 +77,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} became the host"
         /// </summary>
-        public static LocalisableString MatchEventsHostChanged(string user) => new TranslatableString(getKey(@"match.events.host-changed"), @"{0} became the host", user);
+        public static LocalisableString MatchEventsHostChanged(LocalisableString user) => new TranslatableString(getKey(@"match.events.host-changed"), @"{0} became the host", user);
 
         /// <summary>
         /// "a player left the match"

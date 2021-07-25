@@ -12,12 +12,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} is missing number or letter"
         /// </summary>
-        public static LocalisableString Mixture(string attribute) => new TranslatableString(getKey(@"mixture"), @"{0} is missing number or letter", attribute);
+        public static LocalisableString Mixture(LocalisableString attribute) => new TranslatableString(getKey(@"mixture"), @"{0} is missing number or letter", attribute);
 
         /// <summary>
         /// "{0} is required"
         /// </summary>
-        public static LocalisableString Required(string attribute) => new TranslatableString(getKey(@"required"), @"{0} is required", attribute);
+        public static LocalisableString Required(LocalisableString attribute) => new TranslatableString(getKey(@"required"), @"{0} is required", attribute);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

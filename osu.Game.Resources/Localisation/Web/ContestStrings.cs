@@ -60,6 +60,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString VotingButtonUsedUp => new TranslatableString(getKey(@"voting.button.used_up"), @"You have used up all your votes");
 
         /// <summary>
+        /// "{0} / {1} votes used"
+        /// </summary>
+        public static LocalisableString VotingProgressDefault(LocalisableString used, LocalisableString max) => new TranslatableString(getKey(@"voting.progress._"), @"{0} / {1} votes used", used, max);
+
+        /// <summary>
         /// "entry"
         /// </summary>
         public static LocalisableString EntryDefault => new TranslatableString(getKey(@"entry._"), @"entry");
@@ -107,7 +112,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Entries for this contest can only be up to {0}."
         /// </summary>
-        public static LocalisableString EntryTooBig(string limit) => new TranslatableString(getKey(@"entry.too_big"), @"Entries for this contest can only be up to {0}.", limit);
+        public static LocalisableString EntryTooBig(LocalisableString limit) => new TranslatableString(getKey(@"entry.too_big"), @"Entries for this contest can only be up to {0}.", limit);
 
         /// <summary>
         /// "Download Entry"
@@ -122,17 +127,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} vote|{0} votes"
         /// </summary>
-        public static LocalisableString VoteCount(string countDelimited) => new TranslatableString(getKey(@"vote.count"), @"{0} vote|{0} votes", countDelimited);
+        public static LocalisableString VoteCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"vote.count"), @"{0} vote|{0} votes", countDelimited);
 
         /// <summary>
         /// "{0} point|{0} points"
         /// </summary>
-        public static LocalisableString VotePoints(string countDelimited) => new TranslatableString(getKey(@"vote.points"), @"{0} point|{0} points", countDelimited);
+        public static LocalisableString VotePoints(LocalisableString countDelimited) => new TranslatableString(getKey(@"vote.points"), @"{0} point|{0} points", countDelimited);
 
         /// <summary>
         /// "Ended {0}"
         /// </summary>
-        public static LocalisableString DatesEnded(string date) => new TranslatableString(getKey(@"dates.ended"), @"Ended {0}", date);
+        public static LocalisableString DatesEnded(LocalisableString date) => new TranslatableString(getKey(@"dates.ended"), @"Ended {0}", date);
 
         /// <summary>
         /// "Ended"
@@ -142,7 +147,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Starts {0}"
         /// </summary>
-        public static LocalisableString DatesStartsDefault(string date) => new TranslatableString(getKey(@"dates.starts._"), @"Starts {0}", date);
+        public static LocalisableString DatesStartsDefault(LocalisableString date) => new TranslatableString(getKey(@"dates.starts._"), @"Starts {0}", date);
 
         /// <summary>
         /// "soon™"

@@ -17,17 +17,17 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         /// <summary>
         /// "Username change cost exceeds amount paid ({0} &gt; {1})"
         /// </summary>
-        public static LocalisableString UsernameChangeInsufficientPaid(string expected, string actual) => new TranslatableString(getKey(@"username_change.insufficient_paid"), @"Username change cost exceeds amount paid ({0} > {1})", expected, actual);
+        public static LocalisableString UsernameChangeInsufficientPaid(LocalisableString expected, LocalisableString actual) => new TranslatableString(getKey(@"username_change.insufficient_paid"), @"Username change cost exceeds amount paid ({0} > {1})", expected, actual);
 
         /// <summary>
         /// "Current username ({0}) is not the same as change to revoke ({1})"
         /// </summary>
-        public static LocalisableString UsernameChangeRevertingUsernameMismatch(string current, string username) => new TranslatableString(getKey(@"username_change.reverting_username_mismatch"), @"Current username ({0}) is not the same as change to revoke ({1})", current, username);
+        public static LocalisableString UsernameChangeRevertingUsernameMismatch(LocalisableString current, LocalisableString username) => new TranslatableString(getKey(@"username_change.reverting_username_mismatch"), @"Current username ({0}) is not the same as change to revoke ({1})", current, username);
 
         /// <summary>
         /// "Donation is less than required for osu!supporter tag gift ({0} &gt; {1})"
         /// </summary>
-        public static LocalisableString SupporterTagInsufficientPaid(string actual, string expected) => new TranslatableString(getKey(@"supporter_tag.insufficient_paid"), @"Donation is less than required for osu!supporter tag gift ({0} > {1})", actual, expected);
+        public static LocalisableString SupporterTagInsufficientPaid(LocalisableString actual, LocalisableString expected) => new TranslatableString(getKey(@"supporter_tag.insufficient_paid"), @"Donation is less than required for osu!supporter tag gift ({0} > {1})", actual, expected);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

@@ -17,17 +17,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "&lt;strong&gt;{0}&lt;/strong&gt; currently online in &lt;strong&gt;{1}&lt;/strong&gt; games"
         /// </summary>
-        public static LocalisableString LandingOnline(string players, string games) => new TranslatableString(getKey(@"landing.online"), @"<strong>{0}</strong> currently online in <strong>{1}</strong> games", players, games);
+        public static LocalisableString LandingOnline(LocalisableString players, LocalisableString games) => new TranslatableString(getKey(@"landing.online"), @"<strong>{0}</strong> currently online in <strong>{1}</strong> games", players, games);
 
         /// <summary>
         /// "Peak, {0} online users"
         /// </summary>
-        public static LocalisableString LandingPeak(string count) => new TranslatableString(getKey(@"landing.peak"), @"Peak, {0} online users", count);
+        public static LocalisableString LandingPeak(LocalisableString count) => new TranslatableString(getKey(@"landing.peak"), @"Peak, {0} online users", count);
 
         /// <summary>
         /// "&lt;strong&gt;{0}&lt;/strong&gt; registered players"
         /// </summary>
-        public static LocalisableString LandingPlayers(string count) => new TranslatableString(getKey(@"landing.players"), @"<strong>{0}</strong> registered players", count);
+        public static LocalisableString LandingPlayers(LocalisableString count) => new TranslatableString(getKey(@"landing.players"), @"<strong>{0}</strong> registered players", count);
 
         /// <summary>
         /// "welcome"
@@ -87,7 +87,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} more beatmap search results"
         /// </summary>
-        public static LocalisableString SearchBeatmapsetMore(string count) => new TranslatableString(getKey(@"search.beatmapset.more"), @"{0} more beatmap search results", count);
+        public static LocalisableString SearchBeatmapsetMore(LocalisableString count) => new TranslatableString(getKey(@"search.beatmapset.more"), @"{0} more beatmap search results", count);
 
         /// <summary>
         /// "See more beatmap search results"
@@ -177,7 +177,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} more player search results"
         /// </summary>
-        public static LocalisableString SearchUserMore(string count) => new TranslatableString(getKey(@"search.user.more"), @"{0} more player search results", count);
+        public static LocalisableString SearchUserMore(LocalisableString count) => new TranslatableString(getKey(@"search.user.more"), @"{0} more player search results", count);
 
         /// <summary>
         /// "See more player search results"
@@ -187,7 +187,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Player search is limited to {0} players. Try refining search query."
         /// </summary>
-        public static LocalisableString SearchUserMoreHidden(string max) => new TranslatableString(getKey(@"search.user.more_hidden"), @"Player search is limited to {0} players. Try refining search query.", max);
+        public static LocalisableString SearchUserMoreHidden(LocalisableString max) => new TranslatableString(getKey(@"search.user.more_hidden"), @"Player search is limited to {0} players. Try refining search query.", max);
 
         /// <summary>
         /// "Players"
@@ -222,7 +222,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "if you have problem starting the game or registering for account, {0} or {1}."
         /// </summary>
-        public static LocalisableString DownloadHelpDefault(string helpForumLink, string supportButton) => new TranslatableString(getKey(@"download.help._"), @"if you have problem starting the game or registering for account, {0} or {1}.", helpForumLink, supportButton);
+        public static LocalisableString DownloadHelpDefault(LocalisableString helpForumLink, LocalisableString supportButton) => new TranslatableString(getKey(@"download.help._"), @"if you have problem starting the game or registering for account, {0} or {1}.", helpForumLink, supportButton);
 
         /// <summary>
         /// "check help forum"
@@ -287,7 +287,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} the vast library of user-created beatmaps and start playing!"
         /// </summary>
-        public static LocalisableString DownloadStepsBeatmapsDescriptionDefault(string browse) => new TranslatableString(getKey(@"download.steps.beatmaps.description._"), @"{0} the vast library of user-created beatmaps and start playing!", browse);
+        public static LocalisableString DownloadStepsBeatmapsDescriptionDefault(LocalisableString browse) => new TranslatableString(getKey(@"download.steps.beatmaps.description._"), @"{0} the vast library of user-created beatmaps and start playing!", browse);
 
         /// <summary>
         /// "browse"
@@ -342,7 +342,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString UserBeatmapsByUser(string user) => new TranslatableString(getKey(@"user.beatmaps.by_user"), @"by {0}", user);
+        public static LocalisableString UserBeatmapsByUser(LocalisableString user) => new TranslatableString(getKey(@"user.beatmaps.by_user"), @"by {0}", user);
 
         /// <summary>
         /// "Download osu!"
@@ -367,7 +367,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "You seem to be having a good time! {0}"
         /// </summary>
-        public static LocalisableString SupportOsuSubtitle(string d) => new TranslatableString(getKey(@"support-osu.subtitle"), @"You seem to be having a good time! {0}", d);
+        public static LocalisableString SupportOsuSubtitle(LocalisableString d) => new TranslatableString(getKey(@"support-osu.subtitle"), @"You seem to be having a good time! {0}", d);
 
         /// <summary>
         /// "Did you know that osu! runs with no advertising, and relies on players to support its development and running costs?"

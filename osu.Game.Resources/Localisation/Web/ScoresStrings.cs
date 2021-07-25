@@ -12,12 +12,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} on {1} [{2}]"
         /// </summary>
-        public static LocalisableString ShowTitle(string username, string title, string version) => new TranslatableString(getKey(@"show.title"), @"{0} on {1} [{2}]", username, title, version);
+        public static LocalisableString ShowTitle(LocalisableString username, LocalisableString title, LocalisableString version) => new TranslatableString(getKey(@"show.title"), @"{0} on {1} [{2}]", username, title, version);
 
         /// <summary>
         /// "by {0}"
         /// </summary>
-        public static LocalisableString ShowBeatmapBy(string artist) => new TranslatableString(getKey(@"show.beatmap.by"), @"by {0}", artist);
+        public static LocalisableString ShowBeatmapBy(LocalisableString artist) => new TranslatableString(getKey(@"show.beatmap.by"), @"by {0}", artist);
 
         /// <summary>
         /// "Played by"

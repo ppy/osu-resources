@@ -17,32 +17,32 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Owner of difficulty {0} changed to {1}."
         /// </summary>
-        public static LocalisableString EventBeatmapOwnerChange(string beatmap, string newUser) => new TranslatableString(getKey(@"event.beatmap_owner_change"), @"Owner of difficulty {0} changed to {1}.", beatmap, newUser);
+        public static LocalisableString EventBeatmapOwnerChange(LocalisableString beatmap, LocalisableString newUser) => new TranslatableString(getKey(@"event.beatmap_owner_change"), @"Owner of difficulty {0} changed to {1}.", beatmap, newUser);
 
         /// <summary>
         /// "Moderator deleted discussion {0}."
         /// </summary>
-        public static LocalisableString EventDiscussionDelete(string discussion) => new TranslatableString(getKey(@"event.discussion_delete"), @"Moderator deleted discussion {0}.", discussion);
+        public static LocalisableString EventDiscussionDelete(LocalisableString discussion) => new TranslatableString(getKey(@"event.discussion_delete"), @"Moderator deleted discussion {0}.", discussion);
 
         /// <summary>
         /// "Discussion for this beatmap has been disabled. ({0})"
         /// </summary>
-        public static LocalisableString EventDiscussionLock(string text) => new TranslatableString(getKey(@"event.discussion_lock"), @"Discussion for this beatmap has been disabled. ({0})", text);
+        public static LocalisableString EventDiscussionLock(LocalisableString text) => new TranslatableString(getKey(@"event.discussion_lock"), @"Discussion for this beatmap has been disabled. ({0})", text);
 
         /// <summary>
         /// "Moderator deleted post from discussion {0}."
         /// </summary>
-        public static LocalisableString EventDiscussionPostDelete(string discussion) => new TranslatableString(getKey(@"event.discussion_post_delete"), @"Moderator deleted post from discussion {0}.", discussion);
+        public static LocalisableString EventDiscussionPostDelete(LocalisableString discussion) => new TranslatableString(getKey(@"event.discussion_post_delete"), @"Moderator deleted post from discussion {0}.", discussion);
 
         /// <summary>
         /// "Moderator restored post from discussion {0}."
         /// </summary>
-        public static LocalisableString EventDiscussionPostRestore(string discussion) => new TranslatableString(getKey(@"event.discussion_post_restore"), @"Moderator restored post from discussion {0}.", discussion);
+        public static LocalisableString EventDiscussionPostRestore(LocalisableString discussion) => new TranslatableString(getKey(@"event.discussion_post_restore"), @"Moderator restored post from discussion {0}.", discussion);
 
         /// <summary>
         /// "Moderator restored discussion {0}."
         /// </summary>
-        public static LocalisableString EventDiscussionRestore(string discussion) => new TranslatableString(getKey(@"event.discussion_restore"), @"Moderator restored discussion {0}.", discussion);
+        public static LocalisableString EventDiscussionRestore(LocalisableString discussion) => new TranslatableString(getKey(@"event.discussion_restore"), @"Moderator restored discussion {0}.", discussion);
 
         /// <summary>
         /// "Discussion for this beatmap has been enabled."
@@ -52,77 +52,87 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Disqualified by {0}. Reason: {1} ({2})."
         /// </summary>
-        public static LocalisableString EventDisqualify(string user, string discussion, string text) => new TranslatableString(getKey(@"event.disqualify"), @"Disqualified by {0}. Reason: {1} ({2}).", user, discussion, text);
+        public static LocalisableString EventDisqualify(LocalisableString user, LocalisableString discussion, LocalisableString text) => new TranslatableString(getKey(@"event.disqualify"), @"Disqualified by {0}. Reason: {1} ({2}).", user, discussion, text);
 
         /// <summary>
         /// "Disqualified by {0}. Reason: {1}."
         /// </summary>
-        public static LocalisableString EventDisqualifyLegacy(string user, string text) => new TranslatableString(getKey(@"event.disqualify_legacy"), @"Disqualified by {0}. Reason: {1}.", user, text);
+        public static LocalisableString EventDisqualifyLegacy(LocalisableString user, LocalisableString text) => new TranslatableString(getKey(@"event.disqualify_legacy"), @"Disqualified by {0}. Reason: {1}.", user, text);
 
         /// <summary>
         /// "Genre changed from {0} to {1}."
         /// </summary>
-        public static LocalisableString EventGenreEdit(string old, string @new) => new TranslatableString(getKey(@"event.genre_edit"), @"Genre changed from {0} to {1}.", old, @new);
+        public static LocalisableString EventGenreEdit(LocalisableString old, LocalisableString @new) => new TranslatableString(getKey(@"event.genre_edit"), @"Genre changed from {0} to {1}.", old, @new);
 
         /// <summary>
         /// "Resolved issue {0} by {1} reopened by {2}."
         /// </summary>
-        public static LocalisableString EventIssueReopen(string discussion, string discussionUser, string user) => new TranslatableString(getKey(@"event.issue_reopen"), @"Resolved issue {0} by {1} reopened by {2}.", discussion, discussionUser, user);
+        public static LocalisableString EventIssueReopen(LocalisableString discussion, LocalisableString discussionUser, LocalisableString user) => new TranslatableString(getKey(@"event.issue_reopen"), @"Resolved issue {0} by {1} reopened by {2}.", discussion, discussionUser, user);
 
         /// <summary>
         /// "Issue {0} by {1} marked as resolved by {2}."
         /// </summary>
-        public static LocalisableString EventIssueResolve(string discussion, string discussionUser, string user) => new TranslatableString(getKey(@"event.issue_resolve"), @"Issue {0} by {1} marked as resolved by {2}.", discussion, discussionUser, user);
+        public static LocalisableString EventIssueResolve(LocalisableString discussion, LocalisableString discussionUser, LocalisableString user) => new TranslatableString(getKey(@"event.issue_resolve"), @"Issue {0} by {1} marked as resolved by {2}.", discussion, discussionUser, user);
 
         /// <summary>
         /// "Kudosu denial for discussion {0} has been removed."
         /// </summary>
-        public static LocalisableString EventKudosuAllow(string discussion) => new TranslatableString(getKey(@"event.kudosu_allow"), @"Kudosu denial for discussion {0} has been removed.", discussion);
+        public static LocalisableString EventKudosuAllow(LocalisableString discussion) => new TranslatableString(getKey(@"event.kudosu_allow"), @"Kudosu denial for discussion {0} has been removed.", discussion);
 
         /// <summary>
         /// "Discussion {0} denied for kudosu."
         /// </summary>
-        public static LocalisableString EventKudosuDeny(string discussion) => new TranslatableString(getKey(@"event.kudosu_deny"), @"Discussion {0} denied for kudosu.", discussion);
+        public static LocalisableString EventKudosuDeny(LocalisableString discussion) => new TranslatableString(getKey(@"event.kudosu_deny"), @"Discussion {0} denied for kudosu.", discussion);
 
         /// <summary>
         /// "Discussion {0} by {1} obtained enough votes for kudosu."
         /// </summary>
-        public static LocalisableString EventKudosuGain(string discussion, string user) => new TranslatableString(getKey(@"event.kudosu_gain"), @"Discussion {0} by {1} obtained enough votes for kudosu.", discussion, user);
+        public static LocalisableString EventKudosuGain(LocalisableString discussion, LocalisableString user) => new TranslatableString(getKey(@"event.kudosu_gain"), @"Discussion {0} by {1} obtained enough votes for kudosu.", discussion, user);
 
         /// <summary>
         /// "Discussion {0} by {1} lost votes and granted kudosu has been removed."
         /// </summary>
-        public static LocalisableString EventKudosuLost(string discussion, string user) => new TranslatableString(getKey(@"event.kudosu_lost"), @"Discussion {0} by {1} lost votes and granted kudosu has been removed.", discussion, user);
+        public static LocalisableString EventKudosuLost(LocalisableString discussion, LocalisableString user) => new TranslatableString(getKey(@"event.kudosu_lost"), @"Discussion {0} by {1} lost votes and granted kudosu has been removed.", discussion, user);
 
         /// <summary>
         /// "Discussion {0} has had its kudosu grants recalculated."
         /// </summary>
-        public static LocalisableString EventKudosuRecalculate(string discussion) => new TranslatableString(getKey(@"event.kudosu_recalculate"), @"Discussion {0} has had its kudosu grants recalculated.", discussion);
+        public static LocalisableString EventKudosuRecalculate(LocalisableString discussion) => new TranslatableString(getKey(@"event.kudosu_recalculate"), @"Discussion {0} has had its kudosu grants recalculated.", discussion);
 
         /// <summary>
         /// "Language changed from {0} to {1}."
         /// </summary>
-        public static LocalisableString EventLanguageEdit(string old, string @new) => new TranslatableString(getKey(@"event.language_edit"), @"Language changed from {0} to {1}.", old, @new);
+        public static LocalisableString EventLanguageEdit(LocalisableString old, LocalisableString @new) => new TranslatableString(getKey(@"event.language_edit"), @"Language changed from {0} to {1}.", old, @new);
 
         /// <summary>
         /// "Loved by {0}."
         /// </summary>
-        public static LocalisableString EventLove(string user) => new TranslatableString(getKey(@"event.love"), @"Loved by {0}.", user);
+        public static LocalisableString EventLove(LocalisableString user) => new TranslatableString(getKey(@"event.love"), @"Loved by {0}.", user);
 
         /// <summary>
         /// "Nominated by {0}."
         /// </summary>
-        public static LocalisableString EventNominate(string user) => new TranslatableString(getKey(@"event.nominate"), @"Nominated by {0}.", user);
+        public static LocalisableString EventNominate(LocalisableString user) => new TranslatableString(getKey(@"event.nominate"), @"Nominated by {0}.", user);
 
         /// <summary>
         /// "Nominated by {0} ({1})."
         /// </summary>
-        public static LocalisableString EventNominateModes(string user, string modes) => new TranslatableString(getKey(@"event.nominate_modes"), @"Nominated by {0} ({1}).", user, modes);
+        public static LocalisableString EventNominateModes(LocalisableString user, LocalisableString modes) => new TranslatableString(getKey(@"event.nominate_modes"), @"Nominated by {0} ({1}).", user, modes);
 
         /// <summary>
         /// "New problem {0} ({1}) triggered a nomination reset."
         /// </summary>
-        public static LocalisableString EventNominationReset(string discussion, string text) => new TranslatableString(getKey(@"event.nomination_reset"), @"New problem {0} ({1}) triggered a nomination reset.", discussion, text);
+        public static LocalisableString EventNominationReset(LocalisableString discussion, LocalisableString text) => new TranslatableString(getKey(@"event.nomination_reset"), @"New problem {0} ({1}) triggered a nomination reset.", discussion, text);
+
+        /// <summary>
+        /// "Nomination by {0} was reset by {1} ({2})"
+        /// </summary>
+        public static LocalisableString EventNominationResetReceived(LocalisableString user, LocalisableString sourceUser, LocalisableString text) => new TranslatableString(getKey(@"event.nomination_reset_received"), @"Nomination by {0} was reset by {1} ({2})", user, sourceUser, text);
+
+        /// <summary>
+        /// "Nomination was reset by {0} ({1})"
+        /// </summary>
+        public static LocalisableString EventNominationResetReceivedProfile(LocalisableString user, LocalisableString text) => new TranslatableString(getKey(@"event.nomination_reset_received_profile"), @"Nomination was reset by {0} ({1})", user, text);
 
         /// <summary>
         /// "This beatmap has reached the required number of nominations and has been qualified."
@@ -137,7 +147,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Removed from Loved by {0}. ({1})"
         /// </summary>
-        public static LocalisableString EventRemoveFromLoved(string user, string text) => new TranslatableString(getKey(@"event.remove_from_loved"), @"Removed from Loved by {0}. ({1})", user, text);
+        public static LocalisableString EventRemoveFromLoved(LocalisableString user, LocalisableString text) => new TranslatableString(getKey(@"event.remove_from_loved"), @"Removed from Loved by {0}. ({1})", user, text);
 
         /// <summary>
         /// "Removed explicit mark"
@@ -273,6 +283,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Nomination resetting"
         /// </summary>
         public static LocalisableString TypeNominationReset => new TranslatableString(getKey(@"type.nomination_reset"), @"Nomination resetting");
+
+        /// <summary>
+        /// "Nomination reset received"
+        /// </summary>
+        public static LocalisableString TypeNominationResetReceived => new TranslatableString(getKey(@"type.nomination_reset_received"), @"Nomination reset received");
 
         /// <summary>
         /// "Explicit mark"

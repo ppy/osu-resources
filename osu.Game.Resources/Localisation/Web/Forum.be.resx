@@ -91,6 +91,9 @@
   <data name="forums.latest_post" xml:space="preserve">
     <value>Апошні допіс</value>
   </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Індэкс форума</value>
+  </data>
   <data name="forums.topics.empty" xml:space="preserve">
     <value>Няма тэм!</value>
   </data>
@@ -115,14 +118,23 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>апублікаваны {0}</value>
   </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>аўтар паста {0}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Выдаліць допіс</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Рэдагаваць допіс</value>
   </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Паскардзіцца на пост</value>
+  </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Аднавіць допіс</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Новы адказ</value>
   </data>
   <data name="post.info.post_count" xml:space="preserve">
     <value>{0} допіс|{0} допісы|{0} допісаў</value>
@@ -139,11 +151,23 @@
   <data name="search.total_posts" xml:space="preserve">
     <value>усяго {0} допісаў</value>
   </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Сапраўды выдаліць тэму?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Сапраўды аднавіць тэму?</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>выдаленая тэма</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>праглядзець апошні допіс</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Вы адказалі на гэтую тэму</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>у {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} ад {1}</value>
@@ -171,6 +195,12 @@
   </data>
   <data name="topic.started_by_verbose" xml:space="preserve">
     <value>пачата {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Выдаліць тэму</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Аднавіць тэму</value>
   </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Закрыць</value>
@@ -394,6 +424,9 @@
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>Адкрыць тэму</value>
   </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Разблакаваць тэму?</value>
+  </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Тэма была адкрыта</value>
   </data>
@@ -412,6 +445,9 @@
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
     <value>Адмацаваць тэму</value>
   </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Адмацаваць тэму?</value>
+  </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Тэма была адмацавана</value>
   </data>
@@ -427,8 +463,17 @@
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
     <value>Замацаваць тэму і пазначыць як апавяшчэнне</value>
   </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Замацаваць тэму і пазначыць як аб'яву?</value>
+  </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Тэма была замацавана і пазначана як абвяшчэння</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Паказаць выдаленыя пасты</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Схаваць выдаленыя пасты</value>
   </data>
   <data name="topics.show.deleted-posts" xml:space="preserve">
     <value>Выдалена допісаў</value>
@@ -460,11 +505,23 @@
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>Вы не маеце больш даступных галасоў</value>
   </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Рэдагаванне апытання</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Рэдагаванне апытання прывядзе да выдалення бягучых вынікаў!</value>
+  </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
     <value>Галасаваць</value>
   </data>
   <data name="topics.show.poll.button.change_vote" xml:space="preserve">
     <value>Змяніць голас</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Рэдагаванне апытання</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Перайсці да вынікаў</value>
   </data>
   <data name="topics.show.poll.button.vote" xml:space="preserve">
     <value>Галасаваць</value>
