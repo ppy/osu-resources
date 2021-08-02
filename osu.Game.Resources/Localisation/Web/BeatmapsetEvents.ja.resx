@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>新しい問題 {0} ({1})によりノミネートがリセットされました。</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0} によるノミネーションが {1} ({2}) によってリセットされました</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>ノミネーションが {0} ({1}) によってリセットされました</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>このビートマップは既に必要なノミネーション数に達しており、Qualifiedされています。</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>ノミネーションのリセット</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>ノミネーションリセットを受信しました</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>露骨マーク</value>

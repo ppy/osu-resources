@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>ปัญหาใหม่ {0} ({1}) ทำให้เกิดการรีเซทการเสนอชื่อ</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>การ nominate โดย {0} ถูกรีเซ็ตโดย {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>การ nominate ถูกรีเซ็ตโดย {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>บีทแมพนี้ได้รับจำนวนการเสนอชื่อครบแล้ว และได้ถูก Qualified</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>กำลังตั้งค่าการเสนอชื่อใหม่</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>ได้รับการรีเซ็ต nomination แล้ว</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>เครื่องหมายเนื้อหาล่อแหลม</value>

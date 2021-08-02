@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Из-за новой проблемы в {0} статус номинации был сброшен.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Номинация пользователя {0} была сброшена {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Номинация была сброшена {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Эта карта была номинирована достаточное количество раз для квалификации.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Сброс номинации</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Получен сброс номинации</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Контент 18+</value>

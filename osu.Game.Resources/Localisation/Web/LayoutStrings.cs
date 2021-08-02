@@ -140,14 +140,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuBeatmapsArtists => new TranslatableString(getKey(@"menu.beatmaps.artists"), @"featured artists");
 
         /// <summary>
-        /// "listing"
+        /// "beatmap listing"
         /// </summary>
-        public static LocalisableString MenuBeatmapsIndex => new TranslatableString(getKey(@"menu.beatmaps.index"), @"listing");
+        public static LocalisableString MenuBeatmapsIndex => new TranslatableString(getKey(@"menu.beatmaps.index"), @"beatmap listing");
 
         /// <summary>
-        /// "packs"
+        /// "beatmap packs"
         /// </summary>
-        public static LocalisableString MenuBeatmapsPacks => new TranslatableString(getKey(@"menu.beatmaps.packs"), @"packs");
+        public static LocalisableString MenuBeatmapsPacks => new TranslatableString(getKey(@"menu.beatmaps.packs"), @"beatmap packs");
 
         /// <summary>
         /// "community"
@@ -170,14 +170,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuCommunityDev => new TranslatableString(getKey(@"menu.community.dev"), @"development");
 
         /// <summary>
-        /// "forums"
+        /// "forum"
         /// </summary>
-        public static LocalisableString MenuCommunityForumForumsIndex => new TranslatableString(getKey(@"menu.community.forum-forums-index"), @"forums");
+        public static LocalisableString MenuCommunityForumForumsIndex => new TranslatableString(getKey(@"menu.community.forum-forums-index"), @"forum");
 
         /// <summary>
-        /// "live"
+        /// "live stream"
         /// </summary>
-        public static LocalisableString MenuCommunityGetLive => new TranslatableString(getKey(@"menu.community.getlive"), @"live");
+        public static LocalisableString MenuCommunityGetLive => new TranslatableString(getKey(@"menu.community.getlive"), @"live stream");
 
         /// <summary>
         /// "tournaments"
@@ -290,9 +290,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuStoreCartShow => new TranslatableString(getKey(@"menu.store.cart-show"), @"cart");
 
         /// <summary>
-        /// "listing"
+        /// "products"
         /// </summary>
-        public static LocalisableString MenuStoreGetListing => new TranslatableString(getKey(@"menu.store.getlisting"), @"listing");
+        public static LocalisableString MenuStoreGetListing => new TranslatableString(getKey(@"menu.store.getlisting"), @"products");
 
         /// <summary>
         /// "order history"

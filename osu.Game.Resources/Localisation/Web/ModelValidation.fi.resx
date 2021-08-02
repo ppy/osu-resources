@@ -133,14 +133,26 @@
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
     <value>Beatmapin metatietoviestiä ei voida muokata.</value>
   </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Aloitusviestiä ei voi poistaa</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Viestissä puuttuu aihe</value>
+  </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Sinun vastauksesi sisältää ainoastaan lainauksen.</value>
+  </data>
+  <data name="forum.topic.attributes.topic_title" xml:space="preserve">
+    <value>Aiheen otsikko</value>
   </data>
   <data name="forum.topic_poll.duplicate_options" xml:space="preserve">
     <value>Identtiset valinnat eivät ole sallittuja.</value>
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
     <value>Äänestystä ei voi muokata {0} tunnin jälkeen</value>
+  </data>
+  <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
+    <value>Ei voi piilottaa tuloksia kyselystä, joka ei koskaan pääty.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Valinnat käyttäjää kohti eivät voi ylittää kaikkien valintojen määrää.</value>
@@ -153,6 +165,9 @@
   </data>
   <data name="forum.topic_poll.too_many_options" xml:space="preserve">
     <value>Sallittujen valintojen määrä ylittyi.</value>
+  </data>
+  <data name="forum.topic_poll.attributes.title" xml:space="preserve">
+    <value>Kyselyn otsikko</value>
   </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
     <value>Valitse jotain äänestäessäsi.</value>
@@ -174,6 +189,9 @@
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>Tämä sähköpostiosoite on jo käytössä.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>Sähköpostiosoite ei ole sallittu.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Maata ei ole tietokannassa.</value>

@@ -65,14 +65,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MappingTitle => new TranslatableString(getKey(@"mapping.title"), @"mapper");
 
         /// <summary>
-        /// "stop notifying me when this user uploads new beatmap"
+        /// "stop notifying me when this user uploads a new beatmap"
         /// </summary>
-        public static LocalisableString MappingTo0 => new TranslatableString(getKey(@"mapping.to_0"), @"stop notifying me when this user uploads new beatmap");
+        public static LocalisableString MappingTo0 => new TranslatableString(getKey(@"mapping.to_0"), @"stop notifying me when this user uploads a new beatmap");
 
         /// <summary>
-        /// "notify me when this user uploads new beatmap"
+        /// "notify me when this user uploads a new beatmap"
         /// </summary>
-        public static LocalisableString MappingTo1 => new TranslatableString(getKey(@"mapping.to_1"), @"notify me when this user uploads new beatmap");
+        public static LocalisableString MappingTo1 => new TranslatableString(getKey(@"mapping.to_1"), @"notify me when this user uploads a new beatmap");
 
         /// <summary>
         /// "beatmap discussion"

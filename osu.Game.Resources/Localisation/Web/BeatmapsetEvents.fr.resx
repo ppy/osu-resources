@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Le nouveau problème {0} ({1}) a déclenché une réinitialisation de la nomination.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>La nomination de {0} a été réinitialisée par {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>La nomination a été réinitialisée par {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Cette beatmap a atteint le nombre requis de nominations et a été qualifiée.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Réinitialisation de la nomination</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>La nomination a été réinitialisée</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Marque explicite</value>

@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Yeni sorun {0} ({1}) bir adaylık sıfırlamasını tetikledi.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0} tarafından gerçekleştirilen aday gösterme {1} tarafından sıfırlandı ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Adaylık {0} tarafından sıfırlandı ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Bu beatmap gerekli aday gösterilme miktarına ulaştı ve nitelikli oldu.</value>
   </data>
@@ -215,7 +221,10 @@
     <value>Adaylık</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
-    <value>Adaylık Sıfırlama</value>
+    <value>Adaylık sıfırlama</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Adaylık sıfırlaması alındı</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Müstehcen işareti</value>

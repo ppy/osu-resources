@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Goedgekeurd.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Eigenaar van moeilijkheid {0} veranderd naar {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Moderator verwijderde discussie {0}.</value>
   </data>
@@ -89,25 +92,25 @@
     <value>Genre veranderd van {0} naar {1}.</value>
   </data>
   <data name="event.issue_reopen" xml:space="preserve">
-    <value>Probleem opgelost {0} heropend.</value>
+    <value>Opgelost probleem {0} door {1} heropend door {2}.</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
-    <value>Probleem: discussie gemarkeerd als opgelost.</value>
+    <value>Probleem {0} door {1} gemarkeerd als opgelost door {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>Kudosu ontkenning voor discussie: discussie is verwijderd.</value>
+    <value>Kudosu ontkenning voor discussie {0} is verwijderd.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
-    <value>Discussie: discussie geweigerd voor kudosu.</value>
+    <value>Discussie {0} geweigerd voor kudosu.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Discussie: discussie door: gebruiker heeft genoeg stemmen ontvangen voor kudosu.</value>
+    <value>Discussie {0} door {1} heeft genoeg stemmen ontvangen voor kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Discussie: discussie door: gebruiker heeft stemmen verloren en kudosu is verwijderd.</value>
+    <value>Discussie {0} door {1} heeft stemmen verloren en kudosu is verwijderd.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
-    <value>Discussie: discussie heeft de kudosu toekenningen laten herberekenen.</value>
+    <value>Discussie {0} heeft de kudosu toekenningen laten herberekenen.</value>
   </data>
   <data name="event.language_edit" xml:space="preserve">
     <value>Taal veranderd van {0} naar {1}.</value>
@@ -123,6 +126,12 @@
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nieuw probleem: discussie (: tekst) veroorzaakte een nominatie reset.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominatie door {0} werd gereset door {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominatie werd gereset door {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Deze beatmap heeft het benodigde aantal nominaties bereikt en is nu gekwalificeerd.</value>
@@ -159,6 +168,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Goedkeuring</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Moeilijkheidsgraad eigenaar veranderen</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Discussie verwijdering</value>
@@ -210,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Nominatie opnieuw instellen</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominatie reset ontvangen</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Expliciete markering</value>

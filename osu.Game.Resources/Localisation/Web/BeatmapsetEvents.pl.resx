@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nowy problem {0} spowodował zresetowanie nominacji.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominacja użytkownika {0} została zresetowana przez {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominacja została zresetowana przez użytkownika {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Ta beatmapa osiągnęła wystarczającą liczbę nominacji i została zakwalifikowana.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Zresetowanie nominacji</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominacja została zresetowana</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Oznaczenie jako treść dla pełnoletnich</value>

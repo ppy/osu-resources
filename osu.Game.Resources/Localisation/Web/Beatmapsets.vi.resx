@@ -67,11 +67,20 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Nhấp vào đây để biết thêm thông tin.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Một số nội dung có trong bản đồ này đã bị xóa sau khi bị đánh giá là không phù hợp để sử dụng trong osu!.</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Chậm lại, chơi nhiều hơn.</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Danh Sách Beatmap</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmaps</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>không beatmaps</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>tải xuống</value>
@@ -85,11 +94,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>mở trong osu!direct</value>
   </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Bản đồ nhịp kết hợp yêu cầu bạn chọn ít nhất một chế độ chơi để đề cử.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Bạn không có sự cho phép để đề cử cho chế độ: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Bạn phải là người được đề cử đầy đủ để thực hiện đề cử đủ điều kiện này.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Yêu cầu đề cử đã được đáp ứng.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn đề cử beatmap này không?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Đề cử Beatmap</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>lưu ý: bạn chỉ có thể đề cử một lần, vì vậy hãy đảm bảo rằng bạn đang đề cử cho tất cả các chế độ chơi mà bạn dự định</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Đề cử cho những chế độ nào?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Minh bạch</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Góc Thảo Luận</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>bởi {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Yêu thích beatmapset này</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Đăng nhập để yêu thích beatmap này</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Bạn cần phải đăng nhập trước khi tải xuống beatmap!</value>
@@ -124,6 +166,9 @@
   <data name="show.details_date.loved" xml:space="preserve">
     <value>được yêu thích {0}</value>
   </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>đủ tiêu chuẩn {0}</value>
+  </data>
   <data name="show.details_date.ranked" xml:space="preserve">
     <value>được xếp hạng {0}</value>
   </data>
@@ -151,6 +196,12 @@
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>đang thực hiện</value>
   </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Nếu bạn thấy có vấn đề với bản beatmap này, vui lòng loại bỏ nó {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Nếu bạn tìm thấy vấn đề với bản đồ này, vui lòng báo cáo nó {0} để cảnh báo cho nhóm.</value>
+  </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Báo cáo vấn đề</value>
   </data>
@@ -169,17 +220,32 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Vẫn đang tính toán dữ liệu...</value>
   </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Nội dung thô tục</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Tỉ Lệ Thất Bại</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Nguồn</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Beatmap này chứa storyboard</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Tỉ Lệ Thành Công</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Tags</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Beatmap này chứa video</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Beatmap này chứa nội dung thô tục, xúc phạm, hoặc đáng lo ngại. Bạn có muốn xem nó không?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Nội dung thô tục</value>
   </data>
   <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
     <value>Ẩn thông báo</value>
@@ -312,6 +378,9 @@
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Qualified</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
     <value>Đang Chờ</value>
