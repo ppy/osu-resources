@@ -125,7 +125,13 @@
     <value>Dinominasikan oleh {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Masalah baru di {0} ({1}) memicu pengaturan ulang nominasi.</value>
+    <value>Masalah baru pada {0} ({1}) memicu penganuliran nominasi.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominasi yang sebelumnya diberikan oleh {0} telah dianulir oleh {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominasi dianulir oleh {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Beatmap ini telah memperoleh jumlah nominasi yang cukup untuk mendapatkan status Qualified.</value>
@@ -215,7 +221,10 @@
     <value>Nominasi</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
-    <value>Nominasi ulang</value>
+    <value>Penganuliran nominasi</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominasi beatmap dianulir</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Tanda eksplisit</value>

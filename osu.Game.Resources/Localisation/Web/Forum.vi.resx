@@ -62,13 +62,16 @@
     <value>Chủ Đề Đã Ghim</value>
   </data>
   <data name="slogan" xml:space="preserve">
-    <value>Chơi một mình khá là nguy hiểm đấy.</value>
+    <value>chơi một mình khá rất nguy hiểm đấy.</value>
   </data>
   <data name="subforums" xml:space="preserve">
-    <value>Subforums</value>
+    <value>Diễn đàn phụ</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>diễn đàn osu!</value>
+    <value>Diễn đàn </value>
+  </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Chỉnh sửa bìa</value>
   </data>
   <data name="covers.create._" xml:space="preserve">
     <value>Đặt ảnh bìa</value>
@@ -83,10 +86,13 @@
     <value>Gỡ bỏ ảnh bìa</value>
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
-    <value>Bạn chắc là mình muốn gỡ bỏ ảnh bìa?</value>
+    <value>Bạn có chắc mình muốn gỡ bỏ ảnh bìa?</value>
   </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>Bài viết mới nhất</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Diễn đàn Index</value>
   </data>
   <data name="forums.topics.empty" xml:space="preserve">
     <value>Không có chủ đề nào cả!</value>
@@ -107,10 +113,13 @@
     <value>Bạn muốn phục hồi bài viết?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
-    <value>Chỉnh sửa lần cuối bởi {0} {1}, đã chỉnh sửa tổng cộng {2} lần.</value>
+    <value>Lần chỉnh sửa cuối cùng bởi {0} {1}, chỉnh sửa {2} tổng thời gian.|Lần chỉnh sửa cuối cùng bởi {0} {1}, chỉnh sửa {2} tổng thời gian.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
-    <value>đăng vào {0}</value>
+    <value>đã đăng vào {0}</value>
+  </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>đã đăng bởi {0}</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Xóa bài viết</value>
@@ -118,11 +127,17 @@
   <data name="post.actions.edit" xml:space="preserve">
     <value>Chỉnh sửa bài viết</value>
   </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Báo cáo bài đăng</value>
+  </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Phục hồi bài viết</value>
   </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Có trả lời mới</value>
+  </data>
   <data name="post.info.post_count" xml:space="preserve">
-    <value>{0} bài đăng</value>
+    <value>{0} bài đăng|{0} bài đăng</value>
   </data>
   <data name="post.info.topic_starter" xml:space="preserve">
     <value>Người tạo topic</value>
@@ -131,10 +146,16 @@
     <value>Đi đến bài viết</value>
   </data>
   <data name="search.post_number_input" xml:space="preserve">
-    <value>nhập số thứ tự</value>
+    <value>nhập số bài viết</value>
   </data>
   <data name="search.total_posts" xml:space="preserve">
-    <value>tổng cộng {0} bài viết</value>
+    <value>{0} tổng bài viết</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Bạn có muốn xóa bài viết này?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Bạn có muốn phục hồi bài viết này?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>chủ đề đã xóa</value>
@@ -144,6 +165,9 @@
   </data>
   <data name="topic.has_replied" xml:space="preserve">
     <value>Bạn đã trả lời topic này</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>trong {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} bởi {1}</value>
@@ -171,6 +195,12 @@
   </data>
   <data name="topic.started_by_verbose" xml:space="preserve">
     <value>bắt đầu bởi {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Xóa bài viết</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Phục hồi bài viết</value>
   </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Đóng</value>
@@ -474,6 +504,9 @@
   </data>
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>Bạn không còn lượt bình chọn nào hết</value>
+  </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Chỉnh sửa cuộc thăm dò ý kiến</value>
   </data>
   <data name="topics.show.poll.edit_warning" xml:space="preserve">
     <value>Chỉnh sửa cuộc thăm dò sẽ xóa bỏ các kết quả hiện tại!</value>

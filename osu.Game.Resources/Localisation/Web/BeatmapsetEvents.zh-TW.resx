@@ -88,6 +88,9 @@
   <data name="event.disqualify_legacy" xml:space="preserve">
     <value>該圖譜因 {0} 被 DQ</value>
   </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>曲風由 {0} 更改為 {1}。</value>
+  </data>
   <data name="event.issue_reopen" xml:space="preserve">
     <value>問題 {0} 被重新打開。</value>
   </data>
@@ -123,6 +126,12 @@
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>新問題 {0} 導致提名被重置。</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0} 重置了 {1} 的提名 ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>{0} 重置了提名 ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>這張圖譜已經達到所需的提名數量，並已經 qualified。</value>
@@ -214,6 +223,9 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>被取消提名</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>收到提名重置</value>
+  </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>成人內容標記</value>
   </data>
@@ -222,5 +234,8 @@
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Ranking</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Loved 移除</value>
   </data>
 </root>

@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Új probléma {0} ({1}) miatt a nominálás alaphelyzetbe állt.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0} általi nominálás vissza lett állítva {1} által ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominálás vissza lett állítva {0} által ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Ez a beatmap elérte az elegendő számú nominálást és kvalifikálva lett.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Nominálás visszaállítás</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominálás visszaállítása érkezett</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Felnőtt tartalom jel</value>

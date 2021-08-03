@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>새로운 문제 {0} ({1})가 추천 상태를 초기화시켰습니다.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0}의 추천이 {1}에게 초기화됨 ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>추천이 {0}에게 초기화됨 ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>이 비트맵은 충분한 추천을 받았고 qualified 상태로 전환되었습니다.</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>추천 초기화</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>추천이 초기화 됨</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>부적절한 콘텐츠로 표시</value>

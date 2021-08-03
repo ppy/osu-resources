@@ -76,6 +76,12 @@
   <data name="error.error.403" xml:space="preserve">
     <value>kielletty</value>
   </data>
+  <data name="error.error.401" xml:space="preserve">
+    <value>luvaton</value>
+  </data>
+  <data name="error.error.401-verification" xml:space="preserve">
+    <value>tilin vahvistaminen</value>
+  </data>
   <data name="error.error.422" xml:space="preserve">
     <value>virheellinen pyyntö</value>
   </data>
@@ -94,8 +100,38 @@
   <data name="forum.topic_watches_controller.index" xml:space="preserve">
     <value>yleiskatsaus</value>
   </data>
+  <data name="main.account_controller.edit" xml:space="preserve">
+    <value>yleiskatsaus</value>
+  </data>
+  <data name="main.account_controller.verify_link" xml:space="preserve">
+    <value>tilin vahvistaminen</value>
+  </data>
+  <data name="main.beatmap_discussion_posts_controller._" xml:space="preserve">
+    <value>viestit beatmap-keskustelussa</value>
+  </data>
+  <data name="main.beatmap_discussions_controller._" xml:space="preserve">
+    <value>beatmap-keskustelut</value>
+  </data>
+  <data name="main.beatmapset_events_controller._" xml:space="preserve">
+    <value>beatmap-historiikki</value>
+  </data>
+  <data name="main.beatmapset_watches_controller.index" xml:space="preserve">
+    <value>yleiskatsaus</value>
+  </data>
+  <data name="main.beatmapsets_controller.discussion" xml:space="preserve">
+    <value>beatmap-keskustelu</value>
+  </data>
+  <data name="main.beatmapsets_controller.index" xml:space="preserve">
+    <value>beatmap-listaus</value>
+  </data>
+  <data name="main.beatmapsets_controller.show" xml:space="preserve">
+    <value>beatmap-tiedot</value>
+  </data>
   <data name="main.changelog_controller._" xml:space="preserve">
     <value>muutosloki</value>
+  </data>
+  <data name="main.chat_controller._" xml:space="preserve">
+    <value>chatti</value>
   </data>
   <data name="main.comments_controller._" xml:space="preserve">
     <value>kommentit</value>
@@ -103,11 +139,29 @@
   <data name="main.contests_controller._" xml:space="preserve">
     <value>kilpailut</value>
   </data>
+  <data name="main.follows_controller.index" xml:space="preserve">
+    <value>yleiskatsaus</value>
+  </data>
+  <data name="main.friends_controller.index" xml:space="preserve">
+    <value>yleiskatsaus</value>
+  </data>
   <data name="main.groups_controller.show" xml:space="preserve">
     <value>ryhmät</value>
   </data>
   <data name="main.home_controller.get_download" xml:space="preserve">
     <value>lataa</value>
+  </data>
+  <data name="main.home_controller.index" xml:space="preserve">
+    <value>yleiskatsaus</value>
+  </data>
+  <data name="main.home_controller.search" xml:space="preserve">
+    <value>haku</value>
+  </data>
+  <data name="main.home_controller.support_the_game" xml:space="preserve">
+    <value>tue peliä</value>
+  </data>
+  <data name="main.home_controller.testflight" xml:space="preserve">
+    <value>testflight</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>suoralähetykset</value>
@@ -125,15 +179,36 @@
     <value>salasanan uusiminen</value>
   </data>
   <data name="main.ranking_controller._" xml:space="preserve">
-    <value>sijoitus</value>
+    <value>tilastot</value>
   </data>
   <data name="main.scores_controller._" xml:space="preserve">
     <value>suorituskyky</value>
   </data>
   <data name="main.store_controller._" xml:space="preserve">
-    <value>osu!kauppa</value>
+    <value>kauppa</value>
+  </data>
+  <data name="main.tournaments_controller._" xml:space="preserve">
+    <value>turnaukset</value>
+  </data>
+  <data name="main.users_controller._" xml:space="preserve">
+    <value>pelaajatiedot</value>
+  </data>
+  <data name="main.users_controller.disabled" xml:space="preserve">
+    <value>ilmoitus</value>
+  </data>
+  <data name="main.wiki_controller._" xml:space="preserve">
+    <value>wiki</value>
+  </data>
+  <data name="multiplayer.rooms_controller._" xml:space="preserve">
+    <value>sijoitukset</value>
   </data>
   <data name="store._" xml:space="preserve">
-    <value>osu!kauppa</value>
+    <value>kauppa</value>
+  </data>
+  <data name="users.modding_history_controller._" xml:space="preserve">
+    <value>modaajatiedot</value>
+  </data>
+  <data name="users.multiplayer_controller._" xml:space="preserve">
+    <value>moninpelihistoriikki</value>
   </data>
 </root>

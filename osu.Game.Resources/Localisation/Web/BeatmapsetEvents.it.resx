@@ -127,11 +127,17 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Il nuovo problema {0} ({1}) ha comportato un reset di nomina.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>La nomina di {0} è stata azzerata da {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>La nomina è stata azzerata da {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Questa beatmap ha raggiunto il numero richiesto di nomine ed è stata qualificata.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
-    <value>Rankata.</value>
+    <value>Classificata.</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
     <value>Rimossa dalle amate da {0}. ({1})</value>
@@ -216,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Reset delle nominazioni</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Reset di nomina ricevuto</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Esplicito</value>

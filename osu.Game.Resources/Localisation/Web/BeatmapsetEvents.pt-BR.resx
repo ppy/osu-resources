@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Novo problema {0} reiniciou a contagem de nomeação.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nomeação por {0} foi redefinida por {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>A nomeação foi redefinida por {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Este beatmap alcançou o número de nomeações necessárias e se tornou qualificado.</value>
   </data>
@@ -215,7 +221,10 @@
     <value>Nomeação</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
-    <value>Redefinição de Nomeação</value>
+    <value>Redefinição de nomeação</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Redefinição de nomeação recebida</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Marcação explícita</value>

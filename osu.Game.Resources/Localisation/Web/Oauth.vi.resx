@@ -70,11 +70,17 @@
   <data name="authorise.title" xml:space="preserve">
     <value>Yêu Cầu Ủy Quyền</value>
   </data>
+  <data name="authorized_clients.confirm_revoke" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thu hồi quyền của khách hàng này không?</value>
+  </data>
   <data name="authorized_clients.scopes_title" xml:space="preserve">
     <value>Ứng dụng này có thể:</value>
   </data>
   <data name="authorized_clients.owned_by" xml:space="preserve">
     <value>Được sở hữu bởi {0}</value>
+  </data>
+  <data name="authorized_clients.none" xml:space="preserve">
+    <value>Không có khách </value>
   </data>
   <data name="authorized_clients.revoked.false" xml:space="preserve">
     <value>Thu hồi quyền truy cập</value>
@@ -82,11 +88,53 @@
   <data name="authorized_clients.revoked.true" xml:space="preserve">
     <value>Đã thu hồi quyền truy cập</value>
   </data>
+  <data name="client.id" xml:space="preserve">
+    <value>ID khách </value>
+  </data>
+  <data name="client.name" xml:space="preserve">
+    <value>Tên ứng dụng</value>
+  </data>
+  <data name="client.redirect" xml:space="preserve">
+    <value>Ứng dụng gọi lại URL</value>
+  </data>
+  <data name="client.reset" xml:space="preserve">
+    <value>Đặt lại bí mật của khách </value>
+  </data>
+  <data name="client.reset_failed" xml:space="preserve">
+    <value>Lỗi không thể đặt lại bí mật của khách </value>
+  </data>
+  <data name="client.secret" xml:space="preserve">
+    <value>Bí mật khách </value>
+  </data>
+  <data name="client.secret_visible.false" xml:space="preserve">
+    <value>Hiện bí mật khách </value>
+  </data>
+  <data name="client.secret_visible.true" xml:space="preserve">
+    <value>Ẩn bí mật khách</value>
+  </data>
+  <data name="new_client.header" xml:space="preserve">
+    <value>Đăng ký ứng dụng "OAuth" mới</value>
+  </data>
+  <data name="new_client.register" xml:space="preserve">
+    <value>Đăng kí ứng dụng</value>
+  </data>
+  <data name="new_client.terms_of_use._" xml:space="preserve">
+    <value>Bằng cách sử dụng với API bạn đồng ý với {0}.</value>
+  </data>
   <data name="new_client.terms_of_use.link" xml:space="preserve">
     <value>Điều khoản sử dụng</value>
   </data>
+  <data name="own_clients.confirm_delete" xml:space="preserve">
+    <value>Bạn có chắc chắn rằng muốn xóa khách này?</value>
+  </data>
+  <data name="own_clients.confirm_reset" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn đặt lại bí mật của ứng dụng khách không? Điều này sẽ thu hồi tất cả các mã thông báo hiện có.</value>
+  </data>
   <data name="own_clients.new" xml:space="preserve">
     <value>Ứng dụng OAuth mới</value>
+  </data>
+  <data name="own_clients.none" xml:space="preserve">
+    <value>Không có khách</value>
   </data>
   <data name="own_clients.revoked.false" xml:space="preserve">
     <value>Xóa</value>

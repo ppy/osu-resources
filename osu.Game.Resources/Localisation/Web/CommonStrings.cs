@@ -445,14 +445,24 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScoreboardTimehh => new TranslatableString(getKey(@"scoreboard_time.hh"), @"%dh");
 
         /// <summary>
-        /// "%dm"
+        /// "now"
         /// </summary>
-        public static LocalisableString ScoreboardTimeM => new TranslatableString(getKey(@"scoreboard_time.m"), @"%dm");
+        public static LocalisableString ScoreboardTimem => new TranslatableString(getKey(@"scoreboard_time.m"), @"now");
+
+        /// <summary>
+        /// "now"
+        /// </summary>
+        public static LocalisableString ScoreboardTimemm => new TranslatableString(getKey(@"scoreboard_time.mm"), @"now");
 
         /// <summary>
         /// "%dm"
         /// </summary>
-        public static LocalisableString ScoreboardTimeMM => new TranslatableString(getKey(@"scoreboard_time.mm"), @"%dm");
+        public static LocalisableString ScoreboardTimeMonth => new TranslatableString(getKey(@"scoreboard_time.month"), @"%dm");
+
+        /// <summary>
+        /// "%dm"
+        /// </summary>
+        public static LocalisableString ScoreboardTimeMonths => new TranslatableString(getKey(@"scoreboard_time.months"), @"%dm");
 
         /// <summary>
         /// "%s"

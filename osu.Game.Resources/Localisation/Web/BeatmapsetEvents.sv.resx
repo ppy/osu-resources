@@ -61,8 +61,11 @@
   <data name="event.approve" xml:space="preserve">
     <value>Godkänd.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Ägare av svårighetsgrad {0} ändrad till {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
-    <value>Moderator raderade diskussion {0}.</value>
+    <value>Moderator raderade diskussionen {0}.</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
     <value>Diskussioner för denna beatmap har inaktiverats. ({0})</value>
@@ -124,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nytt problem {0} triggade en nomination återställning.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominering av {0} återställdes av {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominering återställdes av {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Denna beatmap har uppnått den nödvändiga antalet av nomineringar och har blivit kvalificerad.</value>
   </data>
@@ -159,6 +168,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Godkännande</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value> Byte av svårighetsgradsägare</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Borttagning av diskussioner</value>
@@ -210,6 +222,9 @@
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Återställning av nominering</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nomineringsåterställning mottagen</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Explicit markering</value>

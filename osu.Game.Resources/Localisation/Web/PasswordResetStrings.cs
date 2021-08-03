@@ -35,6 +35,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ErrorContactSupport => new TranslatableString(getKey(@"error.contact_support"), @"Please contact support to recover account.");
 
         /// <summary>
+        /// "Verification code has expired."
+        /// </summary>
+        public static LocalisableString ErrorExpired => new TranslatableString(getKey(@"error.expired"), @"Verification code has expired.");
+
+        /// <summary>
+        /// "Unexpected error in verification code."
+        /// </summary>
+        public static LocalisableString ErrorInvalid => new TranslatableString(getKey(@"error.invalid"), @"Unexpected error in verification code.");
+
+        /// <summary>
         /// "Please contact a high level admin to recover account."
         /// </summary>
         public static LocalisableString ErrorIsPrivileged => new TranslatableString(getKey(@"error.is_privileged"), @"Please contact a high level admin to recover account.");

@@ -226,14 +226,23 @@
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>刪除</value>
   </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[該討論已移除]</value>
+  </data>
   <data name="discussions.review.embed.unlink" xml:space="preserve">
     <value>取消連結</value>
   </data>
   <data name="discussions.review.embed.unsaved" xml:space="preserve">
     <value>尚未儲存</value>
   </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>如果這個 {0} 開頭是時間戳，時間戳會在「時間軸」下顯示。</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>插入段落</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>插入表揚</value>
   </data>
   <data name="discussions.review.insert-block.problem" xml:space="preserve">
     <value>插入問題</value>
@@ -376,6 +385,12 @@
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>沒有足夠的推薦。</value>
   </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>從 Loved 中移除</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>從 Loved 中移除的原因：</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>提名數: {0}/{1}</value>
   </data>
@@ -387,6 +402,12 @@
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>仍然有需解決的問題 。</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>若沒找到問題，該圖譜將於 {0} 進榜。位於 {1} 中的 #{2}。</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>ranking 列隊</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>不久後</value>
@@ -435,6 +456,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>模式</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>成人內容</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>玩過</value>

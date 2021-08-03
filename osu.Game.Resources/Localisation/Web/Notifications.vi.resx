@@ -67,11 +67,20 @@
   <data name="loading" xml:space="preserve">
     <value>Đang tải thông báo chưa đọc...</value>
   </data>
+  <data name="mark_read" xml:space="preserve">
+    <value>Xóa {0}</value>
+  </data>
   <data name="none" xml:space="preserve">
     <value>Không có thông báo nào</value>
   </data>
   <data name="see_all" xml:space="preserve">
     <value>xem tất cả thông báo</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>đi đến trò chuyện</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Vui lòng xác minh phiên để xem thông báo</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>tất cả</value>
@@ -88,11 +97,23 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>tin tức</value>
   </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>xây dựng</value>
+  </data>
   <data name="filters.channel" xml:space="preserve">
     <value>chat</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Độ khó khách mời</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Bây giờ bạn là chủ sở hữu độ khó "{0}" cho beatmap "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Bây giờ bạn là chủ sở hữu độ khó "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Góc thảo luận beatmap</value>
@@ -115,11 +136,33 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Bài đăng mới bởi {0}</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
+    <value>Đánh giá mời về "{0}" bởi {1} có vấn đề: {2}, gợi ý:
+{3}, ca ngợi: {4}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
+    <value>Đánh giá mới bởi {0} có vấn đề: {1}, gợi ý: {2}, ca ngợi: {3}</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Cuộc thảo luận trên "{0}" đã được mở khóa</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Cuộc thảo luận đã được mở khóa</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
+    <value>Vấn đề về beatmap đủ điều kiện</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Báo cáo bởi {0} trên "{1}": "{2}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
+    <value>Báo cáo bởi {0} trên "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
+    <value>Báo cáo bởi {0}: "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
+    <value>Báo cáo bởi {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
     <value>Trạng thái Beatmap đã thay đổi</value>
@@ -154,14 +197,41 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>Beatmap đã được xếp hạng</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" đã bị xóa bởi Loved</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>Beatmap đã bị xóa bởi Loved</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Đề cử cho "{0}" đã được đặt lại</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
+    <value>Đề cử đã đặt lại</value>
+  </data>
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Bình luận mới</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>"{0}" đã nhận xét{1} trên{2}</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} đã nhận xét "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} gửi lại "{1}" trên "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} đã gửi lại "{1}" </value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Tin nhắn mới</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message" xml:space="preserve">
+    <value>{0} nói "{1}"</value>
   </data>
   <data name="item.channel.channel.pm.channel_message_compact" xml:space="preserve">
     <value>{0}</value>
@@ -175,11 +245,35 @@
   <data name="item.build.comment._" xml:space="preserve">
     <value>Bình luận mới</value>
   </data>
+  <data name="item.build.comment.comment_new" xml:space="preserve">
+    <value>{0} đã nhận xét "{1}" trên "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} đã nhận xét "{1}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} đã gửi lại "{1}" trên "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} đã gửi lại "{1}"</value>
+  </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Tin tức</value>
   </data>
   <data name="item.news_post.comment._" xml:space="preserve">
     <value>Bình luận mới</value>
+  </data>
+  <data name="item.news_post.comment.comment_new" xml:space="preserve">
+    <value>{0} đã trả lời "{1}" trên "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} đã trả lời "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} đã gửi lại "{1}" trên "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} đã gửi lại "{1}"</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Chủ đề của diễn đàn</value>
@@ -193,8 +287,23 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} đã trả lời</value>
   </data>
+  <data name="item.legacy_pm._" xml:space="preserve">
+    <value>Diễn đàn kế thừa PM</value>
+  </data>
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} tin nhắn chưa đọc|{0} tin nhắn chưa đọc</value>
+  </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Beatmap mới</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Beatmap mới "{0}" bởi {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Beatmap mới "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Beatmaps mới bởi {0}</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Huy chương</value>
@@ -211,7 +320,65 @@
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Đã mở khóa huy hiệu!</value>
   </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Bạn hiện là khách của beatmap "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Cuộc thảo luận về "{0}" đã bị khóa</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Cuộc thảo luận về "{0}" đã có cập nhật mới</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Cuộc thảo luận về "{0}" đã mở khóa</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Một vấn đề mới đã được báo cáo về "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" đã bị loại</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>"{0}" đã được thăng chức lên loved</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" đã được đề cử</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" đã đạt đủ đề cử và lọt vào hàng đợi xếp hạng</value>
+  </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" đã được xếp hạng</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" đã bị xóa bởi Loved</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Đề cử cho "{0}" đã được đặt lại</value>
+  </data>
+  <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>Beatmap "{0}" đã có bình luận mới</value>
+  </data>
+  <data name="mail.channel.channel.pm" xml:space="preserve">
+    <value>Bạn đã nhận được một tin nhắn mới từ
+{0}</value>
+  </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>Nhật kí thay đổi "{0}" đã có bình luận mới</value>
+  </data>
+  <data name="mail.news_post.comment.comment_new" xml:space="preserve">
+    <value>Tin mới "{0}" đã có bình luận mới</value>
+  </data>
+  <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>Có câu trả lời mới trong "{0}"</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>{0} đã mở khóa một huy chương mới, "{1}"!</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
+    <value>Bạn đã mở khóa một huân chương mới, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} đã tạo beatmap mới</value>
   </data>
 </root>

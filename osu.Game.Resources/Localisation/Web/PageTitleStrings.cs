@@ -235,9 +235,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainPasswordResetControllerDefault => new TranslatableString(getKey(@"main.password_reset_controller._"), @"password reset");
 
         /// <summary>
-        /// "ranking"
+        /// "rankings"
         /// </summary>
-        public static LocalisableString MainRankingControllerDefault => new TranslatableString(getKey(@"main.ranking_controller._"), @"ranking");
+        public static LocalisableString MainRankingControllerDefault => new TranslatableString(getKey(@"main.ranking_controller._"), @"rankings");
 
         /// <summary>
         /// "performance"
@@ -245,9 +245,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainScoresControllerDefault => new TranslatableString(getKey(@"main.scores_controller._"), @"performance");
 
         /// <summary>
-        /// "osu!store"
+        /// "store"
         /// </summary>
-        public static LocalisableString MainStoreControllerDefault => new TranslatableString(getKey(@"main.store_controller._"), @"osu!store");
+        public static LocalisableString MainStoreControllerDefault => new TranslatableString(getKey(@"main.store_controller._"), @"store");
 
         /// <summary>
         /// "tournaments"
@@ -265,19 +265,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainUsersControllerDisabled => new TranslatableString(getKey(@"main.users_controller.disabled"), @"notice");
 
         /// <summary>
-        /// "knowledge base"
+        /// "wiki"
         /// </summary>
-        public static LocalisableString MainWikiControllerDefault => new TranslatableString(getKey(@"main.wiki_controller._"), @"knowledge base");
+        public static LocalisableString MainWikiControllerDefault => new TranslatableString(getKey(@"main.wiki_controller._"), @"wiki");
 
         /// <summary>
-        /// "ranking"
+        /// "rankings"
         /// </summary>
-        public static LocalisableString MultiplayerRoomsControllerDefault => new TranslatableString(getKey(@"multiplayer.rooms_controller._"), @"ranking");
+        public static LocalisableString MultiplayerRoomsControllerDefault => new TranslatableString(getKey(@"multiplayer.rooms_controller._"), @"rankings");
 
         /// <summary>
-        /// "osu!store"
+        /// "store"
         /// </summary>
-        public static LocalisableString StoreDefault => new TranslatableString(getKey(@"store._"), @"osu!store");
+        public static LocalisableString StoreDefault => new TranslatableString(getKey(@"store._"), @"store");
 
         /// <summary>
         /// "modder info"
