@@ -15,6 +15,7 @@ uniform mat3 g_ToMaskingSpace;
 uniform mat3 g_ToDrawingSpace;
 
 uniform float g_FadeClock;
+uniform float g_FadeExponent;
 
 void main(void)
 {
@@ -26,7 +27,7 @@ void main(void)
     vec3 drawingPos = g_ToDrawingSpace * vec3(m_Position, 1.0);
     v_DrawingPosition = drawingPos.xy / drawingPos.z;
 
-    v_Colour = vec4(m_Colour.rgb, m_Colour.a * pow(clamp(m_Time - g_FadeClock, 0.0, 1.0), 1.7));
+    v_Colour = vec4(m_Colour.rgb, m_Colour.a * pow(clamp(m_Time - g_FadeClock, 0.0, 1.0), g_FadeExponent));
      
     v_TexCoord = m_TexCoord;
     v_TexRect = m_TexRect;
