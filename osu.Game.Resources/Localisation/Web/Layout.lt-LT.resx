@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header.admin.contest" xml:space="preserve">
+    <value>konkursas</value>
+  </data>
+  <data name="header.admin.contests" xml:space="preserve">
+    <value>konkursai</value>
+  </data>
+  <data name="header.admin.root" xml:space="preserve">
+    <value>konsolė</value>
+  </data>
+  <data name="header.artists.index" xml:space="preserve">
+    <value>sąrašas</value>
+  </data>
+  <data name="header.changelog.index" xml:space="preserve">
+    <value>sąrašas</value>
+  </data>
+  <data name="header.help.index" xml:space="preserve">
+    <value>indeksas</value>
+  </data>
+  <data name="header.store.cart" xml:space="preserve">
+    <value>krepšelis</value>
+  </data>
+  <data name="header.store.orders" xml:space="preserve">
+    <value>užsakymų istorija</value>
+  </data>
+  <data name="header.store.products" xml:space="preserve">
+    <value>prekės</value>
+  </data>
+  <data name="header.tournaments.index" xml:space="preserve">
+    <value>sąrašas</value>
+  </data>
+  <data name="header.users.show" xml:space="preserve">
+    <value>informacija</value>
+  </data>
+  <data name="gallery.close" xml:space="preserve">
+    <value>Užverti (Esc)</value>
+  </data>
+  <data name="gallery.fullscreen" xml:space="preserve">
+    <value>Perjungti viso ekrano būsena</value>
+  </data>
+  <data name="menu.beatmaps._" xml:space="preserve">
+    <value>beatmapai</value>
+  </data>
+  <data name="menu.beatmaps.index" xml:space="preserve">
+    <value>sąrašas</value>
+  </data>
+  <data name="menu.community._" xml:space="preserve">
+    <value>bendruomenė</value>
+  </data>
+  <data name="menu.community.contests" xml:space="preserve">
+    <value>konkursai</value>
+  </data>
+  <data name="menu.community.forum-forums-index" xml:space="preserve">
+    <value>forumai</value>
+  </data>
+  <data name="menu.community.getlive" xml:space="preserve">
+    <value>tiesiogiai</value>
+  </data>
+  <data name="menu.community.tournaments" xml:space="preserve">
+    <value>turnyrai</value>
+  </data>
+  <data name="menu.help._" xml:space="preserve">
+    <value>pagalba</value>
+  </data>
+  <data name="menu.help.getabuse" xml:space="preserve">
+    <value>pranešti apie piktnaudžiavimą</value>
+  </data>
+  <data name="menu.help.getrules" xml:space="preserve">
+    <value>taisyklės</value>
+  </data>
+  <data name="menu.help.getsupport" xml:space="preserve">
+    <value>ne, tikrai, man reikia pagalbos!</value>
+  </data>
+  <data name="menu.help.getwiki" xml:space="preserve">
+    <value>wiki</value>
+  </data>
+  <data name="menu.home._" xml:space="preserve">
+    <value>pagrindinis</value>
+  </data>
+  <data name="menu.home.changelog-index" xml:space="preserve">
+    <value>pakeitimų sąrašas</value>
+  </data>
+  <data name="menu.home.getdownload" xml:space="preserve">
+    <value>atsisiųsti</value>
+  </data>
+  <data name="menu.home.news-index" xml:space="preserve">
+    <value>naujienos</value>
+  </data>
+  <data name="menu.home.search" xml:space="preserve">
+    <value>ieškoti</value>
+  </data>
+  <data name="menu.home.team" xml:space="preserve">
+    <value>komanda</value>
+  </data>
+  <data name="menu.rankings._" xml:space="preserve">
+    <value>reitingai</value>
+  </data>
+  <data name="menu.rankings.charts" xml:space="preserve">
+    <value>verti dėmesio</value>
+  </data>
+  <data name="menu.rankings.country" xml:space="preserve">
+    <value>šalimis</value>
+  </data>
+</root>

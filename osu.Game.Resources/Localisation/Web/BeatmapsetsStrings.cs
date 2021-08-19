@@ -435,9 +435,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardNoScoresCountry => new TranslatableString(getKey(@"show.scoreboard.no_scores.country"), @"No one from your country has set a score on this map yet!");
 
         /// <summary>
-        /// "None of your friends has set a score on this map yet!"
+        /// "None of your friends have set a score on this map yet!"
         /// </summary>
-        public static LocalisableString ShowScoreboardNoScoresFriend => new TranslatableString(getKey(@"show.scoreboard.no_scores.friend"), @"None of your friends has set a score on this map yet!");
+        public static LocalisableString ShowScoreboardNoScoresFriend => new TranslatableString(getKey(@"show.scoreboard.no_scores.friend"), @"None of your friends have set a score on this map yet!");
 
         /// <summary>
         /// "No scores yet. Maybe you should try setting some?"

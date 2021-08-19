@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Za urejanje morate biti prijavljeni.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Sistemsko generirane objave ni mogoče urejati.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Za urejanje morate biti lastnik objave.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Nič se ni zgodilo ... zaenkrat.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>izbrisano</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Razprave o beatmapih</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Vključi izbrisane razprave</value>
+  </data>
+  <data name="index.form.user.label" xml:space="preserve">
+    <value>Uporabnik</value>
+  </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Pregled dejavnosti</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Datum objave</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Datum izbrisa</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Trajna povezava</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Nobena objava ne obravnava mojih skrbi</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Okrog {0} je bilo objavljenih nekaj objav ({1}). Prosimo, preverite jih, preden nekaj objavite sami.</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Prijavite se, da odgovorite</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Odgovorite</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>{0} je označil kot razrešeno</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>{0} je znova odprl</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Vsi</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>Filtriraj po uporabnikih</value>
+  </data>
+</root>

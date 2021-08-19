@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>מאושר.</value>
+  </data>
+  <data name="event.discussion_delete" xml:space="preserve">
+    <value>מנהל מחק דיון {0}.</value>
+  </data>
+  <data name="event.discussion_lock" xml:space="preserve">
+    <value>דיון למפה זו בוטל. ({0})</value>
+  </data>
+  <data name="event.discussion_post_delete" xml:space="preserve">
+    <value>מנהל מחק הודעה מדיון {0}.</value>
+  </data>
+  <data name="event.discussion_post_restore" xml:space="preserve">
+    <value>מנהל שחזר הודעה מדיון {0}.</value>
+  </data>
+  <data name="event.discussion_restore" xml:space="preserve">
+    <value>מנהל שחזר דיון {0}.</value>
+  </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>דיון למפה זו בוטל.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>נפסל על ידי {0}. סיבה: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>נפסל על ידי {0}. סיבה: {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>הז'אנר שונה מ{0} ל {1}.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>בעיה שנפתרה {0} נפתח מחדש.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>בעיה {0} מסומנת כנפתרה.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>דחיית kudosu לדיון {0} הוסרה.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>דיון {0} נדחה ל- kudosu.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>דיון {0} על ידי {1} השיג מספיק הצבעות בשביל kudosu.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>דיון {0} על ידי {1} איבד הצבעות ו kudosu שהוענק הוסר.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>לדיון {0} התבצע חישוב מחדש ל- kudosu.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>השפה שונתה מ{0} ל {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>אהובה על-ידי {0}</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>מונתה על ידי {0}.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>דורג על ידי {0}) {1}).</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>בעיה חדשה {0} ({1}) הפעילה את איפוס המינוי.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>מפה זו הגיעה למספר הנדרש של מינויים והוסמכה.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>מדורגת.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>הוסר מ-Loved על ידי {0}. ({1})</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>אירועי סט מפות</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>תקופה</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>סוגים</value>
+  </data>
+  <data name="item.content" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[נמחק]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>מחיקת דיון</value>
+  </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>מחיקת תגובת דיון</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>שחזור תגובת דיון</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>שחזור דיון</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>פסילה</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>עריכת ז'אנר</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>פתיחה מחדש של דיון</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>פתרון של דיון</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>קצבת kudosu</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>שלילת kudosu</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>רווח kudosu</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>הפסד kudosu</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>חישוב מחדש של kudosu</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>עריכת שפה</value>
+  </data>
+  <data name="type.love" xml:space="preserve">
+    <value>אוהב</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>מינוי</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>איפוס מינוי</value>
+  </data>
+  <data name="type.qualify" xml:space="preserve">
+    <value>הסמכה</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>דירוג</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>הסרת סטטוס Loved</value>
+  </data>
+</root>

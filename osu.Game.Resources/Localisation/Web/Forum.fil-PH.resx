@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pinned_topics" xml:space="preserve">
+    <value>Mga naka-pin na paksa</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>mapanganib maglaro ng mag-isa.</value>
+  </data>
+  <data name="subforums" xml:space="preserve">
+    <value>Mga subforum</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>osu! forums</value>
+  </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Palitan ang cover</value>
+  </data>
+  <data name="covers.create._" xml:space="preserve">
+    <value>Magdagdag ng cover image</value>
+  </data>
+  <data name="covers.create.button" xml:space="preserve">
+    <value>Mag-upload ng imahe</value>
+  </data>
+  <data name="covers.create.info" xml:space="preserve">
+    <value>Ang sukat ng cover ay {0} dapat. Maaari mo ring i-drop ang imahe dito para i-upload.</value>
+  </data>
+  <data name="covers.destroy._" xml:space="preserve">
+    <value>Tanggalin ang cover image</value>
+  </data>
+  <data name="covers.destroy.confirm" xml:space="preserve">
+    <value>Sigurado ka na ba na gusto mong tanggalin ang cover image na ito?</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Pinakabagong Post</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Indeks ng Forum</value>
+  </data>
+  <data name="forums.topics.empty" xml:space="preserve">
+    <value>Walang mga paksa!</value>
+  </data>
+  <data name="mark_as_read.forum" xml:space="preserve">
+    <value>Markahan ang forum bilang nabasa na</value>
+  </data>
+  <data name="mark_as_read.forums" xml:space="preserve">
+    <value>Markahan ang mga forum bilang nabasa na</value>
+  </data>
+  <data name="mark_as_read.busy" xml:space="preserve">
+    <value>Minamarkahang nabasa na...</value>
+  </data>
+  <data name="post.confirm_destroy" xml:space="preserve">
+    <value>Talagang burahin ang post na ito?</value>
+  </data>
+  <data name="post.confirm_restore" xml:space="preserve">
+    <value>Talagang ibalik ang post na ito?</value>
+  </data>
+  <data name="post.edited" xml:space="preserve">
+    <value>Huling na-edit ni pamamagitan ni {0} noong {1}, in-edit nang {2} na beses sa kabuuan.|Huling na-edit ni pamamagitan ni {0} noong {1}, in-edit nang {2} na beses sa kabuuan.</value>
+  </data>
+  <data name="post.posted_at" xml:space="preserve">
+    <value>nai-post noong {0}</value>
+  </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>nai-post ni {0}</value>
+  </data>
+  <data name="post.actions.destroy" xml:space="preserve">
+    <value>Burahin ang post na ito</value>
+  </data>
+  <data name="post.actions.edit" xml:space="preserve">
+    <value>I-edit ang post</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>I-ulat ang post</value>
+  </data>
+  <data name="post.actions.restore" xml:space="preserve">
+    <value>Ibalik ang post</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Bagong sagot</value>
+  </data>
+  <data name="post.info.post_count" xml:space="preserve">
+    <value>{0} na post|{0} na mga post</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Tagasimula ng Pag-uusap</value>
+  </data>
+  <data name="search.go_to_post" xml:space="preserve">
+    <value>Pumunta sa post</value>
+  </data>
+  <data name="search.post_number_input" xml:space="preserve">
+    <value>i-enter ang post number</value>
+  </data>
+  <data name="search.total_posts" xml:space="preserve">
+    <value>{0} na kabuuang mga post</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Talagang burahin ang post na ito?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Talagang ibalik ang post na ito?</value>
+  </data>
+  <data name="topic.deleted" xml:space="preserve">
+    <value>buradong mga paksa</value>
+  </data>
+  <data name="topic.go_to_latest" xml:space="preserve">
+    <value>tingnan ang mga pinakabagong post</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Sumagot ka sa pag-uusap na ito</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>sa {0}</value>
+  </data>
+  <data name="topic.latest_post" xml:space="preserve">
+    <value>{0} ni {1}</value>
+  </data>
+  <data name="topic.latest_reply_by" xml:space="preserve">
+    <value>huling sagot ni {0}</value>
+  </data>
+  <data name="topic.new_topic" xml:space="preserve">
+    <value>Bagong paksa</value>
+  </data>
+  <data name="topic.new_topic_login" xml:space="preserve">
+    <value>Mag-sign in upang makapag-post ng bagong paksa</value>
+  </data>
+  <data name="topic.post_reply" xml:space="preserve">
+    <value>I-post</value>
+  </data>
+  <data name="topic.reply_box_placeholder" xml:space="preserve">
+    <value>Mag-type dito para sumagot</value>
+  </data>
+  <data name="topic.reply_title_prefix" xml:space="preserve">
+    <value>Re</value>
+  </data>
+  <data name="topic.started_by" xml:space="preserve">
+    <value>ni {0}</value>
+  </data>
+  <data name="topic.started_by_verbose" xml:space="preserve">
+    <value>sinimulan ni {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Burahin ang pag-uusap</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Ibalik ang pag-uusap</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Isara</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Prebiyu</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Magsulat</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Mag-post</value>
+  </data>
+  <data name="topic.create.necropost.default" xml:space="preserve">
+    <value>Ang paksang ito ay hindi naging aktibo sa mahabang panahon. Mag-post lamang kung kinakailangan.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic._" xml:space="preserve">
+    <value>Ang paksang ito ay hindi naging aktibo sa mahabang panahon. Kung walang dahilan para mag post dito, {0} na lamang.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
+    <value>lumilikha ng bagong paksa</value>
+  </data>
+  <data name="topic.create.placeholder.body" xml:space="preserve">
+    <value>I-type ang nilalaman ng post dito</value>
+  </data>
+  <data name="topic.create.placeholder.title" xml:space="preserve">
+    <value>Pumindot dito upang baguhin ang pamagat</value>
+  </data>
+  <data name="topic.jump.enter" xml:space="preserve">
+    <value>pumindot upang i-enter ang partikular na numero ng post</value>
+  </data>
+  <data name="topic.jump.first" xml:space="preserve">
+    <value>pumunta sa pinaka-unang post</value>
+  </data>
+  <data name="topic.jump.last" xml:space="preserve">
+    <value>pumunta sa pinakahuling post</value>
+  </data>
+  <data name="topic.jump.next" xml:space="preserve">
+    <value>laktawan ang susunod na 10 mga post</value>
+  </data>
+  <data name="topic.jump.previous" xml:space="preserve">
+    <value>bumalik nang 10 mga post</value>
+  </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Ikansela</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>I-save</value>
+  </data>
+  <data name="topic_watches.index.title_compact" xml:space="preserve">
+    <value>mga binabantayang paksa sa forum</value>
+  </data>
+  <data name="topic_watches.index.box.total" xml:space="preserve">
+    <value>Binabantayang mga paksa</value>
+  </data>
+  <data name="topic_watches.index.box.unread" xml:space="preserve">
+    <value>Mga paksang may bagong reply</value>
+  </data>
+  <data name="topic_watches.index.info.total" xml:space="preserve">
+    <value>{0} na paksa ang iyong binabanayan.</value>
+  </data>
+  <data name="topic_watches.index.info.unread" xml:space="preserve">
+    <value>Mayroon kang {0} na mensahe na hindi pa nababasa sa iyong mga binabantayang na paksa.</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.confirmation" xml:space="preserve">
+    <value>Huwag nang bantayan ang paksa?</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
+    <value>Mag-unsubscribe</value>
+  </data>
+  <data name="topics._" xml:space="preserve">
+    <value>Mga paksa</value>
+  </data>
+  <data name="topics.actions.login_reply" xml:space="preserve">
+    <value>Mag-sign in upang makasagot</value>
+  </data>
+  <data name="topics.actions.reply" xml:space="preserve">
+    <value>Sumagot</value>
+  </data>
+  <data name="topics.actions.reply_with_quote" xml:space="preserve">
+    <value>Sipiin ang post at sumagot</value>
+  </data>
+  <data name="topics.actions.search" xml:space="preserve">
+    <value>Maghanap</value>
+  </data>
+  <data name="topics.create.create_poll" xml:space="preserve">
+    <value>Paglikha ng Botohan</value>
+  </data>
+  <data name="topics.create.preview" xml:space="preserve">
+    <value>Prebiyu ng post</value>
+  </data>
+  <data name="topics.create.create_poll_button.add" xml:space="preserve">
+    <value>Gumawa ng pagbobotohan</value>
+  </data>
+  <data name="topics.create.create_poll_button.remove" xml:space="preserve">
+    <value>Kanselahin ang paggawa ng pagbobotohan</value>
+  </data>
+  <data name="topics.create.poll.hide_results" xml:space="preserve">
+    <value>Itago ang resulta ng botohan.</value>
+  </data>
+  <data name="topics.create.poll.hide_results_info" xml:space="preserve">
+    <value>Ipapakita lamang ito pagkatapos ng botohan.</value>
+  </data>
+  <data name="topics.create.poll.length" xml:space="preserve">
+    <value>Patakbuhin ang botohan sa loob ng</value>
+  </data>
+  <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
+    <value>na mga araw</value>
+  </data>
+  <data name="topics.create.poll.length_info" xml:space="preserve">
+    <value>Iwan na blangko para sa walang katapusang botohan</value>
+  </data>
+  <data name="topics.create.poll.max_options" xml:space="preserve">
+    <value>Mga pagpipilian sa bawat user</value>
+  </data>
+  <data name="topics.create.poll.max_options_info" xml:space="preserve">
+    <value>Ito ang bilang ng mga pagpipilian na maaring piliin ng bawat user kapag bumoboto.</value>
+  </data>
+  <data name="topics.create.poll.options" xml:space="preserve">
+    <value>Mga pagpipilian</value>
+  </data>
+  <data name="topics.create.poll.options_info" xml:space="preserve">
+    <value>Isulat ang mga pagpipilian sa kanya-kanyang linya. Maaari kang maglagay hanggang 10 na pagpipilian.</value>
+  </data>
+  <data name="topics.create.poll.title" xml:space="preserve">
+    <value>Tanong</value>
+  </data>
+  <data name="topics.create.poll.vote_change" xml:space="preserve">
+    <value>Payagan ang muling pagboto.</value>
+  </data>
+  <data name="topics.create.poll.vote_change_info" xml:space="preserve">
+    <value>Kapag pinayagan, maaaring magpalit ang mga manlalaro ng kanilang boto.</value>
+  </data>
+  <data name="topics.edit_title.start" xml:space="preserve">
+    <value>Baguhin ang pamagat</value>
+  </data>
+  <data name="topics.index.feature_votes" xml:space="preserve">
+    <value>prayoridad ayon sa bilang ng bituin</value>
+  </data>
+  <data name="topics.index.replies" xml:space="preserve">
+    <value>mga sagot</value>
+  </data>
+  <data name="topics.index.views" xml:space="preserve">
+    <value>beses na nakita</value>
+  </data>
+  <data name="topics.issue_tag_added.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "idinagdag"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "idinagdag"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "idinagdag"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "idinagdag"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "itinalaga"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "itinalaga"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "itinalaga"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "itinalaga"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "kumpirmado"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "kumpirmado"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "kumpirmado"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "kumpirmado"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "may kapareho"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "may kapareho"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "may kapareho"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "may kapareho"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "hindi maaari"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "hindi maaari"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "hindi maaari"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "hindi maaari"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_0" xml:space="preserve">
+    <value>Tanggalin ang panandang "naresolba"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_0_done" xml:space="preserve">
+    <value>Tinanggal ang panandang "naresolba"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
+    <value>Lagyan ng panandang "naresolba"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
+    <value>Nilagyan ng panandang "naresolba"</value>
+  </data>
+  <data name="topics.lock.is_locked" xml:space="preserve">
+    <value>Sarado na ang paksang ito at hindi na maaari pang sagutan</value>
+  </data>
+  <data name="topics.lock.to_0" xml:space="preserve">
+    <value>I-unlock ang paksa</value>
+  </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>I-unlock ang paksa?</value>
+  </data>
+  <data name="topics.lock.to_0_done" xml:space="preserve">
+    <value>Na-unlock na ang paksa</value>
+  </data>
+  <data name="topics.lock.to_1" xml:space="preserve">
+    <value>I-lock ang paksa</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>I-lock ang paksa?</value>
+  </data>
+  <data name="topics.lock.to_1_done" xml:space="preserve">
+    <value>Ang paksa ay isinara na</value>
+  </data>
+  <data name="topics.moderate_move.title" xml:space="preserve">
+    <value>Ilipat sa ibang forum</value>
+  </data>
+  <data name="topics.moderate_pin.to_0" xml:space="preserve">
+    <value>I-unpin ang paksa</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>I-unpin ang paksa?</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
+    <value>Na-unpin na ang paksa</value>
+  </data>
+  <data name="topics.moderate_pin.to_1" xml:space="preserve">
+    <value>I-pin ang paksa</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>I-pin ang paksa?</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
+    <value>Na-pin na ang paksa</value>
+  </data>
+  <data name="topics.moderate_pin.to_2" xml:space="preserve">
+    <value>I-pin ang paksa at markahang anunsyo</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>I-pin ang paksa at markahang anunsyo?</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
+    <value>Na-pin ang paksa at namarkahang anunsyo</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Ipakita ang buradong mga post</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Itago ang buradong mga post</value>
+  </data>
+  <data name="topics.show.deleted-posts" xml:space="preserve">
+    <value>Buradong mga Post</value>
+  </data>
+  <data name="topics.show.total_posts" xml:space="preserve">
+    <value>Kabuuang mga Post</value>
+  </data>
+  <data name="topics.show.feature_vote.current" xml:space="preserve">
+    <value>Kasalukuyang Prayoridad: +{0}</value>
+  </data>
+  <data name="topics.show.feature_vote.do" xml:space="preserve">
+    <value>Itaguyod ang kahilingang ito</value>
+  </data>
+  <data name="topics.show.feature_vote.info._" xml:space="preserve">
+    <value>Isa itong {0}. Ang mga Hinihiling na feature ay maaaring pagbotohan ng mga {1}.</value>
+  </data>
+  <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
+    <value>hinihiling na feature</value>
+  </data>
+  <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
+    <value>mga supporter</value>
+  </data>
+  <data name="topics.show.feature_vote.user.count" xml:space="preserve">
+    <value>{0} walang boto|{1} {0} na boto|[2,*] {0} na mga boto</value>
+  </data>
+  <data name="topics.show.feature_vote.user.current" xml:space="preserve">
+    <value>{0} na mga boto na lang ang natitira sa'yo.</value>
+  </data>
+  <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
+    <value>Wala ka nang natitirang boto</value>
+  </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>I-edit ang Pagboboto</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Matatanggal ang kasalukuyang mga resulta kapag in-edit mo ang pinagbobotohang ito!</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Bumoto</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Palitan ang boto</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Baguhin ang botohan</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Lumaktaw papunta sa mga resulta</value>
+  </data>
+  <data name="topics.show.poll.button.vote" xml:space="preserve">
+    <value>Bumoto</value>
+  </data>
+  <data name="topics.show.poll.detail.end_time" xml:space="preserve">
+    <value>Magtatapos ang pagboboto sa {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.ended" xml:space="preserve">
+    <value>Natapos ang pagboboto noong {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
+    <value>Ipapakita ang mga resulta sa pagtatapos ng botohan.</value>
+  </data>
+  <data name="topics.show.poll.detail.total" xml:space="preserve">
+    <value>Suma total ng mga boto: {0}</value>
+  </data>
+  <data name="topics.watch.to_not_watching" xml:space="preserve">
+    <value>Hindi binabantayan</value>
+  </data>
+  <data name="topics.watch.to_watching" xml:space="preserve">
+    <value>Binabantayan</value>
+  </data>
+  <data name="topics.watch.to_watching_mail" xml:space="preserve">
+    <value>Bantayan na may notipikasyon</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
+    <value>Naka-on ang notipikasyon. Pindutin ito upang patayin</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
+    <value>Naka-off ang notipikasyon. Pindutin ito upang i-on</value>
+  </data>
+</root>

@@ -135,54 +135,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuBeatmapsDefault => new TranslatableString(getKey(@"menu.beatmaps._"), @"beatmaps");
 
         /// <summary>
-        /// "featured artists"
-        /// </summary>
-        public static LocalisableString MenuBeatmapsArtists => new TranslatableString(getKey(@"menu.beatmaps.artists"), @"featured artists");
-
-        /// <summary>
-        /// "beatmap listing"
-        /// </summary>
-        public static LocalisableString MenuBeatmapsIndex => new TranslatableString(getKey(@"menu.beatmaps.index"), @"beatmap listing");
-
-        /// <summary>
-        /// "beatmap packs"
-        /// </summary>
-        public static LocalisableString MenuBeatmapsPacks => new TranslatableString(getKey(@"menu.beatmaps.packs"), @"beatmap packs");
-
-        /// <summary>
         /// "community"
         /// </summary>
         public static LocalisableString MenuCommunityDefault => new TranslatableString(getKey(@"menu.community._"), @"community");
 
         /// <summary>
-        /// "chat"
-        /// </summary>
-        public static LocalisableString MenuCommunityChat => new TranslatableString(getKey(@"menu.community.chat"), @"chat");
-
-        /// <summary>
-        /// "contests"
-        /// </summary>
-        public static LocalisableString MenuCommunityContests => new TranslatableString(getKey(@"menu.community.contests"), @"contests");
-
-        /// <summary>
         /// "development"
         /// </summary>
         public static LocalisableString MenuCommunityDev => new TranslatableString(getKey(@"menu.community.dev"), @"development");
-
-        /// <summary>
-        /// "forum"
-        /// </summary>
-        public static LocalisableString MenuCommunityForumForumsIndex => new TranslatableString(getKey(@"menu.community.forum-forums-index"), @"forum");
-
-        /// <summary>
-        /// "live stream"
-        /// </summary>
-        public static LocalisableString MenuCommunityGetLive => new TranslatableString(getKey(@"menu.community.getlive"), @"live stream");
-
-        /// <summary>
-        /// "tournaments"
-        /// </summary>
-        public static LocalisableString MenuCommunityTournaments => new TranslatableString(getKey(@"menu.community.tournaments"), @"tournaments");
 
         /// <summary>
         /// "help"
@@ -210,34 +170,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuHelpGetSupport => new TranslatableString(getKey(@"menu.help.getsupport"), @"no, really, i need help!");
 
         /// <summary>
-        /// "wiki"
-        /// </summary>
-        public static LocalisableString MenuHelpGetWiki => new TranslatableString(getKey(@"menu.help.getwiki"), @"wiki");
-
-        /// <summary>
         /// "home"
         /// </summary>
         public static LocalisableString MenuHomeDefault => new TranslatableString(getKey(@"menu.home._"), @"home");
-
-        /// <summary>
-        /// "changelog"
-        /// </summary>
-        public static LocalisableString MenuHomeChangelogIndex => new TranslatableString(getKey(@"menu.home.changelog-index"), @"changelog");
-
-        /// <summary>
-        /// "download"
-        /// </summary>
-        public static LocalisableString MenuHomeGetDownload => new TranslatableString(getKey(@"menu.home.getdownload"), @"download");
-
-        /// <summary>
-        /// "news"
-        /// </summary>
-        public static LocalisableString MenuHomeNewsIndex => new TranslatableString(getKey(@"menu.home.news-index"), @"news");
-
-        /// <summary>
-        /// "search"
-        /// </summary>
-        public static LocalisableString MenuHomeSearch => new TranslatableString(getKey(@"menu.home.search"), @"search");
 
         /// <summary>
         /// "team"
@@ -250,54 +185,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuRankingsDefault => new TranslatableString(getKey(@"menu.rankings._"), @"rankings");
 
         /// <summary>
-        /// "spotlights"
-        /// </summary>
-        public static LocalisableString MenuRankingsCharts => new TranslatableString(getKey(@"menu.rankings.charts"), @"spotlights");
-
-        /// <summary>
-        /// "country"
-        /// </summary>
-        public static LocalisableString MenuRankingsCountry => new TranslatableString(getKey(@"menu.rankings.country"), @"country");
-
-        /// <summary>
-        /// "performance"
-        /// </summary>
-        public static LocalisableString MenuRankingsIndex => new TranslatableString(getKey(@"menu.rankings.index"), @"performance");
-
-        /// <summary>
         /// "kudosu"
         /// </summary>
         public static LocalisableString MenuRankingsKudosu => new TranslatableString(getKey(@"menu.rankings.kudosu"), @"kudosu");
 
         /// <summary>
-        /// "multiplayer"
-        /// </summary>
-        public static LocalisableString MenuRankingsMultiplayer => new TranslatableString(getKey(@"menu.rankings.multiplayer"), @"multiplayer");
-
-        /// <summary>
-        /// "score"
-        /// </summary>
-        public static LocalisableString MenuRankingsScore => new TranslatableString(getKey(@"menu.rankings.score"), @"score");
-
-        /// <summary>
         /// "store"
         /// </summary>
         public static LocalisableString MenuStoreDefault => new TranslatableString(getKey(@"menu.store._"), @"store");
-
-        /// <summary>
-        /// "cart"
-        /// </summary>
-        public static LocalisableString MenuStoreCartShow => new TranslatableString(getKey(@"menu.store.cart-show"), @"cart");
-
-        /// <summary>
-        /// "products"
-        /// </summary>
-        public static LocalisableString MenuStoreGetListing => new TranslatableString(getKey(@"menu.store.getlisting"), @"products");
-
-        /// <summary>
-        /// "order history"
-        /// </summary>
-        public static LocalisableString MenuStoreOrdersIndex => new TranslatableString(getKey(@"menu.store.orders-index"), @"order history");
 
         /// <summary>
         /// "General"

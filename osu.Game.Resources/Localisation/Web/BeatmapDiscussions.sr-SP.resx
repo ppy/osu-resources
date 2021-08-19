@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Морате бити пријављени да би сте могли да едитујете.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Аутоматски генерисани постови не могу бити измењени.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Да би сте изменили пост морате бити власник.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Ништа се не дешава... за сад.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>обрисано</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Не постоји дискусија која одговара Вашем критеријуму.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Дискусије за мапе</value>
+  </data>
+  <data name="index.form._" xml:space="preserve">
+    <value>Претрага</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Укључујући обрисане дискусије</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Покажи само нерешене дискусије</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Врсте порука</value>
+  </data>
+  <data name="index.form.username" xml:space="preserve">
+    <value>Корисничко име</value>
+  </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Статус мапе</value>
+  </data>
+  <data name="index.form.beatmapset_status.all" xml:space="preserve">
+    <value>Све</value>
+  </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Дисквалификовани</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Никад квалификовано</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Квалификовано</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Ранковано</value>
+  </data>
+  <data name="index.form.user.label" xml:space="preserve">
+    <value>Корисник</value>
+  </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Преглед активности</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Датум Објаве</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Датум брисања</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Врста</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Пермалинк</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Ниједан од постова не одговара мојим бригама</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Већ постоје постови око {0} ({1}). Молимо Вас проверите их пре него што постујете.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} у овој ревизији</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Пријавите се да би сте одговорили</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Одговори</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} блокова искоришћено</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Погледајте ревизију поста</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Прегледајте Дискусију</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>сваки блок може садржати чак до {0} карактера</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>ревизија садржи референце које припадају проблемима које не припадају овој ревизији</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>неважећа врста блока</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>неважећа ревизија</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>ревизија мора садржати минимално {0} проблем|ревизија мора садржати минимум од {0} проблема</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>блок нема текст</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>ревизије могу садржати само {0} параграф/проблем|ревизије могу садржати само {0} параграфа/проблема</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>Означено као завршено од стране {0}</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>Поново отворено од стране {0}</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>опште</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>опште (све)</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Сви</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>Филтрирај по кориснику</value>
+  </data>
+</root>

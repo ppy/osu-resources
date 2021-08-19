@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="admin.warehouse" xml:space="preserve">
+    <value>Bodega</value>
+  </data>
+  <data name="cart.checkout" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="cart.info" xml:space="preserve">
+    <value>{0} pirasong item sa kariton (${1})|{0} pirasong mga item sa kariton (${1})</value>
+  </data>
+  <data name="cart.more_goodies" xml:space="preserve">
+    <value>Gusto kong tingnan ang higit pang mga goodies bago makumpleto ang order</value>
+  </data>
+  <data name="cart.shipping_fees" xml:space="preserve">
+    <value>mga bayarin sa pagpapadala</value>
+  </data>
+  <data name="cart.title" xml:space="preserve">
+    <value>Shopping Cart</value>
+  </data>
+  <data name="cart.total" xml:space="preserve">
+    <value>kabuuan</value>
+  </data>
+  <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
+    <value>Naku, may mga problema sa iyong cart na pumipigil sa pag-checkout!</value>
+  </data>
+  <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
+    <value>Tanggalin o i-update ang mga bagay na nasa itaas upang magpatuloy.</value>
+  </data>
+  <data name="cart.empty.text" xml:space="preserve">
+    <value>Walang laman ang cart mo.</value>
+  </data>
+  <data name="cart.empty.return_link._" xml:space="preserve">
+    <value>Bumalik sa {0} upang mahanap ang ilang mga goodies!</value>
+  </data>
+  <data name="cart.empty.return_link.link_text" xml:space="preserve">
+    <value>mga bilihin</value>
+  </data>
+  <data name="checkout.cart_problems" xml:space="preserve">
+    <value>Naku, may mga problema sa iyong cart!</value>
+  </data>
+  <data name="checkout.cart_problems_edit" xml:space="preserve">
+    <value>Mag-click dito para i-edit ito.</value>
+  </data>
+  <data name="checkout.declined" xml:space="preserve">
+    <value>Nakansela ang bayad.</value>
+  </data>
+  <data name="checkout.delayed_shipping" xml:space="preserve">
+    <value>Kami ay punong puno ng mga order! Maari kang maglagay ng order, pero maaring mahintulot ang iyong order ng mga 1-2 linggo habang inaasikaso namin ang mga order sa ngayon.</value>
+  </data>
+  <data name="checkout.old_cart" xml:space="preserve">
+    <value>Dahil matagal na panahon na ang lumipas, ini-load muli ang iyong kariton, mangyaring subukang muli.</value>
+  </data>
+  <data name="checkout.pay" xml:space="preserve">
+    <value>Paglabas gamit ang Paypal</value>
+  </data>
+  <data name="checkout.title_compact" xml:space="preserve">
+    <value>checkout</value>
+  </data>
+  <data name="checkout.has_pending._" xml:space="preserve">
+    <value>Ikaw ay may mga checkout na hindi kumpleto, i-click ang {0} para makita.</value>
+  </data>
+  <data name="checkout.has_pending.link_text" xml:space="preserve">
+    <value>dito</value>
+  </data>
+  <data name="checkout.pending_checkout.line_1" xml:space="preserve">
+    <value>May nakaraang checkout na nasimulan pero hindi natapos.</value>
+  </data>
+  <data name="checkout.pending_checkout.line_2" xml:space="preserve">
+    <value>Pumili ng payment method para matuloy ang checkout.</value>
+  </data>
+  <data name="discount" xml:space="preserve">
+    <value>makatipid ng {0}%</value>
+  </data>
+  <data name="invoice.echeck_delay" xml:space="preserve">
+    <value>Dahil ang pagbayad ay eCheck, maari pong magantay ng 10 araw para dumaan ng PayPal ang iyong bayarin!</value>
+  </data>
+  <data name="invoice.title_compact" xml:space="preserve">
+    <value>invoice</value>
+  </data>
+  <data name="invoice.status.processing.title" xml:space="preserve">
+    <value>Hindi pa kumpirmado ang iyong bayad!</value>
+  </data>
+  <data name="invoice.status.processing.line_1" xml:space="preserve">
+    <value>Pag nakapagbayad kana, baka inaantay pa namin na makuha ang confirmation ng bayarin. i refresh ang page mamaya!</value>
+  </data>
+  <data name="invoice.status.processing.line_2._" xml:space="preserve">
+    <value>Pag nagkaproblema sa checkout, {0}</value>
+  </data>
+  <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
+    <value>click para matuloy ang checkout</value>
+  </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Ikansela ang Order</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Ang order na dito ay iccancel at ang bayarin ay hindi tatanggapin. Ang payment provider ay maaring hindi agad mag release ng nakatagong pondo. Sure ka ba?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Ang order na ito ay hindi na ma cancel.</value>
+  </data>
+  <data name="order.invoice" xml:space="preserve">
+    <value>Tingnan ang Invois</value>
+  </data>
+  <data name="order.no_orders" xml:space="preserve">
+    <value>Walang maipakitang order.</value>
+  </data>
+  <data name="order.paid_on" xml:space="preserve">
+    <value>Ipinasa ang order noong {0}</value>
+  </data>
+  <data name="order.resume" xml:space="preserve">
+    <value>Bumalik sa Checkout</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Ang link ng checkout para sa order na ito ay nag-expire na.</value>
+  </data>
+  <data name="order.item.display_name.supporter_tag" xml:space="preserve">
+    <value>{0} para kay {1} ({2})</value>
+  </data>
+  <data name="order.item.quantity" xml:space="preserve">
+    <value>Dami</value>
+  </data>
+  <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order dahil nakasela ito.</value>
+  </data>
+  <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order habang ipinoproseso ito.</value>
+  </data>
+  <data name="order.not_modifiable_exception.default" xml:space="preserve">
+    <value>Hindi pwedeng baguhin ang order</value>
+  </data>
+  <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order dahil nahatid na ito.</value>
+  </data>
+  <data name="order.not_modifiable_exception.paid" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order dahil nabayad na ito.</value>
+  </data>
+  <data name="order.not_modifiable_exception.processing" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order habang ipinoproseso ito.</value>
+  </data>
+  <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong order dahil nabayad na ito.</value>
+  </data>
+  <data name="order.status.cancelled" xml:space="preserve">
+    <value>Kanselado</value>
+  </data>
+  <data name="order.status.checkout" xml:space="preserve">
+    <value>Inihahanda</value>
+  </data>
+  <data name="order.status.delivered" xml:space="preserve">
+    <value>Naihatid</value>
+  </data>
+  <data name="order.status.paid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="order.status.processing" xml:space="preserve">
+    <value>Naghihintay ng kumpirmasyon</value>
+  </data>
+  <data name="order.status.shipped" xml:space="preserve">
+    <value>Naipadala</value>
+  </data>
+  <data name="product.name" xml:space="preserve">
+    <value>Pangalan</value>
+  </data>
+  <data name="product.stock.out" xml:space="preserve">
+    <value>Naubos na ang bagay na ito. Tingnan mo muli mamaya!</value>
+  </data>
+  <data name="product.stock.out_with_alternative" xml:space="preserve">
+    <value>Sa kasamaang palad ang item na ito ay wala sa stock. Gamitin ang dropdown upang pumili ng ibang uri o suriin muli sa ibang pagkakataon!</value>
+  </data>
+  <data name="product.add_to_cart" xml:space="preserve">
+    <value>Idagdag sa kart</value>
+  </data>
+  <data name="product.notify" xml:space="preserve">
+    <value>Abisuhan ako kapag available!</value>
+  </data>
+  <data name="product.notification_success" xml:space="preserve">
+    <value>maabisuhan ka kapag may mga bagong stock. i-click ang {0} upang kanselahin</value>
+  </data>
+  <data name="product.notification_remove_text" xml:space="preserve">
+    <value>nandito</value>
+  </data>
+  <data name="product.notification_in_stock" xml:space="preserve">
+    <value>Ang produktong ito ay nasa stock na!</value>
+  </data>
+  <data name="supporter_tag.gift" xml:space="preserve">
+    <value>regalo sa manlalaro</value>
+  </data>
+  <data name="supporter_tag.require_login._" xml:space="preserve">
+    <value>Kailangan mong {0} upang makakuha ng osu! Supporter tag!</value>
+  </data>
+  <data name="supporter_tag.require_login.link_text" xml:space="preserve">
+    <value>naka-sign in</value>
+  </data>
+  <data name="username_change.check" xml:space="preserve">
+    <value>Mag-type ng username upang suriin ang kakayahang magamit!</value>
+  </data>
+  <data name="username_change.checking" xml:space="preserve">
+    <value>Sinusuri ang availability ng {0}...</value>
+  </data>
+  <data name="username_change.require_login._" xml:space="preserve">
+    <value>Kailangan mong maging {0} upang baguhin ang iyong pangalan!</value>
+  </data>
+  <data name="username_change.require_login.link_text" xml:space="preserve">
+    <value>naka-sign in</value>
+  </data>
+</root>

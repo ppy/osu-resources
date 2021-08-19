@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmapset_update_notice.new" xml:space="preserve">
+    <value>רק מידעים אותך שהתבצע עדכון במפה "{0}" מאז ביקורך האחרון.</value>
+  </data>
+  <data name="beatmapset_update_notice.subject" xml:space="preserve">
+    <value>עדכון חדש למפה "{0}"</value>
+  </data>
+  <data name="beatmapset_update_notice.unwatch" xml:space="preserve">
+    <value>אם אינך מעוניין יותר לראות את המפה הזאת, אתה יכול ללחוץ על כפתור ה"לא לראות" הלינק נמצא בעמוד, או בשינוי רשימת המעקב שלך:</value>
+  </data>
+  <data name="beatmapset_update_notice.visit" xml:space="preserve">
+    <value>בקר את דף הדיון כאן:</value>
+  </data>
+  <data name="common.closing" xml:space="preserve">
+    <value>בברכה,</value>
+  </data>
+  <data name="common.hello" xml:space="preserve">
+    <value>היי {0}</value>
+  </data>
+  <data name="common.report" xml:space="preserve">
+    <value>אנא הגב למייל הזה בצורה מיידית אם ביקשת את השינוי הזה.</value>
+  </data>
+  <data name="donation_thanks.benefit_more" xml:space="preserve">
+    <value>ההתרונות בלהיות תורם יופיעו בנוסף עם הזמן!</value>
+  </data>
+  <data name="donation_thanks.feedback" xml:space="preserve">
+    <value>אם יש לכם שאלות או משוב, אל תתבישו לכתוב למייל הזה;mail אחזור אליכם בהקדם האפשרי!</value>
+  </data>
+  <data name="donation_thanks.keep_free" xml:space="preserve">
+    <value>בזכות תורמים כמוך הפרויקט לא נסגר ולא מתבקש בפרסומות או הלוואות.</value>
+  </data>
+  <data name="donation_thanks.keep_running" xml:space="preserve">
+    <value>התרומה שלך משאירה את !osu פעיל ויציב בסביבות {0}! אולי זה לא נראה הרבה, אבל הכל עוזר לנו :).</value>
+  </data>
+  <data name="donation_thanks.subject" xml:space="preserve">
+    <value>תודה, osu! אוהבים אותך</value>
+  </data>
+  <data name="donation_thanks.translation" xml:space="preserve">
+    <value>התרגום מסופק על ידי שחקני הקהילה למטרות הסברה:</value>
+  </data>
+  <data name="donation_thanks.benefit.gift" xml:space="preserve">
+    <value>המתנות שלך רשאים להשתמש ב-osu!direct ועוד הרה יתרונות של תורמים.</value>
+  </data>
+  <data name="donation_thanks.benefit.self" xml:space="preserve">
+    <value>עכשיו יש לך גישה ל-osu!direct ולעוד הרבה יתרונות של תורמים {0}.</value>
+  </data>
+  <data name="donation_thanks.support._" xml:space="preserve">
+    <value>תודה רבה על ה{0} כלפי osu!</value>
+  </data>
+  <data name="donation_thanks.support.first" xml:space="preserve">
+    <value>תמיכה</value>
+  </data>
+  <data name="donation_thanks.support.repeat" xml:space="preserve">
+    <value>המשך תמיכה</value>
+  </data>
+  <data name="forum_new_reply.new" xml:space="preserve">
+    <value>רק מידעים אותך שיש תגובה חדשה ב"{0}" מאז הביקור האחרון שלך.</value>
+  </data>
+  <data name="forum_new_reply.subject" xml:space="preserve">
+    <value>[osu!] תגובה חדשה לנושא "{0}"</value>
+  </data>
+  <data name="forum_new_reply.unwatch" xml:space="preserve">
+    <value>אם אינך רוצה לראות אשכול זה יותר, אתה יכול ללחוץ על "בטל את מעקב האשכול" הנמצא בראש האשכול או באזור ניהול האשכול:</value>
+  </data>
+  <data name="forum_new_reply.visit" xml:space="preserve">
+    <value>עבור ישר לתגובה האחרונה באמצעות הקישור הזה:</value>
+  </data>
+  <data name="password_reset.code" xml:space="preserve">
+    <value>קוד האימות שלך הוא:</value>
+  </data>
+  <data name="password_reset.requested" xml:space="preserve">
+    <value>או אתם, או מישהו שמתחזה לכם, מבקש לעשות איפוס סיסמא למשתמש !osu שלכם.</value>
+  </data>
+  <data name="password_reset.subject" xml:space="preserve">
+    <value>שחזור חשבון הosu!</value>
+  </data>
+  <data name="store_payment_completed.prepare_shipping" xml:space="preserve">
+    <value>קיבלנו את התשלום שלך ומכינים את הזמנתך למשלוח. ייתכן שייקח כמה ימים עד שנשלח אותו החוצה, תלוי בכמות ההזמנות. תוכל לעקוב אחר התקדמות ההזמנה שלך כאן, כולל פרטי מעקב היכן שהם זמינים:</value>
+  </data>
+  <data name="store_payment_completed.processing" xml:space="preserve">
+    <value>קיבלנו את התשלום שלך ועובדים כעת את הזמנתך. תוכל לעקוב אחר התקדמות ההזמנה שלך כאן:</value>
+  </data>
+  <data name="store_payment_completed.questions" xml:space="preserve">
+    <value>אם יש לכם שאלות, אל תהססו להגיב למייל הזה.</value>
+  </data>
+  <data name="store_payment_completed.shipping" xml:space="preserve">
+    <value>משלוח</value>
+  </data>
+  <data name="store_payment_completed.subject" xml:space="preserve">
+    <value>קיבלנו את ההזמנה שלך מ-osu!store</value>
+  </data>
+  <data name="store_payment_completed.thank_you" xml:space="preserve">
+    <value>תודה על ההזמנת בosu!store !</value>
+  </data>
+  <data name="store_payment_completed.total" xml:space="preserve">
+    <value>סך הכל</value>
+  </data>
+  <data name="supporter_gift.anonymous_gift" xml:space="preserve">
+    <value>האדם אשר שלח לך את המתנה בחר להישאר אנונימי, אז השם שלו לא נכלל בהתראה הזו.</value>
+  </data>
+  <data name="supporter_gift.anonymous_gift_maybe_not" xml:space="preserve">
+    <value>אבל כנראה שאתה יודע כבר מי זה ;).</value>
+  </data>
+  <data name="supporter_gift.duration" xml:space="preserve">
+    <value>תודה לכם, עכשיו יש לך גישה ל-osu!direct ולאפשריות נוספות של תורם! ההתרונות הבאים {0}.</value>
+  </data>
+  <data name="supporter_gift.features" xml:space="preserve">
+    <value>אתה יכול למצוא עוד פרטים על האפשרויות האלו כאן:</value>
+  </data>
+  <data name="supporter_gift.gifted" xml:space="preserve">
+    <value>דמישהו שלח לך osu!supporter בתור מתנה!</value>
+  </data>
+  <data name="supporter_gift.subject" xml:space="preserve">
+    <value>השלחת osu!supporter בהצלחה!</value>
+  </data>
+  <data name="user_email_updated.changed_to" xml:space="preserve">
+    <value>זה הוא מכתב המידע אותך שכתובת המייל שלך שונתה ל:{0}.</value>
+  </data>
+  <data name="user_email_updated.check" xml:space="preserve">
+    <value>אנא וודה שקיבלת הודעה זאת למייל החדש שלך למניאת אובדן משתמש ה-!osu שלך.</value>
+  </data>
+  <data name="user_email_updated.sent" xml:space="preserve">
+    <value>מסיבות ביטחוניות, הדוא"ל הזה נשלח לשני הכתובות דוא"ל, הישנה והחדשה שלך.</value>
+  </data>
+  <data name="user_email_updated.subject" xml:space="preserve">
+    <value>אישור שינוי דוא"ל osu!</value>
+  </data>
+  <data name="user_force_reactivation.main" xml:space="preserve">
+    <value>יש חשד כי חשבונך נמצא בסכנה! יש בחשבונך פעילות חשודה לאחרונה או סיסמא חלשה מידי. כתוצאה מכך אנו דורשים שתגדיר סיסמה חדשה. אנא הקפד לבחור סיסמה מאובטחת.</value>
+  </data>
+  <data name="user_force_reactivation.perform_reset" xml:space="preserve">
+    <value>הינך יכול לבצע את האיפוס מ{0}</value>
+  </data>
+  <data name="user_force_reactivation.reason" xml:space="preserve">
+    <value>סיבה:</value>
+  </data>
+  <data name="user_force_reactivation.subject" xml:space="preserve">
+    <value>הפעלה מחדש של חשבון osu! נדרשת</value>
+  </data>
+  <data name="user_notification_digest.new" xml:space="preserve">
+    <value>רק רוצים לידע כי יש עידכונים חדשים במוצרים שאתה מעוניין בהם.</value>
+  </data>
+  <data name="user_notification_digest.settings" xml:space="preserve">
+    <value>פתח העדפות הודעות דוא"ל שלי:</value>
+  </data>
+  <data name="user_notification_digest.subject" xml:space="preserve">
+    <value>התראות osu! חדשות</value>
+  </data>
+  <data name="user_password_updated.confirmation" xml:space="preserve">
+    <value>רק מתהירים שהסיסמא למשתמש ה-!osu שלך שונתה.</value>
+  </data>
+  <data name="user_password_updated.subject" xml:space="preserve">
+    <value>אישור איפוס סיסמת משתמש ה-!osu</value>
+  </data>
+  <data name="user_verification.code" xml:space="preserve">
+    <value>קוד האימות שלך הוא:</value>
+  </data>
+  <data name="user_verification.code_hint" xml:space="preserve">
+    <value>אפשרי לכתוב את הקוד בלי או עם רווחים.</value>
+  </data>
+  <data name="user_verification.link" xml:space="preserve">
+    <value>בנוסף, תוכל להכנס לקישור למטה כדי לסיים את האימות:</value>
+  </data>
+  <data name="user_verification.report" xml:space="preserve">
+    <value>אם אתם לא ביקשתם זאת, אנא הגבו במיידית למייל הזה או שהמשתמש שלכם יכול להיות בסכנה.</value>
+  </data>
+  <data name="user_verification.subject" xml:space="preserve">
+    <value>אימות חשבון osu!</value>
+  </data>
+  <data name="user_verification.action_from._" xml:space="preserve">
+    <value>פעולה שבוצעה במשתמש שלך מ{0} דורשת אימות.</value>
+  </data>
+  <data name="user_verification.action_from.unknown_country" xml:space="preserve">
+    <value>מיקום לא ידוע</value>
+  </data>
+</root>

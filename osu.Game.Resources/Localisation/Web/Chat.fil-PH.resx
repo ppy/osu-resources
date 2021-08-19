@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="talking_in" xml:space="preserve">
+    <value>nakikipagusap sa {0}</value>
+  </data>
+  <data name="talking_with" xml:space="preserve">
+    <value>kausap si {0}</value>
+  </data>
+  <data name="title_compact" xml:space="preserve">
+    <value>chat</value>
+  </data>
+  <data name="cannot_send.channel" xml:space="preserve">
+    <value>Hindi ka makakapadala ng mensahe sa tsanel na ito ngayon. Ito ay maaaring dahil sa alinman sa mga sumusunod na dahilan:</value>
+  </data>
+  <data name="cannot_send.user" xml:space="preserve">
+    <value>Hindi ka makakapadala ng mensahe sa taong ito ngayon. Ito ay maaaring dahil sa alinman sa mga sumusunod na dahilan:</value>
+  </data>
+  <data name="cannot_send.reasons.blocked" xml:space="preserve">
+    <value>Hindi tumatanggap ng mensahe na galing sayo ang taong ito</value>
+  </data>
+  <data name="cannot_send.reasons.channel_moderated" xml:space="preserve">
+    <value>Ang channel na ito ay naka-moderate na</value>
+  </data>
+  <data name="cannot_send.reasons.friends_only" xml:space="preserve">
+    <value>Tumatanggap lamang ng mensahe ang taong ito mula sa mga taong nasa listahan ng kanilang mga kaibigan</value>
+  </data>
+  <data name="cannot_send.reasons.not_enough_plays" xml:space="preserve">
+    <value>Hindi ka pa nakakapaglaro masyado</value>
+  </data>
+  <data name="cannot_send.reasons.not_verified" xml:space="preserve">
+    <value>Ang iyong session ay hindi pa naberipika</value>
+  </data>
+  <data name="cannot_send.reasons.restricted" xml:space="preserve">
+    <value>Ikaw ay kasalukuyang naka-restrict na</value>
+  </data>
+  <data name="cannot_send.reasons.silenced" xml:space="preserve">
+    <value>Ikaw ay kasalukuyang hindi makapagpadala ng mga mensahe</value>
+  </data>
+  <data name="cannot_send.reasons.target_restricted" xml:space="preserve">
+    <value>Ang inyong tinatanggap mo ay kasalukuyang naka-restrict na</value>
+  </data>
+  <data name="input.disabled" xml:space="preserve">
+    <value>hindi maipadala ang mensahe...</value>
+  </data>
+  <data name="input.placeholder" xml:space="preserve">
+    <value>gumawa ng mensahe...</value>
+  </data>
+  <data name="input.send" xml:space="preserve">
+    <value>Ipadala</value>
+  </data>
+  <data name="no-conversations.howto" xml:space="preserve">
+    <value>Simulan ang pakikipag-usap galing sa isang user profile o kaya naman sa isang popup sa usercard.</value>
+  </data>
+  <data name="no-conversations.lazer" xml:space="preserve">
+    <value>Ang mga tsanel na pwedeng salihan sa &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; ay makikita din dito.</value>
+  </data>
+  <data name="no-conversations.title" xml:space="preserve">
+    <value>wala pang usapan</value>
+  </data>
+</root>

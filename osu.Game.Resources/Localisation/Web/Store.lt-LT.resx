@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="admin.warehouse" xml:space="preserve">
+    <value>Sandėlys</value>
+  </data>
+  <data name="cart.checkout" xml:space="preserve">
+    <value>Apmokėti</value>
+  </data>
+  <data name="cart.more_goodies" xml:space="preserve">
+    <value>Noriu išsirinkti daugiau prekių prieš apmokant</value>
+  </data>
+  <data name="cart.shipping_fees" xml:space="preserve">
+    <value>pristatymo mokesčiai</value>
+  </data>
+  <data name="cart.title" xml:space="preserve">
+    <value>Prekių Krepšelis</value>
+  </data>
+  <data name="cart.total" xml:space="preserve">
+    <value>iš viso</value>
+  </data>
+  <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
+    <value>Ups, yra problemų su tavo prekių krepšeliu kurios neleidžia apmokėti!</value>
+  </data>
+  <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
+    <value>Ištrinti arba atnaujinti viršuje esančias prekes prieš tęsiant.</value>
+  </data>
+  <data name="cart.empty.text" xml:space="preserve">
+    <value>Jūsų krepšelis yra tuščias.</value>
+  </data>
+  <data name="cart.empty.return_link._" xml:space="preserve">
+    <value>Tam, kad rastum prekių, grįžk į {0}!</value>
+  </data>
+  <data name="cart.empty.return_link.link_text" xml:space="preserve">
+    <value>prekių sąrašas</value>
+  </data>
+  <data name="checkout.cart_problems" xml:space="preserve">
+    <value>Ups, atsirado problemų su tavo prekių krepšeliu!</value>
+  </data>
+  <data name="checkout.cart_problems_edit" xml:space="preserve">
+    <value>Norint redaguoti spausk čia.</value>
+  </data>
+  <data name="checkout.declined" xml:space="preserve">
+    <value>Apmokėjimas buvo atšauktas.</value>
+  </data>
+  <data name="checkout.delayed_shipping" xml:space="preserve">
+    <value>Šiuo metu yra labai daug užsakymų! Maloniai kviečiame užsakyti prekes, tačiau prekės **papildomai vėluos 1-2 savaites** iki kol mes susidorosime su dabartiniais užsakymais.</value>
+  </data>
+  <data name="checkout.old_cart" xml:space="preserve">
+    <value>Tavo prekių krepšelis atrodo nebuvo atnaujintas, pamėgink dar kartą.</value>
+  </data>
+  <data name="checkout.pay" xml:space="preserve">
+    <value>Apmokėti su Paypal</value>
+  </data>
+  <data name="checkout.pending_checkout.line_1" xml:space="preserve">
+    <value>Ankstesnis apmokėjimas buvo pradėtas bet nebaigtas.</value>
+  </data>
+  <data name="discount" xml:space="preserve">
+    <value>sutaupyk {0}%</value>
+  </data>
+  <data name="order.item.quantity" xml:space="preserve">
+    <value>Kiekis</value>
+  </data>
+  <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
+    <value>Užsakymo negalima redaguoti nes jis buvo atšauktas.</value>
+  </data>
+  <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
+    <value>Kol užsakymas yra apdorojamas jo negalima redaguoti.</value>
+  </data>
+  <data name="order.not_modifiable_exception.default" xml:space="preserve">
+    <value>Užsakymo redaguoti negalima</value>
+  </data>
+  <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
+    <value>Užsakymas jau pristatytas, todėl jo redaguoti nebegalima.</value>
+  </data>
+  <data name="order.not_modifiable_exception.paid" xml:space="preserve">
+    <value>Užsakymo negalima redaguoti nes jis jau apmokėtas.</value>
+  </data>
+  <data name="order.not_modifiable_exception.processing" xml:space="preserve">
+    <value>Kol užsakymas yra apdorojamas jo negalima redaguoti.</value>
+  </data>
+  <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
+    <value>Užsakymas jau išsiųstas todėl jo redaguoti nebegalima.</value>
+  </data>
+  <data name="product.name" xml:space="preserve">
+    <value>Vardas</value>
+  </data>
+  <data name="product.stock.out" xml:space="preserve">
+    <value>Šios prekės nebeturime. Patikrinkite vėliau!</value>
+  </data>
+  <data name="product.stock.out_with_alternative" xml:space="preserve">
+    <value>Deja ši prekė jau išparduota. Naudokite išskleidžiamąjį meniu ir pasirinkite kitą tipą arba užeikite vėliau!</value>
+  </data>
+  <data name="product.add_to_cart" xml:space="preserve">
+    <value>Įdėti į krepšelį</value>
+  </data>
+  <data name="product.notify" xml:space="preserve">
+    <value>Informuokite mane kai bus!</value>
+  </data>
+  <data name="product.notification_success" xml:space="preserve">
+    <value>kai prekė atsiras mes jums pranešime. Atšaukimui spausk {0}</value>
+  </data>
+  <data name="product.notification_remove_text" xml:space="preserve">
+    <value>čia</value>
+  </data>
+  <data name="product.notification_in_stock" xml:space="preserve">
+    <value>Ši prekė jau sandėlyje!</value>
+  </data>
+  <data name="supporter_tag.gift" xml:space="preserve">
+    <value>dovanoti žaidėjui</value>
+  </data>
+  <data name="username_change.check" xml:space="preserve">
+    <value>Patikrinimui įvesk norimą vartotojo vardą!</value>
+  </data>
+  <data name="username_change.checking" xml:space="preserve">
+    <value>Tikrinama ar galimas {0}...</value>
+  </data>
+  <data name="username_change.require_login._" xml:space="preserve">
+    <value>Tau reikia {0}, kad pakeistum vardą!</value>
+  </data>
+</root>

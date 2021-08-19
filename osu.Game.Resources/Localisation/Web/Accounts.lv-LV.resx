@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit.title_compact" xml:space="preserve">
+    <value>iestatījumi</value>
+  </data>
+  <data name="edit.username" xml:space="preserve">
+    <value>lietotājvārds</value>
+  </data>
+  <data name="edit.avatar.title" xml:space="preserve">
+    <value>Profila attēls</value>
+  </data>
+  <data name="edit.avatar.rules" xml:space="preserve">
+    <value>Lūgums nodrošināt savu profila attēlu, vadoties pēc {0}.&lt;br/&gt;Tas nozīmē, ka attēlam jābūt &lt;strong&gt; atbilstošam jebkuram vecumam&lt;/strong&gt;, kas nedrīkstētu iekļaut kailumus, necenzētu valodu vai saturu ieteikšanu.</value>
+  </data>
+  <data name="edit.avatar.rules_link" xml:space="preserve">
+    <value>kopienas noteikumi</value>
+  </data>
+  <data name="edit.email.current" xml:space="preserve">
+    <value>pašreizējais e-pasts</value>
+  </data>
+  <data name="edit.email.new" xml:space="preserve">
+    <value>jauns e-pasts</value>
+  </data>
+  <data name="edit.email.new_confirmation" xml:space="preserve">
+    <value>e-pasta apstiprinājums</value>
+  </data>
+  <data name="edit.email.title" xml:space="preserve">
+    <value>E-pasta adrese</value>
+  </data>
+  <data name="edit.password.current" xml:space="preserve">
+    <value>pašreizējā parole</value>
+  </data>
+  <data name="edit.password.new" xml:space="preserve">
+    <value>jaunā parole</value>
+  </data>
+  <data name="edit.password.new_confirmation" xml:space="preserve">
+    <value>paroles apstiprinājums</value>
+  </data>
+  <data name="edit.password.title" xml:space="preserve">
+    <value>Parole</value>
+  </data>
+  <data name="edit.profile.title" xml:space="preserve">
+    <value>Profils</value>
+  </data>
+  <data name="edit.profile.user.user_from" xml:space="preserve">
+    <value>pašreizējā atrašanās vieta</value>
+  </data>
+  <data name="edit.profile.user.user_interests" xml:space="preserve">
+    <value>intereses</value>
+  </data>
+  <data name="edit.profile.user.user_occ" xml:space="preserve">
+    <value>nodarbošanās</value>
+  </data>
+  <data name="edit.profile.user.user_website" xml:space="preserve">
+    <value>tīmekļa vietne</value>
+  </data>
+  <data name="edit.signature.title" xml:space="preserve">
+    <value>Paraksts</value>
+  </data>
+  <data name="edit.signature.update" xml:space="preserve">
+    <value>atjaunināt</value>
+  </data>
+  <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>saņemt paziņojumus par jaunu problēmu kvalificētām bītmapēm ar šādiem režīmiem</value>
+  </data>
+  <data name="notifications.title" xml:space="preserve">
+    <value>Paziņojumi</value>
+  </data>
+  <data name="notifications.topic_auto_subscribe" xml:space="preserve">
+    <value>automātiski ieslēgt paziņojumus foruma tematiem, kurus esiet izveidojis</value>
+  </data>
+  <data name="notifications.options.comment_new" xml:space="preserve">
+    <value>Jauns komentārs</value>
+  </data>
+  <data name="notifications.options.mail" xml:space="preserve">
+    <value>Pasts</value>
+  </data>
+  <data name="notifications.options.push" xml:space="preserve">
+    <value>piespiest</value>
+  </data>
+  <data name="oauth.authorized_clients" xml:space="preserve">
+    <value>autorizētie klienti</value>
+  </data>
+  <data name="oauth.own_clients" xml:space="preserve">
+    <value>piederošie klienti</value>
+  </data>
+  <data name="oauth.title" xml:space="preserve">
+    <value>OAutoriz</value>
+  </data>
+  <data name="options.title" xml:space="preserve">
+    <value>Izvēles</value>
+  </data>
+  <data name="options.beatmapset_download.direct" xml:space="preserve">
+    <value>atvērt osu!direct</value>
+  </data>
+  <data name="options.beatmapset_download.no_video" xml:space="preserve">
+    <value>bez video</value>
+  </data>
+  <data name="playstyles.keyboard" xml:space="preserve">
+    <value>tastatūra</value>
+  </data>
+  <data name="playstyles.mouse" xml:space="preserve">
+    <value>pele</value>
+  </data>
+  <data name="playstyles.tablet" xml:space="preserve">
+    <value>grafiskā planšete</value>
+  </data>
+  <data name="playstyles.title" xml:space="preserve">
+    <value>Spēlēšanās stili</value>
+  </data>
+  <data name="playstyles.touch" xml:space="preserve">
+    <value>skārienjūtīgais ekrāns</value>
+  </data>
+  <data name="privacy.friends_only" xml:space="preserve">
+    <value>bloķēt privātās ziņas no cilvēkiem, kuri nav jūsu draugu sarakstā</value>
+  </data>
+  <data name="privacy.hide_online" xml:space="preserve">
+    <value>slēpt jūsu tiešsaistes klātbūtni</value>
+  </data>
+  <data name="privacy.title" xml:space="preserve">
+    <value>Konfidencialitāte</value>
+  </data>
+  <data name="security.current_session" xml:space="preserve">
+    <value>Pašreizējais</value>
+  </data>
+  <data name="security.end_session" xml:space="preserve">
+    <value>Beigt sesiju</value>
+  </data>
+  <data name="security.end_session_confirmation" xml:space="preserve">
+    <value>Šis beigs jūsu sesiju uz šo ierīci. Vai esat pārliecināts?</value>
+  </data>
+  <data name="security.last_active" xml:space="preserve">
+    <value>Pēdējais aktīvs:</value>
+  </data>
+  <data name="security.title" xml:space="preserve">
+    <value>Drošība</value>
+  </data>
+  <data name="security.web_sessions" xml:space="preserve">
+    <value>tīmekļa sesijas</value>
+  </data>
+  <data name="update_email.update" xml:space="preserve">
+    <value>atjaunināt</value>
+  </data>
+  <data name="update_password.update" xml:space="preserve">
+    <value>atjaunināt</value>
+  </data>
+  <data name="verification_completed.text" xml:space="preserve">
+    <value>Tagad jūs variet aizvērt šo cilni/logu</value>
+  </data>
+  <data name="verification_completed.title" xml:space="preserve">
+    <value>Pārbaude pabeigta</value>
+  </data>
+  <data name="verification_invalid.title" xml:space="preserve">
+    <value>Nederīga vai novecojusi pārbaudes saite</value>
+  </data>
+</root>

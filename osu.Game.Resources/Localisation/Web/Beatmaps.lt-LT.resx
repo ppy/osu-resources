@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Balsavimo nepavyko atnaujinti</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>leisti „kudosu“</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>„Beatmap“ puslapis</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>ištrinti</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>Panaikino {0} {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>atmesti kudosu</value>
+  </data>
+  <data name="discussions.edit" xml:space="preserve">
+    <value>redaguoti</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>Paskutinį kartą redagavo {0} {1}.</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Uždrausta gauti kudosu.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Šis sudėtingumas buvo ištrintas, todėl jo diskusijos nebegalimos.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Šio „Beatmap“ diskusijos, buvo išjungtos</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Negalima diskutuoti kol esi užtildytas.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>Pasirink Komentaro Tipą</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>Spausk Enter norint atsakyti.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>Rrašykite savo atsakymą čia</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Atsakymui reikia prisijungti</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>Išspręsta</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>atkurti</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>Peržiūrėti ištrintus</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>Diskusijos</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Sutraukti visus</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Išskleisti visus</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>Diskusiju kol kas nėra!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Nėra diskusijų atitinkančių filtrą.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>Užrakinti diskusijas</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>Atrakinti diskusijas</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>Ar tikrai norite atrakinti?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Ši žinutė bus perkeltą į bendrą beatmapo rinkinio diskusiją. Beatmapo kritikavimui, pradėk žinutę su laiko nuoroda (pvz.: 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Kad kritikuoti kelis laikus, siųsk žinutę kelis kartus (vieną per laiko žymę).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Rašyk čia kad siųsti į Bendrą ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Rašyk čia kad siųsti į Bendrą (Visiem sudėtingumams)</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Rašyk čia kad siųsti į Laiko juostą ({0})</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>Diskvalifikuoti</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>Iškelti!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>Pastaba</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>Ištrinti Nominaciją</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>Pagirti</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>Problema</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Apžvalga</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>Pasiūlymas</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="discussions.mode.general" xml:space="preserve">
+    <value>Bendra {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Apžvalgos</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>Laiko juosta</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>Šis sudėtingumas</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>Visi sudėtingumai</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Laiko žymė</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl+c redagavimo lange ir įklijuok į savo žinutę tam kad pridėti laiko žymę!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>Nauja Diskusija</value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>Atsegti</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[DISKUSIJA IŠTRINTA]</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Neišsaugota</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} sukūrė {1}</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>Sukūrimo laikas</value>
+  </data>
+  <data name="discussions.sort.timeline" xml:space="preserve">
+    <value>Veikla</value>
+  </data>
+  <data name="discussions.sort.updated_at" xml:space="preserve">
+    <value>Paskutinis atnaujinimas</value>
+  </data>
+  <data name="discussions.stats.deleted" xml:space="preserve">
+    <value>Ištrinta</value>
+  </data>
+  <data name="discussions.stats.mapper_notes" xml:space="preserve">
+    <value>Pastabos</value>
+  </data>
+  <data name="discussions.stats.mine" xml:space="preserve">
+    <value>Mano</value>
+  </data>
+  <data name="discussions.stats.pending" xml:space="preserve">
+    <value>Laukiami</value>
+  </data>
+  <data name="discussions.stats.praises" xml:space="preserve">
+    <value>Pagyrimai</value>
+  </data>
+  <data name="discussions.stats.resolved" xml:space="preserve">
+    <value>Išspręsta</value>
+  </data>
+  <data name="discussions.stats.total" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="discussions.status-messages.approved" xml:space="preserve">
+    <value>Šis beatmapas buvo patvirtintas {0}!</value>
+  </data>
+  <data name="discussions.status-messages.graveyard" xml:space="preserve">
+    <value>Šis beatmapas jau nebeatnaujinamas nuo {0} ir greičiausiai buvo apleistas kūrėjo...</value>
+  </data>
+  <data name="discussions.status-messages.loved" xml:space="preserve">
+    <value>Šis beatmapas buvo pridėtas kaip pamėgtas nuo {0}!</value>
+  </data>
+  <data name="discussions.status-messages.ranked" xml:space="preserve">
+    <value>Šis beatmapas buvo patvirtintas nuo {0}!</value>
+  </data>
+  <data name="discussions.status-messages.wip" xml:space="preserve">
+    <value>Pastaba: Šis beatmapas yra kūrėjo pažymėtas kaip vis dar kuriamas.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Dar nėra neigiamų balsų</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Dar nėra teigiamų balsų</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Pastarieji neigiami balsavimai</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Pastarieji teigiami balsavimai</value>
+  </data>
+  <data name="hype.button" xml:space="preserve">
+    <value>Iškelti Beatmapą!</value>
+  </data>
+  <data name="hype.button_done" xml:space="preserve">
+    <value>Jau Iškeltas!</value>
+  </data>
+  <data name="hype.confirm" xml:space="preserve">
+    <value>Ar tikrai? Tai išnaudos vieną iš tavo likusių {0} iškėlimų, ir šio veiksmo nebus galima grąžinti.</value>
+  </data>
+  <data name="hype.explanation" xml:space="preserve">
+    <value>Iškelti šį beatmapą kad jis būtų labiau matomas nominacijai ir patvirtinimui!</value>
+  </data>
+  <data name="hype.required_text" xml:space="preserve">
+    <value>Sušukimai: {0}/{1}</value>
+  </data>
+  <data name="hype.section_title" xml:space="preserve">
+    <value>Hype traukinys</value>
+  </data>
+  <data name="hype.title" xml:space="preserve">
+    <value>Sušukimas</value>
+  </data>
+  <data name="feedback.button" xml:space="preserve">
+    <value>Palikti Atsiliepimą</value>
+  </data>
+  <data name="nominations.delete" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="nominations.delete_own_confirm" xml:space="preserve">
+    <value>At tu tikras? „beatmap“ bus pašalintas ir būsi nukreiptas į savo profilį.</value>
+  </data>
+  <data name="nominations.delete_other_confirm" xml:space="preserve">
+    <value>At tu tikras? „beatmap“ bus pašalintas ir būsi nukreiptas į žaidėjo profilį.</value>
+  </data>
+  <data name="nominations.disqualification_prompt" xml:space="preserve">
+    <value>Kodėl diskvalifikuoji?</value>
+  </data>
+  <data name="nominations.disqualified_at" xml:space="preserve">
+    <value>Diskvalifikuotas prieš {0} ({1}).</value>
+  </data>
+  <data name="nominations.disqualified_no_reason" xml:space="preserve">
+    <value>nėra nurodytos priežasties</value>
+  </data>
+  <data name="nominations.disqualify" xml:space="preserve">
+    <value>Diskvalifikuoti</value>
+  </data>
+  <data name="nominations.incorrect_state" xml:space="preserve">
+    <value>Įvyko klaida atliekant šį veiksmą, pamėgink atnaujinti puslapį.</value>
+  </data>
+  <data name="nominations.love" xml:space="preserve">
+    <value>Patikę</value>
+  </data>
+  <data name="nominations.love_confirm" xml:space="preserve">
+    <value>Mylėti ši „beatmap“?</value>
+  </data>
+  <data name="nominations.nominate" xml:space="preserve">
+    <value>Nominuoti</value>
+  </data>
+  <data name="nominations.nominate_confirm" xml:space="preserve">
+    <value>Nominuoti šį beatmapą?</value>
+  </data>
+  <data name="nominations.nominated_by" xml:space="preserve">
+    <value>nominavo {0}</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>Nominacijos: {0}/{1}</value>
+  </data>
+  <data name="nominations.reset_message_deleted" xml:space="preserve">
+    <value>ištrinta</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>Nominacijos statusas</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>rašykite klavišais...</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Daugiau paieškos nustatymų</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Rūšiavimas pagal {0} reikalauja aktyvios „osu!supporter“ žymos</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>nėra rezultatų</value>
+  </data>
+  <data name="listing.search.not-found-quote" xml:space="preserve">
+    <value>... ne, nieko nerasta.</value>
+  </data>
+  <data name="listing.search.filters.extra" xml:space="preserve">
+    <value>papildoma</value>
+  </data>
+  <data name="listing.search.filters.general" xml:space="preserve">
+    <value>Bendra</value>
+  </data>
+  <data name="listing.search.filters.genre" xml:space="preserve">
+    <value>Žanras</value>
+  </data>
+  <data name="listing.search.filters.language" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>Režimas</value>
+  </data>
+  <data name="listing.search.filters.played" xml:space="preserve">
+    <value>Grojo</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Pasiektas reitingas</value>
+  </data>
+  <data name="listing.search.filters.status" xml:space="preserve">
+    <value>Kategorijos</value>
+  </data>
+  <data name="listing.search.sorting.title" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="listing.search.sorting.artist" xml:space="preserve">
+    <value>Atlikėjas</value>
+  </data>
+  <data name="listing.search.sorting.difficulty" xml:space="preserve">
+    <value>Sudėtingumas</value>
+  </data>
+  <data name="listing.search.sorting.favourites" xml:space="preserve">
+    <value>Mėgstamiausi</value>
+  </data>
+  <data name="listing.search.sorting.updated" xml:space="preserve">
+    <value>Atnaujintas</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Patvirtintas</value>
+  </data>
+  <data name="listing.search.sorting.rating" xml:space="preserve">
+    <value>Įvertinimas</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Aktualumas</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Nominacijos</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Rūšiavimas pagal {0} reikalauja aktyvaus {1}</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>„osu!supporter“ žyma</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Įtraukite konvertuotus „Beatmaps“</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Rekomenduojamas sudėtingumas</value>
+  </data>
+  <data name="mode.any" xml:space="preserve">
+    <value>Bet kas</value>
+  </data>
+  <data name="status.any" xml:space="preserve">
+    <value>Bet kas</value>
+  </data>
+  <data name="status.approved" xml:space="preserve">
+    <value>Patvirtintas</value>
+  </data>
+  <data name="status.favourites" xml:space="preserve">
+    <value>Mėgstamiausi</value>
+  </data>
+  <data name="status.graveyard" xml:space="preserve">
+    <value>Kapinės</value>
+  </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Turi pirmaujančiųjų sarašą</value>
+  </data>
+  <data name="status.loved" xml:space="preserve">
+    <value>Patikę</value>
+  </data>
+  <data name="status.qualified" xml:space="preserve">
+    <value>Kvalifikuotas</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Patvirtintas</value>
+  </data>
+  <data name="genre.any" xml:space="preserve">
+    <value>Bet koks</value>
+  </data>
+  <data name="genre.unspecified" xml:space="preserve">
+    <value>Nenurodyta</value>
+  </data>
+  <data name="genre.video-game" xml:space="preserve">
+    <value>Kompiuterinis žaidimas</value>
+  </data>
+  <data name="genre.anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="genre.rock" xml:space="preserve">
+    <value>Rokas</value>
+  </data>
+  <data name="genre.pop" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="genre.other" xml:space="preserve">
+    <value>Kiti</value>
+  </data>
+  <data name="genre.hip-hop" xml:space="preserve">
+    <value>Hip Hop</value>
+  </data>
+  <data name="genre.electronic" xml:space="preserve">
+    <value>Elektronika</value>
+  </data>
+  <data name="language.english" xml:space="preserve">
+    <value>Anglų</value>
+  </data>
+  <data name="language.chinese" xml:space="preserve">
+    <value>Kinų</value>
+  </data>
+  <data name="language.french" xml:space="preserve">
+    <value>Prancūzų</value>
+  </data>
+  <data name="language.german" xml:space="preserve">
+    <value>Vokiečių</value>
+  </data>
+  <data name="language.italian" xml:space="preserve">
+    <value>Italų</value>
+  </data>
+  <data name="language.japanese" xml:space="preserve">
+    <value>Japonų</value>
+  </data>
+  <data name="language.korean" xml:space="preserve">
+    <value>Korėjiečių</value>
+  </data>
+  <data name="language.spanish" xml:space="preserve">
+    <value>Ispanų</value>
+  </data>
+  <data name="language.swedish" xml:space="preserve">
+    <value>Švedų</value>
+  </data>
+  <data name="language.instrumental" xml:space="preserve">
+    <value>Instrumentinė</value>
+  </data>
+  <data name="language.other" xml:space="preserve">
+    <value>Kiti</value>
+  </data>
+  <data name="played.any" xml:space="preserve">
+    <value>Bet kas</value>
+  </data>
+  <data name="played.played" xml:space="preserve">
+    <value>Grojo</value>
+  </data>
+  <data name="played.unplayed" xml:space="preserve">
+    <value>Negroti</value>
+  </data>
+  <data name="extra.video" xml:space="preserve">
+    <value>Turi Video</value>
+  </data>
+  <data name="extra.storyboard" xml:space="preserve">
+    <value>Turi Istoriją</value>
+  </data>
+  <data name="rank.any" xml:space="preserve">
+    <value>Bet koks</value>
+  </data>
+  <data name="rank.xh" xml:space="preserve">
+    <value>Sidabrinis SS</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>Sidabrinis S</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>Žaidimų skaičius {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Mėgstamiausi {0}</value>
+  </data>
+</root>

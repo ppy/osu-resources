@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid" xml:space="preserve">
-    <value>Ogiltigt {0} specificerat.</value>
+    <value>Ogiltig {0} specificerat.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} kan inte vara negativt.</value>
@@ -71,16 +71,16 @@
     <value>{0} överskred maximal längd - kan endast vara upp till {1} tecken.</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
-    <value>Bekräftelse matchar inte.</value>
+    <value>Bekräftelsen matchar inte.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Tidsstämpel är angiven men beatmap saknas.</value>
+    <value>Tidsstämpel är angiven men beatmapsvårighetsgrad saknas.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
     <value>Denna beatmap kan inte hypas.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>Hype måste göras i den allmänna (Alla svårighetsgrader) sektionen.</value>
+    <value>Hype måste göras i den allmänna (alla svårighetsgrader) sektionen.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>Ogiltig svårighetgrad angiven.</value>
@@ -89,13 +89,13 @@
     <value>Ogiltig beatmap angiven.</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
-    <value>Diskussion är låst.</value>
+    <value>Diskussionen är låst.</value>
   </data>
   <data name="beatmapset_discussion.attributes.message_type" xml:space="preserve">
-    <value>Typ av meddelande</value>
+    <value>Meddelandetyp</value>
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
-    <value>Tidpunkt</value>
+    <value>Tidsstämpel</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
     <value>Denna beatmap är för närvarande låst för diskussion och kan inte hypas</value>
@@ -119,7 +119,7 @@
     <value>Angivna tidsstämpeln är bortom längden på beatmapen.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Tidsstämpel kan inte vara negativ.</value>
+    <value>Tidsstämpeln kan inte vara negativ.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Diskussionen är låst.</value>
@@ -140,10 +140,10 @@
     <value>Meddelandet</value>
   </data>
   <data name="follow.invalid" xml:space="preserve">
-    <value>Ogiltigt {0} specificerat.</value>
+    <value>Ogiltig {0} specificerat.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
-    <value>Kan endast rösta på funktion begäran.</value>
+    <value>Kan bara rösta på en funktionsförfrågan.</value>
   </data>
   <data name="forum.feature_vote.not_enough_feature_votes" xml:space="preserve">
     <value>Inte tillräckligt med röster.</value>
@@ -152,10 +152,10 @@
     <value>Ogiltligt val specificerat.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Radera beatmap metadata inlägg är inte tillåtet.</value>
+    <value>Radering av beatmap-metadatainlägg är inte tillåtet.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Redigera beatmap metadata inlägg är inte tillåtet.</value>
+    <value>Att redigera beatmap-metadatainlägg är inte tillåtet.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
     <value>Kan inte ta bort ursprungsinlägget</value>
@@ -164,10 +164,10 @@
     <value>Inlägget saknar ämne</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
-    <value>Ditt svar innehåller bara en citat.</value>
+    <value>Ditt svar innehåller bara ett citat.</value>
   </data>
   <data name="forum.post.attributes.post_text" xml:space="preserve">
-    <value>Skicka kropp</value>
+    <value>Brödtext</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Ämnets titel</value>
@@ -176,10 +176,10 @@
     <value>Duplicerade val är ej tillåtet.</value>
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
-    <value>Kan inte redigera en enkät efter mer än {0} timmar.</value>
+    <value>Kan inte redigera en omröstning efter mer än {0} timmar.</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
-    <value>Kan inte dölja resultaten på en enkät som aldrig slutar.</value>
+    <value>Kan inte dölja resultaten på en omröstning som aldrig slutar.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Val per användare får inte överskrida antalet tillgängliga val.</value>
@@ -194,16 +194,16 @@
     <value>Överskred max antal tillåtna val.</value>
   </data>
   <data name="forum.topic_poll.attributes.title" xml:space="preserve">
-    <value>Enkät titel</value>
+    <value>Omröstningstitel</value>
   </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
     <value>Välj ett alternativ att rösta på.</value>
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
-    <value>Valde mer val än tillåtet.</value>
+    <value>Valde mer val än vad som är tillåtet.</value>
   </data>
   <data name="oauth.client.too_many" xml:space="preserve">
-    <value>Överskred maximalt antal tillåtna OAuth program.</value>
+    <value>Överskred maximalt antal tillåtna OAuth-program.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Var vänlig och skriv in en giltig URL.</value>
@@ -296,13 +296,13 @@
     <value>Lösenord</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
-    <value>Du kan inte ändra ditt användarnamn när det är begränsat.</value>
+    <value>Du kan inte ändra ditt användarnamn medan du är begränsad.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Du måste {0} för att byta ditt användarnamn!</value>
+    <value>Du måste ha {0} för att byta ditt användarnamn!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
-    <value>stödja osu!</value>
+    <value>stöttade osu!</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Detta är redan ditt användarnamn, dumbom!</value>

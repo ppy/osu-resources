@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit.title_compact" xml:space="preserve">
+    <value>подешавања налога</value>
+  </data>
+  <data name="edit.username" xml:space="preserve">
+    <value>корисничко име</value>
+  </data>
+  <data name="edit.avatar.title" xml:space="preserve">
+    <value>Аватар</value>
+  </data>
+  <data name="edit.avatar.rules" xml:space="preserve">
+    <value>Молимо вас да ваш аватар поштује {0}. &lt;br/&gt; То значи да мора бити &lt;strong&gt;сутабилан за људе свих узраста&lt;/strong&gt;. Аватари не смеју садржати голотињу, псовке и сугестиван садржај.</value>
+  </data>
+  <data name="edit.avatar.rules_link" xml:space="preserve">
+    <value>правила заједнице</value>
+  </data>
+  <data name="edit.email.current" xml:space="preserve">
+    <value>тренутни имејл</value>
+  </data>
+  <data name="edit.email.new" xml:space="preserve">
+    <value>нови имејл</value>
+  </data>
+  <data name="edit.email.new_confirmation" xml:space="preserve">
+    <value>потврда имејл адресе</value>
+  </data>
+  <data name="edit.email.title" xml:space="preserve">
+    <value>Имејл</value>
+  </data>
+  <data name="edit.password.current" xml:space="preserve">
+    <value>тренутна лозинка</value>
+  </data>
+  <data name="edit.password.new" xml:space="preserve">
+    <value>нова лозинка</value>
+  </data>
+  <data name="edit.password.new_confirmation" xml:space="preserve">
+    <value>потврда лозинке</value>
+  </data>
+  <data name="edit.password.title" xml:space="preserve">
+    <value>Лозинка</value>
+  </data>
+  <data name="edit.profile.title" xml:space="preserve">
+    <value>Профил</value>
+  </data>
+  <data name="edit.profile.user.user_from" xml:space="preserve">
+    <value>тренутна локација</value>
+  </data>
+  <data name="edit.profile.user.user_interests" xml:space="preserve">
+    <value>интереси</value>
+  </data>
+  <data name="edit.profile.user.user_occ" xml:space="preserve">
+    <value>занимање</value>
+  </data>
+  <data name="edit.profile.user.user_website" xml:space="preserve">
+    <value>вебсајт</value>
+  </data>
+  <data name="edit.signature.title" xml:space="preserve">
+    <value>Потпис</value>
+  </data>
+  <data name="edit.signature.update" xml:space="preserve">
+    <value>ажурирај</value>
+  </data>
+  <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>примајте обавештења за нове проблеме на квалификованим мапама следећих модова</value>
+  </data>
+  <data name="notifications.beatmapset_disqualify" xml:space="preserve">
+    <value>примајте обавештења када мапе од следећих модова су дисквалификоване</value>
+  </data>
+  <data name="notifications.comment_reply" xml:space="preserve">
+    <value>примајте обавештења за одговоре на ваше коментаре</value>
+  </data>
+  <data name="notifications.title" xml:space="preserve">
+    <value>Обавештења</value>
+  </data>
+  <data name="notifications.topic_auto_subscribe" xml:space="preserve">
+    <value>аутоматски укључите обавештења за теме које сте направили на форуму</value>
+  </data>
+  <data name="notifications.options._" xml:space="preserve">
+    <value>метода слања</value>
+  </data>
+  <data name="notifications.options.beatmapset:modding" xml:space="preserve">
+    <value>модовање мапа</value>
+  </data>
+  <data name="notifications.options.channel_message" xml:space="preserve">
+    <value>приватне чет поруке</value>
+  </data>
+  <data name="notifications.options.comment_new" xml:space="preserve">
+    <value>нови коментари</value>
+  </data>
+  <data name="notifications.options.forum_topic_reply" xml:space="preserve">
+    <value>одговор на тему</value>
+  </data>
+  <data name="notifications.options.mail" xml:space="preserve">
+    <value>пошта</value>
+  </data>
+  <data name="notifications.options.push" xml:space="preserve">
+    <value>push</value>
+  </data>
+  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
+    <value>корисничка медаља откључана</value>
+  </data>
+  <data name="oauth.authorized_clients" xml:space="preserve">
+    <value>ауторизовани клијенти</value>
+  </data>
+  <data name="oauth.own_clients" xml:space="preserve">
+    <value>сопствени клијенти</value>
+  </data>
+  <data name="oauth.title" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_title_show_original" xml:space="preserve">
+    <value>покажи метаподатке ове мапе на оригиналном језику</value>
+  </data>
+  <data name="options.title" xml:space="preserve">
+    <value>Опције</value>
+  </data>
+  <data name="options.beatmapset_download._" xml:space="preserve">
+    <value>преферирани начин за скидање мапа</value>
+  </data>
+  <data name="options.beatmapset_download.all" xml:space="preserve">
+    <value>са видео клипом ако је доступан</value>
+  </data>
+  <data name="options.beatmapset_download.direct" xml:space="preserve">
+    <value>отвори у osu!direct</value>
+  </data>
+  <data name="options.beatmapset_download.no_video" xml:space="preserve">
+    <value>без видео клипа</value>
+  </data>
+  <data name="playstyles.keyboard" xml:space="preserve">
+    <value>тастатура</value>
+  </data>
+  <data name="playstyles.mouse" xml:space="preserve">
+    <value>миш</value>
+  </data>
+  <data name="playstyles.tablet" xml:space="preserve">
+    <value>таблет</value>
+  </data>
+  <data name="playstyles.title" xml:space="preserve">
+    <value>Начин игре</value>
+  </data>
+  <data name="playstyles.touch" xml:space="preserve">
+    <value>екран на додир</value>
+  </data>
+  <data name="privacy.friends_only" xml:space="preserve">
+    <value>блокирајте приватне поруке од корисника који нису на вашој листи пријатеља</value>
+  </data>
+  <data name="privacy.hide_online" xml:space="preserve">
+    <value>сакријте свој статус</value>
+  </data>
+  <data name="privacy.title" xml:space="preserve">
+    <value>Приватност</value>
+  </data>
+  <data name="security.current_session" xml:space="preserve">
+    <value>актуелна</value>
+  </data>
+  <data name="security.end_session" xml:space="preserve">
+    <value>Заврши сесију</value>
+  </data>
+  <data name="security.end_session_confirmation" xml:space="preserve">
+    <value>Ово ће завршити вашу сесију на изабраном уређају. Да ли сте сигурни?</value>
+  </data>
+  <data name="security.last_active" xml:space="preserve">
+    <value>Последњи пут активан/на:</value>
+  </data>
+  <data name="security.title" xml:space="preserve">
+    <value>Безбедност</value>
+  </data>
+  <data name="security.web_sessions" xml:space="preserve">
+    <value>интернет сесија</value>
+  </data>
+  <data name="update_email.update" xml:space="preserve">
+    <value>ажурирај</value>
+  </data>
+  <data name="update_password.update" xml:space="preserve">
+    <value>ажурирај</value>
+  </data>
+  <data name="verification_completed.text" xml:space="preserve">
+    <value>Сада можете затворити овај прозор</value>
+  </data>
+  <data name="verification_completed.title" xml:space="preserve">
+    <value>Верификација  је успешна</value>
+  </data>
+  <data name="verification_invalid.title" xml:space="preserve">
+    <value>Не важећи или истекнут линк за верификацију</value>
+  </data>
+</root>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Paano kung maglaro nalang ng osu?</value>
+  </data>
+  <data name="require_login" xml:space="preserve">
+    <value>Paki-sign-in para tumuloy.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Paki-beripika para tumuloy.</value>
+  </data>
+  <data name="restricted" xml:space="preserve">
+    <value>Hindi pwedeng gawin habang naka-restricted.</value>
+  </data>
+  <data name="silenced" xml:space="preserve">
+    <value>Hindi pwedeng gawin habang naka-silenced.</value>
+  </data>
+  <data name="unauthorized" xml:space="preserve">
+    <value>Hindi tinangap ang iyong pag-access.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
+    <value>Bawal ibalik ang hyping.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
+    <value>Hindi pwede tanggalin ang talakayan na may kasamang mga sagot</value>
+  </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>Naabot mo na ang iyong limitasyon sa paghahalal ngayong araw na ito, subukan mo ulit bukas.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
+    <value>Hindi maitupad ang aksyon na ito, subukang i-refresh ang pahina.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
+    <value>Hindi pwedeng hirangin ang sariling beatmap.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Kailangan mong itakda ang genre at wika bago i-nominate.</value>
+  </data>
+  <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
+    <value>Ang nagsimula ng thread at ang may-ari ng beatmap lamang ang pwedeng lumutas ng talakayan.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Tanging ang may-ari ng beatmap o nominator/miyembro ng grupong QAT ang maaaring mag-lagay ng mapper tala.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Hindi maaaring bumoto sa talakayan na gawa ng bot</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>Maghintay nang sandali bago magsumite ng higit pang mga boto</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>Hindi pwedeng magboto sa sariling talakayan.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>Pwede lang magboto sa mga talakayan ng mga pending beatmap.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Ikaw lamang ang makaka-delete ng iyong posts.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Hindi mo maaring ma-delete ang post na na-resolbang diskusyon.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Mga awtomatikong poste na nagawa na ay hindi na maaring tanggalin.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Ang poster lamang ang pwedeng mag-edit ng post.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Hindi mo maaring ma-edit ang post na na-resolbang diskusyon.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>Awtomatikong Pinagagana kapag post ay hindi maaaring i-edit.</value>
+  </data>
+  <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
+    <value>Ang beatmap na ito ay sarado na para sa diskusyon.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang metadata ng nominadong na mapa. Makipag-ugnay sa mga miyembro ng BN o NAT kung sa tingin mo ay hindi siya naka-ayos mabuti.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>Hindi maaaring i-message ang user na naka-block ka o na-block mo.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Ang user na ito ay nagbo-block ng mga messages mula sa mga user na hindi parte ng kanyang friend list.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Kasalukuyang naka-moderate ang channel na ito.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>Wala kang access sa channel na iyon.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>Hindi ka maaaring maka-send ng mga mensahe habang naka-silence, restricted o banned.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Hindi ka maaaring maka-send ng mga mensahe habang naka-silence, restricted o banned.</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>Hindi maaaring i-edit ang mga tinanggal na post.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>Hindi mo maaaring baguhin ang iyong boto kapag natapos na ang panahon ng pagboto para sa paligsahang ito.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Naabot mo na ang iyong limitasyon sa pagsumite para sa paligsahan na ito</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Salamat sa iyong pagsumite! Ang pagsusumite ay nagsara na para sa paligsahan na ito at ang botohan ay magsisimula na.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Walang pahintulot na mag-moderate ng forum na ito.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>Ang huling post lamang ang pwedeng tanggalin.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>Hindi pwedeng tanggalin ang post ng isang naka-lock na paksa.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Access sa hiniling na forum ay kinakailangan.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>Ang poster lamang ang pwedeng magtanggal ng post.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>Hindi pwedeng mag-edit ang tinanggal na post.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>Naka-lock ang post na ito sa pag-e-edit.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Ang poster lamang ang pwedeng mag-edit ang post na ito.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>Ang poster lamang ang pwedeng mag-edit ng post.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>Hindi pwedeng i-edit ang post ng isang naka-lock na paksa.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Pakisubukang maglaro muna bago mag-post sa mga forum! Kung ikaw ay may problema sa paglalaro, pwede mong i-post sa Help and Support na forum.</value>
+  </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>Kailangan mo pang maglaro bago ka makagawa ng karagdagang mga post. Kung meron pa kayong problema sa paglalaro, mag-email sa support@ppy.sh</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Paki-edit ang huli mong post sa halip na mag-post muli.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>Hindi pwedeng sumagot sa isang naka-lock na thread.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Access sa hiniling na forum ay kinakailangan.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>Walang pahintulot para sumagot.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Mangyaring mag-sign in sa sumagot.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>Hindi pwedeng sumagot habang naka-restricted.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>Hindi pwedeng sumagot habang naka-silenced.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Access sa hiniling na forum ay kinakailangan.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>Walang pahintulot upang gumawa ng bagong paksa.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>Nakasarado ang forum at hindi pwedeng mag-post.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Access sa hiniling na forum ay kinakailangan.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>Tapos ang botohan at ay hindi na maaaring bumoto.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Kailangan mong maglaro pa ng marami bago ka maka-boto sa forum.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Hindi pwedeng pumalit ng boto.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Mangyaring mag-sign in sa sumagot.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>Hindi pwedeng bumoto habang naka-restricted.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>Hindi pwedeng bumoto habang naka-silence.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Access sa hiniling na forum ay kinakailangan.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>Maling cover ang naka-specify.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>Ang may-ari lamang ang maaaring mag edit ng cover.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Ang pagpupulong na ito ay hindi nagtatanggap ng panakip na paksa.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>Ang admin lamang ang pwedeng tumingin ng forum na ito.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>Naka-lock ang user page.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>Pwede lang i-edit ang sariling user page.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>Kailangan ng osu!supporter tag.</value>
+  </data>
+</root>

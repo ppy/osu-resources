@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="confirmation" xml:space="preserve">
+    <value>Ar esate įsitikinę?</value>
+  </data>
+  <data name="confirmation_unsaved" xml:space="preserve">
+    <value>Neįsaugoti pakeitimai bus prarasti. Ar jūs įsitikinęs?</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>Išsaugotas</value>
+  </data>
+  <data name="array_and.words_connector" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="array_and.two_words_connector" xml:space="preserve">
+    <value> ir </value>
+  </data>
+  <data name="array_and.last_word_connector" xml:space="preserve">
+    <value>, ir </value>
+  </data>
+  <data name="badges.new" xml:space="preserve">
+    <value>NAUJAS</value>
+  </data>
+  <data name="buttons.admin" xml:space="preserve">
+    <value>Administratorius</value>
+  </data>
+  <data name="buttons.back_to_top" xml:space="preserve">
+    <value>Grįžti į viršų</value>
+  </data>
+  <data name="buttons.cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="buttons.change" xml:space="preserve">
+    <value>pakeisti</value>
+  </data>
+  <data name="buttons.click_to_copy" xml:space="preserve">
+    <value>paspausk, kad nukopijuot</value>
+  </data>
+  <data name="buttons.click_to_copy_copied" xml:space="preserve">
+    <value>nukopijuotas!</value>
+  </data>
+  <data name="buttons.close" xml:space="preserve">
+    <value>Užverti</value>
+  </data>
+  <data name="buttons.collapse" xml:space="preserve">
+    <value>sutraukti</value>
+  </data>
+  <data name="buttons.delete" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="buttons.edit" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="buttons.expand" xml:space="preserve">
+    <value>išskleisti</value>
+  </data>
+  <data name="buttons.hide" xml:space="preserve">
+    <value>slėpti</value>
+  </data>
+  <data name="buttons.post" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="buttons.reply" xml:space="preserve">
+    <value>Atsakymai</value>
+  </data>
+  <data name="buttons.reply_reopen" xml:space="preserve">
+    <value>Atsakyti ir atidaryti</value>
+  </data>
+  <data name="buttons.reply_resolve" xml:space="preserve">
+    <value>Atsakyti ir išspręsti</value>
+  </data>
+  <data name="buttons.reset" xml:space="preserve">
+    <value>Atstatyti</value>
+  </data>
+  <data name="buttons.restore" xml:space="preserve">
+    <value>Atkurti</value>
+  </data>
+  <data name="buttons.save" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="buttons.saving" xml:space="preserve">
+    <value>Išsaugoma...</value>
+  </data>
+  <data name="buttons.search" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="buttons.see_more" xml:space="preserve">
+    <value>matyti daugiau</value>
+  </data>
+  <data name="buttons.show" xml:space="preserve">
+    <value>rodyti</value>
+  </data>
+  <data name="buttons.show_deleted" xml:space="preserve">
+    <value>Rodyti pašalintus</value>
+  </data>
+  <data name="buttons.show_more" xml:space="preserve">
+    <value>rodyti daugiau</value>
+  </data>
+  <data name="buttons.show_more_options" xml:space="preserve">
+    <value>rodyti daugiau parinkčių</value>
+  </data>
+  <data name="buttons.upload_image" xml:space="preserve">
+    <value>įkelti nuotrauką</value>
+  </data>
+  <data name="buttons.watch.to_0" xml:space="preserve">
+    <value>Nebestebėti</value>
+  </data>
+  <data name="buttons.watch.to_1" xml:space="preserve">
+    <value>Stebėti</value>
+  </data>
+  <data name="count.days" xml:space="preserve">
+    <value>prieš{0} dieną| prieš{0} dienas</value>
+  </data>
+  <data name="count.hour_short_unit" xml:space="preserve">
+    <value>valanda/valandos</value>
+  </data>
+  <data name="count.hours" xml:space="preserve">
+    <value>Prieš{0} valandą| Prieš{0} valandas</value>
+  </data>
+  <data name="count.item" xml:space="preserve">
+    <value>{0} matavimo vienetas|{0} matavimo vienetai</value>
+  </data>
+  <data name="count.minute_short_unit" xml:space="preserve">
+    <value>minutė/minutės</value>
+  </data>
+  <data name="count.minutes" xml:space="preserve">
+    <value>prieš{0} minutę|prieš{0} minutes</value>
+  </data>
+  <data name="count.months" xml:space="preserve">
+    <value>Prieš{0} mėnesį| Prieš{0} mėnesius</value>
+  </data>
+  <data name="count.second_short_unit" xml:space="preserve">
+    <value>skunde|sekundes</value>
+  </data>
+  <data name="count.years" xml:space="preserve">
+    <value>Prieš{0} metus| Prieš{0} metus</value>
+  </data>
+  <data name="countdown.days" xml:space="preserve">
+    <value>dienos</value>
+  </data>
+  <data name="countdown.hours" xml:space="preserve">
+    <value>valandos</value>
+  </data>
+  <data name="countdown.minutes" xml:space="preserve">
+    <value>minutės</value>
+  </data>
+  <data name="countdown.seconds" xml:space="preserve">
+    <value>sekundės</value>
+  </data>
+  <data name="score_count.count_100" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="score_count.count_300" xml:space="preserve">
+    <value>300</value>
+  </data>
+  <data name="score_count.count_50" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="score_count.count_katu" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="score_count.count_miss" xml:space="preserve">
+    <value>Nepataikyti</value>
+  </data>
+  <data name="time.days_ago" xml:space="preserve">
+    <value>{0} prieš dieną|{0} prieš dienų</value>
+  </data>
+  <data name="time.hours_ago" xml:space="preserve">
+    <value>Prieš{0} valandą| Prieš{0} valandas</value>
+  </data>
+  <data name="time.now" xml:space="preserve">
+    <value>dabar</value>
+  </data>
+  <data name="time.remaining" xml:space="preserve">
+    <value>Likęs laikas</value>
+  </data>
+</root>
