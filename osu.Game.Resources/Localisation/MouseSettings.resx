@@ -58,22 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cancel" xml:space="preserve">
-    <value>Cancel</value>
+  <data name="mouse" xml:space="preserve">
+    <value>Mouse</value>
   </data>
-  <data name="clear" xml:space="preserve">
-    <value>Clear</value>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>Not applicable in full screen mode</value>
   </data>
-  <data name="enabled" xml:space="preserve">
-    <value>Enabled</value>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>High precision mouse</value>
   </data>
-  <data name="default" xml:space="preserve">
-    <value>Default</value>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Attempts to bypass any operation system mouse acceleration. On windows, this is equivalent to what used to be known as "Raw Input".</value>
   </data>
-  <data name="width" xml:space="preserve">
-    <value>Width</value>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Confine mouse cursor to window</value>
   </data>
-  <data name="height" xml:space="preserve">
-    <value>Height</value>
+  <data name="disable_mouse_wheel" xml:space="preserve">
+    <value>Disable mouse wheel during gameplay</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Disable mouse buttons during gameplay</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Enable high precision mouse to adjust sensitivity</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Cursor sensitivity</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>This setting has known issues on your platform. If you encounter problems, it is recommended to adjust sensitivity externally and keep this disabled for now.</value>
   </data>
 </root>
