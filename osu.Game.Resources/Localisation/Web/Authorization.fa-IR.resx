@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>نمیتوان به گفت و گوی ایجاد شده توسط بات رای داد</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>لطفا اندکی قبل از ارسال رای های بیشتر صبر کنید</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>نمیتوانید به گفت و گوی خودتان رای دهید.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>شما فقط میتوانید پست های خودتان را حذف کنید.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>شما نمی توانید یک پست از یک گفت و گوی حل شده را حذف کنید.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>پست هایی که خودکار ساخته شده اند، نمیتوانند حذف شوند.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>فقط ارسال کننده پست میتواند آن را ویرایش کند.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>شما نمیتوانید یک پست از یک گفت و گوی حل شده را ویرایش کنید.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>پست هایی که خودکار ساخته شده اند، نمیتوانند ویرایش شوند.</value>
+  </data>
+  <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
+    <value>این بیتمپ برای گفت و گو قفل شده است.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>نمیتوان به کاربری پیام ارسال کرد که او را مسدود کرده اید یا او شما را مسدود کرده باشد.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>کاربر مورد نظر، پیام ها را از طرف کسانی که جزو لیست دوستانش نیستند، مسدود کرده است.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>شما به آن کانال دسترسی ندارید.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>شما نمیتوانید موقعی که ساکت، محدود و یا مسدود شده اید پیام بفرستید.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>شما نمیتوانید موقعی که ساکت، محدود و یا مسدود شده اید پیام بفرستید.</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>نمیتوان پست پاک شده را ویرایش کرد.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>شما نمیتوانید رای خود را بعد این که رقابت به پایان رسیده عوض کنید.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>شما به محدودیت ورودی این رقابت رسیدید</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>از ورودی های ارسالی شما سپاسگزاریم! ارسال آثار برای این رقابت بسته شده و رای گیری به زودی آغاز خواهد شد.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>دسترسی مدیریت این انجمن را ندارید.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>فقط آخرین پست میتواند پاک شود.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>نمی توان پستی را از یک مبحث قفل شده حذف کرد.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>فقط ارسال کننده پست میتواند آن را پاک کند.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>نمیتوان پست پاک شده را ویرایش کرد.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>این پست برای ویرایش قفل شده است.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>فقط ارسال کننده پست میتواند آن را ویرایش کند.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>نمی توان پستی را از یک مبحث قفل شده ویرایش کرد.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>لطفا ابتدا سعی کنید قبل ارسال پست در انجمن بازی را (درست) انجام دهید! اگر با بازی کردن مشکل دارید، لطفا به انجمن کمک و پشتیبانی پست ارسال کنید.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>لطفا برای پاسخ دادن وارد سایت شوید.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>نمیوانید موقعی که محدود شده اید پاسخ ارسال کنید.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>نمیتوانید موقعی که ساکت شده اید پاسخ ارسال کنید.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>مجوز برای ساخت مبحث جدید ندارید.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>انجمن بسته شده و نمیتوان به آن پست ارسال کرد.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>نظرسنجی تمام شده و نمیتوان دیگر به آن رای داد.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>شما قبل از این که بتوانید در انجمن رای بدهید، باید بیشتر بازی کنید.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>تغییر رای مجاز نیست.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>لطفا برای رای دادن وارد سایت شوید.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>نمیتوانید موقعی که محدود شده اید رای بدهید.</value>
+  </data>
+</root>

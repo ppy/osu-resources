@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="confirmation" xml:space="preserve">
+    <value>Sigurado ka ba?</value>
+  </data>
+  <data name="confirmation_unsaved" xml:space="preserve">
+    <value>Ang mga hindi nai-save na pagbabago ay maaaring mawala. Sigurado ka ba?</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>Na-save</value>
+  </data>
+  <data name="array_and.words_connector" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="array_and.two_words_connector" xml:space="preserve">
+    <value> at </value>
+  </data>
+  <data name="array_and.last_word_connector" xml:space="preserve">
+    <value>, at </value>
+  </data>
+  <data name="badges.new" xml:space="preserve">
+    <value>BAGO</value>
+  </data>
+  <data name="buttons.admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="buttons.authorise" xml:space="preserve">
+    <value>Pahintulutan</value>
+  </data>
+  <data name="buttons.authorising" xml:space="preserve">
+    <value>Pinapahintulutan...</value>
+  </data>
+  <data name="buttons.back_to_previous" xml:space="preserve">
+    <value>Bumalik sa nakaraang posisyon</value>
+  </data>
+  <data name="buttons.back_to_top" xml:space="preserve">
+    <value>Balik sa itaas</value>
+  </data>
+  <data name="buttons.cancel" xml:space="preserve">
+    <value>Kansel</value>
+  </data>
+  <data name="buttons.change" xml:space="preserve">
+    <value>baguhin</value>
+  </data>
+  <data name="buttons.clear" xml:space="preserve">
+    <value>Burahin</value>
+  </data>
+  <data name="buttons.click_to_copy" xml:space="preserve">
+    <value>i-click upang kopyahin sa clipboard</value>
+  </data>
+  <data name="buttons.click_to_copy_copied" xml:space="preserve">
+    <value>nakopya sa clipboard!</value>
+  </data>
+  <data name="buttons.close" xml:space="preserve">
+    <value>Isara</value>
+  </data>
+  <data name="buttons.collapse" xml:space="preserve">
+    <value>i-kolaps</value>
+  </data>
+  <data name="buttons.delete" xml:space="preserve">
+    <value>Tanggalin</value>
+  </data>
+  <data name="buttons.edit" xml:space="preserve">
+    <value>I-edit</value>
+  </data>
+  <data name="buttons.expand" xml:space="preserve">
+    <value>palawakin</value>
+  </data>
+  <data name="buttons.hide" xml:space="preserve">
+    <value>itago</value>
+  </data>
+  <data name="buttons.permalink" xml:space="preserve">
+    <value>permalink</value>
+  </data>
+  <data name="buttons.pin" xml:space="preserve">
+    <value>aspile</value>
+  </data>
+  <data name="buttons.post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="buttons.read_more" xml:space="preserve">
+    <value>magbasa pa</value>
+  </data>
+  <data name="buttons.reply" xml:space="preserve">
+    <value>Sumagot</value>
+  </data>
+  <data name="buttons.reply_reopen" xml:space="preserve">
+    <value>Sagutin at Muling Buksan</value>
+  </data>
+  <data name="buttons.reply_resolve" xml:space="preserve">
+    <value>Sagutin at Lutasin</value>
+  </data>
+  <data name="buttons.reset" xml:space="preserve">
+    <value>I-reset</value>
+  </data>
+  <data name="buttons.restore" xml:space="preserve">
+    <value>Ibalik</value>
+  </data>
+  <data name="buttons.save" xml:space="preserve">
+    <value>I-save</value>
+  </data>
+  <data name="buttons.saving" xml:space="preserve">
+    <value>Sine-save...</value>
+  </data>
+  <data name="buttons.search" xml:space="preserve">
+    <value>Hanapin</value>
+  </data>
+  <data name="buttons.see_more" xml:space="preserve">
+    <value>tingnan pa</value>
+  </data>
+  <data name="buttons.show" xml:space="preserve">
+    <value>ipakita</value>
+  </data>
+  <data name="buttons.show_deleted" xml:space="preserve">
+    <value>Ipakita ang mga tinanggal</value>
+  </data>
+  <data name="buttons.show_less" xml:space="preserve">
+    <value>ipakita ng menos</value>
+  </data>
+  <data name="buttons.show_more" xml:space="preserve">
+    <value>ipakita pa</value>
+  </data>
+  <data name="buttons.show_more_options" xml:space="preserve">
+    <value>ipakita pa ang mga pagpipilian</value>
+  </data>
+  <data name="buttons.unpin" xml:space="preserve">
+    <value>kalasin</value>
+  </data>
+  <data name="buttons.update" xml:space="preserve">
+    <value>Baguhin</value>
+  </data>
+  <data name="buttons.upload_image" xml:space="preserve">
+    <value>mag-upload ng imahe</value>
+  </data>
+  <data name="buttons.watch.to_0" xml:space="preserve">
+    <value>Huwag Panoorin</value>
+  </data>
+  <data name="buttons.watch.to_1" xml:space="preserve">
+    <value>Panoorin</value>
+  </data>
+  <data name="count.badges" xml:space="preserve">
+    <value>{0} badge|{0} mga badge</value>
+  </data>
+  <data name="count.days" xml:space="preserve">
+    <value>{0} araw|{0} mga araw</value>
+  </data>
+  <data name="count.hour_short_unit" xml:space="preserve">
+    <value>hr|hrs</value>
+  </data>
+  <data name="count.hours" xml:space="preserve">
+    <value>{0} oras|{0} mga oras</value>
+  </data>
+  <data name="count.item" xml:space="preserve">
+    <value>{0} yunit|{0} mga yunit</value>
+  </data>
+  <data name="count.minute_short_unit" xml:space="preserve">
+    <value>min|mins</value>
+  </data>
+  <data name="count.minutes" xml:space="preserve">
+    <value>{0} minuto|{0} mga minuto</value>
+  </data>
+  <data name="count.months" xml:space="preserve">
+    <value>{0} buwan|{0} mga buwan</value>
+  </data>
+  <data name="count.notifications" xml:space="preserve">
+    <value>{0} na notipikasyon|{0} na mga notipikasyon</value>
+  </data>
+  <data name="count.plus_others" xml:space="preserve">
+    <value>+ {0} na iba pa!|+ {0} na iba pa!</value>
+  </data>
+  <data name="count.post" xml:space="preserve">
+    <value>{0} na post|{0} na mga post</value>
+  </data>
+  <data name="count.second_short_unit" xml:space="preserve">
+    <value>sec|secs</value>
+  </data>
+  <data name="count.star_priority" xml:space="preserve">
+    <value>{0} na star priority|{0} na mga star priority</value>
+  </data>
+  <data name="count.update" xml:space="preserve">
+    <value>{0} na pagbabago|{0} na mga pagbabago</value>
+  </data>
+  <data name="count.view" xml:space="preserve">
+    <value>{0} na view|{0} na mga view</value>
+  </data>
+  <data name="count.years" xml:space="preserve">
+    <value>{0} taon|{0} mga taon</value>
+  </data>
+  <data name="countdown.days" xml:space="preserve">
+    <value>mga araw</value>
+  </data>
+  <data name="countdown.hours" xml:space="preserve">
+    <value>mga oras</value>
+  </data>
+  <data name="countdown.minutes" xml:space="preserve">
+    <value>mga minuto</value>
+  </data>
+  <data name="countdown.seconds" xml:space="preserve">
+    <value>mga segundo</value>
+  </data>
+  <data name="datetime.year_month.moment" xml:space="preserve">
+    <value>MMMM YYYY</value>
+  </data>
+  <data name="datetime.year_month.php" xml:space="preserve">
+    <value>MMMM y</value>
+  </data>
+  <data name="datetime.year_month_short.moment" xml:space="preserve">
+    <value>MMM YYYY</value>
+  </data>
+  <data name="device.keyboard" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="device.mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="device.tablet" xml:space="preserve">
+    <value>Tablet</value>
+  </data>
+  <data name="device.touch" xml:space="preserve">
+    <value>Touch Screen</value>
+  </data>
+  <data name="dropzone.target" xml:space="preserve">
+    <value>i-lapag dito para i-upload</value>
+  </data>
+  <data name="input.search" xml:space="preserve">
+    <value>maghanap...</value>
+  </data>
+  <data name="pagination.previous" xml:space="preserve">
+    <value>nakaraan</value>
+  </data>
+  <data name="pagination.next" xml:space="preserve">
+    <value>sumunod</value>
+  </data>
+  <data name="score_count.count_100" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="score_count.count_300" xml:space="preserve">
+    <value>300</value>
+  </data>
+  <data name="score_count.count_50" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="score_count.count_katu" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="score_count.count_miss" xml:space="preserve">
+    <value>Mali</value>
+  </data>
+  <data name="scoreboard_time.d" xml:space="preserve">
+    <value>%dd</value>
+  </data>
+  <data name="scoreboard_time.dd" xml:space="preserve">
+    <value>%dd</value>
+  </data>
+  <data name="scoreboard_time.h" xml:space="preserve">
+    <value>%dh</value>
+  </data>
+  <data name="scoreboard_time.hh" xml:space="preserve">
+    <value>%dh</value>
+  </data>
+  <data name="scoreboard_time.m" xml:space="preserve">
+    <value>ngayon</value>
+  </data>
+  <data name="scoreboard_time.mm" xml:space="preserve">
+    <value>ngayon</value>
+  </data>
+  <data name="scoreboard_time.s" xml:space="preserve">
+    <value>ngayon</value>
+  </data>
+  <data name="scoreboard_time.y" xml:space="preserve">
+    <value>%dy</value>
+  </data>
+  <data name="scoreboard_time.yy" xml:space="preserve">
+    <value>%dy</value>
+  </data>
+  <data name="time.days_ago" xml:space="preserve">
+    <value>{0} nakaraang araw|{0} mga nakaraang araw</value>
+  </data>
+  <data name="time.hours_ago" xml:space="preserve">
+    <value>{0} nakaraang oras|{0} mga nakaraang oras</value>
+  </data>
+  <data name="time.now" xml:space="preserve">
+    <value>ngayon</value>
+  </data>
+  <data name="time.remaining" xml:space="preserve">
+    <value>Natitirang Oras</value>
+  </data>
+  <data name="title.notice" xml:space="preserve">
+    <value>Abiso</value>
+  </data>
+  <data name="wrong_user._" xml:space="preserve">
+    <value>Ikaw ay lumagda bilang {0}. {1}.</value>
+  </data>
+  <data name="wrong_user.logout_link" xml:space="preserve">
+    <value>Pindutin mo ito upang mag-sign in bilang ibang user</value>
+  </data>
+</root>

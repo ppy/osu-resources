@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleted" xml:space="preserve">
+    <value>[ištrintas vartotojas]</value>
+  </data>
+  <data name="beatmapset_activities.title" xml:space="preserve">
+    <value>{0} Taisymų istorija</value>
+  </data>
+  <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
+    <value>Neseniai pradėtos diskusijos</value>
+  </data>
+  <data name="beatmapset_activities.events.title_recent" xml:space="preserve">
+    <value>Paskutiniai įvykiai</value>
+  </data>
+  <data name="beatmapset_activities.posts.title_recent" xml:space="preserve">
+    <value>Naujausios žinutės</value>
+  </data>
+  <data name="beatmapset_activities.votes_received.title_most" xml:space="preserve">
+    <value>Daugiausiai sulaukę teigiamų balsų per (paskutinius 3 mėnesius)</value>
+  </data>
+  <data name="beatmapset_activities.votes_made.title_most" xml:space="preserve">
+    <value>Daugiausiai sulaukę teigiamų balsų (paskutinius 3 mėnesius)</value>
+  </data>
+  <data name="blocks.banner_text" xml:space="preserve">
+    <value>Jūs užblokavote šį vartotoją.</value>
+  </data>
+  <data name="blocks.blocked_count" xml:space="preserve">
+    <value>blokuoti vartotojai ({0})</value>
+  </data>
+  <data name="blocks.hide_profile" xml:space="preserve">
+    <value>slėpti profilį</value>
+  </data>
+  <data name="blocks.not_blocked" xml:space="preserve">
+    <value>Šis vartotojas nėra užblokuotas.</value>
+  </data>
+  <data name="blocks.show_profile" xml:space="preserve">
+    <value>rodyti profilį</value>
+  </data>
+  <data name="blocks.too_many" xml:space="preserve">
+    <value>Pasiektas blokavimų limitas.</value>
+  </data>
+  <data name="blocks.button.block" xml:space="preserve">
+    <value>užblokuoti</value>
+  </data>
+  <data name="blocks.button.unblock" xml:space="preserve">
+    <value>atblokuoti</value>
+  </data>
+  <data name="card.loading" xml:space="preserve">
+    <value>Įkeliama...</value>
+  </data>
+  <data name="card.send_message" xml:space="preserve">
+    <value>siųsti žinutę</value>
+  </data>
+  <data name="disabled.if_mistake.email" xml:space="preserve">
+    <value>el. paštas</value>
+  </data>
+  <data name="login._" xml:space="preserve">
+    <value>Prisijungti</value>
+  </data>
+  <data name="login.button" xml:space="preserve">
+    <value>Prisijungti</value>
+  </data>
+  <data name="login.button_posting" xml:space="preserve">
+    <value>Prijungiama...</value>
+  </data>
+  <data name="login.failed" xml:space="preserve">
+    <value>Neteisingi prisijungimo duomenys</value>
+  </data>
+  <data name="login.forgot" xml:space="preserve">
+    <value>Pamiršai slaptažodį?</value>
+  </data>
+  <data name="login.locked_ip" xml:space="preserve">
+    <value>tavo IP adresas yra užblokuotas. Palauk porą minučių.</value>
+  </data>
+  <data name="login.password" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="login.register" xml:space="preserve">
+    <value>Neturi osu! profilio? Susikurk</value>
+  </data>
+  <data name="login.remember" xml:space="preserve">
+    <value>Prisiminti mane šiame kompiuteryje</value>
+  </data>
+  <data name="login.title" xml:space="preserve">
+    <value>Norint tęsti reikia prisijungti</value>
+  </data>
+  <data name="login.username" xml:space="preserve">
+    <value>Vartotojo vardas</value>
+  </data>
+  <data name="login.beta.main" xml:space="preserve">
+    <value>Šiuo metu beta prieiga galima tik išskirtiniams vartotojams.</value>
+  </data>
+  <data name="posts.title" xml:space="preserve">
+    <value>{0} žinutės</value>
+  </data>
+  <data name="anonymous.login_link" xml:space="preserve">
+    <value>paspauskite, jei norite prisijungti</value>
+  </data>
+  <data name="anonymous.login_text" xml:space="preserve">
+    <value>prisijungti</value>
+  </data>
+  <data name="anonymous.username" xml:space="preserve">
+    <value>Svečias</value>
+  </data>
+  <data name="anonymous.error" xml:space="preserve">
+    <value>Turite būti prisijungęs norint tai padaryti.</value>
+  </data>
+  <data name="logout_confirm" xml:space="preserve">
+    <value>Ar tikrai nori atsijungti? :(</value>
+  </data>
+  <data name="restricted_banner.title" xml:space="preserve">
+    <value>Tavo vartotojo prieiga buvo apribota!</value>
+  </data>
+  <data name="show.age" xml:space="preserve">
+    <value>{0} metų</value>
+  </data>
+  <data name="show.change_avatar" xml:space="preserve">
+    <value>pakeisti savo avatarą!</value>
+  </data>
+  <data name="show.first_members" xml:space="preserve">
+    <value>Čia nuo pat pradžių</value>
+  </data>
+  <data name="show.is_developer" xml:space="preserve">
+    <value>osu!programuotojas</value>
+  </data>
+  <data name="show.is_supporter" xml:space="preserve">
+    <value>osu!rėmėjas</value>
+  </data>
+  <data name="show.joined_at" xml:space="preserve">
+    <value>Prisijungė {0}</value>
+  </data>
+  <data name="show.lastvisit" xml:space="preserve">
+    <value>Paskutinį kart matytas {0}</value>
+  </data>
+  <data name="show.missingtext" xml:space="preserve">
+    <value>Turbūt padarei klaidą! (arba vartotojas buvo užblokuotas)</value>
+  </data>
+  <data name="show.origin_country" xml:space="preserve">
+    <value>Iš {0}</value>
+  </data>
+  <data name="show.previous_usernames" xml:space="preserve">
+    <value>dar žinomas kaip</value>
+  </data>
+  <data name="show.plays_with" xml:space="preserve">
+    <value>Žaidžia su {0}</value>
+  </data>
+  <data name="show.title" xml:space="preserve">
+    <value>{0} profilis</value>
+  </data>
+  <data name="show.edit.cover.button" xml:space="preserve">
+    <value>Keisti profilio viršelį</value>
+  </data>
+  <data name="show.edit.cover.defaults_info" xml:space="preserve">
+    <value>Daugiau viršelio pasirinkimų pridėsime ateityje</value>
+  </data>
+  <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
+    <value>Nepavyko apdoroti paveiksliuko. Patikrink įkeltą paveiksliuką ir mėgink dar kart.</value>
+  </data>
+  <data name="show.edit.cover.upload.button" xml:space="preserve">
+    <value>Įkelti paveiksliuką</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
+    <value>Tam, kad įkelti, mesk čia</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
+    <value>Taip pat gali mesti čia, kad įkelti, paveiksliuką</value>
+  </data>
+  <data name="show.edit.cover.upload.size_info" xml:space="preserve">
+    <value>Viršelio dydis turėtų būti 2400x620</value>
+  </data>
+  <data name="show.edit.cover.upload.too_large" xml:space="preserve">
+    <value>Įkeltas failas per didelis.</value>
+  </data>
+  <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
+    <value>Formatas nepalaikomas.</value>
+  </data>
+  <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
+    <value>pagrindinis žaidimo rėžimas</value>
+  </data>
+  <data name="show.edit.default_playmode.set" xml:space="preserve">
+    <value>nustatyti {0} kaip pagrindiniu profilio žaidimo rėžimu</value>
+  </data>
+  <data name="show.extra.unranked" xml:space="preserve">
+    <value>Rezultatų nėra</value>
+  </data>
+  <data name="show.extra.achievements.achieved-on" xml:space="preserve">
+    <value>Pasiekta {0}</value>
+  </data>
+  <data name="show.extra.achievements.title" xml:space="preserve">
+    <value>Pasiekimai</value>
+  </data>
+  <data name="show.extra.beatmaps.title" xml:space="preserve">
+    <value>Beatmapai</value>
+  </data>
+  <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
+    <value>Mėgstami Beatmapai</value>
+  </data>
+  <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
+    <value>Išmesti Beatmapai</value>
+  </data>
+  <data name="show.extra.historical.title" xml:space="preserve">
+    <value>Istorija</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.title" xml:space="preserve">
+    <value>Žaidimų Istorija</value>
+  </data>
+  <data name="show.extra.historical.most_played.count" xml:space="preserve">
+    <value>žaista kartų</value>
+  </data>
+  <data name="show.extra.historical.most_played.title" xml:space="preserve">
+    <value>Daugiausiai žaisti Beatmapai</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
+    <value>tikslumas: {0}</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
+    <value>Nesenai žaisti (24h)</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
+    <value>Įrašų Peržiūros Istorija</value>
+  </data>
+  <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
+    <value>Paskutinių Kudosu Istorija</value>
+  </data>
+  <data name="show.extra.kudosu.title" xml:space="preserve">
+    <value>Kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.total" xml:space="preserve">
+    <value>Viso uždirbtų Kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
+    <value>{0} kudosu</value>
+  </data>
+  <data name="show.extra.medals.title" xml:space="preserve">
+    <value>Medaliai</value>
+  </data>
+  <data name="show.extra.recent_activity.title" xml:space="preserve">
+    <value>Paskutinės</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>Tik pripažinti beatmapai duoda pp.</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>Reitingas</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>Geriausi rezultatai</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>Pirmos vietos</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>Paskyros padėtis</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; paskyra nėra geroje padėtyje :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; vėl galės kalbėti už {1}.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>Paskutiniai pažeidimai</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>veiksmai</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
+    <value>trukmė</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
+    <value>Visam laikui</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>aprašymas</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
+    <value>nuo {0}</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
+    <value>Užtildytas</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
+    <value>Pastabos</value>
+  </data>
+  <data name="show.info.interests" xml:space="preserve">
+    <value>Pomėgiai</value>
+  </data>
+  <data name="show.info.location" xml:space="preserve">
+    <value>Dabartinė vieta</value>
+  </data>
+  <data name="show.info.occupation" xml:space="preserve">
+    <value>Profesija</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>Tinklalapis</value>
+  </data>
+  <data name="show.not_found.reason_1" xml:space="preserve">
+    <value>Vartotojas greičiausiai pasikeitė savo vartotojo vardą.</value>
+  </data>
+  <data name="show.not_found.reason_2" xml:space="preserve">
+    <value>Vartotojas gali būti laikinai nepasiekiamas dėl saugumo arba piktnaudžiavimo.</value>
+  </data>
+  <data name="show.not_found.reason_3" xml:space="preserve">
+    <value>Gali būti kad padarei klaidą!</value>
+  </data>
+  <data name="show.not_found.reason_header" xml:space="preserve">
+    <value>Tam yra keletas galimų priežasčių:</value>
+  </data>
+  <data name="show.not_found.title" xml:space="preserve">
+    <value>Vartotojas nerastas! ;_;</value>
+  </data>
+</root>

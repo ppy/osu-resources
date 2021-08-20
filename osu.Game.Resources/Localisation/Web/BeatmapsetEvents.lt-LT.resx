@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>Patvirtintas.</value>
+  </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Savininkas šio sudėtingumo {0} buvo pakeistas į {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Žanras pakeistas iš {0} į {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>{0} patiko</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>{0} nominavo.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Šis „Beatmap“ pasisakė reikiamą skaičių nominacijų ir buvo priimtas.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>Patvirtintas.</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>Laikotarpis</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Tipai</value>
+  </data>
+  <data name="item.content" xml:space="preserve">
+    <value>Turinys</value>
+  </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[deleted]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>Patvirtintas</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>Diskusijos ištrinimas</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Pakeisit žanra</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>„Kudosu“ neigimas</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>„Kudosu“ gavimas</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>„Kudosu“ praradimas</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>„Kudosu“ perskaičiavimas</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Redaguojama kalba</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>Nominacijos</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Nominacijų atstatymas</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>Reitingas</value>
+  </data>
+</root>

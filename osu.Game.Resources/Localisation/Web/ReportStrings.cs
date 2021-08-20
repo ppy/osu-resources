@@ -12,6 +12,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Report"
         /// </summary>
+        public static LocalisableString BeatmapsetButton => new TranslatableString(getKey(@"beatmapset.button"), @"Report");
+
+        /// <summary>
+        /// "Report {0}&#39;s beatmap?"
+        /// </summary>
+        public static LocalisableString BeatmapsetTitle(LocalisableString username) => new TranslatableString(getKey(@"beatmapset.title"), @"Report {0}'s beatmap?", username);
+
+        /// <summary>
+        /// "Report"
+        /// </summary>
         public static LocalisableString BeatmapsetDiscussionPostButton => new TranslatableString(getKey(@"beatmapset_discussion_post.button"), @"Report");
 
         /// <summary>

@@ -535,6 +535,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NominationsLove => new TranslatableString(getKey(@"nominations.love"), @"Love");
 
         /// <summary>
+        /// "Choose difficulty for loved"
+        /// </summary>
+        public static LocalisableString NominationsLoveChoose => new TranslatableString(getKey(@"nominations.love_choose"), @"Choose difficulty for loved");
+
+        /// <summary>
         /// "Love this beatmap?"
         /// </summary>
         public static LocalisableString NominationsLoveConfirm => new TranslatableString(getKey(@"nominations.love_confirm"), @"Love this beatmap?");

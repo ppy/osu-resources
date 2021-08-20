@@ -215,6 +215,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ButtonsShowMoreOptions => new TranslatableString(getKey(@"buttons.show_more_options"), @"show more options");
 
         /// <summary>
+        /// "Submit"
+        /// </summary>
+        public static LocalisableString ButtonsSubmit => new TranslatableString(getKey(@"buttons.submit"), @"Submit");
+
+        /// <summary>
         /// "unpin"
         /// </summary>
         public static LocalisableString ButtonsUnpin => new TranslatableString(getKey(@"buttons.unpin"), @"unpin");

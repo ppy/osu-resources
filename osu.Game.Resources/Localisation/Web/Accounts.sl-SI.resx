@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit.title_compact" xml:space="preserve">
+    <value>nastavitve</value>
+  </data>
+  <data name="edit.username" xml:space="preserve">
+    <value>uporabniško ime</value>
+  </data>
+  <data name="edit.avatar.title" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="edit.email.current" xml:space="preserve">
+    <value>trenutna e-pošta</value>
+  </data>
+  <data name="edit.email.new" xml:space="preserve">
+    <value>nova e-pošta</value>
+  </data>
+  <data name="edit.email.new_confirmation" xml:space="preserve">
+    <value>potrditev e-pošte</value>
+  </data>
+  <data name="edit.email.title" xml:space="preserve">
+    <value>E-pošta</value>
+  </data>
+  <data name="edit.password.current" xml:space="preserve">
+    <value>trenutno geslo</value>
+  </data>
+  <data name="edit.password.new" xml:space="preserve">
+    <value>novo geslo</value>
+  </data>
+  <data name="edit.password.new_confirmation" xml:space="preserve">
+    <value>potrditev gesla</value>
+  </data>
+  <data name="edit.password.title" xml:space="preserve">
+    <value>Geslo</value>
+  </data>
+  <data name="edit.profile.title" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="edit.profile.user.user_from" xml:space="preserve">
+    <value>trenutna lokacija</value>
+  </data>
+  <data name="edit.profile.user.user_interests" xml:space="preserve">
+    <value>hobiji</value>
+  </data>
+  <data name="edit.profile.user.user_occ" xml:space="preserve">
+    <value>zaposlitev</value>
+  </data>
+  <data name="edit.profile.user.user_website" xml:space="preserve">
+    <value>spletna stran</value>
+  </data>
+  <data name="edit.signature.title" xml:space="preserve">
+    <value>Podpis</value>
+  </data>
+  <data name="edit.signature.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+  <data name="playstyles.keyboard" xml:space="preserve">
+    <value>tipkovnica</value>
+  </data>
+  <data name="playstyles.mouse" xml:space="preserve">
+    <value>miška</value>
+  </data>
+  <data name="playstyles.tablet" xml:space="preserve">
+    <value>tablica</value>
+  </data>
+  <data name="playstyles.title" xml:space="preserve">
+    <value>Načini igranja</value>
+  </data>
+  <data name="playstyles.touch" xml:space="preserve">
+    <value>dotik</value>
+  </data>
+  <data name="privacy.friends_only" xml:space="preserve">
+    <value>blokiranje zasebnih sporočil ljudi, ki niso na vašem seznamu prijateljev</value>
+  </data>
+  <data name="privacy.title" xml:space="preserve">
+    <value>Zasebnost</value>
+  </data>
+  <data name="update_email.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+  <data name="update_password.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+</root>

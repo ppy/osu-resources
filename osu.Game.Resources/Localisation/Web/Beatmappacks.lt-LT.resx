@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="index.description" xml:space="preserve">
+    <value>Beatmapų kolekcijos pagal temas.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Beatmapų kolekcijos</value>
+  </data>
+  <data name="index.blurb.important" xml:space="preserve">
+    <value>PERSKAITYK PRIEŠ ATSISIŲSDAMAS</value>
+  </data>
+  <data name="index.blurb.instruction._" xml:space="preserve">
+    <value>Įkėlimas: Kai parsisiųsi, išskleisk parsiųstą .rar failą į savo osu! "Songs" aplankalą.
+                    Visos dainos bus .zip ir/arba .osz archyvuose, ir osu! turės jas išskleisti prieš einant į žaidimo dainų meniu.
+                    {0} pats neišskleidinėk iš .zip/.osz archyvų,
+                    kitaip beatmapai bus atvaizduojami neteisingai ir veiks blogai.</value>
+  </data>
+  <data name="index.blurb.instruction.scary" xml:space="preserve">
+    <value>JOKIU Būdu</value>
+  </data>
+  <data name="index.blurb.note._" xml:space="preserve">
+    <value>Taip pat yra rekomenduojama {0}, nes senesni mapai yra daug blogesnės kokybės lyginant su naujesniais.</value>
+  </data>
+  <data name="index.blurb.note.scary" xml:space="preserve">
+    <value>siųstis nuo naujausiu iki seniausių</value>
+  </data>
+  <data name="show.download" xml:space="preserve">
+    <value>Parsisiuntimai</value>
+  </data>
+  <data name="show.item.cleared" xml:space="preserve">
+    <value>išvalyta</value>
+  </data>
+  <data name="show.item.not_cleared" xml:space="preserve">
+    <value>neišvalyta</value>
+  </data>
+  <data name="mode.artist" xml:space="preserve">
+    <value>Atlikėjas/Albumas</value>
+  </data>
+  <data name="mode.chart" xml:space="preserve">
+    <value>Verti dėmesio</value>
+  </data>
+  <data name="mode.standard" xml:space="preserve">
+    <value>Įprasti</value>
+  </data>
+  <data name="mode.theme" xml:space="preserve">
+    <value>Pagal temas</value>
+  </data>
+  <data name="require_login._" xml:space="preserve">
+    <value>Parsisiuntimui jums reikia {0}</value>
+  </data>
+  <data name="require_login.link_text" xml:space="preserve">
+    <value>prisijungti</value>
+  </data>
+</root>

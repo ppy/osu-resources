@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="support.convinced.title" xml:space="preserve">
+    <value>Es esmu pārliecināts! {0}</value>
+  </data>
+  <data name="support.convinced.support" xml:space="preserve">
+    <value>atbalstīt osu!</value>
+  </data>
+  <data name="support.convinced.gift" xml:space="preserve">
+    <value>vai dāvināt atbalstu citiem spēlētājiem</value>
+  </data>
+  <data name="support.convinced.instructions" xml:space="preserve">
+    <value>noklikšķiniet uz sirds pogas, lai turpinātu ceļu uz osu! veikalu</value>
+  </data>
+  <data name="support.why-support.title" xml:space="preserve">
+    <value>Kāpēc lai es atbalstītu osu!? Kur aiziet mana nauda?</value>
+  </data>
+  <data name="support.why-support.team.title" xml:space="preserve">
+    <value>Atbalstīt Komandu</value>
+  </data>
+  <data name="support.why-support.team.description" xml:space="preserve">
+    <value>Mazā izstrādātāju komanda mums palīdz uzlabot un attīstīt osu! darbību. Tāpēc tieši tavs atbalsts, kā jau tu saproti, sniedz mums iespēju.. dzīvot tālāk.</value>
+  </data>
+  <data name="support.why-support.infra.title" xml:space="preserve">
+    <value>Servera infrastruktūra</value>
+  </data>
+  <data name="support.why-support.infra.description" xml:space="preserve">
+    <value>Iekrātie ieguldījumi tālāk dodas uz serveriem, kas atbild par mājaslapas darbību, multiplayer pakalpojumiem, tiešsaistes līdersarakstum, un citur.</value>
+  </data>
+  <data name="support.why-support.featured-artists.title" xml:space="preserve">
+    <value>Dižākie Mākslinieki</value>
+  </data>
+  <data name="support.why-support.featured-artists.description" xml:space="preserve">
+    <value>Ar tavu atbalstu mēs spēsim savākt daudz vairāk lielisku mākslinieku, kā arī licensēt daudz lielisku dziesmu tieši priekš osu!</value>
+  </data>
+  <data name="support.why-support.featured-artists.link_text" xml:space="preserve">
+    <value>Skatīt pašreizējo žurnālklāstu &amp;raquo;</value>
+  </data>
+  <data name="support.why-support.ads.title" xml:space="preserve">
+    <value>Turpini stiprināt osu!</value>
+  </data>
+  <data name="support.why-support.ads.description" xml:space="preserve">
+    <value>Tavi dotie ieguldījumi palīdz mums turpināt kontrolēt spēli kā neatkarīgu, pavisam reklāmu brīvu un pie tam, pasargātu no dažādiem sponsoriem.</value>
+  </data>
+  <data name="support.why-support.tournaments.title" xml:space="preserve">
+    <value>Oficiālie Turnīri</value>
+  </data>
+  <data name="support.perks.title" xml:space="preserve">
+    <value>Ak tā? Ko es saņemu?!</value>
+  </data>
+  <data name="support.perks.osu_direct.title" xml:space="preserve">
+    <value>osu!direct</value>
+  </data>
+  <data name="support.perks.auto_downloads.title" xml:space="preserve">
+    <value>Automātiskās lejupielādes</value>
+  </data>
+  <data name="support.perks.upload_more.title" xml:space="preserve">
+    <value>Augšupielādē vairāk</value>
+  </data>
+  <data name="support.perks.early_access.title" xml:space="preserve">
+    <value>Agra piekļuve</value>
+  </data>
+  <data name="support.perks.speedy_downloads.description" xml:space="preserve">
+    <value>Saudzīgāki lejupielādes ierobežojumi, īpaši, izmantojot osu!direct.</value>
+  </data>
+  <data name="support.perks.change_username.title" xml:space="preserve">
+    <value>Mainīt Lietotājvārdu</value>
+  </data>
+  <data name="support.perks.change_username.description" xml:space="preserve">
+    <value>Spēja mainīt savu lietotājvārdu, bez papildu izmaksām. (maksimums vienreiz)</value>
+  </data>
+  <data name="support.perks.skinnables.title" xml:space="preserve">
+    <value>Pielāgojumi</value>
+  </data>
+  <data name="support.perks.skinnables.description" xml:space="preserve">
+    <value>Papildus spēles pielāgojumi, piemēram, galvenās izvēlnes fons.</value>
+  </data>
+  <data name="support.perks.feature_votes.description" xml:space="preserve">
+    <value>Balsis priekš priekšrocību pieprasījuma. (2 mēnesī)</value>
+  </data>
+  <data name="support.perks.sort_options.title" xml:space="preserve">
+    <value>Kārtošanas iespējas</value>
+  </data>
+  <data name="support.perks.sort_options.description" xml:space="preserve">
+    <value>Iespēja skatīt bītmapes valsti / draugu / konkrēta režīma rankus iekš spēles.</value>
+  </data>
+  <data name="support.supporter_status.contribution" xml:space="preserve">
+    <value>Paldies par atbalstu līdz šim! Pavisam esat ieguldījuši {0} ar {1} pirkumiem!</value>
+  </data>
+  <data name="support.supporter_status.gifted" xml:space="preserve">
+    <value>{0} no jūsu pirkuma bija uzdāvināti (pavisam uzdāvināti {1}), cik dāsni!</value>
+  </data>
+  <data name="support.supporter_status.not_yet" xml:space="preserve">
+    <value>Jums vēl nav atbalstītāja birkas :(</value>
+  </data>
+  <data name="support.supporter_status.valid_until" xml:space="preserve">
+    <value>Jūsu pašreizējā atbalstītāja birka ir derīga līdz{0}!</value>
+  </data>
+  <data name="support.supporter_status.was_valid_until" xml:space="preserve">
+    <value>Jūsu atbalstītāja birka bija derīga līdz{0}.</value>
+  </data>
+</root>

@@ -98,7 +98,7 @@
     <value>Problem {0} markerat som löst.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>Kudosu nekning för diskussion {0} har tagits bort.</value>
+    <value>Kudosu-nekning för diskussion {0} har tagits bort.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
     <value>Diskussionen {0} nekad för kudosu.</value>
@@ -125,7 +125,7 @@
     <value>Nominerad av {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Nytt problem {0} triggade en nomination återställning.</value>
+    <value>Nytt problem {0} ({1}) utlöste en nomineringsåterställning.</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
     <value>Nominering av {0} återställdes av {1} ({2})</value>
@@ -134,7 +134,7 @@
     <value>Nominering återställdes av {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Denna beatmap har uppnått den nödvändiga antalet av nomineringar och har blivit kvalificerad.</value>
+    <value>Denna beatmap har uppnått det nödvändiga antalet nomineringar och har blivit kvalificerad.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Rankad.</value>
@@ -155,7 +155,7 @@
     <value>Period</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Typ</value>
+    <value>Typer</value>
   </data>
   <data name="item.content" xml:space="preserve">
     <value>Innehåll</value>
@@ -173,7 +173,7 @@
     <value> Byte av svårighetsgradsägare</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
-    <value>Borttagning av diskussioner</value>
+    <value>Borttagning av diskussion</value>
   </data>
   <data name="type.discussion_post_delete" xml:space="preserve">
     <value>Borttagning av diskussionssvar</value>
@@ -182,7 +182,7 @@
     <value>Återställning av diskussionssvar</value>
   </data>
   <data name="type.discussion_restore" xml:space="preserve">
-    <value>Återställning av diskussioner</value>
+    <value>Återställning av diskussion</value>
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Diskvalificering</value>
@@ -234,5 +234,8 @@
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Rankning</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Älskad borttagning</value>
   </data>
 </root>

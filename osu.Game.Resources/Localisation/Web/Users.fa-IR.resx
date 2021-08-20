@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleted" xml:space="preserve">
+    <value>"کاربر حذف شده"</value>
+  </data>
+  <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
+    <value>گفت و گو های اخیرا آغاز شده</value>
+  </data>
+  <data name="beatmapset_activities.events.title_recent" xml:space="preserve">
+    <value>رویداد های اخیر</value>
+  </data>
+  <data name="beatmapset_activities.posts.title_recent" xml:space="preserve">
+    <value>نوشته های اخیر</value>
+  </data>
+  <data name="beatmapset_activities.votes_received.title_most" xml:space="preserve">
+    <value>بیشترین رای مثبت توسط (3 ماه اخیر)</value>
+  </data>
+  <data name="beatmapset_activities.votes_made.title_most" xml:space="preserve">
+    <value>بیشترین رای مثبت (3 ماه اخیر)</value>
+  </data>
+  <data name="blocks.banner_text" xml:space="preserve">
+    <value>شما این کاربر را مسدود کرده اید.</value>
+  </data>
+  <data name="blocks.blocked_count" xml:space="preserve">
+    <value>کاربران مسدود شده ({0})</value>
+  </data>
+  <data name="blocks.hide_profile" xml:space="preserve">
+    <value>مخفی کردن پروفایل</value>
+  </data>
+  <data name="blocks.not_blocked" xml:space="preserve">
+    <value>آن کاربر مسدود نشده است.</value>
+  </data>
+  <data name="blocks.show_profile" xml:space="preserve">
+    <value>نمایش نمایه</value>
+  </data>
+  <data name="blocks.too_many" xml:space="preserve">
+    <value>به حد نهایی محدودیت مسدودیت ها رسیدید.</value>
+  </data>
+  <data name="blocks.button.block" xml:space="preserve">
+    <value>مسدود کردن</value>
+  </data>
+  <data name="blocks.button.unblock" xml:space="preserve">
+    <value>لغو مسدود کردن</value>
+  </data>
+  <data name="card.loading" xml:space="preserve">
+    <value>در حال بارگیری...</value>
+  </data>
+  <data name="card.send_message" xml:space="preserve">
+    <value>ارسال پیام</value>
+  </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>اوه اوه! به نظر میرسد حساب کاربری شما غیرفعال شده است.</value>
+  </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>در صورتی که یک قانون را زیر پا گذاشته اید، توجه داشته باشید که معمولا یک دوره یکماهه وجود دارد که در آن مدت ما هیچ درخواست بخششی را قبول نمی کنیم. بعد این دوره شما میتوانید در صورت ضرورت با ما تماس بگیرید. توجه داشته باشید که ساخت حساب جدید بعد غیرفعال شدن یکی، &lt;strong&gt; میتواند منجر به اضافه شدن یک ماه دیگر به این دوره شود&lt;/strong&gt; همچنین توجه داشته باشید &lt;strong&gt;برای هر حساب جدیدی که می سازید، دارید بیشتر قوانین را زیر پا می گذارید&lt;/strong&gt;. به شدت پیشنهاد میکنیم که این راه را پیش نروید!</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>اگر حس میکنید این یک اشتباه است، میتوانید با ما تماس بگیرید (از طریق {0} یا کلیک بر روی "؟" در پایین سمت راست گوشه این صفحه).لطفا توجه داشته باشید که ما همیشه از واکنش هایمان مطمئن هستیم، زیرا آنها بر اساس داده های محکم هستند. ما این حق را برای خود محفوظ داریم که احساس کنیم شما عمداً غیر صادق هستید.</value>
+  </data>
+  <data name="disabled.if_mistake.email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>حساب کاربری شما در معرض خطر در نظر گرفته شده است. شاید موقتا غیرفعال شود تا هویت شما تایید شود.</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>علل متعددی می تواند برای غیرفعال شدن حساب شما وجود داشته باشد:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>شما یک یا چند مورد از {0} ما یا {1} ما را زیر پا گذاشته اید.</value>
+  </data>
+  <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
+    <value>قوانین جمعی</value>
+  </data>
+  <data name="disabled.reasons.tos.tos" xml:space="preserve">
+    <value>شرایط خدمات</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>حساب کاربری شما مدت هاست استفاده نشده است.</value>
+  </data>
+  <data name="login._" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="login.button" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="login.button_posting" xml:space="preserve">
+    <value>در حال ورود...</value>
+  </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>ورود با ایمیل هم اکنون غیر فعال است. لطفا بجای آن از نام کاربری استفاده کنید.</value>
+  </data>
+  <data name="login.failed" xml:space="preserve">
+    <value>اطلاعات اشتباه</value>
+  </data>
+  <data name="login.forgot" xml:space="preserve">
+    <value>رمز خود را فراموش کرده اید؟</value>
+  </data>
+  <data name="login.info" xml:space="preserve">
+    <value>لطفا برای ادامه وارد شوید</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>خیلی برای ورود تلاش کردید. لطفا کپچا را کامل کنید و دوباره تلاش کنید (در صورتی که کپچا قابل مشاهده نیست صفحه را مجدد بارگذاری کنید)</value>
+  </data>
+  <data name="login.locked_ip" xml:space="preserve">
+    <value>آدرس آی پی شما مسدود شده است. لطفا چند دقیقه منتظر بمانید.</value>
+  </data>
+  <data name="login.password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="login.register" xml:space="preserve">
+    <value>حساب osu! ندارید؟ یکی بسازید</value>
+  </data>
+  <data name="login.remember" xml:space="preserve">
+    <value>این کامپیوتر را به خاطر بسپار</value>
+  </data>
+  <data name="login.title" xml:space="preserve">
+    <value>لطفا برای ادامه وارد شوید</value>
+  </data>
+  <data name="login.username" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="login.beta.main" xml:space="preserve">
+    <value>دسترسی بتا در حال حاضر به کاربران خاص محدود شده است.</value>
+  </data>
+  <data name="login.beta.small" xml:space="preserve">
+    <value>(حمایت کننده های osu! به زودی وارد خواهند شد)</value>
+  </data>
+  <data name="posts.title" xml:space="preserve">
+    <value>پست های {0}</value>
+  </data>
+  <data name="anonymous.login_link" xml:space="preserve">
+    <value>برای ورود کلیک کنید</value>
+  </data>
+  <data name="anonymous.login_text" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="anonymous.username" xml:space="preserve">
+    <value>مهمان</value>
+  </data>
+  <data name="anonymous.error" xml:space="preserve">
+    <value>برای این کار لازم است وارد شده باشید.</value>
+  </data>
+  <data name="logout_confirm" xml:space="preserve">
+    <value>آیا اطمینان دارید که می‌خواهید خارج شوید؟ :(</value>
+  </data>
+  <data name="report.button_text" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="report.comments" xml:space="preserve">
+    <value>توضیحات بیشتر</value>
+  </data>
+  <data name="report.placeholder" xml:space="preserve">
+    <value>لطفا هر اطلاعاتی که فکر میکنید به درد میخورد را ارائه دهید.</value>
+  </data>
+  <data name="report.reason" xml:space="preserve">
+    <value>علت</value>
+  </data>
+  <data name="report.thanks" xml:space="preserve">
+    <value>از گزارش شما سپاسگزاریم!</value>
+  </data>
+  <data name="report.title" xml:space="preserve">
+    <value>گزارش {0}؟</value>
+  </data>
+  <data name="report.actions.send" xml:space="preserve">
+    <value>ارسال گزارش</value>
+  </data>
+  <data name="report.actions.cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="report.options.cheating" xml:space="preserve">
+    <value>تقلب</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>استفاده از چند حساب کاربری</value>
+  </data>
+  <data name="report.options.insults" xml:space="preserve">
+    <value>توهین به من یا دیگران</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>اسپم کردن (هرز نویسی)</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>لینک کردن به محتوای نامناسب</value>
+  </data>
+  <data name="report.options.nonsense" xml:space="preserve">
+    <value>خارج از منطق</value>
+  </data>
+  <data name="report.options.other" xml:space="preserve">
+    <value>موارد دیگر (پایین بنویسید)</value>
+  </data>
+  <data name="restricted_banner.title" xml:space="preserve">
+    <value>حساب شما محدود شده است!</value>
+  </data>
+  <data name="restricted_banner.message" xml:space="preserve">
+    <value>هنگامی که حساب شما محدود شده است، نمیتوانید با بازیکنان دیگر تعامل داشته باشید و امتیاز های شما فقط برای خودتان قابل مشاهده خواهد بود. این معمولا حاصل یک فرایند خودکار است و معمولا در عرض کمتر از 24 ساعت برداشته میشود. اگر درخواست تجدید نظر در محدودیت حسابتان دارید، &lt;a href="mailto{0}@ppy.sh"&gt; با پشتیبانی تماس بگیرید &lt;/a&gt;.</value>
+  </data>
+  <data name="show.change_avatar" xml:space="preserve">
+    <value>آواتار خود را عوض کنید!</value>
+  </data>
+  <data name="show.first_members" xml:space="preserve">
+    <value>از آغاز اینحاست</value>
+  </data>
+  <data name="show.is_developer" xml:space="preserve">
+    <value>توسعه دهنده osu!</value>
+  </data>
+  <data name="show.is_supporter" xml:space="preserve">
+    <value>حامی osu!</value>
+  </data>
+  <data name="show.joined_at" xml:space="preserve">
+    <value>پیوسته در {0}</value>
+  </data>
+  <data name="show.lastvisit" xml:space="preserve">
+    <value>آخرین بازدید {0}</value>
+  </data>
+  <data name="show.lastvisit_online" xml:space="preserve">
+    <value>هم اکنون آنلاین</value>
+  </data>
+  <data name="show.missingtext" xml:space="preserve">
+    <value>شما ممکن است یک اشتباه تایپی داشته باشید! (یا کاربر ممکن است مسدود شده باشد)</value>
+  </data>
+  <data name="show.origin_country" xml:space="preserve">
+    <value>از {0}</value>
+  </data>
+  <data name="show.previous_usernames" xml:space="preserve">
+    <value>شناخته شده به</value>
+  </data>
+  <data name="show.plays_with" xml:space="preserve">
+    <value>با {0} بازی می کند</value>
+  </data>
+  <data name="show.title" xml:space="preserve">
+    <value>نمایه ی {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>پست کرده {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} نظر|{0} نظرات</value>
+  </data>
+  <data name="show.edit.cover.button" xml:space="preserve">
+    <value>تغییر عکس نمایه</value>
+  </data>
+  <data name="show.edit.cover.defaults_info" xml:space="preserve">
+    <value>تنظیمات عکس بیشتری در آینده در دسترس خواهند بود</value>
+  </data>
+  <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
+    <value>پردازش عکس ناموفق. عکس بارگذاری شده را بررسی کنید و مجدد امتحان کنید.</value>
+  </data>
+  <data name="show.edit.cover.upload.button" xml:space="preserve">
+    <value>بارگذاری تصویر</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
+    <value>برای بارگذاری، پرونده‌ها را به اینجا بکشید</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
+    <value>شما همچنین می توانید عکستان را برای بارگذاری به اینجا بکشید</value>
+  </data>
+  <data name="show.edit.cover.upload.size_info" xml:space="preserve">
+    <value>عکس کاور باید در ابعاد 2400x640 باشد</value>
+  </data>
+  <data name="show.edit.cover.upload.too_large" xml:space="preserve">
+    <value>حجم عکس بارگذاری شده خیلی بزرگ است.</value>
+  </data>
+  <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
+    <value>فرمت پشتیبانی نشده.</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>بارگذاری فقط برای {0} در دسترس است</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>حامیان osu!</value>
+  </data>
+  <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
+    <value>حالت بازی پیشفرض</value>
+  </data>
+  <data name="show.edit.default_playmode.set" xml:space="preserve">
+    <value>تعیین {0} بعنوان حالت عادی بازی در پروفایل</value>
+  </data>
+  <data name="show.extra.none" xml:space="preserve">
+    <value>هیچ کدام</value>
+  </data>
+  <data name="show.extra.unranked" xml:space="preserve">
+    <value>بازی اخیری وجود ندارد</value>
+  </data>
+  <data name="show.extra.achievements.achieved-on" xml:space="preserve">
+    <value>کسب شده در {0}</value>
+  </data>
+  <data name="show.extra.achievements.locked" xml:space="preserve">
+    <value>قفل شده</value>
+  </data>
+  <data name="show.extra.achievements.title" xml:space="preserve">
+    <value>دستاوردها</value>
+  </data>
+  <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
+    <value>بر اساس {0}</value>
+  </data>
+  <data name="show.extra.beatmaps.title" xml:space="preserve">
+    <value>بیتمپ ها</value>
+  </data>
+  <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
+    <value>بیت مپ های مورد علاقه</value>
+  </data>
+  <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
+    <value>بیت مپ های فراموش شده</value>
+  </data>
+  <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
+    <value>بیتمپ های محبوب</value>
+  </data>
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
+    <value>بیتمپ های در انتظار</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>بیتمپ های رتبه بندی شده</value>
+  </data>
+  <data name="show.extra.discussions.title" xml:space="preserve">
+    <value>گفت و گو ها</value>
+  </data>
+  <data name="show.extra.discussions.title_longer" xml:space="preserve">
+    <value>گفت و گو های اخیر</value>
+  </data>
+  <data name="show.extra.discussions.show_more" xml:space="preserve">
+    <value>دیدن گفت و گو های بیشتر</value>
+  </data>
+  <data name="show.extra.events.title" xml:space="preserve">
+    <value>رویدادها</value>
+  </data>
+  <data name="show.extra.events.title_longer" xml:space="preserve">
+    <value>رویداد های اخیر</value>
+  </data>
+  <data name="show.extra.events.show_more" xml:space="preserve">
+    <value>دیدن رویداد های بیشتر</value>
+  </data>
+  <data name="show.extra.historical.title" xml:space="preserve">
+    <value>تاریخچه</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.title" xml:space="preserve">
+    <value>سابقه بازی کردن</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
+    <value>بازی کردن ها</value>
+  </data>
+  <data name="show.extra.historical.most_played.count" xml:space="preserve">
+    <value>بار بازی شده</value>
+  </data>
+  <data name="show.extra.historical.most_played.title" xml:space="preserve">
+    <value>بیشترین بازی بیتمپ ها</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
+    <value>دقت : {0}</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
+    <value>بازی های اخیر (24 ساعت)</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
+    <value>سابقه تماشای بازپخش ها</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
+    <value>بازپخش های تماشا شده</value>
+  </data>
+  <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
+    <value>تاریخچه kudosu اخیر</value>
+  </data>
+  <data name="show.extra.kudosu.title" xml:space="preserve">
+    <value>Kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.total" xml:space="preserve">
+    <value>Kudosu های کسب شده</value>
+  </data>
+  <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
+    <value>{0} kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
+    <value>این کاربر هیچ kudosu ای دریافت نکرده است!</value>
+  </data>
+  <data name="show.extra.me.title" xml:space="preserve">
+    <value>درباره من!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>این کاربر هنوز چیزی نگرفته است. ;_;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>آخرین</value>
+  </data>
+  <data name="show.extra.medals.title" xml:space="preserve">
+    <value>مدال ها</value>
+  </data>
+  <data name="show.extra.multiplayer.title" xml:space="preserve">
+    <value>بازی های چندنفره</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>پست ها</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>پست های اخیر</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>دیدن پست های بیشتر</value>
+  </data>
+  <data name="show.extra.recent_activity.title" xml:space="preserve">
+    <value>اخیر</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>دانلود بازپخش</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>فقط به بیتمپ های رتبه بندی شده pp تعلق میگیرد</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>{0} وزن شده</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>نمایش جزئیات</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>رتبه ها</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>بهترین اجرا ها</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>مقام های اول</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>رای داده (3 ماه اخیر)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>رای دریافت کرده (3 ماه اخیر)</value>
+  </data>
+  <data name="show.extra.votes.title" xml:space="preserve">
+    <value>رأی ها</value>
+  </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>رای های اخیر</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>حساب کاربری &lt;strong&gt;{0}&lt;/strong&gt; وضعیت خوبی نداره :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; میتونه دوباره در {1} حرف بزنه.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
+    <value>مسدود</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
+    <value>ساکت کردن</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
+    <value>یادداشت</value>
+  </data>
+  <data name="show.info.interests" xml:space="preserve">
+    <value>علاقمندی ها</value>
+  </data>
+  <data name="show.info.location" xml:space="preserve">
+    <value>مکان فعلی</value>
+  </data>
+  <data name="show.info.occupation" xml:space="preserve">
+    <value>شغل</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>وبسایت</value>
+  </data>
+  <data name="show.not_found.reason_1" xml:space="preserve">
+    <value>ممکن است نام کابری خود را عوض کرده باشد.</value>
+  </data>
+  <data name="show.not_found.reason_2" xml:space="preserve">
+    <value>حساب ممکن است موقتا بخاطر مشکلات امنیتی یا سو استفاده غیرقابل دسترس باشد.</value>
+  </data>
+  <data name="show.not_found.reason_3" xml:space="preserve">
+    <value>شاید یک اشتباه تایپی داشته باشید!</value>
+  </data>
+  <data name="show.not_found.reason_header" xml:space="preserve">
+    <value>چند علت احتمالی برای این وجود دارد:</value>
+  </data>
+  <data name="show.not_found.title" xml:space="preserve">
+    <value>کاربر یافت نشد! ;_;</value>
+  </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>ویرایش صفحه نمایه</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>&lt;strong&gt;درباره من!&lt;/strong&gt; یک بخش قابل شخصی سازی در صفحه نمایه شماست.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>ویرایش درباره من!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>محتوای صفحه را اینجا تایپ کنید</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>شما به یک {0} برای باز کردن این قابلیت نیاز دارید.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>حامی osu!</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>مشارکت کرده {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} پست فروم|{0} پست های فروم</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>رتبه کشوری برای {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>رتبه کشوری</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>رتبه جهانی برای {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>رتبه جهانی</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>دقت ضربات</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>سطح {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>پیشروی تا سطح بعدی</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>بیشترین کمبو</value>
+  </data>
+  <data name="show.stats.medals" xml:space="preserve">
+    <value>مدال ها</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>تعداد بازی کردن ها</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>مجموع زمان بازی ها</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>امتیاز رتبه بندی شده</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>بازپخش های تماشا شده توسط بقیه</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>مجموع ضربه ها</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>مجموع امتیاز ها</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>بیت مپ های فراموش شده</value>
+  </data>
+  <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
+    <value>بیتمپ های محبوب</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>بیتمپ های در انتظار</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>بیتمپ های رتبه بندی شده</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>شما در حال حاضر ساکت شده هستید.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>بعضی از عملیات ها ممکن است در دسترس نباشد.</value>
+  </data>
+  <data name="status.all" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>آنلاین</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>آفلاین</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>کاربر ایجاد شده</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>تایید حساب</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>نمایش آجری</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>نمایش کارتی</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>نمایش لیستی</value>
+  </data>
+</root>

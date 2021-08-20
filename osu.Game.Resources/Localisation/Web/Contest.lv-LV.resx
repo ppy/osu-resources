@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header.small" xml:space="preserve">
+    <value>Sacentieties vairāk veidos, nekā tikai apļu kliskšķināšanā!</value>
+  </data>
+  <data name="voting.login_required" xml:space="preserve">
+    <value>Lūdzu pierakstieties lai balsotu.</value>
+  </data>
+  <data name="voting.over" xml:space="preserve">
+    <value>Balsošana par šo konkursu ir beigusies</value>
+  </data>
+  <data name="entry._" xml:space="preserve">
+    <value>ieraksts</value>
+  </data>
+  <data name="entry.login_required" xml:space="preserve">
+    <value>Lūdzu, pierakstieties, lai pieteiktos konkursam.</value>
+  </data>
+  <data name="entry.silenced_or_restricted" xml:space="preserve">
+    <value>Jūs nevarat pieteikties konkursiem, kamēr esat ierobežots vai apklusināts.</value>
+  </data>
+  <data name="entry.preparation" xml:space="preserve">
+    <value>Mēs pašlaik gatavojam šo konkursu. Lūdzu, gaidiet pacietīgi!</value>
+  </data>
+  <data name="entry.drop_here" xml:space="preserve">
+    <value>Ielieciet jūsu ierakstu šeit</value>
+  </data>
+  <data name="entry.wrong_type.art" xml:space="preserve">
+    <value>Šajā konkursā tiek pieņem tikai jpg, un. png failus.</value>
+  </data>
+  <data name="entry.wrong_type.beatmap" xml:space="preserve">
+    <value>Šajā konkursā tiek pieņem tikai .osu failus.</value>
+  </data>
+  <data name="entry.wrong_type.music" xml:space="preserve">
+    <value>Šajā konkursā tiek pieņem tikai .mp3 failus.</value>
+  </data>
+  <data name="beatmaps.download" xml:space="preserve">
+    <value>Lejupielādēt, ierakstu</value>
+  </data>
+  <data name="vote.list" xml:space="preserve">
+    <value>balsis</value>
+  </data>
+  <data name="dates.ended" xml:space="preserve">
+    <value>Beidzās {0}</value>
+  </data>
+  <data name="dates.starts._" xml:space="preserve">
+    <value>Sākas {0}</value>
+  </data>
+  <data name="dates.starts.soon" xml:space="preserve">
+    <value>drīz™</value>
+  </data>
+  <data name="states.voting" xml:space="preserve">
+    <value>Balsošana sākās</value>
+  </data>
+  <data name="states.results" xml:space="preserve">
+    <value>Rezultāti ir izlikti</value>
+  </data>
+</root>

@@ -98,7 +98,7 @@
     <value>nyheter</value>
   </data>
   <data name="filters.build" xml:space="preserve">
-    <value>build</value>
+    <value>builds</value>
   </data>
   <data name="filters.channel" xml:space="preserve">
     <value>chatt</value>
@@ -122,7 +122,7 @@
     <value>Diskussion om "{0}" har låsts</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
-    <value>Diskussionen var låst</value>
+    <value>Diskussionen låstes</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
     <value>Nytt inlägg på "{0}" av {1}: "{2}"</value>
@@ -146,10 +146,10 @@
     <value>Diskussion om "{0}" har låsts upp</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
-    <value>Diskussionen var upplåst</value>
+    <value>Diskussionen låstes upp</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>Kvalificerade Beatmap problem</value>
+    <value>Kvalificerad beatmap-problem</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Rapporterat av {0} på "{1}": "{2}"</value>
@@ -158,13 +158,13 @@
     <value>Rapporterat av {0} på "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
-    <value>Rapporterat av {0} på "{1}"</value>
+    <value>Rapporterat av {0}: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
     <value>Rapporterad av {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
-    <value>Beatmap status ändrad</value>
+    <value>Beatmapstatus ändrad</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>"{0}" har diskvalificerats</value>
@@ -185,10 +185,10 @@
     <value>Beatmap nominerades</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" har fått tillräckligt många nomineringar och angett rankingkön</value>
+    <value>"{0}" har fått tillräckligt många nomineringar och gått in i rankingkön</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>Beatmap har angett rankingkö</value>
+    <value>Beatmap har gått in i rankningskön</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" har rankats</value>
@@ -311,10 +311,10 @@
     <value>Ny medalj</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
-    <value>Upplåst "{0}"!</value>
+    <value>Låste upp "{0}"!</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
-    <value>Upplåst "{0}"!</value>
+    <value>Låste upp "{0}"!</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medaljer upplåsta!</value>
@@ -342,6 +342,9 @@
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" har blivit nominerad</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" har fått tillräckligt många nomineringar och har gått in i rankingkön</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" har blivit rankad</value>

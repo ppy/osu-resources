@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="subforums" xml:space="preserve">
+    <value>Subforumai</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Forumas</value>
+  </data>
+  <data name="covers.create._" xml:space="preserve">
+    <value>Išrinkti viršelio paveikslėlį</value>
+  </data>
+  <data name="covers.create.button" xml:space="preserve">
+    <value>Įkelti paveiksliuką</value>
+  </data>
+  <data name="covers.destroy._" xml:space="preserve">
+    <value>Ištrink viršelio paveikslėlį</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Paskutinieji pranešimai</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Forumo pradžia</value>
+  </data>
+  <data name="forums.topics.empty" xml:space="preserve">
+    <value>Nėra temų!</value>
+  </data>
+  <data name="mark_as_read.forum" xml:space="preserve">
+    <value>Pažymėti foruma kaip skaitytą</value>
+  </data>
+  <data name="mark_as_read.forums" xml:space="preserve">
+    <value>Pažymėti forumus kaip skaitytus</value>
+  </data>
+  <data name="post.confirm_destroy" xml:space="preserve">
+    <value>Tikrai ištrinti posta?</value>
+  </data>
+  <data name="post.confirm_restore" xml:space="preserve">
+    <value>Tikrai gražinti posta?</value>
+  </data>
+  <data name="post.edited" xml:space="preserve">
+    <value>Paskutini kartą redaguota {0} {1}, redaguota {2} kartų. |Paskutini kartą redaguota {0} {1}, redaguota {2} kartų.</value>
+  </data>
+  <data name="post.posted_at" xml:space="preserve">
+    <value>paskelbta {0}</value>
+  </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>paskelbta {0}</value>
+  </data>
+  <data name="post.actions.destroy" xml:space="preserve">
+    <value>Ištrinti pranešimą</value>
+  </data>
+  <data name="post.actions.edit" xml:space="preserve">
+    <value>Redaguoti postą</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Pranešti apie postą</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Naujas atsakymas</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Temos Pradininkas</value>
+  </data>
+  <data name="search.go_to_post" xml:space="preserve">
+    <value>Eiti į postą</value>
+  </data>
+  <data name="topic.deleted" xml:space="preserve">
+    <value>ištrintos temos</value>
+  </data>
+  <data name="topic.go_to_latest" xml:space="preserve">
+    <value>peržiūrėti vėliausius postus</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Jūs atsakyte į šią temą</value>
+  </data>
+  <data name="topic.latest_reply_by" xml:space="preserve">
+    <value>vėliausia atsakyma pateikė {0}</value>
+  </data>
+  <data name="topic.new_topic" xml:space="preserve">
+    <value>Nauja tema</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Ištrinti temą</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Atstatyti temą</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Rašyti</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="topics.actions.reply" xml:space="preserve">
+    <value>Atsakyti</value>
+  </data>
+  <data name="topics.create.create_poll" xml:space="preserve">
+    <value>Apklausos kūrimas</value>
+  </data>
+  <data name="topics.create.create_poll_button.add" xml:space="preserve">
+    <value>Sukurti apklausą</value>
+  </data>
+  <data name="topics.create.create_poll_button.remove" xml:space="preserve">
+    <value>Atšaukti apklausos kūrimą</value>
+  </data>
+  <data name="topics.create.poll.options" xml:space="preserve">
+    <value>Parinktys</value>
+  </data>
+  <data name="topics.create.poll.title" xml:space="preserve">
+    <value>Klausimas</value>
+  </data>
+  <data name="topics.index.views" xml:space="preserve">
+    <value>peržiūros</value>
+  </data>
+  <data name="topics.issue_tag_added.to_0" xml:space="preserve">
+    <value>Pašalinti „pridėjimo“ žymę</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Balsuoti</value>
+  </data>
+</root>

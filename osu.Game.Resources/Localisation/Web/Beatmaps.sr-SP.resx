@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Дошло је до грешке са ажурирањем гласа</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>дозволи кудосу</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Страница мапе</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>обришите</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>Обрисано од стране {0} у {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>одбиј кудосу</value>
+  </data>
+  <data name="discussions.edit" xml:space="preserve">
+    <value>измени</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>Последњи пут измењено од стране {0} у {1}.</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Добијање кудосу је одбијено.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Ова тежина мапе је обрисана и не може се више дискутовати о њој.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Дискусија за ову мапу је искључена.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Не можете постовати на дискусију док сте мутирани.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>Изабери врсту коментара</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>Притисните ентер да одговорите.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>Овде унесите ваш одговор</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Пријавите се да бисте поставили или одговорили</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>Решено</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>поврати</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>Покажи обрисане</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>Дискусије</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Обори све</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Рашири све</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>Још увек није започета дискусија!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Не постоји дискусија која одговара Вашем филтеру.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>Закључај дискусију</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>Откључај дискусију</value>
+  </data>
+  <data name="discussions.lock.prompt.lock" xml:space="preserve">
+    <value>Разлог за закључавање</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>Да ли сте сигурни да желите да откључате дискусију?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Овај пост ће бити постављен у генералну дискусију за сет мапе. Да би сте модовали ову мапу, започните поруку са маркером (нпр. 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Да би сте модовали више маркера, направите више постова (један пост по маркеру).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали у Генералну ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали у Генералну (Све тежине)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Куцајте овде да би сте поставили рецензију</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали на временску линију ({0})</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>Дисквалификуј</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>Хајп!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>Белешке</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>Ресетујте номинацију</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>Похвалите</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>Проблем</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Рецензија</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>Предлог</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>Историја</value>
+  </data>
+  <data name="discussions.mode.general" xml:space="preserve">
+    <value>Генерална {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Рецензије</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>Временска линија</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>Ова тежина мапе</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>Све тежине мапе</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>Закачи</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Временски печат</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl-c у едит моду и ctrl-v у Вашој поруци да би сте додали временски печат!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>Нова Дискусија</value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>Откачи</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Нова рецензија</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[ДИСКУСИЈА ОБРИСАНА]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Раздвоји</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Несачуване</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Постови за све тежине мапе не могу садржати временски печат.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Ако {0} почиње са временским печатом, биће показана испод временске линије.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>уметни пасус</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>уметни похвалу</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>уметни проблем</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>уметни сугестију</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} маповано од стране {1}</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>Време креирања</value>
+  </data>
+</root>

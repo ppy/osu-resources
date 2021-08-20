@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>Apstiprināts.</value>
+  </data>
+  <data name="event.discussion_delete" xml:space="preserve">
+    <value>Moderātors izdzēsa diskusiju {0}.</value>
+  </data>
+  <data name="event.discussion_post_delete" xml:space="preserve">
+    <value>Moderātors izdzēsa ziņojumu no diskusijas {0}.</value>
+  </data>
+  <data name="event.discussion_post_restore" xml:space="preserve">
+    <value>Moderātors atjaunoja ziņojumu no diskusijas {0}.</value>
+  </data>
+  <data name="event.discussion_restore" xml:space="preserve">
+    <value>Moderātors atjaunoja diskusiju {0}.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>Diskvalificēja: {0}, Iemesls: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>Diskvalificēja: {0}, Iemesls: {1}.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>Atrisināja problēmu {0} ir atkātoti atvērts.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>Problēma {0} ir atzīmēta kā atrisināta.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>Kudosu nepieņemšana par diskusiju {0} ir noņemts.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>Diskusijas {0} nepieņēma kudosu.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>Diskusija {0} {1} saņēma pietiekami daudz balsojumus priekš kudosu.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>Diskusija {0} {1} zaudeja balsojumus un saņemtais kudosu tika noņemts.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>Discussion {0} ir pārveidotas kudosu atļaujas un tiks veiktas rekaukulācijas.</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>Nominēja: {0}.</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>Jauna problēma {0} ({1}) palaida nominācijas atiestatīšanu.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>Pieņemts.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Bītkaršu kopas Notikumi</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>Periods</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Tipi</value>
+  </data>
+  <data name="item.content" xml:space="preserve">
+    <value>Saturs</value>
+  </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[dzēsts]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>Iegūtie Kudosu</value>
+  </data>
+</root>
