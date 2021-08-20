@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>그래픽</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>렌더러</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>프레임 제한</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>스레드 모드</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>FPS 표시</value>
+  </data>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>프레임 제한을 설정하지 않을 경우 화면 버벅댐, 성능 하락, 과열과 같은 현상이 발생할 수 있습니다. 이 옵션은 인지할 만한 정도의 지연 시간을 낮춰주지 않습니다. 대신, "2x refresh rate" 옵션의 사용을 권장합니다.</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>레이아웃</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>화면 모드</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>해상도</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>UI 크기 조정</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>화면 크기 조정</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>수평 위치</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>수직 위치</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>수평 비율</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>수직 비율</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>전체 화면을 켜지 않으면 입력 지연 시간이 늘어날 수 있습니다!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>세부 설정</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>스토리보드 / 영상</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>히트 라이트닝</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>스크린샷 형식</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>스크린샷에 메뉴 커서 표시</value>
+  </data>
+</root>

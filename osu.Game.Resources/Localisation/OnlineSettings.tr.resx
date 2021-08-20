@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="online_section_header" xml:space="preserve">
+    <value>Çevrimiçi</value>
+  </data>
+  <data name="alerts_and_privacy_header" xml:space="preserve">
+    <value>Uyarılar ve Gizlilik</value>
+  </data>
+  <data name="notify_on_mentioned" xml:space="preserve">
+    <value>Birisi adımı yazdığında bildirim göster</value>
+  </data>
+  <data name="notify_on_private_message" xml:space="preserve">
+    <value>Özel mesaj geldiğinde bildirim göster</value>
+  </data>
+  <data name="integrations_header" xml:space="preserve">
+    <value>Entegrasyonlar</value>
+  </data>
+  <data name="discord_rich_presence" xml:space="preserve">
+    <value>Gelişmiş Discord Durumu</value>
+  </data>
+  <data name="web_header" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="external_link_warning" xml:space="preserve">
+    <value>Harici linkleri açarken uyar</value>
+  </data>
+  <data name="prefer_no_video" xml:space="preserve">
+    <value>Videosuz indirmeyi tercih et</value>
+  </data>
+  <data name="automatically_download_when_spectating" xml:space="preserve">
+    <value>İzlerken beatmap'leri otomatik olarak indir</value>
+  </data>
+  <data name="show_explicit_content" xml:space="preserve">
+    <value>Sakıncalı içerikleri (+18) arama sonuçlarında göster</value>
+  </data>
+</root>

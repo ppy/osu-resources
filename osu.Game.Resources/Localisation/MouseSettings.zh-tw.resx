@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mouse" xml:space="preserve">
+    <value>滑鼠</value>
+  </data>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>全螢幕模式下無作用</value>
+  </data>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>高精度滑鼠</value>
+  </data>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>嘗試繞過任何作業系統的滑鼠加速度設定。Windows 上以前稱之為「原始輸入」。</value>
+  </data>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>限制滑鼠游標只能在視窗移動</value>
+  </data>
+  <data name="disable_mouse_wheel" xml:space="preserve">
+    <value>遊戲時停用滑鼠滾輪</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>遊戲時停用滑鼠按鍵</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>啟用高精度滑鼠以調整游標靈敏度</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>游標靈敏度</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>這個設定在您使用的平台有已知問題。遇到問題時，建議在遊戲外調整靈敏度，且不要啟用這個設定。</value>
+  </data>
+</root>

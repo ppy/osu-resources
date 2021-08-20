@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gameplay_section_header" xml:space="preserve">
+    <value>游戏中</value>
+  </data>
+  <data name="general_header" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="dim" xml:space="preserve">
+    <value>背景暗化</value>
+  </data>
+  <data name="blur" xml:space="preserve">
+    <value>背景模糊</value>
+  </data>
+  <data name="lighten_during_breaks" xml:space="preserve">
+    <value>休息时调亮背景亮度</value>
+  </data>
+  <data name="hud_visibility_mode" xml:space="preserve">
+    <value>游戏数据显示模式</value>
+  </data>
+  <data name="show_difficulty_graph" xml:space="preserve">
+    <value>在进度条上显示难度图表</value>
+  </data>
+  <data name="show_health_display_when_cant_fail" xml:space="preserve">
+    <value>不会失败时仍然显示血量</value>
+  </data>
+  <data name="fade_playfield_when_health_low" xml:space="preserve">
+    <value>当血量低时屏幕变红</value>
+  </data>
+  <data name="key_overlay" xml:space="preserve">
+    <value>总是显示按键表示框</value>
+  </data>
+  <data name="positional_hitsounds" xml:space="preserve">
+    <value>立体声打击音效</value>
+  </data>
+  <data name="always_play_first_combo_break" xml:space="preserve">
+    <value>总是播放第一次连击的失败提示音</value>
+  </data>
+  <data name="score_display_mode" xml:space="preserve">
+    <value>分数显示模式</value>
+  </data>
+  <data name="disable_win_key" xml:space="preserve">
+    <value>在游戏中禁用 Windows 键</value>
+  </data>
+  <data name="mods_header" xml:space="preserve">
+    <value>模组</value>
+  </data>
+  <data name="increase_first_object_visibility" xml:space="preserve">
+    <value>启用视觉障碍模式时，增加第一个对象的可见性</value>
+  </data>
+</root>
