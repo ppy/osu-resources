@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Grafiikka</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Renderoija</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>FPS-rajoitin</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Säikeiden käyttö</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>Näytä FPS</value>
+  </data>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>Rajoittamaton FPS-rajoitin voi aiheuttaa pätkimistä, huonoa suorituskykyä ja ylikuumenemista. Se ei mitenkään paranna havaittua syöttöviivettä. "2x virkistystaajuus" on suositeltavaa.</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>Asetelma</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Näytön tila</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Resoluutio</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>Käyttöliittymän skaalaus</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Näytön skaalaus</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Vaakasuuntainen sijainti</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Pystysuuntainen sijainti</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Vaakasuorainen skaalaus</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Pystysuorainen skaalaus</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Syöttöviive on korkeampi jos et käytä kokoruututilaa!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Grafiikka-asetukset</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Storyboard / video</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Osumien valaistus</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Kuvankaappauksen muoto</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Näytä valikon kohdistin kuvankaappauksissa</value>
+  </data>
+</root>

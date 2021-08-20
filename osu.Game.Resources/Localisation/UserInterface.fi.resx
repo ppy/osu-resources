@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="user_interface_section_header" xml:space="preserve">
+    <value>Käyttöliittymä</value>
+  </data>
+  <data name="general_header" xml:space="preserve">
+    <value>Yleiset</value>
+  </data>
+  <data name="cursor_rotation" xml:space="preserve">
+    <value>Kierrä kohdistinta vetäessä</value>
+  </data>
+  <data name="menu_cursor_size" xml:space="preserve">
+    <value>Valikon kohdistimen koko</value>
+  </data>
+  <data name="parallax" xml:space="preserve">
+    <value>Parallaksi</value>
+  </data>
+  <data name="hold_to_confirm_activation_time" xml:space="preserve">
+    <value>Pidetyn painikkeen aktivointiaika</value>
+  </data>
+  <data name="main_menu_header" xml:space="preserve">
+    <value>Päävalikko</value>
+  </data>
+  <data name="interface_voices" xml:space="preserve">
+    <value>Käyttöliittymän äänet</value>
+  </data>
+  <data name="osu_music_theme" xml:space="preserve">
+    <value>osu! musiikki</value>
+  </data>
+  <data name="intro_sequence" xml:space="preserve">
+    <value>Alkuanimaatio</value>
+  </data>
+  <data name="background_source" xml:space="preserve">
+    <value>Taustan lähde</value>
+  </data>
+  <data name="seasonal_backgrounds" xml:space="preserve">
+    <value>Kausittaiset taustat</value>
+  </data>
+  <data name="not_supporter_note" xml:space="preserve">
+    <value>Muutokset tähän asetukseen tulevat voimaan vain kun olet osu!tukija.</value>
+  </data>
+  <data name="song_select_header" xml:space="preserve">
+    <value>Kappaleen Valinta</value>
+  </data>
+  <data name="right_mouse_scroll" xml:space="preserve">
+    <value>Käytä hiiren oikeaa näppäintä absoluuttiseen vieritykseen</value>
+  </data>
+  <data name="show_converted_beatmaps" xml:space="preserve">
+    <value>Näytä muunnetut beatmapit</value>
+  </data>
+  <data name="stars_minimum" xml:space="preserve">
+    <value>Näytä beatmappeja, joissa on vähintään</value>
+  </data>
+  <data name="stars_maximum" xml:space="preserve">
+    <value>ja enintään</value>
+  </data>
+  <data name="random_selection_algorithm" xml:space="preserve">
+    <value>Satunnaisen valinnan algoritmi</value>
+  </data>
+  <data name="no_limit" xml:space="preserve">
+    <value>ei rajoitusta</value>
+  </data>
+</root>
