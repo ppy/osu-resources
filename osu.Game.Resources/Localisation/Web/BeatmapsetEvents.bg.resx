@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Одобрен.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Собственикът на трудността за {0} вече е {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Модератор изтри дискусията {0}.</value>
   </data>
@@ -118,14 +121,32 @@
   <data name="event.nominate" xml:space="preserve">
     <value>Номиниран от {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Номиниран от {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Нов проблем {0} ({1}) задейства нулиране на номинацията.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Номинацията на {0} беше занулена от {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Номинацията беше занулена от {0} ({1})</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Този бийтмап достигна максимум брой номинации и бе квалифициран за класиране.</value>
+    <value>Този бийтмап достигна нужния брой номинации и бе квалифициран за класиране.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Класиран.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Премахнат от Обичани от {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Не е означен като explicit</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Означен като explicit</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Бийтмап сет събития</value>
@@ -147,6 +168,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Одобрение</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Промени собственика на трудността</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Изтриване на дискусия</value>
@@ -199,10 +223,19 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Анулиране на номинацията</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Номинация за зануляване е приета</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Explicit знак</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Квалификация</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Класиране</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Премахни от Обичани</value>
   </data>
 </root>

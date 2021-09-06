@@ -139,6 +139,9 @@
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>условия за ползване</value>
   </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Потребители по вид игра</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Вашият акаунт не е ползван от дълго време.</value>
   </data>
@@ -162,6 +165,9 @@
   </data>
   <data name="login.info" xml:space="preserve">
     <value>Моля влезте в профила си, за да продължите</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Прекалено много неуспешни опити за влизане! Докажете, че не сте робот и опитайте отново. (Обновете страницата, в случай че не се вижда задачата)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Вашият IP адрес е блокиран. Моля изчакайте няколко минути.</value>
@@ -206,7 +212,7 @@
     <value>Сигурни ли сте, че искате да излезете от профила си? :(</value>
   </data>
   <data name="report.button_text" xml:space="preserve">
-    <value>докладвай</value>
+    <value>Докладвай</value>
   </data>
   <data name="report.comments" xml:space="preserve">
     <value>Допълнителни коментари</value>
@@ -231,6 +237,9 @@
   </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Нечестна игра / Измама</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Използва няколко профила</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Обижда ме / други</value>
@@ -291,6 +300,12 @@
   </data>
   <data name="show.title" xml:space="preserve">
     <value>профила на {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Публикувани {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} коментар|{0} коментара</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Промяна на профилната корица</value>
@@ -478,6 +493,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Медали</value>
   </data>
+  <data name="show.extra.multiplayer.title" xml:space="preserve">
+    <value>Игри в Мултиплеър</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Публикации</value>
   </data>
@@ -524,7 +542,7 @@
     <value>Скорошни гласове</value>
   </data>
   <data name="show.extra.votes.vote_count" xml:space="preserve">
-    <value>{0} глас|{0} гласове</value>
+    <value>{0} глас|{0} гласа</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
     <value>Състояние на акаунта</value>
@@ -614,7 +632,7 @@
     <value>Приноси {0}</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
-    <value>{0} съобщение в форума|{0} съобщения в форума</value>
+    <value>{0} съобщение във форума|{0} съобщения във форума</value>
   </data>
   <data name="show.rank.country" xml:space="preserve">
     <value>Класация на държавата за {0}</value>
@@ -675,6 +693,12 @@
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
     <value>Класирани и одобрени бийтмапове</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>В момента сте заглушен.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Някои действия може да са недостъпни.</value>
   </data>
   <data name="status.all" xml:space="preserve">
     <value>Всички</value>

@@ -825,14 +825,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraAccountStandingTitle => new TranslatableString(getKey(@"show.extra.account_standing.title"), @"Account Standing");
 
         /// <summary>
-        /// "&lt;strong&gt;{0}&#39;s&lt;/strong&gt; account is not in a good standing :("
+        /// "{0}&#39;s account is not in a good standing :("
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingBadStanding(LocalisableString username) => new TranslatableString(getKey(@"show.extra.account_standing.bad_standing"), @"<strong>{0}'s</strong> account is not in a good standing :(", username);
+        public static LocalisableString ShowExtraAccountStandingBadStanding(LocalisableString username) => new TranslatableString(getKey(@"show.extra.account_standing.bad_standing"), @"{0}'s account is not in a good standing :(", username);
 
         /// <summary>
-        /// "&lt;strong&gt;{0}&lt;/strong&gt; will be able to speak again {1}."
+        /// "{0} will be able to speak again {1}."
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingRemainingSilence(LocalisableString username, LocalisableString duration) => new TranslatableString(getKey(@"show.extra.account_standing.remaining_silence"), @"<strong>{0}</strong> will be able to speak again {1}.", username, duration);
+        public static LocalisableString ShowExtraAccountStandingRemainingSilence(LocalisableString username, LocalisableString duration) => new TranslatableString(getKey(@"show.extra.account_standing.remaining_silence"), @"{0} will be able to speak again {1}.", username, duration);
 
         /// <summary>
         /// "Recent Infringements"

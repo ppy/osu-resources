@@ -148,6 +148,15 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>apasă aici pentru a-ți calcula plata</value>
   </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Anulează comanda</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Această comandă va fi anulată și plata nu va fi acceptată pentru ea. Este posibil ca furnizorul de plăți să nu elibereze imediat niciun fond rezervat. Ești sigur?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Aceasta comanda nu poate fi anulata in acest moment.</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Vezi factura</value>
   </data>
@@ -159,6 +168,9 @@
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Reia finalizarea comenzii</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Link-ul de finalizare a comenzii a expirat.</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} pentru {1} ({2})</value>

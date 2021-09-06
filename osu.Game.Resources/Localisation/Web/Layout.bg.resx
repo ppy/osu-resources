@@ -109,6 +109,9 @@
   <data name="header.users.modding" xml:space="preserve">
     <value>modding</value>
   </data>
+  <data name="header.users.multiplayer" xml:space="preserve">
+    <value>мултиплеър</value>
+  </data>
   <data name="header.users.show" xml:space="preserve">
     <value>инфо</value>
   </data>
@@ -116,10 +119,10 @@
     <value>Затвори (Esc)</value>
   </data>
   <data name="gallery.fullscreen" xml:space="preserve">
-    <value>Превключване на цял екран</value>
+    <value>Превключи на цял екран</value>
   </data>
   <data name="gallery.zoom" xml:space="preserve">
-    <value>Приближаване/отдалечаване</value>
+    <value>Приближи/отдалечи</value>
   </data>
   <data name="gallery.previous" xml:space="preserve">
     <value>Предишно (лява стрелка)</value>
@@ -130,104 +133,44 @@
   <data name="menu.beatmaps._" xml:space="preserve">
     <value>бийтмапове</value>
   </data>
-  <data name="menu.beatmaps.artists" xml:space="preserve">
-    <value>препоръчани изпълнители</value>
-  </data>
-  <data name="menu.beatmaps.index" xml:space="preserve">
-    <value>списък</value>
-  </data>
-  <data name="menu.beatmaps.packs" xml:space="preserve">
-    <value>пакети</value>
-  </data>
   <data name="menu.community._" xml:space="preserve">
-    <value>колектив</value>
-  </data>
-  <data name="menu.community.chat" xml:space="preserve">
-    <value>чат</value>
-  </data>
-  <data name="menu.community.contests" xml:space="preserve">
-    <value>конкурси</value>
+    <value>общност</value>
   </data>
   <data name="menu.community.dev" xml:space="preserve">
     <value>разработка</value>
   </data>
-  <data name="menu.community.forum-forums-index" xml:space="preserve">
-    <value>форуми</value>
-  </data>
-  <data name="menu.community.getlive" xml:space="preserve">
-    <value>на живо</value>
-  </data>
-  <data name="menu.community.tournaments" xml:space="preserve">
-    <value>турнири</value>
-  </data>
   <data name="menu.help._" xml:space="preserve">
     <value>помощ</value>
+  </data>
+  <data name="menu.help.getabuse" xml:space="preserve">
+    <value>докладвай нарушение</value>
   </data>
   <data name="menu.help.getfaq" xml:space="preserve">
     <value>чзв</value>
   </data>
   <data name="menu.help.getrules" xml:space="preserve">
-    <value>правилник</value>
+    <value>правила</value>
   </data>
   <data name="menu.help.getsupport" xml:space="preserve">
     <value>не, наистина, имам нужда от помощ!</value>
   </data>
-  <data name="menu.help.getwiki" xml:space="preserve">
-    <value>wiki</value>
-  </data>
   <data name="menu.home._" xml:space="preserve">
     <value>начало</value>
   </data>
-  <data name="menu.home.changelog-index" xml:space="preserve">
-    <value>списък на промените</value>
-  </data>
-  <data name="menu.home.getdownload" xml:space="preserve">
-    <value>изтегли</value>
-  </data>
-  <data name="menu.home.news-index" xml:space="preserve">
-    <value>новини</value>
-  </data>
-  <data name="menu.home.search" xml:space="preserve">
-    <value>търсене</value>
-  </data>
   <data name="menu.home.team" xml:space="preserve">
-    <value>отбор</value>
+    <value>екип</value>
   </data>
   <data name="menu.rankings._" xml:space="preserve">
     <value>класации</value>
   </data>
-  <data name="menu.rankings.charts" xml:space="preserve">
-    <value>препоръчани</value>
-  </data>
-  <data name="menu.rankings.country" xml:space="preserve">
-    <value>държава</value>
-  </data>
-  <data name="menu.rankings.index" xml:space="preserve">
-    <value>изпълнение</value>
-  </data>
   <data name="menu.rankings.kudosu" xml:space="preserve">
     <value>kudosu</value>
-  </data>
-  <data name="menu.rankings.multiplayer" xml:space="preserve">
-    <value>мултиплейър</value>
-  </data>
-  <data name="menu.rankings.score" xml:space="preserve">
-    <value>резултат</value>
   </data>
   <data name="menu.store._" xml:space="preserve">
     <value>магазин</value>
   </data>
-  <data name="menu.store.cart-show" xml:space="preserve">
-    <value>количка</value>
-  </data>
-  <data name="menu.store.getlisting" xml:space="preserve">
-    <value>списък</value>
-  </data>
-  <data name="menu.store.orders-index" xml:space="preserve">
-    <value>история на поръчките</value>
-  </data>
   <data name="footer.general._" xml:space="preserve">
-    <value>Общо</value>
+    <value>Общи</value>
   </data>
   <data name="footer.general.home" xml:space="preserve">
     <value>Начало</value>
@@ -239,28 +182,28 @@
     <value>Списък с бийтмапове</value>
   </data>
   <data name="footer.general.download" xml:space="preserve">
-    <value>Изтеглете osu!</value>
+    <value>Изтегли osu!</value>
   </data>
   <data name="footer.help._" xml:space="preserve">
-    <value>Помощ и Колектив</value>
+    <value>Помощ &amp; Общност</value>
   </data>
   <data name="footer.help.faq" xml:space="preserve">
     <value>Често Задавани Въпроси</value>
   </data>
   <data name="footer.help.forum" xml:space="preserve">
-    <value>Обществени форуми</value>
+    <value>Форум на общността</value>
   </data>
   <data name="footer.help.livestreams" xml:space="preserve">
-    <value>Живи Потоци</value>
+    <value>Игри На Живо</value>
   </data>
   <data name="footer.help.report" xml:space="preserve">
-    <value>Подайте сигнал за проблем</value>
+    <value>Докладвай за проблем</value>
   </data>
   <data name="footer.help.wiki" xml:space="preserve">
     <value>Wiki</value>
   </data>
   <data name="footer.legal._" xml:space="preserve">
-    <value>Легалности и статус</value>
+    <value>Правила и Състояние</value>
   </data>
   <data name="footer.legal.copyright" xml:space="preserve">
     <value>Авторски права (DMCA)</value>
@@ -307,6 +250,9 @@
   <data name="errors.422.error" xml:space="preserve">
     <value>Невалиден параметър на заявка</value>
   </data>
+  <data name="errors.429.error" xml:space="preserve">
+    <value>Достигнат е лимитът на заявките</value>
+  </data>
   <data name="errors.500.error" xml:space="preserve">
     <value>Ох не, нещо се счупи! Т - Т</value>
   </data>
@@ -326,7 +272,10 @@
     <value>Профилактиката обикновено трае от 5 секунди до 10 минути. В случай че стане повече от 10 минути, проверете {0} за повече информация.</value>
   </data>
   <data name="errors.reference" xml:space="preserve">
-    <value>За всеки случай, това е код, които може да дадете на поддръжка при неизправност!</value>
+    <value>За всеки случай, това е код, който да дадете на поддръжката!</value>
+  </data>
+  <data name="popup_login.button" xml:space="preserve">
+    <value>вход / регистрация</value>
   </data>
   <data name="popup_login.login.forgot" xml:space="preserve">
     <value>Забравих си данните</value>
@@ -350,13 +299,16 @@
     <value>Изтегли</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>Трябва ди акаунт, господине. Защо все още нямате един?</value>
+    <value>Свалете osu! за да създадете акаунт!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
     <value>Нямате акаунт?</value>
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Настройки</value>
+  </data>
+  <data name="popup_user.links.follows" xml:space="preserve">
+    <value>Следвани</value>
   </data>
   <data name="popup_user.links.friends" xml:space="preserve">
     <value>Приятели</value>

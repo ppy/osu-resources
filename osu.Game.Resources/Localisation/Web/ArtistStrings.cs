@@ -45,6 +45,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexDescription => new TranslatableString(getKey(@"index.description"), @"Featured artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these featured artists have also created exclusive new tracks for use in osu!.<br><br>All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content.");
 
         /// <summary>
+        /// "osu! beatmaps"
+        /// </summary>
+        public static LocalisableString LinksBeatmaps => new TranslatableString(getKey(@"links.beatmaps"), @"osu! beatmaps");
+
+        /// <summary>
         /// "osu! profile"
         /// </summary>
         public static LocalisableString LinksOsu => new TranslatableString(getKey(@"links.osu"), @"osu! profile");
@@ -65,9 +70,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SongsCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"songs.count"), @"{0} song|{0} songs", countDelimited);
 
         /// <summary>
-        /// "osu! exclusive"
+        /// "osu! original"
         /// </summary>
-        public static LocalisableString SongsExclusive => new TranslatableString(getKey(@"songs.exclusive"), @"osu! exclusive");
+        public static LocalisableString SongsOriginal => new TranslatableString(getKey(@"songs.original"), @"osu! original");
 
         /// <summary>
         /// "title"

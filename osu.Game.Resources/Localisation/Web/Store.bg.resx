@@ -148,6 +148,15 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>кликнете тук, за да възстановите вашето разплащане</value>
   </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Откажи поръчка</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Поръчката ще бъда отменена и плащането няма да бъде прието. Възможно е резервираната сума да не бъде освободена веднага. Сигурни ли сте?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Поръчката не може да бъде отменена на този етап.</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Преглед на фактурата</value>
   </data>
@@ -159,6 +168,9 @@
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Продължи разплащането</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Адреса за тази поръчката изтече.</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} за {1} ({2})</value>

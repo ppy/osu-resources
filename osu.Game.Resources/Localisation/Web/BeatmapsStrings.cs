@@ -770,6 +770,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString GeneralConverts => new TranslatableString(getKey(@"general.converts"), @"Include converted beatmaps");
 
         /// <summary>
+        /// "Featured artists"
+        /// </summary>
+        public static LocalisableString GeneralFeaturedArtists => new TranslatableString(getKey(@"general.featured_artists"), @"Featured artists");
+
+        /// <summary>
         /// "Subscribed mappers"
         /// </summary>
         public static LocalisableString GeneralFollows => new TranslatableString(getKey(@"general.follows"), @"Subscribed mappers");

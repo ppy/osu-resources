@@ -82,6 +82,9 @@
   <data name="discussions.edited" xml:space="preserve">
     <value>Последно редактирано от {0} {1}.</value>
   </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Guest difficulty по {0}</value>
+  </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Забранено получаване на kudosu.</value>
   </data>
@@ -370,6 +373,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Обич</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Избери трудност за обичан</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Маркирайте този бийтмап като любим?</value>
   </data>
@@ -385,6 +391,12 @@
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>Няма достатъчно надъхвания.</value>
   </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Премахни от Обичани</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Причина за премахване от Обичани:</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Номинации: {0}/{1}</value>
   </data>
@@ -396,6 +408,15 @@
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Все още има нерешени проблеми, те трябва да бъдат проверени първо.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Този бийтмап ще бъде класиран на {0} ако не открием проблеми. Той е #{1} на {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>опашката</value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>скоро</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
     <value>Номинационният процес е бил нулиран {0} от {1} заради нов проблем {2} ({3}).</value>
@@ -441,6 +462,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Игра</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Explicit Content</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Изигран</value>
@@ -490,8 +514,14 @@
   <data name="general.converts" xml:space="preserve">
     <value>Включи конвертирани бийтмапове</value>
   </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Абонирани създатели</value>
+  </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Препоръчана трудност</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Всички</value>
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Всички</value>
@@ -530,7 +560,7 @@
     <value>Всички</value>
   </data>
   <data name="genre.unspecified" xml:space="preserve">
-    <value>Неопределени</value>
+    <value>Неопределен</value>
   </data>
   <data name="genre.video-game" xml:space="preserve">
     <value>Видеоигра</value>
@@ -567,6 +597,9 @@
   </data>
   <data name="genre.jazz" xml:space="preserve">
     <value>Джаз</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Всеки</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Английски</value>
@@ -609,6 +642,12 @@
   </data>
   <data name="language.unspecified" xml:space="preserve">
     <value>Неопределен</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Скрий</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Покажи</value>
   </data>
   <data name="played.any" xml:space="preserve">
     <value>Всички</value>

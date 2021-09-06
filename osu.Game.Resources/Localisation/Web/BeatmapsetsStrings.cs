@@ -35,6 +35,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DownloadLimitExceeded => new TranslatableString(getKey(@"download.limit_exceeded"), @"Slow down, play more.");
 
         /// <summary>
+        /// "Featured artist"
+        /// </summary>
+        public static LocalisableString FeaturedArtistBadgeLabel => new TranslatableString(getKey(@"featured_artist_badge.label"), @"Featured artist");
+
+        /// <summary>
         /// "Beatmaps Listing"
         /// </summary>
         public static LocalisableString IndexTitle => new TranslatableString(getKey(@"index.title"), @"Beatmaps Listing");
