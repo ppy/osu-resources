@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Графика</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Визуализатор</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>Ограничение кадров</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Поточный режим</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>Включить счётчик кадров</value>
+  </data>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>Режим "Без ограничений" может привести к микрофризам, плохой производительности и перегреву. Это не уменьшит задержку ввода. Рекомендуется ограничить частоту обновления до 2x.</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>Параметры экрана</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Режим экрана</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Разрешение</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>Масштаб интерфейса</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Масштабирование экрана</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Горизонтальное положение</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Вертикальное положение</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Горизонтальное масштабирование</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Вертикальное масштабирование</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Работа без полноэкранного режима увеличит задержку ввода!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Настройка деталей</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Сториборд / видео</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Подсветка нот</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Формат скриншотов</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Захватывать курсор на скриншотах</value>
+  </data>
+</root>

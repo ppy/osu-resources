@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mouse" xml:space="preserve">
+    <value>Ratón</value>
+  </data>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>No aplicable en modo de pantalla completa</value>
+  </data>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>Ratón de alta precisión</value>
+  </data>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Intenta saltarse la aceleración del ratón de cualquier sistema operativo. En Windows, esto equivale a lo que antes se conocía como "Raw Input".</value>
+  </data>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Limitar el cursor del ratón a la ventana</value>
+  </data>
+  <data name="disable_mouse_wheel" xml:space="preserve">
+    <value>Desactivar la rueda del ratón durante el juego</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Desactivar los botones del ratón durante el juego</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Activar el ratón de alta precisión para ajustar la sensibilidad</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Sensibilidad del cursor</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>Esta configuración tiene problemas conocidos en su plataforma. Si encuentra problemas, se recomienda mantenerla desactivada por ahora y ajustar la sensibilidad externamente.</value>
+  </data>
+</root>

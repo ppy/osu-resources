@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="user_interface_section_header" xml:space="preserve">
+    <value>Потребителски интерфейс</value>
+  </data>
+  <data name="general_header" xml:space="preserve">
+    <value>Основни</value>
+  </data>
+  <data name="cursor_rotation" xml:space="preserve">
+    <value>Върти курсора при влачене</value>
+  </data>
+  <data name="menu_cursor_size" xml:space="preserve">
+    <value>Размер на курсор в меню</value>
+  </data>
+  <data name="parallax" xml:space="preserve">
+    <value>Паралакс</value>
+  </data>
+  <data name="hold_to_confirm_activation_time" xml:space="preserve">
+    <value>"Задръж-за-потвърждение" закъснение</value>
+  </data>
+  <data name="main_menu_header" xml:space="preserve">
+    <value>Главно Меню</value>
+  </data>
+  <data name="interface_voices" xml:space="preserve">
+    <value>Глас на интерфейса</value>
+  </data>
+  <data name="osu_music_theme" xml:space="preserve">
+    <value>osu! начална мелодия</value>
+  </data>
+  <data name="intro_sequence" xml:space="preserve">
+    <value>Ред на посрещането</value>
+  </data>
+  <data name="background_source" xml:space="preserve">
+    <value>Източник на фона</value>
+  </data>
+  <data name="seasonal_backgrounds" xml:space="preserve">
+    <value>Променящ се фон</value>
+  </data>
+  <data name="not_supporter_note" xml:space="preserve">
+    <value>Тази промяна ще се приложи само при активен "osu!supporter" етикет.</value>
+  </data>
+  <data name="song_select_header" xml:space="preserve">
+    <value>Избор на песни</value>
+  </data>
+  <data name="right_mouse_scroll" xml:space="preserve">
+    <value>Десен бутон с влачене за скрол</value>
+  </data>
+  <data name="show_converted_beatmaps" xml:space="preserve">
+    <value>Покажи конвертирани Бийтмапове</value>
+  </data>
+  <data name="stars_minimum" xml:space="preserve">
+    <value>Покажи Бийтмапове от</value>
+  </data>
+  <data name="stars_maximum" xml:space="preserve">
+    <value>до</value>
+  </data>
+  <data name="random_selection_algorithm" xml:space="preserve">
+    <value>Алгоритъм за случаен избор</value>
+  </data>
+  <data name="no_limit" xml:space="preserve">
+    <value>без ограничение</value>
+  </data>
+</root>
