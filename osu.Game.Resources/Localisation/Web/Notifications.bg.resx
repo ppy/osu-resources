@@ -61,6 +61,12 @@
   <data name="all_read" xml:space="preserve">
     <value>Всички известия са прочетени!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Изтрий {0}</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Зареждане на непрочетени известия...</value>
+  </data>
   <data name="mark_read" xml:space="preserve">
     <value>Изчисти {0}</value>
   </data>
@@ -69,6 +75,12 @@
   </data>
   <data name="see_all" xml:space="preserve">
     <value>виж всички известия</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>иди в чат</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Моля, потвърдете сесията за преглед на известия</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>всички</value>
@@ -93,6 +105,15 @@
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Бийтмап</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Трудности от гостите</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Вие вече сте притежател на трудността за "{0}" от бийтмап "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Вие вече сте притежател на трудността за "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Бийтмап дискусия</value>
@@ -175,6 +196,9 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>Бийтмапът бе класиран</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" беше премахнат от Обичани</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
     <value>Бийтмапът бе премахнат от Обичани</value>
   </data>
@@ -192,6 +216,9 @@
   </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} коментира "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} отговори "{1}" в "{2}"</value>
   </data>
   <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} отговори в темата "{1}"</value>
@@ -223,6 +250,12 @@
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
     <value>{0} коментира "{1}"</value>
   </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} отговори "{1}" в "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} отговори "{1}"</value>
+  </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Новини</value>
   </data>
@@ -234,6 +267,12 @@
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
     <value>{0} коментира "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} отговори "{1}" в "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} отговори "{1}"</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Тема на форума</value>
@@ -253,6 +292,18 @@
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} непрочетено съобщение|{0} непрочетени съобщения</value>
   </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Нов бийтмап</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Нов бийтмап "{0}" от {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Нов бийтмап "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Нов бийтмап от {0}</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Медали</value>
   </data>
@@ -268,6 +319,36 @@
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Медали отключени!</value>
   </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Вие сега сте гост на бийтмапа "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Дискусията за "{0}" беше заключена</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Дискусията за "{0}" има новости</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Дискусията за "{0}" беше отключена</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Докладван е проблем за "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" беше дисквалифициран</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>"{0}" беше означен като обичан</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" беше номиниран</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" получи достатъчно номинации и влезе в опашката за класиране</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" беше класиран</value>
+  </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" бе премахнат от Обичани</value>
   </data>
@@ -280,6 +361,9 @@
   <data name="mail.channel.channel.pm" xml:space="preserve">
     <value>Ти получи ново съобщение от {0}</value>
   </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>В списъка с промените "{0}" има нов коментар</value>
+  </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
     <value>Новини "{0}" има нови коментари </value>
   </data>
@@ -291,5 +375,8 @@
   </data>
   <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
     <value>Вие отключихте нов медал, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} създаде нов бийтмап</value>
   </data>
 </root>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="user_interface_section_header" xml:space="preserve">
+    <value>Benutzeroberfläche</value>
+  </data>
+  <data name="general_header" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="cursor_rotation" xml:space="preserve">
+    <value>Cursor beim Ziehen rotieren</value>
+  </data>
+  <data name="menu_cursor_size" xml:space="preserve">
+    <value>Größe des Menü-Cursors</value>
+  </data>
+  <data name="parallax" xml:space="preserve">
+    <value>Parallaxe</value>
+  </data>
+  <data name="hold_to_confirm_activation_time" xml:space="preserve">
+    <value>Aktivierungs-Haltezeit</value>
+  </data>
+  <data name="main_menu_header" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="interface_voices" xml:space="preserve">
+    <value>Interface-Stimmen</value>
+  </data>
+  <data name="osu_music_theme" xml:space="preserve">
+    <value>osu! Musik-Theme</value>
+  </data>
+  <data name="intro_sequence" xml:space="preserve">
+    <value>Intro-Sequenz</value>
+  </data>
+  <data name="background_source" xml:space="preserve">
+    <value>Hintergrundquelle</value>
+  </data>
+  <data name="seasonal_backgrounds" xml:space="preserve">
+    <value>Saisonale Hintergründe</value>
+  </data>
+  <data name="not_supporter_note" xml:space="preserve">
+    <value>Änderungen an dieser Einstellung, werden nur nur mit einem osu! Supporter-Tag angewendet.</value>
+  </data>
+  <data name="song_select_header" xml:space="preserve">
+    <value>Songauswahl</value>
+  </data>
+  <data name="right_mouse_scroll" xml:space="preserve">
+    <value>Rechte Maustaste zum absoluten Scrollen ziehen</value>
+  </data>
+  <data name="show_converted_beatmaps" xml:space="preserve">
+    <value>Konvertierte Beatmaps anzeigen</value>
+  </data>
+  <data name="stars_minimum" xml:space="preserve">
+    <value>Beatmaps anzeigen von</value>
+  </data>
+  <data name="stars_maximum" xml:space="preserve">
+    <value>bis zu</value>
+  </data>
+  <data name="random_selection_algorithm" xml:space="preserve">
+    <value>Zufälliger Auswahlalgorithmus</value>
+  </data>
+  <data name="no_limit" xml:space="preserve">
+    <value>kein Limit</value>
+  </data>
+</root>

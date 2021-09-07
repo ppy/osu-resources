@@ -118,11 +118,17 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>публикувано {0}</value>
   </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>публикуван от {0}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Изтрий публикацията</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Редактиране на публикацията</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Докладвай мнението</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Възстанови публикацията</value>
@@ -145,11 +151,23 @@
   <data name="search.total_posts" xml:space="preserve">
     <value>общо {0} публикации</value>
   </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Наистина ли да се изтрие темата?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Наистина ли да се възстанови темата?</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>изтрита тема</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>виж най-новата публикация</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Вече отговорихте на тази тема</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>в {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} от {1}</value>
@@ -177,6 +195,12 @@
   </data>
   <data name="topic.started_by_verbose" xml:space="preserve">
     <value>започнато от {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Изтрий тема</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Възстанови тема</value>
   </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Затвори</value>

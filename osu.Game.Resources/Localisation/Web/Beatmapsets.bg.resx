@@ -67,11 +67,20 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Щракнете тук за още информация.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Някои части от бийтмапа са премахнати, тъй като бяха определени като неподходящи за използване в osu!.</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Забави малко, играй повече.</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Списък с бийтмапове</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Бийтмапове</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>няма бийтмапове</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>изтегли</value>
@@ -85,11 +94,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>отвори в osu!direct</value>
   </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Хибридният бийтмап изисква да бъде избран поне едни режим на игра за номинирането му.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Нямате права да номинирате за следните режими: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Трябва да сте с пълни номинаторски права за да изълните тази квалификационна номинация.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Условията за номинация вече са изпълнени.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Сигурни ли сте, че искате да номинирате този бийтмап?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Номинирай Бийтмап</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>забележка: може да се номинира само веднъж, затова се уверете, че номинирате всеки искан режим</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Номиниране за кои режими?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Explicit</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Дискусия</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>от {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Харесай този бийтмап сет</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Влез за да добавиш в любими</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Трябва да сте влезли в акаунта си преди да е възможно да теглите бийтмапове!</value>
@@ -178,17 +220,41 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Информацията все още се обработва...</value>
   </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Explicit content</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Връхни точки на провал</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Източник</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Този бийтмап съдържа анимирана история</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Степен на успех (%)</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Тагове</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Този бийтмап съдържа видео</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>В този бийтмап има explict, офензивно или неприлично съдържание. Искате ли да го разгледате въпреки това?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Explicit Content</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Изключи предупреждение</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Списък с бийтмапове</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Покажи</value>
   </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>постигнато на {0}</value>
