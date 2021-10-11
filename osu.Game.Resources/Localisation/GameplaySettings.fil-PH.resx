@@ -58,28 +58,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cancel" xml:space="preserve">
-    <value>キャンセル</value>
+  <data name="gameplay_section_header" xml:space="preserve">
+    <value>Gameplay</value>
   </data>
-  <data name="clear" xml:space="preserve">
-    <value>消去</value>
+  <data name="general_header" xml:space="preserve">
+    <value>Pangkalahatan</value>
   </data>
-  <data name="enabled" xml:space="preserve">
-    <value>有効</value>
+  <data name="dim" xml:space="preserve">
+    <value>Dilim ng background</value>
   </data>
-  <data name="default" xml:space="preserve">
-    <value>既定</value>
+  <data name="blur" xml:space="preserve">
+    <value>Labo ng background</value>
   </data>
-  <data name="width" xml:space="preserve">
-    <value>横幅</value>
+  <data name="lighten_during_breaks" xml:space="preserve">
+    <value>Paliwanagin ang playfield habang may pahinga</value>
   </data>
-  <data name="height" xml:space="preserve">
-    <value>縦幅</value>
+  <data name="hud_visibility_mode" xml:space="preserve">
+    <value>Bisibilidad ng HUD overlay</value>
   </data>
-  <data name="downloading" xml:space="preserve">
-    <value>ダウンロード中…</value>
+  <data name="show_difficulty_graph" xml:space="preserve">
+    <value>Ipakita ang difficulty graph sa progress bar</value>
   </data>
-  <data name="importing" xml:space="preserve">
-    <value>インポート中...</value>
+  <data name="show_health_display_when_cant_fail" xml:space="preserve">
+    <value>Laging ipakita ang health display kahit hindi ka maaaring magbigo</value>
+  </data>
+  <data name="fade_playfield_when_health_low" xml:space="preserve">
+    <value>Ikupas ang playfield ng pula kapag mababa ang health</value>
+  </data>
+  <data name="key_overlay" xml:space="preserve">
+    <value>Lagi ipakita ang key overlay</value>
+  </data>
+  <data name="positional_hitsounds" xml:space="preserve">
+    <value>Positional hitsounds</value>
+  </data>
+  <data name="always_play_first_combo_break" xml:space="preserve">
+    <value>Lagi ipatunog ang unang combo break</value>
+  </data>
+  <data name="score_display_mode" xml:space="preserve">
+    <value>Paraan ng pagpapakita ng iskor</value>
+  </data>
+  <data name="disable_win_key" xml:space="preserve">
+    <value>Huwag paganahin ang Windows key habang naglalaro</value>
+  </data>
+  <data name="mods_header" xml:space="preserve">
+    <value>Mga mod</value>
+  </data>
+  <data name="increase_first_object_visibility" xml:space="preserve">
+    <value>Padaliing makita ang unang bagay tuwing gumagamit ng visual impairment mods</value>
   </data>
 </root>
