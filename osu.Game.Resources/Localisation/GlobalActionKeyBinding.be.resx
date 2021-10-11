@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Адкрываць чат</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Адкрываць спіс сяброў</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Скінуць налады увода</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Ўкл/выкл верхнюю панэль</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Адкрываць налады</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Адкрываць пошук бітмап</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Павелічэнне гучнасці</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Памяншэнне гучнасці</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Ўкл/выкл гук</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Прапусціць катсцэну</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Хуткі паўтор (удержваць)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Зрабіць скрыншот</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Ўкл/выкл кнопкі мышы падчас гульні</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Павялічэнне хуткасці пракруткі</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Памяншэнне хуткасці пракруткі</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Выбраць</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Хуткі выхад (удержваць)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Наступны трэк</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Папярэдні трэк</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Прайграваць /спыніць</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Адкрываць бягучы граюшчы трэк</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Папярэдні выбар</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Наступны выбар</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Вернуцца на галоўнае меню</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Адкрываць панэль апавяшчэнняў</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Паўза</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Секцыя наладаў</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Секцыя рэдактара</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Дызайн секцыя</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Тайминг секцыя</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Змяніць крок сетцы</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Удержваць для ўкл. інтэрфэйсу</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Выпадковы скін</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Паўза / працяг паўтора</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Ўкл/выкл інтэрфейс падчас гульні</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Адкрываць выбар мадоў</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Выпадковы выбар</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Адмяніць выпадковы выбар</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Бітмап налады</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Секцыя праверки</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Зрушыць вылучэнне налева</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Зрушыць вылучэнне направа</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Адкрываць рэдактар скіноў</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Папярэдня опцыя гука</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Наступна опцыя гука</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Пераматаць паўтор наперад</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Пераматаць паўтор назад</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Пераключыць фокус чата</value>
+  </data>
+</root>

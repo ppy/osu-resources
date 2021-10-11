@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Chat-overlay tonen/verbergen</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Social-overlay tonen/verbergen</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Invoeropties resetten</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Toolbar in-/uitschakelen</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Instellingen openen/sluiten</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Beatmap listing tonen/verbergen</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Volume verhogen</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Volume verlagen</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Dempen in-/uitschakelen</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Cutscène overslaan</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Snel opnieuw proberen (vasthouden)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Schermafbeelding nemen</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Muisknoppen tijdens gameplay in-/uitschakelen</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Scrollsnelheid verhogen</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Scrollsnelheid verlagen</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Selecteren</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Snel verlaten (vasthouden)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Volgend nummer</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Vorig nummer</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Spelen / pauzeren</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>"nu aan het afspelen"-overlay tonen/verbergen</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Vorige selectie</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Volgende selectie</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Startpagina</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Notificatiepaneel tonen/verbergen</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Spel pauzeren</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Setup-modus</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Composeermodus</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Ontwerpmodus</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Timing-modus</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Wissel grootte raster</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Vasthouden voor HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Willekeurige skin</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Replay pauzeren / hervatten</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>In-game interface in-/uitschakelen</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Mod-selectie tonen/verbergen</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Willekeurig</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Terugspoelen</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Beatmap-opties</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Verificatiemodus</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Verschuif selectie naar links</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Verschuif selectie naar rechts</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Skin-editor tonen/verbergen</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Vorige volumemeter</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Volgende volumemeter</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Replay doorspoelen</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Replay terugspoelen</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Focus tussen gameplay en chat wisselen</value>
+  </data>
+</root>
