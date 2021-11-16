@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Відкрити чат</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Відкрити список друзів</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Скинути параметри вводу</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Сховати/Показати верхню панель</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Відкрити налаштування</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Відкрити бібліотеку мап</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Збільшити гучність</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Зменшити гучність</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Вимкнути звук</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Пропустити</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Швидкий повтор (утримування)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Знімок екрану</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Вкл/Викл кнопки миші під час гри</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Збільшити швидкість прокрутки</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Зменшити швидкість прокрутки</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Швидкий вихід (утримування)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Наступна пісня</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Попередня пісня</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Відтворення / Пауза</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Відкрити плеєр</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Попередня мапа</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Наступна мапа</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Головна</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Відкрити сповіщення</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Режим налаштування</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Режим редактора</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Режим дизайну</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Режим таймінгу</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Змінити крок сітки</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Перейти на ігрове поле (утримувати, мультиплеєр)</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Випадковий скін</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Зупинити / відновити реплей</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Ввімкнути внутрішньоігровий інтерфейс</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Відкрити вибір модів</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Випадкова мапа</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Попередня випадкова мапа</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Налаштування мапи</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Режим перевірки</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Зсунути вибраний об'єкт вліво</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Зсунути вибраний об'єкт вправо</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Відкрити редактор скінів</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Попередній параметр гучності</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Наступний параметр гучності</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Перемотування реплея вперед</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Перемотування реплея назад</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Переключитись на чат (мультиплеєр)</value>
+  </data>
+</root>
