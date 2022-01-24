@@ -58,40 +58,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="audio_section_header" xml:space="preserve">
-    <value>Звук</value>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Đồ hoạ</value>
   </data>
-  <data name="audio_devices_header" xml:space="preserve">
-    <value>Устройства</value>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Trình kết xuất</value>
   </data>
-  <data name="volume_header" xml:space="preserve">
-    <value>Сила на звук</value>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>Giới hạn frame</value>
   </data>
-  <data name="output_device" xml:space="preserve">
-    <value>Устройство за възпроизвеждане</value>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Chế độ luồng</value>
   </data>
-  <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>Стерео разделение на ударните звуци</value>
+  <data name="show_fps" xml:space="preserve">
+    <value>Hiển thị FPS</value>
   </data>
-  <data name="master_volume" xml:space="preserve">
-    <value>Основна</value>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>Bỏ giới hạn frame có thể dẫn đến không ổn định, hiệu suất giảm và quá nhiệt. Nó sẽ không cải thiện độ trễ. Khuyên dùng "2x tốc độ làm mới".</value>
   </data>
-  <data name="master_volume_inactive" xml:space="preserve">
-    <value>Основна (неактивен прозорец)</value>
+  <data name="layout_header" xml:space="preserve">
+    <value>Layout</value>
   </data>
-  <data name="effect_volume" xml:space="preserve">
-    <value>Ефекти</value>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Chế độ màn hình</value>
   </data>
-  <data name="music_volume" xml:space="preserve">
-    <value>Музика</value>
+  <data name="resolution" xml:space="preserve">
+    <value>Độ phân giải</value>
   </data>
-  <data name="offset_header" xml:space="preserve">
-    <value>Закъснение</value>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>Thay đổi kích thước giao diện</value>
   </data>
-  <data name="audio_offset" xml:space="preserve">
-    <value>Закъснение на звук</value>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Tỷ lệ màn hình</value>
   </data>
-  <data name="offset_wizard" xml:space="preserve">
-    <value>Помощник за настройка</value>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Vị trí chiều ngang</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Vị trí chiều dọc</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Tỷ lệ chiều ngang</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Tỷ lệ chiều dọc</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Không sử dụng chế độ toàn màn hình sẽ tăng độ trễ đầu vào của bạn!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Cài đặt chi tiết</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Storyboard / video</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Phát sáng </value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>Ảnh chụp màn hình</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Định dạng ảnh chụp màn hình</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Hiển thị con trỏ chuột ở bảng chọn trong ảnh chụp màn hình</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>Sử dụng tăng tốc phần cứng</value>
   </data>
 </root>
