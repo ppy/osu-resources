@@ -226,6 +226,18 @@
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>
   </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Nuevo anuncio</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} dice "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Anuncio de {0}</value>
+  </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Nuevo mensaje</value>
   </data>
@@ -303,6 +315,12 @@
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>Nuevos mapas por {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Mapa "{0}" revivido por {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Mapa "{0}" revivido</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medallas</value>

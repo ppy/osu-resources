@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pinned_topics" xml:space="preserve">
-    <value>Gepinde Onderwerpen</value>
+    <value>Gepinde Topics</value>
   </data>
   <data name="slogan" xml:space="preserve">
     <value>het is gevaarlijk om alleen te spelen.</value>
@@ -68,25 +68,25 @@
     <value>Subforums</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>osu! forums</value>
+    <value>Forums</value>
   </data>
   <data name="covers.edit" xml:space="preserve">
-    <value>Wijzig omslag</value>
+    <value>Wijzig omslagfoto</value>
   </data>
   <data name="covers.create._" xml:space="preserve">
-    <value>Stel omslagafbeelding in</value>
+    <value>Stel omslagfoto in</value>
   </data>
   <data name="covers.create.button" xml:space="preserve">
     <value>Afbeelding uploaden</value>
   </data>
   <data name="covers.create.info" xml:space="preserve">
-    <value>Omslag grootte moet {0} zijn. Je kunt ook een afbeelding hier loslaten om hem te uploaden.</value>
+    <value>De grootte van de omslagfoto moet {0} zijn. Je kunt hier ook een afbeelding slepen en neerzetten om hem te uploaden.</value>
   </data>
   <data name="covers.destroy._" xml:space="preserve">
-    <value>Verwijder omslag afbeelding</value>
+    <value>Verwijder omslagfoto</value>
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
-    <value>Weet je zeker dat je de omslag afbeelding wilt verwijderen?</value>
+    <value>Weet je zeker dat je de omslagfoto wilt verwijderen?</value>
   </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>Laatste bericht</value>
@@ -158,7 +158,7 @@
     <value>Topic echt herstellen?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
-    <value>verwijder topic</value>
+    <value>topic verwijderd</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>bekijk nieuwste post</value>
@@ -179,7 +179,7 @@
     <value>Nieuw onderwerp</value>
   </data>
   <data name="topic.new_topic_login" xml:space="preserve">
-    <value>Log in om een nieuw onderwerp maken</value>
+    <value>Log in om een nieuwe topic te maken</value>
   </data>
   <data name="topic.post_reply" xml:space="preserve">
     <value>Post</value>
@@ -218,10 +218,10 @@
     <value>Dit onderwerp is al een tijdje inactief. Maak alleen een post hier als je een specifieke reden daarvoor hebt.</value>
   </data>
   <data name="topic.create.necropost.new_topic._" xml:space="preserve">
-    <value>Dit onderwerp is al een tijdje inactief. Als je geen specifieke reden om hier te posten hebt, {0} in plaats daarvan.</value>
+    <value>Dit onderwerp is al een tijdje inactief. Als je geen specifieke reden hebt om hier te posten, {0} in plaats daarvan.</value>
   </data>
   <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
-    <value>maak een onderwerp aan</value>
+    <value>maak een topic aan</value>
   </data>
   <data name="topic.create.placeholder.body" xml:space="preserve">
     <value>Typ post inhoud hier</value>
@@ -243,6 +243,114 @@
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
     <value>ga 10 posts terug</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Topic logs</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Blader door topic logs</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Actie</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>"{0}" tag toegevoegd</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>topic gepind en gemarkeerd als aankondiging</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>naar {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>van {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>topic gepind</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>geplaatst door {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>"{0}" tag verwijderd</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>van {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>topic geontpind</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>geen logs gevonden...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Bericht verwijderd</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Topic verwijderd</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Topic titel veranderd</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Onderwerpsstemming gewijzigd</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Topic gekopieerd</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Uitgegeven tag</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Topic vergrendeld</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Berichten samengevoegd naar deze topic</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Topic verplaatst</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Topic gepind</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Bericht bewerkt</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Bericht hersteld</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Topic hersteld</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Gesplitste berichten verplaatst</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Berichten gesplitst</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Topic type ingesteld</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Topic type veranderd</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Topic ontgrendeld</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Topic geontpind</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Eigen topic vergrendeld</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Eigen topic ongrendeld</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Annuleren</value>

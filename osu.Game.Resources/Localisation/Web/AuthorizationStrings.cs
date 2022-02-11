@@ -140,6 +140,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsetMetadataNominated => new TranslatableString(getKey(@"beatmapset.metadata.nominated"), @"You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly.");
 
         /// <summary>
+        /// "This channel is for announcements only."
+        /// </summary>
+        public static LocalisableString ChatAnnnonceOnly => new TranslatableString(getKey(@"chat.annnonce_only"), @"This channel is for announcements only.");
+
+        /// <summary>
         /// "Cannot message a user that is blocking you or that you have blocked."
         /// </summary>
         public static LocalisableString ChatBlocked => new TranslatableString(getKey(@"chat.blocked"), @"Cannot message a user that is blocking you or that you have blocked.");
@@ -150,14 +155,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ChatFriendsOnly => new TranslatableString(getKey(@"chat.friends_only"), @"User is blocking messages from people not on their friends list.");
 
         /// <summary>
-        /// "That channel is currently moderated."
+        /// "This channel is currently moderated."
         /// </summary>
-        public static LocalisableString ChatModerated => new TranslatableString(getKey(@"chat.moderated"), @"That channel is currently moderated.");
+        public static LocalisableString ChatModerated => new TranslatableString(getKey(@"chat.moderated"), @"This channel is currently moderated.");
 
         /// <summary>
         /// "You do not have access to that channel."
         /// </summary>
         public static LocalisableString ChatNoAccess => new TranslatableString(getKey(@"chat.no_access"), @"You do not have access to that channel.");
+
+        /// <summary>
+        /// "The user may not be able to reply because you are only accepting messages from people on your friends list."
+        /// </summary>
+        public static LocalisableString ChatReceiveFriendsOnly => new TranslatableString(getKey(@"chat.receive_friends_only"), @"The user may not be able to reply because you are only accepting messages from people on your friends list.");
 
         /// <summary>
         /// "You cannot send messages while silenced, restricted or banned."
@@ -358,6 +368,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Only admin can view this forum."
         /// </summary>
         public static LocalisableString ForumViewAdminOnly => new TranslatableString(getKey(@"forum.view.admin_only"), @"Only admin can view this forum.");
+
+        /// <summary>
+        /// "Only score owner can pin score."
+        /// </summary>
+        public static LocalisableString ScorePinNotOwner => new TranslatableString(getKey(@"score.pin.not_owner"), @"Only score owner can pin score.");
+
+        /// <summary>
+        /// "Pinned too many scores."
+        /// </summary>
+        public static LocalisableString ScorePinTooMany => new TranslatableString(getKey(@"score.pin.too_many"), @"Pinned too many scores.");
 
         /// <summary>
         /// "User page is locked."

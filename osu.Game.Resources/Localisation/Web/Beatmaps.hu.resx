@@ -95,7 +95,7 @@
     <value>A beatmap megbeszélése meg lett tiltva.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Nem posztolhatsz beszélgetést, amíg némítva vagy.</value>
+    <value>Nem hozhatsz létre beszélgetést, amíg némítva vagy.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Komment-típus választása</value>
@@ -146,7 +146,7 @@
     <value>Biztos ki akarod nyitni?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Ez a poszt be fog kerülni az általános beatmap szett megbeszélésébe. A beatmap modolásához időbélyeggel kezdd az üzenetet (pl.: 00:12:345).</value>
+    <value>Ez a hozzászólás be fog kerülni az általános beatmap megbeszélésébe. A beatmap modolásához időbélyeggel kezdd az üzenetet (pl.: 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>Több időbélyeg modolásához több poszt szükséges (egy poszt egy időbélyeghez).</value>
@@ -155,7 +155,7 @@
     <value>Írj ide az Általános ({0}) részlegbe való posztoláshoz</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Ide írj az Általánosba posztoláshoz (Összes nehézség)</value>
+    <value>Ide írj az Általánosba való hozzászóláshoz (Összes nehézség)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Ide írj, hogy hozzászólj</value>
@@ -236,7 +236,7 @@
     <value>Mentetlen</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Az összes nehézséget tartalmazó posztra posztolni, nem lehet időjelölni.</value>
+    <value>Az "All difficulties"-ban lévő hozzászólásokat nem lehet időbélyegezni.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Ha {0} típussal fog kezdődni, akkor az idővonal alatt fog megjelenni.</value>
@@ -293,7 +293,7 @@
     <value>A beatmap {0} óta nem kapott frissítést, valószínűleg el lett hanyagolva a készítő által...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Ez a beatmap {0} lett loved!</value>
+    <value>Ez a beatmap {0} hozzá lett adva a szeretettek közé!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Ez a beatmap {0} lett rangsorolt!</value>
@@ -374,7 +374,7 @@
     <value>Love</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>Nehézség választása a kedvelteknek</value>
+    <value>Nehézség választása a szeretettnek</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Love-olod ezt a beatmap-et?</value>
@@ -410,7 +410,7 @@
     <value>Még mindig vannak megoldatlan problémák amelyeket először kezelni kell.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Ez a pálya ranglistázott lesz {0} napján, ha további problémák nem merülnek fel. Jelenleg a {1}. helyen áll a {2}.</value>
+    <value>Ez a pálya rangsorolt lesz {0} napján, ha további problémák nem merülnek fel. Jelenleg a {1}. helyen áll a {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>ranglistázási sorban</value>
@@ -514,6 +514,9 @@
   <data name="general.converts" xml:space="preserve">
     <value>Konvertált beatmap-ek tartalmazása</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Kiemelt előadók</value>
+  </data>
   <data name="general.follows" xml:space="preserve">
     <value>Követett készítők</value>
   </data>
@@ -542,7 +545,7 @@
     <value>Ranglistás</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>Szeretett</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>Saját mapjaim</value>

@@ -290,6 +290,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemChannelDefault => new TranslatableString(getKey(@"item.channel._"), @"Chat");
 
         /// <summary>
+        /// "New announcement"
+        /// </summary>
+        public static LocalisableString ItemChannelAnnouncementDefault => new TranslatableString(getKey(@"item.channel.announcement._"), @"New announcement");
+
+        /// <summary>
+        /// "{0} says &quot;{1}&quot;"
+        /// </summary>
+        public static LocalisableString ItemChannelAnnouncementAnnounceChannelAnnouncement(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.channel.announcement.announce.channel_announcement"), @"{0} says ""{1}""", username, title);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ItemChannelAnnouncementAnnounceChannelAnnouncementCompact(LocalisableString title) => new TranslatableString(getKey(@"item.channel.announcement.announce.channel_announcement_compact"), @"{0}", title);
+
+        /// <summary>
+        /// "Announcement from {0}"
+        /// </summary>
+        public static LocalisableString ItemChannelAnnouncementAnnounceChannelAnnouncementGroup(LocalisableString username) => new TranslatableString(getKey(@"item.channel.announcement.announce.channel_announcement_group"), @"Announcement from {0}", username);
+
+        /// <summary>
         /// "New message"
         /// </summary>
         public static LocalisableString ItemChannelChannelDefault => new TranslatableString(getKey(@"item.channel.channel._"), @"New message");
@@ -423,6 +443,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "New beatmaps by {0}"
         /// </summary>
         public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetNewGroup(LocalisableString username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_new_group"), @"New beatmaps by {0}", username);
+
+        /// <summary>
+        /// "Beatmap &quot;{0}&quot; revived by {1}"
+        /// </summary>
+        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetRevive(LocalisableString title, LocalisableString username) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_revive"), @"Beatmap ""{0}"" revived by {1}", title, username);
+
+        /// <summary>
+        /// "Beatmap &quot;{0}&quot; revived"
+        /// </summary>
+        public static LocalisableString ItemUserUserBeatmapsetNewUserBeatmapsetReviveCompact(LocalisableString title) => new TranslatableString(getKey(@"item.user.user_beatmapset_new.user_beatmapset_revive_compact"), @"Beatmap ""{0}"" revived", title);
 
         /// <summary>
         /// "Medals"

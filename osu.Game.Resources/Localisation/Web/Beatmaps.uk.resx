@@ -152,16 +152,16 @@
     <value>Для зміни декількох позначок, опублікуйте кілька позначок (одна публікація на позначку).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Напишіть тут, щоб розмістити повідомлення в Загальний ({0})</value>
+    <value>Пишіть тут, щоб розмістити обговорення в Загальний ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Введіть тут, щоб запостити в Загальний (Всі складності)</value>
+    <value>Пишіть тут, щоб розмістити обговорення в Загальний (Всі складності)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Введіть тут, щоб залишити відгук</value>
+    <value>Пишіть тут, щоб розмістити відгук</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Введіть тут, щоб запостити в шкалу часу ({0})</value>
+    <value>Пишіть тут, щоб розмістити обговорення на Шкалі часу ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Дискваліфікувати</value>
@@ -373,6 +373,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Улюблені</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Виберіть складність для улюблених</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Відмітити карту як улюблену?</value>
   </data>
@@ -407,7 +410,7 @@
     <value>Є ще деякі проблеми, які потребують вирішення.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Ця карта стане рейтинговою {0}, якщо ніяких проблем не буде знайдено. Вона #{1} в #{2}.</value>
+    <value>Ця карта стане рейтинговою {0}, якщо ніяких проблем не буде знайдено. Вона #{1} в {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>рейтинговому списку</value>
@@ -437,7 +440,7 @@
     <value>Більше параметрів пошуку</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Фільтрація по {0} потребує наявності osu!supporter</value>
+    <value>Сортування по {0} потребує наявності osu!supporter</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>немає результатів</value>
@@ -446,7 +449,7 @@
     <value>... на жаль, нічого не знайдено.</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
-    <value>додатково</value>
+    <value>Додатково</value>
   </data>
   <data name="listing.search.filters.general" xml:space="preserve">
     <value>Загальні</value>
@@ -473,49 +476,52 @@
     <value>Категорії</value>
   </data>
   <data name="listing.search.sorting.title" xml:space="preserve">
-    <value>назві</value>
+    <value>Назвою</value>
   </data>
   <data name="listing.search.sorting.artist" xml:space="preserve">
-    <value>виконавцю</value>
+    <value>Виконавцем</value>
   </data>
   <data name="listing.search.sorting.difficulty" xml:space="preserve">
-    <value>складністю</value>
+    <value>Складністю</value>
   </data>
   <data name="listing.search.sorting.favourites" xml:space="preserve">
     <value>Вибране</value>
   </data>
   <data name="listing.search.sorting.updated" xml:space="preserve">
-    <value>датою оновлення</value>
+    <value>Датою оновлення</value>
   </data>
   <data name="listing.search.sorting.ranked" xml:space="preserve">
-    <value>рангу</value>
+    <value>Датою рангу</value>
   </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
-    <value>рейтингу</value>
+    <value>Рейтингом</value>
   </data>
   <data name="listing.search.sorting.plays" xml:space="preserve">
-    <value>кількістю ігор</value>
+    <value>Кількістю ігор</value>
   </data>
   <data name="listing.search.sorting.relevance" xml:space="preserve">
-    <value>релевантності</value>
+    <value>Релевантністю</value>
   </data>
   <data name="listing.search.sorting.nominations" xml:space="preserve">
-    <value>номінаціями</value>
+    <value>Номінаціями</value>
   </data>
   <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
-    <value>Фільтрація по {0} вимагає {1}</value>
+    <value>Сортування за {0} вимагає {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>тег osu!supporter</value>
   </data>
   <data name="general.converts" xml:space="preserve">
-    <value>показувати конвертовані карти</value>
+    <value>Показувати конвертовані карти</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Вибрані артисти</value>
   </data>
   <data name="general.follows" xml:space="preserve">
     <value>Маппери на яких ви підписані</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
-    <value>рекомендована складність</value>
+    <value>Рекомендована складність</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Всі</value>
@@ -596,7 +602,7 @@
     <value>Джаз</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>Будь-які</value>
+    <value>Будь-яка</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Англійська</value>
@@ -638,7 +644,7 @@
     <value>Інше</value>
   </data>
   <data name="language.unspecified" xml:space="preserve">
-    <value>Не визначений</value>
+    <value>Не визначена</value>
   </data>
   <data name="nsfw.exclude" xml:space="preserve">
     <value>Приховати</value>

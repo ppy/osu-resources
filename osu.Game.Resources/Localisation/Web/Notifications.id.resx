@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="all_read" xml:space="preserve">
-    <value>Semua notifikasi telah dibaca!</value>
+    <value>Seluruh notifikasi telah dibaca!</value>
   </data>
   <data name="delete" xml:space="preserve">
     <value>Hapus {0}</value>
@@ -74,10 +74,10 @@
     <value>Tidak ada notifikasi</value>
   </data>
   <data name="see_all" xml:space="preserve">
-    <value>lihat semua notifikasi</value>
+    <value>Lihat riwayat notifikasi</value>
   </data>
   <data name="see_channel" xml:space="preserve">
-    <value>tuju obrolan</value>
+    <value>Buka jendela chat</value>
   </data>
   <data name="verifying" xml:space="preserve">
     <value>Harap verifikasi sesi Anda untuk dapat melihat notifikasi</value>
@@ -110,7 +110,7 @@
     <value>Guest difficulty</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Anda telah terdaftar sebagai pembuat tingkat kesulitan "{0}" pada beatmap "{1}"</value>
+    <value>Anda telah terdaftar sebagai pemilik tingkat kesulitan "{0}" pada beatmap "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
     <value>Anda telah terdaftar sebagai pemilik dari tingkat kesulitan "{0}"</value>
@@ -185,7 +185,7 @@
     <value>Beatmap telah mendapatkan nominasi</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>Beatmap "{0}" telah memperoleh jumlah nominasi yang diperlukan untuk proses ranking.</value>
+    <value>"{0}" telah memperoleh jumlah nominasi yang dibutuhkan untuk dapat memasuki antrian ranking</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
     <value>Beatmap telah memasuki antrian ranking</value>
@@ -212,19 +212,31 @@
     <value>Komentar baru</value>
   </data>
   <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
-    <value>{0} berkomentar "{1}" di topik "{2}"</value>
+    <value>{0} berkomentar "{1}" pada "{2}"</value>
   </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} berkomentar "{1}"</value>
   </data>
   <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
-    <value>{0} berkomentar "{1}" pada topik "{2}"</value>
+    <value>{0} membalas komentar yang Anda tulis pada "{1}" dengan "{2}"</value>
   </data>
   <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
-    <value>{0} berkomentar "{1}"</value>
+    <value>{0} membalas komentar Anda dengan "{1}"</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Pengumuman baru</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} mengatakan "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Pengumuman dari {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Pesan Baru</value>
@@ -245,16 +257,16 @@
     <value>Komentar baru</value>
   </data>
   <data name="item.build.comment.comment_new" xml:space="preserve">
-    <value>{0} berkomentar "{1}" pada topik "{2}"</value>
+    <value>{0} berkomentar "{1}" pada "{2}"</value>
   </data>
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
     <value>{0} berkomentar "{1}"</value>
   </data>
   <data name="item.build.comment.comment_reply" xml:space="preserve">
-    <value>{0} berkomentar "{1}" pada topik "{2}"</value>
+    <value>{0} membalas komentar yang Anda tulis pada "{1}" dengan "{2}"</value>
   </data>
   <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
-    <value>{0} berkomentar "{1}"</value>
+    <value>{0} membalas komentar Anda dengan "{1}"</value>
   </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Berita</value>
@@ -263,28 +275,28 @@
     <value>Komentar baru</value>
   </data>
   <data name="item.news_post.comment.comment_new" xml:space="preserve">
-    <value>{0} berkomentar "{1}" pada topik "{2}"</value>
+    <value>{0} berkomentar "{1}" pada "{2}"</value>
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
     <value>{0} berkomentar "{1}"</value>
   </data>
   <data name="item.news_post.comment.comment_reply" xml:space="preserve">
-    <value>{0} berkomentar "{1}" pada topik "{2}"</value>
+    <value>{0} membalas komentar yang Anda tulis pada "{1}" dengan "{2}"</value>
   </data>
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
-    <value>{0} berkomentar "{1}"</value>
+    <value>{0} membalas komentar Anda dengan "{1}"</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Topik forum</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply._" xml:space="preserve">
-    <value>Balasan baru pada thread forum</value>
+    <value>Balasan baru pada topik forum</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
-    <value>{0} memberikan balasan pada thread forum "{1}".</value>
+    <value>{0} membalas postingan Anda pada utas forum "{1}"</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
-    <value>{0} membalas</value>
+    <value>{0} membalas postingan Anda</value>
   </data>
   <data name="item.legacy_pm._" xml:space="preserve">
     <value>Forum PM</value>
@@ -303,6 +315,12 @@
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>Beatmap-beatmap baru oleh {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Beatmap "{0}" telah dipulihkan dari Graveyard oleh {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Beatmap "{0}" dipulihkan</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medali</value>
@@ -344,7 +362,7 @@
     <value>"{0}" telah mendapatkan nominasi</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" telah memperoleh jumlah nominasi yang dibutuhkan untuk memasuki antrian ranking</value>
+    <value>"{0}" telah memperoleh jumlah nominasi yang dibutuhkan untuk dapat memasuki antrian ranking</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" telah berstatus Ranked</value>

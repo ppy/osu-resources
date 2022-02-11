@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pinned_topics" xml:space="preserve">
-    <value>Připnuté témata</value>
+    <value>Připnutá témata</value>
   </data>
   <data name="slogan" xml:space="preserve">
     <value>je nebezpečné hrát sám.</value>
@@ -107,16 +107,22 @@
     <value>Opravdu chcete příspěvek obnovit?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
-    <value>Naposledy upravil {0} {1}, celkový počet úprav {2}.</value>
+    <value>Naposledy upravil {0} {1}, upraveno celkem {2} krát.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
     <value>publikováno {0}</value>
+  </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>příspěvek přidal {0}</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Odstranit příspěvek</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Upravit příspěvek</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Nahlásit příspěvek</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Obnovit příspěvek</value>
@@ -126,6 +132,9 @@
   </data>
   <data name="post.info.post_count" xml:space="preserve">
     <value>{0} příspěvek|{0} příspěvky|{0} příspěvků</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Autor tématu</value>
   </data>
   <data name="search.go_to_post" xml:space="preserve">
     <value>Přejít na příspěvek</value>
@@ -210,6 +219,36 @@
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
     <value>vrátit se o 10 příspěvků</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Akce</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Uživatel</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>z {0}</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>příspěvek přidal {0}</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>z {0}</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Smazaný příspěvek</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Smazané téma</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Změněný titulek tématu</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Upravený příspěvek</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Zrušit</value>

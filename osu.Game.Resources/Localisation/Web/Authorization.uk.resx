@@ -83,7 +83,7 @@
     <value>Не можна видалити дискусію з відповідями</value>
   </data>
   <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
-    <value>Ти досяг твого ліміту номінацій за день, спробуй завтра.</value>
+    <value>Ви досягли свого ліміту номінацій за день, спробуйте завтра.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
     <value>Помилка під час виконання цих дій, спробуйте оновити сторінку.</value>
@@ -95,10 +95,10 @@
     <value>Ви повинні вказати жанр та мову перед номінуванням.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Тільки автор теми та власник карти має дозвіл завершити спір.</value>
+    <value>Тільки автор теми та власник карти має дозвіл завершити обговорення.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Тільки власник карти або номінатор/член групи QAT має дозвіл залишати нотатки для мапперів.</value>
+    <value>Тільки власник карти або номінатор/член групи NAT має дозвіл залишати замітки для мапперів.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Не можу проголосувати за обговорення, проведене ботом</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Ви не можете змінювати метадані номінованим карти. Зв'яжіться з членом BN або NAT, якщо вважаєте, що вони вказані невірно.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Цей канал лише для оголошень.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Неможливо надіслати повідомлення користувачу, який заблокував вас або якого заблокували ви.</value>
   </data>
@@ -148,11 +151,14 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>У вас немає доступу до цього каналу.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Цей користувач, либонь, не зможе відповісти, оскільки ви приймаєте повідомлення лише від людей у своєму списку друзів.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Заглушені, обмежені, заблоковані користувачі не можуть надсилати повідомлення.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
-    <value>Ви не можете надсилати повідомлення, коли мовчете, обмежені або заблоковані.</value>
+    <value>Ви не можете надсилати повідомлення, коли заглушені, обмежені або заблоковані.</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Неможливо редагувати видалену публікацію.</value>
@@ -218,7 +224,7 @@
     <value>Будь ласка, увійдіть, щоб продовжити.</value>
   </data>
   <data name="forum.topic.reply.user.restricted" xml:space="preserve">
-    <value>Не можна відповісти поки аккаунт обмежений.</value>
+    <value>Не можна відповісти поки акаунт обмежений.</value>
   </data>
   <data name="forum.topic.reply.user.silenced" xml:space="preserve">
     <value>Не можна відповісти поки ви заглушені.</value>
@@ -248,7 +254,7 @@
     <value>Увійдіть, щоб проголосувати.</value>
   </data>
   <data name="forum.topic.vote.user.restricted" xml:space="preserve">
-    <value>Не можна голосувати поки аккаунт обмежений.</value>
+    <value>Не можна голосувати поки акаунт обмежений.</value>
   </data>
   <data name="forum.topic.vote.user.silenced" xml:space="preserve">
     <value>Не можна голосувати поки заглушений.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Тільки адміністратор може переглядати цей форум.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Тільки власник результату може його закріпити.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Закріплено занадто багато результатів.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Сторінку користувача заблоковано.</value>

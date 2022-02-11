@@ -110,7 +110,7 @@
     <value>Non puoi votare la tua discussione.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Puoi votare solo su discussioni di beatmap in sospeso.</value>
+    <value>Puoi votare solo su discussioni di beatmap in attesa.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Puoi eliminare solo i tuoi post.</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Non puoi modificare i metadata di una mappa nominata. Contatta un membro di BN o NAT se pensi che siano stati impostati in modo errato.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Questo canale è solamente per gli annunci.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Non puoi inviare messaggi ad un utente che ti sta bloccando o che hai bloccato.</value>
   </data>
@@ -143,10 +146,13 @@
     <value>L'utente sta bloccando i messaggi da chi non è nella sua lista amici.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
-    <value>Quel canale è attualmente moderato.</value>
+    <value>Questo canale è attualmente moderato.</value>
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Non hai accesso a quel canale.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>L'utente potrebbe non essere in grado di rispondere perché stai accettando messaggi solo da persone della tua lista amici.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Non puoi inviare messaggi mentre sei silenziato, limitato o bannato.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Solo gli amministratori possono vedere questo forum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Solo il proprietario del punteggio può fissarlo.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Hai già fissato troppi punteggi.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>La tua userpage è bloccata.</value>

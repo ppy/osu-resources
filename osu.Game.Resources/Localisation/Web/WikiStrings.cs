@@ -45,6 +45,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowSearch(LocalisableString link) => new TranslatableString(getKey(@"show.search"), @"Search existing pages for {0}.", link);
 
         /// <summary>
+        /// "This article is incomplete and waiting on someone to expand it."
+        /// </summary>
+        public static LocalisableString ShowStub => new TranslatableString(getKey(@"show.stub"), @"This article is incomplete and waiting on someone to expand it.");
+
+        /// <summary>
         /// "Contents"
         /// </summary>
         public static LocalisableString ShowToc => new TranslatableString(getKey(@"show.toc"), @"Contents");

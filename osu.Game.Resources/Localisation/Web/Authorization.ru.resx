@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Если карта номинирована, её метаданные нельзя менять. В случае ошибок свяжитесь с номинатором или членом NAT.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Этот канал предназначен только для объявлений.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Нельзя общаться с пользователем, который заблокировал вас (или наоборот, вы — его).</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>У вас нет доступа к этому каналу.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Пользователь может не ответить, потому что вы принимаете сообщения только от людей из вашего списка друзей.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Нельзя отправлять сообщения, пока у вас сайленс, или если вас ограничили или забанили.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Только администратор может просматривать этот форум.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Можно закреплять лишь только свои рекорды.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Закреплено слишком много рекордов.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Страница заблокирована.</value>

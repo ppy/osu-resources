@@ -79,6 +79,9 @@
   <data name="index.description" xml:space="preserve">
     <value>为了给 osu! 带来更多新的原创音乐，我们正在和一些艺术家合作。 osu! 团队选中了他们的一部分音乐，可以作为制作谱面的绝佳素材。部分艺术家还特别为 osu! 提供了高质量的独家曲目。&lt;br&gt;&lt;br&gt;在此列出了预先准备好，且获得了官方授权的 .osz 文件模板，允许在 osu! 及其周边内容中使用。</value>
   </data>
+  <data name="links.beatmaps" xml:space="preserve">
+    <value>osu! 谱面</value>
+  </data>
   <data name="links.osu" xml:space="preserve">
     <value>osu! 个人资料</value>
   </data>
@@ -91,16 +94,55 @@
   <data name="songs.count" xml:space="preserve">
     <value>{0} 首音乐</value>
   </data>
+  <data name="songs.original" xml:space="preserve">
+    <value>osu! 原创</value>
+  </data>
+  <data name="songs.original_badge" xml:space="preserve">
+    <value>原创</value>
+  </data>
   <data name="tracklist.title" xml:space="preserve">
     <value>标题</value>
   </data>
   <data name="tracklist.length" xml:space="preserve">
-    <value>时长</value>
+    <value>长度</value>
   </data>
   <data name="tracklist.bpm" xml:space="preserve">
     <value>BPM</value>
   </data>
   <data name="tracklist.genre" xml:space="preserve">
     <value>流派</value>
+  </data>
+  <data name="tracks.index._" xml:space="preserve">
+    <value>曲目搜索</value>
+  </data>
+  <data name="tracks.index.form.advanced" xml:space="preserve">
+    <value>高级搜索</value>
+  </data>
+  <data name="tracks.index.form.album" xml:space="preserve">
+    <value>专辑</value>
+  </data>
+  <data name="tracks.index.form.artist" xml:space="preserve">
+    <value>艺术家</value>
+  </data>
+  <data name="tracks.index.form.bpm_gte" xml:space="preserve">
+    <value>最低 BPM</value>
+  </data>
+  <data name="tracks.index.form.bpm_lte" xml:space="preserve">
+    <value>最高 BPM</value>
+  </data>
+  <data name="tracks.index.form.empty" xml:space="preserve">
+    <value>未找到符合条件的曲目。</value>
+  </data>
+  <data name="tracks.index.form.genre" xml:space="preserve">
+    <value>风格</value>
+  </data>
+  <data name="tracks.index.form.genre_all" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="tracks.index.form.length_gte" xml:space="preserve">
+    <value>时长下限</value>
+  </data>
+  <data name="tracks.index.form.length_lte" xml:space="preserve">
+    <value>时长上限</value>
   </data>
 </root>

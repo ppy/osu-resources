@@ -98,7 +98,7 @@
     <value>Horodatage</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Cette beatmap est actuellement verrouillée pour la discussion et ne peut pas être hypée</value>
+    <value>Cette beatmap est actuellement verrouillée et ne peut pas être hypée</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Vous devez être connecté pour hyper.</value>
@@ -107,7 +107,7 @@
     <value>Vous avez déjà hypé cette beatmap.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>Vous avez utilisé toute votre hype.</value>
+    <value>Vous avez utilisé tous vos hypes.</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
     <value>Cette beatmap ne peut pas être hypée</value>
@@ -131,10 +131,10 @@
     <value>Le message</value>
   </data>
   <data name="comment.deleted_parent" xml:space="preserve">
-    <value>Répondre à un commentaire supprimé n'est pas autorisé.</value>
+    <value>Vous ne pouvez pas répondre à un commentaire supprimé.</value>
   </data>
   <data name="comment.top_only" xml:space="preserve">
-    <value>Il n'est pas autorisé d'épingler un commentaire.</value>
+    <value>Vous ne pouvez pas épingler un commentaire.</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>Le message</value>
@@ -179,7 +179,7 @@
     <value>Impossible d’éditer un sondage après plus de {0} heures.</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
-    <value>Impossible de masquer les résultats d'un sondage qui ne se termine jamais.</value>
+    <value>Impossible de masquer les résultats d'un sondage à durée infinie.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Le nombre de réponses par utilisateur ne devrait pas dépasser le nombre de réponses.</value>
@@ -203,7 +203,7 @@
     <value>Vous avez choisi trop de réponses.</value>
   </data>
   <data name="oauth.client.too_many" xml:space="preserve">
-    <value>Nombre maximal d'applications OAuth autorisées dépassé.</value>
+    <value>Vous avez dépassé le nombre maximal d'applications OAuth.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Veuillez saisir une URL valide.</value>
@@ -212,10 +212,10 @@
     <value>Nom de l'application</value>
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
-    <value>URL de retour de l'application</value>
+    <value>Callback URL de l'application</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
-    <value>Le mot de passe ne doit pas contenir de nom d'utilisateur.</value>
+    <value>Le mot de passe ne doit pas contenir votre nom d'utilisateur.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>Adresse email déjà utilisée.</value>
@@ -224,7 +224,7 @@
     <value>Adresse e-mail non autorisée.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
-    <value>Le pays n'est pas dans la base de données.</value>
+    <value>Ce pays n'est pas dans la base de données.</value>
   </data>
   <data name="user.invalid_discord" xml:space="preserve">
     <value>Nom d'utilisateur Discord invalide.</value>
@@ -248,13 +248,13 @@
     <value>Ce nom d'utilisateur sera disponible dans quelques instants !</value>
   </data>
   <data name="user.username_invalid_characters" xml:space="preserve">
-    <value>Le nom d'utilisateur contient des caractères invalides.</value>
+    <value>Ce nom d'utilisateur contient des caractères invalides.</value>
   </data>
   <data name="user.username_in_use" xml:space="preserve">
-    <value>Le nom d'utilisateur est déjà utilisé !</value>
+    <value>Ce nom d'utilisateur est déjà utilisé !</value>
   </data>
   <data name="user.username_locked" xml:space="preserve">
-    <value>Nom d'utilisateur déjà utilisé !</value>
+    <value>Ce nom d'utilisateur est déjà utilisé !</value>
   </data>
   <data name="user.username_no_space_userscore_mix" xml:space="preserve">
     <value>Merci d'utiliser soit des underscores ou des espaces, pas les deux ensemble !</value>
@@ -266,10 +266,10 @@
     <value>Ce nom d'utilisateur n'est pas autorisé.</value>
   </data>
   <data name="user.username_too_short" xml:space="preserve">
-    <value>Le nom d'utilisateur est trop court.</value>
+    <value>Ce nom d'utilisateur est trop court.</value>
   </data>
   <data name="user.username_too_long" xml:space="preserve">
-    <value>Le nom d'utilisateur est trop long.</value>
+    <value>Ce nom d'utilisateur est trop long.</value>
   </data>
   <data name="user.weak" xml:space="preserve">
     <value>Mot de passe interdit.</value>
@@ -278,10 +278,10 @@
     <value>Le mot de passe actuel est incorrect.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>La confirmation de l'email ne correspond pas.</value>
+    <value>Les deux adresses email ne correspondent pas.</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
-    <value>La confirmation du mot de passe ne correspond pas.</value>
+    <value>Les deux mots de passe ne correspondent pas.</value>
   </data>
   <data name="user.too_long" xml:space="preserve">
     <value>Longueur maximale atteinte - elle est de {0} caractères.</value>
@@ -296,16 +296,19 @@
     <value>Mot de passe</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
-    <value>Vous ne pouvez pas changer votre nom d'utilisateur pendant que vous êtes restreint.</value>
+    <value>Vous ne pouvez pas changer votre nom d'utilisateur lorsque votre compte est restreint.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Vous devez avoir {0} pour changer votre nom !</value>
+    <value>Vous devez avoir eu {0} pour changer votre nom !</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
-    <value>supporté osu!</value>
+    <value>un osu!supporter</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
-    <value>C'est déjà ton nom d'utilisateur !</value>
+    <value>C'est déjà votre nom d'utilisateur en fait...</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Les beatmaps classées ne peuvent pas être signalées</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} n'est pas valide pour ce type de signalement.</value>

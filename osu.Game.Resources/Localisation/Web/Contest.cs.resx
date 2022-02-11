@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="header.small" xml:space="preserve">
-    <value>Soutěž i jinak, než jen klikáním kruhů.</value>
+    <value>Soutěž i jinak, než jen klikáním na kruhy.</value>
   </data>
   <data name="header.large" xml:space="preserve">
     <value>Komunitní soutěže</value>
@@ -68,13 +68,16 @@
     <value>výpis</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
-    <value>Pro hlasování se prosím přihlaš.</value>
+    <value>Pro hlasování se prosím přihlas.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
     <value>Hlasování pro tuto soutěž bylo ukončeno</value>
   </data>
+  <data name="voting.show_voted_only" xml:space="preserve">
+    <value>Zobrazit odhlasované</value>
+  </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>Vypadá to, že nemáš zahranou žádnou mapu, která je kvalifikovaná na tuto soutěž!</value>
+    <value>Vypadá to, že nemáš odehrané žádné beatmapy, které jsou kvalifikované na tuto soutěž!</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>Hlasovat</value>
@@ -89,10 +92,10 @@
     <value>vstup</value>
   </data>
   <data name="entry.login_required" xml:space="preserve">
-    <value>Přihlaš se prosím pro vstup do soutěže.</value>
+    <value>Pro vstup do soutěže se prosím přihlas.</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
-    <value>Nemůžeš se zůčastnit soutěže, když je tvůj účet v omezeném režimu nebo ztlumený.</value>
+    <value>Nemůžeš se účastnit soutěží, zatímco je tvůj účet omezený nebo ztlumený.</value>
   </data>
   <data name="entry.preparation" xml:space="preserve">
     <value>Tuto soutěž právě připravujeme. Prosím čekej trpělivě!</value>
@@ -104,7 +107,7 @@
     <value>Stáhnout .osz</value>
   </data>
   <data name="entry.wrong_type.art" xml:space="preserve">
-    <value>Pouze .jpg a ,png soubory jsou přijímány pro tuto soutěž.</value>
+    <value>Pouze .jpg a .png soubory jsou přijímány pro tuto soutěž.</value>
   </data>
   <data name="entry.wrong_type.beatmap" xml:space="preserve">
     <value>Pouze .osu soubory jsou přijímány pro tuto soutěž.</value>
@@ -122,27 +125,30 @@
     <value>hlasy</value>
   </data>
   <data name="vote.count" xml:space="preserve">
-    <value>{0} hlas|{0} hlasů</value>
+    <value>{0} hlas|{0} hlasy|{0} hlasů</value>
   </data>
   <data name="vote.points" xml:space="preserve">
-    <value>{0} bod|{0} bodů</value>
+    <value>{0} bod|{0} body|{0} bodů</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Ukončeno {0}</value>
+  </data>
+  <data name="dates.ended_no_date" xml:space="preserve">
+    <value>Ukončeno</value>
   </data>
   <data name="dates.starts._" xml:space="preserve">
     <value>Začíná {0}</value>
   </data>
   <data name="dates.starts.soon" xml:space="preserve">
-    <value>soon™</value>
+    <value>brzy™</value>
   </data>
   <data name="states.entry" xml:space="preserve">
-    <value>Vstup Otevřen</value>
+    <value>Vstup otevřen</value>
   </data>
   <data name="states.voting" xml:space="preserve">
-    <value>Hlasování Začalo</value>
+    <value>Hlasování začalo</value>
   </data>
   <data name="states.results" xml:space="preserve">
-    <value>Výsledky Vyhlášeny</value>
+    <value>Výsledky vyhlášeny</value>
   </data>
 </root>

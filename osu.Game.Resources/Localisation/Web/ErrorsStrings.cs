@@ -75,6 +75,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchDefault => new TranslatableString(getKey(@"search.default"), @"Could not get any results, try again later.");
 
         /// <summary>
+        /// "Invalid cursor parameter specified."
+        /// </summary>
+        public static LocalisableString SearchInvalidCursorException => new TranslatableString(getKey(@"search.invalid_cursor_exception"), @"Invalid cursor parameter specified.");
+
+        /// <summary>
         /// "Search is currently busier than usual, try again later."
         /// </summary>
         public static LocalisableString SearchOperationTimeoutException => new TranslatableString(getKey(@"search.operation_timeout_exception"), @"Search is currently busier than usual, try again later.");

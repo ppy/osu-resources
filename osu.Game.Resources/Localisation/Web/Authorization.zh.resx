@@ -136,17 +136,23 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>您不能更改已提名的谱面信息。如果您认为其不正确，请联系谱面管理团队或质量保障团队进行更改。</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>此频道仅用于通知。</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>无法向你已拉黑的用户发消息，或者你已经被对方拉黑了。</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
-    <value>用户阻止了来自非好友的消息。</value>
+    <value>用户拒收了来自陌生人的消息。</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
     <value>该频道现在正在被管制中。</value>
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>你没有权限访问该频道。</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>此用户可能无法回复你，因为你设置了只接受来自好友的消息。</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>账户被禁言、受限或封禁期间不能发消息。</value>
@@ -170,7 +176,7 @@
     <value>没有权限编辑该板块。</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>只有最后的回复可以被删除。</value>
+    <value>只能删除最后一条回复。</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
     <value>无法删除已锁定主题的回复。</value>
@@ -200,7 +206,7 @@
     <value>在发帖之前先玩上两局吧！如果你在游戏时遇到问题，请在 Help 或 中文 版块发帖求助。</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>如果你想发更多的帖子，再多玩几把吧！如果你仍然在游戏时遇到问题请邮件联系 support@ppy.sh</value>
+    <value>如果你想发更多的帖子，再多玩几局吧！如果你在游戏时仍遇到问题，请发送邮件至 support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
     <value>请编辑您的最后一条评论，而不是再发一遍。</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>该板块仅限管理员查看。</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>只有获得此成绩的玩家才可以置顶它。</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>已置顶的成绩过多</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>个人页面被锁定。</value>

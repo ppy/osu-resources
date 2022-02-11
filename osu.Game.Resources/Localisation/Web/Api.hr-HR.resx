@@ -58,7 +58,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="error.chat.empty" xml:space="preserve">
+    <value>Nije moguće poslati praznu poruku.</value>
+  </data>
   <data name="error.chat.limit_exceeded" xml:space="preserve">
     <value>Prebrzo šaljete poruke, molim vas sačekajte trenutak prije nego što pokušate ponovo.</value>
+  </data>
+  <data name="error.chat.too_long" xml:space="preserve">
+    <value>Poruka koju pokušavaš poslati je preduga.</value>
+  </data>
+  <data name="scopes.bot" xml:space="preserve">
+    <value>Se ponašati kao chat bot.</value>
+  </data>
+  <data name="scopes.identify" xml:space="preserve">
+    <value>Tebe identificirati i očitati tvoj javni profil.</value>
+  </data>
+  <data name="scopes.chat.write" xml:space="preserve">
+    <value>Slati poruke u tvoje ime.</value>
+  </data>
+  <data name="scopes.forum.write" xml:space="preserve">
+    <value>Forum teme i objave u tvoje ime kreirati i urediti.</value>
+  </data>
+  <data name="scopes.friends.read" xml:space="preserve">
+    <value>Vidjeti koga pratiš.</value>
+  </data>
+  <data name="scopes.public" xml:space="preserve">
+    <value>Čitati javne podatke u tvoje ime.</value>
   </data>
 </root>

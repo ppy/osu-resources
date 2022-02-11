@@ -98,7 +98,7 @@
     <value>Somente o autor da discussão e o dono do beatmap podem resolver uma discussão.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Apenas o criador do beatmap ou nominator/membros QAT podem publicar notas do mapeador.</value>
+    <value>Apenas o criador do beatmap ou nominator/membros QAT podem publicar notas do mapper.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Não é possível votar na discussão feita pelo bot</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Você não pode alterar os metadados de um mapa nomeado. Entre em contato com um membro do BN ou NAT se você acha que ele está definido incorretamente.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Este canal é apenas para avisos.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Não é possível enviar uma mensagem para um usuário que foi bloqueado ou te bloqueou.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Você não tem acesso a esse canal.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>O usuário pode não ser capaz de te responder, porque você só está aceitando mensagens de pessoas em sua lista de amigos.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Você não pode enviar mensagens enquanto silenciado, restrito ou banido.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Apenas administradores podem visualizar este fórum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Somente o proprietário da pontuação pode fixar sua pontuação.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Muitas pontuações fixadas.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>A página do usuário está trancada.</value>

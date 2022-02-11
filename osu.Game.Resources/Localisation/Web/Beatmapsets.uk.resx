@@ -62,7 +62,7 @@
     <value>Ця карта тимчасово недоступна для завантаження.</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
-    <value>Деякі частини цієї карти були видалені на вимогу учасника або правовласників.</value>
+    <value>Деякі частини цієї карти були видалені за вимоги автора або правовласників.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
     <value>Натисніть тут для отримання більш детальної інформації.</value>
@@ -73,8 +73,11 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Повільніше, грайте більше.</value>
   </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Вибрані артисти </value>
+  </data>
   <data name="index.title" xml:space="preserve">
-    <value>Бібліотека мап</value>
+    <value>Список бiтмап</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Бітмапи</value>
@@ -98,7 +101,7 @@
     <value>Гібридний набір біт-карт вимагає від вас принаймні одного режиму відтворення, на який висуватимуться.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>Ви не маєте дозволу призначати для режиму мод: {0}</value>
+    <value>Ви не маєте дозволу номінувати для режиму: {0}</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
     <value>Ви повинні бути повноправним номінатором, щоб виконати цю кваліфікаційну номінацію.</value>
@@ -107,25 +110,25 @@
     <value>Вимога щодо номінації вже виконана.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>Ви впевнені, що хочете призначити цю Beatmap?</value>
+    <value>Ви впевнені, що хочете номінувати цю карту?</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
-    <value>Номінувати Beatmap</value>
+    <value>Номінувати карту</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>Примітка: Ви можете номінувати лише один раз, тому, будь ласка, переконайтеся, що ви призначаєте всі ігрові режими, які ви плануєте</value>
+    <value>примітка: Ви можете номінувати лише один раз, тому, будь ласка, переконайтеся, що ви номінуєте всі режими, які плануєте</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Номінувати для яких режимів?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>Явний</value>
+    <value>18+</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Обговорення</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
-    <value>за :виконавцем</value>
+    <value>за {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Додати в обране</value>
@@ -182,7 +185,7 @@
     <value>У вас занадто багато обраних карт! Видаліть деякі з них і спробуйте знову.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Хайпніть цю мапу, якщо вам сподобалося в неї грати, для того щоб допомогти їй отримати статус&lt;strong&gt;Рангової&lt;/strong&gt;.</value>
+    <value>Хайпніть цю мапу, якщо вам сподобалося в неї грати, щоб допомогти їй отримати статус &lt;strong&gt;Рангової&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Ця карта зараз {0}.</value>
@@ -194,7 +197,7 @@
     <value>кваліфікована</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
-    <value>робота в процесі</value>
+    <value>в процесі створення</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
     <value>Якщо ви знайшли помилку в цій карті, будь ласка, позбавите її кваліфікації {0}.</value>
@@ -221,7 +224,7 @@
     <value>Дані все ще обробляються...</value>
   </data>
   <data name="show.info.nsfw" xml:space="preserve">
-    <value>Явний контент</value>
+    <value> Непристойний вміст</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Шкала провалів</value>
@@ -242,10 +245,10 @@
     <value>Ця карта містить відео</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Ця бітова карта містить явний, образливий або тривожний вміст. Хотіли б ви все-таки переглянути його?</value>
+    <value>Ця бітова карта містить непристойний, образливий або тривожний вміст. Хотіли б ви все-таки переглянути його?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
-    <value>Явний Контент</value>
+    <value>Непристойний вміст</value>
   </data>
   <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
     <value>Вимкнути попередження</value>
@@ -260,7 +263,7 @@
     <value>досягнуто {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
-    <value>Рейтинг країн</value>
+    <value>Рейтинг країни</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Рейтинг серед друзів</value>
@@ -272,7 +275,7 @@
     <value>Натисніть &lt;a href="{0}"&gt;сюди&lt;/a&gt; для перегляду всіх можливостей які ви отримаєте!</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
-    <value>Ви повинні мати osu!прихильник для використання даної можливості!</value>
+    <value>Ви повинні мати osu!supporter для доступу до рейтингу по друзям, країні та модам!</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Табло</value>
@@ -289,17 +292,20 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Модифікатори</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Закріпити</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Гравець</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>Ранг</value>
   </data>
-  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
-    <value>Всього очок</value>
-  </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Очки</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Всього очок</value>
   </data>
   <data name="show.scoreboard.headers.time" xml:space="preserve">
     <value>Час</value>
@@ -344,7 +350,7 @@
     <value>Складність</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Тривалість</value>
+    <value>Тривалість (Не враховуючи перерв {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>

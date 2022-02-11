@@ -226,6 +226,18 @@
   <data name="item.channel._" xml:space="preserve">
     <value>Чат</value>
   </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Нове оголошення</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} сказав "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Оголошення від {0}</value>
+  </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Нове повідомлення</value>
   </data>
@@ -303,6 +315,12 @@
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>Нова бітмапа від {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Мапа "{0}" була відновлена {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Beatmap "{0}" відновлена</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Досягнення</value>

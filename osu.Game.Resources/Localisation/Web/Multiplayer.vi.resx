@@ -58,20 +58,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty" xml:space="preserve">
-    <value>Không osu!(lazer) trò chơi nhiều người chơi chưa chơi!</value>
+  <data name="empty.playlists" xml:space="preserve">
+    <value>danh sách phát</value>
+  </data>
+  <data name="empty.realtime" xml:space="preserve">
+    <value>nhiều người chơi</value>
   </data>
   <data name="room.hosted_by" xml:space="preserve">
-    <value>Máy chủ bởi {0}</value>
+    <value>chủ phòng {0}</value>
+  </data>
+  <data name="room.invalid_password" xml:space="preserve">
+    <value>Mật khẩu phòng không đúng</value>
   </data>
   <data name="room.map_count" xml:space="preserve">
-    <value>{0} bản_đồ|{0} bản đồ</value>
+    <value>{0} map</value>
   </data>
   <data name="room.player_count" xml:space="preserve">
     <value>{0} người_chơi|{0} người chơi</value>
   </data>
   <data name="room.time_left" xml:space="preserve">
     <value>{0} thời gian còn lại</value>
+  </data>
+  <data name="room.errors.duration_too_long" xml:space="preserve">
+    <value>Thời lượng quá dài. </value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>đang Hoạt Động</value>

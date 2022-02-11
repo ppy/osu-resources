@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Échec pendant l'actualisation du vote</value>
+    <value>Impossible de modifier le vote</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>accorder le kudosu</value>
@@ -83,7 +83,7 @@
     <value>Dernière modification par {0} il y a {1}.</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>Difficulté de l'invité par {0}</value>
+    <value>Guest difficulty par {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Le kudosu a été refusé pour ce post.</value>
@@ -95,7 +95,7 @@
     <value>La discussion pour cette beatmap a été désactivée.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Impossible de publier la discussion en étant réduit au silence.</value>
+    <value>Impossible de publier en étant réduit au silence.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Sélectionnez un type de commentaire</value>
@@ -239,7 +239,7 @@
     <value>Les messages sur "Toutes les difficultés" ne peuvent pas être horodatés.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Si {0} commence par un horodatage, il sera affiché sous la chronologie.</value>
+    <value>Si {0} commence par un timestamp, il sera affiché sous la timeline.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>insérer un paragraphe</value>
@@ -293,13 +293,13 @@
     <value>Cette beatmap n'a pas été modifiée depuis {0} et a sûrement été abandonnée par son créateur...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Cette beatmap a été ajouté à loved le {0} !</value>
+    <value>Cette beatmap a été ajoutée à la catégorie Loved le {0} !</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Cette beatmap a été classée le {0} !</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Note: Cette beatmap a été marquée comme en cours de travail par son créateur.</value>
+    <value>Remarque : Cette beatmap a été marquée comme en cours de travail par son créateur.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Pas encore de votes négatifs</value>
@@ -332,7 +332,7 @@
     <value>Vous obtiendrez un point de hype dans {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Vous avez {0} hypes restants.</value>
+    <value>Il vous reste {0} hypes.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
     <value>Hype: {0}/{1}</value>
@@ -350,7 +350,7 @@
     <value>Supprimer</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>Êtes-vous sûr ? La beatmap sera supprimé et vous serez redirigé vers votre profil.</value>
+    <value>Êtes-vous sûr ? La beatmap sera supprimée et vous serez redirigé vers votre profil.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
     <value>Êtes-vous sûr ? La beatmap sera supprimée et vous serez redirigé vers le profil de l'utilisateur.</value>
@@ -365,25 +365,25 @@
     <value>aucune raison spécifiée</value>
   </data>
   <data name="nominations.disqualify" xml:space="preserve">
-    <value>Disqualifiée</value>
+    <value>Disqualifier</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
-    <value>Erreur lors de l'action, merci de réessayer.</value>
+    <value>Une erreur s'est produite, essayez de rafraîchir la page.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>Aimer</value>
+    <value>Love</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
     <value>Choisissez la difficulté pour loved</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>Vous aimez cette beatmap ?</value>
+    <value>Voulez-vous promouvoir cette beatmap à la catégorie Loved ?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>Nominer</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Nominer cette beatmap?</value>
+    <value>Nominer cette beatmap ?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nominée par {0}</value>
@@ -392,10 +392,10 @@
     <value>Il n'y a pas assez de hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Retirer de Loved</value>
+    <value>Retirer de la catégorie Loved</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Raison pour laquelle il a été retiré de Loved :</value>
+    <value>Raison pour laquelle cette beatmap a été retirée de la catégorie Loved :</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominations: {0}/{1}</value>
@@ -407,10 +407,10 @@
     <value>Statut de la nomination</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
-    <value>Il y a encore des questions non résolues qui doivent être traitées en priorité.</value>
+    <value>Il y a encore des problèmes non résolus qui doivent être traités en priorité.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Cette map est estimée à être classée le {0} si aucun problème n'a été trouvé. Elle est #{1} dans la {2}.</value>
+    <value>Cette beatmap devrait être classée le {0} si aucun problème n'est trouvé. Elle est #{1} dans la {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>file d'attente de classement</value>
@@ -422,13 +422,13 @@
     <value>Le processus de nomination a été réinitialisé {0} par {1} avec le nouveau problème {2} ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>Disqualifiée le {0} par {1} avec le nouveau problème {2} ({3}).</value>
+    <value>Disqualifiée {0} par {1} avec le nouveau problème {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Êtes-vous sûr ? Poster un nouveau problème va réinitialiser le processus de nomination.</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Êtes-vous sûr? Cela va supprimer la beatmap de la qualification et réinitialiser le processus de nomination.</value>
+    <value>Êtes-vous sûr ? Cela va disqualifier la beatmap et réinitialiser le processus de nomination.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>tapez des mots-clés...</value>
@@ -470,7 +470,7 @@
     <value>Jouée</value>
   </data>
   <data name="listing.search.filters.rank" xml:space="preserve">
-    <value>Rang Atteint</value>
+    <value>Rang Obtenu</value>
   </data>
   <data name="listing.search.filters.status" xml:space="preserve">
     <value>Catégories</value>
@@ -514,8 +514,11 @@
   <data name="general.converts" xml:space="preserve">
     <value>Inclure les beatmaps converties</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Featured artists</value>
+  </data>
   <data name="general.follows" xml:space="preserve">
-    <value>Mappeurs abonnés</value>
+    <value>Mappeurs suivis</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Difficulté recommandée</value>
@@ -659,22 +662,22 @@
     <value>Non jouée</value>
   </data>
   <data name="extra.video" xml:space="preserve">
-    <value>Possède une vidéo</value>
+    <value>Avec vidéo</value>
   </data>
   <data name="extra.storyboard" xml:space="preserve">
-    <value>Possède un storyboard</value>
+    <value>Avec storyboard</value>
   </data>
   <data name="rank.any" xml:space="preserve">
     <value>Tous</value>
   </data>
   <data name="rank.xh" xml:space="preserve">
-    <value>SS argenté</value>
+    <value>SS d'argent</value>
   </data>
   <data name="rank.sh" xml:space="preserve">
-    <value>S argenté</value>
+    <value>S d'argent</value>
   </data>
   <data name="panel.playcount" xml:space="preserve">
-    <value>Nombre de joueurs : {0}</value>
+    <value>Nombre de parties : {0}</value>
   </data>
   <data name="panel.favourites" xml:space="preserve">
     <value>Favorites : {0}</value>

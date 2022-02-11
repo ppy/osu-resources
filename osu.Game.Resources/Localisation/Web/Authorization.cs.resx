@@ -92,7 +92,7 @@
     <value>Nelze nominovat vlastní beatmapu.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>Před jmenováním musíte nastavit žánr a jazyk.</value>
+    <value>Před nominováním musíte nastavit žánr a jazyk.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>Pouze zakladatel vlákna a vlastník beatmapy může označit diskusi za vyřešenou.</value>
@@ -134,7 +134,7 @@
     <value>Tato beatmapa je zablokována od diskuze.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Nemůžete změnit informace nominované mapy. Pokud si myslíte že je nastavena nesprávně, kontaktujte BN nebo NAT člena.</value>
+    <value>Nemůžete změnit metadata nominované beatmapy. Pokud si myslíte, že jsou nastavena nesprávně, kontaktujte člena BN nebo NAT.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Nemůžete napsat uživateli, kterého máte buď zablokovaného nebo vás má v zablokovaných.</value>
@@ -149,6 +149,9 @@
     <value>Nemáte přístup k tomu kanálu.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
+    <value>Nemůžete posílat zprávy, když jste umlčen, omezen nebo zabanován.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
     <value>Nemůžete posílat zprávy, když jste umlčen, omezen nebo zabanován.</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
@@ -224,7 +227,7 @@
     <value>K vybranému fóru je vyžadován přístup.</value>
   </data>
   <data name="forum.topic.store.no_permission" xml:space="preserve">
-    <value>Žádná oprávnění k vytvoření nového tématu.</value>
+    <value>Nemáte oprávnění na vytvoření nového tématu.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
     <value>Fórum je uzavřeno a další příspěvky se už nesmí přidávat.</value>

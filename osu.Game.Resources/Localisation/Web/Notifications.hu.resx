@@ -101,7 +101,7 @@
     <value>verziók</value>
   </data>
   <data name="filters.channel" xml:space="preserve">
-    <value>chat</value>
+    <value>csevegés</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
@@ -131,7 +131,7 @@
     <value>Új poszt a "{0}"-on {1}{2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Új poszt {0} által: "{1}"</value>
+    <value>Új hozzászólás {0} által: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Új poszt {0} által</value>
@@ -150,7 +150,7 @@
     <value>A beszélgetést feloldották</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>Rankedelési probléma a beatmapen</value>
+    <value>Kvalifikált beatmap probléma</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>{0} által jelentve lett itt: "{1}": "{2}"</value>
@@ -174,40 +174,40 @@
     <value>A beatmap diszkvalifikálva lett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>Ez a map kedvelt kategóriába lépett: "{0}"</value>
+    <value>"{0}" promotálva lett szeretetté</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Ez a map kedvelt kategóriába lépett</value>
+    <value>Beatmap promotálva szeretetté</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>Ez a beatmap rankedelt lett: "{0}"</value>
+    <value>Nominálva lett "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>A beatmap rankedelt lett</value>
+    <value>A beatmap nominált lett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" elért annyi szavazatot hogy rankedelési státuszba lépett</value>
+    <value>"{0}" elért annyi nominálást, hogy rangsorolási sorba lépett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>A beatmap rankolási sorba lépett</value>
+    <value>A beatmap rangsorolási sorba lépett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>{0} rankedelt lett</value>
+    <value>{0} rangsorolt lett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>A beatmap rankedelt lett</value>
+    <value>A beatmap rangsorolt lett</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>Ez a map el lett távolítva a kedvelt kategóriából{0}</value>
+    <value>"{0}" el lett távolítva Szeretettből</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Ez a beatmap el lett távolítva a kedvelt kategóriából</value>
+    <value>Ez a beatmap el lett távolítva a Szeretett kategóriából</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>Rankolás elutasítva ezen: "{0}"</value>
+    <value>"{0}" nominálása vissza lett állítva</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
-    <value>Rankolás elutasítva</value>
+    <value>Nominálás visszaállítva</value>
   </data>
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Új hozzászólás</value>
@@ -303,7 +303,13 @@
     <value>Új beatmap: "{0}"</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
-    <value>Új beatmap-ek {0} által</value>
+    <value>Új beatmapek {0} által</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>"{0}" beatmap felélesztve {1} által</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>"{0}" beatmap felélesztve</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medálok</value>
@@ -321,43 +327,43 @@
     <value>Medálok feloldva!</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Mostantól vendégje vagy "{0}" beatmap-nek</value>
+    <value>Mostantól vendégje vagy "{0}" beatmapnek</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>A hozzászolás le lett tiltva ezen a beamapen:{0}</value>
+    <value>A hozzászólás le lett tiltva ezen a beamapen: {0}</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
     <value>A hozzászólás frissült a következőn: {0}</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>A hozzászolás elérhető lett ezen a beatmapen:{0}</value>
+    <value>A hozzászólás elérhető lett ezen a beatmapen: {0}</value>
   </data>
   <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>Egy új probléma jelentve lett itt:{0}</value>
+    <value>Egy új probléma jelentve lett itt: {0}</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>"{0}" dalt diszkvalifikálták</value>
+    <value>"{0}" diszkvalifikált lett</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" dalt kedvelt kategóriába került</value>
+    <value>"{0}" promotálva lett szeretetté</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>Nominálva lett "{0}"</value>
+    <value>"{0}" nominálva lett</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" elért annyi szavazatot hogy rankedelési státuszba lépett</value>
+    <value>"{0}" elért annyi nominációt hogy rangsorolási sorba került</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>{0} rankedelt lett</value>
+    <value>{0} rangsorolt lett</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>Ez a map el lett távolítva a kedvelt kategóriából{0}</value>
+    <value>"{0}" el lett távolítva Szeretettből</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>"{0}" nominálása vissza lett állítva</value>
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
-    <value> Új kommentek jelentek meg ezen a beatmapen:{0}</value>
+    <value> Új kommentek jelentek meg ezen a beatmapen: {0}</value>
   </data>
   <data name="mail.channel.channel.pm" xml:space="preserve">
     <value>Új üzenetet kaptál tőle:{0}</value>
@@ -378,6 +384,6 @@
     <value>Feloldottál egy új medált! "{0}"</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>{0} új beatmap-eket hozott létre</value>
+    <value>{0} új beatmapeket hozott létre</value>
   </data>
 </root>

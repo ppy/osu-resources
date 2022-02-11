@@ -64,6 +64,12 @@
   <data name="defaults.page_description" xml:space="preserve">
     <value>osu! - Rytmi on vain klikkauksen päässä! Varustettuna Ouendan/EBA ja Taikosta tutuilla sekä alkuperäisillä pelimuodoilla ja täysin toiminnallisella tasoeditorilla.</value>
   </data>
+  <data name="header.admin.beatmapset" xml:space="preserve">
+    <value>beatmapsetti</value>
+  </data>
+  <data name="header.admin.beatmapset_covers" xml:space="preserve">
+    <value>beatmapsettien kannet</value>
+  </data>
   <data name="header.admin.contest" xml:space="preserve">
     <value>kilpailu</value>
   </data>
@@ -72,9 +78,6 @@
   </data>
   <data name="header.admin.root" xml:space="preserve">
     <value>konsoli</value>
-  </data>
-  <data name="header.admin.store_orders" xml:space="preserve">
-    <value>kaupan ylläpitäjä</value>
   </data>
   <data name="header.artists.index" xml:space="preserve">
     <value>listaus</value>
@@ -86,7 +89,7 @@
     <value>indeksi</value>
   </data>
   <data name="header.help.sitemap" xml:space="preserve">
-    <value>Sivukartta</value>
+    <value>Sivustokartta</value>
   </data>
   <data name="header.store.cart" xml:space="preserve">
     <value>ostoskori</value>
@@ -102,9 +105,6 @@
   </data>
   <data name="header.users.modding" xml:space="preserve">
     <value>modaus</value>
-  </data>
-  <data name="header.users.multiplayer" xml:space="preserve">
-    <value>moninpeli</value>
   </data>
   <data name="header.users.show" xml:space="preserve">
     <value>tiedot</value>
@@ -243,6 +243,9 @@
   </data>
   <data name="errors.422.error" xml:space="preserve">
     <value>Virheellinen pyynnön parametri</value>
+  </data>
+  <data name="errors.429.error" xml:space="preserve">
+    <value>Pyyntöraja ylitetty</value>
   </data>
   <data name="errors.500.error" xml:space="preserve">
     <value>Hupsista! Jotain taisi hajota! ;_;</value>

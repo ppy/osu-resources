@@ -74,10 +74,10 @@
     <value>Modifier la couverture</value>
   </data>
   <data name="covers.create._" xml:space="preserve">
-    <value>Définir l'image de couverture</value>
+    <value>Définir une image de couverture</value>
   </data>
   <data name="covers.create.button" xml:space="preserve">
-    <value>Télécharger la couverture</value>
+    <value>Uploader une image</value>
   </data>
   <data name="covers.create.info" xml:space="preserve">
     <value>La bannière devrait avoir les résolutions {0}. Vous pouvez aussi faire glisser l'image ici pour l'uploader</value>
@@ -86,7 +86,7 @@
     <value>Retirer la bannière</value>
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
-    <value>Êtes-vous sûr de supprimer la bannière ?</value>
+    <value>Êtes-vous sûr de vouloir supprimer la bannière ?</value>
   </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>Dernier message</value>
@@ -206,7 +206,7 @@
     <value>Fermer</value>
   </data>
   <data name="topic.create.preview" xml:space="preserve">
-    <value>Prévisualisation</value>
+    <value>Preview</value>
   </data>
   <data name="topic.create.preview_hide" xml:space="preserve">
     <value>Écrire</value>
@@ -242,7 +242,115 @@
     <value>sauter les 10 prochains messages</value>
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
-    <value>retournez 10 postes en arrière</value>
+    <value>retournez 10 posts en arrière</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Historique du sujet</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Parcourir l'historique du sujet</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>a ajouté le tag "{0}"</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>a épinglé le sujet et l’a marqué comme annonce</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>à {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>de {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>sujet épinglé</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>posté par {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>tag "{0}" supprimé</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>de {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>sujet désépinglé</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>aucun historique trouvé...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Post supprimé</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Sujet supprimé</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Titre du sujet modifié</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Sondage de sujet édité</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Sujet copié</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Tag attribué</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Sujet verrouillé</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Posts fusionnés dans ce sujet</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Sujet déplacé</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Sujet épinglé</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Post édité</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Post restauré</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Sujet restauré</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Posts séparés déplacés</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Posts séparés</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Type de sujet défini</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Titre du sujet modifié</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Sujet déverrouillé</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Sujet désépinglé</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>A verrouillé son propre sujet</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>A déverrouillé son propre sujet</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Annuler</value>
@@ -269,7 +377,7 @@
     <value>Se désabonner du sujet ?</value>
   </data>
   <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
-    <value>Désabonner</value>
+    <value>Se désabonner</value>
   </data>
   <data name="topics._" xml:space="preserve">
     <value>Sujets</value>
@@ -317,10 +425,10 @@
     <value>Réponses par utilisateur</value>
   </data>
   <data name="topics.create.poll.max_options_info" xml:space="preserve">
-    <value>Il s'agit du nombre d'options que chaque utilisateur peut sélectionner lors du vote.</value>
+    <value>C'est le nombre de réponses qu'un utilisateur peut choisir.</value>
   </data>
   <data name="topics.create.poll.options" xml:space="preserve">
-    <value>Options</value>
+    <value>Réponses</value>
   </data>
   <data name="topics.create.poll.options_info" xml:space="preserve">
     <value>Entrez chaque réponse sur une nouvelle ligne. Vous pouvez entrer jusqu'à 10 réponses.</value>
@@ -338,7 +446,7 @@
     <value>Modifier le titre</value>
   </data>
   <data name="topics.index.feature_votes" xml:space="preserve">
-    <value>priorité d'étoiles</value>
+    <value>star priority</value>
   </data>
   <data name="topics.index.replies" xml:space="preserve">
     <value>réponses</value>
@@ -485,7 +593,7 @@
     <value>Priorité actuelle : +{0}</value>
   </data>
   <data name="topics.show.feature_vote.do" xml:space="preserve">
-    <value>Promouvoir cette requête</value>
+    <value>Promouvoir cette demande</value>
   </data>
   <data name="topics.show.feature_vote.info._" xml:space="preserve">
     <value>Il s'agit d'une {0}. Les demandes de fonctionnalité peuvent être votées par des {1}.</value>
@@ -503,7 +611,7 @@
     <value>Il vous reste {0}.</value>
   </data>
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
-    <value>Vous n'avez plus de votes disponibles</value>
+    <value>Il ne vous reste plus de votes</value>
   </data>
   <data name="topics.show.poll.edit" xml:space="preserve">
     <value>Édition du sondage</value>

@@ -45,11 +45,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderAdminRoot => new TranslatableString(getKey(@"header.admin.root"), @"console");
 
         /// <summary>
-        /// "store admin"
-        /// </summary>
-        public static LocalisableString HeaderAdminStoreOrders => new TranslatableString(getKey(@"header.admin.store_orders"), @"store admin");
-
-        /// <summary>
         /// "listing"
         /// </summary>
         public static LocalisableString HeaderArtistsIndex => new TranslatableString(getKey(@"header.artists.index"), @"listing");
@@ -95,9 +90,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderUsersModding => new TranslatableString(getKey(@"header.users.modding"), @"modding");
 
         /// <summary>
+        /// "playlists"
+        /// </summary>
+        public static LocalisableString HeaderUsersPlaylists => new TranslatableString(getKey(@"header.users.playlists"), @"playlists");
+
+        /// <summary>
         /// "multiplayer"
         /// </summary>
-        public static LocalisableString HeaderUsersMultiplayer => new TranslatableString(getKey(@"header.users.multiplayer"), @"multiplayer");
+        public static LocalisableString HeaderUsersRealtime => new TranslatableString(getKey(@"header.users.realtime"), @"multiplayer");
 
         /// <summary>
         /// "info"

@@ -125,16 +125,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PagesRootSectionsGeneral => new TranslatableString(getKey(@"pages.root.sections.general"), @"General");
 
         /// <summary>
-        /// "Store"
-        /// </summary>
-        public static LocalisableString PagesRootSectionsStore => new TranslatableString(getKey(@"pages.root.sections.store"), @"Store");
-
-        /// <summary>
-        /// "Order Listing"
-        /// </summary>
-        public static LocalisableString StoreOrdersIndexTitle => new TranslatableString(getKey(@"store.orders.index.title"), @"Order Listing");
-
-        /// <summary>
         /// "This user is currently restricted."
         /// </summary>
         public static LocalisableString UsersRestrictedBannerTitle => new TranslatableString(getKey(@"users.restricted_banner.title"), @"This user is currently restricted.");

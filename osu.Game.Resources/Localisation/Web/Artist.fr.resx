@@ -71,13 +71,16 @@
     <value>Beatmaps</value>
   </data>
   <data name="beatmaps.download" xml:space="preserve">
-    <value>Télécharger une beatmap vide de cette musique</value>
+    <value>Télécharger une beatmap type de cette musique</value>
   </data>
   <data name="beatmaps.download-na" xml:space="preserve">
     <value>La beatmap type n'est pas encore disponible</value>
   </data>
   <data name="index.description" xml:space="preserve">
-    <value>Les artistes plébiscités sont des artistes avec qui nous collaborons pour apporter des musiques nouvelles et originales à osu!. Ces artistes et une sélection de leurs pistes ont été sélectionné à la main par l'équipe d'osu puisqu'elles ont été considérées comme extraordinaires et appropriées pour le mapping. Quelques un de ces artistes ont également créé des pistes exclusivement pour osu!.&lt;br&gt;&lt;br&gt;Toutes les pistes de cette section ont des fichiers .osz pré-timé fournis et sont officiellement autorisés à l'usage pour osu! ainsi que tout contenu relatif à osu!.</value>
+    <value>Les featured artists sont des artistes avec qui nous collaborons pour apporter des musiques nouvelles et originales à osu!. Ces artistes ainsi qu'une sélection de leurs musiques ont été sélectionnés par l'équipe d'osu! pour leur qualité et leur potentiel pour le mapping. Quelques-uns de ces artistes ont également créé des musiques exclusivement pour osu!.&lt;br&gt;&lt;br&gt;Toutes les musiques de cette section sont fournies avec des fichiers .osz pré-timés et peuvent officiellement être utilisées sur osu! ainsi que tout contenu relatif à osu!.</value>
+  </data>
+  <data name="links.beatmaps" xml:space="preserve">
+    <value>beatmaps osu!</value>
   </data>
   <data name="links.osu" xml:space="preserve">
     <value>profil osu!</value>
@@ -91,6 +94,12 @@
   <data name="songs.count" xml:space="preserve">
     <value>{0} titre|{0} titres</value>
   </data>
+  <data name="songs.original" xml:space="preserve">
+    <value>osu! original</value>
+  </data>
+  <data name="songs.original_badge" xml:space="preserve">
+    <value>ORIGINAL</value>
+  </data>
   <data name="tracklist.title" xml:space="preserve">
     <value>titre</value>
   </data>
@@ -102,5 +111,38 @@
   </data>
   <data name="tracklist.genre" xml:space="preserve">
     <value>genre</value>
+  </data>
+  <data name="tracks.index._" xml:space="preserve">
+    <value>recherche de musiques</value>
+  </data>
+  <data name="tracks.index.form.advanced" xml:space="preserve">
+    <value>Recherche Avancée</value>
+  </data>
+  <data name="tracks.index.form.album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="tracks.index.form.artist" xml:space="preserve">
+    <value>Artiste</value>
+  </data>
+  <data name="tracks.index.form.bpm_gte" xml:space="preserve">
+    <value>BPM Minimum</value>
+  </data>
+  <data name="tracks.index.form.bpm_lte" xml:space="preserve">
+    <value>BPM Maximum</value>
+  </data>
+  <data name="tracks.index.form.empty" xml:space="preserve">
+    <value>Aucune musique correspondant aux critères de recherche n'a été trouvée.</value>
+  </data>
+  <data name="tracks.index.form.genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="tracks.index.form.genre_all" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="tracks.index.form.length_gte" xml:space="preserve">
+    <value>Durée minimale</value>
+  </data>
+  <data name="tracks.index.form.length_lte" xml:space="preserve">
+    <value>Durée maximale</value>
   </data>
 </root>

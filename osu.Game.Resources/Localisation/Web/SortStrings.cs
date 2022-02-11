@@ -55,6 +55,46 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Username => new TranslatableString(getKey(@"username"), @"Username");
 
         /// <summary>
+        /// "Album"
+        /// </summary>
+        public static LocalisableString ArtistTracksAlbum => new TranslatableString(getKey(@"artist_tracks.album"), @"Album");
+
+        /// <summary>
+        /// "Artist"
+        /// </summary>
+        public static LocalisableString ArtistTracksArtist => new TranslatableString(getKey(@"artist_tracks.artist"), @"Artist");
+
+        /// <summary>
+        /// "BPM"
+        /// </summary>
+        public static LocalisableString ArtistTracksBpm => new TranslatableString(getKey(@"artist_tracks.bpm"), @"BPM");
+
+        /// <summary>
+        /// "Genre"
+        /// </summary>
+        public static LocalisableString ArtistTracksGenre => new TranslatableString(getKey(@"artist_tracks.genre"), @"Genre");
+
+        /// <summary>
+        /// "Length"
+        /// </summary>
+        public static LocalisableString ArtistTracksLength => new TranslatableString(getKey(@"artist_tracks.length"), @"Length");
+
+        /// <summary>
+        /// "Relevance"
+        /// </summary>
+        public static LocalisableString ArtistTracksRelevance => new TranslatableString(getKey(@"artist_tracks.relevance"), @"Relevance");
+
+        /// <summary>
+        /// "Title"
+        /// </summary>
+        public static LocalisableString ArtistTracksTitle => new TranslatableString(getKey(@"artist_tracks.title"), @"Title");
+
+        /// <summary>
+        /// "Update"
+        /// </summary>
+        public static LocalisableString ArtistTracksUpdate => new TranslatableString(getKey(@"artist_tracks.update"), @"Update");
+
+        /// <summary>
         /// "Post time"
         /// </summary>
         public static LocalisableString ForumPostsCreated => new TranslatableString(getKey(@"forum_posts.created"), @"Post time");

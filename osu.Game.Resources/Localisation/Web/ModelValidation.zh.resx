@@ -80,7 +80,7 @@
     <value>无法推荐谱面。</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>只能在 常规（全难度） 中推荐。</value>
+    <value>只能在 常规（所有难度） 中推荐。</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>指定的难度无效。</value>
@@ -101,19 +101,19 @@
     <value>这张谱面正处于锁定状态以便进行讨论，目前不能被推荐</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
-    <value>登录后才能推荐</value>
+    <value>登录后才能推荐。</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>你已经推荐了这张谱面</value>
+    <value>你已经推荐了这张谱面。</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>你已经用光了推荐次数</value>
+    <value>你已经用光了推荐次数。</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
     <value>这张谱面无法推荐</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>不能推荐你自己的谱面</value>
+    <value>不能推荐你自己的谱面。</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
     <value>指定的时间戳不在谱面范围内。</value>
@@ -134,7 +134,7 @@
     <value>不能回复已删除的评论。</value>
   </data>
   <data name="comment.top_only" xml:space="preserve">
-    <value>暂不允许将回复置顶</value>
+    <value>暂不允许将回复置顶。</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>消息</value>
@@ -164,7 +164,7 @@
     <value>该帖子缺少主题</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
-    <value>你的回复仅包含引用</value>
+    <value>你的回复仅包含引用。</value>
   </data>
   <data name="forum.post.attributes.post_text" xml:space="preserve">
     <value>帖子主体</value>
@@ -176,7 +176,7 @@
     <value>不允许重复的选项。</value>
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
-    <value>不能编辑发起已经超过 {0} 小时的投票</value>
+    <value>不能编辑发起已经超过 {0} 小时的投票。</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
     <value>不能隐藏尚未结束投票的结果。</value>
@@ -197,7 +197,7 @@
     <value>投票标题</value>
   </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
-    <value>至少选择一项以投票</value>
+    <value>投票时至少选择一项。</value>
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>选项数量超出限制。</value>
@@ -218,13 +218,13 @@
     <value>密码不能包含用户名。</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
-    <value>邮箱已被使用。</value>
+    <value>邮箱已使用。</value>
   </data>
   <data name="user.email_not_allowed" xml:space="preserve">
     <value>不允许的邮箱地址。</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
-    <value>国家未被数据库收录。</value>
+    <value>数据库未收录此国家/地区。</value>
   </data>
   <data name="user.invalid_discord" xml:space="preserve">
     <value>Discord 用户名无效。</value>
@@ -239,7 +239,7 @@
     <value>新密码太短。</value>
   </data>
   <data name="user.unknown_duplicate" xml:space="preserve">
-    <value>用户名或邮箱已被使用。</value>
+    <value>已使用的用户名或邮箱。</value>
   </data>
   <data name="user.username_available_in" xml:space="preserve">
     <value>该用户名将在 {0} 后可用。</value>
@@ -260,7 +260,7 @@
     <value>请在下划线和空格间选一个，不要混用！</value>
   </data>
   <data name="user.username_no_spaces" xml:space="preserve">
-    <value>用户名不能以空格开头或结束。</value>
+    <value>不能用空格当做用户名的开头或结尾。</value>
   </data>
   <data name="user.username_not_allowed" xml:space="preserve">
     <value>不允许使用该用户名。</value>
@@ -272,16 +272,16 @@
     <value>用户名太长。</value>
   </data>
   <data name="user.weak" xml:space="preserve">
-    <value>弱密码。</value>
+    <value>密码强度弱。</value>
   </data>
   <data name="user.wrong_current_password" xml:space="preserve">
     <value>当前密码错误。</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>重复新邮箱与新邮箱不一致。</value>
+    <value>重复输入的新邮箱与新邮箱不一致。</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
-    <value>重复新密码与新密码不一致。</value>
+    <value>重复输入的新密码与新密码不一致。</value>
   </data>
   <data name="user.too_long" xml:space="preserve">
     <value>超出长度限制——最多为 {0} 个字符。</value>
@@ -290,7 +290,7 @@
     <value>用户名</value>
   </data>
   <data name="user.attributes.user_email" xml:space="preserve">
-    <value>电子邮件地址</value>
+    <value>邮箱</value>
   </data>
   <data name="user.attributes.password" xml:space="preserve">
     <value>密码</value>
@@ -305,13 +305,16 @@
     <value>支持 osu!</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
-    <value>这就是你的用户名，Baka！</value>
+    <value>这就是你现在的用户名，大笨蛋！</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>无法报告 Ranked 谱面</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} 不符合此报告类型。</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
-    <value>无法举报自己</value>
+    <value>你不能举报你自己！</value>
   </data>
   <data name="store.order_item.attributes.quantity" xml:space="preserve">
     <value>数量</value>

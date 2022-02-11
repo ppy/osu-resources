@@ -89,28 +89,28 @@
     <value>blokovaných uživatelů ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
-    <value>skrýt profil</value>
+    <value>Skrýt profil</value>
   </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Tento uživatel není blokován.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
-    <value>zobrazit profil</value>
+    <value>Zobrazit profil</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
     <value>Byl dosažen limit blockovaných uživatelů.</value>
   </data>
   <data name="blocks.button.block" xml:space="preserve">
-    <value>blokovat</value>
+    <value>Blokovat</value>
   </data>
   <data name="blocks.button.unblock" xml:space="preserve">
-    <value>odblokovat</value>
+    <value>Odblokovat</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Načítání...</value>
   </data>
   <data name="card.send_message" xml:space="preserve">
-    <value>odeslat zprávu</value>
+    <value>Odeslat zprávu</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-mail</value>
@@ -138,6 +138,9 @@
   </data>
   <data name="login.info" xml:space="preserve">
     <value>Prosím přihlaste se pro pokračování</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Příliš mnoho neúspěšných pokusů o přihlášení, vyplňte prosím captcha a zkuste to znovu. (Obnovte stránku pokud captcha není vidět)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>vaše IP adresa je uzamčena. Počkejte, prosím, několik minut.</value>
@@ -182,52 +185,55 @@
     <value>Opravdu se chceš odhlásit? :(</value>
   </data>
   <data name="report.button_text" xml:space="preserve">
-    <value>nahlásit</value>
+    <value>Nahlásit</value>
   </data>
   <data name="report.comments" xml:space="preserve">
-    <value>Přídavné komentáře</value>
+    <value>Dodatečné poznámky</value>
   </data>
   <data name="report.placeholder" xml:space="preserve">
-    <value>Prosím uveďte jakékoliv informace které si myslíte že by mohly být užitečně.</value>
+    <value>Uveďte prosím jakékoliv informace, které si myslíte, že by mohly být užitečné.</value>
   </data>
   <data name="report.reason" xml:space="preserve">
     <value>Důvod</value>
   </data>
   <data name="report.thanks" xml:space="preserve">
-    <value>Děkují za vaše nahlášení!</value>
+    <value>Děkujeme za vaše nahlášení!</value>
   </data>
   <data name="report.title" xml:space="preserve">
     <value>Nahlásit {0}?</value>
   </data>
   <data name="report.actions.send" xml:space="preserve">
-    <value>Poslat Nahlášení</value>
+    <value>Odeslat nahlášení</value>
   </data>
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
   <data name="report.options.cheating" xml:space="preserve">
-    <value>Faulové hráni / Podvádění</value>
+    <value>Podvádění</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Používání více účtů</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
-    <value>Uráží mě / jiné</value>
+    <value>Uráží mě / ostatní</value>
   </data>
   <data name="report.options.spam" xml:space="preserve">
     <value>Spamování</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Linkovaní nebezpečného obsahu</value>
+    <value>Linkovaní nevhodného obsahu</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Nesmysl</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
-    <value>Ostatní (napište dolů)</value>
+    <value>Jiný (napište níže)</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Tvůj účet byl omezen!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Zatímco jsi v omezeném režimu, nebudeš moci komunikovat s ostatními hráči a tvá skóre budou viditelná pouze pro tebe. Toto je obvykle výsledkem automatického procesu který by se měl sám vyřešit do nejpozději 24 hodin. Pokud si přeješ odvolat tvé omezení, prosím &lt;a href="mailto{0}@ppy.sh"&gt;kontaktujte podporu&lt;/a&gt;.</value>
+    <value>Zatímco jsi omezený, nebudeš moci komunikovat s ostatními hráči a tvá skóre budou viditelná pouze pro tebe. Toto je obvykle výsledkem automatického procesu, který by se měl sám vyřešit nejpozději do 24 hodin. Pokud si přeješ odvolat své omezení, prosím &lt;a href="mailto{0}@ppy.sh"&gt;kontaktuj podporu&lt;/a&gt;.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} let</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="show.title" xml:space="preserve">
     <value>profil uživatele {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Postnul {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} komentář|{0} komentáře|{0} komentářů</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Změnit záhlaví profilu</value>
@@ -350,10 +362,10 @@
     <value>Události</value>
   </data>
   <data name="show.extra.events.title_longer" xml:space="preserve">
-    <value>Poslední údálosti</value>
+    <value>Poslední události</value>
   </data>
   <data name="show.extra.events.show_more" xml:space="preserve">
-    <value>zobrazit více eventů</value>
+    <value>zobrazit více událostí</value>
   </data>
   <data name="show.extra.historical.title" xml:space="preserve">
     <value>Historické</value>
@@ -430,8 +442,11 @@
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
     <value>Odepřeno kudosu od {0} za příspěvek {1}</value>
   </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Založeno na tom, jak moc uživatel přispěl k moderaci beatmap. Další informace najdete na {0}.</value>
+  </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
-    <value>tuto stránku</value>
+    <value>této stránce</value>
   </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>já!</value>
@@ -480,6 +495,9 @@
   </data>
   <data name="show.extra.votes.title_longer" xml:space="preserve">
     <value>Poslední hlasy</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} hlas|{0} hlasy|{0} hlasů</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
     <value>Stav účtu</value>
@@ -621,6 +639,12 @@
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Čekající Beatmapy</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Momentálně jste umlčeni.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Některé akce mohou být nedostupné.</value>
   </data>
   <data name="status.all" xml:space="preserve">
     <value>Všichni</value>

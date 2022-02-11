@@ -89,7 +89,7 @@
     <value>Biztos vagy benne, hogy el szeretnéd távolítani a borítóképet?</value>
   </data>
   <data name="forums.latest_post" xml:space="preserve">
-    <value>Legújabb Poszt</value>
+    <value>Legújabb hozzászólás</value>
   </data>
   <data name="forums.index.title" xml:space="preserve">
     <value>Fórum Index</value>
@@ -107,46 +107,46 @@
     <value>Olvasottnak jelölés...</value>
   </data>
   <data name="post.confirm_destroy" xml:space="preserve">
-    <value>Biztosan törlöd a posztot?</value>
+    <value>Biztosan törlöd a hozzászólást?</value>
   </data>
   <data name="post.confirm_restore" xml:space="preserve">
-    <value>Biztosan visszaállítod a posztot?</value>
+    <value>Biztosan visszaállítod a hozzászólást?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
     <value>Utoljára módosítva {0} által {1}, módosítva {2} alkalommal.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
-    <value>posztolva {0}</value>
+    <value>hozzászólva {0}</value>
   </data>
   <data name="post.posted_by" xml:space="preserve">
-    <value>posztolva {0} által</value>
+    <value>hozzászólva {0} által</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
-    <value>Poszt törlése</value>
+    <value>Hozzászólás törlése</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
-    <value>Poszt szerkesztése</value>
+    <value>Hozzászólás szerkesztése</value>
   </data>
   <data name="post.actions.report" xml:space="preserve">
-    <value>Poszt jelentése</value>
+    <value>Hozzászólás jelentése</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
-    <value>Poszt visszaállítása</value>
+    <value>Hozzászólás visszaállítása</value>
   </data>
   <data name="post.create.title.reply" xml:space="preserve">
     <value>Új válasz</value>
   </data>
   <data name="post.info.post_count" xml:space="preserve">
-    <value>{0} poszt|-{0} poszt</value>
+    <value>{0} hozzászólás|{0} hozzászólás</value>
   </data>
   <data name="post.info.topic_starter" xml:space="preserve">
     <value>Beszélgetés indítok</value>
   </data>
   <data name="search.go_to_post" xml:space="preserve">
-    <value>Ugrás a poszthoz</value>
+    <value>Ugrás a hozzászóláshoz</value>
   </data>
   <data name="search.post_number_input" xml:space="preserve">
-    <value>írd be a poszt számát</value>
+    <value>írd be a hozzászólás számát</value>
   </data>
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} posztok száma</value>
@@ -161,7 +161,7 @@
     <value>törölt téma</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
-    <value>utolsó poszt megtekintése</value>
+    <value>utolsó hozzászólás megtekintése</value>
   </data>
   <data name="topic.has_replied" xml:space="preserve">
     <value>Feliratkoztál erre a témára</value>
@@ -182,7 +182,7 @@
     <value>Jelentkezz be új téma nyitásához</value>
   </data>
   <data name="topic.post_reply" xml:space="preserve">
-    <value>Poszt</value>
+    <value>Hozzászólás</value>
   </data>
   <data name="topic.reply_box_placeholder" xml:space="preserve">
     <value>Ide írj a válaszoláshoz</value>
@@ -215,7 +215,7 @@
     <value>Küldés</value>
   </data>
   <data name="topic.create.necropost.default" xml:space="preserve">
-    <value>Ez a téma már inaktív egy ideje. Megfelelő indok hiányában ne posztolj ide.</value>
+    <value>Ez a téma már inaktív egy ideje. Megfelelő indok hiányában ne szólj hozzá.</value>
   </data>
   <data name="topic.create.necropost.new_topic._" xml:space="preserve">
     <value>Ez a téma már inaktív egy ideje. Ha nincs konkrét okod ide posztolni, kérlek {0} helyette.</value>
@@ -243,6 +243,114 @@
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
     <value>visszalépni 10 posztot</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Téma napló</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Téma napló böngészése</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Művelet</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Felhasználó</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>"{0}" címke hozzáadva</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>téma kitűzve és hirdetményként jelölve</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>erre: {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>erről: {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>téma kitűzve</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>posztolva {0} által</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>"{0}" címke eltávolítva</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>innen: {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>téma kitűzetlennítve</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>nem található napló...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Hozzászólás törölve</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Téma törölve</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Téma címe változtatva</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Téma szavazás szerkesztve</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Téma másolva</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Címe kiadva</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Téma lezárva</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Hozzászólások össze lettek fűzve ebbe a témába</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Téma áthelyezve</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Téma kitűzve</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Hozzászólás szerkesztve</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Hozzászólás visszaállítva</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Téma visszaállítva</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Szétválasztott hozzászólások áthelyezve</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Hozzászólások szétválasztva</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Téma típus beállítása</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Téma típus megváltoztattva</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Téma feloldva</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Téma kitűzetlennítve</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Saját téma lezárva</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Saját téma feloldva</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Mégse</value>

@@ -67,6 +67,12 @@
   <data name="edit.avatar.title" xml:space="preserve">
     <value>Avatar</value>
   </data>
+  <data name="edit.avatar.rules" xml:space="preserve">
+    <value>Provjeri da li je tvoj avatar u skladu s {0}.&lt;br/&gt;To znači da mora biti &lt;strong&gt;prikladno za sve uzraste&lt;/strong&gt;. tj. bez golotinje, vulgarnosti ili sugestivnog sadržaja.</value>
+  </data>
+  <data name="edit.avatar.rules_link" xml:space="preserve">
+    <value>pravilima zajednice</value>
+  </data>
   <data name="edit.email.current" xml:space="preserve">
     <value>trenutna e-mail adresa</value>
   </data>
@@ -112,6 +118,72 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>ažuriraj</value>
   </data>
+  <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>primaj obavijesti o novom problemu na kvalificiranim beatmap-ima sljedećih modusa</value>
+  </data>
+  <data name="notifications.beatmapset_disqualify" xml:space="preserve">
+    <value>primaj obavijesti kad beatmap-ovi sljedećih modusa budu diskvalificirani</value>
+  </data>
+  <data name="notifications.comment_reply" xml:space="preserve">
+    <value>primaj obavijesti za odgovore na tvoje komentare</value>
+  </data>
+  <data name="notifications.title" xml:space="preserve">
+    <value>Obavijesti</value>
+  </data>
+  <data name="notifications.topic_auto_subscribe" xml:space="preserve">
+    <value>automatski uključi obavijesti na nove forum teme koje kreiraš</value>
+  </data>
+  <data name="notifications.options._" xml:space="preserve">
+    <value>načine isporuke</value>
+  </data>
+  <data name="notifications.options.channel_message" xml:space="preserve">
+    <value>privatne chat poruke</value>
+  </data>
+  <data name="notifications.options.comment_new" xml:space="preserve">
+    <value>nove komentare</value>
+  </data>
+  <data name="notifications.options.forum_topic_reply" xml:space="preserve">
+    <value>odgovor na temu</value>
+  </data>
+  <data name="notifications.options.mail" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="notifications.options.push" xml:space="preserve">
+    <value>push</value>
+  </data>
+  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
+    <value>otključanje korisničke medalje</value>
+  </data>
+  <data name="oauth.authorized_clients" xml:space="preserve">
+    <value>odobreni klijenti</value>
+  </data>
+  <data name="oauth.own_clients" xml:space="preserve">
+    <value>vlastiti klijenti</value>
+  </data>
+  <data name="oauth.title" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_nsfw" xml:space="preserve">
+    <value>sakrij upozorenja za eksplicitni sadržaj u beatmap-ama</value>
+  </data>
+  <data name="options.beatmapset_title_show_original" xml:space="preserve">
+    <value>prikaži metapodatke beatmap-a na izvornom jeziku</value>
+  </data>
+  <data name="options.title" xml:space="preserve">
+    <value>Opcije</value>
+  </data>
+  <data name="options.beatmapset_download._" xml:space="preserve">
+    <value>zadana vrsta za preuzimanje beatmap-a</value>
+  </data>
+  <data name="options.beatmapset_download.all" xml:space="preserve">
+    <value>sa videom ako je dostupno</value>
+  </data>
+  <data name="options.beatmapset_download.direct" xml:space="preserve">
+    <value>otvori u osu!direct</value>
+  </data>
+  <data name="options.beatmapset_download.no_video" xml:space="preserve">
+    <value>bez videa</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>tipkovnica</value>
   </data>
@@ -127,10 +199,46 @@
   <data name="playstyles.touch" xml:space="preserve">
     <value>dodir</value>
   </data>
+  <data name="privacy.friends_only" xml:space="preserve">
+    <value>blokiraj privatne poruke od osoba koje nisu na tvojoj listi prijatelja</value>
+  </data>
+  <data name="privacy.hide_online" xml:space="preserve">
+    <value>sakrij svoju prisutnost na mreži</value>
+  </data>
+  <data name="privacy.title" xml:space="preserve">
+    <value>Privatnost</value>
+  </data>
+  <data name="security.current_session" xml:space="preserve">
+    <value>trenutna</value>
+  </data>
+  <data name="security.end_session" xml:space="preserve">
+    <value>Završi sesiju</value>
+  </data>
+  <data name="security.end_session_confirmation" xml:space="preserve">
+    <value>Ovo će odmah prekinuti tvoju sesiju na tom uređaju. Jesi li siguran?</value>
+  </data>
+  <data name="security.last_active" xml:space="preserve">
+    <value>Zadnja aktivnost:</value>
+  </data>
+  <data name="security.title" xml:space="preserve">
+    <value>Sigurnost</value>
+  </data>
+  <data name="security.web_sessions" xml:space="preserve">
+    <value>web sesije</value>
+  </data>
   <data name="update_email.update" xml:space="preserve">
     <value>ažuriraj</value>
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>ažuriraj</value>
+  </data>
+  <data name="verification_completed.text" xml:space="preserve">
+    <value>Možes ovaj tab/prozor sada zatvoriti</value>
+  </data>
+  <data name="verification_completed.title" xml:space="preserve">
+    <value>Verifikacija je završena</value>
+  </data>
+  <data name="verification_invalid.title" xml:space="preserve">
+    <value>Nevažeći ili isteknut link za verifikaciju</value>
   </data>
 </root>

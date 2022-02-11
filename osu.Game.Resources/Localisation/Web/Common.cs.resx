@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="confirmation" xml:space="preserve">
-    <value>Jsi si jist/á?</value>
+    <value>Jsi si jistý?</value>
   </data>
   <data name="confirmation_unsaved" xml:space="preserve">
     <value>Provedené změny budou ztraceny, chcete pokračovat?</value>
@@ -197,19 +197,19 @@
     <value>Sledovat</value>
   </data>
   <data name="count.badges" xml:space="preserve">
-    <value>{0} odznak |{0} odznaků</value>
+    <value>{0} odznak|{0} odznaky|{0} odznaků</value>
   </data>
   <data name="count.days" xml:space="preserve">
-    <value>{0} den|{0} dnů</value>
+    <value>{0} den|{0} dny|{0} dní</value>
   </data>
   <data name="count.hour_short_unit" xml:space="preserve">
     <value>h</value>
   </data>
   <data name="count.hours" xml:space="preserve">
-    <value>{0} hodina|{0} hodin</value>
+    <value>{0} hodina|{0} hodiny|{0} hodin</value>
   </data>
   <data name="count.item" xml:space="preserve">
-    <value>{0} jednotka|{0} jednotek</value>
+    <value>{0} kus|{0} kusy|{0} kusů</value>
   </data>
   <data name="count.minute_short_unit" xml:space="preserve">
     <value>min</value>
@@ -218,16 +218,28 @@
     <value>{0} minuta|{0} minuty|{0} minut</value>
   </data>
   <data name="count.months" xml:space="preserve">
-    <value>{0} měsíc|{0} měsíců</value>
+    <value>{0} měsíc|{0} měsíce|{0} měsíců</value>
+  </data>
+  <data name="count.notifications" xml:space="preserve">
+    <value>{0} oznámení</value>
+  </data>
+  <data name="count.plus_others" xml:space="preserve">
+    <value>+ {0} další!|+ {0} další!|+ {0} dalších!</value>
+  </data>
+  <data name="count.post" xml:space="preserve">
+    <value>{0} příspěvek|{0} příspěvky|{0} příspěvků</value>
   </data>
   <data name="count.second_short_unit" xml:space="preserve">
     <value>sek</value>
   </data>
   <data name="count.update" xml:space="preserve">
-    <value>{0} aktualizace|{0} aktualizace</value>
+    <value>{0} aktualizace|{0} aktualizací</value>
+  </data>
+  <data name="count.view" xml:space="preserve">
+    <value>{0} zhlédnutí</value>
   </data>
   <data name="count.years" xml:space="preserve">
-    <value>{0} rok|{0} let</value>
+    <value>{0} rok|{0} roky|{0} let</value>
   </data>
   <data name="countdown.days" xml:space="preserve">
     <value>dnů</value>
@@ -296,10 +308,10 @@
     <value>nyní</value>
   </data>
   <data name="time.days_ago" xml:space="preserve">
-    <value>před{0} dnem|před{0} dny</value>
+    <value>před {0} dnem|před {0} dny</value>
   </data>
   <data name="time.hours_ago" xml:space="preserve">
-    <value>před{0} hodinou|před{0} hodinami</value>
+    <value>před {0} hodinou|před {0} hodinami</value>
   </data>
   <data name="time.now" xml:space="preserve">
     <value>nyní</value>

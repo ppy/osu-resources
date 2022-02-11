@@ -425,6 +425,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString UserChangeUsernameUsernameIsSame => new TranslatableString(getKey(@"user.change_username.username_is_same"), @"This is already your username, silly!");
 
         /// <summary>
+        /// "Ranked beatmaps cannot be reported"
+        /// </summary>
+        public static LocalisableString UserReportNoRankedBeatmapset => new TranslatableString(getKey(@"user_report.no_ranked_beatmapset"), @"Ranked beatmaps cannot be reported");
+
+        /// <summary>
         /// "{0} is not valid for this report type."
         /// </summary>
         public static LocalisableString UserReportReasonNotValid(LocalisableString reason) => new TranslatableString(getKey(@"user_report.reason_not_valid"), @"{0} is not valid for this report type.", reason);
