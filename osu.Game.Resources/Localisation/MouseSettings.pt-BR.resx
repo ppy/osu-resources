@@ -58,28 +58,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="debug_section_header" xml:space="preserve">
-    <value>Відладка</value>
+  <data name="mouse" xml:space="preserve">
+    <value>Mouse</value>
   </data>
-  <data name="general_header" xml:space="preserve">
-    <value>Загальний</value>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>Não aplicável em modo de tela cheia</value>
   </data>
-  <data name="show_log_overlay" xml:space="preserve">
-    <value>Показати логи</value>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>Cursor de alta precisão</value>
   </data>
-  <data name="bypass_front_to_back_pass" xml:space="preserve">
-    <value>Обхід зовнішнього рендеру</value>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Tenta contornar qualquer aceleração de mouse aplicada pelo sistema. No Windows, isso é o equivalente ao que era conhecido como "Entrada bruta".</value>
   </data>
-  <data name="import_files" xml:space="preserve">
-    <value>Імпортувати файли</value>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Manter cursor do mouse preso na janela</value>
   </data>
-  <data name="memory_header" xml:space="preserve">
-    <value>Памʼять</value>
+  <data name="disable_mouse_wheel_volume_adjust" xml:space="preserve">
+    <value>Desativar os ajustes de volume pela roda do mouse durante o gameplay</value>
   </data>
-  <data name="clear_all_caches" xml:space="preserve">
-    <value>Очистити весь кеш</value>
+  <data name="disable_mouse_wheel_volume_adjust_tooltip" xml:space="preserve">
+    <value>O volume ainda pode ser ajustado usando a roda do mouse, pressionando a tecla "Alt"</value>
   </data>
-  <data name="compact_realm" xml:space="preserve">
-    <value>Стиснути базу данних "реалм"</value>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Desativar os botões do mouse durante o jogo</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Ative o cursor de alta precisão para ajustar a sensibilidade</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Sensibilidade do cursor</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>Essa configuração tem apresentado problemas na sua plataforma. Caso encontre algum, recomendamos que ajuste a sensibilidade por fora e mantenha essa configuração desligada por hora.</value>
   </data>
 </root>
