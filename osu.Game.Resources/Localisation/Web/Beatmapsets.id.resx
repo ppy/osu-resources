@@ -73,6 +73,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Jangan terlalu bernafsu dalam mengunduh. Harap mainkan beatmap-beatmap yang telah Anda miliki terlebih dahulu.</value>
   </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Featured artist</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Daftar Beatmap</value>
   </data>
@@ -182,7 +185,7 @@
     <value>Beatmap yang telah Anda favorit terlalu banyak! Mohon hapus beberapa sebelum melanjutkan.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Apabila Anda menyukai beatmap ini, berikanlah hype Anda untuk mendorong beatmap ini agar dapat selangkah lebih dekat menuju status &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
+    <value>Apabila Anda menyukai beatmap ini, berikanlah hype Anda agar beatmap ini dapat selangkah lebih dekat menuju status &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Beatmap ini sedang berstatus {0}.</value>
@@ -289,17 +292,20 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Mod</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Sematkan</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Pemain</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>Peringkat</value>
   </data>
-  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
-    <value>Jumlah Skor</value>
-  </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Skor</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Jumlah Skor</value>
   </data>
   <data name="show.scoreboard.headers.time" xml:space="preserve">
     <value>Waktu</value>
@@ -308,7 +314,7 @@
     <value>Tidak seorang pun dari negara Anda yang memiliki skor di map ini!</value>
   </data>
   <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
-    <value>Tidak seorang pun dari daftar teman Anda yang memiliki skor di map ini!</value>
+    <value>Anda tidak memiliki teman yang telah menorehkan skor di map ini!</value>
   </data>
   <data name="show.scoreboard.no_scores.global" xml:space="preserve">
     <value>Belum ada skor yang tercatat pada beatmap ini. Mungkin Anda tertarik untuk mencetak skor Anda sendiri?</value>
@@ -344,7 +350,7 @@
     <value>Star Difficulty</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Durasi</value>
+    <value>Durasi Total (Durasi Bersih: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>

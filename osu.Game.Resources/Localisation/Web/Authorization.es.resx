@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>No puedes cambiar los metadatos de un mapa nominado. Contacta con un miembro de los BN o del NAT si crees que están establecidos incorrectamente.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Este canal es sólo para anuncios.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>No puedes enviar mensajes a un usuario que bloqueaste o que te haya bloqueado.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>No tienes acceso a ese canal.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Es posible que el usuario no pueda responder porque sólo acepta mensajes de personas de su lista de amigos.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>No puede enviar mensajes mientras esté silenciado, restringido o baneado.</value>
@@ -257,7 +263,7 @@
     <value>Se requiere acceso al foro solicitado.</value>
   </data>
   <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
-    <value>Portada especificada inválida.</value>
+    <value>Portada especificada no válida.</value>
   </data>
   <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
     <value>Solo el dueño puede editar la portada.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Solo los administradores pueden ver este foro.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Sólo el propietario puede anclar la puntuación.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Se han anclado demasiadas puntuaciones.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>La página de usuario está bloqueada.</value>

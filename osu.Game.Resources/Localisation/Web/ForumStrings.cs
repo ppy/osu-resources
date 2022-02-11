@@ -320,6 +320,186 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TopicJumpPrevious => new TranslatableString(getKey(@"topic.jump.previous"), @"go back 10 posts");
 
         /// <summary>
+        /// "Topic logs"
+        /// </summary>
+        public static LocalisableString TopicLogsDefault => new TranslatableString(getKey(@"topic.logs._"), @"Topic logs");
+
+        /// <summary>
+        /// "Browse topic logs"
+        /// </summary>
+        public static LocalisableString TopicLogsButton => new TranslatableString(getKey(@"topic.logs.button"), @"Browse topic logs");
+
+        /// <summary>
+        /// "Action"
+        /// </summary>
+        public static LocalisableString TopicLogsColumnsAction => new TranslatableString(getKey(@"topic.logs.columns.action"), @"Action");
+
+        /// <summary>
+        /// "Date"
+        /// </summary>
+        public static LocalisableString TopicLogsColumnsDate => new TranslatableString(getKey(@"topic.logs.columns.date"), @"Date");
+
+        /// <summary>
+        /// "User"
+        /// </summary>
+        public static LocalisableString TopicLogsColumnsUser => new TranslatableString(getKey(@"topic.logs.columns.user"), @"User");
+
+        /// <summary>
+        /// "added &quot;{0}&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicLogsDataAddTag(LocalisableString tag) => new TranslatableString(getKey(@"topic.logs.data.add_tag"), @"added ""{0}"" tag", tag);
+
+        /// <summary>
+        /// "pinned topic and marked as announcement"
+        /// </summary>
+        public static LocalisableString TopicLogsDataAnnouncement => new TranslatableString(getKey(@"topic.logs.data.announcement"), @"pinned topic and marked as announcement");
+
+        /// <summary>
+        /// "to {0}"
+        /// </summary>
+        public static LocalisableString TopicLogsDataEditTopic(LocalisableString title) => new TranslatableString(getKey(@"topic.logs.data.edit_topic"), @"to {0}", title);
+
+        /// <summary>
+        /// "from {0}"
+        /// </summary>
+        public static LocalisableString TopicLogsDataFork(LocalisableString topic) => new TranslatableString(getKey(@"topic.logs.data.fork"), @"from {0}", topic);
+
+        /// <summary>
+        /// "pinned topic"
+        /// </summary>
+        public static LocalisableString TopicLogsDataPin => new TranslatableString(getKey(@"topic.logs.data.pin"), @"pinned topic");
+
+        /// <summary>
+        /// "posted by {0}"
+        /// </summary>
+        public static LocalisableString TopicLogsDataPostOperation(LocalisableString username) => new TranslatableString(getKey(@"topic.logs.data.post_operation"), @"posted by {0}", username);
+
+        /// <summary>
+        /// "removed &quot;{0}&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicLogsDataRemoveTag(LocalisableString tag) => new TranslatableString(getKey(@"topic.logs.data.remove_tag"), @"removed ""{0}"" tag", tag);
+
+        /// <summary>
+        /// "from {0}"
+        /// </summary>
+        public static LocalisableString TopicLogsDataSourceForumOperation(LocalisableString forum) => new TranslatableString(getKey(@"topic.logs.data.source_forum_operation"), @"from {0}", forum);
+
+        /// <summary>
+        /// "unpinned topic"
+        /// </summary>
+        public static LocalisableString TopicLogsDataUnpin => new TranslatableString(getKey(@"topic.logs.data.unpin"), @"unpinned topic");
+
+        /// <summary>
+        /// "no logs found..."
+        /// </summary>
+        public static LocalisableString TopicLogsNoResults => new TranslatableString(getKey(@"topic.logs.no_results"), @"no logs found...");
+
+        /// <summary>
+        /// "Deleted post"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsDeletePost => new TranslatableString(getKey(@"topic.logs.operations.delete_post"), @"Deleted post");
+
+        /// <summary>
+        /// "Deleted topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsDeleteTopic => new TranslatableString(getKey(@"topic.logs.operations.delete_topic"), @"Deleted topic");
+
+        /// <summary>
+        /// "Changed topic title"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsEditTopic => new TranslatableString(getKey(@"topic.logs.operations.edit_topic"), @"Changed topic title");
+
+        /// <summary>
+        /// "Edited topic poll"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsEditPoll => new TranslatableString(getKey(@"topic.logs.operations.edit_poll"), @"Edited topic poll");
+
+        /// <summary>
+        /// "Copied topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsFork => new TranslatableString(getKey(@"topic.logs.operations.fork"), @"Copied topic");
+
+        /// <summary>
+        /// "Issued tag"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsIssueTag => new TranslatableString(getKey(@"topic.logs.operations.issue_tag"), @"Issued tag");
+
+        /// <summary>
+        /// "Locked topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsLock => new TranslatableString(getKey(@"topic.logs.operations.lock"), @"Locked topic");
+
+        /// <summary>
+        /// "Merged posts into this topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsMerge => new TranslatableString(getKey(@"topic.logs.operations.merge"), @"Merged posts into this topic");
+
+        /// <summary>
+        /// "Moved topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsMove => new TranslatableString(getKey(@"topic.logs.operations.move"), @"Moved topic");
+
+        /// <summary>
+        /// "Pinned topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsPin => new TranslatableString(getKey(@"topic.logs.operations.pin"), @"Pinned topic");
+
+        /// <summary>
+        /// "Edited post"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsPostEdited => new TranslatableString(getKey(@"topic.logs.operations.post_edited"), @"Edited post");
+
+        /// <summary>
+        /// "Restored post"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsRestorePost => new TranslatableString(getKey(@"topic.logs.operations.restore_post"), @"Restored post");
+
+        /// <summary>
+        /// "Restored topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsRestoreTopic => new TranslatableString(getKey(@"topic.logs.operations.restore_topic"), @"Restored topic");
+
+        /// <summary>
+        /// "Moved split posts"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsSplitDestination => new TranslatableString(getKey(@"topic.logs.operations.split_destination"), @"Moved split posts");
+
+        /// <summary>
+        /// "Split posts"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsSplitSource => new TranslatableString(getKey(@"topic.logs.operations.split_source"), @"Split posts");
+
+        /// <summary>
+        /// "Set topic type"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsTopicType => new TranslatableString(getKey(@"topic.logs.operations.topic_type"), @"Set topic type");
+
+        /// <summary>
+        /// "Changed topic type"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsTopicTypeChanged => new TranslatableString(getKey(@"topic.logs.operations.topic_type_changed"), @"Changed topic type");
+
+        /// <summary>
+        /// "Unlocked topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsUnlock => new TranslatableString(getKey(@"topic.logs.operations.unlock"), @"Unlocked topic");
+
+        /// <summary>
+        /// "Unpinned topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsUnpin => new TranslatableString(getKey(@"topic.logs.operations.unpin"), @"Unpinned topic");
+
+        /// <summary>
+        /// "Locked own topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsUserLock => new TranslatableString(getKey(@"topic.logs.operations.user_lock"), @"Locked own topic");
+
+        /// <summary>
+        /// "Unlocked own topic"
+        /// </summary>
+        public static LocalisableString TopicLogsOperationsUserUnlock => new TranslatableString(getKey(@"topic.logs.operations.user_unlock"), @"Unlocked own topic");
+
+        /// <summary>
         /// "Cancel"
         /// </summary>
         public static LocalisableString TopicPostEditCancel => new TranslatableString(getKey(@"topic.post_edit.cancel"), @"Cancel");

@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="index.description" xml:space="preserve">
-    <value>Paket beatmap yang telah disusun atas satu tema tertentu.</value>
+    <value>Paket-paket beatmap yang tersusun atas satu tema tertentu.</value>
   </data>
   <data name="index.nav_title" xml:space="preserve">
     <value>daftar</value>
@@ -70,20 +70,14 @@
   <data name="index.blurb.important" xml:space="preserve">
     <value>BACA INI SEBELUM MENGUNDUH</value>
   </data>
-  <data name="index.blurb.instruction._" xml:space="preserve">
-    <value>Petunjuk Pemasangan: Setelah paket beatmap selesai diunduh, ekstrak file .rar yang tersedia ke dalam folder Songs pada direktori osu! Anda.
-                    Seluruh beatmap yang terkandung di dalam paket yang Anda unduh telah disediakan dalam bentuk .zip dan/atau .osz, di mana osu! akan kemudian memproses berkas-berkas yang terkait dengan sendirinya ketika Anda masuk ke dalam mode Play.
-                    {0} ekstrak .zip/.osz yang ada secara manual,
-                    karena ada kemungkinan berkas-berkas beatmap yang bersangkutan nantinya tidak akan dapat dimuat oleh osu! dan dimainkan sebagaimana semestinya.</value>
-  </data>
-  <data name="index.blurb.instruction.scary" xml:space="preserve">
-    <value>JANGAN</value>
+  <data name="index.blurb.install_instruction" xml:space="preserve">
+    <value>Petunjuk Pemasangan: Setelah paket beatmap selesai diunduh, ekstrak berkas. rar yang Anda peroleh ke dalam folder Songs yang ada pada direktori osu! Anda.</value>
   </data>
   <data name="index.blurb.note._" xml:space="preserve">
-    <value>Di samping itu, Anda juga sangat disarankan untuk {0} mengingat pada umumnya map-map keluaran terdahulu memiliki kualitas yang jauh lebih rendah dibanding map-map keluaran terbaru.</value>
+    <value>Kami menyarankan Anda untuk {0} karena pada umumnya beatmap-beatmap keluaran terdahulu memiliki kualitas yang jauh lebih rendah dibanding beatmap-beatmap modern.</value>
   </data>
   <data name="index.blurb.note.scary" xml:space="preserve">
-    <value>mengunduh paket dari yang terbaru ke yang paling lama</value>
+    <value>mengunduh paket beatmap mulai dari yang paling baru hingga yang paling awal</value>
   </data>
   <data name="show.download" xml:space="preserve">
     <value>Unduh</value>
@@ -95,10 +89,10 @@
     <value>belum dimainkan</value>
   </data>
   <data name="show.no_diff_reduction._" xml:space="preserve">
-    <value>Anda tidak boleh menggunakan {0} untuk dapat membuka medali yang terhubung dengan paket beatmap ini.</value>
+    <value>Anda tidak dapat menggunakan {0} untuk menuntaskan paket beatmap ini.</value>
   </data>
   <data name="show.no_diff_reduction.link" xml:space="preserve">
-    <value>mod-mod yang mempermudah permainan (EZ, NF, atau HT)</value>
+    <value>mod-mod pengurang kesulitan</value>
   </data>
   <data name="mode.artist" xml:space="preserve">
     <value>Artis/Album</value>
@@ -113,7 +107,7 @@
     <value>Tematik</value>
   </data>
   <data name="require_login._" xml:space="preserve">
-    <value>Anda harus {0} untuk mengunduh</value>
+    <value>Anda harus {0} untuk dapat mengunduh</value>
   </data>
   <data name="require_login.link_text" xml:space="preserve">
     <value>masuk</value>

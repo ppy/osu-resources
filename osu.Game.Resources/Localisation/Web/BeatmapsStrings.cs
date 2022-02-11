@@ -965,9 +965,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Mods9K => new TranslatableString(getKey(@"mods.9k"), @"9K");
 
         /// <summary>
-        /// "Auto Pilot"
+        /// "Autopilot"
         /// </summary>
-        public static LocalisableString ModsAP => new TranslatableString(getKey(@"mods.ap"), @"Auto Pilot");
+        public static LocalisableString ModsAP => new TranslatableString(getKey(@"mods.ap"), @"Autopilot");
 
         /// <summary>
         /// "Double Time"
@@ -975,9 +975,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModsDT => new TranslatableString(getKey(@"mods.dt"), @"Double Time");
 
         /// <summary>
-        /// "Easy Mode"
+        /// "Easy"
         /// </summary>
-        public static LocalisableString ModsEZ => new TranslatableString(getKey(@"mods.ez"), @"Easy Mode");
+        public static LocalisableString ModsEZ => new TranslatableString(getKey(@"mods.ez"), @"Easy");
 
         /// <summary>
         /// "Fade In"
@@ -1020,9 +1020,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModsNF => new TranslatableString(getKey(@"mods.nf"), @"No Fail");
 
         /// <summary>
-        /// "No mods"
+        /// "No Mod"
         /// </summary>
-        public static LocalisableString ModsNM => new TranslatableString(getKey(@"mods.nm"), @"No mods");
+        public static LocalisableString ModsNM => new TranslatableString(getKey(@"mods.nm"), @"No Mod");
 
         /// <summary>
         /// "Perfect"

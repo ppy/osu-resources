@@ -65,10 +65,10 @@
     <value>Kepemilikan atas tingkat kesulitan {0} telah dipindahtangankan kepada {1}.</value>
   </data>
   <data name="event.discussion_delete" xml:space="preserve">
-    <value>Moderator menghapus diskusi {0}.</value>
+    <value>Moderator menghapus topik diskusi {0}.</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
-    <value>Laman diskusi pada beatmap ini telah ditutup. ({0})</value>
+    <value>Laman diskusi pada beatmap ini telah dikunci. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
     <value>Moderator telah menghapus balasan pada topik diskusi {0}.</value>
@@ -77,7 +77,7 @@
     <value>Moderator telah mengembalikan balasan pada topik diskusi {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
-    <value>Moderator mengembalikan diskusi {0}.</value>
+    <value>Moderator mengembalikan topik diskusi {0}.</value>
   </data>
   <data name="event.discussion_unlock" xml:space="preserve">
     <value>Laman diskusi pada beatmap ini telah kembali dibuka.</value>
@@ -92,25 +92,25 @@
     <value>Aliran beatmap diubah dari {0} menjadi {1}.</value>
   </data>
   <data name="event.issue_reopen" xml:space="preserve">
-    <value>Masalah {0} yang telah terjawab sebelumnya oleh {1} kembali dibuka oleh {2}.</value>
+    <value>Masalah {0} yang sebelumnya telah terjawab oleh {1} kembali dibuka oleh {2}.</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
     <value>Masalah {0} oleh {1} telah ditandai sebagai terjawab oleh {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>Status penolakan kudosu untuk {0} telah dihapus.</value>
+    <value>Penganuliran kudosu pada topik diskusi {0} telah ditarik kembali.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
-    <value>Pemberian kudosu pada diskusi {0} ditolak.</value>
+    <value>Pemberian kudosu pada topik diskusi {0} ditolak.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>{0} telah memperoleh cukup suara untuk mendapat kudosu dari topik diskusi {1}.</value>
+    <value>{0} telah meraup cukup suara untuk dapat memperoleh kudosu dari topik diskusi {1}.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
     <value>{0} telah kehilangan suara dari topik diskusi {1} dan kudosu yang sebelumnya diberikan telah dianulir.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
-    <value>Jumlah perolehan kudosu untuk diskusi {0} telah dihitung ulang.</value>
+    <value>Perolehan kudosu untuk topik diskusi {0} telah dihitung ulang.</value>
   </data>
   <data name="event.language_edit" xml:space="preserve">
     <value>Bahasa beatmap diubah dari {0} menjadi {1}.</value>
@@ -125,7 +125,7 @@
     <value>Dinominasikan oleh {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Masalah baru pada {0} ({1}) memicu penganuliran nominasi.</value>
+    <value>Masalah baru yang diutarakan pada topik diskusi {0} ({1}) telah memicu penganuliran nominasi.</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
     <value>Nominasi yang sebelumnya diberikan oleh {0} telah dianulir oleh {1} ({2})</value>
@@ -134,7 +134,7 @@
     <value>Nominasi dianulir oleh {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Beatmap ini telah memperoleh jumlah nominasi yang cukup untuk mendapatkan status Qualified.</value>
+    <value>Beatmap ini telah memperoleh jumlah nominasi yang dibutuhkan untuk dapat menyandang status Qualified.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Ranked.</value>
@@ -152,10 +152,10 @@
     <value>Laman Peristiwa Beatmapset</value>
   </data>
   <data name="index.form.period" xml:space="preserve">
-    <value>Periode</value>
+    <value>Rentang Waktu</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Jenis-Jenis</value>
+    <value>Jenis</value>
   </data>
   <data name="item.content" xml:space="preserve">
     <value>Isi</value>
@@ -167,22 +167,22 @@
     <value>Jenis</value>
   </data>
   <data name="type.approve" xml:space="preserve">
-    <value>Persetujuan</value>
+    <value>Pemberian status Approved</value>
   </data>
   <data name="type.beatmap_owner_change" xml:space="preserve">
-    <value>Pergantian kepemilikan tingkat kesulitan</value>
+    <value>Perubahan kepemilikan tingkat kesulitan</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Penghapusan topik diskusi</value>
   </data>
   <data name="type.discussion_post_delete" xml:space="preserve">
-    <value>Penghapusan pesan balasan pada topik diskusi</value>
+    <value>Penghapusan pesan balasan</value>
   </data>
   <data name="type.discussion_post_restore" xml:space="preserve">
-    <value>Pengembalian pesan balasan yang terhapus pada topik diskusi</value>
+    <value>Pemulihan pesan balasan</value>
   </data>
   <data name="type.discussion_restore" xml:space="preserve">
-    <value>Pengembalian topik diskusi yang terhapus</value>
+    <value>Pemulihan topik diskusi</value>
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Diskualifikasi</value>
@@ -197,16 +197,16 @@
     <value>Penutupan topik diskusi</value>
   </data>
   <data name="type.kudosu_allow" xml:space="preserve">
-    <value>Perolehan kudosu</value>
+    <value>Pemberian izin kudosu</value>
   </data>
   <data name="type.kudosu_deny" xml:space="preserve">
-    <value>Penolakan Kudosu</value>
+    <value>Penganuliran kudosu</value>
   </data>
   <data name="type.kudosu_gain" xml:space="preserve">
-    <value>Pendapatan kudosu</value>
+    <value>Perolehan kudosu</value>
   </data>
   <data name="type.kudosu_lost" xml:space="preserve">
-    <value>Penganuliran kudosu</value>
+    <value>Pelepasan kudosu</value>
   </data>
   <data name="type.kudosu_recalculate" xml:space="preserve">
     <value>Perhitungan ulang kudosu</value>
@@ -215,7 +215,7 @@
     <value>Pengaturan bahasa</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Love</value>
+    <value>Pemberian status Loved</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Nominasi</value>
@@ -224,16 +224,16 @@
     <value>Penganuliran nominasi</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>Nominasi beatmap dianulir</value>
+    <value>Penganuliran nominasi yang diterima</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
-    <value>Tanda eksplisit</value>
+    <value>Pengaturan tanda eksplisit</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Kualifikasi</value>
   </data>
   <data name="type.rank" xml:space="preserve">
-    <value>Peringkat</value>
+    <value>Pemberian status Ranked</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
     <value>Pelepasan status Loved</value>

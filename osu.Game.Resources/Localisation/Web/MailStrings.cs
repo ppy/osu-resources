@@ -130,9 +130,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PasswordResetRequested => new TranslatableString(getKey(@"password_reset.requested"), @"Either you or someone pretending to be you has requested a password reset on your osu! account.");
 
         /// <summary>
-        /// "osu! account recover"
+        /// "osu! account recovery"
         /// </summary>
-        public static LocalisableString PasswordResetSubject => new TranslatableString(getKey(@"password_reset.subject"), @"osu! account recover");
+        public static LocalisableString PasswordResetSubject => new TranslatableString(getKey(@"password_reset.subject"), @"osu! account recovery");
 
         /// <summary>
         /// "We have received your payment and are preparing your order for shipping. It may take a few days for us to send it out, depending on the quantity of orders. You can follow the progress of your order here, including tracking details where available:"

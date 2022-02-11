@@ -58,8 +58,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty" xml:space="preserve">
-    <value>Пока не сыграно ни одной игры в мультиплеере osu!(lazer)</value>
+  <data name="empty._" xml:space="preserve">
+    <value>Пока не сыграно ни одной игры в {0} osu!(lazer)</value>
+  </data>
+  <data name="empty.playlists" xml:space="preserve">
+    <value>плейлистах</value>
+  </data>
+  <data name="empty.realtime" xml:space="preserve">
+    <value>мультиплеере</value>
   </data>
   <data name="room.hosted_by" xml:space="preserve">
     <value>хост: {0}</value>
@@ -75,6 +81,9 @@
   </data>
   <data name="room.time_left" xml:space="preserve">
     <value>осталось {0}</value>
+  </data>
+  <data name="room.errors.duration_too_long" xml:space="preserve">
+    <value>Слишком большая продолжительность.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>активная</value>

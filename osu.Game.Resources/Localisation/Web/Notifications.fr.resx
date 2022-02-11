@@ -68,7 +68,7 @@
     <value>Chargement des notifications non lues...</value>
   </data>
   <data name="mark_read" xml:space="preserve">
-    <value>Effacer {0}</value>
+    <value>Marquer comme lu {0}</value>
   </data>
   <data name="none" xml:space="preserve">
     <value>Pas de notifications</value>
@@ -80,7 +80,7 @@
     <value>accéder au tchat</value>
   </data>
   <data name="verifying" xml:space="preserve">
-    <value>Veuillez vérifier la session pour voir les notifications</value>
+    <value>Veuillez vérifier votre session pour voir les notifications</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>tout</value>
@@ -116,10 +116,10 @@
     <value>Vous êtes maintenant propriétaire de la difficulté "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
-    <value>Discussion de la beatmap</value>
+    <value>Discussions de beatmaps</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Beatmap "{0}" a été verrouillée pour la discussion</value>
+    <value>La discussion de la beatmap "{0}" a été verrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>La discussion a été verrouillée</value>
@@ -137,16 +137,16 @@
     <value>Nouveau message par {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Nouvelle revue sur "{0}" par {1} contenant des problèmes : {2}, suggestions : {3}, encouragements : {4}</value>
+    <value>Nouvelle review sur "{0}" par {1} contenant des problèmes : {2}, suggestions : {3}, encouragements : {4}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Nouvelle revue par {0} contenant des problèmes : {1}, suggestions : {2}, encouragements : {3}</value>
+    <value>Nouvelle review par {0} contenant des problèmes : {1}, suggestions : {2}, compliments : {3}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>Beatmap "{0}" a été déverrouillée pour la discussion</value>
+    <value>La discussion de la beatmap "{0}" a été déverrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
-    <value>La discussion a été débloquée</value>
+    <value>La discussion n'est plus verrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
     <value>Problème de beatmap qualifiée</value>
@@ -173,19 +173,19 @@
     <value>La beatmap a été disqualifiée</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" a été promu comme aimée</value>
+    <value>"{0}" a été ajoutée à la catégorie Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>La beatmap a été promue comme aimée</value>
+    <value>La beatmap est passée à la catégorie Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>"{0}" a été nommé</value>
+    <value>"{0}" a été nominée</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
     <value>La beatmap a été nominée</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" a obtenu suffisamment de nominations et est entré dans la file d'attente du classement</value>
+    <value>"{0}" a obtenu suffisamment de nominations et est entrée dans la file d'attente de classement</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
     <value>La beatmap est entrée dans la file d’attente de classement</value>
@@ -197,10 +197,10 @@
     <value>La beatmap a été classée</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" a été supprimé de Loved</value>
+    <value>"{0}" a été retirée de la catégorie Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Beatmap a été retiré de Loved</value>
+    <value>La beatmap a été retirée de la catégorie loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>La nomination de "{0}" a été réinitialisée</value>
@@ -225,6 +225,18 @@
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Tchat</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Nouvelle annonce</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} dit "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Annonce de {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Nouveau message</value>
@@ -287,7 +299,7 @@
     <value>{0} a répondu</value>
   </data>
   <data name="item.legacy_pm._" xml:space="preserve">
-    <value>Forum de l'héritage PM</value>
+    <value>Ancienne page forum des messages privés</value>
   </data>
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} message non lu|{0} messages non lus</value>
@@ -304,6 +316,12 @@
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>Nouvelles beatmaps par {0}</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>La beatmap "{0}" a été ramenée à la vie par {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>La beatmap "{0}" a été ramenée à la vie</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Médailles</value>
   </data>
@@ -311,13 +329,13 @@
     <value>Nouvelle médaille</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
-    <value>Débloqué "{0}" !</value>
+    <value>"{0}" débloquée !</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
-    <value>Débloqué «{0}» !</value>
+    <value>«{0}» débloquée !</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
-    <value>Médailles débloquées !</value>
+    <value>Médailles déverrouillées !</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>Vous êtes maintenant invité de la beatmap "{0}"</value>
@@ -338,7 +356,7 @@
     <value>"{0}" a été disqualifiée</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" a été promue en aimée</value>
+    <value>"{0}" est passée à la catégorie Loved</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" a été nominée</value>
@@ -350,7 +368,7 @@
     <value>"{0}" a été classée</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" a été supprimé de Loved</value>
+    <value>"{0}" a été retirée de la catégorie Loved</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>La nomination de "{0}" a été réinitialisée</value>
@@ -362,7 +380,7 @@
     <value>Vous avez reçu un nouveau message de {0}</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
-    <value>Les notes de mises à jour "{0}" ont de nouveaux commentaires</value>
+    <value>Le changelog "{0}" a reçu de nouveaux commentaires</value>
   </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
     <value>L'article "{0}" a de nouveaux commentaires</value>

@@ -58,9 +58,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admin.warehouse" xml:space="preserve">
-    <value>Склад</value>
-  </data>
   <data name="cart.checkout" xml:space="preserve">
     <value>Разплащане</value>
   </data>
@@ -68,7 +65,7 @@
     <value>{0} артикул в количката (${1})|{0} артикула в количката (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
-    <value>Искам да проверя още артикули преди да приключа с поръчката си</value>
+    <value>Ще проверя още артикули, преди да приключа поръчката си</value>
   </data>
   <data name="cart.shipping_fees" xml:space="preserve">
     <value>транспортни такси</value>
@@ -86,7 +83,7 @@
     <value>Премахнете или актуализирайте артикулите отгоре, за да продължите.</value>
   </data>
   <data name="cart.empty.text" xml:space="preserve">
-    <value>Вашата количка е празна.</value>
+    <value>Количката ви е празна.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
     <value>Върнете се до {0} за други придобивки!</value>
@@ -98,19 +95,19 @@
     <value>Ох не, изникнаха проблеми с количката ви!</value>
   </data>
   <data name="checkout.cart_problems_edit" xml:space="preserve">
-    <value>Щракнете тук, за да го редактирате.</value>
+    <value>Кликнете тук, за да го редактирате.</value>
   </data>
   <data name="checkout.declined" xml:space="preserve">
-    <value>Плащането бе отменено.</value>
+    <value>Плащането е отменено.</value>
   </data>
   <data name="checkout.delayed_shipping" xml:space="preserve">
-    <value>В момента сме затрупани с поръчки! Добре доши сте да поставите вашата поръчка, но очаквайте **допълнително 1-2 седмици закъснение** докато настигнем с вече съществуващите поръчки.</value>
+    <value>В момента сме затрупани с поръчки! Добре дошли сте да пуснете вашата поръчка, но очаквайте **допълнително 1-2 седмици закъснение**, докато наваксаме с вече съществуващите поръчки.</value>
   </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Вашата количка изглежда е с изтекъл срок и бе възобновена, моля опитайте отново.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
-    <value>Разплатете се с PayPal</value>
+    <value>Плащане с PayPal</value>
   </data>
   <data name="checkout.title_compact" xml:space="preserve">
     <value>разплащане</value>
@@ -122,10 +119,10 @@
     <value>тук</value>
   </data>
   <data name="checkout.pending_checkout.line_1" xml:space="preserve">
-    <value>Предишно разплашане бе започнато и незавършено.</value>
+    <value>Предишно разплашане е започнато и незавършено.</value>
   </data>
   <data name="checkout.pending_checkout.line_2" xml:space="preserve">
-    <value>Възстановете вашето разплащане, като изберете метод на плащане.</value>
+    <value>Довършете вашето разплащане, като изберете метод на плащане.</value>
   </data>
   <data name="discount" xml:space="preserve">
     <value>спести {0}%</value>
@@ -137,13 +134,13 @@
     <value>фактура</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
-    <value>Вашето заплащане все още не е потвърдено!</value>
+    <value>Вашето плащане все още не е потвърдено!</value>
   </data>
   <data name="invoice.status.processing.line_1" xml:space="preserve">
-    <value>Ако вече сте заплатили, тогава все още очакваме потвърждение за заплащането. Моля презаредете страницата след минута или две!</value>
+    <value>Ако вече сте платили, тогава все още очакваме потвърждение за плащането. Моля презаредете страницата след минута или две!</value>
   </data>
   <data name="invoice.status.processing.line_2._" xml:space="preserve">
-    <value>Ако възникне проблем по време на разплащането, {0}</value>
+    <value>Ако възникне проблем по време на плащането, {0}</value>
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>кликнете тук, за да възстановите вашето разплащане</value>
@@ -158,19 +155,19 @@
     <value>Поръчката не може да бъде отменена на този етап.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
-    <value>Преглед на фактурата</value>
+    <value>Преглед на фактура</value>
   </data>
   <data name="order.no_orders" xml:space="preserve">
     <value>Нямате поръчки за преглед.</value>
   </data>
   <data name="order.paid_on" xml:space="preserve">
-    <value>Поръчка направена на {0}</value>
+    <value>Поръчан на {0}</value>
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Продължи разплащането</value>
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
-    <value>Адреса за тази поръчката изтече.</value>
+    <value>Връзката за тази поръчката изтече.</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} за {1} ({2})</value>
@@ -179,31 +176,31 @@
     <value>Количество</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка, защото тя бе отменена.</value>
+    <value>Не може да промените вашата поръчка, защото е отменена.</value>
   </data>
   <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка докато тя се обработва.</value>
+    <value>Не може да промените вашата поръчка, докато се обработва.</value>
   </data>
   <data name="order.not_modifiable_exception.default" xml:space="preserve">
-    <value>Тази поръчка не може да се изменя</value>
+    <value>Поръчката не подлежи на промяна</value>
   </data>
   <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка, защото тя вече е доставена.</value>
+    <value>Не може да промените вашата поръчка, защото е доставена.</value>
   </data>
   <data name="order.not_modifiable_exception.paid" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка, защото тя вече е платена.</value>
+    <value>Не може да промените вашата поръчка, защото вече е платена.</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка докато тя се обработва.</value>
+    <value>Не може да промените вашата поръчка, докато се обработва.</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
-    <value>Не можете да променяте вашата поръчка, защото тя вече е изпратена.</value>
+    <value>Не може да промените вашата поръчка, защото вече е изпратена.</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>Отменено</value>
   </data>
   <data name="order.status.checkout" xml:space="preserve">
-    <value>Подготовка</value>
+    <value>Подготвя се</value>
   </data>
   <data name="order.status.delivered" xml:space="preserve">
     <value>Доставено</value>
@@ -212,28 +209,28 @@
     <value>Платено</value>
   </data>
   <data name="order.status.processing" xml:space="preserve">
-    <value>Изчакване на потвърждение</value>
+    <value>Изчаква одобрение</value>
   </data>
   <data name="order.status.shipped" xml:space="preserve">
-    <value>В движение</value>
+    <value>Пътува</value>
   </data>
   <data name="product.name" xml:space="preserve">
     <value>Име</value>
   </data>
   <data name="product.stock.out" xml:space="preserve">
-    <value>Този артикул не е в наличност в момента. Моля проверете отново по-късно!</value>
+    <value>Този артикул не е наличен в момента. Моля проверете отново по-късно!</value>
   </data>
   <data name="product.stock.out_with_alternative" xml:space="preserve">
-    <value>За съжаление този артикул не е в наличност. Моля използвайте падащото меню да избере друг или проверете отново по-късно!</value>
+    <value>За съжаление, този артикул не наличен. Моля, използвайте падащото меню, за да избере друг или проверете отново по-късно!</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
-    <value>Добави в количката</value>
+    <value>Добави в количка</value>
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Изпрати ми известие, когато отново е в наличност!</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
-    <value>вие ще бъдете уведомени, когато презаредим тези артикули. щракнете {0} за отказ</value>
+    <value>ще бъдете уведомени, при нова наличност. кликнете {0} за отказ</value>
   </data>
   <data name="product.notification_remove_text" xml:space="preserve">
     <value>тук</value>
@@ -245,13 +242,13 @@
     <value>подари на играч</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Трябва да сте {0} , за да закупите osu!supporter !</value>
+    <value>Моля, {0}, за да закупите osu!supporter !</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
-    <value>влезли в профила си</value>
+    <value>влез в профила си</value>
   </data>
   <data name="username_change.check" xml:space="preserve">
-    <value>Въведете потребителско име, за да проверите наличността му!</value>
+    <value>Въведи потребителско име, за да проверите наличността му!</value>
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Проверка за наличност на {0}...</value>

@@ -127,6 +127,12 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Через нову проблему в {0} ({1}) статус номінації був скинутий.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Число {0} було скинуто на {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Номінація була скинута {0} ({1}) </value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Ця карта була номінована достатню кількість разів для кваліфікації.</value>
   </data>
@@ -137,10 +143,10 @@
     <value>Вилучено з категорії Loved користувачем {0}. ({1})</value>
   </data>
   <data name="event.nsfw_toggle.to_0" xml:space="preserve">
-    <value>Видалена явна позначка</value>
+    <value>Видалена позначка непристойного вмісту</value>
   </data>
   <data name="event.nsfw_toggle.to_1" xml:space="preserve">
-    <value>Позначено як явне</value>
+    <value>Має непристойний вміст</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Події карти</value>
@@ -217,8 +223,11 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Скинути номінацію</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Запрос на обнулення номінації був відправлений</value>
+  </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
-    <value>Явна позначка</value>
+    <value>Непристойний вміст</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Кваліфікація</value>

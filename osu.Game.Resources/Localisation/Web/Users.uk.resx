@@ -116,7 +116,7 @@
     <value>Ой-ой! Схоже, що ваш обліковий запис був відключений.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>Врахуйте, що якщо ви порушили правила, то як мінімум місяць ваші спроби оскаржити блокування розглядатися не будуть. Після закінчення одного місяця можете зв'язуватися з нами, якщо вважаєте за це необхідним. Також знайте, що створення нових акаунтів щоб уникнути блокування &lt;strong&gt;лише продовжить цей місячний період&lt;/strong&gt;, в який ви не зможете відновити свій головний аккаунт. До того ж, &lt;strong&gt;створення вторинних акаунтів заборонено правилами&lt;/strong&gt;, тому радимо вам не робити цього!</value>
+    <value>Врахуйте, що якщо ви порушили правила, то як мінімум місяць ваші спроби оскаржити блокування розглядатися не будуть. Після закінчення одного місяця можете зв'язуватися з нами, якщо вважаєте це за необхідне. Також знайте, що створення нових акаунтів щоб уникнути блокування &lt;strong&gt;лише продовжить цей місячний період&lt;/strong&gt;, у який ви не зможете відновити свій головний акаунт. До того ж, &lt;strong&gt;створення вторинних акаунтів заборонено правилами&lt;/strong&gt;, тому радимо вам не робити цього!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
     <value>Якщо ви вважаєте, що це помилка ви можете зв'язатися з нами (через {0} або після натискання на "?" В правому-нижньому кутку цієї сторінки). Зауважте, що ми завжди впевнені в своїх діях, так як вони засновані на надійних даних. Ми залишаємо за собою право ігнорувати ваші скарги, якщо порахуємо, що ви ведете себе недобросовісно.</value>
@@ -125,7 +125,7 @@
     <value>ел. поште</value>
   </data>
   <data name="disabled.reasons.compromised" xml:space="preserve">
-    <value>Можливо, ваш аккаунт був скомпрометований. Він може бути тимчасово відключений, поки особистість власника підтверджується.</value>
+    <value>Можливо, ваш акаунт був скомпрометований. Він може бути тимчасово відключений, поки особистість власника підтверджується.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
     <value>Є ряд причин, які можуть призвести до відключення вашого облікового запису:</value>
@@ -176,7 +176,7 @@
     <value>Пароль</value>
   </data>
   <data name="login.register" xml:space="preserve">
-    <value>У вас все ще немає аккаунта osu!? Створіть новий</value>
+    <value>У вас все ще немає акаунта osu!? Створіть новий</value>
   </data>
   <data name="login.remember" xml:space="preserve">
     <value>Запам'ятати цей браузер</value>
@@ -239,7 +239,7 @@
     <value>Нечесна гра / чіти</value>
   </data>
   <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Використання кількох аккаунтів</value>
+    <value>Використання кількох акаунтів</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Образа мене / інших</value>
@@ -493,8 +493,8 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Досягнення</value>
   </data>
-  <data name="show.extra.multiplayer.title" xml:space="preserve">
-    <value>Ігри у мультиплеєрі</value>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Ігрові плейлісти</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Пости</value>
@@ -507,6 +507,9 @@
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Недавня активність</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Мультиплеерні Ігри</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Завантажити повтор</value>
@@ -529,6 +532,21 @@
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Рекорди</value>
   </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Відкріпити</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Результат відкріплений</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Закріпити</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Закріплений результат</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Закріплені результати</value>
+  </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Голосів дано (за 3 місяці)</value>
   </data>
@@ -545,10 +563,10 @@
     <value>{0} голос|{0} голосів</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
-    <value>Статус аккаунту</value>
+    <value>Статус акаунту</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>аккаунт &lt;strong&gt;{0} &lt;/strong&gt; не в хорошому стані :(</value>
+    <value>акаунт &lt;strong&gt;{0} &lt;/strong&gt; не в хорошому стані :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
     <value>користувачу &lt;strong&gt;{0} &lt;/strong&gt; можна буде говорити через {1}.</value>
@@ -713,7 +731,7 @@
     <value>Користувач створений</value>
   </data>
   <data name="verify.title" xml:space="preserve">
-    <value>Підтвердження аккаунта</value>
+    <value>Підтвердження акаунта</value>
   </data>
   <data name="view_mode.brick" xml:space="preserve">
     <value>Показувати цеглою</value>

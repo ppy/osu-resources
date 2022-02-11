@@ -62,16 +62,19 @@
     <value>该谱面现在无法下载。</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
-    <value>应 歌曲作者/第三方版权持有者 的要求，这张谱面已经下架。</value>
+    <value>应歌曲作者或第三方版权持有者的要求，这张谱面已无法下载。</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
     <value>点击这里查看更多信息。</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>谱面中不适合 osu! 的内容已在审核后被移除。</value>
+    <value>已在审核后移除了谱面中不适合于 osu! 展示的内容。</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>慢一点，打几张图再回来吧。</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>精选艺术家</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>谱面列表</value>
@@ -95,28 +98,28 @@
     <value>在 osu!direct 中查看</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>有多于一个模式的谱面需要选择至少一个要提名的游戏模式。</value>
+    <value>您需要在多模式谱面中选择至少一个游戏模式并提名。</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>你没有权限为该模式提名：{0}</value>
+    <value>您没有提名 {0} 模式的权限。</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
-    <value>你必须是正式提名人才能进行此提名。</value>
+    <value>您必须成为正式审核团队成员才能提名这张谱面。</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>提名需求已达标。</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>你确定要提名这张谱面吗？</value>
+    <value>您确定要提名这张谱面吗？</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>提名谱面</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>注意：你只能提名一次，所以请确保你的提名包含所有你想要提名的游戏模式。</value>
+    <value>注意：您只能提名一次，所以请确保提名包含所有您想要提名的游戏模式。</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
-    <value>你要提名哪种模式？</value>
+    <value>您要提名哪种模式？</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>少儿不宜</value>
@@ -161,16 +164,16 @@
     <value>登录</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
-    <value>approved 于 {0}</value>
+    <value>于 {0} Approved</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>loved 于 {0}</value>
+    <value>于 {0} Loved</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>qualified 于 {0}</value>
+    <value>于 {0} Qualified </value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>ranked 于 {0}</value>
+    <value>于 {0} Ranked</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>提交于 {0}</value>
@@ -197,10 +200,10 @@
     <value>制作中</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>如果你认为此谱面有问题，可以取消提名：{0}</value>
+    <value>如果你认为此谱面有问题，可以按下 {0} 取消提名。</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
-    <value>如果您发现此谱面有问题，请在 {0} 通知审核团。</value>
+    <value>如果您发现此谱面有问题，请前往 {0} 通知审核团队。</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>报告问题</value>
@@ -242,7 +245,7 @@
     <value>此谱面包含视频</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>此谱面包含少儿不宜的、具有冒犯性的或令人不安的内容。您仍然想查看它吗？</value>
+    <value>此谱面包含少儿不宜、冒犯性或令人不安的内容。您仍然想查看它吗？</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>少儿不宜内容</value>
@@ -287,7 +290,10 @@
     <value>Miss</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
-    <value>Mod</value>
+    <value>Mods</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>置顶</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>玩家</value>
@@ -295,10 +301,10 @@
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>排名</value>
   </data>
-  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+  <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>得分</value>
   </data>
-  <data name="show.scoreboard.headers.score" xml:space="preserve">
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
     <value>得分</value>
   </data>
   <data name="show.scoreboard.headers.time" xml:space="preserve">
@@ -344,7 +350,7 @@
     <value>难度星级</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>长度</value>
+    <value>长度（游玩长度：{0}）</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>

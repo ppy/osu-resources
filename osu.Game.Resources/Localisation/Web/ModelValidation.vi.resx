@@ -151,6 +151,9 @@
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
     <value>Không cho phép chỉnh sửa beatmap metadata.</value>
   </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Không thể xóa bài đăng mở đầu</value>
+  </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Câu trả lời của bạn chỉ có một trích dẫn.</value>
   </data>
@@ -190,11 +193,23 @@
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Vượt quá mức cho phép chọn các lựa chọn.</value>
   </data>
+  <data name="oauth.client.url" xml:space="preserve">
+    <value>Xin vui lòng nhập một URL hợp lệ.</value>
+  </data>
+  <data name="oauth.client.attributes.name" xml:space="preserve">
+    <value>Tên ứng dụng</value>
+  </data>
+  <data name="oauth.client.attributes.redirect" xml:space="preserve">
+    <value>URL gọi lại ứng dụng</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Mật khẩu không thể chứa tên tài khoản.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>Địa chỉ email đã được sử dụng.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>Địa chỉ email không được phép.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Quốc gia không có trong cơ sở dữ liệu.</value>
@@ -204,6 +219,9 @@
   </data>
   <data name="user.invalid_email" xml:space="preserve">
     <value>Dường như đây không phải là địa chỉ email hợp lệ.</value>
+  </data>
+  <data name="user.invalid_twitter" xml:space="preserve">
+    <value>Tên người dùng Twitter không hợp lệ.</value>
   </data>
   <data name="user.too_short" xml:space="preserve">
     <value>Mật khẩu mới quá ngắn.</value>

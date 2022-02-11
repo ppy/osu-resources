@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="authorizations.update.null_user" xml:space="preserve">
-    <value>Влезте в профила си, за да редактирате.</value>
+    <value>Влез в профила си, за редактиране.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
-    <value>Системно-генерираният пост не може да бъде редактиран.</value>
+    <value>Системно-генериран пост не може да бъде редактиран.</value>
   </data>
   <data name="authorizations.update.wrong_user" xml:space="preserve">
-    <value>Трябва да сте собственик на тази публикация да редактирате.</value>
+    <value>Трябва да сте собственик на публикацията, за да редактирате.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
     <value>Нищо не се е случило... още.</value>
@@ -74,22 +74,22 @@
     <value>изтрито</value>
   </data>
   <data name="index.none_found" xml:space="preserve">
-    <value>Няма открити дискусии, които отговарят на критерия за търсене.</value>
+    <value>Няма намерена дискусия, която отговаря на критерия за търсене.</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Бийтмап Дискусии</value>
+    <value>Бийтмап дискусии</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Търсене</value>
   </data>
   <data name="index.form.deleted" xml:space="preserve">
-    <value>Включете изтрити дискусии</value>
+    <value>Включи изтрити дискусии</value>
   </data>
   <data name="index.form.mode" xml:space="preserve">
-    <value> Бийтмап вид</value>
+    <value> Вид на бийтмап</value>
   </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
-    <value>Покажи само нерешените дискусии</value>
+    <value>Покажи само нерешени дискусии</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
     <value>Тип съобщения</value>
@@ -98,7 +98,7 @@
     <value>Потребителско име</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Бийтмап статус</value>
+    <value>Статус на бийтмап</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Всички</value>
@@ -131,22 +131,22 @@
     <value>Вид</value>
   </data>
   <data name="item.permalink" xml:space="preserve">
-    <value>Постоянен линк</value>
+    <value>Връзка</value>
   </data>
   <data name="nearby_posts.confirm" xml:space="preserve">
     <value>Нито един от постовете ме интересуват</value>
   </data>
   <data name="nearby_posts.notice" xml:space="preserve">
-    <value>Има постове около {0} ({1}). Моля проверете ги преди да публикувате.</value>
+    <value>Съществуват публикации за {0} ({1}). Моля, проверете ги преди да публикувате.</value>
   </data>
   <data name="nearby_posts.unsaved" xml:space="preserve">
     <value>{0} в това ревю</value>
   </data>
   <data name="owner_editor.button" xml:space="preserve">
-    <value>Собственик на трудността</value>
+    <value>Собственик на трудност</value>
   </data>
   <data name="owner_editor.reset_confirm" xml:space="preserve">
-    <value>Занули собственика на тази трудност?</value>
+    <value>Анулиране на собственика за тази трудност?</value>
   </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Собственик</value>
@@ -155,19 +155,19 @@
     <value>Трудност</value>
   </data>
   <data name="reply.open.guest" xml:space="preserve">
-    <value>Влезте в профила си за да Отговорите</value>
+    <value>Влез в профила си, за отговор</value>
   </data>
   <data name="reply.open.user" xml:space="preserve">
-    <value>Отговори</value>
+    <value>Отговор</value>
   </data>
   <data name="review.block_count" xml:space="preserve">
     <value>{0} / {1} блокирания</value>
   </data>
   <data name="review.go_to_parent" xml:space="preserve">
-    <value>Виж ревюто</value>
+    <value>Виж ревю</value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
-    <value>Виж дискусията</value>
+    <value>Виж дискусия</value>
   </data>
   <data name="review.validation.block_too_large" xml:space="preserve">
     <value>всеки блок може да има до {0} знака</value>
@@ -191,13 +191,13 @@
     <value>липсва текст в блока</value>
   </data>
   <data name="review.validation.too_many_blocks" xml:space="preserve">
-    <value>ревютата може да съдържат само {0} параграфа/проблема|ревютата може да съдържат до {0} параграфа/проблема </value>
+    <value>ревютата може да съдържат само {0} параграф/проблем|ревютата може да съдържат само {0} параграфа/проблема </value>
   </data>
   <data name="system.resolved.true" xml:space="preserve">
-    <value>Маркирано като разрешено от {0}</value>
+    <value>Отбелязан като решен от {0}</value>
   </data>
   <data name="system.resolved.false" xml:space="preserve">
-    <value>Подновено от {0}</value>
+    <value>Отново отворен от {0}</value>
   </data>
   <data name="timestamp_display.general" xml:space="preserve">
     <value>общо</value>
@@ -206,9 +206,9 @@
     <value>общо (всички)</value>
   </data>
   <data name="user_filter.everyone" xml:space="preserve">
-    <value>Всички</value>
+    <value>Всеки</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
-    <value>Филтрирано от потребителя</value>
+    <value>Подреди по потребител</value>
   </data>
 </root>

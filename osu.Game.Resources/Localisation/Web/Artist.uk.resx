@@ -79,6 +79,9 @@
   <data name="index.description" xml:space="preserve">
     <value>Обрані виконавці - це наша програма в osu!, за якою ми співпрацюємо з виконавцями, щоб наповнити osu! новою і оригінальною музикою. Ці виконавці і їх композиції були ретельно підібрані командою osu! як найбільш відповідні для створення карт. Деякі з представлених виконавців присвятили грі osu! ексклюзивні композиції. &lt;br&gt; &lt;br&gt; До всіх композицій у цій секції додається .osz файл з уже заданими таймінгами. Всі композиції були офіційно ліцензовані для використання в osu! і пов'язаних проектах.</value>
   </data>
+  <data name="links.beatmaps" xml:space="preserve">
+    <value>osu! бітмапи</value>
+  </data>
   <data name="links.osu" xml:space="preserve">
     <value>профіль osu!</value>
   </data>
@@ -89,7 +92,13 @@
     <value>Пісні</value>
   </data>
   <data name="songs.count" xml:space="preserve">
-    <value>{0}|пісня{0} пісні</value>
+    <value>{0} пісня|{0} пісні</value>
+  </data>
+  <data name="songs.original" xml:space="preserve">
+    <value>виключно для osu! </value>
+  </data>
+  <data name="songs.original_badge" xml:space="preserve">
+    <value>ОРИГІНАЛ</value>
   </data>
   <data name="tracklist.title" xml:space="preserve">
     <value>назва</value>
@@ -102,5 +111,38 @@
   </data>
   <data name="tracklist.genre" xml:space="preserve">
     <value>жанр</value>
+  </data>
+  <data name="tracks.index._" xml:space="preserve">
+    <value>пошук треків</value>
+  </data>
+  <data name="tracks.index.form.advanced" xml:space="preserve">
+    <value>Розширений пошук </value>
+  </data>
+  <data name="tracks.index.form.album" xml:space="preserve">
+    <value>Альбом </value>
+  </data>
+  <data name="tracks.index.form.artist" xml:space="preserve">
+    <value>Артист </value>
+  </data>
+  <data name="tracks.index.form.bpm_gte" xml:space="preserve">
+    <value>Мінімальний BPM</value>
+  </data>
+  <data name="tracks.index.form.bpm_lte" xml:space="preserve">
+    <value>Максимальний BPM</value>
+  </data>
+  <data name="tracks.index.form.empty" xml:space="preserve">
+    <value>Не знайдено жодного треку, що відповідає критеріям пошуку.</value>
+  </data>
+  <data name="tracks.index.form.genre" xml:space="preserve">
+    <value>Жанр </value>
+  </data>
+  <data name="tracks.index.form.genre_all" xml:space="preserve">
+    <value>Всі </value>
+  </data>
+  <data name="tracks.index.form.length_gte" xml:space="preserve">
+    <value>Мінімальна довжина </value>
+  </data>
+  <data name="tracks.index.form.length_lte" xml:space="preserve">
+    <value>Максимальна довжина </value>
   </data>
 </root>

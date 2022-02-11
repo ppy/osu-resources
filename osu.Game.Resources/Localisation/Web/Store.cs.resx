@@ -58,14 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="admin.warehouse" xml:space="preserve">
-    <value>Sklad</value>
-  </data>
   <data name="cart.checkout" xml:space="preserve">
     <value>Zaplatit</value>
   </data>
   <data name="cart.info" xml:space="preserve">
-    <value>{0} položka v košíku (${1})|{0} položkek v košíku (${1})</value>
+    <value>{0} položka v košíku (${1})|{0} položky v košíku (${1})|{0} položek v košíku (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Chci se ještě podívat na nějaké dobroty než dokončím objednávku</value>
@@ -148,6 +145,12 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klikněte zde pro pokračování v placení</value>
   </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Zrušit objednávku</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Tato objednávka bude zrušena a platba za ni nebude přijata. Poskytovatel platby nemusí okamžitě uvolnit rezervované finanční prostředky. Jste si jisti?</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Zobrazit fakturu</value>
   </data>
@@ -155,7 +158,7 @@
     <value>Nejsou zde žádné objednávky k zobrazení.</value>
   </data>
   <data name="order.paid_on" xml:space="preserve">
-    <value>Objednávka vystavena dne {0}</value>
+    <value>Objednávka zadána {0}</value>
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Obnovit objednávku</value>

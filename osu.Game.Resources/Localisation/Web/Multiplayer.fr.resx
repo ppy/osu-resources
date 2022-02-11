@@ -58,14 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty" xml:space="preserve">
-    <value>Pas de parties multijoueurs d'osu!(lazer) jouées pour le moment !</value>
+  <data name="empty._" xml:space="preserve">
+    <value>Pas de parties jouées sur osu!(lazer) {0} pour le moment !</value>
+  </data>
+  <data name="empty.playlists" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="empty.realtime" xml:space="preserve">
+    <value>multijoueur</value>
   </data>
   <data name="room.hosted_by" xml:space="preserve">
     <value>hébergé par {0}</value>
   </data>
   <data name="room.invalid_password" xml:space="preserve">
-    <value>Mot de passe de la salle invalide</value>
+    <value>Mot de passe invalide</value>
   </data>
   <data name="room.map_count" xml:space="preserve">
     <value>{0} map|{0} maps</value>
@@ -76,13 +82,16 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} restant</value>
   </data>
+  <data name="room.errors.duration_too_long" xml:space="preserve">
+    <value>La durée est trop longue.</value>
+  </data>
   <data name="room.status.active" xml:space="preserve">
-    <value>active</value>
+    <value>en cours</value>
   </data>
   <data name="room.status.ended" xml:space="preserve">
-    <value>terminé</value>
+    <value>terminée</value>
   </data>
   <data name="room.status.soon" xml:space="preserve">
-    <value>termine bientôt</value>
+    <value>bientôt terminée</value>
   </data>
 </root>

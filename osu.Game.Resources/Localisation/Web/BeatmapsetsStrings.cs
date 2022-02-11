@@ -405,6 +405,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardHeadersMods => new TranslatableString(getKey(@"show.scoreboard.headers.mods"), @"Mods");
 
         /// <summary>
+        /// "Pin"
+        /// </summary>
+        public static LocalisableString ShowScoreboardHeadersPin => new TranslatableString(getKey(@"show.scoreboard.headers.pin"), @"Pin");
+
+        /// <summary>
         /// "Player"
         /// </summary>
         public static LocalisableString ShowScoreboardHeadersPlayer => new TranslatableString(getKey(@"show.scoreboard.headers.player"), @"Player");
@@ -420,14 +425,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardHeadersRank => new TranslatableString(getKey(@"show.scoreboard.headers.rank"), @"Rank");
 
         /// <summary>
-        /// "Total Score"
-        /// </summary>
-        public static LocalisableString ShowScoreboardHeadersScoreTotal => new TranslatableString(getKey(@"show.scoreboard.headers.score_total"), @"Total Score");
-
-        /// <summary>
         /// "Score"
         /// </summary>
         public static LocalisableString ShowScoreboardHeadersScore => new TranslatableString(getKey(@"show.scoreboard.headers.score"), @"Score");
+
+        /// <summary>
+        /// "Total Score"
+        /// </summary>
+        public static LocalisableString ShowScoreboardHeadersScoreTotal => new TranslatableString(getKey(@"show.scoreboard.headers.score_total"), @"Total Score");
 
         /// <summary>
         /// "Time"
@@ -470,6 +475,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardScoreOwn => new TranslatableString(getKey(@"show.scoreboard.score.own"), @"Your Best");
 
         /// <summary>
+        /// "Click {0} to see all the fancy features that you get!"
+        /// </summary>
+        public static LocalisableString ShowScoreboardSupporterLinkDefault(LocalisableString here) => new TranslatableString(getKey(@"show.scoreboard.supporter_link._"), @"Click {0} to see all the fancy features that you get!", here);
+
+        /// <summary>
+        /// "here"
+        /// </summary>
+        public static LocalisableString ShowScoreboardSupporterLinkHere => new TranslatableString(getKey(@"show.scoreboard.supporter_link.here"), @"here");
+
+        /// <summary>
         /// "Circle Size"
         /// </summary>
         public static LocalisableString ShowStatsCs => new TranslatableString(getKey(@"show.stats.cs"), @"Circle Size");
@@ -495,9 +510,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsAr => new TranslatableString(getKey(@"show.stats.ar"), @"Approach Rate");
 
         /// <summary>
-        /// "Star Difficulty"
+        /// "Star Rating"
         /// </summary>
-        public static LocalisableString ShowStatsStars => new TranslatableString(getKey(@"show.stats.stars"), @"Star Difficulty");
+        public static LocalisableString ShowStatsStars => new TranslatableString(getKey(@"show.stats.stars"), @"Star Rating");
 
         /// <summary>
         /// "Length (Drain length: {0})"

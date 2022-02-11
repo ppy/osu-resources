@@ -30,25 +30,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexBlurbImportant => new TranslatableString(getKey(@"index.blurb.important"), @"READ THIS BEFORE DOWNLOADING");
 
         /// <summary>
-        /// "Installation: Once a pack has been downloaded, extract the .rar into your osu! Songs directory.
-        ///                     All songs are still .zip&#39;d and/or .osz&#39;d inside the pack, so osu! will need to extract the beatmaps itself the next time you go into Play mode.
-        ///                     {0} extract the zip&#39;s/osz&#39;s yourself,
-        ///                     or the beatmaps will display incorrectly in osu! and will not function properly."
+        /// "Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest."
         /// </summary>
-        public static LocalisableString IndexBlurbInstructionDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.instruction._"), @"Installation: Once a pack has been downloaded, extract the .rar into your osu! Songs directory.
-                    All songs are still .zip'd and/or .osz'd inside the pack, so osu! will need to extract the beatmaps itself the next time you go into Play mode.
-                    {0} extract the zip's/osz's yourself,
-                    or the beatmaps will display incorrectly in osu! and will not function properly.", scary);
+        public static LocalisableString IndexBlurbInstallInstruction => new TranslatableString(getKey(@"index.blurb.install_instruction"), @"Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest.");
 
         /// <summary>
-        /// "Do NOT"
+        /// "Also note that it is highly recommended to {0}, since older maps are generally of much lower quality than more recent maps."
         /// </summary>
-        public static LocalisableString IndexBlurbInstructionScary => new TranslatableString(getKey(@"index.blurb.instruction.scary"), @"Do NOT");
-
-        /// <summary>
-        /// "Also note that it is highly recommended to {0}, since the oldest maps are of much lower quality than most recent maps."
-        /// </summary>
-        public static LocalisableString IndexBlurbNoteDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.note._"), @"Also note that it is highly recommended to {0}, since the oldest maps are of much lower quality than most recent maps.", scary);
+        public static LocalisableString IndexBlurbNoteDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.note._"), @"Also note that it is highly recommended to {0}, since older maps are generally of much lower quality than more recent maps.", scary);
 
         /// <summary>
         /// "download the packs from latest to earliest"

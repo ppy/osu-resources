@@ -62,7 +62,7 @@
     <value>{0} yang ditentukan tidak valid.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
-    <value>{0} tidak bisa negatif.</value>
+    <value>{0} tidak dapat bernilai negatif.</value>
   </data>
   <data name="required" xml:space="preserve">
     <value>{0} diwajibkan.</value>
@@ -80,13 +80,13 @@
     <value>Beatmap ini tidak dapat di-hype.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>Hype hanya dapat diberikan pada kolom diskusi Umum (Seluruh tingkat kesulitan).</value>
+    <value>Hype hanya dapat diberikan pada bagian Umum (Seluruh tingkat kesulitan).</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
-    <value>Tingkat kesulitan yang tidak valid ditentukan.</value>
+    <value>Tingkat kesulitan yang ditentukan tidak valid.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>Beatmap yang tidak valid ditentukan.</value>
+    <value>Beatmap yang ditentukan tidak valid.</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Diskusi dikunci.</value>
@@ -98,7 +98,7 @@
     <value>Keterangan Waktu</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Anda tidak dapat memberikan hype karena fitur diskusi untuk beatmap ini sedang dibekukan oleh moderator</value>
+    <value>Anda tidak dapat memberikan hype karena laman diskusi beatmap ini tengah dikunci</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Silakan masuk untuk dapat memberikan hype.</value>
@@ -119,7 +119,7 @@
     <value>Keterangan waktu yang ditentukan melebihi panjang beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Keterangan waktu tidak bisa bernilai negatif.</value>
+    <value>Keterangan waktu tidak dapat mengacu pada nilai waktu yang negatif.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Topik diskusi ini terkunci.</value>
@@ -131,10 +131,10 @@
     <value>Pesan</value>
   </data>
   <data name="comment.deleted_parent" xml:space="preserve">
-    <value>Anda tidak dapat membalas komentar yang sudah dihapus sebelumnya.</value>
+    <value>Anda tidak dapat membalas komentar yang telah dihapus.</value>
   </data>
   <data name="comment.top_only" xml:space="preserve">
-    <value>Tidak diperbolehkan menyemat balasan komentar.</value>
+    <value>Komentar balasan tidak dapat disematkan.</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>Isi pesan</value>
@@ -245,7 +245,7 @@
     <value>Nama pengguna ini akan tersedia untuk digunakan dalam {0}.</value>
   </data>
   <data name="user.username_available_soon" xml:space="preserve">
-    <value>Nama pengguna ini dapat digunakan sekarang!</value>
+    <value>Nama pengguna ini tersedia untuk digunakan!</value>
   </data>
   <data name="user.username_invalid_characters" xml:space="preserve">
     <value>Nama pengguna yang diminta mengandung karakter yang tidak valid.</value>
@@ -254,7 +254,7 @@
     <value>Nama pengguna sudah digunakan!</value>
   </data>
   <data name="user.username_locked" xml:space="preserve">
-    <value>Nama pengguna sudah digunakan!</value>
+    <value>Nama pengguna ini telah digunakan!</value>
   </data>
   <data name="user.username_no_space_userscore_mix" xml:space="preserve">
     <value>Mohon gunakan garis bawah atau spasi, jangan keduanya!</value>
@@ -263,7 +263,7 @@
     <value>Nama pengguna tidak dapat dimulai atau diakhiri dengan spasi!</value>
   </data>
   <data name="user.username_not_allowed" xml:space="preserve">
-    <value>Pilihan nama pengguna ini tidak diizinkan.</value>
+    <value>Nama pengguna ini tidak diizinkan.</value>
   </data>
   <data name="user.username_too_short" xml:space="preserve">
     <value>Nama pengguna yang diminta terlalu pendek.</value>
@@ -278,28 +278,28 @@
     <value>Kata sandi saat ini salah.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>Konfirmasi email tidak cocok.</value>
+    <value>Alamat email tidak cocok.</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
-    <value>Konfirmasi kata sandi tidak cocok.</value>
+    <value>Kata sandi tidak cocok.</value>
   </data>
   <data name="user.too_long" xml:space="preserve">
     <value>Melebihi batas maksimum - hanya bisa hingga {0} karakter.</value>
   </data>
   <data name="user.attributes.username" xml:space="preserve">
-    <value>Nama Pengguna</value>
+    <value>Nama pengguna</value>
   </data>
   <data name="user.attributes.user_email" xml:space="preserve">
-    <value>Alamat Email</value>
+    <value>Alamat email</value>
   </data>
   <data name="user.attributes.password" xml:space="preserve">
-    <value>Kata Sandi</value>
+    <value>Kata sandi</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
-    <value>Anda tidak dapat mengganti nama pengguna ketika akun Anda sedang di-restrict.</value>
+    <value>Anda tidak dapat mengubah nama pengguna pada saat akun Anda sedang di-restrict.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Anda harus menjadi {0} untuk mengubah nama Anda!</value>
+    <value>Anda harus memiliki {0} untuk dapat mengubah nama pengguna Anda!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
     <value>osu!supporter</value>
@@ -307,8 +307,11 @@
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Ini nama penggunamu yang sekarang, bodoh!</value>
   </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Anda tidak dapat melaporkan beatmap yang berstatus Ranked</value>
+  </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
-    <value>alasan {0} tidak sah untuk jenis laporan ini.</value>
+    <value>{0} bukan merupakan alasan yang valid untuk jenis laporan ini.</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
     <value>Anda tidak dapat melaporkan diri Anda sendiri!</value>

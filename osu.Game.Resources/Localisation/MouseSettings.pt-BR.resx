@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>Não aplicável em modo de tela cheia</value>
+  </data>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>Cursor de alta precisão</value>
+  </data>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Tenta contornar qualquer aceleração de mouse aplicada pelo sistema. No Windows, isso é o equivalente ao que era conhecido como "Entrada bruta".</value>
+  </data>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Manter cursor do mouse preso na janela</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust" xml:space="preserve">
+    <value>Desativar os ajustes de volume pela roda do mouse durante o gameplay</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust_tooltip" xml:space="preserve">
+    <value>O volume ainda pode ser ajustado usando a roda do mouse, pressionando a tecla "Alt"</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Desativar os botões do mouse durante o jogo</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Ative o cursor de alta precisão para ajustar a sensibilidade</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Sensibilidade do cursor</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>Essa configuração tem apresentado problemas na sua plataforma. Caso encontre algum, recomendamos que ajuste a sensibilidade por fora e mantenha essa configuração desligada por hora.</value>
+  </data>
+</root>

@@ -92,13 +92,16 @@
     <value>trop de requêtes</value>
   </data>
   <data name="error.error.500" xml:space="preserve">
-    <value>quelque chose est cassé</value>
+    <value>quelque chose s'est mal passé</value>
   </data>
   <data name="error.error.503" xml:space="preserve">
     <value>maintenance</value>
   </data>
   <data name="forum._" xml:space="preserve">
     <value>forum</value>
+  </data>
+  <data name="forum.topic_logs_controller.index" xml:space="preserve">
+    <value>historique du sujet</value>
   </data>
   <data name="forum.topic_watches_controller.index" xml:space="preserve">
     <value>tableau de bord</value>
@@ -109,8 +112,11 @@
   <data name="main.account_controller.verify_link" xml:space="preserve">
     <value>vérification du compte</value>
   </data>
+  <data name="main.artist_tracks_controller._" xml:space="preserve">
+    <value>featured artists</value>
+  </data>
   <data name="main.artists_controller._" xml:space="preserve">
-    <value>artistes associés</value>
+    <value>featured artists</value>
   </data>
   <data name="main.beatmap_discussion_posts_controller._" xml:space="preserve">
     <value>posts de discussion sur la beatmap</value>
@@ -119,25 +125,25 @@
     <value>discussions sur la beatmap</value>
   </data>
   <data name="main.beatmap_packs_controller._" xml:space="preserve">
-    <value>collections de beatmaps</value>
+    <value>beatmap packs</value>
   </data>
   <data name="main.beatmapset_discussion_votes_controller._" xml:space="preserve">
     <value>votes de discussion de la beatmap</value>
   </data>
   <data name="main.beatmapset_events_controller._" xml:space="preserve">
-    <value>historique de la beatmap</value>
+    <value>historique des beatmaps</value>
   </data>
   <data name="main.beatmapset_watches_controller.index" xml:space="preserve">
     <value>tableau de bord</value>
   </data>
   <data name="main.beatmapsets_controller.discussion" xml:space="preserve">
-    <value>discussion de la beatmap</value>
+    <value>discussion sur les beatmaps</value>
   </data>
   <data name="main.beatmapsets_controller.index" xml:space="preserve">
     <value>liste des beatmaps</value>
   </data>
   <data name="main.beatmapsets_controller.show" xml:space="preserve">
-    <value>informations de la beatmap</value>
+    <value>informations sur la beatmap</value>
   </data>
   <data name="main.changelog_controller._" xml:space="preserve">
     <value>changelog</value>
@@ -216,6 +222,9 @@
   </data>
   <data name="multiplayer.rooms_controller._" xml:space="preserve">
     <value>classement</value>
+  </data>
+  <data name="passport.authorization_controller._" xml:space="preserve">
+    <value>autoriser l'application</value>
   </data>
   <data name="store._" xml:space="preserve">
     <value>osu!store</value>

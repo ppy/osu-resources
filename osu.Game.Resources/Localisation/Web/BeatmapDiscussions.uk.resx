@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="authorizations.update.null_user" xml:space="preserve">
-    <value>Ви повинні увійти для редагування.</value>
+    <value>Ви повинні ввійти для редагування.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
     <value>Системне повідомлення не може бути змінено.</value>
@@ -68,13 +68,13 @@
     <value>Ви повинні бути автором даної публікації для редагування.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
-    <value>Нічого не відбувається... поки що.</value>
+    <value>Нічого не відбулось... поки що.</value>
   </data>
   <data name="index.deleted_beatmap" xml:space="preserve">
     <value>видалено</value>
   </data>
   <data name="index.none_found" xml:space="preserve">
-    <value>Не знайдено жодної дискусії, що відповідають критеріям пошуку.</value>
+    <value>Не знайдено жодної дискусії, що відповідає критеріям пошуку.</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Обговорення карти</value>
@@ -173,13 +173,16 @@
     <value>кожен блок може містити лише {0} символів</value>
   </data>
   <data name="review.validation.external_references" xml:space="preserve">
-    <value>відгук містить посилання на проблеми, не отсоящіеся до цього відкликанню</value>
+    <value>відгук містить посилання на проблеми, що не відносяться до цього відгуку</value>
   </data>
   <data name="review.validation.invalid_block_type" xml:space="preserve">
     <value>недопустимий тип блоку</value>
   </data>
   <data name="review.validation.invalid_document" xml:space="preserve">
     <value>недопустимий відгук</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>неприпустимий тип дискусії </value>
   </data>
   <data name="review.validation.minimum_issues" xml:space="preserve">
     <value>відгук повинен містити як мінімум {0} проблему | відгук повинен містити як мінімум {0} проблеми | відгук повинен містити як мінімум {0} проблем

@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Bạn không thể thay đổi metadata của map đã được nominated. Liên hệ với một BN hoặc NAT nếu bạn thấy metadata bị sai.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Kênh này chỉ dành cho các thông báo.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Không thể nhắn tin cho người dùng đã chặn bạn hoặc nếu bạn đã chặn người đó.</value>
   </data>
@@ -148,8 +151,14 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Bạn không có quyền truy cập vào kênh này.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Người này có thể không trả lời được vì bạn đang chỉ chấp nhận tin nhắn từ người trong danh sách bạn bè.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Bạn không thể gửi tin nhắn trong khi bị silenced, bị hạn chế hoặc bị cấm (ban).</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Bạn không thể gửi tin nhắn khi bị tắt tiếng, bị hạn chế hoặc bị cấm.</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Không thể chỉnh sửa bài đăng đã bị xóa.</value>
@@ -264,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Chỉ có admin mới có thể xem diễn đàn này.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Chỉ có người sở hữu có thể ghim điểm.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Ghim quá nhiều điểm.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Trang người dùng này đã bị khóa.</value>

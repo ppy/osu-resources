@@ -226,6 +226,18 @@
   <data name="item.channel._" xml:space="preserve">
     <value>聊天</value>
   </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>新增公告</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} 發表了「{1}」</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>{0} 發布的公告</value>
+  </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>新訊息</value>
   </data>
@@ -303,6 +315,12 @@
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>{0} 上傳了新圖譜</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>「{0}」圖譜已被 {1} 恢復</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>已恢復「{0}」圖譜</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>成就</value>

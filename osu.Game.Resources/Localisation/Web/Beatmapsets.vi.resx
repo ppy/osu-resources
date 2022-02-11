@@ -68,10 +68,13 @@
     <value>Nhấp vào đây để biết thêm thông tin.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>Một số nội dung có trong bản đồ này đã bị xóa sau khi bị đánh giá là không phù hợp để sử dụng trong osu!.</value>
+    <value>Một số nội dung có trong map này đã bị xóa sau khi bị đánh giá là không phù hợp để sử dụng trong osu!.</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Chậm lại, chơi nhiều hơn.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Nghệ sĩ nổi bật</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Danh Sách Beatmap</value>
@@ -95,7 +98,7 @@
     <value>mở trong osu!direct</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Bản đồ nhịp kết hợp yêu cầu bạn chọn ít nhất một chế độ chơi để đề cử.</value>
+    <value>Bạn cần chọn ít nhất một chế độ chơi trong beatmap có nhiều chế độ để đề cử.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Bạn không có sự cho phép để đề cử cho chế độ: {0}</value>
@@ -119,7 +122,7 @@
     <value>Đề cử cho những chế độ nào?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>Minh bạch</value>
+    <value>18+</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Góc Thảo Luận</value>
@@ -164,7 +167,7 @@
     <value>được chấp nhận {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>được yêu thích {0}</value>
+    <value>loved {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>đủ tiêu chuẩn {0}</value>
@@ -179,7 +182,7 @@
     <value>cập nhật lần cuối {0}</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
-    <value>Bạn có quá nhiều beatmap yêu thích! Hãy hũy yêu thích vài beatmap và thử lại sau.</value>
+    <value>Bạn có quá nhiều beatmap yêu thích! Hãy hủy yêu thích vài beatmap và thử lại sau.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
     <value>Hype nếu bạn thích map này để giúp nó tiến tới trạng thái &lt;strong&gt;Được xếp hạng&lt;/strong&gt;.</value>
@@ -200,7 +203,7 @@
     <value>Nếu bạn thấy có vấn đề với bản beatmap này, vui lòng loại bỏ nó {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
-    <value>Nếu bạn tìm thấy vấn đề với bản đồ này, vui lòng báo cáo nó {0} để cảnh báo cho nhóm.</value>
+    <value>Nếu bạn tìm thấy vấn đề với beatmap này, vui lòng báo cáo nó tại {0} để cảnh báo cho chúng tôi.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Báo cáo vấn đề</value>
@@ -221,7 +224,7 @@
     <value>Vẫn đang tính toán dữ liệu...</value>
   </data>
   <data name="show.info.nsfw" xml:space="preserve">
-    <value>Nội dung thô tục</value>
+    <value>Nội dung không lành mạnh</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Tỉ Lệ Thất Bại</value>
@@ -242,10 +245,10 @@
     <value>Beatmap này chứa video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap này chứa nội dung thô tục, xúc phạm, hoặc đáng lo ngại. Bạn có muốn xem nó không?</value>
+    <value>Beatmap này chứa nội dung không lành mạn, phản cảm, hoặc đáng lo ngại. Bạn có muốn xem nó không?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
-    <value>Nội dung thô tục</value>
+    <value>Nội dung không lành mạnh</value>
   </data>
   <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
     <value>Ẩn thông báo</value>
@@ -289,17 +292,20 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Mods</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Ghim</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Người Chơi</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>Xếp Hạng</value>
   </data>
-  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
-    <value>Tổng Điểm</value>
-  </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Điểm</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Tổng Điểm</value>
   </data>
   <data name="show.scoreboard.headers.time" xml:space="preserve">
     <value>Thời gian</value>

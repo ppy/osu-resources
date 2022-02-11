@@ -58,8 +58,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty" xml:space="preserve">
-    <value>아직 아무런 osu!(lazer) 멀티플레이 게임이 진행되지 않았습니다!</value>
+  <data name="empty._" xml:space="preserve">
+    <value>아직 아무런 osu!(lazer) {0} 게임이 진행되지 않았습니다!</value>
+  </data>
+  <data name="empty.playlists" xml:space="preserve">
+    <value>플레이리스트</value>
+  </data>
+  <data name="empty.realtime" xml:space="preserve">
+    <value>멀티플레이어</value>
   </data>
   <data name="room.hosted_by" xml:space="preserve">
     <value>{0} 님이 주최함</value>
@@ -75,6 +81,9 @@
   </data>
   <data name="room.time_left" xml:space="preserve">
     <value>{0} 남음</value>
+  </data>
+  <data name="room.errors.duration_too_long" xml:space="preserve">
+    <value>기간이 너무 깁니다.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>진행 중</value>

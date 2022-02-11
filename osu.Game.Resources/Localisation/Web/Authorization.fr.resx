@@ -65,13 +65,13 @@
     <value>Merci de vous connecter pour continuer.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
-    <value>Veuillez vous vérifier pour continuer.</value>
+    <value>Veuillez vous authentifier pour continuer.</value>
   </data>
   <data name="restricted" xml:space="preserve">
-    <value>Action impossible quand votre compte est restreint.</value>
+    <value>Vous ne pouvez pas effectuer cette action lorsque votre compte est restreint.</value>
   </data>
   <data name="silenced" xml:space="preserve">
-    <value>Action impossible quand votre compte est réduit au silence.</value>
+    <value>Vous ne pouvez pas effectuer cette action lorsque vous êtes réduit au silence.</value>
   </data>
   <data name="unauthorized" xml:space="preserve">
     <value>Accès refusé.</value>
@@ -95,7 +95,7 @@
     <value>Veuillez définir le genre et la langue de cette musique avant de nominer cette beatmap.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Seuls l'auteur du post d'origine de la discussion et le créateur de la beatmap peuvent voir ce sujet.</value>
+    <value>Seuls l'auteur du post et le créateur de la beatmap peuvent résoudre ce sujet.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
     <value>Seul le propriétaire de la beatmap ou le nominateur/membre du groupe NAT peut publier des notes sur le mapper.</value>
@@ -107,7 +107,7 @@
     <value>Veuillez attendre un peu avant d'envoyer de nouveaux votes</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
-    <value>Vous ne pouvez pas voter pour votre propre discussion.</value>
+    <value>Vous ne pouvez pas voter dans votre propre sondage.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
     <value>Vous ne pouvez voter que sur les discussions des beatmaps en attente.</value>
@@ -131,10 +131,13 @@
     <value>Un sujet posté automatiquement ne peut être édité.</value>
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
-    <value>Cette beatmap est verrouillée pour la discussion.</value>
+    <value>La discussion de cette beatmap a été bloquée.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier les métadonnées d'une map nominée. Contactez un membre du BN ou du NAT si vous pensez qu'elles sont mal définies.</value>
+    <value>Vous ne pouvez pas modifier les métadonnées d'une beatmap nominée. Contactez un Beatmap Nominator ou un membre de la NAT si vous pensez qu'elles sont mal définies.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Ce canal est uniquement pour les annonces.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Vous ne pouvez pas envoyer un message à un utilisateur qui vous a bloqué ou que vous avez bloqué.</value>
@@ -143,10 +146,13 @@
     <value>Cet utilisateur bloque les messages des personnes qui ne sont pas dans sa liste d’amis.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
-    <value>Ce canal est actuellement modéré.</value>
+    <value>Ce salon est actuellement restreint par un modérateur.</value>
   </data>
   <data name="chat.no_access" xml:space="preserve">
-    <value>Vous n’avez pas accès à ce canal.</value>
+    <value>Vous n’avez pas accès à ce salon.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>L'utilisateur n'est peut-être pas en mesure de répondre parce que vous n'acceptez que les messages des personnes de votre liste d'amis.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Vous ne pouvez pas envoyer de messages en étant réduit au silence, restreint ou banni.</value>
@@ -158,10 +164,10 @@
     <value>Vous ne pouvez pas éditer un post supprimé.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
-    <value>Vous ne pouvez pas changer votre vote une fois la période de vote terminée.</value>
+    <value>Vous ne pouvez plus modifier votre vote une fois la période de vote passée.</value>
   </data>
   <data name="contest.entry.limit_reached" xml:space="preserve">
-    <value>Vous avez atteint la limite d'entrée pour ce concours</value>
+    <value>Vous avez atteint la limite d'entrées pour ce concours</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
     <value>Merci pour vos inscriptions ! Les soumissions sont fermées pour ce concours et le vote va bientôt ouvrir.</value>
@@ -170,7 +176,7 @@
     <value>Vous n’avez pas la permission de modérer ce forum.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>Seul le dernier post peut être supprimé.</value>
+    <value>Seul le dernier message peut être supprimé.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
     <value>Impossible de supprimer un message sur un sujet verrouillé.</value>
@@ -185,7 +191,7 @@
     <value>Impossible de modifier un post supprimé.</value>
   </data>
   <data name="forum.post.edit.locked" xml:space="preserve">
-    <value>Ce post est verrouillé à l'édition.</value>
+    <value>Ce post ne peut pas être édité.</value>
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>L'accès au forum demandé est requis.</value>
@@ -200,7 +206,7 @@
     <value>Essayez de jouer au jeu avant de poster sur les forums ! Si vous rencontrez des problèmes pour jouer, essayez de poster sur le forum Aide et Support.</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Vous devez jouer davantage avant de pouvoir créer de nouveaux messages. Si vous rencontrez encore des difficultés pour jouer, envoyez un email à support@ppy.sh</value>
+    <value>Vous devez jouer davantage avant de pouvoir créer de nouveaux posts. Si vous rencontrez toujours des difficultés pour jouer, envoyez un email à support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
     <value>Merci d'éditer votre dernier post au lieu de poster à nouveau.</value>
@@ -215,7 +221,7 @@
     <value>Vous n'êtes pas autorisé à répondre.</value>
   </data>
   <data name="forum.topic.reply.user.require_login" xml:space="preserve">
-    <value>Merci de vous connecter pour répondre.</value>
+    <value>Veuillez vous connecter pour répondre.</value>
   </data>
   <data name="forum.topic.reply.user.restricted" xml:space="preserve">
     <value>Impossible de répondre : votre compte est restreint.</value>
@@ -236,13 +242,13 @@
     <value>L'accès au forum demandé est requis.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
-    <value>Le vote est fini et vous ne pouvez plus voter.</value>
+    <value>La période de vote est terminée et vous ne pouvez plus voter.</value>
   </data>
   <data name="forum.topic.vote.play_more" xml:space="preserve">
     <value>Vous devez jouer plus avant de voter sur le forum.</value>
   </data>
   <data name="forum.topic.vote.voted" xml:space="preserve">
-    <value>Le changement de vote n'est pas permis.</value>
+    <value>Le changement de vote n'est pas autorisé.</value>
   </data>
   <data name="forum.topic.vote.user.require_login" xml:space="preserve">
     <value>Connectez-vous pour voter.</value>
@@ -268,13 +274,19 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Ce forum n'est accessible qu'aux administrateurs.</value>
   </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Seul le propriétaire du score peut épingler le score.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Trop de scores épinglés.</value>
+  </data>
   <data name="user.page.edit.locked" xml:space="preserve">
-    <value>La page de l'utilisateur est verrouillée.</value>
+    <value>La page utilisateur est verrouillée.</value>
   </data>
   <data name="user.page.edit.not_owner" xml:space="preserve">
     <value>Vous ne pouvez éditer que votre propre page, pas celle d'autres utilisateurs.</value>
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
-    <value>le tag osu!supporter est requis.</value>
+    <value>vous devez être un osu!supporter.</value>
   </data>
 </root>

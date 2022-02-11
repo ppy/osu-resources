@@ -73,6 +73,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>잠시 멈추시고, 좀 더 플레이해보세요.</value>
   </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>공식 아티스트</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>비트맵 목록</value>
   </data>
@@ -89,7 +92,7 @@
     <value>영상 포함된 것으로 받기</value>
   </data>
   <data name="panel.download.no_video" xml:space="preserve">
-    <value>영상 없는 것으로 받기</value>
+    <value>영상이 없는 것으로 받기</value>
   </data>
   <data name="panel.download.direct" xml:space="preserve">
     <value>osu!direct에서 열기</value>
@@ -125,7 +128,7 @@
     <value>토론</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
-    <value>{0} 님이 만듦</value>
+    <value>by {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>즐겨찾기</value>
@@ -137,7 +140,7 @@
     <value>로그인 후 비트맵을 다운로드하세요!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
-    <value>{0}님의 맵</value>
+    <value>{0} 님의 맵</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>즐겨찾기 해제</value>
@@ -289,17 +292,20 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>모드</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>고정</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>플레이어</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>순위</value>
   </data>
-  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
-    <value>총 점수</value>
-  </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>점수</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>총 점수</value>
   </data>
   <data name="show.scoreboard.headers.time" xml:space="preserve">
     <value>시간</value>
@@ -324,6 +330,12 @@
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>내 최고 점수</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>서포터가 누릴 수 있는 다른 멋진 기능들을 확인하려면 {0}를 클릭해주세요!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>여기</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Circle Size</value>
@@ -383,7 +395,7 @@
     <value>제작 중</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
-    <value>Pending</value>
+    <value>보류 중</value>
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>무덤에 감</value>

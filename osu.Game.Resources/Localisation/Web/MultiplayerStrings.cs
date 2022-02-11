@@ -10,9 +10,19 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Multiplayer";
 
         /// <summary>
-        /// "No osu!(lazer) multiplayer games played yet!"
+        /// "No osu!(lazer) {0} games played yet!"
         /// </summary>
-        public static LocalisableString Empty => new TranslatableString(getKey(@"empty"), @"No osu!(lazer) multiplayer games played yet!");
+        public static LocalisableString EmptyDefault(LocalisableString typeGroup) => new TranslatableString(getKey(@"empty._"), @"No osu!(lazer) {0} games played yet!", typeGroup);
+
+        /// <summary>
+        /// "playlist"
+        /// </summary>
+        public static LocalisableString EmptyPlaylists => new TranslatableString(getKey(@"empty.playlists"), @"playlist");
+
+        /// <summary>
+        /// "multiplayer"
+        /// </summary>
+        public static LocalisableString EmptyRealtime => new TranslatableString(getKey(@"empty.realtime"), @"multiplayer");
 
         /// <summary>
         /// "hosted by {0}"
@@ -38,6 +48,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "{0} left"
         /// </summary>
         public static LocalisableString RoomTimeLeft(LocalisableString time) => new TranslatableString(getKey(@"room.time_left"), @"{0} left", time);
+
+        /// <summary>
+        /// "Duration is too long."
+        /// </summary>
+        public static LocalisableString RoomErrorsDurationTooLong => new TranslatableString(getKey(@"room.errors.duration_too_long"), @"Duration is too long.");
 
         /// <summary>
         /// "active"

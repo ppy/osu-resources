@@ -25,59 +25,24 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TitleCompact => new TranslatableString(getKey(@"title_compact"), @"chat");
 
         /// <summary>
-        /// "You cannot message this channel at this time. This may be due to any of the following reasons:"
+        /// "You cannot message this channel at this time."
         /// </summary>
-        public static LocalisableString CannotSendChannel => new TranslatableString(getKey(@"cannot_send.channel"), @"You cannot message this channel at this time. This may be due to any of the following reasons:");
+        public static LocalisableString CannotSendChannel => new TranslatableString(getKey(@"cannot_send.channel"), @"You cannot message this channel at this time.");
 
         /// <summary>
-        /// "You cannot message this user at this time. This may be due to any of the following reasons:"
+        /// "You cannot message this user at this time."
         /// </summary>
-        public static LocalisableString CannotSendUser => new TranslatableString(getKey(@"cannot_send.user"), @"You cannot message this user at this time. This may be due to any of the following reasons:");
-
-        /// <summary>
-        /// "You were blocked by the recipient"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsBlocked => new TranslatableString(getKey(@"cannot_send.reasons.blocked"), @"You were blocked by the recipient");
-
-        /// <summary>
-        /// "The channel has been moderated"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsChannelModerated => new TranslatableString(getKey(@"cannot_send.reasons.channel_moderated"), @"The channel has been moderated");
-
-        /// <summary>
-        /// "The recipient only accepts messages from people on their friends list"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsFriendsOnly => new TranslatableString(getKey(@"cannot_send.reasons.friends_only"), @"The recipient only accepts messages from people on their friends list");
-
-        /// <summary>
-        /// "You have not played the game enough"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsNotEnoughPlays => new TranslatableString(getKey(@"cannot_send.reasons.not_enough_plays"), @"You have not played the game enough");
-
-        /// <summary>
-        /// "Your session has not been verified"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsNotVerified => new TranslatableString(getKey(@"cannot_send.reasons.not_verified"), @"Your session has not been verified");
-
-        /// <summary>
-        /// "You are currently restricted"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsRestricted => new TranslatableString(getKey(@"cannot_send.reasons.restricted"), @"You are currently restricted");
-
-        /// <summary>
-        /// "You are currently silenced"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsSilenced => new TranslatableString(getKey(@"cannot_send.reasons.silenced"), @"You are currently silenced");
-
-        /// <summary>
-        /// "The recipient is currently restricted"
-        /// </summary>
-        public static LocalisableString CannotSendReasonsTargetRestricted => new TranslatableString(getKey(@"cannot_send.reasons.target_restricted"), @"The recipient is currently restricted");
+        public static LocalisableString CannotSendUser => new TranslatableString(getKey(@"cannot_send.user"), @"You cannot message this user at this time.");
 
         /// <summary>
         /// "unable to send message..."
         /// </summary>
         public static LocalisableString InputDisabled => new TranslatableString(getKey(@"input.disabled"), @"unable to send message...");
+
+        /// <summary>
+        /// "Disconnected"
+        /// </summary>
+        public static LocalisableString InputDisconnected => new TranslatableString(getKey(@"input.disconnected"), @"Disconnected");
 
         /// <summary>
         /// "type message..."

@@ -62,7 +62,7 @@
     <value>[utilisateur supprimé]</value>
   </data>
   <data name="beatmapset_activities.title" xml:space="preserve">
-    <value>Historique du modding de {0}</value>
+    <value>Historique de modding de {0}</value>
   </data>
   <data name="beatmapset_activities.title_compact" xml:space="preserve">
     <value>Modding</value>
@@ -116,10 +116,10 @@
     <value>Oh-oh ! Il semble que votre compte ait été désactivé.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>Dans le cas où vous avez enfreint une règle, veuillez noter qu'il y a généralement une période de temps d'un mois pendant laquelle nous n'examinerons aucune demande d'amnistie. Après cette période, vous êtes libre de nous contacter si vous le jugez nécessaire. Veuillez noter que la création de nouveaux comptes une fois que vous en ayez eu un désactivé, entraînera une prolongation &lt;strong&gt;de ce délai de récupération d'un mois&lt;/strong&gt;. Veuillez également noter que pour &lt;strong&gt;chaque compte que vous créez, vous enfreignez à nouveau les règles&lt;/strong&gt;. Nous vous suggérons fortement de ne pas suivre cette voie !</value>
+    <value>Dans le cas où vous avez enfreint une règle, veuillez noter qu'il y a généralement une période d'un mois pendant laquelle nous n'accepterons aucune demande de réactivation. Après cette période, vous êtes libre de nous contacter si vous le jugez nécessaire. Veuillez noter que la création de nouveaux comptes entraînera une prolongation &lt;strong&gt;de ce délai de récupération d'un mois&lt;/strong&gt;. Veuillez également noter que pour &lt;strong&gt;chaque compte que vous créez, vous enfreignez à nouveau les règles&lt;/strong&gt;. Nous vous suggérons fortement de ne pas suivre cette voie !</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Si vous pensez que c'est une erreur, vous êtes invités à nous contacter (via {0} ou en cliquant sur le "?" dans le coin en bas à droite de cette page). Veuillez noter que nous sommes confiants en nos actions, car elles reposent sur des données solides. Nous nous réservons le droit de ne pas tenir compte de votre demande si nous pensons que vous êtes délibérément malhonnête.</value>
+    <value>Si vous pensez qu'il s'agit d'une erreur, vous êtes invités à nous contacter (via {0} ou en cliquant sur le "?" dans le coin en bas à droite de cette page). Veuillez noter que nous sommes confiants en nos actions, car elles reposent sur des données solides. Nous nous réservons le droit de ne pas tenir compte de votre demande si nous pensons que vous êtes délibérément malhonnête.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>email</value>
@@ -131,13 +131,13 @@
     <value>Il y a plusieurs raisons qui peuvent conduire à la désactivation de votre compte :</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
-    <value>Vous avez enfreint une ou plusieurs de nos {0} ou des {1}.</value>
+    <value>Vous avez enfreint une ou plusieurs de nos {0} ou les {1}.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>règles de la communauté</value>
   </data>
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
-    <value>conditions de service</value>
+    <value>conditions générales d'utilisation</value>
   </data>
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>Membres par mode de jeu</value>
@@ -191,7 +191,7 @@
     <value>L'accès à la version bêta est actuellement réservé aux utilisateurs privilégiés.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
-    <value>(les osu!supporter l'obtiendront bientôt)</value>
+    <value>(les osu!supporters l'obtiendront bientôt)</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>Posts de {0}</value>
@@ -314,10 +314,10 @@
     <value>D'autres options de bannières seront disponibles à l'avenir</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
-    <value>Impossible de traiter l'image. Vérifiez l'image mise en ligne et réessayez.</value>
+    <value>Impossible de traiter l'image. Vérifiez l'image uploadée et réessayez.</value>
   </data>
   <data name="show.edit.cover.upload.button" xml:space="preserve">
-    <value>Mettre en ligne l'image</value>
+    <value>Mettre en ligne une image</value>
   </data>
   <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
     <value>Déplacez ici pour uploader</value>
@@ -326,7 +326,7 @@
     <value>Vous pouvez aussi déplacer l'image ici pour la mettre en ligne</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>La taille de la bannière devrait être de 2400x620</value>
+    <value>La taille de la bannière devrait être de 2400x640</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>Le fichier est trop volumineux.</value>
@@ -353,13 +353,13 @@
     <value>Aucune partie récente</value>
   </data>
   <data name="show.extra.achievements.achieved-on" xml:space="preserve">
-    <value>Acquis le {0}</value>
+    <value>Obtenue le {0}</value>
   </data>
   <data name="show.extra.achievements.locked" xml:space="preserve">
-    <value>Verrouillé</value>
+    <value>Verrouillée</value>
   </data>
   <data name="show.extra.achievements.title" xml:space="preserve">
-    <value>Succès</value>
+    <value>Médailles</value>
   </data>
   <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
     <value>par {0}</value>
@@ -476,7 +476,7 @@
     <value>Kudosu refusé par {0} pour le post sur {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Basé sur la quantité d'une contribution que l'utilisateur a apportée à la modération de la beatmap. Voir {0} pour plus d'informations.</value>
+    <value>Selon la contribution que l'utilisateur a apportée à la modération de beatmaps. Voir {0} pour plus d'informations.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>cette page</value>
@@ -488,13 +488,13 @@
     <value>Cet utilisateur n'en a encore jamais reçue. ;_;</value>
   </data>
   <data name="show.extra.medals.recent" xml:space="preserve">
-    <value>Dernier</value>
+    <value>Les plus récentes</value>
   </data>
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Médailles</value>
   </data>
-  <data name="show.extra.multiplayer.title" xml:space="preserve">
-    <value>Parties multijoueurs</value>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Parties avec playlist</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Messages</value>
@@ -507,6 +507,9 @@
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Activité récente</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Parties multijoueurs</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Télécharger le replay</value>
@@ -528,6 +531,21 @@
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Premières places</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Désépingler</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Score désépinglé</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Épingler</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Score épinglé</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Scores épinglés</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Votes donnés (3 derniers mois)</value>
@@ -575,7 +593,7 @@
     <value>par {0}</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
-    <value>Bannir</value>
+    <value>Restriction</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Silence</value>

@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="talking_in" xml:space="preserve">
-    <value>berbicara pada {0}</value>
+    <value>Anda sedang mengobrol di kanal {0}</value>
   </data>
   <data name="talking_with" xml:space="preserve">
     <value>berbicara dengan {0}</value>
   </data>
   <data name="title_compact" xml:space="preserve">
-    <value>percakapan</value>
+    <value>chat</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
     <value>Saat ini Anda tidak dapat mengirimkan pesan pada kanal percakapan ini. Hal ini dapat disebabkan oleh beberapa alasan berikut:</value>
@@ -73,32 +73,11 @@
   <data name="cannot_send.user" xml:space="preserve">
     <value>Saat ini Anda tidak dapat mengirimkan pesan pada pada pengguna yang Anda tuju. Hal ini dapat disebabkan oleh beberapa alasan berikut:</value>
   </data>
-  <data name="cannot_send.reasons.blocked" xml:space="preserve">
-    <value>Anda sedang diblokir oleh penerima pesan yang Anda tuju</value>
-  </data>
-  <data name="cannot_send.reasons.channel_moderated" xml:space="preserve">
-    <value>Kanal percakapan ini sedang berada dalam status termoderasi</value>
-  </data>
-  <data name="cannot_send.reasons.friends_only" xml:space="preserve">
-    <value>Penerima pesan yang Anda tuju hanya menerima pesan-pesan masuk dari para pengguna yang ditambahkan sebagai teman</value>
-  </data>
-  <data name="cannot_send.reasons.not_enough_plays" xml:space="preserve">
-    <value>Anda belum bermain cukup lama</value>
-  </data>
-  <data name="cannot_send.reasons.not_verified" xml:space="preserve">
-    <value>Sesi Anda belum diverifikasi</value>
-  </data>
-  <data name="cannot_send.reasons.restricted" xml:space="preserve">
-    <value>Akun Anda saat ini sedang di-restrict</value>
-  </data>
-  <data name="cannot_send.reasons.silenced" xml:space="preserve">
-    <value>Anda sedang di-silence</value>
-  </data>
-  <data name="cannot_send.reasons.target_restricted" xml:space="preserve">
-    <value>Penerima pesan yang Anda tuju saat ini sedang di-restrict</value>
-  </data>
   <data name="input.disabled" xml:space="preserve">
     <value>gagal mengirim pesan...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Terputus</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>ketikkan pesan...</value>

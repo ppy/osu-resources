@@ -10,11 +10,6 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Store";
 
         /// <summary>
-        /// "Warehouse"
-        /// </summary>
-        public static LocalisableString AdminWarehouse => new TranslatableString(getKey(@"admin.warehouse"), @"Warehouse");
-
-        /// <summary>
         /// "Checkout"
         /// </summary>
         public static LocalisableString CartCheckout => new TranslatableString(getKey(@"cart.checkout"), @"Checkout");

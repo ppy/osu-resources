@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumDefault => new TranslatableString(getKey(@"forum._"), @"forum");
 
         /// <summary>
+        /// "topic logs"
+        /// </summary>
+        public static LocalisableString ForumTopicLogsControllerIndex => new TranslatableString(getKey(@"forum.topic_logs_controller.index"), @"topic logs");
+
+        /// <summary>
         /// "dashboard"
         /// </summary>
         public static LocalisableString ForumTopicWatchesControllerIndex => new TranslatableString(getKey(@"forum.topic_watches_controller.index"), @"dashboard");
@@ -93,6 +98,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "account verification"
         /// </summary>
         public static LocalisableString MainAccountControllerVerifyLink => new TranslatableString(getKey(@"main.account_controller.verify_link"), @"account verification");
+
+        /// <summary>
+        /// "featured artists"
+        /// </summary>
+        public static LocalisableString MainArtistTracksControllerDefault => new TranslatableString(getKey(@"main.artist_tracks_controller._"), @"featured artists");
 
         /// <summary>
         /// "featured artists"
@@ -273,6 +283,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "rankings"
         /// </summary>
         public static LocalisableString MultiplayerRoomsControllerDefault => new TranslatableString(getKey(@"multiplayer.rooms_controller._"), @"rankings");
+
+        /// <summary>
+        /// "authorize app"
+        /// </summary>
+        public static LocalisableString PassportAuthorizationControllerDefault => new TranslatableString(getKey(@"passport.authorization_controller._"), @"authorize app");
 
         /// <summary>
         /// "store"

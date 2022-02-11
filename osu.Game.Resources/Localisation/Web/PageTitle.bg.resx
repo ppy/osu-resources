@@ -77,10 +77,10 @@
     <value>забранен</value>
   </data>
   <data name="error.error.401" xml:space="preserve">
-    <value>неоторизиран</value>
+    <value>неупълномощен</value>
   </data>
   <data name="error.error.401-verification" xml:space="preserve">
-    <value>потвърждение на акаунта</value>
+    <value>потвърждаване на профил</value>
   </data>
   <data name="error.error.405" xml:space="preserve">
     <value>липсва</value>
@@ -100,6 +100,9 @@
   <data name="forum._" xml:space="preserve">
     <value>форум</value>
   </data>
+  <data name="forum.topic_logs_controller.index" xml:space="preserve">
+    <value>дневници</value>
+  </data>
   <data name="forum.topic_watches_controller.index" xml:space="preserve">
     <value>главно табло</value>
   </data>
@@ -107,10 +110,13 @@
     <value>главно табло</value>
   </data>
   <data name="main.account_controller.verify_link" xml:space="preserve">
-    <value>потвърждение на акаунта</value>
+    <value>потвърждаване на профил</value>
+  </data>
+  <data name="main.artist_tracks_controller._" xml:space="preserve">
+    <value>представени автори</value>
   </data>
   <data name="main.artists_controller._" xml:space="preserve">
-    <value>препоръчани изпълнители</value>
+    <value>представени автори</value>
   </data>
   <data name="main.beatmap_discussion_posts_controller._" xml:space="preserve">
     <value>бийтмап дискусии</value>
@@ -140,7 +146,7 @@
     <value>бийтмап инфо</value>
   </data>
   <data name="main.changelog_controller._" xml:space="preserve">
-    <value>списък на промените</value>
+    <value>списък с промени</value>
   </data>
   <data name="main.chat_controller._" xml:space="preserve">
     <value>чат</value>
@@ -161,7 +167,7 @@
     <value>групи</value>
   </data>
   <data name="main.home_controller.get_download" xml:space="preserve">
-    <value>изтегли</value>
+    <value>изтегляне</value>
   </data>
   <data name="main.home_controller.index" xml:space="preserve">
     <value>главно табло</value>
@@ -179,10 +185,10 @@
     <value>информация</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
-    <value>живи потоци</value>
+    <value>игри на живо</value>
   </data>
   <data name="main.matches_controller._" xml:space="preserve">
-    <value>мачове</value>
+    <value>състезания</value>
   </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>новини</value>
@@ -191,13 +197,13 @@
     <value>история на известията</value>
   </data>
   <data name="main.password_reset_controller._" xml:space="preserve">
-    <value>въстановяване на парола</value>
+    <value>възстановяване на парола</value>
   </data>
   <data name="main.ranking_controller._" xml:space="preserve">
     <value>класации</value>
   </data>
   <data name="main.scores_controller._" xml:space="preserve">
-    <value>изпълнение</value>
+    <value>представяне</value>
   </data>
   <data name="main.store_controller._" xml:space="preserve">
     <value>магазин</value>
@@ -206,7 +212,7 @@
     <value>турнири</value>
   </data>
   <data name="main.users_controller._" xml:space="preserve">
-    <value>инфо на играча</value>
+    <value>инфо за играч</value>
   </data>
   <data name="main.users_controller.disabled" xml:space="preserve">
     <value>известие</value>
@@ -217,13 +223,16 @@
   <data name="multiplayer.rooms_controller._" xml:space="preserve">
     <value>класиране</value>
   </data>
+  <data name="passport.authorization_controller._" xml:space="preserve">
+    <value>упълномощаване на приложение</value>
+  </data>
   <data name="store._" xml:space="preserve">
     <value>магазин</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
-    <value>modder инфо</value>
+    <value>инфо за редакции</value>
   </data>
   <data name="users.multiplayer_controller._" xml:space="preserve">
-    <value>мултиплеър история</value>
+    <value>мултиплейър история</value>
   </data>
 </root>

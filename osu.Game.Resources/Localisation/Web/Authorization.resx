@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>This channel is for announcements only.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Cannot message a user that is blocking you or that you have blocked.</value>
   </data>
@@ -143,10 +146,13 @@
     <value>User is blocking messages from people not on their friends list.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
-    <value>That channel is currently moderated.</value>
+    <value>This channel is currently moderated.</value>
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>You do not have access to that channel.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>The user may not be able to reply because you are only accepting messages from people on your friends list.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>You cannot send messages while silenced, restricted or banned.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Only admin can view this forum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Only score owner can pin score.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Pinned too many scores.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>User page is locked.</value>

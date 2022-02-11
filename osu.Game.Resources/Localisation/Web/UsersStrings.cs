@@ -195,9 +195,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoginInvalidCaptcha => new TranslatableString(getKey(@"login.invalid_captcha"), @"Too many failed login attempts, please complete the captcha and try again. (Refresh page if captcha is not visible)");
 
         /// <summary>
-        /// "your IP address is locked. Please wait a few minutes."
+        /// "Your IP address is locked. Please wait a few minutes."
         /// </summary>
-        public static LocalisableString LoginLockedIp => new TranslatableString(getKey(@"login.locked_ip"), @"your IP address is locked. Please wait a few minutes.");
+        public static LocalisableString LoginLockedIp => new TranslatableString(getKey(@"login.locked_ip"), @"Your IP address is locked. Please wait a few minutes.");
 
         /// <summary>
         /// "Password"
@@ -735,9 +735,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraMedalsTitle => new TranslatableString(getKey(@"show.extra.medals.title"), @"Medals");
 
         /// <summary>
-        /// "Multiplayer Games"
+        /// "Playlist Games"
         /// </summary>
-        public static LocalisableString ShowExtraMultiplayerTitle => new TranslatableString(getKey(@"show.extra.multiplayer.title"), @"Multiplayer Games");
+        public static LocalisableString ShowExtraPlaylistsTitle => new TranslatableString(getKey(@"show.extra.playlists.title"), @"Playlist Games");
 
         /// <summary>
         /// "Posts"
@@ -758,6 +758,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Recent"
         /// </summary>
         public static LocalisableString ShowExtraRecentActivityTitle => new TranslatableString(getKey(@"show.extra.recent_activity.title"), @"Recent");
+
+        /// <summary>
+        /// "Multiplayer Games"
+        /// </summary>
+        public static LocalisableString ShowExtraRealtimeTitle => new TranslatableString(getKey(@"show.extra.realtime.title"), @"Multiplayer Games");
 
         /// <summary>
         /// "Download Replay"
@@ -793,6 +798,31 @@ namespace osu.Game.Resources.Localisation.Web
         /// "First Place Ranks"
         /// </summary>
         public static LocalisableString ShowExtraTopRanksFirstTitle => new TranslatableString(getKey(@"show.extra.top_ranks.first.title"), @"First Place Ranks");
+
+        /// <summary>
+        /// "Unpin"
+        /// </summary>
+        public static LocalisableString ShowExtraTopRanksPinTo0 => new TranslatableString(getKey(@"show.extra.top_ranks.pin.to_0"), @"Unpin");
+
+        /// <summary>
+        /// "Unpinned score"
+        /// </summary>
+        public static LocalisableString ShowExtraTopRanksPinTo0Done => new TranslatableString(getKey(@"show.extra.top_ranks.pin.to_0_done"), @"Unpinned score");
+
+        /// <summary>
+        /// "Pin"
+        /// </summary>
+        public static LocalisableString ShowExtraTopRanksPinTo1 => new TranslatableString(getKey(@"show.extra.top_ranks.pin.to_1"), @"Pin");
+
+        /// <summary>
+        /// "Pinned score"
+        /// </summary>
+        public static LocalisableString ShowExtraTopRanksPinTo1Done => new TranslatableString(getKey(@"show.extra.top_ranks.pin.to_1_done"), @"Pinned score");
+
+        /// <summary>
+        /// "Pinned Scores"
+        /// </summary>
+        public static LocalisableString ShowExtraTopRanksPinnedTitle => new TranslatableString(getKey(@"show.extra.top_ranks.pinned.title"), @"Pinned Scores");
 
         /// <summary>
         /// "Votes Given (last 3 months)"

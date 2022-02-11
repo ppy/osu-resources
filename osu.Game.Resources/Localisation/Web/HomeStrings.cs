@@ -359,36 +359,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString UserButtonsStore => new TranslatableString(getKey(@"user.buttons.store"), @"osu!store");
 
-        /// <summary>
-        /// "Wow!"
-        /// </summary>
-        public static LocalisableString SupportOsuTitle => new TranslatableString(getKey(@"support-osu.title"), @"Wow!");
-
-        /// <summary>
-        /// "You seem to be having a good time! {0}"
-        /// </summary>
-        public static LocalisableString SupportOsuSubtitle(LocalisableString d) => new TranslatableString(getKey(@"support-osu.subtitle"), @"You seem to be having a good time! {0}", d);
-
-        /// <summary>
-        /// "Did you know that osu! runs with no advertising, and relies on players to support its development and running costs?"
-        /// </summary>
-        public static LocalisableString SupportOsuBodyPart1 => new TranslatableString(getKey(@"support-osu.body.part-1"), @"Did you know that osu! runs with no advertising, and relies on players to support its development and running costs?");
-
-        /// <summary>
-        /// "Did you also know that by supporting osu! you get a heap of useful features, such as &lt;strong&gt;in-game downloading&lt;/strong&gt; which automatically triggers in spectator and multiplayer games?"
-        /// </summary>
-        public static LocalisableString SupportOsuBodyPart2 => new TranslatableString(getKey(@"support-osu.body.part-2"), @"Did you also know that by supporting osu! you get a heap of useful features, such as <strong>in-game downloading</strong> which automatically triggers in spectator and multiplayer games?");
-
-        /// <summary>
-        /// "Click here to find out more!"
-        /// </summary>
-        public static LocalisableString SupportOsuFindOutMore => new TranslatableString(getKey(@"support-osu.find-out-more"), @"Click here to find out more!");
-
-        /// <summary>
-        /// "Oh, and don&#39;t worry - your download has already been started for you already ;)"
-        /// </summary>
-        public static LocalisableString SupportOsuDownloadStarting => new TranslatableString(getKey(@"support-osu.download-starting"), @"Oh, and don't worry - your download has already been started for you already ;)");
-
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

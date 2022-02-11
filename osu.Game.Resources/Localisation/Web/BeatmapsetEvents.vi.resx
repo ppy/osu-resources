@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Được Chấp Nhận.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Chủ sở hữu của chế độ {0} thay đổi để {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Moderator đã xóa cuộc thảo luận {0}.</value>
   </data>
@@ -118,8 +121,17 @@
   <data name="event.nominate" xml:space="preserve">
     <value>Được đề cử (nominated) bởi {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Được đề cử bởi {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Vấn đề mới {0} đã khiến cho đề cử bị hoàn lại.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value> Đề cử bởi {0} đã được đặt lại bởi {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value> Đề cử đã được đặt lại bởi {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Beatmap này đã đạt được số đề cử (nominations) cần thiết và đã qualified.</value>
@@ -127,8 +139,14 @@
   <data name="event.rank" xml:space="preserve">
     <value>Đã được xếp hạng (Ranked).</value>
   </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Yêu thích bị loại bỏ bởi {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Đã xóa đánh dấu nội dung không lành mạnh</value>
+  </data>
   <data name="event.nsfw_toggle.to_1" xml:space="preserve">
-    <value>Đã đánh dấu có nội dung người lớn</value>
+    <value>Đã đánh dấu có nội dung không lành mạnh</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Những Sự Kiện Của Beatmapset</value>
@@ -150,6 +168,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Chấp nhận</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Thay đổi chủ chế độ</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Xóa cuộc thảo luận</value>
@@ -202,10 +223,19 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Đặt lại đề cử</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Đã nhận được đặt lại đề cử</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Đánh dấu không lành mạnh</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Qualification</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Xếp hạng</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Yêu thích loại bỏ</value>
   </data>
 </root>

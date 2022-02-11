@@ -167,16 +167,16 @@
     <value>Статус карты изменен</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>Карта "{0}" была дисквалифицирована {1}.</value>
+    <value>Карта "{0}" была дисквалифицирована</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
     <value>Карта была дисквалифицирована</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>{0} присвоил статус loved карте "{1}".</value>
+    <value>Карте "{0}" была присвоена категория Любимая</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Карта была повышена до любимых</value>
+    <value>Карте была присвоена категория Любимая</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>Карта "{0}" была номинирована {1}.</value>
@@ -185,25 +185,25 @@
     <value>Карта была номинирована</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>Карте "{0}" было присвоено достаточно номинаций для ожидания ранка.</value>
+    <value>Карте "{0}" было присвоено достаточно номинаций для вхождения в очередь ранка</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>Карта вошла в рейтинговую очередь</value>
+    <value>Карта вошла очередь ранка</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" был оценен</value>
+    <value>Карта "{0}" стала Рейтинговой</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>Карта была оценена</value>
+    <value>Карта стала Рейтинговой</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" был удален из Любимых</value>
+    <value>Карта "{0}" потеряла категорию Любимая</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Карта была удалена из Любимых</value>
+    <value>Карта была удалена из категории Любимая</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>Проблема опубликованная {0} вызвала сброс процесса номинации карты "{1}" </value>
+    <value>Номинации карты "{0}"  была сброшена</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
     <value>Номинация была сброшена</value>
@@ -225,6 +225,18 @@
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Чат</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Новое объявление</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} говорит "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Объявление от {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Новое сообщение</value>
@@ -304,6 +316,12 @@
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>Новые карты от {0}</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Карта "{0}" была воскрешена {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Карта "{0}" воскрешена</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Медали</value>
   </data>
@@ -335,19 +353,19 @@
     <value>Сообщена новая проблема в "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>"{0}" был дисквалифицирован</value>
+    <value>Карта "{0}" дисквалифицирована</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
     <value>"{0}" был повышен до любимого</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>"{0}" был номинирован</value>
+    <value>Карта "{0}" номинирована</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>"{0}" получило достаточно номинаций и вступило в очередь ранка</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" было ранкнуто</value>
+    <value>Карта "{0}" получила категорию Рейтинговая</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" был удален из Любимых</value>

@@ -70,6 +70,9 @@
   <data name="title" xml:space="preserve">
     <value>osu!-foorumit</value>
   </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Muokkaa kantta</value>
+  </data>
   <data name="covers.create._" xml:space="preserve">
     <value>Aseta kansikuva</value>
   </data>
@@ -84,6 +87,12 @@
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
     <value>Haluatko varmasti poistaa kansikuvan?</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Viimeisin viesti</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Foorumien listaus</value>
   </data>
   <data name="forums.topics.empty" xml:space="preserve">
     <value>Ei aiheita!</value>
@@ -109,11 +118,17 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>lähetetty {0}</value>
   </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>lähettänyt {0}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Poista viesti</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Muokkaa viestiä</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Ilmoita viesti</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Palauta viesti</value>
@@ -150,6 +165,9 @@
   </data>
   <data name="topic.has_replied" xml:space="preserve">
     <value>Olet vastannut tähän aiheeseen</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>{0} -foorumissa</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} käyttäjältä {1}</value>
@@ -283,6 +301,9 @@
   <data name="topics.create.poll.hide_results" xml:space="preserve">
     <value>Piilota äänestyksen tulokset.</value>
   </data>
+  <data name="topics.create.poll.hide_results_info" xml:space="preserve">
+    <value>Ne näytetään vasta sen jälkeen, kun keyselyaika on päättynyt.</value>
+  </data>
   <data name="topics.create.poll.length" xml:space="preserve">
     <value>Pidä äänestystä auki</value>
   </data>
@@ -403,6 +424,9 @@
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>Avaa aihe</value>
   </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Poista foorumiaiheen lukitus?</value>
+  </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Aihe on avattu</value>
   </data>
@@ -481,8 +505,23 @@
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>Sinulla ei ole enää ääniä jäljellä</value>
   </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Kyselyn muokkaus</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Kyselyn muokkaaminen poistaa nykyiset tulokset!</value>
+  </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
     <value>Äänestä</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Muuta valikoima</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Muokkaa kyselyä</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Siirry tuloksiin</value>
   </data>
   <data name="topics.show.poll.button.vote" xml:space="preserve">
     <value>Äänestä</value>

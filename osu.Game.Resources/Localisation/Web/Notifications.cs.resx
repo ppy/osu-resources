@@ -61,8 +61,17 @@
   <data name="all_read" xml:space="preserve">
     <value>Všechna oznámení přečtena!</value>
   </data>
+  <data name="loading" xml:space="preserve">
+    <value>Načítání nepřečtených oznámení...</value>
+  </data>
   <data name="none" xml:space="preserve">
     <value>Žádná oznámení</value>
+  </data>
+  <data name="see_all" xml:space="preserve">
+    <value>zobrazit všechna oznámení</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>přejít na chat</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>vše</value>
@@ -193,6 +202,9 @@
   <data name="item.legacy_pm._" xml:space="preserve">
     <value>SZ původního fóra</value>
   </data>
+  <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
+    <value>{0} nepřečtená zpráva|{0} nepřečtené zprávy|{0} nepřečtených zpráv</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medaile</value>
   </data>
@@ -204,5 +216,17 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
     <value>Odemčeno "{0}"'!</value>
+  </data>
+  <data name="mail.channel.channel.pm" xml:space="preserve">
+    <value>Obdrželi jste novou zprávu od {0}</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>{0} odemkl novou medaili, "{1}"!</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
+    <value>Odemkli jste novou medaili, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} vytvořil nové beatmapy</value>
   </data>
 </root>
