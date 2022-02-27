@@ -82,6 +82,9 @@
   <data name="discussions.edited" xml:space="preserve">
     <value>Naposledy upravil {0} v {1}.</value>
   </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Obtíže hosta od {0}</value>
+  </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Odepřen od získávání kudosu.</value>
   </data>
@@ -235,6 +238,9 @@
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
     <value>Příspěvky na "Všechny obtížnosti" nemohou být časovány.</value>
   </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Pokud tento {0} začíná časovou značkou, bude to zobrazeno v Časové ose.</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>vložit odstavec</value>
   </data>
@@ -294,6 +300,18 @@
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Tato beatmapa byla označena jako Rozpracovaná jejím autorem.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Zatím žádné downvoty</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Zatím žádné upvoty</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Nejnovější downvoty</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Nejnovější upvoty</value>
   </data>
   <data name="hype.button" xml:space="preserve">
     <value>Nadchnout beatmapu!</value>
@@ -355,6 +373,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Láska</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Zvolte obtížnost pro loved</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Miluješ tuto beatmapu?</value>
   </data>
@@ -370,6 +391,12 @@
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>Není dostatečný hype.</value>
   </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Odstranit z Loved</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Důvod pro odebrání z Loved:</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominace: {0}/{1}</value>
   </data>
@@ -382,6 +409,12 @@
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Existují stále nevyřešené problémy, které musí být řešeny jako první.</value>
   </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Odhaduje se, že tato mapa bude hodnocená {0} , pokud nejsou nalezeny žádné problémy. Aktuálně je #{1} v {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>fronta hodnocení</value>
+  </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>brzy</value>
   </data>
@@ -391,11 +424,11 @@
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
     <value>Diskvalifikováno před {0} uživatelem {1} kvůli nalezení nového problému {2} ({3}).</value>
   </data>
-  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>Jsi si jist? Vytvořením nové připomínky se nominační proces resetuje.</value>
-  </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
     <value>Jste si jistý? Tohle odstraní beatmapu z kvalifikování a vyresetuje nominační proces.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>Jsi si jist? Vytvořením nové připomínky se nominační proces resetuje.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>zadej klíčová slova...</value>
@@ -490,6 +523,9 @@
   <data name="general.recommended" xml:space="preserve">
     <value>Doporučená obtížnost</value>
   </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Všechny</value>
+  </data>
   <data name="mode.any" xml:space="preserve">
     <value>Jakékoliv</value>
   </data>
@@ -564,6 +600,9 @@
   </data>
   <data name="genre.jazz" xml:space="preserve">
     <value>Jazz</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Jakékoliv</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Anglické</value>

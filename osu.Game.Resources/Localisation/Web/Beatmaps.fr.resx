@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problème</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Signaler un problème</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Review</value>
   </data>
@@ -314,7 +317,7 @@
     <value>Derniers votes positifs</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Hyper la Beatmap !</value>
+    <value>Hyper la beatmap !</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
     <value>Déjà Hypée !</value>
@@ -424,11 +427,14 @@
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
     <value>Disqualifiée {0} par {1} avec le nouveau problème {2} ({3}).</value>
   </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>Êtes-vous sûr ? Cela va disqualifier la beatmap et réinitialiser le processus de nomination.</value>
+  </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Êtes-vous sûr ? Poster un nouveau problème va réinitialiser le processus de nomination.</value>
   </data>
-  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Êtes-vous sûr ? Cela va disqualifier la beatmap et réinitialiser le processus de nomination.</value>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir signaler un problème sur cette beatmap ? Ceci alertera les nominateurs de beatmap.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>tapez des mots-clés...</value>
@@ -551,7 +557,10 @@
     <value>Mes maps</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>En attente &amp; WIP</value>
+    <value>En attente</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Qualifiée</value>

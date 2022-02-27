@@ -360,6 +360,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardCountry => new TranslatableString(getKey(@"show.scoreboard.country"), @"Country Ranking");
 
         /// <summary>
+        /// "Failed loading ranking"
+        /// </summary>
+        public static LocalisableString ShowScoreboardError => new TranslatableString(getKey(@"show.scoreboard.error"), @"Failed loading ranking");
+
+        /// <summary>
         /// "Friend Ranking"
         /// </summary>
         public static LocalisableString ShowScoreboardFriend => new TranslatableString(getKey(@"show.scoreboard.friend"), @"Friend Ranking");
