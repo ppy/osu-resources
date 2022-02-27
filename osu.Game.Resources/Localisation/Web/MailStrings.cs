@@ -45,6 +45,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CommonReport => new TranslatableString(getKey(@"common.report"), @"Please reply to this email IMMEDIATELY if you did not request this change.");
 
         /// <summary>
+        /// "If you did not request this, you can safely ignore this email."
+        /// </summary>
+        public static LocalisableString CommonIgnore => new TranslatableString(getKey(@"common.ignore"), @"If you did not request this, you can safely ignore this email.");
+
+        /// <summary>
         /// "More new supporter benefits will appear over time, as well!"
         /// </summary>
         public static LocalisableString DonationThanksBenefitMore => new TranslatableString(getKey(@"donation_thanks.benefit_more"), @"More new supporter benefits will appear over time, as well!");

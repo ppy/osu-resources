@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>问题</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>报告问题</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>审核</value>
   </data>
@@ -424,11 +427,11 @@
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
     <value>{0} 被 {1} 因为新问题 {2} ({3}) 而 DQ.</value>
   </data>
-  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>你确定吗？提出新的问题会重置提名。</value>
-  </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
     <value>你确定吗？这将 DQ 该谱面并重置提名。</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>你确定吗？提出新的问题会重置提名。</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>输入关键字...</value>
@@ -551,7 +554,10 @@
     <value>我的谱面</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Pending &amp; WIP</value>
+    <value>Pending</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>制作中</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Qualified</value>

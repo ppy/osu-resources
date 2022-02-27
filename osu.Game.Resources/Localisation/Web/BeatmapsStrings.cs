@@ -215,6 +215,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsMessageTypeProblem => new TranslatableString(getKey(@"discussions.message_type.problem"), @"Problem");
 
         /// <summary>
+        /// "Report Problem"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeProblemWarning => new TranslatableString(getKey(@"discussions.message_type.problem_warning"), @"Report Problem");
+
+        /// <summary>
         /// "Review"
         /// </summary>
         public static LocalisableString DiscussionsMessageTypeReview => new TranslatableString(getKey(@"discussions.message_type.review"), @"Review");
@@ -620,14 +625,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NominationsResetAtDisqualify(LocalisableString timeAgo, LocalisableString user, LocalisableString discussion, LocalisableString message) => new TranslatableString(getKey(@"nominations.reset_at.disqualify"), @"Disqualified {0} by {1} with new problem {2} ({3}).", timeAgo, user, discussion, message);
 
         /// <summary>
+        /// "Are you sure? This will remove the beatmap from qualifying and reset the nomination process."
+        /// </summary>
+        public static LocalisableString NominationsResetConfirmDisqualify => new TranslatableString(getKey(@"nominations.reset_confirm.disqualify"), @"Are you sure? This will remove the beatmap from qualifying and reset the nomination process.");
+
+        /// <summary>
         /// "Are you sure? Posting a new problem will reset the nomination process."
         /// </summary>
         public static LocalisableString NominationsResetConfirmNominationReset => new TranslatableString(getKey(@"nominations.reset_confirm.nomination_reset"), @"Are you sure? Posting a new problem will reset the nomination process.");
 
         /// <summary>
-        /// "Are you sure? This will remove the beatmap from qualifying and reset the nomination process."
+        /// "Are you sure to report issue on this beatmap? This will alert Beatmap Nominators."
         /// </summary>
-        public static LocalisableString NominationsResetConfirmDisqualify => new TranslatableString(getKey(@"nominations.reset_confirm.disqualify"), @"Are you sure? This will remove the beatmap from qualifying and reset the nomination process.");
+        public static LocalisableString NominationsResetConfirmProblemWarning => new TranslatableString(getKey(@"nominations.reset_confirm.problem_warning"), @"Are you sure to report issue on this beatmap? This will alert Beatmap Nominators.");
 
         /// <summary>
         /// "type in keywords..."
@@ -853,6 +863,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Pending"
         /// </summary>
         public static LocalisableString StatusPending => new TranslatableString(getKey(@"status.pending"), @"Pending");
+
+        /// <summary>
+        /// "WIP"
+        /// </summary>
+        public static LocalisableString StatusWip => new TranslatableString(getKey(@"status.wip"), @"WIP");
 
         /// <summary>
         /// "Qualified"

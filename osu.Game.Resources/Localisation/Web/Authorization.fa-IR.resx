@@ -82,6 +82,9 @@
   <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
     <value>نمیتوانید گفت و گویی که پاسخ دارد را حذف کنید</value>
   </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>شما به بیشترین مقدار nominations امروزتان رسیده اید. لطفا دوباره فردا تلاش کنید.</value>
+  </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
     <value>در انجام آن کار خطایی صورت گرفت، بارگزاری مجدد صفحه را امتحان کنید.</value>
   </data>
@@ -94,6 +97,9 @@
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>فقط شروع کننده بحث و صاحب بیتمپ میتوانند یک گفت و گو را حل کنند.</value>
   </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>فقط صاحب بیت مپ یا نامزد کننده یا اعضای گروه NAT میتوانند پیام از طرف سازنده مپ ثبت کنند.</value>
+  </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>نمیتوان به گفت و گوی ایجاد شده توسط بات رای داد</value>
   </data>
@@ -102,6 +108,9 @@
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
     <value>نمیتوانید به گفت و گوی خودتان رای دهید.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>فقط میتوانید در بحث بیت مپ های "در انتظار" رای بدهید.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>شما فقط میتوانید پست های خودتان را حذف کنید.</value>
@@ -124,14 +133,26 @@
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
     <value>این بیتمپ برای گفت و گو قفل شده است.</value>
   </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>شما نمیتوانید متادیتای یک بیت مپ نامزد شده را عوض کنید. اگر فکر میکنید این اطلاعات اشتباه است به یک عضو BN یا NAT پیام دهید.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>این کانال فقط برای اطلاعیه ها است.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>نمیتوان به کاربری پیام ارسال کرد که او را مسدود کرده اید یا او شما را مسدود کرده باشد.</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
     <value>کاربر مورد نظر، پیام ها را از طرف کسانی که جزو لیست دوستانش نیستند، مسدود کرده است.</value>
   </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>این کانال در حال حاضر نظارت شده است.</value>
+  </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>شما به آن کانال دسترسی ندارید.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>کاربر شاید نتواند به شما پاسخ بدهد چون شما فقط دوستانتان را مجاز به ارسال پیام کرده اید.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>شما نمیتوانید موقعی که ساکت، محدود و یا مسدود شده اید پیام بفرستید.</value>
@@ -184,6 +205,21 @@
   <data name="forum.post.store.play_more" xml:space="preserve">
     <value>لطفا ابتدا سعی کنید قبل ارسال پست در انجمن بازی را (درست) انجام دهید! اگر با بازی کردن مشکل دارید، لطفا به انجمن کمک و پشتیبانی پست ارسال کنید.</value>
   </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>شما باید کمی بیشتر بازی کنید قبل از این که بتوانید بیشتر از این کمک بخواهید. اگر مشکلی در بازی کردن osu! دارید به support@ppy.sh ایمیل بزنید</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>لطفا بجای گذاشتن پست جدید، پست قبلی را ویرایش کنید.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>نمی توانید به یک گفت و گوی قفل شده پاسخ بدهید.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>اجازه پاسخ ندارید.</value>
+  </data>
   <data name="forum.topic.reply.user.require_login" xml:space="preserve">
     <value>لطفا برای پاسخ دادن وارد سایت شوید.</value>
   </data>
@@ -219,5 +255,38 @@
   </data>
   <data name="forum.topic.vote.user.restricted" xml:space="preserve">
     <value>نمیتوانید موقعی که محدود شده اید رای بدهید.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>نمیتوانید موقعی که در حالت سکوت هستید رای بدهید.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>دسترسی به انجمن مورد نظر لازم است.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>کاور نا معتبری مشخص شده است.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>فقط صاحب می تواند کاور را ادیت کند.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>این انجمن از کاور برای گفت و گو ها پشتیبانی نمی کند.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>فقط مدیران می توانند این انجمن را ببینند.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>فقط صاحب امتیاز می تواند آن را سنجاق کند.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>تعداد زیادی امتیاز سنجاق شده است.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>صفحه کاربر قفل شده است.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>فقط میتوانید صفحه کاربری خودتان را ویرایش کنید.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>تگ حامی osu! نیاز است.</value>
   </data>
 </root>

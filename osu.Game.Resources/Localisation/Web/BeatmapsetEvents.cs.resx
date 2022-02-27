@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Schváleno.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Majitel obtížnosti {0} se změnil na {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Moderátor smazal tuto diskusi {0}.</value>
   </data>
@@ -118,14 +121,32 @@
   <data name="event.nominate" xml:space="preserve">
     <value>Nominováno uživatelem {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominoval/a {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nový problém {0} ({1}) způsobil resetování nominace.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominace uživatelem {0} byla resetována uživatelem {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominace byla resetována uživatelem {0} ({1})</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Tato beatmapa získala požadované množství nominací a byla kvalifikována.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Hodnocené.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Odstraněno z Loved uživatelem {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Odebráno explicitní označení</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Označeno jako explicitní</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Události beatmapsetu</value>
@@ -147,6 +168,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Schválení</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Změna majitele obtížnosti</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Odstranění diskuze</value>
@@ -199,10 +223,19 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Resetování nominací</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominace byla obnovena</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Explicitní značka</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Kvalifikace</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Hodnocení</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Odstranení z Loved</value>
   </data>
 </root>

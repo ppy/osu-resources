@@ -170,6 +170,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ButtonsRestore => new TranslatableString(getKey(@"buttons.restore"), @"Restore");
 
         /// <summary>
+        /// "Retry"
+        /// </summary>
+        public static LocalisableString ButtonsRetry => new TranslatableString(getKey(@"buttons.retry"), @"Retry");
+
+        /// <summary>
         /// "Save"
         /// </summary>
         public static LocalisableString ButtonsSave => new TranslatableString(getKey(@"buttons.save"), @"Save");

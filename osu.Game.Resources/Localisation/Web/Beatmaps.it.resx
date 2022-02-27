@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problema</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Segnala un Problema</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Revisione</value>
   </data>
@@ -424,11 +427,14 @@
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
     <value>Squalificato {0} da {1} con il nuovo problema {2} ({3}).</value>
   </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>Sei sicuro? Questo rimuoverà la beatmap dalla qualificazione e resetterà il processo di nomina.</value>
+  </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Sei sicuro? Postando un nuovo problema si resetterà il processo di nomina.</value>
   </data>
-  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Sei sicuro? Questo rimuoverà la beatmap dalla qualificazione e resetterà il processo di nomina.</value>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Sei sicuro di voler segnalare un problema su questa beatmap? Questo avviserà i nominatori Beatmap.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>scrivi le parole chiave...</value>
@@ -552,6 +558,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>In Attesa</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Qualificate</value>
