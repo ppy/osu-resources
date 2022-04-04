@@ -35,6 +35,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CannotSendUser => new TranslatableString(getKey(@"cannot_send.user"), @"You cannot message this user at this time.");
 
         /// <summary>
+        /// "There&#39;s nothing here, maybe you left the channel or it doesn&#39;t exist..."
+        /// </summary>
+        public static LocalisableString NotFoundMessage => new TranslatableString(getKey(@"not_found.message"), @"There's nothing here, maybe you left the channel or it doesn't exist...");
+
+        /// <summary>
+        /// "channel not found"
+        /// </summary>
+        public static LocalisableString NotFoundTitle => new TranslatableString(getKey(@"not_found.title"), @"channel not found");
+
+        /// <summary>
         /// "unable to send message..."
         /// </summary>
         public static LocalisableString InputDisabled => new TranslatableString(getKey(@"input.disabled"), @"unable to send message...");

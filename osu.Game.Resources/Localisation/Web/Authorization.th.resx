@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>คุณไม่สามารถเปลี่ยน metadata ของบีทแมพที่ทำการเสนอชื่อเป็นที่เรียบร้อยแล้ว ติดต่อ BN หรือ NAT หากคุณคิดว่ามีข้อผิดพลาดประการใด</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>ช่องนี้สำหรับการประกาศเท่านั้น</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>ไม่สามารถส่งข้อความถึงผู้ใช้ที่บล็อกคุณหรือที่คุณบล็อกได้</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>คุณไม่มีสิทธิ์เข้าถึงช่องนี้</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>ผู้ใช้นี้อาจไม่สามารถตอบกลับได้ เนื่องจากคุณกำลังยอมรับแค่ข้อความจากบุคคลที่อยู่บนรายชื่อเพื่อนของคุณ</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>คุณไม่สามารถส่งข้อความได้ในสถานะเงียบ ถูกจำกัดการใช้งานหรือถูกแบน</value>
@@ -263,10 +269,16 @@
     <value>มีแค่เจ้าของเท่านั้นที่สามารถแก้ไขหน้าปกได้</value>
   </data>
   <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
-    <value>แบบฟอรั่มนี้ไม่รับ Topic covers</value>
+    <value>แบบฟอรั่มนี้ไม่รองรับภาพปกหัวเรื่อง</value>
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>มีแค่ผู้ดูแลระบบเท่านั้นที่สามารถดูฟอรั่มนี้</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>เจ้าของคะแนนเท่านั้นที่ปักหมุดคะแนนได้</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>ปักหมุดคะแนนเยอะเกินไป</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Userpage ถูกล็อก</value>

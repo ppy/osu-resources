@@ -61,6 +61,12 @@
   <data name="deleted" xml:space="preserve">
     <value>odstraněno</value>
   </data>
+  <data name="deleted_by" xml:space="preserve">
+    <value>odstraněno {0} uživatelem {1}</value>
+  </data>
+  <data name="deleted_by_system" xml:space="preserve">
+    <value>systém</value>
+  </data>
   <data name="deleted_count" xml:space="preserve">
     <value>{0} smazaný komentář|{0} smazané komentáře|{0} smazaných komentářů</value>
   </data>
@@ -98,13 +104,13 @@
     <value>Zmáčkněte Enter pro {0}. Použijte Shift+Enter pro nový řádek.</value>
   </data>
   <data name="editor.textarea_hint.edit" xml:space="preserve">
-    <value>uložit</value>
+    <value>uložení</value>
   </data>
   <data name="editor.textarea_hint.new" xml:space="preserve">
-    <value>odeslat</value>
+    <value>postnutí</value>
   </data>
   <data name="editor.textarea_hint.reply" xml:space="preserve">
-    <value>odpovědět</value>
+    <value>odeslání odpovědi</value>
   </data>
   <data name="guest_button.new" xml:space="preserve">
     <value>Přihlašte se pro možnost komentovat</value>
@@ -112,17 +118,23 @@
   <data name="guest_button.reply" xml:space="preserve">
     <value>Přihlašte se pro možnost odpovídat</value>
   </data>
+  <data name="index.nav_comments" xml:space="preserve">
+    <value>komentáře</value>
+  </data>
   <data name="index.nav_title" xml:space="preserve">
     <value>výpis</value>
+  </data>
+  <data name="index.no_comments" xml:space="preserve">
+    <value>nenalezeny žádné komentáře...</value>
   </data>
   <data name="placeholder.edit" xml:space="preserve">
     <value>Upravte komentář zde</value>
   </data>
   <data name="placeholder.new" xml:space="preserve">
-    <value>Napište nový komentář zde</value>
+    <value>Sem napište nový komentář</value>
   </data>
   <data name="placeholder.reply" xml:space="preserve">
-    <value>Napište svojí odpověď zde</value>
+    <value>Sem napište svoji odpověď</value>
   </data>
   <data name="show.nav_title" xml:space="preserve">
     <value>komentáře</value>

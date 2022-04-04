@@ -71,7 +71,7 @@
     <value>Potvrzení se neshoduje.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Časová sekvence je specifikována, ale chybí beatmapa.</value>
+    <value>Časová značka je specifikována, ale chybí obtížnost beatmapy.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
     <value>Tato beatmapa nemůže být nadchnutá.</value>
@@ -107,13 +107,13 @@
     <value>Tato beatmapa nemůže být nadchnutá</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>Nemůžeš nadchnout svojí beatmapu.</value>
+    <value>Nemůžeš podpořit svoji vlastní beatmapu.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>Upřesněná sekvence času přesahuje délku beatmapy.</value>
+    <value>Uvedená časová značka přesahuje délku beatmapy.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Časová sekvence nemůže být záporná.</value>
+    <value>Časová značka nemůže být záporná.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Diskuze je uzamčená.</value>
@@ -159,6 +159,9 @@
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
     <value>Nemůžete upravovat hlasování po více jak {0} hodinách</value>
+  </data>
+  <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
+    <value>Nelze skrýt výsledky ankety, která nikdy neskončí.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Možnost jednoho uživatele by neměla přesáhnout hodnotu povolených možností.</value>
@@ -263,13 +266,16 @@
     <value>Nemůžeš si změnit své uživatelské jméno, když jsi omezený.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Musíš mít {0} na změnu jména!</value>
+    <value>Musíš {0} pro změnu jména!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
-    <value>podpořit osu! nákupem supporter tagu!</value>
+    <value>podpořit osu!</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Tohle je tvoje uživatelské jméno, hlupáku!</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Hodnocené beatmapy nemohou být nahlášeny</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
     <value>Nemůžete nahlásit sám sebe!</value>

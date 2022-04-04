@@ -68,10 +68,10 @@
     <value>Pro více informací klikněte zde.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>Některé věci obsažené v této mapě byly odstraněny poté, co byly povážené za nevhodné pro použití v osu!.</value>
+    <value>Některé assety obsažené v této mapě byly odstraněny poté, co byly posouzeny jako nevhodné pro použití v osu!.</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
-    <value>Zpomalte, hrajte více.</value>
+    <value>Zpomal, více hraj.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Featured artist</value>
@@ -98,13 +98,13 @@
     <value>otevřít v osu!direct</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Hybridní beatmapa vyžaduje, abyste vybrali alespoň jeden herní režim, na který chcete nominovat.</value>
+    <value>Hybridní beatmapa vyžaduje, abyste vybrali alespoň jeden herní režim, za který ji chcete nominovat.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>Nemáte oprávnění k nominaci v módu: {0}</value>
+    <value>Nemáte oprávnění k nominaci za mód: {0}</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
-    <value>Musíte být plný nominátor, abyste mohl provést kvalifikační nominaci.</value>
+    <value>Musíte být plný nominátor, abyste mohli provést kvalifikační nominaci.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Požadavek na nominaci je již splněn.</value>
@@ -116,7 +116,10 @@
     <value>Nominovat beatmapu</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>poznámka: můžete nominovat pouze jednou, takže se ujistěte, že nominujete pro všechny herní režimy, které hodláte</value>
+    <value>poznámka: můžete nominovat pouze jednou, takže se ujistěte, že nominujete za všechny herní režimy, které chcete</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Nominovat pro jaké módy?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicitní</value>
@@ -129,6 +132,9 @@
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Přidat do mých oblíbených</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Pro přidání beatmapy do oblíbených se přihlas</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Pro stahování beatmap musíš být přihlášen!</value>
@@ -160,8 +166,14 @@
   <data name="show.details_date.approved" xml:space="preserve">
     <value>schváleno {0}</value>
   </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>oblíbeno {0}</value>
+  </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>kvalifikováno {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>hodnoceno {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>odesláno {0}</value>
@@ -173,7 +185,7 @@
     <value>Máte příliš map v oblibených! Než to budete zkoušet znova, nějakou odstraňte.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Dejte Hype téhle mapě, pokud jste si užili její hraní a pomocte jí se dostat do &lt;strong&gt;Hodnoceného&lt;/strong&gt; stavu.</value>
+    <value>Podpoř tuto mapu, pokud sis užili její hraní, a pomoz jí postoupit do &lt;strong&gt;Hodnoceného&lt;/strong&gt; stavu.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Tato mapa je právě {0}.</value>
@@ -220,11 +232,17 @@
   <data name="show.info.source" xml:space="preserve">
     <value>Zdroj</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Tato beatmapa obsahuje storyboard</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Úspěšnost</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Tagy</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Tato beatmapa obsahuje video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Tato beatmapa obsahuje explicitní, urážlivý nebo rušivý obsah. Chcete ji přesto zobrazit?</value>
@@ -246,6 +264,9 @@
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Státní žebříčky</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Nepodařilo se načíst žebříčky</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Žebříček přátel</value>
@@ -273,6 +294,9 @@
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Módy</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Připnout</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Hráč</value>
@@ -309,6 +333,12 @@
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Vaše nejlepší</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Klikni {0} pro zobrazení všech výhod, které dostaneš!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>sem</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Velikost koleček</value>

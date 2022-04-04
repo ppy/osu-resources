@@ -65,7 +65,7 @@
     <value>kudosu toestaan</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
-    <value>Beatmap pagina</value>
+    <value>Beatmap Pagina</value>
   </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>verwijder</value>
@@ -80,13 +80,13 @@
     <value>bewerk</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>Laatst bewerkt door {0} {1}</value>
+    <value>Laatst bewerkt door {0} {1}.</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>Gast moeilijkheidgraat door {0}</value>
+    <value>Gast moeilijkheidsgraad door {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>Verkrijgen van kudosu ontkend.</value>
+    <value>Verkrijgen van kudosu ontzegd.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Deze moeilijkheidsgraad is verwijderd en mag niet meer besproken worden.</value>
@@ -116,19 +116,19 @@
     <value>herstel</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>Toon verwijderde discussies</value>
+    <value>Toon verwijderde</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussies</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
-    <value>Sluit alles</value>
+    <value>Alles invouwen</value>
   </data>
   <data name="discussions.collapse.all-expand" xml:space="preserve">
-    <value>Open alles</value>
+    <value>Alles openvouwen</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Nog geen bestaande discussie!</value>
+    <value>Er bestaan nog geen discussies!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
     <value>Geen discussies komen overeen met de geselecteerde filter.</value>
@@ -140,13 +140,13 @@
     <value>Ontgrendel discussie</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
-    <value>Reden voor vergrendelen</value>
+    <value>Reden voor vergrendeling</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
     <value>Weet je zeker dat je het wilt ontgrendelen?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Deze post gaat naar de algemene beatmapset discussie. Om deze map te modden moet je beginnen met een tijdstip (bijv. 00:12:345).</value>
+    <value>Deze post gaat naar de algemene beatmap-discussie. Om deze map te modden moet je beginnen met een tijdstip (bijv. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>Om meerdere tijdstippen te modden moet je meerdere keren posten (een post per tijdstip).</value>
@@ -155,13 +155,13 @@
     <value>Typ hier om in General te posten ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Typ hier om in General te posten (Alle moeilijkheden)</value>
+    <value>Typ hier om in General te posten (Alle moeilijkheidsgraden)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Typ hier om een recensie te plaatsen</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Typ hier om naar de tijdlijn te posten ({0})</value>
+    <value>Typ hier om op de tijdlijn te posten ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Diskwalificeer</value>
@@ -170,7 +170,7 @@
     <value>Hype!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
-    <value>Opmerking</value>
+    <value>Notitie</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
     <value>Reset Nominatie</value>
@@ -180,6 +180,9 @@
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Probleem</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Rapporteer Probleem</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Recensie</value>
@@ -320,7 +323,7 @@
     <value>Al Gehyped!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Weet je dat zeker? Dit zal een van je {0} hypes gebruiken en kan niet ongedaan gemaakt worden.</value>
+    <value>Weet je dit zeker? Dit zal een van je {0} hypes gebruiken en kan niet ongedaan gemaakt worden.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
     <value>Hype deze beatmap om ze zichtbaarder te maken voor nominatie en ranking!</value>
@@ -429,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Weet je dat zeker? Een nieuw probleem posten zal het nominatieproces resetten.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Weet je zeker dat je een probleem op deze beatmap wilt rapporteren? Dit zal de Beatmap Nominators waarschuwen.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>typ sleutelwoorden in...</value>
@@ -552,6 +558,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Pending &amp; WIP</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Gekwalificeerd</value>

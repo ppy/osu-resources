@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Cập nhật vote thất bại</value>
+    <value>Cập nhật phiếu thất bại</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>cho phép kudosu</value>
@@ -164,7 +164,7 @@
     <value>Nhập vào đây để đăng vào Timeline ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
-    <value>Disqualify</value>
+    <value>Không đủ tư cách</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
     <value>Hype!</value>
@@ -176,16 +176,19 @@
     <value>Thiết Lập Lại Đề Cử</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
-    <value>Khen Ngợi</value>
+    <value>Khen ngợi</value>
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
-    <value>Vấn Đề</value>
+    <value>Vấn đề</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Báo cáo vấn đề</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Đánh giá</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
-    <value>Đề Nghị</value>
+    <value>Gợi ý</value>
   </data>
   <data name="discussions.mode.events" xml:space="preserve">
     <value>Lịch sử</value>
@@ -197,7 +200,7 @@
     <value>Các đánh giá</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>Timeline</value>
+    <value>Dòng thời gian</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>Difficulty này</value>
@@ -290,7 +293,7 @@
     <value>Beatmap này đã được chấp nhận (approved) vào {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Beatmap này chưa được cập nhật từ {0} và có thể đã bị bỏ rơi bởi mapper...</value>
+    <value>Beatmap này chưa được cập nhật từ {0} và có thể đã bị đắp mộ...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
     <value>Beatmap này đã được love vào {0}!</value>
@@ -332,7 +335,7 @@
     <value>Bạn sẽ nhận được đợt hype khác vào {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Bạn còn {0} hype.</value>
+    <value>Bạn chỉ còn {0} hype.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
     <value>Hype: {0}/{1}</value>
@@ -344,7 +347,7 @@
     <value>Hype</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
-    <value>Để Lại Phản Hồi</value>
+    <value>Để lại Phản hồi</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Xóa</value>
@@ -392,7 +395,7 @@
     <value>Không đủ hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Gỡ khỏi Được Yêu thích</value>
+    <value>Gỡ khỏi Được Yêu mến</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
     <value>Lý do gỡ khỏi Được Yêu thích:</value>
@@ -429,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Bạn chắc không? Đăng một vấn đề mới sẽ thiết lập lại quá trình đề cử (nomination).</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Bạn có chắc là muốn báo cáo vấn đề về beatmap này không? Việc này sẽ gửi cánh báo đến những người đề cử beatmap.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>nhập từ khóa...</value>
@@ -539,13 +545,13 @@
     <value>Yêu thích</value>
   </data>
   <data name="status.graveyard" xml:space="preserve">
-    <value>Graveyard</value>
+    <value>Đắp mộ</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
     <value>Có danh sách xếp hạng</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>Được yêu mến</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>Map của tôi</value>
@@ -553,8 +559,11 @@
   <data name="status.pending" xml:space="preserve">
     <value>Đang chờ &amp; WIP</value>
   </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Chưa xong</value>
+  </data>
   <data name="status.qualified" xml:space="preserve">
-    <value>Qualified</value>
+    <value>Đủ tư cách</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
     <value>Đã được xếp hạng</value>
