@@ -68,7 +68,7 @@
     <value>Subforum</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>forum osu!</value>
+    <value>Forum</value>
   </data>
   <data name="covers.edit" xml:space="preserve">
     <value>Modifica la copertina</value>
@@ -244,6 +244,12 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>vai indietro di 10 post</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Log del topic</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Sfoglia log dei topic</value>
+  </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Azione</value>
   </data>
@@ -277,14 +283,35 @@
   <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
     <value>da {0}</value>
   </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>topic non fissato</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>nessun log trovato...</value>
+  </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>Post cancellato</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Topic eliminato</value>
   </data>
   <data name="topic.logs.operations.edit_topic" xml:space="preserve">
     <value>Titolo dell'argomento modificato</value>
   </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Sondaggio del topic modificato</value>
+  </data>
   <data name="topic.logs.operations.fork" xml:space="preserve">
     <value>Argomento copiato</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Tag del ticket</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Topic bloccato</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Post uniti in questo topic</value>
   </data>
   <data name="topic.logs.operations.move" xml:space="preserve">
     <value>Argomento spostato</value>
@@ -301,6 +328,15 @@
   <data name="topic.logs.operations.restore_topic" xml:space="preserve">
     <value>Argomento ripristinato</value>
   </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Post divisi spostati</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Dividi i post</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Tipo di topic impostato</value>
+  </data>
   <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
     <value>Tipo del topic modificato</value>
   </data>
@@ -312,6 +348,9 @@
   </data>
   <data name="topic.logs.operations.user_lock" xml:space="preserve">
     <value>Argomento personale chiuso</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Topic proprio sbloccato</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Cancella</value>

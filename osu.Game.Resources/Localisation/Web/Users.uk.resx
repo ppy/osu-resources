@@ -86,7 +86,7 @@
     <value>Ви заблокували цього користувача.</value>
   </data>
   <data name="blocks.blocked_count" xml:space="preserve">
-    <value>заблоковати користувача ({0})</value>
+    <value>заблоковані користувачі ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
     <value>Приховати профіль</value>
@@ -131,7 +131,7 @@
     <value>Є ряд причин, які можуть призвести до відключення вашого облікового запису:</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
-    <value>Ви зламали один або кілька наших {0} або {1}.</value>
+    <value>Ви порушили один або кілька наших {0} або {1}.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>правила спільноти</value>
@@ -140,7 +140,7 @@
     <value>умови обслуговування</value>
   </data>
   <data name="filtering.by_game_mode" xml:space="preserve">
-    <value>Учасники за режимом гри</value>
+    <value>Учасники за ігровим режимом</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Ваш обліковий запис вже давно не використовується.</value>
@@ -158,7 +158,7 @@
     <value>Вхід через електронну пошту відключений. Будь ласка, використовуйте ім'я користувача.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
-    <value>Помилка авторизації</value>
+    <value>Не вдалося ввійти</value>
   </data>
   <data name="login.forgot" xml:space="preserve">
     <value>Забули пароль?</value>
@@ -206,7 +206,7 @@
     <value>Гість</value>
   </data>
   <data name="anonymous.error" xml:space="preserve">
-    <value>Спершу ввійдіть до облікового запису.</value>
+    <value>Вам необхідно ввійти що б зробити це.</value>
   </data>
   <data name="logout_confirm" xml:space="preserve">
     <value>Ви справді бажаєте вийти? :(</value>
@@ -248,7 +248,7 @@
     <value>Спам</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Повідомити про неприйнятний вміст</value>
+    <value>Скидування неприйнятного контенту</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Нісенітниця</value>
@@ -257,10 +257,10 @@
     <value>Інше (вкажіть нижче)</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
-    <value>Ваш обліковий запис обмежено!</value>
+    <value>Ваш обліковий запис заблоковано!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Поки права вашого облікового запису обмежені, ви не зможете взаємодіяти з іншими гравцями і ваші результати будуть видні тільки вам. Зазвичай це результат автоматизованого процесу і, як правило, обмеження знімається на протязі доби. Якщо ви хочете оскаржити ваше обмеження, будь ласка &lt;a href="mailto{0}@ppy.sh"&gt; зв'яжіться з підтримкою &lt;/a&gt;.</value>
+    <value>Під час блокування вашого облікового запису, ви не зможете взаємодіяти з іншими гравцями і ваші результати будуть видні тільки вам. Зазвичай це результат автоматизованого процесу і, як правило, це обмеження облікового запису знімається на протязі доби. Якщо ви хочете оскаржити ваше покарання, будь ласка &lt;a href="mailto{0}@ppy.sh"&gt; напишіть в підтримку. &lt;/a&gt;.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} років</value>
@@ -281,7 +281,7 @@
     <value>Дата реєстрації: {0}</value>
   </data>
   <data name="show.lastvisit" xml:space="preserve">
-    <value>Останній раз бачили {0}</value>
+    <value>Останній візит {0}</value>
   </data>
   <data name="show.lastvisit_online" xml:space="preserve">
     <value>Зараз в мережі</value>
@@ -307,11 +307,17 @@
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} коментар|{0} коментарі</value>
   </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Згорнути банер</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Розгорнути банер</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Змінити обкладинку профілю</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
-    <value>Більше варіантів буде доступно найближчим часом</value>
+    <value>Більше варіантів обкладинок буде доступно в майбутньому</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Не вдалося обробити зображення. Спробуйте ще раз.</value>
@@ -332,7 +338,7 @@
     <value>Завантажене зображення занадто велике.</value>
   </data>
   <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
-    <value>Формат не підтримується.</value>
+    <value>Непідтримуваний формат.</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
     <value>Завантаження доступна тільки {0}</value>
@@ -509,7 +515,7 @@
     <value>Недавня активність</value>
   </data>
   <data name="show.extra.realtime.title" xml:space="preserve">
-    <value>Мультиплеерні Ігри</value>
+    <value>Мультиплеєрні Ігри</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Завантажити повтор</value>

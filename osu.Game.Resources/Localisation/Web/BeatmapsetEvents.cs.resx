@@ -71,10 +71,10 @@
     <value>Diskuze o této mapě byly vypnuty. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
-    <value>Moderátor smazal příspěvek z této diskuse {0}.</value>
+    <value>Moderátor smazal příspěvek z diskuze {0}.</value>
   </data>
   <data name="event.discussion_post_restore" xml:space="preserve">
-    <value>Moderátor obnovil příspěvek z této diskuse {0}.</value>
+    <value>Moderátor obnovil příspěvek z diskuze {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
     <value>Moderátor obnovil tuto diskusi {0}.</value>
@@ -101,13 +101,13 @@
     <value>Odmítnutí kudosu pro diskuzi {0} odebráno.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
-    <value>Diskuse {0} nemůže přjímat kudosu.</value>
+    <value>Diskuzi {0} bylo odepřeno kudosu.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Diskuse {0} uživatele {1} dosáhla dostatku hlasů pro kudosu.</value>
+    <value>Diskuze {0} uživatele {1} dosáhla dostatku hlasů pro kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Diskuse {0} uživatele {1} ztratila hlasy a získané kudosu byly odebrány.</value>
+    <value>Diskuze {0} uživatele {1} ztratila hlasy a získaná kudosu byla odebrána.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Diskusi {0} byly získané kudosu přepočteny.</value>
@@ -122,7 +122,7 @@
     <value>Nominováno uživatelem {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
-    <value>Nominoval/a {0} ({1}).</value>
+    <value>Nominováno uživatelem {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nový problém {0} ({1}) způsobil resetování nominace.</value>
@@ -224,10 +224,10 @@
     <value>Resetování nominací</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>Nominace byla obnovena</value>
+    <value>Reset nominace přijat</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
-    <value>Explicitní značka</value>
+    <value>Explicitní označení</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Kvalifikace</value>
@@ -236,6 +236,6 @@
     <value>Hodnocení</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Odstranení z Loved</value>
+    <value>Odstranění z Loved</value>
   </data>
 </root>

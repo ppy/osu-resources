@@ -83,7 +83,7 @@
     <value>Naposledy upravil {0} v {1}.</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>Obtíže hosta od {0}</value>
+    <value>Obtížnost hosta od {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Odepřen od získávání kudosu.</value>
@@ -128,7 +128,7 @@
     <value>Rozbalit vše</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Zatím žádné diskuse!</value>
+    <value>Zatím žádné diskuze!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
     <value>Žádná diskuze neodpovídá zvolenému filtru.</value>
@@ -158,7 +158,7 @@
     <value>Piště zde pro odeslání příspěvku do Obecné (Všechny obtížnosti)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Piště zde pro odeslání recenze</value>
+    <value>Piště sem k přidání recenze</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
     <value>Piště zde pro zařazení příspěvku do Časové osy ({0})</value>
@@ -167,19 +167,22 @@
     <value>Vyřadit</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
-    <value>Nadchnout!</value>
+    <value>Podpořit!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
     <value>Poznámka</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
-    <value>Obnovit nominace</value>
+    <value>Resetování nominace</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
-    <value>Chválit</value>
+    <value>Pochvala</value>
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problém</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Nahlásit problém</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Recenze</value>
@@ -191,7 +194,7 @@
     <value>Historie</value>
   </data>
   <data name="discussions.mode.general" xml:space="preserve">
-    <value>Obecný {0}</value>
+    <value>Obecné {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
     <value>Recenze</value>
@@ -206,13 +209,13 @@
     <value>Všechny obtížnosti</value>
   </data>
   <data name="discussions.new.pin" xml:space="preserve">
-    <value>Pin</value>
+    <value>Připnout</value>
   </data>
   <data name="discussions.new.timestamp" xml:space="preserve">
-    <value>Časová sekvence</value>
+    <value>Časová značka</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>ctrl-c v režimu úprav a vložte do zprávy pro přidání časové sekvence!</value>
+    <value>ctrl-c v režimu úprav a vložte do vaší zprávy pro přidání časové značky!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Nová diskuze</value>
@@ -239,7 +242,7 @@
     <value>Příspěvky na "Všechny obtížnosti" nemohou být časovány.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Pokud tento {0} začíná časovou značkou, bude to zobrazeno v Časové ose.</value>
+    <value>Pokud tento {0} začíná časovou značkou, zobrazí se v Časové ose.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>vložit odstavec</value>
@@ -278,10 +281,10 @@
     <value>Nevyřízené</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
-    <value>Chvály</value>
+    <value>Pochvaly</value>
   </data>
   <data name="discussions.stats.resolved" xml:space="preserve">
-    <value>Vyřešeno</value>
+    <value>Vyřešené</value>
   </data>
   <data name="discussions.stats.total" xml:space="preserve">
     <value>Vše</value>
@@ -296,7 +299,7 @@
     <value>Tato beatmapa byla přidána do kategorie Oblíbené dne {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Tato beatmapa začala být hodnocena dne {0}!</value>
+    <value>Tato beatmapa byla hodnocena {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Tato beatmapa byla označena jako Rozpracovaná jejím autorem.</value>
@@ -314,34 +317,34 @@
     <value>Nejnovější upvoty</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Nadchnout beatmapu!</value>
+    <value>Podpořit beatmapu!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
     <value>Již jsi tuto mapu nadchnul!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Jsi si jist? Toto ti odebere jeden z tvých {0} nadšení a nedá se to vrátit.</value>
+    <value>Jsi si jist? Tato akce použije jeden z tvých {0} zbývajících bodů podpory a nelze vrátit zpět.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Nadchni tuto beatmapu a udělej ji více viditelnou pro nominátory a hodnocení!</value>
+    <value>Podpoř tuto beatmapu, aby byla více viditelná pro nominaci a hodnocení!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Přihlaš se a nadchni tuto beatmapu - udělej ji více viditelnou pro nominátory a hodnocení!</value>
+    <value>Přihlas se a podpoř tuto beatmapu - udělej ji více viditelnou pro nominaci a hodnocení!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
-    <value>Další nadšení získáš až {0}.</value>
+    <value>Další body podpory dostaneš až {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Již ti zbývá {0} nadšení.</value>
+    <value>Zbývá ti ještě {0} bodů podpory.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
-    <value>Nadšení: {0}/{1}</value>
+    <value>Bodů podpory: {0}/{1}</value>
   </data>
   <data name="hype.section_title" xml:space="preserve">
-    <value>Natěšení</value>
+    <value>Míra natěšení</value>
   </data>
   <data name="hype.title" xml:space="preserve">
-    <value>Nadšení</value>
+    <value>Podpoření</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
     <value>Zanechat zpětnou vazbu</value>
@@ -386,7 +389,7 @@
     <value>Nominovat tuto beatmapu?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
-    <value>nominováno od {0}</value>
+    <value>nominoval/a {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>Není dostatečný hype.</value>
@@ -410,10 +413,10 @@
     <value>Existují stále nevyřešené problémy, které musí být řešeny jako první.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Odhaduje se, že tato mapa bude hodnocená {0} , pokud nejsou nalezeny žádné problémy. Aktuálně je #{1} v {2}.</value>
+    <value>Odhaduje se, že tato mapa bude hodnocená {0}, pokud nejsou nalezeny žádné problémy. Aktuálně je #{1} ve {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>fronta hodnocení</value>
+    <value>frontě hodnocení</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>brzy</value>
@@ -429,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Jsi si jist? Vytvořením nové připomínky se nominační proces resetuje.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Opravdu chcete nahlásit problém na této beatmapě? Tato akce upozorní nominátory Beatmapy.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>zadej klíčová slova...</value>
@@ -527,16 +533,16 @@
     <value>Všechny</value>
   </data>
   <data name="mode.any" xml:space="preserve">
-    <value>Jakékoliv</value>
+    <value>Jakýkoliv</value>
   </data>
   <data name="status.any" xml:space="preserve">
-    <value>Jakékoliv</value>
+    <value>Jakákoliv</value>
   </data>
   <data name="status.approved" xml:space="preserve">
     <value>Schválené</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
-    <value>Oblíbené</value>
+    <value>Tvoje oblíbené</value>
   </data>
   <data name="status.graveyard" xml:space="preserve">
     <value>Hřbitov</value>
@@ -545,13 +551,16 @@
     <value>Má žebříček</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Oblíbené</value>
+    <value>Oblíbené komunitou</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>Moje mapy</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Čekající &amp; Rozpracované</value>
+    <value>Čekající</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Rozpracované</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalifikované</value>
@@ -560,7 +569,7 @@
     <value>Hodnocené</value>
   </data>
   <data name="genre.any" xml:space="preserve">
-    <value>Jakékoliv</value>
+    <value>Jakýkoliv</value>
   </data>
   <data name="genre.unspecified" xml:space="preserve">
     <value>Nespecifikováno</value>
@@ -602,7 +611,7 @@
     <value>Jazz</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>Jakékoliv</value>
+    <value>Jakýkoliv</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Anglické</value>

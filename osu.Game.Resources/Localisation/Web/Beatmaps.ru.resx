@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Проблема</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Сообщить о проблеме</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Отзыв</value>
   </data>
@@ -430,6 +433,9 @@
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Вы уверены? Сообщение о новой проблеме сбросит статус номинации.</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Вы действительно хотите сообщить о проблеме в этой карте? Номинаторы будут оповещены.</value>
+  </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>введите ключевые слова...</value>
   </data>
@@ -440,7 +446,7 @@
     <value>Больше настроек поиска</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Сортировка по {0} требует наличия osu!supporter</value>
+    <value>Сортировка по критерию {0} требует наличия тега osu!supporter</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>нет результатов</value>
@@ -506,7 +512,7 @@
     <value>Номинациям</value>
   </data>
   <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
-    <value>Сортировка по {0} требует {1}</value>
+    <value>Сортировка по критерию {0} требует {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>тег osu!supporter</value>
@@ -552,6 +558,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>На рассмотрении</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>В разработке</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Квалифицированные</value>

@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>문제</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>문제 신고</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>검토</value>
   </data>
@@ -299,7 +302,7 @@
     <value>이 비트맵은 {0}에 Ranked 되었습니다!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>안내: 이 비트맵은 제작자가 '미완성'으로 표시한 맵입니다.</value>
+    <value>안내: 이 비트맵은 제작자가 '제작 중'으로 표시한 맵입니다.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>아직 비추천이 없습니다</value>
@@ -430,6 +433,9 @@
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>확실한가요? 새로운 문제를 제기하는 것은 추천 상태를 초기화시킵니다.</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>정말로 이 비트맵의 문제를 신고할까요? 비트맵 Nominator에게 알림이 전송됩니다.</value>
+  </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>검색어를 입력하세요...</value>
   </data>
@@ -552,6 +558,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>보류 중 &amp; 작업 중</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>제작 중</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Qualified</value>

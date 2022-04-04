@@ -270,9 +270,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReportButtonText => new TranslatableString(getKey(@"report.button_text"), @"Report");
 
         /// <summary>
-        /// "Additional Comments"
+        /// "Comments"
         /// </summary>
-        public static LocalisableString ReportComments => new TranslatableString(getKey(@"report.comments"), @"Additional Comments");
+        public static LocalisableString ReportComments => new TranslatableString(getKey(@"report.comments"), @"Comments");
 
         /// <summary>
         /// "Please provide any information you believe could be useful."
@@ -423,6 +423,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "{0} comment|{0} comments"
         /// </summary>
         public static LocalisableString ShowCommentsCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited);
+
+        /// <summary>
+        /// "Hide cover"
+        /// </summary>
+        public static LocalisableString ShowCoverTo0 => new TranslatableString(getKey(@"show.cover.to_0"), @"Hide cover");
+
+        /// <summary>
+        /// "Show cover"
+        /// </summary>
+        public static LocalisableString ShowCoverTo1 => new TranslatableString(getKey(@"show.cover.to_1"), @"Show cover");
 
         /// <summary>
         /// "Change Profile Cover"
