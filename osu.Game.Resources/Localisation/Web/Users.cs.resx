@@ -112,14 +112,29 @@
   <data name="card.send_message" xml:space="preserve">
     <value>Odeslat zprávu</value>
   </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>Ale ne! Vypadá to, že váš účet byl zablokován.</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-mail</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>Je řada důvodů, které mohou vést k tomu, že váš účet bude vypnut:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Porušil jsi jeden nebo více z našich {0} nebo {1}.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>pravidla komunity</value>
   </data>
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>smluvní podmínky</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Uživatelé podle herního režimu</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>Váš účet nebyl využíván dlouhou dobu.</value>
   </data>
   <data name="login._" xml:space="preserve">
     <value>Přihlásit se</value>
@@ -646,6 +661,9 @@
   <data name="show.stats.total_score" xml:space="preserve">
     <value>Celkové skóre</value>
   </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Pohřbené Beatmapy</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Oblíbené Beatmapy</value>
   </data>
@@ -675,5 +693,14 @@
   </data>
   <data name="verify.title" xml:space="preserve">
     <value>Ověření účtu</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Zobrazit jako cihly</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Zobrazit jako karty</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Zobrazit jako seznam</value>
   </data>
 </root>

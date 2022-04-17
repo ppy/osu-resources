@@ -148,6 +148,12 @@
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
     <value>Editace metadat beatmapy není povoleno.</value>
   </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Počáteční pozici nelze odstranit</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Příspěvku chybí téma</value>
+  </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Tvoje odpověď obsahuje jenom citát.</value>
   </data>
@@ -184,8 +190,14 @@
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Vybral jsi moc možností, než je povoleno.</value>
   </data>
+  <data name="oauth.client.too_many" xml:space="preserve">
+    <value>Byl překročen limit povolených možností.</value>
+  </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Zadejte prosím platnou adresu URL.</value>
+  </data>
+  <data name="oauth.client.attributes.name" xml:space="preserve">
+    <value>Název aplikace</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Heslo nesmí obsahovat uživatelské jméno.</value>
@@ -201,6 +213,9 @@
   </data>
   <data name="user.invalid_email" xml:space="preserve">
     <value>Vypadá to na neplatnou e-mailovou adresu.</value>
+  </data>
+  <data name="user.invalid_twitter" xml:space="preserve">
+    <value>Twitter uživatelské jméno je neplatné.</value>
   </data>
   <data name="user.too_short" xml:space="preserve">
     <value>Nové heslo je příliš krátké.</value>
