@@ -91,6 +91,9 @@
   <data name="forums.latest_post" xml:space="preserve">
     <value>Poslední příspěvek</value>
   </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Přehled</value>
+  </data>
   <data name="forums.topics.empty" xml:space="preserve">
     <value>Žádná témata!</value>
   </data>
@@ -151,11 +154,20 @@
   <data name="topic.confirm_destroy" xml:space="preserve">
     <value>Opravdu odstranit téma?</value>
   </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Opravdu checeš obnovit téma?</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>odstraněné téma</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>zobrazit nejnovější příspěvek</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Odpověděl jsi na toto téma</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>v {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} uživatelem {1}</value>
@@ -186,6 +198,9 @@
   </data>
   <data name="topic.actions.destroy" xml:space="preserve">
     <value>Odstranit téma</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Odnovit téma</value>
   </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Zavřít</value>
@@ -229,6 +244,12 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>vrátit se o 10 příspěvků</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Logy témat</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Procházen logy témata</value>
+  </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Akce</value>
   </data>
@@ -238,14 +259,35 @@
   <data name="topic.logs.columns.user" xml:space="preserve">
     <value>Uživatel</value>
   </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>přidán "{0}" tag</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>téma připnuto a označeno jako oznámení</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>do {0}</value>
+  </data>
   <data name="topic.logs.data.fork" xml:space="preserve">
     <value>z {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>téma připnuté</value>
   </data>
   <data name="topic.logs.data.post_operation" xml:space="preserve">
     <value>příspěvek přidal {0}</value>
   </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>odstraněn tag "{0}"</value>
+  </data>
   <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
     <value>z {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>téma odepnuté</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>žádné logy nenalezeny...</value>
   </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>Smazaný příspěvek</value>
@@ -256,8 +298,59 @@
   <data name="topic.logs.operations.edit_topic" xml:space="preserve">
     <value>Změněný titulek tématu</value>
   </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Upraveno téma hlasování</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Téma zkopírované</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Tag vydaný</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Téma uzamčeno</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Příspěvky byly sloučeny do tohoto tématu</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Téma přesunuto</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Téma připnuto</value>
+  </data>
   <data name="topic.logs.operations.post_edited" xml:space="preserve">
     <value>Upravený příspěvek</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Příspěvek obnoven</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Téma obnoveno</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Rozdělené příspěvky přesunuty</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Příspěvky rozděleny</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Typ témata nastaven</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Typ tématu změněn</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Téma odemknuto</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Téma odepnuto</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Vlastní téma uzamčeno</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Vlastní téma odemčeno</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Zrušit</value>
@@ -439,11 +532,17 @@
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>Odemknout téma</value>
   </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Odemknout téma?</value>
+  </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Téma bylo odemčeno</value>
   </data>
   <data name="topics.lock.to_1" xml:space="preserve">
     <value>Uzamknout téma</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Uzamknout téma?</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
     <value>Téma bylo uzamčeno</value>
@@ -454,17 +553,26 @@
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
     <value>Odepnout téma</value>
   </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Odepnout téma?</value>
+  </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Téma bylo odepnuto</value>
   </data>
   <data name="topics.moderate_pin.to_1" xml:space="preserve">
     <value>Připnout téma</value>
   </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Připnout téma?</value>
+  </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
     <value>Téma bylo připnuto</value>
   </data>
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
     <value>Připíchni téma a označ jako oznámení</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Připnout téma a označit jako oznámení?</value>
   </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Téma bylo připnuto a označeno jako oznámení</value>
@@ -508,6 +616,9 @@
   <data name="topics.show.poll.edit" xml:space="preserve">
     <value>Upravení ankety</value>
   </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Upravování ankety odstraní všechny aktuální hlasy! </value>
+  </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
     <value>Hlasovat</value>
   </data>
@@ -528,6 +639,9 @@
   </data>
   <data name="topics.show.poll.detail.ended" xml:space="preserve">
     <value>Hlasování skončilo {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
+    <value>Výsledky budou zobrazeny po ukončení hlasování.</value>
   </data>
   <data name="topics.show.poll.detail.total" xml:space="preserve">
     <value>Celkem hlasů: {0}</value>

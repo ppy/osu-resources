@@ -135,6 +135,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EventNominationResetReceivedProfile(LocalisableString user, LocalisableString text) => new TranslatableString(getKey(@"event.nomination_reset_received_profile"), @"Nomination was reset by {0} ({1})", user, text);
 
         /// <summary>
+        /// "Online offset changed from {0} to {1}."
+        /// </summary>
+        public static LocalisableString EventOffsetEdit(LocalisableString old, LocalisableString @new) => new TranslatableString(getKey(@"event.offset_edit"), @"Online offset changed from {0} to {1}.", old, @new);
+
+        /// <summary>
         /// "This beatmap has reached the required number of nominations and has been qualified."
         /// </summary>
         public static LocalisableString EventQualify => new TranslatableString(getKey(@"event.qualify"), @"This beatmap has reached the required number of nominations and has been qualified.");
@@ -293,6 +298,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Explicit mark"
         /// </summary>
         public static LocalisableString TypeNsfwToggle => new TranslatableString(getKey(@"type.nsfw_toggle"), @"Explicit mark");
+
+        /// <summary>
+        /// "Offset edit"
+        /// </summary>
+        public static LocalisableString TypeOffsetEdit => new TranslatableString(getKey(@"type.offset_edit"), @"Offset edit");
 
         /// <summary>
         /// "Qualification"

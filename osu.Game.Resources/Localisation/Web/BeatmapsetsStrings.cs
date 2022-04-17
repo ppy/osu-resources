@@ -295,6 +295,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoNsfw => new TranslatableString(getKey(@"show.info.nsfw"), @"Explicit content");
 
         /// <summary>
+        /// "Online offset"
+        /// </summary>
+        public static LocalisableString ShowInfoOffset => new TranslatableString(getKey(@"show.info.offset"), @"Online offset");
+
+        /// <summary>
         /// "Points of Failure"
         /// </summary>
         public static LocalisableString ShowInfoPointsOfFailure => new TranslatableString(getKey(@"show.info.points-of-failure"), @"Points of Failure");
@@ -538,6 +543,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Slider Count"
         /// </summary>
         public static LocalisableString ShowStatsCountSliders => new TranslatableString(getKey(@"show.stats.count_sliders"), @"Slider Count");
+
+        /// <summary>
+        /// "Online offset: {0}"
+        /// </summary>
+        public static LocalisableString ShowStatsOffset(LocalisableString offset) => new TranslatableString(getKey(@"show.stats.offset"), @"Online offset: {0}", offset);
 
         /// <summary>
         /// "User Rating"

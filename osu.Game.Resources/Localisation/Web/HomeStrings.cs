@@ -220,14 +220,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DownloadAction => new TranslatableString(getKey(@"download.action"), @"Download osu!");
 
         /// <summary>
-        /// "if you have problem starting the game or registering for account, {0} or {1}."
+        /// "if you have a problem starting the game or registering for an account, {0} or {1}."
         /// </summary>
-        public static LocalisableString DownloadHelpDefault(LocalisableString helpForumLink, LocalisableString supportButton) => new TranslatableString(getKey(@"download.help._"), @"if you have problem starting the game or registering for account, {0} or {1}.", helpForumLink, supportButton);
+        public static LocalisableString DownloadHelpDefault(LocalisableString helpForumLink, LocalisableString supportButton) => new TranslatableString(getKey(@"download.help._"), @"if you have a problem starting the game or registering for an account, {0} or {1}.", helpForumLink, supportButton);
 
         /// <summary>
-        /// "check help forum"
+        /// "check the help forum"
         /// </summary>
-        public static LocalisableString DownloadHelpHelpForumLink => new TranslatableString(getKey(@"download.help.help_forum_link"), @"check help forum");
+        public static LocalisableString DownloadHelpHelpForumLink => new TranslatableString(getKey(@"download.help.help_forum_link"), @"check the help forum");
 
         /// <summary>
         /// "contact support"
