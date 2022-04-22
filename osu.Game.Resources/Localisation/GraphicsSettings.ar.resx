@@ -58,64 +58,79 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="gameplay_section_header" xml:space="preserve">
-    <value>Gameplay</value>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>الرسومات</value>
   </data>
-  <data name="beatmap_header" xml:space="preserve">
-    <value>Beatmap</value>
+  <data name="renderer_header" xml:space="preserve">
+    <value>العارِض</value>
   </data>
-  <data name="general_header" xml:space="preserve">
-    <value>Algemeen</value>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>مُخَصِص حد الإطار</value>
   </data>
-  <data name="audio" xml:space="preserve">
-    <value>Audio</value>
+  <data name="threading_mode" xml:space="preserve">
+    <value>وضع النقاشات</value>
   </data>
-  <data name="h_u_d" xml:space="preserve">
-    <value>HUD</value>
+  <data name="show_fps" xml:space="preserve">
+    <value>إظهار FPS</value>
   </data>
-  <data name="input" xml:space="preserve">
-    <value>Invoer</value>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>استخدام عدد إطارات بلا حدود يمكن أن يؤدي إلى توقف مفاجئ, اداء سيئ وإرتفاع حرارة المعالج. لن يؤدي إلى تحسين الـ Latency. يُنصح بـ "معدل التحديث 2x".</value>
   </data>
-  <data name="background" xml:space="preserve">
-    <value>Achtergrond</value>
+  <data name="layout_header" xml:space="preserve">
+    <value>الواجهة</value>
   </data>
-  <data name="dim" xml:space="preserve">
-    <value>Achtergrond-dimming</value>
+  <data name="screen_mode" xml:space="preserve">
+    <value>وضع الشاشة</value>
   </data>
-  <data name="blur" xml:space="preserve">
-    <value>Achtergrondvervaging</value>
+  <data name="resolution" xml:space="preserve">
+    <value>الدقة</value>
   </data>
-  <data name="lighten_during_breaks" xml:space="preserve">
-    <value>Speelveld lichter maken tijdens pauzes</value>
+  <data name="display" xml:space="preserve">
+    <value>الشاشة</value>
   </data>
-  <data name="hud_visibility_mode" xml:space="preserve">
-    <value>Zichtbaarheidsmodus HUD-overlay</value>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>نِطاق الواجهة</value>
   </data>
-  <data name="show_difficulty_graph" xml:space="preserve">
-    <value>Moeilijkheidsgrafiek op voortgangsbalk tonen</value>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>نِطاق الشاشة</value>
   </data>
-  <data name="show_health_display_when_cant_fail" xml:space="preserve">
-    <value>HP-balk tonen, zelfs wanneer je niet kan falen</value>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>الموضع الأفقي</value>
   </data>
-  <data name="fade_playfield_when_health_low" xml:space="preserve">
-    <value>Playfield naar rood vervagen bij lage HP</value>
+  <data name="vertical_position" xml:space="preserve">
+    <value>الموضع العمودي</value>
   </data>
-  <data name="key_overlay" xml:space="preserve">
-    <value>Toetsenoverlay altijd weergeven</value>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>المقياس الأفقي</value>
   </data>
-  <data name="always_play_first_combo_break" xml:space="preserve">
-    <value>Eerste combobreak-geluid altijd afspelen</value>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>المقياس العمودي</value>
   </data>
-  <data name="score_display_mode" xml:space="preserve">
-    <value>Weergavemodus score</value>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>التشغيل بدون وضع ملء الشاشة سيزيد من الـ Latency!</value>
   </data>
-  <data name="disable_win_key" xml:space="preserve">
-    <value>Windows-toets uitschakelen tijdens het spelen</value>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>إعدادات التفاصيل</value>
   </data>
-  <data name="mods_header" xml:space="preserve">
-    <value>Mods</value>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>لوحة قِصصية / فيديو</value>
   </data>
-  <data name="increase_first_object_visibility" xml:space="preserve">
-    <value>Verhoog de zichtbaarheid van het eerste object als visuele-beperkingmods zijn ingeschakeld</value>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>اضواء النقر</value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>لقطات الشاشة</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>تنسيق لقطة الشاشة</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>إظهار المؤشر في لقطات الشاشة</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>استخدام تعزيز الجهاز</value>
   </data>
 </root>

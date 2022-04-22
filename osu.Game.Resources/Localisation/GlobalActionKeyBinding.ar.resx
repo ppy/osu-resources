@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>إظهار\إخفاء الدردشة</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>إظهار\إخفاء القائِمة الإجتماعية</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>إعادة تعيين إعدادات الإدخال</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>إظهار\إخفاء شريط الأدوات</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>إظهار\إخفاء الإعدادات</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>إظهار\إخفاء قائمة الخرائط</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>زيادة\رفع الصوت</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>تقليل\خفضْ الصوت</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>وضع الكتم</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>تخطي المشهد</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>إعادة المحاولة بسرعة (إبقى ضاغِطاََ)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>التقاط لقطة الشاشة</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>إطفاء\تشغيل أزرار لعب الماوس</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>زيادة سرعة التمرير</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>تقليل سرعة التمرير</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>حدّد</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>الخروج سريعاََ (إبقى ضاغِطاََ)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>الأغنية التالية</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>الأغنية السابقة</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>تشغيل / إيقاف مؤقت</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>إظهار\إخفاء لائِحة "اللعب الأن"</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>الاختيار السابق</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>التحديد التالي</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>إطفاء\تشغيل الإشعارات</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>إيقاف اللعبة مؤقتاََ</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>وضع الإعداد</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>وضع الإنشاء</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>وضع التصميم</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>وضع التوقيت</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>التدوير بين شبكة نمط العرض</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>اختبار اللعبة</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>إبقى ضاغِطاََ لـ الواجهة</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Skin عشوائي</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>إيقاف مؤقت / استئناف الـReplay</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>إظهار\إخفاء الواجهة اثناء اللعب</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>تبديل اختيار المود</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>عشوائي</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>إرجاع</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>خيارات الخريطة</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>وضع التحقق</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>دفع الإختيار نحو اليسار</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>دفع الإختيار نحو اليمين</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>قلب الاختيار أفقياً</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>قلب الاختيار عمودياً</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>إظهار\إخفاء محرر الـSkin</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>مقياس الصوت السابق</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>مقياس الصوت التالي</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>تقديم الـReplay الى الأمام</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>تقديم الـReplay الى الوراء</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>التبديل بين التركيز على الدردشة</value>
+  </data>
+</root>
