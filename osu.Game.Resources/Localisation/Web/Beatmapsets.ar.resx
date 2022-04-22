@@ -73,6 +73,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>تَمهل, ألعب أكثر.</value>
   </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>الفنانين المميزين</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>قائمة الخرائط</value>
   </data>
@@ -164,13 +167,13 @@
     <value>مقبولة {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>محبوب timeago:</value>
+    <value>loved {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>مؤهل timeago:</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>مصفوفة {0}</value>
+    <value>ranked {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>مُقدَمَة {0}</value>
@@ -182,7 +185,7 @@
     <value>لديك عدد كبير جداََ من الخرائط المحبوبة! رجائاََ قم بألغاء بعضها قبل المحاولة مجدداََ.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>اَشِد هذه الخريطة ان احببت لعبها لمساعدتها لاِحتلال حالة &lt;strong&gt;التصفيف&lt;/strong&gt;.</value>
+    <value>اَشِد هذه الخريطة ان احببت لعبها لمساعدتها لاِحتلال حالة &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>هذه الخريطة حاليا {0}.</value>
@@ -223,6 +226,9 @@
   <data name="show.info.nsfw" xml:space="preserve">
     <value>محتوى حساس</value>
   </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>الإزاحة عبر الإنترنت</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>نقاط الفشل</value>
   </data>
@@ -262,6 +268,9 @@
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>ترتيب الدولة</value>
   </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>فشل تحميل الترتيب</value>
+  </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>ترتيب الأصدقاء</value>
   </data>
@@ -281,13 +290,16 @@
     <value>الدقة</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>اقصى مجموع</value>
+    <value>اقصى كومبو</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>اِخفاق</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>المودات</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>ثبّت</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>اللاعب</value>
@@ -317,13 +329,19 @@
     <value>جارِ تحميل النتائج...</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>خريطة غير مصنفة.</value>
+    <value>خريطة ليست Ranked.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>في المقدمة</value>
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>أفضل ما لديك</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>انقر {0} لرؤية جميع الميزات الرائعة التي ستحصل عليها!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>هتا</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>حجم الدائرة</value>
@@ -347,13 +365,16 @@
     <value>الطول</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
-    <value>نبضات في الدقيقة</value>
+    <value>BPM</value>
   </data>
   <data name="show.stats.count_circles" xml:space="preserve">
     <value>عدد الدوائر</value>
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>عدد المنزلقات</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>الإزاحة على الإنترنت: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>تصنيف المستخدم</value>
@@ -368,13 +389,13 @@
     <value>مرات اللعب</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>مقيّمة</value>
+    <value>Ranked</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
     <value>مقبولة</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>محبوبة</value>
+    <value>Loved</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>مؤهلة</value>

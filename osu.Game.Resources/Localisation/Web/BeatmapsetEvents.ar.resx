@@ -116,7 +116,7 @@
     <value>تم تغيير اللغة من {0} الى {1}.</value>
   </data>
   <data name="event.love" xml:space="preserve">
-    <value>حُبِبت بواسطة {0}</value>
+    <value>Loved بواسطة {0}.</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
     <value>رُشحت بواسطة {0}.</value>
@@ -127,14 +127,23 @@
   <data name="event.nomination_reset" xml:space="preserve">
     <value>اثارت المشكلة {0} ({1}) اِعادة تعيين الترشيح.</value>
   </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>الترشيح بواسطة {0} طبق عليه إعادة ترشيح بواسطة {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>تمت إعادة تعيين الترشيح بواسطة {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>تم تغيير الإزاحة عبر الإنترنت من {0} إلى {1}.</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>هذه الخريطة وصلت إلى العدد المطلوب من الترشيحات وتأهلت.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
-    <value>مصفوفة.</value>
+    <value>Ranked.</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
-    <value>تمت إزالتها من "المحبوبة" من قِبَل {0}. ({1})</value>
+    <value>تمت إزالتها من "Loved" من قِبَل {0}. ({1})</value>
   </data>
   <data name="event.nsfw_toggle.to_0" xml:space="preserve">
     <value>تصيف "محتوى حساس" مَلغي</value>
@@ -217,8 +226,14 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>إعادة تعيين الترشيح</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>تم استلام إعادة تعيين الترشيح</value>
+  </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>تصنيف حساس</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>تعديل الإزاحة</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
     <value>المؤهل</value>
@@ -227,6 +242,6 @@
     <value>الترتيب</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>اِزبالة من "المحبوبة"</value>
+    <value>اِزالة من "Loved"</value>
   </data>
 </root>

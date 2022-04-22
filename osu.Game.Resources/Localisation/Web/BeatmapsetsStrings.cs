@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString AvailabilityRuleViolation => new TranslatableString(getKey(@"availability.rule_violation"), @"Some assets contained within this map have been removed after being judged as not being suitable for use in osu!.");
 
         /// <summary>
+        /// "Deleted beatmap"
+        /// </summary>
+        public static LocalisableString CoverDeleted => new TranslatableString(getKey(@"cover.deleted"), @"Deleted beatmap");
+
+        /// <summary>
         /// "Slow down, play more."
         /// </summary>
         public static LocalisableString DownloadLimitExceeded => new TranslatableString(getKey(@"download.limit_exceeded"), @"Slow down, play more.");

@@ -113,10 +113,10 @@
     <value>يمكن فقط التصويت على المناقشات للخرائط في حالة الانتظار.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>يمكنك حذف منشوراتك فقط.</value>
+    <value>يمكنك حذف مشاركاتك فقط.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>لا يمكنك حذف منشور مناقشة مغلقة.</value>
+    <value>لا يمكنك حذف مشاركة تابعة لـ مناقشة مغلقة.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>المنشورات المتكونة تلقائيا لا يمكن حذفها.</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>لا يمكنك تغيير البيانات الوصفية لخريطة مُرَشَحة بالفعل. اتصل بعضو BN أو NAT إذا كنت تعتقد أنه تم تعيينها بشكل غير صحيح.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>هذه القناة مخصصة للإعلانات فقط.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>لا يمكن مراسلة شخص قام بحظرك او قمت بحظره.</value>
   </data>
@@ -148,6 +151,9 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>غير مسموح لك الوصول الى هذه القناة.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>قد لا يكون المستخدم قادراً على الرد لأنك تقبل فقط الرسائل من أشخاص على قائمة أصدقائك.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>لا يمكنك إرسال رسائل حينما تكون صامتا، مقيد أو محظور.</value>
   </data>
@@ -155,7 +161,7 @@
     <value>لا يمكنك إرسال رسائل حينما تكون صامتا، مقيد أو محظور.</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
-    <value>لا يمكن تعديل منشور محذوف.</value>
+    <value>لا يمكن تعديل مشاركة محذوفة.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>لا يمكنك تغيير التصويت الخاص بك بعد انتهاء فترة التصويت لهذه المسابقة.</value>
@@ -182,7 +188,7 @@
     <value>يمكن للناشر فقط حذف هذا المنشور.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
-    <value>لا يمكن تعديل منشور محذوف.</value>
+    <value>لا يمكن تعديل مشاركة محذوفة.</value>
   </data>
   <data name="forum.post.edit.locked" xml:space="preserve">
     <value>المنشور مقفل من التعديل.</value>
@@ -267,6 +273,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>يمكن للمسؤول فقط عرض هذا المنتدى.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>يمكن لمالك النتيجة فقط تثبيتها.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>قمت بتثبيت نتائج كثيرة.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>صفحة المستخدم مقفلة.</value>

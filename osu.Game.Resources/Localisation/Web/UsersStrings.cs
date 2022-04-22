@@ -545,6 +545,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraBeatmapsGraveyardTitle => new TranslatableString(getKey(@"show.extra.beatmaps.graveyard.title"), @"Graveyarded Beatmaps");
 
         /// <summary>
+        /// "Guest Participation Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowExtraBeatmapsGuestTitle => new TranslatableString(getKey(@"show.extra.beatmaps.guest.title"), @"Guest Participation Beatmaps");
+
+        /// <summary>
         /// "Loved Beatmaps"
         /// </summary>
         public static LocalisableString ShowExtraBeatmapsLovedTitle => new TranslatableString(getKey(@"show.extra.beatmaps.loved.title"), @"Loved Beatmaps");

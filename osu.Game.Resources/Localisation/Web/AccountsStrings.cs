@@ -120,14 +120,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditSignatureUpdate => new TranslatableString(getKey(@"edit.signature.update"), @"update");
 
         /// <summary>
-        /// "receive notifications for new problem on qualified beatmaps of following modes"
+        /// "receive notifications for new problems on qualified beatmaps of the following modes"
         /// </summary>
-        public static LocalisableString NotificationsBeatmapsetDiscussionQualifiedProblem => new TranslatableString(getKey(@"notifications.beatmapset_discussion_qualified_problem"), @"receive notifications for new problem on qualified beatmaps of following modes");
+        public static LocalisableString NotificationsBeatmapsetDiscussionQualifiedProblem => new TranslatableString(getKey(@"notifications.beatmapset_discussion_qualified_problem"), @"receive notifications for new problems on qualified beatmaps of the following modes");
 
         /// <summary>
-        /// "receive notifications for when beatmaps of following modes are disqualified"
+        /// "receive notifications for when beatmaps of the following modes are disqualified"
         /// </summary>
-        public static LocalisableString NotificationsBeatmapsetDisqualify => new TranslatableString(getKey(@"notifications.beatmapset_disqualify"), @"receive notifications for when beatmaps of following modes are disqualified");
+        public static LocalisableString NotificationsBeatmapsetDisqualify => new TranslatableString(getKey(@"notifications.beatmapset_disqualify"), @"receive notifications for when beatmaps of the following modes are disqualified");
 
         /// <summary>
         /// "receive notifications for replies to your comments"

@@ -50,6 +50,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderArtistsIndex => new TranslatableString(getKey(@"header.artists.index"), @"listing");
 
         /// <summary>
+        /// "info"
+        /// </summary>
+        public static LocalisableString HeaderBeatmapsetsShow => new TranslatableString(getKey(@"header.beatmapsets.show"), @"info");
+
+        /// <summary>
+        /// "discussion"
+        /// </summary>
+        public static LocalisableString HeaderBeatmapsetsDiscussions => new TranslatableString(getKey(@"header.beatmapsets.discussions"), @"discussion");
+
+        /// <summary>
         /// "listing"
         /// </summary>
         public static LocalisableString HeaderChangelogIndex => new TranslatableString(getKey(@"header.changelog.index"), @"listing");

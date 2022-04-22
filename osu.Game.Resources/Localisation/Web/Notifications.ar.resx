@@ -173,10 +173,10 @@
     <value>تم استبعاد الخريطة</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>أرتقت "{0}" لـ خريطة محبوبة</value>
+    <value>أرتقت "{0}" لـ خريطة Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>أرتقت  الخريطة لـ محبوبة</value>
+    <value>أرتقت الخريطة لتصبح Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>تم ترشيح "{0}"</value>
@@ -191,16 +191,16 @@
     <value>دخلت الخريطة قائمة التصنيف</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>اصبحت "{0}" مُصنفة</value>
+    <value>"{0}" اصبحت الأن Ranked</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>تم تصنيف الخريطة</value>
+    <value> كانت هذه الخريطة Ranked</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" تمت ازالتها من "الخرائط المحبوبة"</value>
+    <value>"{0}" تمت ازالتها من "خرائط Loved"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>أُزيلت الخريطة من "الخرائِط المحبوبة"</value>
+    <value>أُزيلت الخريطة من "خرائط Loved"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>تم اعادة تعيين ترشيحات "{0}"</value>
@@ -225,6 +225,18 @@
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>دردشة</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>إعلان جديد</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} يقول "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>إعلان من {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>رسالة جديدة</value>
@@ -304,6 +316,12 @@
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>خرائِط جديدة بواسطة {0}</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>الخريطة "{0}" تم إحياؤها بواسطة {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>تم إحياء الخريطة "{0}"</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>الأوسِمة</value>
   </data>
@@ -338,7 +356,7 @@
     <value>حُرِمَت "{0}" من التأهُل</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>اصبحت "{0}" محبوبة</value>
+    <value>"{0}" اصبخت الأن Loved</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>اصبحت "{0}" مرشحة</value>
@@ -347,10 +365,10 @@
     <value>"{0}" حصلت على ترشيحات كافية ودخلت حالة التصنيف</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>اصبحت "{0}" مصنفة</value>
+    <value>"{0}" اصبحت الأن Ranked</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" أُزيلَت مِن "الخرائط المحبوبة"</value>
+    <value>"{0}" أُزيلَت مِن "خرائط Loved"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>تم اعادة تعيين ترشيحات "{0}"</value>
