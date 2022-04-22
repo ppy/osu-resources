@@ -65,7 +65,7 @@
     <value>سجل اقتراحات {0}</value>
   </data>
   <data name="beatmapset_activities.title_compact" xml:space="preserve">
-    <value>الإقتراحات</value>
+    <value>تقديم الإقتِراحات</value>
   </data>
   <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
     <value>المناقشات التي بدأت مؤخرا</value>
@@ -307,6 +307,12 @@
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} تعليق|{0} تعليقات</value>
   </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>إخفاء الغلاف</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>إظهار الغلاف</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>تغيير صورة الغلاف</value>
   </data>
@@ -374,13 +380,13 @@
     <value>الخرائط المقبورة</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
-    <value>الخرائط المُحَبَبة</value>
+    <value>خرائط Loved</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>الخرائط المعلقة</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>الخرائط المصفوفة والمقبولة</value>
+    <value>الخرائط الـ Ranked</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>المناقشات</value>
@@ -422,10 +428,10 @@
     <value>الخرائط الملعوبة اخر (24 ساعة)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>تاريخ مشاهدات النتائج</value>
+    <value>تاريخ مشاهدات الـ Replays</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
-    <value>مشاهدات النتائج</value>
+    <value>الـ Replays التي شاهدتها</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>تاريخ الكودوسو الفائت</value>
@@ -493,6 +499,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>الاوسمة</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>العاب قائمة التشغيل</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>المنشورات</value>
   </data>
@@ -505,11 +514,14 @@
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>الأخيرة</value>
   </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>ألـ ألعاب الجماعية</value>
+  </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
-    <value>تحميل النتيجة</value>
+    <value>تحميل الـ Replay</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>فقط الخرائط المصفوفة تعطي نقاط خبرة.</value>
+    <value>فقط الخرائط الـ Ranked تعطي نقاط خبرة</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>موزون {0}</value>
@@ -525,6 +537,21 @@
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>المراكز الاولى</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>إزالة التثبيت</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>نتيجة غير مثبتة</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>تثبيت</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>نتيجة مثبتة</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>النتائج المثبتة</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>الأصوات المقدمة (اخر 3 اشهر)</value>
@@ -653,7 +680,7 @@
     <value>التقدم للمستوى التالي</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
-    <value>السرد الأقصى</value>
+    <value>اقصى كومبو</value>
   </data>
   <data name="show.stats.medals" xml:space="preserve">
     <value>الاوسمة</value>
@@ -665,10 +692,10 @@
     <value>وقت اللعب الإجمالي</value>
   </data>
   <data name="show.stats.ranked_score" xml:space="preserve">
-    <value>نقاط الترتيب</value>
+    <value>عدد نقاط الـ Ranked</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
-    <value>النتائج التي شوهدت بواسطة الاخرين</value>
+    <value>الـ Replays التي شاهدها الأخرون</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
     <value>ترتيب النقاط</value>
@@ -683,13 +710,13 @@
     <value>الخرائط المقبورة</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>الخرائط المُحَبَبة</value>
+    <value>خرائط Loved</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>الخرائط المعلقة</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>الخرائط المصفوفة والمقبولة</value>
+    <value>الخرائط الـ Ranked</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>أنت مُقيد (صامت) حاليا.</value>

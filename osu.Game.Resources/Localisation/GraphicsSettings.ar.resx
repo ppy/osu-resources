@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>الرسومات</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>العارِض</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>مُخَصِص حد الإطار</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>وضع النقاشات</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>إظهار FPS</value>
+  </data>
+  <data name="unlimited_frames_note" xml:space="preserve">
+    <value>استخدام عدد إطارات بلا حدود يمكن أن يؤدي إلى توقف مفاجئ, اداء سيئ وإرتفاع حرارة المعالج. لن يؤدي إلى تحسين الـ Latency. يُنصح بـ "معدل التحديث 2x".</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>الواجهة</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>وضع الشاشة</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>الدقة</value>
+  </data>
+  <data name="display" xml:space="preserve">
+    <value>الشاشة</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>نِطاق الواجهة</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>نِطاق الشاشة</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>الموضع الأفقي</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>الموضع العمودي</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>المقياس الأفقي</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>المقياس العمودي</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>التشغيل بدون وضع ملء الشاشة سيزيد من الـ Latency!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>إعدادات التفاصيل</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>لوحة قِصصية / فيديو</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>اضواء النقر</value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>لقطات الشاشة</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>تنسيق لقطة الشاشة</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>إظهار المؤشر في لقطات الشاشة</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>استخدام تعزيز الجهاز</value>
+  </data>
+</root>

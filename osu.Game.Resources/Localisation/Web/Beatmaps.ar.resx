@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>مشكلة</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>مراجعة</value>
   </data>
@@ -293,10 +296,10 @@
     <value>لم يتم تحديث هذه الخريطة منذ {0} وعلى الأغلب تم ايقاف العمل عليها من قبل المنشئ...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>تم اضافة هذه الخريطة الى الخرائط المحبوبة في {0}!</value>
+    <value>تم اضافة هذه الخريطة الى خرائط Loved في {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>هذه الخريطة في اصفافها في {0}!</value>
+    <value>اصبحت هذه الخريطة Ranked في {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>ملاحظة: هذه الخريطة معلمة كـ قيد العمل بواسطة المنشئ.</value>
@@ -373,6 +376,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>حُب</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>اختر صعوبة لـ Loved</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>حُب هذه الخريطة؟</value>
   </data>
@@ -389,10 +395,10 @@
     <value>لا يوجد تشجيع كافي.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>إزالة من خانة "المحبوبة"</value>
+    <value>إزالة من خانة "Loved"</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>سبب الإزالة من خانة "المحبوبة":</value>
+    <value>سبب الإزالة من خانة "Loved":</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>الترشيحات: {0}/{1}</value>
@@ -407,7 +413,7 @@
     <value>لا تزال هناك اخطاء يجب الاِشارة اليها في البداية.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>هذه الخريطة مقدرة بأن تصبح مصفوفة في {0} إذا لم يتم العثور على أي مشاكل. انها#{1} في {2}.</value>
+    <value>هذه الخريطة مقدرة بأن تصبح Ranked في {0} إذا لم يتم العثور على أي مشاكل. انها#{1} في {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>قائمة انتظار الترتيب</value>
@@ -426,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>هل انت متأكد؟ نشر مشكلة جديدة سوف يعيد تعيين حالة الترشيح.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>هل أنت متأكد من الإبلاغ عن مشكلة في هذه الخريطة؟ سيؤدي هذا إلى تنبيه مُرشِحي الخريطة.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>اكتب الكلمات المفتاحية...</value>
@@ -488,7 +497,7 @@
     <value>حُدثت</value>
   </data>
   <data name="listing.search.sorting.ranked" xml:space="preserve">
-    <value>مصفوفة</value>
+    <value>Ranked</value>
   </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>التقييم</value>
@@ -510,6 +519,9 @@
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>ادخال الخرائط المتحولة</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>الفنانين المميزين</value>
   </data>
   <data name="general.follows" xml:space="preserve">
     <value>ألمنشئين المشتركين</value>
@@ -539,7 +551,7 @@
     <value>تحتوي قائمة متصدرين</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>محبوبة</value>
+    <value>Loved</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>المراحل الخاصة بي</value>
@@ -547,11 +559,14 @@
   <data name="status.pending" xml:space="preserve">
     <value>معلقة وتحت العمل</value>
   </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>قيد العمل</value>
+  </data>
   <data name="status.qualified" xml:space="preserve">
     <value>مؤهلة</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
-    <value>مقيّمة</value>
+    <value>Ranked</value>
   </data>
   <data name="genre.any" xml:space="preserve">
     <value>الكل</value>
@@ -575,7 +590,7 @@
     <value>أخرى</value>
   </data>
   <data name="genre.novelty" xml:space="preserve">
-    <value>الابداع</value>
+    <value>فوق الطبيعة</value>
   </data>
   <data name="genre.hip-hop" xml:space="preserve">
     <value>هيب هوب</value>
@@ -632,7 +647,7 @@
     <value>بولندي</value>
   </data>
   <data name="language.instrumental" xml:space="preserve">
-    <value>آلة موسيقية</value>
+    <value>موسيقى فقط</value>
   </data>
   <data name="language.other" xml:space="preserve">
     <value>أخرى</value>
@@ -659,7 +674,7 @@
     <value>تحوي فديو</value>
   </data>
   <data name="extra.storyboard" xml:space="preserve">
-    <value>لوحة لوحة قصصية</value>
+    <value>تحوي لوحة قصصية</value>
   </data>
   <data name="rank.any" xml:space="preserve">
     <value>الكل</value>
