@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="edit.title_compact" xml:space="preserve">
-    <value>postavke</value>
+    <value>postavke računa</value>
   </data>
   <data name="edit.username" xml:space="preserve">
     <value>korisničko ime</value>
@@ -74,16 +74,16 @@
     <value>pravilima zajednice</value>
   </data>
   <data name="edit.email.current" xml:space="preserve">
-    <value>trenutna e-mail adresa</value>
+    <value>trenutna adresa e-pošte</value>
   </data>
   <data name="edit.email.new" xml:space="preserve">
-    <value>nova e-mail adresa</value>
+    <value>nova adresa e-pošte</value>
   </data>
   <data name="edit.email.new_confirmation" xml:space="preserve">
-    <value>potvrda e-mail adrese</value>
+    <value>potvrda adrese e-pošte</value>
   </data>
   <data name="edit.email.title" xml:space="preserve">
-    <value>E-mail adresa</value>
+    <value>E-pošta</value>
   </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>trenutna lozinka</value>
@@ -119,10 +119,10 @@
     <value>ažuriraj</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>primaj obavijesti o novom problemu na kvalificiranim beatmap-ima sljedećih modusa</value>
+    <value>primaj obavijesti o novim problemima na kvalificiranim beatmapovima sljedećih modova</value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>primaj obavijesti kad beatmap-ovi sljedećih modusa budu diskvalificirani</value>
+    <value>primaj obavijesti kad beatmap-ovi sljedećih modova budu diskvalificirani</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>primaj obavijesti za odgovore na tvoje komentare</value>
@@ -131,10 +131,16 @@
     <value>Obavijesti</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
-    <value>automatski uključi obavijesti na nove forum teme koje kreiraš</value>
+    <value>automatski uključi obavijesti na nove forum teme koje stvoriš</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
     <value>načine isporuke</value>
+  </data>
+  <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
+    <value>gostova težina</value>
+  </data>
+  <data name="notifications.options.beatmapset:modding" xml:space="preserve">
+    <value>modificiranje beatmapa</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privatne chat poruke</value>
@@ -146,7 +152,10 @@
     <value>odgovor na temu</value>
   </data>
   <data name="notifications.options.mail" xml:space="preserve">
-    <value>mail</value>
+    <value>pošta</value>
+  </data>
+  <data name="notifications.options.mapping" xml:space="preserve">
+    <value>autor beatmape</value>
   </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
@@ -233,12 +242,12 @@
     <value>ažuriraj</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
-    <value>Možes ovaj tab/prozor sada zatvoriti</value>
+    <value>Sada možeš zatvoriti ovu karticu/prozor</value>
   </data>
   <data name="verification_completed.title" xml:space="preserve">
-    <value>Verifikacija je završena</value>
+    <value>Potvrda je završena</value>
   </data>
   <data name="verification_invalid.title" xml:space="preserve">
-    <value>Nevažeći ili isteknut link za verifikaciju</value>
+    <value>Nevažeći ili isteknut link za potvrdu</value>
   </data>
 </root>

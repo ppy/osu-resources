@@ -58,17 +58,407 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Ažuriranje glasanja nije uspjelo</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>dopusti kudosu</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Stranica beatmape</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>izbriši</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>Izbrisano od {0} {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>zabrani kudosu</value>
+  </data>
   <data name="discussions.edit" xml:space="preserve">
     <value>uredi</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>Zadnje uređeno od {0} {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Gostova težina od {0}</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Zabranjeno dobivanje kudosua.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Ova težina je izbrisana pa se o njoj više ne može raspravljati.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Rasprava za ovu beatmapu je isključena.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Ne možeš objavljivati raspravu dok si utišan/a.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>Odaberi vrstu komentara</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>Pritisni enter za odgovor.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>Upiši svoj odgovor ovdje</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Molimo da se prijaviš kako bi objavljivao ili odgovorio/la</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>Riješeno</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>obnovi</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>Prikaži izbrisano</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>Rasprave</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Sažmi sve</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Proširi sve</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>Još nema rasprava!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Nijedna rasprava ne odgovara odabranom filtru.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>Zaključaj raspravu</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>Otključaj raspravu</value>
+  </data>
+  <data name="discussions.lock.prompt.lock" xml:space="preserve">
+    <value>Razlog zaključavanja</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>Jesi li siguran/na da želiš otključati?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Ovaj će post ići na opću beatmap raspravu. Da bi modificirao/la težinu, započni poruku s vremenskom oznakom (npr. 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Da bi modificirao/la više vremenskih oznaka, objavi više puta (jedna objava po vremenskoj oznaci).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Upiši ovdje kako bi objavio u Općenito ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Upiši ovdje kako bi objavio/la u Općenito (Sve težine)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Upiši ovdje kako bi objavio/la recenziju</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Upiši ovdje kako bi objavio u Vremensku crtu ({0})</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>Diskvalificiraj</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>Hype!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>Bilješka</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>Resetiraj nominaciju</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>Pohvali</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Prijava problema</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Recenzija</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>Prijedlog</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>Povijest</value>
+  </data>
+  <data name="discussions.mode.general" xml:space="preserve">
+    <value>Općenito {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Recenzije</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>Vremenska crta</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>Ova težina</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>Sve težine</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>Prikvači</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Vremenska oznaka</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl-c u načinu uređivanja i zalijepi svoju poruku da dodaš vremensku oznaku!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>Nova rasprava </value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>Otkači</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Nova Recenzija</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[RASPRAVA IZBRISANA]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Ukloni poveznicu</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Nespremljeno</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Objave na "Sve težine" ne mogu biti vremenski obilježene.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Ako ovaj {0} počinje s vremenskom oznakom, bit će prikazan pod Vremenska crta.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>umetni odlomak</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>umetni pohvalu</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>umetni problem</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>umetni prijedlog</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} napravljen od {1}</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>Vrijeme stvaranja</value>
+  </data>
+  <data name="discussions.sort.timeline" xml:space="preserve">
+    <value>Vremenska crta</value>
+  </data>
+  <data name="discussions.sort.updated_at" xml:space="preserve">
+    <value>Posljednje ažuriranje</value>
+  </data>
+  <data name="discussions.stats.deleted" xml:space="preserve">
+    <value>Izbrisano</value>
   </data>
   <data name="discussions.stats.mapper_notes" xml:space="preserve">
     <value>Bilješke</value>
   </data>
+  <data name="discussions.stats.mine" xml:space="preserve">
+    <value>Moje</value>
+  </data>
+  <data name="discussions.stats.pending" xml:space="preserve">
+    <value>Na čekanju</value>
+  </data>
+  <data name="discussions.stats.praises" xml:space="preserve">
+    <value>Pohvale</value>
+  </data>
+  <data name="discussions.stats.resolved" xml:space="preserve">
+    <value>Riješeno</value>
+  </data>
+  <data name="discussions.stats.total" xml:space="preserve">
+    <value>Sve</value>
+  </data>
+  <data name="discussions.status-messages.approved" xml:space="preserve">
+    <value>Ova beatmapa je odobrena na {0}!</value>
+  </data>
+  <data name="discussions.status-messages.graveyard" xml:space="preserve">
+    <value>Ova beatmapa nije ažurirana od {0} pa je stavljena na Groblje...</value>
+  </data>
+  <data name="discussions.status-messages.loved" xml:space="preserve">
+    <value>Ova beatmapa je dodana na Voljeno na {0}!</value>
+  </data>
+  <data name="discussions.status-messages.ranked" xml:space="preserve">
+    <value>Ova beatmapa je rangirana na {0}!</value>
+  </data>
+  <data name="discussions.status-messages.wip" xml:space="preserve">
+    <value>Napomena: Vlasnik je ovu beatmapu označio kao radnju u tijeku.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Još nema glasova protiv</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Još nema glasanja za</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Najnoviji glasovi protiv</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Najnoviji glasovi za</value>
+  </data>
+  <data name="hype.button" xml:space="preserve">
+    <value>Hypeaj beatmapu!</value>
+  </data>
+  <data name="hype.button_done" xml:space="preserve">
+    <value>Već hypeano!</value>
+  </data>
+  <data name="hype.confirm" xml:space="preserve">
+    <value>Jesi li siguran? Ovo će iskoristiti jedan od tvojih preostalih {0} hypeova i ne može se poništiti.</value>
+  </data>
+  <data name="hype.explanation" xml:space="preserve">
+    <value>Hypeaj ovu beatmapu kako bi bila vidljivija za nominaciju i rangiranje!</value>
+  </data>
+  <data name="hype.explanation_guest" xml:space="preserve">
+    <value>Prijavi se i hypeaj ovu beatmapu kako bi bila vidljivija za nominaciju i rangiranje!</value>
+  </data>
+  <data name="hype.new_time" xml:space="preserve">
+    <value>Dobit ćeš još jedan hype {0}.</value>
+  </data>
+  <data name="hype.remaining" xml:space="preserve">
+    <value>Preostalo ti je {0} hypeova.</value>
+  </data>
+  <data name="hype.required_text" xml:space="preserve">
+    <value>Hype: {0}/{1}</value>
+  </data>
+  <data name="hype.section_title" xml:space="preserve">
+    <value>Hype vlak</value>
+  </data>
+  <data name="hype.title" xml:space="preserve">
+    <value>Hype</value>
+  </data>
+  <data name="feedback.button" xml:space="preserve">
+    <value>Ostavi povratnu informaciju</value>
+  </data>
+  <data name="nominations.delete" xml:space="preserve">
+    <value>Izbriši</value>
+  </data>
+  <data name="nominations.delete_own_confirm" xml:space="preserve">
+    <value>Jesi li siguran? Beatmapa će se izbrisati i bit ćeš preusmjeren natrag na svoj profil.</value>
+  </data>
+  <data name="nominations.delete_other_confirm" xml:space="preserve">
+    <value>Jesi li siguran? Beatmapa će se izbrisati i bit ćeš preusmjeren natrag na korisnikov profil.</value>
+  </data>
+  <data name="nominations.disqualification_prompt" xml:space="preserve">
+    <value>Razlog za diskvalifikaciju?</value>
+  </data>
+  <data name="nominations.disqualified_at" xml:space="preserve">
+    <value>Diskvalificirano {0} ({1}).</value>
+  </data>
+  <data name="nominations.disqualified_no_reason" xml:space="preserve">
+    <value>nema navedenog razloga</value>
+  </data>
+  <data name="nominations.disqualify" xml:space="preserve">
+    <value>Diskvalificiraj</value>
+  </data>
+  <data name="nominations.incorrect_state" xml:space="preserve">
+    <value>Greška u izvođenju tog zadatka, pokušajte osvježiti stranicu.</value>
+  </data>
   <data name="nominations.love" xml:space="preserve">
     <value>Voli</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Odaberi težinu za voljeno</value>
+  </data>
+  <data name="nominations.love_confirm" xml:space="preserve">
+    <value>Voliš ovu beatmapu?</value>
+  </data>
+  <data name="nominations.nominate" xml:space="preserve">
+    <value>Nominiraj</value>
+  </data>
+  <data name="nominations.nominate_confirm" xml:space="preserve">
+    <value>Nominiraj ovu beatmapu?</value>
+  </data>
+  <data name="nominations.nominated_by" xml:space="preserve">
+    <value>nominirano od {0}</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Nema dovoljno hypea.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Ukloni iz Voljeno</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Razlog uklanjanja iz Voljeno:</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>Nominacije: {0}/{1}</value>
+  </data>
+  <data name="nominations.reset_message_deleted" xml:space="preserve">
+    <value>izbrisano</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>Status nominacije</value>
+  </data>
+  <data name="nominations.unresolved_issues" xml:space="preserve">
+    <value>Još uvijek postoje neriješeni problemi koji se prvo moraju riješiti.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Procjenjuje se da će ova beatmapa biti rangirana {0} ako nema problema. To je {1}. u {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>red čekanja na rangiranje</value>
+  </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>uskoro</value>
+  </data>
+  <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
+    <value>Proces nominacije resetiran {0} od {1} s novim problemom {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_at.disqualify" xml:space="preserve">
+    <value>Diskvalificirana {0} od {1} s novim problemom {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>Jesi li siguran? Ovo će ukloniti beatmapu iz kvalifikacije i resetirati proces nominacije.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>Jesi li siguran? Objavljivanje novog problema poništit će proces nominacije.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Jesi li siguran/na da želiš prijaviti problem na ovoj beatmapi? Ovo će upozoriti Nominatore beatmapa.</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>upiši ključne riječi...</value>
+  </data>
+  <data name="listing.search.login_required" xml:space="preserve">
+    <value>Prijavi se za pretraživanje.</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Još opcija pretraživanja</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Filtriranje prema {0} zahtijeva aktivnu osu!supporter oznaku</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>nema rezultata</value>
+  </data>
+  <data name="listing.search.not-found-quote" xml:space="preserve">
+    <value>... ne, ništa nije pronađeno.</value>
+  </data>
+  <data name="listing.search.filters.extra" xml:space="preserve">
+    <value>Dodatno</value>
+  </data>
+  <data name="listing.search.filters.general" xml:space="preserve">
+    <value>Općenito</value>
   </data>
   <data name="listing.search.filters.genre" xml:space="preserve">
     <value>Žanr</value>
@@ -76,26 +466,152 @@
   <data name="listing.search.filters.language" xml:space="preserve">
     <value>Jezik</value>
   </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>Mod</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Eksplicitni sadržaj</value>
+  </data>
+  <data name="listing.search.filters.played" xml:space="preserve">
+    <value>Igrano</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Postignuti rang</value>
+  </data>
+  <data name="listing.search.filters.status" xml:space="preserve">
+    <value>Kategorije</value>
+  </data>
+  <data name="listing.search.sorting.title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
   <data name="listing.search.sorting.artist" xml:space="preserve">
     <value>Umjetnik</value>
+  </data>
+  <data name="listing.search.sorting.difficulty" xml:space="preserve">
+    <value>Težina</value>
+  </data>
+  <data name="listing.search.sorting.favourites" xml:space="preserve">
+    <value>Omiljeni</value>
+  </data>
+  <data name="listing.search.sorting.updated" xml:space="preserve">
+    <value>Ažurirano</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Rangiran</value>
+  </data>
+  <data name="listing.search.sorting.rating" xml:space="preserve">
+    <value>Ocjena</value>
+  </data>
+  <data name="listing.search.sorting.plays" xml:space="preserve">
+    <value>Igranja</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Relevantnost</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Nominacije </value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Filtriranje prema {0} zahtijeva aktivnu {1}</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>osu!supporter oznaku</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Uključi pretvorene beatmape</value>
   </data>
   <data name="general.featured_artists" xml:space="preserve">
     <value>Istaknuti umjetnici</value>
   </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Pretplaćeni mapperi</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Preporučena težina </value>
+  </data>
   <data name="mode.all" xml:space="preserve">
     <value>Svi</value>
+  </data>
+  <data name="mode.any" xml:space="preserve">
+    <value>Bilo koji</value>
+  </data>
+  <data name="status.any" xml:space="preserve">
+    <value>Bilo koji</value>
   </data>
   <data name="status.approved" xml:space="preserve">
     <value>Odobreno</value>
   </data>
+  <data name="status.favourites" xml:space="preserve">
+    <value>Omiljeni</value>
+  </data>
+  <data name="status.graveyard" xml:space="preserve">
+    <value>Groblje</value>
+  </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Ima ljestvicu</value>
+  </data>
   <data name="status.loved" xml:space="preserve">
     <value>Voljeno</value>
+  </data>
+  <data name="status.mine" xml:space="preserve">
+    <value>Moje mape</value>
+  </data>
+  <data name="status.pending" xml:space="preserve">
+    <value>Na čekanju</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Rad u tijeku</value>
+  </data>
+  <data name="status.qualified" xml:space="preserve">
+    <value>Kvalificiran</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Rangiran</value>
+  </data>
+  <data name="genre.any" xml:space="preserve">
+    <value>Bilo koji</value>
+  </data>
+  <data name="genre.unspecified" xml:space="preserve">
+    <value>Nespecificiran</value>
+  </data>
+  <data name="genre.video-game" xml:space="preserve">
+    <value>Video igra</value>
   </data>
   <data name="genre.anime" xml:space="preserve">
     <value>Anime</value>
   </data>
+  <data name="genre.rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="genre.pop" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="genre.other" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="genre.novelty" xml:space="preserve">
+    <value>Novela</value>
+  </data>
+  <data name="genre.hip-hop" xml:space="preserve">
+    <value>Hip-hop</value>
+  </data>
+  <data name="genre.electronic" xml:space="preserve">
+    <value>Elektronička</value>
+  </data>
   <data name="genre.metal" xml:space="preserve">
     <value>Metal</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Klasična</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Narodna</value>
+  </data>
+  <data name="genre.jazz" xml:space="preserve">
+    <value>Jazz</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Bilo koji</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Engleski</value>
@@ -115,11 +631,29 @@
   <data name="language.japanese" xml:space="preserve">
     <value>Japanski</value>
   </data>
+  <data name="language.korean" xml:space="preserve">
+    <value>Korejski</value>
+  </data>
+  <data name="language.spanish" xml:space="preserve">
+    <value>Španjolski</value>
+  </data>
   <data name="language.swedish" xml:space="preserve">
     <value>Švedski</value>
   </data>
   <data name="language.russian" xml:space="preserve">
     <value>Ruski</value>
+  </data>
+  <data name="language.polish" xml:space="preserve">
+    <value>Poljski</value>
+  </data>
+  <data name="language.instrumental" xml:space="preserve">
+    <value>Instrumental</value>
+  </data>
+  <data name="language.other" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Nespecificiran</value>
   </data>
   <data name="nsfw.exclude" xml:space="preserve">
     <value>Sakrij</value>
@@ -127,6 +661,36 @@
   <data name="nsfw.include" xml:space="preserve">
     <value>Prikaži
 </value>
+  </data>
+  <data name="played.any" xml:space="preserve">
+    <value>Bilo koji</value>
+  </data>
+  <data name="played.played" xml:space="preserve">
+    <value>Igrano</value>
+  </data>
+  <data name="played.unplayed" xml:space="preserve">
+    <value>Neodigrana</value>
+  </data>
+  <data name="extra.video" xml:space="preserve">
+    <value>Ima video</value>
+  </data>
+  <data name="extra.storyboard" xml:space="preserve">
+    <value>Ima storyboard</value>
+  </data>
+  <data name="rank.any" xml:space="preserve">
+    <value>Bilo koji</value>
+  </data>
+  <data name="rank.xh" xml:space="preserve">
+    <value>Srebreni SS</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>Srebreni S</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>Broj igranja: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Omiljeni: {0}</value>
   </data>
   <data name="variant.mania.4k" xml:space="preserve">
     <value>4K</value>

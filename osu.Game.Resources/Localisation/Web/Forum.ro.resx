@@ -68,10 +68,10 @@
     <value>Subforumuri</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>forumuri osu!</value>
+    <value>Forumuri osu!</value>
   </data>
   <data name="covers.edit" xml:space="preserve">
-    <value>Editare copertă</value>
+    <value>Editează coperta</value>
   </data>
   <data name="covers.create._" xml:space="preserve">
     <value>Setează imaginea de copertă</value>
@@ -118,11 +118,17 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>postat {0}</value>
   </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>postat de {0}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Șterge postarea</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Editează postarea</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Raportați postarea</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Restaurează postarea</value>
@@ -144,6 +150,12 @@
   </data>
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} postări în total</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Sigur dorești să ștergi postarea?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Sigur dorești să restaurezi postarea?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>subiect șters</value>
@@ -184,6 +196,12 @@
   <data name="topic.started_by_verbose" xml:space="preserve">
     <value>început de {0}</value>
   </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Ștergeți subiectul</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Restaurați subiectul</value>
+  </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Închide</value>
   </data>
@@ -203,13 +221,13 @@
     <value>Acest subiect a fost inactiv pentru o vreme. Dacă nu ai un motiv specific pentru a posta aici, te rugăm să {0} în schimb.</value>
   </data>
   <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
-    <value>creezi un subiect nou</value>
+    <value>crează un subiect nou</value>
   </data>
   <data name="topic.create.placeholder.body" xml:space="preserve">
     <value>Introdu conținutul postării aici</value>
   </data>
   <data name="topic.create.placeholder.title" xml:space="preserve">
-    <value>Click aici pentru a stabili un titlu</value>
+    <value>Apasă aici pentru a stabili un titlu</value>
   </data>
   <data name="topic.jump.enter" xml:space="preserve">
     <value>click pentru a introduce numărul postării</value>
@@ -221,10 +239,118 @@
     <value>mergi la ultima postare</value>
   </data>
   <data name="topic.jump.next" xml:space="preserve">
-    <value>sari peste următoarele 10 postări</value>
+    <value>sari peste 10 postări</value>
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
     <value>mergi înapoi 10 postări</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Jurnal subiecte</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Răsfoiți jurnal cu subiecte</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Acțiune </value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Dată </value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>adăugat eticheta "{0}"</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>subiect fixat şi marcat ca anunţ</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>către {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>din {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>subiect fixat</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>postat de {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>eliminat eticheta "{0}"</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>din {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>subiect nefixat </value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>niciun jurnal găsit...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Postare ștearsă</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Subiect șters </value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Subiectul titlului a fost modificat</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Sondaj subiect modificat</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Subiect copiat</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Etichetă publicată </value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Subiect închis </value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Postări unite în acest subiect</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Subiect mutat</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Subiect fixat</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Postare editată </value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Postare restaurată </value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Subiect restaurat </value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Mesaje separate mutate</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Separă postările </value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Setează tipul subiectului </value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Tipul subiectului a fost modificat</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Subiect deschis</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Subiect nefixat</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Subiect propriu închis</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Subiect propriu deschis</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Anulează</value>

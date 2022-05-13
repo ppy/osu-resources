@@ -112,6 +112,9 @@
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Voit poistaa vaan omia viestejä.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Automaattisesti luotua viestiä ei voi poistaa.</value>
+  </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Vain lähettäjä voi muokata viestiä.</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
     <value>Tämä beatmap on lukittu keskustelulta.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Tämä kanava on tarkoitettu vain tiedotuksiin.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Et voi lähettää viestejä käyttäjälle, joka on estänyt sinut tai jonka olet estänyt.</value>
@@ -134,6 +140,9 @@
     <value>Sinulla ei ole oikeuksia tälle kanavalle.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
+    <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
     <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">

@@ -68,7 +68,7 @@
     <value>Пожалуйста, подтвердите свой аккаунт.</value>
   </data>
   <data name="restricted" xml:space="preserve">
-    <value>Это нельзя сделать при ограниченном аккаунте.</value>
+    <value>Это нельзя сделать, пока ваши права ограничены.</value>
   </data>
   <data name="silenced" xml:space="preserve">
     <value>Нельзя это делать, пока у вас сайленс.</value>
@@ -83,10 +83,10 @@
     <value>Нельзя удалить обсуждение с ответами</value>
   </data>
   <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
-    <value>Вы достигли своего лимита номинаций за день, повторите попытку завтра.</value>
+    <value>Достигнут ваш лимит номинаций за день, повторите попытку завтра.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
-    <value>Возникла неизвестная ошибка, попробуйте перезагрузить страницу.</value>
+    <value>Произошла ошибка при выполнении этого действия, попробуйте обновить страницу.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>Нельзя номинировать свою карту.</value>
@@ -95,10 +95,10 @@
     <value>Вы должны указать жанр и язык карты перед её номинированием.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Только автор темы или карты может решить вопрос.</value>
+    <value>Решить обсуждение может только его создатель или автор карты.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Оставлять заметки могут только автор карты, номинатор или член NAT.</value>
+    <value>Только автор карты или номинатор/член NAT может оставлять заметки.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Нельзя проголосовать за пост от бота</value>
@@ -110,7 +110,7 @@
     <value>Нельзя голосовать в собственном обсуждении!</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Можно голосовать только в обсуждениях ожидающих карт.</value>
+    <value>Можно голосовать только в обсуждениях карт на рассмотрении.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Вы можете удалять только свои посты.</value>
@@ -134,7 +134,7 @@
     <value>Обсуждение этой карты закрыто.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Если карта номинирована, её метаданные нельзя менять. В случае ошибок свяжитесь с номинатором или членом NAT.</value>
+    <value>Вы не можете изменить метаданные номинируемой карты. В случае ошибок свяжитесь с номнатором или членом NAT.</value>
   </data>
   <data name="chat.annnonce_only" xml:space="preserve">
     <value>Этот канал предназначен только для объявлений.</value>

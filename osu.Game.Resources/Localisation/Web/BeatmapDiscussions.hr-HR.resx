@@ -58,16 +58,157 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Moraš biti prijavljen kako bi uredio.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Sistemski generirana objava se ne može uređivati.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Moraš biti autor objave za uređivanje.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Ništa se nije dogodilo... još.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>izbrisano</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Nisu pronađene rasprave koje odgovaraju tim kriterijima pretraživanja.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Rasprava o beatmapama</value>
+  </data>
   <data name="index.form._" xml:space="preserve">
     <value>Pretraži</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Uključi izbrisane rasprave </value>
+  </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Mod beatmape</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Pokaži samo neriješene rasprave</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Vrsta poruke</value>
+  </data>
+  <data name="index.form.username" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Status beatmape</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Svi</value>
   </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Diskvalificiran</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Nikad kvalificiran</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Kvalificiran</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Rangiran</value>
+  </data>
   <data name="index.form.user.label" xml:space="preserve">
     <value>Korisnik</value>
   </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Pregled aktivnosti</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Datum objave</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Datum brisanja</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Trajna poveznica</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Niti jedna objava me ne zabrinjava</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Postoje objave od oko {0} ({1}). Molimo da ih provjerite prije objavljivanja.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} u ovoj recenziji</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Vlasnik težine</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Resetiraj vlasnika ove težine?</value>
+  </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Vlasnik</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Težina</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Prijavi se da odgovoriš</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Odgovori</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} blokova iskorišteno</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Pogledaj recenziju</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Pogledaj raspravu </value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>svaki blok može iskoristiti do {0} karaktera </value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>recenzija sadrži reference na probleme koji ne pripadaju ovoj recenziji</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>nevažeća vrsta blokova</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>nevažeća recenzija</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>nevažeća vrsta rasprave </value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>recenzija mora sadržavati najmanje {0} problem|recenzija mora sadržavati najmanje {0} problema</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>bloku nedostaje tekst</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>recenzije mogu sadržavati samo {0} paragraf/problem|recenzije mogu sadržavati samo do {0} paragrafa/problema</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>Označeno kao riješeno od {0}</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>Ponovno otvoreno od {0}</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>općenito</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>općenito (sve)</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Svi</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>Filtriraj prema korisniku</value>
   </data>
 </root>

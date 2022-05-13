@@ -180,6 +180,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ChatSilenced => new TranslatableString(getKey(@"chat.silenced"), @"You cannot send messages while silenced, restricted or banned.");
 
         /// <summary>
+        /// "Comments are disabled"
+        /// </summary>
+        public static LocalisableString CommentStoreDisabled => new TranslatableString(getKey(@"comment.store.disabled"), @"Comments are disabled");
+
+        /// <summary>
         /// "Can&#39;t edit deleted post."
         /// </summary>
         public static LocalisableString CommentUpdateDeleted => new TranslatableString(getKey(@"comment.update.deleted"), @"Can't edit deleted post.");

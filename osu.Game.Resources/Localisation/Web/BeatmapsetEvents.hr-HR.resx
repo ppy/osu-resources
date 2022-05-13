@@ -58,10 +58,190 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>Odobreno.</value>
+  </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Titula vlasnika težine {0} je prebačena na {1}.</value>
+  </data>
+  <data name="event.discussion_delete" xml:space="preserve">
+    <value>Moderator je izbrisao raspravu {0}.</value>
+  </data>
+  <data name="event.discussion_lock" xml:space="preserve">
+    <value>Rasprava za ovu beatmapu je isključena. ({0})</value>
+  </data>
+  <data name="event.discussion_post_delete" xml:space="preserve">
+    <value>Moderator je izbrisao objavu iz rasprave {0}. </value>
+  </data>
+  <data name="event.discussion_post_restore" xml:space="preserve">
+    <value>Moderator je obnovio objavu iz rasprave {0}.</value>
+  </data>
+  <data name="event.discussion_restore" xml:space="preserve">
+    <value>Moderator je obnovio raspravu {0}.</value>
+  </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>Rasprava za ovu beatmapu je uključena.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>Diskvalificirano od {0}. Razlog: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>Diskvalificirano od {0}. Razlog: {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Žanr promijenjen iz {0} u {1}.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>Riješen problem {0} od {1} ponovno otvoreno od {2}.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>Problem {0} od {1} je označen kao riješen od {2}.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>Kudosu zabrana za raspravu {0} je uklonjena.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>Rasprava {0} zabranjena za kudosu.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>Rasprava {0} od {1} je dobila dovoljno glasova za kudosu.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>Rasprava {0} od {1} je izgubila glasove i dodijeljeni kudosu je uklonjen.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>Rasprava {0} je preračunala svoje kudosu potpore.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Jezik promijenjen iz {0} u {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>Voljeno od {0}.</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>Nominirano od {0}.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominirano od {0} ({1}).</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>Novi problem {0} ({1}) je pokrenuo resetiranje nominacije.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominacija od {0} je resetirana od {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominacija je resetirana od {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Online pomak je promijenjen iz {0} u {1}.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Ova beatmapa je dosegla potreban broj nominacija i kvalificirana je.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>Rangirano.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Uklonjeno iz Voljeno od {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Uklonjena eksplicitna oznaka</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Označeno kao eksplicitno</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Događaji seta beatmapa</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>Razdoblje</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Vrste</value>
+  </data>
   <data name="item.content" xml:space="preserve">
     <value>Sadržaj</value>
   </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[izbrisano]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>Vrsta</value>
+  </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>Odobrenje</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Promjena vlasnika težine</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>Rasprava izbrisana</value>
+  </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>Brisanje odgovora na raspravi</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>Obnavljanje odgovora na raspravi</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>Obnova rasprave</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>Diskvalifikacija</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Promjena žanra</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>Ponovno otvaranje rasprave</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>Rješavanje rasprave</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>Kudosu džeparac</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>Poricanje kudosua</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>Kudosu dobit</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>Kudosu gubitak </value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>Kudosu preračunavanje</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Uređivanje jezika</value>
+  </data>
   <data name="type.love" xml:space="preserve">
     <value>Voli</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>Nominacija</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Resetiranje nominacije</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Reset nominacije primljen</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Eksplicitna oznaka</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Uređivanje razmaka</value>
+  </data>
+  <data name="type.qualify" xml:space="preserve">
+    <value>Kvalifikacija</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>Ljestvica</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Uklanjanje iz Voljeno</value>
   </data>
 </root>

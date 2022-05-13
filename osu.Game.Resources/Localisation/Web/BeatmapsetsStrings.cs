@@ -609,6 +609,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString ShowStatusGraveyard => new TranslatableString(getKey(@"show.status.graveyard"), @"Graveyard");
 
+        /// <summary>
+        /// "Spotlight"
+        /// </summary>
+        public static LocalisableString SpotlightBadgeLabel => new TranslatableString(getKey(@"spotlight_badge.label"), @"Spotlight");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

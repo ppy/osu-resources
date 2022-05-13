@@ -61,8 +61,14 @@
   <data name="all_read" xml:space="preserve">
     <value>Všechna oznámení přečtena!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Odstranit {0}</value>
+  </data>
   <data name="loading" xml:space="preserve">
     <value>Načítání nepřečtených oznámení...</value>
+  </data>
+  <data name="mark_read" xml:space="preserve">
+    <value>Vymazat {0}</value>
   </data>
   <data name="none" xml:space="preserve">
     <value>Žádná oznámení</value>
@@ -72,6 +78,9 @@
   </data>
   <data name="see_channel" xml:space="preserve">
     <value>přejít na chat</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Prosím ověřte relaci pro zobrazení oznámení</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>vše</value>
@@ -97,6 +106,15 @@
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmapa</value>
   </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Obtížnost hosta</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Nyní jsi vlastníkem obtížnosti "{0}" pro beatmapu "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Nyní jsi vlastníkem obtížnosti "{0}"</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Diskuze o beatmapě</value>
   </data>
@@ -118,11 +136,29 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Nový příspěvek od {0}</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
+    <value>Nová recenze na "{0}" od {1} obsahující problémy: {2}, návrhy: {3}, ocenění: {4}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
+    <value>Nová recenze od {0} obsahující problémy: {1}, návrhy: {2}, ocenění: {3}</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Diskuze "{0}" byla odemčena</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Diskuze byla odemčena</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
+    <value>Problém s kavlifikovanou Beatmapou</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Nahlášeno uživatelem {0} na "{1}": "{2}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
+    <value>Nahlášeno uživatelem {0} na "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
+    <value>Nahlášeno uživatelem {0} "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
     <value>Nahlásil {0}</value>
@@ -130,8 +166,17 @@
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
     <value>Stav Beatmapy se změnil</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" byla diskvalifikována</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
     <value>Beatmapa byla diskvalifikována</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>"{0}" byla povýšena do milované kategorie</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
+    <value>Beatmapa byla povýšena do milované kategorie</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" byla nominována</value>
@@ -139,11 +184,26 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
     <value>Beatmapa byla nominována</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" získala dostatek nominací a vstoupila do fronty hodnocení</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
+    <value>Beatmapa zadána do fronty hodnocení</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" byla hodnocena</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>Beatmapa byla hodnocena</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" byla odstraněna z milované kategorie</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>Beatmapa byla odstraněna z milované kategorie</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Nominace "{0}" byla obnovena</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
     <value>Nominace byla obnovena</value>
@@ -151,8 +211,17 @@
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Nový komentář</value>
   </data>
+  <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>{0} okomentoval "{1}" v "{2}"</value>
+  </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} okomentoval "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} odpověděl "{1}" v "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} odpověděl "{1}"</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>

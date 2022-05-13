@@ -155,7 +155,7 @@
     <value>Входим...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>Вход в аккаунт с помощью электронной почты в настоящее время отключён. Вместо этого, пожалуйста, используйте имя пользователя.</value>
+    <value>Вход с помощью электронной почты в настоящее время отключен. Вместо этого, пожалуйста, используйте имя пользователя.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Неверный логин/пароль</value>
@@ -167,7 +167,7 @@
     <value>Пожалуйста, войдите в аккаунт, чтобы продолжить</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Неверная капча, перезагрузите страницу и попробуйте снова.</value>
+    <value>Слишком много попыток входа, пожалуйста, пройдите капчу и попробуйте еще раз. (обновите страницу, если капча не видна)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Ваш IP адрес заблокирован. Попробуйте через несколько минут.</value>
@@ -378,6 +378,9 @@
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Заброшенные карты</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Карты с гостевым участием</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Любимые карты</value>

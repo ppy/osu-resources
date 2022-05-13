@@ -58,14 +58,134 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="availability.disabled" xml:space="preserve">
+    <value>Ova beatmapa trenutno nije dostupna za preuzimanje.</value>
+  </data>
+  <data name="availability.parts-removed" xml:space="preserve">
+    <value>Dijelovi ove beatmape su uklonjeni na zahtjev vlasnika ili noslitelja prava treće strane.</value>
+  </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Klikni ovdje za više informacija.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Neka sredstva sadržana u ovoj mapi su uklonjena nakon što su ocijenjena kao neprikladna za korištenje u osu!.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Izbrisana beatmapa,</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Uspori, igraj više.</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Istaknut umjetnik</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Popis beatmapa</value>
+  </data>
+  <data name="index.guest_title" xml:space="preserve">
+    <value>Beatmape</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>nema beatmapa</value>
+  </data>
+  <data name="panel.download.all" xml:space="preserve">
+    <value>preuzmi</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>preuzmi uz video</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>preuzmi bez videa</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>otvori u osu!direct</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Hibridne beatmape zahtijevaju da odabereš barem jedan način igranja za nominaciju.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Nemaš dopuštenje da nominiraš za mod: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Moraš biti puni nominator da izvršiš ovu kvalifikacijsku nominaciju.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Uvjet za nominaciju je već ispunjen.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Jesi li siguran/na da želiš nominirati ovu beatmapu?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Nominiraj beatmapu</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>napomena: možetš nominirati samo jednom, stoga te molimo da budeš siguran/na da nominiraš za sve načine igre koje namjeravaš</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Nominiraj za koje modove?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Eksplicitno</value>
+  </data>
+  <data name="show.discussion" xml:space="preserve">
+    <value>Rasprava</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>od {0}</value>
   </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>Označi beatmapu kao omiljenu</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Prijavi se kako bi označio/la ovu beatmapu kao omiljenu</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>Moraš se prijaviti prije preuzimanja beatmapa!</value>
+  </data>
+  <data name="show.details.mapped_by" xml:space="preserve">
+    <value>mapirano od {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>Ukloni beatmapu sa oznake omiljeno</value>
+  </data>
+  <data name="show.details.updated_timeago" xml:space="preserve">
+    <value>zadnje ažurirano {0}</value>
+  </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>Preuzmi</value>
+  </data>
+  <data name="show.details.download.no-video" xml:space="preserve">
+    <value>bez videa</value>
+  </data>
+  <data name="show.details.download.video" xml:space="preserve">
+    <value>sa videom</value>
+  </data>
+  <data name="show.details.login_required.bottom" xml:space="preserve">
+    <value>za pristup više značajki</value>
+  </data>
+  <data name="show.details.login_required.top" xml:space="preserve">
+    <value>Prijavi se</value>
+  </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>odobreno {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>voljeno {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>kvalificirano {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>rangirano {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>podnešeno {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>zadnje ažurirano {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Imaš previše omiljenih beatmapa! Molimo ukloni neke od njih prije ponovnog pokušaja.</value>
   </data>
   <data name="show.hype.report.link" xml:space="preserve">
     <value>ovdje</value>

@@ -118,8 +118,17 @@
   <data name="password_reset.code" xml:space="preserve">
     <value>Vahvistuskoodisi on:</value>
   </data>
+  <data name="password_reset.requested" xml:space="preserve">
+    <value>Joko sinä tai joku joka teeskentelee sinua, on pyytänyt salasanan palautusta osu! -tilillesi.</value>
+  </data>
   <data name="password_reset.subject" xml:space="preserve">
     <value>osu! tilin palauttaminen</value>
+  </data>
+  <data name="store_payment_completed.prepare_shipping" xml:space="preserve">
+    <value>Olemme saaneet maksusi ja valmistelemme tilaustasi kuljetukseen. Se voi kestää muutaman päivän lähettää, riippuen tilausten määrästä. Voit seurata tilauksesi edistymistä täällä, mukaan lukien seurantatiedot, jos saatavilla:</value>
+  </data>
+  <data name="store_payment_completed.processing" xml:space="preserve">
+    <value>Olemme vastaanottaneet maksusi ja käsittelemme tällä hetkellä tilaustasi. Voit seurata tilauksesi etenemistä täällä:</value>
   </data>
   <data name="store_payment_completed.questions" xml:space="preserve">
     <value>Jos sinulla on kysyttävää, älä epäröi vastata tähän sähköpostiin.</value>
@@ -139,17 +148,44 @@
   <data name="supporter_gift.anonymous_gift_maybe_not" xml:space="preserve">
     <value>Mutta taidat jo tietää kuka se mahtaa olla ;).</value>
   </data>
+  <data name="supporter_gift.gifted" xml:space="preserve">
+    <value>Joku on juuri antanut sinulle osu! -tukijan!</value>
+  </data>
   <data name="supporter_gift.subject" xml:space="preserve">
     <value>Sinulle on lahjoitettu osu!tukijatagi!</value>
+  </data>
+  <data name="user_email_updated.changed_to" xml:space="preserve">
+    <value>Tämä on vahvistussähköposti ilmoittaaksesi sinulle, että osu! -sähköpostiosoite on muutettu osoitteeseen: "{0}".</value>
+  </data>
+  <data name="user_email_updated.check" xml:space="preserve">
+    <value>Varmista, että olet saanut tämän sähköpostin uuteen osoitteeseesi, jotta et menetä käyttöoikeuttasi osu!-tiliisi tulevaisuudessa.</value>
+  </data>
+  <data name="user_email_updated.sent" xml:space="preserve">
+    <value>Turvallisuussyistä tämä sähköposti on lähetetty sekä uuteen että vanhaan sähköpostiosoitteeseen.</value>
   </data>
   <data name="user_email_updated.subject" xml:space="preserve">
     <value>osu!-sähköpostin muutoksen vahvistaminen</value>
   </data>
+  <data name="user_force_reactivation.main" xml:space="preserve">
+    <value>Tilisi epäillään olevan kompromisoitu, sillä on ollut epäilyttävää toimintaa tai ERITTÄIN heikko salasana. Tämän seurauksena vaadimme, että asetat uuden salasanan. Varmista, että valitset TURVALLISEN salasanan.</value>
+  </data>
+  <data name="user_force_reactivation.perform_reset" xml:space="preserve">
+    <value>Voit suorittaa nollauksen kohteesta {0}</value>
+  </data>
   <data name="user_force_reactivation.reason" xml:space="preserve">
     <value>Syy:</value>
   </data>
+  <data name="user_force_reactivation.subject" xml:space="preserve">
+    <value>osu! Tilin Uudelleenaktivointi Vaaditaan</value>
+  </data>
+  <data name="user_notification_digest.settings" xml:space="preserve">
+    <value>Muuta sähköposti-ilmoitusten asetuksia:</value>
+  </data>
   <data name="user_notification_digest.subject" xml:space="preserve">
     <value>Uusia osu!-ilmoituksia</value>
+  </data>
+  <data name="user_password_updated.confirmation" xml:space="preserve">
+    <value>Tämä on vain vahvistus siitä, että osu!-salasanasi on vaihdettu.</value>
   </data>
   <data name="user_password_updated.subject" xml:space="preserve">
     <value>osu!-salasanan muutoksen vahvistaminen</value>
