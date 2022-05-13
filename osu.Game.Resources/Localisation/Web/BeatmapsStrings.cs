@@ -795,6 +795,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString GeneralRecommended => new TranslatableString(getKey(@"general.recommended"), @"Recommended difficulty");
 
         /// <summary>
+        /// "Spotlighted beatmaps"
+        /// </summary>
+        public static LocalisableString GeneralSpotlights => new TranslatableString(getKey(@"general.spotlights"), @"Spotlighted beatmaps");
+
+        /// <summary>
         /// "All"
         /// </summary>
         public static LocalisableString ModeAll => new TranslatableString(getKey(@"mode.all"), @"All");

@@ -58,4 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>Poslana je e-pošta na {0} sa potvrdim kodom. Unesi kod.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Potvrda računa</value>
+  </data>
+  <data name="box.verifying" xml:space="preserve">
+    <value>Potvrđivanje...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>Izdavanje novog koda...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Provjeri svoju mapu neželjene pošte ako ne možeš pronaći e-poštu.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Ako ne možeš pristupiti svojoj e-pošti ili si zaboravio što si koristio/la, slijedi {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>proces oporavka e-pošte ovdje</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>Također možeš {0} ili {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>zatražiti novi kȏd</value>
+  </data>
+  <data name="box.info.logout_link" xml:space="preserve">
+    <value>odjaviti se</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>Kôd za potvrdu je istekao, poslana je nova e-pošta za potvrdu.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Netočan kôd za potvrdu.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Krivi kôd za potvrdu. Prekoračeno je ograničenje ponovnog pokušavanja, poslana je nova e-poruka za potvrdu.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>Kôd za potvrdu ponovno izdan, poslana je nova e-pošta za potvrdu.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Došlo je do nepoznatog problema, poslana je nova e-pošta za potvrdu.</value>
+  </data>
 </root>

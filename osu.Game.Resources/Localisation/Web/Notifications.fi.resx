@@ -64,11 +64,23 @@
   <data name="delete" xml:space="preserve">
     <value>Poista {0}</value>
   </data>
+  <data name="loading" xml:space="preserve">
+    <value>Ladataan lukemattomia ilmoituksia...</value>
+  </data>
+  <data name="mark_read" xml:space="preserve">
+    <value>Tyhjennä {0}</value>
+  </data>
   <data name="none" xml:space="preserve">
     <value>Ei ilmoituksia</value>
   </data>
   <data name="see_all" xml:space="preserve">
     <value>näytä kaikki ilmoitukset</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>siirry keskusteluun</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Vahvista istuntosi nähdäksesi ilmoitukset</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>kaikki</value>
@@ -118,11 +130,17 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
     <value>Uusi arvostelu käyttäjältä {0} sisältäen ongelmia: {1}, ehdotuksia: {2}, kehuja: {3}</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
+    <value>Keskustelu on avattu</value>
+  </data>
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Uusi kommentti</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Uusi viesti</value>
@@ -148,6 +166,9 @@
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
     <value>{0} kommentoi"{1}"</value>
   </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} vastasi "{1}"</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Foorumin aihe</value>
   </data>
@@ -162,6 +183,12 @@
   </data>
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
     <value>{0} lukematon viesti.|{0} lukemattomia viestejä.</value>
+  </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Uusi beatmappi</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Uusi beatmap "{0}"</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Mitalit</value>

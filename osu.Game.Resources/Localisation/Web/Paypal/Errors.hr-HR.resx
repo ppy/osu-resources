@@ -59,10 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="instrument_declined" xml:space="preserve">
-    <value>Paypal je odbio odabran način uplate.</value>
+    <value>Paypal je odbio odabran način plaćanja.</value>
   </data>
   <data name="invalid_resource_id" xml:space="preserve">
-    <value>Informacije o uplati nisu pronađene.</value>
+    <value>Podaci o plaćanju nisu pronađeni.</value>
+  </data>
+  <data name="invalid_token" xml:space="preserve">
+    <value>Došlo je do pogreške pri dovršavanju plaćanja.</value>
+  </data>
+  <data name="old_format" xml:space="preserve">
+    <value>Veza za plaćanje je istekla, pokušajte ponovo.</value>
+  </data>
+  <data name="resource_not_found" xml:space="preserve">
+    <value>Podaci o plaćanju nisu pronađeni.</value>
   </data>
   <data name="unknown" xml:space="preserve">
     <value>Uplata je odbijena, ali nismo sigurni zašto.</value>

@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="talking_in" xml:space="preserve">
-    <value>keskustellaan {0}{1}</value>
+    <value>keskustellaan kanavalla {0}</value>
   </data>
   <data name="talking_with" xml:space="preserve">
     <value>keskustelu {0}{1} kanssa</value>
@@ -73,8 +73,26 @@
   <data name="cannot_send.user" xml:space="preserve">
     <value>Et voi lähettää tälle käyttäjälle viestejä, koska</value>
   </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Tiedotukset</value>
+  </data>
+  <data name="channels.list.title.group" xml:space="preserve">
+    <value>Ryhmät</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Yksityisviestit</value>
+  </data>
+  <data name="channels.list.title.public" xml:space="preserve">
+    <value>Kanavat</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>kanavaa ei löydetty</value>
+  </data>
   <data name="input.disabled" xml:space="preserve">
     <value>viestiä ei voida lähettää...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Yhteys katkaistu</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>kirjoita viesti...</value>

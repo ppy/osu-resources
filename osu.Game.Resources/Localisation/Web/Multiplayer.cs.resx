@@ -58,6 +58,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="empty._" xml:space="preserve">
+    <value>Uživatel zatím nehrál žádné {0} osu!(lazer) hry!</value>
+  </data>
+  <data name="empty.playlists" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="empty.realtime" xml:space="preserve">
+    <value>multiplayer</value>
+  </data>
+  <data name="room.hosted_by" xml:space="preserve">
+    <value>pořádal {0}</value>
+  </data>
   <data name="room.invalid_password" xml:space="preserve">
     <value>Nesprávné heslo místnosti</value>
   </data>
@@ -70,7 +82,16 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} zbývá</value>
   </data>
+  <data name="room.errors.duration_too_long" xml:space="preserve">
+    <value>Doba je příliě dlouhá.</value>
+  </data>
   <data name="room.status.active" xml:space="preserve">
     <value>aktivní</value>
+  </data>
+  <data name="room.status.ended" xml:space="preserve">
+    <value>ukončeno</value>
+  </data>
+  <data name="room.status.soon" xml:space="preserve">
+    <value>brzy končí</value>
   </data>
 </root>
