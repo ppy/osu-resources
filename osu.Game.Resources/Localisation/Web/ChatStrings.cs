@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Chat";
 
         /// <summary>
+        /// "loading users..."
+        /// </summary>
+        public static LocalisableString LoadingUsers => new TranslatableString(getKey(@"loading_users"), @"loading users...");
+
+        /// <summary>
         /// "talking in {0}"
         /// </summary>
         public static LocalisableString TalkingIn(LocalisableString channel) => new TranslatableString(getKey(@"talking_in"), @"talking in {0}", channel);

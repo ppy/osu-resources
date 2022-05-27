@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Godkendt.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Ejer af sværhedsgrad {0} ændret til {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Moderator slettede diskussion {0}.</value>
   </data>
@@ -85,6 +88,9 @@
   <data name="event.disqualify_legacy" xml:space="preserve">
     <value>Diskvalificeret af {0}. Årsag: {1}.</value>
   </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Genre ændret fra {0} til {1}.</value>
+  </data>
   <data name="event.issue_reopen" xml:space="preserve">
     <value>Løste problem {0} genåbnet.</value>
   </data>
@@ -106,20 +112,38 @@
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Diskussion {0} har haft sit kudosu genberegnet.</value>
   </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Sprog ændret fra {0} til {1}.</value>
+  </data>
   <data name="event.love" xml:space="preserve">
     <value>Elsket af {0}</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
     <value>Nomineret af {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nomineret af {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nyt problem {0} udløste en nomineringsnulstilling.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominering af {0} blev nulstillet af {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nomineringen blev nulstillet af {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Online forskydning ændret fra {0} til {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Dette beatmap har opnået det nødvendige antal nomineringer og er blevet kvalificeret.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Ranked.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Fjernet fra Elsket af {0}. ({1})</value>
   </data>
   <data name="event.nsfw_toggle.to_0" xml:space="preserve">
     <value>Fjernede eksplicit mærke</value>
@@ -148,6 +172,9 @@
   <data name="type.approve" xml:space="preserve">
     <value>Godkendelse</value>
   </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Sværhedsgrad ejer ændring</value>
+  </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Diskussions-sletning</value>
   </data>
@@ -162,6 +189,9 @@
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Diskvalifikation</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Genre redigering</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
     <value>Diskussions-genåbning</value>
