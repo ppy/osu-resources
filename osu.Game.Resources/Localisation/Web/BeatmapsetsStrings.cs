@@ -505,9 +505,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsCs => new TranslatableString(getKey(@"show.stats.cs"), @"Circle Size");
 
         /// <summary>
-        /// "Key Amount"
+        /// "Key Count"
         /// </summary>
-        public static LocalisableString ShowStatsCsMania => new TranslatableString(getKey(@"show.stats.cs-mania"), @"Key Amount");
+        public static LocalisableString ShowStatsCsMania => new TranslatableString(getKey(@"show.stats.cs-mania"), @"Key Count");
 
         /// <summary>
         /// "HP Drain"

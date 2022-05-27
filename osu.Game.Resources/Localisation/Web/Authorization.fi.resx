@@ -91,6 +91,9 @@
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>Omaa beatmappia ei voi suositella.</value>
   </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Sinun täytyy määrittää tyylilaji ja kieli ennen ehdolle asettamista.</value>
+  </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>Vain aiheen aloittaja sekä beatmapin omistaja voivat ratkaista keskustelun.</value>
   </data>
@@ -112,17 +115,26 @@
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Voit poistaa vaan omia viestejä.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Et voi poistaa ratkaistun keskustelun viestiä.</value>
+  </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>Automaattisesti luotua viestiä ei voi poistaa.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Vain lähettäjä voi muokata viestiä.</value>
   </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Et voi muokata ratkaistun keskustelun viestiä.</value>
+  </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Automaattisesti luotua viestiä ei voi muokata.</value>
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
     <value>Tämä beatmap on lukittu keskustelulta.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Et voi muuttaa ehdolle asetetun kartan metatietoja. Ota yhteyttä BN- tai NAT-jäseneen, jos luulet sen olevan virheellinen.</value>
   </data>
   <data name="chat.annnonce_only" xml:space="preserve">
     <value>Tämä kanava on tarkoitettu vain tiedotuksiin.</value>
@@ -139,11 +151,17 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Sinulla ei ole oikeuksia tälle kanavalle.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Käyttäjä ei välttämättä pysty vastaamaan, koska hyväksyt viestejä vain ystävälistallasi olevilta henkilöiltä.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
     <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Kommentit ovat poistettu käytöstä</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Poistettuja viestejä ei voi mukata.</value>
@@ -253,8 +271,17 @@
   <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
     <value>Vain omistaja voi muuttaa kansikuvaa.</value>
   </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Tämä foorumi ei hyväksy aiheen kansikuvia.</value>
+  </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Vain ylläpitäjä voi nähdä tämän foorumin.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Vain tuloksen omistaja voi kiinnittää tuloksen.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Kiinnitit liian monta tulosta.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Käyttäjäsivu on lukittu.</value>

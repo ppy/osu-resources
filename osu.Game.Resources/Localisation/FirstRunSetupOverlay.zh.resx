@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="get_started" xml:space="preserve">
+    <value>让我们开始吧！</value>
+  </data>
+  <data name="click_to_resume_first_run_setup_at_any_point" xml:space="preserve">
+    <value>单击以在任何时候返回首次启动设置</value>
+  </data>
+  <data name="first_run_setup_title" xml:space="preserve">
+    <value>首次启动设置</value>
+  </data>
+  <data name="first_run_setup_description" xml:space="preserve">
+    <value>调教 osu! 以更贴合你的习惯</value>
+  </data>
+  <data name="welcome_title" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="welcome_description" xml:space="preserve">
+    <value>欢迎来到首次启动设置指南页！
+
+osu! 是一款可高度自由化配置的游戏，但初面这些繁多复杂的设置可能会让你不知所措。这个指南能帮你快速设定一些重要设置项，确保你有一个良好的初次游戏体验！</value>
+  </data>
+  <data name="ui_scale_description" xml:space="preserve">
+    <value>osu! 用户界面可以根据您的喜好来调整。</value>
+  </data>
+  <data name="behaviour" xml:space="preserve">
+    <value>游戏表现</value>
+  </data>
+  <data name="behaviour_description" xml:space="preserve">
+    <value>游戏提供了部分表现内容的新预设，这些新预设旨在易于玩家理解，并提升玩家的游玩体验。
+
+我们建议您先试用一下新预设，但如果您更偏好经典款 osu! 的表现风格，也可轻松设置并应用经典预设。</value>
+  </data>
+  <data name="new_defaults" xml:space="preserve">
+    <value>新预设</value>
+  </data>
+  <data name="classic_defaults" xml:space="preserve">
+    <value>经典预设</value>
+  </data>
+</root>

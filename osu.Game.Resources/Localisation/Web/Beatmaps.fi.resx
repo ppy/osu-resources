@@ -82,6 +82,9 @@
   <data name="discussions.edited" xml:space="preserve">
     <value>Viimeksi muokannut {0} {1}.</value>
   </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Vieraileva vaikeustaso - {0}</value>
+  </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Evätty saamasta kudosua.</value>
   </data>
@@ -178,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Ongelma</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Ilmoita ongelmasta</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Arvostelu</value>
   </data>
@@ -225,6 +231,18 @@
   </data>
   <data name="discussions.review.embed.missing" xml:space="preserve">
     <value>[KESKUSTELU POISTETTU]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Irrota</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Tallentamaton</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Viestit "Kaikki vaikeustasot" -osiossa eivät voi olla aikaleimattuja.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Jos tämä {0} alkaa aikaleimalla, se näytetään aikajanalla.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>lisää kappale</value>
@@ -286,6 +304,18 @@
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Huomaa: Tämän beatmapin tekijä on merkannut sen keskeneräiseksi.</value>
   </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Ei vielä vastaääniä</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Ei vielä ääniä</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Viimeisimmät vastaäänet</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Viimeisimmät äänet</value>
+  </data>
   <data name="hype.button" xml:space="preserve">
     <value>Hurraa Beatmappia!</value>
   </data>
@@ -346,6 +376,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Rakasta</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Valitse rakastetun vaikeustaso</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Rakasta tätä beatmappia?</value>
   </data>
@@ -400,6 +433,9 @@
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Oletko varma? Uuden ongelman lähettäminen kumoaa suositusprosessin.</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Oletko varma rapoitoidaksesi ongelman tässä beatmapissa? Tämä hälyttää Beatmap nimittäjät.</value>
+  </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>syötä hakusana...</value>
   </data>
@@ -432,6 +468,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Pelitila</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Sopimaton sisältö</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Pelatut</value>
@@ -481,11 +520,17 @@
   <data name="general.converts" xml:space="preserve">
     <value>Sisällytä muunnetut beatmapit</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Esitellyt artistit</value>
+  </data>
   <data name="general.follows" xml:space="preserve">
     <value>Tilatut kartoittajat</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Suositeltu vaikeustaso</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Valokeilassa olevat beatmapit</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Kaikki</value>
@@ -516,6 +561,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Vireillä &amp; WIP</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Kesken</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Esihyväksytty</value>

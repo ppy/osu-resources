@@ -106,6 +106,9 @@
   <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
     <value>Hylätty</value>
   </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Ei koskaan kelpuutettu</value>
+  </data>
   <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
     <value>Hyväksytty</value>
   </data>
@@ -136,8 +139,14 @@
   <data name="nearby_posts.notice" xml:space="preserve">
     <value>Aikajanalta {0} ({1}) löytyy viestejä. Tarkista ne ennen viestin lähettämistä.</value>
   </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} tässä arviossa</value>
+  </data>
   <data name="owner_editor.button" xml:space="preserve">
     <value>Vaikeustason Omistaja</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Nollaa tämän vaikeustason omistaja?</value>
   </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Omistaja</value>
@@ -151,8 +160,38 @@
   <data name="reply.open.user" xml:space="preserve">
     <value>Vastaa</value>
   </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} lohkoa käytetty</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Näytä arvosteluviesti</value>
+  </data>
   <data name="review.go_to_child" xml:space="preserve">
     <value>Näytä keskustelu</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>jokainen lohko voi sisältää enintään {0} merkkiä</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>arvostelu sisältää viittauksia ongelmiin, jotka eivät kuulu tähän arvosteluun</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>virheellinen lohkotyyppi</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>virheellinen arvostelu</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>virheellinen keskustelutyyppi</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>arvostelun täytyy sisältää vähintään {0} ongelma|arvostelun täytyy sisältää vähintään {0} ongelmaa</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>lohkosta puuttuu teksti</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>arvostelut saavat sisältää vain {0} kappale/ongelma|arvostelut saavat sisältää vain {0} kappaletta/ongelmaa</value>
   </data>
   <data name="system.resolved.true" xml:space="preserve">
     <value>{0} on merkinnyt ratkaistuksi</value>

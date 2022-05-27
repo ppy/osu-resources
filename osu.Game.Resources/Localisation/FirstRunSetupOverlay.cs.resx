@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="get_started" xml:space="preserve">
+    <value>Začít</value>
+  </data>
+  <data name="click_to_resume_first_run_setup_at_any_point" xml:space="preserve">
+    <value>Klikněte pro obnovení nastavení pro první spuštění v libovolném bodě</value>
+  </data>
+  <data name="first_run_setup_title" xml:space="preserve">
+    <value>Nastavení prvního spuštění</value>
+  </data>
+  <data name="first_run_setup_description" xml:space="preserve">
+    <value>Nastav si osu! tak, aby ti hra vyhovovala</value>
+  </data>
+  <data name="welcome_title" xml:space="preserve">
+    <value>Vítej</value>
+  </data>
+  <data name="welcome_description" xml:space="preserve">
+    <value>Vítejte v průvodci nastavením prvního spuštění!
+
+osu! je velmi konfigurovatelná hra a přechod přímo do nastavení může být někdy trošku ohromující. Tento průvodce vám pomůže dostat důležitá rozhodnutí ze cesty k zajištění skvělé první zkušenosti!</value>
+  </data>
+  <data name="ui_scale_description" xml:space="preserve">
+    <value>Velikost osu! uživatelského rozhraní může být upravena podle tvého přání.</value>
+  </data>
+  <data name="behaviour" xml:space="preserve">
+    <value>Chování hry</value>
+  </data>
+  <data name="behaviour_description" xml:space="preserve">
+    <value>Některé nové výchozí hodnoty pro nastavení byly implementovány s cílem zlepšit herní zážitek a udělat hru více přístupnou pro všechny.
+
+Doporučujeme vyzkoušet nová výchozí nastavení, ale pokud raději checete nastavení mít více jako v klasické verzi osu!, můžete snadno použít klasické nastavení níže.</value>
+  </data>
+  <data name="new_defaults" xml:space="preserve">
+    <value>Nová výchozí nastavení</value>
+  </data>
+  <data name="classic_defaults" xml:space="preserve">
+    <value>Klasická výchozí nastavení</value>
+  </data>
+</root>
