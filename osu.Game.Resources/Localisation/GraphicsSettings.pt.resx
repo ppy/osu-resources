@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Renderizador</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>Limitador de fotogramas</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Modo de threads</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>Mostrar FPS</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>Disposição</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Modo de ecrã</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Resolução</value>
+  </data>
+  <data name="display" xml:space="preserve">
+    <value>Visualização</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>Escala da IU</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Escala do ecrã</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Posição horizontal</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Posição vertical</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Escala horizontal</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Escala vertical</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Ao correr sem o modo de ecrã inteiro, fará aumentar a tua latência de introdução!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Definições de detalhes</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Storyboard/vídeo</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Luz nos acertos</value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>Capturas de ecrã</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Formato da captura de ecrã</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Mostrar cursor do menu nas capturas de ecrã</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>Usar aceleração de hardware</value>
+  </data>
+</root>
