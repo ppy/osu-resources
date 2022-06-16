@@ -58,8 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>naglo-load ng mga user...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
-    <value>nakikipagusap sa {0}</value>
+    <value>nakikipag-usap sa {0}</value>
   </data>
   <data name="talking_with" xml:space="preserve">
     <value>kausap si {0}</value>
@@ -68,7 +71,7 @@
     <value>chat</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Hindi ka makakapadala ng mensahe sa tsanel na ito ngayon. Ito ay maaaring dahil sa alinman sa mga sumusunod na dahilan:</value>
+    <value>Hindi ka makakapag-mensahe sa channel na ito sa oras na ito.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
     <value>Hindi ka makakapadala ng mensahe sa taong ito ngayon. Ito ay maaaring dahil sa alinman sa mga sumusunod na dahilan:</value>
@@ -80,10 +83,10 @@
     <value>Mga grupo</value>
   </data>
   <data name="channels.list.title.pm" xml:space="preserve">
-    <value>Direktang mensahe</value>
+    <value>Mga direktang mensahe</value>
   </data>
   <data name="channels.list.title.public" xml:space="preserve">
-    <value>Channels</value>
+    <value>Mga Channel</value>
   </data>
   <data name="not_found.message" xml:space="preserve">
     <value>Walang laman dito, maaaring umalis ka sa channel o wala ito...</value>
@@ -98,18 +101,18 @@
     <value>Disconnected</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
-    <value>gumawa ng mensahe...</value>
+    <value>mag-type ng mensahe...</value>
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Ipadala</value>
   </data>
   <data name="no-conversations.howto" xml:space="preserve">
-    <value>Simulan ang pakikipag-usap galing sa isang user profile o kaya naman sa isang popup sa usercard.</value>
+    <value>Simulan ang pakikipag-usap mula sa profile ng isang user o sa isang popup ng usercard.</value>
   </data>
   <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Ang mga tsanel na pwedeng salihan sa &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; ay makikita din dito.</value>
+    <value>Ang mga public channel na sinalihan mo sa &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; ay makikita din dito.</value>
   </data>
   <data name="no-conversations.title" xml:space="preserve">
-    <value>wala pang usapan</value>
+    <value>wala pang mga usapan</value>
   </data>
 </root>

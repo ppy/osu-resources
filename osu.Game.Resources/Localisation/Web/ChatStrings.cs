@@ -1,4 +1,4 @@
-// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
 using osu.Framework.Localisation;
@@ -40,6 +40,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CannotSendUser => new TranslatableString(getKey(@"cannot_send.user"), @"You cannot message this user at this time.");
 
         /// <summary>
+        /// "create announcement"
+        /// </summary>
+        public static LocalisableString ChannelsCreate => new TranslatableString(getKey(@"channels.create"), @"create announcement");
+
+        /// <summary>
         /// "Announcements"
         /// </summary>
         public static LocalisableString ChannelsListTitleANNOUNCE => new TranslatableString(getKey(@"channels.list.title.announce"), @"Announcements");
@@ -60,6 +65,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ChannelsListTitlePUBLIC => new TranslatableString(getKey(@"channels.list.title.public"), @"Channels");
 
         /// <summary>
+        /// "Create New Announcement"
+        /// </summary>
+        public static LocalisableString FormTitleAnnouncement => new TranslatableString(getKey(@"form.title.announcement"), @"Create New Announcement");
+
+        /// <summary>
+        /// "description"
+        /// </summary>
+        public static LocalisableString FormLabelsDescription => new TranslatableString(getKey(@"form.labels.description"), @"description");
+
+        /// <summary>
+        /// "room name"
+        /// </summary>
+        public static LocalisableString FormLabelsName => new TranslatableString(getKey(@"form.labels.name"), @"room name");
+
+        /// <summary>
+        /// "players to add"
+        /// </summary>
+        public static LocalisableString FormLabelsUsers => new TranslatableString(getKey(@"form.labels.users"), @"players to add");
+
+        /// <summary>
         /// "There&#39;s nothing here, maybe you left the channel or it doesn&#39;t exist..."
         /// </summary>
         public static LocalisableString NotFoundMessage => new TranslatableString(getKey(@"not_found.message"), @"There's nothing here, maybe you left the channel or it doesn't exist...");
@@ -68,6 +93,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "channel not found"
         /// </summary>
         public static LocalisableString NotFoundTitle => new TranslatableString(getKey(@"not_found.title"), @"channel not found");
+
+        /// <summary>
+        /// "Create"
+        /// </summary>
+        public static LocalisableString InputCreate => new TranslatableString(getKey(@"input.create"), @"Create");
 
         /// <summary>
         /// "unable to send message..."

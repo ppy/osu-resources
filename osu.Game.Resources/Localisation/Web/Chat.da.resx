@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>indlæser brugere...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>taler i {0}</value>
   </data>
@@ -73,11 +76,32 @@
   <data name="cannot_send.user" xml:space="preserve">
     <value>Du kan ikke skrive til denne person på nuværende tidspunkt. Dette kan være pga. en af disse grunde:</value>
   </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Service-meddelelse</value>
+  </data>
+  <data name="channels.list.title.group" xml:space="preserve">
+    <value>Grupper</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Direkte beskeder</value>
+  </data>
+  <data name="channels.list.title.public" xml:space="preserve">
+    <value>Kanaler</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Der er intet her, måske du forlod kanalen, eller det eksisterer ikke...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>kanal ikke fundet</value>
+  </data>
   <data name="input.disabled" xml:space="preserve">
     <value>kunne ikke sende besked...</value>
   </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Afbrudt</value>
+  </data>
   <data name="input.placeholder" xml:space="preserve">
-    <value>skriv Besked...</value>
+    <value>skriv besked...</value>
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Send</value>

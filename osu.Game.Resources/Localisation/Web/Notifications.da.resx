@@ -131,10 +131,10 @@
     <value>Nyt opslag på "{0}" af {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Nyt oplsag af {0}: "{1}"</value>
+    <value>Nyt opslag af {0}: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
-    <value>Nyt oplsag af {0}</value>
+    <value>Nyt opslag af {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
     <value>Ny anmeldelse på "{0}" af {1} indeholder problemer: {2}, forslag: {3}, rose: {4}</value>
@@ -217,8 +217,26 @@
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
     <value>{0} kommenterede "{1}"</value>
   </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} kommenterede "{1}" på "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} kommenterede "{1}"</value>
+  </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chat</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Ny meddelelse</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} siger "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Meddelelse fra {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Ny besked</value>
@@ -244,6 +262,12 @@
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
     <value>{0} kommenterede "{1}"</value>
   </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} kommenterede "{1}" på "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} kommenterede "{1}"</value>
+  </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Nyheder</value>
   </data>
@@ -254,6 +278,12 @@
     <value>{0} kommenterede "{1}" på "{2}"</value>
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} kommenterede "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} kommenterede "{1}" på "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} kommenterede "{1}"</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
@@ -277,6 +307,21 @@
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nyt beatmap</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Nyt beatmap "{0}" af {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Nyt beatmap "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Nyt beatmap af {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Beatmap "{0}" blev genoplivet af {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Beatmap "{0}" blev genoplivet</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medaljer</value>
   </data>
@@ -288,6 +333,57 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
     <value>Opnået "{0}"!</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
+    <value>Medaljer låst op!</value>
+  </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Du er nu gæst på beatmap "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Diskussionen "{0}" er blevet låst</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Diskussionen "{0}" har nye opdateringer</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Diskussionen "{0}" er blevet åbnet</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Der blev rapporteret et nyt problem på "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" er blevet diskvalificeret</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
+    <value>"{0}" blev ophøjet til elsket</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" er blevet nomineret</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" har optjent nok nomineringer og er gået ind i ranking ventelisten</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" er blevet ranked</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" blev fjernet fra Elskede</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Nominering af "{0}" blev nulstillet</value>
+  </data>
+  <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>Beatmap "{0}" har nye kommentarer</value>
+  </data>
+  <data name="mail.channel.channel.pm" xml:space="preserve">
+    <value>Du har modtaget en ny besked fra {0}</value>
+  </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>Ændringsoversigt "{0}" har nye kommentarer</value>
+  </data>
+  <data name="mail.news_post.comment.comment_new" xml:space="preserve">
+    <value>Nyheder "{0}" har nye kommentarer</value>
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Der er nye svar i "{0}"</value>
