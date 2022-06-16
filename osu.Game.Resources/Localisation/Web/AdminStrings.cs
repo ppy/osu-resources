@@ -1,4 +1,4 @@
-// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
+﻿// Copyright (c) ppy Pty Ltd <contact@ppy.sh>. Licensed under the MIT Licence.
 // See the LICENCE file in the repository root for full licence text.
 
 using osu.Framework.Localisation;
@@ -38,31 +38,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Manage Beatmap Covers"
         /// </summary>
         public static LocalisableString BeatmapsetsShowCovers => new TranslatableString(getKey(@"beatmapsets.show.covers"), @"Manage Beatmap Covers");
-
-        /// <summary>
-        /// "Modding v2"
-        /// </summary>
-        public static LocalisableString BeatmapsetsShowDiscussionDefault => new TranslatableString(getKey(@"beatmapsets.show.discussion._"), @"Modding v2");
-
-        /// <summary>
-        /// "activate"
-        /// </summary>
-        public static LocalisableString BeatmapsetsShowDiscussionActivate => new TranslatableString(getKey(@"beatmapsets.show.discussion.activate"), @"activate");
-
-        /// <summary>
-        /// "activate modding v2 for this beatmap?"
-        /// </summary>
-        public static LocalisableString BeatmapsetsShowDiscussionActivateConfirm => new TranslatableString(getKey(@"beatmapsets.show.discussion.activate_confirm"), @"activate modding v2 for this beatmap?");
-
-        /// <summary>
-        /// "active"
-        /// </summary>
-        public static LocalisableString BeatmapsetsShowDiscussionActive => new TranslatableString(getKey(@"beatmapsets.show.discussion.active"), @"active");
-
-        /// <summary>
-        /// "inactive"
-        /// </summary>
-        public static LocalisableString BeatmapsetsShowDiscussionInactive => new TranslatableString(getKey(@"beatmapsets.show.discussion.inactive"), @"inactive");
 
         /// <summary>
         /// "Delete"

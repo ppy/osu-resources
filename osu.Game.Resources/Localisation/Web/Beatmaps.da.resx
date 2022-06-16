@@ -238,8 +238,17 @@
   <data name="discussions.review.embed.unsaved" xml:space="preserve">
     <value>Ikke gemt</value>
   </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Indlæg på "Alle sværhedsgrader" kan ikke tidsstemples.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Hvis denne {0} starter med et tidsstempel, vil den blive vist under tidslinje.</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>indsæt afsnit</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>indsæt praise</value>
   </data>
   <data name="discussions.review.insert-block.problem" xml:space="preserve">
     <value>indsæt problem</value>
@@ -367,6 +376,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Elsk</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Vælg sværhedsgrad for elskede</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Elsk dette beatmap?</value>
   </data>
@@ -400,6 +412,12 @@
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Der er stadig uløste problemer der skal tages fat på først.</value>
   </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Dette kort anslås at være rangeret {0} , hvis ingen problemer findes. Det er #{1} i {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>rangering kø</value>
+  </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>snart</value>
   </data>
@@ -414,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Er du sikker? At slå et nyt problem op nulstiller nominations-processen.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Er du sikker på at du vil rapportere problem på dette beatmap? Dette vil advare Beatmap Nominatorer.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>skriv nøgleord...</value>
@@ -447,6 +468,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Mode</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Eksplicit Indhold</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Allerede spillet</value>
@@ -496,12 +520,18 @@
   <data name="general.converts" xml:space="preserve">
     <value>Inkluder konvertert beatmeaps</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Udvalgte kunstnere</value>
+  </data>
   <data name="general.follows" xml:space="preserve">
     <value>Subscribed mappers
 </value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Rekommenderat sværhedsgrad</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Spotlightet beatmaps</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Alle</value>
@@ -532,6 +562,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Afventende &amp; WIP</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalificeret</value>
@@ -582,6 +615,9 @@
   <data name="genre.jazz" xml:space="preserve">
     <value>Jazz</value>
   </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Alle</value>
+  </data>
   <data name="language.english" xml:space="preserve">
     <value>Engelsk</value>
   </data>
@@ -623,6 +659,12 @@
   </data>
   <data name="language.unspecified" xml:space="preserve">
     <value>Uspecificeret</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Skjul</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Vis</value>
   </data>
   <data name="played.any" xml:space="preserve">
     <value>Vilkårlig</value>

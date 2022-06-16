@@ -145,6 +145,9 @@
   <data name="owner_editor.button" xml:space="preserve">
     <value>Sværhedsgrad Ejer</value>
   </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Nulstil ejeren for denne sværhedsgrad?</value>
+  </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Ejer</value>
   </data>
@@ -157,11 +160,20 @@
   <data name="reply.open.user" xml:space="preserve">
     <value>Svar</value>
   </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} blokke brugt</value>
+  </data>
   <data name="review.go_to_parent" xml:space="preserve">
     <value>Vis Anmeldelses-opslag</value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
     <value>Vis Diskussion</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>hver blok må kun indeholde op til {0} tegn</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>anmeldelse indholder referencer til problemer som ikke hører til denne anmeldelse</value>
   </data>
   <data name="review.validation.invalid_block_type" xml:space="preserve">
     <value>ugyldig block type</value>

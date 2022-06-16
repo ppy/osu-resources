@@ -80,7 +80,7 @@
     <value>змінити</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>Останній раз змінено {0} {1}.</value>
+    <value>Останнє редагування {0} {1}.</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
     <value>Гостьова складність від {0}</value>
@@ -89,10 +89,10 @@
     <value>Відмовлено в отриманні кудосу.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Ця складність була видалена і відгукуватися про неї не можна.</value>
+    <value>Ця складність була видалена, і більше вона не може бути обговорена.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>Обговорення цієї карти відключено.</value>
+    <value>Обговорення для цієї карти відключено.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
     <value>Не можна коментувати поки заглушений.</value>
@@ -146,10 +146,10 @@
     <value>Ви впевнені, що хочете розблокувати обговорення?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Цей пост піде в загальну гілку обговорень. Щоб змінити цю карту, почніть своє повідомлення з зазначенням часу (наприклад 00:12:345).</value>
+    <value>Цей пост піде в загальне обговорення. Щоб почати модерувати цю карту, почніть своє повідомлення з зазначенням часу (наприклад 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Для зміни декількох позначок, опублікуйте кілька позначок (одна публікація на позначку).</value>
+    <value>Для зміни декількох часових позначок, опублікуйте їх декілька разів (одна публікація на позначку).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>Пишіть тут, щоб розмістити обговорення в Загальний ({0})</value>
@@ -167,7 +167,7 @@
     <value>Дискваліфікувати</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
-    <value>Хайп!</value>
+    <value>Хайпнути!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
     <value>Замітка</value>
@@ -176,7 +176,7 @@
     <value>Зняти номінацію</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
-    <value>Хвала</value>
+    <value>Похвалити</value>
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Проблема</value>
@@ -239,10 +239,10 @@
     <value>Не збережено</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Записи для всіх складнощів не можуть мати тимчасових відміток.</value>
+    <value>Пости в "Всіх складнощах" не можуть мати часових відміток.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Якщо {0} починається з тимчасової позначки, воно буде показано в Тимчасової шкалою.</value>
+    <value>Якщо цей {0} починається з часової відмітки, воно буде показано під Хронологіею.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставити абзац</value>
@@ -281,10 +281,10 @@
     <value>В очікуванні</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
-    <value>Похвала</value>
+    <value>Похвали</value>
   </data>
   <data name="discussions.stats.resolved" xml:space="preserve">
-    <value>Вирішено</value>
+    <value>Вирішені</value>
   </data>
   <data name="discussions.stats.total" xml:space="preserve">
     <value>Всі</value>
@@ -293,13 +293,13 @@
     <value>Ця карта була схвалена {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Ця карта не оновлювалася з {0} здається автор її закинув...</value>
+    <value>Ця карта не оновлювалася вже з {0} і здається автор її покинув...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
     <value>Ця карта була визнана "улюбленою" {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Ця карта стала ранговою {0}!</value>
+    <value>Ця карта потрапила в рангові {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Примітка: Ця карта була позначена автором як незавершена.</value>
@@ -338,7 +338,7 @@
     <value>У вас залишилося {0} хайпу.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
-    <value>Хайп: {0}/{1}</value>
+    <value>Хайпи: {0}/{1}</value>
   </data>
   <data name="hype.section_title" xml:space="preserve">
     <value>Прогрес хайпу</value>
@@ -365,13 +365,13 @@
     <value>Дискваліфікований {0} ({1}).</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
-    <value>не вказано причини</value>
+    <value>без причини</value>
   </data>
   <data name="nominations.disqualify" xml:space="preserve">
     <value>Дискваліфікувати</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
-    <value>Помилка під час виконання цих дій, спробуйте оновити сторінку.</value>
+    <value>Помилка під час виконання цієї дії, спробуйте оновити сторінку.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
     <value>Улюблені</value>
@@ -389,10 +389,10 @@
     <value>Номінувати цю карту?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
-    <value>номінована {0}</value>
+    <value>отримала номінацію від {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>Недостатньо хайпа.</value>
+    <value>Недостатньо хайпів.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
     <value>Вилучено з категорії Loved</value>
@@ -410,7 +410,7 @@
     <value>Статус номінації</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
-    <value>Є ще деякі проблеми, які потребують вирішення.</value>
+    <value>Є ще деякі проблеми, які потребують першочергового вирішення.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Ця карта стане рейтинговою {0}, якщо ніяких проблем не буде знайдено. Вона #{1} в {2}.</value>
@@ -422,13 +422,13 @@
     <value>скоро</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>{0} скинув прогрес номінації {1} через нову проблему {2} ({3}).</value>
+    <value>{0} номінація була знята {1} через нову проблему {2} ({3})</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>{0} дискваліфікував {1} через нову проблему {2} ({3}).</value>
+    <value>{0} {1} дискваліфікував карту через нову проблему {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Впевнені? Карта буде знята з кваліфікації і прогрес номінування буде скинуто.</value>
+    <value>Впевнені? Це зніме кваліфікацію з карти й скине прогрес номінування.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Ви впевнені? Повідомлення про нову проблему скине прогрес номінації.</value>
@@ -440,7 +440,7 @@
     <value>почніть вводити ключові слова...</value>
   </data>
   <data name="listing.search.login_required" xml:space="preserve">
-    <value>Увійдіть, щоб шукати.</value>
+    <value>Ввійдіть, для використання пошуку.</value>
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Більше параметрів пошуку</value>

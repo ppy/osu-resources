@@ -67,8 +67,14 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Klik her for mere information.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Nogle aktiver på dette kort er blevet fjernet efter at være blevet bedømt som ikke egnet til brug i osu!.</value>
+  </data>
   <data name="cover.deleted" xml:space="preserve">
     <value>Slettet beatmap</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Sæt farten ned, spil mere.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Udvalgte kunstner</value>
@@ -94,6 +100,12 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>open med osu!direct</value>
   </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Et hybrid beatmap kræver at du vælger mindst en spilletilstand at nominere til.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Du har ikke tilladelse til at nominere for tilstand: {0}</value>
+  </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
     <value>Du skal være en fuld nominator for at kunne udføre denne kvalificerende nominering.</value>
   </data>
@@ -112,11 +124,20 @@
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominér for hvilke tilstande?</value>
   </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Eksplicit</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskussion</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>af {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Markér dette beatmapset som favorit</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Log ind for at favorisere dette beatmap</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Du skal være logget ind for at kunne downloade beatmaps!</value>
@@ -205,6 +226,12 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data er stadig ved at blive beregnet...</value>
   </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Eksplicit indhold</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Online forskydning</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Fejl-steder</value>
   </data>
@@ -220,11 +247,32 @@
   <data name="show.info.tags" xml:space="preserve">
     <value>Tags</value>
   </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Dette beatmap indeholder video</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Dette beatmap indeholder eksplicit, offensivt eller forstyrrende indhold. Vil du se det alligevel?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Eksplicit Indhold</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Slå advarsler fra</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Beatmap katalog</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Vis</value>
+  </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>opnået {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Lande Rang</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Kunne ikke indlæse rangering</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Rang blandt Venner</value>
@@ -252,6 +300,9 @@
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Mods</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Fastgør</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Spiller</value>
@@ -289,6 +340,12 @@
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Dit Bedste</value>
   </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Kilk {0} for at se alle de fede funktioner du kan få!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>her</value>
+  </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Cirkel-størrelse</value>
   </data>
@@ -318,6 +375,9 @@
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>Antal Sliders</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Online forskydning: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Brugerbedømmelse</value>
@@ -351,5 +411,8 @@
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Kirkegården</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Spotlight</value>
   </data>
 </root>
