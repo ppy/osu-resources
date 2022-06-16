@@ -58,43 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="maintenance_section_header" xml:space="preserve">
-    <value>Maintenance</value>
+  <data name="checking_for_fullscreen_capabilities" xml:space="preserve">
+    <value>Checking for fullscreen capabilities...</value>
   </data>
-  <data name="select_directory" xml:space="preserve">
-    <value>Select directory</value>
+  <data name="osu_is_running_exclusive_fullscreen" xml:space="preserve">
+    <value>osu! is running exclusive fullscreen, guaranteeing low latency!</value>
   </data>
-  <data name="import_beatmaps_from_stable" xml:space="preserve">
-    <value>Import beatmaps from stable</value>
+  <data name="unable_to_run_exclusive_fullscreen" xml:space="preserve">
+    <value>Unable to run exclusive fullscreen. You'll still experience some input latency.</value>
   </data>
-  <data name="delete_all_beatmaps" xml:space="preserve">
-    <value>Delete ALL beatmaps</value>
-  </data>
-  <data name="delete_all_beatmap_videos" xml:space="preserve">
-    <value>Delete ALL beatmap videos</value>
-  </data>
-  <data name="import_scores_from_stable" xml:space="preserve">
-    <value>Import scores from stable</value>
-  </data>
-  <data name="delete_all_scores" xml:space="preserve">
-    <value>Delete ALL scores</value>
-  </data>
-  <data name="import_skins_from_stable" xml:space="preserve">
-    <value>Import skins from stable</value>
-  </data>
-  <data name="delete_all_skins" xml:space="preserve">
-    <value>Delete ALL skins</value>
-  </data>
-  <data name="import_collections_from_stable" xml:space="preserve">
-    <value>Import collections from stable</value>
-  </data>
-  <data name="delete_all_collections" xml:space="preserve">
-    <value>Delete ALL collections</value>
-  </data>
-  <data name="restore_all_hidden_difficulties" xml:space="preserve">
-    <value>Restore all hidden difficulties</value>
-  </data>
-  <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
-    <value>Restore all recently deleted beatmaps</value>
+  <data name="fullscreen_macos_note" xml:space="preserve">
+    <value>Using fullscreen on macOS makes interacting with the menu bar and spaces no longer work, and may lead to freezes if a system dialog is presented. Using borderless is recommended.</value>
   </data>
 </root>
