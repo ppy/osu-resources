@@ -71,10 +71,13 @@
     <value>csevegés</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Nem üzenhetsz ebbe a csatornába jelenleg. Ez emiatt az okok miatt lehet:</value>
+    <value>Nem üzenhetsz jelenleg ebbe a csatornába.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
     <value>Nem üzenhetsz ennek a felhasználónak jelenleg. Ez emiatt az okok miatt lehet:</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>közlemény készítése</value>
   </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>Közlemények</value>
@@ -88,11 +91,26 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Csatornák</value>
   </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Új közlemény készítése</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>leírás</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>a szoba neve</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>hozzáadandó játékosok</value>
+  </data>
   <data name="not_found.message" xml:space="preserve">
     <value>Itt nincs semmi, lehet, hogy elhagytad a csatornát, vagy nem létezik...</value>
   </data>
   <data name="not_found.title" xml:space="preserve">
     <value>csatorna nem található</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Létrehozás</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>üzenet küldése sikertelen...</value>
@@ -110,7 +128,7 @@
     <value>Beszélgetés indítása egy felhasználó profiljából vagy egy felugró felhasználókártyából.</value>
   </data>
   <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Az &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt;-en keresztül csatlakozott nyilvános csatornák itt is láthatóak lesznek.</value>
+    <value>A nyilvános csatornák amikbe &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt;-en keresztül csatlakozol, itt is láthatóak lesznek.</value>
   </data>
   <data name="no-conversations.title" xml:space="preserve">
     <value>még nincsenek beszélgetések</value>

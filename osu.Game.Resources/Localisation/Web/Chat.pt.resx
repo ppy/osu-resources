@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>a carregar utilizadores...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>a falar em {0}</value>
   </data>
@@ -73,8 +76,11 @@
   <data name="cannot_send.user" xml:space="preserve">
     <value>Não podes enviar mensagens a este utilizador de momento. Isto poderá ser devido a uma das razões:</value>
   </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>criar notícia</value>
+  </data>
   <data name="channels.list.title.announce" xml:space="preserve">
-    <value>Comunicados</value>
+    <value>Notícias</value>
   </data>
   <data name="channels.list.title.group" xml:space="preserve">
     <value>Grupos</value>
@@ -85,11 +91,26 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Canais</value>
   </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Criar nova notícia</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>descrição</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>nome da sala</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>jogadores a adicionar</value>
+  </data>
   <data name="not_found.message" xml:space="preserve">
     <value>Não há nada aqui, talvez tenhas saído do canal ou ele não existe...</value>
   </data>
   <data name="not_found.title" xml:space="preserve">
     <value>canal não escontrado</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Criar</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>incapacitado de enviar mensagem...</value>
