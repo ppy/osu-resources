@@ -65,7 +65,7 @@
     <value>Wyświetl nakładkę społeczności</value>
   </data>
   <data name="reset_input_settings" xml:space="preserve">
-    <value>Resetuj ustawienia wejściowe</value>
+    <value>Zresetuj ustawienia sterowania</value>
   </data>
   <data name="toggle_toolbar" xml:space="preserve">
     <value>Wyświetl pasek narzędzi</value>
@@ -116,7 +116,7 @@
     <value>Przejdź do następnego utworu</value>
   </data>
   <data name="music_prev" xml:space="preserve">
-    <value>Cofnij do poprzedniego utworu</value>
+    <value>Przejdź do poprzedniego utworu</value>
   </data>
   <data name="music_play" xml:space="preserve">
     <value>Odtwarzaj/wstrzymaj</value>
@@ -130,6 +130,12 @@
   <data name="select_next" xml:space="preserve">
     <value>Następny wybór</value>
   </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Wybierz poprzednią grupę</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Wybierz następną grupę</value>
+  </data>
   <data name="home" xml:space="preserve">
     <value>Strona główna</value>
   </data>
@@ -137,65 +143,76 @@
     <value>Wyświetl powiadomienia</value>
   </data>
   <data name="pause_gameplay" xml:space="preserve">
-    <value>Zatrzymaj grę</value>
+    <value>Wstrzymaj rozgrywkę</value>
   </data>
   <data name="editor_setup_mode" xml:space="preserve">
-    <value>Tryb konfiguracji</value>
+    <value>Ustawienia beatmapy</value>
   </data>
   <data name="editor_compose_mode" xml:space="preserve">
-    <value>Tryb Komponowania </value>
+    <value>Tryb kompozycji</value>
   </data>
   <data name="editor_design_mode" xml:space="preserve">
-    <value>Tryb Projektowania 
-</value>
+    <value>Tryb projektowania</value>
   </data>
   <data name="editor_timing_mode" xml:space="preserve">
-    <value>Tryb pomiaru czasu</value>
+    <value>Tryb rytmiki</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Kliknij, by dostosować BPM</value>
   </data>
   <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Tryb wyśwetlania siatki</value>
+    <value>Zmień tryb wyświetlania siatki</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Przetestuj rozgrywkę</value>
   </data>
   <data name="hold_for_hud" xml:space="preserve">
-    <value>Przytrzymaj HUD</value>
+    <value>Wyświetl HUD (przytrzymaj)</value>
   </data>
   <data name="random_skin" xml:space="preserve">
-    <value>Losowa skórka</value>
+    <value>Wybierz losową skórkę</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
-    <value>Pauza/wznowienie powtórki</value>
+    <value>Zatrzymaj/wznów powtórkę</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Wyświetl interfejs w grze</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>Wyświetl wybór modyfikacji</value>
+    <value>Wyświetl nakładkę z modyfikatorami rozgrywki</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Odznacz wszystkie modyfikatory</value>
   </data>
   <data name="select_next_random" xml:space="preserve">
-    <value>Wyświetl losową beatmapę</value>
+    <value>Przejdź do losowej beatmapy</value>
   </data>
   <data name="select_previous_random" xml:space="preserve">
-    <value>Przewiń</value>
+    <value>Przejdź do poprzednio wylosowanej beatmapy</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
     <value>Opcje beatmapy</value>
   </data>
   <data name="editor_verify_mode" xml:space="preserve">
-    <value>Tryb Weryfikacji</value>
+    <value>Tryb weryfikacji</value>
   </data>
   <data name="editor_nudge_left" xml:space="preserve">
-    <value>Przesuń w lewo</value>
+    <value>Przesuń zaznaczone obiekty w lewo</value>
   </data>
   <data name="editor_nudge_right" xml:space="preserve">
-    <value>Przesuń w prawo</value>
+    <value>Przesuń zaznaczone obiekty w prawo</value>
   </data>
   <data name="editor_flip_horizontally" xml:space="preserve">
     <value>Odwróć zaznaczenie w poziomie</value>
   </data>
   <data name="editor_flip_vertically" xml:space="preserve">
     <value>Odwróć zaznaczenie w pionie</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Zwiększ odległość między obiektami</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Zmniejsz odległość między obiektami</value>
   </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Wyświetl edytor skórek</value>
@@ -207,12 +224,12 @@
     <value>Następny miernik głośności</value>
   </data>
   <data name="seek_replay_forward" xml:space="preserve">
-    <value>Szukaj powtórki do przodu</value>
+    <value>Przewiń powtórkę do przodu</value>
   </data>
   <data name="seek_replay_backward" xml:space="preserve">
-    <value>Szukaj powtórki do tyłu</value>
+    <value>Przewiń powtórkę do tyłu</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
-    <value>Wyświetl pokazywanie się czatu</value>
+    <value>Wyświetl czat</value>
   </data>
 </root>
