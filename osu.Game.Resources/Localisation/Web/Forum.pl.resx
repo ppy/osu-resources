@@ -119,7 +119,7 @@
     <value>opublikowane {0}</value>
   </data>
   <data name="post.posted_by" xml:space="preserve">
-    <value>opublikowany przez {0}</value>
+    <value>autor: {0}</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Usuń post</value>
@@ -245,10 +245,10 @@
     <value>cofnij się o 10 postów</value>
   </data>
   <data name="topic.logs._" xml:space="preserve">
-    <value>Dzienniki zdarzeń wątków</value>
+    <value>Rejestr wątków</value>
   </data>
   <data name="topic.logs.button" xml:space="preserve">
-    <value>Przeglądaj dzienniki zdarzeń wątków</value>
+    <value>Przeglądaj rejestr wątków</value>
   </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Zdarzenie</value>
@@ -260,59 +260,58 @@
     <value>Użytkownik</value>
   </data>
   <data name="topic.logs.data.add_tag" xml:space="preserve">
-    <value>dodano tag "{0}"</value>
+    <value>dodano tag „{0}”</value>
   </data>
   <data name="topic.logs.data.announcement" xml:space="preserve">
     <value>przypięto wątek i oznaczono jako ogłoszenie</value>
   </data>
   <data name="topic.logs.data.edit_topic" xml:space="preserve">
-    <value>do {0}</value>
+    <value>na {0}</value>
   </data>
   <data name="topic.logs.data.fork" xml:space="preserve">
-    <value>od {0}</value>
+    <value>z {0}</value>
   </data>
   <data name="topic.logs.data.pin" xml:space="preserve">
-    <value>przypięty temat</value>
+    <value>przypięto wątek</value>
   </data>
   <data name="topic.logs.data.post_operation" xml:space="preserve">
-    <value>opublikował {0}</value>
+    <value>autor: {0}</value>
   </data>
   <data name="topic.logs.data.remove_tag" xml:space="preserve">
-    <value>usunięto "{0}" tag</value>
+    <value>usunięto tag „{0}”</value>
   </data>
   <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
-    <value>od {0}</value>
+    <value>z {0}</value>
   </data>
   <data name="topic.logs.data.unpin" xml:space="preserve">
     <value>odpięto wątek</value>
   </data>
   <data name="topic.logs.no_results" xml:space="preserve">
-    <value>nie znaleziono logów...</value>
+    <value>brak zdarzeń do wyświetlenia...</value>
   </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
-    <value>Usunięty post</value>
+    <value>Usunięto post</value>
   </data>
   <data name="topic.logs.operations.delete_topic" xml:space="preserve">
-    <value>Usunięty temat</value>
+    <value>Usunięto wątek</value>
   </data>
   <data name="topic.logs.operations.edit_topic" xml:space="preserve">
-    <value>Zmieniono tytuł tematu</value>
+    <value>Zmieniono tytuł wątku</value>
   </data>
   <data name="topic.logs.operations.edit_poll" xml:space="preserve">
-    <value>Edytowana ankieta tematu</value>
+    <value>Edytowano ankietę w wątku</value>
   </data>
   <data name="topic.logs.operations.fork" xml:space="preserve">
-    <value>Skopiowano temat</value>
+    <value>Skopiowano wątek</value>
   </data>
   <data name="topic.logs.operations.issue_tag" xml:space="preserve">
-    <value>Wydany tag
-</value>
+    <value>Zmieniono tag wątku</value>
   </data>
   <data name="topic.logs.operations.lock" xml:space="preserve">
-    <value>Zablokowany temat</value>
+    <value>Zamknięto wątek</value>
   </data>
   <data name="topic.logs.operations.merge" xml:space="preserve">
-    <value>Scalono posty do tego wątku</value>
+    <value>Scalono posty w ten wątek</value>
   </data>
   <data name="topic.logs.operations.move" xml:space="preserve">
     <value>Przeniesiono wątek</value>
@@ -330,10 +329,10 @@
     <value>Przywrócono wątek</value>
   </data>
   <data name="topic.logs.operations.split_destination" xml:space="preserve">
-    <value>Przeniesione dzielone posty</value>
+    <value>Przeniesiono rozdzielone posty</value>
   </data>
   <data name="topic.logs.operations.split_source" xml:space="preserve">
-    <value>Podziel posty</value>
+    <value>Rozdzielono posty</value>
   </data>
   <data name="topic.logs.operations.topic_type" xml:space="preserve">
     <value>Ustawiono typ wątku</value>

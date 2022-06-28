@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="get_started" xml:space="preserve">
+    <value>Rozpocznij</value>
+  </data>
+  <data name="click_to_resume_first_run_setup_at_any_point" xml:space="preserve">
+    <value>Kliknij, aby wznowić konfigurację pierwszego uruchomienia w dowolnym momencie.</value>
+  </data>
+  <data name="first_run_setup_title" xml:space="preserve">
+    <value>Konfiguracja pierwszego uruchomienia</value>
+  </data>
+  <data name="first_run_setup_description" xml:space="preserve">
+    <value>Dostosuj osu! do swoich potrzeb</value>
+  </data>
+  <data name="welcome_title" xml:space="preserve">
+    <value>Witaj</value>
+  </data>
+  <data name="welcome_description" xml:space="preserve">
+    <value>Witaj w przewodniku po konfiguracji pierwszego uruchomienia!
+
+osu! jest bardzo konfigurowalną grą, dlatego bezpośrednie przejście do ustawień może okazać się przytłaczające. Ten przewodnik pomoże ci podjąć ważne decyzje, aby zapewnić jak najlepsze doświadczenia w grze!</value>
+  </data>
+  <data name="ui_scale_description" xml:space="preserve">
+    <value>Rozmiar interfejsu użytkownika w osu! można dostosować do twoich potrzeb.</value>
+  </data>
+  <data name="behaviour" xml:space="preserve">
+    <value>Zachowanie</value>
+  </data>
+  <data name="behaviour_description" xml:space="preserve">
+    <value>Zaimplementowaliśmy nowe ustawienia domyślne, które modyfikują zachowanie gry w kilku miejscach. Ma to na celu usprawnienie rozgrywki i uczynienie gry bardziej przystępną dla wszystkich graczy.
+
+Zalecamy korzystanie z nowych ustawień, ale jeżeli preferujesz działanie poprzedniej wersji osu!, możesz łatwo dostosować zachowanie gry poniżej.</value>
+  </data>
+  <data name="new_defaults" xml:space="preserve">
+    <value>Nowe ustawienia domyślne</value>
+  </data>
+  <data name="classic_defaults" xml:space="preserve">
+    <value>Klasyczne ustawienia domyślne</value>
+  </data>
+</root>

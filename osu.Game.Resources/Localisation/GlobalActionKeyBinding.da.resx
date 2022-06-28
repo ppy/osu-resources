@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Åbn/luk chat</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Åbn/luk instrumentbræt</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Nulstil input-indstillinger</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Vis/skjul værktøjslinje</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Åbn/luk indstillinger</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Åbn/luk beatmap katalog</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Skru lyden op</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Skru lyden ned</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Slå lyd til/fra</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Spring film over</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Hurtig genprøve (hold)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Tag skærmbillede</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Slå museknapperne til/fra i spillet</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Tilbage</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Skru op for rullehastighed</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Skru ned for rullehastighed</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Hurtig exit (hold)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Næste spor</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Forrige spor</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Afspil / Pause</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Åbn/luk musikafspiller</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Forrige vælg</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Næste vælg</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Vælg forrige gruppe</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Vælg næste gruppe</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Åbn/luk notifikationspanel</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Pause spillet</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Opsætning-tilstand</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Composer-tilstand</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Design-tilstand</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Timing-tilstand</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Tryk for BPM</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Skift gittervisningstilstand</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>Test beatmap</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Hold for HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Tilfældigt skin</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Pause / fortsæt genafspilning</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Vis/skjul spil grænseflade</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Åbn/luk Mod Vælg</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Fravælg alle mods</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Tilfældig</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Spol tilbage</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Beatmap Indstillinger</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Bekræftelse tilstand</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Skub markeringen til venstre</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Skub markeringen til højre</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>Vend markeringen vandret</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>Vend markeringen lodret</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Forstør afstand</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Formindsk afstand</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Åbn/luk skin editor</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Sidste lydmåler</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Næste lydmåler</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Spol genafspilning frem</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Spol genafspilning tilbage</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Skift chatfokus</value>
+  </data>
+</root>

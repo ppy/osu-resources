@@ -65,7 +65,7 @@
     <value>Частини цієї карти були видалені на вимогу автора або правовласників.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
-    <value>Натисніть тут для отримання більш детальної інформації.</value>
+    <value>Для більш детальної інформації натисніть тут.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
     <value>Деякі об’єкти, що містяться на цій карті, були видалені після визнання непридатними для використання в osu!.</value>
@@ -101,16 +101,16 @@
     <value>відкрити в osu!direct</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Гібридний набір біт-карт вимагає від вас принаймні одного режиму відтворення, на який висуватимуться.</value>
+    <value>Гібридний набір карт вимагає від вас визначити принаймні один ігровий режим на який вони будуть номінуватися.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>Ви не маєте дозволу номінувати для режиму: {0}</value>
+    <value>У вас недостатньо прав для номінування в режимі: {0}</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
-    <value>Ви повинні бути повноправним номінатором, щоб виконати цю кваліфікаційну номінацію.</value>
+    <value>Ви маєте бути повноправним номінатором, що б здійснити цю кваліфікаційну номінацію.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
-    <value>Вимога щодо номінації вже виконана.</value>
+    <value>Вимоги щодо номінації вже виконані.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Ви впевнені, що хочете номінувати цю карту?</value>
@@ -119,7 +119,7 @@
     <value>Номінувати карту</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>примітка: Ви можете номінувати лише один раз, тому, будь ласка, переконайтеся, що ви номінуєте всі режими, які плануєте</value>
+    <value>примітка: ви можете номінувати лише один раз, так що, переконайтеся в тому, що ви номінуєте всі режими, які  збиралися</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Номінувати для яких режимів?</value>
@@ -131,22 +131,22 @@
     <value>Обговорення</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
-    <value>за {0}</value>
+    <value>від {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Додати в обране</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
-    <value>Увійдіть, щоб додати цю карту</value>
+    <value>Увійдіть, щоб додати цю карту в обране</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>Ви повинні увійти для завантаження карти!</value>
+    <value>Необхідно ввійти для того що б завантажувати карти!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>створена {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
-    <value>Видалити з Обраного</value>
+    <value>Видалити з обраного</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
     <value>оновлена {0}</value>
@@ -161,13 +161,13 @@
     <value>з відео</value>
   </data>
   <data name="show.details.login_required.bottom" xml:space="preserve">
-    <value>щоб завантажити</value>
+    <value>щоб отримати додаткові функції</value>
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
-    <value>Увійдіть</value>
+    <value>Ввійдіть</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
-    <value>затверджено {0}</value>
+    <value>затверджена {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
     <value>улюблена {0}</value>
@@ -185,10 +185,10 @@
     <value>оновлена {0}</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
-    <value>У вас занадто багато обраних карт! Видаліть деякі з них і спробуйте знову.</value>
+    <value>У вас занадто багато карт в обраних! Видаліть деякі з них і спробуйте знову.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Хайпніть цю мапу, якщо вам сподобалося в неї грати, щоб допомогти їй отримати статус &lt;strong&gt;Рангової&lt;/strong&gt;.</value>
+    <value>Хайпніть цю карту, якщо ви насолоджувалися нею, щоб допомогти  в отриманні нею статусу &lt;strong&gt;Рангової&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Ця карта зараз {0}.</value>
@@ -203,7 +203,7 @@
     <value>в процесі створення</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Якщо ви знайшли помилку в цій карті, будь ласка, позбавите її кваліфікації {0}.</value>
+    <value>Якщо ви знайшли проблему в цій карті, будь ласка, дискваліфікуйте її {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Якщо ви знайшли проблему в цій мапі, повідомте про це {0} щоб наша команда дізналася.</value>
