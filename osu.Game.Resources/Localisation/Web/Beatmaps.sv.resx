@@ -146,22 +146,22 @@
     <value>Är du säker på att du vill låsa upp diskussionen?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Detta inlägg kommer att gå till allmän beatmapset diskussion. För att modifiera denna beatmap, starta meddelande med tidsstämpel (t.ex. 00:12:345).</value>
+    <value>Detta inlägg kommer att läggas upp i den allmäna beatmapset-diskussionen. För att modda denna beatmap, starta ditt meddelande med tidsstämpel (t.ex. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>För att modda flera tidsstämplar, lägg upp flera inlägg (ett inlägg för varje tidsstämpel).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Skriv här för att posta till General ({0})</value>
+    <value>Skriv här för att posta till allmänt ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Skriv här för att posta till General (Alla svårighetsgrader)</value>
+    <value>Skriv här för att posta till allmänt (alla svårighetsgrader)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Skriv här för att posta en recension</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Skriv här för att posta till Tidslinjen ({0})</value>
+    <value>Skriv här för att posta till tidslinjen ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Diskvalificera</value>
@@ -173,7 +173,7 @@
     <value>Anteckning</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
-    <value>Återställ Nominering</value>
+    <value>Återställ nominering</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
     <value>Beröm</value>
@@ -242,7 +242,7 @@
     <value>Inlägg med "Alla svårighetsgrader" kan inte tidsstämplas.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Om denna {0} börjar med en tidsstämpel, visas den under Tidslinje.</value>
+    <value>Om denna {0} börjar med en tidsstämpel, visas den under tidslinje.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>infoga paragraf</value>
@@ -275,10 +275,10 @@
     <value>Anteckningar</value>
   </data>
   <data name="discussions.stats.mine" xml:space="preserve">
-    <value>Min</value>
+    <value>Mina</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
-    <value>Avvaktar</value>
+    <value>Väntande</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
     <value>Beröm</value>
@@ -293,10 +293,10 @@
     <value>Denna beatmap blev godkänd {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Denna beatmap har inte blivit uppdaterad sen {0} och har mest troligast blivit övergiven av skaparen...</value>
+    <value>Denna beatmap har inte blivit uppdaterad sedan {0} och har hamnat på kyrkogården...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Denna beatmap blev tillagd i älskad {0}!</value>
+    <value>Denna beatmap blev tillagd som älskad {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Denna beatmap blev rankad {0}!</value>
@@ -317,7 +317,7 @@
     <value>Senaste uppröster</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Hype Beatmap!</value>
+    <value>Hype beatmap!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
     <value>Redan hypad!</value>
@@ -347,7 +347,7 @@
     <value>Hype</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
-    <value>Lämna Feedback</value>
+    <value>Lämna feedback</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Radera</value>
@@ -374,13 +374,13 @@
     <value>Ett fel uppstod, pröva att uppdatera sidan.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>Kärlek</value>
+    <value>Älska</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
     <value>Välj svårighetsgrad för älskad</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>Älskar du denna beatmap?</value>
+    <value>Älska denna beatmap?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>Nominera</value>
@@ -413,7 +413,7 @@
     <value>Det finns fortfarande olösta problem som måste tas hand om först.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Denna map uppskattas vara rankad den {0}, så länge inga fel uppstår. Den är #{1} i kön {2}.</value>
+    <value>Denna beatmap uppskattas vara rankad {0}, så länge inga fel uppstår. Den är #{1} i {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>rankkö</value>
@@ -433,6 +433,9 @@
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Är du säker? Lägga upp ett nytt problem kommer återställa nomineringar.</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Är du säker på att rapportera problem på denna beatmap? Detta kommer att meddela Beatmap Nominatorerna.</value>
+  </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>skriv in nyckelord...</value>
   </data>
@@ -440,19 +443,19 @@
     <value>Logga in för att söka.</value>
   </data>
   <data name="listing.search.options" xml:space="preserve">
-    <value>Mer Sök Alternativ</value>
+    <value>Fler sökalternativ</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Filtrering av {0} kräver en aktiv osu!supporter tagg</value>
+    <value>Filtrering av {0} kräver en aktiv osu!supporter-tagg</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>inga resultat</value>
   </data>
   <data name="listing.search.not-found-quote" xml:space="preserve">
-    <value>... nope, ingenting hittades.</value>
+    <value>... näpp, ingenting hittades.</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
-    <value>extra</value>
+    <value>Extra</value>
   </data>
   <data name="listing.search.filters.general" xml:space="preserve">
     <value>Allmänt</value>
@@ -473,7 +476,7 @@
     <value>Spelade</value>
   </data>
   <data name="listing.search.filters.rank" xml:space="preserve">
-    <value>Rank Uppnådd</value>
+    <value>Rank uppnådd</value>
   </data>
   <data name="listing.search.filters.status" xml:space="preserve">
     <value>Kategorier</value>
@@ -512,7 +515,7 @@
     <value>Filtrering av {0} kräver en aktiv {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>osu!supporter tagg</value>
+    <value>osu!supporter-tagg</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Inkludera konverterade beatmaps</value>
@@ -526,6 +529,9 @@
   <data name="general.recommended" xml:space="preserve">
     <value>Rekommenderad svårighetsgrad</value>
   </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Beatmaps i rampljuset</value>
+  </data>
   <data name="mode.all" xml:space="preserve">
     <value>Alla</value>
   </data>
@@ -536,7 +542,7 @@
     <value>Alla</value>
   </data>
   <data name="status.approved" xml:space="preserve">
-    <value>Godkänd</value>
+    <value>Godkända</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
     <value>Favoriter</value>
@@ -548,13 +554,16 @@
     <value>Har topplista</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Älskad</value>
+    <value>Älskade</value>
   </data>
   <data name="status.mine" xml:space="preserve">
-    <value>Mina Maps</value>
+    <value>Mina beatmaps</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Pågående &amp; WIP</value>
+    <value>Väntande</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalificerad</value>
@@ -581,7 +590,7 @@
     <value>Pop</value>
   </data>
   <data name="genre.other" xml:space="preserve">
-    <value>Annan</value>
+    <value>Annat</value>
   </data>
   <data name="genre.novelty" xml:space="preserve">
     <value>Novelty</value>
