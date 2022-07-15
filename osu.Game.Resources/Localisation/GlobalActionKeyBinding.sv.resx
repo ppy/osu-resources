@@ -62,31 +62,31 @@
     <value>Växla chattöverlägg</value>
   </data>
   <data name="toggle_social" xml:space="preserve">
-    <value>Väcla socialtöverlägg</value>
+    <value>Stäng/öppna socialt lager</value>
   </data>
   <data name="reset_input_settings" xml:space="preserve">
     <value>Återställ inmatningsinställningar</value>
   </data>
   <data name="toggle_toolbar" xml:space="preserve">
-    <value>Växla värktygsfält</value>
+    <value>Växla verktygsfält</value>
   </data>
   <data name="toggle_settings" xml:space="preserve">
-    <value>Växla inställningar</value>
+    <value>Öppna/stäng inställningar</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
-    <value>Växla beatmap listning</value>
+    <value>Öppna/stäng beatmaplistning</value>
   </data>
   <data name="increase_volume" xml:space="preserve">
-    <value>Höja volym</value>
+    <value>Höj volym</value>
   </data>
   <data name="decrease_volume" xml:space="preserve">
-    <value>Sänka volym</value>
+    <value>Sänk volym</value>
   </data>
   <data name="toggle_mute" xml:space="preserve">
     <value>Ljud av/på</value>
   </data>
   <data name="skip_cutscene" xml:space="preserve">
-    <value>Skippa cutscene</value>
+    <value>Hoppa över filmsekvens</value>
   </data>
   <data name="quick_retry" xml:space="preserve">
     <value>Snabbåterförsök (håll)</value>
@@ -95,7 +95,7 @@
     <value>Ta skärmdump</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
-    <value>Växla gameplay-musknappar</value>
+    <value>Slå på/av musknapparna i spelet</value>
   </data>
   <data name="back" xml:space="preserve">
     <value>Tillbaka</value>
@@ -122,28 +122,34 @@
     <value>Spela / pausa</value>
   </data>
   <data name="toggle_now_playing" xml:space="preserve">
-    <value>Växla "nu spelas"överlägg</value>
+    <value>Öppna/stäng musikspelare</value>
   </data>
   <data name="select_previous" xml:space="preserve">
-    <value>Tidigare val</value>
+    <value>Föregående val</value>
   </data>
   <data name="select_next" xml:space="preserve">
     <value>Nästa val</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Välj föregående grupp</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Välj nästa grupp</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Hem</value>
   </data>
   <data name="toggle_notifications" xml:space="preserve">
-    <value>Växla aviseringar</value>
+    <value>Öppna/stäng aviseringar</value>
   </data>
   <data name="pause_gameplay" xml:space="preserve">
-    <value>Pausa spelupplägget</value>
+    <value>Pausa spelet</value>
   </data>
   <data name="editor_setup_mode" xml:space="preserve">
     <value>Konfigureringsläge</value>
   </data>
   <data name="editor_compose_mode" xml:space="preserve">
-    <value>Skrivläge</value>
+    <value>Komponeringsläge</value>
   </data>
   <data name="editor_design_mode" xml:space="preserve">
     <value>Designläge</value>
@@ -151,53 +157,65 @@
   <data name="editor_timing_mode" xml:space="preserve">
     <value>Timingläge</value>
   </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Tryck för BPM</value>
+  </data>
   <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Cirkulär rutnät visningsläge </value>
+    <value>Ändra rutnätsvisningsläge</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
-    <value>Testa spelupplägget</value>
+    <value>Testa beatmap</value>
   </data>
   <data name="hold_for_hud" xml:space="preserve">
     <value>Håll för gränssnitt</value>
   </data>
   <data name="random_skin" xml:space="preserve">
-    <value>Slumpat skinn</value>
+    <value>Slumpat skin</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>Pausa / återuppta repris</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>Växla i-spel gränssnitt</value>
+    <value>Visa/göm spelets gränssnitt</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>Växla tilläggsval</value>
+    <value>Öppna/stäng modmeny</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Avmarkera alla mods</value>
   </data>
   <data name="select_next_random" xml:space="preserve">
     <value>Slumpmässig</value>
   </data>
   <data name="select_previous_random" xml:space="preserve">
-    <value>Återspola</value>
+    <value>Spola tillbaka</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
-    <value>Beatmap alternativ</value>
+    <value>Beatmapalternativ</value>
   </data>
   <data name="editor_verify_mode" xml:space="preserve">
-    <value>Verifiera läge</value>
+    <value>Verifieringsläge</value>
   </data>
   <data name="editor_nudge_left" xml:space="preserve">
-    <value>Putta markering vänster</value>
+    <value>Knuffa markering till vänster</value>
   </data>
   <data name="editor_nudge_right" xml:space="preserve">
-    <value>Putta markering höger</value>
+    <value>Knuffa markering till höger</value>
   </data>
   <data name="editor_flip_horizontally" xml:space="preserve">
-    <value>Vänd markering horisontellt</value>
+    <value>Vänd markeringen vågrätt</value>
   </data>
   <data name="editor_flip_vertically" xml:space="preserve">
-    <value>Vänd markeringen vertikalt</value>
+    <value>Vänd markeringen lodrätt</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Öka avståndet</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Minska avståndet</value>
   </data>
   <data name="toggle_skin_editor" xml:space="preserve">
-    <value>Växla skinnredigeraren</value>
+    <value>Öppna/stäng skinredigeraren</value>
   </data>
   <data name="previous_volume_meter" xml:space="preserve">
     <value>Tidigare volymmätare</value>
