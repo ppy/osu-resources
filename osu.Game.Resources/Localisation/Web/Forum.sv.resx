@@ -244,14 +244,113 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>gå bakåt 10 inlägg</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Ämneslogg</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Bläddra bland ämnesloggar</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Åtgärd</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
   <data name="topic.logs.columns.user" xml:space="preserve">
     <value>Användare</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>la till taggen "{0}"</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>fäst ämne och markerat som meddelande</value>
   </data>
   <data name="topic.logs.data.edit_topic" xml:space="preserve">
     <value>till {0}</value>
   </data>
   <data name="topic.logs.data.fork" xml:space="preserve">
     <value>från {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>fäst ämne</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>upplagd av {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>tog bort taggen "{0}"</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>från {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>icke-fäst ämne</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>inga loggar hittade...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Tog bort inlägg</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Tog bort ämne</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Ändrade ämnestitel</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Redigerade ämnesenkät</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Kopierade ämne</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Utfärdade tagg</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Låste ämne</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Sammanfogade inlägg till detta ämne</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Flyttade ämne</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Fäste ämne</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Redigerade inlägg</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Återställde inlägg</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Återställt ämne</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Flyttade delade inlägg</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Dela inlägg</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Ange ämnestyp</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Ändrade ämnestyp</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Låste upp ämne</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Avfäste ämnet</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Låste eget ämne</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Låste upp eget ämne</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Avbryt</value>
@@ -341,7 +440,7 @@
     <value>Tillåt ändring av röst.</value>
   </data>
   <data name="topics.create.poll.vote_change_info" xml:space="preserve">
-    <value>Om aktiverad, så kan användare ändra sina röster.</value>
+    <value>Om aktiverat så kan användare ändra sina röster.</value>
   </data>
   <data name="topics.edit_title.start" xml:space="preserve">
     <value>Ändra titel</value>

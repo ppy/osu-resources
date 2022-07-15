@@ -95,13 +95,13 @@
     <value>Du måste ange genren och språket innan du nominerar.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Endast trådskaparen eller beatmap-ägare kan lösa en diskussion.</value>
+    <value>Endast trådskaparen eller beatmapägaren kan lösa en diskussion.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
     <value>Endast beatmap-ägaren eller en väljar/NAT-gruppmedlem kan publicera mapparens anteckningar.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Kan inte rösta på diskussion gjord av bot</value>
+    <value>Kan inte rösta på en diskussion gjord av en bot</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
     <value>Var god vänta innan du lägger fler röster</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Du kan inte ändra metadata för en nominerad beatmap. Kontakta en BN eller NAT-medlem om du tror att det är felaktigt inställt.</value>
   </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Denna kanal är endast för notiser.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Kan inte skicka meddelanden till en användare som blockerar dig eller som du har blockerat.</value>
   </data>
@@ -156,6 +159,9 @@
   </data>
   <data name="chat.silenced" xml:space="preserve">
     <value>Du kan inte skicka meddelanden medan du är tystad, begränsad eller bannad.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Kommentarer har inaktiverats</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Kan ej redigera raderade inlägg.</value>
@@ -270,6 +276,9 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Endast administratörer kan se detta forum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Endast resultatägaren kan fästa resultat.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Fäst för många resultat.</value>

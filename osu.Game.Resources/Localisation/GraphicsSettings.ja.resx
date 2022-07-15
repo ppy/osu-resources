@@ -73,9 +73,6 @@
   <data name="show_fps" xml:space="preserve">
     <value>FPSを表示</value>
   </data>
-  <data name="unlimited_frames_note" xml:space="preserve">
-    <value>無制限のフレームリミッターを使用すると、スタッター、パフォーマンスが悪く、過熱につながる可能性があります。知覚的な遅延を改善することはできません。"2x refresh rate "を推奨します。</value>
-  </data>
   <data name="layout_header" xml:space="preserve">
     <value>レイアウト</value>
   </data>
@@ -84,6 +81,9 @@
   </data>
   <data name="resolution" xml:space="preserve">
     <value>解像度</value>
+  </data>
+  <data name="display" xml:space="preserve">
+    <value>表示</value>
   </data>
   <data name="ui_scaling" xml:space="preserve">
     <value>UI拡大縮小</value>
@@ -115,10 +115,19 @@
   <data name="hit_lighting" xml:space="preserve">
     <value>ヒットライティング</value>
   </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>スクリーンショット</value>
+  </data>
   <data name="screenshot_format" xml:space="preserve">
     <value>スクリーンショットのフォーマット</value>
   </data>
   <data name="show_cursor_in_screenshots" xml:space="preserve">
     <value>スクリーンショットにメニューカーソルを表示</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>動画</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>ハードウェア アクセラレーションを使用</value>
   </data>
 </root>
