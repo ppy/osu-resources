@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid" xml:space="preserve">
+    <value>Zadaná neplatná {0}.</value>
+  </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} nesmí být záporný.</value>
   </data>
@@ -93,6 +96,9 @@
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
     <value>Časové razítko</value>
+  </data>
+  <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
+    <value>Tato beatmapa je v současnosti uzamčena v diskuzi a nelze ji nadchnout</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Musíš být přihlášek k nadšení.</value>
@@ -133,6 +139,9 @@
   <data name="comment.attributes.message" xml:space="preserve">
     <value>Zpráva</value>
   </data>
+  <data name="follow.invalid" xml:space="preserve">
+    <value>Zadaná neplatná {0}.</value>
+  </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
     <value>Lze hlasovat pouze o funkcích.</value>
   </data>
@@ -156,6 +165,9 @@
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Tvoje odpověď obsahuje jenom citát.</value>
+  </data>
+  <data name="forum.post.attributes.post_text" xml:space="preserve">
+    <value>Tělo příspěvku</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Titulek příspěvku</value>
@@ -199,11 +211,17 @@
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Název aplikace</value>
   </data>
+  <data name="oauth.client.attributes.redirect" xml:space="preserve">
+    <value>URL zpětného volání aplikace</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Heslo nesmí obsahovat uživatelské jméno.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>E-mailová adresa už byla použita.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>E-mailová adresa není povolena.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Stát není v databázi.</value>
@@ -291,6 +309,9 @@
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
     <value>Hodnocené beatmapy nemohou být nahlášeny</value>
+  </data>
+  <data name="user_report.reason_not_valid" xml:space="preserve">
+    <value>{0} není platný pro tento typ nahlášení.</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
     <value>Nemůžete nahlásit sám sebe!</value>

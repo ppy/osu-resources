@@ -115,8 +115,17 @@
   <data name="disabled.title" xml:space="preserve">
     <value>Ale ne! Vypadá to, že váš účet byl zablokován.</value>
   </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>V případě porušení pravidla, Vezměte prosím na vědomí, že obecně existuje lhůta jednoho měsíce, během níž nebudeme zvažovat žádné žádosti o amnestii. Po tomto období nás můžete kontaktovat, pokud to považujete za nezbytné. Vezměte prosím v potaz, že vytvořením nových účtů poté, co budete mít jeden deaktivovaný, dojde k &lt;strong&gt;prodloužení jedno měsíčné lhůty&lt;/strong&gt;. Vezměte prosím na vědomí, že pro &lt;strong&gt;každý účet, který vytváříte, dále porušujete pravidla&lt;/strong&gt;. Velmi doporučujeme, abyste se touto cestou neubírali!</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Pokud se domníváte, že se jedná o chybu, můžete nás kontaktovat (přes {0} nebo kliknutím na "?" v pravém dolním rohu této stránky). Vezměte prosím na vědomí, že jsme vždy plně přesvědčeni o našich akcích, protože jsou založeny na velmi spolehlivých údajích. Vyhrazujeme si právo ignorovat váš požadavek, pokud se domníváme, že jste úmyslně nepoctivý.</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-mail</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Váš účet byl považován za kompromizovaný. Může být dočasně deaktivován, dokud nebude potvrzena jeho identita.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
     <value>Je řada důvodů, které mohou vést k tomu, že váš účet bude vypnut:</value>
@@ -144,6 +153,9 @@
   </data>
   <data name="login.button_posting" xml:space="preserve">
     <value>Probíhá přihlášení...</value>
+  </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>Přihlašování e-mailem je momentálně zakázáno. Použijte prosím uživatelské jméno.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Nesprávné přihlášení</value>
@@ -328,6 +340,12 @@
   <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
     <value>Nepodporovaný formát.</value>
   </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>Nahrávání je dostupné pouze pro {0}</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>osu!supporters</value>
+  </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
     <value>výchozí herní mód</value>
   </data>
@@ -360,6 +378,9 @@
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Pohřbené Beatmapy</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Beatmapy účasti hosta</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Oblíbené Beatmapy</value>
@@ -481,6 +502,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Medaile</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Hry playlistu</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Příspěvky</value>
   </data>
@@ -493,6 +517,9 @@
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Nedávné</value>
   </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Hry pro více hráčů</value>
+  </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Stáhnout záznam</value>
   </data>
@@ -502,6 +529,9 @@
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>váženo na {0}</value>
   </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Zobrazit detaily</value>
+  </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
     <value>Umístění</value>
   </data>
@@ -510,6 +540,21 @@
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Umístění na prvním místě</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Odepnout</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Skóre odepnuto</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Připnuté skóre</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Připnuté skóre</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Udělených hlasů (poslední 3 měsíce)</value>
@@ -603,6 +648,9 @@
   </data>
   <data name="show.page.placeholder" xml:space="preserve">
     <value>Zde napiš obsah stánky</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Pro odemknutí této funkce musíte být {0}.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
     <value>osu!supporter</value>
