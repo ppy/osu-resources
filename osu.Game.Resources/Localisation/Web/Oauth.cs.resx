@@ -70,6 +70,9 @@
   <data name="authorise.title" xml:space="preserve">
     <value>Žádost o autorizaci</value>
   </data>
+  <data name="authorized_clients.confirm_revoke" xml:space="preserve">
+    <value>Jste si jisti, že chcete odstranit toto oprávnění?</value>
+  </data>
   <data name="authorized_clients.scopes_title" xml:space="preserve">
     <value>Tato aplikace může:</value>
   </data>
@@ -91,14 +94,41 @@
   <data name="client.name" xml:space="preserve">
     <value>Název aplikace</value>
   </data>
+  <data name="client.redirect" xml:space="preserve">
+    <value>URL zpětného volání aplikace</value>
+  </data>
+  <data name="client.reset" xml:space="preserve">
+    <value>Resetovat tajný klíč klienta</value>
+  </data>
+  <data name="client.reset_failed" xml:space="preserve">
+    <value>Obnovení tajného klíče klienta se nezdařilo</value>
+  </data>
   <data name="client.secret" xml:space="preserve">
     <value>Tajný klíč klienta</value>
+  </data>
+  <data name="client.secret_visible.false" xml:space="preserve">
+    <value>Zobrazit tajný klíč klienta</value>
+  </data>
+  <data name="client.secret_visible.true" xml:space="preserve">
+    <value>Skrýt tajný klíč klienta</value>
+  </data>
+  <data name="new_client.header" xml:space="preserve">
+    <value>Registrovat novou OAuth aplikaci</value>
+  </data>
+  <data name="new_client.register" xml:space="preserve">
+    <value>Registrovat aplikaci</value>
+  </data>
+  <data name="new_client.terms_of_use._" xml:space="preserve">
+    <value>Používáním API souhlasíte s {0}.</value>
   </data>
   <data name="new_client.terms_of_use.link" xml:space="preserve">
     <value>Smluvní podmínky</value>
   </data>
   <data name="own_clients.confirm_delete" xml:space="preserve">
     <value>Opravdu chcete odebrat tohoto klienta?</value>
+  </data>
+  <data name="own_clients.confirm_reset" xml:space="preserve">
+    <value>Jste si jisti, že chcete resetovat klíč klienta? Tímto se zruší všechny existující tokeny.</value>
   </data>
   <data name="own_clients.new" xml:space="preserve">
     <value>Nová OAuth aplikace</value>

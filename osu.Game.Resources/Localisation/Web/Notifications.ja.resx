@@ -226,6 +226,18 @@
   <data name="item.channel._" xml:space="preserve">
     <value>チャット</value>
   </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>新しいお知らせ</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0}が"{1}"で発言</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>{0} からのお知らせ</value>
+  </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>新しいメッセージ</value>
   </data>
@@ -303,6 +315,12 @@
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>{0} の新しいビートマップ</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>"{0}"が {1}によって復活しました</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>"{0}"が復活しました</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>メダル</value>

@@ -101,10 +101,10 @@
     <value>Только автор карты или номинатор/член NAT может оставлять заметки.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Нельзя проголосовать за публикацию от бота</value>
+    <value>Нельзя проголосовать за пост от бота</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
-    <value>Подождите немного, прежде чем голосовать дальше</value>
+    <value>Вы голосуете слишком часто, пожалуйста, немного подождите</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
     <value>Нельзя голосовать в собственном обсуждении!</value>
@@ -116,19 +116,19 @@
     <value>Вы можете удалять только свои посты.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>Вы не можете удалить публикацию в решённом обсуждении.</value>
+    <value>Вы не можете удалить пост в решённом обсуждении.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
-    <value>Нельзя удалить автоматически созданную публикацию.</value>
+    <value>Нельзя удалить автоматически созданный пост.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Только автор может редактировать публикацию.</value>
+    <value>Редактировать пост может только его автор.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
-    <value>Нельзя отредактировать публикацию в решённом обсуждении.</value>
+    <value>Нельзя отредактировать пост в решённом обсуждении.</value>
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
-    <value>Невозможно отредактировать автоматически созданную публикацию.</value>
+    <value>Нельзя редактировать автоматически созданный пост.</value>
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
     <value>Обсуждение этой карты закрыто.</value>
@@ -164,7 +164,7 @@
     <value>Комментарии отключены</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
-    <value>Нельзя редактировать удалённую публикацию.</value>
+    <value>Нельзя редактировать удалённый пост.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Вы не можете изменить свой голос после окончания периода голосования.</value>
@@ -179,40 +179,40 @@
     <value>У вас нет прав на модерацию этого форума.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>Только последняя публикация может быть удалена.</value>
+    <value>Удалить можно только самый последний пост.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
-    <value>Невозможно удалить публикацию в закрытой теме.</value>
+    <value>Нельзя удалить пост из уже закрытой темы.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>Только автор может удалить эту публикацию.</value>
+    <value>Удалить пост может только его автор.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
-    <value>Невозможно изменить удалённую публикацию.</value>
+    <value>Нельзя редактировать удалённый пост.</value>
   </data>
   <data name="forum.post.edit.locked" xml:space="preserve">
-    <value>Публикация защищена от изменений.</value>
+    <value>Пост защищён от изменений.</value>
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>Только автор может редактировать эту публикацию.</value>
+    <value>Редактировать пост может только его автор.</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
-    <value>Невозможно изменить публикацию в закрытой теме.</value>
+    <value>Нельзя редактировать пост в закрытой теме.</value>
   </data>
   <data name="forum.post.store.play_more" xml:space="preserve">
     <value>Поиграйте в игру, прежде чем писать что-либо на форуме. Если у вас имеются проблемы с игрой, попробуйте написать об этом на форуме «Помощи и поддержки».</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Вы должны поиграть в игру подольше, прежде чем создавать дополнительные публикации. Если у вас всё ещё имеются проблемы с игрой, напишите на почту support@ppy.sh</value>
+    <value>Вы должны поиграть в игру подольше, прежде чем создавать дополнительные посты. Если у вас все ещё имеются проблемы с игрой, напишите на почту support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
-    <value>Пожалуйста, отредактируйте ваш последнюю публикацию, не создавайте новую.</value>
+    <value>Пожалуйста, отредактируйте ваш последний пост, не создавайте новый.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>Нельзя ответить в закрытой теме.</value>
@@ -239,7 +239,7 @@
     <value>Нет прав на создание новой темы.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>Нельзя публиковать пока форум закрыт.</value>
+    <value>Форум закрыт.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
