@@ -217,8 +217,17 @@
   <data name="report.comments" xml:space="preserve">
     <value>Komentari</value>
   </data>
+  <data name="report.placeholder" xml:space="preserve">
+    <value>Navedi sve informacije za koje smatraš da bi mogle biti korisne.</value>
+  </data>
   <data name="report.reason" xml:space="preserve">
     <value>Razlog</value>
+  </data>
+  <data name="report.thanks" xml:space="preserve">
+    <value>Hvala na tvojoj prijavi!</value>
+  </data>
+  <data name="report.title" xml:space="preserve">
+    <value>Prijavi {0}?</value>
   </data>
   <data name="report.actions.send" xml:space="preserve">
     <value>Pošalji prijavu</value>
@@ -237,6 +246,9 @@
   </data>
   <data name="report.options.spam" xml:space="preserve">
     <value>Spamanje</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Povezivanje neprikladnog sadržaja</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Gluposti</value>
@@ -274,6 +286,9 @@
   <data name="show.lastvisit_online" xml:space="preserve">
     <value>Trenutno online</value>
   </data>
+  <data name="show.missingtext" xml:space="preserve">
+    <value>Možda si pogriješio/la pri upisu! (ili je korisnik možda ograničen)</value>
+  </data>
   <data name="show.origin_country" xml:space="preserve">
     <value>Iz {0}</value>
   </data>
@@ -292,14 +307,77 @@
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} komentar|{0} komentari</value>
   </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Sakrij naslovnicu</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Prikaži naslovnicu</value>
+  </data>
+  <data name="show.edit.cover.button" xml:space="preserve">
+    <value>Promjeni naslovnicu profila</value>
+  </data>
+  <data name="show.edit.cover.defaults_info" xml:space="preserve">
+    <value>Više opcija naslovnice bit će dostupno u budućnosti</value>
+  </data>
+  <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
+    <value>Obrada slike nije uspjela. Provjeri učitanu sliku i pokušaj ponovno.</value>
+  </data>
   <data name="show.edit.cover.upload.button" xml:space="preserve">
     <value>Postavi sliku</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
+    <value>Ispusti ovdje za prenošenje </value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
+    <value>Također možeš ispustiti svoju sliku ovdje za prijenos</value>
+  </data>
+  <data name="show.edit.cover.upload.size_info" xml:space="preserve">
+    <value>Veličina naslovnice treba biti 2400x640</value>
+  </data>
+  <data name="show.edit.cover.upload.too_large" xml:space="preserve">
+    <value>Učitana datoteka je prevelika.</value>
+  </data>
+  <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
+    <value>Nepodržan format.</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>Prijenos je dostupan samo za {0}</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>osu!supporterima</value>
+  </data>
+  <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
+    <value>zadani način igre</value>
+  </data>
+  <data name="show.edit.default_playmode.set" xml:space="preserve">
+    <value>postavi {0} kao zadani način igre na profilu</value>
+  </data>
+  <data name="show.extra.none" xml:space="preserve">
+    <value>ništa</value>
+  </data>
+  <data name="show.extra.unranked" xml:space="preserve">
+    <value>Nema nedavnih igranja</value>
+  </data>
+  <data name="show.extra.achievements.achieved-on" xml:space="preserve">
+    <value>Postignuto na {0}</value>
   </data>
   <data name="show.extra.achievements.locked" xml:space="preserve">
     <value>Zaključano</value>
   </data>
+  <data name="show.extra.achievements.title" xml:space="preserve">
+    <value>Postignuća</value>
+  </data>
   <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
     <value>od {0}</value>
+  </data>
+  <data name="show.extra.beatmaps.title" xml:space="preserve">
+    <value>Beatmape</value>
+  </data>
+  <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
+    <value>Omiljene beatmape</value>
+  </data>
+  <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
+    <value>Beatmape na groblju</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
     <value>Beatmape sudjelovanja gostiju</value>
@@ -406,29 +484,248 @@
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
     <value>Zabranjen kudosu od {0} za objavu {1}</value>
   </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Na temelju toga koliko je korisnik dao doprinos moderiranju beatmapa. Pogledaj {0} za više informacija.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>ovu stranicu</value>
+  </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>ja!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Ovaj korisnik još nije dobio nijedan. ;_;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>Najnovije</value>
   </data>
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Medalje</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Igre popisa</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>Objave</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>Nedavne objave</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>pogledaj još objava</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Nedavno</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Multiplayer igre</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>Preuzmi reprizu</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>Samo rangirane beatmape nagrađuju pp</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>procijenjen {0}</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Pogledaj detalje</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>Rangovi</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>Najbolji nastup</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>Prva mjesta</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Otkvači</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Otkvačen rezultat</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Prikvači</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Prikvačen rezultat</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Prikvačeni rezultati</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Dani glasovi (posljednja 3 mjeseca)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Primljeni glasovi (posljednja 3 mjeseca)</value>
   </data>
   <data name="show.extra.votes.title" xml:space="preserve">
     <value>Glasovi</value>
   </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>Nedavni glasovi</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} glas|{0} glasova</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>Stanje računa</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>Račun od {0} nije u dobrom stanju :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>{0} će moći ponovno govoriti {1}.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>Nedavni prekršaji</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
     <value>datum</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>akcija</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>dužina</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
+    <value>Trajno</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>opis</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
+    <value>od {0}</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
+    <value>Zabrana</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
+    <value>Utišanje</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Bilješka</value>
   </data>
+  <data name="show.info.interests" xml:space="preserve">
+    <value>Interesi</value>
+  </data>
+  <data name="show.info.location" xml:space="preserve">
+    <value>Trenutna lokacija</value>
+  </data>
+  <data name="show.info.occupation" xml:space="preserve">
+    <value>Zanimanje</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>Web stranica</value>
+  </data>
+  <data name="show.not_found.reason_1" xml:space="preserve">
+    <value>Možda je promijenio/la svoje korisničko ime.</value>
+  </data>
+  <data name="show.not_found.reason_2" xml:space="preserve">
+    <value>Račun može biti privremeno nedostupan zbog sigurnosnih problema ili problema sa zlouporabom.</value>
+  </data>
+  <data name="show.not_found.reason_3" xml:space="preserve">
+    <value>Možda si napravio/la grešku grešku pri pisanju!</value>
+  </data>
+  <data name="show.not_found.reason_header" xml:space="preserve">
+    <value>Postoji nekoliko mogućih razloga za to:</value>
+  </data>
+  <data name="show.not_found.title" xml:space="preserve">
+    <value>Korisnik nije pronađen! ;_;</value>
+  </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>Uredi stranicu profila</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>&lt;strong&gt;ja!&lt;/strong&gt; je osobno prilagodljivo područje na stranici tvog profila.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>Uredi me!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>Ovdje upiši sadržaj stranice</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Moraš biti {0} da bi otključao/la ovu značajku.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>Doprinio {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} objavu na forumu|{0} objava na forumu</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>Rang države za {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>Rang u državi</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>Globalni rang za {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>Globalni rang</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>Preciznost pogodaka</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>Level {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>Napredak na sljedeću razinu</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Najveći combo</value>
+  </data>
   <data name="show.stats.medals" xml:space="preserve">
     <value>Medalje</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>Broj Igranja</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Ukupno vrijeme igranja</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Rangirani bodovi</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Reprize koje su gledali drugi</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Bodovi poredak</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Ukupno pogodaka</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Ukupni Bodovi</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Beatmape na groblju</value>
+  </data>
+  <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
+    <value>Voljene beatmape</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>Beatmape na čekanju</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Rangirane beatmape</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Trenutno si utišan/a.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Neke radnje možda neće biti dostupne.</value>
   </data>
   <data name="status.all" xml:space="preserve">
     <value>Svi</value>
@@ -438,5 +735,20 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Offline</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Stvoreno od strane korisnika</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Potvrda računa</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Pogled cigli</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Kartični pregled</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Lista</value>
   </data>
 </root>

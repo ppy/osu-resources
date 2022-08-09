@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>se incarcă utilizatorii...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>vorbești în {0}</value>
   </data>
@@ -68,10 +71,13 @@
     <value>chat</value>
   </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Nu poți trimite mesaje în acest canal chiar acum.</value>
+    <value>Nu poți trimite mesaje în acest canal momentan.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
-    <value>Nu poți trimite mesaje acestui utilizator în acest moment.</value>
+    <value>Nu poți trimite mesaje acestui utilizator momentan.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>creează anunţ</value>
   </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>Anunțuri</value>
@@ -85,11 +91,26 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Canale</value>
   </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Creați Anunț Nou</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>descriere</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>numele camerei</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>jucători de adăugat</value>
+  </data>
   <data name="not_found.message" xml:space="preserve">
-    <value>Nu este nimic aici. Poate ai părăsit canalul sau acesta nu există...</value>
+    <value>Nu este nimic aici. Poate ai părăsit canalul sau nu există...</value>
   </data>
   <data name="not_found.title" xml:space="preserve">
     <value>canalul nu a fost găsit</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Creează</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>mesajul nu a putut fi trimis...</value>
@@ -107,7 +128,7 @@
     <value>Începe conversații din profilul unui utilizator sau din fereastra unui utilizator.</value>
   </data>
   <data name="no-conversations.lazer" xml:space="preserve">
-    <value>Canalele publice în care te alături prin &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; vor fi vizibile aici.</value>
+    <value>Canalele publice cărora li te alături prin &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; vor fi vizibile aici.</value>
   </data>
   <data name="no-conversations.title" xml:space="preserve">
     <value>nu sunt conversații încă</value>

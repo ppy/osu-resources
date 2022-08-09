@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid" xml:space="preserve">
-    <value>{0} specificat/ă este invalidă.</value>
+    <value>{0} specificat este invalid.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} nu poate fi negativ.</value>
@@ -74,7 +74,7 @@
     <value>Confirmarea nu se potrivește.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Marcajul de timp este specificat dar beatmapul lipsește.</value>
+    <value>Marcajul de timp este specificat dar beatmap-ul lipsește.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
     <value>Acest beatmap nu poate fi hyped.</value>
@@ -86,7 +86,7 @@
     <value>Dificultatea specificată nu este validă.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>Beatmapul specificat nu este valid.</value>
+    <value>Beatmap-ul specificat nu este valid.</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Discuția este închisă.</value>
@@ -95,7 +95,7 @@
     <value>Tipul mesajului</value>
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
-    <value>Dată/Oră</value>
+    <value>Marcajul de timp</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
     <value>Acest beatmap este momentan blocat pentru discuții și nu poate fi hyped</value>
@@ -116,7 +116,7 @@
     <value>Nu ii poți acorda un hype propriului tău beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>Marcajul de timp specificat este dincolo de lungimea beatmapului.</value>
+    <value>Marcajul de timp specificat este dincolo de lungimea beatmap-ului.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
     <value>Marcajul de timp nu poate fi negativ.</value>
@@ -140,7 +140,7 @@
     <value>Mesajul</value>
   </data>
   <data name="follow.invalid" xml:space="preserve">
-    <value>{0} specificat/ă este invalidă.</value>
+    <value>{0} specificat este invalid.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
     <value>Poți vota doar o cerere de funcții.</value>
@@ -152,16 +152,22 @@
     <value>Opțiunea specificată este invalidă.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Ștergerea metadatei unui beatmap nu este permisă.</value>
+    <value>Ștergerea datelor melodiilor unui beatmap nu este permisă.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Editarea metadatei unui beatmap nu este permisă.</value>
+    <value>Editarea datelor melodiilor unui beatmap nu este permisă.</value>
+  </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Nu se poate șterge postarea de început</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Postării îi lipsește un subiect</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Răspunsul tău conţine doar un citat.</value>
   </data>
   <data name="forum.post.attributes.post_text" xml:space="preserve">
-    <value>Postează corp</value>
+    <value>Conținutul postării</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Titlul subiectului</value>
@@ -173,7 +179,7 @@
     <value>Nu poți edita un sondaj după mai mult de {0} ore</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
-    <value>Nu se pot ascunde rezultatele unui sondaj care nu se termină.</value>
+    <value>Nu se pot ascunde rezultatele unui sondaj care nu are sfârșit.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Opțiunea per utilizator nu poate depăși numărul de opțiuni disponibile.</value>
@@ -188,7 +194,7 @@
     <value>Ai depășit numărul maxim de opțiuni permise.</value>
   </data>
   <data name="forum.topic_poll.attributes.title" xml:space="preserve">
-    <value>Titlu sondaj</value>
+    <value>Titlul sondajului</value>
   </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
     <value>Selectează o opțiune când votezi.</value>
@@ -213,6 +219,9 @@
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>Adresa de e-mail este deja folosită.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>Adresa de e-mail nu poate fi folosită.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Țara nu se află în baza de date.</value>
@@ -266,7 +275,7 @@
     <value>Parolă interzisă.</value>
   </data>
   <data name="user.wrong_current_password" xml:space="preserve">
-    <value>Parola curentă este incorectă.</value>
+    <value>Parola actuală este incorectă.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
     <value>Confirmarea e-mailului nu se potrivește.</value>
@@ -278,13 +287,13 @@
     <value>Ai depășit lungimea maximă - nu poate fi decât până la {0} caractere.</value>
   </data>
   <data name="user.attributes.username" xml:space="preserve">
-    <value>Nume de utilizator</value>
+    <value>Numele de utilizator</value>
   </data>
   <data name="user.attributes.user_email" xml:space="preserve">
-    <value>Adresă de e-mail</value>
+    <value>Email-ul</value>
   </data>
   <data name="user.attributes.password" xml:space="preserve">
-    <value>Parolă</value>
+    <value>Parola</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
     <value>Nu iți poți schimba numele de utilizator cât timp ești restricționat.</value>
@@ -297,6 +306,9 @@
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Acesta este deja numele tău de utilizator, prostuțule!</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Beatmap-urile clasate nu pot fi raportate</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} nu este valid pentru acest tip de raportare.</value>

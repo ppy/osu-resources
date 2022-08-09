@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="audio.autoplay" xml:space="preserve">
-    <value>Redă următorul track în mod automat</value>
+    <value>Redă automat melodia următoare</value>
   </data>
   <data name="defaults.page_description" xml:space="preserve">
     <value>osu! - Ritmul este doar la un *clic* distanță! Cu Ouendan/EBA, Taiko și moduri de joc originale,  precum și un editor de nivel complet funcțional.</value>
@@ -68,7 +68,7 @@
     <value>beatmapset</value>
   </data>
   <data name="header.admin.beatmapset_covers" xml:space="preserve">
-    <value>cover-uri beatmapset</value>
+    <value>fundale beatmapset</value>
   </data>
   <data name="header.admin.contest" xml:space="preserve">
     <value>concurs</value>
@@ -80,10 +80,16 @@
     <value>consolă</value>
   </data>
   <data name="header.artists.index" xml:space="preserve">
-    <value>listare</value>
+    <value>listă</value>
+  </data>
+  <data name="header.beatmapsets.show" xml:space="preserve">
+    <value>informații</value>
+  </data>
+  <data name="header.beatmapsets.discussions" xml:space="preserve">
+    <value>discuție</value>
   </data>
   <data name="header.changelog.index" xml:space="preserve">
-    <value>listare</value>
+    <value>listă</value>
   </data>
   <data name="header.help.index" xml:space="preserve">
     <value>index</value>
@@ -101,10 +107,16 @@
     <value>produse</value>
   </data>
   <data name="header.tournaments.index" xml:space="preserve">
-    <value>listare</value>
+    <value>listă</value>
   </data>
   <data name="header.users.modding" xml:space="preserve">
     <value>modding</value>
+  </data>
+  <data name="header.users.playlists" xml:space="preserve">
+    <value>playlist-uri</value>
+  </data>
+  <data name="header.users.realtime" xml:space="preserve">
+    <value>multiplayer</value>
   </data>
   <data name="header.users.show" xml:space="preserve">
     <value>info</value>
@@ -113,7 +125,7 @@
     <value>Închide (Esc)</value>
   </data>
   <data name="gallery.fullscreen" xml:space="preserve">
-    <value>Comută ecran mic/mare</value>
+    <value>Comută fullscreen</value>
   </data>
   <data name="gallery.zoom" xml:space="preserve">
     <value>Mărire/Micșorare</value>
@@ -125,7 +137,7 @@
     <value>Următor (săgeată dreapta)</value>
   </data>
   <data name="menu.beatmaps._" xml:space="preserve">
-    <value>beatmaps</value>
+    <value>beatmap-uri</value>
   </data>
   <data name="menu.community._" xml:space="preserve">
     <value>comunitate</value>
@@ -136,6 +148,9 @@
   <data name="menu.help._" xml:space="preserve">
     <value>ajutor</value>
   </data>
+  <data name="menu.help.getabuse" xml:space="preserve">
+    <value>raportează abuz</value>
+  </data>
   <data name="menu.help.getfaq" xml:space="preserve">
     <value>întrebări frecvente</value>
   </data>
@@ -143,7 +158,7 @@
     <value>reguli</value>
   </data>
   <data name="menu.help.getsupport" xml:space="preserve">
-    <value>nu, de fapt, am nevoie de ajutor!</value>
+    <value>nu, chiar am nevoie de ajutor!</value>
   </data>
   <data name="menu.home._" xml:space="preserve">
     <value>acasă</value>
@@ -167,10 +182,10 @@
     <value>Acasă</value>
   </data>
   <data name="footer.general.changelog-index" xml:space="preserve">
-    <value>Jurnalul modificărilor</value>
+    <value>Istoric modificări</value>
   </data>
   <data name="footer.general.beatmaps" xml:space="preserve">
-    <value>Lista de beatmap</value>
+    <value>Lista Beatmap-uri</value>
   </data>
   <data name="footer.general.download" xml:space="preserve">
     <value>Descarcă osu!</value>
@@ -179,13 +194,13 @@
     <value>Ajutor &amp; Comunitate</value>
   </data>
   <data name="footer.help.faq" xml:space="preserve">
-    <value>Întrebări fregvente</value>
+    <value>Întrebări Frecvente</value>
   </data>
   <data name="footer.help.forum" xml:space="preserve">
-    <value>Forumuri</value>
+    <value>Forum-uri</value>
   </data>
   <data name="footer.help.livestreams" xml:space="preserve">
-    <value>Transmisiuni în direct</value>
+    <value>Fluxuri Live</value>
   </data>
   <data name="footer.help.report" xml:space="preserve">
     <value>Raportează o problemă</value>
@@ -203,19 +218,19 @@
     <value>Confidențialitate</value>
   </data>
   <data name="footer.legal.server_status" xml:space="preserve">
-    <value>Starea serverului</value>
+    <value>Starea server-ului</value>
   </data>
   <data name="footer.legal.source_code" xml:space="preserve">
-    <value>Cod sursă</value>
+    <value>Cod Sursă</value>
   </data>
   <data name="footer.legal.terms" xml:space="preserve">
-    <value>Termeni și condiții</value>
+    <value>Termeni și Condiții</value>
   </data>
   <data name="errors.400.error" xml:space="preserve">
-    <value>Cerere în parametrii invalizi</value>
+    <value>Parametri cerere nevalizi</value>
   </data>
   <data name="errors.404.error" xml:space="preserve">
-    <value>Pagina lipsește</value>
+    <value>Pagină Lipsă</value>
   </data>
   <data name="errors.404.description" xml:space="preserve">
     <value>Ne pare rău, dar pagina solicitată nu este aici!</value>
@@ -241,14 +256,17 @@
   <data name="errors.422.error" xml:space="preserve">
     <value>Cerere în parametrii invalizi</value>
   </data>
+  <data name="errors.429.error" xml:space="preserve">
+    <value>Limita de folosire a fost depăşită</value>
+  </data>
   <data name="errors.500.error" xml:space="preserve">
-    <value>Oh nu! Ceva s-a rupt! ;_;</value>
+    <value>Oh nu! Ceva s-a stricat! ;_;</value>
   </data>
   <data name="errors.500.description" xml:space="preserve">
     <value>Suntem informați automat de fiecare eroare.</value>
   </data>
   <data name="errors.fatal.error" xml:space="preserve">
-    <value>Oh, nu! Ceva s-a stricat (serios)! ;_;</value>
+    <value>Oh, nu! Ceva s-a stricat (rău)! ;_;</value>
   </data>
   <data name="errors.fatal.description" xml:space="preserve">
     <value>We're automatically notified of every error.</value>
@@ -263,7 +281,7 @@
     <value>Pentru orice eventualitate, aici este un cod pe care îl poți oferi pentru asistență!</value>
   </data>
   <data name="popup_login.button" xml:space="preserve">
-    <value>autentifică-te / Înregistrează-te</value>
+    <value>autentifică-te / înregistrează-te</value>
   </data>
   <data name="popup_login.login.forgot" xml:space="preserve">
     <value>Mi-am uitat detaliile de autentificare</value>
@@ -287,13 +305,16 @@
     <value>Descarcă</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>Ai nevoie de un cont, domnule. De ce nu ai unul deja?</value>
+    <value>Descarcă osu! pentru a-ți crea propriul cont!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
     <value>Nu ai un cont?</value>
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Setări</value>
+  </data>
+  <data name="popup_user.links.follows" xml:space="preserve">
+    <value>Pagini abonate</value>
   </data>
   <data name="popup_user.links.friends" xml:space="preserve">
     <value>Prieteni</value>
@@ -302,7 +323,7 @@
     <value>Deconectare</value>
   </data>
   <data name="popup_user.links.profile" xml:space="preserve">
-    <value>Profilul meu</value>
+    <value>Profilul Meu</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
     <value>Tastați pentru a căuta!</value>

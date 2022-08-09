@@ -59,19 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Ce ar fi să joci osu! în schimb?</value>
+    <value>Cum ar fi să joci osu! în schimb?</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>Te rugăm să te autentifici pentru a continua.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
-    <value>Vă rugăm să verificați pentru a continua.</value>
+    <value>Vă rugăm să vă verificați pentru a continua.</value>
   </data>
   <data name="restricted" xml:space="preserve">
     <value>Nu poți face asta cât timp ești restricționat.</value>
   </data>
   <data name="silenced" xml:space="preserve">
-    <value>Nu poți face asta cât timp ești amuțit.</value>
+    <value>Nu poți face asta cât timp ești mut.</value>
   </data>
   <data name="unauthorized" xml:space="preserve">
     <value>Acces respins.</value>
@@ -92,19 +92,19 @@
     <value>Nu îți poți nominaliza propriul beatmap.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>Trebuie să setezi genre-ul și limba înainte de a nomina.</value>
+    <value>Trebuie să setezi genul și limba înainte de a nomina.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Numai cel ce a început subiectul sau proprietarul acestui beatmap pot rezolva o discuție.</value>
+    <value>Doar creatorul discuției sau al acestui beatmap pot rezolva o discuție.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Doar proprietarul beatmapului sau nominatorul/membru din QAT pot posta note de mapper.</value>
+    <value>Numai creatorul beatmap-ului sau nominalizatorul/membru din QAT pot posta notițe pentru creator.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Nu se poate vota discuția făcută de bot</value>
+    <value>Nu se poate vota o discuție făcută de un bot</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
-    <value>Te rugăm să aștepți un timp înainte să acorzi mai multe voturi</value>
+    <value>Te rugăm să aștepți înainte să acorzi mai multe voturi</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
     <value>Nu îți poți vota propria discuție.</value>
@@ -113,28 +113,31 @@
     <value>Poți vota doar discuțiile despre beatmapuri în așteptare.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Poți să ștergi doar postările tale.</value>
+    <value>Poți să ștergi doar postările proprii.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>Nu poți șterge o postare din o discuție rezolvată.</value>
+    <value>Nu poți șterge o postare dintr-o discuție rezolvată.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>Postările generate automat nu pot fi șterse.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Doar proprietarul poate edita această postare.</value>
+    <value>Doar creatorul poate edita această postare.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
-    <value>Nu poți edita o postare din o discuție rezolvată.</value>
+    <value>Nu poți edita o postare dintr-o discuție rezolvată.</value>
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Postările generate automat nu pot fi editate.</value>
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
-    <value>Acest beatmap este blocat pentru discuții.</value>
+    <value>Discuțiile sunt blocate pe acest beatmap.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Nu poți schimba datele meta a unei hărți nominate. Contactează un membru BN sau NAT dacă crezi că e setat greșit.</value>
+    <value>Nu poți schimba datele melodiei a unui beatmap nominalizat. Contactează un membru BN sau NAT dacă crezi că e setat greșit.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Acest canal este doar pentru anunțuri.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Nu poți trimite mesaje unui utilizator care te-a blocat sau pe care l-ai blocat.</value>
@@ -143,13 +146,22 @@
     <value>Utilizatorul blochează mesajele de la oameni care nu sunt pe lista lor de prieteni.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
-    <value>Canalul este moderat în prezent.</value>
+    <value>Acest canal este moderat în prezent.</value>
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Nu ai acces la acest canal.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Este posibil ca utilizatorul să nu poată răspunde, deoarece acceptați doar mesaje de la persoane adăugate la prieteni.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>Nu poți trimite mesaje cât timp ești amuțit, restricționat sau interzis.</value>
+    <value>Nu poți trimite mesaje cât timp ești mut, restricționat sau interzis.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Nu poți trimite mesaje cât timp ești mut, restricționat sau interzis.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Comentariile sunt dezactivate</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Nu poți edita o postare ștearsă.</value>
@@ -173,10 +185,10 @@
     <value>Nu poți șterge o postare al unui subiect închis.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>Doar proprietarul poate șterge această postare.</value>
+    <value>Doar creatorul poate șterge această postare.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
     <value>Această postare nu poate fi editată.</value>
@@ -185,16 +197,16 @@
     <value>Postarea nu poate fi editată.</value>
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>Doar proprietarul poate edita această postare.</value>
+    <value>Doar creatorul poate edita această postare.</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
     <value>Nu poți edita o postare al unui subiect închis.</value>
   </data>
   <data name="forum.post.store.play_more" xml:space="preserve">
-    <value>Te rugăm să te joci înainte de a posta pe forum. Dacă ai o problemă în ceea ce privește jocul, te rugăm să o postezi pe forumul de ajutor și asistență.</value>
+    <value>Te rugăm să încerci să te joci înainte de a posta pe forum. Dacă ai o problemă în ceea ce privește jocul, te rugăm să o postezi pe forum-ul de ajutor și asistență.</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
     <value>Trebuie să te joci înainte de a putea face postări suplimentare. Dacă ai o problemă legată de joc, trimite un e-mail la support@ppy.sh</value>
@@ -206,7 +218,7 @@
     <value>Nu se poate răspunde la o discuție închisă.</value>
   </data>
   <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.topic.reply.no_permission" xml:space="preserve">
     <value>Nu ai permisiunea de a răspunde.</value>
@@ -218,19 +230,19 @@
     <value>Nu poți răspunde cât timp ești restricționat.</value>
   </data>
   <data name="forum.topic.reply.user.silenced" xml:space="preserve">
-    <value>Nu poți răspunde cât timp ești amuțit.</value>
+    <value>Nu poți răspunde cât timp ești mut.</value>
   </data>
   <data name="forum.topic.store.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.topic.store.no_permission" xml:space="preserve">
     <value>Nu ai permisiunea de a crea un subiect nou.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>Forumul este închis și nu mai pot fi adăugate alte postări.</value>
+    <value>Forum-ul este închis și nu mai pot fi adăugate alte postări.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
     <value>Sondajul s-a încheiat și nu se mai poate vota.</value>
@@ -248,30 +260,36 @@
     <value>Nu poți vota cât timp ești restricționat.</value>
   </data>
   <data name="forum.topic.vote.user.silenced" xml:space="preserve">
-    <value>Nu poți vota cât timp ești amuțit.</value>
+    <value>Nu poți vota cât timp ești mut.</value>
   </data>
   <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
-    <value>Accesul la forumul solicitat este necesar.</value>
+    <value>Accesul la forum-ul solicitat este necesar.</value>
   </data>
   <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
-    <value>Coperta specificată este invalidă.</value>
+    <value>Fundalul specificat este invalidă.</value>
   </data>
   <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
-    <value>Numai proprietarul poate edita coperta.</value>
+    <value>Numai creatorul poate edita fundalul.</value>
   </data>
   <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
-    <value>Acest forum nu acceptă acoperiri topice.</value>
+    <value>Acest forum nu acceptă fundale pentru subiecte.</value>
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Numai administratorul poate vizualiza acest forum.</value>
   </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Numai creatorul scorului poate fixa acest scor.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Ai fixat prea multe scoruri.</value>
+  </data>
   <data name="user.page.edit.locked" xml:space="preserve">
-    <value>Pagina utilizatorului este închisă.</value>
+    <value>Pagina de utilizator este blocată.</value>
   </data>
   <data name="user.page.edit.not_owner" xml:space="preserve">
     <value>Îți poți edita doar propria pagină de utilizator.</value>
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
-    <value>eticheta de suporter osu! este necesară.</value>
+    <value>Statusul de suporter osu! este necesar.</value>
   </data>
 </root>

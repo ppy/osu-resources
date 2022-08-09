@@ -55,6 +55,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BlocksBannerText => new TranslatableString(getKey(@"blocks.banner_text"), @"You have blocked this user.");
 
         /// <summary>
+        /// "This comment is hidden."
+        /// </summary>
+        public static LocalisableString BlocksCommentText => new TranslatableString(getKey(@"blocks.comment_text"), @"This comment is hidden.");
+
+        /// <summary>
         /// "blocked users ({0})"
         /// </summary>
         public static LocalisableString BlocksBlockedCount(LocalisableString count) => new TranslatableString(getKey(@"blocks.blocked_count"), @"blocked users ({0})", count);
@@ -65,6 +70,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BlocksHideProfile => new TranslatableString(getKey(@"blocks.hide_profile"), @"Hide profile");
 
         /// <summary>
+        /// "hide"
+        /// </summary>
+        public static LocalisableString BlocksHideComment => new TranslatableString(getKey(@"blocks.hide_comment"), @"hide");
+
+        /// <summary>
         /// "That user is not blocked."
         /// </summary>
         public static LocalisableString BlocksNotBlocked => new TranslatableString(getKey(@"blocks.not_blocked"), @"That user is not blocked.");
@@ -73,6 +83,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Show profile"
         /// </summary>
         public static LocalisableString BlocksShowProfile => new TranslatableString(getKey(@"blocks.show_profile"), @"Show profile");
+
+        /// <summary>
+        /// "show"
+        /// </summary>
+        public static LocalisableString BlocksShowComment => new TranslatableString(getKey(@"blocks.show_comment"), @"show");
 
         /// <summary>
         /// "Block limit reached."

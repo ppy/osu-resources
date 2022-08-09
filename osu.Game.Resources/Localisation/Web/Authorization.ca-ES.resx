@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Què tal si en comptes d'això juguem una mica d'osu!?</value>
+  </data>
+  <data name="require_login" xml:space="preserve">
+    <value>Si us plau, inicia sessió per continuar.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Si us plau, verifiqueu per continuar.</value>
+  </data>
+  <data name="restricted" xml:space="preserve">
+    <value>No es pot fer mentre estigui restringit.</value>
+  </data>
+  <data name="silenced" xml:space="preserve">
+    <value>No es pot fer mentre estigui silenciat.</value>
+  </data>
+  <data name="unauthorized" xml:space="preserve">
+    <value>Accés denegat.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
+    <value>No es pot desfer el hyping.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
+    <value>No es pot suprimir una discussió amb respostes</value>
+  </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>Has aconseguit el teu límit de nominacions diàries, si us plau torna-ho a intentar demà.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
+    <value>Error en realitzar aquesta acció, intenteu actualitzar la pàgina.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
+    <value>No podeu nominar el vostre propi mapa.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Heu d'establir el gènere i l'idioma abans de nominar.</value>
+  </data>
+  <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
+    <value>Només el creador del fil i el propietari del mapa poden resoldre una discussió.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Només el propietari del mapa o el nominador/membre del grup NAT pot publicar notes de mapping.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>No podeu votar en una discussió feta per un bot</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>Espera una mica abans de continuar votant</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>No pots votar les teves discussions.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>Només podeu votar en discussions de mapes pendents.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Només podeu eliminar les vostres publicacions.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>No podeu suprimir una publicació d'una discussió resolta.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>La publicació generada automàticament no es pot eliminar.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Només el creador pot editar la publicació.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>No podeu editar una publicació d'una discussió resolta.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>No es pot editar una publicació generada automàticament.</value>
+  </data>
+  <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
+    <value>Aquest mapa està bloquejat per a discussió.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>No podeu canviar les metadades d'un mapa nominat. Contacta amb un membre dels BN o del NAT si creus que estan establerts incorrectament.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Aquest canal només és per a anuncis.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>No pots enviar missatges a un usuari que vas bloquejar o que t'hagi bloquejat.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Aquest usuari està bloquejant els missatges de persones que no són a la llista d'amics.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Aquest canal està actualment sent moderat.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>No tens accés a aquest canal.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>És possible que l'usuari no pugui respondre perquè només accepta missatges de persones de la llista d'amics.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>No podeu enviar missatges mentre estigui silenciat, restringit o banejat.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>No podeu enviar missatges mentre estigui silenciat, restringit o banejat.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Els comentaris estan desactivats</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>No podeu editar una publicació eliminada.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>No pots canviar el teu vot després d'haver acabat el període de votació.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Heu assolit el límit d'entrades per a aquest concurs</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Gràcies per la vostra participació! Els enviaments han estat tancats per a aquest concurs i la votació s'obrirà aviat.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Sense permisos per moderar aquest fòrum.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>Només es pot suprimir la darrera publicació.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>No es pot suprimir la publicació d'un tema tancat.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>Només el creador pot suprimir la publicació.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>No podeu editar una publicació eliminada.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>L'edició de la publicació està bloquejada.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>Només el creador pot suprimir la publicació.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>No es pot editar la publicació d'un tema bloquejat.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Intenta jugar abans de publicar als fòrums, si us plau! Si teniu un problema jugant, publica'l al fòrum d'Ajuda i Suport.</value>
+  </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>Necessites jugar més el joc abans de fer publicacions addicionals. Si encara teniu problemes per jugar, envieu un correu electrònic a support@ppy.sh</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Si us plau edita la teva darrera publicació en comptes de publicar una altra vegada.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>No podeu respondre a un fil tancat.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>No tens permisos per respondre.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Si us plau, inicia sessió per respondre.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>No podeu respondre mentre estigui restringit.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>No podeu respondre mentre estigui silenciat.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>No tens permís per crear un tema.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>Aquest fòrum està tancat i no hi pots publicar.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>L'enquesta va acabar i ja no es pot votar.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Necessites jugar més abans de votar al fòrum.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Canviar el vot no està permès.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Si us plau, inicieu la sessió per votar.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>No podeu votar mentre estigui restringit.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>No podeu votar mentre estigui silenciat.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Cal accés al fòrum sol·licitat.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>Portada especificada no vàlida.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>Només el propietari pot editar la portada.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Aquest fòrum no accepta portades de temes.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>Només els administradors poden veure aquest fòrum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Només el propietari de la puntuació pot fixar la puntuació.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Has fixat massa puntuacions.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>La pàgina d'usuari està bloquejada.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>Només podeu editar la vostra pàgina d'usuari.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>Es requereix osu!supporter.</value>
+  </data>
+</root>

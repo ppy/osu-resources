@@ -61,6 +61,12 @@
   <data name="all_read" xml:space="preserve">
     <value>Toate notificările citite!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Șterge {0}</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Se încarcă notificările necitite...</value>
+  </data>
   <data name="mark_read" xml:space="preserve">
     <value>Curăță {0}</value>
   </data>
@@ -70,6 +76,12 @@
   <data name="see_all" xml:space="preserve">
     <value>vedeți toate notificările</value>
   </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>accesați chat-ul</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Verificați sesiunea pentru a vizualiza notificările</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>tot</value>
   </data>
@@ -77,22 +89,31 @@
     <value>profil</value>
   </data>
   <data name="filters.beatmapset" xml:space="preserve">
-    <value>beatmaps</value>
+    <value>beatmap-uri</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>forum</value>
   </data>
   <data name="filters.news_post" xml:space="preserve">
-    <value>ştiri</value>
+    <value>noutăți</value>
   </data>
   <data name="filters.build" xml:space="preserve">
-    <value>construcții</value>
+    <value>versiuni</value>
   </data>
   <data name="filters.channel" xml:space="preserve">
     <value>chat</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Dificultate cu participare ca oaspete</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Acum ești proprietarul dificultății "{0}" pentru beatmap-ul "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Acum ești proprietarul dificultății "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Discuții beatmap</value>
@@ -152,10 +173,10 @@
     <value>Beatmap-ul a fost descalificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>{0} a fost promovat la loved</value>
+    <value>{0} a fost promovat la Iubit</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Beatmap-ul a fost promovat la loved</value>
+    <value>Beatmap-ul a fost promovat la Iubit</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>{0} a fost nominat</value>
@@ -175,8 +196,11 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
     <value>Beatmap-ul a fost premiat</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" a fost eliminat din Iubit</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Beatmap a fost eliminat din iubit</value>
+    <value>Beatmap-ul a fost eliminat din Iubit</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>Nominația "{0}" a fost resetată</value>
@@ -201,6 +225,18 @@
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Conversație</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Anunț nou</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} spune "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Anunţ de la {0}</value>
   </data>
   <data name="item.channel.channel._" xml:space="preserve">
     <value>Mesaj nou</value>
@@ -266,10 +302,25 @@
     <value>PM vechi forum</value>
   </data>
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
-    <value>{0} mesaj necitit|{0} mesaje necitite</value>
+    <value>un mesaj necitit|{0} mesaje necitite|{0} de mesaje necitite</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Beatmap nou</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Beatmap nou "{0}" de către {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Beatmap nou "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Beatmap-uri noi de către {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Beatmap-ul "{0}" reînviat de către {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Beatmap-ul "{0}" reînviat</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medalii</value>
@@ -285,6 +336,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medalii deblocate!</value>
+  </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Ești acum un oaspete al beatmap-ului "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>Discuția pe ”{0}” a fost încuiată</value>
@@ -302,7 +356,7 @@
     <value>”{0}” a fost descalificat</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>”{0}” a fost promovată la iubită</value>
+    <value>”{0}” a fost promovată la Iubit</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>”{0}” a fost nominat</value>
@@ -312,6 +366,9 @@
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>”{0}” a fost clasat</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" a fost eliminat din Iubit</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>Nominația ”{0}” a fost resetată</value>
@@ -323,10 +380,10 @@
     <value>Ai primit un mesaj nou de la {0}</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
-    <value>Changelog-ul "{0}" are comentarii noi</value>
+    <value>Istoricul schimbărilor "{0}" are comentarii noi</value>
   </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
-    <value>Știrile ”{0}” au noi comentarii</value>
+    <value>Noutățile ”{0}” au noi comentarii</value>
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Există răspunsuri noi în "{0}"</value>
@@ -336,5 +393,8 @@
   </data>
   <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
     <value>Ați deblocat o nouă medalie, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} a creat beatmap-uri noi</value>
   </data>
 </root>

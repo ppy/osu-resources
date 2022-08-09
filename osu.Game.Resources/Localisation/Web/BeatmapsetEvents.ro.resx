@@ -61,11 +61,14 @@
   <data name="event.approve" xml:space="preserve">
     <value>Aprobat.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Creatorul dificultății {0} schimbat în {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Un moderator a șters discuția {0}.</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
-    <value>Discuție pentru acest beatmap a fost dezactivată. ({0})</value>
+    <value>Discuția pentru acest beatmap a fost dezactivată. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
     <value>Un moderator a șters postarea din discuția {0}.</value>
@@ -113,19 +116,40 @@
     <value>Limba s-a schimbat de la {0} la {1}.</value>
   </data>
   <data name="event.love" xml:space="preserve">
-    <value>Loved de către {0}</value>
+    <value>Iubit de către {0}.</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
     <value>Nominalizat de {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominalizat de {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>O problemă nouă {0} ({1}) a declanșat reluarea unei nominalizări.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominalizarea de {0} a fost resetată de către {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominalizarea a fost resetată de {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Offset-ul online schimbat din {0} la {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Acest beatmap a atins numărul limită de nominalizări și s-a calificat.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Clasat.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Eliminat din Iubit de {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Marcaj conținut obscen șters</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Marcat drept obscen</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Evenimente beatmapset</value>
@@ -148,6 +172,9 @@
   <data name="type.approve" xml:space="preserve">
     <value>Aprobare</value>
   </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Schimbare a proprietarului dificultății</value>
+  </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Ștergerea discuției</value>
   </data>
@@ -164,7 +191,7 @@
     <value>Descalificare</value>
   </data>
   <data name="type.genre_edit" xml:space="preserve">
-    <value>Edit genre</value>
+    <value>Editare gen</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
     <value>Redeschiderea discuției</value>
@@ -188,16 +215,25 @@
     <value>Recalcularea kudosu</value>
   </data>
   <data name="type.language_edit" xml:space="preserve">
-    <value>Edit limbă</value>
+    <value>Editare limbă</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Love</value>
+    <value>Iubire</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Nominalizare</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Resetarea nominalizărilor</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Resetare a nominalizării primită</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Marcaj obscen</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Editare offset</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Calificare</value>
@@ -206,6 +242,6 @@
     <value>Clasament</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Scoaterea din iubit</value>
+    <value>Scoaterea din Iubit</value>
   </data>
 </root>

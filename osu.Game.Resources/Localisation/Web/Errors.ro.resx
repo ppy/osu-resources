@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="missing_route" xml:space="preserve">
+    <value>URL sau metoda de solicitare incorectă.</value>
+  </data>
   <data name="no_restricted_access" xml:space="preserve">
     <value>Nu ești capabil să efectuezi această acțiune în timp ce contul tău se află într-un statut restricționat.</value>
   </data>
@@ -86,13 +89,16 @@
     <value>Mod specificat invalid.</value>
   </data>
   <data name="beatmaps.standard_converts_only" xml:space="preserve">
-    <value>Niciun scor avabil pentru modul solicitat pe această dificultate beatmap.</value>
+    <value>Niciun scor valabil pentru modul solicitat pe această dificultate beatmap.</value>
   </data>
   <data name="checkout.generic" xml:space="preserve">
     <value>A apărut o eroare în timpul preparării comenzii tale.</value>
   </data>
   <data name="search.default" xml:space="preserve">
     <value>Nu s-au putut obține rezultate, încearcă mai târziu.</value>
+  </data>
+  <data name="search.invalid_cursor_exception" xml:space="preserve">
+    <value>Parametru cursor specificat nevalid.</value>
   </data>
   <data name="search.operation_timeout_exception" xml:space="preserve">
     <value>Căutarea este mai ocupată decât de obicei, încearcă mai târziu.</value>

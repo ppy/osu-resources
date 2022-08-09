@@ -65,28 +65,28 @@
     <value>este periculos să te joci singur.</value>
   </data>
   <data name="subforums" xml:space="preserve">
-    <value>Subforumuri</value>
+    <value>Subforum-uri</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>Forumuri osu!</value>
+    <value>Forum-uri osu!</value>
   </data>
   <data name="covers.edit" xml:space="preserve">
-    <value>Editează coperta</value>
+    <value>Editează fundalul</value>
   </data>
   <data name="covers.create._" xml:space="preserve">
-    <value>Setează imaginea de copertă</value>
+    <value>Setează imaginea de fundal</value>
   </data>
   <data name="covers.create.button" xml:space="preserve">
-    <value>Încarcă imaginea</value>
+    <value>Încarcă fundal</value>
   </data>
   <data name="covers.create.info" xml:space="preserve">
-    <value>Dimensiunea imaginii de copertă ar trebui să fie la {0}. Poți, de asemenea, să plasezi imaginea aici pentru a o încărca.</value>
+    <value>Dimensiunea imaginii de fundal ar trebui să fie la {0}. Poți, de asemenea, să plasezi imaginea aici pentru a o încărca.</value>
   </data>
   <data name="covers.destroy._" xml:space="preserve">
-    <value>Elimină imaginea de copertă</value>
+    <value>Elimină imaginea de fundal</value>
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
-    <value>Ești sigur că vrei să elimini imaginea de copertă?</value>
+    <value>Ești sigur că vrei să elimini imaginea de fundal?</value>
   </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>Ultima Postare</value>
@@ -98,10 +98,10 @@
     <value>Niciun subiect!</value>
   </data>
   <data name="mark_as_read.forum" xml:space="preserve">
-    <value>Marchează forumul ca citit</value>
+    <value>Marchează forum-ul ca citit</value>
   </data>
   <data name="mark_as_read.forums" xml:space="preserve">
-    <value>Marchează forumurile ca citite</value>
+    <value>Marchează forum-urile ca citite</value>
   </data>
   <data name="mark_as_read.busy" xml:space="preserve">
     <value>Se marchează ca citit...</value>
@@ -113,7 +113,7 @@
     <value>Sigur dorești să restaurezi postarea?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
-    <value>Editat ultima dată de către {0} {1}, editat de {2} ori în total.</value>
+    <value>Editat ultima dată de către {0} {1}, editat o dată în total.|Editat ultima dată de către {0} {1}, editat de {2} ori în total.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
     <value>postat {0}</value>
@@ -137,10 +137,10 @@
     <value>Răspuns nou</value>
   </data>
   <data name="post.info.post_count" xml:space="preserve">
-    <value>{0} postare|{0} postări</value>
+    <value>o postare|{0} postări|{0} de postări</value>
   </data>
   <data name="post.info.topic_starter" xml:space="preserve">
-    <value>Începător de topic</value>
+    <value>Început de Subiect</value>
   </data>
   <data name="search.go_to_post" xml:space="preserve">
     <value>Mergi la postare</value>
@@ -152,10 +152,10 @@
     <value>{0} postări în total</value>
   </data>
   <data name="topic.confirm_destroy" xml:space="preserve">
-    <value>Sigur dorești să ștergi postarea?</value>
+    <value>Sigur dorești să ștergi subiectul?</value>
   </data>
   <data name="topic.confirm_restore" xml:space="preserve">
-    <value>Sigur dorești să restaurezi postarea?</value>
+    <value>Sigur dorești să restaurezi subiectul?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>subiect șters</value>
@@ -164,7 +164,7 @@
     <value>vezi cea mai recentă postare</value>
   </data>
   <data name="topic.has_replied" xml:space="preserve">
-    <value>Ai răspuns în acest topic</value>
+    <value>Ai răspuns în acest subiect</value>
   </data>
   <data name="topic.in_forum" xml:space="preserve">
     <value>in {0}</value>
@@ -221,16 +221,16 @@
     <value>Acest subiect a fost inactiv pentru o vreme. Dacă nu ai un motiv specific pentru a posta aici, te rugăm să {0} în schimb.</value>
   </data>
   <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
-    <value>crează un subiect nou</value>
+    <value>creează un subiect nou</value>
   </data>
   <data name="topic.create.placeholder.body" xml:space="preserve">
     <value>Introdu conținutul postării aici</value>
   </data>
   <data name="topic.create.placeholder.title" xml:space="preserve">
-    <value>Apasă aici pentru a stabili un titlu</value>
+    <value>Faceți clic aici pentru a stabili un titlu</value>
   </data>
   <data name="topic.jump.enter" xml:space="preserve">
-    <value>click pentru a introduce numărul postării</value>
+    <value>faceți clic pentru a introduce numărul postării</value>
   </data>
   <data name="topic.jump.first" xml:space="preserve">
     <value>mergi la prima postare</value>
@@ -245,10 +245,10 @@
     <value>mergi înapoi 10 postări</value>
   </data>
   <data name="topic.logs._" xml:space="preserve">
-    <value>Jurnal subiecte</value>
+    <value>Istoric subiecte</value>
   </data>
   <data name="topic.logs.button" xml:space="preserve">
-    <value>Răsfoiți jurnal cu subiecte</value>
+    <value>Navigați istoricul subiectului</value>
   </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Acțiune </value>
@@ -260,7 +260,7 @@
     <value>Utilizator</value>
   </data>
   <data name="topic.logs.data.add_tag" xml:space="preserve">
-    <value>adăugat eticheta "{0}"</value>
+    <value>adăugat tag-ul "{0}"</value>
   </data>
   <data name="topic.logs.data.announcement" xml:space="preserve">
     <value>subiect fixat şi marcat ca anunţ</value>
@@ -278,7 +278,7 @@
     <value>postat de {0}</value>
   </data>
   <data name="topic.logs.data.remove_tag" xml:space="preserve">
-    <value>eliminat eticheta "{0}"</value>
+    <value>eliminat tag-ul "{0}"</value>
   </data>
   <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
     <value>din {0}</value>
@@ -287,7 +287,7 @@
     <value>subiect nefixat </value>
   </data>
   <data name="topic.logs.no_results" xml:space="preserve">
-    <value>niciun jurnal găsit...</value>
+    <value>niciun istoric găsit...</value>
   </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>Postare ștearsă</value>
@@ -296,7 +296,7 @@
     <value>Subiect șters </value>
   </data>
   <data name="topic.logs.operations.edit_topic" xml:space="preserve">
-    <value>Subiectul titlului a fost modificat</value>
+    <value>Titlul subiectului a fost modificat</value>
   </data>
   <data name="topic.logs.operations.edit_poll" xml:space="preserve">
     <value>Sondaj subiect modificat</value>
@@ -305,10 +305,10 @@
     <value>Subiect copiat</value>
   </data>
   <data name="topic.logs.operations.issue_tag" xml:space="preserve">
-    <value>Etichetă publicată </value>
+    <value>Tag adăugat</value>
   </data>
   <data name="topic.logs.operations.lock" xml:space="preserve">
-    <value>Subiect închis </value>
+    <value>Subiect blocat</value>
   </data>
   <data name="topic.logs.operations.merge" xml:space="preserve">
     <value>Postări unite în acest subiect</value>
@@ -320,28 +320,28 @@
     <value>Subiect fixat</value>
   </data>
   <data name="topic.logs.operations.post_edited" xml:space="preserve">
-    <value>Postare editată </value>
+    <value>Postare editată</value>
   </data>
   <data name="topic.logs.operations.restore_post" xml:space="preserve">
-    <value>Postare restaurată </value>
+    <value>Postare restaurată</value>
   </data>
   <data name="topic.logs.operations.restore_topic" xml:space="preserve">
-    <value>Subiect restaurat </value>
+    <value>Subiect restaurat</value>
   </data>
   <data name="topic.logs.operations.split_destination" xml:space="preserve">
     <value>Mesaje separate mutate</value>
   </data>
   <data name="topic.logs.operations.split_source" xml:space="preserve">
-    <value>Separă postările </value>
+    <value>Separă postările</value>
   </data>
   <data name="topic.logs.operations.topic_type" xml:space="preserve">
-    <value>Setează tipul subiectului </value>
+    <value>Setează tipul subiectului</value>
   </data>
   <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
     <value>Tipul subiectului a fost modificat</value>
   </data>
   <data name="topic.logs.operations.unlock" xml:space="preserve">
-    <value>Subiect deschis</value>
+    <value>Subiect deblocat</value>
   </data>
   <data name="topic.logs.operations.unpin" xml:space="preserve">
     <value>Subiect nefixat</value>
@@ -359,19 +359,19 @@
     <value>Salvează</value>
   </data>
   <data name="topic_watches.index.title_compact" xml:space="preserve">
-    <value>abonamente</value>
+    <value>abonamente subiecte forum</value>
   </data>
   <data name="topic_watches.index.box.total" xml:space="preserve">
-    <value>Subiecte la care te-ai abonat</value>
+    <value>Subiecte abonate</value>
   </data>
   <data name="topic_watches.index.box.unread" xml:space="preserve">
     <value>Subiecte cu răspunsuri noi</value>
   </data>
   <data name="topic_watches.index.info.total" xml:space="preserve">
-    <value>Tu ești abonat la {0} subiecte.</value>
+    <value>Te-ai abonat la {0} subiecte.</value>
   </data>
   <data name="topic_watches.index.info.unread" xml:space="preserve">
-    <value>Tu ai {0} răspunsuri necitite la subiectele la care te-ai abonat.</value>
+    <value>Aveți {0} răspunsuri necitite la subiecte abonate.</value>
   </data>
   <data name="topic_watches.topic_buttons.remove.confirmation" xml:space="preserve">
     <value>Te dezabonezi de la acest subiect?</value>
@@ -533,7 +533,7 @@
     <value>Deblochează subiectul</value>
   </data>
   <data name="topics.lock.to_0_confirm" xml:space="preserve">
-    <value>Deblochează topicul?</value>
+    <value>Deblochează subiectul?</value>
   </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Subiectul a fost deblocat</value>
@@ -542,7 +542,7 @@
     <value>Blochează subiectul</value>
   </data>
   <data name="topics.lock.to_1_confirm" xml:space="preserve">
-    <value>Blochează topicul?</value>
+    <value>Blochează subiectul?</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
     <value>Subiectul a fost blocat</value>
@@ -551,10 +551,10 @@
     <value>Mergi la un alt forum</value>
   </data>
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
-    <value>Anulează fixarea subiectului</value>
+    <value>Defixează subiectului</value>
   </data>
   <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
-    <value>Nu mai fixa topicul?</value>
+    <value>Defixezi subiectul?</value>
   </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Subiectul nu mai este fixat</value>
@@ -563,7 +563,7 @@
     <value>Fixează subiectul</value>
   </data>
   <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
-    <value>Fixează topicul?</value>
+    <value>Fixează subiectul?</value>
   </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
     <value>Subiectul a fost fixat</value>
@@ -572,7 +572,7 @@
     <value>Fixează subiectul și marchează-l ca un anunț</value>
   </data>
   <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
-    <value>Fixează topicul și marchează-l ca anunț?</value>
+    <value>Fixează subiectul și marchează-l ca un anunț?</value>
   </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Subiectul a fost fixat și marcat ca un anunț</value>
@@ -590,7 +590,7 @@
     <value>Total postări</value>
   </data>
   <data name="topics.show.feature_vote.current" xml:space="preserve">
-    <value>Prioritate curentă: +{0}</value>
+    <value>Prioritate actuală: +{0}</value>
   </data>
   <data name="topics.show.feature_vote.do" xml:space="preserve">
     <value>Promovează această cerere</value>
@@ -599,13 +599,13 @@
     <value>Aceasta este o {0}. Cererile pot fi votate de către {1}.</value>
   </data>
   <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
-    <value>cerere de avantaje</value>
+    <value>solicitare funcție</value>
   </data>
   <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
     <value>suporteri</value>
   </data>
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
-    <value>{0} niciun vot|{1} {0} vot|[2,*] {0} voturi</value>
+    <value>{0} niciun vot|{1} un vot|[2,19] {0} voturi|[20,*] {0} de voturi</value>
   </data>
   <data name="topics.show.feature_vote.user.current" xml:space="preserve">
     <value>Tu ai {0} rămase.</value>
@@ -656,9 +656,9 @@
     <value>Marchează cu notificare</value>
   </data>
   <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
-    <value>Notificările sunt activate. Click pentru a le dezactiva</value>
+    <value>Notificările sunt activate. Faceți clic pentru a le dezactiva</value>
   </data>
   <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
-    <value>Notificările sunt dezactivate. Click pentru a le activa</value>
+    <value>Notificările sunt dezactivate. Faceți clic pentru a le activa</value>
   </data>
 </root>
