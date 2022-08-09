@@ -40,6 +40,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CannotSendUser => new TranslatableString(getKey(@"cannot_send.user"), @"You cannot message this user at this time.");
 
         /// <summary>
+        /// "Do you want to hide this channel? You will still receive messages from this channel."
+        /// </summary>
+        public static LocalisableString ChannelsConfirmPart => new TranslatableString(getKey(@"channels.confirm_part"), @"Do you want to hide this channel? You will still receive messages from this channel.");
+
+        /// <summary>
         /// "create announcement"
         /// </summary>
         public static LocalisableString ChannelsCreate => new TranslatableString(getKey(@"channels.create"), @"create announcement");

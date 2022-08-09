@@ -65,7 +65,7 @@
     <value>Postările generate de sistem nu pot fi editate.</value>
   </data>
   <data name="authorizations.update.wrong_user" xml:space="preserve">
-    <value>Trebuie să fii proprietarul postării pentru a o edita.</value>
+    <value>Trebuie să fii creatorul postării pentru a o edita.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
     <value>Nu s-a întâmplat nimic... încă.</value>
@@ -74,7 +74,7 @@
     <value>șters</value>
   </data>
   <data name="index.none_found" xml:space="preserve">
-    <value>Nicio discuție întâlnește criteriul acela de căutare.</value>
+    <value>Nu au fost găsite discuții potrivite pentru criteriile de căutare.</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Discuții despre beatmap</value>
@@ -84,6 +84,9 @@
   </data>
   <data name="index.form.deleted" xml:space="preserve">
     <value>Include discuțiile șterse</value>
+  </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Mod beatmap</value>
   </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
     <value>Arată doar discuții nerezolvate</value>
@@ -95,7 +98,7 @@
     <value>Nume de utilizator</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Status de Beatmap</value>
+    <value>Status Beatmap</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Tot</value>
@@ -134,10 +137,22 @@
     <value>Niciuna dintre aceste postări nu mă preocupă</value>
   </data>
   <data name="nearby_posts.notice" xml:space="preserve">
-    <value>Există postări în jurul {0} ({1}). Te rugăm să verifici înainte de a posta.</value>
+    <value>Există postări în jurul {0} ({1}). Te rugăm să le verifici înainte de a posta.</value>
   </data>
   <data name="nearby_posts.unsaved" xml:space="preserve">
     <value>{0} în această recenzie</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Creatorul Dificultății</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Resetați creatorul pentru această dificultate?</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Dificultate</value>
   </data>
   <data name="reply.open.guest" xml:space="preserve">
     <value>Conectează-te pentru a răspunde</value>
@@ -149,7 +164,7 @@
     <value>{0} / {1} blocuri folosite</value>
   </data>
   <data name="review.go_to_parent" xml:space="preserve">
-    <value>Vezi review-ul utilizatorului</value>
+    <value>Vezi Recenzia</value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
     <value>Vezi Discuția</value>
@@ -158,28 +173,31 @@
     <value>fiecare bloc poate conține până la {0} caractere</value>
   </data>
   <data name="review.validation.external_references" xml:space="preserve">
-    <value>recenzia conține referințe la probleme care nu aparțin la această revizuire</value>
+    <value>recenzia conține referințe la probleme care nu aparțin acestei recenzii</value>
   </data>
   <data name="review.validation.invalid_block_type" xml:space="preserve">
-    <value>tip de block invalid</value>
+    <value>tip bloc invalid</value>
   </data>
   <data name="review.validation.invalid_document" xml:space="preserve">
     <value>recenzie invalidă</value>
   </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>tip invalid de discuție</value>
+  </data>
   <data name="review.validation.minimum_issues" xml:space="preserve">
-    <value>recezia trebuie să conțină un minimum de {0} problemă|recenzia trebuie să conțină un minimum de {0} probleme</value>
+    <value>recezia trebuie să conțină minim o problemă|recenzia trebuie să conțină un minim de {0} probleme</value>
   </data>
   <data name="review.validation.missing_text" xml:space="preserve">
-    <value>block-ul e lipsit de text</value>
+    <value>blocul e lipsit de text</value>
   </data>
   <data name="review.validation.too_many_blocks" xml:space="preserve">
-    <value>recenziile pot să conțină doar {0} paragrafe/probleme|recenziile pot să conțină doar până la {0} paragrafe/probleme</value>
+    <value>recenziile pot să conțină doar un paragraf/problemă|recenziile pot să conțină doar până la {0} paragrafe/probleme</value>
   </data>
   <data name="system.resolved.true" xml:space="preserve">
-    <value>Marcat ca rezolvat de {0}</value>
+    <value>Marcat ca și rezolvat de {0}</value>
   </data>
   <data name="system.resolved.false" xml:space="preserve">
-    <value>Redeschis de {0}</value>
+    <value>Redeschis de către {0}</value>
   </data>
   <data name="timestamp_display.general" xml:space="preserve">
     <value>general</value>
@@ -191,6 +209,6 @@
     <value>Toată lumea</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
-    <value>Filtrează după utilizator</value>
+    <value>Filtrare după utilizator</value>
   </data>
 </root>
