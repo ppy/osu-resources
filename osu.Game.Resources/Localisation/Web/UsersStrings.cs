@@ -940,6 +940,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraAccountStandingRecentInfringementsActionsSilence => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.actions.silence"), @"Silence");
 
         /// <summary>
+        /// "Tournament ban"
+        /// </summary>
+        public static LocalisableString ShowExtraAccountStandingRecentInfringementsActionsTournamentBan => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.actions.tournament_ban"), @"Tournament ban");
+
+        /// <summary>
         /// "Note"
         /// </summary>
         public static LocalisableString ShowExtraAccountStandingRecentInfringementsActionsNote => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.actions.note"), @"Note");
