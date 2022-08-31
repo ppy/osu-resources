@@ -35,11 +35,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditAvatarRulesLink => new TranslatableString(getKey(@"edit.avatar.rules_link"), @"the community rules");
 
         /// <summary>
-        /// "current email"
-        /// </summary>
-        public static LocalisableString EditEmailCurrent => new TranslatableString(getKey(@"edit.email.current"), @"current email");
-
-        /// <summary>
         /// "new email"
         /// </summary>
         public static LocalisableString EditEmailNew => new TranslatableString(getKey(@"edit.email.new"), @"new email");
