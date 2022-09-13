@@ -77,10 +77,10 @@
     <value>Модератор відновив публікацію з дискусії {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
-    <value>Модератор відновив відгук в {0}.</value>
+    <value>Модератор відновив дискусію {0}.</value>
   </data>
   <data name="event.discussion_unlock" xml:space="preserve">
-    <value>Обговорення цієї карти відключено.</value>
+    <value>Обговорення цієї карти було увімкнено.</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
     <value>Дискваліфіковано {0}. Причина: {1} ({2}).</value>
@@ -92,10 +92,10 @@
     <value>Жанр змінено з {0} на {1}.</value>
   </data>
   <data name="event.issue_reopen" xml:space="preserve">
-    <value>Проблема в {0} знову вирішена.</value>
+    <value>Вирішена проблема {0} від {1} знову відкрита {2}.</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
-    <value>Проблема {0} відмічена як вирішена.</value>
+    <value>Проблема {0} від {1} була помічена як вирішена {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
     <value>Кудосу з відгуку {0} були вилучені.</value>
@@ -122,13 +122,13 @@
     <value>Номіновано {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
-    <value>Номінована від {0} ({1})</value>
+    <value>Номіновано {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Через нову проблему в {0} ({1}) статус номінації був скинутий.</value>
+    <value>Через нову проблему в {0} ({1}) статус номінації було скинуто.</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
-    <value>Число {0} було скинуто на {1} ({2})</value>
+    <value>Номінація від {0} була скинута {1} ({2})</value>
   </data>
   <data name="event.nomination_reset_received_profile" xml:space="preserve">
     <value>Номінація була скинута {0} ({1}) </value>
@@ -137,13 +137,13 @@
     <value>Онлайн офсет змінився з {0} на {1}</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Ця карта була номінована достатню кількість разів для кваліфікації.</value>
+    <value>Ця мапа отримала достатню кількість номінацій й була кваліфікована.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Рейтинговий.</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
-    <value>Вилучено з категорії Loved користувачем {0}. ({1})</value>
+    <value>Видалено з категорії Loved користувачем {0}. ({1})</value>
   </data>
   <data name="event.nsfw_toggle.to_0" xml:space="preserve">
     <value>Видалена позначка непристойного вмісту</value>
@@ -152,7 +152,7 @@
     <value>Має непристойний вміст</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Події карти</value>
+    <value>Події бітмапи</value>
   </data>
   <data name="index.form.period" xml:space="preserve">
     <value>Період</value>
@@ -197,7 +197,7 @@
     <value>Відновлення обговорення</value>
   </data>
   <data name="type.issue_resolve" xml:space="preserve">
-    <value>Обговорення вирішення</value>
+    <value>Вирішення дискусії</value>
   </data>
   <data name="type.kudosu_allow" xml:space="preserve">
     <value>Ліміт кудосу</value>
@@ -218,16 +218,16 @@
     <value>Зміна мови</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Любов</value>
+    <value>Номінування в улюблені</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Номінація</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
-    <value>Скинути номінацію</value>
+    <value>Скидання номінації</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>Запрос на обнулення номінації був відправлений</value>
+    <value>Отримано скасування номінації</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Непристойний вміст</value>
@@ -242,6 +242,6 @@
     <value>Рейтинг</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Улюблене видалення</value>
+    <value>Вилучення з улюблених</value>
   </data>
 </root>

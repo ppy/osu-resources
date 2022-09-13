@@ -579,6 +579,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString MailUserUserBeatmapsetNewUserBeatmapsetNew(LocalisableString username) => new TranslatableString(getKey(@"mail.user.user_beatmapset_new.user_beatmapset_new"), @"{0} has created new beatmaps", username);
 
+        /// <summary>
+        /// "{0} has revived beatmaps"
+        /// </summary>
+        public static LocalisableString MailUserUserBeatmapsetNewUserBeatmapsetRevive(LocalisableString username) => new TranslatableString(getKey(@"mail.user.user_beatmapset_new.user_beatmapset_revive"), @"{0} has revived beatmaps", username);
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

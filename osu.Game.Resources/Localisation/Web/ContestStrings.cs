@@ -65,6 +65,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString VotingProgressDefault(LocalisableString used, LocalisableString max) => new TranslatableString(getKey(@"voting.progress._"), @"{0} / {1} votes used", used, max);
 
         /// <summary>
+        /// "Must play all beatmaps in the specified playlists before voting"
+        /// </summary>
+        public static LocalisableString VotingRequirementPlaylistBeatmapsetsIncompletePlay => new TranslatableString(getKey(@"voting.requirement.playlist_beatmapsets.incomplete_play"), @"Must play all beatmaps in the specified playlists before voting");
+
+        /// <summary>
         /// "entry"
         /// </summary>
         public static LocalisableString EntryDefault => new TranslatableString(getKey(@"entry._"), @"entry");
