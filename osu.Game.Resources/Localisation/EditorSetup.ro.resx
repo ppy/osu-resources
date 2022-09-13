@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Setup Beatmap</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>modifică setările generale ale beatmap-ului</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Culori</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Combo-uri Cerc / Slider</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Activează numărătoare</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Dacă este activat, o numărătoare "Ești gata? 3, 2, 1, START!" va fi introdusă la începutul beatmap-ului, presupunând că există suficient timp pentru a face acest lucru.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Viteză numărătoare</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Dacă numărătoarea sună desincronizată, foloseste această opțiune pentru a începe mai devreme.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Decalaj numărătoare</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Suport widescreen</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Permite storyboard-urilor să folosească spațiul întregului ecran, în loc să fie limitate la o zonă 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Avertizare de epilepsie</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Recomandat dacă storyboard-ul sau videoclipul conține scene rapid intermitente.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox în timpul pauzelor</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Adaugă un letterbox orizontal pentru a crea o impresie cinematografică în timpul pauzelor.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Sample-urile urmăresc rata de redare</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Când este activată, toate sample-urile vor accelera sau încetini când modurile de schimbare a ratei de redare sunt activate.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Dimensiunea tuturor hit-object-urilor</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Rata de pierdere pasivă de viață de-a lungul jocului</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Viteza cu care obiectele sunt prezentate jucătorului</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Gradul de dificultate al ferestrelor de lovitură și dificultatea obiectelor speciale (ex. spinner-uri)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Date Melodie</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Artist Romanizat</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Titlu Romanizat</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Nume Dificultate</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Resurse</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Melodie</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Clic pentru a selecta melodia</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Clic pentru a înlocui melodia</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Clic pentru a selecta o imagine de fundal</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Clic pentru a înlocui imaginea de fundal</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Ruleset ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Dificultate</value>
+  </data>
+</root>

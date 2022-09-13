@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Pengaturan Beatmap</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>ubah pengaturan umum beatmap yang kamu buat</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Warna</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Kombo Hit Circle / Slider</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Desain</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Aktifkan hitungan mundur</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Apabila diaktifkan, beatmap akan menyertakan hitungan mundur "Are you ready? 3, 2, 1, GO!" sebelum permainan dimulai apabila terdapat cukup waktu.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Kecepatan hitungan mundur</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Apabila hitungan mundur yang muncul tidak terdengar sesuai dengan musik, gunakan pengaturan ini untuk memundurkan hitungan mundur sejauh satu beat atau lebih.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Offset hitungan mundur</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Dukungan layar lebar</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Memungkinkan storyboard untuk menggunakan seluruh ruang yang ada pada layar alih-alih terbatas hanya pada area 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Peringatan epilepsi</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Disarankan apabila storyboard atau video mengandung adegan yang berkedip secara kilat.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox pada saat break</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Menampilkan kotak hitam di bagian atas dan bawah layar pada saat break untuk efek dramatis seperti di film-film.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Samakan laju pemutaran sampel dengan lagu</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Apabila diaktifkan, seluruh sampel hitsound akan turut diputar secara lebih cepat atau lebih lambat pada saat beatmap dimainkan dengan mod yang mengubah kecepatan lagu.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Ukuran seluruh hit object</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Laju penurunan health bar pasif dalam permainan</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Kecepatan kemunculan hit object</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Keketatan hit window dan tingkat kesulitan objek tertentu (semisal spinner)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Artis (Teromanisasi)</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Judul (Teromanisasi)</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Pembuat</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Nama Tingkat Kesulitan</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Sumber Daya</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Berkas Lagu</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Klik untuk memilih berkas lagu</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Klik untuk mengubah berkas lagu</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Klik untuk memilih gambar latar</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Klik untuk mengubah gambar latar</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Ruleset ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Kombo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Artis</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Tingkat Kesulitan</value>
+  </data>
+</root>

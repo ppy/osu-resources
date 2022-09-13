@@ -58,8 +58,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Kaj raje meniš na igranje osu! igre?</value>
+  </data>
   <data name="require_login" xml:space="preserve">
     <value>Za nadaljevanje se morate prijaviti.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Preden nadaljuješ, se verificiraj.</value>
   </data>
   <data name="restricted" xml:space="preserve">
     <value>Tega ni mogoče izvesti, ker ste omejeni.</value>
@@ -85,8 +91,17 @@
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>Ne morete nominirati lastnega beatmapa.</value>
   </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Nastavitev žanra in jezika je potrebna pred nominacijo.</value>
+  </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>Samo stvaritelj teme in lastnik beatmapa lahko skleneta razpravo.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Samo lastnik beatmape ali član nominator/NAT skupine lahko objavi avtorjeve zapiske.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Glasovanje na razpravo, ki jo je kreiral robot, ni možno</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
     <value>Prosimo, počakajte nekaj časa, preden glasujete naprej</value>
@@ -97,14 +112,71 @@
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
     <value>Glasuje se lahko samo na razpravah nepotrjenih beatmapov.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Odstraniš lahko le svoje objave.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Objavo, ki je bila rešena, ni možno odstraniti.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Avtomatsko generirane objave ni možno odstraniti.</value>
+  </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Samo avtor lahko ureja objavo.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Objavo, ki je bila rešena, ni možno urejati.</value>
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Samodejno generirane objave ni mogoče urejati.</value>
   </data>
+  <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
+    <value>Ta beatmapa je zaklenjena za razpravo.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Urejanje metadata nominirane beatmape ni mogoče. Kontaktiraj člana BN ali NAT če misliš, da je ta narobe nastavljen.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Ta kanal je namenjen za obvestila.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>Ni možno klepetati z igralcem, ki te je blokiral ali si ga ti blokiral.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Igralec ima blokirana sporočila od drugih, ki niso na njegovem seznamu prijateljev.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Ta kanal je trenutno moderiran.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>Nimaš dostopa do tega kanala.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Igralec morda ne bo mogel odgovoriti, ker lahko sprejemaš le sporočila od igralcev s seznama prijateljev.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>Ne moreš pošiljati sporočila medtem, ko si utišan, omejen ali suspendiran.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Ne moreš pošiljati sporočila medtem, ko si utišan, omejen ali suspendiran.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Komentarji so onemogočeni</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>Izbrisane objave ni možno urejati.</value>
+  </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Ne morete spremeniti glasu, potem ko se je glasovanje za to tekmovanje končalo.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Dosegel si vstopno omejitev za to tekmovanje</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Hvala za sodelovanje! Prostor za objave se je zaprl za to tekmovanje in glasovanje se bo kmalu pričelo.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Nimaš dovoljenja za moderiranje tega foruma.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
     <value>Samo zadnjo objavo je možno izbrisati.</value>
@@ -139,6 +211,9 @@
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
     <value>Preden lahko naprej objavljate, morate igrati igro. Če imate težave z igranjem, nam pišite na e-poštni naslov support@ppy.sh</value>
   </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Uredi zadnjo objavo namesto kreiranja nove objave.</value>
+  </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>Ni možno odgovoriti v zaklenjeni temi.</value>
   </data>
@@ -172,6 +247,9 @@
   <data name="forum.topic.vote.over" xml:space="preserve">
     <value>Glasovanje je končano, zato na njem ni več mogoče glasovati.</value>
   </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Potrebno je več igranja, preden lahko glasuješ na forumu.</value>
+  </data>
   <data name="forum.topic.vote.voted" xml:space="preserve">
     <value>Spreminjanje glasu ni dovoljeno.</value>
   </data>
@@ -193,13 +271,25 @@
   <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
     <value>Samo lastnik lahko ureja naslovnico.</value>
   </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Ta forum ne sprejema ozadij za teme.</value>
+  </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Samo administrator si lahko ogleda ta forum.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Samo lastnik rezultata lahko pripne rezultat.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Pripeto je preveč rezultatov.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Uporabniška stran je zaklenjena.</value>
   </data>
   <data name="user.page.edit.not_owner" xml:space="preserve">
     <value>Možno je urejati le lastno uporabniško stran.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>Potrebna je osu!supporter značka.</value>
   </data>
 </root>

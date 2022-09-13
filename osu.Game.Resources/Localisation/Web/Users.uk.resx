@@ -128,7 +128,7 @@
     <value>Врахуйте, у випадку порушення вами правил, то як мінімум місяць ви не будете мати змоги оскаржити блокування, під час цього періоду ваші спроби будуть проігноровані. Після закінчення одного місяця ви можете зв'язатися з нами, якщо вважаєте це обов'язковим. Також знайте, що створення нових облікових записів для уникнення блокування &lt;strong&gt;лише подовжать місячний період ігнорування &lt;/strong&gt;в який ви не зможете відновити обліковий запис. До того, &lt;strong&gt;створення нових вторинних облікових записів заборонено правилами&lt;/strong&gt;, тому дуже радимо вам - не йдіть по цьому шляху!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Якщо вам здається, що це помилка, ми можете зв'язатися з нами (через {0} або після натискання  на "?" у правому нижньому кутку цієї сторінки). Зверніть увагу, що ми завжди впевнені у своїх діях, тому, що вони базуються на дуже надійних даних. Ми залишаємо за собою право відмови ваших запитів, якщо ми відчуємо що ви навмисно не честні з нами.</value>
+    <value>Якщо вам здається, що це помилка, ми можете зв'язатися з нами (через {0} або після натискання  на "?" у правому нижньому кутку цієї сторінки). Зверніть увагу, що ми завжди впевнені у своїх діях, тому, що вони базуються на дуже надійних даних. Ми залишаємо за собою право відмови ваших запитів, якщо ми відчуємо що ви навмисно не є чесними з нами.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>ел. пошті</value>
@@ -176,10 +176,10 @@
     <value>Увійдіть, щоб продовжити</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Занадто багато невдалих спроб входу в систему, будь ласка, завершіть капчу і спробуйте ще раз. (Оновити сторінку, якщо капча не видима)</value>
+    <value>Занадто багато невдалих спроб входу, будь ласка, завершіть капчу й спробуйте ще раз. (Оновіть сторінку, якщо капчу не видно)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
-    <value>Ваш IP адрес заблокований. Будь ласка, спробуйте пізніше.</value>
+    <value>Вашу IP адресу заблоковано. Будь ласка, спробуйте пізніше.</value>
   </data>
   <data name="login.password" xml:space="preserve">
     <value>Пароль</value>
@@ -200,7 +200,7 @@
     <value>Доступ до бета-версії обмежений.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
-    <value>(osu!supporters отримають доступ пізніше)</value>
+    <value>(osu!прихильники отримають доступ пізніше)</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>Публікації {0}</value>
@@ -314,13 +314,13 @@
     <value>Опубліковано {0}</value>
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
-    <value>{0} коментар|{0} коментарі</value>
+    <value>{0} коментар|{0} коментарі|{0} коментарів</value>
   </data>
   <data name="show.cover.to_0" xml:space="preserve">
-    <value>Згорнути банер</value>
+    <value>Згорнути обкладинку профілю</value>
   </data>
   <data name="show.cover.to_1" xml:space="preserve">
-    <value>Розгорнути банер</value>
+    <value>Розгорнути обкладинку профілю</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Змінити обкладинку профілю</value>
@@ -380,16 +380,16 @@
     <value>від {0}</value>
   </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
-    <value>Карти</value>
+    <value>Мапи</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
-    <value>Улюблені карти</value>
+    <value>Вподобайки</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Закинуті карти</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Карти с гостьовими складностями</value>
+    <value>Мапи з гостьовими складностями</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Улюблені карти</value>
@@ -431,7 +431,7 @@
     <value>разів зіграно</value>
   </data>
   <data name="show.extra.historical.most_played.title" xml:space="preserve">
-    <value>Найбільше зіграні карти</value>
+    <value>Найбільше зіграні мапи</value>
   </data>
   <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
     <value>точність: {0}</value>
@@ -497,7 +497,7 @@
     <value>Залежить від того, скільки вкладу користувач вніс у модерацію карт. Відвідайте {0} для додаткової інформації.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
-    <value>цієї сторінки</value>
+    <value>цю сторінку</value>
   </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>про мене!</value>
@@ -533,13 +533,13 @@
     <value>Завантажити повтор</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Очки продуктивності видаються тільки за рейтингові або одобрені карти.</value>
+    <value>Очки продуктивності видаються тільки за рейтингові карти</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>зважено: {0}</value>
   </data>
   <data name="show.extra.top_ranks.view_details" xml:space="preserve">
-    <value>Придивитися до деталей</value>
+    <value>Детальніше</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
     <value>Рейтинги</value>
@@ -548,7 +548,7 @@
     <value>Кращі результати</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>Рекорди</value>
+    <value>Перші місця</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Відкріпити</value>
@@ -572,22 +572,22 @@
     <value>Голосів отримано (за 3 місяці)</value>
   </data>
   <data name="show.extra.votes.title" xml:space="preserve">
-    <value>Голосів</value>
+    <value>Голоси</value>
   </data>
   <data name="show.extra.votes.title_longer" xml:space="preserve">
-    <value>Недавні голосу</value>
+    <value>Недавні голоси</value>
   </data>
   <data name="show.extra.votes.vote_count" xml:space="preserve">
-    <value>{0} голос|{0} голосів</value>
+    <value>{0} голос|{0} голоси|{0} голосів</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
     <value>Статус акаунту</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>акаунт &lt;strong&gt;{0} &lt;/strong&gt; не в хорошому стані :(</value>
+    <value>акаунт {0} не в хорошому стані :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>користувачу &lt;strong&gt;{0} &lt;/strong&gt; можна буде говорити через {1}.</value>
+    <value>користувачу {0} можна буде спілкуватись через {1}.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Недавні порушення</value>
@@ -623,7 +623,7 @@
     <value>Замітка</value>
   </data>
   <data name="show.info.interests" xml:space="preserve">
-    <value>Вподобання</value>
+    <value>Інтереси</value>
   </data>
   <data name="show.info.location" xml:space="preserve">
     <value>Поточне місцезнаходження</value>
@@ -722,16 +722,16 @@
     <value>Всього очків</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>Закинуті карти</value>
+    <value>Закинуті мапи</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Улюблені карти</value>
+    <value>Улюблені мапи</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
-    <value>Карти на розгляді</value>
+    <value>Мапи на розгляді</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>Рейтингові і схвалені карти</value>
+    <value>Рейтингові та схвалені мапи</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>Наразі ви заглушені. </value>
