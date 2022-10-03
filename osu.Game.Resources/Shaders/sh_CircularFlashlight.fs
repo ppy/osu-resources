@@ -6,5 +6,5 @@ lowp vec4 getColourAt(highp vec2 diff, highp vec2 size, lowp vec4 originalColour
     highp float dist = length(diff);
     highp float flashlightRadius = length(size);
 
-    return originalColour * vec4(1.0, 1.0, 1.0, smoothstep(flashlightRadius, flashlightRadius * smoothness, dist));
+    return originalColour * vec4(1.0, 1.0, 1.0, smoothstep(flashlightRadius, flashlightRadius * flashlightSmoothness, dist));
 }
