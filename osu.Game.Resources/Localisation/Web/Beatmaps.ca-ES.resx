@@ -421,8 +421,23 @@
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>aviat</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Segur que vols informar d'un problema en aquest beatmap? Això alertarà els Nominadors de Beatmaps.</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>escriu paraules clau...</value>
+  </data>
   <data name="listing.search.login_required" xml:space="preserve">
     <value>Inicieu la sessió per cercar.</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Més opcions de cerca</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Filtrar per {0} requereix d'una etiqueta osu!patrocinador activa</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>sense resultats</value>
   </data>
   <data name="listing.search.not-found-quote" xml:space="preserve">
     <value>... no, no s'ha trobat res.</value>
@@ -439,8 +454,17 @@
   <data name="listing.search.filters.language" xml:space="preserve">
     <value>Llengua</value>
   </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Contingut explícit</value>
+  </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Jugat</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Rang obtingut</value>
   </data>
   <data name="listing.search.filters.status" xml:space="preserve">
     <value>Categories</value>
@@ -466,6 +490,36 @@
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>Valoració</value>
   </data>
+  <data name="listing.search.sorting.plays" xml:space="preserve">
+    <value>Partides</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Rellevància</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Nominacions</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Filtrar per {0} requereix d'un {1} actiu</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>Etiqueta osu!patrocinador</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Inclou beatmaps convertits</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Artistes destacats</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Mappers subscrits</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Dificultat recomanada</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Beatmaps destacats</value>
+  </data>
   <data name="mode.all" xml:space="preserve">
     <value>Tots</value>
   </data>
@@ -478,8 +532,14 @@
   <data name="status.approved" xml:space="preserve">
     <value>Aprovat</value>
   </data>
+  <data name="status.favourites" xml:space="preserve">
+    <value>Preferits</value>
+  </data>
   <data name="status.graveyard" xml:space="preserve">
     <value>Abandonat</value>
+  </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Té marcador</value>
   </data>
   <data name="status.loved" xml:space="preserve">
     <value>Estimats</value>
@@ -508,6 +568,51 @@
   <data name="genre.video-game" xml:space="preserve">
     <value>Videojoc</value>
   </data>
+  <data name="genre.anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="genre.rock" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="genre.pop" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="genre.other" xml:space="preserve">
+    <value>Altre</value>
+  </data>
+  <data name="genre.novelty" xml:space="preserve">
+    <value>Novetat</value>
+  </data>
+  <data name="genre.hip-hop" xml:space="preserve">
+    <value>Hip Hop</value>
+  </data>
+  <data name="genre.electronic" xml:space="preserve">
+    <value>Electrònica</value>
+  </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Clàssica</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Folk</value>
+  </data>
+  <data name="genre.jazz" xml:space="preserve">
+    <value>Jazz</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Qualsevol</value>
+  </data>
+  <data name="language.english" xml:space="preserve">
+    <value>Anglès</value>
+  </data>
+  <data name="language.chinese" xml:space="preserve">
+    <value>Xinès</value>
+  </data>
+  <data name="language.french" xml:space="preserve">
+    <value>Francès</value>
+  </data>
   <data name="language.german" xml:space="preserve">
     <value>Alemany</value>
   </data>
@@ -519,6 +624,9 @@
   </data>
   <data name="language.korean" xml:space="preserve">
     <value>Coreà</value>
+  </data>
+  <data name="language.spanish" xml:space="preserve">
+    <value>Espanyol</value>
   </data>
   <data name="language.swedish" xml:space="preserve">
     <value>Suec</value>
@@ -539,7 +647,7 @@
     <value>Sense especificar</value>
   </data>
   <data name="nsfw.exclude" xml:space="preserve">
-    <value>Oculta</value>
+    <value>Amaga</value>
   </data>
   <data name="nsfw.include" xml:space="preserve">
     <value>Mostra</value>

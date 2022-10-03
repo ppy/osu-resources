@@ -131,37 +131,37 @@
     <value>Ще немає обговорень!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
-    <value>Жодне обговорення не відповідає вибраному фільтру.</value>
+    <value>Жодна дискусія не відповідає вибраному фільтру.</value>
   </data>
   <data name="discussions.lock.button.lock" xml:space="preserve">
-    <value>Заблокувати обговорення</value>
+    <value>Заблокувати дискусію</value>
   </data>
   <data name="discussions.lock.button.unlock" xml:space="preserve">
-    <value>Розблокувати обговорення</value>
+    <value>Розблокувати дискусію</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
     <value>Причина блокування</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>Ви впевнені, що хочете розблокувати обговорення?</value>
+    <value>Ви впевнені, що хочете розблокувати дискусію?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
     <value>Цей пост потрапить в загальну гілку обговорень. Щоб почати модерувати цю мапу, почніть своє повідомлення з зазначенням часу (наприклад 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Для зміни декількох часових позначок, опублікуйте їх декілька разів (одна публікація на позначку).</value>
+    <value>Для модингу декількох часових позначок, зробіть декілька дискусій (одна дискусія на позначку).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити обговорення в Загальний ({0})</value>
+    <value>Пишіть тут, щоб розмістити дискусію в Загальний ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити обговорення в Загальний (Всі складності)</value>
+    <value>Пишіть тут, щоб розмістити дискусію в Загальний (Всі складності)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Пишіть тут, щоб розмістити відгук</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити обговорення на Шкалі часу ({0})</value>
+    <value>Пишіть тут, щоб розмістити дискусію на шкалі часу ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Дискваліфікувати</value>
@@ -200,7 +200,7 @@
     <value>Відгуки</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>Графік</value>
+    <value>Шкала часу</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>Ця складність</value>
@@ -215,10 +215,10 @@
     <value>Мітка часу</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>натисніть ctrl-c в редакторі щоб скопіювати мітку часу!</value>
+    <value>натисніть ctrl-c в редакторі та вставте в повідомлення щоб додати мітку часу!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
-    <value>Нове обговорення</value>
+    <value>Нова дискусія</value>
   </data>
   <data name="discussions.new.unpin" xml:space="preserve">
     <value>Відкріпити</value>
@@ -230,7 +230,7 @@
     <value>Видалити</value>
   </data>
   <data name="discussions.review.embed.missing" xml:space="preserve">
-    <value>[ТЕМА ВИДАЛЕНА]</value>
+    <value>[ДИСКУСІЯ ВИДАЛЕНА]</value>
   </data>
   <data name="discussions.review.embed.unlink" xml:space="preserve">
     <value>Відв'язати</value>
@@ -242,7 +242,7 @@
     <value>Пости в "Всіх складнощах" не можуть мати часових відміток.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Якщо цей {0} починається з часової відмітки, воно буде показано під Хронологіею.</value>
+    <value>Якщо цей {0} починається з часової відмітки, його буде показано в Шкалі часу.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставити абзац</value>
@@ -278,7 +278,7 @@
     <value>Мої</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
-    <value>В очікуванні</value>
+    <value>Не вирішені</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
     <value>Похвали</value>
@@ -299,7 +299,7 @@
     <value>Ця карта була визнана "улюбленою" {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Ця карта потрапила в рангові {0}!</value>
+    <value>Ця карта потрапила в рейтингові {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Примітка: Ця карта була позначена автором як незавершена.</value>
@@ -362,7 +362,7 @@
     <value>Причина для дискваліфікації?</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>Дискваліфікований {0} ({1}).</value>
+    <value>Дискваліфіковано {0} ({1}).</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>без причини</value>
@@ -395,10 +395,10 @@
     <value>Недостатньо хайпів.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Вилучено з категорії Loved</value>
+    <value>Вилучено з категорії Улюблені</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Причина вилучення від категорії Loved:</value>
+    <value>Причина вилучення від категорії Улюблені:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Номінації: {0}/{1}</value>
@@ -413,13 +413,13 @@
     <value>Є ще деякі проблеми, які потребують першочергового вирішення.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Ця карта стане рейтинговою {0}, якщо ніяких проблем не буде знайдено. Вона #{1} в {2}.</value>
+    <value>Ця мапа стане рейтинговою {0}, якщо ніяких проблем не буде знайдено. Вона #{1} в {2}.</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>рейтинговому списку</value>
+    <value>черзі на рейтинг</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
-    <value>скоро</value>
+    <value>дуже скоро</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
     <value>{0} номінація була знята {1} через нову проблему {2} ({3})</value>
@@ -491,7 +491,7 @@
     <value>Складністю</value>
   </data>
   <data name="listing.search.sorting.favourites" xml:space="preserve">
-    <value>Вподобайки</value>
+    <value>Вподобані</value>
   </data>
   <data name="listing.search.sorting.updated" xml:space="preserve">
     <value>Датою оновлення</value>
@@ -560,7 +560,7 @@
     <value>Мої карти</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Очікуючі і в процесі розробки</value>
+    <value>На розгляді</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>В розробці</value>
@@ -569,7 +569,7 @@
     <value>Кваліфіковані</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
-    <value>Ранкнуті</value>
+    <value>Рейтингові</value>
   </data>
   <data name="genre.any" xml:space="preserve">
     <value>Всі</value>
@@ -593,7 +593,7 @@
     <value>Інші</value>
   </data>
   <data name="genre.novelty" xml:space="preserve">
-    <value>Нові</value>
+    <value>Нестандартні</value>
   </data>
   <data name="genre.hip-hop" xml:space="preserve">
     <value>Хіп-хоп</value>
@@ -677,7 +677,7 @@
     <value>З відео</value>
   </data>
   <data name="extra.storyboard" xml:space="preserve">
-    <value>Є сторіборди</value>
+    <value>Має сторіборд</value>
   </data>
   <data name="rank.any" xml:space="preserve">
     <value>Всі</value>
@@ -692,7 +692,7 @@
     <value>Кількість ігор: {0}</value>
   </data>
   <data name="panel.favourites" xml:space="preserve">
-    <value>Вподобайок: {0}</value>
+    <value>Вподобаних: {0}</value>
   </data>
   <data name="variant.mania.4k" xml:space="preserve">
     <value>4K</value>

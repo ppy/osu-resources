@@ -58,4 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>Послат је имејл на {0} са верификационим кодом. Укуцајте код.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Верификација налога</value>
+  </data>
+  <data name="box.verifying" xml:space="preserve">
+    <value>Проверавање...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>Шаље се нови код...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Немојте заборавити да погледате ваш спам фолдер ако не можете да нађете мејл.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Ако немате приступ вашем мејлу или сте заборавили који сте мејл користили, молимо Вас да пратите {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>процес повратка мејла</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>Такође можете {0} или {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>захтевај нови кôд</value>
+  </data>
+  <data name="box.info.logout_link" xml:space="preserve">
+    <value>одјави се</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>Верификациони код је истекао, нови верификациони мејл је послат.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Нетачан верификациони код.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Нетачан верификациони код. Максимални број покушаја је искоришћен, послат је нови верификациони мејл.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>Верификациони код је регенерисан, нови верификациони мејл је послат.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Десио се непознати проблем, послат је нови верификациони мејл.</value>
+  </data>
 </root>
