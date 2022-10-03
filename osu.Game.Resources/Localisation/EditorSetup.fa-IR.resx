@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>تنظیمات بیت مپ</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>تنظیمات اصلی بیت مپ خود را تغییر دهید</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>رنگ ها </value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>روی ترکیب دایره/اسلایدر کلیک کنید</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>طرح</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>شمارش معکوس را فعال کنید</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>اگر فعال باشد، یک شمارش معکوس "آماده اید؟ 3، 2، 1، برو!" در ابتدای بیت مپ با فرض اینکه زمان کافی برای انجام این کار وجود دارد، درج خواهد شد.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>سرعت شمارش معکوس</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>اگر صدای شمارش معکوس هماهنگ نیست، می توانید از این گزینه استفاده کنید تا بیک یا چند بیت زودتر ظاهر شود.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>تاخیر در شمارش معکوس</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>پشتیبانی از صفحه عریض</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>به استوری‌بردها اجازه می‌دهد از فضای تمام صفحه استفاده کنند، به‌جای محدود شدن به ناحیه 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>هشدار در مورد تشنج حساس به نور</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>اگر استوری برد یا فیلم شما دارای صحنه هایی با رنگ های سریع چشمک زن باشد، توصیه می شود.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>صندوق پست در زمان استراحت</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>جعبه نامه افقی را اضافه می کند تا در زمان استراحت ظاهری سینمایی ایجاد کند.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>نمونه ها با سرعت پخش مطابقت دارند</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>فعال کردن این ویژگی باعث افزایش یا کاهش تمام نمونه‌ها در زمانی که حالت تغییر نرخ فعال است، می‌شود.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>اندازه تمام اشیاء ضربه پذیر</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>میزان از دست دادن سلامت تاثیر پذیر در طول زمان قابل بازی</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>سرعت ظاهر شدن اشیا به بازیکن</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>سختی پنجره های ضربه پذیر و پیچیدگی اشیاء خاص (مانند اسپینرها)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>ابرداده</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>هنرمندی که با حروف رومی نوشته شده است</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>نام رومی</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>سازنده</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>نام درجه سختی</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>منابع</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>تراک صوتی</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>برای انتخاب آهنگ کلیک کنید</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>برای جایگزین کردن آهنگ کلیک کنید</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>برای انتخاب تصویر پس زمینه کلیک کنید</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>برای جایگزین کردن تصویر پس زمینه کلیک کنید</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>مجموعه قوانین ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>ترکیبی</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>هنرمند</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>درجه سختی</value>
+  </data>
+</root>

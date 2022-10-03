@@ -61,6 +61,12 @@
   <data name="deleted" xml:space="preserve">
     <value>"کاربر حذف شده"</value>
   </data>
+  <data name="beatmapset_activities.title" xml:space="preserve">
+    <value>سایقه بازخورد ارائه دادن {0}</value>
+  </data>
+  <data name="beatmapset_activities.title_compact" xml:space="preserve">
+    <value>بازخورد ارائه دادن</value>
+  </data>
   <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
     <value>گفت و گو های اخیرا آغاز شده</value>
   </data>
@@ -79,17 +85,26 @@
   <data name="blocks.banner_text" xml:space="preserve">
     <value>شما این کاربر را مسدود کرده اید.</value>
   </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>این نظر پنهان است.</value>
+  </data>
   <data name="blocks.blocked_count" xml:space="preserve">
     <value>کاربران مسدود شده ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
     <value>مخفی کردن پروفایل</value>
   </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>پنهان کردن</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>آن کاربر مسدود نشده است.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
     <value>نمایش نمایه</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>نمایش دادن</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
     <value>به حد نهایی محدودیت مسدودیت ها رسیدید.</value>
@@ -132,6 +147,9 @@
   </data>
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>شرایط خدمات</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>اعضا بر اساس حالت بازی</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>حساب کاربری شما مدت هاست استفاده نشده است.</value>
@@ -253,6 +271,9 @@
   <data name="restricted_banner.message" xml:space="preserve">
     <value>هنگامی که حساب شما محدود شده است، نمیتوانید با بازیکنان دیگر تعامل داشته باشید و امتیاز های شما فقط برای خودتان قابل مشاهده خواهد بود. این معمولا حاصل یک فرایند خودکار است و معمولا در عرض کمتر از 24 ساعت برداشته میشود. اگر درخواست تجدید نظر در محدودیت حسابتان دارید، &lt;a href="mailto{0}@ppy.sh"&gt; با پشتیبانی تماس بگیرید &lt;/a&gt;.</value>
   </data>
+  <data name="show.age" xml:space="preserve">
+    <value>{0} سال</value>
+  </data>
   <data name="show.change_avatar" xml:space="preserve">
     <value>آواتار خود را عوض کنید!</value>
   </data>
@@ -294,6 +315,12 @@
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} نظر|{0} نظرات</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>مخفی کردن پوشش</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>نمایش دادن پوشش</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>تغییر عکس نمایه</value>
@@ -360,6 +387,9 @@
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>بیت مپ های فراموش شده</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>بیت مپ های با مشارکت مهمان</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>بیت مپ های "دوست داشته شده"</value>
@@ -430,6 +460,45 @@
   <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
     <value>این کاربر هیچ kudosu ای دریافت نکرده است!</value>
   </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
+    <value>{0} دریافت شد بابت عدم لغو بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>حذف {0} بخاطر بازبینی کردن پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
+    <value>{0} از دست رفت بخاطر حذف کردن بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>{0} دریافت شد بخاطر بازگرداندن بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>{0} دریافت شد بخاطر کسب آراء در بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>{0} کم شد بخاطر از دست دادن آراء در بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>{0} دریافت شد بخاطر محاسبه مجدد آراء در بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>{0} کم شد بخاطر محاسبه مجدد آراء در بازبینی پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>{0} دریافت شد از {1} برای یک پست در {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>میزان کودوسو مجدداً تنظیم شد توسط {0} برای پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>کودوسو رد شد توسط {0} برای پست {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>بر اساس میزان مشارکت ایجاد شده توسط کاربر برای بازبینی بیت مپ است. برای اطلاعات بیشتر به {0} سر بزنید.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>این صفحه</value>
+  </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>درباره من!</value>
   </data>
@@ -442,6 +511,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>مدال ها</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>بازی های لیست پخش</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>پست ها</value>
   </data>
@@ -453,6 +525,9 @@
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>اخیر</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>بازی های چندنفره</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>دانلود بازپخش</value>
@@ -475,6 +550,21 @@
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>مقام های اول</value>
   </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>برداشتن سنجاق</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>سنجاق امتیاز برداشته شد</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>سنجاق کردن</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>امتیاز سنجاق شد</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>امتیاز ها سنجاق شد</value>
+  </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>رای داده (3 ماه اخیر)</value>
   </data>
@@ -487,17 +577,47 @@
   <data name="show.extra.votes.title_longer" xml:space="preserve">
     <value>رای های اخیر</value>
   </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} رأی|{0} آراء</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>وضعیت حساب</value>
+  </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
     <value>حساب کاربری &lt;strong&gt;{0}&lt;/strong&gt; وضعیت خوبی نداره :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
     <value>&lt;strong&gt;{0}&lt;/strong&gt; میتونه دوباره در {1} حرف بزنه.</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>تخلفات اخیر</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>اقدام انجام شده</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
+    <value>مدت</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
+    <value>دائمی</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
+    <value>توسط {0}</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
     <value>مسدود</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>ساکت کردن</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>ممنوعیت در مسابقات</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>یادداشت</value>
@@ -591,6 +711,9 @@
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
     <value>بازپخش های تماشا شده توسط بقیه</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>رتبه های امتیاز</value>
   </data>
   <data name="show.stats.total_hits" xml:space="preserve">
     <value>مجموع ضربه ها</value>

@@ -191,10 +191,10 @@
     <value>ビートマップがランキングのキューに入りました</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>「{0}」はrankedされました。</value>
+    <value>「{0}」はrankedになりました。</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>ビートマップがrankedされました。</value>
+    <value>ビートマップがrankedになりました。</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>「{0}」はlovedから削除されました</value>
@@ -353,7 +353,7 @@
     <value>新しい問題が「{0}」で報告されました</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>「{0}」はdisqualifyされました</value>
+    <value>「{0}」はqualifiedではなくなりました</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
     <value>「{0}」はlovedになりました</value>
@@ -396,5 +396,8 @@
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0}がビートマップを作成しました</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} がビートマップを復活させました</value>
   </data>
 </root>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Настройки на бийтмапа</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>промяна на основните бийтмап настройки</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Цветове</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Ударни кръгове /  Плъзгащи комбинации</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Дизайн</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Включено отброяване</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Ако е включено, известитето "Are you ready? 3, 2, 1, GO!" ще бъде добавено към началото на бийтмапа, приемайки че е оставено достатъчно стартово време.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Скорост на отброяване</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Ако отброяващите звуци на съвпадат, използвайте това за да ги нагласите по-рано.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Офсет на отброяване</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Широкоекранна поддръжка</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Позволява на анимациите да използват целия екран, вместо да бъдат конфигурирани към 4:3 размер.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Предупреждение за епилепсия</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Препоръчително е при анимации и видео съдържащи често премигващи цветове и сцени.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox ефект през почивките</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Добавя хоризонтални линии отгоре и долу за кинематографичен вид по време на почивките.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Шаблоните да съвпадат със скоростта на възпроизвеждане</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Всички шаблони ще се забавят или избързват при включване на променящ скоростта мод.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Големината за всички ударни обекти</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Стойност за пасивната загуба на живот по време на игра</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Скоростта с която обектите се представят на играча</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Строгост за ударния прозорец и трудност на специалните обекти (въртележки)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Метаданни</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Изпълнител на латински</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Заглавие на латински</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Създател</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Име на трудност</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Ресурси</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Аудио запис</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Кликнете за избор на запис</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Кликнете за промяна на записа</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Кликнете за избор на заден фон</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Кликнете за промяна на задния фон</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Правила ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Комбо</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Изпълнител</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Заглавие</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Трудност</value>
+  </data>
+</root>

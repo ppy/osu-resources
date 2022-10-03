@@ -254,16 +254,91 @@
     <value>アクション</value>
   </data>
   <data name="topic.logs.columns.date" xml:space="preserve">
-    <value>デート</value>
+    <value>日付</value>
   </data>
   <data name="topic.logs.columns.user" xml:space="preserve">
     <value>ユーザー</value>
   </data>
   <data name="topic.logs.data.add_tag" xml:space="preserve">
-    <value>「{0}」タグを追加しました</value>
+    <value>"{0}" タグを追加しました</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>ピン留めされたトピックと、お知らせとしてマークされたトピック</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>{0} へ</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>{0} から</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>トピックをピン留め</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>投稿者 {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>タグ "{0}" を削除しました</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>{0} から</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>トピックのピン留めを外す</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>ログが見つかりませんでした</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>削除された投稿</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>トピックを削除</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>トピックのタイトルを変更しました</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>編集されたトピックの投票</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>トピックをコピーしました</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>発行されたタグ</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>ロックされたトピック</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>このトピックに投稿を統合しました</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>移動したトピック</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>トピックをピン留め</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>投稿を編集</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>再投稿</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>トピックを復元</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>分割投稿の移動</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>投稿を分割</value>
   </data>
   <data name="topic.logs.operations.topic_type" xml:space="preserve">
-    <value>トピックのタイプを見る</value>
+    <value>トピックのタイプを設定する</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>トピックの種類を変更しました</value>
   </data>
   <data name="topic.logs.operations.unlock" xml:space="preserve">
     <value>トピックのロックを解除する</value>
@@ -458,7 +533,7 @@
     <value>トピックのロックを解除する</value>
   </data>
   <data name="topics.lock.to_0_confirm" xml:space="preserve">
-    <value>トピックロックを解除しますか？</value>
+    <value>トピックをアンロックしますか？</value>
   </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>ロックが解除されました</value>
@@ -479,7 +554,7 @@
     <value>トピックのピンを外す</value>
   </data>
   <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
-    <value>トピックのピンを外しますか？</value>
+    <value>トピックのピン留めを解除しますか？</value>
   </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>ピンが外されました</value>

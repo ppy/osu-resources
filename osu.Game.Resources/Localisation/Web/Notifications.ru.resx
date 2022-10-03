@@ -119,13 +119,13 @@
     <value>Обсуждение карты</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Карта "{0}" заблокирована для обсуждений.</value>
+    <value>Карта "{0}" заблокирована для обсуждений</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>Обсуждение было заблокировано</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>{0} опубликовал новое сообщение в обсуждениях карты "{1}".</value>
+    <value>{0} написал новое сообщение в обсуждениях карты "{1}": "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
     <value>Новый пост в "{0}" от {1}</value>
@@ -143,7 +143,7 @@
     <value>Новый отзыв от {0}, содержащий проблемы: {1}, предложения: {2}, похвалы: {3}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>Карта "{0}" разблокирована для обсуждений.</value>
+    <value>Карта "{0}" разблокирована для обсуждений</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Обсуждение было разблокировано</value>
@@ -179,7 +179,7 @@
     <value>Карте была присвоена категория Любимая</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>Карта "{0}" была номинирована {1}.</value>
+    <value>Карта "{0}" была номинирована</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
     <value>Карта была номинирована</value>
@@ -293,7 +293,7 @@
     <value>Новый ответ на форуме</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
-    <value>{0} ответил в теме "{1}".</value>
+    <value>{0} ответил в теме "{1}"</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ответил</value>
@@ -302,7 +302,7 @@
     <value>Старая система ЛС</value>
   </data>
   <data name="item.legacy_pm.legacy_pm.legacy_pm" xml:space="preserve">
-    <value>{0} непрочитанное сообщение.|{0} непрочитанные сообщения.</value>
+    <value>{0} непрочитанное сообщение|{0} непрочитанных сообщения</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Новая карта</value>
@@ -396,5 +396,8 @@
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} создал новую карту</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} обновил карты</value>
   </data>
 </root>
