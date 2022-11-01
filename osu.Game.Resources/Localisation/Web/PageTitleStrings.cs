@@ -15,16 +15,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString AdminDefault => new TranslatableString(getKey(@"admin._"), @"admin");
 
         /// <summary>
-        /// "admin"
-        /// </summary>
-        public static LocalisableString AdminForumDefault => new TranslatableString(getKey(@"admin_forum._"), @"admin");
-
-        /// <summary>
-        /// "admin"
-        /// </summary>
-        public static LocalisableString AdminStoreDefault => new TranslatableString(getKey(@"admin_store._"), @"admin");
-
-        /// <summary>
         /// "invalid request"
         /// </summary>
         public static LocalisableString ErrorError400 => new TranslatableString(getKey(@"error.error.400"), @"invalid request");
@@ -85,24 +75,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumTopicLogsControllerIndex => new TranslatableString(getKey(@"forum.topic_logs_controller.index"), @"topic logs");
 
         /// <summary>
-        /// "dashboard"
-        /// </summary>
-        public static LocalisableString ForumTopicWatchesControllerIndex => new TranslatableString(getKey(@"forum.topic_watches_controller.index"), @"dashboard");
-
-        /// <summary>
-        /// "dashboard"
-        /// </summary>
-        public static LocalisableString MainAccountControllerEdit => new TranslatableString(getKey(@"main.account_controller.edit"), @"dashboard");
-
-        /// <summary>
         /// "account verification"
         /// </summary>
         public static LocalisableString MainAccountControllerVerifyLink => new TranslatableString(getKey(@"main.account_controller.verify_link"), @"account verification");
-
-        /// <summary>
-        /// "featured artists"
-        /// </summary>
-        public static LocalisableString MainArtistTracksControllerDefault => new TranslatableString(getKey(@"main.artist_tracks_controller._"), @"featured artists");
 
         /// <summary>
         /// "featured artists"
@@ -133,11 +108,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "beatmap history"
         /// </summary>
         public static LocalisableString MainBeatmapsetEventsControllerDefault => new TranslatableString(getKey(@"main.beatmapset_events_controller._"), @"beatmap history");
-
-        /// <summary>
-        /// "dashboard"
-        /// </summary>
-        public static LocalisableString MainBeatmapsetWatchesControllerIndex => new TranslatableString(getKey(@"main.beatmapset_watches_controller.index"), @"dashboard");
 
         /// <summary>
         /// "beatmap discussion"
@@ -173,16 +143,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "contests"
         /// </summary>
         public static LocalisableString MainContestsControllerDefault => new TranslatableString(getKey(@"main.contests_controller._"), @"contests");
-
-        /// <summary>
-        /// "dashboard"
-        /// </summary>
-        public static LocalisableString MainFollowsControllerIndex => new TranslatableString(getKey(@"main.follows_controller.index"), @"dashboard");
-
-        /// <summary>
-        /// "dashboard"
-        /// </summary>
-        public static LocalisableString MainFriendsControllerIndex => new TranslatableString(getKey(@"main.friends_controller.index"), @"dashboard");
 
         /// <summary>
         /// "groups"
@@ -255,11 +215,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainScoresControllerDefault => new TranslatableString(getKey(@"main.scores_controller._"), @"performance");
 
         /// <summary>
-        /// "store"
-        /// </summary>
-        public static LocalisableString MainStoreControllerDefault => new TranslatableString(getKey(@"main.store_controller._"), @"store");
-
-        /// <summary>
         /// "tournaments"
         /// </summary>
         public static LocalisableString MainTournamentsControllerDefault => new TranslatableString(getKey(@"main.tournaments_controller._"), @"tournaments");
@@ -278,11 +233,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "wiki"
         /// </summary>
         public static LocalisableString MainWikiControllerDefault => new TranslatableString(getKey(@"main.wiki_controller._"), @"wiki");
-
-        /// <summary>
-        /// "rankings"
-        /// </summary>
-        public static LocalisableString MultiplayerRoomsControllerDefault => new TranslatableString(getKey(@"multiplayer.rooms_controller._"), @"rankings");
 
         /// <summary>
         /// "authorize app"
