@@ -64,6 +64,27 @@
   <data name="select_directory" xml:space="preserve">
     <value>Выбрать директорию</value>
   </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>Выполняется перенос данных</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>Это может занять несколько минут в зависимости от скорости Вашего диска(-ов).</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>Пожалуйста, не взаимодействуйте с игрой!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>Во время переноса данных некоторые файлы не удалось очистить. Нажатие по этому уведомлению откроет папку, в которой Вы сможете самостоятельно удалить лишние файлы.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>Пожалуйста, выберите новое местоположение папки</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>Выбранный путь уже содержит установку osu!. Воспользоваться этими данными?</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>Чтобы выполнить эту операцию, osu! будет закрыта. Пожалуйста, откройте игру снова, чтобы начать использовать новый путь для файлов.</value>
+  </data>
   <data name="import_beatmaps_from_stable" xml:space="preserve">
     <value>Импорт карт из классической версии osu!</value>
   </data>
@@ -102,5 +123,17 @@
   </data>
   <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
     <value>Восстановить все недавно удалённые пресеты модов</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>Все коллекции удалены!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>Все пресеты модов удалены!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>Все удалённые пресеты модов восстановлены!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>Пожалуйста, выберите путь Вашей установки osu!stable</value>
   </data>
 </root>

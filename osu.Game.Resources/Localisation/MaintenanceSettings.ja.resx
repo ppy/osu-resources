@@ -64,6 +64,27 @@
   <data name="select_directory" xml:space="preserve">
     <value>ディレクトリを選択</value>
   </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>データ移動中</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>データ量によっては処理に数分かかることがあります</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>ゲームの操作は控えてください</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>データ移動中にいくつかのファイル消去に失敗しました。この通知をクリックするとフォルダを開いて手動で削除できます</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>移動先のフォルダを指定してください</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>指定したフォルダは既にosu!がインストールされています。そのデータを代わりに使用しますか？</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>新しい場所のデータを使用するにはosu!を再起動する必要があります</value>
+  </data>
   <data name="import_beatmaps_from_stable" xml:space="preserve">
     <value>安定版からビートマップをインポート</value>
   </data>
@@ -71,36 +92,48 @@
     <value>全てのビートマップを削除</value>
   </data>
   <data name="delete_all_beatmap_videos" xml:space="preserve">
-    <value>全てのビートマップの動画を削除</value>
+    <value>ビートマップにある動画を全て削除</value>
   </data>
   <data name="import_scores_from_stable" xml:space="preserve">
     <value>安定版からスコアをインポート</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
-    <value>すべてのスコアを削除</value>
+    <value>全てのスコアを削除</value>
   </data>
   <data name="import_skins_from_stable" xml:space="preserve">
     <value>安定版からスキンをインポート</value>
   </data>
   <data name="delete_all_skins" xml:space="preserve">
-    <value>すべてのスキンを削除</value>
+    <value>全てのスキンを削除</value>
   </data>
   <data name="import_collections_from_stable" xml:space="preserve">
     <value>安定版からコレクションをインポート</value>
   </data>
   <data name="delete_all_collections" xml:space="preserve">
-    <value>すべてのコレクションを削除</value>
+    <value>全てのコレクションを削除</value>
   </data>
   <data name="restore_all_hidden_difficulties" xml:space="preserve">
     <value>非表示にした難易度をすべて復元</value>
   </data>
   <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
-    <value>最近削除されたすべてのビートマップを復元</value>
+    <value>最近削除されたビートマップを復元</value>
   </data>
   <data name="delete_all_mod_presets" xml:space="preserve">
-    <value>すべてのMODプリセットを削除する</value>
+    <value>全てのMODプリセットを削除する</value>
   </data>
   <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
-    <value>最近削除されたMODプリセットをすべて復元する</value>
+    <value>最近削除されたすべてのMODプリセットを復元</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>すべてのコレクションを削除しました！</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>すべてのMODプリセットを削除しました！</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>最近削除されたMODプリセットをすべて復元しました！</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>osu!stableのインストール場所を指定してください</value>
   </data>
 </root>
