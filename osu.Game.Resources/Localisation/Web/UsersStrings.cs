@@ -1065,6 +1065,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowRankGlobalSimple => new TranslatableString(getKey(@"show.rank.global_simple"), @"Global Ranking");
 
         /// <summary>
+        /// "Highest rank: {0} on {1}"
+        /// </summary>
+        public static LocalisableString ShowRankHighest(LocalisableString rank, LocalisableString date) => new TranslatableString(getKey(@"show.rank.highest"), @"Highest rank: {0} on {1}", rank, date);
+
+        /// <summary>
         /// "Hit Accuracy"
         /// </summary>
         public static LocalisableString ShowStatsHitAccuracy => new TranslatableString(getKey(@"show.stats.hit_accuracy"), @"Hit Accuracy");

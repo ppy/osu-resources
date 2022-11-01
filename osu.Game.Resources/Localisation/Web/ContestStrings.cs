@@ -115,6 +115,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EntryWrongTypeMusic => new TranslatableString(getKey(@"entry.wrong_type.music"), @"Only .mp3 files are accepted for this contest.");
 
         /// <summary>
+        /// "Entries for this contest must be {0}{1}"
+        /// </summary>
+        public static LocalisableString EntryWrongDimensions(LocalisableString widthx, LocalisableString height) => new TranslatableString(getKey(@"entry.wrong_dimensions"), @"Entries for this contest must be {0}{1}", widthx, height);
+
+        /// <summary>
         /// "Entries for this contest can only be up to {0}."
         /// </summary>
         public static LocalisableString EntryTooBig(LocalisableString limit) => new TranslatableString(getKey(@"entry.too_big"), @"Entries for this contest can only be up to {0}.", limit);

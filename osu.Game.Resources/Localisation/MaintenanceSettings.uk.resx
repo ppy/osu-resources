@@ -64,8 +64,29 @@
   <data name="select_directory" xml:space="preserve">
     <value>Вибрати папку</value>
   </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>Процес міграції триває</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>Це може зайняти декілька хвилин, в залежності від швидкості вашого диску(ів).</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>Будь ласка, уникайте взаємодії з грою!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>Деякі файли не вдалось видалити під час міграції. Натискання на це сповіщення відкриє папку, що б ви змогли самостійно видалити ці об'єкти.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>Будь ласка, оберіть нове розташування</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>Цільова директорія вже має встановлену версію osu! й натомість використовувати ці дані?</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>Що б завершити цю операцію, osu! буде закрито. Будь ласка, відкрийте її ще раз для використання нового розташування даних.</value>
+  </data>
   <data name="import_beatmaps_from_stable" xml:space="preserve">
-    <value>Імпортувати карти зі класичної версії osu!</value>
+    <value>Імпортувати мапи зі класичної версії osu!</value>
   </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
     <value>Видалити ВСІ мапи</value>
@@ -74,7 +95,7 @@
     <value>Видалити ВСІ ВІДЕО з мап</value>
   </data>
   <data name="import_scores_from_stable" xml:space="preserve">
-    <value>Імпортувати результати з классичної версії osu!</value>
+    <value>Імпортувати результати з класичної версії osu!</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
     <value>Видалити ВСІ результати</value>
@@ -102,5 +123,17 @@
   </data>
   <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
     <value>Відновити всі нещодавно видалені пресети модів</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>Видалено всі колекції!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>Видалено всі пресети модів!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>Відновлено всі видалені присети модів!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>Будь ласка, оберіть місце встановлення класичної версії osu!</value>
   </data>
 </root>

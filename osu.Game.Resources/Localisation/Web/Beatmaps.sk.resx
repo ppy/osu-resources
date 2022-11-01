@@ -91,6 +91,9 @@
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
     <value>Diskusia o tejto mape boli vypnuté.</value>
   </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Není možné zverejniť diskusiu, keď stlmený.</value>
+  </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Vybrať typ komentára</value>
   </data>
@@ -150,6 +153,9 @@
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
     <value>Píšte sem pre odoslanie príspevku do General (Všetky obtiažnosti)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Píšte tu k zverejnení posudku </value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
     <value>Píšte sem pre zaradenie príspevku do časovej osy ({0})</value>
@@ -213,6 +219,30 @@
   </data>
   <data name="discussions.new.unpin" xml:space="preserve">
     <value>Odopnúť</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Nový posudok</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Zmazať </value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[DISKUSIA ZMAZANA]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Zrušiť pripojenie</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>vložiť paragraf </value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>vložiť pochvalu</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>vložiť problem </value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>vložiť návrh</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} zmapovaná hráčom {1}</value>
@@ -334,6 +364,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Obľuba</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Vybrať obtiažnosť pro loved</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Obľúbil si si túto beatmapu?</value>
   </data>
@@ -345,6 +378,15 @@
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nominované od {0}</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Nedostatok hypu.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Zmazať z Loved</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Dôvod zmazanie z Loved:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominácie {0}/{1}</value>
@@ -358,6 +400,15 @@
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Sú tu stále nevyriešené problémy, ktoré musia byť riešené ako prvé.</value>
   </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Táto mapa je predpokladaná k hodnotení {0}, pokud sa nenájdu žiadne chyby. Mapa je momentálne v pozícii číslo {1} ve fronte {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>fronta hodnotení </value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>neskôr </value>
+  </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
     <value>Proces nominácie bol resetnutý pred {0} nominátorom {1} kvôli novému problému {2} ({3}).</value>
   </data>
@@ -369,6 +420,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Si si istý? Vytvorením novej pripomienky sa proces nominácie resetne.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Iste si istí, že chcete nahlásiť chybu na tejto mape? Touto akciou napomeniete Beatmap Nominátory.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>zadaj kľúčové slova...</value>
@@ -454,6 +508,9 @@
   <data name="general.recommended" xml:space="preserve">
     <value>Odporúčaná obtiažnosť</value>
   </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Všetko </value>
+  </data>
   <data name="mode.any" xml:space="preserve">
     <value>Akékoľvek</value>
   </data>
@@ -480,6 +537,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Nerozhodnutý &amp; prebiehajúci</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Ve vývoji </value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalifikované</value>
@@ -517,6 +577,12 @@
   <data name="genre.electronic" xml:space="preserve">
     <value>Elektronické</value>
   </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Metal </value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Klasika </value>
+  </data>
   <data name="genre.folk" xml:space="preserve">
     <value>Folk</value>
   </data>
@@ -553,11 +619,26 @@
   <data name="language.swedish" xml:space="preserve">
     <value>Švédske</value>
   </data>
+  <data name="language.russian" xml:space="preserve">
+    <value>Ruština </value>
+  </data>
+  <data name="language.polish" xml:space="preserve">
+    <value>Poľština</value>
+  </data>
   <data name="language.instrumental" xml:space="preserve">
     <value>Inštrumentálne</value>
   </data>
   <data name="language.other" xml:space="preserve">
     <value>Ostatné</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Neupresnené</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Skryť </value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Zobraziť </value>
   </data>
   <data name="played.any" xml:space="preserve">
     <value>Akékoľvek</value>
@@ -588,5 +669,14 @@
   </data>
   <data name="panel.favourites" xml:space="preserve">
     <value>V obľúbených: {0}</value>
+  </data>
+  <data name="variant.mania.4k" xml:space="preserve">
+    <value>4K</value>
+  </data>
+  <data name="variant.mania.7k" xml:space="preserve">
+    <value>7K</value>
+  </data>
+  <data name="variant.mania.all" xml:space="preserve">
+    <value>Všetko </value>
   </data>
 </root>
