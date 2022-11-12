@@ -27,7 +27,7 @@ void main(void)
      
     v_TexCoord = m_TexCoord;
     v_TexRect = m_TexRect;
-    v_BlendRange = vec2(1.0);
+    v_BlendRange = vec2(0.0);
     
     gl_Position = g_ProjMatrix * vec4(m_Position, 1.0, 1.0);
 }
