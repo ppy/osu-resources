@@ -6,6 +6,7 @@
 varying highp vec2 v_TexCoord;
 
 uniform lowp sampler2D m_Sampler;
+uniform mediump float thickness;
 
 highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
 {
@@ -45,8 +46,7 @@ void main(void)
     highp float dst3 = dstToLine(vec2(0.0, 1.0), vec2(0.5, 0.0), pixelPos);
     highp float dst = min(min(dst1, dst2), dst3);
 
-    // stroke width will be 2px assuming triangle size is 100px
-    lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - 0.02);
+    lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - thickness);
 
     lowp vec4 col = getRoundedColor(toSRGB(texture2D(m_Sampler, v_TexCoord)), v_TexCoord);
 
