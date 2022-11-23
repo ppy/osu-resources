@@ -48,7 +48,7 @@ void main(void)
 
     lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - thickness);
 
-    lowp vec4 col = getRoundedColor(toSRGB(texture2D(m_Sampler, v_TexCoord)), v_TexCoord);
+    lowp vec4 col = getRoundedColor(texture2D(m_Sampler, v_TexCoord), v_TexCoord);
 
     gl_FragColor = vec4(col.rgb, col.a * alpha);
 }
