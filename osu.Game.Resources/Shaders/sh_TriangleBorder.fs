@@ -7,6 +7,7 @@ varying highp vec2 v_TexCoord;
 
 uniform lowp sampler2D m_Sampler;
 uniform mediump float thickness;
+uniform highp float texelSize;
 
 highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
 {
@@ -32,8 +33,6 @@ void main(void)
 {
     highp vec2 resolution = v_TexRect.zw - v_TexRect.xy;
     highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
-
-    highp float texelSize = max(abs(dFdx(pixelPos.x)), abs(dFdy(pixelPos.y))) * 1.5;
 
     if (!insideTriangle(pixelPos))
     {
