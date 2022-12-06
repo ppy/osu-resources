@@ -30,8 +30,7 @@ bool insideTriangle(highp vec2 pixelPos)
 
 void main(void)
 {
-    highp vec2 resolution = v_TexRect.zw - v_TexRect.xy;
-    highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
+    highp vec2 pixelPos = v_TexCoord / (v_TexRect.zw - v_TexRect.xy);
 
     if (!insideTriangle(pixelPos))
     {
