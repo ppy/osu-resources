@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Configuració del beatmap</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>canvieu la configuració general del vostre mapa</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Cercle / Combos del slider</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Disseny</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Activar compte enrere</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Si està activat, un "Estàs llest? 3, 2, 1, GO!" s'inserirà al principi del beatmap, suposant que hi hagi prou temps per fer-ho.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Velocitat de compte enrere</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Si el compte enrere sona fora de temps, utilitzeu-ho per fer que sembli un o més cops aviat.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Desplaçament de compte enrere</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Implementació de pantalla ampla</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Permet als guions gràfics utilitzar l'espai de pantalla completa, en lloc de limitar-se a una àrea de 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Avís d'epilèpsia</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Recomanat si el guió gràfic o el vídeo contenen escenes amb colors ràpids.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Bústia de lletres durant els descansos</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Afegeix una bústia horitzontal per donar un aspecte cinematogràfic durant els descansos.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Les mostres coincideixen amb la velocitat de reproducció</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Quan s'habilita, totes les mostres s'acceleraran o alentiran quan s'habilitin les modificacions de canvi de velocitat.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>La mida de tots els objectes d'impacte</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>La taxa de drenatge de salut passiva al llarg del temps de joc</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>La velocitat a la qual es presenten els objectes al jugador</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>La duresa de les finestres d'impacte i la dificultat dels objectes especials (p.e., spinners)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Metadades</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Artista romanitzat</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Títol romanitzat</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Nom de la dificultat</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Pista d'àudio</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Feu clic per seleccionar una pista</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Feu clic per reemplaçar la pista</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Feu clic per seleccionar una imatge de fons</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Feu clic per reemplaçar la imatge de fons</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Mode de joc ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Artista</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Títol</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Dificultat</value>
+  </data>
+</root>

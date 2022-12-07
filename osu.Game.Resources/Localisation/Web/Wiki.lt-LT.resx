@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="show.fallback_translation" xml:space="preserve">
-    <value>Prašomas puslapis dar nėra išverstas į dabartinę pasirenktą kalbą ({0}). Rodoma Angliška versija.</value>
+    <value>Prašomas puslapis dar nėra išverstas į dabartinę pasirinktą kalbą ({0}). Rodoma Angliška versija.</value>
   </data>
   <data name="show.incomplete_or_outdated" xml:space="preserve">
     <value>Šio puslapio turinys yra neužbaigtas arba pasenęs. Jeigu jūs galite padėti, prašome atnaujinti straipsnį!</value>
@@ -73,17 +73,29 @@
   <data name="show.missing_translation" xml:space="preserve">
     <value>Prašomas puslapis nebuvo rastas dabartinėje pasirinktoje kalboje.</value>
   </data>
+  <data name="show.needs_cleanup_or_rewrite" xml:space="preserve">
+    <value>Šis puslapis neatitinka osu! wiki standartų ir turėtu būti sutvarkytas arba perrašytas. Jei galite padėti, prašom pasvarstyti apie straipsnio atnaujinimą!</value>
+  </data>
   <data name="show.search" xml:space="preserve">
     <value>Ieškoti egzistuojančius puslapius dėl {0}.</value>
+  </data>
+  <data name="show.stub" xml:space="preserve">
+    <value>Šis straipsnis nėra baigtas ir laukia kol kas nors papildys jį.</value>
   </data>
   <data name="show.toc" xml:space="preserve">
     <value>Turinys</value>
   </data>
   <data name="show.edit.link" xml:space="preserve">
-    <value>Rodyti Githube</value>
+    <value>Rodyti GitHub platformoje</value>
   </data>
   <data name="show.edit.refresh" xml:space="preserve">
     <value>Atnaujinti</value>
+  </data>
+  <data name="show.translation.legal" xml:space="preserve">
+    <value>Šis vertimas yra tik dėl patogumo. Originalioji {0} yra vienintelė teisiškai galiojanti teksto versija.</value>
+  </data>
+  <data name="show.translation.outdated" xml:space="preserve">
+    <value>Šiame puslapyje turninio vertimas pasenęs. Peržiurėkite {0} dėl tiksliausios informacijos ( ir pasvarstyk dėl vertimo atnaujinimo, jei gali)!</value>
   </data>
   <data name="show.translation.default" xml:space="preserve">
     <value>Angliška versija</value>

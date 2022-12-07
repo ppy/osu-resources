@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Не удалось обновить ответ</value>
+    <value>Не удалось проголосовать</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>разрешить кудосу</value>
@@ -104,7 +104,7 @@
     <value>Нажмите Enter, чтобы ответить.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
-    <value>Введите свой ответ</value>
+    <value>Напишите ответ</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
     <value>Пожалуйста, войдите в аккаунт, чтобы оставить сообщение или ответить</value>
@@ -119,7 +119,7 @@
     <value>Показать удалённые</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
-    <value>Отзывы</value>
+    <value>Обсуждение</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Скрыть всё</value>
@@ -149,19 +149,19 @@
     <value>Этот пост пойдет в общую ветку отзывов. Чтобы изменить эту карту, начните своё сообщение с временной отметкой (к примеру 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Для модерирования нескольких временных отметок, опубликуйте несколько сообщений (по одному на отметку).</value>
+    <value>Для модерации нескольких тайм-кодов нужно написать ответ на каждый из них.</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Введите здесь, чтобы запостить в Общий ({0})</value>
+    <value>Оставьте отзыв в Общее ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Введите здесь, чтобы запостить в Общий (Все сложности)</value>
+    <value>Оставьте отзыв в Общее (все сложности)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Введите здесь, чтобы оставить отзыв</value>
+    <value>Напишите рецензию</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Введите здесь, чтобы запостить в временную шкалу ({0})</value>
+    <value>Сообщите о тайм-коде в сложности {0}</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Дисквалифицировать</value>
@@ -185,7 +185,7 @@
     <value>Сообщить о проблеме</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
-    <value>Отзыв</value>
+    <value>Рецензия</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Предложение</value>
@@ -197,10 +197,10 @@
     <value>Общее {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
-    <value>Отзывы</value>
+    <value>Рецензии</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>Временная шкала</value>
+    <value>Тайм-коды</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>Эта сложность</value>
@@ -212,10 +212,10 @@
     <value>Закрепить</value>
   </data>
   <data name="discussions.new.timestamp" xml:space="preserve">
-    <value>Временная отметка</value>
+    <value>Тайм-код</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>Нажмите Ctrl + C в режиме редактирования, чтобы скопировать временную отметку и вставить в сообщение!</value>
+    <value>Нажмите Ctrl + C в режиме редактирования, чтобы скопировать тайм-код и вставить в сообщение!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Новый отзыв</value>
@@ -224,7 +224,7 @@
     <value>Открепить</value>
   </data>
   <data name="discussions.review.new" xml:space="preserve">
-    <value>Новый отзыв</value>
+    <value>Новая рецензия</value>
   </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>Удалить</value>
@@ -242,7 +242,7 @@
     <value>Записи для всех сложностей не могут иметь временных отметок.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Если {0} начинается с временной отметки, оно будет показано в Временной шкале.</value>
+    <value>Если {0} начинается с тайм-кода, оно появится в разделе "Тайм-коды".</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставить параграф</value>
@@ -290,7 +290,7 @@
     <value>Все</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Эта карта была одобрена {0}!</value>
+    <value>Эта карта стала одобреной {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>Эта карта не обновлялась с {0} и, похоже, что автор её забросил...</value>
@@ -374,7 +374,7 @@
     <value>Не удалось выполнить данную задачу, попробуйте перезагрузить страницу.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>Любимое</value>
+    <value>Присвоить категорию Любимая</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
     <value>Выберите сложность для любимой карты</value>
@@ -473,7 +473,7 @@
     <value>С откровенным содержанием</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
-    <value>Сыграно</value>
+    <value>Статус прохождения</value>
   </data>
   <data name="listing.search.filters.rank" xml:space="preserve">
     <value>Достигнутый ранг</value>
@@ -572,7 +572,7 @@
     <value>Рейтинговые</value>
   </data>
   <data name="genre.any" xml:space="preserve">
-    <value>Все</value>
+    <value>Любой</value>
   </data>
   <data name="genre.unspecified" xml:space="preserve">
     <value>Не определён</value>
@@ -614,7 +614,7 @@
     <value>Джаз</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>Все</value>
+    <value>Любой</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Английский</value>
@@ -665,13 +665,13 @@
     <value>Показать</value>
   </data>
   <data name="played.any" xml:space="preserve">
-    <value>Все</value>
+    <value>Неважно</value>
   </data>
   <data name="played.played" xml:space="preserve">
-    <value>Сыграно</value>
+    <value>Пройдена</value>
   </data>
   <data name="played.unplayed" xml:space="preserve">
-    <value>Не сыграно</value>
+    <value>Не пройдена</value>
   </data>
   <data name="extra.video" xml:space="preserve">
     <value>Есть видео</value>

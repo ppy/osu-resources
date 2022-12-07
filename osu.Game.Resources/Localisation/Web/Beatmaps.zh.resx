@@ -71,7 +71,7 @@
     <value>删除</value>
   </data>
   <data name="discussions.deleted" xml:space="preserve">
-    <value>被 {0} 于 {1} 删除。</value>
+    <value>{0} 在 {1} 删除。</value>
   </data>
   <data name="discussions.deny_kudosu" xml:space="preserve">
     <value>收回 kudosu</value>
@@ -80,13 +80,13 @@
     <value>编辑</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>最后由 {0} 于 {1} 编辑。</value>
+    <value>{0} 最后在 {1} 编辑。</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>{0}制作的客串难度</value>
+    <value>{0} 制作的客串难度</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>kudosu 被收回</value>
+    <value>kudosu 已收回</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>该难度已被删除，无法继续讨论</value>
@@ -146,10 +146,10 @@
     <value>确认解锁该讨论吗？</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>这个信息将提交到整个谱面集讨论中。如果需要单独针对某处，请在开头使用时间戳 (例如: 00:12:345)。</value>
+    <value>这个问题将提交至常规（所有难度）的讨论区。如果想摸单个难度，请在问题描述开头添加时间戳（例如 00:12:345）。</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>需要 Mod 多处，请在每一个时间戳后写下意见并发表。</value>
+    <value>若需要提供多个地方的摸，请在每个时间戳下发表提出的问题或建议。</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>在此处输入以发布到常规 ({0})</value>
@@ -164,7 +164,7 @@
     <value>在此处输入以发布到时间轴 ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
-    <value>取消提名</value>
+    <value>下架 (DQ)</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
     <value>推荐！</value>
@@ -173,7 +173,7 @@
     <value>备注</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
-    <value>取消提名</value>
+    <value>重置提名流程</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
     <value>赞</value>
@@ -239,7 +239,7 @@
     <value>尚未保存</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>你不能在“所有难度”中发布时间戳。</value>
+    <value>你不能在“所有难度”讨论区中发布时间戳。</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>如果此 {0} 以时间戳开头，它将显示在时间轴下。</value>
@@ -257,7 +257,7 @@
     <value>加入建议</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
-    <value>由 {0} 制作的 {1}</value>
+    <value>{0} 制作的 {1}</value>
   </data>
   <data name="discussions.sort.created_at" xml:space="preserve">
     <value>创建时间</value>
@@ -290,19 +290,19 @@
     <value>所有</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>这张谱面于 {0} 被 Approved !</value>
+    <value>谱面已在 {0} 达标 (Approved)！</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>这张谱面自 {0} 就未更新了，或许它已经被作者抛弃了 ;w;</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>这张谱面于 {0} 被 Loved !</value>
+    <value>谱面已在 {0} 进入社区喜爱 (Loved)！</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>这张谱面于 {0} 被 Ranked !</value>
+    <value>谱面已在 {0} 上架 (Ranked)！</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>注意：这张谱面被作者标记为 WIP（work-in-progress）</value>
+    <value>注意：作者标记这张谱面为待更新 (WIP) 状态。</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>还没有差评</value>
@@ -326,10 +326,10 @@
     <value>你确定吗？这将会使用你剩下的 {0} 次推荐次数并且无法撤销。</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>推荐这张谱面让它更容易收到提名然后 ranked！</value>
+    <value>推荐这张谱面，让它更容易收到提名并上架 (Ranked)！</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>登录并推荐这张谱面让它更容易收到提名然后 ranked！</value>
+    <value>登录并推荐这张谱面，让它更容易收到提名并上架 (Ranked)！</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>你将在 {0} 获得新的推荐次数。</value>
@@ -359,25 +359,25 @@
     <value>你确定要删除吗？删除后你将回到他的个人资料页。</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
-    <value>认为不合格(DQ)的理由？</value>
+    <value>认为谱面应下架 (DQ) 处理的理由？</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>于 {0} 被 DQ （{1}）。</value>
+    <value>{0} 下架 ({1})。</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>没有指定原因</value>
   </data>
   <data name="nominations.disqualify" xml:space="preserve">
-    <value>Disqualify</value>
+    <value>下架 (DQ)</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
     <value>操作出错了，请刷新页面。</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>喜欢</value>
+    <value>社区喜爱 (Loved)</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>选择要提名 Loved 的难度</value>
+    <value>选择要移入社区喜爱 (Loved) 状态的难度</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>喜欢这张谱面吗？</value>
@@ -389,19 +389,19 @@
     <value>提名这张谱面？</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
-    <value>由 {0} 提名</value>
+    <value>{0} 提名</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>没有足够的推荐。</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>从 Loved 中移除</value>
+    <value>从社区喜爱 (Loved) 状态中移除</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>从 Loved 中移除的原因：</value>
+    <value>从社区喜爱 (Loved) 状态中移除的原因：</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
-    <value>提名数: {0}/{1}</value>
+    <value>提名数：{0}/{1}</value>
   </data>
   <data name="nominations.reset_message_deleted" xml:space="preserve">
     <value>已删除</value>
@@ -410,31 +410,31 @@
     <value>提名状态</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
-    <value>仍然有需解决的问题 。</value>
+    <value>请先解决谱面内未解决的问题。</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>如果没有问题，该谱面将于 {0} ranked。位于 {1} 中的第 {2} 位。</value>
+    <value>谱面正位于 {0} 中第 {1} 位。如果没有问题，谱面将在 {2} 上架 (Ranked)。</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>ranking 队列</value>
+    <value>谱面上架队列</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>不久后</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>由于 {0} 提出的新问题 {1}（{2}），提名过程于 {3} 被重置。</value>
+    <value>由于 {0} 提出新问题 {1} ({2})，提名过程在 {3} 重置。</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>{0} 被 {1} 因为新问题 {2} ({3}) 而 DQ.</value>
+    <value>由于 {0} 提出新问题 {1} ({2})，谱面在 {3} 下架 (DQ)。</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>你确定吗？这将 DQ 该谱面并重置提名。</value>
+    <value>你确定吗？这将下架 (DQ) 谱面，并重置谱面提名过程。</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>你确定吗？提出新的问题会重置提名。</value>
+    <value>你确定吗？提出新的问题，将会重置谱面提名流程。</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>确定要报告这张谱面上的问题？将向谱面的提名者发出提醒。</value>
+    <value>你确定要报告这张谱面上的问题吗？这将提醒谱面审核成员 (BN)。</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>输入关键字...</value>
@@ -470,7 +470,7 @@
     <value>模式</value>
   </data>
   <data name="listing.search.filters.nsfw" xml:space="preserve">
-    <value>少儿不宜谱面</value>
+    <value>不良内容</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>玩过</value>
@@ -494,10 +494,10 @@
     <value>收藏量</value>
   </data>
   <data name="listing.search.sorting.updated" xml:space="preserve">
-    <value>已更新</value>
+    <value>更新时间</value>
   </data>
   <data name="listing.search.sorting.ranked" xml:space="preserve">
-    <value>Ranked 时间</value>
+    <value>上架 (Ranked) 时间</value>
   </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>评分</value>
@@ -536,43 +536,43 @@
     <value>全部</value>
   </data>
   <data name="mode.any" xml:space="preserve">
-    <value>所有</value>
+    <value>全部</value>
   </data>
   <data name="status.any" xml:space="preserve">
-    <value>所有</value>
+    <value>全部</value>
   </data>
   <data name="status.approved" xml:space="preserve">
-    <value>Approved</value>
+    <value>达标 (Approved)</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
-    <value>收藏夹</value>
+    <value>收藏</value>
   </data>
   <data name="status.graveyard" xml:space="preserve">
-    <value>坟图</value>
+    <value>坟场 (Graveyard)</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
-    <value>计入排名</value>
+    <value>拥有排行榜</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>社区喜爱 (Loved)</value>
   </data>
   <data name="status.mine" xml:space="preserve">
-    <value>我的谱面</value>
+    <value>我做的谱面</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Pending</value>
+    <value>待定 (Pending)</value>
   </data>
   <data name="status.wip" xml:space="preserve">
-    <value>制作中</value>
+    <value>制作中 (WIP)</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
-    <value>Qualified</value>
+    <value>过审 (Qualified)</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
-    <value>Ranked</value>
+    <value>上架 (Ranked)</value>
   </data>
   <data name="genre.any" xml:space="preserve">
-    <value>所有</value>
+    <value>全部</value>
   </data>
   <data name="genre.unspecified" xml:space="preserve">
     <value>尚未指定</value>
@@ -587,7 +587,7 @@
     <value>摇滚</value>
   </data>
   <data name="genre.pop" xml:space="preserve">
-    <value>流行乐</value>
+    <value>流行</value>
   </data>
   <data name="genre.other" xml:space="preserve">
     <value>其他</value>
@@ -614,7 +614,7 @@
     <value>爵士</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>所有</value>
+    <value>全部</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>英语</value>
@@ -665,7 +665,7 @@
     <value>显示</value>
   </data>
   <data name="played.any" xml:space="preserve">
-    <value>任意</value>
+    <value>全部</value>
   </data>
   <data name="played.played" xml:space="preserve">
     <value>玩过</value>
@@ -680,7 +680,7 @@
     <value>有故事板</value>
   </data>
   <data name="rank.any" xml:space="preserve">
-    <value>任意</value>
+    <value>全部</value>
   </data>
   <data name="rank.xh" xml:space="preserve">
     <value>银 SS</value>

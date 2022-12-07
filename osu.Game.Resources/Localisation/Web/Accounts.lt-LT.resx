@@ -116,10 +116,10 @@
     <value>išsaugoti</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>gauti pranešimus dėl naujų problemų ant išlaikytų ritmo žemėlapių ar kitas susijusių modų</value>
+    <value>gauti pranešimus dėl naujų problemų kvalifikuotuose bitmapuose šiuose režimuose </value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>gauti pranešimus tada kai beatmap šių režimų yra diskvalifikuoti</value>
+    <value>gauti pranešimus, kai šių režimų bitmapai diskvalifikuojami</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>gauti pranešimus apie atsakymus ant jūsų komentarų</value>
@@ -133,11 +133,14 @@
   <data name="notifications.options._" xml:space="preserve">
     <value>pristatymo būdai</value>
   </data>
+  <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
+    <value>svečio sunkumas</value>
+  </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>beatmap modifikacijos</value>
+    <value>bitmapų modifikacijos</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
-    <value>privatūs susirašinėjimo rašymas</value>
+    <value>privatūs susirašinėjimai</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nauji komentarai</value>
@@ -147,6 +150,9 @@
   </data>
   <data name="notifications.options.mail" xml:space="preserve">
     <value>paštas</value>
+  </data>
+  <data name="notifications.options.mapping" xml:space="preserve">
+    <value>bitmapų maperis</value>
   </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
@@ -163,18 +169,21 @@
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
   </data>
+  <data name="options.beatmapset_show_nsfw" xml:space="preserve">
+    <value>slėpti perspėjimus dėl eksplicitinio turinio bitmapuose</value>
+  </data>
   <data name="options.beatmapset_title_show_original" xml:space="preserve">
-    <value>rodyti beatmap duomenis originalo kalboje</value>
+    <value>rodyti bitmapo metaduomenys orginaliaja kalba</value>
   </data>
   <data name="options.title" xml:space="preserve">
-    <value>Nustatymai</value>
+    <value>Parinktys</value>
   </data>
   <data name="options.beatmapset_download._" xml:space="preserve">
-    <value>paprastas beatmap siuntimosi tipas
+    <value>numatytasis bitmapų siuntimosi tipas
 </value>
   </data>
   <data name="options.beatmapset_download.all" xml:space="preserve">
-    <value>su vaizdo įrašų jei galima</value>
+    <value>su vaizdo įrašų, jei yra</value>
   </data>
   <data name="options.beatmapset_download.direct" xml:space="preserve">
     <value>atidaryti per osu!direct</value>
@@ -219,13 +228,13 @@
     <value>Paskutinį kartą aktyvus:</value>
   </data>
   <data name="security.title" xml:space="preserve">
-    <value>Apsauga</value>
+    <value>Saugumas</value>
   </data>
   <data name="security.web_sessions" xml:space="preserve">
     <value>internetinės sesijos</value>
   </data>
   <data name="update_email.update" xml:space="preserve">
-    <value>atnaujinti</value>
+    <value>užsaugoti</value>
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>atnaujinti</value>
@@ -237,6 +246,6 @@
     <value>Patvirtinimas užbaigtas</value>
   </data>
   <data name="verification_invalid.title" xml:space="preserve">
-    <value>Netinkamas arba nebegaliojanti patvirtinimo nuoroda</value>
+    <value>Netinkama arba nebegaliojanti patvirtinimo nuoroda</value>
   </data>
 </root>

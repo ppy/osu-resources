@@ -68,7 +68,7 @@
     <value>Bendruomenės Turnyrai</value>
   </data>
   <data name="index.item.registered" xml:space="preserve">
-    <value>Užsiregistrave žaidėjai</value>
+    <value>Užsiregistravę žaidėjai</value>
   </data>
   <data name="index.state.current" xml:space="preserve">
     <value>Aktyvus turnyrai</value>
@@ -80,10 +80,22 @@
     <value>Palaikyk Savo Komandą</value>
   </data>
   <data name="show.entered" xml:space="preserve">
-    <value>Jūs esate užsiregistrave šiam turnyrui.&lt;br&gt;&lt;br&gt;Atkreipkite dėmesį, kad tai &lt;b&gt;nereiškia&lt;/b&gt;, kad esate priskirtas į komandą.&lt;br&gt;&lt;br&gt;Kitos instrukcijos bus jums atsiųstos el. paštu arčiau turnyro datos, todėl prašau įsitikinkite, kad jūsų osu! paskyros el. pašto adresas dar galioja!</value>
+    <value>Jūs esate užsiregistraves šiam turnyrui.&lt;br&gt;&lt;br&gt;Atkreipkite dėmesį, kad tai &lt;b&gt;nereiškia&lt;/b&gt;, kad esate priskirtas į komandą.&lt;br&gt;&lt;br&gt;Kitos instrukcijos bus jums atsiųstos el. paštu arčiau turnyro datos, todėl prašau įsitikinkite, kad jūsų osu! paskyros el. pašto adresas dar galioja!</value>
   </data>
   <data name="show.info_page" xml:space="preserve">
     <value>Informacijos puslapis</value>
+  </data>
+  <data name="show.login_to_register" xml:space="preserve">
+    <value>{0}, kad matyti registracijos informacija!</value>
+  </data>
+  <data name="show.not_yet_entered" xml:space="preserve">
+    <value>Jūs nepriregistruotas šiam turnyrui.</value>
+  </data>
+  <data name="show.rank_too_low" xml:space="preserve">
+    <value>Atsiprašom, bet jūs neatitinkate turnyro reikalavimų!</value>
+  </data>
+  <data name="show.registration_ends" xml:space="preserve">
+    <value>Registracijos užsidaro {0}</value>
   </data>
   <data name="show.button.cancel" xml:space="preserve">
     <value>Atšaukti Registraciją</value>
@@ -101,9 +113,15 @@
     <value>Šio turnyro registracija dar nebuvo atidaryta.</value>
   </data>
   <data name="show.state.ended" xml:space="preserve">
-    <value>Šis turnyras jau baigėsi. Rezultatus gali peržiūrėti informaciniam puslapy.</value>
+    <value>Šis turnyras jau baigėsi. Rezultatus gali peržiūrėti informaciniame puslapy.</value>
   </data>
   <data name="show.state.registration_closed" xml:space="preserve">
     <value>Šio turnyro registracija buvo uždaryta. Dėl pasikeitimų tikrinkite informacinį puslapį.</value>
+  </data>
+  <data name="show.state.running" xml:space="preserve">
+    <value>Šis turnyras vyksta. Daugiau informacijos rasite informaciniame puslapy.</value>
+  </data>
+  <data name="tournament_period" xml:space="preserve">
+    <value>nuo {0} iki {1}</value>
   </data>
 </root>

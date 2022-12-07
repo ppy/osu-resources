@@ -61,8 +61,17 @@
   <data name="deleted" xml:space="preserve">
     <value>ištrinta</value>
   </data>
+  <data name="deleted_by" xml:space="preserve">
+    <value>prieš {0} ištrinė {1}</value>
+  </data>
+  <data name="deleted_by_system" xml:space="preserve">
+    <value>sistema</value>
+  </data>
+  <data name="deleted_count" xml:space="preserve">
+    <value>:{0} ištrintas komentaras|{0} ištrinti (-a) komentarai (-ų)</value>
+  </data>
   <data name="edited" xml:space="preserve">
-    <value>redaguota {0} pateikta {1}</value>
+    <value>redaguota {0} pateikė {1}</value>
   </data>
   <data name="pinned" xml:space="preserve">
     <value>prisegta</value>
@@ -73,11 +82,14 @@
   <data name="load_replies" xml:space="preserve">
     <value>krauti atsakymus</value>
   </data>
+  <data name="replies_count" xml:space="preserve">
+    <value>{0} atsakymas|{0} atsakymai (-ų)</value>
+  </data>
   <data name="title" xml:space="preserve">
     <value>Komentarai</value>
   </data>
   <data name="commentable_name.beatmapset" xml:space="preserve">
-    <value>Beatmapas</value>
+    <value>Bitmapas</value>
   </data>
   <data name="commentable_name.build" xml:space="preserve">
     <value>Pakeitimų sąrašas</value>
@@ -104,7 +116,7 @@
     <value>Prisijunkite norint komentuoti</value>
   </data>
   <data name="guest_button.reply" xml:space="preserve">
-    <value>Prisijunkite jeigu norite atsakyti</value>
+    <value>Prisijunkite, kad atsakyti</value>
   </data>
   <data name="index.nav_comments" xml:space="preserve">
     <value>komentarai</value>

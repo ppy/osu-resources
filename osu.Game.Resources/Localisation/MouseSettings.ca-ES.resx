@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mouse" xml:space="preserve">
+    <value>Ratolí</value>
+  </data>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>No aplicable en mode de pantalla completa</value>
+  </data>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>Ratolí d'alta precisió</value>
+  </data>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Intents d'eludir qualsevol acceleració del ratolí del sistema d'operació. A les finestres, això és equivalent al que abans es coneixia com a "Entrada en brut".</value>
+  </data>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Configura el cursor del ratolí a la finestra</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust" xml:space="preserve">
+    <value>Desactiva el volum de l'ajust de la roda del ratolí durant la reproducció</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust_tooltip" xml:space="preserve">
+    <value>El volum encara es pot ajustar utilitzant la roda del ratolí mantenint premuda «Alt»</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Desactiva els botons del ratolí durant la jugabilitat</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Activa el ratolí d'alta precisió per ajustar la sensibilitat</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Sensibilitat del cursor</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>Aquest paràmetre té problemes coneguts a la vostra plataforma. Si trobeu problemes, es recomana ajustar la sensibilitat externament i mantenir-la desactivada de moment.</value>
+  </data>
+  <data name="always_confine" xml:space="preserve">
+    <value>Sempre</value>
+  </data>
+  <data name="confine_during_gameplay" xml:space="preserve">
+    <value>Durant la jugada</value>
+  </data>
+  <data name="never_confine" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+</root>

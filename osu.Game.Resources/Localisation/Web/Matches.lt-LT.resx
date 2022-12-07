@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="match.beatmap-deleted" xml:space="preserve">
-    <value>beatmapas ištrintas</value>
+    <value>bitmapas ištrintas</value>
   </data>
   <data name="match.difference" xml:space="preserve">
     <value>{0} skirtumu</value>
@@ -67,8 +67,14 @@
   <data name="match.failed" xml:space="preserve">
     <value>NEPRAĖJO</value>
   </data>
+  <data name="match.header" xml:space="preserve">
+    <value>Keli Mačai</value>
+  </data>
   <data name="match.in-progress" xml:space="preserve">
-    <value>(vyksta rungtynės)</value>
+    <value>(vyksta mačas)</value>
+  </data>
+  <data name="match.in_progress_spinner_label" xml:space="preserve">
+    <value>vyksta mačas</value>
   </data>
   <data name="match.loading-events" xml:space="preserve">
     <value>Įvykiai keliami...</value>
@@ -77,40 +83,40 @@
     <value>{0} laimėjo</value>
   </data>
   <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} išėjo iš rungtynių</value>
+    <value>{0} išėjo iš mačo</value>
   </data>
   <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} prisijungė prie rungtynių</value>
+    <value>{0} prisijungė prie mačo</value>
   </data>
   <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} buvo išmestas iš rungtynių</value>
+    <value>{0} buvo išmestas iš mačo</value>
   </data>
   <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} sukūrė rungtynes</value>
+    <value>{0} sukūrė mačą</value>
   </data>
   <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>rungtynės buvo sustabdytos</value>
+    <value>mačas buvo sustabdytas</value>
   </data>
   <data name="match.events.host-changed" xml:space="preserve">
-    <value>{0} tapo vedėju</value>
+    <value>{0} tapo šeimininku</value>
   </data>
   <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>žaidėjas išėjo iš rungtynių</value>
+    <value>žaidėjas išėjo iš mačo</value>
   </data>
   <data name="match.events.player-joined-no-user" xml:space="preserve">
-    <value>žaidėjas prisijungė prie rungtynių</value>
+    <value>žaidėjas prisijungė prie mačo</value>
   </data>
   <data name="match.events.player-kicked-no-user" xml:space="preserve">
-    <value>žaidėjas buvo išmestas iš rungtynių</value>
+    <value>žaidėjas buvo išmestas iš mačo</value>
   </data>
   <data name="match.events.match-created-no-user" xml:space="preserve">
-    <value>rungtynės buvo sukurtos</value>
+    <value>mačas buvo sukurtas</value>
   </data>
   <data name="match.events.match-disbanded-no-user" xml:space="preserve">
-    <value>rungtynės buvo sustabdytos</value>
+    <value>mačas buvo sustabdytas</value>
   </data>
   <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>pasikeitė vedėjas</value>
+    <value>pasikeitė šeimininkas</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Tikslumas</value>
@@ -124,8 +130,14 @@
   <data name="match.team-types.head-to-head" xml:space="preserve">
     <value>Kiekvienas už save</value>
   </data>
+  <data name="match.team-types.tag-coop" xml:space="preserve">
+    <value>Pakaitinis Ko-op</value>
+  </data>
   <data name="match.team-types.team-vs" xml:space="preserve">
     <value>Komandinis</value>
+  </data>
+  <data name="match.team-types.tag-team-vs" xml:space="preserve">
+    <value>Komandinis Pakaitinis</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Mėlyna Komanda</value>
@@ -137,7 +149,7 @@
     <value>Daugiausiai Taškų</value>
   </data>
   <data name="game.scoring-type.accuracy" xml:space="preserve">
-    <value>Didžausias Tikslumas</value>
+    <value>Didžiausias Tikslumas</value>
   </data>
   <data name="game.scoring-type.combo" xml:space="preserve">
     <value>Didžiausias Kombo</value>

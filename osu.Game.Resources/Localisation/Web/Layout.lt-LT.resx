@@ -58,6 +58,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="audio.autoplay" xml:space="preserve">
+    <value>Groti kitą takelį automatiškai</value>
+  </data>
+  <data name="defaults.page_description" xml:space="preserve">
+    <value>osu! - Ritmas yra tik per vieną *paspaudimą* nuo tavęs! Su Ouendan/EBA, Taiko ir originaliais žaidimo režimais, taip pat pilnai veikiančiu lygių redagavimo įrankių.</value>
+  </data>
+  <data name="header.admin.beatmapset" xml:space="preserve">
+    <value>bitmapų setas</value>
+  </data>
+  <data name="header.admin.beatmapset_covers" xml:space="preserve">
+    <value>bitmapo seto viršeliai</value>
+  </data>
   <data name="header.admin.contest" xml:space="preserve">
     <value>konkursas</value>
   </data>
@@ -70,11 +82,20 @@
   <data name="header.artists.index" xml:space="preserve">
     <value>sąrašas</value>
   </data>
+  <data name="header.beatmapsets.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header.beatmapsets.discussions" xml:space="preserve">
+    <value>diskusija</value>
+  </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>sąrašas</value>
   </data>
   <data name="header.help.index" xml:space="preserve">
     <value>indeksas</value>
+  </data>
+  <data name="header.help.sitemap" xml:space="preserve">
+    <value>Svetainės struktūra</value>
   </data>
   <data name="header.store.cart" xml:space="preserve">
     <value>krepšelis</value>
@@ -88,8 +109,17 @@
   <data name="header.tournaments.index" xml:space="preserve">
     <value>sąrašas</value>
   </data>
+  <data name="header.users.modding" xml:space="preserve">
+    <value>taisymai</value>
+  </data>
+  <data name="header.users.playlists" xml:space="preserve">
+    <value>grojaraščiai</value>
+  </data>
+  <data name="header.users.realtime" xml:space="preserve">
+    <value>žaidimas tinkle</value>
+  </data>
   <data name="header.users.show" xml:space="preserve">
-    <value>informacija</value>
+    <value>info</value>
   </data>
   <data name="gallery.close" xml:space="preserve">
     <value>Užverti (Esc)</value>
@@ -97,17 +127,32 @@
   <data name="gallery.fullscreen" xml:space="preserve">
     <value>Perjungti viso ekrano būsena</value>
   </data>
+  <data name="gallery.zoom" xml:space="preserve">
+    <value>Didinti/mažinti mastelį</value>
+  </data>
+  <data name="gallery.previous" xml:space="preserve">
+    <value>Ankstesnis (rodyklė į kairę)</value>
+  </data>
+  <data name="gallery.next" xml:space="preserve">
+    <value>Sekantis (rodyklė į dešinę)</value>
+  </data>
   <data name="menu.beatmaps._" xml:space="preserve">
-    <value>beatmapai</value>
+    <value>bitmapai</value>
   </data>
   <data name="menu.community._" xml:space="preserve">
     <value>bendruomenė</value>
+  </data>
+  <data name="menu.community.dev" xml:space="preserve">
+    <value>kūrimas</value>
   </data>
   <data name="menu.help._" xml:space="preserve">
     <value>pagalba</value>
   </data>
   <data name="menu.help.getabuse" xml:space="preserve">
     <value>pranešti apie piktnaudžiavimą</value>
+  </data>
+  <data name="menu.help.getfaq" xml:space="preserve">
+    <value>duk</value>
   </data>
   <data name="menu.help.getrules" xml:space="preserve">
     <value>taisyklės</value>
@@ -123,5 +168,167 @@
   </data>
   <data name="menu.rankings._" xml:space="preserve">
     <value>reitingai</value>
+  </data>
+  <data name="menu.rankings.kudosu" xml:space="preserve">
+    <value>kudosu</value>
+  </data>
+  <data name="menu.store._" xml:space="preserve">
+    <value>parduotuvė</value>
+  </data>
+  <data name="footer.general._" xml:space="preserve">
+    <value>Bendrieji</value>
+  </data>
+  <data name="footer.general.home" xml:space="preserve">
+    <value>Pradžia</value>
+  </data>
+  <data name="footer.general.changelog-index" xml:space="preserve">
+    <value>Pakeitimų sąrašas</value>
+  </data>
+  <data name="footer.general.beatmaps" xml:space="preserve">
+    <value>Bitmapų sąrašas</value>
+  </data>
+  <data name="footer.general.download" xml:space="preserve">
+    <value>Atsisiūsti osu!</value>
+  </data>
+  <data name="footer.help._" xml:space="preserve">
+    <value>Pagalba ir Bendruomenė</value>
+  </data>
+  <data name="footer.help.faq" xml:space="preserve">
+    <value>Dažniausiai Užduodami Klausimai</value>
+  </data>
+  <data name="footer.help.forum" xml:space="preserve">
+    <value>Bendruomenės Forumai</value>
+  </data>
+  <data name="footer.help.livestreams" xml:space="preserve">
+    <value>Tiesioginės Transliacijos</value>
+  </data>
+  <data name="footer.help.report" xml:space="preserve">
+    <value>Pranešti apie problemą</value>
+  </data>
+  <data name="footer.help.wiki" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="footer.legal._" xml:space="preserve">
+    <value>Teisė ir Būsena</value>
+  </data>
+  <data name="footer.legal.copyright" xml:space="preserve">
+    <value>Autorinės teisės (DMCA)</value>
+  </data>
+  <data name="footer.legal.privacy" xml:space="preserve">
+    <value>Privatumas</value>
+  </data>
+  <data name="footer.legal.server_status" xml:space="preserve">
+    <value>Serverio būsena</value>
+  </data>
+  <data name="footer.legal.source_code" xml:space="preserve">
+    <value>Pirminis Kodas</value>
+  </data>
+  <data name="footer.legal.terms" xml:space="preserve">
+    <value>Sąlygos</value>
+  </data>
+  <data name="errors.400.error" xml:space="preserve">
+    <value>Negaliojantis užklausos parametrai</value>
+  </data>
+  <data name="errors.404.error" xml:space="preserve">
+    <value>Puslapis Nerastas</value>
+  </data>
+  <data name="errors.404.description" xml:space="preserve">
+    <value>Atsiprašom, bet puslapio, kurio ieškote čia nėra!</value>
+  </data>
+  <data name="errors.403.error" xml:space="preserve">
+    <value>Tavęs čia neturėtu būti.</value>
+  </data>
+  <data name="errors.403.description" xml:space="preserve">
+    <value>Bet gali pabandyti grįžti atgal.</value>
+  </data>
+  <data name="errors.401.error" xml:space="preserve">
+    <value>Tavęs čia neturėtu būti.</value>
+  </data>
+  <data name="errors.401.description" xml:space="preserve">
+    <value>Bet gali pabandyti grįžti atgal. Arba prisijungti.</value>
+  </data>
+  <data name="errors.405.error" xml:space="preserve">
+    <value>Puslapis nerastas</value>
+  </data>
+  <data name="errors.405.description" xml:space="preserve">
+    <value>Atsiprašom, bet puslapio, kurio ieškote čia nėra!</value>
+  </data>
+  <data name="errors.422.error" xml:space="preserve">
+    <value>Negaliojantis užklausos parametrai</value>
+  </data>
+  <data name="errors.429.error" xml:space="preserve">
+    <value>Iškvietimų limitas viršytas</value>
+  </data>
+  <data name="errors.500.error" xml:space="preserve">
+    <value>O ne! kažkas nesuveikė! ;_;</value>
+  </data>
+  <data name="errors.500.description" xml:space="preserve">
+    <value>Mes automatiškai informuojami apie visas įvykusias klaidas.</value>
+  </data>
+  <data name="errors.fatal.error" xml:space="preserve">
+    <value>O ne! kažkas nesuveikė (stipriai)! ;_;</value>
+  </data>
+  <data name="errors.fatal.description" xml:space="preserve">
+    <value>Mes automatiškai informuojami apie visas įvykusias klaidas.</value>
+  </data>
+  <data name="errors.503.error" xml:space="preserve">
+    <value>Išjungta tvarkymui!</value>
+  </data>
+  <data name="errors.503.description" xml:space="preserve">
+    <value>Tvarkymas įprastai užtrunka nuo 5 sekundžių iki 10 minučių. Jei neveikia ilgiau, tikrinkite {0} dėl papildomos informacijos.</value>
+  </data>
+  <data name="errors.reference" xml:space="preserve">
+    <value>Štai kodas, kuri galite duoti pagalbai, dėl viso pikto!</value>
+  </data>
+  <data name="popup_login.button" xml:space="preserve">
+    <value>prisijungti / registruotis</value>
+  </data>
+  <data name="popup_login.login.forgot" xml:space="preserve">
+    <value>Pamiršau prisijungimo duomenys</value>
+  </data>
+  <data name="popup_login.login.password" xml:space="preserve">
+    <value>slaptažodis</value>
+  </data>
+  <data name="popup_login.login.title" xml:space="preserve">
+    <value>Prisijunk, kad tęsti</value>
+  </data>
+  <data name="popup_login.login.username" xml:space="preserve">
+    <value>vartotojo vardas</value>
+  </data>
+  <data name="popup_login.login.error.email" xml:space="preserve">
+    <value>Naudotojas arba el. paštas neegzistuoja</value>
+  </data>
+  <data name="popup_login.login.error.password" xml:space="preserve">
+    <value>Neteisingas slaptažodis</value>
+  </data>
+  <data name="popup_login.register.download" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="popup_login.register.info" xml:space="preserve">
+    <value>Atsisiųsk osu!, kad susikurti paskyrą!</value>
+  </data>
+  <data name="popup_login.register.title" xml:space="preserve">
+    <value>Neturite paskyros?</value>
+  </data>
+  <data name="popup_user.links.account-edit" xml:space="preserve">
+    <value>Nustatymai</value>
+  </data>
+  <data name="popup_user.links.follows" xml:space="preserve">
+    <value>Stebimi</value>
+  </data>
+  <data name="popup_user.links.friends" xml:space="preserve">
+    <value>Draugai</value>
+  </data>
+  <data name="popup_user.links.logout" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="popup_user.links.profile" xml:space="preserve">
+    <value>Mano Profilis</value>
+  </data>
+  <data name="popup_search.initial" xml:space="preserve">
+    <value>Ieškokite rašydami!</value>
+  </data>
+  <data name="popup_search.retry" xml:space="preserve">
+    <value>Paieška nepavyko. Spauskite, kad bandyti iš naujo.</value>
   </data>
 </root>
