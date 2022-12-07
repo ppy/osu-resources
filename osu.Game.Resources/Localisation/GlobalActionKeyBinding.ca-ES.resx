@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Commuta la superposició del xat</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Commuta la superposició social</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Reinicia la configuració de l'entrada</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Commuta la barra d'eines</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Commuta la configuració</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Alternar llista de beatmaps</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Augmenta el volum</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Disminueix el volum</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Commuta el silenci</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Salta les cinemàtiques</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Reintent ràpid (mantenir)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Fes una captura de pantalla</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Commuta els botons del ratolí de jugabilitat</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Enrere</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Augmenta la velocitat de desplaçament</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Disminueix la velocitat de desplaçament</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Selecciona</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Sortida ràpida (mantenir)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Pista següent</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Pista anterior</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Reprodueix / pausa</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Commuta la superposició de reproducció</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Selecció anterior</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Selecció següent</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Selecciona el grup anterior</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Selecciona el grup següent</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Inici</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Commuta les notificacions</value>
+  </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>Commuta el perfil</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Pausa la jugabilitat</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Mode de configuració</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Mode de composició</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Mode de disseny</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Mode de temps</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Toca per al BPM</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>Clona la selecció</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Mode de visualització de la quadrícula del cicle</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>Prova la jugabilitat</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Mantingueu premut per HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Skin aleatòria</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Fes una pausa o reprèn la reproducció</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Commuta la interfície del joc</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Commuta la selecció mod</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Desselecciona tots els mods</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Aleatori</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Rebobina</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Opcions del beatmap</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Mode de verificació</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Esborra la selecció cap a l'esquerra</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Esborra la selecció cap a la dreta</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>Capgira la selecció horitzontalment</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>Inverteix la selecció verticalment</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Augmenta l'espaiat de distància</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Disminueix l'espaiat de la distància</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Commuta l'editor de l'aparença</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>Commuta el comptador FPS</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Mesurador de volum anterior</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Mesurador de volum següent</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Cerca la repetició endavant</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Cerca la repetició enrere</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Commuta el focus del xat</value>
+  </data>
+</root>
