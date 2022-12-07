@@ -5,7 +5,6 @@
 
 varying highp vec2 v_TexCoord;
 
-uniform lowp sampler2D m_Sampler;
 uniform mediump float thickness;
 uniform highp float texelSize;
 
@@ -31,8 +30,7 @@ bool insideTriangle(highp vec2 pixelPos)
 
 void main(void)
 {
-    highp vec2 resolution = v_TexRect.zw - v_TexRect.xy;
-    highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
+    highp vec2 pixelPos = v_TexCoord / (v_TexRect.zw - v_TexRect.xy);
 
     if (!insideTriangle(pixelPos))
     {
@@ -47,7 +45,7 @@ void main(void)
 
     lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - thickness);
 
-    lowp vec4 col = getRoundedColor(texture2D(m_Sampler, v_TexCoord), v_TexCoord);
+    lowp vec4 col = getRoundedColor(vec4(1.0), v_TexCoord);
 
     gl_FragColor = vec4(col.rgb, col.a * alpha);
 }
