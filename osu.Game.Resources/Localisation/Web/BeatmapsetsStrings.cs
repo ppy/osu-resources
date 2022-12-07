@@ -295,6 +295,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoNoScores => new TranslatableString(getKey(@"show.info.no_scores"), @"Data still being calculated...");
 
         /// <summary>
+        /// "Nominators"
+        /// </summary>
+        public static LocalisableString ShowInfoNominators => new TranslatableString(getKey(@"show.info.nominators"), @"Nominators");
+
+        /// <summary>
         /// "Explicit content"
         /// </summary>
         public static LocalisableString ShowInfoNsfw => new TranslatableString(getKey(@"show.info.nsfw"), @"Explicit content");

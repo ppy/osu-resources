@@ -365,10 +365,10 @@
     <value>无</value>
   </data>
   <data name="show.extra.unranked" xml:space="preserve">
-    <value>最近没有玩过</value>
+    <value>最近没玩过</value>
   </data>
   <data name="show.extra.achievements.achieved-on" xml:space="preserve">
-    <value>达成于 {0}</value>
+    <value>{0} 达成</value>
   </data>
   <data name="show.extra.achievements.locked" xml:space="preserve">
     <value>锁定</value>
@@ -392,13 +392,13 @@
     <value>参与客串制作的谱面</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
-    <value>Loved 的谱面</value>
+    <value>社区喜爱 (Loved) 谱面</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Pending 谱面</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>Ranked 谱面</value>
+    <value>上架 (Ranked) 谱面</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>讨论</value>
@@ -533,7 +533,7 @@
     <value>下载回放</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>只有 ranked 谱面才能得到 pp。</value>
+    <value>只能在上架 (Ranked) 谱面中获得 pp。</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>权重：{0}</value>
@@ -674,16 +674,19 @@
     <value>{0} 篇帖子</value>
   </data>
   <data name="show.rank.country" xml:space="preserve">
-    <value>{0} 模式的国内/区内排名</value>
+    <value>{0} 模式的地区排名</value>
   </data>
   <data name="show.rank.country_simple" xml:space="preserve">
-    <value>国内/区内排名</value>
+    <value>地区排名</value>
   </data>
   <data name="show.rank.global" xml:space="preserve">
     <value>{0} 模式的全球排名</value>
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>全球排名</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>{0} 达成生涯最高排名 {1}</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>准确率</value>
@@ -707,7 +710,7 @@
     <value>游戏时间</value>
   </data>
   <data name="show.stats.ranked_score" xml:space="preserve">
-    <value>Ranked 谱面总分</value>
+    <value>进榜总分</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
     <value>回放被观看次数</value>
@@ -725,13 +728,13 @@
     <value>坟场里的谱面</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Loved 的谱面</value>
+    <value>社区喜爱 (Loved) 谱面</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Pending 的谱面</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>Ranked 的谱面</value>
+    <value>上架 (Ranked) 谱面</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>你已被禁言。</value>

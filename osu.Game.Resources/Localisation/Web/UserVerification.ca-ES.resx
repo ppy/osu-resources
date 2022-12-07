@@ -58,4 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>S'ha enviat un correu electrònic a {0} amb un codi de verificació. Introduïu el codi.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Verificació del compte</value>
+  </data>
+  <data name="box.verifying" xml:space="preserve">
+    <value>Verificant...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>S'està emetent un codi nou...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Assegureu-vos de comprovar la vostra carpeta de correu brossa si no podeu trobar el correu electrònic.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Si no podeu accedir al vostre correu electrònic o heu oblidat el que heu utilitzat, seguiu l'enllaç {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>procés de recuperació del correu electrònic aquí</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>També podeu {0} o {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>sol·licita un altre codi</value>
+  </data>
+  <data name="box.info.logout_link" xml:space="preserve">
+    <value>tanca la sessió</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>El codi de verificació ha caducat, s'ha enviat un correu electrònic de verificació nou.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Codi de verificació incorrecte.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Codi de verificació incorrecte. S'ha excedit el límit de reintents, s'ha enviat un correu electrònic de verificació nou.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>S'ha reeditat el codi de verificació, s'ha enviat un nou correu electrònic de verificació.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>S'ha produït un problema desconegut, s'ha enviat un correu electrònic de verificació nou.</value>
+  </data>
 </root>

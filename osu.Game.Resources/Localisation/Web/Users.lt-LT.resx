@@ -64,6 +64,9 @@
   <data name="beatmapset_activities.title" xml:space="preserve">
     <value>{0} Taisymų istorija</value>
   </data>
+  <data name="beatmapset_activities.title_compact" xml:space="preserve">
+    <value>Taisymai</value>
+  </data>
   <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
     <value>Neseniai pradėtos diskusijos</value>
   </data>
@@ -82,35 +85,74 @@
   <data name="blocks.banner_text" xml:space="preserve">
     <value>Jūs užblokavote šį vartotoją.</value>
   </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Šis komentaras yra paslėptas.</value>
+  </data>
   <data name="blocks.blocked_count" xml:space="preserve">
-    <value>blokuoti vartotojai ({0})</value>
+    <value>užblokuoti vartotojai ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
-    <value>slėpti profilį</value>
+    <value>Slėpti profilį</value>
+  </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>slėpti</value>
   </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Šis vartotojas nėra užblokuotas.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
-    <value>rodyti profilį</value>
+    <value>Rodyti profilį</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>rodyti</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
     <value>Pasiektas blokavimų limitas.</value>
   </data>
   <data name="blocks.button.block" xml:space="preserve">
-    <value>užblokuoti</value>
+    <value>Užblokuoti</value>
   </data>
   <data name="blocks.button.unblock" xml:space="preserve">
-    <value>atblokuoti</value>
+    <value>Atblokuoti</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Įkeliama...</value>
   </data>
   <data name="card.send_message" xml:space="preserve">
-    <value>siųsti žinutę</value>
+    <value>Siųsti žinutę</value>
+  </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>O, ne! Panašu, kad jūsu paskyra buvo deaktyvuota.</value>
+  </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>Žinokite, kad taisyklės pažeidimo atveju įprastai yra vieno mėnesio nusiraminimo laikotarpis per kurį nepriimame amnestavimo prašymų. Po šio laikotarpio galite su mumis susisiekti, jei jums to reikia. Naujos paskyros susikūrimas po praeitos deaktyvavimo, lydės į &lt;strong&gt; šio vieno mėnesio nusiraminimo laikotarpio pratęsimą&lt;/strong&gt;. Taip pat žinokite, &lt;strong&gt;kad kiekviena nauja susikurta paskyra vis labiau laužo taisykles&lt;/strong&gt;. Mes stipriai rekomenduojame nesirinkti šio kelio!</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Jei manote, kad čia kažkokia klaida, galite susisiekti su mumis (per {0} arba paspausdami „?“ apatiniame dešiniajame šio puslapio kampe). Prašome žinoti, kad mes visiškai tikri savo veiksmais, nes jie paremti patikimais duomenimis. Mes pasiliekame teisę nepaisyti jūsų prašymo, jei manome, kad esate sąmoningai nenuoširdus.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>el. paštas</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Manome, kad jūsų paskyra yra pažeista. Ji galimai bus deaktyvuota iki kol patvirtinsime tapatybę.</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>Egzistuoja kelios priežastys dėl kurių jūsų paskyra gali būti deaktyvuota:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Jūs sulaužėt viena ar daugiau mūsų {0} arba {1}.</value>
+  </data>
+  <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
+    <value>bendruomenės taisyklės</value>
+  </data>
+  <data name="disabled.reasons.tos.tos" xml:space="preserve">
+    <value>paslaugų teikimo sąlygos</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Nariai pagal žaidimo režimą</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>Jūsų paskyra buvo nenaudojama ilga laiką.</value>
   </data>
   <data name="login._" xml:space="preserve">
     <value>Prisijungti</value>
@@ -121,14 +163,23 @@
   <data name="login.button_posting" xml:space="preserve">
     <value>Prijungiama...</value>
   </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>Prisijungimas naudojantis el. paštu išjungtas. Prašom naudoti vartotojo vardą.</value>
+  </data>
   <data name="login.failed" xml:space="preserve">
     <value>Neteisingi prisijungimo duomenys</value>
   </data>
   <data name="login.forgot" xml:space="preserve">
     <value>Pamiršai slaptažodį?</value>
   </data>
+  <data name="login.info" xml:space="preserve">
+    <value>Prisijunkite, kad tęsti</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Per daug nesėkmingų prisijungimo bandymų, atlikite ženklų testą ir bandykite iš naujo. (Atnaujinkite puslapį, jei nėra ženklų testo)</value>
+  </data>
   <data name="login.locked_ip" xml:space="preserve">
-    <value>tavo IP adresas yra užblokuotas. Palauk porą minučių.</value>
+    <value>Tavo IP adresas yra užblokuotas. Palauk porą minučių.</value>
   </data>
   <data name="login.password" xml:space="preserve">
     <value>Slaptažodis</value>
@@ -137,7 +188,7 @@
     <value>Neturi osu! profilio? Susikurk</value>
   </data>
   <data name="login.remember" xml:space="preserve">
-    <value>Prisiminti mane šiame kompiuteryje</value>
+    <value>Prisiminti šį kompiuterį</value>
   </data>
   <data name="login.title" xml:space="preserve">
     <value>Norint tęsti reikia prisijungti</value>
@@ -148,11 +199,14 @@
   <data name="login.beta.main" xml:space="preserve">
     <value>Šiuo metu beta prieiga galima tik išskirtiniams vartotojams.</value>
   </data>
+  <data name="login.beta.small" xml:space="preserve">
+    <value>(osu! rėmėjai bus įleisti greitu metu)</value>
+  </data>
   <data name="posts.title" xml:space="preserve">
     <value>{0} žinutės</value>
   </data>
   <data name="anonymous.login_link" xml:space="preserve">
-    <value>paspauskite, jei norite prisijungti</value>
+    <value>paspauskite, kad prisijungti</value>
   </data>
   <data name="anonymous.login_text" xml:space="preserve">
     <value>prisijungti</value>
@@ -166,8 +220,56 @@
   <data name="logout_confirm" xml:space="preserve">
     <value>Ar tikrai nori atsijungti? :(</value>
   </data>
+  <data name="report.button_text" xml:space="preserve">
+    <value>Pranešti</value>
+  </data>
+  <data name="report.comments" xml:space="preserve">
+    <value>Komentarai</value>
+  </data>
+  <data name="report.placeholder" xml:space="preserve">
+    <value>Prašome pateikti bet kokia informacija, kuri manote, kad gali būti naudinga.</value>
+  </data>
+  <data name="report.reason" xml:space="preserve">
+    <value>Priežastis</value>
+  </data>
+  <data name="report.thanks" xml:space="preserve">
+    <value>Ačiū už jūsų pranešimą!</value>
+  </data>
+  <data name="report.title" xml:space="preserve">
+    <value>Pranešti apie {0}?</value>
+  </data>
+  <data name="report.actions.send" xml:space="preserve">
+    <value>Siųsti pranešimą</value>
+  </data>
+  <data name="report.actions.cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="report.options.cheating" xml:space="preserve">
+    <value>Sukčiavimas</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Naudoja kelias paskyras</value>
+  </data>
+  <data name="report.options.insults" xml:space="preserve">
+    <value>Įžeidinėja manę / kitus</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Siuntinėja šlamštą</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Nuorodos į netinkamą turinį</value>
+  </data>
+  <data name="report.options.nonsense" xml:space="preserve">
+    <value>Nesąmonės</value>
+  </data>
+  <data name="report.options.other" xml:space="preserve">
+    <value>Kita (nurodykite žemiau)</value>
+  </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Tavo vartotojo prieiga buvo apribota!</value>
+  </data>
+  <data name="restricted_banner.message" xml:space="preserve">
+    <value>Kol ribotas, negalėsite sąveikauti su kitais žaidėjais ir jūsų rezultatai bus matomi tik jums. Įprastai šis apribojimas įvyksta dėl automatizuoto proceso ir yra atšaukiamas per 24 valandas. Jei norite apeliuoti šį apribojimą, prašome &lt;a href="mailto{0}@ppy.sh"&gt;susisiekti su pagalba&lt;/a&gt;.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} metų</value>
@@ -190,6 +292,9 @@
   <data name="show.lastvisit" xml:space="preserve">
     <value>Paskutinį kart matytas {0}</value>
   </data>
+  <data name="show.lastvisit_online" xml:space="preserve">
+    <value>Prisijungę žaidėjai</value>
+  </data>
   <data name="show.missingtext" xml:space="preserve">
     <value>Turbūt padarei klaidą! (arba vartotojas buvo užblokuotas)</value>
   </data>
@@ -197,13 +302,25 @@
     <value>Iš {0}</value>
   </data>
   <data name="show.previous_usernames" xml:space="preserve">
-    <value>dar žinomas kaip</value>
+    <value>buvo žinomas kaip</value>
   </data>
   <data name="show.plays_with" xml:space="preserve">
     <value>Žaidžia su {0}</value>
   </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} profilis</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Paskelbta {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>:{0} komentaras|{0} komentarų</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Slėpti viršelį</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Rodyti viršelį</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Keisti profilio viršelį</value>
@@ -218,7 +335,7 @@
     <value>Įkelti paveiksliuką</value>
   </data>
   <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
-    <value>Tam, kad įkelti, mesk čia</value>
+    <value>Mesk čia, kad įkelti</value>
   </data>
   <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
     <value>Taip pat gali mesti čia, kad įkelti, paveiksliuką</value>
@@ -232,11 +349,20 @@
   <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
     <value>Formatas nepalaikomas.</value>
   </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>Įkelti gali tik {0}</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>osu!rėmėjai</value>
+  </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
     <value>pagrindinis žaidimo rėžimas</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>nustatyti {0} kaip pagrindiniu profilio žaidimo rėžimu</value>
+  </data>
+  <data name="show.extra.none" xml:space="preserve">
+    <value>nėra</value>
   </data>
   <data name="show.extra.unranked" xml:space="preserve">
     <value>Rezultatų nėra</value>
@@ -244,29 +370,68 @@
   <data name="show.extra.achievements.achieved-on" xml:space="preserve">
     <value>Pasiekta {0}</value>
   </data>
+  <data name="show.extra.achievements.locked" xml:space="preserve">
+    <value>Užrakintas</value>
+  </data>
   <data name="show.extra.achievements.title" xml:space="preserve">
     <value>Pasiekimai</value>
   </data>
+  <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
-    <value>Beatmapai</value>
+    <value>Bitmapai</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
-    <value>Mėgstami Beatmapai</value>
+    <value>Mėgstami Bitmapai</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
-    <value>Išmesti Beatmapai</value>
+    <value>Palaidoti Bitmapai</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Bitmapai sukurti kaip svečio</value>
+  </data>
+  <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
+    <value>Mylimi Bitmapai</value>
+  </data>
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
+    <value>Laukiantis Bitmapai</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>Reitinguoti Bitmapai</value>
+  </data>
+  <data name="show.extra.discussions.title" xml:space="preserve">
+    <value>Diskusijos</value>
+  </data>
+  <data name="show.extra.discussions.title_longer" xml:space="preserve">
+    <value>Paskutinės Diskusijos</value>
+  </data>
+  <data name="show.extra.discussions.show_more" xml:space="preserve">
+    <value>rodyti daugiau diskusijų</value>
+  </data>
+  <data name="show.extra.events.title" xml:space="preserve">
+    <value>Įvykiai</value>
+  </data>
+  <data name="show.extra.events.title_longer" xml:space="preserve">
+    <value>Paskutiniai įvykiai</value>
+  </data>
+  <data name="show.extra.events.show_more" xml:space="preserve">
+    <value>rodyti daugiau įvykių</value>
   </data>
   <data name="show.extra.historical.title" xml:space="preserve">
     <value>Istorija</value>
   </data>
   <data name="show.extra.historical.monthly_playcounts.title" xml:space="preserve">
-    <value>Žaidimų Istorija</value>
+    <value>Sužaidimų Istorija</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
+    <value>Sužaidimai</value>
   </data>
   <data name="show.extra.historical.most_played.count" xml:space="preserve">
     <value>žaista kartų</value>
   </data>
   <data name="show.extra.historical.most_played.title" xml:space="preserve">
-    <value>Daugiausiai žaisti Beatmapai</value>
+    <value>Daugiausiai žaisti Bitmapai</value>
   </data>
   <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
     <value>tikslumas: {0}</value>
@@ -275,7 +440,10 @@
     <value>Nesenai žaisti (24h)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>Įrašų Peržiūros Istorija</value>
+    <value>Atkūrimų Peržiūrų Istorija</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
+    <value>Atkūrimai Žiūrėti</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Paskutinių Kudosu Istorija</value>
@@ -284,28 +452,133 @@
     <value>Kudosu!</value>
   </data>
   <data name="show.extra.kudosu.total" xml:space="preserve">
-    <value>Viso uždirbtų Kudosu</value>
+    <value>Visi uždirbti Kudosu</value>
   </data>
   <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
     <value>{0} kudosu</value>
   </data>
+  <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
+    <value>Naudotojas negavo nei kiek kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
+    <value>Gauta {0} už kudosu atmetimo anuliavimą taisymų žinutėje tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>Atmesta {0} už taisymų žinutę {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
+    <value>Prarasta {0} dėl taisymų žinutės ištrynimo iš {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>Gauta {0} dėl taisymų žinutės atstatymo tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>Gauta {0} už gautus balsus taisymų žinutėje tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>Prarasta {0} dėl prarastu balsų taisymų žinutėje tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>Gauta {0} dėl balsų perskaičiavimo taisymų žinutėje tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>Prarasta {0} dėl balsų perskaičiavimo taisymų žinutėje tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>Gauta {0} iš {1} dėl žinutės tarp {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>{0} atšaukė kudosu už žinutę tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>{0} atmetė kudosu už žinutę tarp {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Priklauso nuo to kiek naudotojas prisidėjo prie bitmapų moderavimo. Žiūrėk {0} dėl tolimesnės informacijos.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>šį puslapį</value>
+  </data>
+  <data name="show.extra.me.title" xml:space="preserve">
+    <value>aš!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Šis vartotojas dar neturi. ;_;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>Naujausi</value>
+  </data>
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Medaliai</value>
+  </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Žaidimų Rinkiniai</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>Žinutės</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>Paskutinės žinutės</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>rodyti daugiau žinučių</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Paskutinės</value>
   </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Tinklo Žaidimai</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>Atsiusti atkūrimą</value>
+  </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Tik pripažinti beatmapai duoda pp.</value>
+    <value>Tik reitinguoti bitmapai duoda pp</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>prilygintas {0}</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Išsamiau</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>Reitingas</value>
+    <value>Reitingai</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>Geriausi rezultatai</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Pirmos vietos</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Atsegti</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Atsegtas rezultatas</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Prisegtas rezultatas</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Prisegti Rezultatai</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Balsuota (paskutiniai 3 mėnesiai)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Gauta Balsų (paskutiniai 3 mėnesiai)</value>
+  </data>
+  <data name="show.extra.votes.title" xml:space="preserve">
+    <value>Balsai</value>
+  </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>Paskutiniai Balsavimai</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>Prieš{0} balsas| Prieš{0} balsai(-ų)</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
     <value>Paskyros padėtis</value>
@@ -314,7 +587,7 @@
     <value>&lt;strong&gt;{0}&lt;/strong&gt; paskyra nėra geroje padėtyje :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>&lt;strong&gt;{0}&lt;/strong&gt; vėl galės kalbėti už {1}.</value>
+    <value>{0} vėl galės kalbėti už {1}.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Paskutiniai pažeidimai</value>
@@ -337,11 +610,17 @@
   <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
     <value>nuo {0}</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
+    <value>Užblokuotas</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Užtildytas</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Turnyrų užblokavimas</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
-    <value>Pastabos</value>
+    <value>Pastaba</value>
   </data>
   <data name="show.info.interests" xml:space="preserve">
     <value>Pomėgiai</value>
@@ -369,5 +648,123 @@
   </data>
   <data name="show.not_found.title" xml:space="preserve">
     <value>Vartotojas nerastas! ;_;</value>
+  </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>Redaguoti profilio puslapį</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>&lt;strong&gt;aš!&lt;/strong&gt; yra asmeninis prisitaikomas plotas jūsų profilio puslapyje.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>Redaguok manę!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>Rašyk puslapio turinį čia</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Tu turi būti {0}, kad atrakinti šia funkciją.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>osu!rėmėjas</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>Įnašas {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} forumo žinutė|{0}  forumo žinutės</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>Šalies reitingas tarp {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>Šalies Reitingas</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>Pasaulinis reitingas tarp {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>Pasaulinis Reitingas</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Aukščiausias reitingas: {0} kada: {1}</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>Paspaudimų Tikslumas</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>Lygis {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>Progresas į kitą lygį</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Didžiausias Kombo</value>
+  </data>
+  <data name="show.stats.medals" xml:space="preserve">
+    <value>Medaliai</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>Sužaidimų Skaičius</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Bendras žaidimo laikas
+</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Reitinguoti taškai</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Atkūrimų peržiūros iš kitų</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Taškų Įvertinimai</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Visi Pataikymai</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Visi taškai</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Palaidoti Bitmapai</value>
+  </data>
+  <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
+    <value>Mylimi Bitmapai</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>Laukiantis Bitmapai</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Reitinguoti Bitmapai</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Šiuo metu esi nutildytas.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Kai kurie veiksmai gali būti neprieinami.</value>
+  </data>
+  <data name="status.all" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>Prisijungęs</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>Atsijungęs</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Naudotojas sukurtas</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Paskyros Patvirtinimas</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Rodyti plytelėmis</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Rodymas kortelėmis</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Rodymas sąrašu</value>
   </data>
 </root>

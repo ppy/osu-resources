@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Geriau pažaisk daugiau osu!, jo?</value>
+  </data>
   <data name="require_login" xml:space="preserve">
     <value>Norint tęsti reikia prisijungti.</value>
   </data>
@@ -86,37 +89,37 @@
     <value>Įvyko klaida atliekant šį veiksmą, pamėgink atnaujinti puslapį.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
-    <value>Savo beatmapo negali nominuoti.</value>
+    <value>Nominuoti savo bitmapo negali.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>Jūs turite padaryti žanrą ir kalbą prieš nominuojant.</value>
+    <value>Jūs turite nustatyti žanrą ir kalbą prieš nominuojant.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Uždaryti diskusiją gali tik pokalbio ir beatmapo kūrėjai.</value>
+    <value>Uždaryti diskusiją gali tik pokalbio ir bitmapo kūrėjai.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Tik beatmapo kūrėjas ar nominatorius/QAT grupės narys gali rašyti maperio užrašus.</value>
+    <value>Tik bitmapo kūrėjas ar nominatorius/NAT grupės narys gali rašyti į kūrėjo užrašus.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Negalima balsuoti diskusijoje sukurtos roboto</value>
+    <value>Negalima balsuoti diskusijoje sukurtoje boto</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
-    <value>Palauk kurį laiką prieš balsuojant daugiau</value>
+    <value>Palaukite kurį laiką prieš balsuojant daugiau</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
     <value>Negali balsuoti už savo diskusiją.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Gali balsuoti tik už nepabaigtų beatmapų diskusijas.</value>
+    <value>Gali balsuoti tik nepabaigtų bitmapų diskusijose.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Jūs galite tik ištrinti savo pranešimų.</value>
+    <value>Jūs galite ištrinti tik savo žinutes.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
     <value>Jūs negalite ištrinti įrašo kuris priklauso išspręstai diskusijai.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
-    <value>Automatiškai sugeneruotas įrašas negali būti ištrintas.</value>
+    <value>Automatiškai sugeneruota žinutė negali būti ištrinta.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Tik žinutės autorius gali redaguoti žinutę.</value>
@@ -128,16 +131,19 @@
     <value>Automatiškai sugeneruotos žinutės negali būti redaguotos.</value>
   </data>
   <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
-    <value>Šis beatmapo diskusiją užrakintą.</value>
+    <value>Ši bitmapo diskusiją užrakintą.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Jūs negalite pakeisti nominuoto žemėlapio duomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad tai buvo nustatyta neteisingai.</value>
+    <value>Jūs negalite pakeisti nominuoto bitmapo metaduomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad jie buvo nustatyti neteisingai.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Šis kanalas tik pranešimams.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
-    <value>Negalima išsiųsti žinutės vartotujui kuris jumis yra užblokavę arba jūs jį esą užblokavę.</value>
+    <value>Negalima išsiųsti žinučių vartotojui, kuris yra jūs užblokavęs, ar jūs esat užblokavę.</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
-    <value>Vartotojas šiuo metu užblokavo žinutės iš žmonių kurie nėra vartotojo draugų sąraše.</value>
+    <value>Vartotojas šiuo metu užblokavo žinutės iš žmonių, kurie nėra vartotojo draugų sąraše.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
     <value>Šiuo momentu šis kanalas yra prižiūrimas.</value>
@@ -145,8 +151,17 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Jūs neturite leidimo įeiti į šį kanalą.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Naudotojas gali negalėti atsakyti, nes priėmat žinutes tik iš žmonių jūsų draugų sąraše.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>Būnant užblokuotam, apribotam, užtildytam, jūs negalite siųsti žinutės.</value>
+    <value>Būnant užblokuotam, apribotam, užtildytam, jūs negalite siųsti žinučių.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Būnant užblokuotam, apribotam, užtildytam, jūs negalite siųsti žinučių.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Komentarai išjungti</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Ištrintos žinutės negalima redaguoti.</value>
@@ -154,14 +169,20 @@
   <data name="contest.voting_over" xml:space="preserve">
     <value>Po konkurso balsavimo pabaigos, balso keitimas nebegalimas.</value>
   </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Jūs pasiekėt pateikymų limitą šiam konkursui</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Ačiū už jūsų pateiktis! Pateikimas šiam konkursui buvo sustabdytas ir netrukus prasidės balsavimas.</value>
+  </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
-    <value>Leidimo keisti šį forumą jūs neturitę.</value>
+    <value>Leidimo keisti šį forumą jūs neturite.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
     <value>Trinti galima tik paskutinę žinutę.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
-    <value>Po temos užrakinimo trinti žinučių negalima.</value>
+    <value>Užrakintos temos žinučių trinti negalima.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
     <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
@@ -255,6 +276,12 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Šį forumą gali skaityti tik administratoriai.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Tik rezultato savininkas gali prisegti rezultatą.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Prisegta perdaug rezultatų.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Vartotojo puslapis užrakintas.</value>

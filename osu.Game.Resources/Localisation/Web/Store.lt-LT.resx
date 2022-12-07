@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Apmokėti</value>
   </data>
+  <data name="cart.info" xml:space="preserve">
+    <value>{0} pirkinis krepšelyje (${1})|{0} pirkiniai krepšelyje (${1})</value>
+  </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Noriu išsirinkti daugiau prekių prieš apmokant</value>
   </data>
@@ -74,7 +77,7 @@
     <value>iš viso</value>
   </data>
   <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
-    <value>Ups, yra problemų su tavo prekių krepšeliu kurios neleidžia apmokėti!</value>
+    <value>O ne, yra problemų su tavo prekių krepšeliu, kurios neleidžia apmokėti!</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
     <value>Ištrinti arba atnaujinti viršuje esančias prekes prieš tęsiant.</value>
@@ -89,7 +92,7 @@
     <value>prekių sąrašas</value>
   </data>
   <data name="checkout.cart_problems" xml:space="preserve">
-    <value>Ups, atsirado problemų su tavo prekių krepšeliu!</value>
+    <value>O ne, atsirado problemų su tavo prekių krepšeliu!</value>
   </data>
   <data name="checkout.cart_problems_edit" xml:space="preserve">
     <value>Norint redaguoti spausk čia.</value>
@@ -106,11 +109,68 @@
   <data name="checkout.pay" xml:space="preserve">
     <value>Apmokėti su Paypal</value>
   </data>
+  <data name="checkout.title_compact" xml:space="preserve">
+    <value>apmokėti</value>
+  </data>
+  <data name="checkout.has_pending._" xml:space="preserve">
+    <value>Turi nebaigtus apmokėjimus, spausk {0}, kad juos peržiūrėti.</value>
+  </data>
+  <data name="checkout.has_pending.link_text" xml:space="preserve">
+    <value>čia</value>
+  </data>
   <data name="checkout.pending_checkout.line_1" xml:space="preserve">
     <value>Ankstesnis apmokėjimas buvo pradėtas bet nebaigtas.</value>
   </data>
+  <data name="checkout.pending_checkout.line_2" xml:space="preserve">
+    <value>Pasirink apmokėjimo būdą, kad tęsti.</value>
+  </data>
   <data name="discount" xml:space="preserve">
     <value>sutaupyk {0}%</value>
+  </data>
+  <data name="invoice.echeck_delay" xml:space="preserve">
+    <value>Kadangi jūsų mokėjote el. čekiu, pervedimas gali užtrukti iki 10 dienų kol praeis per PayPal sistemą!</value>
+  </data>
+  <data name="invoice.title_compact" xml:space="preserve">
+    <value>sąskaita</value>
+  </data>
+  <data name="invoice.status.processing.title" xml:space="preserve">
+    <value>Jūsų pervedimas dar nepatvirtintas!</value>
+  </data>
+  <data name="invoice.status.processing.line_1" xml:space="preserve">
+    <value>Net jei jau sumokėjote, mums dar gali būti neatėjęs jūsų pervedimo patvirtinimas. Prašome atnaujinti puslapį už minutės ar dviejų!</value>
+  </data>
+  <data name="invoice.status.processing.line_2._" xml:space="preserve">
+    <value>Jei turėjote problemų apmokėjimo metu, {0}</value>
+  </data>
+  <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
+    <value>spauskite čia, kad tęsti apmokėjimą</value>
+  </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Atšaukti užsakymą</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Šis užsakymas bus atšauktas ir mokėjimas bus nepriimtas. Mokėjimų tiekėjas ne iškart gražinti pinigus. Jūs užtikrintas?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Šio užsakymo nebegali atšaukti.</value>
+  </data>
+  <data name="order.invoice" xml:space="preserve">
+    <value>Peržiūrėti sąskaitą</value>
+  </data>
+  <data name="order.no_orders" xml:space="preserve">
+    <value>Nėra užsakymų.</value>
+  </data>
+  <data name="order.paid_on" xml:space="preserve">
+    <value>Užsakyta {0}</value>
+  </data>
+  <data name="order.resume" xml:space="preserve">
+    <value>Tęsti Apmokėjimą</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Ši apmokėjimo nuoroda nebegalioja.</value>
+  </data>
+  <data name="order.item.display_name.supporter_tag" xml:space="preserve">
+    <value>{0} vartotojui {1} ({2})</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Kiekis</value>
@@ -135,6 +195,24 @@
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
     <value>Užsakymas jau išsiųstas todėl jo redaguoti nebegalima.</value>
+  </data>
+  <data name="order.status.cancelled" xml:space="preserve">
+    <value>Atšaukta</value>
+  </data>
+  <data name="order.status.checkout" xml:space="preserve">
+    <value>Ruošiama</value>
+  </data>
+  <data name="order.status.delivered" xml:space="preserve">
+    <value>Pristatyta</value>
+  </data>
+  <data name="order.status.paid" xml:space="preserve">
+    <value>Apmokėta</value>
+  </data>
+  <data name="order.status.processing" xml:space="preserve">
+    <value>Laukiantis patvirtinimo</value>
+  </data>
+  <data name="order.status.shipped" xml:space="preserve">
+    <value>Išsiųsta</value>
   </data>
   <data name="product.name" xml:space="preserve">
     <value>Vardas</value>
@@ -163,6 +241,12 @@
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>dovanoti žaidėjui</value>
   </data>
+  <data name="supporter_tag.require_login._" xml:space="preserve">
+    <value>Tu turi būti {0}, kad gauti osu!supporter žymę!</value>
+  </data>
+  <data name="supporter_tag.require_login.link_text" xml:space="preserve">
+    <value>prisijungęs</value>
+  </data>
   <data name="username_change.check" xml:space="preserve">
     <value>Patikrinimui įvesk norimą vartotojo vardą!</value>
   </data>
@@ -170,6 +254,9 @@
     <value>Tikrinama ar galimas {0}...</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
-    <value>Tau reikia {0}, kad pakeistum vardą!</value>
+    <value>Tau turi būti {0}, kad pakeistum vardą!</value>
+  </data>
+  <data name="username_change.require_login.link_text" xml:space="preserve">
+    <value>prisijungęs</value>
   </data>
 </root>

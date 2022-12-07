@@ -570,6 +570,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraBeatmapsLovedTitle => new TranslatableString(getKey(@"show.extra.beatmaps.loved.title"), @"Loved Beatmaps");
 
         /// <summary>
+        /// "Nominated Ranked Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowExtraBeatmapsNominatedTitle => new TranslatableString(getKey(@"show.extra.beatmaps.nominated.title"), @"Nominated Ranked Beatmaps");
+
+        /// <summary>
         /// "Pending Beatmaps"
         /// </summary>
         public static LocalisableString ShowExtraBeatmapsPendingTitle => new TranslatableString(getKey(@"show.extra.beatmaps.pending.title"), @"Pending Beatmaps");

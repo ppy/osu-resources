@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="availability.disabled" xml:space="preserve">
-    <value>该谱面现在无法下载。</value>
+    <value>谱面无法下载。</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
     <value>应歌曲作者或第三方版权持有者的要求，这张谱面已无法下载。</value>
@@ -107,7 +107,7 @@
     <value>您没有提名 {0} 模式的权限。</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
-    <value>您必须成为正式审核团队成员才能提名这张谱面。</value>
+    <value>您必须成为正式谱面审核成员 (Full BN) 才有资格提名这张谱面。</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>提名需求已达标。</value>
@@ -125,7 +125,7 @@
     <value>您要提名哪种模式？</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>少儿不宜</value>
+    <value>不良内容</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>讨论</value>
@@ -149,7 +149,7 @@
     <value>取消收藏</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
-    <value>上次更新于 {0}</value>
+    <value>{0} 更新</value>
   </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>下载</value>
@@ -167,40 +167,40 @@
     <value>登录</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
-    <value>于 {0} Approved</value>
+    <value>{0} 达标 (Approved)</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>于 {0} Loved</value>
+    <value>{0} 加入社区喜爱 (Loved)</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>于 {0} Qualified </value>
+    <value>{0} 过审 (Qualified)</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>于 {0} Ranked</value>
+    <value>{0} 上架 (Ranked)</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
-    <value>提交于 {0}</value>
+    <value>{0} 提交</value>
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
-    <value>上次更新于 {0}</value>
+    <value>{0} 更新</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
     <value>谱面收藏数超出限制，请删除一些后再试。</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>如果你觉得这张谱面很好玩，推荐它来帮助它发展到&lt;strong&gt;Ranked&lt;/strong&gt;状态。</value>
+    <value>如果你觉得这张谱面很好玩，来推荐谱面并推动它进入&lt;strong&gt;上架 (Ranked)&lt;/strong&gt; 状态。</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
-    <value>这张谱面正处于 {0} 状态。</value>
+    <value>谱面正处于 {0} 状态。</value>
   </data>
   <data name="show.hype.current.status.pending" xml:space="preserve">
-    <value>pending</value>
+    <value>待定 (Pending)</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>qualified</value>
+    <value>过审 (Qualified)</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
-    <value>制作中</value>
+    <value>制作中 (WIP)</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
     <value>如果你认为此谱面有问题，可以按下 {0} 取消提名。</value>
@@ -227,7 +227,7 @@
     <value>数据还在计算中。。。</value>
   </data>
   <data name="show.info.nsfw" xml:space="preserve">
-    <value>少儿不宜内容</value>
+    <value>不良内容</value>
   </data>
   <data name="show.info.offset" xml:space="preserve">
     <value>在线偏移值</value>
@@ -254,7 +254,7 @@
     <value>此谱面包含少儿不宜、冒犯性或令人不安的内容。您仍然想查看它吗？</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
-    <value>少儿不宜内容</value>
+    <value>不良内容</value>
   </data>
   <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
     <value>关闭警告</value>
@@ -284,7 +284,7 @@
     <value>点击 &lt;a href="{0}"&gt;这里&lt;/a&gt; 来查看你得到的精彩功能！</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
-    <value>你需要成为 osu! 支持者才能查看国内/好友/Mod 特定排名！</value>
+    <value>你需要成为 osu! 支持者才能查看国内/好友/特定 Mod 排名！</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>排行榜</value>
@@ -332,7 +332,7 @@
     <value>加载分数中...</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Unranked 谱面</value>
+    <value>未上架 (Unranked) 谱面</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>领衔者</value>

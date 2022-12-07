@@ -61,14 +61,74 @@
   <data name="admin._" xml:space="preserve">
     <value>administratorius</value>
   </data>
+  <data name="error.error.400" xml:space="preserve">
+    <value>negaliojanti užklausa</value>
+  </data>
   <data name="error.error.404" xml:space="preserve">
-    <value>dingęs</value>
+    <value>nerasta</value>
   </data>
   <data name="error.error.403" xml:space="preserve">
     <value>draudžiamas</value>
   </data>
+  <data name="error.error.401" xml:space="preserve">
+    <value>neįgaliotas</value>
+  </data>
+  <data name="error.error.401-verification" xml:space="preserve">
+    <value>paskyros patvirtinimas</value>
+  </data>
+  <data name="error.error.405" xml:space="preserve">
+    <value>nerasta</value>
+  </data>
+  <data name="error.error.422" xml:space="preserve">
+    <value>negaliojanti užklausa</value>
+  </data>
+  <data name="error.error.429" xml:space="preserve">
+    <value>per daug užklausų</value>
+  </data>
+  <data name="error.error.500" xml:space="preserve">
+    <value>kažkas nesuveikė</value>
+  </data>
+  <data name="error.error.503" xml:space="preserve">
+    <value>priežiūra</value>
+  </data>
   <data name="forum._" xml:space="preserve">
     <value>forumas</value>
+  </data>
+  <data name="forum.topic_logs_controller.index" xml:space="preserve">
+    <value>temos žurnalas</value>
+  </data>
+  <data name="main.account_controller.verify_link" xml:space="preserve">
+    <value>paskyros patvirtinimas</value>
+  </data>
+  <data name="main.artists_controller._" xml:space="preserve">
+    <value>rekomenduojami atlikėjai</value>
+  </data>
+  <data name="main.beatmap_discussion_posts_controller._" xml:space="preserve">
+    <value>bitmapo diskusijos žinutės</value>
+  </data>
+  <data name="main.beatmap_discussions_controller._" xml:space="preserve">
+    <value>bitmapo diskusijos</value>
+  </data>
+  <data name="main.beatmap_packs_controller._" xml:space="preserve">
+    <value>bitmapų rinkiniai</value>
+  </data>
+  <data name="main.beatmapset_discussion_votes_controller._" xml:space="preserve">
+    <value>bitmapo diskusijos balsai</value>
+  </data>
+  <data name="main.beatmapset_events_controller._" xml:space="preserve">
+    <value>bitmapo istorija</value>
+  </data>
+  <data name="main.beatmapsets_controller.discussion" xml:space="preserve">
+    <value>bitmapo diskusija</value>
+  </data>
+  <data name="main.beatmapsets_controller.index" xml:space="preserve">
+    <value>bitmapų sąrašas</value>
+  </data>
+  <data name="main.beatmapsets_controller.show" xml:space="preserve">
+    <value>bitmapo info</value>
+  </data>
+  <data name="main.changelog_controller._" xml:space="preserve">
+    <value>pakeitimų sąrašas</value>
   </data>
   <data name="main.chat_controller._" xml:space="preserve">
     <value>pokalbis</value>
@@ -85,17 +145,41 @@
   <data name="main.home_controller.get_download" xml:space="preserve">
     <value>atsisiųsti</value>
   </data>
+  <data name="main.home_controller.index" xml:space="preserve">
+    <value>ataskaitų sritis</value>
+  </data>
   <data name="main.home_controller.search" xml:space="preserve">
     <value>ieškoti</value>
   </data>
   <data name="main.home_controller.support_the_game" xml:space="preserve">
     <value>paremk žaidimą</value>
   </data>
+  <data name="main.home_controller.testflight" xml:space="preserve">
+    <value>testflight</value>
+  </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>informacija</value>
   </data>
+  <data name="main.livestreams_controller._" xml:space="preserve">
+    <value>tiesoginės transliacijos</value>
+  </data>
+  <data name="main.matches_controller._" xml:space="preserve">
+    <value>mačai</value>
+  </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>naujienos</value>
+  </data>
+  <data name="main.notifications_controller._" xml:space="preserve">
+    <value>pranešimų istorija</value>
+  </data>
+  <data name="main.password_reset_controller._" xml:space="preserve">
+    <value>slaptažodžio atkūrimas</value>
+  </data>
+  <data name="main.ranking_controller._" xml:space="preserve">
+    <value>reitingai</value>
+  </data>
+  <data name="main.scores_controller._" xml:space="preserve">
+    <value>našumas</value>
   </data>
   <data name="main.tournaments_controller._" xml:space="preserve">
     <value>turnyrai</value>
@@ -105,5 +189,20 @@
   </data>
   <data name="main.users_controller.disabled" xml:space="preserve">
     <value>pastaba</value>
+  </data>
+  <data name="main.wiki_controller._" xml:space="preserve">
+    <value>wiki</value>
+  </data>
+  <data name="passport.authorization_controller._" xml:space="preserve">
+    <value>įgalioti aplikaciją</value>
+  </data>
+  <data name="store._" xml:space="preserve">
+    <value>parduotuvė</value>
+  </data>
+  <data name="users.modding_history_controller._" xml:space="preserve">
+    <value>taisytojo info</value>
+  </data>
+  <data name="users.multiplayer_controller._" xml:space="preserve">
+    <value>tinklo žaidimų istorija</value>
   </data>
 </root>

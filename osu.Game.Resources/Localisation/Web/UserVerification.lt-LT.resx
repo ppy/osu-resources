@@ -68,18 +68,39 @@
     <value>Patvirtinama...</value>
   </data>
   <data name="box.issuing" xml:space="preserve">
-    <value>Sukurtas naujas kodas...</value>
+    <value>Sukuriamas naujas kodas...</value>
   </data>
   <data name="box.info.check_spam" xml:space="preserve">
     <value>Patikrinkite savo šlamšto aplanką jei nerandate el. laiško.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Jei negalite pasiekti savo el. pašto ar pamiršote koki naudojote, naudokite {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>el. pašto atstatymo procesą</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>Taip pat galite {0} arba {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>prašyti kito kodo</value>
   </data>
   <data name="box.info.logout_link" xml:space="preserve">
     <value>atsijungti</value>
   </data>
   <data name="errors.expired" xml:space="preserve">
-    <value>Atpažinimo kodas pasibaigė. Naujas patvirtinimo pranešimas išsiųstas</value>
+    <value>Atpažinimo kodas pasibaigė. Naujas patvirtinimo pranešimas išsiųstas.</value>
   </data>
   <data name="errors.incorrect_key" xml:space="preserve">
     <value>Neteisingas patvirtinimo kodas.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Neteisingas atpažinimo kodas. Bandymų limitas pasiektas, išsiųstas naujas patvitinimo pranešimas.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>Naujas atpažinimo kodas sukurtas, išsiųstas patvirtinimo pranešimas.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Iškilo nežinoma problema, naujas patvirtinimo pranešimas išsiųstas.</value>
   </data>
 </root>
