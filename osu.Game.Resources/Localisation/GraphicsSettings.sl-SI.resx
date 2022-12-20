@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Grafika</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Renderer</value>
+  </data>
+  <data name="frame_limiter" xml:space="preserve">
+    <value>Omejevalnik sličic/s</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Način nitenja</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>Prikaži FPS</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>Videz</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Način zaslona</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Ločljivost</value>
+  </data>
+  <data name="display" xml:space="preserve">
+    <value>Zaslon</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>Skaliranje UI</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Povečava zaslona</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Vodoravni položaj</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Navpični položaj</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Vodoravna povečava</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Navpična povečava</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Z delovanjem brez celozaslonskega načina se bo povečala zakasnitev vnosa!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Nastavitve podrobnosti</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Storyboard / video</value>
+  </data>
+  <data name="combo_colour_normalisation" xml:space="preserve">
+    <value>Normalizacija combo barv</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Osvetlitev zadetkov</value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>Posnetki zaslona</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Format posnetka zaslona</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Prikaži kazalec menija v posnetkih zaslona</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>Uporabi strojno pospeševanje</value>
+  </data>
+  <data name="jpg_web_friendly" xml:space="preserve">
+    <value>JPG (spletu-prijazen)</value>
+  </data>
+  <data name="png_lossless" xml:space="preserve">
+    <value>PNG (brez izgub)</value>
+  </data>
+</root>
