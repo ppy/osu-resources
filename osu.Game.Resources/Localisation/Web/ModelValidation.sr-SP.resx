@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid" xml:space="preserve">
-    <value>Неважећи {0} наведено.</value>
+    <value>Неважећи {0} наведен.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} не може бити негативан.</value>
@@ -74,8 +74,26 @@
     <value>Потврда се не подудара.
 </value>
   </data>
+  <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
+    <value>Временска ознака је присутна али тежина мапе није дефинисана.</value>
+  </data>
+  <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
+    <value>Ова мапа не може бити "хајпована".</value>
+  </data>
+  <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
+    <value>"Хајповање" мора бити одрађено у Генералној (све тежине) секцији.</value>
+  </data>
+  <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
+    <value>Неважећа тежина је наведена.</value>
+  </data>
+  <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
+    <value>Неисправна мапа је наведена.</value>
+  </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Дискусија је закључана.</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.message_type" xml:space="preserve">
+    <value>Врсте порука</value>
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
     <value>Временска ознака</value>
@@ -86,11 +104,77 @@
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Морате бити пријављени да би сте могли да хајпујете.</value>
   </data>
+  <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
+    <value>Већ сте "хајповали" ову мапу.</value>
+  </data>
+  <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
+    <value>Искористили сте све Ваше "хајпове".</value>
+  </data>
+  <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
+    <value>Ова мапа не може бити "хајпована"</value>
+  </data>
+  <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
+    <value>Не можете "хајповати" Вашу мапу.</value>
+  </data>
+  <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
+    <value>Наведена временска ознака је изван дужине мапе.</value>
+  </data>
+  <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
+    <value>Временска ознака не може бити негативна вредност.</value>
+  </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Дискусија је закључана.</value>
   </data>
+  <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
+    <value>Не можете обрисати почетну објаву.</value>
+  </data>
+  <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
+    <value>Порука</value>
+  </data>
+  <data name="comment.deleted_parent" xml:space="preserve">
+    <value>Одговарање на обрисан коментар није дозвољено.</value>
+  </data>
+  <data name="comment.top_only" xml:space="preserve">
+    <value>Одговарање на прикачен коментар није дозвољено.</value>
+  </data>
+  <data name="comment.attributes.message" xml:space="preserve">
+    <value>Порука</value>
+  </data>
+  <data name="follow.invalid" xml:space="preserve">
+    <value>Неважећи {0} наведен.</value>
+  </data>
+  <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
+    <value>Можете гласати само за нове додатке.</value>
+  </data>
+  <data name="forum.feature_vote.not_enough_feature_votes" xml:space="preserve">
+    <value>Немате довољно гласова.</value>
+  </data>
+  <data name="forum.poll_vote.invalid" xml:space="preserve">
+    <value>Изабрали сте неисправну опцију.</value>
+  </data>
+  <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
+    <value>Брисање објаве која садржи метаподатке мапе није дозвољено.</value>
+  </data>
+  <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
+    <value>Измена објаве која садржи метаподатке мапе није дозвољено.</value>
+  </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Не можете обрисати почетну објаву</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Објава не садржи тему</value>
+  </data>
+  <data name="forum.post.only_quote" xml:space="preserve">
+    <value>Ваш одговор садржи само цитат.</value>
+  </data>
+  <data name="forum.post.attributes.post_text" xml:space="preserve">
+    <value>Тело објаве</value>
+  </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Наслов теме</value>
+  </data>
+  <data name="forum.topic_poll.duplicate_options" xml:space="preserve">
+    <value>Опција дуплирања није дозвољена.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Молимо да унесете важећи URL.</value>

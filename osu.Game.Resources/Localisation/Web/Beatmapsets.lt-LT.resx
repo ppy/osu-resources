@@ -61,8 +61,35 @@
   <data name="availability.disabled" xml:space="preserve">
     <value>Ši „beatmap“. Šiuo metu nėra galimybės atsiųsti.</value>
   </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Ištrintas bitmapas</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Rekomenduojami atlikėjai</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Bitmapų sąrašas</value>
+  </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmapai</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>nėra bitmapų</value>
+  </data>
+  <data name="panel.download.all" xml:space="preserve">
+    <value>atsisiųsti</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>atsisiųsti su vaizdo įrašu</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>atsisiųsti be vaizdo įrašo</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>atidaryti per osu!direct</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Nominuoti Bitmapą</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>{0} sukūrė {1}</value>
@@ -85,11 +112,50 @@
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Prisijungti</value>
   </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>patvirtintas {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>mylimas {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>kvalifikuota {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>reitinguota {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>pateikta {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>paskutinį kartą atnaujinta {0}</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>Skatink šį bitmapą, jei patiko jį žaisti, ir padėk jam pasiekti &lt;strong&gt;Reitinguoto&lt;/strong&gt; būseną.</value>
+  </data>
+  <data name="show.hype.current._" xml:space="preserve">
+    <value>Šis bitmapas yra {0}.</value>
+  </data>
   <data name="show.hype.current.status.pending" xml:space="preserve">
-    <value>patvirtinamas</value>
+    <value>laukiantis</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
     <value>kvalifikuotas</value>
+  </data>
+  <data name="show.hype.current.status.wip" xml:space="preserve">
+    <value>vis dar kuriamas</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Jei randate problemą šiame bitmape, prašome diskvalifikuoti {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Jei radote problemą su šiuo bitmapu, prašome pranešti {0}, kad mūsų komanda sužinotu.</value>
+  </data>
+  <data name="show.hype.report.button" xml:space="preserve">
+    <value>Pranešti Problemą</value>
+  </data>
+  <data name="show.hype.report.link" xml:space="preserve">
+    <value>čia</value>
   </data>
   <data name="show.info.description" xml:space="preserve">
     <value>Aprašymas</value>
@@ -100,8 +166,23 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Kalba</value>
   </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominatoriai</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Eksplicitinis turinys</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Tinklo poslinkis</value>
+  </data>
+  <data name="show.info.points-of-failure" xml:space="preserve">
+    <value>Pralaimėjimų Vietos</value>
+  </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Šaltinis</value>
+  </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Šis bitmapas turi foninę animaciją</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Sėkmingi kartai</value>
@@ -109,11 +190,29 @@
   <data name="show.info.tags" xml:space="preserve">
     <value>Žymos</value>
   </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Šis bitmapas turi vaizdo įrašą</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Eksplicitinis Turinys</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Išjungti įspėjimą</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Bitmapų sąrašas</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Rodyti</value>
+  </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>pasiekta {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Šalies reitingai</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Nepaviko įkelti rezultatų</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Draugų reitingai</value>
@@ -123,6 +222,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Tau reikia turėti osu!supporter, kad pasiektum draugų ir Šalių reitingus!</value>
+  </data>
+  <data name="show.scoreboard.title" xml:space="preserve">
+    <value>Rezultatų lenta</value>
   </data>
   <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
     <value>Taiklumas</value>
@@ -136,6 +238,9 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Modifikacijos</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Prisegti</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Žaidėjas</value>
   </data>
@@ -148,14 +253,29 @@
   <data name="show.scoreboard.headers.score_total" xml:space="preserve">
     <value>Visi taškai</value>
   </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Laikas</value>
+  </data>
+  <data name="show.scoreboard.no_scores.country" xml:space="preserve">
+    <value>Niekas iš jūsų šalies dar neįstatė rezultato šiam bitmapui!</value>
+  </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Įkeliami rezultatai...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
+    <value>Nereitinguotas bitmapas.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Pirmauja</value>
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Tavo geriausias</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Spausk {0}, kad pamatytum visus privalomus, kuriuos gausi!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>čia</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Apskritimų dydis</value>
@@ -184,13 +304,46 @@
   <data name="show.stats.count_circles" xml:space="preserve">
     <value>Apskritimų skaičius</value>
   </data>
+  <data name="show.stats.count_sliders" xml:space="preserve">
+    <value>Slidukų Skaičius</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Tinklo poslinkis: {0}</value>
+  </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Narių įvertinimas</value>
   </data>
   <data name="show.stats.rating-spread" xml:space="preserve">
     <value>Vertimų išsidėstymas</value>
   </data>
+  <data name="show.stats.nominations" xml:space="preserve">
+    <value>Nominacijos</value>
+  </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Žaidimų skaičius</value>
+  </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Reitinguotas</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Patvirtintas</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Mylimas</value>
+  </data>
+  <data name="show.status.qualified" xml:space="preserve">
+    <value>Kvalifikuotas</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>Laukiantis</value>
+  </data>
+  <data name="show.status.graveyard" xml:space="preserve">
+    <value>Kapinės</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Pasižymėjęs</value>
   </data>
 </root>

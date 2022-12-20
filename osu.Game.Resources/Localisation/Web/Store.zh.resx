@@ -98,7 +98,7 @@
     <value>点击此处编辑。</value>
   </data>
   <data name="checkout.declined" xml:space="preserve">
-    <value>取消支付。</value>
+    <value>支付被取消。</value>
   </data>
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>欢迎购买，但是我们正在处理大量的订单，所以订单**可能会有 1-2 周的延迟**。</value>
@@ -128,7 +128,7 @@
     <value>节省 {0}%</value>
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
-    <value>由于您的支付是通过 eCheck 进行的，请再等待至多 10 天以使你的支付通过 PayPal 完成！</value>
+    <value>由于您的支付是通过 eCheck 进行的，请再等待至多 10 天来让 PayPal 完成支付。</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>账单</value>
@@ -169,11 +169,11 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>此订单的结账链接已过期。</value>
   </data>
-  <data name="order.item.display_name.supporter_tag" xml:space="preserve">
-    <value>{0} 给 {1} （{2}）</value>
-  </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>数量</value>
+  </data>
+  <data name="order.item.display_name.supporter_tag" xml:space="preserve">
+    <value>{0} 给 {1} （{2}）</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>您不能修改已取消的订单。</value>

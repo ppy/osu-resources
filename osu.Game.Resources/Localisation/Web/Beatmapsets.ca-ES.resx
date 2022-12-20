@@ -64,8 +64,17 @@
   <data name="availability.parts-removed" xml:space="preserve">
     <value>S'han eliminat parts d'aquest beatmap a petició del creador o d'un tercer titular dels drets.</value>
   </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Fes clic aquí per a més informació.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Alguns continguts d'aquest mapa han estat eliminats després de ser considerats no aptes pel seu ús a l'osu!.</value>
+  </data>
   <data name="cover.deleted" xml:space="preserve">
     <value>Beatmap eliminat</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>A poc a poc, juga més.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Artista destacat</value>
@@ -94,6 +103,15 @@
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Un beatmap híbrid requereix que seleccioneu almenys un mode de joc per nominar.</value>
   </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>No tens permís per nominar per al mode {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Has de ser un Nominador de Beatmaps confirmat per a efectuar aquesta nominació.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Requisit de nominació ja complert.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Esteu segur que voleu nominar aquest beatmap?</value>
   </data>
@@ -102,6 +120,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>nota: només pot nominar una vegada, així que assegureu-vos que està nominant per a totes els modes de joc que desitgi</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Nominar per a quins modes?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explícit</value>
@@ -114,6 +135,9 @@
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Marcar com a favorit</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Inicia sessió per a guardar el beatmap a favorits</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Necessites iniciar sessió abans de descarregar qualsevol beatmap!</value>
@@ -160,6 +184,15 @@
   <data name="show.details_date.updated" xml:space="preserve">
     <value>darrera actualització: {0}</value>
   </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Has guardat massa beatmaps a favorits! Sisplau, esborra'n alguns abans de tornar-ho a intentar.</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>Hypeja aquest mapa per ajudar al seu progrés a l'estat &lt;strong&gt;Classificatori&lt;/strong&gt;.</value>
+  </data>
+  <data name="show.hype.current._" xml:space="preserve">
+    <value>Aquest mapa està actualment {0}.</value>
+  </data>
   <data name="show.hype.current.status.pending" xml:space="preserve">
     <value>pendent</value>
   </data>
@@ -168,6 +201,12 @@
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>treball en curs</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Si trobeu algun problema amb aquest beatmap, sisplau desqualifiqueu-lo {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Si trobeu un problema amb aquest beatmap, sisplau reporteu-lo {0} per alertar l'equip.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Informar un problema</value>
@@ -184,6 +223,12 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Idioma</value>
   </data>
+  <data name="show.info.no_scores" xml:space="preserve">
+    <value>Les dades encara s'estan calculant...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominadors</value>
+  </data>
   <data name="show.info.nsfw" xml:space="preserve">
     <value>Contingut explícit</value>
   </data>
@@ -196,20 +241,35 @@
   <data name="show.info.source" xml:space="preserve">
     <value>Font</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Aquest beatmap conté una storyboard</value>
+  </data>
+  <data name="show.info.success-rate" xml:space="preserve">
+    <value>Percentatge d'èxit</value>
+  </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Etiquetes</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Aquest beatmap conté vídeo</value>
   </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Aquest beatmap conté llenguatge explícit o ofensiu. Tot i això voleu veure'l?</value>
+  </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Contingut explícit</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Deshabilitar l'advertència</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
     <value>Llistat de beatmaps</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Mostrar</value>
+  </data>
+  <data name="show.scoreboard.achieved" xml:space="preserve">
+    <value>assolit {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Classificació nacional</value>
@@ -220,8 +280,14 @@
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Classificació entre amics</value>
   </data>
+  <data name="show.scoreboard.global" xml:space="preserve">
+    <value>Classificació Global</value>
+  </data>
   <data name="show.scoreboard.supporter-link" xml:space="preserve">
     <value>Feu clic &lt;a href="{0}"&gt;aquí&lt;/a&gt; per veure totes les funcions de luxe que teniu!</value>
+  </data>
+  <data name="show.scoreboard.supporter-only" xml:space="preserve">
+    <value>Has de ser un osu!supporter per accedir a les classificacions per amics, països o mods!</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Tauler de puntuació</value>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Thiết lập Beatmap</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>thay đổi cài đặt chung Beatmap của bạn </value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Combo nhấn / trượt</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Thiết kế</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Bật đếm ngược</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Nếu được bật, dòng đếm ngược "Sẵn sàng chưa? 3, 2, 1, BẮT ĐẦU!" sẽ được đặt vào đầu màn chơi, khi có đủ thời gian để làm điều đó.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Tốc độ đếm ngược</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Nếu như âm thanh đếm ngược bị lệch, dùng cái này để làm nó xuất hiện sớm hơn một hoặc nhiều nhịp.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Độ lệch đếm ngược</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Hỗ trợ màn hình rộng</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Cho phép các storyboard sử dụng toàn màn hình, thay vì sử dụng khu vực tỉ lệ 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Cảnh báo động kinh</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Được khuyên dùng khi storyboard hoặc video có chứa những cảnh có hình ảnh nhấp nháy mạnh.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox trong lúc giải lao</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Thêm letterbox nằm ngang để tạo sự sống động trong lúc giải lao.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Sample chơi lại cùng tốc độ với bản nhạc</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Nếu được bật, mọi sample sẽ tăng hoặc giảm tốc độ khi các mod thay đổi tốc độ được bật.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Kích cỡ của các mục tiêu</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Tốc độ giảm máu nền trong lúc chơi</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Tốc độ xuất hiện của các mục tiêu</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Độ chặt chẽ của hit window và độ khó của các object đặc biệt (ví dụ: spinner)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Siêu dữ liệu</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Tên nghệ sĩ dạng La tinh hóa</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Tiêu đề dạng La tinh hoá</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Tên độ khó</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Đoạn nhạc</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Nhấn để chọn nhạc</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Nhấn để thay thế nhạc</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Nhấn để chọn ảnh nền</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Nhấn để thay thế ảnh nền</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Quy luật ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Độ khó</value>
+  </data>
+</root>

@@ -394,6 +394,9 @@
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmaps Estimats</value>
   </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Betmaps classificats nominats</value>
+  </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Beatmaps Pendents</value>
   </data>
@@ -451,11 +454,161 @@
   <data name="show.extra.kudosu.title" xml:space="preserve">
     <value>Kudosu!</value>
   </data>
+  <data name="show.extra.kudosu.total" xml:space="preserve">
+    <value>Kudosu total obtingut</value>
+  </data>
+  <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
+    <value>{0} kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
+    <value>Aquest usuari no ha rebut cap kudosu!</value>
+  </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
     <value>Va rebre {0} de revocació de negació de kudosu per la publicació de modding {1}</value>
   </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>S'ha denegat {0} per la publicació {1}</value>
+  </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
     <value>Va perdre {0} per l'eliminació de la publicació de modding de {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>Rebuts {0} pel restabliment de la publicació {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>Rebuts {0} gràcies als vots a la publicació de {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>Has perdut {0} per perdre vots a la publicació {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>Has rebut {0} pels vots en el recàlcul de la publicació {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>Has perdut {0} pels vots en el recàlcul de la publicació {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>Has rebut {0} de {1} per la publicació {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>Kudosu reinciat per {0} pel post {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>S'han denegat els kudosu de {0} per la publicació {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Basat en les contribucions que l'usuari ha fet a la moderació de beatmaps. Vegi {0} per a més informació.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>aquesta pàgina</value>
+  </data>
+  <data name="show.extra.me.title" xml:space="preserve">
+    <value>jo!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Aquest usuari no n'ha rebut cap encara ;_;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>Recents</value>
+  </data>
+  <data name="show.extra.medals.title" xml:space="preserve">
+    <value>Medalles</value>
+  </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Partides de la llista</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>Publicacions</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>Publicacions Recents</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>veure més publicacions</value>
+  </data>
+  <data name="show.extra.recent_activity.title" xml:space="preserve">
+    <value>Recent</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Partides multijugador</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>Baixar repetició</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>Només beatmaps classificatoris donen pp</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>valorat {0}</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Veure Detalls</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>Classificacions</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>Millors</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>Primera posició</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Desfixar</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Puntuació desfixada</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Fixar</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Puntuació fixada</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Puntuacions fixades</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Vots atorgats (últims 3 mesos)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Vots rebuts (últims 3 mesos)</value>
+  </data>
+  <data name="show.extra.votes.title" xml:space="preserve">
+    <value>Vots</value>
+  </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>Vots recents</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} vot |{0} vots</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>Estat del compte</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>El compte de {0} no està en bon estat :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>{0} podrà tornar a parlar {1}.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>Infraccions Recents</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>acció</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
+    <value>durada</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>descripció</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
     <value>per {0}</value>
@@ -499,8 +652,80 @@
   <data name="show.not_found.title" xml:space="preserve">
     <value>Usuari no trobat! ;_;</value>
   </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>Editar pàgina de perfil</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>&lt;strong&gt;jo!&lt;/strong&gt; és una zona personalitzable de la teva pàgina de perfil.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>Edita'm!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>Escriu els continguts aquí</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Has de ser un {0} per a desbloquejar aquesta funció.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>Ha contribuït amb {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} publicació|{0} publicacions</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>Classificació per països per {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>Classificació per Països</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>Classifació global per {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>Classificació global</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Classificació més alta: {0} el {1}</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>Precisió</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>Nivell {0}</value>
+  </data>
   <data name="show.stats.level_progress" xml:space="preserve">
     <value>Progrés al següent nivell</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Màxim combo</value>
+  </data>
+  <data name="show.stats.medals" xml:space="preserve">
+    <value>Medalles</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>Nombre de partides</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Temps total de joc</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Puntuació classificada</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Repeticions vistes per altres</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Classificació de les puntuacions</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Encerts Totals</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Puntuació total</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Beatmaps Abandonats</value>
@@ -514,7 +739,34 @@
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
     <value>Beatmaps Classificats</value>
   </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Ara mateix estàs silenciat.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Algunes accions no estan disponibles.</value>
+  </data>
   <data name="status.all" xml:space="preserve">
     <value>Tots</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>En línia</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>Sense connexió</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Usuari creat</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Verificació del compte</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Vista de bloc</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Vista de targeta</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Vista de llista</value>
   </data>
 </root>

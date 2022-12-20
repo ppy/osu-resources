@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Nastavitev beatmape</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>spremeni glavne nastavitve tvoje beatmape</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Barve</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Zadeti krogi / Slider combo-ji</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Oblika</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Omogoči odštevanje</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Če je omogočeno, se prikaže sporočilo "Are you ready? 3, 2, 1, GO!" se bo odštevanje vstavilo na začetek beatmap, če bo za to dovolj časa.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Hitrost odštevalnika</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Če se odštevanje ne sliši pravočasno, ga s tem ukazom spremeniš za en ali več taktov prej.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Odmik odštevalnika</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Podpora za široke zaslone</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Storyboard-om omogoča uporabo celotnega prostora na zaslonu, namesto da bi bile omejene na območje 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Opozorilo za epilepsijo</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Priporočljivo, če storyboard ali videoposnetek vsebujeta prizore s hitro utripajočimi barvami.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox med premori</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Doda vodoravni letterboxing za kinematografski videz med premori.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Vzorci se ujemajo s hitrostjo predvajanja</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Ko je omogočeno, se vsi vzorci pospešijo ali upočasnijo, ko so omogočeni modi s spreminjanjem hitrosti.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Velikost vseh objektov</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Stopnja pasivnega zmanjšanja health-a v času igranja</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Hitrost, s katero se objekti prikažejo igralcu</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Ostrost oken objektov in težavnost posebnih objektov (npr. spinner-jev)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Metapodatki</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Romaniziran ustvarjalec</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Romaniziran naslov</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Ustvarjalec</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Ime težavnosti</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Viri</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Zvočna sled</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Klikni za izbiro skladbe</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Klikni za zamenjavo skladbe</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Klikni za izbiro slike ozadja</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Klikni za zamenjavo slike ozadja</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Ruleset ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Ustvarjalec</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Težavnost</value>
+  </data>
+</root>

@@ -77,7 +77,7 @@
     <value>Jokių diskusijų atitinkančių šių paieškos kriterijų nebuvo rasta.</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Beatmapo Diskusijos</value>
+    <value>Bitmapo Diskusijos</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Ieškoti</value>
@@ -85,17 +85,20 @@
   <data name="index.form.deleted" xml:space="preserve">
     <value>Įtraukti ištrintas diskusijas</value>
   </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Bitmapo režimas</value>
+  </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
     <value>Rodyti tiktais neišspręstas diskusijas</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Žinutės tipai</value>
+    <value>Žinučių tipai</value>
   </data>
   <data name="index.form.username" xml:space="preserve">
     <value>Vartotojo vardas</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>„Beatmap“ Statusas</value>
+    <value>Bitmapo Būsena</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Visi</value>
@@ -104,13 +107,13 @@
     <value>Diskvalifikuotas</value>
   </data>
   <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
-    <value>Niekada nekvalifikuotas</value>
+    <value>Niekada nebuvo kvalifikuotas</value>
   </data>
   <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
     <value>Kvalifikuotas</value>
   </data>
   <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
-    <value>Patvirtintas</value>
+    <value>Reitinguotas</value>
   </data>
   <data name="index.form.user.label" xml:space="preserve">
     <value>Vartotojas</value>
@@ -141,13 +144,16 @@
 </value>
   </data>
   <data name="owner_editor.button" xml:space="preserve">
-    <value>Žemėlapio savininkas</value>
+    <value>Sunkumo Savininkas</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Atstatyti savininką šiam sunkumui?</value>
   </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Savininkas</value>
   </data>
   <data name="owner_editor.version" xml:space="preserve">
-    <value>Sudėtingumas</value>
+    <value>Sunkumas</value>
   </data>
   <data name="reply.open.guest" xml:space="preserve">
     <value>Atsakymui reikia prisijungti</value>
@@ -156,10 +162,10 @@
     <value>Atsakyti</value>
   </data>
   <data name="review.block_count" xml:space="preserve">
-    <value>{0} / {1} blokų panaudota</value>
+    <value>{0} / {1} teksto laukų panaudota</value>
   </data>
   <data name="review.go_to_parent" xml:space="preserve">
-    <value>Žiurėti aprašymo publikavimą
+    <value>Žiūrėti Apžvalgos Publikacija
 </value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
@@ -167,7 +173,28 @@
 </value>
   </data>
   <data name="review.validation.block_too_large" xml:space="preserve">
-    <value>kiekvienas blokas gali turėti iki {0} ženklų</value>
+    <value>kiekvienas teksto laukas gali turėti iki {0} ženklų</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>apžvalgoje yra nuorodų į problemas, kurios nepriklauso šiai apžvalgai</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>negalimas teksto lauko tipas</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>negalima apžvalga</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>negalimas diskusijos tipas</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>apžvalgoje turi būti bent {0} problema|apžvalgoje turi būti bent {0} problemos(-ų)</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>teksto lauke nėra teksto</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>apžvalga gali turėti tik {0} pastraipą/problemą|apžvalga gali turėti tik {0} pastraipas(-ų)/problemas(-ų)</value>
   </data>
   <data name="system.resolved.true" xml:space="preserve">
     <value>{0} pažymėjo kaip išspręsta</value>
