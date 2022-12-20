@@ -85,6 +85,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CheckoutDelayedShipping => new TranslatableString(getKey(@"checkout.delayed_shipping"), @"We are currently overwhelmed with orders! You are welcome to place your order, but please expect an **additional 1-2 week delay** while we catch up with existing orders.");
 
         /// <summary>
+        /// "Hide all osu!supporter tags in this order from my activity"
+        /// </summary>
+        public static LocalisableString CheckoutHideFromActivity => new TranslatableString(getKey(@"checkout.hide_from_activity"), @"Hide all osu!supporter tags in this order from my activity");
+
+        /// <summary>
         /// "Your cart appears to be out of date and has been reloaded, please try again."
         /// </summary>
         public static LocalisableString CheckoutOldCart => new TranslatableString(getKey(@"checkout.old_cart"), @"Your cart appears to be out of date and has been reloaded, please try again.");
@@ -128,6 +133,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!"
         /// </summary>
         public static LocalisableString InvoiceEcheckDelay => new TranslatableString(getKey(@"invoice.echeck_delay"), @"As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!");
+
+        /// <summary>
+        /// "osu!supporter tags in this order are not displayed in your recent activities."
+        /// </summary>
+        public static LocalisableString InvoiceHideFromActivity => new TranslatableString(getKey(@"invoice.hide_from_activity"), @"osu!supporter tags in this order are not displayed in your recent activities.");
 
         /// <summary>
         /// "invoice"
@@ -195,14 +205,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OrderShopifyExpired => new TranslatableString(getKey(@"order.shopify_expired"), @"The checkout link for this order has expired.");
 
         /// <summary>
+        /// "Quantity"
+        /// </summary>
+        public static LocalisableString OrderItemQuantity => new TranslatableString(getKey(@"order.item.quantity"), @"Quantity");
+
+        /// <summary>
         /// "{0} for {1} ({2})"
         /// </summary>
         public static LocalisableString OrderItemDisplayNameSupporterTag(LocalisableString name, LocalisableString username, LocalisableString duration) => new TranslatableString(getKey(@"order.item.display_name.supporter_tag"), @"{0} for {1} ({2})", name, username, duration);
 
         /// <summary>
-        /// "Quantity"
+        /// "Message: {0}"
         /// </summary>
-        public static LocalisableString OrderItemQuantity => new TranslatableString(getKey(@"order.item.quantity"), @"Quantity");
+        public static LocalisableString OrderItemSubtextSupporterTag(LocalisableString message) => new TranslatableString(getKey(@"order.item.subtext.supporter_tag"), @"Message: {0}", message);
 
         /// <summary>
         /// "You cannot modify your order as it has been cancelled."
@@ -313,6 +328,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "gift to player"
         /// </summary>
         public static LocalisableString SupporterTagGift => new TranslatableString(getKey(@"supporter_tag.gift"), @"gift to player");
+
+        /// <summary>
+        /// "add an optional message to your gift! (up to {0} characters)"
+        /// </summary>
+        public static LocalisableString SupporterTagGiftMessage(LocalisableString length) => new TranslatableString(getKey(@"supporter_tag.gift_message"), @"add an optional message to your gift! (up to {0} characters)", length);
 
         /// <summary>
         /// "You need to be {0} to get an osu!supporter tag!"

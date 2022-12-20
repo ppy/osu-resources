@@ -124,8 +124,23 @@
   <data name="disabled.title" xml:space="preserve">
     <value>Ôi không! Có vẻ tài khoản của bạn đã bị vô hiệu hóa.</value>
   </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>Trong trường hợp bạn đã vi phạm luật, lưu ý sẽ có một khoảng thời gian trung bình một tháng chúng tôi sẽ không tiếp nhận mọi nhu cầu hối lỗi. Sau khoảng thời gian này, bạn hoàn toàn có thể thoải mái liên lạc chúng tôi nếu cần thiết. Lưu ý: tạo thêm tài khoản mới sau khi bạn đã bị ban sẽ &lt;strong&gt;gia tăng khoảng thời gian nói trên&lt;/strong&gt;. Đồng thời hãy lưu ý rằng &lt;strong&gt;mỗi tài khoản tạo thêm là một lần bạn tiếp tục vi phạm luật&lt;/strong&gt;. Chúng tôi khuyên bạn không nên theo con đường này!</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Nếu bạn cảm thấy nó không đúng, bạn được chào đón để liên hệ với chúng tôi (thông qua {0} hoặc nhấn vào dấu "?" ở góc dưới bên phải của trang này). Làm ơn nhớ rằng chúng tôi luôn hoàn toàn chắc chắn với hành động của mình, vì chúng dựa trên dữ liệu rất chắc chắn. Chúng tôi có quyền bỏ qua yêu cầu của bạn nếu chúng tôi cảm thấy bạn đang cố tình không trung thực.</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>email</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Tài khoản của bạn bị xâm phạm. Tài khoản của bạn có thể bị vô hiệu hóa tạm thời trong khi danh tính của chủ nhân tài khoản được xác nhận.</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>Đây là một số lí do mà có thể dẫn đến tài khoản của bạn bị vô hiệu hoá:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Bạn đã vi phạm một hoặc nhiều {0} hoặc {1} của chúng tôi.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>tiêu chuẩn cộng đồng</value>
@@ -373,8 +388,14 @@
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Graveyarded Beatmaps</value>
   </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Beatmap khách mời</value>
+  </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Loved Beatmaps</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Beatmap Xếp hạng được đề cử</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Beatmap Đang Chờ</value>
@@ -493,6 +514,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Huy Chương</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Danh sách phát trò chơi</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Bài viết</value>
   </data>
@@ -543,6 +567,12 @@
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
     <value>Điểm Được Ghim</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Bình chọn đã cho (3 tháng qua)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Bình chọn đã nhận (3 tháng qua)</value>
   </data>
   <data name="show.extra.votes.title" xml:space="preserve">
     <value>Phiếu</value>
@@ -657,6 +687,9 @@
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>Hạng Toàn Cầu</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Hạng cao nhất: {0} vào {1}</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Độ Chính Xác</value>

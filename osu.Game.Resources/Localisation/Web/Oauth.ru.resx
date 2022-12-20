@@ -62,7 +62,7 @@
     <value>Отмена</value>
   </data>
   <data name="authorise.request" xml:space="preserve">
-    <value>запрашивает разрешения доступа к вашему аккаунту.</value>
+    <value>запрашивает разрешение доступа к вашему аккаунту.</value>
   </data>
   <data name="authorise.scopes_title" xml:space="preserve">
     <value>Это приложение сможет:</value>
@@ -71,7 +71,7 @@
     <value>Запрос авторизации</value>
   </data>
   <data name="authorized_clients.confirm_revoke" xml:space="preserve">
-    <value>Вы уверены, что хотите отозвать права доступа этого клиента?</value>
+    <value>Вы уверены, что хотите отозвать права доступа у этого приложения?</value>
   </data>
   <data name="authorized_clients.scopes_title" xml:space="preserve">
     <value>Это приложение может:</value>
@@ -80,7 +80,7 @@
     <value>Владелец: {0}</value>
   </data>
   <data name="authorized_clients.none" xml:space="preserve">
-    <value>Нет клиентов</value>
+    <value>Нет приложений</value>
   </data>
   <data name="authorized_clients.revoked.false" xml:space="preserve">
     <value>Отозвать доступ</value>
@@ -89,7 +89,7 @@
     <value>Права доступа отозваны</value>
   </data>
   <data name="client.id" xml:space="preserve">
-    <value>ID клиента</value>
+    <value>ID приложения</value>
   </data>
   <data name="client.name" xml:space="preserve">
     <value>Имя приложения</value>
@@ -98,48 +98,48 @@
     <value>Callback URL приложения</value>
   </data>
   <data name="client.reset" xml:space="preserve">
-    <value>Сбросить пароль клиента</value>
+    <value>Сбросить ключ приложения</value>
   </data>
   <data name="client.reset_failed" xml:space="preserve">
-    <value>Не удалось сбросить пароль клиента</value>
+    <value>Не удалось сбросить ключ приложения</value>
   </data>
   <data name="client.secret" xml:space="preserve">
-    <value>Пароль клиента</value>
+    <value>Ключ приложения</value>
   </data>
   <data name="client.secret_visible.false" xml:space="preserve">
-    <value>Показать секрет клиента</value>
+    <value>Показать ключ</value>
   </data>
   <data name="client.secret_visible.true" xml:space="preserve">
-    <value>Скрыть пароль клиента</value>
+    <value>Скрыть ключ</value>
   </data>
   <data name="new_client.header" xml:space="preserve">
     <value>Регистрация нового приложения OAuth</value>
   </data>
   <data name="new_client.register" xml:space="preserve">
-    <value>Зарегистрировать приложение</value>
+    <value>Зарегистрировать</value>
   </data>
   <data name="new_client.terms_of_use._" xml:space="preserve">
-    <value>Используя API, вы соглашаетесь с {0}.</value>
+    <value>Используя API, Вы соглашаетесь с {0}.</value>
   </data>
   <data name="new_client.terms_of_use.link" xml:space="preserve">
-    <value>условиями использования</value>
+    <value>условиями предоставления услуг</value>
   </data>
   <data name="own_clients.confirm_delete" xml:space="preserve">
-    <value>Вы уверены, что хотите удалить этого клиента?</value>
+    <value>Вы уверены, что хотите удалить это приложение?</value>
   </data>
   <data name="own_clients.confirm_reset" xml:space="preserve">
-    <value>Вы уверены, что хотите сбросить пароль клиента? Это отменит все существующие токены.</value>
+    <value>Вы уверены, что хотите сбросить ключ приложения? Это действие приведет к аннулированию всех существующих токенов.</value>
   </data>
   <data name="own_clients.new" xml:space="preserve">
     <value>Новое приложение OAuth</value>
   </data>
   <data name="own_clients.none" xml:space="preserve">
-    <value>Нет клиентов</value>
+    <value>Нет приложений</value>
   </data>
   <data name="own_clients.revoked.false" xml:space="preserve">
     <value>Удалить</value>
   </data>
   <data name="own_clients.revoked.true" xml:space="preserve">
-    <value>Удалён</value>
+    <value>Удалёно</value>
   </data>
 </root>

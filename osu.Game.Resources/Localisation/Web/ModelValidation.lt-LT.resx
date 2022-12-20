@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid" xml:space="preserve">
+    <value>Negalimas {0} nurodytas.</value>
+  </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} negali būti neigiamas.</value>
   </data>
@@ -71,42 +74,249 @@
     <value>Patvirtinimas nesutampa.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Laikas nurodytas tačiau trūksta beatmapo.</value>
+    <value>Laiko žyma nurodyta tačiau trūksta bitmapo sunkumo.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>Beatmapas negali būti iškeltas.</value>
+    <value>Bitmapas negali būti skatinamas.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>Iškelimas turi būti atliekamas Bendroje (visų sudėtingumų) sekcijoje.</value>
+    <value>Skatinimas turi būti atliekamas Bendroje (visų sudėtingumų) sekcijoje.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
-    <value>Nurodytas neteisingas sudėtingumas.</value>
+    <value>Nurodytas neteisingas sunkumas.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>Nurodytas neteisingas beatmapas.</value>
+    <value>Nurodytas neteisingas bitmapas.</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Diskusija užrakinta.</value>
   </data>
+  <data name="beatmapset_discussion.attributes.message_type" xml:space="preserve">
+    <value>Žinutės tipas</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
+    <value>Laiko žyma</value>
+  </data>
+  <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
+    <value>Šio bitmapo diskusija šiuo metu užrakinta ir jis negali būti skatinamas</value>
+  </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
-    <value>Iškėlimui reikia prisijungti.</value>
+    <value>Skatinimui reikia prisijungti.</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>Tu jau iškėliai šį beatmapą.</value>
+    <value>Tu jau paskatinai šį beatmapą.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>Jau išnaudojai visus savo iškėlimus.</value>
+    <value>Jau išnaudojai visus savo skatinimus.</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
-    <value>Šis Beatmapas negali būti iškeltas</value>
+    <value>Šis Bitmapas negali būti skatinamas</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>Savo beatmapo iškelti negali.</value>
+    <value>Savo bitmapo skatinti negali.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
     <value>Nurodytas laikas yra didesnis negu beatmapo trukmė.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
     <value>Laikas negali būti neigiamas.</value>
+  </data>
+  <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
+    <value>Diskusija užrakinta.</value>
+  </data>
+  <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
+    <value>Negalimas ištrinti pirmosios publikacijos.</value>
+  </data>
+  <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
+    <value>Žinutė</value>
+  </data>
+  <data name="comment.deleted_parent" xml:space="preserve">
+    <value>Atsakymas į ištrintą komentarą negalimas.</value>
+  </data>
+  <data name="comment.top_only" xml:space="preserve">
+    <value>Komentaro atsakymo prisegimas negalimas.</value>
+  </data>
+  <data name="comment.attributes.message" xml:space="preserve">
+    <value>Žinutė</value>
+  </data>
+  <data name="follow.invalid" xml:space="preserve">
+    <value>Negalimas {0} nurodytas.</value>
+  </data>
+  <data name="forum.feature_vote.not_enough_feature_votes" xml:space="preserve">
+    <value>Nepakanka balsų.</value>
+  </data>
+  <data name="forum.poll_vote.invalid" xml:space="preserve">
+    <value>Nurodytas negalimas nustatymas.</value>
+  </data>
+  <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
+    <value>Negalima ištrinti bitmapo metaduomenų publikacijos.</value>
+  </data>
+  <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
+    <value>Negalima redaguoti bitmapo metaduomenų publikacijos.</value>
+  </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Negalimas ištrinti pirmosios publikacijos</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Publikacija neturi temos</value>
+  </data>
+  <data name="forum.post.only_quote" xml:space="preserve">
+    <value>Jūsų atsakyme yra tik citata.</value>
+  </data>
+  <data name="forum.post.attributes.post_text" xml:space="preserve">
+    <value>Publikacijos laukas</value>
+  </data>
+  <data name="forum.topic.attributes.topic_title" xml:space="preserve">
+    <value>Temos pavadinimas</value>
+  </data>
+  <data name="forum.topic_poll.duplicate_options" xml:space="preserve">
+    <value>Dubliuoti nustatymai negalimi.</value>
+  </data>
+  <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
+    <value>Negalima redaguoti apklausos po daugiau nei {0} valandų.</value>
+  </data>
+  <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
+    <value>Negalima paslėpti rezultatų iš apklausos, kuri niekada nesibaigia.</value>
+  </data>
+  <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
+    <value>Pasirinkimų vienam vartotojui negali būti daugiau nei pačių pasirinkimų.</value>
+  </data>
+  <data name="forum.topic_poll.minimum_one_selection" xml:space="preserve">
+    <value>Turi būti bent vienas pasirinkimas vienam vartotojui.</value>
+  </data>
+  <data name="forum.topic_poll.minimum_two_options" xml:space="preserve">
+    <value>Turi būti bent du pasirinkimai.</value>
+  </data>
+  <data name="forum.topic_poll.too_many_options" xml:space="preserve">
+    <value>Pažymėta daugiau pasirinkimų nei galima.</value>
+  </data>
+  <data name="forum.topic_poll.attributes.title" xml:space="preserve">
+    <value>Apklausos pavadinimas</value>
+  </data>
+  <data name="forum.topic_vote.required" xml:space="preserve">
+    <value>Pažymėk pasirinkimą, kai balsuoji.</value>
+  </data>
+  <data name="forum.topic_vote.too_many" xml:space="preserve">
+    <value>Pasirinkta daugiau nei galima.</value>
+  </data>
+  <data name="oauth.client.too_many" xml:space="preserve">
+    <value>Viršytas galimas OAuth aplikacijų skaičius.</value>
+  </data>
+  <data name="oauth.client.url" xml:space="preserve">
+    <value>Prašome įvesti tinkamą URL.</value>
+  </data>
+  <data name="oauth.client.attributes.name" xml:space="preserve">
+    <value>Aplikacijos Pavadinimas</value>
+  </data>
+  <data name="oauth.client.attributes.redirect" xml:space="preserve">
+    <value>Aplikacijos Atgalinio susisiekimo URL</value>
+  </data>
+  <data name="user.contains_username" xml:space="preserve">
+    <value>Slaptažodyje negali būti vartotojo vardas.</value>
+  </data>
+  <data name="user.email_already_used" xml:space="preserve">
+    <value>El. pašto adresas jau naudojamas.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>Negalimas el. pašto adresas.</value>
+  </data>
+  <data name="user.invalid_country" xml:space="preserve">
+    <value>Šalies nėra duomenų bazėje.</value>
+  </data>
+  <data name="user.invalid_discord" xml:space="preserve">
+    <value>Negalimas Discord vartotojo vardas.</value>
+  </data>
+  <data name="user.invalid_email" xml:space="preserve">
+    <value>Nepanašu, kad tai galiojantis el. pašto adresas.</value>
+  </data>
+  <data name="user.invalid_twitter" xml:space="preserve">
+    <value>Negalimas Twitter vartotojo vardas.</value>
+  </data>
+  <data name="user.too_short" xml:space="preserve">
+    <value>Naujas slaptažodis per trumpas.</value>
+  </data>
+  <data name="user.unknown_duplicate" xml:space="preserve">
+    <value>Vartotojo vardas arba el. pašto adresas jau yra naudojamas.</value>
+  </data>
+  <data name="user.username_available_in" xml:space="preserve">
+    <value>Šį vartotojo vardą bus galima naudoti {0}.</value>
+  </data>
+  <data name="user.username_available_soon" xml:space="preserve">
+    <value>Šį vartotojo vardą bus galima naudoti bet kuria minutę!</value>
+  </data>
+  <data name="user.username_invalid_characters" xml:space="preserve">
+    <value>Prašomas vartotojo vardas turi negalimų ženklų.</value>
+  </data>
+  <data name="user.username_in_use" xml:space="preserve">
+    <value>Vartotojo vardas jau naudojamas!</value>
+  </data>
+  <data name="user.username_locked" xml:space="preserve">
+    <value>Vartotojo vardas jau naudojamas!</value>
+  </data>
+  <data name="user.username_no_space_userscore_mix" xml:space="preserve">
+    <value>Prašome naudoti pabrėžimus arba tarpus, bet ne abu!</value>
+  </data>
+  <data name="user.username_no_spaces" xml:space="preserve">
+    <value>Vartotojo vardas negali prasidėti ar beigtis su tarpais!</value>
+  </data>
+  <data name="user.username_not_allowed" xml:space="preserve">
+    <value>Šis Vartotojo vardas negalimas.</value>
+  </data>
+  <data name="user.username_too_short" xml:space="preserve">
+    <value>Prašomas vartotojo vardas per trumpas.</value>
+  </data>
+  <data name="user.username_too_long" xml:space="preserve">
+    <value>Prašomas vartotojo varadas per ilgas.</value>
+  </data>
+  <data name="user.weak" xml:space="preserve">
+    <value>Juodojo sąrašo slaptažodis.</value>
+  </data>
+  <data name="user.wrong_current_password" xml:space="preserve">
+    <value>Dabartinis slaptažodis neteisingas.</value>
+  </data>
+  <data name="user.wrong_email_confirmation" xml:space="preserve">
+    <value>El. pašto patvirtinimas nesutampa.</value>
+  </data>
+  <data name="user.wrong_password_confirmation" xml:space="preserve">
+    <value>Slaptažodžio patvirtinimas nesutampa.</value>
+  </data>
+  <data name="user.too_long" xml:space="preserve">
+    <value>Viršytas galimas ilgis. Gali būti tik iki {0} ženklų.</value>
+  </data>
+  <data name="user.attributes.username" xml:space="preserve">
+    <value>Vartotojo vardas</value>
+  </data>
+  <data name="user.attributes.user_email" xml:space="preserve">
+    <value>El. pašto adresas</value>
+  </data>
+  <data name="user.attributes.password" xml:space="preserve">
+    <value>Slaptažodis</value>
+  </data>
+  <data name="user.change_username.restricted" xml:space="preserve">
+    <value>Negali pakeisti savo vartotojo vardą, kol esi apribotas.</value>
+  </data>
+  <data name="user.change_username.supporter_required._" xml:space="preserve">
+    <value>Jūs turite būti {0}, kad galėtum pasikeisti savo vardą!</value>
+  </data>
+  <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
+    <value>parėmęs osu!</value>
+  </data>
+  <data name="user.change_username.username_is_same" xml:space="preserve">
+    <value>Jau naudojate šį vartotojo vardą!</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Reitinguoti bitmapai negali būti pranešti</value>
+  </data>
+  <data name="user_report.reason_not_valid" xml:space="preserve">
+    <value>{0} negalioja šiam pranešimo tipui.</value>
+  </data>
+  <data name="user_report.self" xml:space="preserve">
+    <value>Negalite pranešti savęs!</value>
+  </data>
+  <data name="store.order_item.attributes.quantity" xml:space="preserve">
+    <value>Kiekis</value>
+  </data>
+  <data name="store.order_item.attributes.cost" xml:space="preserve">
+    <value>Kaina</value>
   </data>
 </root>

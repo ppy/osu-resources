@@ -200,6 +200,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SupporterGiftGifted => new TranslatableString(getKey(@"supporter_gift.gifted"), @"Someone has just gifted you an osu!supporter tag!");
 
         /// <summary>
+        /// "The person who gifted you this tag left you a message:"
+        /// </summary>
+        public static LocalisableString SupporterGiftGiftMessage => new TranslatableString(getKey(@"supporter_gift.gift_message"), @"The person who gifted you this tag left you a message:");
+
+        /// <summary>
         /// "You have been gifted an osu!supporter tag!"
         /// </summary>
         public static LocalisableString SupporterGiftSubject => new TranslatableString(getKey(@"supporter_gift.subject"), @"You have been gifted an osu!supporter tag!");

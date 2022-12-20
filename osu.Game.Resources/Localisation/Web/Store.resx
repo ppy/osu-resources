@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>We are currently overwhelmed with orders! You are welcome to place your order, but please expect an **additional 1-2 week delay** while we catch up with existing orders.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Hide all osu!supporter tags in this order from my activity</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Your cart appears to be out of date and has been reloaded, please try again.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter tags in this order are not displayed in your recent activities.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>invoice</value>
@@ -169,11 +175,14 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>The checkout link for this order has expired.</value>
   </data>
+  <data name="order.item.quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} for {1} ({2})</value>
   </data>
-  <data name="order.item.quantity" xml:space="preserve">
-    <value>Quantity</value>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Message: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>You cannot modify your order as it has been cancelled.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>gift to player</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>add an optional message to your gift! (up to {0} characters)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>You need to be {0} to get an osu!supporter tag!</value>
