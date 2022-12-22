@@ -16,23 +16,16 @@ highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
         return distance(pixelPos, start);
 
     highp vec2 a = (end - start) / lineLength;
-    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, distance(end, start)) * a + start; // closest point on a line from given position
+    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, lineLength) * a + start; // closest point on a line from given position
     return distance(closest, pixelPos);
-}
-
-bool insideTriangle(highp vec2 pixelPos)
-{
-    bool inLeftPart = pixelPos.x < 0.5 && pixelPos.x > 0.5 * (1.0 - pixelPos.y);
-    bool inRightPart = pixelPos.x > 0.5 && pixelPos.x < 0.5 * (1.0 + pixelPos.y);
-
-    return inLeftPart || inRightPart;
 }
 
 void main(void)
 {
     highp vec2 pixelPos = v_TexCoord / (v_TexRect.zw - v_TexRect.xy);
 
-    if (!insideTriangle(pixelPos))
+    // return if outside the triangle
+    if (abs(pixelPos.x - 0.5) > 0.5 * pixelPos.y)
     {
         gl_FragColor = vec4(0.0);
         return;
