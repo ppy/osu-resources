@@ -16,7 +16,7 @@ highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
         return distance(pixelPos, start);
 
     highp vec2 a = (end - start) / lineLength;
-    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, distance(end, start)) * a + start; // closest point on a line from given position
+    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, lineLength) * a + start; // closest point on a line from given position
     return distance(closest, pixelPos);
 }
 
