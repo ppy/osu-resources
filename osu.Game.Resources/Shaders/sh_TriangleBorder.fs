@@ -8,18 +8,6 @@ varying highp vec2 v_TexCoord;
 uniform mediump float thickness;
 uniform highp float texelSize;
 
-highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
-{
-    highp float lineLength = distance(end, start);
-
-    if (lineLength < 0.001)
-        return distance(pixelPos, start);
-
-    highp vec2 a = (end - start) / lineLength;
-    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, lineLength) * a + start; // closest point on a line from given position
-    return distance(closest, pixelPos);
-}
-
 void main(void)
 {
     highp vec2 pixelPos = v_TexCoord / (v_TexRect.zw - v_TexRect.xy);
