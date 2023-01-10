@@ -80,10 +80,10 @@
     <value>Háttér</value>
   </data>
   <data name="dim" xml:space="preserve">
-    <value>Háttér sötétítés</value>
+    <value>Háttér elsötétítése</value>
   </data>
   <data name="blur" xml:space="preserve">
-    <value>Háttér homályosítás</value>
+    <value>Háttér életlenítése</value>
   </data>
   <data name="lighten_during_breaks" xml:space="preserve">
     <value>Játéktér világosítása szünetek alatt</value>
@@ -95,10 +95,13 @@
     <value>Élet mutatása akkor is, ha nem lehet meghalni</value>
   </data>
   <data name="fade_playfield_when_health_low" xml:space="preserve">
-    <value>Játéktér sötétítése pirosra kevés élet esetén</value>
+    <value>Játéktér halványítása pirosra kevés élet esetén</value>
   </data>
   <data name="key_overlay" xml:space="preserve">
     <value>Mindig mutassa a billentyű átfedést</value>
+  </data>
+  <data name="gameplay_leaderboard" xml:space="preserve">
+    <value>Mindig mutassa a játékmenetbeli ranglistát</value>
   </data>
   <data name="always_play_first_combo_break" xml:space="preserve">
     <value>Az első kombótörés hangjának játszása mindig</value>
@@ -114,5 +117,20 @@
   </data>
   <data name="increase_first_object_visibility" xml:space="preserve">
     <value>Láthatóság növelése az első objektumon amikor láthatóságot gyengítő modok be vannak kapcsolva</value>
+  </data>
+  <data name="hide_during_gameplay" xml:space="preserve">
+    <value>Elrejtés játék közben</value>
+  </data>
+  <data name="always_show_hud" xml:space="preserve">
+    <value>Mindig</value>
+  </data>
+  <data name="never_show_hud" xml:space="preserve">
+    <value>Soha</value>
+  </data>
+  <data name="standardised_score_display" xml:space="preserve">
+    <value>Szabványos</value>
+  </data>
+  <data name="classic_score_display" xml:space="preserve">
+    <value>Klasszikus</value>
   </data>
 </root>
