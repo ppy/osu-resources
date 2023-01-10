@@ -176,8 +176,44 @@
   <data name="forum.topic_poll.duplicate_options" xml:space="preserve">
     <value>Опција дуплирања није дозвољена.</value>
   </data>
+  <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
+    <value>Није могуће уређивати анкету након више од {0} сати.</value>
+  </data>
+  <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
+    <value>Не може сакрити анкете резултата која се никада не завршава.</value>
+  </data>
+  <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
+    <value>Опција по кориснику не сме бити већа од броја доступних опција.</value>
+  </data>
+  <data name="forum.topic_poll.minimum_one_selection" xml:space="preserve">
+    <value>Потребна је најмање једна опција по кориснику.</value>
+  </data>
+  <data name="forum.topic_poll.minimum_two_options" xml:space="preserve">
+    <value>Потребне су најмање две опције.</value>
+  </data>
+  <data name="forum.topic_poll.too_many_options" xml:space="preserve">
+    <value>Прекорачен је максимални број дозвољених опција.</value>
+  </data>
+  <data name="forum.topic_poll.attributes.title" xml:space="preserve">
+    <value>Наслов анкете</value>
+  </data>
+  <data name="forum.topic_vote.required" xml:space="preserve">
+    <value>Изаберите опцију приликом гласања.</value>
+  </data>
+  <data name="forum.topic_vote.too_many" xml:space="preserve">
+    <value>Изабрано је више опција него што је дозвољено.</value>
+  </data>
+  <data name="oauth.client.too_many" xml:space="preserve">
+    <value>Премашен је максимални број дозвољених OAuth апликација.</value>
+  </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Молимо да унесете важећи URL.</value>
+  </data>
+  <data name="oauth.client.attributes.name" xml:space="preserve">
+    <value>Име Апликације</value>
+  </data>
+  <data name="oauth.client.attributes.redirect" xml:space="preserve">
+    <value>Callback URL апликације</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Лозинка не сме да садржи корисничко име.</value>

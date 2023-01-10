@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Kami ay punong puno ng mga order! Maari kang maglagay ng order, pero maaring mahintulot ang iyong order ng mga 1-2 linggo habang inaasikaso namin ang mga order sa ngayon.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Itago ang lahat ng mga tag ng osu!supporter sa pagkakasunud-sunod na ito mula sa aking aktibidad</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Dahil matagal na panahon na ang lumipas, ini-load muli ang iyong kariton, mangyaring subukang muli.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Dahil ang pagbayad ay eCheck, maari pong magantay ng 10 araw para dumaan ng PayPal ang iyong bayarin!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>ang mga tag ng osu!supporter sa pagkakasunud-sunod na ito ay hindi ipinapakita sa iyong kamakailang mga aktibidad.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>invoice</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} para kay {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Mensahe: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Hindi mo maaaring baguhin ang iyong order dahil nakasela ito.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>regalo sa manlalaro</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>magdagdag ng opsyonal na mensahe sa iyong regalo! (hanggang sa {0} ka mga karakter)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Kailangan mong {0} upang makakuha ng osu! Supporter tag!</value>

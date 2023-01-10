@@ -210,14 +210,79 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchWikiPageTitle => new TranslatableString(getKey(@"search.wiki_page.title"), @"Wiki");
 
         /// <summary>
+        /// "Download osu!"
+        /// </summary>
+        public static LocalisableString DownloadAction => new TranslatableString(getKey(@"download.action"), @"Download osu!");
+
+        /// <summary>
+        /// "Download osu!(lazer)"
+        /// </summary>
+        public static LocalisableString DownloadActionLazer => new TranslatableString(getKey(@"download.action_lazer"), @"Download osu!(lazer)");
+
+        /// <summary>
+        /// "the next major update to osu!"
+        /// </summary>
+        public static LocalisableString DownloadActionLazerDescription => new TranslatableString(getKey(@"download.action_lazer_description"), @"the next major update to osu!");
+
+        /// <summary>
+        /// "check this page for more information"
+        /// </summary>
+        public static LocalisableString DownloadActionLazerInfo => new TranslatableString(getKey(@"download.action_lazer_info"), @"check this page for more information");
+
+        /// <summary>
+        /// "try osu!(lazer)"
+        /// </summary>
+        public static LocalisableString DownloadActionLazerTitle => new TranslatableString(getKey(@"download.action_lazer_title"), @"try osu!(lazer)");
+
+        /// <summary>
+        /// "download osu!"
+        /// </summary>
+        public static LocalisableString DownloadActionTitle => new TranslatableString(getKey(@"download.action_title"), @"download osu!");
+
+        /// <summary>
+        /// "for {0}"
+        /// </summary>
+        public static LocalisableString DownloadForOs(LocalisableString os) => new TranslatableString(getKey(@"download.for_os"), @"for {0}", os);
+
+        /// <summary>
+        /// "note: leaderboard resets apply"
+        /// </summary>
+        public static LocalisableString DownloadLazerNote => new TranslatableString(getKey(@"download.lazer_note"), @"note: leaderboard resets apply");
+
+        /// <summary>
+        /// "macOS users"
+        /// </summary>
+        public static LocalisableString DownloadMacosFallback => new TranslatableString(getKey(@"download.macos-fallback"), @"macOS users");
+
+        /// <summary>
+        /// "mirror"
+        /// </summary>
+        public static LocalisableString DownloadMirror => new TranslatableString(getKey(@"download.mirror"), @"mirror");
+
+        /// <summary>
+        /// "or"
+        /// </summary>
+        public static LocalisableString DownloadOr => new TranslatableString(getKey(@"download.or"), @"or");
+
+        /// <summary>
+        /// "other platforms"
+        /// </summary>
+        public static LocalisableString DownloadOtherOs => new TranslatableString(getKey(@"download.other_os"), @"other platforms");
+
+        /// <summary>
+        /// "quick start guide"
+        /// </summary>
+        public static LocalisableString DownloadQuickStartGuide => new TranslatableString(getKey(@"download.quick_start_guide"), @"quick start guide");
+
+        /// <summary>
         /// "let&#39;s get&lt;br&gt;you started!"
         /// </summary>
         public static LocalisableString DownloadTagline => new TranslatableString(getKey(@"download.tagline"), @"let's get<br>you started!");
 
         /// <summary>
-        /// "Download osu!"
+        /// "video guide"
         /// </summary>
-        public static LocalisableString DownloadAction => new TranslatableString(getKey(@"download.action"), @"Download osu!");
+        public static LocalisableString DownloadVideoGuide => new TranslatableString(getKey(@"download.video-guide"), @"video guide");
 
         /// <summary>
         /// "if you have a problem starting the game or registering for an account, {0} or {1}."
@@ -248,16 +313,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "for Linux"
         /// </summary>
         public static LocalisableString DownloadOsLinux => new TranslatableString(getKey(@"download.os.linux"), @"for Linux");
-
-        /// <summary>
-        /// "mirror"
-        /// </summary>
-        public static LocalisableString DownloadMirror => new TranslatableString(getKey(@"download.mirror"), @"mirror");
-
-        /// <summary>
-        /// "macOS users"
-        /// </summary>
-        public static LocalisableString DownloadMacosFallback => new TranslatableString(getKey(@"download.macos-fallback"), @"macOS users");
 
         /// <summary>
         /// "get an account"
@@ -293,11 +348,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "browse"
         /// </summary>
         public static LocalisableString DownloadStepsBeatmapsDescriptionBrowse => new TranslatableString(getKey(@"download.steps.beatmaps.description.browse"), @"browse");
-
-        /// <summary>
-        /// "video guide"
-        /// </summary>
-        public static LocalisableString DownloadVideoGuide => new TranslatableString(getKey(@"download.video-guide"), @"video guide");
 
         /// <summary>
         /// "dashboard"

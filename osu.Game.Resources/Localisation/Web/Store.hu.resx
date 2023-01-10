@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Jelenleg túlnyomóan sok rendelésünk van. Szívesen fogadjuk rendelésed, viszont arra számíts, hogy **további 1-2 hét késés** is lehet míg elérünk a jelenlegi rendelésekig.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Rejtse el ezeknek az osu!supporter címkék vásárlását az aktivitásomból</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>A kosarad réginek tűnik és újra lett töltve, kérlek próbáld újra.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Mivel a fizetésed egy eCheck volt, engedj meg neki legalább 10 napot a PayPal-es feldolgozásra!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>ebben a vásárlásban szereplő osu!supporter címkék nem jelennek meg a legutóbbi aktivitásaid között.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>számla</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Üzenet: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Nem változtathatsz visszavont rendelésen.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>játékosnak ajándékozás</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>adj egy üzenetet az ajándékodhoz, amennyiben szeretnél! (legfeljebb {0} karakterű)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Az osu!támogatói cím megszerzéséhez {0} kell lenned!</value>

@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>V tuto chvíli jsme zahlceni objednávkami! Svou objednávku můžeš umístit, ale počítej prosím s **dalšími 1-2 týdny zpoždění** zatímco dokončíme už existující objednávky.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Schovat všechny osu!supporter tagy v této objednávce z mých aktivit</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Obsah tvého košíku se zdá být zastaralý a proto byl znovu načten, zkus to prosím znovu.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Jelikož vaše platba byla prováděna službou eCheck, prosím, dejte nám až 10 dní na to, aby platba úspěšně prošla přes PayPal!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter tagy v této objednávce se nebudou zobrazovat v nedávných aktivitách.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} pro {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Zpráva: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Nemůžeš upravit svou objednávku, jelikož byla stornována.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>darovat hráči</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>přidat volitelnou zprávu k dárku! (maximálně {0} znaků)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Pro obdržení štítku podporovatele se musíš {0}!</value>

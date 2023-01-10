@@ -115,6 +115,46 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CardSendMessage => new TranslatableString(getKey(@"card.send_message"), @"Send message");
 
         /// <summary>
+        /// "password"
+        /// </summary>
+        public static LocalisableString CreateFormPassword => new TranslatableString(getKey(@"create.form.password"), @"password");
+
+        /// <summary>
+        /// "password confirmation"
+        /// </summary>
+        public static LocalisableString CreateFormPasswordConfirmation => new TranslatableString(getKey(@"create.form.password_confirmation"), @"password confirmation");
+
+        /// <summary>
+        /// "create account"
+        /// </summary>
+        public static LocalisableString CreateFormSubmit => new TranslatableString(getKey(@"create.form.submit"), @"create account");
+
+        /// <summary>
+        /// "email"
+        /// </summary>
+        public static LocalisableString CreateFormUserEmail => new TranslatableString(getKey(@"create.form.user_email"), @"email");
+
+        /// <summary>
+        /// "email confirmation"
+        /// </summary>
+        public static LocalisableString CreateFormUserEmailConfirmation => new TranslatableString(getKey(@"create.form.user_email_confirmation"), @"email confirmation");
+
+        /// <summary>
+        /// "username"
+        /// </summary>
+        public static LocalisableString CreateFormUsername => new TranslatableString(getKey(@"create.form.username"), @"username");
+
+        /// <summary>
+        /// "by creating account you agree to the {0}"
+        /// </summary>
+        public static LocalisableString CreateFormTosNoticeDefault(LocalisableString link) => new TranslatableString(getKey(@"create.form.tos_notice._"), @"by creating account you agree to the {0}", link);
+
+        /// <summary>
+        /// "terms of service"
+        /// </summary>
+        public static LocalisableString CreateFormTosNoticeLink => new TranslatableString(getKey(@"create.form.tos_notice.link"), @"terms of service");
+
+        /// <summary>
         /// "Uh-oh! It looks like your account has been disabled."
         /// </summary>
         public static LocalisableString DisabledTitle => new TranslatableString(getKey(@"disabled.title"), @"Uh-oh! It looks like your account has been disabled.");
@@ -1178,6 +1218,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Offline"
         /// </summary>
         public static LocalisableString StatusOffline => new TranslatableString(getKey(@"status.offline"), @"Offline");
+
+        /// <summary>
+        /// "please register via the game client instead!"
+        /// </summary>
+        public static LocalisableString StoreFromClient => new TranslatableString(getKey(@"store.from_client"), @"please register via the game client instead!");
+
+        /// <summary>
+        /// "please register through web"
+        /// </summary>
+        public static LocalisableString StoreFromWeb => new TranslatableString(getKey(@"store.from_web"), @"please register through web");
 
         /// <summary>
         /// "User created"

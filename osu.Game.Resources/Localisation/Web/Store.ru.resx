@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>В настоящее время у нас много заказов! Вы можете заказать товар, но пожалуйста, помните, что его обработка может задержаться на 1–2 недели, пока мы разбираемся с существующими заказами.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Скрыть все сообщения о тегах osu!supporter из секции активности в моём профиле после покупки</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Ваша корзина, кажется, устарела и была перезагружена, пожалуйста попробуйте еще раз.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Поскольку оплата была через eCheck, ожидание подтверждения оплаты через Paypal может занят до 10 дней!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>сообщения о тегах osu!supporter после покупки не будут отображены в вашем профиле.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>чек</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} для {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Сообщение: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Вы не можете изменить свой заказ, так как он был отменён.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>подарок для игрока</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>добавьте сообщение к вашему подарку! (до {0} символов)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Вы должны {0} для покупки osu!supporter!</value>

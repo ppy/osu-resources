@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Trenutno imamo preveč naročil! Naročilo je dobrodošlo, ampak pričakuj **dodaten teden ali dva zamika**, da se lahko ujamemo s preostalimi naročili.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Skrij vse osu!supporter oznake v tem naročilu iz moje dejavnosti</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Tvoja nakupovalna košarica je zastarela in je bila osvežena, prosimo poskusi znova.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Ker je bilo tvoje plačilo narejeno z eCheck-om, prosimo počakaj vsaj do 10 dodatnih dni, da se plačilo poravna preko PayPal-a!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter oznake v tem naročilu ne bodo prikazane v tvojih nedavnih dejavnostih.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>račun</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} za {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Sporočilo: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Tega naročila ni možno modificirati, saj je bilo preklicano.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>podari igralcu</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>dodaj izbirno sporočilo k tvojemu darilu! (vse do {0} znakov)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Za pridobitev osu!supporter značke moraš biti {0}!</value>

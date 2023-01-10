@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Bitmapo Nuostatos</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>pakeisti bendruosius bitmapo nustatymus</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Spalvos</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Apskritimų / Slidukų Kombo</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Dizainas</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Įjungti skaičiavimą</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value> Įjungtus, „Ar pasiruošęs? 3, 2, 1, Varyk!“ skaičiuotė bus įterpta į bitmapo pradžią, jei bus laiko šiam intarpui.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Skaičiuotės greitis</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Jei skaičiuotė nepritinka ritmui, su šiuo nustatymu gali ją atitraukti vienu ar daugiau dužiu.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Skaičiouklės poslinkis</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Plačiuju ekranu palaikymas</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Leidžia foninėms animacijoms naudoti visa ekrano erdvę, vietoj to kad būtu suvaržyta 4:3 santykio erdvės.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Epilepsijos perspėjimas</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Rekomenduojama, jei foninėje animacijoje ar vaizdo įraše yra bliksiojančios spalvos.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Cinematiniai titrai per pertraukas</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Prideda horizontalius cinematinius titrus per pertraukas.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Pavyzdėliai prisitaiko prie atgrojimo greičio</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Kai įjungta, pavyzdėliai pagreitės arba suletės priklausomai nuo pasirinkto greiti kečiančio modo.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Visu paspudimo objektu dydis</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Gyvybių senkimo greitis per žaidimo laiką</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Objektu parodymo žaidėjui greitis</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Paspaudimo paklaidos griežtumas ir specialiu objektu sukumas (pvz. suktukai)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Metaduomenys</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Romanizuotas Atlikėjas</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Romanizuotas pavadinimas</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Kūrėjas</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Sunkumo Pavadinimas</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Resursai</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Audio Takelis</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Spausk, kad pasirinkti takelį</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Spausk, kad pakeisti takelį</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Spausk, kad pasirinkti fono piešinį</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Spausk, kad pakeisti fono piešinį</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Taisyklių nustatymai ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Kombo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Atlikėjas</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Sunkumas</value>
+  </data>
+</root>

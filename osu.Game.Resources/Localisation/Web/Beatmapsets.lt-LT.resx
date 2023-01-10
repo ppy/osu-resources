@@ -59,10 +59,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="availability.disabled" xml:space="preserve">
-    <value>Ši „beatmap“. Šiuo metu nėra galimybės atsiųsti.</value>
+    <value>Atsiųsti bitmapą šiuo metu nėra galimybės.</value>
+  </data>
+  <data name="availability.parts-removed" xml:space="preserve">
+    <value>Dalys šio bitmapo buvo pašalintos, kūrėjo ar trečiosios šalies laikančios teises prašymu.</value>
+  </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Žiūrėk čia dėl papildomos informacijos.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Kai kurie elementai buvo pašalinti iš šio bitmapo, įvertinus juos kaip netinkamus naudojimui tarp osu!.</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
     <value>Ištrintas bitmapas</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Neskubėk, pažaisk daugiau.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Rekomenduojami atlikėjai</value>
@@ -71,7 +83,7 @@
     <value>Bitmapų sąrašas</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
-    <value>Beatmapai</value>
+    <value>Bitmapai</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
     <value>nėra bitmapų</value>
@@ -88,14 +100,56 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>atidaryti per osu!direct</value>
   </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Mišriame bitmape reikia pasirinkti bent vieną rėžimą nominavimui.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Jūs neturite leidimo nominuoti šiam rėžimui: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Turi būti pilnai įgaliotas nominatorius, kad galėtum atlikti kvalifikavimo nominacija.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Nominavimo reikalavimai jau patenkinti.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Ar tikrai norite nominuoti šį bitmapą?</value>
+  </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Nominuoti Bitmapą</value>
   </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>pastaba: jūs galite nominuoti tik kartą, tai prašom užtikrinti, kad nominuojate visus rėžimus, kuriuos ketinote</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Kokiems rėžimams nominuoti?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Eksplicitinis</value>
+  </data>
+  <data name="show.discussion" xml:space="preserve">
+    <value>Diskusija</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>Pridėti bitmapą į mėgstamus</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Prisijunk, kad mėgti šį bitmapą</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>Reikia prisijungti bitmapų atsisiuntimui!</value>
+  </data>
   <data name="show.details.mapped_by" xml:space="preserve">
-    <value>{0} sukūrė {1}</value>
+    <value>sukūrė {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>Pašalinti bitmapą iš mėgstamų</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
-    <value>paskiausiai atnaujinta prieš {0}</value>
+    <value>paskutinį kartą atnaujinta {0}</value>
   </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>Atsisiųsti</value>
@@ -107,7 +161,7 @@
     <value>su vaizdo įrašu</value>
   </data>
   <data name="show.details.login_required.bottom" xml:space="preserve">
-    <value>kad pasiektum daugiau galimybių</value>
+    <value>kad pasiektum daugiau funkcijų</value>
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Prisijungti</value>
@@ -129,6 +183,9 @@
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
     <value>paskutinį kartą atnaujinta {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Per daug mėgstamų bitmapų! Pašalink keletą iš mėgstamų prieš bandydamas vėl.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
     <value>Skatink šį bitmapą, jei patiko jį žaisti, ir padėk jam pasiekti &lt;strong&gt;Reitinguoto&lt;/strong&gt; būseną.</value>
@@ -166,6 +223,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Kalba</value>
   </data>
+  <data name="show.info.no_scores" xml:space="preserve">
+    <value>Duomenys dar apskaičiuojami...</value>
+  </data>
   <data name="show.info.nominators" xml:space="preserve">
     <value>Nominatoriai</value>
   </data>
@@ -185,13 +245,16 @@
     <value>Šis bitmapas turi foninę animaciją</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
-    <value>Sėkmingi kartai</value>
+    <value>Įveikimų Rodiklis</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Žymos</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Šis bitmapas turi vaizdo įrašą</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Šiame bitmape yra eksplicitinio, įžeidžiančio ar nerimą keliančio turinio. Vis tiek rodyti?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Eksplicitinis Turinys</value>
@@ -209,34 +272,37 @@
     <value>pasiekta {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
-    <value>Šalies reitingai</value>
+    <value>Šalies Rezultatai</value>
   </data>
   <data name="show.scoreboard.error" xml:space="preserve">
     <value>Nepaviko įkelti rezultatų</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
-    <value>Draugų reitingai</value>
+    <value>Draugų Rezultatai</value>
   </data>
   <data name="show.scoreboard.global" xml:space="preserve">
-    <value>Pasaulinis Reitingas</value>
+    <value>Pasauliniai Rezultatai</value>
+  </data>
+  <data name="show.scoreboard.supporter-link" xml:space="preserve">
+    <value>Spausk &lt;a href="{0}"&gt;čia&lt;/a&gt;, kad pamatytum visus privalomus, kuriuos gausi!</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
-    <value>Tau reikia turėti osu!supporter, kad pasiektum draugų ir Šalių reitingus!</value>
+    <value>Tu turi būti osu!rėmėjas, kad pasiektum draugų, šalių ar konkrečių modų rezultatus!</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Rezultatų lenta</value>
   </data>
   <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
-    <value>Taiklumas</value>
+    <value>Tikslumas</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>Didžiausias combo</value>
+    <value>Didžiausias Kombo</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>Nepataikyti</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
-    <value>Modifikacijos</value>
+    <value>Modai</value>
   </data>
   <data name="show.scoreboard.headers.pin" xml:space="preserve">
     <value>Prisegti</value>
@@ -258,6 +324,12 @@
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
     <value>Niekas iš jūsų šalies dar neįstatė rezultato šiam bitmapui!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
+    <value>Niekas iš jūsų draugų dar nenustatė rezultato šiam bitmapui!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.global" xml:space="preserve">
+    <value>Jokiu rezultatų. Galbūt norėtum pabandyti nustatyti koki?</value>
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Įkeliami rezultatai...</value>
@@ -284,7 +356,7 @@
     <value>Klavišų kiekis</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>Gyvybės išsekimas</value>
+    <value>HP išsekimas</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Tikslumas</value>
@@ -293,10 +365,10 @@
     <value>Artėjimo greitis</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
-    <value>Žvaigždžių sunkumas</value>
+    <value>Žvaigždžių Įvertinimas</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Trukmė</value>
+    <value>Trukmė (Senkimo trukmė: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>
@@ -311,16 +383,16 @@
     <value>Tinklo poslinkis: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
-    <value>Narių įvertinimas</value>
+    <value>Vartotojų Įvertinimas</value>
   </data>
   <data name="show.stats.rating-spread" xml:space="preserve">
-    <value>Vertimų išsidėstymas</value>
+    <value>Vertinimų Išsidėstymas</value>
   </data>
   <data name="show.stats.nominations" xml:space="preserve">
     <value>Nominacijos</value>
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
-    <value>Žaidimų skaičius</value>
+    <value>Sužaidimų skaičius</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Reitinguotas</value>

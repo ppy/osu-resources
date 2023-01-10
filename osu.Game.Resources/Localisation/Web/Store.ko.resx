@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>현재 주문이 밀려있습니다! 주문을 해주시는건 기쁘지만, 지금 주문을 처리하는데 **1~2 주 지연**될 수 있다는 걸 알려드립니다.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>나의 활동에서 이 주문에 있는 모든 osu! 서포터 태그 내역 숨기기</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>장바구니가 오래되어 새로 고쳐졌습니다, 다시 시도해 주세요.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>eCheck로 결제하셨다면 10일까지 PayPal을 통해 결제할 수 있도록 허용해주세요.</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>이 주문에 포함된 osu! 서포터 내역은 나의 최근 활동에 표시되지 않습니다.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>청구서</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} for {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>메시지: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>취소된 주문은 수정할 수 없습니다.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>선물하기</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>선물에 메시지를 남겨보세요! (최대 {0}자)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>osu! 서포터 태그를 구매하려면 {0}하셔야 합니다!</value>

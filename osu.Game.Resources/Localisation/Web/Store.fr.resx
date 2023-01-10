@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Nous sommes actuellement submergés de commandes ! Vous pouvez tout de même commander, mais attendez-vous à **une à deux semaines de délai supplémentaire** le temps que nous puissions traiter toutes ces commandes.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Masquer tous les tags osu!supporter dans cette commande de mon activité</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Votre panier semble être obsolète et a donc été actualisé, merci de réessayer.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Si votre paiement est en eCheck, comptez jusqu'à 10 jours supplémentaires pour le paiement via PayPal !</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>Les tags osu!supporter dans cette commande ne sont pas affichés dans vos activités récentes.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>facture</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} pour {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Message : {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Vous ne pouvez pas modifier votre commande, puisqu'elle a été annulée.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>offrir à un joueur</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>ajouter un message optionnel à votre cadeau ! (jusqu'à {0} caractères)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Vous devez être {0} pour obtenir un tag osu!supporter !</value>

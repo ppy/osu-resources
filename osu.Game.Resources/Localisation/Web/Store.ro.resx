@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>În prezent suntem copleșiți de comenzi! Ești binevenit să-ți plasezi comanda, dar te rugăm să aștepți **o întârziere de 1-2 săptămâni suplimentară** în timp ce prindem din urmă comenzile existente.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Ascunde toate statusurile de suporter osu! din această comandă din activitatea mea</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Coșul tău pare a fi expirat și a fost reîncărcat, te rugăm să încerci din nou.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Pentru că plata ta a fost făcută electronic, te rugăm să aștepți încă 10 zile pentru ca plata să se afișeze prin PayPal!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>Statusul de suporter osu! din această comandă nu sunt afișate în activitățile tale recente.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factură fiscală</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} pentru {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Mesaj: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Nu îți poți modifica comanda deoarece aceasta a fost anulată.</value>
@@ -241,8 +250,11 @@
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>dăruiește unui jucător</value>
   </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>adaugă un mesaj opțional la cadoul tău! (până la {0} caractere)</value>
+  </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Trebuie să fii {0} pentru a obține o insignă de suporter osu!</value>
+    <value>Trebuie să fii {0} pentru a obține statusul de suporter osu!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>conectat</value>
