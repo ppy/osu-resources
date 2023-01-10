@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>We zijn momenteel overweldigd met bestellingen! Je kunt nog steeds bestellingen plaatsen maar verwacht dan **een vertraging van 1-2 weken** terwijl wij de bestaande bestellingen verwerken.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Verberg alle osu!supporter tags in deze bestelling van mijn activiteit</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Je winkelwagen lijkt verouderd te zijn en wordt herladen, probeer het opnieuw.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Aangezien uw betaling een eCheck was, Wacht maximaal 10 dagen extra om de betaling veilig via PayPal te laten gaan!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter tags in deze bestelling worden niet weergegeven in je recente activiteiten.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factuur</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} voor {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Mededeling: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Je kan je bestelling niet wijzigen omdat hij geannuleerd is.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>schenk aan speler</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>voeg een optioneel bericht toe aan uw geschenk! (maximaal {0} tekens)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Je moet {0} zijn om een osu!supporter tag te krijgen!</value>

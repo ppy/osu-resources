@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Obecnie jesteśmy przeciążeni zamówieniami! Wciąż możesz złożyć swoje zamówienie, ale spodziewaj się **dodatkowego opóźnienia w postaci 1-2 tygodni**, dopóki te już istniejące nie zostaną zakończone.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Ukryj zakup wszystkich statusów donatora osu! z tego zamówienia w mojej aktywności</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Zawartość twojego koszyka była przestarzała i została odświeżona, spróbuj ponownie.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Jako że twoja płatność została przesłana czekiem elektronicznym, odczekaj do 10 dni na przetworzenie transakcji przez PayPal.</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>Zakup statusów donatora osu! z tego zamówienia nie zostanie wyświetlony w twojej aktywności.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} dla {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Wiadomość: „{0}”</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Nie możesz edytować swojego zamówienia, ponieważ zostało ono anulowane.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>podaruj innemu użytkownikowi</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>dołącz opcjonalną wiadomość do tego prezentu (do {0} znaków)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Aby uzyskać status donatora osu!, musisz się {0}!</value>

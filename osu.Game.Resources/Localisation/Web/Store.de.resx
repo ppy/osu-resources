@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Wir sind momentan etwas mit Bestellungen überfordert! Wir nehmen weiterhin Bestellungen an, allerdings muss mit **zusätzlichen 1-2 Wochen Verzögerung** gerechnet werden, während die aktuellen Bestellungen aufgearbeitet werden.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Alle osu!supporter-Tags in dieser Bestellung aus meiner Aktivität ausblenden</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Dein Warenkorb war nicht aktuell und wurde erneut geladen, bitte versuche es erneut.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Da es sich bei deiner Zahlung um einen eCheck handelt, kannst du bis zu 10 zusätzliche Tage einplanen, um die Zahlung über PayPal abzuwickeln!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter-Tags in dieser Bestellung werden nicht in deinen letzten Aktivitäten angezeigt.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>rechnung</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} für {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Nachricht: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Du kannst deine Bestellung nicht ändern, da diese storniert wurde.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>an jemanden verschenken</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>füge eine optionale Nachricht zu deinem Geschenk hinzu! (bis zu {0} Zeichen)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Du musst {0} sein, um ein osu!supporter-Tag zu erhalten!</value>

@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>欢迎购买，但是我们正在处理大量的订单，所以订单**可能会有 1-2 周的延迟**。</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>不把此订单中的支持者标签购买同步到个人活动</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>您的购物车已经过期，请重试。</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>由于您的支付是通过 eCheck 进行的，请再等待至多 10 天来让 PayPal 完成支付。</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>此订单的支持者标签购买未显示在你的个人活动中。</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>账单</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} 给 {1} （{2}）</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>留言：{0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>您不能修改已取消的订单。</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>要赠与的玩家</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>给礼物留下附言吧！（可选，至多 {0} 个字符）</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>你需要 {0} 以获得 osu! 支持者标签！</value>

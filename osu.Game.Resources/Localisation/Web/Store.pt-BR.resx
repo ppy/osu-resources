@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Nós estamos sobrecarregados com pedidos! Você é bem-vindo para fazer seu pedido, mas por favor espere um **atraso adicional de 1-2 semanas** enquanto nós realizamos os pedidos mais recentes.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Ocultar todas as tags de osu!supporter nesta ordem da minha atividade</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Seu carrinho aparenta estar desatualizado e foi recarregado, por favor tente novamente.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Como seu pagamento foi um eCheck, por favor aguarde por até 10 dias para se concluir o pagamento via PayPal!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>As tags de osu!supporter nesta ordem não são exibidas nas suas atividades recentes.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>fatura</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} para {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Mensagem: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Você não pode mudar seu pedido, pois ele foi cancelado.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>dar de presente</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>adicione uma mensagem opcional ao seu presente! (até {0} caracteres)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Você precisa estar {0} para conseguir uma osu!supporter tag!</value>

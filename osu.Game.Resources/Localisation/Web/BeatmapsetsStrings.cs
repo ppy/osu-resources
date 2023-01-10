@@ -155,6 +155,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDetailsMappedBy(LocalisableString mapper) => new TranslatableString(getKey(@"show.details.mapped_by"), @"mapped by {0}", mapper);
 
         /// <summary>
+        /// "guest difficulty by {0}"
+        /// </summary>
+        public static LocalisableString ShowDetailsMappedByGuest(LocalisableString mapper) => new TranslatableString(getKey(@"show.details.mapped_by_guest"), @"guest difficulty by {0}", mapper);
+
+        /// <summary>
         /// "Unfavourite this beatmap"
         /// </summary>
         public static LocalisableString ShowDetailsUnfavourite => new TranslatableString(getKey(@"show.details.unfavourite"), @"Unfavourite this beatmap");

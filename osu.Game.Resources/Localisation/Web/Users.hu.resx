@@ -85,17 +85,26 @@
   <data name="blocks.banner_text" xml:space="preserve">
     <value>Blokkoltad ezt a felhasználót.</value>
   </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Ez a hozzászólás rejtett.</value>
+  </data>
   <data name="blocks.blocked_count" xml:space="preserve">
     <value>({0}) blokkolt felhasználók</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
     <value>profil elrejtése</value>
   </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>elrejtés</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Ez a felhasználó nincs blokkolva.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
     <value>profil megjelenítése</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>mutatás</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
     <value>Blokkolási limit elérve.</value>
@@ -385,6 +394,9 @@
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Szeretett beatmapek</value>
   </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Nominált rangsorolt beatmapek</value>
+  </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Függő beatmapek</value>
   </data>
@@ -503,7 +515,7 @@
     <value>Medálok</value>
   </data>
   <data name="show.extra.playlists.title" xml:space="preserve">
-    <value>Lejátszási listás játékok</value>
+    <value>Játéklistás játékok</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Bejegyzések</value>
@@ -607,6 +619,9 @@
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Némítás</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Bajnoksági kitiltás</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Megjegyzés</value>
   </data>
@@ -672,6 +687,9 @@
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>Globális Rangsor</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Legnagyobb rank: {0} elérve {1} dátumkor</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Találati Pontosság</value>

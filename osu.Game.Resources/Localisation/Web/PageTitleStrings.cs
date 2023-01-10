@@ -225,6 +225,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainUsersControllerDefault => new TranslatableString(getKey(@"main.users_controller._"), @"player info");
 
         /// <summary>
+        /// "create account"
+        /// </summary>
+        public static LocalisableString MainUsersControllerCreate => new TranslatableString(getKey(@"main.users_controller.create"), @"create account");
+
+        /// <summary>
         /// "notice"
         /// </summary>
         public static LocalisableString MainUsersControllerDisabled => new TranslatableString(getKey(@"main.users_controller.disabled"), @"notice");

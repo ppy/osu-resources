@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Тренутно имамо превише наруџбина! И даље можете поручити, али молимо Вас да очекујете **закашњење од 1-2 недеље** док не прођемо кроз све наруџбине.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Сакриј све ознаке osu!supporter у овом редоследу из мојих активности</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Изгледа да су ваша колица застарела и поново су учитана, молимо Вас да пробате поново.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Зато што је Ваша куповина плаћена eCheck-ом, молимо Вас да дозволите до 10 додатних дана док се куповина не потврди преко PayPal-а!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter ознаке овим редоследом се не приказују у вашим недавним активностима.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>рачун</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} за {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Порука: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Не можете променити Вашу наруџбину зато што је отказана.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>поклоните играчу</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>додајте опционалну поруку свом поклону! (до {0} знакова)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Морате бити {0} да би сте добили osu!supporter таг!</value>

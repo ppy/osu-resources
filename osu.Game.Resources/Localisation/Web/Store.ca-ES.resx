@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Ara mateix no podem atendre totes les comandes! La teva compra és benvinguda, però considera un **retard addicional de 1-2 setmanes** mentre ens posem al dia amb les comandes actuals.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Amaga totes les etiquetes osu!supporter en aquesta ordre de la meva activitat</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>La vostra cistella sembla desactualitzada i s'ha reiniciat, torna-ho a intentar.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Com que el seu pagament va ser un eCheck, si us plau permeti fins a 10 dies addicionals perquè el pagament es faci a través de PayPal!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>Les etiquetes d'osu!supporter en aquesta ordre no es mostren a les vostres activitats recents.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factura</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} per {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Missatge: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>No pots modificar la comanda perquè s'ha cancel·lat.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>regalar a un jugador</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>afegeix un missatge opcional al teu regal! (fins a {0} caràcters)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Has de ser {0} per obtenir una etiqueta d'osu!supporter!</value>

@@ -103,8 +103,11 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>В даний час у нас багато замовлень. Ти можеш замовити товар, але будь ласка, пам'ятай, що його обробка замовлення може зайняти 1-2 тижні.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Приховати всі теги osu!прихильник цього замовлення з моєї активності</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
-    <value>Здається ваша корзина застаріла, тому була перезавантажена, будь ласка спробуйте ще раз.</value>
+    <value>Здається ваш кошик застарів, тому був перезавантажений, будь ласка спробуйте ще раз.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
     <value>Оплатити за допомогою PayPal</value>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Оскільки оплата була через eCheck, очікування підтвердження оплати через Paypal може зайнятий до 10 днів!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>Теги osu!прихильника в даному замовленні не показуються в останній активності.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>рахунок</value>
@@ -175,26 +181,29 @@
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} для {1} ({2})</value>
   </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Повідомлення: {0}</value>
+  </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, так як його було скасовано.</value>
+    <value>Ви не можете змінити своє замовлення тому, що його було скасовано.</value>
   </data>
   <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, поки він обробляється.</value>
+    <value>Ви не можете змінити своє замовлення, поки воно обробляється.</value>
   </data>
   <data name="order.not_modifiable_exception.default" xml:space="preserve">
     <value>Замовлення неможливо змінити</value>
   </data>
   <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, так як воно вже доставлене.</value>
+    <value>Ви не можете змінити своє замовлення тому, що воно вже доставлене.</value>
   </data>
   <data name="order.not_modifiable_exception.paid" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, так як його було оплачено.</value>
+    <value>Ви не можете змінити своє замовлення тому, що його було оплачено.</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, поки він обробляється.</value>
+    <value>Ви не можете змінити своє замовлення, поки воно обробляється.</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
-    <value>Ви не можете змінити своє замовлення, так як воно вже відправлено.</value>
+    <value>Ви не можете змінити своє замовлення тому, що його вже відправлено.</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>Скасовано</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>подарунок для гравця</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>додайте додаткове повідомлення до вашого подарунка! (до {0} символів)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Ви маєте бути {0} для покупки osu!прихильник!</value>

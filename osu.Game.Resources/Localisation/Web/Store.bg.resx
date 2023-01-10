@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>В момента сме затрупани с поръчки! Добре дошли сте да пуснете вашата поръчка, но очаквайте **допълнително 1-2 седмици закъснение**, докато наваксаме с вече съществуващите поръчки.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Скриване на всички osu!supporter етикети в тази поръчка от моята активност</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Вашата количка изглежда е с изтекъл срок и бе възобновена, моля опитайте отново.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Вие заплатихте чрез eCheck, което може да отнеме до 10 дена от страна на PayPal за потвърждение на плащането!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter етикетите от тази поръчка не са показани в активността ви.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>фактура</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} за {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Съобщение: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Не може да промените вашата поръчка, защото е отменена.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>подари на играч</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>съобщение по избор към подаръка! (до {0} символа)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Моля, {0}, за да закупите osu!supporter !</value>
