@@ -36,7 +36,7 @@ void main(void)
     highp float dst3 = dstToLine(vec2(0.0, 1.0), vec2(0.5, 0.0), pixelPos);
     highp float dst = min(min(dst1, dst2), dst3);
 
-    lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - thickness);
+    lowp float alpha = texelSize == 0.0 ? (1.0 - step(thickness, dst)) : (dst < texelSize ? smoothstep(0.0, texelSize, dst) : smoothstep(texelSize, 0.0, dst - thickness));
 
     lowp vec4 col = getRoundedColor(vec4(1.0), v_TexCoord);
 
