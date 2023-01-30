@@ -36,7 +36,18 @@ void main(void)
     highp float dst3 = dstToLine(vec2(0.0, 1.0), vec2(0.5, 0.0), pixelPos);
     highp float dst = min(min(dst1, dst2), dst3);
 
-    lowp float alpha = dst < texelSize ? dst / texelSize : smoothstep(texelSize, 0.0, dst - thickness);
+    lowp float alpha = 0.0;
+
+    if (texelSize == 0.0)
+    {
+        alpha = step(dst, thickness);
+    }
+    else
+    {
+        alpha = dst < texelSize
+            ? smoothstep(0.0, texelSize, dst) // outer border smoothing
+            : smoothstep(texelSize, 0.0, dst - thickness); // inner border smoothing
+    }
 
     lowp vec4 col = getRoundedColor(vec4(1.0), v_TexCoord);
 
