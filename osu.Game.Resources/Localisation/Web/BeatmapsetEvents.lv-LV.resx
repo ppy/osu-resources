@@ -61,53 +61,95 @@
   <data name="event.approve" xml:space="preserve">
     <value>Apstiprināts.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Grūtības {0} īpašnieks nomainīts uz {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
-    <value>Moderātors izdzēsa diskusiju {0}.</value>
+    <value>Moderators izdzēsa diskusiju {0}.</value>
+  </data>
+  <data name="event.discussion_lock" xml:space="preserve">
+    <value>Diskusija par šo bītmapi ir atspējota. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
-    <value>Moderātors izdzēsa ziņojumu no diskusijas {0}.</value>
+    <value>Moderators izdzēsa rakstu no diskusijas {0}.</value>
   </data>
   <data name="event.discussion_post_restore" xml:space="preserve">
-    <value>Moderātors atjaunoja ziņojumu no diskusijas {0}.</value>
+    <value>Moderators atjaunoja rakstu no diskusijas {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
-    <value>Moderātors atjaunoja diskusiju {0}.</value>
+    <value>Moderators atjaunoja diskusiju {0}.</value>
+  </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>Diskusija par šo bītmapi ir iespējota.</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
-    <value>Diskvalificēja: {0}, Iemesls: {1} ({2}).</value>
+    <value>Diskvalificēja: {0}. Iemesls: {1} ({2}).</value>
   </data>
   <data name="event.disqualify_legacy" xml:space="preserve">
-    <value>Diskvalificēja: {0}, Iemesls: {1}.</value>
+    <value>Diskvalificēja: {0}. Iemesls: {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Žanrs mainīts no {0} uz {1}.</value>
   </data>
   <data name="event.issue_reopen" xml:space="preserve">
-    <value>Atrisināja problēmu {0} ir atkātoti atvērts.</value>
+    <value>{0} atrisināja problēmu {1}, un atkātoti atvēra {2}.</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
-    <value>Problēma {0} ir atzīmēta kā atrisināta.</value>
+    <value>{0} izveidoto {1} atzīmēja kā atrisinātu {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>Kudosu nepieņemšana par diskusiju {0} ir noņemts.</value>
+    <value>Kudosu noliegums diskusijai {0} ir noņemts.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
-    <value>Diskusijas {0} nepieņēma kudosu.</value>
+    <value>Diskusija {0} ir noliegta priekš kudosu.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Diskusija {0} {1} saņēma pietiekami daudz balsojumus priekš kudosu.</value>
+    <value>{0} veidotā diskusija {1} ieguva pietiekami daudz balsu priekš kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Diskusija {0} {1} zaudeja balsojumus un saņemtais kudosu tika noņemts.</value>
+    <value>{0} veidotā diskusija {1} zaudēja balsis un piešķirtais kudosu ir noņemts.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
-    <value>Discussion {0} ir pārveidotas kudosu atļaujas un tiks veiktas rekaukulācijas.</value>
+    <value>Diskusijai {0} tika veikta tās kudosu piešķiršanas pārrēķināšana.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Valoda mainīta no {0} uz {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>Loved piešķīra {0}.</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
-    <value>Nominēja: {0}.</value>
+    <value>Nominēja {0}.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominēja {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Jauna problēma {0} ({1}) palaida nominācijas atiestatīšanu.</value>
+    <value>Jauna problēma {0} ({1}) izraisīja nominācijas atiestatīšanu.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0} nomināciju atsauca {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nomināciju atsauca {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Tiešaistes ofsets mainīts no {0} uz {1}.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Šī bītmape ir sasniegusi nepieciešamo nomināciju skaitu un ir kvalificēta.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Pieņemts.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Noņēma no Loved lietotājs {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Nepiemērota satura atzīme noņemta</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Atzīmēts kā nepiemērota satura</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Bītkaršu kopas Notikumi</value>
@@ -127,7 +169,79 @@
   <data name="item.type" xml:space="preserve">
     <value>Tips</value>
   </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>Apstiprinājums</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Grūtības īpašnieka maiņa</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>Diskusijas dzēšana</value>
+  </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>Diskusijas atbildes dzēšana</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>Diskusijas atbildes atjaunošana</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>Diskusijas atjaunošana</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>Diskvalifikācija</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Žanra rediģēšana</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>Diskusijas atkārtota atvēršana</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>Diskusijas atrisināšana</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>Kudosu atļauja</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>Kudosu noliegums</value>
+  </data>
   <data name="type.kudosu_gain" xml:space="preserve">
     <value>Iegūtie Kudosu</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>Kudosu zaudējums</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>Kudosu pārrēķināšana</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Valodas rediģēšana</value>
+  </data>
+  <data name="type.love" xml:space="preserve">
+    <value>Love</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>Nominācija</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Nominācijas attiestatīšana</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominācijas attiestatīšana saņemta</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Nepiemērota satura atzīme</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Nobīdes rediģēšana</value>
+  </data>
+  <data name="type.qualify" xml:space="preserve">
+    <value>Kvalifikācija</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>Ierindojums</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Loved noņemšana</value>
   </data>
 </root>

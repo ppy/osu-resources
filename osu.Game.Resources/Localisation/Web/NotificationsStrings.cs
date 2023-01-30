@@ -545,6 +545,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MailBeatmapsetCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.comment.comment_new"), @"Beatmap ""{0}"" has new comments", title);
 
         /// <summary>
+        /// "There is a new annoucement in &quot;{0}&quot;"
+        /// </summary>
+        public static LocalisableString MailChannelAnnouncementAnnounce(LocalisableString name) => new TranslatableString(getKey(@"mail.channel.announcement.announce"), @"There is a new annoucement in ""{0}""", name);
+
+        /// <summary>
         /// "You&#39;ve received a new message from {0}"
         /// </summary>
         public static LocalisableString MailChannelChannelPm(LocalisableString username) => new TranslatableString(getKey(@"mail.channel.channel.pm"), @"You've received a new message from {0}", username);

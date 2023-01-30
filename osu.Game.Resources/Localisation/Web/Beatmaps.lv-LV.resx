@@ -64,6 +64,9 @@
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>atļaut kudosu</value>
   </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Bītmapes Lapa</value>
+  </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>dzēst</value>
   </data>
@@ -77,16 +80,22 @@
     <value>rediģēt</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>Pēdējo reizi rediģēts {0} {1}.</value>
+    <value>Pēdējo reizi rediģēja {0} {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Viesa grūtības līmenis: {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Liegts saņemt kudosu.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Šis grūtības līmenis ir izdzēsts, tādēļ to vairs nav iespējas apspriest.</value>
+    <value>Šis grūtības līmenis ir izdzēsts, tāpēc to vairs nevar apspriest.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>Šīs bītmapes diskusijas tika atspējotas.</value>
+    <value>Šīs bītmapes diskusijas ir atspējotas.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Nevar publicēt diskusiju, kamēr apklusināts.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Atlasiet Komentāra Tipu</value>
@@ -98,7 +107,7 @@
     <value>Raksiet atbildi šeit</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Lūdzu ierakstieties lai pievienotu ziņojumu vai atbildētu</value>
+    <value>Lūdzu, pierakstieties, lai publicētu vai atbildētu</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Atrisināts</value>
@@ -113,40 +122,43 @@
     <value>Diskusijas</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
-    <value>Samazināt visu</value>
+    <value>Sakļaut visu</value>
   </data>
   <data name="discussions.collapse.all-expand" xml:space="preserve">
-    <value>Palielināt visu</value>
+    <value>Izvērst visu</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Nav diskusiju!</value>
+    <value>Pagaidām nav diskusiju!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
     <value>Neviena diskusija neatbilst atlasītajam filtram.</value>
   </data>
   <data name="discussions.lock.button.lock" xml:space="preserve">
-    <value>Aizslēgt diskusiju</value>
+    <value>Slēgt diskusiju</value>
   </data>
   <data name="discussions.lock.button.unlock" xml:space="preserve">
-    <value>Atvērt diskusiju</value>
+    <value>Atslēgt diskusiju</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
     <value>Iemesls slēgšanai</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>Vai tiešām vēlaties atvērt?</value>
+    <value>Vai tiešām vēlaties atslēgt?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Šis ziņojums tiks pārvietots uz vispārējo bītmapesset diskusiju. Lai pārveidotu šo bītmapi, izveidojat ziņojumu ar noteiktu laiku (piem. 00:12:345).</value>
+    <value>Šis raksts tiks nodots vispārējai bītmapes diskusijai. Lai modificētu šo grūtības pakāpi, sāciet ziņojumu ar laika zīmogu (piem., 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Lai pārveidotu vairākus laikus, ziņojat vairākas reizes (viens ziņojums = viens laiks).</value>
+    <value>Lai modificētu vairākus laikus, ziņojiet vairākas reizes (viens ziņojums uz vienu laika vienību).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>Rakstiet šeit, lai publicētu uz Vispārīgi ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
     <value>Rakstiet šeit, lai publicētu uz Vispārīgi (Visas grūtības)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Rakstiet šeit, lai publicētu atsauksmi</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
     <value>Rakstiet šeit, lai publicētu uz Laika skalu ({0})</value>
@@ -164,10 +176,16 @@
     <value>Atiestatīt Nomināciju</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
-    <value>Uzslavināt</value>
+    <value>Uzslavēt</value>
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problēma</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Ziņot par problēmu</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Atsauksme</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Ieteikums</value>
@@ -178,8 +196,11 @@
   <data name="discussions.mode.general" xml:space="preserve">
     <value>Vispārējā {0}</value>
   </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Atsauksmes</value>
+  </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>Laika līnija</value>
+    <value>Laika skala</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>Šis grūtības līmenis</value>
@@ -191,26 +212,49 @@
     <value>Piespraust</value>
   </data>
   <data name="discussions.new.timestamp" xml:space="preserve">
-    <value>Ieraksta laiks</value>
+    <value>Laika zīmogs</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>uzspiežiet ctrl-c rediģēšanas režimā un ielīmējiet savu ziņojumu, lai pievienotu ieraksta laiku!</value>
+    <value>ctrl-c rediģēšanas režīmā un ielīmējiet ziņu, lai pievienotu laika zīmogu!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Jauna Diskusija</value>
   </data>
   <data name="discussions.new.unpin" xml:space="preserve">
-    <value>Nospraust</value>
+    <value>Atspraust</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Jauna Atsauksme</value>
   </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
-    <value>Izdzēst
-</value>
+    <value>Izdzēst</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[DISKUSIJA DZĒSTA]</value>
   </data>
   <data name="discussions.review.embed.unlink" xml:space="preserve">
     <value>Atvienot</value>
   </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Nesaglabāts</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Rakstiem uz "Visas grūtības" nevar pievienot laika zīmogu.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Ja šis {0} sākas ar laika zīmogu, tas tiks parādīts zem Laika skalas.</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
-    <value>ievietot paragrāfu</value>
+    <value>ievietot rindkopu</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>ievietot uzslavu</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>ievietot problēmu</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>ievietot ieteikumu</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} izveidoja {1}</value>
@@ -222,7 +266,7 @@
     <value>Laika skala</value>
   </data>
   <data name="discussions.sort.updated_at" xml:space="preserve">
-    <value>Beidzamais atjauninājums</value>
+    <value>Pēdējais atjauninājums</value>
   </data>
   <data name="discussions.stats.deleted" xml:space="preserve">
     <value>Dzēsts</value>
@@ -231,28 +275,28 @@
     <value>Piezīmes</value>
   </data>
   <data name="discussions.stats.mine" xml:space="preserve">
-    <value>Iegūt</value>
+    <value>Mans</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
     <value>Procesā</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
-    <value>Uzslavinājumi</value>
+    <value>Uzslavas</value>
   </data>
   <data name="discussions.stats.resolved" xml:space="preserve">
     <value>Atrisināts</value>
   </data>
   <data name="discussions.stats.total" xml:space="preserve">
-    <value>Visi</value>
+    <value>Viss</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
     <value>Šī bītmape tika apstiprināta: {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Šī bītmape nav atjaunināta kopš {0} un visticamāk veidotājs to ir pametis...</value>
+    <value>Šī bītmape nav atjaunināta kopš {0}, tāpēc tā ir pamesta...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Šī bītmape tika pievienota Mīlēts kopš {0}!</value>
+    <value>Šī bītmape tika pievienota loved datumā {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Šī bītmape tika pieņemta: {0}!</value>
@@ -332,6 +376,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Mīļš</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Izvēlieties grūtību loved mapei</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Vai mīli šo bītmapi?</value>
   </data>
@@ -344,6 +391,15 @@
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nominēja: {0}</value>
   </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Nav pietiekami daudz atbalsta.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Noņemt no Loved</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Iemesls noņemšanai no Iemīļota:</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominācijas: current/{0}</value>
   </data>
@@ -355,6 +411,12 @@
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Ir vēljoprojām neatrisinātas problēmas, kuras ir nepieciešams adresēt.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Tiek paredzēts, ka šī mape tiks ierindota {0}, ja netiks konstatētas problēmas. Tā ir #{1} {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>ierindošanas rinda</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>drīz</value>
@@ -371,6 +433,9 @@
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Esiet pārliecināts? Ziņojot jaunu problēmu tiks atiestatīts nominācijas process.</value>
   </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Vai esat pārliecināts, ka jāziņo par problēmu ar šo bītmapi? Tas brīdinās Bītmapju Nominatorus.</value>
+  </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>rakstiet atslēgas vārdus...</value>
   </data>
@@ -381,7 +446,7 @@
     <value>Vairāk Meklēšanas Opcijas</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Filtrēšana pēc {0} pieprasa aktīvu osu!atbalsta piespraudni</value>
+    <value>Filtrēšanai pēc {0} ir nepieciešams aktīvs osu!supporter</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>nav rezultātu</value>
@@ -403,6 +468,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Režīms</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Nepiemērots Saturs</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Spēlēts</value>
@@ -428,17 +496,44 @@
   <data name="listing.search.sorting.updated" xml:space="preserve">
     <value>Atjaunināt</value>
   </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Ierindota</value>
+  </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>Reitingi</value>
   </data>
   <data name="listing.search.sorting.plays" xml:space="preserve">
     <value>Spēles</value>
   </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Atbilstība</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Nominācijas</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Filtrēšanai pēc {0} ir nepieciešams aktīvs {1}</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>osu!supporter tags</value>
+  </data>
   <data name="general.converts" xml:space="preserve">
-    <value>Iekļaut parveidotas bītmapes</value>
+    <value>Iekļaut pārveidotās bītmapes</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Attēlotie mākslinieki</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Abonētie kartētāji</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Ieteiktais grūtības līmenis</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Bītmapes uzmanības centrā</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Viss</value>
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Viss</value>
@@ -455,14 +550,26 @@
   <data name="status.graveyard" xml:space="preserve">
     <value>Kapsēta</value>
   </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Ir Līderu Saraksts</value>
+  </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Mīlēts</value>
+    <value>Loved</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>Manas kartes</value>
   </data>
+  <data name="status.pending" xml:space="preserve">
+    <value>Procesā</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalificēts</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Rangots</value>
   </data>
   <data name="genre.any" xml:space="preserve">
     <value>Viss</value>
@@ -506,6 +613,9 @@
   <data name="genre.jazz" xml:space="preserve">
     <value>Džezs</value>
   </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Jebkura</value>
+  </data>
   <data name="language.english" xml:space="preserve">
     <value>Angļu</value>
   </data>
@@ -545,6 +655,15 @@
   <data name="language.other" xml:space="preserve">
     <value>Citi</value>
   </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Nenorādīts</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Slēpt</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Rādīt</value>
+  </data>
   <data name="played.any" xml:space="preserve">
     <value>Viss</value>
   </data>
@@ -568,6 +687,12 @@
   </data>
   <data name="rank.sh" xml:space="preserve">
     <value>Sudraba S</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>Spēlējumu skaits: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Patīk: {0}</value>
   </data>
   <data name="variant.mania.4k" xml:space="preserve">
     <value>4K</value>

@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="authorizations.update.null_user" xml:space="preserve">
-    <value>Ir jāparakstās lai rediģētu.</value>
+    <value>Lai rediģētu, ir jāpierakstās.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
-    <value>Automātiski ģenerēts ziņojums nevar tikt izmainīts.</value>
+    <value>Sistēmas ģenerēto rakstu nevar rediģēt.</value>
   </data>
   <data name="authorizations.update.wrong_user" xml:space="preserve">
-    <value>Ir jābūt īpašniekam lai rediģēt ziņu.</value>
+    <value>Lai rediģētu, ir jābūt raksta īpašniekam.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
     <value>Nekas nav noticis... pagaidām.</value>
@@ -73,8 +73,11 @@
   <data name="index.deleted_beatmap" xml:space="preserve">
     <value>izdzēsts</value>
   </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Netika atrastas diskusijas šim meklēšanas kritērijam.</value>
+  </data>
   <data name="index.title" xml:space="preserve">
-    <value>Diskusija par bītkarti</value>
+    <value>Bītmapes Diskusijas</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Meklēt</value>
@@ -82,41 +85,44 @@
   <data name="index.form.deleted" xml:space="preserve">
     <value>Iekļaut dzēstās diskusijas</value>
   </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Bītmapes mods</value>
+  </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
     <value>Rādīt tikai neatrisinātās diskusijas</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Ziņojumu veidi</value>
+    <value>Ziņu tipi</value>
   </data>
   <data name="index.form.username" xml:space="preserve">
     <value>Lietotājvārds</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Bītmapes Stāvoklis</value>
+    <value>Bītmapes Statuss</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
-    <value>Visi</value>
+    <value>Viss</value>
   </data>
   <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
-    <value>Diskvalificēts</value>
+    <value>Diskvalificēta</value>
   </data>
   <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
-    <value>Nav Kvalificēts</value>
+    <value>Nekad Kvalificēta</value>
   </data>
   <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
-    <value>Kvalificēts</value>
+    <value>Kvalificēta</value>
   </data>
   <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
-    <value>Rankots</value>
+    <value>Ierindota</value>
   </data>
   <data name="index.form.user.label" xml:space="preserve">
     <value>Lietotājs</value>
   </data>
   <data name="index.form.user.overview" xml:space="preserve">
-    <value>Aktivitātes pārskats</value>
+    <value>Aktivitāšu pārskats</value>
   </data>
   <data name="item.created_at" xml:space="preserve">
-    <value>Ziņas datums</value>
+    <value>Raksta datums</value>
   </data>
   <data name="item.deleted_at" xml:space="preserve">
     <value>Dzēšanas datums</value>
@@ -128,10 +134,25 @@
     <value>Pastāvīgā saite</value>
   </data>
   <data name="nearby_posts.confirm" xml:space="preserve">
-    <value>Neviens no ziņojumiem neadresē manu problēmu</value>
+    <value>Neviens no šiem rakstiem neattiecas uz manu problēmu</value>
   </data>
   <data name="nearby_posts.notice" xml:space="preserve">
-    <value>Šeit ir ziņojums ap {0} ({1}). Lūzu pārbaudiet tos pirms ziņojat.</value>
+    <value>Ir raksti ap {0} ({1}). Lūdzu, pārbaudiet tos pirms publicēšanas.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} šajā atsauksmē</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Grūtības Īpašnieks</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Atiestatīt īpašnieku šai grūtībai?</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>Īpašnieks</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Grūtība</value>
   </data>
   <data name="reply.open.guest" xml:space="preserve">
     <value>Pierakstieties, lai atbildētu</value>
@@ -139,16 +160,55 @@
   <data name="reply.open.user" xml:space="preserve">
     <value>Atbildēt</value>
   </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} bloki izmantoti</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Skatīt Atsauksmes Rakstu</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Skatīt Diskusiju</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>katrā blokā drīkst būt ne vairāk kā {0} rakstzīmes</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>atsauksmē ir atsauces uz problēmām, kas neietilpst šajā atsauksmē</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>nederīgs bloka tips</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>nederīga atsauksme</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>nederīgs diskusijas tips</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>atsauksmē jābūt vismaz {0} problēma|atsauksmē jābūt vismaz {0} problēmas</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>blokā trūkst teksta</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>atsauksmēs var būt tikai {0} rindkopa/problēma|atsauksmēs var būt tikai līdz {0} rindkopām/problēmām</value>
+  </data>
   <data name="system.resolved.true" xml:space="preserve">
-    <value>Atzīmēts, kā atrisināts no {0}</value>
+    <value>{0} ir atzīmējis kā atrisinātu</value>
   </data>
   <data name="system.resolved.false" xml:space="preserve">
-    <value>Atkārtoti atvērts: {0}</value>
+    <value>{0} ir atkārtoti atvēris</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>visparīgī</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>vispārīgi (viss)</value>
   </data>
   <data name="user_filter.everyone" xml:space="preserve">
     <value>Visi</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
-    <value>Filtrēts pēc lietotāja izvēles</value>
+    <value>Filtrēt pēc lietotāja</value>
   </data>
 </root>

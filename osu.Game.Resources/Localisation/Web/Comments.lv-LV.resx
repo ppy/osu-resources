@@ -61,34 +61,82 @@
   <data name="deleted" xml:space="preserve">
     <value>dzēsts</value>
   </data>
+  <data name="deleted_by" xml:space="preserve">
+    <value>izdzēsa {0} lietotājs {1}</value>
+  </data>
+  <data name="deleted_by_system" xml:space="preserve">
+    <value>sistēma</value>
+  </data>
+  <data name="deleted_count" xml:space="preserve">
+    <value>{0} izdzēsts komentārs|{0} izdzēsti komentāri</value>
+  </data>
   <data name="edited" xml:space="preserve">
-    <value>rediģēja {0} {1}</value>
+    <value>rediģēja {0} lietotājs {1}</value>
+  </data>
+  <data name="pinned" xml:space="preserve">
+    <value>piesprausts</value>
   </data>
   <data name="empty" xml:space="preserve">
-    <value>Nav komentāru vēl.</value>
+    <value>Pagaidām nav komentāru.</value>
+  </data>
+  <data name="load_replies" xml:space="preserve">
+    <value>ielādēt atbildes</value>
+  </data>
+  <data name="replies_count" xml:space="preserve">
+    <value>{0} atbilde|{0} atbildes</value>
   </data>
   <data name="title" xml:space="preserve">
     <value>Komentāri</value>
   </data>
   <data name="commentable_name.beatmapset" xml:space="preserve">
-    <value>Bītmapes</value>
+    <value>Bītmape</value>
   </data>
   <data name="commentable_name.build" xml:space="preserve">
-    <value>Izmaiņu žurnāls</value>
+    <value>Izmaiņu Žurnāls</value>
   </data>
   <data name="commentable_name.news_post" xml:space="preserve">
-    <value>Ziņas</value>
+    <value>Jaunumi</value>
+  </data>
+  <data name="commentable_name._deleted" xml:space="preserve">
+    <value>Dzēsta Vienība</value>
   </data>
   <data name="editor.textarea_hint._" xml:space="preserve">
-    <value>Spied "Enter" priekš {0}. Lieto "Shift+enter" priekš jaunas līnijas.</value>
+    <value>Nospiediet enter, lai veiktu {0}. Jaunas rindas izveidei izmantojiet kombināciju shift+enter.</value>
   </data>
   <data name="editor.textarea_hint.edit" xml:space="preserve">
     <value>saglabāt</value>
   </data>
   <data name="editor.textarea_hint.new" xml:space="preserve">
-    <value>ieraksti</value>
+    <value>publicēt</value>
   </data>
   <data name="editor.textarea_hint.reply" xml:space="preserve">
     <value>atbildēt</value>
+  </data>
+  <data name="guest_button.new" xml:space="preserve">
+    <value>Pierakstieties, lai komentētu</value>
+  </data>
+  <data name="guest_button.reply" xml:space="preserve">
+    <value>Pierakstieties, lai atbildētu</value>
+  </data>
+  <data name="index.nav_comments" xml:space="preserve">
+    <value>komentāri</value>
+  </data>
+  <data name="index.nav_title" xml:space="preserve">
+    <value>saraksts</value>
+  </data>
+  <data name="index.no_comments" xml:space="preserve">
+    <value>nav atrasti komentāri...</value>
+  </data>
+  <data name="placeholder.edit" xml:space="preserve">
+    <value>Rediģēt komentāru šeit</value>
+  </data>
+  <data name="placeholder.new" xml:space="preserve">
+    <value>Rakstīt jaunu komentāru šeit</value>
+  </data>
+  <data name="placeholder.reply" xml:space="preserve">
+    <value>Rakstīt savu atbildi šeit</value>
+  </data>
+  <data name="show.nav_title" xml:space="preserve">
+    <value>komentāri</value>
   </data>
 </root>

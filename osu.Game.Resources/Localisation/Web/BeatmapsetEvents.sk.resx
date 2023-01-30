@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Schválené.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Majiteľ obtiažnosti {0} sa zmenil na {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Moderátor vymazal diskusiu {0}.</value>
   </data>
@@ -85,6 +88,9 @@
   <data name="event.disqualify_legacy" xml:space="preserve">
     <value>Diskvalifikovaný užívateľom {0}. Dôvod: {1}.</value>
   </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Žáner zmenený z {0} na {1}.</value>
+  </data>
   <data name="event.issue_reopen" xml:space="preserve">
     <value>Problém vyriešený {0} bol znova otvorený.</value>
   </data>
@@ -106,20 +112,44 @@
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Diskusii {0} boli získané kudosu prepočítané.</value>
   </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Jazyk zmenený z {0} na {1}.</value>
+  </data>
   <data name="event.love" xml:space="preserve">
     <value>Obľúbené používateľom {0}</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
     <value>Nominované užívateľom {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominované užívateľom {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Nový problém {0} ({1}) spôsobil zresetovanie nominácie.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Nominácia užívateľom {0} bola resetovaná užívateľom {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominácia bola resetovaná užívateľom {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Online offset zmenený z {0} na {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Táto beatmapa dosiahla požadované číslo nominácii a bola kvalifikovaná.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Ranked.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Odstránené z Loved užívateľom {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Odobrané explicitní označenie </value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Označené ako explicitné</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Udalosti beatmapsetu</value>
@@ -142,6 +172,9 @@
   <data name="type.approve" xml:space="preserve">
     <value>Schválenie</value>
   </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Zmena majiteľa obtiažnosti </value>
+  </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Odstránenie diskusie</value>
   </data>
@@ -156,6 +189,9 @@
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Diskvalifikácia</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Úprava žáneru</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
     <value>Znovuotvorenie diskusie</value>
@@ -178,6 +214,9 @@
   <data name="type.kudosu_recalculate" xml:space="preserve">
     <value>Prepočet kudosu</value>
   </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Úprava jazyka</value>
+  </data>
   <data name="type.love" xml:space="preserve">
     <value>Obľuba</value>
   </data>
@@ -187,10 +226,22 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Reštart nominácie</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominačný reset obdržaný</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Explicitné označenie </value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Úprava offsetu</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Kvalifikácia</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Hodnotenie</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Odstránenie z Loved</value>
   </data>
 </root>

@@ -244,6 +244,9 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>врати се 10 постова уназад</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Логови за теме</value>
+  </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Радња</value>
   </data>
@@ -259,17 +262,32 @@
   <data name="topic.logs.data.pin" xml:space="preserve">
     <value>закачена тема</value>
   </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>поставио {0}</value>
+  </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>Обрисан пост</value>
   </data>
   <data name="topic.logs.operations.delete_topic" xml:space="preserve">
     <value>Обрисана тема</value>
   </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Копирана тема</value>
+  </data>
   <data name="topic.logs.operations.lock" xml:space="preserve">
     <value>Закључана тема</value>
   </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Спојени постови у овој теми</value>
+  </data>
   <data name="topic.logs.operations.pin" xml:space="preserve">
     <value>Закачена тема</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Враћена тема</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Промењен тип теме</value>
   </data>
   <data name="topic.logs.operations.unlock" xml:space="preserve">
     <value>Откључана тема</value>
@@ -277,14 +295,29 @@
   <data name="topic.logs.operations.unpin" xml:space="preserve">
     <value>Откачена тема</value>
   </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Закључана сопствена тема</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Откључана сопствена тема</value>
+  </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Поништи</value>
   </data>
   <data name="topic.post_edit.post" xml:space="preserve">
     <value>Сачувај</value>
   </data>
+  <data name="topic_watches.index.title_compact" xml:space="preserve">
+    <value>листа претплате на теме форума</value>
+  </data>
   <data name="topic_watches.index.box.total" xml:space="preserve">
     <value>Претплаћене теме</value>
+  </data>
+  <data name="topic_watches.index.box.unread" xml:space="preserve">
+    <value>Теме са новим одговорима</value>
+  </data>
+  <data name="topic_watches.index.info.total" xml:space="preserve">
+    <value>Пратите укупно {0} тема.</value>
   </data>
   <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
     <value>Откажи претплату</value>
@@ -408,6 +441,9 @@
   </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
     <value>Гласај</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Промени глас</value>
   </data>
   <data name="topics.show.poll.button.edit" xml:space="preserve">
     <value>Измени анкету</value>

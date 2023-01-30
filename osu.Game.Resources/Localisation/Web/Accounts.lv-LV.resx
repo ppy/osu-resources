@@ -68,7 +68,7 @@
     <value>Profila attēls</value>
   </data>
   <data name="edit.avatar.rules" xml:space="preserve">
-    <value>Lūgums nodrošināt savu profila attēlu, vadoties pēc {0}.&lt;br/&gt;Tas nozīmē, ka attēlam jābūt &lt;strong&gt; atbilstošam jebkuram vecumam&lt;/strong&gt;, kas nedrīkstētu iekļaut kailumus, necenzētu valodu vai saturu ieteikšanu.</value>
+    <value>Lūdzu, pārliecinieties, ka jūsu profila attēls atbilst {0}.&lt;br/&gt;Tas nozīmē, ka attēlam jābūt &lt;strong&gt;piemērotam visiem vecumiem&lt;/strong&gt;, t.i., bez kailuma, rupjībām vai ierosinoša satura.</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
     <value>kopienas noteikumi</value>
@@ -80,7 +80,7 @@
     <value>e-pasta apstiprinājums</value>
   </data>
   <data name="edit.email.title" xml:space="preserve">
-    <value>E-pasta adrese</value>
+    <value>E-pasts</value>
   </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>pašreizējā parole</value>
@@ -116,7 +116,13 @@
     <value>atjaunināt</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>saņemt paziņojumus par jaunu problēmu kvalificētām bītmapēm ar šādiem režīmiem</value>
+    <value>saņemt paziņojumus par jaunām problēmām, kas saistītas ar kvalificētām šādu režīmu sitkartēm</value>
+  </data>
+  <data name="notifications.beatmapset_disqualify" xml:space="preserve">
+    <value>saņemt paziņojumus, kad tiek diskvalificētas šādu režīmu sitkartes</value>
+  </data>
+  <data name="notifications.comment_reply" xml:space="preserve">
+    <value>saņemt paziņojumus par atbildēm uz saviem komentāriem</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Paziņojumi</value>
@@ -124,26 +130,59 @@
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
     <value>automātiski ieslēgt paziņojumus foruma tematiem, kurus esiet izveidojis</value>
   </data>
+  <data name="notifications.options._" xml:space="preserve">
+    <value>piegādes opcijas</value>
+  </data>
+  <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
+    <value>viesa grūtības līmenis</value>
+  </data>
+  <data name="notifications.options.beatmapset:modding" xml:space="preserve">
+    <value>bītmapju modifikācijas</value>
+  </data>
+  <data name="notifications.options.channel_message" xml:space="preserve">
+    <value>privātās čata ziņas</value>
+  </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
-    <value>Jauns komentārs</value>
+    <value>jauni komentāri</value>
+  </data>
+  <data name="notifications.options.forum_topic_reply" xml:space="preserve">
+    <value>tēmas atbilde</value>
   </data>
   <data name="notifications.options.mail" xml:space="preserve">
-    <value>Pasts</value>
+    <value>pasts</value>
+  </data>
+  <data name="notifications.options.mapping" xml:space="preserve">
+    <value>bītmapes kartētājs</value>
   </data>
   <data name="notifications.options.push" xml:space="preserve">
-    <value>piespiest</value>
+    <value>push</value>
+  </data>
+  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
+    <value>lietotāja medaļa atklāta</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>autorizētie klienti</value>
   </data>
   <data name="oauth.own_clients" xml:space="preserve">
-    <value>piederošie klienti</value>
+    <value>savi klienti</value>
   </data>
   <data name="oauth.title" xml:space="preserve">
-    <value>OAutoriz</value>
+    <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_nsfw" xml:space="preserve">
+    <value>slēpt brīdinājumus par nepiemērotu saturu bītmapēs</value>
+  </data>
+  <data name="options.beatmapset_title_show_original" xml:space="preserve">
+    <value>rādīt bītmapes metadatus oriģinālvalodā</value>
   </data>
   <data name="options.title" xml:space="preserve">
-    <value>Izvēles</value>
+    <value>Opcijas</value>
+  </data>
+  <data name="options.beatmapset_download._" xml:space="preserve">
+    <value>noklusējuma bītmapes lejupielādes tips</value>
+  </data>
+  <data name="options.beatmapset_download.all" xml:space="preserve">
+    <value>ar video, ja pieejams</value>
   </data>
   <data name="options.beatmapset_download.direct" xml:space="preserve">
     <value>atvērt osu!direct</value>
@@ -200,12 +239,12 @@
     <value>atjaunināt</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
-    <value>Tagad jūs variet aizvērt šo cilni/logu</value>
+    <value>Tagad varat aizvērt šo cilni/logu</value>
   </data>
   <data name="verification_completed.title" xml:space="preserve">
-    <value>Pārbaude pabeigta</value>
+    <value>Verifikācija ir pabeigta</value>
   </data>
   <data name="verification_invalid.title" xml:space="preserve">
-    <value>Nederīga vai novecojusi pārbaudes saite</value>
+    <value>Nederīga vai novecojusi verifikācijas saite</value>
   </data>
 </root>

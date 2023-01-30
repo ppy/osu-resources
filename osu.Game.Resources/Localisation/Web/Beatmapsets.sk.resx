@@ -67,11 +67,26 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Klikni sem pre viac informácií.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Niektoré assety obsiahnuté v tejto mape boli odstránené potom, čo boli posúdené ako nevhodné na použitie v osu!.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Odstránená beatmapa </value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Spomal, hraj viac.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Významný skladateľ </value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Zoznam Beatmap</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmapy</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>žiadne beatmapy</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>stiahnúť</value>
@@ -82,17 +97,56 @@
   <data name="panel.download.no_video" xml:space="preserve">
     <value>stiahnuť bez videa</value>
   </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>otvoriť v osu!direct</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Hybridná beatmapa vyžaduje, aby ste vybrali aspoň jeden herný režim k nominovaní.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Nemáte oprávnenie nominovať za mód: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Musíte byť úplný nominátor, aby ste mohli kvalifikovať túto nomináciu.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Požiadavka na nomináciu je už splnená.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Ste si istí, že chcete nominovať tuto beatmapu?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Nominovať beatmapu</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>poznámka: môžete nominovať len raz, takže sa uistite, že nominujete za všetky herné režimy, ktoré chcete</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Nominovať pre aké módy?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Explicitné</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskusia</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>od {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Pridať do mojich obľúbených</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Pre pridanie beatmapy do obľúbených sa prihláste</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Pre sťahovanie beatmap sa najskôr musíš prihlásiť!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>beatmapu vytvoril {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>obtiažnosť hosťa od {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Odobrať z mojich obľúbených</value>
@@ -114,6 +168,21 @@
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Prihláste sa</value>
+  </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>schváleno {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>obľúbene {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>kvalifikované {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>hodnotené {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>odoslané {0}</value>
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
     <value>naposledy aktualizovaný {0}</value>
@@ -160,11 +229,23 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Vypočítavajú sa dáta...</value>
   </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominátori</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Explicitný obsah</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Online offset</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Body Neúspechu</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Zdroj</value>
+  </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Táto beatmapa obsahuje storyboard</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Úspešnosť</value>
@@ -172,11 +253,32 @@
   <data name="show.info.tags" xml:space="preserve">
     <value>Tagy</value>
   </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Táto beatmapa obsahuje video</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Táto beatmapa obsahuje explicitný, urážlivý alebo rušivý obsah. Chcete ju napriek tomu zobraziť?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Explicitný obsah</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Vypnúť varovanie</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Zoznam beatmap</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Zobraziť </value>
+  </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>dosiahol {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Rebríček Krajiny</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Nepodarilo sa načisť rebríčky</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Rebríček Priateľov</value>
@@ -205,6 +307,9 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Módy</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Pripnúť</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Hráč</value>
   </data>
@@ -216,6 +321,9 @@
   </data>
   <data name="show.scoreboard.headers.score_total" xml:space="preserve">
     <value>Celkové skóre</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Čas</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
     <value>Zatiaľ nikto z tvojej krajiny nedosiahol žiadne skóre na tejto mape!</value>
@@ -237,6 +345,12 @@
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Tvoje Najlepšie</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Kliknite {0} pre zobrazenie všetkych výhod, ktoré dostanete!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>tu</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Veľkosť Koliečok</value>
@@ -267,6 +381,9 @@
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>Počet sliderov</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Online offset: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Používateľské hodnotenie</value>
@@ -300,5 +417,8 @@
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Cintorín</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Zvýraznenie</value>
   </data>
 </root>

@@ -59,46 +59,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="header.small" xml:space="preserve">
-    <value>Sacentieties vairāk veidos, nekā tikai apļu kliskšķināšanā!</value>
+    <value>Sacensties ne tikai klikšķinot apļus, bet arī citos veidos.</value>
+  </data>
+  <data name="header.large" xml:space="preserve">
+    <value>Kopienas Konkursi</value>
+  </data>
+  <data name="index.nav_title" xml:space="preserve">
+    <value>saraksts</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
-    <value>Lūdzu pierakstieties lai balsotu.</value>
+    <value>Lūdzu, pierakstieties, lai balsotu.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
     <value>Balsošana par šo konkursu ir beigusies</value>
   </data>
+  <data name="voting.show_voted_only" xml:space="preserve">
+    <value>Rādīt balsotos</value>
+  </data>
+  <data name="voting.best_of.none_played" xml:space="preserve">
+    <value>Neizskatās, ka jūs spēlējāt kādu no bītmapēm, kas atbilst šim konkursam!</value>
+  </data>
+  <data name="voting.button.add" xml:space="preserve">
+    <value>Balsot</value>
+  </data>
+  <data name="voting.button.remove" xml:space="preserve">
+    <value>Noņemt balsojumu</value>
+  </data>
+  <data name="voting.button.used_up" xml:space="preserve">
+    <value>Jūs esat izlietojis visas savas balsis</value>
+  </data>
+  <data name="voting.progress._" xml:space="preserve">
+    <value>{0} / {1} balsis izmantotas</value>
+  </data>
+  <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
+    <value>Pirms balsošanas ir jāspēlē visas bītmapes norādītajos sarakstos</value>
+  </data>
   <data name="entry._" xml:space="preserve">
-    <value>ieraksts</value>
+    <value>pieteikums</value>
   </data>
   <data name="entry.login_required" xml:space="preserve">
-    <value>Lūdzu, pierakstieties, lai pieteiktos konkursam.</value>
+    <value>Lūdzu, pierakstieties, lai piedalītos konkursā.</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
-    <value>Jūs nevarat pieteikties konkursiem, kamēr esat ierobežots vai apklusināts.</value>
+    <value>Jūs nevarat piedalīties konkursos, kamēr esat ierobežots vai apklusināts.</value>
   </data>
   <data name="entry.preparation" xml:space="preserve">
-    <value>Mēs pašlaik gatavojam šo konkursu. Lūdzu, gaidiet pacietīgi!</value>
+    <value>Mēs pašlaik gatavojam šo konkursu. Lūdzu, pacietīgi gaidiet!</value>
   </data>
   <data name="entry.drop_here" xml:space="preserve">
-    <value>Ielieciet jūsu ierakstu šeit</value>
+    <value>Iemetiet savu pieteikumu šeit</value>
+  </data>
+  <data name="entry.download" xml:space="preserve">
+    <value>Lejupielādēt .osz</value>
   </data>
   <data name="entry.wrong_type.art" xml:space="preserve">
-    <value>Šajā konkursā tiek pieņem tikai jpg, un. png failus.</value>
+    <value>Šajā konkursā pieņem tikai .jpg un .png failus.</value>
   </data>
   <data name="entry.wrong_type.beatmap" xml:space="preserve">
-    <value>Šajā konkursā tiek pieņem tikai .osu failus.</value>
+    <value>Šajā konkursā tiek pieņemti tikai .osu faili.</value>
   </data>
   <data name="entry.wrong_type.music" xml:space="preserve">
-    <value>Šajā konkursā tiek pieņem tikai .mp3 failus.</value>
+    <value>Šajā konkursā tiek pieņemti tikai .mp3 faili.</value>
+  </data>
+  <data name="entry.wrong_dimensions" xml:space="preserve">
+    <value>Šajā konkursā pieteikumiem jābūt {0}{1}</value>
+  </data>
+  <data name="entry.too_big" xml:space="preserve">
+    <value>Dalība šajā konkursā var būt tikai līdz {0}.</value>
   </data>
   <data name="beatmaps.download" xml:space="preserve">
-    <value>Lejupielādēt, ierakstu</value>
+    <value>Lejupielādēt Pieteikumu</value>
   </data>
   <data name="vote.list" xml:space="preserve">
     <value>balsis</value>
   </data>
+  <data name="vote.count" xml:space="preserve">
+    <value>{0} balss|{0} balsis</value>
+  </data>
+  <data name="vote.points" xml:space="preserve">
+    <value>{0} punkts|{0} punkti</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Beidzās {0}</value>
+  </data>
+  <data name="dates.ended_no_date" xml:space="preserve">
+    <value>Beidzās</value>
   </data>
   <data name="dates.starts._" xml:space="preserve">
     <value>Sākas {0}</value>
@@ -106,10 +151,13 @@
   <data name="dates.starts.soon" xml:space="preserve">
     <value>drīz™</value>
   </data>
+  <data name="states.entry" xml:space="preserve">
+    <value>Pieteikums Atvērts</value>
+  </data>
   <data name="states.voting" xml:space="preserve">
-    <value>Balsošana sākās</value>
+    <value>Balsošana Sākās</value>
   </data>
   <data name="states.results" xml:space="preserve">
-    <value>Rezultāti ir izlikti</value>
+    <value>Rezultāti Pieejami</value>
   </data>
 </root>

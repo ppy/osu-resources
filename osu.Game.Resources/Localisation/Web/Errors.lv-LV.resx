@@ -58,19 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="missing_route" xml:space="preserve">
+    <value>Nederīgs url vai nepareiza pieprasījuma metode.</value>
+  </data>
+  <data name="no_restricted_access" xml:space="preserve">
+    <value>Jūs nevarat veikt šo darbību, kamēr jūsu konts ir ierobežojuma stāvoklī.</value>
+  </data>
+  <data name="supporter_only" xml:space="preserve">
+    <value>Lai izmantotu šo funkciju, jums jābūt osu!supporter.</value>
+  </data>
   <data name="unknown" xml:space="preserve">
     <value>Notika nezināma kļūda.</value>
   </data>
   <data name="codes.http-401" xml:space="preserve">
-    <value>Lūdzu pierakstieties, lai turpinātu.</value>
+    <value>Lūdzu, pierakstieties, lai turpinātu.</value>
   </data>
   <data name="codes.http-403" xml:space="preserve">
     <value>Piekļuve liegta.</value>
   </data>
+  <data name="codes.http-404" xml:space="preserve">
+    <value>Nav atrasts.</value>
+  </data>
   <data name="codes.http-429" xml:space="preserve">
-    <value>Pārāk daudz mēģinājumu. Vēlāk mēģiniet vēlreiz.</value>
+    <value>Pārāk daudz mēģinājumu. Mēģiniet vēlreiz vēlāk.</value>
   </data>
   <data name="account.profile-order.generic" xml:space="preserve">
     <value>Radās kļūda. Mēģiniet atsvaidzināt lapu.</value>
+  </data>
+  <data name="beatmaps.invalid_mode" xml:space="preserve">
+    <value>Norādīts nederīgs mods.</value>
+  </data>
+  <data name="beatmaps.standard_converts_only" xml:space="preserve">
+    <value>Pieprasītajam modam šajā bītmapes grūtībā nav pieejami nekādi rezultāti.</value>
+  </data>
+  <data name="checkout.generic" xml:space="preserve">
+    <value>Jūsu pirkuma pārbaudes sagatavošanas laikā notikusi kļūda.</value>
+  </data>
+  <data name="search.default" xml:space="preserve">
+    <value>Nezidevās iegūt rezultātus, mēģiniet vēlreiz vēlāk.</value>
+  </data>
+  <data name="search.invalid_cursor_exception" xml:space="preserve">
+    <value>Norādīts nepareizs kursora parametrs.</value>
+  </data>
+  <data name="search.operation_timeout_exception" xml:space="preserve">
+    <value>Meklēšana pašlaik ir aizņemtāka nekā parasti, mēģiniet vēlreiz vēlāk.</value>
   </data>
 </root>

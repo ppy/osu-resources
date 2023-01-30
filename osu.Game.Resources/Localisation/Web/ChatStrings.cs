@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TitleCompact => new TranslatableString(getKey(@"title_compact"), @"chat");
 
         /// <summary>
+        /// "unread messages"
+        /// </summary>
+        public static LocalisableString UnreadMessages => new TranslatableString(getKey(@"unread_messages"), @"unread messages");
+
+        /// <summary>
         /// "You cannot message this channel at this time."
         /// </summary>
         public static LocalisableString CannotSendChannel => new TranslatableString(getKey(@"cannot_send.channel"), @"You cannot message this channel at this time.");
@@ -78,6 +83,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "description"
         /// </summary>
         public static LocalisableString FormLabelsDescription => new TranslatableString(getKey(@"form.labels.description"), @"description");
+
+        /// <summary>
+        /// "message"
+        /// </summary>
+        public static LocalisableString FormLabelsMessage => new TranslatableString(getKey(@"form.labels.message"), @"message");
 
         /// <summary>
         /// "room name"

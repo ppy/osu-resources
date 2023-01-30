@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="page_description" xml:space="preserve">
-    <value>Iekļautie mākslinieki iekš osu!</value>
+    <value>osu! Attēlotie mākslinieki</value>
   </data>
   <data name="title" xml:space="preserve">
     <value>Attēlotie Mākslinieki</value>
@@ -71,13 +71,16 @@
     <value>Bītmapes</value>
   </data>
   <data name="beatmaps.download" xml:space="preserve">
-    <value>Lejupielādēt Bītkartes Veidni</value>
+    <value>Lejupielādēt Bītmapes Veidni</value>
   </data>
   <data name="beatmaps.download-na" xml:space="preserve">
-    <value>Bītkartes Veidne vēl nav pieejama</value>
+    <value>Bītmapes Veidne vēl nav pieejama</value>
   </data>
   <data name="index.description" xml:space="preserve">
-    <value>Attēlotie mākslineki ir mākslinieki, ar kuriem mēs strādājam kopā, lai sniegtu jums jaunu un oriģinālu mūziku iekš osu!. Šie mākslinieki un viņu izvēlēto albumu atlase tika veikta, pateicoties osu! komandai, kas darbojās lieliski un atbilstoši bītmapju izveidē. Daži no šiem attēlotajiem māksliniekiem ir arī izveidojuši jaunus, ekskluzīvus skaņdarbus tieši priekš osu!.&lt;br&gt;&lt;br&gt; Visi skaņdarbi šajā izvelnē tiek piedāvāti kā pirmatnēji .osz faili un ir oficiāli licensēti pielietošanai osu! un osu! saistītam saturam.</value>
+    <value>Attēlotie mākslinieki ir mākslinieki, ar kuriem mēs sadarbojamies, lai osu! piedāvātu jaunu un oriģinālu mūziku. Šos māksliniekus un viņu dziesmu izlasi ir atlasījusi osu! komanda, jo tās ir lieliskas un piemērotas bītmapju veidošanai. Daži no šiem māksliniekiem ir radījuši arī ekskluzīvas jaunas dziesmas izmantošanai osu!.&lt;br&gt;&lt;br&gt;Visas šajā sadaļā iekļautās dziesmas ir nodrošinātas kā pirmatnēji .osz faili un ir oficiāli licencētas izmantošanai osu! un ar osu! saistītā saturā.</value>
+  </data>
+  <data name="links.beatmaps" xml:space="preserve">
+    <value>osu! Bītmapes</value>
   </data>
   <data name="links.osu" xml:space="preserve">
     <value>osu! profils</value>
@@ -89,10 +92,16 @@
     <value>Dziesmas</value>
   </data>
   <data name="songs.count" xml:space="preserve">
-    <value>: dziesmu skaits |: skaitīt dziesmas</value>
+    <value>{0} dziesma|{0} dziesmas</value>
+  </data>
+  <data name="songs.original" xml:space="preserve">
+    <value>osu! oriģināli</value>
+  </data>
+  <data name="songs.original_badge" xml:space="preserve">
+    <value>ORIGINAL</value>
   </data>
   <data name="tracklist.title" xml:space="preserve">
-    <value>Nosaukums</value>
+    <value>nosaukums</value>
   </data>
   <data name="tracklist.length" xml:space="preserve">
     <value>garums</value>
@@ -102,5 +111,38 @@
   </data>
   <data name="tracklist.genre" xml:space="preserve">
     <value>žanrs</value>
+  </data>
+  <data name="tracks.index._" xml:space="preserve">
+    <value>dziesmu meklēšana</value>
+  </data>
+  <data name="tracks.index.form.advanced" xml:space="preserve">
+    <value>Paplašināta Meklēšana</value>
+  </data>
+  <data name="tracks.index.form.album" xml:space="preserve">
+    <value>Albums</value>
+  </data>
+  <data name="tracks.index.form.artist" xml:space="preserve">
+    <value>Mākslinieks</value>
+  </data>
+  <data name="tracks.index.form.bpm_gte" xml:space="preserve">
+    <value>BPM Minimums</value>
+  </data>
+  <data name="tracks.index.form.bpm_lte" xml:space="preserve">
+    <value>BPM Maksimums</value>
+  </data>
+  <data name="tracks.index.form.empty" xml:space="preserve">
+    <value>Netika atrasta neviena dziesma, kas atbilstu meklēšanas kritērijiem.</value>
+  </data>
+  <data name="tracks.index.form.genre" xml:space="preserve">
+    <value>Žanrs</value>
+  </data>
+  <data name="tracks.index.form.genre_all" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="tracks.index.form.length_gte" xml:space="preserve">
+    <value>Minimālais Garums</value>
+  </data>
+  <data name="tracks.index.form.length_lte" xml:space="preserve">
+    <value>Maksimālais Garums</value>
   </data>
 </root>

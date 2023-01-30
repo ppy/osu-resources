@@ -58,14 +58,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>ielādē lietotājus...</value>
+  </data>
+  <data name="talking_in" xml:space="preserve">
+    <value>runā {0}</value>
+  </data>
   <data name="talking_with" xml:space="preserve">
     <value>runā ar {0}</value>
   </data>
   <data name="title_compact" xml:space="preserve">
     <value>čats</value>
   </data>
+  <data name="cannot_send.channel" xml:space="preserve">
+    <value>Šobrīd šajā kanālā nav iespējams nosūtīt ziņojumus.</value>
+  </data>
+  <data name="cannot_send.user" xml:space="preserve">
+    <value>Šobrīd jūs nevarat nosūtīt ziņu šim lietotājam.</value>
+  </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Vai vēlaties paslēpt šo kanālu? Jūs joprojām saņemsiet ziņas no šī kanāla.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>izveidot paziņojumu</value>
+  </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Paziņojumi</value>
+  </data>
+  <data name="channels.list.title.group" xml:space="preserve">
+    <value>Grupas</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Privātās ziņas</value>
+  </data>
+  <data name="channels.list.title.public" xml:space="preserve">
+    <value>Kanāli</value>
+  </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Izveidot Jaunu Paziņojumu</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>apraksts</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>istabas nosaukums</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>pievienojamie spēlētāji</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Šeit nekā nav, varbūt jūs atstājāt kanālu vai tas neeksistē...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>kanāls nav atrasts</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Izveidot</value>
+  </data>
   <data name="input.disabled" xml:space="preserve">
-    <value>neizdevās nosūtīt ziņu...</value>
+    <value>nevar nosūtīt ziņu...</value>
   </data>
   <data name="input.disconnected" xml:space="preserve">
     <value>Atvienots</value>
@@ -76,7 +127,13 @@
   <data name="input.send" xml:space="preserve">
     <value>Sūtīt</value>
   </data>
+  <data name="no-conversations.howto" xml:space="preserve">
+    <value>Sākt sarunas no lietotāja profila vai lietotāja kartes uznirstošā loga.</value>
+  </data>
+  <data name="no-conversations.lazer" xml:space="preserve">
+    <value>Publiskie kanāli, kuriem pievienojaties, izmantojot &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt;, būs redzami arī šeit.</value>
+  </data>
   <data name="no-conversations.title" xml:space="preserve">
-    <value>sarunas pagaidām nav</value>
+    <value>pagaidām nav sarunu</value>
   </data>
 </root>
