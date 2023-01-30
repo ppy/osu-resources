@@ -59,18 +59,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="error.chat.empty" xml:space="preserve">
-    <value>Nevar nosūtīt tukšu ziņojumu.</value>
+    <value>Nevar nosūtīt tukšu ziņu.</value>
   </data>
   <data name="error.chat.limit_exceeded" xml:space="preserve">
-    <value>Jūs sūtāt ziņojumus pārāk ātri, lūdzu, nedaudz pagaidiet, pirms mēģināt vēlreiz.</value>
+    <value>Jūs pārāk ātri sūtāt ziņas, lūdzu, nedaudz uzgaidiet, pirms mēģināt vēlreiz.</value>
   </data>
   <data name="error.chat.too_long" xml:space="preserve">
-    <value>Ziņojums, kuru jūs mēģināt nosūtīt, ir pārāk garš.</value>
+    <value>Ziņa, ko mēģināt nosūtīt, ir pārāk gara.</value>
+  </data>
+  <data name="scopes.bot" xml:space="preserve">
+    <value>Darboties kā čata bots.</value>
   </data>
   <data name="scopes.identify" xml:space="preserve">
     <value>Identificēt sevi un lasīt savu publisko profilu.</value>
   </data>
+  <data name="scopes.chat.write" xml:space="preserve">
+    <value>Sūtīt ziņas jūsu vārdā.</value>
+  </data>
+  <data name="scopes.forum.write" xml:space="preserve">
+    <value>Jūsu vārdā izveidot un rediģēt foruma tēmas un ziņojumus.</value>
+  </data>
   <data name="scopes.friends.read" xml:space="preserve">
-    <value>Apskaties, kam tu seko.</value>
+    <value>Skatīt, kam jūs sekojat.</value>
+  </data>
+  <data name="scopes.public" xml:space="preserve">
+    <value>Lasīt publiskos datus jūsu vārdā.</value>
   </data>
 </root>

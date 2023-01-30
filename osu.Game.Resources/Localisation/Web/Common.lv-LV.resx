@@ -61,6 +61,9 @@
   <data name="confirmation" xml:space="preserve">
     <value>Vai esat pārliecināts?</value>
   </data>
+  <data name="confirmation_unsaved" xml:space="preserve">
+    <value>Nesaglabātās izmaiņas tiks zaudētas. Vai esat pārliecināts?</value>
+  </data>
   <data name="saved" xml:space="preserve">
     <value>Saglabāts</value>
   </data>
@@ -73,20 +76,53 @@
   <data name="array_and.last_word_connector" xml:space="preserve">
     <value>, un </value>
   </data>
+  <data name="badges.new" xml:space="preserve">
+    <value>JAUNS</value>
+  </data>
+  <data name="buttons.admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="buttons.authorise" xml:space="preserve">
+    <value>Autorizēt</value>
+  </data>
+  <data name="buttons.authorising" xml:space="preserve">
+    <value>Autorizē...</value>
+  </data>
+  <data name="buttons.back_to_previous" xml:space="preserve">
+    <value>Atgriezties iepriekšējā pozīcijā</value>
+  </data>
+  <data name="buttons.back_to_top" xml:space="preserve">
+    <value>Atpakaļ uz augšu</value>
+  </data>
   <data name="buttons.cancel" xml:space="preserve">
     <value>Atcelt</value>
   </data>
   <data name="buttons.change" xml:space="preserve">
     <value>mainīt</value>
   </data>
+  <data name="buttons.clear" xml:space="preserve">
+    <value>Notīrīt</value>
+  </data>
   <data name="buttons.click_to_copy" xml:space="preserve">
-    <value>noklikšķiniet lai kopētu starpliktuvē</value>
+    <value>noklikšķiniet, lai kopētu starpliktuvē</value>
   </data>
   <data name="buttons.click_to_copy_copied" xml:space="preserve">
-    <value>saite iekopēta starpliktuvē!</value>
+    <value>kopēts starpliktuvē!</value>
+  </data>
+  <data name="buttons.close" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="buttons.collapse" xml:space="preserve">
+    <value>sakļaut</value>
   </data>
   <data name="buttons.delete" xml:space="preserve">
     <value>Dzēst</value>
+  </data>
+  <data name="buttons.edit" xml:space="preserve">
+    <value>Rediģēt</value>
+  </data>
+  <data name="buttons.expand" xml:space="preserve">
+    <value>izvērst</value>
   </data>
   <data name="buttons.hide" xml:space="preserve">
     <value>paslēpt</value>
@@ -94,20 +130,32 @@
   <data name="buttons.permalink" xml:space="preserve">
     <value>pastāvīgā saite</value>
   </data>
+  <data name="buttons.pin" xml:space="preserve">
+    <value>piespraust</value>
+  </data>
   <data name="buttons.post" xml:space="preserve">
-    <value>Ieraksti</value>
+    <value>Publicēt</value>
+  </data>
+  <data name="buttons.read_more" xml:space="preserve">
+    <value>lasīt vairāk</value>
   </data>
   <data name="buttons.reply" xml:space="preserve">
-    <value>Pievienot atbildi</value>
+    <value>Atbildēt</value>
   </data>
   <data name="buttons.reply_reopen" xml:space="preserve">
-    <value>Atbildēt un atvērt</value>
+    <value>Atbildēt un Atvērt atkārtoti</value>
   </data>
   <data name="buttons.reply_resolve" xml:space="preserve">
     <value>Atbildēt un atrisināt</value>
   </data>
   <data name="buttons.reset" xml:space="preserve">
     <value>Atiestatīt</value>
+  </data>
+  <data name="buttons.restore" xml:space="preserve">
+    <value>Atjaunot</value>
+  </data>
+  <data name="buttons.retry" xml:space="preserve">
+    <value>Atkārtot</value>
   </data>
   <data name="buttons.save" xml:space="preserve">
     <value>Saglabāt</value>
@@ -127,8 +175,20 @@
   <data name="buttons.show_deleted" xml:space="preserve">
     <value>Rādīt dzēstos</value>
   </data>
+  <data name="buttons.show_less" xml:space="preserve">
+    <value>rādīt mazāk</value>
+  </data>
   <data name="buttons.show_more" xml:space="preserve">
     <value>rādīt vairāk</value>
+  </data>
+  <data name="buttons.show_more_options" xml:space="preserve">
+    <value>rādīt vairāk opcijas</value>
+  </data>
+  <data name="buttons.submit" xml:space="preserve">
+    <value>Iesniegt</value>
+  </data>
+  <data name="buttons.unpin" xml:space="preserve">
+    <value>atspraust</value>
   </data>
   <data name="buttons.update" xml:space="preserve">
     <value>Atjaunināt</value>
@@ -149,7 +209,7 @@
     <value>{0} diena|{0} dienas</value>
   </data>
   <data name="count.hour_short_unit" xml:space="preserve">
-    <value>h</value>
+    <value>st|st</value>
   </data>
   <data name="count.hours" xml:space="preserve">
     <value>{0} stunda|{0} stundas</value>
@@ -158,7 +218,7 @@
     <value>{0} vienība|{0} vienības</value>
   </data>
   <data name="count.minute_short_unit" xml:space="preserve">
-    <value>min</value>
+    <value>min|min</value>
   </data>
   <data name="count.minutes" xml:space="preserve">
     <value>{0} minūte|{0} minūtes</value>
@@ -166,14 +226,17 @@
   <data name="count.months" xml:space="preserve">
     <value>{0} mēnesis|{0} mēneši</value>
   </data>
+  <data name="count.notifications" xml:space="preserve">
+    <value>{0} paziņojums|{0} paziņojumi</value>
+  </data>
   <data name="count.plus_others" xml:space="preserve">
-    <value>+{0} citi!|+ {0} citi!</value>
+    <value>+ {0} cits!|+ {0} citi!</value>
   </data>
   <data name="count.post" xml:space="preserve">
-    <value>{0} posts|{0} posti</value>
+    <value>{0} raksts|{0} raksti</value>
   </data>
   <data name="count.second_short_unit" xml:space="preserve">
-    <value>s</value>
+    <value>sek|sek</value>
   </data>
   <data name="count.star_priority" xml:space="preserve">
     <value>{0} zvaigžņu prioritāte|{0} zvaigžņu prioritātes</value>
@@ -206,7 +269,7 @@
     <value>MMMM y</value>
   </data>
   <data name="datetime.year_month_short.moment" xml:space="preserve">
-    <value>MMM YYY</value>
+    <value>MMM YYYY</value>
   </data>
   <data name="device.keyboard" xml:space="preserve">
     <value>Tastatūra</value>
@@ -227,10 +290,10 @@
     <value>meklēt...</value>
   </data>
   <data name="pagination.previous" xml:space="preserve">
-    <value>iepriekšējais</value>
+    <value>iepr.</value>
   </data>
   <data name="pagination.next" xml:space="preserve">
-    <value>nākamais</value>
+    <value>nāk.</value>
   </data>
   <data name="score_count.count_100" xml:space="preserve">
     <value>100</value>
@@ -245,21 +308,60 @@
     <value>200</value>
   </data>
   <data name="score_count.count_miss" xml:space="preserve">
-    <value>Netrāpījumi</value>
+    <value>Miss</value>
+  </data>
+  <data name="scoreboard_time.d" xml:space="preserve">
+    <value>%d d</value>
+  </data>
+  <data name="scoreboard_time.dd" xml:space="preserve">
+    <value>%d d</value>
+  </data>
+  <data name="scoreboard_time.h" xml:space="preserve">
+    <value>%d st</value>
+  </data>
+  <data name="scoreboard_time.hh" xml:space="preserve">
+    <value>%d st</value>
+  </data>
+  <data name="scoreboard_time.m" xml:space="preserve">
+    <value>tagad</value>
+  </data>
+  <data name="scoreboard_time.mm" xml:space="preserve">
+    <value>tagad</value>
+  </data>
+  <data name="scoreboard_time.month" xml:space="preserve">
+    <value>%d min</value>
+  </data>
+  <data name="scoreboard_time.months" xml:space="preserve">
+    <value>%d min</value>
+  </data>
+  <data name="scoreboard_time.s" xml:space="preserve">
+    <value>tagad</value>
+  </data>
+  <data name="scoreboard_time.y" xml:space="preserve">
+    <value>%d g</value>
+  </data>
+  <data name="scoreboard_time.yy" xml:space="preserve">
+    <value>%d g</value>
   </data>
   <data name="time.days_ago" xml:space="preserve">
-    <value>pirms{0} dienas|pirms{0} dienām</value>
+    <value>pirms {0} dienas|pirms {0} dienām</value>
   </data>
   <data name="time.hours_ago" xml:space="preserve">
     <value>pirms{0} stundas|pirms{0} stundām</value>
   </data>
   <data name="time.now" xml:space="preserve">
-    <value>pašlaik</value>
+    <value>tagad</value>
   </data>
   <data name="time.remaining" xml:space="preserve">
     <value>Atlikušais Laiks</value>
   </data>
   <data name="title.notice" xml:space="preserve">
     <value>Paziņojums</value>
+  </data>
+  <data name="wrong_user._" xml:space="preserve">
+    <value>Jūs esat pierakstījies kā {0}. {1}.</value>
+  </data>
+  <data name="wrong_user.logout_link" xml:space="preserve">
+    <value>Noklikšķiniet šeit, lai pierakstītos kā cits lietotājs</value>
   </data>
 </root>

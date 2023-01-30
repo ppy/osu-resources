@@ -1225,9 +1225,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString StoreFromClient => new TranslatableString(getKey(@"store.from_client"), @"please register via the game client instead!");
 
         /// <summary>
-        /// "please register through web"
+        /// "please complete registration using the osu! website"
         /// </summary>
-        public static LocalisableString StoreFromWeb => new TranslatableString(getKey(@"store.from_web"), @"please register through web");
+        public static LocalisableString StoreFromWeb => new TranslatableString(getKey(@"store.from_web"), @"please complete registration using the osu! website");
 
         /// <summary>
         /// "User created"

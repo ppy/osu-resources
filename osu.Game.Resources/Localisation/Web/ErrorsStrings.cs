@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Errors";
 
         /// <summary>
+        /// "Failed to load data."
+        /// </summary>
+        public static LocalisableString LoadFailed => new TranslatableString(getKey(@"load_failed"), @"Failed to load data.");
+
+        /// <summary>
         /// "Invalid url or incorrect request method."
         /// </summary>
         public static LocalisableString MissingRoute => new TranslatableString(getKey(@"missing_route"), @"Invalid url or incorrect request method.");

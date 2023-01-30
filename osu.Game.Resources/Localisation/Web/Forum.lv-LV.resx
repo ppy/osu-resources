@@ -118,11 +118,17 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>publicēts {0}</value>
   </data>
+  <data name="post.posted_by" xml:space="preserve">
+    <value>publicēja {0}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Izdzēst rakstu</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Rediģēt rakstu</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Ziņot rakstu</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Atjaunot rakstu</value>
@@ -145,11 +151,23 @@
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} raksti kopumā</value>
   </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Vai tiešām dzēst tēmu?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Vai tiešām atjaunot tēmu?</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>izdzēstā tēma</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>skatīt beidzamo rakstu</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Jūs atbildējāt uz šo tēmu</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>iekš {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} no {1}</value>
@@ -172,8 +190,110 @@
   <data name="topic.reply_title_prefix" xml:space="preserve">
     <value>Re</value>
   </data>
+  <data name="topic.started_by" xml:space="preserve">
+    <value>autors: {0}</value>
+  </data>
+  <data name="topic.started_by_verbose" xml:space="preserve">
+    <value>iesāka {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Dzēst tēmu</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Atjaunot tēmu</value>
+  </data>
   <data name="topic.create.close" xml:space="preserve">
     <value>Aizslēgts</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Rakstīt</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Publicēt</value>
+  </data>
+  <data name="topic.create.necropost.default" xml:space="preserve">
+    <value>Šī tēma jau kādu laiku ir neaktīva. Publicējiet šeit tikai tad, ja jums ir konkrēts iemesls to darīt.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic._" xml:space="preserve">
+    <value>Šī tēma jau kādu laiku ir neaktīva. Ja jums nav konkrēta iemesla šeit rakstīt, lūdzu, tā vietā: {0}</value>
+  </data>
+  <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
+    <value>izveidot jaunu tēmu</value>
+  </data>
+  <data name="topic.create.placeholder.body" xml:space="preserve">
+    <value>Ievadiet raksta saturu šeit</value>
+  </data>
+  <data name="topic.create.placeholder.title" xml:space="preserve">
+    <value>Klikšķiniet šeit, lai iestatītu nosaukumu</value>
+  </data>
+  <data name="topic.jump.enter" xml:space="preserve">
+    <value>noklikšķiniet, lai ievadītu konkrētu raksta numuru</value>
+  </data>
+  <data name="topic.jump.first" xml:space="preserve">
+    <value>doties uz pirmo rakstu</value>
+  </data>
+  <data name="topic.jump.last" xml:space="preserve">
+    <value>doties uz pēdējo rakstu</value>
+  </data>
+  <data name="topic.jump.next" xml:space="preserve">
+    <value>izlaist nākamos 10 rakstus</value>
+  </data>
+  <data name="topic.jump.previous" xml:space="preserve">
+    <value>atgriezties 10 rakstus atpakaļ</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Tēmas žurnāli</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Pārlūkot tēmas žurnālus</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Darbība</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Datums</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Lietotājs</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>pievienots "{0}" tags</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>tēma ir piesprausta un atzīmēta kā paziņojums</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>uz {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>no {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>piesprausta tēma</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>publicēja {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>noņemts "{0}" tags</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>no {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>atsprausta tēma</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>žurnāli nav atrasti...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Izdzēsts raksts</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Izdzēsta tēma</value>
   </data>
   <data name="topics.edit_title.start" xml:space="preserve">
     <value>Rediģēt nosaukumu</value>

@@ -121,6 +121,30 @@
   <data name="card.send_message" xml:space="preserve">
     <value>Отправить сообщение</value>
   </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>повторите пароль</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>создать аккаунт</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>почта</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>повторите почту</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>никнейм</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>создавая аккаунт, вы соглашаетесь с {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>условиями использования</value>
+  </data>
   <data name="disabled.title" xml:space="preserve">
     <value>О нет! Похоже, что Ваш аккаунт был отключен.</value>
   </data>
@@ -269,7 +293,7 @@
     <value>Ваш аккаунт ограничен!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Пока ваш аккаунт ограничен, вы не сможете взаимодействовать с другими игроками и ваши результаты будут видны только вам. Обычно это результат автоматизированного процесса и, как правило, ограничение снимается в течении суток. Если вы хотите обжаловать ваше ограничение, пожалуйста &lt;a href="mailto{0}@ppy.sh"&gt;свяжитесь с поддержкой&lt;/a&gt;.</value>
+    <value>Пока ваш аккаунт ограничен, вы не сможете взаимодействовать с другими игроками и ваши рекорды будут видны только вам. Обычно это результат автоматизированного процесса и, как правило, ограничение снимается в течении суток. Если вы хотите обжаловать ваше ограничение, пожалуйста &lt;a href="mailto{0}@ppy.sh"&gt;свяжитесь с поддержкой&lt;/a&gt;.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} лет</value>
@@ -311,7 +335,7 @@
     <value>Профиль {0}</value>
   </data>
   <data name="show.comments_count._" xml:space="preserve">
-    <value>Опубликовано {0}</value>
+    <value>{0}</value>
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} комментарий|{0} комментария|{0} комментариев</value>
@@ -401,7 +425,7 @@
     <value>На рассмотрении</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>Рейтинговые карты</value>
+    <value>Рейтинговые</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>Обсуждения</value>
@@ -548,7 +572,7 @@
     <value>Рекорды</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
-    <value>Лучшие рекорды</value>
+    <value>Лучшие</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Первые места</value>
@@ -566,7 +590,7 @@
     <value>Рекорд закреплён</value>
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
-    <value>Закреплённые рекорды</value>
+    <value>Закреплённые</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Отданные голоса (за 3 месяца)</value>
@@ -671,7 +695,7 @@
     <value>тег osu!supporter</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
-    <value>Написал {0}</value>
+    <value>Всего {0} на форуме,</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
     <value>{0} пост|{0} поста|{0} постов</value>
@@ -728,13 +752,13 @@
     <value>Всего очков</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>Заброшенные</value>
+    <value>Заброшенные карты</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Любимые карты</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
-    <value>На рассмотрении</value>
+    <value>Карты на рассмотрении</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
     <value>Рейтинговые карты</value>
@@ -753,6 +777,12 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Не в сети</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>Пожалуйста, зарегистрируйтесь через игровой клиент!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>Пожалуйста, зарегистрируйтесь через форму на сайте</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Пользователь создан</value>
