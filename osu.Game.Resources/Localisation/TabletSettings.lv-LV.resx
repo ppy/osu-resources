@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tablet" xml:space="preserve">
+    <value>Grafiskā planšete</value>
+  </data>
+  <data name="no_tablet_detected" xml:space="preserve">
+    <value>Neatrasta neviena grafiskā planšete!</value>
+  </data>
+  <data name="no_tablet_detected_description" xml:space="preserve">
+    <value>Ja jūsu grafiskā planšete netiek atpazīta, izlasiet [šo FAQ]({0}), lai uzzinātu problēmu novēršanas soļus.</value>
+  </data>
+  <data name="reset_to_full_area" xml:space="preserve">
+    <value>Atiestatīt uz pilnu laukumu</value>
+  </data>
+  <data name="conform_to_current_game_aspect_ratio" xml:space="preserve">
+    <value>Atbilst pašreizējai spēles malu attiecībai</value>
+  </data>
+  <data name="x_offset" xml:space="preserve">
+    <value>X Nobīde</value>
+  </data>
+  <data name="y_offset" xml:space="preserve">
+    <value>Y Nobīde</value>
+  </data>
+  <data name="rotation" xml:space="preserve">
+    <value>Rotācija</value>
+  </data>
+  <data name="aspect_ratio" xml:space="preserve">
+    <value>Malu Attiecība</value>
+  </data>
+  <data name="lock_aspect_ratio" xml:space="preserve">
+    <value>Bloķēt malu attiecību</value>
+  </data>
+</root>

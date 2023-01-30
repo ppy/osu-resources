@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="maintenance_section_header" xml:space="preserve">
+    <value>Uzturēšana</value>
+  </data>
+  <data name="select_directory" xml:space="preserve">
+    <value>Atlasiet direktoriju</value>
+  </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>Notiek migrācija</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>Tas var aizņemt dažas minūtes atkarībā no jūsu diska(-u) ātruma.</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>Lūdzu, izvairieties no mijiedarbības ar spēli!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>Migrācijas laikā dažus failus nevarēja iztīrīt. Noklikšķinot uz šī paziņojuma, tiks atvērta mape, lai jūs varētu manuāli veikt tīrīšanu.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>Lūdzu, atlasiet jaunu atrašanās vietu</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>Izvēlētajā direktorijā, šķiet, jau ir osu! instalēts. Vai izmantot tos datus?</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>Lai pabeigtu šo darbību, osu! tiks aizvērts. Atveriet to vēlreiz, lai izmantotu jauno datu atrašanās vietu.</value>
+  </data>
+  <data name="delete_all_beatmaps" xml:space="preserve">
+    <value>Izdzēst VISAS bītmapes</value>
+  </data>
+  <data name="delete_all_beatmap_videos" xml:space="preserve">
+    <value>Izdzēst VISUS bītmapju video</value>
+  </data>
+  <data name="delete_all_scores" xml:space="preserve">
+    <value>Izdzēst VISUS rezultātus</value>
+  </data>
+  <data name="delete_all_skins" xml:space="preserve">
+    <value>Izdzēst VISUS motīvus</value>
+  </data>
+  <data name="delete_all_collections" xml:space="preserve">
+    <value>Izdzēst VISAS kolekcijas</value>
+  </data>
+  <data name="restore_all_hidden_difficulties" xml:space="preserve">
+    <value>Atjaunot visus slēptos grūtības līmeņus</value>
+  </data>
+  <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
+    <value>Atjaunot visas nesen izdzēstās bītmapes</value>
+  </data>
+  <data name="delete_all_mod_presets" xml:space="preserve">
+    <value>Izdzēst VISUS modu priekšiestatījumus</value>
+  </data>
+  <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
+    <value>Atjaunot visus nesen izdzēstos modu priekšiestatījumus</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>Izdzēstas visas kolekcijas!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>Izdzēsti visi modu priekšiestatījumi!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>Atjaunoti visi izdzēstie modu priekšiestatījumi!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>Lūdzu, atlasiet savu osu!stable instalācijas atrašanās vietu</value>
+  </data>
+</root>
