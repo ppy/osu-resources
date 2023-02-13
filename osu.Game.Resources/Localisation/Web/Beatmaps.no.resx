@@ -181,6 +181,9 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problem</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Rapporter Problem</value>
+  </data>
   <data name="discussions.message_type.review" xml:space="preserve">
     <value>Anmeldelse</value>
   </data>
@@ -373,6 +376,9 @@
   <data name="nominations.love" xml:space="preserve">
     <value>Elsker</value>
   </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Velg vanskelighetsgrad for loved</value>
+  </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Elsk dette beatmappet?</value>
   </data>
@@ -388,6 +394,12 @@
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>Det er ikke nok hype.</value>
   </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Fjern fra Loved</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Grunn for å fjerne fra Loved:</value>
+  </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominasjoner {0}/{1}</value>
   </data>
@@ -399,6 +411,12 @@
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Det er fortsatt uløste problemer som må løses først.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Dette kartet er estimert til å bli rangert som {0} hvis ingen problemer er funnet. Det er #{1} i {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>rangerings kø </value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>snart</value>
@@ -414,6 +432,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Er du sikker? Hvis du legger inn et nytt problem, vil nominasjonsprosessen bli tilbakestilt.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Er du sikker på at du vil rapportere problem på dette beatmapet? Dette vil varsle Beatmap Nominatorene.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>skriv inn nøkkelord...</value>
@@ -499,8 +520,17 @@
   <data name="general.converts" xml:space="preserve">
     <value>Inkluder konverterte beatmaps</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Utvalgte artister</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Abonnerte mappers</value>
+  </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Anbefalt vanskelighetsgrad</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Utvalgte beatmaps</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Alle</value>
