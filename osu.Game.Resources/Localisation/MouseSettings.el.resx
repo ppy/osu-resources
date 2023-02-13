@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mouse" xml:space="preserve">
+    <value>Ποντίκι</value>
+  </data>
+  <data name="not_applicable_full_screen" xml:space="preserve">
+    <value>Δεν εφαρμόζεται στη λειτουργία πλήρης οθόνης</value>
+  </data>
+  <data name="high_precision_mouse" xml:space="preserve">
+    <value>Ποντίκι υψηλής ακριβείας</value>
+  </data>
+  <data name="high_precision_mouse_tooltip" xml:space="preserve">
+    <value>Προσπαθεί να παρακάμψει την επιτάχυνση του ποντικιού σε οποιοδήποτε λειτουργικό σύστημα. Στα Windows, αυτό είναι το αντίστοιχο σε αυτό που ήταν γνωστό ως "Raw Input".</value>
+  </data>
+  <data name="confine_mouse_mode" xml:space="preserve">
+    <value>Περιόρισε τον κέρσορα του ποντικιού στο παράθυρο</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust" xml:space="preserve">
+    <value>Απενεργοποίηση ρύθμισης έντασης με τη ροδέλα του ποντικιού κατά τη διάρκεια του παιχνιδιού</value>
+  </data>
+  <data name="disable_mouse_wheel_volume_adjust_tooltip" xml:space="preserve">
+    <value>Η ένταση μπορεί ακόμα να ρυθμιστεί με τη ροδέλα του ποντικιού κρατώντας πατημένο το "Alt"</value>
+  </data>
+  <data name="disable_mouse_buttons" xml:space="preserve">
+    <value>Απενεργοποίηση πλήκτρων ποντικιού κατά τη διάρκεια του παιχνιδιού</value>
+  </data>
+  <data name="enable_high_precision_for_sensitivity_adjust" xml:space="preserve">
+    <value>Ενεργοποίηση ποντικιού υψηλής ακριβείας για τη ρύθμιση της ευαισθησίας</value>
+  </data>
+  <data name="cursor_sensitivity" xml:space="preserve">
+    <value>Ευαισθησία κέρσορα</value>
+  </data>
+  <data name="high_precision_platform_warning" xml:space="preserve">
+    <value>Αυτή η ρύθμιση έχει γνωστά προβλήματα στην πλατφόρμα σας. Εάν αντιμετωπίζετε προβλήματα, προτείνεται να ρυθμίσετε την ευαισθησία εξωτερικά και να τη διατηρήσετε απενεργοποιημένη προς το παρόν.</value>
+  </data>
+  <data name="always_confine" xml:space="preserve">
+    <value>Πάντα</value>
+  </data>
+  <data name="confine_during_gameplay" xml:space="preserve">
+    <value>Κατά τη διάρκεια του παιχνιδιού</value>
+  </data>
+  <data name="never_confine" xml:space="preserve">
+    <value>Ποτέ</value>
+  </data>
+</root>
