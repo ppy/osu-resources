@@ -65,9 +65,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString UserSupportAgain(LocalisableString user) => new TranslatableString(getKey(@"user_support_again"), @"<strong>{0}</strong> has once again chosen to support osu! - thanks for your generosity!", user);
 
         /// <summary>
-        /// "&lt;strong&gt;{0}&lt;/strong&gt; has become an osu!supporter - thanks for your generosity!"
+        /// "&lt;strong&gt;{0}&lt;/strong&gt; has supported osu! - thanks for your generosity!"
         /// </summary>
-        public static LocalisableString UserSupportFirst(LocalisableString user) => new TranslatableString(getKey(@"user_support_first"), @"<strong>{0}</strong> has become an osu!supporter - thanks for your generosity!", user);
+        public static LocalisableString UserSupportFirst(LocalisableString user) => new TranslatableString(getKey(@"user_support_first"), @"<strong>{0}</strong> has supported osu! - thanks for your generosity!", user);
 
         /// <summary>
         /// "&lt;strong&gt;{0}&lt;/strong&gt; has received the gift of osu!supporter!"

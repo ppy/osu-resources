@@ -55,6 +55,31 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeScore => new TranslatableString(getKey(@"type.score"), @"score");
 
         /// <summary>
+        /// "seasons"
+        /// </summary>
+        public static LocalisableString TypeSeasons => new TranslatableString(getKey(@"type.seasons"), @"seasons");
+
+        /// <summary>
+        /// "There are no rooms in this season yet."
+        /// </summary>
+        public static LocalisableString SeasonsEmpty => new TranslatableString(getKey(@"seasons.empty"), @"There are no rooms in this season yet.");
+
+        /// <summary>
+        /// "This season is still ongoing (there will be more playlists added)."
+        /// </summary>
+        public static LocalisableString SeasonsOngoing => new TranslatableString(getKey(@"seasons.ongoing"), @"This season is still ongoing (there will be more playlists added).");
+
+        /// <summary>
+        /// "Playlist count"
+        /// </summary>
+        public static LocalisableString SeasonsRoomCount => new TranslatableString(getKey(@"seasons.room_count"), @"Playlist count");
+
+        /// <summary>
+        /// "Display more informations on that season."
+        /// </summary>
+        public static LocalisableString SeasonsUrl => new TranslatableString(getKey(@"seasons.url"), @"Display more informations on that season.");
+
+        /// <summary>
         /// "End Date"
         /// </summary>
         public static LocalisableString SpotlightEndDate => new TranslatableString(getKey(@"spotlight.end_date"), @"End Date");

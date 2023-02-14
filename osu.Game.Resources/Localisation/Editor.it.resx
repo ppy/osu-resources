@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="waveform_opacity" xml:space="preserve">
+    <value>Opacità forma d'onda</value>
+  </data>
+  <data name="show_hit_markers" xml:space="preserve">
+    <value>Mostra gli indicatori di colpo</value>
+  </data>
+  <data name="timing" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="set_preview_point_to_current" xml:space="preserve">
+    <value>Imposta il punto di anteprima in questo momento</value>
+  </data>
+  <data name="export_package" xml:space="preserve">
+    <value>Esporta pacchetto</value>
+  </data>
+  <data name="create_new_difficulty" xml:space="preserve">
+    <value>Crea nuova difficoltà</value>
+  </data>
+  <data name="change_difficulty" xml:space="preserve">
+    <value>Cambia difficoltà</value>
+  </data>
+  <data name="delete_difficulty" xml:space="preserve">
+    <value>Elimina difficoltà</value>
+  </data>
+  <data name="setup_screen" xml:space="preserve">
+    <value>opzioni</value>
+  </data>
+  <data name="compose_screen" xml:space="preserve">
+    <value>componi</value>
+  </data>
+  <data name="design_screen" xml:space="preserve">
+    <value>aspetto</value>
+  </data>
+  <data name="timing_screen" xml:space="preserve">
+    <value>tempismo</value>
+  </data>
+  <data name="verify_screen" xml:space="preserve">
+    <value>verifica</value>
+  </data>
+  <data name="playback_speed" xml:space="preserve">
+    <value>Velocità di riproduzione</value>
+  </data>
+  <data name="test_beatmap" xml:space="preserve">
+    <value>Prova!</value>
+  </data>
+  <data name="timeline_waveform" xml:space="preserve">
+    <value>Forma d'onda</value>
+  </data>
+  <data name="timeline_ticks" xml:space="preserve">
+    <value>Tick</value>
+  </data>
+</root>

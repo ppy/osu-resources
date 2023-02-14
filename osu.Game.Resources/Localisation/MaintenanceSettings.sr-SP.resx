@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="maintenance_section_header" xml:space="preserve">
+    <value>Одржавање</value>
+  </data>
+  <data name="select_directory" xml:space="preserve">
+    <value>Изабери директоријум</value>
+  </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>Миграција је у току</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>Ово може потрајати неколико минута у зависности од брзине ваших дискова/диска.</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>Молимо избегавајте интеракцију са игром!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>Неке датотеке нису могле да се очисте током миграције. Кликом на ово обавештење отвориће се фасцикла тако да можете ручно да очистите ствари.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>Изаберите нову локацију</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>Изабрана локација садржи osu! инсталација. Да ли га треба заменити овим?</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>Да бисте довршили ову операцију, затвори osu!. Отворите га поново да бисте користили нову локацију података.</value>
+  </data>
+  <data name="delete_all_beatmaps" xml:space="preserve">
+    <value>Обришите СВЕ мапе</value>
+  </data>
+  <data name="delete_all_beatmap_videos" xml:space="preserve">
+    <value>Избриши СВЕ мапе који садрже видео записе</value>
+  </data>
+  <data name="delete_all_scores" xml:space="preserve">
+    <value>Бриши СВЕ резултате</value>
+  </data>
+  <data name="delete_all_skins" xml:space="preserve">
+    <value>Избриши СВЕ скинове</value>
+  </data>
+  <data name="delete_all_collections" xml:space="preserve">
+    <value>Бриши СВУ колекцију</value>
+  </data>
+  <data name="restore_all_hidden_difficulties" xml:space="preserve">
+    <value>Врати све скривене потешкоће</value>
+  </data>
+  <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
+    <value>Вратите све недавно избрисане мапе</value>
+  </data>
+  <data name="delete_all_mod_presets" xml:space="preserve">
+    <value>Избриши СВЕ подешене модове</value>
+  </data>
+  <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
+    <value>Врати све недавно избрисане подешавања модова</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>Избрисане све колекције!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>Сва подешавања модова су уклоњена!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>Сва избрисана подешавања мода су враћена!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>Изаберите локацију вашег osu!stable клијента</value>
+  </data>
+</root>

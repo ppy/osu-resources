@@ -400,9 +400,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString RestrictedBannerTitle => new TranslatableString(getKey(@"restricted_banner.title"), @"Your account has been restricted!");
 
         /// <summary>
-        /// "While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. If you wish to appeal your restriction, please &lt;a href=&quot;mailto{0}@ppy.sh&quot;&gt;contact support&lt;/a&gt;."
+        /// "While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. {0}"
         /// </summary>
-        public static LocalisableString RestrictedBannerMessage(LocalisableString accounts) => new TranslatableString(getKey(@"restricted_banner.message"), @"While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. If you wish to appeal your restriction, please <a href=""mailto{0}@ppy.sh"">contact support</a>.", accounts);
+        public static LocalisableString RestrictedBannerMessage(LocalisableString link) => new TranslatableString(getKey(@"restricted_banner.message"), @"While restricted, you will be unable to interact with other players and your scores will only be visible to you. This is usually the result of an automated process and will usually be lifted within 24 hours. {0}", link);
+
+        /// <summary>
+        /// "Check this page to learn more."
+        /// </summary>
+        public static LocalisableString RestrictedBannerMessageLink => new TranslatableString(getKey(@"restricted_banner.message_link"), @"Check this page to learn more.");
 
         /// <summary>
         /// "{0} years old"
