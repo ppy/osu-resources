@@ -3,10 +3,15 @@
 #include "sh_Utils.h"
 #include "sh_Masking.h"
 
-varying highp vec2 v_TexCoord;
+layout(location = 2) in highp vec2 v_TexCoord;
 
-uniform mediump float thickness;
-uniform highp float texelSize;
+layout(std140, set = 0, binding = 0) uniform m_BorderData
+{
+    mediump float thickness;
+    highp float texelSize;
+};
+
+layout(location = 0) out vec4 o_Colour;
 
 highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
 {
@@ -27,7 +32,7 @@ void main(void)
     // return if outside the triangle
     if (abs(pixelPos.x - 0.5) > 0.5 * pixelPos.y)
     {
-        gl_FragColor = vec4(0.0);
+        o_Colour = vec4(0.0);
         return;
     }
 
@@ -51,5 +56,5 @@ void main(void)
 
     lowp vec4 col = getRoundedColor(vec4(1.0), v_TexCoord);
 
-    gl_FragColor = vec4(col.rgb, col.a * alpha);
+    o_Colour = vec4(col.rgb, col.a * alpha);
 }

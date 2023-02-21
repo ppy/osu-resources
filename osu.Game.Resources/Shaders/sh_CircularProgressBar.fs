@@ -22,7 +22,9 @@ uniform vec4 m_GlowColour; // Normalized
 
 uniform float m_Progress;
 
-varying vec2 v_Position;
+IN(0) vec2 v_Position;
+
+OUT(0) vec4 o_Colour;
 
 /**
 * Returns 1.0 if m_InnerRadius < dist < m_OuterRadius.
@@ -69,7 +71,7 @@ void main(void)
 	vec4 glowColour = isGlow(dist) * (activeGlowAmount + (1.0 - activeGlowAmount) * 0.2) * m_GlowColour;
 	vec4 ringColour = isRing(dist) * (activeRingAmount * m_RingForegroundColour + (1.0 - activeRingAmount) * m_RingBackgroundColour);
 
-	gl_FragColor = (ringColour + glowColour) * m_Alpha;
+	o_Colour = (ringColour + glowColour) * m_Alpha;
 
 	//Todo: Discard fragments? idk...
 }
