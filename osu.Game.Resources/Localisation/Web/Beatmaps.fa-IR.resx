@@ -58,8 +58,125 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>شکست در بروز کردن رای</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>مجاز کردن kudosu</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>صفحه بیت مپ</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>حذف شده توسط {0} در {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>غیرمجاز کردن kudosu</value>
+  </data>
+  <data name="discussions.edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>آخرین بار ویرایش شده توسط {0} در {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>درجه سختی میهمان توسط {0}</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>منع شده از دریافت kudosu.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>این درجه سختی پاک شده است و دیگر در مورد آن گفتگویی نمی شود.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>گفتگو در مورد این بیت مپ غیرفعال شده است.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>نمی توانید در حالتی که ساکت شده اید رای بدهید.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>انتخاب حالت نظر</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>برای پاسخ اینتر بزنید.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>پاسخ خود را اینجا تایپ کنید</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>برای پست کردن یا پاسخ دادن وارد شوید</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>حل شده</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>بازگردانی</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>نمایش پاک شده ها</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>گفتگو ها</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>جمع کردن همه</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>باز کردن همه</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>هیچ گفتگویی نیست هنوز!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>هیچ گفتگویی با فیلتر انتخاب شده یافت نشد.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>قفل کردن گفتگو</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>باز کردن گفتگو</value>
+  </data>
+  <data name="discussions.lock.prompt.lock" xml:space="preserve">
+    <value>علت قفل کردن</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>آیا مطمئنید که میخواهید گفتگو را باز کنید؟</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>این پست به قسمت گفتگوی کلی بیت مپ ها میرود. برای ماد کردن این درجه ساختی، پیام را با مهرزمان آغاز کنید (مثلا 00:12:345).</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>رد صلاحیت</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>هایپ کردن!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>یادداشت</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>بازگردانی نامزدی</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>تمجید</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>مشکل</value>
+  </data>
   <data name="discussions.message_type.problem_warning" xml:space="preserve">
     <value>گزارش مشکل</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>بررسی</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>پیشنهاد</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>تاریخچه</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
     <value>آیا مطمئنید که میخواهید یک ایراد در بیت مپ را گزارش کنید؟ این برای نامزد کننده های بیت مپ یک هشدار ارسال می کند.</value>

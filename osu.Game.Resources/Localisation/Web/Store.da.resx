@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Vi bliver overvældet med ordrer lige nu! Du skal stadig være velkommen til at afgive din ordre, men forvent **yderligere 1-2 ugers forsinkelse** mens vi forsøger at indhente alle andre ordre.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Skjul alle osu!supporter tags i denne ordre fra min aktivitet</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Din indkøbskurv ser ud til at være forældet og er blevet genindlæst, prøv venligst igen.</value>
   </data>
@@ -175,6 +178,9 @@
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} for {1} ({2})</value>
   </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Besked: {0}</value>
+  </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Du kan ikke redigere dine ordre da de er blevet annulleret.</value>
   </data>
@@ -240,6 +246,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>giv som gave</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>tilføj en valgfri besked til din gave! (op til {0} tegn)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Du skal være {0} for at få et supporter tag!</value>

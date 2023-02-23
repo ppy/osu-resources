@@ -130,6 +130,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDiscussion => new TranslatableString(getKey(@"show.discussion"), @"Discussion");
 
         /// <summary>
+        /// "This beatmap has been deleted."
+        /// </summary>
+        public static LocalisableString ShowDeletedBannerTitle => new TranslatableString(getKey(@"show.deleted_banner.title"), @"This beatmap has been deleted.");
+
+        /// <summary>
+        /// "(only moderators can see this)"
+        /// </summary>
+        public static LocalisableString ShowDeletedBannerMessage => new TranslatableString(getKey(@"show.deleted_banner.message"), @"(only moderators can see this)");
+
+        /// <summary>
         /// "by {0}"
         /// </summary>
         public static LocalisableString ShowDetailsByArtist(LocalisableString artist) => new TranslatableString(getKey(@"show.details.by_artist"), @"by {0}", artist);
