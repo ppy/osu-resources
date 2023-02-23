@@ -64,8 +64,26 @@
   <data name="select_directory" xml:space="preserve">
     <value>انتخاب دایرکتوری</value>
   </data>
-  <data name="import_beatmaps_from_stable" xml:space="preserve">
-    <value>واردات بیت مپ از پایدار</value>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>در حال انجام مهاجرت</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>این عملیات ممکن است چند دقیقه ای - بسته به سرعت حافظه(های) شما - طول بکشد.</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>لطفا از تعامل با بازی خودداری کنید!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>تعدادی از فایل ها نتوانستند در عملیات مهاجرت پاکسازی شوند. کلیک کردن روی این اعلان پوشه را باز میکند تا بتوانید بصورت دستی پاکسازی کنید.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>لطفاً یک مکان جدید انتخاب کنید</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>پوشه مقصد ظاهرا یک نصب osu! را در بر دارد. آیا از آن داده ها استفاده شود؟</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>برای اتمام عملیات osu! بسته می شود. لطفا آن را دوباره باز کنید تا از پوشه داده های جدید استفاده شود.</value>
   </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
     <value>حذف همه بیت مپ ها</value>
@@ -73,20 +91,11 @@
   <data name="delete_all_beatmap_videos" xml:space="preserve">
     <value>حذف ویدیوی همه ی بیت مپ ها</value>
   </data>
-  <data name="import_scores_from_stable" xml:space="preserve">
-    <value>نمرات واردات از پایدار</value>
-  </data>
   <data name="delete_all_scores" xml:space="preserve">
     <value>تمام نمرات را حذف کنید</value>
   </data>
-  <data name="import_skins_from_stable" xml:space="preserve">
-    <value>وارد کردن پوسته از پایدار</value>
-  </data>
   <data name="delete_all_skins" xml:space="preserve">
     <value>حذف تمام پوسته ها</value>
-  </data>
-  <data name="import_collections_from_stable" xml:space="preserve">
-    <value>وارد کردن مجموعه ها از پایدار</value>
   </data>
   <data name="delete_all_collections" xml:space="preserve">
     <value>حذف همه مجموعه ها</value>
@@ -102,5 +111,17 @@
   </data>
   <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
     <value>بازگرداندن تمام پریست های ماد های پاک شده ی اخیر</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>همه ی مجموعه ها پاک شدند!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>همه ی پریست های ماد ها پاک شدند!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>ماد پریست های پاک شده بازگردانی شدند!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>لطفا مکان نصب osu!stable (نسخه کلاسیک) خود را انتخاب کنید</value>
   </data>
 </root>

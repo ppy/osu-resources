@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>ติดตั้งบีทแมป</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>เปลี่ยนการตั้งค่าทั่วไปของบีทแมปของคุณ</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>สี</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Hit วงกลม / Slider คอมโบ</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>ออกแบบ</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>เปิดใช้งานการนับถอยหลัง</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>หากเปิดใช้งาน ข้อความ "คุณพร้อมหรือยัง 3, 2, 1, GO!" การนับถอยหลังจะถูกแทรกที่จุดเริ่มต้นของบีทแมป โดยถือว่ามีเวลาเพียงพอในการทำเช่นนั้น</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>ความเร็วนับถอยหลัง</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>หากเสียงนับถอยหลังไม่ตรงเวลา ให้ใช้สิ่งนี้เพื่อทำให้การนับถอยหลังดังขึ้นหนึ่งจังหวะหรือมากกว่านั้นก่อนเวลา</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Offset การนับถอยหลัง</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>รองรับจอไวด์สกรีน</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>อนุญาตให้สตอรีบอร์ดใช้พื้นที่เต็มหน้าจอ แทนที่จะจำกัดอยู่ในพื้นที่ 4:3</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>คำเตือนโรคลมชัก</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>แนะนำหากสตอรีบอร์ดหรือวิดีโอมีฉากที่มีสีกะพริบถี่ๆ</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>จดหมายในช่วงพัก</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>เพิ่มแถบตัวอักษรแนวนอนเพื่อให้ดูคล้ายภาพยนตร์ในช่วงพัก</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>ตัวอย่างตรงกับอัตราการเล่น</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>เมื่อเปิดใช้งาน ตัวอย่างทั้งหมดจะเพิ่มความเร็วหรือช้าลงเมื่อเปิดใช้งานม็อดการเปลี่ยนแปลงอัตรา</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>ขนาดของวัตถุที่ Hit ทั้งหมด</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>อัตราพลังชีวิตติดตัวตลอดเวลาที่เล่นได้</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>ความเร็วในการนำเสนอวัตถุต่อผู้เล่น</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>ความรุนแรงของการชนหน้าต่างและความยากของวัตถุพิเศษ (เช่น สปินเนอร์)</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>เมตาดาต้า</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>ศิลปินโรมาไนซ์</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>ชื่อเรื่องแบบโรมัน</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>ผู้สร้าง</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>ชื่อระดับความยาก</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>ทรัพยากร</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>แทร็กเสียง</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>คลิกเพื่อเลือกแทร็ก</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>คลิกเพื่อเปลี่ยนแทร็ก</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>คลิกเพื่อเลือกภาพพื้นหลัง</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>คลิกเพื่อเปลี่ยนภาพพื้นหลัง</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>กฎตั้ง ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>คอมโบ</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>ชื่อศิลปิน</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>ชื่อเพลง</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>ระดับความยาก</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>ลากภาพมาที่นี่เพื่อตั้งค่าพื้นหลังบีทแมป!</value>
+  </data>
+</root>
