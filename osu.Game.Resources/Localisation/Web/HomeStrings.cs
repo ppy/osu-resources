@@ -135,6 +135,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchForumPostLabelForumChildren => new TranslatableString(getKey(@"search.forum_post.label.forum_children"), @"include subforums");
 
         /// <summary>
+        /// "include deleted posts"
+        /// </summary>
+        public static LocalisableString SearchForumPostLabelIncludeDeleted => new TranslatableString(getKey(@"search.forum_post.label.include_deleted"), @"include deleted posts");
+
+        /// <summary>
         /// "topic #"
         /// </summary>
         public static LocalisableString SearchForumPostLabelTopicId => new TranslatableString(getKey(@"search.forum_post.label.topic_id"), @"topic #");
@@ -263,6 +268,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "or"
         /// </summary>
         public static LocalisableString DownloadOr => new TranslatableString(getKey(@"download.or"), @"or");
+
+        /// <summary>
+        /// "{0} or later"
+        /// </summary>
+        public static LocalisableString DownloadOsVersionOrLater(LocalisableString osVersion) => new TranslatableString(getKey(@"download.os_version_or_later"), @"{0} or later", osVersion);
 
         /// <summary>
         /// "other platforms"

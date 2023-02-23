@@ -176,7 +176,7 @@
     <value>Режим игры</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
-    <value>Ваш аккаунт не использовался в течение долгого времени.</value>
+    <value>Вы не пользовались аккаунтом в течение долгого времени.</value>
   </data>
   <data name="login._" xml:space="preserve">
     <value>Вход</value>
@@ -290,10 +290,13 @@
     <value>Другая (напишите ниже)</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
-    <value>Ваш аккаунт ограничен!</value>
+    <value>Ваш аккаунт был ограничен!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Пока ваш аккаунт ограничен, вы не сможете взаимодействовать с другими игроками и ваши рекорды будут видны только вам. Обычно это результат автоматизированного процесса и, как правило, ограничение снимается в течении суток. Если вы хотите обжаловать ваше ограничение, пожалуйста &lt;a href="mailto{0}@ppy.sh"&gt;свяжитесь с поддержкой&lt;/a&gt;.</value>
+    <value>Пока ваш аккаунт ограничен, вы не сможете взаимодействовать с другими игроками и ваши рекорды будут видны только вам. Обычно это результат автоматизированного процесса и, как правило, ограничение снимается в течении суток. {0}</value>
+  </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>Нажмите сюда, чтобы узнать подробности.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} лет</value>
