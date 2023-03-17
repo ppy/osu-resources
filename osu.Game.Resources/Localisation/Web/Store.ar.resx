@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>نحن حالياََ غارقون في الطلبات! انت مرحب بوضع طلبك, ولكن ارجوك انتظر **1-2 اسابيع اضافية اخرى** حتى ننتهي من الطلبات الحالية.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>إخفاء جميع علامات osu!supporter في هذا الترتيب من نشاطي</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>سلة التسوق الخاصة بك تبدو منتهية الصلاحية وتم اعادة شحنها, الرجاء المحاولة مجدداََ.</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>بما ان دفعتك كانت الكترونية، يرجى السماح لنا حتى 10 أيام إضافية لدفع للمرور عن طريق باي بال!</value>
+  </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>إشارات osu!supporter لن تعرض بهذا الترتيب في نشاطك.</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>الفاتورة</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} لـ {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>الرسالة: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>لا يمكنك تعديل طلبك لأنه مُلغى.</value>
@@ -240,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>اهدِه الى لاعب</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>أضف رسالة اختيارية إلى هديتك! (بحد اقصى {0} حرفا)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>يجب ان تكون {0} لتحصل على شارة osu!supporter!</value>

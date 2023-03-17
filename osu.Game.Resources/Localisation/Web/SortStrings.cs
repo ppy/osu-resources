@@ -105,6 +105,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumPostsRelevance => new TranslatableString(getKey(@"forum_posts.relevance"), @"Relevance");
 
         /// <summary>
+        /// "Created"
+        /// </summary>
+        public static LocalisableString ForumTopicsCreated => new TranslatableString(getKey(@"forum_topics.created"), @"Created");
+
+        /// <summary>
         /// "Star priority"
         /// </summary>
         public static LocalisableString ForumTopicsFeatureVotes => new TranslatableString(getKey(@"forum_topics.feature_votes"), @"Star priority");

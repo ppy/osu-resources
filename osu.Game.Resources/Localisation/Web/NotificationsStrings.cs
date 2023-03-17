@@ -52,6 +52,41 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "all"
         /// </summary>
+        public static LocalisableString ActionTypeDefault => new TranslatableString(getKey(@"action_type._"), @"all");
+
+        /// <summary>
+        /// "beatmaps"
+        /// </summary>
+        public static LocalisableString ActionTypeBeatmapset => new TranslatableString(getKey(@"action_type.beatmapset"), @"beatmaps");
+
+        /// <summary>
+        /// "builds"
+        /// </summary>
+        public static LocalisableString ActionTypeBuild => new TranslatableString(getKey(@"action_type.build"), @"builds");
+
+        /// <summary>
+        /// "chat"
+        /// </summary>
+        public static LocalisableString ActionTypeChannel => new TranslatableString(getKey(@"action_type.channel"), @"chat");
+
+        /// <summary>
+        /// "forum"
+        /// </summary>
+        public static LocalisableString ActionTypeForumTopic => new TranslatableString(getKey(@"action_type.forum_topic"), @"forum");
+
+        /// <summary>
+        /// "news"
+        /// </summary>
+        public static LocalisableString ActionTypeNewsPost => new TranslatableString(getKey(@"action_type.news_post"), @"news");
+
+        /// <summary>
+        /// "profile"
+        /// </summary>
+        public static LocalisableString ActionTypeUser => new TranslatableString(getKey(@"action_type.user"), @"profile");
+
+        /// <summary>
+        /// "all"
+        /// </summary>
         public static LocalisableString FiltersDefault => new TranslatableString(getKey(@"filters._"), @"all");
 
         /// <summary>

@@ -132,7 +132,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "This beatmap is locked for discussion."
         /// </summary>
-        public static LocalisableString BeatmapDiscussionPostStoreBeatmapsetLocked => new TranslatableString(getKey(@"beatmap_discussion_post.store.beatmapset_locked"), @"This beatmap is locked for discussion.");
+        public static LocalisableString BeatmapsetDiscussionLocked => new TranslatableString(getKey(@"beatmapset.discussion_locked"), @"This beatmap is locked for discussion.");
 
         /// <summary>
         /// "You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly."

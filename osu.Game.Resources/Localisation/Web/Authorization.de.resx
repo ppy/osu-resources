@@ -65,16 +65,16 @@
     <value>Zum Fortfahren bitte einloggen.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
-    <value>Bitte verifiziere Dich, um fortzufahren.</value>
+    <value>Bitte verifiziere dich, um fortzufahren.</value>
   </data>
   <data name="restricted" xml:space="preserve">
     <value>Nicht möglich, während man restricted ist.</value>
   </data>
   <data name="silenced" xml:space="preserve">
-    <value>Nicht möglich, während man stummgeschaltet ist.</value>
+    <value>Nicht möglich, während du stumm geschaltet bist.</value>
   </data>
   <data name="unauthorized" xml:space="preserve">
-    <value>Zugang verwehrt.</value>
+    <value>Zugriff verweigert.</value>
   </data>
   <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
     <value>Hype kann nicht rückgängig gemacht werden.</value>
@@ -92,13 +92,13 @@
     <value>Eigene Beatmaps können nicht nominiert werden.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>Vor der Nominierung müssen Genre und Sprache festgelegt werden.</value>
+    <value>Du musst den Genre und die Sprache einstellen, bevor nominiert werden kann.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Nur der Thread- oder Beatmapersteller kann die Diskussion beilegen.</value>
+    <value>Nur der Thread- oder Beatmapersteller kann die Diskussion für gelöst erklären.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Nur der Beatmapersteller oder ein Nominator/QAT Mitglied kann Notizen erstellen.</value>
+    <value>Nur der Beatmapersteller oder ein BN-/NAT-Mitglied kann Notizen erstellen.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Kann nicht über vom Bot gestartete Diskussion abstimmen</value>
@@ -116,7 +116,7 @@
     <value>Du kannst nur deine eigenen Beiträge löschen.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>Du kannst keinen Beitrag einer gelösten Diskussion löschen.</value>
+    <value>Du kannst einen Beitrag einer vollendeten Diskussion nicht löschen.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>Automatisch generierter Beitrag kann nicht gelöscht werden.</value>
@@ -129,9 +129,6 @@
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Automatisch erzeugte Beiträge können nicht bearbeitet werden.</value>
-  </data>
-  <data name="beatmap_discussion_post.store.beatmapset_locked" xml:space="preserve">
-    <value>Diese Beatmap Diskussion ist gesperrt.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Du kannst die Metadaten einer nominierten Map nicht ändern. Wenn du glaubst, dass sie falsch sind, wende dich an ein BN- oder NAT-Mitglied.</value>
@@ -155,10 +152,10 @@
     <value>Der Benutzer kann möglicherweise nicht antworten, da du nur Nachrichten von Personen auf deiner Freundesliste akzeptierst.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>Du kannst keine Nachrichten senden, während du stummgeschaltet, eingeschränkt oder gebannt bist.</value>
+    <value>Du kannst keine Nachrichten senden, während du stummgeschaltet oder gesperrt bist.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
-    <value>Du kannst keine Nachrichten senden, während du stummgeschaltet, eingeschränkt oder gebannt bist.</value>
+    <value>Du kannst keine Nachrichten senden, während du stummgeschaltet oder gesperrt bist.</value>
   </data>
   <data name="comment.store.disabled" xml:space="preserve">
     <value>Kommentare sind deaktiviert</value>
@@ -173,7 +170,7 @@
     <value>Du hast das Einsendelimit für diesen Wettbewerb erreicht</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>Vielen Dank für eure Einsendungen! Der Einsendezeitraum ist vorbei, die Abstimmungen werden bald beginnen.</value>
+    <value>Vielen Dank für deine Einsendungen! Der Einsendezeitraum ist vorbei und die Abstimmungen werden bald beginnen.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>Keine Berechtigung, dieses Forum zu moderieren.</value>
@@ -185,7 +182,7 @@
     <value>Beiträge in gesperrten Threads können nicht gelöscht werden.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
-    <value>Zugang zum angeforderten Forum wurde verwehrt.</value>
+    <value>Zugriff zum angeforderten Forum verweigert.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
     <value>Nur der Autor kann den Beitrag löschen.</value>
@@ -197,7 +194,7 @@
     <value>Dieser Beitrag ist gesperrt und kann nicht bearbeitet werden.</value>
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
-    <value>Zugang zum angeforderten Forum wurde verwehrt.</value>
+    <value>Zugang zum angeforderten Forum ist erforderlich.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Nur der Autor kann den Beitrag bearbeiten.</value>
@@ -212,7 +209,7 @@
     <value>Du musst das Spiel gespielt haben, bevor du weitere Beiträge erstellen kannst. Falls du immer noch Probleme mit dem Spiel hast, schreibe eine E-Mail an support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
-    <value>Bitte bearbeite deinen letzten Beitrag, anstatt ihn erneut zu posten.</value>
+    <value>Bitte bearbeite deinen letzten Beitrag, anstatt erneut zu posten.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>Auf gesperrte Threads kann nicht geantwortet werden.</value>
@@ -233,7 +230,7 @@
     <value>Antworten nicht möglich, während du stummgeschaltet bist.</value>
   </data>
   <data name="forum.topic.store.no_forum_access" xml:space="preserve">
-    <value>Zugang zum angeforderten Forum wurde verwehrt.</value>
+    <value>Zugang zum angeforderten Forum ist erforderlich.</value>
   </data>
   <data name="forum.topic.store.no_permission" xml:space="preserve">
     <value>Keine Berechtigung, einen neuen Thread zu erstellen.</value>
@@ -242,13 +239,13 @@
     <value>Das Forum ist geschlossen. Man kann keine Beiträge mehr posten.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
-    <value>Zugang zum angeforderten Forum wurde verwehrt.</value>
+    <value>Zugang zum angeforderten Forum ist erforderlich.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
     <value>Die Abstimmung ist vorbei. Es kann nicht mehr abgestimmt werden.</value>
   </data>
   <data name="forum.topic.vote.play_more" xml:space="preserve">
-    <value>Du musst mehr spielen bevor du im Forum abstimmen kannst.</value>
+    <value>Du musst mehr spielen, bevor du im Forum abstimmen kannst.</value>
   </data>
   <data name="forum.topic.vote.voted" xml:space="preserve">
     <value>Es ist nicht erlaubt, die Stimme zu ändern.</value>
@@ -263,7 +260,7 @@
     <value>Abstimmen nicht möglich, während du stummgeschaltet bist.</value>
   </data>
   <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
-    <value>Zugang zum angeforderten Forum wurde verwehrt.</value>
+    <value>Zugang zum angeforderten Forum ist erforderlich.</value>
   </data>
   <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
     <value>Ungültiges Banner ausgewählt.</value>
@@ -278,7 +275,7 @@
     <value>Nur Administratoren können dieses Forum sehen.</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
-    <value>Nur der Eigentümer kann den Score anpinnen.</value>
+    <value>Nur der Spieler, der den Score eingereicht hat, kann ihn anpinnen.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Zu viele Scores angepinnt.</value>
