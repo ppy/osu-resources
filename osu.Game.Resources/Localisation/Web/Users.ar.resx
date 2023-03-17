@@ -121,6 +121,30 @@
   <data name="card.send_message" xml:space="preserve">
     <value>إرسال رسالة</value>
   </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>تأكيد كلمة السر</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>إنشاء حساب</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>الايميل</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>تأكيد الأيميل</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>من خلال إنشاء الحساب أنت توافق على {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>شروط الخدمة</value>
+  </data>
   <data name="disabled.title" xml:space="preserve">
     <value>اه-اوه! يبدو انه قد تم تعطيل حسابك.</value>
   </data>
@@ -271,6 +295,9 @@
   <data name="restricted_banner.message" xml:space="preserve">
     <value>عندما تكون مقيداََ, سوف تمنع من مراسلة الاخرين ونتائج ستكون ظاهرة لك فقط. هذه عادة نتيجة تلقائية وسوف تختفي خلال 24 ساعة. اذا كنت تريد الغاء تقييدك, ارجوك &lt;a href="mailto{0}@ppy.sh"&gt;اتصل بالدعم&lt;/a&gt;.</value>
   </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>تحقق من هذه الصفحة لمعرفة المزيد.</value>
+  </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} سنة</value>
   </data>
@@ -393,6 +420,9 @@
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>خرائط Loved</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>خرائط Ranked جديدة</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>الخرائط المعلقة</value>
@@ -685,6 +715,9 @@
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>الترتيب العالمي</value>
   </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>أعلى ترتيب: {0} في {1}</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>دقة التصويب</value>
   </data>
@@ -747,6 +780,12 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>غير متصل</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>الرجاء التسجيل داخل اللعبة بدلاً من هنا!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>يرجى إكمال التسجيل عبر موقع osu!</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>انشأ المستخدم</value>

@@ -269,10 +269,10 @@
     <value>Скасувати</value>
   </data>
   <data name="report.options.cheating" xml:space="preserve">
-    <value>Нечесна гра / чіти</value>
+    <value>Нечесна гра / чітерство</value>
   </data>
   <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Використання кількох акаунтів</value>
+    <value>Використання кількох облікових записів</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Образа мене / інших</value>
@@ -281,7 +281,7 @@
     <value>Спам</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Скидування неприйнятного контенту</value>
+    <value>Посилання на неприйнятний контент</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Нісенітниця</value>
@@ -293,7 +293,7 @@
     <value>Ваш обліковий запис заблоковано!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Під час блокування вашого облікового запису, ви не зможете взаємодіяти з іншими гравцями й ваші результати будуть видні тільки вам. Зазвичай це результат автоматизованого процесу і, як правило, це обмеження облікового запису знімається протягом доби. Якщо ви хочете оскаржити ваше покарання, будь ласка, &lt;a href="mailto{0}@ppy.sh"&gt; напишіть в підтримку. &lt;/a&gt;.</value>
+    <value>Під час блокування вашого облікового запису, ви не зможете взаємодіяти з іншими гравцями, і ваші результати будуть показуватись лише для вас. Зазвичай, цей процес відбувається автоматично і як правило, ці обмеження облікового запису знімаються протягом доби. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Натисніть сюди, щоб дізнатися подробиці.</value>
@@ -305,7 +305,7 @@
     <value>змінити аватар!</value>
   </data>
   <data name="show.first_members" xml:space="preserve">
-    <value>Тут з самого початку</value>
+    <value>Тут з часів заснування</value>
   </data>
   <data name="show.is_developer" xml:space="preserve">
     <value>osu!розробник</value>
@@ -329,7 +329,7 @@
     <value>Проживає в {0}</value>
   </data>
   <data name="show.previous_usernames" xml:space="preserve">
-    <value>також відомий як</value>
+    <value>раніше був відомий як</value>
   </data>
   <data name="show.plays_with" xml:space="preserve">
     <value>Грає з {0}</value>
@@ -371,22 +371,22 @@
     <value>Розмір обкладинки повинен бути 2400x640</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
-    <value>Завантажене зображення занадто велике.</value>
+    <value>Завантажуваний файл завеликий.</value>
   </data>
   <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
     <value>Непідтримуваний формат.</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
-    <value>Завантаження доступна тільки {0}</value>
+    <value>Завантаження доступно лише для {0}</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
-    <value>власникам osu!supporter</value>
+    <value>власникам osu!прихильника</value>
   </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
-    <value>режим гри за замовчуванням</value>
+    <value>основний ігровий режим</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
-    <value>вибрати {0} як режим гри за замовчуванням</value>
+    <value>вибрати {0} як основний ігровий режим</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>нічого</value>
@@ -410,7 +410,7 @@
     <value>Бітмапи</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
-    <value>Вподобайки</value>
+    <value>Вподобані бітмапи</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Закинуті бітмапи</value>
@@ -422,7 +422,7 @@
     <value>Улюблені бітмапи</value>
   </data>
   <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
-    <value>Номіновані рангові бітмапи</value>
+    <value>Номіновні рейтингові бітмапи</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>На розгляді</value>
@@ -461,19 +461,19 @@
     <value>разів зіграно</value>
   </data>
   <data name="show.extra.historical.most_played.title" xml:space="preserve">
-    <value>Найбільше зіграні мапи</value>
+    <value>Найбільш зіграні мапи</value>
   </data>
   <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
     <value>точність: {0}</value>
   </data>
   <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
-    <value>Останні ігри (24г)</value>
+    <value>Остання активність (24г)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>Історія перегляду повторів</value>
+    <value>Історія переглянутих повторів</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
-    <value>Переглянуті повтори</value>
+    <value>Переглянутих повторів</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Останні обміни</value>
@@ -488,7 +488,7 @@
     <value>{0} кудосу</value>
   </data>
   <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
-    <value>Цей користувач не обмінювався Кудосу!</value>
+    <value>Цей користувач ще не отримав жодного Кудосу!</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
     <value>Отримано {0} за відповідь в {1}</value>
@@ -536,10 +536,10 @@
     <value>Цей користувач поки що нічого не отримав. ; _;</value>
   </data>
   <data name="show.extra.medals.recent" xml:space="preserve">
-    <value>Останні досягнення</value>
+    <value>Останні медалі</value>
   </data>
   <data name="show.extra.medals.title" xml:space="preserve">
-    <value>Досягнення</value>
+    <value>Медалі</value>
   </data>
   <data name="show.extra.playlists.title" xml:space="preserve">
     <value>Ігрові плейлісти</value>

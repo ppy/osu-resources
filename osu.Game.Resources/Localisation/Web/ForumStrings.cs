@@ -60,6 +60,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CoversDestroyConfirm => new TranslatableString(getKey(@"covers.destroy.confirm"), @"Are you sure you want to remove the cover image?");
 
         /// <summary>
+        /// "Forums"
+        /// </summary>
+        public static LocalisableString ForumsForums => new TranslatableString(getKey(@"forums.forums"), @"Forums");
+
+        /// <summary>
         /// "Latest Post"
         /// </summary>
         public static LocalisableString ForumsLatestPost => new TranslatableString(getKey(@"forums.latest_post"), @"Latest Post");
@@ -110,9 +115,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PostPostedAt(LocalisableString when) => new TranslatableString(getKey(@"post.posted_at"), @"posted {0}", when);
 
         /// <summary>
-        /// "posted by {0}"
+        /// "posted by {0} in {1}"
         /// </summary>
-        public static LocalisableString PostPostedBy(LocalisableString username) => new TranslatableString(getKey(@"post.posted_by"), @"posted by {0}", username);
+        public static LocalisableString PostPostedByIn(LocalisableString username, LocalisableString forum) => new TranslatableString(getKey(@"post.posted_by_in"), @"posted by {0} in {1}", username, forum);
 
         /// <summary>
         /// "Delete post"

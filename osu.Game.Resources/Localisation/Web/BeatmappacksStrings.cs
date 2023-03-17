@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModeChart => new TranslatableString(getKey(@"mode.chart"), @"Spotlights");
 
         /// <summary>
+        /// "Featured Artist"
+        /// </summary>
+        public static LocalisableString ModeFeatured => new TranslatableString(getKey(@"mode.featured"), @"Featured Artist");
+
+        /// <summary>
         /// "Standard"
         /// </summary>
         public static LocalisableString ModeStandard => new TranslatableString(getKey(@"mode.standard"), @"Standard");
