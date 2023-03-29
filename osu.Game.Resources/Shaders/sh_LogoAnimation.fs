@@ -15,7 +15,7 @@ layout(location = 0) out vec4 o_Colour;
 
 void main(void) 
 {
-    vec4 colour = toSRGB(texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9));
+    vec4 colour = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9);
 
-    o_Colour = colour.r < progress ? toSRGB(vec4(v_Colour.rgb, v_Colour.a * colour.a)) : vec4(0);
+    o_Colour = colour.r < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a) : vec4(0);
 }
