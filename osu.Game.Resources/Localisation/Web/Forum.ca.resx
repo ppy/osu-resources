@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pinned_topics" xml:space="preserve">
+    <value>Temes Fixats</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>és perillós jugar sol.</value>
+  </data>
+  <data name="subforums" xml:space="preserve">
+    <value>Subfòrums</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Fòrums</value>
+  </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Edita la portada</value>
+  </data>
+  <data name="covers.create._" xml:space="preserve">
+    <value>Estableix la imatge de portada</value>
+  </data>
+  <data name="covers.create.button" xml:space="preserve">
+    <value>Pujar portada</value>
+  </data>
+  <data name="covers.create.info" xml:space="preserve">
+    <value>La portada ha de ser {0}. També pots deixar anar la imatge aquí per penjar-la.</value>
+  </data>
+  <data name="covers.destroy._" xml:space="preserve">
+    <value>Elimina la portada</value>
+  </data>
+  <data name="covers.destroy.confirm" xml:space="preserve">
+    <value>Segur que vols eliminar la imatge de portada?</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Última publicació</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Índex del fòrum</value>
+  </data>
+  <data name="forums.topics.empty" xml:space="preserve">
+    <value>No hi ha temes!</value>
+  </data>
+  <data name="mark_as_read.forum" xml:space="preserve">
+    <value>Marca el fòrum com a llegit</value>
+  </data>
+  <data name="mark_as_read.forums" xml:space="preserve">
+    <value>Marca els fòrums com a llegits</value>
+  </data>
+  <data name="mark_as_read.busy" xml:space="preserve">
+    <value>Marcant com a llegit...</value>
+  </data>
+  <data name="post.confirm_destroy" xml:space="preserve">
+    <value>Realment voleu eliminar la publicació?</value>
+  </data>
+  <data name="post.confirm_restore" xml:space="preserve">
+    <value>Realment voleu restaurar la publicació?</value>
+  </data>
+  <data name="post.edited" xml:space="preserve">
+    <value>Editat per últim cop per {0} {1}, editat {2} vegada en total.|Editat per últim cop per {0} {1}, editat {2} vegades en total.</value>
+  </data>
+  <data name="post.posted_at" xml:space="preserve">
+    <value>publicat {0}</value>
+  </data>
+  <data name="post.actions.destroy" xml:space="preserve">
+    <value>Eliminar publicació</value>
+  </data>
+  <data name="post.actions.edit" xml:space="preserve">
+    <value>Edita la publicació</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Denunciar publicació</value>
+  </data>
+  <data name="post.actions.restore" xml:space="preserve">
+    <value>Recuperar publicació</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Nova resposta</value>
+  </data>
+  <data name="post.info.post_count" xml:space="preserve">
+    <value>{0} publicació|{0} publicacions</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Creador de Temes</value>
+  </data>
+  <data name="search.go_to_post" xml:space="preserve">
+    <value>Ves a la publicació</value>
+  </data>
+  <data name="search.post_number_input" xml:space="preserve">
+    <value>entra el número de publicació</value>
+  </data>
+  <data name="search.total_posts" xml:space="preserve">
+    <value>{0} publicacions en total</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Realment voleu eliminar el tema?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Realment voleu restaurar el tema?</value>
+  </data>
+  <data name="topic.deleted" xml:space="preserve">
+    <value>tema eliminat</value>
+  </data>
+  <data name="topic.go_to_latest" xml:space="preserve">
+    <value>veure l'última publicació</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Has respost a aquest tema</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>en {0}</value>
+  </data>
+  <data name="topic.latest_post" xml:space="preserve">
+    <value>{0} per {1}</value>
+  </data>
+  <data name="topic.latest_reply_by" xml:space="preserve">
+    <value>última resposta de {0}</value>
+  </data>
+  <data name="topic.new_topic" xml:space="preserve">
+    <value>Nou tema</value>
+  </data>
+  <data name="topic.new_topic_login" xml:space="preserve">
+    <value>Inicia sessió per publicar un nou tema</value>
+  </data>
+  <data name="topic.post_reply" xml:space="preserve">
+    <value>Publicar</value>
+  </data>
+  <data name="topic.reply_box_placeholder" xml:space="preserve">
+    <value>Escriu aquí per respondre</value>
+  </data>
+  <data name="topic.reply_title_prefix" xml:space="preserve">
+    <value>Re</value>
+  </data>
+  <data name="topic.started_by" xml:space="preserve">
+    <value>per {0}</value>
+  </data>
+  <data name="topic.started_by_verbose" xml:space="preserve">
+    <value>començat per {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Eliminar tema</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Restaura el tema</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Vista prèvia</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Escriure</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Publicar</value>
+  </data>
+  <data name="topic.create.necropost.default" xml:space="preserve">
+    <value>Aquest tema ha estat inactiu durant un temps. Fes una publicació aquí només si tens un bon motiu.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic._" xml:space="preserve">
+    <value>Aquest tema ha estat inactiu per un temps. Si no tens un motiu concret per publicar aquí, si us plau {0}.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
+    <value>crea un nou tema</value>
+  </data>
+  <data name="topic.create.placeholder.body" xml:space="preserve">
+    <value>Escriu els continguts aquí</value>
+  </data>
+  <data name="topic.create.placeholder.title" xml:space="preserve">
+    <value>Fes clic aquí per establir el títol</value>
+  </data>
+  <data name="topic.jump.enter" xml:space="preserve">
+    <value>fes clic per entrar un número de publicació</value>
+  </data>
+  <data name="topic.jump.first" xml:space="preserve">
+    <value>ves a la primera publicació</value>
+  </data>
+  <data name="topic.jump.last" xml:space="preserve">
+    <value>ves a l'última publicació</value>
+  </data>
+  <data name="topic.jump.next" xml:space="preserve">
+    <value>saltar les 10 publicacions següents</value>
+  </data>
+  <data name="topic.jump.previous" xml:space="preserve">
+    <value>ves 10 publicacions enrere</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Registre dels temes</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Navega el registre de temes</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Acció</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Usuari</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>etiqueta "{0}" agregada</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>tema fixat i marcat com a anunci</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>a {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>de {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>tema fixat</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>publicat per {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>s'ha eliminat l'etiqueta "{0}"</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>de {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>tema sense fixar</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>no s'ha trobat registres...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Publicació eliminada</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Tema eliminat</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Has canviat el títol del tema</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Has editat l'enquesta del tema</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>S'ha copiat el tema</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Etiqueta atribuïda</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Tema tancat</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>S'han unit publicacions en aquest tema</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Tema mogut</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Tema fixat</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Publicació editada</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Publicació restaurada</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Tema restaurat</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Publicacions separades mogudes</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Separar publicacions</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Estableix el tipus de tema</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Tipus de tema canviat</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Tema obert</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Tema no fixat</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Has tancat el teu tema</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Has obert el teu tema</value>
+  </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Cancel·la</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>Guarda</value>
+  </data>
+  <data name="topic_watches.index.title_compact" xml:space="preserve">
+    <value>llista de seguiment de temes al fòrum</value>
+  </data>
+  <data name="topic_watches.index.box.total" xml:space="preserve">
+    <value>Temes subscrits</value>
+  </data>
+  <data name="topic_watches.index.box.unread" xml:space="preserve">
+    <value>Temes amb noves respostes</value>
+  </data>
+  <data name="topic_watches.index.info.total" xml:space="preserve">
+    <value>T'has subscrit a {0} temes.</value>
+  </data>
+  <data name="topic_watches.index.info.unread" xml:space="preserve">
+    <value>Tenes {0} respostes no llegides als temes subscrits.</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.confirmation" xml:space="preserve">
+    <value>Eliminar la subscripció a aquest tema?</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
+    <value>Cancel·la la subscripció</value>
+  </data>
+  <data name="topics._" xml:space="preserve">
+    <value>Temes</value>
+  </data>
+  <data name="topics.actions.login_reply" xml:space="preserve">
+    <value>Inicia sessió per a respondre</value>
+  </data>
+  <data name="topics.actions.reply" xml:space="preserve">
+    <value>Respondre</value>
+  </data>
+  <data name="topics.actions.reply_with_quote" xml:space="preserve">
+    <value>Citar la publicació amb una resposta</value>
+  </data>
+  <data name="topics.actions.search" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="topics.create.create_poll" xml:space="preserve">
+    <value>Creació de l'enquesta</value>
+  </data>
+  <data name="topics.create.preview" xml:space="preserve">
+    <value>Vista prèvia de l'enquesta</value>
+  </data>
+  <data name="topics.create.create_poll_button.add" xml:space="preserve">
+    <value>Crea una enquesta</value>
+  </data>
+  <data name="topics.create.create_poll_button.remove" xml:space="preserve">
+    <value>Cancel·la la creació de l'enquesta</value>
+  </data>
+  <data name="topics.create.poll.hide_results" xml:space="preserve">
+    <value>Amaga els resultats de l'enquesta.</value>
+  </data>
+  <data name="topics.create.poll.hide_results_info" xml:space="preserve">
+    <value>Només es mostraran després que finalitzi l'enquesta.</value>
+  </data>
+  <data name="topics.create.poll.length" xml:space="preserve">
+    <value>Executar l'enquesta per</value>
+  </data>
+  <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
+    <value>dies</value>
+  </data>
+  <data name="topics.create.poll.length_info" xml:space="preserve">
+    <value>Deixa-ho buit per fer una enquesta sense durada límit</value>
+  </data>
+  <data name="topics.create.poll.max_options" xml:space="preserve">
+    <value>Opcions per usuari</value>
+  </data>
+  <data name="topics.create.poll.max_options_info" xml:space="preserve">
+    <value>Aquest és el nombre d'opcions que cada usuari pot seleccionar en votar.</value>
+  </data>
+  <data name="topics.create.poll.options" xml:space="preserve">
+    <value>Opcions</value>
+  </data>
+  <data name="topics.create.poll.options_info" xml:space="preserve">
+    <value>Escriu cada opció en una nova línia. Pots entrar fins a 10 opcions.</value>
+  </data>
+  <data name="topics.create.poll.title" xml:space="preserve">
+    <value>Pregunta</value>
+  </data>
+  <data name="topics.create.poll.vote_change" xml:space="preserve">
+    <value>Permetre tornar a votar.</value>
+  </data>
+  <data name="topics.create.poll.vote_change_info" xml:space="preserve">
+    <value>Si ho actives, els usuaris podran canviar el seu vot.</value>
+  </data>
+  <data name="topics.edit_title.start" xml:space="preserve">
+    <value>Edita el títol</value>
+  </data>
+  <data name="topics.index.feature_votes" xml:space="preserve">
+    <value>prioritat estrella</value>
+  </data>
+  <data name="topics.index.replies" xml:space="preserve">
+    <value>respostes</value>
+  </data>
+  <data name="topics.index.views" xml:space="preserve">
+    <value>vistes</value>
+  </data>
+  <data name="topics.issue_tag_added.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "afegit"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "afegit"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "afegit"</value>
+  </data>
+  <data name="topics.issue_tag_added.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "afegit"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "assignat"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "assignat"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "assignat"</value>
+  </data>
+  <data name="topics.issue_tag_assigned.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "assignat"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "confirmat"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "confirmat"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "confirmat"</value>
+  </data>
+  <data name="topics.issue_tag_confirmed.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "confirmat"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "duplicat"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "duplicat"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "duplicat"</value>
+  </data>
+  <data name="topics.issue_tag_duplicate.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "duplicat"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "invàlid"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "invàlid"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "invàlid"</value>
+  </data>
+  <data name="topics.issue_tag_invalid.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "invàlid"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_0" xml:space="preserve">
+    <value>Elimina l'etiqueta "resolt"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_0_done" xml:space="preserve">
+    <value>S'ha eliminat l'etiqueta "resolt"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
+    <value>Afegeix l'etiqueta "resolt"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
+    <value>S'ha afegit l'etiqueta "resolt"</value>
+  </data>
+  <data name="topics.lock.is_locked" xml:space="preserve">
+    <value>Aquest tema està tancat i no pots respondre-hi</value>
+  </data>
+  <data name="topics.lock.to_0" xml:space="preserve">
+    <value>Obre el tema</value>
+  </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Obrir el tema?</value>
+  </data>
+  <data name="topics.lock.to_0_done" xml:space="preserve">
+    <value>S'ha obert el tema</value>
+  </data>
+  <data name="topics.lock.to_1" xml:space="preserve">
+    <value>Tanca el tema</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Tancar el tema?</value>
+  </data>
+  <data name="topics.lock.to_1_done" xml:space="preserve">
+    <value>Aquest tema s'ha tancat</value>
+  </data>
+  <data name="topics.moderate_move.title" xml:space="preserve">
+    <value>Moure a un altre fòrum</value>
+  </data>
+  <data name="topics.moderate_pin.to_0" xml:space="preserve">
+    <value>Desfixa el tema</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Vols desfixar el tema?</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
+    <value>El tema s'ha desfixat</value>
+  </data>
+  <data name="topics.moderate_pin.to_1" xml:space="preserve">
+    <value>Fixa el tema</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Vols fixar el tema?</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
+    <value>El tema s'ha fixat</value>
+  </data>
+  <data name="topics.moderate_pin.to_2" xml:space="preserve">
+    <value>Fixa el tema i marca'l com un anunci</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Vols fixar el tema i marcar-lo com un anunci?</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
+    <value>El tema s'ha fixat i marcat com un anunci</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Mostra publicacions eliminades</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Amagar publicacions eliminades</value>
+  </data>
+  <data name="topics.show.deleted-posts" xml:space="preserve">
+    <value>Publicacions eliminades</value>
+  </data>
+  <data name="topics.show.total_posts" xml:space="preserve">
+    <value>Publicacions totals</value>
+  </data>
+  <data name="topics.show.feature_vote.current" xml:space="preserve">
+    <value>Prioritat actual: +{0}</value>
+  </data>
+  <data name="topics.show.feature_vote.do" xml:space="preserve">
+    <value>Promou aquesta sol·licitud</value>
+  </data>
+  <data name="topics.show.feature_vote.info._" xml:space="preserve">
+    <value>Això és una {0}. Els {1} poden votar les sol·licituds de funcions.</value>
+  </data>
+  <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
+    <value>sol·licitud de funcionalitats</value>
+  </data>
+  <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
+    <value>osu!supporters</value>
+  </data>
+  <data name="topics.show.feature_vote.user.count" xml:space="preserve">
+    <value>{0} sense vots|{1} {0} vot|[2,*] {0} vots</value>
+  </data>
+  <data name="topics.show.feature_vote.user.current" xml:space="preserve">
+    <value>Tens {0} restants.</value>
+  </data>
+  <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
+    <value>No tens més vots</value>
+  </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Edita l'enquesta</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Si edites una enquesta, s'eliminaran els resultats actuals!</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Vota</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Canvia el vot</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Edita l'enquesta</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Saltar als resultats</value>
+  </data>
+  <data name="topics.show.poll.button.vote" xml:space="preserve">
+    <value>Vota</value>
+  </data>
+  <data name="topics.show.poll.detail.end_time" xml:space="preserve">
+    <value>L'enquesta finalitzarà a {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.ended" xml:space="preserve">
+    <value>L'enquesta va finalitzar {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
+    <value>Els resultats es mostraran quan acabi l'enquesta.</value>
+  </data>
+  <data name="topics.show.poll.detail.total" xml:space="preserve">
+    <value>Vots totals: {0}</value>
+  </data>
+  <data name="topics.watch.to_not_watching" xml:space="preserve">
+    <value>No marcat</value>
+  </data>
+  <data name="topics.watch.to_watching" xml:space="preserve">
+    <value>Marcar</value>
+  </data>
+  <data name="topics.watch.to_watching_mail" xml:space="preserve">
+    <value>Marcar amb notificació</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
+    <value>Notificació activa. Clica per desactivar-la</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
+    <value>Notificació desactivada. Clica per activar-la</value>
+  </data>
+</root>

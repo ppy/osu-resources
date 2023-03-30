@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="landing.download" xml:space="preserve">
+    <value>Преузмите сада</value>
+  </data>
+  <data name="landing.online" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; тренутно у &lt;strong&gt;{1}&lt;/strong&gt; игара</value>
+  </data>
+  <data name="landing.peak" xml:space="preserve">
+    <value>Врх, {0} онлајн играча</value>
+  </data>
+  <data name="landing.players" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; регистрованих играча</value>
+  </data>
+  <data name="landing.title" xml:space="preserve">
+    <value>добродошли</value>
+  </data>
+  <data name="landing.see_more_news" xml:space="preserve">
+    <value>погледајте још догађаја</value>
+  </data>
+  <data name="landing.slogan.main" xml:space="preserve">
+    <value>најбоља free-to-win ритмичка игрица</value>
+  </data>
+  <data name="landing.slogan.sub" xml:space="preserve">
+    <value>ритам је увек удаљен за 1 клик</value>
+  </data>
+  <data name="search.advanced_link" xml:space="preserve">
+    <value>Напредна претрага</value>
+  </data>
+  <data name="search.button" xml:space="preserve">
+    <value>Претрага</value>
+  </data>
+  <data name="search.empty_result" xml:space="preserve">
+    <value>Нема резултата!</value>
+  </data>
+  <data name="search.keyword_required" xml:space="preserve">
+    <value>Потребна је кључна реч за претрагу</value>
+  </data>
+  <data name="search.placeholder" xml:space="preserve">
+    <value>куцајте за претрагу</value>
+  </data>
+  <data name="search.title" xml:space="preserve">
+    <value>претрага</value>
+  </data>
+  <data name="search.beatmapset.login_required" xml:space="preserve">
+    <value>Пријавите се да тражите мапе</value>
+  </data>
+  <data name="search.beatmapset.more" xml:space="preserve">
+    <value>{0} додатних резултата за мапе</value>
+  </data>
+  <data name="search.beatmapset.more_simple" xml:space="preserve">
+    <value>Видите још резултата за мапе</value>
+  </data>
+  <data name="search.beatmapset.title" xml:space="preserve">
+    <value>Мапе</value>
+  </data>
+  <data name="search.forum_post.all" xml:space="preserve">
+    <value>Сви форуми</value>
+  </data>
+  <data name="search.forum_post.link" xml:space="preserve">
+    <value>Тражите на форуму</value>
+  </data>
+  <data name="search.forum_post.login_required" xml:space="preserve">
+    <value>Пријавите се да тражите на форуму</value>
+  </data>
+  <data name="search.forum_post.more_simple" xml:space="preserve">
+    <value>Видите још резултата за форум</value>
+  </data>
+  <data name="search.forum_post.title" xml:space="preserve">
+    <value>Форум</value>
+  </data>
+  <data name="search.forum_post.label.forum" xml:space="preserve">
+    <value>тражите на форуму</value>
+  </data>
+  <data name="search.forum_post.label.forum_children" xml:space="preserve">
+    <value>укључујући субфоруме</value>
+  </data>
+  <data name="search.forum_post.label.include_deleted" xml:space="preserve">
+    <value>укључи избрисане постове</value>
+  </data>
+  <data name="search.forum_post.label.topic_id" xml:space="preserve">
+    <value>тема #</value>
+  </data>
+  <data name="search.forum_post.label.username" xml:space="preserve">
+    <value>аутор</value>
+  </data>
+  <data name="search.mode.all" xml:space="preserve">
+    <value>све</value>
+  </data>
+  <data name="search.mode.beatmapset" xml:space="preserve">
+    <value>мапа</value>
+  </data>
+  <data name="search.mode.forum_post" xml:space="preserve">
+    <value>форум</value>
+  </data>
+  <data name="search.mode.user" xml:space="preserve">
+    <value>играч</value>
+  </data>
+  <data name="search.mode.wiki_page" xml:space="preserve">
+    <value>вики</value>
+  </data>
+  <data name="search.user.login_required" xml:space="preserve">
+    <value>Пријавите се да тражите играче</value>
+  </data>
+  <data name="search.user.more" xml:space="preserve">
+    <value>{0} додатних резултата за играче</value>
+  </data>
+  <data name="search.user.more_simple" xml:space="preserve">
+    <value>Видите још резултата за мапе</value>
+  </data>
+  <data name="search.user.more_hidden" xml:space="preserve">
+    <value>Тражење играча је ограничено на {0}. Пробајте да побољшате Вашу претрагу.</value>
+  </data>
+  <data name="search.user.title" xml:space="preserve">
+    <value>Играчи</value>
+  </data>
+  <data name="search.wiki_page.link" xml:space="preserve">
+    <value>Претражите вики</value>
+  </data>
+  <data name="search.wiki_page.more_simple" xml:space="preserve">
+    <value>Видите још резултата за вики</value>
+  </data>
+  <data name="search.wiki_page.title" xml:space="preserve">
+    <value>Вики</value>
+  </data>
+  <data name="download.action" xml:space="preserve">
+    <value>Преузмите osu!</value>
+  </data>
+  <data name="download.action_lazer" xml:space="preserve">
+    <value>Преузми osu!(lazer) </value>
+  </data>
+  <data name="download.action_lazer_description" xml:space="preserve">
+    <value>следеће глобално ажурирање osu!</value>
+  </data>
+  <data name="download.action_lazer_info" xml:space="preserve">
+    <value>погледај ову страницу за више информација</value>
+  </data>
+  <data name="download.action_lazer_title" xml:space="preserve">
+    <value>пробај osu!(lazer)</value>
+  </data>
+  <data name="download.action_title" xml:space="preserve">
+    <value>преузмите osu!</value>
+  </data>
+  <data name="download.for_os" xml:space="preserve">
+    <value>за {0}</value>
+  </data>
+  <data name="download.lazer_note" xml:space="preserve">
+    <value>напомена: постоје ресетовања ранг листе</value>
+  </data>
+  <data name="download.macos-fallback" xml:space="preserve">
+    <value>macOS корисници</value>
+  </data>
+  <data name="download.mirror" xml:space="preserve">
+    <value>алтернативни линк</value>
+  </data>
+  <data name="download.or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="download.os_version_or_later" xml:space="preserve">
+    <value>{0} или слично</value>
+  </data>
+  <data name="download.other_os" xml:space="preserve">
+    <value>друге платформе</value>
+  </data>
+  <data name="download.quick_start_guide" xml:space="preserve">
+    <value>водич за брзи почетак</value>
+  </data>
+  <data name="download.tagline" xml:space="preserve">
+    <value>Почнимо!</value>
+  </data>
+  <data name="download.video-guide" xml:space="preserve">
+    <value>видео водич</value>
+  </data>
+  <data name="download.help._" xml:space="preserve">
+    <value>ако имате проблем са отварањем игрице или регистрације налога, {0} или {1}.</value>
+  </data>
+  <data name="download.help.help_forum_link" xml:space="preserve">
+    <value>проверите форум за помоћ</value>
+  </data>
+  <data name="download.help.support_button" xml:space="preserve">
+    <value>контактирајте подршку</value>
+  </data>
+  <data name="download.os.windows" xml:space="preserve">
+    <value>за Windows</value>
+  </data>
+  <data name="download.os.macos" xml:space="preserve">
+    <value>за macOS</value>
+  </data>
+  <data name="download.os.linux" xml:space="preserve">
+    <value>за Linux</value>
+  </data>
+  <data name="download.steps.register.title" xml:space="preserve">
+    <value>направите налог</value>
+  </data>
+  <data name="download.steps.register.description" xml:space="preserve">
+    <value>пратите упутства када отворите игрицу да би сте се пријавили или направили нови налог</value>
+  </data>
+  <data name="download.steps.download.title" xml:space="preserve">
+    <value>инсталирајте игрицу</value>
+  </data>
+  <data name="download.steps.download.description" xml:space="preserve">
+    <value>кликните дугме изнад да преузмете инсталацију, и онда га покрените!</value>
+  </data>
+  <data name="download.steps.beatmaps.title" xml:space="preserve">
+    <value>преузмите мапе</value>
+  </data>
+  <data name="download.steps.beatmaps.description._" xml:space="preserve">
+    <value>{0} велику библиотеку мапа направљених од стране корисника и крените да играте!</value>
+  </data>
+  <data name="download.steps.beatmaps.description.browse" xml:space="preserve">
+    <value>претражи</value>
+  </data>
+  <data name="user.title" xml:space="preserve">
+    <value>командна табла</value>
+  </data>
+  <data name="user.news.title" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="user.news.error" xml:space="preserve">
+    <value>Грешка у учитавању вести, пробајте да освежите страницу?...</value>
+  </data>
+  <data name="user.header.stats.friends" xml:space="preserve">
+    <value>Онлајн Пријатељи</value>
+  </data>
+  <data name="user.header.stats.games" xml:space="preserve">
+    <value>Игре</value>
+  </data>
+  <data name="user.header.stats.online" xml:space="preserve">
+    <value>Онлајн Корисника</value>
+  </data>
+  <data name="user.beatmaps.new" xml:space="preserve">
+    <value>Нове рангиране мапе</value>
+  </data>
+  <data name="user.beatmaps.popular" xml:space="preserve">
+    <value>Популарне мапе</value>
+  </data>
+  <data name="user.beatmaps.by_user" xml:space="preserve">
+    <value>од корисника {0}
+</value>
+  </data>
+  <data name="user.buttons.download" xml:space="preserve">
+    <value>Преузмите osu!</value>
+  </data>
+  <data name="user.buttons.support" xml:space="preserve">
+    <value>Подржите osu!</value>
+  </data>
+  <data name="user.buttons.store" xml:space="preserve">
+    <value>osu!продавница</value>
+  </data>
+</root>

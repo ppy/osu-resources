@@ -25,9 +25,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexHeaderTitle => new TranslatableString(getKey(@"index.header.title"), @"Community Tournaments");
 
         /// <summary>
-        /// "Registered players"
+        /// "registered players"
         /// </summary>
-        public static LocalisableString IndexItemRegistered => new TranslatableString(getKey(@"index.item.registered"), @"Registered players");
+        public static LocalisableString IndexItemRegistered => new TranslatableString(getKey(@"index.item.registered"), @"registered players");
 
         /// <summary>
         /// "Active Tournaments"

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="availability.disabled" xml:space="preserve">
+    <value>Ang beatmap na ito ay hindi maaaring i-download sa kasalukuyan.</value>
+  </data>
+  <data name="availability.parts-removed" xml:space="preserve">
+    <value>Tinanggal ang mga bahagi ng beatmap na ito sa kahilingan ng lumikha nito o ng isang ikatlong panig na mayhawak ng karapatan.</value>
+  </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Tignan dito para sa karagdagang impormasyon.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Iilang bagay sa map na ito ang tinanggal pagkatapos ituring na hindi angkop para gamitin sa osu!.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Tinanggal na beatmap</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Hinay lang, maglaro ka muna.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Itinatampok na artista</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Listahan ng mga Beatmap</value>
+  </data>
+  <data name="index.guest_title" xml:space="preserve">
+    <value>Mga Beatmap</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>walang beatmap</value>
+  </data>
+  <data name="panel.download.all" xml:space="preserve">
+    <value>mag-download</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>i-download nang may bidyo</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>i-download nang walang bidyo</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>buksan sa osu!direct</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Ang isang hybrid na beatmap ay kinailangan na ikaw ay pumili ng kahit isang playmode upang makanominate.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Wala kang pahintulot na mag-nominate para sa mode {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Kailangan mong maging full nominator para maisagawa ang qualifying nomination na ito.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Nabuo na ang pangangailangan sa nominasyon.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Sigurado ka bang gusto mong i-nomina ito?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Inomina ang Beatmap</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>tandaan: ikaw ay maaaring mag-nominate nang isang beses lamang, kaya siguraduhin na ikaw ay nagno-nominate para sa lahat ng game mode na iyong binabalak</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Inomina para sa aling mga mode?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Maselan</value>
+  </data>
+  <data name="show.discussion" xml:space="preserve">
+    <value>Diskusyon</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>ni/nina {0}</value>
+  </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>I-paborito ang beatmapset na ito</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Mag-sign in para i-favourite ang beatmap na ito</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>Kailangan mong mag-sign-in bago ka pwedeng mag-download ng mga beatmap!</value>
+  </data>
+  <data name="show.details.mapped_by" xml:space="preserve">
+    <value>minapa ni {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>guest difficulty ni {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>I-unfavorite ang beatmap na ito</value>
+  </data>
+  <data name="show.details.updated_timeago" xml:space="preserve">
+    <value>huling na-update sa {0}</value>
+  </data>
+  <data name="show.details.download._" xml:space="preserve">
+    <value>I-download</value>
+  </data>
+  <data name="show.details.download.no-video" xml:space="preserve">
+    <value>walang Video</value>
+  </data>
+  <data name="show.details.download.video" xml:space="preserve">
+    <value>may Video</value>
+  </data>
+  <data name="show.details.login_required.bottom" xml:space="preserve">
+    <value>para mas maraming features ang magamit</value>
+  </data>
+  <data name="show.details.login_required.top" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>aprubado {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>pasok sa loved {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>pasok sa qualified {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>pasok sa ranked {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>ini-upload {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>huling na-update {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Napakarami mo nang nai-favorite na mga beatmap! Mag-unfavorite ng ilan bago subukang muli.</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>I-hype ang beatmap na ito kung nagustuhan mo ang paglalaro nito upang matulungan itong pumasok sa &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
+  </data>
+  <data name="show.hype.current._" xml:space="preserve">
+    <value>Ang map na ito ay kasalukuyang {0}.</value>
+  </data>
+  <data name="show.hype.current.status.pending" xml:space="preserve">
+    <value>pending</value>
+  </data>
+  <data name="show.hype.current.status.qualified" xml:space="preserve">
+    <value>qualified</value>
+  </data>
+  <data name="show.hype.current.status.wip" xml:space="preserve">
+    <value>ginagawa pa lang</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Kung ikaw ay may nakitang problema sa beatmap na ito, mangyaring i-disqualify ito {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Kung ikaw ay may nakitang problema sa beatmpa na ito, mangyaring iulat ito {0} para malaman namin.</value>
+  </data>
+  <data name="show.hype.report.button" xml:space="preserve">
+    <value>Mag-report ng Problema</value>
+  </data>
+  <data name="show.hype.report.link" xml:space="preserve">
+    <value>dito</value>
+  </data>
+  <data name="show.info.description" xml:space="preserve">
+    <value>Deskripsyon</value>
+  </data>
+  <data name="show.info.genre" xml:space="preserve">
+    <value>Dyanre</value>
+  </data>
+  <data name="show.info.language" xml:space="preserve">
+    <value>Wika</value>
+  </data>
+  <data name="show.info.no_scores" xml:space="preserve">
+    <value>Kinakalkula pa ang mga datos...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Mga nominador</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Maselang nilalaman</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Online na offset</value>
+  </data>
+  <data name="show.info.points-of-failure" xml:space="preserve">
+    <value>Mga punto ng pagkabigo</value>
+  </data>
+  <data name="show.info.source" xml:space="preserve">
+    <value>Pinagmulan</value>
+  </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Ang beatmap na ito ay may storyboard</value>
+  </data>
+  <data name="show.info.success-rate" xml:space="preserve">
+    <value>Rate ng Pagkakapasa</value>
+  </data>
+  <data name="show.info.tags" xml:space="preserve">
+    <value>Mga Tag</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Ang beatmap na ito ay may bidyo</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Ang beatmap na ito ay naglalaman ng mga bagay na hindi angkop sa lahat ng manonood. Nais mo bang magpatuloy?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Maselang Nilalaman</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Tanggalin ang pagbabala</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Mga Beatmap</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Ipakita</value>
+  </data>
+  <data name="show.scoreboard.achieved" xml:space="preserve">
+    <value>nakamit nang {0}</value>
+  </data>
+  <data name="show.scoreboard.country" xml:space="preserve">
+    <value>Ranggong Pambansa</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Hindi ma-load ang ranking</value>
+  </data>
+  <data name="show.scoreboard.friend" xml:space="preserve">
+    <value>Ranggo sa Kaibigan</value>
+  </data>
+  <data name="show.scoreboard.global" xml:space="preserve">
+    <value>Pandaigdigang Ranggo</value>
+  </data>
+  <data name="show.scoreboard.supporter-link" xml:space="preserve">
+    <value>I-click &lt;a href="{0}"&gt;ito&lt;/a&gt; para makita ang mga feature na iyong matatamasa!</value>
+  </data>
+  <data name="show.scoreboard.supporter-only" xml:space="preserve">
+    <value>Kailangan mong maging osu!supporter para mabuksan ang Ranggo sa Kaibigan at Pambansang Ranggo!</value>
+  </data>
+  <data name="show.scoreboard.title" xml:space="preserve">
+    <value>Talaan ng Iskor</value>
+  </data>
+  <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
+    <value>Katumpakan</value>
+  </data>
+  <data name="show.scoreboard.headers.combo" xml:space="preserve">
+    <value>Pinakamahabang Combo</value>
+  </data>
+  <data name="show.scoreboard.headers.miss" xml:space="preserve">
+    <value>Miss</value>
+  </data>
+  <data name="show.scoreboard.headers.mods" xml:space="preserve">
+    <value>Mods</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="show.scoreboard.headers.player" xml:space="preserve">
+    <value>Manlalaro</value>
+  </data>
+  <data name="show.scoreboard.headers.rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="show.scoreboard.headers.score" xml:space="preserve">
+    <value>Puntos</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Kabuuang Puntos</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Oras</value>
+  </data>
+  <data name="show.scoreboard.no_scores.country" xml:space="preserve">
+    <value>Wala pa sa iyong bansa ang nakatala ng iskor sa mapang ito!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
+    <value>Wala pa sa iyong mga kaibigan ang nakatala ng iskor sa mapang ito!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.global" xml:space="preserve">
+    <value>Wala pang mga iskor. Nais mo bang maglagay dito?</value>
+  </data>
+  <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
+    <value>Nilo-load ang mga iskor...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
+    <value>Hindi Ranked na beatmap.</value>
+  </data>
+  <data name="show.scoreboard.score.first" xml:space="preserve">
+    <value>Nangunguna</value>
+  </data>
+  <data name="show.scoreboard.score.own" xml:space="preserve">
+    <value>Iyong Best</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Pindutin {0} para makita ang mga fancy features na makukuha mo!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>ito</value>
+  </data>
+  <data name="show.stats.cs" xml:space="preserve">
+    <value>Laki ng Bilog</value>
+  </data>
+  <data name="show.stats.cs-mania" xml:space="preserve">
+    <value>Bilang ng Key</value>
+  </data>
+  <data name="show.stats.drain" xml:space="preserve">
+    <value>Pagubos ng HP</value>
+  </data>
+  <data name="show.stats.accuracy" xml:space="preserve">
+    <value>Katumpakan</value>
+  </data>
+  <data name="show.stats.ar" xml:space="preserve">
+    <value>Approach Rate</value>
+  </data>
+  <data name="show.stats.stars" xml:space="preserve">
+    <value>Star Difficulty</value>
+  </data>
+  <data name="show.stats.total_length" xml:space="preserve">
+    <value>Haba</value>
+  </data>
+  <data name="show.stats.bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="show.stats.count_circles" xml:space="preserve">
+    <value>Bilang ng Bilog</value>
+  </data>
+  <data name="show.stats.count_sliders" xml:space="preserve">
+    <value>Bilang ng Slider</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Online na offset: {0}</value>
+  </data>
+  <data name="show.stats.user-rating" xml:space="preserve">
+    <value>Rating ng mga User</value>
+  </data>
+  <data name="show.stats.rating-spread" xml:space="preserve">
+    <value>Pagkakalatag ng Rating</value>
+  </data>
+  <data name="show.stats.nominations" xml:space="preserve">
+    <value>Mga Nominasyon</value>
+  </data>
+  <data name="show.stats.playcount" xml:space="preserve">
+    <value>Bilang ng Paglaro</value>
+  </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Ranked</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Aprubado</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Loved</value>
+  </data>
+  <data name="show.status.qualified" xml:space="preserve">
+    <value>Kwalipikado</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>Ginagawa pa lang</value>
+  </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>Nakabinbin</value>
+  </data>
+  <data name="show.status.graveyard" xml:space="preserve">
+    <value>Abandunado</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Ang Spotlight</value>
+  </data>
+</root>

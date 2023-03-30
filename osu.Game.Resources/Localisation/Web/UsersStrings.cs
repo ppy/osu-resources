@@ -1055,9 +1055,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowNotFoundTitle => new TranslatableString(getKey(@"show.not_found.title"), @"User not found! ;_;");
 
         /// <summary>
-        /// "Edit profile page"
+        /// "edit profile page"
         /// </summary>
-        public static LocalisableString ShowPageButton => new TranslatableString(getKey(@"show.page.button"), @"Edit profile page");
+        public static LocalisableString ShowPageButton => new TranslatableString(getKey(@"show.page.button"), @"edit profile page");
 
         /// <summary>
         /// "&lt;strong&gt;me!&lt;/strong&gt; is a personal customisable area in your profile page."
@@ -1130,9 +1130,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsLevel(LocalisableString level) => new TranslatableString(getKey(@"show.stats.level"), @"Level {0}", level);
 
         /// <summary>
-        /// "Progress to next level"
+        /// "progress to next level"
         /// </summary>
-        public static LocalisableString ShowStatsLevelProgress => new TranslatableString(getKey(@"show.stats.level_progress"), @"Progress to next level");
+        public static LocalisableString ShowStatsLevelProgress => new TranslatableString(getKey(@"show.stats.level_progress"), @"progress to next level");
 
         /// <summary>
         /// "Maximum Combo"

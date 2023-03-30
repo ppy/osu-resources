@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Geriau pažaisk daugiau osu!, jo?</value>
+  </data>
+  <data name="require_login" xml:space="preserve">
+    <value>Norint tęsti reikia prisijungti.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Patvirtinkite jei norite tęsti.</value>
+  </data>
+  <data name="restricted" xml:space="preserve">
+    <value>Kol ribotas negali to daryti.</value>
+  </data>
+  <data name="silenced" xml:space="preserve">
+    <value>Kol užtildytas negali to daryti.</value>
+  </data>
+  <data name="unauthorized" xml:space="preserve">
+    <value>Prieiga draudžiama.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
+    <value>Iškėlimo nuėmimas negalimas.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
+    <value>Diskusijų su atsakymais ištrinti negalima</value>
+  </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>Jau pasiekei dienos nominacijų limitą, pamėgink rytoj.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
+    <value>Įvyko klaida atliekant šį veiksmą, pamėgink atnaujinti puslapį.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
+    <value> Savo bitmapo nominuoti negali.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Jūs turite nustatyti žanrą ir kalbą prieš nominuojant.</value>
+  </data>
+  <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
+    <value>Uždaryti diskusiją gali tik pokalbio ir bitmapo kūrėjai.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Tik bitmapo savininkas ar nominatorius/NAT grupės narys gali rašyti į kūrėjo užrašus.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Negalima balsuoti diskusijoje sukurtoje boto</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>Palaukite kurį laiką prieš balsuojant daugiau</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>Negali balsuoti už savo diskusiją.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>Gali balsuoti tik nepabaigtų bitmapų diskusijose.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Jūs galite ištrinti tik savo įrašus.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Jūs negalite ištrinti įrašo kuris priklauso išspręstai diskusijai.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Automatiškai sugeneruotas įrašas negali būti ištrintas.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Tik įrašo autorius gali redaguoti įrašą.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Jūs negalite redaguoti įrašo kuris priklauso išspręstai diskusijai.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>Automatiškai sugeneruoti įrašai negali būti redaguojami.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Jūs negalite pakeisti nominuoto bitmapo metaduomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad jie buvo nustatyti neteisingai.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Šis kanalas tik skelbimams.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>Negalima išsiųsti žinučių vartotojui, kuris yra jūs užblokavęs, ar jūs esat užblokavę.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Vartotojas šiuo metu užblokavo žinutės iš žmonių, kurie nėra vartotojo draugų sąraše.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Šiuo momentu šis kanalas yra prižiūrimas.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>Jūs neturite leidimo įeiti į šį kanalą.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Naudotojas gali negalėti atsakyti, nes priėmat žinutes tik iš žmonių jūsų draugų sąraše.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>Būnant užblokuotam, apribotam, užtildytam, jūs negalite siųsti žinučių.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Būnant užblokuotam, apribotam, užtildytam, jūs negalite siųsti žinučių.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Komentarai išjungti</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>Ištrinto įrašo negalima redaguoti.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>Po konkurso balsavimo pabaigos, balso keitimas nebegalimas.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Jūs pasiekėt pateikymų limitą šiam konkursui</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Ačiū už jūsų pateiktis! Pateikimas šiam konkursui buvo sustabdytas ir netrukus prasidės balsavimas.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Leidimo keisti šį forumą jūs neturite.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>Trinti galima tik paskutinį įrašą.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>Užrakintos temos įrašų trinti negalima.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>Tik įrašo autorius gali ištrinti įrašą.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>Ištrinto įrašo negalima redaguoti.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>Įrašo redagavimas buvo uždraustas.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>Tik įrašo autorius gali ištrinti įrašą.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>Po temos užrakinimo trinti įrašų negalima.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Prašau pažaisk žaidimą prieš dalyvaujant forumuose! Jei kyla problemų su žaidimu, prašau kreiptis į Pagalbos ir Palaikymo forumą.</value>
+  </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>Tau reikia daugiau žaisti žaidimą prieš publikuojant daugiau įrašų. Jeigu vis dar kyla problemų žaidžiant, siųsk el. laišką į support@ppy.sh</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Prašome redaguoti paskutinį įrašą, vietoj publikavimo dar kartą.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>Negalima atsakinėti į užrakintą temą.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>Atsakymui neturi leidimo.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Atrašymui reikia prisijungti.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>Kol esi ribojamas negali atrašinėti.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>Kol esi užtildytas negali atrašinėti.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>Neturi teisių kurti naujai temai.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>Forumas buvo uždarytas ir rašyti jame nebegalima.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>Apklausa baigėsi ir balsavimai nebegalimi.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Jūs turita pažaisti ilgiau prieš balsuojant forume.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Keisti balso negalima.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Balsavimui reikia prisijungti.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>Kol esi ribojamas negali balsuoti.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>Kol esi pritildytas negali balsuoti.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>Nurodytas neteisingas viršelis.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>Viršelį gali redaguoti tik savininkas.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Šis forumas nepriima temų viršelių.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>Šį forumą gali skaityti tik administratoriai.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Tik rezultato savininkas gali prisegti rezultatą.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Prisegta perdaug rezultatų.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>Vartotojo puslapis užrakintas.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>Gali redaguoti tik savo profilio puslapį.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>osu! remėjo žyma yra reikalinga.</value>
+  </data>
+</root>

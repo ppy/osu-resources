@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>учитавање корисника...</value>
+  </data>
+  <data name="talking_in" xml:space="preserve">
+    <value>причате у {0}</value>
+  </data>
+  <data name="talking_with" xml:space="preserve">
+    <value>причате са {0}</value>
+  </data>
+  <data name="title_compact" xml:space="preserve">
+    <value>чет</value>
+  </data>
+  <data name="unread_messages" xml:space="preserve">
+    <value>непрочитане поруке</value>
+  </data>
+  <data name="cannot_send.channel" xml:space="preserve">
+    <value>Тренутно не можете слати поруке у овај чет.</value>
+  </data>
+  <data name="cannot_send.user" xml:space="preserve">
+    <value>Тренутно не можете слати поруке овом кориснику.</value>
+  </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Да ли желите да сакријете овај канал? И даље ће те примати поруке са овог канала.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>креирај најаву</value>
+  </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Најаве</value>
+  </data>
+  <data name="channels.list.title.group" xml:space="preserve">
+    <value>Групе</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Директне поруке</value>
+  </data>
+  <data name="channels.list.title.public" xml:space="preserve">
+    <value>Канали</value>
+  </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Креирај најаву</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>опис</value>
+  </data>
+  <data name="form.labels.message" xml:space="preserve">
+    <value>порука</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>име собе</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>играче за додати</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Овде не постоји ништа, можда сте изашли из канала или канал не постоји...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>канал није пронађен</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Креирај</value>
+  </data>
+  <data name="input.disabled" xml:space="preserve">
+    <value>немогуће је послати поруку...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Прекинута веза</value>
+  </data>
+  <data name="input.placeholder" xml:space="preserve">
+    <value>напишите поруку...</value>
+  </data>
+  <data name="input.send" xml:space="preserve">
+    <value>Пошаљи</value>
+  </data>
+  <data name="no-conversations.howto" xml:space="preserve">
+    <value>Започните конверзацију из корисниковог профила или са њихове popup картице.</value>
+  </data>
+  <data name="no-conversations.lazer" xml:space="preserve">
+    <value>Јавни канали којима се придружите преко &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; ће такође бити видљиви овде.</value>
+  </data>
+  <data name="no-conversations.title" xml:space="preserve">
+    <value>још нема разговора</value>
+  </data>
+</root>

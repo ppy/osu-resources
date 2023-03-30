@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Дошло је до грешке са ажурирањем гласа</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>дозволи кудосу</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Страница мапе</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>обришите</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>Обрисано од стране {0} у {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>одбиј кудосу</value>
+  </data>
+  <data name="discussions.edit" xml:space="preserve">
+    <value>измени</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>Последњи пут измењено од стране {0} у {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Гостојућа тежина од{0}</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Добијање кудосу је одбијено.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Ова тежина мапе је обрисана и не може се више дискутовати о њој.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Дискусија за ову мапу је искључена.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Не можете постовати на дискусију док сте мутирани.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>Изабери врсту коментара</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>Притисните ентер да одговорите.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>Овде унесите ваш одговор</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Пријавите се да бисте поставили или одговорили</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>Решено</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>поврати</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>Покажи обрисане</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>Дискусије</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Обори све</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Рашири све</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>Још увек није започета дискусија!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Не постоји дискусија која одговара Вашем филтеру.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>Закључај дискусију</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>Откључај дискусију</value>
+  </data>
+  <data name="discussions.lock.prompt.lock" xml:space="preserve">
+    <value>Разлог за закључавање</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>Да ли сте сигурни да желите да откључате дискусију?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Овај пост ће бити постављен у генералну дискусију за сет мапе. Да би сте модовали ову мапу, започните поруку са маркером (нпр. 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Да би сте модовали више маркера, направите више постова (један пост по маркеру).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали у Генералну ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали у Генералну (Све тежине)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Куцајте овде да би сте поставили рецензију</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Куцајте овде да би сте постовали на временску линију ({0})</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>Дисквалификуј</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>Хајп!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>Белешке</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>Ресетујте номинацију</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>Похвалите</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>Проблем</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Пријавите Проблем</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Рецензија</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>Предлог</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>Историја</value>
+  </data>
+  <data name="discussions.mode.general" xml:space="preserve">
+    <value>Генерална {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Рецензије</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>Временска линија</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>Ова тежина мапе</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>Све тежине мапе</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>Закачи</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Временски печат</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl-c у едит моду и ctrl-v у Вашој поруци да би сте додали временски печат!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>Нова Дискусија</value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>Откачи</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Нова рецензија</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Обриши</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[ДИСКУСИЈА ОБРИСАНА]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Раздвоји</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Несачуване</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Постови за све тежине мапе не могу садржати временски печат.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Ако {0} почиње са временским печатом, биће показана испод временске линије.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>уметни пасус</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>уметни похвалу</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>уметни проблем</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>уметни сугестију</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} маповано од стране {1}</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>Време креирања</value>
+  </data>
+  <data name="discussions.sort.timeline" xml:space="preserve">
+    <value>Временска линија</value>
+  </data>
+  <data name="discussions.sort.updated_at" xml:space="preserve">
+    <value>Последње ажурирање</value>
+  </data>
+  <data name="discussions.stats.deleted" xml:space="preserve">
+    <value>Обрисано</value>
+  </data>
+  <data name="discussions.stats.mapper_notes" xml:space="preserve">
+    <value>Белешке</value>
+  </data>
+  <data name="discussions.stats.mine" xml:space="preserve">
+    <value>Моје</value>
+  </data>
+  <data name="discussions.stats.pending" xml:space="preserve">
+    <value>На чекању</value>
+  </data>
+  <data name="discussions.stats.praises" xml:space="preserve">
+    <value>Похвале</value>
+  </data>
+  <data name="discussions.stats.resolved" xml:space="preserve">
+    <value>Решено</value>
+  </data>
+  <data name="discussions.stats.total" xml:space="preserve">
+    <value>Све</value>
+  </data>
+  <data name="discussions.status-messages.approved" xml:space="preserve">
+    <value>Ова мапа је додата у одобрену категорију {0}!</value>
+  </data>
+  <data name="discussions.status-messages.graveyard" xml:space="preserve">
+    <value>Ова мапа није ажурирана од {0} и из тог разлога је померена у "graveyarded" категорију...</value>
+  </data>
+  <data name="discussions.status-messages.loved" xml:space="preserve">
+    <value>Ова мапа је додата у "loved" категорију {0}!</value>
+  </data>
+  <data name="discussions.status-messages.ranked" xml:space="preserve">
+    <value>Ова мапа је додата у "ranked" категорију {0}!</value>
+  </data>
+  <data name="discussions.status-messages.wip" xml:space="preserve">
+    <value>Белешка: Ова мапа је означена као рад у току од стране креатора.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Тренутно нема дислајкова</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Тренутно нема лајкова</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Најновији дислајкови</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Најновији лајкови</value>
+  </data>
+  <data name="hype.button" xml:space="preserve">
+    <value>"Хајпујте" Мапу!</value>
+  </data>
+  <data name="hype.button_done" xml:space="preserve">
+    <value>Већ сте "Хајповали"!</value>
+  </data>
+  <data name="hype.confirm" xml:space="preserve">
+    <value>Да ли сте сигурни? Ова акција ће искористити једну од Ваших преосталих {0} "хајпова" и не може бити поништено.</value>
+  </data>
+  <data name="hype.explanation" xml:space="preserve">
+    <value>"Хајпујте" ову мапу да би била видљивија за номинације и "ranked" статус!</value>
+  </data>
+  <data name="hype.explanation_guest" xml:space="preserve">
+    <value>Улогујте се и "хајпујте" ову мапу да би била видљивија за номинације и "ranked" статус!</value>
+  </data>
+  <data name="hype.new_time" xml:space="preserve">
+    <value>Добићете још један "хајп" у {0}.</value>
+  </data>
+  <data name="hype.remaining" xml:space="preserve">
+    <value>Имате још {0} "хајпова".</value>
+  </data>
+  <data name="hype.required_text" xml:space="preserve">
+    <value>"Хајп" {0}/{1}</value>
+  </data>
+  <data name="hype.section_title" xml:space="preserve">
+    <value>"Хајп" Воз</value>
+  </data>
+  <data name="hype.title" xml:space="preserve">
+    <value>"Хајп"</value>
+  </data>
+  <data name="feedback.button" xml:space="preserve">
+    <value>Оставите Утиске</value>
+  </data>
+  <data name="nominations.delete" xml:space="preserve">
+    <value>Обришите</value>
+  </data>
+  <data name="nominations.delete_own_confirm" xml:space="preserve">
+    <value>Да ли сте сигурни? Мапа ће бити обрисана и бићете враћени назад на Ваш профил.</value>
+  </data>
+  <data name="nominations.delete_other_confirm" xml:space="preserve">
+    <value>Да ли сте сигурни? Мапа ће бити обрисана и бићете враћени назад на профил корисника.</value>
+  </data>
+  <data name="nominations.disqualification_prompt" xml:space="preserve">
+    <value>Разлог за дисквалификацију?</value>
+  </data>
+  <data name="nominations.disqualified_at" xml:space="preserve">
+    <value>Дисквалификовано {0} ({1}).</value>
+  </data>
+  <data name="nominations.disqualified_no_reason" xml:space="preserve">
+    <value>без одређеног разлога</value>
+  </data>
+  <data name="nominations.disqualify" xml:space="preserve">
+    <value>Дисквалификујте</value>
+  </data>
+  <data name="nominations.incorrect_state" xml:space="preserve">
+    <value>Дошло је до грешке, покушајте да освежите страницу.</value>
+  </data>
+  <data name="nominations.love" xml:space="preserve">
+    <value>"love"</value>
+  </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Изаберите тежину за "loved"</value>
+  </data>
+  <data name="nominations.love_confirm" xml:space="preserve">
+    <value>"Love"-ујте ову мапу?</value>
+  </data>
+  <data name="nominations.nominate" xml:space="preserve">
+    <value>Номинујте</value>
+  </data>
+  <data name="nominations.nominate_confirm" xml:space="preserve">
+    <value>Номинујте ову мапу?</value>
+  </data>
+  <data name="nominations.nominated_by" xml:space="preserve">
+    <value>номиновано од стране {0}</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Нема довољно "хајпа".</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Уклоните из "loved"</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Разлог за уклањање из "Лoved":</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>Номинације: {0}/{1}
+</value>
+  </data>
+  <data name="nominations.reset_message_deleted" xml:space="preserve">
+    <value>обрисано</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>Статус Номинације</value>
+  </data>
+  <data name="nominations.unresolved_issues" xml:space="preserve">
+    <value>Још увек има нерешених проблема који се прво морају решити.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Процењује се да ће мапа бити померена у "ranked" секцију {0} ако се не пронађу проблеми. Мапа је тренутно #{1} у {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>ред за "ranked" секцију</value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>ускоро</value>
+  </data>
+  <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
+    <value>Процес номинације је ресетован {0} од стране {1} са новим проблемом {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_at.disqualify" xml:space="preserve">
+    <value>Дисквалификовано {0} од стране {1} са новим проблемом {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>Да ли сте сигурни? Ово ће уклонити мапу из квалификација и рестартоваће процес номинације.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>Да ли сте сигурни? Качењем новог проблема се ресетује процес номинације.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Да ли сте сигурни да желите пријавити проблем са овом мапом? Ово акција ће обавестити Номинаторе Мапа.</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>унесите кључну реч...</value>
+  </data>
+  <data name="listing.search.login_required" xml:space="preserve">
+    <value>Улогујте се да би сте тражили.</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Више опција за тражење</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Филтеровање по {0} захтева да имате активну osu!supporter претплату</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>нема резултата</value>
+  </data>
+  <data name="listing.search.not-found-quote" xml:space="preserve">
+    <value>... не, ништа нисмо нашли.</value>
+  </data>
+  <data name="listing.search.filters.extra" xml:space="preserve">
+    <value>Додаци</value>
+  </data>
+  <data name="listing.search.filters.general" xml:space="preserve">
+    <value>Опште</value>
+  </data>
+  <data name="listing.search.filters.genre" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="listing.search.filters.language" xml:space="preserve">
+    <value>Језик</value>
+  </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>Мод</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Експлицитни Садржај</value>
+  </data>
+  <data name="listing.search.filters.played" xml:space="preserve">
+    <value>Одиграно</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Достигнут ранк</value>
+  </data>
+  <data name="listing.search.filters.status" xml:space="preserve">
+    <value>Категорије</value>
+  </data>
+  <data name="listing.search.sorting.title" xml:space="preserve">
+    <value>Наслов</value>
+  </data>
+  <data name="listing.search.sorting.artist" xml:space="preserve">
+    <value>Извођач</value>
+  </data>
+  <data name="listing.search.sorting.difficulty" xml:space="preserve">
+    <value>Тежина</value>
+  </data>
+  <data name="listing.search.sorting.favourites" xml:space="preserve">
+    <value>Омиљено</value>
+  </data>
+  <data name="listing.search.sorting.updated" xml:space="preserve">
+    <value>Ажурирано</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Ранковано</value>
+  </data>
+  <data name="listing.search.sorting.rating" xml:space="preserve">
+    <value>Оцена</value>
+  </data>
+  <data name="listing.search.sorting.plays" xml:space="preserve">
+    <value>Одиграно</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Релевантност</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Номинације</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Филтеровање по {0} захтева да имате активан {1}</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>osu!supporter претплата</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Укључујући конвертоване мапе</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Истакнути уметници</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Креатори које пратите</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Препоручена тежина</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Истакнуте мапе</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Све</value>
+  </data>
+  <data name="mode.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="status.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="status.approved" xml:space="preserve">
+    <value>Одобрено</value>
+  </data>
+  <data name="status.favourites" xml:space="preserve">
+    <value>Омиљено</value>
+  </data>
+  <data name="status.graveyard" xml:space="preserve">
+    <value>Гробље</value>
+  </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Има табелу</value>
+  </data>
+  <data name="status.loved" xml:space="preserve">
+    <value>"loved"</value>
+  </data>
+  <data name="status.mine" xml:space="preserve">
+    <value>Моје Мапе</value>
+  </data>
+  <data name="status.pending" xml:space="preserve">
+    <value>На чекању</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>Рад у току</value>
+  </data>
+  <data name="status.qualified" xml:space="preserve">
+    <value>Квалификовано</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Рангирано</value>
+  </data>
+  <data name="genre.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="genre.unspecified" xml:space="preserve">
+    <value>Недефинисано</value>
+  </data>
+  <data name="genre.video-game" xml:space="preserve">
+    <value>Видео игре</value>
+  </data>
+  <data name="genre.anime" xml:space="preserve">
+    <value>Аниме</value>
+  </data>
+  <data name="genre.rock" xml:space="preserve">
+    <value>Рок</value>
+  </data>
+  <data name="genre.pop" xml:space="preserve">
+    <value>Поп</value>
+  </data>
+  <data name="genre.other" xml:space="preserve">
+    <value>Остало</value>
+  </data>
+  <data name="genre.novelty" xml:space="preserve">
+    <value>Оригинално</value>
+  </data>
+  <data name="genre.hip-hop" xml:space="preserve">
+    <value>Хип Хоп</value>
+  </data>
+  <data name="genre.electronic" xml:space="preserve">
+    <value>Електроника</value>
+  </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Метал</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Класика</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Фолк</value>
+  </data>
+  <data name="genre.jazz" xml:space="preserve">
+    <value>Џез</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="language.english" xml:space="preserve">
+    <value>Енглески</value>
+  </data>
+  <data name="language.chinese" xml:space="preserve">
+    <value>Кинески</value>
+  </data>
+  <data name="language.french" xml:space="preserve">
+    <value>Француски</value>
+  </data>
+  <data name="language.german" xml:space="preserve">
+    <value>Немачки</value>
+  </data>
+  <data name="language.italian" xml:space="preserve">
+    <value>Италијански</value>
+  </data>
+  <data name="language.japanese" xml:space="preserve">
+    <value>Јапански</value>
+  </data>
+  <data name="language.korean" xml:space="preserve">
+    <value>Корејски</value>
+  </data>
+  <data name="language.spanish" xml:space="preserve">
+    <value>Шпански</value>
+  </data>
+  <data name="language.swedish" xml:space="preserve">
+    <value>Шведски</value>
+  </data>
+  <data name="language.russian" xml:space="preserve">
+    <value>Руски</value>
+  </data>
+  <data name="language.polish" xml:space="preserve">
+    <value>Пољски</value>
+  </data>
+  <data name="language.instrumental" xml:space="preserve">
+    <value>Инструментал</value>
+  </data>
+  <data name="language.other" xml:space="preserve">
+    <value>Остало</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Недефинисано</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Сакријте</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Прикажите</value>
+  </data>
+  <data name="played.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="played.played" xml:space="preserve">
+    <value>Одиграно</value>
+  </data>
+  <data name="played.unplayed" xml:space="preserve">
+    <value>Неиграно</value>
+  </data>
+  <data name="extra.video" xml:space="preserve">
+    <value>Има Видео</value>
+  </data>
+  <data name="extra.storyboard" xml:space="preserve">
+    <value>Има "Storyboard"</value>
+  </data>
+  <data name="rank.any" xml:space="preserve">
+    <value>Било који</value>
+  </data>
+  <data name="rank.xh" xml:space="preserve">
+    <value>Сребрни СС</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>Сребрни С</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>Број игара: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Фаворити: {0}</value>
+  </data>
+  <data name="variant.mania.4k" xml:space="preserve">
+    <value>4K</value>
+  </data>
+  <data name="variant.mania.7k" xml:space="preserve">
+    <value>7K</value>
+  </data>
+  <data name="variant.mania.all" xml:space="preserve">
+    <value>Све</value>
+  </data>
+</root>

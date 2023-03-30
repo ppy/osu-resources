@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>įkeliami vartotojai...</value>
+  </data>
+  <data name="talking_in" xml:space="preserve">
+    <value>pokalbis {0}</value>
+  </data>
+  <data name="talking_with" xml:space="preserve">
+    <value>pokalbis su {0}</value>
+  </data>
+  <data name="title_compact" xml:space="preserve">
+    <value>pokalbiai</value>
+  </data>
+  <data name="cannot_send.channel" xml:space="preserve">
+    <value>Šiuo metu jūs negalite rašyti šiame kanale.</value>
+  </data>
+  <data name="cannot_send.user" xml:space="preserve">
+    <value>Šiuo metu jūs negalite rašyti šiam žaidėjui.</value>
+  </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Ar norite paslėpti šį kanalą? Jūs toliau gausite žinutes iš šio kanalo.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>kurti skelbimą</value>
+  </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Skelbimai</value>
+  </data>
+  <data name="channels.list.title.group" xml:space="preserve">
+    <value>Grupės</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Tiesioginės žinutės</value>
+  </data>
+  <data name="channels.list.title.public" xml:space="preserve">
+    <value>Kanalai</value>
+  </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Sukurti Naują Skelbimą</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>aprašymas</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>kambario pavadinimas</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>žaidėjai pridėjimui</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Čia nieko nėra. Galbūt jūs palikote šį kanalą arba jis nebeegzistuoja...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>kanalas nerastas</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Kurti</value>
+  </data>
+  <data name="input.disabled" xml:space="preserve">
+    <value>žinutės išsiųsti nepavyko...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Atjungta</value>
+  </data>
+  <data name="input.placeholder" xml:space="preserve">
+    <value>rašyk čia...</value>
+  </data>
+  <data name="input.send" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="no-conversations.howto" xml:space="preserve">
+    <value>Pradėkite pokalbį iš vartotojo profilio arba iššokančios kortelės.</value>
+  </data>
+  <data name="no-conversations.lazer" xml:space="preserve">
+    <value>Vieši kanalai prisijungti per &lt;a href="{0}"&gt;osu!lazer&lt;/a&gt; bus matomi ir čia.</value>
+  </data>
+  <data name="no-conversations.title" xml:space="preserve">
+    <value>kol kas pokalbių nėra</value>
+  </data>
+</root>

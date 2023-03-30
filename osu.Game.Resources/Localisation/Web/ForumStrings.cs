@@ -265,9 +265,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TopicCreatePreview => new TranslatableString(getKey(@"topic.create.preview"), @"Preview");
 
         /// <summary>
-        /// "Write"
+        /// "Edit"
         /// </summary>
-        public static LocalisableString TopicCreatePreviewHide => new TranslatableString(getKey(@"topic.create.preview_hide"), @"Write");
+        public static LocalisableString TopicCreatePreviewHide => new TranslatableString(getKey(@"topic.create.preview_hide"), @"Edit");
 
         /// <summary>
         /// "Post"

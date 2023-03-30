@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Dapat ay naka-sign-in para mag-edit.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Hindi maaaring i-edit ang post na ginawa ng sistema.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Dapat ay may-ari ng post para maka-edit.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Walang pang nangyari... sa ngayon.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>tinanggal</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Walang diskusyon na tumugma sa pamantayan na hinahanap.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Talakayan ng Beatmap</value>
+  </data>
+  <data name="index.form._" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Isama ang mga tinanggal na talakayan</value>
+  </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Mode ng beatmap</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Ipakita lamang ang diskusyon na hindi pa nalulutas</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Mga uri ng mensahe</value>
+  </data>
+  <data name="index.form.username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Estado ng beatmap</value>
+  </data>
+  <data name="index.form.beatmapset_status.all" xml:space="preserve">
+    <value>Lahat</value>
+  </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Diskwalipikado</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Hindi kwalipikado</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Kwalipikado</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Ranked</value>
+  </data>
+  <data name="index.form.user.label" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Pangkalahatang aktibidad</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Petsa ng post</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Petsa ng pagkakaalis</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Uri</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Permalink</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Wala sa mga post ang nakatulong sa aking tungkulin</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Mayroong mga post noong humigit-kumulang {0} ({1}). Mangyaring suriin ang mga ito bago mag-post.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} sa pagsusuri na ito</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>May-ari ng difficulty</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>I-reset ang may-ari ng difficulty na ito?</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>May-ari</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Mag-sign in upang maka-sagot</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Tumugon</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} sa {1} na bloke ang gamit na</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Tignan ang naisuring poste</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Tignan ang diskusyon</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>hanggang {0} na karakter lamang ang maaari sa bawat bloke</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>nagbabanggit ang rebyu ng mga isyu na hindi nababagay sa rebyu na ito</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>invalid na uri ng bloke</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>hindi wastong pagsusuri</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>maling uri ng diskusyon</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>kailangang may {0} o higit pa na mga isyu ang rebyu</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>walang text ang bloke</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>hanggang {0} na mga talata o isyu lamang ang maaari</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>Minarkahang resolbado ni {0}</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>Muling binuksan ni {0}</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>pangkalahatan</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>pangkalahatan (lahat)</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Lahat</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>I-filter sa user</value>
+  </data>
+</root>

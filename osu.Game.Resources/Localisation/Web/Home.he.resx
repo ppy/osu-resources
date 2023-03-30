@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="landing.download" xml:space="preserve">
+    <value>הורד עכשיו</value>
+  </data>
+  <data name="landing.online" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; כרגע מחוברים ב- &lt;strong&gt;{1}&lt;/strong&gt; משחקים</value>
+  </data>
+  <data name="landing.peak" xml:space="preserve">
+    <value>שיא, {0} משתמשים מחוברים</value>
+  </data>
+  <data name="landing.players" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; משתמשים רשומים</value>
+  </data>
+  <data name="landing.title" xml:space="preserve">
+    <value>ברוך הבא</value>
+  </data>
+  <data name="landing.see_more_news" xml:space="preserve">
+    <value>הצג עוד חדשות</value>
+  </data>
+  <data name="landing.slogan.main" xml:space="preserve">
+    <value>משחק הקצב החינמי הכי טוב</value>
+  </data>
+  <data name="landing.slogan.sub" xml:space="preserve">
+    <value>קצב הוא רק במרחק לחיצה</value>
+  </data>
+  <data name="search.advanced_link" xml:space="preserve">
+    <value>חיפוש מתקדם</value>
+  </data>
+  <data name="search.button" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="search.empty_result" xml:space="preserve">
+    <value>לא נמצא דבר!</value>
+  </data>
+  <data name="search.keyword_required" xml:space="preserve">
+    <value>מילת חיפוש נדרשת</value>
+  </data>
+  <data name="search.placeholder" xml:space="preserve">
+    <value>הקלד לחיפוש</value>
+  </data>
+  <data name="search.title" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="search.beatmapset.login_required" xml:space="preserve">
+    <value>התחבר כדי לחפש מפות משחק</value>
+  </data>
+  <data name="search.beatmapset.more" xml:space="preserve">
+    <value>{0} יותר תוצאות חיפוש מפה</value>
+  </data>
+  <data name="search.beatmapset.more_simple" xml:space="preserve">
+    <value>ראה עוד תוצאות חיפוש מפה</value>
+  </data>
+  <data name="search.beatmapset.title" xml:space="preserve">
+    <value>מפות</value>
+  </data>
+  <data name="search.forum_post.all" xml:space="preserve">
+    <value>כל הפורומים</value>
+  </data>
+  <data name="search.forum_post.link" xml:space="preserve">
+    <value>חפש פורום</value>
+  </data>
+  <data name="search.forum_post.login_required" xml:space="preserve">
+    <value>התחבר כדי לחפש את הפורום</value>
+  </data>
+  <data name="search.forum_post.more_simple" xml:space="preserve">
+    <value>ראה עוד תוצאות חיפוש פורום</value>
+  </data>
+  <data name="search.forum_post.title" xml:space="preserve">
+    <value>פורום</value>
+  </data>
+  <data name="search.forum_post.label.forum" xml:space="preserve">
+    <value>חפש בפורומים</value>
+  </data>
+  <data name="search.forum_post.label.forum_children" xml:space="preserve">
+    <value>כלול תתי פורום</value>
+  </data>
+  <data name="search.forum_post.label.topic_id" xml:space="preserve">
+    <value>מספר נושא</value>
+  </data>
+  <data name="search.forum_post.label.username" xml:space="preserve">
+    <value>מחבר</value>
+  </data>
+  <data name="search.mode.all" xml:space="preserve">
+    <value>הכל</value>
+  </data>
+  <data name="search.mode.beatmapset" xml:space="preserve">
+    <value>ביטמאפ</value>
+  </data>
+  <data name="search.mode.forum_post" xml:space="preserve">
+    <value>פורום</value>
+  </data>
+  <data name="search.mode.user" xml:space="preserve">
+    <value>שחקן</value>
+  </data>
+  <data name="search.mode.wiki_page" xml:space="preserve">
+    <value>וויקי</value>
+  </data>
+  <data name="search.user.login_required" xml:space="preserve">
+    <value>התחפש בכדי לחפש משתמשים</value>
+  </data>
+  <data name="search.user.more" xml:space="preserve">
+    <value>{0} יותר תוצאות חיפוש שחקנים</value>
+  </data>
+  <data name="search.user.more_simple" xml:space="preserve">
+    <value>ראה עוד תוצאות חיפוש שחקנים</value>
+  </data>
+  <data name="search.user.more_hidden" xml:space="preserve">
+    <value>חיפוש שחקנים מוגבל ל- {0} שחקנים. נסה לשפר את הגדרות החיפוש.</value>
+  </data>
+  <data name="search.user.title" xml:space="preserve">
+    <value>שחקנים</value>
+  </data>
+  <data name="search.wiki_page.link" xml:space="preserve">
+    <value>חפש ויקי</value>
+  </data>
+  <data name="search.wiki_page.more_simple" xml:space="preserve">
+    <value>ראה עוד תוצאות חיפוש ויקי</value>
+  </data>
+  <data name="search.wiki_page.title" xml:space="preserve">
+    <value>ויקי</value>
+  </data>
+  <data name="download.action" xml:space="preserve">
+    <value>הורד osu!</value>
+  </data>
+  <data name="download.macos-fallback" xml:space="preserve">
+    <value>משתמשי macOS</value>
+  </data>
+  <data name="download.mirror" xml:space="preserve">
+    <value>מראה</value>
+  </data>
+  <data name="download.tagline" xml:space="preserve">
+    <value>בוא&lt;br&gt;נתחיל!</value>
+  </data>
+  <data name="download.video-guide" xml:space="preserve">
+    <value>מדריך וידאו</value>
+  </data>
+  <data name="download.help._" xml:space="preserve">
+    <value>אם ישנה בעיה עם הרצת המשחק או ההרשמה למשתמש, {0} או {1}.</value>
+  </data>
+  <data name="download.help.help_forum_link" xml:space="preserve">
+    <value>פורום בדוק עזרה</value>
+  </data>
+  <data name="download.help.support_button" xml:space="preserve">
+    <value>יצירת קשר עם התמיכה</value>
+  </data>
+  <data name="download.os.windows" xml:space="preserve">
+    <value>עבור Windows</value>
+  </data>
+  <data name="download.os.macos" xml:space="preserve">
+    <value>עבור macOS</value>
+  </data>
+  <data name="download.os.linux" xml:space="preserve">
+    <value>עבור Linux</value>
+  </data>
+  <data name="download.steps.register.title" xml:space="preserve">
+    <value>השג חשבון</value>
+  </data>
+  <data name="download.steps.register.description" xml:space="preserve">
+    <value>עקוב אחר ההנחיות בתחילת המשחק כדי להתחבר או ליצור משתמש חדש</value>
+  </data>
+  <data name="download.steps.download.title" xml:space="preserve">
+    <value>הורד את המשחק</value>
+  </data>
+  <data name="download.steps.download.description" xml:space="preserve">
+    <value>לחץ על הכפתור למעלה כדי להוריד את ההתקנה, ואז הפעל אותה!</value>
+  </data>
+  <data name="download.steps.beatmaps.title" xml:space="preserve">
+    <value>השג מפות</value>
+  </data>
+  <data name="download.steps.beatmaps.description._" xml:space="preserve">
+    <value>{0} את הספריה הנרחבת של מפות שנוצרו על ידי משתמשים והתחל לשחק!</value>
+  </data>
+  <data name="download.steps.beatmaps.description.browse" xml:space="preserve">
+    <value>עיין</value>
+  </data>
+  <data name="user.title" xml:space="preserve">
+    <value>לוח</value>
+  </data>
+  <data name="user.news.title" xml:space="preserve">
+    <value>חדשות</value>
+  </data>
+  <data name="user.news.error" xml:space="preserve">
+    <value>שגיאה בטעינת החדשות, נסה לרענן את הדף?...</value>
+  </data>
+  <data name="user.header.stats.friends" xml:space="preserve">
+    <value>חברים מחוברים</value>
+  </data>
+  <data name="user.header.stats.games" xml:space="preserve">
+    <value>משחקים</value>
+  </data>
+  <data name="user.header.stats.online" xml:space="preserve">
+    <value>משתמשים מחוברים</value>
+  </data>
+  <data name="user.beatmaps.new" xml:space="preserve">
+    <value>מפות מדורגות חדשות</value>
+  </data>
+  <data name="user.beatmaps.popular" xml:space="preserve">
+    <value>מפות פופולריות</value>
+  </data>
+  <data name="user.beatmaps.by_user" xml:space="preserve">
+    <value>על ידי {0}</value>
+  </data>
+  <data name="user.buttons.download" xml:space="preserve">
+    <value>הורד את osu!</value>
+  </data>
+  <data name="user.buttons.support" xml:space="preserve">
+    <value>תמוך ב- osu!</value>
+  </data>
+  <data name="user.buttons.store" xml:space="preserve">
+    <value>חנות osu!</value>
+  </data>
+</root>

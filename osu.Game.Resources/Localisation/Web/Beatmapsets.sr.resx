@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="availability.disabled" xml:space="preserve">
+    <value>Ова мапа није тренутно доступна за преузимање.</value>
+  </data>
+  <data name="availability.parts-removed" xml:space="preserve">
+    <value>Делови ове беатмапе су уклоњени на захтев власника или трећег носиоца права.
+</value>
+  </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Кликни овде за више информација.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Нека средства садржана у овој мапи су уклоњена након што су сматрана неприкладним за употребу у osu!.
+</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Обрисана мапа</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Успорите, играјте више.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Истакнут уметник</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Листинг мапа</value>
+  </data>
+  <data name="index.guest_title" xml:space="preserve">
+    <value>Мапе</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>нема мапе</value>
+  </data>
+  <data name="panel.download.all" xml:space="preserve">
+    <value>преузмите</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>преузмите са видеом</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>преузмите без видеа</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>отвори у osu!direct</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Хибридне мапе захтевају да изаберете најмање један режим играња за номинацију.
+</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Немате дозволу да номинујете за mode {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Морате бити потпуни номинатор да бисте направили ову квалификацијску номинацију.
+</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Услов за номинацију је већ испуњен.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Да ли сте сигурни да желите да номинујете ову мапу?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Номинујте ову мапу</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>напомена: можете номиновати само једном, па вас молимо да се уверите да номинујете за све модове игре које намеравате да играте
+</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Номинирај за које модове?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Експлицитно</value>
+  </data>
+  <data name="show.discussion" xml:space="preserve">
+    <value>Дискусија</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Ова мапа је избрисана.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(ово могу да виде само модератори)</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>од {0}</value>
+  </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>Означите ову мапу као омиљену</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>Пријави се како би означили мапу као омиљену</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>Мораш се пријавити пре преузимања било које мапе!</value>
+  </data>
+  <data name="show.details.mapped_by" xml:space="preserve">
+    <value>маповано од стране {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>тешкоћа госта од {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>Уклони мапу са ознаке омиљено</value>
+  </data>
+  <data name="show.details.updated_timeago" xml:space="preserve">
+    <value>последњи пут ажурирано {0}</value>
+  </data>
+  <data name="show.details.download._" xml:space="preserve">
+    <value>Преузмите</value>
+  </data>
+  <data name="show.details.download.no-video" xml:space="preserve">
+    <value>без Видеа</value>
+  </data>
+  <data name="show.details.download.video" xml:space="preserve">
+    <value>са Видеом</value>
+  </data>
+  <data name="show.details.login_required.bottom" xml:space="preserve">
+    <value>за приступ више функције</value>
+  </data>
+  <data name="show.details.login_required.top" xml:space="preserve">
+    <value>Пријава</value>
+  </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>одобрено {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>вољено {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>квалификована {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>ранкована {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>постављено {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>последњи пут ажурирано {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Имате превише омиљених мапа! Молимо уклоните неке од њих пре него што покушате поново.
+</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>Хајпуј ову мапу ако сте уживали играјући је и да јој помогнеш да напредује до статуса &lt;strong&gt;Ранковања&lt;/strong&gt;.</value>
+  </data>
+  <data name="show.hype.current._" xml:space="preserve">
+    <value>Ова мапа је тренутно {0}.</value>
+  </data>
+  <data name="show.hype.current.status.pending" xml:space="preserve">
+    <value>на чекању</value>
+  </data>
+  <data name="show.hype.current.status.qualified" xml:space="preserve">
+    <value>квалификовано</value>
+  </data>
+  <data name="show.hype.current.status.wip" xml:space="preserve">
+    <value>у току</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Ако нађете проблем са овом мапом, дисквалификујте их {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Ако нађете проблем са овом мапом, пријавите {0} да упозорите тим.</value>
+  </data>
+  <data name="show.hype.report.button" xml:space="preserve">
+    <value>Пријавите Проблем</value>
+  </data>
+  <data name="show.hype.report.link" xml:space="preserve">
+    <value>овде</value>
+  </data>
+  <data name="show.info.description" xml:space="preserve">
+    <value>Опис</value>
+  </data>
+  <data name="show.info.genre" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="show.info.language" xml:space="preserve">
+    <value>Језик</value>
+  </data>
+  <data name="show.info.no_scores" xml:space="preserve">
+    <value>Подаци се још израчунавају...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Номинатори</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Експлицитни садржај</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Онлајн размак</value>
+  </data>
+  <data name="show.info.points-of-failure" xml:space="preserve">
+    <value>Тачке Неуспеха</value>
+  </data>
+  <data name="show.info.source" xml:space="preserve">
+    <value>Извор</value>
+  </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Ова мапа садржи storyboard</value>
+  </data>
+  <data name="show.info.success-rate" xml:space="preserve">
+    <value>Стопа Успеха</value>
+  </data>
+  <data name="show.info.tags" xml:space="preserve">
+    <value>Oznake</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Ова мапа садржи видео</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Ова мапа садржи експлицитан, увредљив или узнемирујући садржај. Желите ли га ипак погледати?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Експлицитни Садржај</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Онемогући упозорење</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Листинг мапа</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Прикажи</value>
+  </data>
+  <data name="show.scoreboard.achieved" xml:space="preserve">
+    <value>постигнуто {0}</value>
+  </data>
+  <data name="show.scoreboard.country" xml:space="preserve">
+    <value>Државни Ранг</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Неуспешно учитавање рангирања</value>
+  </data>
+  <data name="show.scoreboard.friend" xml:space="preserve">
+    <value>Ранг Пријатеља</value>
+  </data>
+  <data name="show.scoreboard.global" xml:space="preserve">
+    <value>Глобални Ранг</value>
+  </data>
+  <data name="show.scoreboard.supporter-link" xml:space="preserve">
+    <value>Кликните &lt;a href="{0}"&gt;овде&lt;/a&gt; да видите све фенси функције које добијате!</value>
+  </data>
+  <data name="show.scoreboard.supporter-only" xml:space="preserve">
+    <value>Мораш бити osu!supporter да приступите рангирању специфичним за пријатеље, државу или мод!
+</value>
+  </data>
+  <data name="show.scoreboard.title" xml:space="preserve">
+    <value>Scoreboard</value>
+  </data>
+  <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
+    <value>Прецизност</value>
+  </data>
+  <data name="show.scoreboard.headers.combo" xml:space="preserve">
+    <value>Макс Комбо</value>
+  </data>
+  <data name="show.scoreboard.headers.miss" xml:space="preserve">
+    <value>Грешке</value>
+  </data>
+  <data name="show.scoreboard.headers.mods" xml:space="preserve">
+    <value>Модови</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Закачи</value>
+  </data>
+  <data name="show.scoreboard.headers.player" xml:space="preserve">
+    <value>Играч</value>
+  </data>
+  <data name="show.scoreboard.headers.rank" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="show.scoreboard.headers.score" xml:space="preserve">
+    <value>Скор</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Укупан Скор</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Време</value>
+  </data>
+  <data name="show.scoreboard.no_scores.country" xml:space="preserve">
+    <value>Нико из твоје државе још није поставио резултат на овој мапи!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
+    <value>Нико од твојих пријатеља још није поставио резултат на овој мапи!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.global" xml:space="preserve">
+    <value>Још нема резултата. Можда би требало да покушате да поставите неке?</value>
+  </data>
+  <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
+    <value>Учитавање скора...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
+    <value>Неранковане мапе.</value>
+  </data>
+  <data name="show.scoreboard.score.first" xml:space="preserve">
+    <value>У вођству</value>
+  </data>
+  <data name="show.scoreboard.score.own" xml:space="preserve">
+    <value>Твој Рекорд</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Кликните {0} да видите све фенси функције које добијате!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>овде</value>
+  </data>
+  <data name="show.stats.cs" xml:space="preserve">
+    <value>Величина Кругова</value>
+  </data>
+  <data name="show.stats.cs-mania" xml:space="preserve">
+    <value>Број типки</value>
+  </data>
+  <data name="show.stats.drain" xml:space="preserve">
+    <value>HP Трошак</value>
+  </data>
+  <data name="show.stats.accuracy" xml:space="preserve">
+    <value>Прецизност</value>
+  </data>
+  <data name="show.stats.ar" xml:space="preserve">
+    <value>Стопа Приближавања</value>
+  </data>
+  <data name="show.stats.stars" xml:space="preserve">
+    <value>Оцена Звездицама</value>
+  </data>
+  <data name="show.stats.total_length" xml:space="preserve">
+    <value>Дужина (Дужина одвода: {0})</value>
+  </data>
+  <data name="show.stats.bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="show.stats.count_circles" xml:space="preserve">
+    <value>Број Кругова</value>
+  </data>
+  <data name="show.stats.count_sliders" xml:space="preserve">
+    <value>Број Слајдера</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Онлајн размак {0}</value>
+  </data>
+  <data name="show.stats.user-rating" xml:space="preserve">
+    <value>Корисничка Оцена</value>
+  </data>
+  <data name="show.stats.rating-spread" xml:space="preserve">
+    <value>Ширење Оцена</value>
+  </data>
+  <data name="show.stats.nominations" xml:space="preserve">
+    <value>Номинације</value>
+  </data>
+  <data name="show.stats.playcount" xml:space="preserve">
+    <value>Број играња</value>
+  </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Рангирано</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Одобрено</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Вољено</value>
+  </data>
+  <data name="show.status.qualified" xml:space="preserve">
+    <value>Квалификован</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>Рад у току</value>
+  </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>На чекању</value>
+  </data>
+  <data name="show.status.graveyard" xml:space="preserve">
+    <value>Гробље</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Истакнуто</value>
+  </data>
+</root>
