@@ -15,7 +15,10 @@ layout(location = 0) out vec4 o_Colour;
 
 void main(void) 
 {
-    vec4 colour = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9);
+    // todo: workaround for a SPIR-V bug (https://github.com/ppy/osu-framework/issues/5719)
+    float one = g_BackbufferDraw ? 1 : 0;
+
+    vec4 colour = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9) * one;
 
     o_Colour = colour.r < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a) : vec4(0);
 }
