@@ -15,6 +15,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexDescription => new TranslatableString(getKey(@"index.description"), @"Pre-packaged collections of beatmaps based around a common theme.");
 
         /// <summary>
+        /// "Coming soon!"
+        /// </summary>
+        public static LocalisableString IndexEmpty => new TranslatableString(getKey(@"index.empty"), @"Coming soon!");
+
+        /// <summary>
         /// "listing"
         /// </summary>
         public static LocalisableString IndexNavTitle => new TranslatableString(getKey(@"index.nav_title"), @"listing");

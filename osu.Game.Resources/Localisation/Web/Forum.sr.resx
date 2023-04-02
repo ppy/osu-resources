@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pinned_topics" xml:space="preserve">
+    <value>Закачене Теме</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>опасно је играти сам.</value>
+  </data>
+  <data name="subforums" xml:space="preserve">
+    <value>Подфоруми</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Форуми</value>
+  </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Уреди насловницу</value>
+  </data>
+  <data name="covers.create._" xml:space="preserve">
+    <value>Постављање насловне слике</value>
+  </data>
+  <data name="covers.create.button" xml:space="preserve">
+    <value>Отпреми насловницу</value>
+  </data>
+  <data name="covers.create.info" xml:space="preserve">
+    <value>Величина насловнице треба да буде на {0}. Такође можете да испустите своју слику овде да бисте је отпремили.</value>
+  </data>
+  <data name="covers.destroy._" xml:space="preserve">
+    <value>Уклони насловницу</value>
+  </data>
+  <data name="covers.destroy.confirm" xml:space="preserve">
+    <value>Да ли сте сигурни да желите уклонити насловну слику?</value>
+  </data>
+  <data name="forums.forums" xml:space="preserve">
+    <value>Форуми</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Најновији Постови</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Индекс форума</value>
+  </data>
+  <data name="forums.topics.empty" xml:space="preserve">
+    <value>Нема теме!</value>
+  </data>
+  <data name="mark_as_read.forum" xml:space="preserve">
+    <value>Форум обележени као прочитан</value>
+  </data>
+  <data name="mark_as_read.forums" xml:space="preserve">
+    <value>Форуме обележени као прочитан</value>
+  </data>
+  <data name="mark_as_read.busy" xml:space="preserve">
+    <value>Означавање као прочитано...</value>
+  </data>
+  <data name="post.confirm_destroy" xml:space="preserve">
+    <value>Стварно обрисати пост?</value>
+  </data>
+  <data name="post.confirm_restore" xml:space="preserve">
+    <value>Стварно вратити пост?</value>
+  </data>
+  <data name="post.edited" xml:space="preserve">
+    <value>Последње измењено од {0} {1}, измењено {2} пута и укупно.|Последње измењено од {0} {1}, измењено {2} пута укупно.</value>
+  </data>
+  <data name="post.posted_at" xml:space="preserve">
+    <value>постовао {0}</value>
+  </data>
+  <data name="post.actions.destroy" xml:space="preserve">
+    <value>Обриши пост</value>
+  </data>
+  <data name="post.actions.edit" xml:space="preserve">
+    <value>Измени пост</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Пријави пост</value>
+  </data>
+  <data name="post.actions.restore" xml:space="preserve">
+    <value>Врати пост</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Нови одговор</value>
+  </data>
+  <data name="post.info.post_count" xml:space="preserve">
+    <value>{0} пост|{0} постови</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Аутор Теме</value>
+  </data>
+  <data name="search.go_to_post" xml:space="preserve">
+    <value>Иди на пост</value>
+  </data>
+  <data name="search.post_number_input" xml:space="preserve">
+    <value>унесите број постова</value>
+  </data>
+  <data name="search.total_posts" xml:space="preserve">
+    <value>{0} постова укупно</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Стварно обрисати тему?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Стварно вратити тему?</value>
+  </data>
+  <data name="topic.deleted" xml:space="preserve">
+    <value>обрисана тема</value>
+  </data>
+  <data name="topic.go_to_latest" xml:space="preserve">
+    <value>погледај најновији пост</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Одговорили сте на ову тему</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>у {0}</value>
+  </data>
+  <data name="topic.latest_post" xml:space="preserve">
+    <value>{0} од {1}</value>
+  </data>
+  <data name="topic.latest_reply_by" xml:space="preserve">
+    <value>последњи одговор од {0}</value>
+  </data>
+  <data name="topic.new_topic" xml:space="preserve">
+    <value>Нова тема</value>
+  </data>
+  <data name="topic.new_topic_login" xml:space="preserve">
+    <value>Пријавите се да би сте постовали нову тему</value>
+  </data>
+  <data name="topic.post_reply" xml:space="preserve">
+    <value>Пост</value>
+  </data>
+  <data name="topic.reply_box_placeholder" xml:space="preserve">
+    <value>Унесите овде да бисте одговорили</value>
+  </data>
+  <data name="topic.reply_title_prefix" xml:space="preserve">
+    <value>Re</value>
+  </data>
+  <data name="topic.started_by" xml:space="preserve">
+    <value>од {0}</value>
+  </data>
+  <data name="topic.started_by_verbose" xml:space="preserve">
+    <value>покренут од {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Избриши тему</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Врати тему</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Затвори</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Преглед</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Напиши</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Пост</value>
+  </data>
+  <data name="topic.create.necropost.default" xml:space="preserve">
+    <value>Ова тема је била неактивна неко време. Објављујте овде само ако имате конкретан разлог за то.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic._" xml:space="preserve">
+    <value>Ова тема је била неактивна неко време. Ако немате конкретан разлог да објавите овде, {0} уместо тога.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
+    <value>направиte нову тему</value>
+  </data>
+  <data name="topic.create.placeholder.body" xml:space="preserve">
+    <value>Упишите садржај поста овде</value>
+  </data>
+  <data name="topic.create.placeholder.title" xml:space="preserve">
+    <value>Кликни овде да поставиш наслов</value>
+  </data>
+  <data name="topic.jump.enter" xml:space="preserve">
+    <value>кликните да унесете одређени број поста</value>
+  </data>
+  <data name="topic.jump.first" xml:space="preserve">
+    <value>иди на први пост</value>
+  </data>
+  <data name="topic.jump.last" xml:space="preserve">
+    <value>иди на последњи пост</value>
+  </data>
+  <data name="topic.jump.next" xml:space="preserve">
+    <value>прескочи следећих 10 постова</value>
+  </data>
+  <data name="topic.jump.previous" xml:space="preserve">
+    <value>врати се 10 постова уназад</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Логови за теме</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Радња</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Датум</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Корисник</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>закачена тема и означена као најава</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>закачена тема</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>поставио {0}</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Обрисан пост</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Обрисана тема</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Копирана тема</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Закључана тема</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Спојени постови у овој теми</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Закачена тема</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Враћена тема</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Промењен тип теме</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Откључана тема</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Откачена тема</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Закључана сопствена тема</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Откључана сопствена тема</value>
+  </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Поништи</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>Сачувај</value>
+  </data>
+  <data name="topic_watches.index.title_compact" xml:space="preserve">
+    <value>листа претплате на теме форума</value>
+  </data>
+  <data name="topic_watches.index.box.total" xml:space="preserve">
+    <value>Претплаћене теме</value>
+  </data>
+  <data name="topic_watches.index.box.unread" xml:space="preserve">
+    <value>Теме са новим одговорима</value>
+  </data>
+  <data name="topic_watches.index.info.total" xml:space="preserve">
+    <value>Пратите укупно {0} тема.</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
+    <value>Откажи претплату</value>
+  </data>
+  <data name="topics._" xml:space="preserve">
+    <value>Теме</value>
+  </data>
+  <data name="topics.actions.login_reply" xml:space="preserve">
+    <value>Пријави се да би сте одговорили</value>
+  </data>
+  <data name="topics.actions.reply" xml:space="preserve">
+    <value>Одговори</value>
+  </data>
+  <data name="topics.actions.search" xml:space="preserve">
+    <value>Претражи</value>
+  </data>
+  <data name="topics.create.poll.length" xml:space="preserve">
+    <value>Покрени анкету за</value>
+  </data>
+  <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
+    <value>дана</value>
+  </data>
+  <data name="topics.create.poll.max_options" xml:space="preserve">
+    <value>Опције по кориснику</value>
+  </data>
+  <data name="topics.create.poll.max_options_info" xml:space="preserve">
+    <value>Ово је број опција које сваки корисник може изабрати приликом гласања.</value>
+  </data>
+  <data name="topics.create.poll.options" xml:space="preserve">
+    <value>Опције</value>
+  </data>
+  <data name="topics.create.poll.options_info" xml:space="preserve">
+    <value>Постави сваку опцију у нови ред. Можеш да унесеш до 10 опција.</value>
+  </data>
+  <data name="topics.create.poll.title" xml:space="preserve">
+    <value>Питање</value>
+  </data>
+  <data name="topics.create.poll.vote_change" xml:space="preserve">
+    <value>Дозволи поновно гласање.</value>
+  </data>
+  <data name="topics.create.poll.vote_change_info" xml:space="preserve">
+    <value>Ако је омогућено, корисници могу да промене свој глас.</value>
+  </data>
+  <data name="topics.edit_title.start" xml:space="preserve">
+    <value>Измени наслов</value>
+  </data>
+  <data name="topics.index.feature_votes" xml:space="preserve">
+    <value>приоритет по звездицама</value>
+  </data>
+  <data name="topics.index.replies" xml:space="preserve">
+    <value>одговори</value>
+  </data>
+  <data name="topics.index.views" xml:space="preserve">
+    <value>приказа</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
+    <value>Додај ознаку "решено"</value>
+  </data>
+  <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
+    <value>Додата ознака "решено"</value>
+  </data>
+  <data name="topics.lock.is_locked" xml:space="preserve">
+    <value>Ова тема је закључана и на њу се не може одговорити</value>
+  </data>
+  <data name="topics.lock.to_0" xml:space="preserve">
+    <value>Откључај тему</value>
+  </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Откључај тему?</value>
+  </data>
+  <data name="topics.lock.to_0_done" xml:space="preserve">
+    <value>Тема је откључана</value>
+  </data>
+  <data name="topics.lock.to_1" xml:space="preserve">
+    <value>Закључај тему</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Закључај тему?</value>
+  </data>
+  <data name="topics.lock.to_1_done" xml:space="preserve">
+    <value>Тема је закључана</value>
+  </data>
+  <data name="topics.moderate_move.title" xml:space="preserve">
+    <value>Премести у други форум</value>
+  </data>
+  <data name="topics.moderate_pin.to_0" xml:space="preserve">
+    <value>Откачи тему</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Откачи тему?</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
+    <value>Тема је откачена</value>
+  </data>
+  <data name="topics.moderate_pin.to_1" xml:space="preserve">
+    <value>Закачи тему</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Закачи тему?</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
+    <value>Тема је закачена</value>
+  </data>
+  <data name="topics.moderate_pin.to_2" xml:space="preserve">
+    <value>Закачите тему и означите као најаву</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Закачите тему и означите као најаву?</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
+    <value>Тема је закачена и означена као најава</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Прикажи избрисане постове</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Сакриј обрисане постове</value>
+  </data>
+  <data name="topics.show.deleted-posts" xml:space="preserve">
+    <value>Обрисане Постове</value>
+  </data>
+  <data name="topics.show.total_posts" xml:space="preserve">
+    <value>Укупно Постова</value>
+  </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Уређивач Анкете</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Уређивање анкете ће уклонити тренутне резултате!</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Гласај</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Промени глас</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Измени анкету</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Пређи на резултате</value>
+  </data>
+  <data name="topics.show.poll.button.vote" xml:space="preserve">
+    <value>Гласај</value>
+  </data>
+  <data name="topics.show.poll.detail.ended" xml:space="preserve">
+    <value>Гласање је завршено {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
+    <value>Резултати ће бити приказани након завршетка гласања.</value>
+  </data>
+  <data name="topics.show.poll.detail.total" xml:space="preserve">
+    <value>Укупно гласова {0}</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
+    <value>Обавештење је омогућено. Кликните да бисте онемогућили
+</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
+    <value>Обавештење је онемогућено. Кликните да бисте омогућили</value>
+  </data>
+</root>

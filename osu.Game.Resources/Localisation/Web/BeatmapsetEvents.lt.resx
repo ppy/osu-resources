@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>Patvirtintas.</value>
+  </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Sunkumo savininkas {0} buvo pakeistas į {1}.</value>
+  </data>
+  <data name="event.discussion_delete" xml:space="preserve">
+    <value>Moderatorius ištrynė diskusija {0}.</value>
+  </data>
+  <data name="event.discussion_lock" xml:space="preserve">
+    <value>Šio bitmapo diskusijos buvo išjungtos. ({0})</value>
+  </data>
+  <data name="event.discussion_post_delete" xml:space="preserve">
+    <value>Moderatorius ištrynė įrašą iš diskusijos {0}.</value>
+  </data>
+  <data name="event.discussion_post_restore" xml:space="preserve">
+    <value>Moderatorius atkūrė įrašą tarp diskusijos {0}.</value>
+  </data>
+  <data name="event.discussion_restore" xml:space="preserve">
+    <value>Moderatorius atkūrė diskusiją {0}.</value>
+  </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>Šio bitmapo diskusijos buvo įjungtos.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>Diskvalifikavo {0}. Priežastis: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>Diskvalifikavo {0}. Priežastis: {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Žanras pakeistas iš {0} į {1}.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>Vartotojo {0} Išspręstą problemą {1} atidarė vėl {2}.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>Problema {0} iškėlė {1} pažymėjo kaip išspręstą {2}.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>Kudosu atmetimas diskusijoje {0} buvo pašalintas.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>Diskusijai {0} atmestas kudosu.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>Vartotojo {0} diskusija {1} gavo pakankamai balsų dėl kudosu.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>Vartotojo {0} Diskusija {1} dėl prarastų balsų, prarado kudosu.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>Diskusijos {0} kudosu kiekis perskaičiuotas.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Kalba pakeista iš {0} į {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>Vartotojo {0} mylimas.</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>Nominavo {0}.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominavo {0} ({1}).</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>Nauja problema {0} ({1}) iššaukė nominacijų atstatymą.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Vartotojo {0} nominaciją atstatė {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominaciją atstatė {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Tinklo poslinkis pakeistas iš {0} į {1}.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Šis bitmapas pasiekė reikiamą nominacijų skaičių ir buvo kvalifikuotas.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>Reitinguotas.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Pašalino iš mylimų {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Pašalinta Eksplicitinio žymė</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Pažymėtas kaip eksplicitinis</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Bitmapų seto Įvykiai</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>Laikotarpis</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Tipai</value>
+  </data>
+  <data name="item.content" xml:space="preserve">
+    <value>Turinys</value>
+  </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[deleted]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>Patvirtinimas</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Sunkumo savininko pakeitimas</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>Diskusijos ištrinimas</value>
+  </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>Diskusijos atsakymo ištrynimas</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>Diskusijos atsakymo atkūrimas</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>Diskusijos atkūrimas</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>Diskvalifikacija</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Pakeisti žanrą</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>Diskusija atidaroma</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>Diskusija išspręndžiama</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>Kudosu įgaliojamas</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>Kudosu atmetimas</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>Kudosu gavimas</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>Kudosu praradimas</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>Kudosu perskaičiavimas</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Pakeisti kalbą</value>
+  </data>
+  <data name="type.love" xml:space="preserve">
+    <value>Mylimas</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>Nominacija</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Nominacijų atstatymas</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Nominacijos atstatymas gautas</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Eksplicitinio žymė</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Poslinkio redagavimas</value>
+  </data>
+  <data name="type.qualify" xml:space="preserve">
+    <value>Kvalifikacija</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>Reitingas</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Pašalinimas iš mylimų</value>
+  </data>
+</root>

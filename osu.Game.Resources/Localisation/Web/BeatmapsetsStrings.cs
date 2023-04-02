@@ -145,19 +145,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDetailsByArtist(LocalisableString artist) => new TranslatableString(getKey(@"show.details.by_artist"), @"by {0}", artist);
 
         /// <summary>
-        /// "Favourite this beatmap"
+        /// "favourite this beatmap"
         /// </summary>
-        public static LocalisableString ShowDetailsFavourite => new TranslatableString(getKey(@"show.details.favourite"), @"Favourite this beatmap");
+        public static LocalisableString ShowDetailsFavourite => new TranslatableString(getKey(@"show.details.favourite"), @"favourite this beatmap");
 
         /// <summary>
-        /// "Sign in to favourite this beatmap"
+        /// "sign in to favourite this beatmap"
         /// </summary>
-        public static LocalisableString ShowDetailsFavouriteLogin => new TranslatableString(getKey(@"show.details.favourite_login"), @"Sign in to favourite this beatmap");
+        public static LocalisableString ShowDetailsFavouriteLogin => new TranslatableString(getKey(@"show.details.favourite_login"), @"sign in to favourite this beatmap");
 
         /// <summary>
-        /// "You need to sign in before downloading any beatmaps!"
+        /// "you need to sign in before downloading any beatmaps!"
         /// </summary>
-        public static LocalisableString ShowDetailsLoggedOut => new TranslatableString(getKey(@"show.details.logged-out"), @"You need to sign in before downloading any beatmaps!");
+        public static LocalisableString ShowDetailsLoggedOut => new TranslatableString(getKey(@"show.details.logged-out"), @"you need to sign in before downloading any beatmaps!");
 
         /// <summary>
         /// "mapped by {0}"
@@ -170,9 +170,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDetailsMappedByGuest(LocalisableString mapper) => new TranslatableString(getKey(@"show.details.mapped_by_guest"), @"guest difficulty by {0}", mapper);
 
         /// <summary>
-        /// "Unfavourite this beatmap"
+        /// "unfavourite this beatmap"
         /// </summary>
-        public static LocalisableString ShowDetailsUnfavourite => new TranslatableString(getKey(@"show.details.unfavourite"), @"Unfavourite this beatmap");
+        public static LocalisableString ShowDetailsUnfavourite => new TranslatableString(getKey(@"show.details.unfavourite"), @"unfavourite this beatmap");
 
         /// <summary>
         /// "last updated {0}"

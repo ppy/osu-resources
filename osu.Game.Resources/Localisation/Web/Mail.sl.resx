@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmapset_update_notice.new" xml:space="preserve">
+    <value>V vednost, beatmapa "{0}" je pridobila novo posodobitev odkar si nazadnje obiskal osu!.</value>
+  </data>
+  <data name="beatmapset_update_notice.subject" xml:space="preserve">
+    <value>Nova posodobitev beatmape "{0}"</value>
+  </data>
+  <data name="beatmapset_update_notice.unwatch" xml:space="preserve">
+    <value>Če ne želiš več imeti te beatmape na seznamu gledanih, lahko klikneš na "Ne spremljaj" povezavo na vrhu strani ali iz modding seznama gledanih:</value>
+  </data>
+  <data name="beatmapset_update_notice.visit" xml:space="preserve">
+    <value>Obišči razpravljalno stran tukaj:</value>
+  </data>
+  <data name="common.closing" xml:space="preserve">
+    <value>Lep pozdrav,</value>
+  </data>
+  <data name="common.hello" xml:space="preserve">
+    <value>Zdravo {0},</value>
+  </data>
+  <data name="common.report" xml:space="preserve">
+    <value>Če nisi zahteval te spremembe, te prosimo, da TAKOJ ukrepaš z odgovorom na to e-pošto.</value>
+  </data>
+  <data name="common.ignore" xml:space="preserve">
+    <value>Če nisi zahteval tega, lahko varno ignoriraš to e-pošto.</value>
+  </data>
+  <data name="donation_thanks.benefit_more" xml:space="preserve">
+    <value>Več supporter ugodnosti se bo pojavilo čez čas!</value>
+  </data>
+  <data name="donation_thanks.feedback" xml:space="preserve">
+    <value>Če imaš kakšno vprašanje ali povratno informacijo, lahko to storiš z odgovorom na to e-pošto; Odgovoril bom v najkrajšem možnem času!</value>
+  </data>
+  <data name="donation_thanks.keep_free" xml:space="preserve">
+    <value>To je zahvala za osebe kot si ti, da lahko osu! in njegovo skupnost ohrani brez problemov in brez oglasov ali prisilnih plačil.</value>
+  </data>
+  <data name="donation_thanks.keep_running" xml:space="preserve">
+    <value>Tvoja podpora ohranja osu! delovati za približno {0}! Ne zgleda ravno veliko, ampak se vse skupaj sešteje :).</value>
+  </data>
+  <data name="donation_thanks.subject" xml:space="preserve">
+    <value>Hvala, osu! te ima rad &lt;3</value>
+  </data>
+  <data name="donation_thanks.translation" xml:space="preserve">
+    <value>Skupnostni prevod za informacijske namene:</value>
+  </data>
+  <data name="donation_thanks.benefit.gift" xml:space="preserve">
+    <value>Tvoj obdarjenec (ali obdarjenci) bo sedaj imel dostop do osu!direct in veliko drugih podporniških ugodnosti.</value>
+  </data>
+  <data name="donation_thanks.benefit.self" xml:space="preserve">
+    <value>Sedaj boš imel dostop do osu!direct in veliko drugih podporniških ugodnosti za {0}.</value>
+  </data>
+  <data name="donation_thanks.support._" xml:space="preserve">
+    <value>Najlepša hvala za tvojo {0} usmerjeno osu!.</value>
+  </data>
+  <data name="donation_thanks.support.first" xml:space="preserve">
+    <value>podporo</value>
+  </data>
+  <data name="donation_thanks.support.repeat" xml:space="preserve">
+    <value>nadaljevano podporo</value>
+  </data>
+  <data name="forum_new_reply.new" xml:space="preserve">
+    <value>V vednost, prejel si nov odgovor v "{0}", odkar si nazadnje obiskal osu!.</value>
+  </data>
+  <data name="forum_new_reply.subject" xml:space="preserve">
+    <value>[osu!] Nov odgovor za temo "{0}"</value>
+  </data>
+  <data name="forum_new_reply.unwatch" xml:space="preserve">
+    <value>Če ne želiš več slediti tej temi, lahko klikneš na "Izpis od teme" v obliki povezave spodaj pod temo zgoraj ali preko strani za upravljanje naročenih tem:</value>
+  </data>
+  <data name="forum_new_reply.visit" xml:space="preserve">
+    <value>Pojdi direktno do zadnjega odgovora preko sledeče povezave:</value>
+  </data>
+  <data name="password_reset.code" xml:space="preserve">
+    <value>Tvoja verifikacijska koda je:</value>
+  </data>
+  <data name="password_reset.requested" xml:space="preserve">
+    <value>Ti ali nekdo drug, ki se pretvarja, da si ti je poslal zahtevo za ponastavitev gesla za tvoj osu! račun.</value>
+  </data>
+  <data name="password_reset.subject" xml:space="preserve">
+    <value>Obnovitev osu! računa</value>
+  </data>
+  <data name="store_payment_completed.prepare_shipping" xml:space="preserve">
+    <value>Prejeli smo tvoje plačilo in pripravljamo tvoje naročilo za pošiljanje. To lahko traja par dni, da odpošljemo, odvisno na količino naročil. Stanje tvojega naročila lahko preveriš tukaj vred z sledilnimi podatki, ki so na voljo:</value>
+  </data>
+  <data name="store_payment_completed.processing" xml:space="preserve">
+    <value>Prejeli smo tvoje plačilo in trenuno obdelujemo tvoje naročilo. Svojemu naročilu lahko slediš tukaj:</value>
+  </data>
+  <data name="store_payment_completed.questions" xml:space="preserve">
+    <value>Če imaš kakšno vprašanje, lahko to storiš z odgovorom na to e-pošto.</value>
+  </data>
+  <data name="store_payment_completed.shipping" xml:space="preserve">
+    <value>Dostava</value>
+  </data>
+  <data name="store_payment_completed.subject" xml:space="preserve">
+    <value>Prejeli smo tvoje osu!store naročilo!</value>
+  </data>
+  <data name="store_payment_completed.thank_you" xml:space="preserve">
+    <value>Hvala za naročilo na osu!store!</value>
+  </data>
+  <data name="store_payment_completed.total" xml:space="preserve">
+    <value>Skupaj</value>
+  </data>
+  <data name="supporter_gift.anonymous_gift" xml:space="preserve">
+    <value>Oseba, ki ti je podarila značko je ostala anonimna, posledično ni bila omenjena v tem obvestilu.</value>
+  </data>
+  <data name="supporter_gift.anonymous_gift_maybe_not" xml:space="preserve">
+    <value>Ampak verjetno že veš kdo je to ;).</value>
+  </data>
+  <data name="supporter_gift.duration" xml:space="preserve">
+    <value>V zahvalo njemu imaš sedaj dostop do osu!direct in drugih osu!supporter ugodnosti za {0}.</value>
+  </data>
+  <data name="supporter_gift.features" xml:space="preserve">
+    <value>Več informacij o teh funkcijah lahko najdeš tukaj:</value>
+  </data>
+  <data name="supporter_gift.gifted" xml:space="preserve">
+    <value>Nekdo ti je pravkar podaril osu!supporter značko!</value>
+  </data>
+  <data name="supporter_gift.gift_message" xml:space="preserve">
+    <value>Uporabnik, ki ti je podaril oznako, je pustil še sporočilo:</value>
+  </data>
+  <data name="supporter_gift.subject" xml:space="preserve">
+    <value>Obdarjen si bil z osu!supporter značko!</value>
+  </data>
+  <data name="user_email_updated.changed_to" xml:space="preserve">
+    <value>To je potrditvena e-pošta z informacijo, da se je tvoj osu! e-poštni naslov spremenil v: "{0}".</value>
+  </data>
+  <data name="user_email_updated.check" xml:space="preserve">
+    <value>Prosimo preveri, da si prejel e-pošto na svoj nov e-poštni naslov, s tem preprečiš izgubo svojega osu! računa v prihodnosti.</value>
+  </data>
+  <data name="user_email_updated.sent" xml:space="preserve">
+    <value>Zaradi varnostnih razlogov je bila ta e-pošta poslana na stari in novi e-poštni naslov.</value>
+  </data>
+  <data name="user_email_updated.subject" xml:space="preserve">
+    <value>Potrditev menjave e-pošnega naslova za osu!</value>
+  </data>
+  <data name="user_force_reactivation.main" xml:space="preserve">
+    <value>Na tvojem računu obstaja sum, da je bil ogrožen, ima nedavno sumljivo aktivnost ali ZELO šibko geslo. Posledično te prosimo za nastavitev novega gesla. Prosimo tudi, da si izbereš VARNO geslo.</value>
+  </data>
+  <data name="user_force_reactivation.perform_reset" xml:space="preserve">
+    <value>Ponastavitev lahko opraviš tukaj {0}</value>
+  </data>
+  <data name="user_force_reactivation.reason" xml:space="preserve">
+    <value>Razlog:</value>
+  </data>
+  <data name="user_force_reactivation.subject" xml:space="preserve">
+    <value>Zahtevana ponovna aktivacija osu! računa</value>
+  </data>
+  <data name="user_notification_digest.new" xml:space="preserve">
+    <value>V vednost, prišlo je do novih posodobitev stvari, ki jih imaš na seznamu gledanih.</value>
+  </data>
+  <data name="user_notification_digest.settings" xml:space="preserve">
+    <value>Spremenite nastavitve e-poštnih obvestil:</value>
+  </data>
+  <data name="user_notification_digest.subject" xml:space="preserve">
+    <value>Nova osu! obvestila</value>
+  </data>
+  <data name="user_password_updated.confirmation" xml:space="preserve">
+    <value>To je potrditvena e-pošta z informacijo, da se je tvoje osu! geslo spremenilo.</value>
+  </data>
+  <data name="user_password_updated.subject" xml:space="preserve">
+    <value>Potrditev spremembe osu! gesla</value>
+  </data>
+  <data name="user_verification.code" xml:space="preserve">
+    <value>Tvoja verifikacijska koda je:</value>
+  </data>
+  <data name="user_verification.code_hint" xml:space="preserve">
+    <value>Kodo lahko vpišeš z ali brez presledkov.</value>
+  </data>
+  <data name="user_verification.link" xml:space="preserve">
+    <value>Namesto tega lahko obiščeš povezavo spodaj, da opraviš verifikacijo:</value>
+  </data>
+  <data name="user_verification.report" xml:space="preserve">
+    <value>Če nisi tega zahteval, te prosimo za TAKOJŠNJI ODGOVOR, možnost je lahko, da je tvoj račun v nevarnosti.</value>
+  </data>
+  <data name="user_verification.subject" xml:space="preserve">
+    <value>Verifikacija osu! računa</value>
+  </data>
+  <data name="user_verification.action_from._" xml:space="preserve">
+    <value>Dejanje, izvedeno na tvojem računu iz {0} zahteva verifikacijo.</value>
+  </data>
+  <data name="user_verification.action_from.unknown_country" xml:space="preserve">
+    <value>neznana država</value>
+  </data>
+</root>

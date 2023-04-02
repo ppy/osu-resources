@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="event.approve" xml:space="preserve">
+    <value>Aprovat.</value>
+  </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>El propietari de la dificultat {0} ha estat canviat a {1}.</value>
+  </data>
+  <data name="event.discussion_delete" xml:space="preserve">
+    <value>El moderador ha eliminat la discussió {0}.</value>
+  </data>
+  <data name="event.discussion_lock" xml:space="preserve">
+    <value>S'ha desactivat la discussió d'aquest beatmap. ({0})</value>
+  </data>
+  <data name="event.discussion_post_delete" xml:space="preserve">
+    <value>El moderador ha eliminat la publicació de la discussió {0}.</value>
+  </data>
+  <data name="event.discussion_post_restore" xml:space="preserve">
+    <value>El moderador ha restaurat la publicació de la discussió {0}.</value>
+  </data>
+  <data name="event.discussion_restore" xml:space="preserve">
+    <value>El moderador ha restaurat la discussió {0}.</value>
+  </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>S'ha habilitat la discussió d'aquest beatmap.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>Desqualificat per {0}. Motiu: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>Desqualificat per {0}. Motiu {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>El gènere ha canviat de {0} a {1}.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>El problema resolt {0} de {1} ha estat reobert per {2}.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>El problema {0} de {1} ha estat marcat com resolt per {2}.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>La negació de kudosu per a la discussió {0} ha estat eliminada.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>La discussió {0} ha estat denegada per kudosu.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>La discussió {0} de {1} ha obtingut vots suficients per a kudosu.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>La discussió {0} de {1} ha perdut vots i el seu kudosu ha estat retirat.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>S'han recalculat els kudosu concedits a la discussió {0}.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>L'idioma ha canviat de {0} a {1}.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>Estimat per {0}.</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>Nominat per {0}.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Nominat per {0} ({1}).</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>El nou problema {0} ({1}) ha causat un reinici de les nominacions.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>La nominiació de {0} ha estat reiniciada per {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominació restablida per {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>La compensació en línia ha canviat de {0} a {1}.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Aquest beatmap ha aconseguit el nombre requerit de nominacions i ha estat qualificat.</value>
+  </data>
+  <data name="event.rank" xml:space="preserve">
+    <value>Classificat.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Remogut d'Estimats per {0}. ({1})</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Marca explícita remoguda</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Marcat com a explícit</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Esdeveniments del beatmapset</value>
+  </data>
+  <data name="index.form.period" xml:space="preserve">
+    <value>Període</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Tipus</value>
+  </data>
+  <data name="item.content" xml:space="preserve">
+    <value>Contingut</value>
+  </data>
+  <data name="item.discussion_deleted" xml:space="preserve">
+    <value>[eliminat]</value>
+  </data>
+  <data name="item.type" xml:space="preserve">
+    <value>Tipus</value>
+  </data>
+  <data name="type.approve" xml:space="preserve">
+    <value>Aprovació</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Canvi de propietari de la dificultat</value>
+  </data>
+  <data name="type.discussion_delete" xml:space="preserve">
+    <value>Eliminació de la discussió</value>
+  </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>Eliminació de resposta a discussió</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>Restauració de resposta a discussió</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>Restauració de discussió</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>Desqualificació</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Edició de gènere</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>Reobertura de discussió</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>Resolució de discussió</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>Permís de Kudosu</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>Negació de Kudosu</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>Guany de Kudosu</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>Pèrdua de Kudosu</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>Recàlcul de kudosu</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Editar l'idioma</value>
+  </data>
+  <data name="type.love" xml:space="preserve">
+    <value>Amor</value>
+  </data>
+  <data name="type.nominate" xml:space="preserve">
+    <value>Nominació</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Restabliment de nominació</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Restabliment de nominació rebuda</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Marca explícita</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Edició de compensació</value>
+  </data>
+  <data name="type.qualify" xml:space="preserve">
+    <value>Qualificació</value>
+  </data>
+  <data name="type.rank" xml:space="preserve">
+    <value>Classificació</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Remoció d'Estimats</value>
+  </data>
+</root>

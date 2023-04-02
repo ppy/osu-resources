@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="index.none_running" xml:space="preserve">
+    <value>Тренутно нема активних турнира, молимо Вас проверите касније!</value>
+  </data>
+  <data name="index.registration_period" xml:space="preserve">
+    <value>Регистрација {0} до {1}</value>
+  </data>
+  <data name="index.header.title" xml:space="preserve">
+    <value>Турнири заједнице</value>
+  </data>
+  <data name="index.item.registered" xml:space="preserve">
+    <value>Регистровани играчи</value>
+  </data>
+  <data name="index.state.current" xml:space="preserve">
+    <value>Активни турнири</value>
+  </data>
+  <data name="index.state.previous" xml:space="preserve">
+    <value>Претходни турнири</value>
+  </data>
+  <data name="show.banner" xml:space="preserve">
+    <value>Подржите Важ тим</value>
+  </data>
+  <data name="show.entered" xml:space="preserve">
+    <value>Ви сте регистровани за овај турнир.&lt;br&gt;&lt;br&gt;Молимо да обратите пажњу да ово &lt;b&gt;не значи&lt;/b&gt; да вам је додељен тим.&lt;br&gt;&lt;br&gt;Даље инструкције ће бити послате преко имејла ближе датуму почетку турнира, тако да проверите да је имејл вашег osu! налога валидна!</value>
+  </data>
+  <data name="show.info_page" xml:space="preserve">
+    <value>Страница са информацијама</value>
+  </data>
+  <data name="show.login_to_register" xml:space="preserve">
+    <value>Молимо Вас да се {0} да видите детаље регистрације!</value>
+  </data>
+  <data name="show.not_yet_entered" xml:space="preserve">
+    <value>Ви нисте регистровани за овај турнир.</value>
+  </data>
+  <data name="show.rank_too_low" xml:space="preserve">
+    <value>Нажалост не испуњавате рејтинг захтеве за овај турнир!</value>
+  </data>
+  <data name="show.registration_ends" xml:space="preserve">
+    <value>Регистрације се затварају {0}</value>
+  </data>
+  <data name="show.button.cancel" xml:space="preserve">
+    <value>Откажи регистрацију</value>
+  </data>
+  <data name="show.button.register" xml:space="preserve">
+    <value>Региструј ме!</value>
+  </data>
+  <data name="show.period.end" xml:space="preserve">
+    <value>Крај</value>
+  </data>
+  <data name="show.period.start" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="show.state.before_registration" xml:space="preserve">
+    <value>Регистрације за овај турнир нису још отворене.</value>
+  </data>
+  <data name="show.state.ended" xml:space="preserve">
+    <value>Овај турнир се завршио. Проверите страницу са информацијама за резултате.</value>
+  </data>
+  <data name="show.state.registration_closed" xml:space="preserve">
+    <value>Регистрације за овај турнир су затворене. Проверите страницу са информацијама за најновије информације.</value>
+  </data>
+  <data name="show.state.running" xml:space="preserve">
+    <value>Овај турнир је тренутно у току. Проверите страницу са информацијама за више детаља.</value>
+  </data>
+  <data name="tournament_period" xml:space="preserve">
+    <value>{0} до {1}</value>
+  </data>
+</root>

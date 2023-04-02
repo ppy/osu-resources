@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit.title_compact" xml:space="preserve">
+    <value>nastavitve</value>
+  </data>
+  <data name="edit.username" xml:space="preserve">
+    <value>uporabniško ime</value>
+  </data>
+  <data name="edit.avatar.title" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="edit.avatar.rules" xml:space="preserve">
+    <value>Prosimo, da naj se tvoj avatar drži {0}.&lt;br/&gt;To pomeni, da mora biti &lt;strong&gt;primerno za vse starosti&lt;/strong&gt;. t.j. Nič golote, kletvic ali druge neželene vsebine.</value>
+  </data>
+  <data name="edit.avatar.rules_link" xml:space="preserve">
+    <value>pravila skupnosti</value>
+  </data>
+  <data name="edit.email.new" xml:space="preserve">
+    <value>nova e-pošta</value>
+  </data>
+  <data name="edit.email.new_confirmation" xml:space="preserve">
+    <value>potrditev e-pošte</value>
+  </data>
+  <data name="edit.email.title" xml:space="preserve">
+    <value>E-pošta</value>
+  </data>
+  <data name="edit.password.current" xml:space="preserve">
+    <value>trenutno geslo</value>
+  </data>
+  <data name="edit.password.new" xml:space="preserve">
+    <value>novo geslo</value>
+  </data>
+  <data name="edit.password.new_confirmation" xml:space="preserve">
+    <value>potrditev gesla</value>
+  </data>
+  <data name="edit.password.title" xml:space="preserve">
+    <value>Geslo</value>
+  </data>
+  <data name="edit.profile.title" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="edit.profile.user.user_from" xml:space="preserve">
+    <value>trenutna lokacija</value>
+  </data>
+  <data name="edit.profile.user.user_interests" xml:space="preserve">
+    <value>hobiji</value>
+  </data>
+  <data name="edit.profile.user.user_occ" xml:space="preserve">
+    <value>zaposlitev</value>
+  </data>
+  <data name="edit.profile.user.user_website" xml:space="preserve">
+    <value>spletna stran</value>
+  </data>
+  <data name="edit.signature.title" xml:space="preserve">
+    <value>Podpis</value>
+  </data>
+  <data name="edit.signature.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+  <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>prejmi obvestila o novih težavah na kvalificiranih beatmapah pri naslednjih modifikatorjih</value>
+  </data>
+  <data name="notifications.beatmapset_disqualify" xml:space="preserve">
+    <value>prejmi obvestila ko so beatmape pri naslednjih modifikatorjih diskvalificirane</value>
+  </data>
+  <data name="notifications.comment_reply" xml:space="preserve">
+    <value>prejmi obvestila, ko nekdo odgovori na tvoj komentar</value>
+  </data>
+  <data name="notifications.title" xml:space="preserve">
+    <value>Obvestila</value>
+  </data>
+  <data name="notifications.topic_auto_subscribe" xml:space="preserve">
+    <value>avtomatsko omogoči obvestila o novih temah na forumu v tvoji lasti</value>
+  </data>
+  <data name="notifications.options._" xml:space="preserve">
+    <value>možnosti pošiljanja</value>
+  </data>
+  <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
+    <value>težavnost za goste</value>
+  </data>
+  <data name="notifications.options.beatmapset:modding" xml:space="preserve">
+    <value>modificiranje beatmape</value>
+  </data>
+  <data name="notifications.options.channel_message" xml:space="preserve">
+    <value>zasebna sporočila</value>
+  </data>
+  <data name="notifications.options.comment_new" xml:space="preserve">
+    <value>novi komentarji</value>
+  </data>
+  <data name="notifications.options.forum_topic_reply" xml:space="preserve">
+    <value>odgovor na temo</value>
+  </data>
+  <data name="notifications.options.mail" xml:space="preserve">
+    <value>e-pošta</value>
+  </data>
+  <data name="notifications.options.mapping" xml:space="preserve">
+    <value>ustvarjalec beatmap</value>
+  </data>
+  <data name="notifications.options.push" xml:space="preserve">
+    <value>potisno</value>
+  </data>
+  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
+    <value>uporabniška medalja odklenjena</value>
+  </data>
+  <data name="oauth.authorized_clients" xml:space="preserve">
+    <value>pooblaščene stranke</value>
+  </data>
+  <data name="oauth.own_clients" xml:space="preserve">
+    <value>zasebne stranke</value>
+  </data>
+  <data name="oauth.title" xml:space="preserve">
+    <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_nsfw" xml:space="preserve">
+    <value>skrij opozorila za eksplicitno vsebino v beatmapah</value>
+  </data>
+  <data name="options.beatmapset_title_show_original" xml:space="preserve">
+    <value>prikaži metadata beatmape v originalnem jeziku</value>
+  </data>
+  <data name="options.title" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="options.beatmapset_download._" xml:space="preserve">
+    <value>privzeti tip prenosa beatmape</value>
+  </data>
+  <data name="options.beatmapset_download.all" xml:space="preserve">
+    <value>z videoposnetkom</value>
+  </data>
+  <data name="options.beatmapset_download.direct" xml:space="preserve">
+    <value>odpri v osu!direct</value>
+  </data>
+  <data name="options.beatmapset_download.no_video" xml:space="preserve">
+    <value>brez videoposnetka</value>
+  </data>
+  <data name="playstyles.keyboard" xml:space="preserve">
+    <value>tipkovnica</value>
+  </data>
+  <data name="playstyles.mouse" xml:space="preserve">
+    <value>miška</value>
+  </data>
+  <data name="playstyles.tablet" xml:space="preserve">
+    <value>tablica</value>
+  </data>
+  <data name="playstyles.title" xml:space="preserve">
+    <value>Načini igranja</value>
+  </data>
+  <data name="playstyles.touch" xml:space="preserve">
+    <value>dotik</value>
+  </data>
+  <data name="privacy.friends_only" xml:space="preserve">
+    <value>blokiranje zasebnih sporočil ljudi, ki niso na vašem seznamu prijateljev</value>
+  </data>
+  <data name="privacy.hide_online" xml:space="preserve">
+    <value>skrij svojo prisotnost</value>
+  </data>
+  <data name="privacy.title" xml:space="preserve">
+    <value>Zasebnost</value>
+  </data>
+  <data name="security.current_session" xml:space="preserve">
+    <value>trenutno</value>
+  </data>
+  <data name="security.end_session" xml:space="preserve">
+    <value>Končaj sejo</value>
+  </data>
+  <data name="security.end_session_confirmation" xml:space="preserve">
+    <value>Dejanje bo nemudoma končalo sejo na tej napravi. Si prepričan?</value>
+  </data>
+  <data name="security.last_active" xml:space="preserve">
+    <value>Zadnje aktiven:</value>
+  </data>
+  <data name="security.title" xml:space="preserve">
+    <value>Varnost</value>
+  </data>
+  <data name="security.web_sessions" xml:space="preserve">
+    <value>spletne seje</value>
+  </data>
+  <data name="update_email.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+  <data name="update_password.update" xml:space="preserve">
+    <value>posodobi</value>
+  </data>
+  <data name="verification_completed.text" xml:space="preserve">
+    <value>Zdaj lahko zapreš ta zavihek/okno</value>
+  </data>
+  <data name="verification_completed.title" xml:space="preserve">
+    <value>Verifikacija je bila uspešna</value>
+  </data>
+  <data name="verification_invalid.title" xml:space="preserve">
+    <value>Napačna ali potekla verifikacijska povezava</value>
+  </data>
+</root>

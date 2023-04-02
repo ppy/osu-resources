@@ -315,9 +315,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsReviewEmbedTimestampAllDiff => new TranslatableString(getKey(@"discussions.review.embed.timestamp.all-diff"), @"Posts on ""All difficulties"" can't be timestamped.");
 
         /// <summary>
-        /// "If this {0} starts with a timestamp, it will be shown under Timeline."
+        /// "If this post starts with a timestamp, it will be shown under Timeline."
         /// </summary>
-        public static LocalisableString DiscussionsReviewEmbedTimestampDiff(LocalisableString type) => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this {0} starts with a timestamp, it will be shown under Timeline.", type);
+        public static LocalisableString DiscussionsReviewEmbedTimestampDiff => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this post starts with a timestamp, it will be shown under Timeline.");
 
         /// <summary>
         /// "insert paragraph"
@@ -603,6 +603,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}."
         /// </summary>
         public static LocalisableString NominationsRankEstimateDefault(LocalisableString date, LocalisableString position, LocalisableString queue) => new TranslatableString(getKey(@"nominations.rank_estimate._"), @"This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}.", date, position, queue);
+
+        /// <summary>
+        /// "on {0}"
+        /// </summary>
+        public static LocalisableString NominationsRankEstimateOn(LocalisableString date) => new TranslatableString(getKey(@"nominations.rank_estimate.on"), @"on {0}", date);
 
         /// <summary>
         /// "ranking queue"

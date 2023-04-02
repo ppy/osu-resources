@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleted" xml:space="preserve">
+    <value>[tinanggal na user]</value>
+  </data>
+  <data name="beatmapset_activities.title" xml:space="preserve">
+    <value>Kasaysayan ng pag-mod ni {0}</value>
+  </data>
+  <data name="beatmapset_activities.title_compact" xml:space="preserve">
+    <value>Pag mod</value>
+  </data>
+  <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
+    <value>Kakasimulang disccusion</value>
+  </data>
+  <data name="beatmapset_activities.events.title_recent" xml:space="preserve">
+    <value>Bagong event</value>
+  </data>
+  <data name="beatmapset_activities.posts.title_recent" xml:space="preserve">
+    <value>Bagong post</value>
+  </data>
+  <data name="beatmapset_activities.votes_received.title_most" xml:space="preserve">
+    <value>Pinaka upvoted ng(huling 3 buwan)</value>
+  </data>
+  <data name="beatmapset_activities.votes_made.title_most" xml:space="preserve">
+    <value>Pinaka upvoted(huling 3 buwan)</value>
+  </data>
+  <data name="blocks.banner_text" xml:space="preserve">
+    <value>Na-block mo na ang user na ito.</value>
+  </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Ang komentong ito ay nakatago.</value>
+  </data>
+  <data name="blocks.blocked_count" xml:space="preserve">
+    <value>mga na-block na user ({0})</value>
+  </data>
+  <data name="blocks.hide_profile" xml:space="preserve">
+    <value>Itago ang profile</value>
+  </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>itago</value>
+  </data>
+  <data name="blocks.not_blocked" xml:space="preserve">
+    <value>Hindi naka-block ang user na ito.</value>
+  </data>
+  <data name="blocks.show_profile" xml:space="preserve">
+    <value>Ipakita ang profile</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>ipakita</value>
+  </data>
+  <data name="blocks.too_many" xml:space="preserve">
+    <value>Naabot na ang limit ng pag-block.</value>
+  </data>
+  <data name="blocks.button.block" xml:space="preserve">
+    <value>Harangan</value>
+  </data>
+  <data name="blocks.button.unblock" xml:space="preserve">
+    <value>Tanggalin ang harang</value>
+  </data>
+  <data name="card.loading" xml:space="preserve">
+    <value>Nag lo-load...</value>
+  </data>
+  <data name="card.send_message" xml:space="preserve">
+    <value>Ipadala ang mensahe</value>
+  </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>kumpirmasyon ng password</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>maglikha ng account</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>kumpirmasyon ng email</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>username</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>sa pamamagitan ng paggawa ng account sumasang-ayon ka sa {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>mga termino ng serbisyo</value>
+  </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>Naku po! Mukhang ang iyong account ay hindi magagamit.</value>
+  </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>Sa kaso na ikaw ay nakalabag sa rules, alamin na mayroong isang buwan na hindi namin bibigyang konsiderasyon ang anumang request sa amnestiya. Pagkatapos ng sinabing isang buwan ay maaari na kaming i-contact kung kinakailangan. Binibigyang paalala namin na ang paglikha ng bagong account matapos magkaroon ng disabled account ay magreresulta sa &lt;strong&gt;pagdagdag sa isang buwan na cool-down&lt;/strong&gt;. &lt;strong&gt;Sa bawat isang account na iyong nilikha ikaw ay lalong lumalabag sa rules.&lt;/strong&gt; </value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Kung ramdam mo na ito ay mali, maaari kang makipag-ugnay sa amin (sa {0} o sa pag-click ng "?" sa babang-kanan ng pahinang ito). Tandaan na kami ay laging sigurado sa aming mga kilos dahil ang mga ito ay nakabase sa napakatibay na datos. Kami ay may karapatang ibalewala ang iyong kahilingan kung ramdam namin na ikaw ay sadyang nagsisinungaling.</value>
+  </data>
+  <data name="disabled.if_mistake.email" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Ang account mo ay na kompromiso. Maari tong ma disable habang kinukunifirma ang may ari. </value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>May mga dahilan na maaring magresulta sa pagiging disabled ng iyong account:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Ikaw ay nakalabag ng isa o higit pang {0} or {1}.</value>
+  </data>
+  <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
+    <value>patakaran ng community</value>
+  </data>
+  <data name="disabled.reasons.tos.tos" xml:space="preserve">
+    <value>termino ng serbisyo</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Mga miyembero alinsunod sa game mode</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>Ang iyong account ay hindi nagamit ng mahabang panahon.</value>
+  </data>
+  <data name="login._" xml:space="preserve">
+    <value>Mag-sign in</value>
+  </data>
+  <data name="login.button" xml:space="preserve">
+    <value>Mag-sign in</value>
+  </data>
+  <data name="login.button_posting" xml:space="preserve">
+    <value>Nag sa-sign in...</value>
+  </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>Ang pag sign in gamit ng email ay disabled muna. Gamitin muna ang iyong username.</value>
+  </data>
+  <data name="login.failed" xml:space="preserve">
+    <value>Maling sign in</value>
+  </data>
+  <data name="login.forgot" xml:space="preserve">
+    <value>Nakalimutan mo ang password mo?</value>
+  </data>
+  <data name="login.info" xml:space="preserve">
+    <value>Paki-sign-in upang makapagpatuloy</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Madaming palyang tangka sa pag login. Tapusin muna ang captcha at ulitin muli. (I refresh pag hindi makita ang captcha)</value>
+  </data>
+  <data name="login.locked_ip" xml:space="preserve">
+    <value>Locked ang iyong IP address. Magantay ng ilang minuto.</value>
+  </data>
+  <data name="login.password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="login.register" xml:space="preserve">
+    <value>Wala kang osu! account? Gumawa ka ng bago</value>
+  </data>
+  <data name="login.remember" xml:space="preserve">
+    <value>Tandaan ako sa kompyuter na ito</value>
+  </data>
+  <data name="login.title" xml:space="preserve">
+    <value>Paki-sign-in para tumuloy</value>
+  </data>
+  <data name="login.username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="login.beta.main" xml:space="preserve">
+    <value>Ang beta access ay para lang sa mga users na may pribilehiyo.</value>
+  </data>
+  <data name="login.beta.small" xml:space="preserve">
+    <value>(Makakapasok rin ang mga osu!supporter)</value>
+  </data>
+  <data name="posts.title" xml:space="preserve">
+    <value>Mga post ni {0}</value>
+  </data>
+  <data name="anonymous.login_link" xml:space="preserve">
+    <value>pindutin upang maka-sign in</value>
+  </data>
+  <data name="anonymous.login_text" xml:space="preserve">
+    <value>mag-sign in</value>
+  </data>
+  <data name="anonymous.username" xml:space="preserve">
+    <value>Bisita</value>
+  </data>
+  <data name="anonymous.error" xml:space="preserve">
+    <value>Kailangan mong mag sign-in para gawin ito.</value>
+  </data>
+  <data name="logout_confirm" xml:space="preserve">
+    <value>Nais mo ba talagang mag-sign-out? :(</value>
+  </data>
+  <data name="report.button_text" xml:space="preserve">
+    <value>I-report</value>
+  </data>
+  <data name="report.comments" xml:space="preserve">
+    <value>Mga Karagdagang Komento</value>
+  </data>
+  <data name="report.placeholder" xml:space="preserve">
+    <value>Maari pong mag bigay ng information na magiging kapakipakinabang,.</value>
+  </data>
+  <data name="report.reason" xml:space="preserve">
+    <value>Dahilan</value>
+  </data>
+  <data name="report.thanks" xml:space="preserve">
+    <value>Salamat sa iyong ulat!</value>
+  </data>
+  <data name="report.title" xml:space="preserve">
+    <value>I-sumbong si {0}?</value>
+  </data>
+  <data name="report.actions.send" xml:space="preserve">
+    <value>Magpadala ng Report</value>
+  </data>
+  <data name="report.actions.cancel" xml:space="preserve">
+    <value>Ikansela</value>
+  </data>
+  <data name="report.options.cheating" xml:space="preserve">
+    <value>Hindi tamang gawain / Pandaraya</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Gumagamit ng maraming account</value>
+  </data>
+  <data name="report.options.insults" xml:space="preserve">
+    <value>Iniinsulto ako o ang iba</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Nag-iispam</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Paglink ng hindi pwedeng content.</value>
+  </data>
+  <data name="report.options.nonsense" xml:space="preserve">
+    <value>Bagay na walang kapararakan</value>
+  </data>
+  <data name="report.options.other" xml:space="preserve">
+    <value>Iba( i type sa baba)</value>
+  </data>
+  <data name="restricted_banner.title" xml:space="preserve">
+    <value>Naging limitado ang iyong account!</value>
+  </data>
+  <data name="restricted_banner.message" xml:space="preserve">
+    <value>Habang restricted ang account, ikaw ay hindi maaaring makihalubilo sa kapwa kalaro at ang iyong mga iskor ay ikaw lamang ang makakakita. Ito ay madalas ng resulta ng isang automated na proseso at kadalasang ipinapawalang bisa pagkatapos ng 24 oras. Kung nais mong mag-apela sa iyong restriction, &lt;a href="mailto{0}@ppy.sh"&gt;i-contact ang support&lt;/a&gt;.</value>
+  </data>
+  <data name="show.age" xml:space="preserve">
+    <value>{0} taong gulang</value>
+  </data>
+  <data name="show.change_avatar" xml:space="preserve">
+    <value>palitan ang iyong avatar!</value>
+  </data>
+  <data name="show.first_members" xml:space="preserve">
+    <value>Nandito galing sa simula</value>
+  </data>
+  <data name="show.is_developer" xml:space="preserve">
+    <value>osu!developer</value>
+  </data>
+  <data name="show.is_supporter" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.joined_at" xml:space="preserve">
+    <value>Sumali noong {0}</value>
+  </data>
+  <data name="show.lastvisit" xml:space="preserve">
+    <value>Huling nakitang {0}</value>
+  </data>
+  <data name="show.lastvisit_online" xml:space="preserve">
+    <value>Kasalukuyang online</value>
+  </data>
+  <data name="show.missingtext" xml:space="preserve">
+    <value>Baka nagkamali ka ng pag type!(Or baka na ban ang gumagamit.)</value>
+  </data>
+  <data name="show.origin_country" xml:space="preserve">
+    <value>Nangganling sa {0}</value>
+  </data>
+  <data name="show.previous_usernames" xml:space="preserve">
+    <value>dating kilala bilang</value>
+  </data>
+  <data name="show.plays_with" xml:space="preserve">
+    <value>Naglalaro gamit ang {0}</value>
+  </data>
+  <data name="show.title" xml:space="preserve">
+    <value>Profile ni {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Nag-post sa {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} na komento|{0} na mga komento</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Itago ang cover</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Ipakita ang cover</value>
+  </data>
+  <data name="show.edit.cover.button" xml:space="preserve">
+    <value>Palitan ang cover</value>
+  </data>
+  <data name="show.edit.cover.defaults_info" xml:space="preserve">
+    <value>Higit pang mga larawang cover ang ilalabas sa hinaharap</value>
+  </data>
+  <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
+    <value>Hindi matagumpay ang pagproseso ng imahe. Suriin ang inilalathalang imahe at subukang muli.</value>
+  </data>
+  <data name="show.edit.cover.upload.button" xml:space="preserve">
+    <value>Mag-upload ng imahe</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
+    <value>I-drop dito para ma-upload</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
+    <value>Maaari mo rin i-drop ang iyong larawan dito i-upload</value>
+  </data>
+  <data name="show.edit.cover.upload.size_info" xml:space="preserve">
+    <value>Ang sukat ng cover ay dapat maging 2400 x 620</value>
+  </data>
+  <data name="show.edit.cover.upload.too_large" xml:space="preserve">
+    <value>Ang na-upload na file ay masyadong malaki.</value>
+  </data>
+  <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
+    <value>Hindi suportadong format.</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>Available lamang ang upload sa mga {0}</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>osu!supporters</value>
+  </data>
+  <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
+    <value>default na game mode</value>
+  </data>
+  <data name="show.edit.default_playmode.set" xml:space="preserve">
+    <value>i-set ang {0} bilang default na game mode</value>
+  </data>
+  <data name="show.extra.none" xml:space="preserve">
+    <value>wala</value>
+  </data>
+  <data name="show.extra.unranked" xml:space="preserve">
+    <value>Walang nilaro kamakailan lamang</value>
+  </data>
+  <data name="show.extra.achievements.achieved-on" xml:space="preserve">
+    <value>Nakamit sa {0}</value>
+  </data>
+  <data name="show.extra.achievements.locked" xml:space="preserve">
+    <value>Naka-lock</value>
+  </data>
+  <data name="show.extra.achievements.title" xml:space="preserve">
+    <value>Mga Nakamit</value>
+  </data>
+  <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
+    <value>ni {0}</value>
+  </data>
+  <data name="show.extra.beatmaps.title" xml:space="preserve">
+    <value>Mga Beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
+    <value>Mga Paboritong Beatmaps</value>
+  </data>
+  <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
+    <value>Mga Inilibing na Beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Guest Participation na mga Beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
+    <value>Mga Minamahal na Beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Mga nominadong Na-rank na Mga beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
+    <value>Pending na mga Beatmap</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>Ranked na mga Beatmap</value>
+  </data>
+  <data name="show.extra.discussions.title" xml:space="preserve">
+    <value>Diskusyon</value>
+  </data>
+  <data name="show.extra.discussions.title_longer" xml:space="preserve">
+    <value>Kamakailan lamang na mga Tinalakay</value>
+  </data>
+  <data name="show.extra.discussions.show_more" xml:space="preserve">
+    <value>higit pang mga talakayan</value>
+  </data>
+  <data name="show.extra.events.title" xml:space="preserve">
+    <value>Mga Pangyayari</value>
+  </data>
+  <data name="show.extra.events.title_longer" xml:space="preserve">
+    <value>Mga Kamakailang Kaganapan</value>
+  </data>
+  <data name="show.extra.events.show_more" xml:space="preserve">
+    <value>higit pang mga kaganapan</value>
+  </data>
+  <data name="show.extra.historical.title" xml:space="preserve">
+    <value>Kasaysayan</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.title" xml:space="preserve">
+    <value>Kasaysayan ng Laro</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
+    <value>Mga Nilaro</value>
+  </data>
+  <data name="show.extra.historical.most_played.count" xml:space="preserve">
+    <value>beses ng paglaro</value>
+  </data>
+  <data name="show.extra.historical.most_played.title" xml:space="preserve">
+    <value>Pinakamaraming nilaro na Beatmaps</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
+    <value>katumpakan: {0}</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
+    <value>Mga kamakailang nilaro (24h)</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
+    <value>Kasaysayan sa Panooran ng Replay</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
+    <value>Beses na Napanooran ng Replay</value>
+  </data>
+  <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
+    <value>Kamakailang Kaganapan sa Kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.title" xml:space="preserve">
+    <value>Kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.total" xml:space="preserve">
+    <value>Suma total ng Nakamit na Kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
+    <value>{0} na kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
+    <value>Ang user na ito ay hindi pa nakatatanggap ng kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
+    <value>Nakatanggap ng {0} na kudosu mula sa pagpapawalang-bisa ng pagkakabawi ng kudosu sa modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>Binawian ng {0} sa modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
+    <value>Nabawasan ng {0} dahil sa pagkakabura ng modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>Nakatanggap ng {0} dahil sa pagkakabalik ng modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>Nakatanggap ng {0} dahil sa sapat na boto matapos magsulat ng modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>Nabawasan ng {0} dahil sa binawing boto sa modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>Nakatanggap ng {0} dahil sa muling pagkuwenta ng mga boto sa modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>Nabawasan ng {0} dahil sa muling pagkuwenta ng mga boto sa modding post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>Nakataggap ng {0} mula kay {1} dahil sa isang post sa {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>Ni-reset ni {0} ang kudosu sa post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>Tinanggihan ni {0} ng kudosu sa post sa {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Nakabase sa kung gaano karami ang ambag ng user sa pag-moderate ng beatmap. Pumunta sa {0} para sa dagdag na impormasyon.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>sa pahinang ito</value>
+  </data>
+  <data name="show.extra.me.title" xml:space="preserve">
+    <value>ako!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Wala pang natatanggap ang manlalarong ito sa ngayon. ;_;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>Pinakabago</value>
+  </data>
+  <data name="show.extra.medals.title" xml:space="preserve">
+    <value>Mga Medalya</value>
+  </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Playlist Games</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>Mga Post</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>Mga Bagong Post</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>higit pang mga post</value>
+  </data>
+  <data name="show.extra.recent_activity.title" xml:space="preserve">
+    <value>Kamakailan</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Multiplayer Games</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>I-Download ang Replay</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>Mga ranggong beatmap lamang nagbibigay ng pp</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>nagkakahalagang {0}</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Tignan ang Detalye</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>Ranggo</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>Pinakamahusay na Pagganap</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>Nangungunang Ranggo</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>I-unpin</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Na-unpin na score</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Na-pin na score</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Mga na-pin na scores</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Ibinigay na mga Boto (sa huling 3 buwan)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Natanggap na Boto (sa huling 3 buwan)</value>
+  </data>
+  <data name="show.extra.votes.title" xml:space="preserve">
+    <value>Mga boto</value>
+  </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>Mga bagong boto</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} na boto|{0} na mga boto</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>Katayuan ng Account</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>Ang account ni &lt;strong&gt;{0}&lt;/strong&gt; ay nasa hindi mabuting kalagayan :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>Makakapagsalitang muli si &lt;strong&gt;{0}&lt;/strong&gt; {1}.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>Kamakailang Paglabag</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
+    <value>petsa</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>aksyon</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
+    <value>tagal</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
+    <value>Permanente</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>deskripsyon</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
+    <value>ni {0}</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
+    <value>I-ban</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
+    <value>Pagpapatahimik</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Pangtorneong pagbabawal</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
+    <value>Tala</value>
+  </data>
+  <data name="show.info.interests" xml:space="preserve">
+    <value>Mga Interes</value>
+  </data>
+  <data name="show.info.location" xml:space="preserve">
+    <value>Kasalukuyang Lokasyon</value>
+  </data>
+  <data name="show.info.occupation" xml:space="preserve">
+    <value>Trabaho</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="show.not_found.reason_1" xml:space="preserve">
+    <value>Maaring nagbago ang kanilang username.</value>
+  </data>
+  <data name="show.not_found.reason_2" xml:space="preserve">
+    <value>Ang account na ito ay hindi maaring makita dahil sa seguridad o abuso na isyu.</value>
+  </data>
+  <data name="show.not_found.reason_3" xml:space="preserve">
+    <value>Nagkamali ka sa iyong na-itype!</value>
+  </data>
+  <data name="show.not_found.reason_header" xml:space="preserve">
+    <value>Mayroong mga dahilan para sa mali na ito:</value>
+  </data>
+  <data name="show.not_found.title" xml:space="preserve">
+    <value>Hindi mahanap ang user! ;_;</value>
+  </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>I-edit ang iyong profile page</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>Ang &lt;strong&gt;me!&lt;/strong&gt; ay isang bahagi sa iyong profile page na maaari mong i-customize.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>I-edit ang me!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>I-type ang iyong kontento dito</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Kailangan mo maging {0} para magamit ang tampok na ito.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>Nag-kontribute sa {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} na forum post|{0} na forum posts</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>Pambansang Ranggo para sa {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>Pambansang Ranggo</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>Pandaigdigang ranggo para sa {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>Pambansang Ranggo</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Pinakamataas na ranggo: {0} sa {1}</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>Katumpakan sa Pagtama</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>Antas {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>Progreso sa susunod na antas</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Pinakamataas na Combo</value>
+  </data>
+  <data name="show.stats.medals" xml:space="preserve">
+    <value>Medalya</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>Bilang ng Beses na Naglaro</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Kabuuang Oras ng Paglaro</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Ranked na Iskor</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Beses na Pinanood ng Iba ang Replay</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Uri ng Iskor</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Kabuuang Tama</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Kabuuang Puntos</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Mga Abandunadong Beatmap</value>
+  </data>
+  <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
+    <value>Mga Loved na Beatmap</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>Mga Nakabinbing mga Beatmap</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Mga Na-rank na Beatmap</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Kasalukuyan kang pinatatahimik.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>May ilang gawaing hindi maaari para sa iyo.</value>
+  </data>
+  <data name="status.all" xml:space="preserve">
+    <value>Lahat</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>pakirehistro sa pamamagitan ng game client sa halip!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>pakikumpleto ang pagpaparehistro gamit ang osu! website</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Ginawa ng user</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Beripikasyon ng Account</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Pa-bloke na view</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Kard na view</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Talaang view</value>
+  </data>
+</root>

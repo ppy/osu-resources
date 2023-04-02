@@ -30,14 +30,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsDefault => new TranslatableString(getKey(@"beatmaps._"), @"Beatmaps");
 
         /// <summary>
-        /// "Download Beatmap Template"
+        /// "download beatmap template"
         /// </summary>
-        public static LocalisableString BeatmapsDownload => new TranslatableString(getKey(@"beatmaps.download"), @"Download Beatmap Template");
+        public static LocalisableString BeatmapsDownload => new TranslatableString(getKey(@"beatmaps.download"), @"download beatmap template");
 
         /// <summary>
-        /// "Beatmap Template not yet available"
+        /// "beatmap template not yet available"
         /// </summary>
-        public static LocalisableString BeatmapsDownloadNa => new TranslatableString(getKey(@"beatmaps.download-na"), @"Beatmap Template not yet available");
+        public static LocalisableString BeatmapsDownloadNa => new TranslatableString(getKey(@"beatmaps.download-na"), @"beatmap template not yet available");
 
         /// <summary>
         /// "Featured artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these featured artists have also created exclusive new tracks for use in osu!.&lt;br&gt;&lt;br&gt;All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content."
