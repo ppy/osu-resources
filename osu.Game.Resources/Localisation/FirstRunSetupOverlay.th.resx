@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="get_started" xml:space="preserve">
+    <value>มาเริ่มกันเลย</value>
+  </data>
+  <data name="click_to_resume_first_run_setup_at_any_point" xml:space="preserve">
+    <value>คลิกเพื่อกลับไปยังหน้าการตั้งค่าครั้งแรกได้ทุกเมื่อ</value>
+  </data>
+  <data name="first_run_setup_title" xml:space="preserve">
+    <value>ตั้งค่าครั้งแรก</value>
+  </data>
+  <data name="first_run_setup_description" xml:space="preserve">
+    <value>ตั้งค่า osu! ให้เหมาะสำหรับคุณ</value>
+  </data>
+  <data name="welcome_title" xml:space="preserve">
+    <value>ยินดีต้อนรับ</value>
+  </data>
+  <data name="welcome_description" xml:space="preserve">
+    <value>ยินดีต้อนรับสู่ตัวช่วยการตั้งค่าครั้งแรก
+
+osu! เป็นเกมที่สามารถปรับแต่งได้อย่างหลากหลาย และการไปที่หน้าการตั้งค่าโดยตรงทันทีอาจทำให้ดูแล้วงงได้ หน้านี้จะช่วยให้คุณจัดการตัวเลือกที่สำคัญ ๆ ก่อน เพื่อให้มั่นใจได้ว่าประสบการณ์ครั้งแรกของคุณเป็นไปอย่างราบลื่น</value>
+  </data>
+  <data name="ui_scale_description" xml:space="preserve">
+    <value>ขนาดของเมนูสามารถปรับได้ตามที่คุณต้องการ</value>
+  </data>
+  <data name="behaviour" xml:space="preserve">
+    <value>พฤติกรรม</value>
+  </data>
+  <data name="behaviour_description" xml:space="preserve">
+    <value>การตั้งค่าแบบใหม่ได้ถูกเพิ่มเข้ามาแล้ว ซึ่งจะช่วยเรื่องความแม่นย่ำให้มากขึ้นและเข้าถึงได้ง่ายสำหรับทุกคน
+
+พวกเราขอแนะนำให้ลองการตั้งค่าแบบใหม่นี้ แต่ถ้าคุณชอบเวอร์ชั่นดั้งเดิมของ osu! สามารถเปลี่ยนไปใช้แบบเดิมได้ทุกเมื่อ</value>
+  </data>
+  <data name="new_defaults" xml:space="preserve">
+    <value>ค่าเริ่มต้นแบบใหม่</value>
+  </data>
+  <data name="classic_defaults" xml:space="preserve">
+    <value>ค่าเริ่มต้นแบบดั้งเดิม</value>
+  </data>
+</root>
