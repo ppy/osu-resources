@@ -215,7 +215,7 @@
     <value>Тайм-код</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>Нажмите Ctrl + C в режиме редактирования, чтобы скопировать тайм-код и вставить в сообщение!</value>
+    <value>Чтобы добавить тайм-код, нажмите Ctrl+C в редакторе и Ctrl+V здесь!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Новый отзыв</value>
@@ -239,10 +239,10 @@
     <value>Не сохранено</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Записи для всех сложностей не могут иметь временных отметок.</value>
+    <value>Отзывы к "Все сложности" не должны содержать тайм-кодов.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Если {0} начинается с тайм-кода, оно появится в разделе "Тайм-коды".</value>
+    <value>Если {0} начинается с тайм-кода, он появится в разделе "Тайм-коды".</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставить параграф</value>
@@ -414,6 +414,9 @@
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Эта карта станет рейтинговой {0}, если не будет найдено проблем. Она #{1} в {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.on" xml:space="preserve">
+    <value>{0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>очереди ранка</value>

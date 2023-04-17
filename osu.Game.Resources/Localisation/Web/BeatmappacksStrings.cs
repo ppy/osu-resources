@@ -100,6 +100,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModeTheme => new TranslatableString(getKey(@"mode.theme"), @"Theme");
 
         /// <summary>
+        /// "Tournament"
+        /// </summary>
+        public static LocalisableString ModeTournament => new TranslatableString(getKey(@"mode.tournament"), @"Tournament");
+
+        /// <summary>
         /// "You need to be {0} to download"
         /// </summary>
         public static LocalisableString RequireLoginDefault(LocalisableString link) => new TranslatableString(getKey(@"require_login._"), @"You need to be {0} to download", link);

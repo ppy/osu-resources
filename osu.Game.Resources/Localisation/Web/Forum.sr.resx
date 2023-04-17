@@ -121,6 +121,9 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>постовао {0}</value>
   </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>поставио {0} у {1}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Обриши пост</value>
   </data>
@@ -209,7 +212,7 @@
     <value>Преглед</value>
   </data>
   <data name="topic.create.preview_hide" xml:space="preserve">
-    <value>Напиши</value>
+    <value>Измени</value>
   </data>
   <data name="topic.create.submit" xml:space="preserve">
     <value>Пост</value>
@@ -247,6 +250,9 @@
   <data name="topic.logs._" xml:space="preserve">
     <value>Логови за теме</value>
   </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Прегледај дневнике тема</value>
+  </data>
   <data name="topic.logs.columns.action" xml:space="preserve">
     <value>Радња</value>
   </data>
@@ -256,8 +262,17 @@
   <data name="topic.logs.columns.user" xml:space="preserve">
     <value>Корисник</value>
   </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>додата "{0}" ознака</value>
+  </data>
   <data name="topic.logs.data.announcement" xml:space="preserve">
     <value>закачена тема и означена као најава</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>на {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>из {0}</value>
   </data>
   <data name="topic.logs.data.pin" xml:space="preserve">
     <value>закачена тема</value>
@@ -265,11 +280,29 @@
   <data name="topic.logs.data.post_operation" xml:space="preserve">
     <value>поставио {0}</value>
   </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>уклоњена "{0}" ознака</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>из {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>откачена тема</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>није пронађен ниједан дневник...</value>
+  </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>Обрисан пост</value>
   </data>
   <data name="topic.logs.operations.delete_topic" xml:space="preserve">
     <value>Обрисана тема</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Промењен наслов теме</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Уређена анкета за тему</value>
   </data>
   <data name="topic.logs.operations.fork" xml:space="preserve">
     <value>Копирана тема</value>
@@ -280,11 +313,29 @@
   <data name="topic.logs.operations.merge" xml:space="preserve">
     <value>Спојени постови у овој теми</value>
   </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Премештена тема</value>
+  </data>
   <data name="topic.logs.operations.pin" xml:space="preserve">
     <value>Закачена тема</value>
   </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Измењен пост</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Враћен пост</value>
+  </data>
   <data name="topic.logs.operations.restore_topic" xml:space="preserve">
     <value>Враћена тема</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Премештени подељени постови</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Подељени постови</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Подесите тип теме</value>
   </data>
   <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
     <value>Промењен тип теме</value>
@@ -319,6 +370,12 @@
   <data name="topic_watches.index.info.total" xml:space="preserve">
     <value>Пратите укупно {0} тема.</value>
   </data>
+  <data name="topic_watches.index.info.unread" xml:space="preserve">
+    <value>Имате {0} непрочитаних одговора на претплаћене теме.</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.confirmation" xml:space="preserve">
+    <value>Отказати претплату на тему?</value>
+  </data>
   <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
     <value>Откажи претплату</value>
   </data>
@@ -331,14 +388,38 @@
   <data name="topics.actions.reply" xml:space="preserve">
     <value>Одговори</value>
   </data>
+  <data name="topics.actions.reply_with_quote" xml:space="preserve">
+    <value>Цитирајте пост за одговор</value>
+  </data>
   <data name="topics.actions.search" xml:space="preserve">
     <value>Претражи</value>
+  </data>
+  <data name="topics.create.create_poll" xml:space="preserve">
+    <value>Креирање анкете</value>
+  </data>
+  <data name="topics.create.preview" xml:space="preserve">
+    <value>Преглед поста</value>
+  </data>
+  <data name="topics.create.create_poll_button.add" xml:space="preserve">
+    <value>Направите анкету</value>
+  </data>
+  <data name="topics.create.create_poll_button.remove" xml:space="preserve">
+    <value>Откажите прављење анкете</value>
+  </data>
+  <data name="topics.create.poll.hide_results" xml:space="preserve">
+    <value>Сакријте резултате анкета.</value>
+  </data>
+  <data name="topics.create.poll.hide_results_info" xml:space="preserve">
+    <value>Они ће бити приказани тек по завршетку анкете.</value>
   </data>
   <data name="topics.create.poll.length" xml:space="preserve">
     <value>Покрени анкету за</value>
   </data>
   <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
     <value>дана</value>
+  </data>
+  <data name="topics.create.poll.length_info" xml:space="preserve">
+    <value>Оставите празно за анкету без краја</value>
   </data>
   <data name="topics.create.poll.max_options" xml:space="preserve">
     <value>Опције по кориснику</value>
@@ -441,6 +522,9 @@
   </data>
   <data name="topics.show.total_posts" xml:space="preserve">
     <value>Укупно Постова</value>
+  </data>
+  <data name="topics.show.feature_vote.do" xml:space="preserve">
+    <value>Промовишите овај захтев</value>
   </data>
   <data name="topics.show.poll.edit" xml:space="preserve">
     <value>Уређивач Анкете</value>

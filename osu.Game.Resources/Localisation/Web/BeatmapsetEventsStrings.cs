@@ -155,6 +155,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EventRemoveFromLoved(LocalisableString user, LocalisableString text) => new TranslatableString(getKey(@"event.remove_from_loved"), @"Removed from Loved by {0}. ({1})", user, text);
 
         /// <summary>
+        /// "Tags changed from &quot;{0}&quot; to &quot;{1}&quot;."
+        /// </summary>
+        public static LocalisableString EventTagsEdit(LocalisableString old, LocalisableString @new) => new TranslatableString(getKey(@"event.tags_edit"), @"Tags changed from ""{0}"" to ""{1}"".", old, @new);
+
+        /// <summary>
         /// "Removed explicit mark"
         /// </summary>
         public static LocalisableString EventNsfwToggleTo0 => new TranslatableString(getKey(@"event.nsfw_toggle.to_0"), @"Removed explicit mark");

@@ -75,6 +75,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BlocksHideComment => new TranslatableString(getKey(@"blocks.hide_comment"), @"hide");
 
         /// <summary>
+        /// "This post is hidden."
+        /// </summary>
+        public static LocalisableString BlocksForumPostText => new TranslatableString(getKey(@"blocks.forum_post_text"), @"This post is hidden.");
+
+        /// <summary>
         /// "That user is not blocked."
         /// </summary>
         public static LocalisableString BlocksNotBlocked => new TranslatableString(getKey(@"blocks.not_blocked"), @"That user is not blocked.");
