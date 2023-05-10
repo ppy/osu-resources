@@ -64,14 +64,17 @@
   <data name="renderer_header" xml:space="preserve">
     <value>Renderöijä</value>
   </data>
+  <data name="renderer" xml:space="preserve">
+    <value>Renderöijä</value>
+  </data>
   <data name="frame_limiter" xml:space="preserve">
-    <value>FPS-rajoitin</value>
+    <value>Kuvataajuuden rajoitin</value>
   </data>
   <data name="threading_mode" xml:space="preserve">
     <value>Säikeiden käyttö</value>
   </data>
   <data name="show_fps" xml:space="preserve">
-    <value>Näytä FPS</value>
+    <value>Näytä kuvataajuus</value>
   </data>
   <data name="layout_header" xml:space="preserve">
     <value>Asetelma</value>
@@ -110,7 +113,10 @@
     <value>Grafiikka-asetukset</value>
   </data>
   <data name="storyboard_video" xml:space="preserve">
-    <value>Storyboard / video</value>
+    <value>Taustaesitys / video</value>
+  </data>
+  <data name="combo_colour_normalisation" xml:space="preserve">
+    <value>Osumaputkien värien tasapainotus</value>
   </data>
   <data name="hit_lighting" xml:space="preserve">
     <value>Osumien valaistus</value>
@@ -129,5 +135,14 @@
   </data>
   <data name="use_hardware_acceleration" xml:space="preserve">
     <value>Käytä laitteistokiihdytystä</value>
+  </data>
+  <data name="jpg_web_friendly" xml:space="preserve">
+    <value>JPG (web-ystävällinen)</value>
+  </data>
+  <data name="png_lossless" xml:space="preserve">
+    <value>PNG (häviötön)</value>
+  </data>
+  <data name="change_renderer_configuration" xml:space="preserve">
+    <value>Pelisi sulkeutuu, jotta renderöijä voidaan vaihtaa. Muistathan avata sen uudelleen.</value>
   </data>
 </root>
