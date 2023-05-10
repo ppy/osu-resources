@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>The harshness of hit windows and difficulty of special objects (ie. spinners)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tick Rate</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Determines how many "ticks" are generated within long hit objects. A tick rate of 1 will generate ticks on each beat, 2 would be twice per beat, etc.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Base Velocity</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>The base velocity of the beatmap, affecting things like slider velocity and scroll speed in some rulesets.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>
