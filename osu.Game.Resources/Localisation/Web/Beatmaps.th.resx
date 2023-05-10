@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>อัปเดตโหวตล้มเหลว</value>
+    <value>ไม่สามารถอัปเดตการลงคะแนน</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>อนุญาตการให้ kudosu</value>
@@ -83,7 +83,7 @@
     <value>แก้ไขล่าสุดโดย {0} เมื่อเวลา {1}</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>ระดับความยากของแขกโดย{0}</value>
+    <value>ความยากของผู้มาเยี่ยมโดย {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>ถูกปฏิเสธการให้ kudosu</value>
@@ -374,7 +374,7 @@
     <value>เกิดข้อผิดพลาดในการดำเนินการ ลองรีเฟรชหน้าเพจนี้ดู</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>Love</value>
+    <value>ชอบ</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
     <value>เลือกระดับความยากสำหรับ Loved</value>
@@ -415,11 +415,14 @@
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>แมพนี้จะถูก ranked  ใน {0} ถ้าไม่พบเจอปัญหาเพิ่มเติม แมพนี้อยู่ที่ #{1} ใน {2}</value>
   </data>
+  <data name="nominations.rank_estimate.on" xml:space="preserve">
+    <value>เมื่อ {0}</value>
+  </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
     <value>คิวการ rank</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
-    <value>เร็ว ๆ นี้</value>
+    <value>เร็วๆ นี้</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
     <value>การเสนอชื่อถูกรีเซ็ตเมื่อ {0} โดยผู้ใช้ {1} ที่มีปัญหาใหม่ {2} ({3})</value>
@@ -515,10 +518,10 @@
     <value>กรองโดย {0} ต้องมี {1} ทำงานอยู่</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>แท็กสนับสนุน</value>
+    <value>แท็ก osu!supporter</value>
   </data>
   <data name="general.converts" xml:space="preserve">
-    <value>รวมแมพคอนเวิรต์ด้วย</value>
+    <value>รวมบีทแมปที่แปลงแล้ว</value>
   </data>
   <data name="general.featured_artists" xml:space="preserve">
     <value>ศิลปินโดดเด่น</value>
@@ -528,6 +531,9 @@
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>ระดับความยากที่แนะนำ</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>บีทแมปที่โดดเด่น</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>ทั้งหมด</value>
@@ -557,13 +563,13 @@
     <value>แมพของฉัน</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>รอดำเนินการ &amp; WIP</value>
+    <value>รอดำเนินการ</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
-    <value>Qualified</value>
+    <value>ผ่านการรับรอง</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
     <value>จัดอันดับแล้ว</value>
@@ -611,7 +617,7 @@
     <value>แจ๊ส</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>Any</value>
+    <value>ไม่เจาะจง</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>อังกฤษ</value>
@@ -641,10 +647,10 @@
     <value>สวีเดน</value>
   </data>
   <data name="language.russian" xml:space="preserve">
-    <value>ภาษารัสเซีย</value>
+    <value>รัสเซีย</value>
   </data>
   <data name="language.polish" xml:space="preserve">
-    <value>ภาษาโปแลนด์</value>
+    <value>โปแลนด์</value>
   </data>
   <data name="language.instrumental" xml:space="preserve">
     <value>เครื่องดนตรี</value>

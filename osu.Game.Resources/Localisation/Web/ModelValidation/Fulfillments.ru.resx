@@ -58,6 +58,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="username_change.only_one" xml:space="preserve">
+    <value>ник в рамках одного заказа можно поменять только один раз.</value>
+  </data>
+  <data name="username_change.insufficient_paid" xml:space="preserve">
+    <value>Суммы платежа недостаточно для оплаты смены ника ({0} &gt; {1})</value>
+  </data>
+  <data name="username_change.reverting_username_mismatch" xml:space="preserve">
+    <value>Текущий ник ({0}) не совпадает с ником, который нужно откатить ({1})</value>
+  </data>
   <data name="supporter_tag.insufficient_paid" xml:space="preserve">
     <value>Суммы платежа недостаточно для приобретения тега osu!supporter ({0} вместо {1})</value>
   </data>

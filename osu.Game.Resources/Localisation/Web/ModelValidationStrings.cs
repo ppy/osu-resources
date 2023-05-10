@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TooLong(LocalisableString attribute, LocalisableString limit) => new TranslatableString(getKey(@"too_long"), @"{0} exceeded maximum length - can only be up to {1} characters.", attribute, limit);
 
         /// <summary>
+        /// "Please enter a valid URL."
+        /// </summary>
+        public static LocalisableString Url => new TranslatableString(getKey(@"url"), @"Please enter a valid URL.");
+
+        /// <summary>
         /// "Confirmation does not match."
         /// </summary>
         public static LocalisableString WrongConfirmation => new TranslatableString(getKey(@"wrong_confirmation"), @"Confirmation does not match.");
@@ -248,6 +253,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Selected more options than allowed."
         /// </summary>
         public static LocalisableString ForumTopicVoteTooMany => new TranslatableString(getKey(@"forum.topic_vote.too_many"), @"Selected more options than allowed.");
+
+        /// <summary>
+        /// "Only one API key is provided per user for the moment."
+        /// </summary>
+        public static LocalisableString LegacyApiKeyExists => new TranslatableString(getKey(@"legacy_api_key.exists"), @"Only one API key is provided per user for the moment.");
 
         /// <summary>
         /// "Exceeded maximum number of allowed OAuth applications."

@@ -133,11 +133,26 @@
   <data name="event.nomination_reset_received_profile" xml:space="preserve">
     <value>Suosituksen oli nollannut {0} ({1})</value>
   </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Siirtymä verkossa oli {0} ja muutettiin {1}.</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Tämä beatmap sai vaaditun määrän suosituksia hyväksymisvaihetta varten.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Hyväksytty.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>{0} poisti Rakastetuista. ({1})</value>
+  </data>
+  <data name="event.tags_edit" xml:space="preserve">
+    <value>Tunnisteet olivat "{0}" ja muutettu nyt "{1}".</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Poistettiin sopimattoman sisällön merkki</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Merkittiin sopimattomaksi sisällöksi</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Beatmapin Tapahtumat</value>
@@ -159,6 +174,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Hyväksyntä</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Vaikeustason omistajan muutos</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Poista keskustelu</value>
@@ -211,10 +229,22 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Äänestyksen resetointi</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Suosituksen nollaus vastaanotettu</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Sopimattoman sisällön merkki</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Siirtymän muokkaus</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Hyväksyntä</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Luokittelu</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Rakastetun poisto</value>
   </data>
 </root>
