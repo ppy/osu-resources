@@ -97,6 +97,9 @@
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>ซ่อน</value>
   </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>โพสต์นี้ถูกซ่อนไว้</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>ผู้ใช้นี้ไม่ได้ถูกบล็อก</value>
   </data>
@@ -120,6 +123,30 @@
   </data>
   <data name="card.send_message" xml:space="preserve">
     <value>ส่งข้อความ</value>
+  </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>สร้างบัญชี</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>อีเมล</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>ยืนยันอีเมล</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>โดยการสร้างบัญชีคุณได้ยอมรับ {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>เงื่อนไขการให้บริการ</value>
   </data>
   <data name="disabled.title" xml:space="preserve">
     <value>โอ๊ะโอ ดูเหมือนว่าบัญชีของคุณถูกระงับ</value>
@@ -320,6 +347,12 @@
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} ความคิดเห็น|{0} ความคิดเห็น</value>
   </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>ซ่อนปก</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>แสดงปก</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>เปลี่ยนรูปภาพปก</value>
   </data>
@@ -386,8 +419,14 @@
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>สุสานบีทแมพ</value>
   </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>ผู้ที่มีส่วนร่วมบีทแมป</value>
+  </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>บีทแมพที่ Loved</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>เสนอชื่อเข้าชิงอันดับบีทแมป</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>บีทแมพที่กำลังทำ</value>
@@ -483,10 +522,10 @@
     <value>ได้รับ {0} จาก {1} ให้ผู้โพสต์ {2}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
-    <value>Kudosu reset by {0} for the post {1}</value>
+    <value>รีเซ็ต Kudosu โดย {0} สำหรับโพสต์ {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
-    <value>Denied kudosu by {0} for the post {1}</value>
+    <value>ปฏิเสธ Kudosu โดย {0} สำหรับโพสต์ {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
     <value>ขึ้นอยู่กับการดูแลบีทแมพของเจ้าของบีทแมพ ดูรายละเอียดเพิ่มเติมที่นี่ {0}</value>
@@ -506,6 +545,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>เหรียญตรา</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>เพลย์ลิสต์เกมส์</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>โพสต์</value>
   </data>
@@ -518,6 +560,9 @@
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>ล่า​สุด</value>
   </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>เกมผู้เล่นหลายคน</value>
+  </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>ดาวน์โหลดรีเพลย์</value>
   </data>
@@ -525,7 +570,7 @@
     <value>บีทแมพแรงค์เท่านั้นที่ให้ pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
-    <value>weighted {0}</value>
+    <value>น้ำหนัก {0}</value>
   </data>
   <data name="show.extra.top_ranks.view_details" xml:space="preserve">
     <value>ดูรายละเอียดเพิ่มเติม</value>
@@ -534,19 +579,28 @@
     <value>อันดับ</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
-    <value>Performance ที่ดีที่สุด</value>
+    <value>ประสิทธิภาพที่ดีที่สุด</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>First Place Ranks</value>
+    <value>อันดับที่หนึ่ง</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>เลิกปักหมุด</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>คะแนนที่ไม่ได้ปักหมุด</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
     <value>ปักหมุด</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>คะแนนที่ปักหมุดไว้</value>
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
     <value>คะแนนที่ปักหมุดไว้</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
-    <value>จำนวน Votes ที่ได้ให้ (เมื่อสามเดือนที่แล้ว)</value>
+    <value>ผลโหวตที่ให้ (เมื่อสามเดือนที่แล้ว)</value>
   </data>
   <data name="show.extra.votes.received" xml:space="preserve">
     <value>ผลโหวตที่ได้รับ (เมื่อสามเดือนที่แล้ว)</value>
@@ -588,13 +642,16 @@
     <value>คำอธิบาย</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
-    <value>โดย {username}</value>
+    <value>โดย {0}</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
     <value>แบน</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>ถูกใบ้</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>แบนการแข่งขัน</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>หมายเหตุ</value>
@@ -630,13 +687,13 @@
     <value>แก้ไขโปรไฟล์</value>
   </data>
   <data name="show.page.description" xml:space="preserve">
-    <value>&lt;strong&gt;me!&lt;/strong&gt; is a personal customisable area in your profile page.</value>
+    <value>&lt;strong&gt;ฉัน!&lt;/strong&gt; เป็นพื้นที่ส่วนบุคคลที่สามารถปรับแต่งได้ในหน้าโปรไฟล์ของคุณ</value>
   </data>
   <data name="show.page.edit_big" xml:space="preserve">
-    <value>Edit me!</value>
+    <value>แก้ไขฉัน!</value>
   </data>
   <data name="show.page.placeholder" xml:space="preserve">
-    <value>Type page content here</value>
+    <value>พิมพ์เนื้อหาของหน้าที่นี่</value>
   </data>
   <data name="show.page.restriction_info._" xml:space="preserve">
     <value>คุณจำเป็นจะต้อง {0} เพื่อที่จะปลดล็อกสิ่งนี้</value>
@@ -661,6 +718,9 @@
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>อันดับทั่วโลก</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>อันดับสูงสุด: {0} เมื่อ {1}</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>ความแม่นยำเฉลี่ย</value>
@@ -690,10 +750,10 @@
     <value>ดูรีเพลย์โดยผู้อื่น</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
-    <value>Score Ranks</value>
+    <value>อันดับคะแนน</value>
   </data>
   <data name="show.stats.total_hits" xml:space="preserve">
-    <value>Total Hits</value>
+    <value>Hit รวม</value>
   </data>
   <data name="show.stats.total_score" xml:space="preserve">
     <value>คะแนนรวมทั้งหมด</value>
@@ -724,6 +784,12 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>ออฟไลน์</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>โปรดลงทะเบียนผ่านในเกมแทน!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>กรุณาลงทะเบียนโดยใช้เว็บไซต์ osu! </value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>ผู้ใช้ถูกสร้างขึ้น</value>

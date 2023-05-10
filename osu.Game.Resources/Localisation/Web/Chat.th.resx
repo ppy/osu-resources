@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>กำลังโหลดผู้ใช้...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>กำลังสนทนาใน {0}</value>
   </data>
@@ -79,11 +82,17 @@
   <data name="channels.confirm_part" xml:space="preserve">
     <value>คุณต้องการที่จะซ่อนช่องนี้หรือไม่ คุณจะยังคงได้รับข้อความจากช่องนี้</value>
   </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>สร้างการประกาศ</value>
+  </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>ประกาศ</value>
   </data>
   <data name="channels.list.title.group" xml:space="preserve">
     <value>กลุ่ม</value>
+  </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>ข้อความโดยตรง</value>
   </data>
   <data name="channels.list.title.public" xml:space="preserve">
     <value>ช่อง</value>
@@ -100,6 +109,12 @@
   <data name="form.labels.name" xml:space="preserve">
     <value>ชื่อห้อง</value>
   </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>ผู้เล่นที่จะเพิ่ม</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>ไม่มีอะไรที่นี่ บางทีคุณอาจออกจากช่องหรือไม่มีใครอยู่...</value>
+  </data>
   <data name="not_found.title" xml:space="preserve">
     <value>ไม่พบช่อง</value>
   </data>
@@ -108,6 +123,9 @@
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>ไม่สามารถส่งข้อความได้...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>ตัดการเชื่อมต่อแล้ว</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>พิมพ์ข้อความ...</value>

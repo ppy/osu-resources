@@ -15,11 +15,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MatchBeatmapDeleted => new TranslatableString(getKey(@"match.beatmap-deleted"), @"deleted beatmap");
 
         /// <summary>
-        /// "by {0}"
-        /// </summary>
-        public static LocalisableString MatchDifference(LocalisableString difference) => new TranslatableString(getKey(@"match.difference"), @"by {0}", difference);
-
-        /// <summary>
         /// "FAILED"
         /// </summary>
         public static LocalisableString MatchFailed => new TranslatableString(getKey(@"match.failed"), @"FAILED");
@@ -48,6 +43,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "{0} wins"
         /// </summary>
         public static LocalisableString MatchWinner(LocalisableString team) => new TranslatableString(getKey(@"match.winner"), @"{0} wins", team);
+
+        /// <summary>
+        /// "{0} by {1}"
+        /// </summary>
+        public static LocalisableString MatchWinnerBy(LocalisableString winner, LocalisableString difference) => new TranslatableString(getKey(@"match.winner_by"), @"{0} by {1}", winner, difference);
 
         /// <summary>
         /// "{0} left the match"

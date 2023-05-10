@@ -88,6 +88,9 @@
   <data name="covers.destroy.confirm" xml:space="preserve">
     <value>คุณแน่ใจหรือไม่ว่าจะนำภาพหน้าปกออก</value>
   </data>
+  <data name="forums.forums" xml:space="preserve">
+    <value>ฟอรั่ม</value>
+  </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>โพสต์ล่าสุด</value>
   </data>
@@ -117,6 +120,9 @@
   </data>
   <data name="post.posted_at" xml:space="preserve">
     <value>โพสต์เมื่อ {0}</value>
+  </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>โพสต์โดย {0} ใน {1}</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>ลบโพสต์</value>
@@ -203,7 +209,7 @@
     <value>ปิด</value>
   </data>
   <data name="topic.create.preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>ดูตัวอย่าง</value>
   </data>
   <data name="topic.create.preview_hide" xml:space="preserve">
     <value>เขียน</value>
@@ -227,7 +233,7 @@
     <value>คลิกที่นี่เพื่อตั้งหัวข้อ</value>
   </data>
   <data name="topic.jump.enter" xml:space="preserve">
-    <value>click to enter specific post number</value>
+    <value>คลิกเพื่อป้อนหมายเลขโพสต์ที่ต้องการ</value>
   </data>
   <data name="topic.jump.first" xml:space="preserve">
     <value>ไปที่โพสต์แรก</value>
@@ -236,10 +242,19 @@
     <value>ไปที่โพสต์ล่าสุด</value>
   </data>
   <data name="topic.jump.next" xml:space="preserve">
-    <value>skip next 10 posts</value>
+    <value>ข้ามไป 10 โพสต์</value>
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
-    <value>go back 10 posts</value>
+    <value>ย้อนกลับไป 10 โพสต์</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>บันทึกหัวข้อ</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>เรียกดูบันทึกหัวข้อ</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>จัดการ</value>
   </data>
   <data name="topic.logs.columns.date" xml:space="preserve">
     <value>วันที่</value>
@@ -249,6 +264,9 @@
   </data>
   <data name="topic.logs.data.add_tag" xml:space="preserve">
     <value>เพิ่มแท็ก "{0}" แล้ว</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>ปักหมุดหัวข้อและทำเครื่องหมายเป็นประกาศ</value>
   </data>
   <data name="topic.logs.data.edit_topic" xml:space="preserve">
     <value>ถึง {0}</value>
@@ -270,6 +288,72 @@
   </data>
   <data name="topic.logs.data.unpin" xml:space="preserve">
     <value>หัวข้อที่ไม่ปักหมุดไว้</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>ไม่พบบันทึก...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>โพสต์ที่ถูกลบ</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>หัวข้อที่ถูกลบ</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>เปลี่ยนชื่อหัวข้อแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>แก้ไขโพลล์ของหัวข้อ</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>คัดลอกหัวข้อแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>แท็กที่มีปัญหาอยู่</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>หัวข้อที่ถูกล็อค</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>รวมโพสต์ในหัวข้อนี้แล้ว</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>หัวข้อที่ย้าย</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>หัวข้อที่ปักหมุดไว้</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>แก้ไขโพสต์แล้ว</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>กู้คืนโพสต์แล้ว</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>กู้คืนหัวข้อแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>ย้ายโพสต์แยกแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>แยกโพสต์</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>กำหนดประเภทหัวข้อ</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>เปลี่ยนประเภทหัวข้อแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>หัวข้อที่ปลดล็อค</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>หัวข้อเลิกปักหมุดแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>ล็อคหัวข้อของตัวเองแล้ว</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>ปลดล็อคหัวข้อของตัวเองแล้ว</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -308,22 +392,22 @@
     <value>แสดงหน้าต่างตอบกลับ</value>
   </data>
   <data name="topics.actions.reply_with_quote" xml:space="preserve">
-    <value>Quote post for reply</value>
+    <value>โพสต์อ้างอิงสำหรับการตอบกลับ</value>
   </data>
   <data name="topics.actions.search" xml:space="preserve">
     <value>ค้นหา</value>
   </data>
   <data name="topics.create.create_poll" xml:space="preserve">
-    <value>Poll Creation</value>
+    <value>การสร้างแบบสำรวจความคิดเห็น</value>
   </data>
   <data name="topics.create.preview" xml:space="preserve">
     <value>ตัวอย่างโพสต์</value>
   </data>
   <data name="topics.create.create_poll_button.add" xml:space="preserve">
-    <value>Create a poll</value>
+    <value>สร้างการสำรวจความคิดเห็น</value>
   </data>
   <data name="topics.create.create_poll_button.remove" xml:space="preserve">
-    <value>Cancel creating a poll</value>
+    <value>ยกเลิกการสร้างแบบสำรวจความคิดเห็น</value>
   </data>
   <data name="topics.create.poll.hide_results" xml:space="preserve">
     <value>ซ่อนผลลัพท์ของโพลล์</value>
@@ -332,46 +416,46 @@
     <value>จะแสดงหลังจากโพลล์สิ้นสุดเท่านั้น</value>
   </data>
   <data name="topics.create.poll.length" xml:space="preserve">
-    <value>Run poll for</value>
+    <value>เรียกใช้แบบสำรวจสำหรับ</value>
   </data>
   <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
-    <value>days</value>
+    <value>วัน</value>
   </data>
   <data name="topics.create.poll.length_info" xml:space="preserve">
-    <value>Leave blank for a never ending poll</value>
+    <value>เว้นว่างไว้สำหรับโพลล์ที่ไม่มีวันสิ้นสุด</value>
   </data>
   <data name="topics.create.poll.max_options" xml:space="preserve">
-    <value>Options per user</value>
+    <value>ตัวเลือกต่อผู้ใช้</value>
   </data>
   <data name="topics.create.poll.max_options_info" xml:space="preserve">
-    <value>This is the number of options each user may select when voting.</value>
+    <value>นี่คือจำนวนตัวเลือกที่ผู้ใช้แต่ละคนอาจเลือกเมื่อลงคะแนน</value>
   </data>
   <data name="topics.create.poll.options" xml:space="preserve">
-    <value>Options</value>
+    <value>ตัวเลือก</value>
   </data>
   <data name="topics.create.poll.options_info" xml:space="preserve">
-    <value>Place each options on a new line. You may enter up to 10 options.</value>
+    <value>วางแต่ละตัวเลือกในบรรทัดใหม่ คุณสามารถป้อนได้สูงสุด 10 ตัวเลือก</value>
   </data>
   <data name="topics.create.poll.title" xml:space="preserve">
-    <value>Question</value>
+    <value>คำถาม</value>
   </data>
   <data name="topics.create.poll.vote_change" xml:space="preserve">
-    <value>Allow re-voting.</value>
+    <value>อนุญาตให้ลงคะแนนใหม่</value>
   </data>
   <data name="topics.create.poll.vote_change_info" xml:space="preserve">
-    <value>If enabled, users are able to change their vote.</value>
+    <value>หากเปิดใช้งาน ผู้ใช้จะสามารถเปลี่ยนการลงคะแนนของตนได้</value>
   </data>
   <data name="topics.edit_title.start" xml:space="preserve">
-    <value>Edit title</value>
+    <value>แก้ไขชื่อเรื่อง</value>
   </data>
   <data name="topics.index.feature_votes" xml:space="preserve">
     <value>ลำดับความสำคัญ</value>
   </data>
   <data name="topics.index.replies" xml:space="preserve">
-    <value>replies</value>
+    <value>ตอบกลับ</value>
   </data>
   <data name="topics.index.views" xml:space="preserve">
-    <value>views</value>
+    <value>ดู</value>
   </data>
   <data name="topics.issue_tag_added.to_0" xml:space="preserve">
     <value>ลบ"แท็ก"ที่เพิ่ม</value>
@@ -446,7 +530,7 @@
     <value>เพิ่มแท็ก "แก้แล้ว" แล้ว</value>
   </data>
   <data name="topics.lock.is_locked" xml:space="preserve">
-    <value>This topic is locked and can not be replied to</value>
+    <value>หัวข้อนี้ถูกล็อกและไม่สามารถตอบกลับได้</value>
   </data>
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>ปลดล็อกหัวข้อ</value>
@@ -467,7 +551,7 @@
     <value>หัวข้อถูกล็อกแล้ว</value>
   </data>
   <data name="topics.moderate_move.title" xml:space="preserve">
-    <value>Move to another forum</value>
+    <value>ย้ายไปฟอรัมอื่น</value>
   </data>
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
     <value>เลิกปักหมุดหัวข้อ</value>
@@ -503,16 +587,16 @@
     <value>ซ่อนโพสต์ที่ถูกลบ</value>
   </data>
   <data name="topics.show.deleted-posts" xml:space="preserve">
-    <value>Deleted Posts</value>
+    <value>โพสต์ที่ถูกลบ</value>
   </data>
   <data name="topics.show.total_posts" xml:space="preserve">
-    <value>Total Posts</value>
+    <value>โพสต์ทั้งหมด</value>
   </data>
   <data name="topics.show.feature_vote.current" xml:space="preserve">
-    <value>Current Priority: +{0}</value>
+    <value>ลำดับความสำคัญปัจจุบัน: +{0}</value>
   </data>
   <data name="topics.show.feature_vote.do" xml:space="preserve">
-    <value>Promote this request</value>
+    <value>ส่งเสริมคำขอนี้</value>
   </data>
   <data name="topics.show.feature_vote.info._" xml:space="preserve">
     <value>นี่คือ {0} คำขอคุณสมบัติสามารถลงคะแนนได้โดย {1}</value>
@@ -524,13 +608,13 @@
     <value>ผู้สนับสนุน</value>
   </data>
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
-    <value>{0} no vote|{1} {0} vote|[2,*] {0} votes</value>
+    <value>{0} ไม่โหวต|{1}  {0} โหวต|[2,*] {0} โหวต</value>
   </data>
   <data name="topics.show.feature_vote.user.current" xml:space="preserve">
-    <value>You have {0} remaining.</value>
+    <value>คุณมี {0} ที่เหลืออยู่</value>
   </data>
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
-    <value>You don't have any more votes remaining</value>
+    <value>คุณไม่มีคะแนนโหวตเหลืออยู่</value>
   </data>
   <data name="topics.show.poll.edit" xml:space="preserve">
     <value>แก้ไขโพลล์</value>
@@ -539,7 +623,7 @@
     <value>ถ้าแก้ไขโพลล์แล้วผลโหวตจะหายนะ</value>
   </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
-    <value>Vote</value>
+    <value>โหวต</value>
   </data>
   <data name="topics.show.poll.button.change_vote" xml:space="preserve">
     <value>เปลี่ยนตัวเลือกโหวต</value>
@@ -554,16 +638,16 @@
     <value>โหวต</value>
   </data>
   <data name="topics.show.poll.detail.end_time" xml:space="preserve">
-    <value>Polling will end at {0}</value>
+    <value>การลงคะแนนจะสิ้นสุดลงที่ {0}</value>
   </data>
   <data name="topics.show.poll.detail.ended" xml:space="preserve">
-    <value>Polling ended {0}</value>
+    <value>การสำรวจสิ้นสุดลง {0}</value>
   </data>
   <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
     <value>ผลลัพท์จะถูกแสดงหลังจากโพลล์สิ้นสุดลง</value>
   </data>
   <data name="topics.show.poll.detail.total" xml:space="preserve">
-    <value>Total votes: {0}</value>
+    <value>คะแนนโหวตทั้งหมด: {0}</value>
   </data>
   <data name="topics.watch.to_not_watching" xml:space="preserve">
     <value>ไม่ได้บุ๊กมาร์คไว้</value>

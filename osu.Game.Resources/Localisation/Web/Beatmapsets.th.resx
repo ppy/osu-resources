@@ -70,8 +70,14 @@
   <data name="availability.rule_violation" xml:space="preserve">
     <value>เนื้อหาบางส่วนในแมพนี้ได้ถูกนำออกเนื่องจากถูกตัดสินว่าไม่เหมาะสมใน osu!</value>
   </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>บีทแมปที่ถูกลบ</value>
+  </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>ช้าลงหน่อย เล่นมากขึ้น</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>ศิลปินที่โดดเด่น</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>รายการ Beatmap</value>
@@ -124,6 +130,12 @@
   <data name="show.discussion" xml:space="preserve">
     <value>การสนทนา</value>
   </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>บีทแมปนี้ถูกลบไปแล้ว</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(ผู้ดูแลเท่านั้นที่สามารถเห็นสิ่งนี้)</value>
+  </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>โดย {0}</value>
   </data>
@@ -138,6 +150,9 @@
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>แมพโดย {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>ความยากของแขกโดย {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>เลิก Favourite beatmapset นี้</value>
@@ -164,10 +179,10 @@
     <value>อนุมัติ {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>loved เมื่อ {0}</value>
+    <value>รักแล้ว {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>qualified {0}</value>
+    <value>ผ่านการรับรอง {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
     <value>จัดอันดับแล้วเมื่อ {0}</value>
@@ -191,7 +206,7 @@
     <value>อยู่ระหว่างดำเนินการ</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>qualified</value>
+    <value>ผ่านการรับรอง</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>อยู่ระหว่างดำเนินการ</value>
@@ -220,8 +235,14 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>ข้อมูลกำลังถูกคำนวณ...</value>
   </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>ผู้เสนอชื่อ</value>
+  </data>
   <data name="show.info.nsfw" xml:space="preserve">
     <value>เนื้อหาไม่เหมาะสม</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>ออฟเซ็ตออนไลน์</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>ความล้มเหลว</value>
@@ -262,6 +283,9 @@
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>อันดับประเทศ</value>
   </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>โหลดอันดับไม่สำเร็จ</value>
+  </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>อันดับเพื่อน</value>
   </data>
@@ -288,6 +312,9 @@
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>ม็อด</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>ปักหมุด</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>ผู้เล่น</value>
@@ -325,6 +352,12 @@
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>คะแนนดีที่สุดของคุณ</value>
   </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>คลิก {0} เพื่อดูคุณสมบัติแฟนซีทั้งหมดที่คุณได้รับ!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>ที่นี่</value>
+  </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>ขนาดวงกลม</value>
   </data>
@@ -355,6 +388,9 @@
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>จำนวนสไลเดอร์</value>
   </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>ออฟเซ็ตออนไลน์: {0}</value>
+  </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>คะแนน</value>
   </data>
@@ -374,10 +410,10 @@
     <value>อนุมัติ</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>รักเลย</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>Qualified</value>
+    <value>ผ่านการรับรอง</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>WIP</value>
@@ -387,5 +423,8 @@
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>สุสาน</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>สปอร์ตไลท์</value>
   </data>
 </root>

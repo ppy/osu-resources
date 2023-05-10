@@ -82,6 +82,27 @@
   <data name="verifying" xml:space="preserve">
     <value>โปรดยืนยันเซสชันเพื่อดูการแจ้งเตือน</value>
   </data>
+  <data name="action_type._" xml:space="preserve">
+    <value>ทั้งหมด</value>
+  </data>
+  <data name="action_type.beatmapset" xml:space="preserve">
+    <value>บีทแมพ</value>
+  </data>
+  <data name="action_type.build" xml:space="preserve">
+    <value>เวอร์ชั่น</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>แชท</value>
+  </data>
+  <data name="action_type.forum_topic" xml:space="preserve">
+    <value>ฟอรั่ม</value>
+  </data>
+  <data name="action_type.news_post" xml:space="preserve">
+    <value>ข่าวสาร</value>
+  </data>
+  <data name="action_type.user" xml:space="preserve">
+    <value>โปรไฟล์</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>ทั้งหมด</value>
   </data>
@@ -104,7 +125,7 @@
     <value>แชท</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
-    <value>Beatmap</value>
+    <value>บีทแมพ</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
     <value>ระดับความยากของแขก</value>
@@ -119,7 +140,7 @@
     <value>การสนทนาบีทแมพ</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Beatmap "{0}" ได้ถูกปิดการใช้งานการสนทนา</value>
+    <value>บีทแมพ "{0}" ได้ถูกปิดการใช้งานการสนทนา</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>การสนทนาได้ถูกล็อกไว้</value>
@@ -143,13 +164,13 @@
     <value>บทวิจารณ์โดย {0} มีปัญหาอยู่ {1} ปัญหา, คำแนะนำอยู่ {2} คำแนะนำ, คำชม {3} คำชม  </value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>Beatmap "{0}" ได้ถูกเปิดการใช้งานในการสนทนาแล้ว</value>
+    <value>บีทแมพ "{0}" ได้ถูกเปิดการใช้งานในการสนทนาแล้ว</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>การสนทนาได้ถูกปลดล๊อค</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>ปัญหา Beatmap ที่ Qualified</value>
+    <value>ปัญหาของบีทแมพที่ผ่านการรับรอง</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>รายงานโดย {0} บน {1} {2}</value>
@@ -167,43 +188,43 @@
     <value>สถานะของบีทแมพถูกเปลี่ยน</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>Beatmap "{0}" ได้ถูกตัดสิทธิ์โดย {1}</value>
+    <value>"{0}" ถูกตัดสิทธิ์</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
-    <value>Beatmap ถูกตัดสิทธ์</value>
+    <value>บีทแมปถูกตัดสิทธิ์</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>Beatmap "{0}" ได้ถูกเลื่อนขั้นให้เป็นที่ชื่นชอบโดย {1}</value>
+    <value>"{0}" ได้รับการเลื่อนระดับเป็นรักเลย</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Beatmap โปรโมทเป็น Loved</value>
+    <value>บีทแมปได้รับการเลื่อนตำแหน่งเป็นรักเลย</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>Beatmap "{0}" ได้ถูกเสนอชื่อโดย {1}</value>
+    <value>"{0}" ได้รับการเสนอชื่อ</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>Beatmap นี้ได้รับการจัดอันดับแล้ว</value>
+    <value>บีทแมปได้รับการเสนอชื่อเข้าชิง</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>"{0}" ได้รับการเสนอชื่อเพียงพอที่จะเข้าคิวจัดอันดับ</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>Beatmap ได้เข้าคิวจัดอันดับ</value>
+    <value>บีทแมปเข้าสู่คิวการจัดอันดับ</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" ได้ถูกแรงค์แล้ว</value>
+    <value>"{0}" ได้รับการจัดอันดับ</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>Beatmap ได้รับการจัดอันดับ</value>
+    <value>บีทแมปได้รับการจัดอันดับ</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" ได้ถูกนำออกจาก Loved</value>
+    <value>"{0}" ได้ถูกนำออกจากรักเลย</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>บีทแมพได้ถูกนำออกจาก Loved</value>
+    <value>บีทแมพได้ถูกนำออกจากรักเลย</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>ปัญหานี้โพสต์โดย {0} รีเซ็ทการเสนอชื่อของ beatmap "{1}" </value>
+    <value>การเสนอชื่อ "{0}" ถูกรีเซ็ต</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
     <value>การเสนอชื่อถูกรีเซ็ท</value>
@@ -228,6 +249,12 @@
   </data>
   <data name="item.channel.announcement._" xml:space="preserve">
     <value>ประกาศใหม่</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} พูดถึง "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
   </data>
   <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
     <value>ประกาศจาก {0}</value>
@@ -310,6 +337,12 @@
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
     <value>บีทแมพใหม่โดย {0}</value>
   </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>บีทแมป "{0}" ถูกกู้คืนแล้วโดย {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>บีทแมป "{0}" ถูกกู้คืนแล้ว</value>
+  </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>เหรียญตรา</value>
   </data>
@@ -341,7 +374,7 @@
     <value>ปัญหาใหม่ได้ถูกแจ้งใน "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>"{0}" ได้ถูกยกเลิกสถานะ Qualified</value>
+    <value>"{0}" ได้ถูกยกเลิกสถานะ ผ่านการรับรอง</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
     <value>"{0}" ได้ถูกเปลี่ยนเป็น loved</value>
@@ -364,6 +397,9 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value> บีทแมพ "{0}" มีความคิดเห็นใหม่</value>
   </data>
+  <data name="mail.channel.announcement.announce" xml:space="preserve">
+    <value>มีประกาศใหม่ใน "{0}"</value>
+  </data>
   <data name="mail.channel.channel.pm" xml:space="preserve">
     <value>คุณได้รับข้อความจาก {0}</value>
   </data>
@@ -384,5 +420,8 @@
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} ได้สร้างบีทแมพใหม่</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} ได้กู้คืนบีทแมปแล้ว</value>
   </data>
 </root>

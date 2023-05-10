@@ -20,9 +20,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Heading => new TranslatableString(getKey(@"heading"), @"Header");
 
         /// <summary>
+        /// "Help"
+        /// </summary>
+        public static LocalisableString Help => new TranslatableString(getKey(@"help"), @"Help");
+
+        /// <summary>
         /// "Image"
         /// </summary>
         public static LocalisableString Image => new TranslatableString(getKey(@"image"), @"Image");
+
+        /// <summary>
+        /// "Image Map"
+        /// </summary>
+        public static LocalisableString Imagemap => new TranslatableString(getKey(@"imagemap"), @"Image Map");
 
         /// <summary>
         /// "Italic"

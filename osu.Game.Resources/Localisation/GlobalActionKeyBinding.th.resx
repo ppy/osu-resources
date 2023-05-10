@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>สลับการซ้อนแชท</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>สลับการซ้อนสื่อ</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>รีเซ็ตการตั้งค่าอินพุต</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>สลับแถบเครื่องมือ</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>สลับการตั้งค่า</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>สลับรายการบีทแมป</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>เพิ่มเสียง</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>ลดเสียง</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>สลับปิดเสียง</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>ข้ามคัตซีน</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>ลองใหม่อย่างรวดเร็ว (กดค้างไว้)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>ถ่ายภาพหน้าจอ</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>สลับปุ่มเมาส์เล่นเกม</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>เพิ่มความเร็วในการเลื่อน</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>ลดความเร็วในการเลื่อน</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>เลือก</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>ออกด่วน (กดค้างไว้)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>เพลงถัดไป</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>เพลงก่อนหน้า</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>เล่น/พัก</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>สลับการเล่นโอเวอร์เลย์</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>เลือกอันก่อนหน้า</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>เลือกอันถัดไป</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>เลือกกลุ่มก่อนหน้า</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>เลือกกลุ่มถัดไป</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>สลับการแจ้งเตือน</value>
+  </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>สลับโปรไฟล์</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>หยุดชั่วคราว / เล่นต่อ</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>โหมดตั้งค่า</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>โหมดแก้ไข</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>โหมดออกแบบ</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>โหมดจับเวลา</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>แตะเพื่อวัด BPM</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>เลือกซ้ำ</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>โหมดการแสดงตารางวงกลม</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>ทดสอบการเล่นเกม</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>กดค้างที่ HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>สุ่มสกิน</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>หยุดชั่วคราว/เล่นต่อ</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>สลับหน้าต่างในเกม</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>สลับโหมดเลือก</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>ยกเลิกการเลือก mods ทั้งหมด</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>สุ่ม</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>กรอกลับ</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>ตัวเลือกบีทแมป</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>โหมดตรวจสอบ</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>เขยิบไปทางซ้าย</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>เขยิบไปทางขวา</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>พลิกในแนวนอน</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>พลิกในตั้ง</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>เพิ่มระยะห่างระหว่างกัน</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>ลดระยะห่างระหว่างกัน</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>สลับตัวแก้ไขสกิน</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>สลับตัวนับ FPS</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>ระดับเสียงก่อนหน้า</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>ระดับเสียงถัดไป</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>เลื่อนรีเพลย์ไปด้านหน้า</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>เลื่อนรีเพลย์ย้อนหลัง</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>สลับโฟกัสการแชท</value>
+  </data>
+</root>

@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_chat" xml:space="preserve">
-    <value>Avaa chatti</value>
+    <value>Avaa viestit</value>
   </data>
   <data name="toggle_social" xml:space="preserve">
-    <value>Avaa sosiaalipaneeli</value>
+    <value>Avaa yleiskatsaus</value>
   </data>
   <data name="reset_input_settings" xml:space="preserve">
     <value>Palauta syöttöasetukset</value>
@@ -125,10 +125,16 @@
     <value>Avaa soivan kappaleen hallinta</value>
   </data>
   <data name="select_previous" xml:space="preserve">
-    <value>Edellinen valinta</value>
+    <value>Valitse edellinen</value>
   </data>
   <data name="select_next" xml:space="preserve">
-    <value>Seuraava valinta</value>
+    <value>Valitse seuraava</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Valitse edellinen ryhmä</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Valitse seuraava ryhmä</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Koti</value>
@@ -136,11 +142,14 @@
   <data name="toggle_notifications" xml:space="preserve">
     <value>Avaa ilmoitukset</value>
   </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>Avaa profiili</value>
+  </data>
   <data name="pause_gameplay" xml:space="preserve">
     <value>Keskeytä peli</value>
   </data>
   <data name="editor_setup_mode" xml:space="preserve">
-    <value>Asetustila</value>
+    <value>Määritystila</value>
   </data>
   <data name="editor_compose_mode" xml:space="preserve">
     <value>Sävellystila</value>
@@ -151,6 +160,12 @@
   <data name="editor_timing_mode" xml:space="preserve">
     <value>Ajoitustila</value>
   </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Etsi BPM naputtamalla rytmiä</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>Luo kopio valinnasta</value>
+  </data>
   <data name="editor_cycle_grid_display_mode" xml:space="preserve">
     <value>Vaihda ruudukon näyttötila</value>
   </data>
@@ -158,19 +173,22 @@
     <value>Testaa pelattavuutta</value>
   </data>
   <data name="hold_for_hud" xml:space="preserve">
-    <value>Näytä HUD (pidä painettuna)</value>
+    <value>Näytä HUD pitämällä painettuna</value>
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>Satunnainen ulkoasu</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
-    <value>Keskeytä / jatka toistoa</value>
+    <value>Keskeytä / jatka uusintaa</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Näytä / piilota pelin käyttöliittymä</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Avaa modien valinta</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Poista modien valinnat</value>
   </data>
   <data name="select_next_random" xml:space="preserve">
     <value>Satunnainen</value>
@@ -179,7 +197,7 @@
     <value>Kelaa taaksepäin</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
-    <value>Beatmapin Asetukset</value>
+    <value>Beatmapin asetukset</value>
   </data>
   <data name="editor_verify_mode" xml:space="preserve">
     <value>Tarkistustila</value>
@@ -196,8 +214,17 @@
   <data name="editor_flip_vertically" xml:space="preserve">
     <value>Käännä valinta pystysuunnassa</value>
   </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Suurenna etäisyyttä</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Pienennä etäisyyttä</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Avaa ulkoasumuokkain</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>Näytä kuvataajuuden mittari</value>
   </data>
   <data name="previous_volume_meter" xml:space="preserve">
     <value>Edellinen äänenvoimakkuusmittari</value>

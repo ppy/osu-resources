@@ -59,16 +59,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="edit.title_compact" xml:space="preserve">
-    <value>настройки аккаунта</value>
+    <value>настройки</value>
   </data>
   <data name="edit.username" xml:space="preserve">
-    <value>никнейм</value>
+    <value>ник</value>
   </data>
   <data name="edit.avatar.title" xml:space="preserve">
     <value>Аватар</value>
   </data>
   <data name="edit.avatar.rules" xml:space="preserve">
-    <value>Пожалуйста, убедитесь, что ваш аватар соответствует {0}.&lt;br/&gt;Это означает, что он обязан &lt;strong&gt;подходить для всех возрастов&lt;/strong&gt;, т.е. не должен содержать наготы, ненормативной лексики или вызывающего контента.</value>
+    <value>Убедитесь, что ваш аватар не нарушает {0}.&lt;br/&gt;Он должен &lt;strong&gt;подходить для всех возрастов&lt;/strong&gt;: никакой наготы, ругательств или вызывающего контента.</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
     <value>правилам сообщества</value>
@@ -97,6 +97,9 @@
   <data name="edit.profile.title" xml:space="preserve">
     <value>Профиль</value>
   </data>
+  <data name="edit.profile.user.user_discord" xml:space="preserve">
+    <value>дискорд</value>
+  </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>место проживания</value>
   </data>
@@ -105,6 +108,9 @@
   </data>
   <data name="edit.profile.user.user_occ" xml:space="preserve">
     <value>род деятельности</value>
+  </data>
+  <data name="edit.profile.user.user_twitter" xml:space="preserve">
+    <value>твиттер</value>
   </data>
   <data name="edit.profile.user.user_website" xml:space="preserve">
     <value>веб-сайт</value>
@@ -122,7 +128,7 @@
     <value>получать уведомления, когда карты для следующих режимов будут дисквалифицированы</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
-    <value>следить за ответами на мои комментарии</value>
+    <value>получать уведомления об ответах на комментарии</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Уведомления</value>
@@ -207,7 +213,7 @@
     <value>сенсорный экран</value>
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
-    <value>блокировать сообщения не от друзей</value>
+    <value>блокировать личные сообщения не от друзей</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>скрывать, что я в сети</value>
@@ -246,6 +252,6 @@
     <value>Проверка завершена</value>
   </data>
   <data name="verification_invalid.title" xml:space="preserve">
-    <value>Неверная или истёкшая ссылка для подтверждения</value>
+    <value>Неверная или устаревшая ссылка для подтверждения</value>
   </data>
 </root>
