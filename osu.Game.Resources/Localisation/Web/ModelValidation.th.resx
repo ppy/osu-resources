@@ -70,6 +70,9 @@
   <data name="too_long" xml:space="preserve">
     <value>{0} เกินความยาวสูงสุด - สามารถใส่ได้ถึงแค่ {1} ตัวอักษร</value>
   </data>
+  <data name="url" xml:space="preserve">
+    <value>กรุณาใส่ URL ที่ถูกต้อง</value>
+  </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>การยืนยันไม่ตรงกัน</value>
   </data>
@@ -77,16 +80,16 @@
     <value>ช่วงเวลาได้ถูกกำหนดไว้แต่ไม่พบ Beatmap</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>Beatmap นี้ไม่สามารถ hype ได้</value>
+    <value>บีตแม็ปนี้ไม่สามารถ Hype ได้</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>การ Hype ต้องทำในส่วนของ General (all difficulties) เท่านั้น</value>
+    <value>การ Hype ต้องทำในส่วนของทั่วไปเท่านั้น (ความยากทั้งหมด)</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>ระดับความยากไม่ได้เลือกอย่างถูกต้อง</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>บีทแมปไม่ได้เลือกอย่างถูกต้อง</value>
+    <value>บีตแม็ปไม่ได้เลือกอย่างถูกต้อง</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>การสนทนาได้ถูกล็อกไว้</value>
@@ -95,31 +98,31 @@
     <value>ประเภทของข้อความ</value>
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
-    <value>ประทับเวลา</value>
+    <value>เวลาประทับ</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>บีทแมพนี้ถูกจำกัดสิทธิในการสนทนา และ สิทธิในการ Hype</value>
+    <value>ขณะนี้บีตแม็ปนี้ถูกล็อกไว้สำหรับการสนทนาและไม่สามารถ Hype ได้</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
-    <value>ต้องเข้าสู่ระบบก่อนถึงจะ hype ได้</value>
+    <value>ต้องเข้าสู่ระบบก่อนถึงจะ Hype ได้</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>คุณได้ hype Beatmap นี้ไปแล้ว</value>
+    <value>คุณได้ Hype บีตแม็ปนี้แล้ว</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>คุณใช้จำนวน hype หมดแล้ว</value>
+    <value>คุณใช้ Hpye ทั้งหมดของคุณแล้ว</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
-    <value>บีทแมปนี้ไม่สามารถ hype ได้</value>
+    <value>บีตแม็ปนี้ไม่สามารถ Hype ได้</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>ห้าม hype ในบีทแมปของคุณเอง</value>
+    <value>ห้าม Hype ในบีตแม็ปของคุณเอง</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>ช่วงเวลาที่กำหนดไว้เกินเวลาของบีทแมป</value>
+    <value>เวลาประทับที่ระบุเกินความยาวของบีตแม็ป</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>ช่วงเวลาไม่สามารถติดลบได้</value>
+    <value>เวลาประทับต้องไม่เป็นค่าลบ</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>การสนทนาได้ถูกจำกัดสิทธิ์ไว้</value>
@@ -152,10 +155,10 @@
     <value>ตัวเลือกที่ระบุไม่ถูกต้อง</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>ไม่อนุญาตให้ลบโพสต์ Metadata ของบีทแมพ</value>
+    <value>ไม่อนุญาตให้ลบโพสต์ Metadata ของบีตแม็ป</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>ไม่อนุญาตให้ดัดแปลงโพสต์ Metadata ของบีทแมพ</value>
+    <value>ไม่อนุญาตให้ดัดแปลงโพสต์ Metadata ของบีตแม็ป</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
     <value>ไม่สามารถลบโพสต์ที่เริ่มต้นได้</value>
@@ -201,6 +204,9 @@
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>เลือกตัวเลือกมากเกินที่กำหนดไว้</value>
+  </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>หนึ่งคีย์ API ต่อหนึ่งผู้ใช้เท่านั้นในขณะนี้</value>
   </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>OAuth applications เกินขีดจำกัดที่ทางเราอนุญาต</value>
@@ -308,7 +314,7 @@
     <value>บ้าน่า นี่มันชื่อผู้ใช้คุณตอนนี้นี่</value>
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
-    <value>ไม่สามารถรายงานบีทแมปที่จัดอันดับแล้วได้</value>
+    <value>ไม่สามารถรายงานบีตแม็ปที่จัดอันดับแล้วได้</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} ไม่สามารถใช้ได้กับการรายงานประเภทนี้</value>

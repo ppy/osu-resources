@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Може краще пограємо osu?</value>
+    <value>А може, пограємо трішки в osu! натомість?</value>
   </data>
   <data name="require_login" xml:space="preserve">
-    <value>Увійдіть, щоб продовжити.</value>
+    <value>Увійдіть до акаунту, щоб продовжити.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
     <value>Будь ласка, пройдіть перевірку для продовження.</value>
@@ -74,7 +74,7 @@
     <value>Не можна робити це поки ви заглушені.</value>
   </data>
   <data name="unauthorized" xml:space="preserve">
-    <value>Доступ заборонено.</value>
+    <value>В доступі відмовлено.</value>
   </data>
   <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
     <value>Не можна відмінити хайп.</value>
@@ -83,7 +83,7 @@
     <value>Не можна видалити дискусію з відповідями</value>
   </data>
   <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
-    <value>Ви вичерпали ліміт номінацій за день, спробуйте завтра.</value>
+    <value>Ви досягли ліміту номінацій за день, спробуйте завтра.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
     <value>Помилка під час виконання цієї дії, спробуйте оновити сторінку.</value>
@@ -95,52 +95,52 @@
     <value>Ви повинні вказати жанр та мову перед номінацією.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Тільки автор теми та власник карти має дозвіл завершити обговорення.</value>
+    <value>Лише автор теми та власник мапи може позначити обговорення як "Вирішено".</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Лише власник карти або номінатор/член групи NAT може залишати замітки для мапперів.</value>
+    <value>Лише власник мапи або номінатор/член групи NAT може залишати замітки для маперів.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Неможливо проголосувати за обговорення, створене ботом</value>
+    <value>Неможливо проголосувати "за" в обговоренні, яке створене ботом</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
-    <value>Будь ласка, зачекайте деякий час перед повторним голосуванням</value>
+    <value>Будь ласка, зачекайте перед повторним голосуванням</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
-    <value>Не можна голосувати у власному обговоренні.</value>
+    <value>Не можна проголосувати "за" у власному обговоренні.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Голосувати можна лише в обговореннях очікуючих карт.</value>
+    <value>Проголосувати "за" можна лише в обговореннях мап, які знаходяться "На розгляді".</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Тільки ви можете видаляти свої пости.</value>
+    <value>Ви можете видаляти лише свої пости.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>Ви не можете видаляти пости в вирішених обговореннях.</value>
+    <value>Ви не можете видалити пост вирішеного обговорення.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
-    <value>Автоматично згенеровані пости не можуть бути видалені.</value>
+    <value>Автоматично згенерований пост не може бути видаленим.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Тільки автор може редагувати публікацію.</value>
+    <value>Лише автор поста може редагувати його.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
-    <value>Ви не можете редагувати пости в вирішених обговореннях.</value>
+    <value>Ви не можете редагувати пост у вирішеному обговоренні.</value>
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
-    <value>Неможливо редагувати автоматично згенеровану публікацію.</value>
+    <value>Автоматично згенерований пост не може бути відредагованим.</value>
   </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
     <value>Ця мапа закрита для обговорень.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Ви не можете змінювати метадані номінованій карті. Зв'яжіться з членом BN або NAT, якщо ви думаєте, що вони вказані невірно.</value>
+    <value>Ви не можете змінювати метадані номінованої мапи. Зв'яжіться з BN'ом або членом NAT, якщо ви думаєте, що вони вказані невірно.</value>
   </data>
   <data name="chat.annnonce_only" xml:space="preserve">
     <value>Цей канал лише для оголошень.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
-    <value>Неможливо надіслати повідомлення користувачу, який заблокував вас або якого заблокували ви.</value>
+    <value>Неможливо надіслати повідомлення користувачу, який заблокував вас, або якого, заблокували ви.</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
     <value>Користувач заблокував повідомлення від користувачів не зі списку друзів.</value>
@@ -167,28 +167,28 @@
     <value>Неможливо редагувати видалену публікацію.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
-    <value>Ви не можете змінити свій вибір після закінчення періоду голосування.</value>
+    <value>Ви не можете змінити свій вибір після завершення періоду голосування.</value>
   </data>
   <data name="contest.entry.limit_reached" xml:space="preserve">
     <value>Ви вичерпали кількість заявок для цього конкурсу</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>Дякуємо за ваші заявки на участь в цьому конкурсі! Заявки більше не приймаються і голосування розпочнеться найближчим часом.</value>
+    <value>Дякуємо за ваші заявки на участь в цьому конкурсі! Подання заявок завершене і голосування розпочнеться найближчим часом.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>Недостатньо прав для модерації цього форуму.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>Лише остання публікація може бути видалена.</value>
+    <value>Лише останній пост може бути видалений.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
-    <value>Неможливо видалити публікацію в закритій темі.</value>
+    <value>Неможливо видалити пост в закритій темі.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
     <value>Потрібний доступ до запитаного форуму.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>Тільки автор може видалити пост.</value>
+    <value>Лише автор поста може його видалити.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
     <value>Неможливо редагувати видалену публікацію.</value>
@@ -197,10 +197,10 @@
     <value>Пост заблоковано для редагування.</value>
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
-    <value>Необхідний доступ до запитуваного форуму.</value>
+    <value>Необхідно мати доступ до запитуваного форуму.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>Тільки автор може редагувати дану публікацію.</value>
+    <value>Лише автор поста може його редагувати.</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
     <value>Неможливо редагувати публікацію в заблокованій темі.</value>
@@ -212,7 +212,7 @@
     <value>Перш ніж ви зможете створювати додаткові пости, ви повинні пограти в гру довше. Якщо у вас все ще проблеми з грою, напишіть нам на support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
-    <value>Будь ласка, відредагуйте ваше останнє повідомлення замість повторної публікації.</value>
+    <value>Будь ласка, відредагуйте ваш останній пост замість повторної публікації.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>Неможливо відповісти в закритій темі.</value>
@@ -224,10 +224,10 @@
     <value>Недостатньо прав, щоб відповісти.</value>
   </data>
   <data name="forum.topic.reply.user.require_login" xml:space="preserve">
-    <value>Будь ласка, увійдіть, щоб відповісти.</value>
+    <value>Будь ласка, ввійдіть до акаунту, щоб відповісти.</value>
   </data>
   <data name="forum.topic.reply.user.restricted" xml:space="preserve">
-    <value>Не можна відповісти поки ваш обліковий запис заблокований.</value>
+    <value>Не можна відповісти поки акаунт обмежений.</value>
   </data>
   <data name="forum.topic.reply.user.silenced" xml:space="preserve">
     <value>Не можна відповісти поки ви заглушені.</value>
@@ -239,25 +239,25 @@
     <value>Недостатньо прав на створення нової теми.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>Не можна публікувати поки форум закритий.</value>
+    <value>Форум закритий і на ньому не можна розміщувати нові пости.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
     <value>Потрібний доступ до запитаного форуму.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
-    <value>Опитування завершено, і не може бути більше проголосовано.</value>
+    <value>Опитування завершено, і голосувати в ньому більше не можна.</value>
   </data>
   <data name="forum.topic.vote.play_more" xml:space="preserve">
-    <value>Вам потрібно пограти ще, перед тим як голосувати на форумі.</value>
+    <value>Вам потрібно пограти більше, щоб голосувати на форумі.</value>
   </data>
   <data name="forum.topic.vote.voted" xml:space="preserve">
-    <value>Зміна голосу заборонена.</value>
+    <value>Міняти свій вибір не дозволено.</value>
   </data>
   <data name="forum.topic.vote.user.require_login" xml:space="preserve">
-    <value>Увійдіть, щоб проголосувати.</value>
+    <value>Увійдіть до акаунту, щоб проголосувати.</value>
   </data>
   <data name="forum.topic.vote.user.restricted" xml:space="preserve">
-    <value>Не можна голосувати поки ваш обліковий запис заблоковано.</value>
+    <value>Не можна голосувати поки акаунт обмежений.</value>
   </data>
   <data name="forum.topic.vote.user.silenced" xml:space="preserve">
     <value>Не можна голосувати поки ви заглушені.</value>
@@ -266,25 +266,25 @@
     <value>Необхідний доступ до запитуваного форуму.</value>
   </data>
   <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
-    <value>Вказана невірна обкладинка.</value>
+    <value>Обрана некоректна обкладинка.</value>
   </data>
   <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
-    <value>Тільки автор теми може міняти обкладинку.</value>
+    <value>Лише власник теми може змінювати обкладинку.</value>
   </data>
   <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
-    <value>Цей форум не підтримує теми обкладинки.</value>
+    <value>Цей форум не підтримує обкладинки тем.</value>
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Тільки адміністратор може переглядати цей форум.</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
-    <value>Тільки власник результату може його закріпити.</value>
+    <value>Лише власник результату може його закріпити.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
-    <value>Закріплено занадто багато результатів.</value>
+    <value>Закріплено надто багато результатів.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
-    <value>Користувацька сторінка заблокована.</value>
+    <value>Сторінку користувача заблоковано.</value>
   </data>
   <data name="user.page.edit.not_owner" xml:space="preserve">
     <value>Можна редагувати лише власну сторінку.</value>

@@ -50,6 +50,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditEmailTitle => new TranslatableString(getKey(@"edit.email.title"), @"Email");
 
         /// <summary>
+        /// "api"
+        /// </summary>
+        public static LocalisableString EditLegacyApiApi => new TranslatableString(getKey(@"edit.legacy_api.api"), @"api");
+
+        /// <summary>
+        /// "irc"
+        /// </summary>
+        public static LocalisableString EditLegacyApiIrc => new TranslatableString(getKey(@"edit.legacy_api.irc"), @"irc");
+
+        /// <summary>
+        /// "Legacy API"
+        /// </summary>
+        public static LocalisableString EditLegacyApiTitle => new TranslatableString(getKey(@"edit.legacy_api.title"), @"Legacy API");
+
+        /// <summary>
         /// "current password"
         /// </summary>
         public static LocalisableString EditPasswordCurrent => new TranslatableString(getKey(@"edit.password.current"), @"current password");

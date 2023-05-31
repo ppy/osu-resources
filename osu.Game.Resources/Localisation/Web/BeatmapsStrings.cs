@@ -495,6 +495,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString FeedbackButton => new TranslatableString(getKey(@"feedback.button"), @"Leave Feedback");
 
         /// <summary>
+        /// "You&#39;ve already nominated this beatmap."
+        /// </summary>
+        public static LocalisableString NominationsAlreadyNominated => new TranslatableString(getKey(@"nominations.already_nominated"), @"You've already nominated this beatmap.");
+
+        /// <summary>
+        /// "You cannot nominate this beatmap game mode."
+        /// </summary>
+        public static LocalisableString NominationsCannotNominate => new TranslatableString(getKey(@"nominations.cannot_nominate"), @"You cannot nominate this beatmap game mode.");
+
+        /// <summary>
         /// "Delete"
         /// </summary>
         public static LocalisableString NominationsDelete => new TranslatableString(getKey(@"nominations.delete"), @"Delete");

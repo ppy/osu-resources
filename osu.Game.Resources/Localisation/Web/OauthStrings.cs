@@ -70,9 +70,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ClientName => new TranslatableString(getKey(@"client.name"), @"Application Name");
 
         /// <summary>
-        /// "Application Callback URL"
+        /// "Application Callback URLs"
         /// </summary>
-        public static LocalisableString ClientRedirect => new TranslatableString(getKey(@"client.redirect"), @"Application Callback URL");
+        public static LocalisableString ClientRedirect => new TranslatableString(getKey(@"client.redirect"), @"Application Callback URLs");
 
         /// <summary>
         /// "Reset client secret"
