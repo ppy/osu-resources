@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Keketatan hit window dan tingkat kesulitan objek tertentu (semisal spinner)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tick Rate</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Menentukan jumlah "tick" yang akan dihasilkan pada objek permainan yang mendukung tick. Tick rate 1 akan menghasilkan satu tick per beat, 2 akan menghasilkan dua tick per beat, dst.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Base Velocity</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Kecepatan dasar beatmap, yang memengaruhi hal-hal seperti kecepatan slider (slider velocity) dan kecepatan gulir not (scroll speed) pada ruleset tertentu.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>

@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Exaktheten i träffönster och svårigheten av speciella objekt (dvs. spinners)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tickhastighet</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Bestämmer hur många "tickar" som genereras inom långa träffobjekt. En tickhastighet av 1 genererar ticks efter varje beat, 2 skulle vara 2 gånger per beat, etc.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Bashastighet</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Bashastigheten av beatmapen, som påverkar saker som sliderhastighet och rullningshastighet i vissa spelregler.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>

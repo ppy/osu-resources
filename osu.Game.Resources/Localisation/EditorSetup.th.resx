@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_setup" xml:space="preserve">
-    <value>ติดตั้งบีทแมป</value>
+    <value>ตั้งค่าบีตแม็ป</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
-    <value>เปลี่ยนการตั้งค่าทั่วไปของบีทแมปของคุณ</value>
+    <value>เปลี่ยนการตั้งค่าทั่วไปของบีตแม็ปของคุณ</value>
   </data>
   <data name="colours_header" xml:space="preserve">
     <value>สี</value>
@@ -77,7 +77,7 @@
     <value>เปิดใช้งานการนับถอยหลัง</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>หากเปิดใช้งาน ข้อความ "คุณพร้อมหรือยัง 3, 2, 1, GO!" การนับถอยหลังจะถูกแทรกที่จุดเริ่มต้นของบีทแมป โดยถือว่ามีเวลาเพียงพอในการทำเช่นนั้น</value>
+    <value>หากเปิดใช้งาน ข้อความ "คุณพร้อมหรือยัง 3, 2, 1, ไป!" การนับถอยหลังจะถูกแทรกที่จุดเริ่มต้นของบีตแม็ป โดยถือว่ามีเวลาเพียงพอในการทำเช่นนั้น</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>ความเร็วนับถอยหลัง</value>
@@ -123,6 +123,18 @@
   </data>
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>ความรุนแรงของการชนหน้าต่างและความยากของวัตถุพิเศษ (เช่น สปินเนอร์)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>อัตราติ๊ก</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>กำหนดจำนวน "ติ๊ก" ที่สร้างขึ้นภายในอ็อบเจกต์ตีระยะยาว อัตราติ๊ก 1 จะสร้างขีดในแต่ละจังหวะและอัตราติ๊ก 2 จะเป็นการติ๊กสองครั้งต่อจังหวะ เป็นต้น</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>ความเร็วพื้นฐาน</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>ความเร็วพื้นฐานของบีตแม็ป ซึ่งส่งผลต่อสิ่งต่างๆ เช่น ความเร็วแถบเลื่อนและความเร็วในการเลื่อนในชุดกฎบางชุด</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>เมตาดาต้า</value>
@@ -173,6 +185,6 @@
     <value>ระดับความยาก</value>
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
-    <value>ลากภาพมาที่นี่เพื่อตั้งค่าพื้นหลังบีทแมป!</value>
+    <value>ลากภาพมาที่นี่เพื่อตั้งค่าพื้นหลังบีตแม็ป!</value>
   </data>
 </root>

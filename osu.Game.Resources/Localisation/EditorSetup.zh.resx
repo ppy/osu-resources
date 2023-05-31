@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>判定严格度和一些特殊物件的难度（如转盘）</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>滑条点倍率</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>确定在长条类物件中生成多少“滑条点”。1 倍会在每拍上生成 1 个点，而 2 倍会生成 2 个点，以此类推。</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>基础滑条速度</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>谱面的基础滑条速度，影响某些游戏模式中的的滑条速度和滚动速度。</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>元数据</value>
   </data>

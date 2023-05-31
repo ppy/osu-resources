@@ -70,6 +70,9 @@
   <data name="too_long" xml:space="preserve">
     <value>{0} melebihi batas maksimum - hanya bisa hingga {1} karakter.</value>
   </data>
+  <data name="url" xml:space="preserve">
+    <value>Mohon masukkan URL yang valid.</value>
+  </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>Konfirmasi tidak cocok.</value>
   </data>
@@ -122,10 +125,10 @@
     <value>Keterangan waktu tidak dapat mengacu pada nilai waktu yang negatif.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
-    <value>Topik diskusi ini terkunci.</value>
+    <value>Topik diskusi ini dikunci.</value>
   </data>
   <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
-    <value>Tidak dapat menghapus postingan awal.</value>
+    <value>Postingan awal tidak dapat dihapus.</value>
   </data>
   <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
     <value>Pesan</value>
@@ -176,7 +179,7 @@
     <value>Pilihan berganda tidak diizinkan.</value>
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
-    <value>Tidak dapat menyunting sebuah jajak pendapat setelah melebihi {0} jam</value>
+    <value>Jajak pendapat tidak lagi dapat disunting setelah {0} jam.</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
     <value>Suara pada polling yang tidak memiliki batasan akhir waktu tidak dapat dirahasiakan.</value>
@@ -202,11 +205,14 @@
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Jumlah pilihan yang dipilih lebih banyak dari yang diizinkan.</value>
   </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>Hanya satu kunci API yang disediakan per pengguna untuk saat ini.</value>
+  </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>Jumlah aplikasi OAuth melebihi batas maksimal.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Harap masukkan URL yang valid.</value>
+    <value>Mohon masukkan URL yang valid.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Nama Aplikasi</value>

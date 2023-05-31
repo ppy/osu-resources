@@ -83,7 +83,7 @@
     <value>Rychlost odpočtu</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
-    <value>Pokud odpočet zní mimo rytmus, použijte tuto volbu, aby se oběvil o jeden či dva údery dříve.</value>
+    <value>Pokud odpočet zní mimo rytmus, použijte tuto volbu, aby se objevil o jeden či více úderů dříve.</value>
   </data>
   <data name="countdown_offset" xml:space="preserve">
     <value>Posunutí odpočtu</value>
@@ -116,13 +116,25 @@
     <value>Velikost všech hit objektů</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
-    <value>Rychlost, jakou pasivně ubývá života v průbehu hraní</value>
+    <value>Rychlost pasivního ubývání života v průběhu hraní</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
     <value>Rychlost, kterou se objektu ukazují hráči</value>
   </data>
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Velikost časového okna pro kliknutí objektů a obtížnost zvláštních objektů (např. spinnerů)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Frekvence tiků</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Určuje, kolik "tiků" budou mít dlouhé hit objekty. Frekvence 1 bude generovat jeden tik pro každý takt, frekvence 2 dva tiky na takt, atd.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Základní rychlost</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Základní rychlost beatmapy, promítá se například do rychlosti sliderů nebo scrollování v některých rulesetech.</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>

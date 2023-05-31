@@ -208,11 +208,20 @@
   <data name="legacy_api_key.exists" xml:space="preserve">
     <value>Only one API key is provided per user for the moment.</value>
   </data>
+  <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
+    <value>api key</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
+    <value>application name</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
+    <value>application url</value>
+  </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>Exceeded maximum number of allowed OAuth applications.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Please enter a valid URL.</value>
+    <value>Please enter valid URLs.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Application Name</value>
@@ -315,6 +324,9 @@
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
     <value>Ranked beatmaps cannot be reported</value>
+  </data>
+  <data name="user_report.not_in_channel" xml:space="preserve">
+    <value>You're not in this channel.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} is not valid for this report type.</value>

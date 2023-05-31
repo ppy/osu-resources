@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Rytmikartan määritys</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>muuta rytmikartan yleisiä asetuksia</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Värit</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Osumaympyröiden / liu'uttimien putket</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Tyyli</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Käytä lähtölaskentaa</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Jos tämä on käytössä, rytmikartan alkuun lisätään "Valmiina? 3, 2, 1, hep!" -lähtölaskenta, olettaen että aika riittää siihen.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Lähtölaskennan nopeus</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Jos lähtölaskenta kuulostaa oudolta, tämä siirtää sitä yhden tai useamman iskun aikaisemmaksi.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Lähtölaskennan tuunaus</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Laajakuvatuki</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Mahdollistaa taustaesityksien käyttää näytön koko tilaa sen sijaan, että ne rajataan 4:3-kokoiselle alueelle.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Epilepsiavaroitus</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Suositellaan, jos taustaesitys tai video sisältää kohtauksia, joissa on nopeasti vilkkuvia värejä.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Vaakasuuntaiset palkit taukojen aikana</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Tämä lisää vaakasuuntaiset palkit näytön ylä- ja alareunaan taukojen aikana, mikä tarjoaa elokuvallisen ulkonäon.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Ääninäytteet seuraavat toistonopeutta</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Jos tämä on käytössä, kaikki ääninäytteet nopeutuvat tai hidastuvat, kun käytössä on nopeutta muuttavia modeja.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Kaikkien osumakohteiden koko</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Kuinka nopeasti HP tyhjenee itsestään pelin aikana</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Nopeus, jolla kohteet esiintyvät pelaajalle</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Kuinka ankaria iskujen aikaikkunat ovat ja kuinka haastavia erityiset kohteet (ts. pyörittimet) ovat</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tikkimäärä</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Määrittää kuinka monta "tikkiä" tuotetaan pitkiin osumakohteisiin. Tikkimäärä 1 tuottaa tikin joka iskun kohdalle, 2 olisi kaksi tikkiä per isku, jne.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Perusnopeus</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Rytmikartan perusnopeus, joka vaikuttaa mm. liu'uttimien nopeuteen ja vieritysnopeuteen joissain pelimuodoissa.</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Metatiedot</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Esittäjä romanisoituna</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Kappaleen nimi romanisoituna</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Tekijä</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Vaikeustason nimi</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Resurssit</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Äänikappale</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Napsauta valitaksesi kappaleen</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Napsauta korvataksesi kappaleen</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Napsauta valitaksesi taustakuvan</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Napsauta korvataksesi taustakuvan</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Pelimuoto ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Putki</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Esittäjä</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Kappaleen nimi</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Vaikeustaso</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Aseta rytmikartalle taustakuva raahaamalla kuva tähän!</value>
+  </data>
+</root>

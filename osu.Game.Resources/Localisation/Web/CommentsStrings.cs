@@ -45,6 +45,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Empty => new TranslatableString(getKey(@"empty"), @"No comments yet.");
 
         /// <summary>
+        /// "No other comments yet."
+        /// </summary>
+        public static LocalisableString EmptyOther => new TranslatableString(getKey(@"empty_other"), @"No other comments yet.");
+
+        /// <summary>
         /// "load replies"
         /// </summary>
         public static LocalisableString LoadReplies => new TranslatableString(getKey(@"load_replies"), @"load replies");

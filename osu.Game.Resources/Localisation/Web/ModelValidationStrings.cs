@@ -260,14 +260,29 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LegacyApiKeyExists => new TranslatableString(getKey(@"legacy_api_key.exists"), @"Only one API key is provided per user for the moment.");
 
         /// <summary>
+        /// "api key"
+        /// </summary>
+        public static LocalisableString LegacyApiKeyAttributesApiKey => new TranslatableString(getKey(@"legacy_api_key.attributes.api_key"), @"api key");
+
+        /// <summary>
+        /// "application name"
+        /// </summary>
+        public static LocalisableString LegacyApiKeyAttributesAppName => new TranslatableString(getKey(@"legacy_api_key.attributes.app_name"), @"application name");
+
+        /// <summary>
+        /// "application url"
+        /// </summary>
+        public static LocalisableString LegacyApiKeyAttributesAppUrl => new TranslatableString(getKey(@"legacy_api_key.attributes.app_url"), @"application url");
+
+        /// <summary>
         /// "Exceeded maximum number of allowed OAuth applications."
         /// </summary>
         public static LocalisableString OauthClientTooMany => new TranslatableString(getKey(@"oauth.client.too_many"), @"Exceeded maximum number of allowed OAuth applications.");
 
         /// <summary>
-        /// "Please enter a valid URL."
+        /// "Please enter valid URLs."
         /// </summary>
-        public static LocalisableString OauthClientUrl => new TranslatableString(getKey(@"oauth.client.url"), @"Please enter a valid URL.");
+        public static LocalisableString OauthClientUrl => new TranslatableString(getKey(@"oauth.client.url"), @"Please enter valid URLs.");
 
         /// <summary>
         /// "Application Name"
@@ -438,6 +453,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Ranked beatmaps cannot be reported"
         /// </summary>
         public static LocalisableString UserReportNoRankedBeatmapset => new TranslatableString(getKey(@"user_report.no_ranked_beatmapset"), @"Ranked beatmaps cannot be reported");
+
+        /// <summary>
+        /// "You&#39;re not in this channel."
+        /// </summary>
+        public static LocalisableString UserReportNotInChannel => new TranslatableString(getKey(@"user_report.not_in_channel"), @"You're not in this channel.");
 
         /// <summary>
         /// "{0} is not valid for this report type."

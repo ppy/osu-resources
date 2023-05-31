@@ -62,10 +62,10 @@
     <value>Ви повинні увійти для редагування.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
-    <value>Системне повідомлення не може бути змінено.</value>
+    <value>Пост згенерований системою не можна редагувати.</value>
   </data>
   <data name="authorizations.update.wrong_user" xml:space="preserve">
-    <value>Ви повинні бути автором даної публікації для редагування.</value>
+    <value>Ви повинні бути автором поста, щоб відредагувати його.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
     <value>Нічого не відбулось... поки що.</value>
@@ -77,7 +77,7 @@
     <value>Не знайдено жодної дискусії, що відповідає критеріям пошуку.</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Обговорення мапи</value>
+    <value>Обговорення Мапи</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Пошук</value>
@@ -86,10 +86,10 @@
     <value>Включаючи видалені обговорення</value>
   </data>
   <data name="index.form.mode" xml:space="preserve">
-    <value>Режим мапи</value>
+    <value>Режим гри</value>
   </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
-    <value>Показувати тільки невирішені дискусії</value>
+    <value>Показувати лише невирішені обговорення</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
     <value>Типи повідомлень</value>
@@ -134,7 +134,7 @@
     <value>Постійне посилання</value>
   </data>
   <data name="nearby_posts.confirm" xml:space="preserve">
-    <value>Жоден з постів не розв'язує мою проблему</value>
+    <value>Жоден з постів не стосується моєї проблеми</value>
   </data>
   <data name="nearby_posts.notice" xml:space="preserve">
     <value>Вже є дискусії біля {0} ({1}). Перевірте їх перед публікацією.</value>
@@ -143,7 +143,7 @@
     <value>{0} в цьому відгуку</value>
   </data>
   <data name="owner_editor.button" xml:space="preserve">
-    <value>Власник складності</value>
+    <value>Власник Складності</value>
   </data>
   <data name="owner_editor.reset_confirm" xml:space="preserve">
     <value>Скинути власника для цієї складності?</value>
@@ -167,13 +167,13 @@
     <value>Побачити відгук</value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
-    <value>Побачити обговорення</value>
+    <value>Переглянути Обговорення</value>
   </data>
   <data name="review.validation.block_too_large" xml:space="preserve">
     <value>кожен блок може містити лише {0} символів</value>
   </data>
   <data name="review.validation.external_references" xml:space="preserve">
-    <value>відгук містить посилання на проблеми, що не відносяться до цього відгуку</value>
+    <value>відгук містить посилання на проблеми, що не належать цьому відгуку</value>
   </data>
   <data name="review.validation.invalid_block_type" xml:space="preserve">
     <value>недопустимий тип блоку</value>
@@ -210,6 +210,6 @@
     <value>Всі</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
-    <value>Сортувати по користувачах</value>
+    <value>Фільтрувати по користувачах</value>
   </data>
 </root>

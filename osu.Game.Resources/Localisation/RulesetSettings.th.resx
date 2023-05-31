@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rulesets" xml:space="preserve">
+    <value>ชุดกฎ</value>
+  </data>
+  <data name="snaking_in_sliders" xml:space="preserve">
+    <value>เลื่อนสไลเดอร์เข้า</value>
+  </data>
+  <data name="snaking_out_sliders" xml:space="preserve">
+    <value>เลื่อนสไลเดอร์ออก</value>
+  </data>
+  <data name="cursor_trail" xml:space="preserve">
+    <value>เคอร์เซอร์หาง</value>
+  </data>
+  <data name="cursor_ripples" xml:space="preserve">
+    <value>เคอร์เซอร์กระเพื่อม</value>
+  </data>
+  <data name="playfield_border_style" xml:space="preserve">
+    <value>สไตล์เส้นขอบของพื้นที่</value>
+  </data>
+  <data name="no_borders" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="corner_borders" xml:space="preserve">
+    <value>มุม</value>
+  </data>
+  <data name="full_borders" xml:space="preserve">
+    <value>เต็ม</value>
+  </data>
+  <data name="scrolling_direction" xml:space="preserve">
+    <value>ทิศทางการเลื่อน</value>
+  </data>
+  <data name="scrolling_up" xml:space="preserve">
+    <value>ขึ้น</value>
+  </data>
+  <data name="scrolling_down" xml:space="preserve">
+    <value>ลง</value>
+  </data>
+  <data name="scroll_speed" xml:space="preserve">
+    <value>ความเร็วในการเลื่อน</value>
+  </data>
+  <data name="Timing_based_colouring" xml:space="preserve">
+    <value>การระบายสีโน้ตตามเวลา</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>{0}ms (ความเร็ว {1})</value>
+  </data>
+</root>
