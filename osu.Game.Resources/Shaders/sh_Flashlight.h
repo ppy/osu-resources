@@ -16,7 +16,7 @@ lowp vec4 getColourAt(highp vec2, highp vec2, lowp vec4);
 void main(void)
 {
     // todo: workaround for a SPIR-V bug (https://github.com/ppy/osu-framework/issues/5719)
-    float one = g_BackbufferDraw ? 1 : 0;
+    float one = g_WrapModeS >= 0 ? 1 : 0;
 
     o_Colour = mix(getColourAt(flashlightPos - v_Position, flashlightSize, v_Colour), vec4(0.0, 0.0, 0.0, 1.0), flashlightDim) * one;
 }
