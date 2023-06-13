@@ -70,6 +70,9 @@
   <data name="too_long" xml:space="preserve">
     <value>{0} elérte a maximális hosszt - csak {1} karakter hosszú lehet.</value>
   </data>
+  <data name="url" xml:space="preserve">
+    <value>Kérjük adjon meg egy helyes URL-t.</value>
+  </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>A megerősítés nem egyezik.</value>
   </data>
@@ -202,6 +205,18 @@
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Az engedélyezettnél több opciót választottál.</value>
   </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>Jelenleg csak egy API kulcs jár felhasználóként.</value>
+  </data>
+  <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
+    <value>api kulcs</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
+    <value>alkalmazás neve</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
+    <value>alkalmazás url</value>
+  </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>Elérted a maximum OAuth applikációk számát.</value>
   </data>
@@ -309,6 +324,9 @@
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
     <value>Rangsorolt beatmapokat nem lehet jelenteni</value>
+  </data>
+  <data name="user_report.not_in_channel" xml:space="preserve">
+    <value>Nem vagy ebben a csatornában.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>ez a jelentés nem megfelelő, ehhez a jelentés fajtához.{0}.</value>
