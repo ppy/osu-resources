@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Az ütések elfogadásának időablakának szigorúsága és speciális objektumok (pl. pörgennytűk) nehézsége</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tick ráta</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Megállapítja mennyi "tick" lesz generálva hosszú hit objektumokban. Egy 1 értékű tick ráta generál tickeket minden ütemen, míg 2 esetén kétszer egy ütemben, stb.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Alapsebesség </value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Az alapsebessége a beatmapnek, ami hatással van slider sebesség vagy scroll sebességre néhány ruleszettben.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metaadatok</value>
   </data>
@@ -171,5 +183,8 @@
   </data>
   <data name="difficulty_header" xml:space="preserve">
     <value>Nehézség</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Húzd ide a képet, hogy beállítsd a beatmap háttereként!</value>
   </data>
 </root>
