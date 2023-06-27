@@ -103,6 +103,9 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Vi er for tiden overveldet av bestillinger! Du er velkommen til å bestille, men vennligst ta hensyn til at bestillingen kan ta **ytterlige 1-2 uke lenger** mens vi fullfører de eksisterende bestillingene.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Skjul alle osu!supporter tags i denne bestillingen fra min aktivitet</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Det ser ut til at handlevognen din er utdatert og har blitt oppdatert, prøv igjen.</value>
   </data>
@@ -130,6 +133,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Ettersom betalingen din var en eCheck, vennligst tillatt opp til 10 ekstra dager for at betalingen skal kunne komme gjennom PayPal!</value>
   </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter tag i denne bestillingen vises ikke i dine nylige aktiviteter.</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
   </data>
@@ -145,6 +151,15 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klikk her for å fortsette utsjekkingen</value>
   </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Avbryt Bestilling</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Bestillingen vil bli kansellert og betaling vil ikke bli godtatt for den. Betalingsleverandøren vil kanskje refundere umiddelbart. Er du sikker?</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Denne bestillingen kan ikke avbrytes på dette tidspunkt.</value>
+  </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Vis faktura</value>
   </data>
@@ -156,6 +171,9 @@
   </data>
   <data name="order.resume" xml:space="preserve">
     <value>Tilbake til kassen</value>
+  </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Utsjekkingslenken for denne bestillingen er utløpt.</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Mengde</value>

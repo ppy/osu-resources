@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>laster inn brukere...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>snakker i {0}</value>
   </data>
@@ -67,26 +70,59 @@
   <data name="title_compact" xml:space="preserve">
     <value>chat</value>
   </data>
+  <data name="unread_messages" xml:space="preserve">
+    <value>uleste meldinger</value>
+  </data>
   <data name="cannot_send.channel" xml:space="preserve">
-    <value>Du kan ikke sende meldinger i denne kanalen akkurat nå. Dette kan være en av følgende grunner:</value>
+    <value>Du kan ikke sende meldinger i denne kanalen akkurat nå.</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
-    <value>Du kan ikke sende meldinger til denne brukeren akkurat nå. Dette kan være en av følgende grunner:</value>
+    <value>Du kan ikke sende meldinger til denne brukeren akkurat nå.</value>
+  </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Vil du skjule denne kanalen? Du vil fortsatt motta meldinger fra denne kanalen.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>lag kunngjøring</value>
+  </data>
+  <data name="channels.list.title.announce" xml:space="preserve">
+    <value>Kunngjøringer</value>
   </data>
   <data name="channels.list.title.group" xml:space="preserve">
     <value>Grupper</value>
   </data>
+  <data name="channels.list.title.pm" xml:space="preserve">
+    <value>Direktemeldinger</value>
+  </data>
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Kanaler</value>
   </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Lag ny kunngjøring</value>
+  </data>
   <data name="form.labels.description" xml:space="preserve">
     <value>beskrivelse</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>romnavn</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>spillere å legge til</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Ingenting her, kanskje fordi du forlot kanalen, eller at den ikke finnes...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>fant ikke kanalen</value>
   </data>
   <data name="input.create" xml:space="preserve">
     <value>Opprett</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>kan ikke sende melding...</value>
+  </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Koblet fra</value>
   </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>skriv melding...</value>

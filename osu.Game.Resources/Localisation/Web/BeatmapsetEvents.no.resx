@@ -130,11 +130,29 @@
   <data name="event.nomination_reset_received" xml:space="preserve">
     <value>Nominasjon av {0} ble tilbakestilt av {1} ({2})</value>
   </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Nominering ble tilbakesatt av {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Globalt offset endret fra {0} til {1}.</value>
+  </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Dette beatmappet har nådd det nødvendige antallet med nominasjoner og har nå blitt kvalifisert.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Rangert.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Fjernet fra Loved av {0} ({1})</value>
+  </data>
+  <data name="event.tags_edit" xml:space="preserve">
+    <value>Tagger endret fra "{0}" til "{1}".</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Fjernet markering for grovt innhold</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Markert som grovt innhold</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Beatmapset Hendelser</value>
@@ -156,6 +174,9 @@
   </data>
   <data name="type.approve" xml:space="preserve">
     <value>Godkjenning</value>
+  </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Endring av vanskelighetsgradens eier</value>
   </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Diskusjon sletting</value>
@@ -208,10 +229,22 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Nominasjon nullstilling</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Tilbakestilling av nominasjon motatt</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Markering for grovt innhold</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Offset endring</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Kvalifikasjon</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Rangering</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Fjerning av Loved</value>
   </data>
 </root>

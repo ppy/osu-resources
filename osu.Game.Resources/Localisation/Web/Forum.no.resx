@@ -88,6 +88,9 @@
   <data name="covers.destroy.confirm" xml:space="preserve">
     <value>Er du sikker på at du vil fjerne bannerbildet?</value>
   </data>
+  <data name="forums.forums" xml:space="preserve">
+    <value>Forum</value>
+  </data>
   <data name="forums.latest_post" xml:space="preserve">
     <value>Siste Innlegg</value>
   </data>
@@ -118,11 +121,17 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>lagt ut {0}</value>
   </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>lagt ut av {0} i {1}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Slett innlegg</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Rediger innlegget</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Rapporter innlegg</value>
   </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Gjenopprett innlegg</value>
@@ -145,11 +154,23 @@
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} totale innlegg</value>
   </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Vil du virkelig slette emnet?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Vil du virkelig gjenopprette emnet?</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>slettet emne</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>vis nyeste innlegg</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Du har svart på dette emnet</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>i {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} av {1}</value>
@@ -226,6 +247,75 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>gå tilbake 10 innlegg</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Emnelogger</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Bla gjennom emnelogger</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Handling</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>la til "{0}" taggen</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>festet emne og markert som kunngjøring</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>til {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>fra {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>festet innlegg</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>lagt ut av {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>fjernet "{0}" taggen</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>fra {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>løsnet emne</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>ingen loggføringer ble funnet...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Slettet innlegg</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Slettet emne</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Endret emnetittel</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Redigerte emneavstemming</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Kopierte emne</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Annga tag</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Låst emne</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Flyttet innlegg til dette emnet</value>
+  </data>
   <data name="topic.logs.operations.move" xml:space="preserve">
     <value>Flyttet emne</value>
   </data>
@@ -234,6 +324,36 @@
   </data>
   <data name="topic.logs.operations.post_edited" xml:space="preserve">
     <value>Redigerte innlegget</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Gjenopprettet innlegg</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Gjenopprettet emne</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Flyttet delte innlegg</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Delte innlegg</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Angi emne type</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Endret emne type</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Låste opp emnet</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Løsnet emnet</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Låste eget emne</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Låste opp eget emne</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Avbryt</value>

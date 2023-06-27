@@ -67,6 +67,12 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Klikk her for mer informasjon.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Enkelte ressurser i dette kartet har blitt fjernet, etter som at det ikke kan brukes i osu!.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Slettet beatmap</value>
+  </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Ro ned, spill mer.</value>
   </data>
@@ -100,6 +106,15 @@
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nominasjonskravet er allerede oppfylt.</value>
   </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Er du sikker på at du vil nominere dette beatmappet?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Nominer Beatmap</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>merk: du kan kun nominere èn gang. Vær så snill å forsikre deg om at du nominerer for alle spill-modusene du har tenkt å nominere på</value>
+  </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominer for hvilke moduser?</value>
   </data>
@@ -109,17 +124,29 @@
   <data name="show.discussion" xml:space="preserve">
     <value>Diskusjon</value>
   </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Dette beatmappet har blitt slettet.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(kun moderatorer kan se dette)</value>
+  </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>av {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Marker dette beatmapsettet som en favoritt</value>
   </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>logg inn for å legge dette beatmappet til i favoritter</value>
+  </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Du må logge inn før du kan laste ned beatmaps!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>mappet av {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>gjeste-kart av {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Fjern dette beatmapsettet som en favoritt</value>
@@ -202,8 +229,14 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data blir fortsatt kalkulert...</value>
   </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominerende</value>
+  </data>
   <data name="show.info.nsfw" xml:space="preserve">
     <value>Eksplisitt innhold</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Globalt offset</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Feilpunkter</value>
@@ -211,17 +244,41 @@
   <data name="show.info.source" xml:space="preserve">
     <value>Kilde</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Dette beatmappet inneholder storyboard</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Suksessrate</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Stikkord</value>
   </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Dette beatmappet inneholder video</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Dette beatmappet inneholder grovt, støtende eller forstyrrende innhold. Vil du fortsette uansett?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Grovt Innhold</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Skru av advarsel</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Beatmapliste</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Vis</value>
+  </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>oppnådd {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Landsrangering</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Kunne ikke laste rangering</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Vennerangering</value>
@@ -249,6 +306,9 @@
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Modifikasjoner</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Fest</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Spiller</value>
@@ -286,6 +346,12 @@
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Ditt beste</value>
   </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Klikk {0} for å se alle de stilige funksjonene du får!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>her</value>
+  </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Sirkel Størrelse</value>
   </data>
@@ -315,6 +381,9 @@
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>Antall Glidere</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Globalt offset {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Brukervurderinger</value>
@@ -348,5 +417,8 @@
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Gravplassert</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Spotlight</value>
   </data>
 </root>
