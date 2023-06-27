@@ -82,6 +82,9 @@
   <data name="error.error.422" xml:space="preserve">
     <value>ugyldig forespørsel</value>
   </data>
+  <data name="error.error.429" xml:space="preserve">
+    <value>for mange forespørsler</value>
+  </data>
   <data name="error.error.500" xml:space="preserve">
     <value>noe gikk i stykker</value>
   </data>
@@ -90,6 +93,9 @@
   </data>
   <data name="forum._" xml:space="preserve">
     <value>forum</value>
+  </data>
+  <data name="forum.topic_logs_controller.index" xml:space="preserve">
+    <value>emnelogger</value>
   </data>
   <data name="main.account_controller.verify_link" xml:space="preserve">
     <value>kontobekreftelse</value>
@@ -175,11 +181,17 @@
   <data name="main.scores_controller._" xml:space="preserve">
     <value>gjennomføring</value>
   </data>
+  <data name="main.seasons_controller._" xml:space="preserve">
+    <value>rangeringer</value>
+  </data>
   <data name="main.tournaments_controller._" xml:space="preserve">
     <value>turneringer</value>
   </data>
   <data name="main.users_controller._" xml:space="preserve">
     <value>spillerinfo</value>
+  </data>
+  <data name="main.users_controller.create" xml:space="preserve">
+    <value>opprett konto</value>
   </data>
   <data name="main.users_controller.disabled" xml:space="preserve">
     <value>varsel</value>
@@ -187,10 +199,16 @@
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
   </data>
+  <data name="passport.authorization_controller._" xml:space="preserve">
+    <value>autoriser app</value>
+  </data>
   <data name="store._" xml:space="preserve">
     <value>butikk</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
     <value>modder info</value>
+  </data>
+  <data name="users.multiplayer_controller._" xml:space="preserve">
+    <value>flerspillerlogg</value>
   </data>
 </root>

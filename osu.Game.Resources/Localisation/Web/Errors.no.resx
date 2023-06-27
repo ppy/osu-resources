@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="load_failed" xml:space="preserve">
+    <value>Kunne ikke laste data.</value>
+  </data>
+  <data name="missing_route" xml:space="preserve">
+    <value>Ugyldig url eller feil forespørselsmetode.</value>
+  </data>
   <data name="no_restricted_access" xml:space="preserve">
     <value>Du kan ikke utføre denne handlingen mens kontoen din er i begrenset tilstand.</value>
   </data>
@@ -93,6 +99,9 @@
   </data>
   <data name="search.default" xml:space="preserve">
     <value>Kunne ikke hente noen treff. Prøv igjen senere.</value>
+  </data>
+  <data name="search.invalid_cursor_exception" xml:space="preserve">
+    <value>Ugyldig markørparameter spesifisert.</value>
   </data>
   <data name="search.operation_timeout_exception" xml:space="preserve">
     <value>Søkefunksjonen ser ikke ut til å fungere akkurat nå. Prøv igjen senere.</value>

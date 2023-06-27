@@ -85,6 +85,9 @@
   <data name="blocks.banner_text" xml:space="preserve">
     <value>Du har blokkerte denne brukeren.</value>
   </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Denne kommentaren er skjult.</value>
+  </data>
   <data name="blocks.blocked_count" xml:space="preserve">
     <value>blokkerte brukere ({0})</value>
   </data>
@@ -93,6 +96,9 @@
   </data>
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>skjul</value>
+  </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Dette innlegget er skjult.</value>
   </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Den brukeren er ikke blokkert.</value>
@@ -117,6 +123,30 @@
   </data>
   <data name="card.send_message" xml:space="preserve">
     <value>send melding</value>
+  </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>passord</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>passord bekreftelse</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>opprett konto</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>epost</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>epostbekreftelse</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>brukernavn</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>ved å opprette konto samtykker du til {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>vilkår for bruk</value>
   </data>
   <data name="disabled.title" xml:space="preserve">
     <value>Oops! Det ser ut som kontoen din er deaktivert.</value>
@@ -145,6 +175,9 @@
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>brukervilkår</value>
   </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Medlemmer etter spillmodus</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Kontoen din har ikke blitt brukt på lang tid.</value>
   </data>
@@ -168,6 +201,9 @@
   </data>
   <data name="login.info" xml:space="preserve">
     <value>Vennligst logg inn for å fortsette</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>For mange mislykkede innloggingsforsøk, fullfør captcha og prøv på nytt. (Oppdater siden hvis captcha ikke er synlig)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>IP-adressen din er blokkert. Vennligst vent et par minutter.</value>
@@ -262,6 +298,9 @@
   <data name="restricted_banner.message" xml:space="preserve">
     <value>Mens du er begrenset vil du ikke være i stand til å samhandle med andre spillere, og poengresultatene dine vil kun være synlige for deg selv. Dette er vanligvis resultatet av en automatisert prosess og vil normalt bli hevet innen 24 timer. Hvis du ønsker å appellere begrensningen, vennligst &lt;a href="mailto{0}@ppy.sh"&gt;kontakt støtteteamet&lt;/a&gt;.</value>
   </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>Sjekk denne siden for å lære mer.</value>
+  </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} år gammel</value>
   </data>
@@ -300,6 +339,18 @@
   </data>
   <data name="show.title" xml:space="preserve">
     <value>Profilen til {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>La ut {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} kommentar|{0} kommentarer</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Skjul banner</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Vis banner</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Endre profilbanner</value>
@@ -367,8 +418,14 @@
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Gravlagte Beatmaps</value>
   </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Gjestebidrag Beatmaps</value>
+  </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Elskede Beatmaps</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Nominerte Rangerte Beatmaps</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Ventende Beatmaps</value>
@@ -487,6 +544,9 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Medaljer</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Spilleliste runder</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Innlegg</value>
   </data>
@@ -498,6 +558,9 @@
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Nylige</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Flerspiller runder</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Last ned Reprise</value>
@@ -523,8 +586,17 @@
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Løsne</value>
   </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Løsnet score</value>
+  </data>
   <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
     <value>Fest</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Festet score</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Festet Scores</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Stemmer Gitt (siste 3 måneder)</value>
@@ -576,6 +648,9 @@
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Forstummet</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Turneringshenvisning</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Merknad</value>
@@ -643,6 +718,9 @@
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>Global Rangering</value>
   </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Høyeste rangering: {0} den {1}</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Presisjon</value>
   </data>
@@ -705,6 +783,12 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Frakoblet</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>vennligst registrer deg via spillklienten i stedet!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>vennligst fullfør registrering på osu!-nettsiden</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Bruker opprettet</value>

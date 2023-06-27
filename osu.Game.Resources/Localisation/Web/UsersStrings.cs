@@ -110,6 +110,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BlocksButtonUnblock => new TranslatableString(getKey(@"blocks.button.unblock"), @"Unblock");
 
         /// <summary>
+        /// "Gift supporter tag"
+        /// </summary>
+        public static LocalisableString CardGiftSupporter => new TranslatableString(getKey(@"card.gift_supporter"), @"Gift supporter tag");
+
+        /// <summary>
         /// "Loading..."
         /// </summary>
         public static LocalisableString CardLoading => new TranslatableString(getKey(@"card.loading"), @"Loading...");
