@@ -59,22 +59,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_chat" xml:space="preserve">
-    <value>Alternar superposición del chat</value>
+    <value>Mostrar u ocultar superposición del chat</value>
   </data>
   <data name="toggle_social" xml:space="preserve">
-    <value>Alternar superposición del panel</value>
+    <value>Alternar superposición del panel social</value>
   </data>
   <data name="reset_input_settings" xml:space="preserve">
     <value>Restablecer configuración de entrada</value>
   </data>
   <data name="toggle_toolbar" xml:space="preserve">
-    <value>Alternar barra de herramientas</value>
+    <value>Mostrar u ocultar barra de herramientas</value>
   </data>
   <data name="toggle_settings" xml:space="preserve">
-    <value>Abrir o cerrar configuración</value>
+    <value>Mostrar u ocultar configuración</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
-    <value>Alternar lista de mapas</value>
+    <value>Mostrar u ocultar lista de mapas</value>
   </data>
   <data name="increase_volume" xml:space="preserve">
     <value>Subir volumen</value>
@@ -92,10 +92,10 @@
     <value>Reintento rápido (mantener presionado)</value>
   </data>
   <data name="take_screenshot" xml:space="preserve">
-    <value>Capturar pantalla</value>
+    <value>Tomar captura de pantalla</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
-    <value>Activar o desactivar botones del ratón</value>
+    <value>Mostrar u ocultar botones del ratón en el juego</value>
   </data>
   <data name="back" xml:space="preserve">
     <value>Atrás</value>
@@ -119,10 +119,10 @@
     <value>Pista anterior</value>
   </data>
   <data name="music_play" xml:space="preserve">
-    <value>Reproducir/pausar</value>
+    <value>Reproducir/Pausar</value>
   </data>
   <data name="toggle_now_playing" xml:space="preserve">
-    <value>Alternar superposición de reproduciendo ahora</value>
+    <value>Mostrar u ocultar superposición de reproduciendo ahora</value>
   </data>
   <data name="select_previous" xml:space="preserve">
     <value>Selección anterior</value>
@@ -140,10 +140,10 @@
     <value>Inicio</value>
   </data>
   <data name="toggle_notifications" xml:space="preserve">
-    <value>Alternar notificaciones</value>
+    <value>Mostrar u ocultar notificaciones</value>
   </data>
   <data name="toggle_profile" xml:space="preserve">
-    <value>Alternar perfil</value>
+    <value>Mostrar u ocultar perfil</value>
   </data>
   <data name="pause_gameplay" xml:space="preserve">
     <value>Pausar o reanudar el juego</value>
@@ -161,7 +161,7 @@
     <value>Modo de temporización</value>
   </data>
   <data name="editor_tap_for_bpm" xml:space="preserve">
-    <value>Pulsar para BPM</value>
+    <value>Pulsa para PPM</value>
   </data>
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Clonar selección</value>
@@ -179,16 +179,16 @@
     <value>Skin aleatoria</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
-    <value>Pausar/reanudar repetición</value>
+    <value>Pausar/Reanudar repetición</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>Alternar interfaz del juego</value>
+    <value>Mostrar u ocultar interfaz del juego</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>Alternar selector de mods</value>
+    <value>Mostrar u ocultar selector de mods</value>
   </data>
   <data name="deselect_all_mods" xml:space="preserve">
-    <value>Anular toda la selección de mods</value>
+    <value>Deseleccionar todos los mods</value>
   </data>
   <data name="select_next_random" xml:space="preserve">
     <value>Aleatorio</value>
@@ -220,11 +220,17 @@
   <data name="editor_decrease_distance_spacing" xml:space="preserve">
     <value>Disminuir distancia de espaciado</value>
   </data>
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Cambiar al anterior divisor de ritmo</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Cambiar al siguiente divisor de ritmo</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
-    <value>Alternar editor de skin</value>
+    <value>Mostrar u ocultar editor de skins</value>
   </data>
   <data name="toggle_fps_counter" xml:space="preserve">
-    <value>Alternar contador de FPS</value>
+    <value>Mostrar u ocultar contador de FPS</value>
   </data>
   <data name="previous_volume_meter" xml:space="preserve">
     <value>Control de volumen anterior</value>
@@ -239,6 +245,12 @@
     <value>Retroceder repetición</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
-    <value>Alternar foco del chat</value>
+    <value>Alternar enfoque del chat</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Guardar repetición</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Exportar repetición</value>
   </data>
 </root>
