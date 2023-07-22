@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Өзгерту үшін жүйеге кіру керек.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Жүйе жасаған жазбаны өзгерту мүмкін емес.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Өзгерту үшін жазбаның иесі болуы керек.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Ештеңе болған жоқ... әлі.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>жойылған</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Бұл іздеу критерийлеріне сәйкес келетін пікірталастар табылмады.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Карта пікірталастары</value>
+  </data>
+  <data name="index.form._" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Жойылған пікірталастарды қосу</value>
+  </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Карта режимі</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Тек шешілмеген пікірталастарды көрсету</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Хабарламаның түрлері</value>
+  </data>
+  <data name="index.form.username" xml:space="preserve">
+    <value>Пайдаланушы аты</value>
+  </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Картаның Күйі</value>
+  </data>
+  <data name="index.form.beatmapset_status.all" xml:space="preserve">
+    <value>Бәрі</value>
+  </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Дисквалификация жасалған</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Ешқашан Квалификация алмаған</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Квалификация алған</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Рейтингілік</value>
+  </data>
+  <data name="index.form.user.label" xml:space="preserve">
+    <value>Пайдаланушы</value>
+  </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Әрекеттерге шолу</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Жазба күні</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Жою күні</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Түрі</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Тұрақты Сілтеме</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Жазбалардың ешқайсысы менің сұрағыма қатыспайды</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>{0} ({1}) ішінде жазбалар бар. Жазу алдында оларды тексеріңіз.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} қарауда </value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Деңгей иесі</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Осы деңгей үшін иесін қалпына келтіру керек пе?</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>Иесі</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Деңгейі</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Жауап беру үшін жүйеге кіріңіз</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Жауап беру</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} блоктар қолданылған</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Қараудың жазбаны көру</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Пікірталасты көру</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>әр блокта тек {0} таңбаларына дейін болуы мүмкін</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>қарауда осы қарауға жатпайтын мәселелерге сілтемелер бар</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>жарамсыз блоктың түрі</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>жарамсыз қарау</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>жарамсыз пікірталас түрі</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>қарауда ең аз {0} мәселе болуы керек| қарауда ең аз {0} мәселелері болуы керек</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>блокта мәтін жоқ</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>қарауда тек {0} параграф/мәселе болуы мүмкін|қарауда тек {0} параграфтар/мәселелер болуы мүмкін</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>{0} шешкен деп белгіленген</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>{0}ден қайта ашылды</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>негізгі</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>негізгі (барлығы)</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Әркім</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>Пайдаланушы бойынша іріктеу</value>
+  </data>
+</root>

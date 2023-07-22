@@ -62,16 +62,13 @@
     <value>notificaciones</value>
   </data>
   <data name="header_description" xml:space="preserve">
-    <value>esperando por ti</value>
+    <value>esperándote a ti</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
     <value>Tareas en ejecución</value>
   </data>
   <data name="clear_all" xml:space="preserve">
     <value>Borrar todo</value>
-  </data>
-  <data name="cancel_all" xml:space="preserve">
-    <value>Cancelar todo</value>
   </data>
   <data name="battery_low" xml:space="preserve">
     <value>¡Tu nivel de batería es bajo! Carga tu dispositivo para evitar interrupciones durante el juego.</value>
@@ -80,14 +77,35 @@
     <value>¡El volumen de tu juego es demasiado bajo para escuchar algo! Haz clic aquí para restaurarlo.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>¡El set de juego actual no tiene un mod de juego automático disponible!</value>
+    <value>¡El ruleset actual no tiene un mod de juego automático disponible!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
     <value>Parece que osu! no puede reproducir audio correctamente.
 
-Intente cambiar la configuración del dispositivo de audio.</value>
+Por favor, intenta cambiar el dispositivo de audio a una configuración que funcione.</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
-    <value>La superposición de puntuaciones está actualmente deshabilitada. Puede alternar esto presionando {0}.</value>
+    <value>La superposición de puntuaciones está actualmente deshabilitada. Puedes alternar esto presionando {0}.</value>
+  </data>
+  <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
+    <value>La URL {0} tiene un protocolo no compatible o peligroso y no se abrirá.</value>
+  </data>
+  <data name="subsequent_messages_logged" xml:space="preserve">
+    <value>Se han registrado los mensajes posteriores. Haz clic para ver los archivos de registro.</value>
+  </data>
+  <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
+    <value>Deshabilitando el soporte para tabletas debido al error: "{0}"</value>
+  </data>
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>Advertencia de tableta encontrada, es posible que tu tableta no funcione correctamente. Haz clic aquí para ver una lista de todas las tabletas compatibles.</value>
+  </data>
+  <data name="unsupported_link_type" xml:space="preserve">
+    <value>¡Este tipo de enlace aún no es compatible!</value>
+  </data>
+  <data name="private_message_received" xml:space="preserve">
+    <value>Has recibido un mensaje privado de '{0}'. ¡Haz clic para leerlo!</value>
+  </data>
+  <data name="your_name_was_mentioned" xml:space="preserve">
+    <value>Tu nombre fue mencionado en el chat por '{0}'. ¡Haz clic para saber por qué!</value>
   </data>
 </root>

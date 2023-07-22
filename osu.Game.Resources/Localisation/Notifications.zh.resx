@@ -70,14 +70,11 @@
   <data name="clear_all" xml:space="preserve">
     <value>全部清除</value>
   </data>
-  <data name="cancel_all" xml:space="preserve">
-    <value>全部取消</value>
-  </data>
   <data name="battery_low" xml:space="preserve">
     <value>电池电量过低！请为设备充电以避免游戏中断。</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>游戏音量太低啦，听不见吧？点击此处来恢复。</value>
+    <value>游戏音量太低了，可能听不见。点击此处来恢复。</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
     <value>当前游戏模式没有可用的 Autoplay 模组！</value>
@@ -87,5 +84,26 @@
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
     <value>分数显示层目前已禁用。按 {0} 来切换该设置。</value>
+  </data>
+  <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
+    <value>URL {0} 的协议不受支持或有危险，将不会打开。</value>
+  </data>
+  <data name="subsequent_messages_logged" xml:space="preserve">
+    <value>已记录后续消息。点击此处查看日志文件。</value>
+  </data>
+  <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
+    <value>出现错误：“{0}”，将禁用数位板支持。</value>
+  </data>
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>收到了数位板警告，你的数位板可能无法正常工作。点击此处查看所有支持的数位板列表。</value>
+  </data>
+  <data name="unsupported_link_type" xml:space="preserve">
+    <value>尚未支持此类链接！</value>
+  </data>
+  <data name="private_message_received" xml:space="preserve">
+    <value>你收到了来自“{0}”的私信。点这里阅读！</value>
+  </data>
+  <data name="your_name_was_mentioned" xml:space="preserve">
+    <value>“{0}”在聊天中提到了你的名字。点击这里查看详情！</value>
   </data>
 </root>

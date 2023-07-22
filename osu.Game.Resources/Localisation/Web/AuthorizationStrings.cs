@@ -375,6 +375,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumViewAdminOnly => new TranslatableString(getKey(@"forum.view.admin_only"), @"Only admin can view this forum.");
 
         /// <summary>
+        /// "Can&#39;t pin this type of score"
+        /// </summary>
+        public static LocalisableString ScorePinDisabledType => new TranslatableString(getKey(@"score.pin.disabled_type"), @"Can't pin this type of score");
+
+        /// <summary>
         /// "Only score owner can pin score."
         /// </summary>
         public static LocalisableString ScorePinNotOwner => new TranslatableString(getKey(@"score.pin.not_owner"), @"Only score owner can pin score.");

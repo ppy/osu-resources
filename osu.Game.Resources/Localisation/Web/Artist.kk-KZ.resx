@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="page_description" xml:space="preserve">
+    <value>osu!-дағы таңдаулы әртістер</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Таңдаулы Әртістер</value>
+  </data>
+  <data name="admin.hidden" xml:space="preserve">
+    <value>ДӘЛ ҚАЗІР ӘРТІС ЖАСЫРЫН</value>
+  </data>
+  <data name="beatmaps._" xml:space="preserve">
+    <value>Карталар</value>
+  </data>
+  <data name="beatmaps.download" xml:space="preserve">
+    <value>карта үлгісін жүктеу</value>
+  </data>
+  <data name="beatmaps.download-na" xml:space="preserve">
+    <value>карта үлгісі әзірге қолжетімді емес</value>
+  </data>
+  <data name="index.description" xml:space="preserve">
+    <value>Таңдаулы әртістер osu!-ға жаңа да біртума музыканы әкелу мақсатында бізбен ынтымақтастықта жұмыс істейтін әртістер болып табылады. Бұл әртістер мен олардың өлеңдерінің топтамасы маппингке келетіндіктен және күшті болғандықтан osu! тобымен қолмен таңдалған. Осы таңдаулы әртістердің кейбірі тіпті osu!-ға арнайы жаңа өлеңдер шығарған.&lt;br&gt;&lt;br&gt;Осы бөлімдегі барлық өлеңдер алдын-ала .osz файлдар ретінде берілген және osu! мен osu!-ға байланысты контентте қолдануға ресми лицензияланған.</value>
+  </data>
+  <data name="links.beatmaps" xml:space="preserve">
+    <value>osu! карталары</value>
+  </data>
+  <data name="links.osu" xml:space="preserve">
+    <value>osu! профилі</value>
+  </data>
+  <data name="links.site" xml:space="preserve">
+    <value>Ресми сайт</value>
+  </data>
+  <data name="songs._" xml:space="preserve">
+    <value>Өлеңдер</value>
+  </data>
+  <data name="songs.count" xml:space="preserve">
+    <value>{0} өлең|{0} өлең</value>
+  </data>
+  <data name="songs.original" xml:space="preserve">
+    <value>osu!-ға арнайы</value>
+  </data>
+  <data name="songs.original_badge" xml:space="preserve">
+    <value>ORIGINAL</value>
+  </data>
+  <data name="tracklist.title" xml:space="preserve">
+    <value>атауы</value>
+  </data>
+  <data name="tracklist.length" xml:space="preserve">
+    <value>ұзақтығы</value>
+  </data>
+  <data name="tracklist.bpm" xml:space="preserve">
+    <value>bpm</value>
+  </data>
+  <data name="tracklist.genre" xml:space="preserve">
+    <value>жанры</value>
+  </data>
+  <data name="tracks.index._" xml:space="preserve">
+    <value>өлең іздеу</value>
+  </data>
+  <data name="tracks.index.form.advanced" xml:space="preserve">
+    <value>Кең ауқымды Іздеу</value>
+  </data>
+  <data name="tracks.index.form.album" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="tracks.index.form.artist" xml:space="preserve">
+    <value>Әртіс</value>
+  </data>
+  <data name="tracks.index.form.bpm_gte" xml:space="preserve">
+    <value>Минималды BPM</value>
+  </data>
+  <data name="tracks.index.form.bpm_lte" xml:space="preserve">
+    <value>Максималды BPM</value>
+  </data>
+  <data name="tracks.index.form.empty" xml:space="preserve">
+    <value>Іздеу критерийлеріне келетін өлеңдер табылмады.</value>
+  </data>
+  <data name="tracks.index.form.genre" xml:space="preserve">
+    <value>Жанры</value>
+  </data>
+  <data name="tracks.index.form.genre_all" xml:space="preserve">
+    <value>Бәрі</value>
+  </data>
+  <data name="tracks.index.form.length_gte" xml:space="preserve">
+    <value>Минималды Ұзақтығы</value>
+  </data>
+  <data name="tracks.index.form.length_lte" xml:space="preserve">
+    <value>Максималды Ұзақтығы</value>
+  </data>
+</root>
