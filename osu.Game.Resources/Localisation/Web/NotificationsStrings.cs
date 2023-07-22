@@ -445,21 +445,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemForumTopicForumTopicReplyForumTopicReplyCompact(LocalisableString username) => new TranslatableString(getKey(@"item.forum_topic.forum_topic_reply.forum_topic_reply_compact"), @"{0} replied", username);
 
         /// <summary>
-        /// "Legacy Forum PM"
-        /// </summary>
-        public static LocalisableString ItemLegacyPmDefault => new TranslatableString(getKey(@"item.legacy_pm._"), @"Legacy Forum PM");
-
-        /// <summary>
-        /// ""
-        /// </summary>
-        public static LocalisableString ItemLegacyPmLegacyPmDefault => new TranslatableString(getKey(@"item.legacy_pm.legacy_pm._"), @"");
-
-        /// <summary>
-        /// "{0} unread message|{0} unread messages"
-        /// </summary>
-        public static LocalisableString ItemLegacyPmLegacyPmLegacyPm(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.legacy_pm.legacy_pm.legacy_pm"), @"{0} unread message|{0} unread messages", countDelimited);
-
-        /// <summary>
         /// "New beatmap"
         /// </summary>
         public static LocalisableString ItemUserUserBeatmapsetNewDefault => new TranslatableString(getKey(@"item.user.user_beatmapset_new._"), @"New beatmap");

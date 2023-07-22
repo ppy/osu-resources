@@ -30,6 +30,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString FilterVariantTitle => new TranslatableString(getKey(@"filter.variant.title"), @"Variant");
 
         /// <summary>
+        /// "Earned"
+        /// </summary>
+        public static LocalisableString KudosuTotal => new TranslatableString(getKey(@"kudosu.total"), @"Earned");
+
+        /// <summary>
+        /// "Available"
+        /// </summary>
+        public static LocalisableString KudosuAvailable => new TranslatableString(getKey(@"kudosu.available"), @"Available");
+
+        /// <summary>
+        /// "Spent"
+        /// </summary>
+        public static LocalisableString KudosuUsed => new TranslatableString(getKey(@"kudosu.used"), @"Spent");
+
+        /// <summary>
         /// "spotlights"
         /// </summary>
         public static LocalisableString TypeCharts => new TranslatableString(getKey(@"type.charts"), @"spotlights");
@@ -38,6 +53,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "country"
         /// </summary>
         public static LocalisableString TypeCountry => new TranslatableString(getKey(@"type.country"), @"country");
+
+        /// <summary>
+        /// "kudosu"
+        /// </summary>
+        public static LocalisableString TypeKudosu => new TranslatableString(getKey(@"type.kudosu"), @"kudosu");
 
         /// <summary>
         /// "multiplayer"

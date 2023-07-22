@@ -10,9 +10,9 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Artist";
 
         /// <summary>
-        /// "Featured artists on osu!"
+        /// "Featured Artists on osu!"
         /// </summary>
-        public static LocalisableString PageDescription => new TranslatableString(getKey(@"page_description"), @"Featured artists on osu!");
+        public static LocalisableString PageDescription => new TranslatableString(getKey(@"page_description"), @"Featured Artists on osu!");
 
         /// <summary>
         /// "Featured Artists"
@@ -40,9 +40,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsDownloadNa => new TranslatableString(getKey(@"beatmaps.download-na"), @"beatmap template not yet available");
 
         /// <summary>
-        /// "Featured artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these featured artists have also created exclusive new tracks for use in osu!.&lt;br&gt;&lt;br&gt;All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content."
+        /// "Featured Artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these Featured Artists have also created exclusive new tracks for use in osu!.&lt;br&gt;&lt;br&gt;All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content."
         /// </summary>
-        public static LocalisableString IndexDescription => new TranslatableString(getKey(@"index.description"), @"Featured artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these featured artists have also created exclusive new tracks for use in osu!.<br><br>All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content.");
+        public static LocalisableString IndexDescription => new TranslatableString(getKey(@"index.description"), @"Featured Artists are artists that we are working in collaboration with in order to bring new and original music to osu!. These artists and a selection of their tracks have been hand-picked by the osu! team as being awesomesauce and suitable for mapping. Some of these Featured Artists have also created exclusive new tracks for use in osu!.<br><br>All tracks in this section are provided as pre-timed .osz files and have been officially licensed for use in osu! and osu!-related content.");
 
         /// <summary>
         /// "osu! Beatmaps"
@@ -100,9 +100,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TracklistGenre => new TranslatableString(getKey(@"tracklist.genre"), @"genre");
 
         /// <summary>
-        /// "tracks search"
+        /// "track search"
         /// </summary>
-        public static LocalisableString TracksIndexDefault => new TranslatableString(getKey(@"tracks.index._"), @"tracks search");
+        public static LocalisableString TracksIndexDefault => new TranslatableString(getKey(@"tracks.index._"), @"track search");
 
         /// <summary>
         /// "Advanced Search"

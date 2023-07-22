@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Оданша osu! ойнап көрсеңіз қалай?</value>
+  </data>
+  <data name="require_login" xml:space="preserve">
+    <value>Жалғастыру үшін аккаунтыңызға кіріңіз.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Жалғастыру үшін аккаунтыңызды растаңыз.</value>
+  </data>
+  <data name="restricted" xml:space="preserve">
+    <value>Құқыңыз шектеулі кезде бұны істей алмайсыз.</value>
+  </data>
+  <data name="silenced" xml:space="preserve">
+    <value>Бітеулі кезде бұны істей алмайсыз.</value>
+  </data>
+  <data name="unauthorized" xml:space="preserve">
+    <value>Рұқсат жоқ.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
+    <value>Хайпты болдырмау қолжетімді емес.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
+    <value>Жауаптары бар талқылауды өшіре алмайсыз</value>
+  </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>Сіз өз номинация шегіне жеттіңіз, ертең қайта қайталап көріңіз.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
+    <value>Әрекетті орындауда қателік орын алды, бетті жаңартып көріңіз.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
+    <value>Өз картаңызды номинаттай алмайсыз.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Номинаттау алдында жанры мен тілін көрсету керексіз.</value>
+  </data>
+  <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
+    <value>Талқылауды тек оны бастаушы мен карта иесі шеше алады.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Тек карта иесі немесе номинаторы/NAT мүшесі маппер ескертулерін қалдыра алады.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Ботпен жасалған талқылауға дауыс бере алмайсыз</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>Көбірек дауыстар беру алдында кішкене күте тұрыңыз</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>Өз талқылауыңызда дауыс бере алмайсыз.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>Тек қарастырылып жатқан карталардың талқылауларында ғана дауыс берсе болады.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Тек өз хабарламаларыңызды жоя аласыз.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Шешілген талқылаудағы постты жоя алмайсыз.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Автоматты түрде жасалған постты жоюға болмайды.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Тек пост авторы ғана постты өзгерте алады.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Шешілген талқылаудағы постты өзгерте алмайсыз.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>Автоматты түрде жасалған постты өзгертуге болмайды.</value>
+  </data>
+  <data name="beatmapset.discussion_locked" xml:space="preserve">
+    <value>Бұл картаның талқылауы жабық.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Сіз номинацияланған картаның метадеректерін өзгерте алмайсыз. Егер де ол қате орнатылған деп санасаңыз BN немесе NAT мүшесімен байланысқаныңыз жөн.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Бұл арна тек жарияларға арналған.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>Сізді бұғаттаған немесе сіз бұғаттаған қолданушыға жаза алмайсыз.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Қолданушы достары емес адамдардан келетін хабарламаларды бұғаттауда.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Бұл арна дәл қазір модерациядан өтуде.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>Сізде бұл арнаға кіруге рұқсат жоқ.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Қолданушы жауап бере алмауы мүмкін себебі сіз тек достарыңыздан ғана хабарламалар қабылдайсыз.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>Сіз бітелген, шектелген немесе бұғатталған кезде хабарламалар жібере алмайсыз.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Сіз бітелген, шектелген немесе бұғатталған кезде хабарламалар жібере алмайсыз.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Пікірлер өшірулі</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>Жойылған постты өзгертуге болмайды.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>Дауыс беру мерзімі біткен соң берілген дауысыңызды өзгерте алмайсыз.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Сіз осы сайыстың өтінім саны шегіне жеттіңіз </value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Өтінімдеріңіз үшін рақмет! Осы сайыс үшін өтінім қабылдау аяқталды және дауыс беру жақын арада ашылады.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Бұл форумды модерациялауға құқыңыз жоқ.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>Тек соңғы пост жойыла алады.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>Жабық тақырыптағы постты жою мүмкін емес.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>Тек пост авторы постты жоя алады.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>Жойылған постты өзгертуге болмайды.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>Пост өзгертуден құлыпталған.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>Тек пост авторы ғана постты өзгерте алады.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>Жабық тақырыптағы постты өзгерту мүмкін емес.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Форумға жазбастан бұрын ойынды ойнап көріңізші, өтініш! Егер ойынмен мәселелер болатын болса  ол туралы "Көмек және Қолдау" форумына жазып көріңіз.  </value>
+  </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>Сізге қосымша посттар жасамастан бұрын ойынды ойнау керек. Егер де cізде әлі де ойын ойнаумен мәселелер бар болса, support@ppy.sh поштасына жазыңыз</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Өтініш, қайта пост жасағанның орнына соңғы постыңызды өзгертіңіз.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>Жабық тақырыпқа жауап беру мүмкін емес.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>Жауап беруге құқыңыз жоқ.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Жауап беру үшін аккаунтыңызға кіріңіз.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>Құқыңыз шектеулі кезде жауап бере алмайсыз.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>Бітеулі кезде жауап бере алмайсыз.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>Жаңа тақырып құруға құқыңыз жоқ.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>Форум жабық және пост қабылдамайды.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>Сауалнама аяқталды және онда енді дауыс беруге болмайды.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Форумда дауыс бермес бұрын көбірек ойнауыңыз керек.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Берілген дауысты өзгертуге тиым салынады.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Дауыс беру үшін аккаунтыңызға кіріңіз.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>Құқыңыз шектеулі кезде дауыс бере алмайсыз.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>Бітеулі кезде дауыс бере алмайсыз.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Сұралған форумға рұқсат қажет.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>Қате мұқаба көрсетілген.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>Тек автор мұқабаны өзгерте алады.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Бұл форум тақырып мұқаба суреттерді қабылдамайды.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>Бұл форумды тек әкімші көре алады.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Нәтиже иесі ғана ұпайды бекіте алады.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Тым көп нәтиже бекітілді.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>Пайдаланушы беті жабылған.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>Тек жеке пайдаланушы бетін өзгертей алады.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>osu!қолдаушысы тегі қажет.</value>
+  </data>
+</root>
