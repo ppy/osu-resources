@@ -64,43 +64,64 @@
   <data name="select_directory" xml:space="preserve">
     <value>選擇目錄</value>
   </data>
-  <data name="import_beatmaps_from_stable" xml:space="preserve">
-    <value>從穩定版匯入圖譜</value>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>轉移進行中</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>這可能需要幾分鐘時間，具體處理時間取決於您的硬碟速度。</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>請暫時不要與對遊戲進行操作！</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>部分檔案無法在遷移過程中清理完畢。點擊這個通知會開啟資料夾以讓您手動清理剩餘檔案。</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>請選擇一個新的位置</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>已在所選的資料夾中偵測到現有的 osu! 安裝，是否直接使用該資料？</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>osu! 將關閉以完成這個操作。請再次開啟以使用新的資料位置。</value>
   </data>
   <data name="delete_all_beatmaps" xml:space="preserve">
-    <value>刪除 全！部！圖譜</value>
+    <value>刪除「全部」圖譜</value>
   </data>
   <data name="delete_all_beatmap_videos" xml:space="preserve">
-    <value>刪除所有圖譜影片</value>
-  </data>
-  <data name="import_scores_from_stable" xml:space="preserve">
-    <value>從穩定版匯入分數</value>
+    <value>刪除「全部」圖譜的影片</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
-    <value>刪除 全！部！分數</value>
-  </data>
-  <data name="import_skins_from_stable" xml:space="preserve">
-    <value>從穩定版匯入 skin</value>
+    <value>刪除「全部」分數</value>
   </data>
   <data name="delete_all_skins" xml:space="preserve">
-    <value>刪除 全！部！skin</value>
-  </data>
-  <data name="import_collections_from_stable" xml:space="preserve">
-    <value>從穩定版匯入收藏夾</value>
+    <value>刪除「全部」Skin</value>
   </data>
   <data name="delete_all_collections" xml:space="preserve">
-    <value>刪除 全！部！收藏夾</value>
+    <value>刪除「全部」收藏</value>
   </data>
   <data name="restore_all_hidden_difficulties" xml:space="preserve">
-    <value>復原所有隱藏難度</value>
+    <value>復原所有已隱藏的難度</value>
   </data>
   <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
     <value>復原所有最近刪除的圖譜</value>
   </data>
   <data name="delete_all_mod_presets" xml:space="preserve">
-    <value>刪除所有 Mod 預設</value>
+    <value>刪除「全部」 Mod 預設</value>
   </data>
   <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
     <value>復原所有最近刪除的 Mod 預設</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>已刪除所有收藏！</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>已刪除所有模組預設！</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>已復原所有刪除的模組預設！</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>請選擇您的 osu! 穩定版安裝位置</value>
   </data>
 </root>

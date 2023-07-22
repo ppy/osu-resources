@@ -62,16 +62,13 @@
     <value>通知</value>
   </data>
   <data name="header_description" xml:space="preserve">
-    <value>還在等你</value>
+    <value>尚未閱讀的通知</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
     <value>執行中的工作</value>
   </data>
   <data name="clear_all" xml:space="preserve">
     <value>全部清除</value>
-  </data>
-  <data name="cancel_all" xml:space="preserve">
-    <value>取消所有工作</value>
   </data>
   <data name="battery_low" xml:space="preserve">
     <value>您的裝置電量不足！請立即將裝置接上電源，以避免遊玩過程中意外關機</value>
@@ -80,12 +77,35 @@
     <value>您的遊戲音量似乎有點太低，點此來還原音量。</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>目前的遊戲模式沒有提供「自動播放」模組。</value>
+    <value>目前的遊戲模式沒有提供「自動播放」Mod。</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
-    <value>osu! 偵測到目前無法正常輸出聲音。\n\n請嘗試更改您的音效設定來修正這個問題。</value>
+    <value>osu! 偵測到目前無法正常輸出聲音。
+
+請嘗試更改您的音效設定來修正這個問題。</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
-    <value>遊戲介面 (HUD) 已關閉，您可以按下 {0} 來調整開關。</value>
+    <value>遊戲介面 (HUD) 已關閉，您可以按下 {0} 來重新開啟或關閉。</value>
+  </data>
+  <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
+    <value>將不會開啟 {0}，因其使用不支援或危險的連線協定。</value>
+  </data>
+  <data name="subsequent_messages_logged" xml:space="preserve">
+    <value>相關錯誤訊息已經寫入到記錄檔中，點擊這裡來查看記錄檔</value>
+  </data>
+  <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
+    <value>因為遇到錯誤: "{0}"，已自動取消繪圖板支援</value>
+  </data>
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>請注意，您的繪圖板可能沒有正常工作。點擊這裡來查看所有支援的繪圖板列表。</value>
+  </data>
+  <data name="unsupported_link_type" xml:space="preserve">
+    <value>目前暫時不支援這種連結類型</value>
+  </data>
+  <data name="private_message_received" xml:space="preserve">
+    <value>您收到一個來自 {0} 的私人訊息，點擊此來閱讀。</value>
+  </data>
+  <data name="your_name_was_mentioned" xml:space="preserve">
+    <value>您的名字已被 {0} 在聊天中提及，點擊此來閱讀。</value>
   </data>
 </root>
