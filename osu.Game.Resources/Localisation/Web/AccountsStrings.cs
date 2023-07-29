@@ -85,9 +85,24 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditPasswordTitle => new TranslatableString(getKey(@"edit.password.title"), @"Password");
 
         /// <summary>
+        /// "country"
+        /// </summary>
+        public static LocalisableString EditProfileCountry => new TranslatableString(getKey(@"edit.profile.country"), @"country");
+
+        /// <summary>
         /// "Profile"
         /// </summary>
         public static LocalisableString EditProfileTitle => new TranslatableString(getKey(@"edit.profile.title"), @"Profile");
+
+        /// <summary>
+        /// "It looks like your account country doesn&#39;t match your country of residence. {0}."
+        /// </summary>
+        public static LocalisableString EditProfileCountryChangeDefault(LocalisableString updateLink) => new TranslatableString(getKey(@"edit.profile.country_change._"), @"It looks like your account country doesn't match your country of residence. {0}.", updateLink);
+
+        /// <summary>
+        /// "Update to {0}"
+        /// </summary>
+        public static LocalisableString EditProfileCountryChangeUpdateLink(LocalisableString country) => new TranslatableString(getKey(@"edit.profile.country_change.update_link"), @"Update to {0}", country);
 
         /// <summary>
         /// "discord"

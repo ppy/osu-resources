@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="box.sent" xml:space="preserve">
-    <value>На вашу пошту, був відправлений {0} з кодом підтвердження, в цілях безпеки. Введіть код.</value>
+    <value>На вашу пошту {0} було відправлено листа з кодом підтвердження в цілях безпеки. Введіть код.</value>
   </data>
   <data name="box.title" xml:space="preserve">
     <value>Підтвердження облікового запису</value>
@@ -89,13 +89,13 @@
     <value>вийти</value>
   </data>
   <data name="errors.expired" xml:space="preserve">
-    <value>Даний код застарів, відправлено новий лист.</value>
+    <value>Даний код не є дійсним, відправлено новий лист.</value>
   </data>
   <data name="errors.incorrect_key" xml:space="preserve">
     <value>Невірний код.</value>
   </data>
   <data name="errors.retries_exceeded" xml:space="preserve">
-    <value>Невірний код підтвердження. Ви вичерпали кількість спроб, відправлено новий лист.</value>
+    <value>Невірний код підтвердження. Ліміт спроб вичерпано, відправлено новий лист.</value>
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Лист з кодом підтвердження відправлено повторно.</value>

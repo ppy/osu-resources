@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="new_player_registration" xml:space="preserve">
+    <value>새로운 계정 만들기</value>
+  </data>
+  <data name="lets_get_you_started" xml:space="preserve">
+    <value>시작해봐요</value>
+  </data>
+  <data name="lets_create_an_account" xml:space="preserve">
+    <value>계정을 만들어볼까요!</value>
+  </data>
+  <data name="multi_account_warning_help" xml:space="preserve">
+    <value>제 계정에 접근 할 수 없어요, 도와주세요!</value>
+  </data>
+  <data name="multi_account_warning_accept" xml:space="preserve">
+    <value>이해했어요, 지금 만들려는 계정은 제 게 아니에요.</value>
+  </data>
+  <data name="username_description" xml:space="preserve">
+    <value>이건 당신의 공개적인 명칭이 될 거에요. 욕설이나 다른 누군가를 사칭하는 것은 안돼요. 당신의 개인 정보를 노출하는 것도 안된다는 거 기억해주세요!</value>
+  </data>
+  <data name="email_description_1" xml:space="preserve">
+    <value>알림, 계정 확인 그리고 당신이 비밀번호를 잊어버렸을 때 쓰일 거에요. 절대로 불필요한 메일은 보내지 않을게요.</value>
+  </data>
+  <data name="email_description_2" xml:space="preserve">
+    <value>정확하게 적어주세요!</value>
+  </data>
+</root>

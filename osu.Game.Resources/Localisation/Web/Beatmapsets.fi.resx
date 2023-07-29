@@ -67,14 +67,26 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Klikkaa nähdäksesi lisätietoja.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Osa tämän rytmikartan resursseista on poistettu, koska on katsottu, että niiden käyttö ei sovi osu!un.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Poistettu rytmikartta</value>
+  </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Hidasta vähän, pelaa enemmän.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Suositeltu esittäjä</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Beatmapit</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmapit</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>ei rytmikarttoja</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>lataa</value>
@@ -88,8 +100,41 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>avaa osu!directissä</value>
   </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Usean pelimuodon rytmikartta edellyttää, että valitset vähintään yhden pelimuodon, jota panet ehdolle.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Sinulla ei ole käyttöoikeutta panna ehdolle pelimuotoa: {0}</value>
+  </data>
+  <data name="nominate.full_bn_required" xml:space="preserve">
+    <value>Sinun on oltava täysivaltainen ehdollepanija, jotta voit tehdä tämän kelpuuttavan ehdollepanon.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Ehdollepanovaatimus on jo täyttynyt.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Oletko varma, että haluat ehdollepanna tämän rytmikartan?</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Ehdollepane rytmikartta</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>huomaa: voit tehdä ehdollepanon vain kerran, joten varmista, että olet valinnut kaikki pelimuodot, jotka aiot panna ehdolle</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Mitkä pelimuodot ehdollepannaan?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Sopimaton</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Keskustelu</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Tämä rytmikartta on poistettu.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(tämä näkyy vain moderaattoreille)</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Lisää tämä beatmap-setti suosikkeihin</value>
@@ -98,7 +143,10 @@
     <value>Sinun täytyy kirjautua sisään ladataksesi beatmappeja!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
-    <value>luonut: {0}</value>
+    <value>kartoittanut {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>vieraileva vaikeustaso, kartoittanut {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Poista tämä beatmapkokoelma suosikeista</value>
