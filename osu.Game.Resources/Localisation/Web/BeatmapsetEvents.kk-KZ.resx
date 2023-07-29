@@ -79,6 +79,66 @@
   <data name="event.discussion_restore" xml:space="preserve">
     <value>Модератор {0} пікірталасты қалпына келтірді.</value>
   </data>
+  <data name="event.discussion_unlock" xml:space="preserve">
+    <value>Бұл карта үшін пікірталас қосылған болыпты.</value>
+  </data>
+  <data name="event.disqualify" xml:space="preserve">
+    <value>{0} дисквалификация жасады. Себебі: {1} ({2}).</value>
+  </data>
+  <data name="event.disqualify_legacy" xml:space="preserve">
+    <value>{0} дисквалификация жасады. Себебі: {1}.</value>
+  </data>
+  <data name="event.genre_edit" xml:space="preserve">
+    <value>Жанр {0}тен {1}ке өзгертілді.</value>
+  </data>
+  <data name="event.issue_reopen" xml:space="preserve">
+    <value>{0} жазған {1} шешілген мәселені {2} қайта ашты.</value>
+  </data>
+  <data name="event.issue_resolve" xml:space="preserve">
+    <value>{0} жазған {1} мәселесі {2} шешілген деп белгіледі.</value>
+  </data>
+  <data name="event.kudosu_allow" xml:space="preserve">
+    <value>{0} пікірталас үшін кудосу беру қабылдамауы жойылды.</value>
+  </data>
+  <data name="event.kudosu_deny" xml:space="preserve">
+    <value>{0} пікірталаста кудосу беруге қабылданбады.</value>
+  </data>
+  <data name="event.kudosu_gain" xml:space="preserve">
+    <value>{0}ның {1} пікірталасы кудосу алу үшін жеткілікті дауыс жинады.</value>
+  </data>
+  <data name="event.kudosu_lost" xml:space="preserve">
+    <value>{0}ның {1} пікірталаста дауыстары жоғалтылды және берілген құдосу жойылды.</value>
+  </data>
+  <data name="event.kudosu_recalculate" xml:space="preserve">
+    <value>{0} пікірталасың кудосу қайта есептелді.</value>
+  </data>
+  <data name="event.language_edit" xml:space="preserve">
+    <value>Тілі {0}тен {1}ке өзгертілді.</value>
+  </data>
+  <data name="event.love" xml:space="preserve">
+    <value>{0} пайдаланушыдан Ұнамды статусы берілді.</value>
+  </data>
+  <data name="event.nominate" xml:space="preserve">
+    <value>{0} пайдаланушыдан номинация берілді.</value>
+  </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>{0} пайдаланушыдан номинация берілді ({1}).</value>
+  </data>
+  <data name="event.nomination_reset" xml:space="preserve">
+    <value>Жаңа мәселе {0} ({1}) номинацияны қалпына келтіруді іске қосты.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>{0}ның номинацияны {1} ({2}) қалпына келтірді</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>{0} ({1}) номинацияны қалпына келтірді </value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Онлайн оффсет {0}тен {1}ке өзгертілді.</value>
+  </data>
+  <data name="event.qualify" xml:space="preserve">
+    <value>Бұл карта номинацияларының қажетті санына жетті және квалификацияға ие болды.</value>
+  </data>
   <data name="event.rank" xml:space="preserve">
     <value>Рейтингілік.</value>
   </data>
@@ -121,11 +181,56 @@
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Пікірталастың жоюы</value>
   </data>
+  <data name="type.discussion_post_delete" xml:space="preserve">
+    <value>Пікірталас жауаптың жоюы</value>
+  </data>
+  <data name="type.discussion_post_restore" xml:space="preserve">
+    <value>Пікірталас жауаптың қалпына келтіруі</value>
+  </data>
+  <data name="type.discussion_restore" xml:space="preserve">
+    <value>Пікірталас қалпына келтіруі</value>
+  </data>
+  <data name="type.disqualify" xml:space="preserve">
+    <value>Дисквалификация</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Жанр өзгертуі</value>
+  </data>
+  <data name="type.issue_reopen" xml:space="preserve">
+    <value>Пікірталас қайтадан ашылуы</value>
+  </data>
+  <data name="type.issue_resolve" xml:space="preserve">
+    <value>Пікірталас шешуі</value>
+  </data>
+  <data name="type.kudosu_allow" xml:space="preserve">
+    <value>Кудосу рұқсат беруі</value>
+  </data>
+  <data name="type.kudosu_deny" xml:space="preserve">
+    <value>Кудосу жою</value>
+  </data>
+  <data name="type.kudosu_gain" xml:space="preserve">
+    <value>Кудосу алу</value>
+  </data>
+  <data name="type.kudosu_lost" xml:space="preserve">
+    <value>Кудосу айырылу</value>
+  </data>
+  <data name="type.kudosu_recalculate" xml:space="preserve">
+    <value>Кудосу қайта есептеуі</value>
+  </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Тіл өзгертуі</value>
+  </data>
   <data name="type.love" xml:space="preserve">
     <value>Ұнамды статусын беру</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Номинация</value>
+  </data>
+  <data name="type.nomination_reset" xml:space="preserve">
+    <value>Номинация арылтуы</value>
+  </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Номинация арылтуы алынды</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Былапыт тегі</value>
