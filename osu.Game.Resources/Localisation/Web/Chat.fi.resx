@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>ladataan käyttäjiä...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>keskustellaan kanavalla {0}</value>
   </data>
@@ -67,11 +70,20 @@
   <data name="title_compact" xml:space="preserve">
     <value>viestit</value>
   </data>
+  <data name="unread_messages" xml:space="preserve">
+    <value>lukemattomia viestejä</value>
+  </data>
   <data name="cannot_send.channel" xml:space="preserve">
     <value>Et voi lähettää tälle kanavalle viestejä juuri nyt, koska</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
     <value>Et voi lähettää tälle käyttäjälle viestejä, koska</value>
+  </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Haluatko piilottaa tämän kanavan? Tulet yhä saamaan viestejä tältä kanavalta.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>luo tiedote</value>
   </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>Tiedotukset</value>
@@ -85,8 +97,29 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Kanavat</value>
   </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Luo uusi tiedote</value>
+  </data>
+  <data name="form.labels.description" xml:space="preserve">
+    <value>kuvaus</value>
+  </data>
+  <data name="form.labels.message" xml:space="preserve">
+    <value>viesti</value>
+  </data>
+  <data name="form.labels.name" xml:space="preserve">
+    <value>huoneen nimi</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>lisättävät pelaajat</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Täällä ei ole mitään, ehkä poistuit kanavalta tai sitä ei ole...</value>
+  </data>
   <data name="not_found.title" xml:space="preserve">
     <value>kanavaa ei löydetty</value>
+  </data>
+  <data name="input.create" xml:space="preserve">
+    <value>Luo</value>
   </data>
   <data name="input.disabled" xml:space="preserve">
     <value>viestiä ei voida lähettää...</value>

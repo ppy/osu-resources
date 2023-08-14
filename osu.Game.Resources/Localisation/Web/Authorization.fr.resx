@@ -62,7 +62,7 @@
     <value>Que diriez-vous de jouer un peu d'osu! à la place ?</value>
   </data>
   <data name="require_login" xml:space="preserve">
-    <value>Merci de vous connecter pour continuer.</value>
+    <value>Veuillez vous connecter pour continuer.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
     <value>Veuillez vous authentifier pour continuer.</value>
@@ -92,7 +92,7 @@
     <value>Vous ne pouvez pas nominer votre propre beatmap.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>Veuillez définir le genre et la langue de cette musique avant de nominer cette beatmap.</value>
+    <value>Veuillez définir le genre et la langue de la musique avant de nominer cette beatmap.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>Seuls l'auteur du post et le créateur de la beatmap peuvent résoudre ce sujet.</value>
@@ -113,19 +113,19 @@
     <value>Vous ne pouvez voter que sur les discussions des beatmaps en attente.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Vous pouvez uniquement supprimer vos propres messages.</value>
+    <value>Vous pouvez uniquement supprimer vos propres posts.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
-    <value>Vous ne pouvez pas supprimer un message d'une discussion résolue.</value>
+    <value>Vous ne pouvez pas supprimer un post d'une discussion résolue.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
-    <value>Les messages automatiquement générés ne peuvent être supprimés.</value>
+    <value>Les posts automatiquement générés ne peuvent pas être supprimés.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Seul l'auteur de ce post peut l'éditer.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier un message d'une discussion résolue.</value>
+    <value>Vous ne pouvez pas modifier un post d'une discussion résolue.</value>
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Un sujet posté automatiquement ne peut être édité.</value>
@@ -143,7 +143,7 @@
     <value>Vous ne pouvez pas envoyer un message à un utilisateur qui vous a bloqué ou que vous avez bloqué.</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
-    <value>Cet utilisateur bloque les messages des personnes qui ne sont pas dans sa liste d’amis.</value>
+    <value>Cet utilisateur bloque les messages des utilisateurs qui ne sont pas dans sa liste d’amis.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
     <value>Ce canal est actuellement restreint par un modérateur.</value>
@@ -152,7 +152,7 @@
     <value>Vous n’avez pas accès à ce canal.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
-    <value>L'utilisateur n'est peut-être pas en mesure de répondre parce que vous n'acceptez que les messages des personnes de votre liste d'amis.</value>
+    <value>L'utilisateur n'est peut-être pas en mesure de répondre parce que vous n'acceptez que les messages des utilisateurs de votre liste d'amis.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Vous ne pouvez pas envoyer de messages en étant réduit au silence, restreint ou banni.</value>
@@ -179,7 +179,7 @@
     <value>Vous n’avez pas la permission de modérer ce forum.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>Seul le dernier message peut être supprimé.</value>
+    <value>Seul le dernier post peut être supprimé.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
     <value>Impossible de supprimer un message sur un sujet verrouillé.</value>
@@ -206,10 +206,10 @@
     <value>Impossible d'éditer un post sur un sujet verrouillé.</value>
   </data>
   <data name="forum.post.store.play_more" xml:space="preserve">
-    <value>Essayez de jouer au jeu avant de poster sur les forums ! Si vous rencontrez des problèmes pour jouer, essayez de poster sur le forum Aide et Support.</value>
+    <value>Essayez de jouer au jeu avant de poster sur les forums ! Si vous rencontrez des problèmes pour jouer, veuillez poster sur les forums Help et Support.</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Vous devez jouer davantage avant de pouvoir créer de nouveaux posts. Si vous rencontrez toujours des difficultés pour jouer, envoyez un email à support@ppy.sh</value>
+    <value>Vous devez jouer davantage avant de pouvoir créer de nouveaux posts. Si vous rencontrez toujours des difficultés pour jouer, envoyez un e-mail à support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
     <value>Merci d'éditer votre dernier post au lieu de poster à nouveau.</value>
@@ -281,7 +281,7 @@
     <value>Impossible d'épingler ce type de score</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
-    <value>Seul le propriétaire du score peut épingler le score.</value>
+    <value>Seul le propriétaire du score peut épingler ce score.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Trop de scores épinglés.</value>
@@ -293,6 +293,6 @@
     <value>Vous ne pouvez éditer que votre propre page, pas celle d'autres utilisateurs.</value>
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
-    <value>vous devez être un osu!supporter.</value>
+    <value>Vous devez être un osu!supporter.</value>
   </data>
 </root>

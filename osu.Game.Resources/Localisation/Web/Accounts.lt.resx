@@ -103,8 +103,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Slaptažodis</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>šalis</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profilis</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Panašu, kad tavo šalis, nesutampa su šalimi, kurioje gyveni. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>Pakeisti į {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>dabartinė vieta</value>
@@ -125,10 +134,10 @@
     <value>išsaugoti</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>gauti pranešimus dėl naujų problemų kvalifikuotuose bitmapuose šiuose režimuose </value>
+    <value>gauti pranešimus dėl naujų problemų kvalifikuotuose beatmap'uose šiuose režimuose </value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>gauti pranešimus, kai šių režimų bitmapai diskvalifikuojami</value>
+    <value>gauti pranešimus, kai šių režimų beatmap'ai diskvalifikuojami</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>gauti pranešimus apie atsakymus ant jūsų komentarų</value>
@@ -146,7 +155,7 @@
     <value>svečio sunkumas</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>bitmapų modifikacijos</value>
+    <value>beatmap'ų modifikacijos</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privatūs susirašinėjimai</value>
@@ -161,7 +170,7 @@
     <value>paštas</value>
   </data>
   <data name="notifications.options.mapping" xml:space="preserve">
-    <value>bitmapo kūrėjas</value>
+    <value>beatmap'o kūrėjas</value>
   </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
@@ -179,16 +188,16 @@
     <value>OAuth</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
-    <value>slėpti perspėjimus dėl eksplicitinio turinio bitmapuose</value>
+    <value>slėpti perspėjimus dėl eksplicitinio turinio beatmap'uose</value>
   </data>
   <data name="options.beatmapset_title_show_original" xml:space="preserve">
-    <value>rodyti bitmapo metaduomenys orginaliaja kalba</value>
+    <value>rodyti beatmap'o metaduomenys orginaliaja kalba</value>
   </data>
   <data name="options.title" xml:space="preserve">
     <value>Parinktys</value>
   </data>
   <data name="options.beatmapset_download._" xml:space="preserve">
-    <value>numatytasis bitmapų siuntimosi tipas
+    <value>numatytasis beatmap'ų siuntimosi tipas
 </value>
   </data>
   <data name="options.beatmapset_download.all" xml:space="preserve">

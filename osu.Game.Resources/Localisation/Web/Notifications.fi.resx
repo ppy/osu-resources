@@ -82,6 +82,12 @@
   <data name="verifying" xml:space="preserve">
     <value>Vahvista istuntosi nähdäksesi ilmoitukset</value>
   </data>
+  <data name="action_type._" xml:space="preserve">
+    <value>kaikki</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>chat</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>kaikki</value>
   </data>
@@ -102,6 +108,15 @@
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmappi</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Vieraan vaikeustaso</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Omistat nyt vaikeustason "{0}" beatmapille "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Omistat nyt vaikeustason "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Beatmap-keskustelut</value>
@@ -133,11 +148,41 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Keskustelu on avattu</value>
   </data>
+  <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
+    <value>Esihyväksytyn Beatmapin ongelma</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
+    <value>{0}{1} Ilmiantama</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
+    <value>Beatmapin tila muutettu</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" on hylätty</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
+    <value>Beatmappi hylättiin</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" on hyväksytty</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
+    <value>Beatmap on siirtynyt ranking-jonoon</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" on hyväksytty</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
+    <value>Beatmap hyväksyttiin</value>
+  </data>
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Uusi kommentti</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Chatti</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Uusi ilmoitus</value>
   </data>
   <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
     <value>{0}</value>
@@ -196,6 +241,15 @@
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Mitaleja saavutettu!</value>
   </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" on hylätty</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" on hyväksytty</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" on hyväksytty</value>
+  </data>
   <data name="mail.channel.channel.pm" xml:space="preserve">
     <value>Olet saanut uuden viestin käyttäjältä {0}</value>
   </data>
@@ -204,5 +258,11 @@
   </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
     <value>Uutinen "{0}" on saanut uusia kommentteja</value>
+  </data>
+  <data name="mail.user.user_achievement_unlock.user_achievement_unlock_self" xml:space="preserve">
+    <value>Olet avannut uuden mitalin, "{0}"!</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} on elvyttänyt beatmappeja</value>
   </data>
 </root>

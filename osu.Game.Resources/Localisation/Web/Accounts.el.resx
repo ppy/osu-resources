@@ -82,6 +82,15 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>api</value>
+  </data>
+  <data name="edit.legacy_api.irc" xml:space="preserve">
+    <value>irc</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>Legacy API</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>τρέχων κωδικός</value>
   </data>
@@ -94,8 +103,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Κωδικός</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>χώρα</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Προφίλ</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Φαίνεται ότι η χώρα του λογαριασμού σας δεν ταιριάζει με τη χώρα διαμονής σας. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>Ενημέρωση σε {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>τρέχουσα τοποθεσία</value>
@@ -115,6 +133,15 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>ενημέρωση</value>
   </data>
+  <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>λαμβάνετε ειδοποιήσεις για νέα προβλήματα σε πιστοποιημένους beatmaps των παρακάτω λειτουργιών</value>
+  </data>
+  <data name="notifications.beatmapset_disqualify" xml:space="preserve">
+    <value>λαμβάνετε ειδοποιήσεις για το πότε τα beatmaps των παρακάτω λειτουργιών αποκλείονται</value>
+  </data>
+  <data name="notifications.comment_reply" xml:space="preserve">
+    <value>λαμβάνετε ειδοποιήσεις για απαντήσεις στα σχόλιά σας</value>
+  </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Ειδοποιήσεις</value>
   </data>
@@ -123,6 +150,12 @@
   </data>
   <data name="notifications.options._" xml:space="preserve">
     <value>επιλογές παράδοσης</value>
+  </data>
+  <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
+    <value>δυσκολία επισκέπτη</value>
+  </data>
+  <data name="notifications.options.beatmapset:modding" xml:space="preserve">
+    <value>beatmap modding</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>ιδιωτικά μηνύματα</value>
@@ -136,8 +169,14 @@
   <data name="notifications.options.mail" xml:space="preserve">
     <value>mail</value>
   </data>
+  <data name="notifications.options.mapping" xml:space="preserve">
+    <value>beatmap mapper</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
+  </data>
+  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
+    <value>το μετάλλιο χρήστη ξεκλειδώθηκε</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>εγκεκριμένοι clients</value>
@@ -148,8 +187,17 @@
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
   </data>
+  <data name="options.beatmapset_show_nsfw" xml:space="preserve">
+    <value>απόκρυψη προειδοποιήσεων για ακατάλληλο περιεχόμενο σε beatmaps</value>
+  </data>
+  <data name="options.beatmapset_title_show_original" xml:space="preserve">
+    <value>εμφάνιση μεταδεδομένων beatmap στην αρχική γλώσσα</value>
+  </data>
   <data name="options.title" xml:space="preserve">
     <value>Ρυθμίσεις</value>
+  </data>
+  <data name="options.beatmapset_download._" xml:space="preserve">
+    <value>προεπιλεγμένος τύπος λήψης beatmap</value>
   </data>
   <data name="options.beatmapset_download.all" xml:space="preserve">
     <value>με βίντεο εάν είναι διαθέσιμο</value>

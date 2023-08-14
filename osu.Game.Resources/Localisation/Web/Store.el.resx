@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Ολοκλήρωση αγοράς</value>
   </data>
+  <data name="cart.info" xml:space="preserve">
+    <value>{0} αντικείμενο στο καλάθι (${1}),{0} αντικείμενα στο καλάθι (${1})</value>
+  </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Θέλω να ελέγξω περισσότερα καλούδια πριν ολοκληρώσω την παραγγελία</value>
   </data>
@@ -100,11 +103,17 @@
   <data name="checkout.delayed_shipping" xml:space="preserve">
     <value>Προσωρινά μας έχουν κατακλύσει οι παραγγελίες! Μπορείτε να παραγγείλετε, αλλά παρακαλούμε να περιμένετε **1-2 εβδομάδες επιπλέον** ενώ προσπαθούμε να προλάβουμε τις υπάρχουσες παραγγελίες.</value>
   </data>
+  <data name="checkout.hide_from_activity" xml:space="preserve">
+    <value>Απόκρυψη όλων των ετικετών osu!supporter σε αυτή τη σειρά από την δραστηριότητά μου</value>
+  </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Το καλάθι σας φαίνεται να έχει ξεπερασμένα πράγματα και έχει ανανεωθεί, παρακαλώ προσπαθήστε ξανά.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
     <value>Ολοκλήρωση αγοράς με Paypal</value>
+  </data>
+  <data name="checkout.title_compact" xml:space="preserve">
+    <value>ολοκλήρωση αγοράς</value>
   </data>
   <data name="checkout.has_pending._" xml:space="preserve">
     <value>Έχετε μη-ολοκληρωμένες αγορές, κάντε κλικ στο κουμπί {0} για να τις δείτε.</value>
@@ -124,6 +133,12 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Δεδομένου ότι η πληρωμή σας ήταν μια eCheck, παρακαλώ επιτρέψτε έως και 10ημέρες για την πληρωμή μέσω PayPal!</value>
   </data>
+  <data name="invoice.hide_from_activity" xml:space="preserve">
+    <value>osu!supporter ετικέτες με αυτή τη σειρά δεν εμφανίζονται στις πρόσφατες δραστηριότητές σας.</value>
+  </data>
+  <data name="invoice.title_compact" xml:space="preserve">
+    <value>τιμολόγιο</value>
+  </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Δεν έχει ακόμη επιβεβαιωθεί η πληρωμή σας!</value>
   </data>
@@ -135,6 +150,15 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>κάντε κλικ εδώ για να συνεχίσετε την παραγγελία σας</value>
+  </data>
+  <data name="order.cancel" xml:space="preserve">
+    <value>Ακύρωση Παραγγελίας</value>
+  </data>
+  <data name="order.cancel_confirm" xml:space="preserve">
+    <value>Αυτή η παραγγελία θα ακυρωθεί και η πληρωμή δεν θα γίνει δεκτή για αυτήν. Ο πάροχος πληρωμής δεν μπορεί να αποδεσμεύσει οποιαδήποτε δεσμευμένα χρήματα αμέσως. Είσαι σίγουρος;</value>
+  </data>
+  <data name="order.cancel_not_allowed" xml:space="preserve">
+    <value>Αυτή η παραγγελία δεν μπορεί να ακυρωθεί αυτή τη στιγμή.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Προβολή τιμολογίου</value>
@@ -148,11 +172,17 @@
   <data name="order.resume" xml:space="preserve">
     <value>Συνέχιση Αγοράς</value>
   </data>
+  <data name="order.shopify_expired" xml:space="preserve">
+    <value>Ο σύνδεσμος παραγγελίας για αυτήν την παραγγελία έχει λήξει.</value>
+  </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Ποσότητα</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} για τον χρήστη {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Μήνυμα: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
     <value>Δεν μπορείτε να τροποποιήσετε την παραγγελία σας καθώς έχει ακυρωθεί.</value>
@@ -219,6 +249,9 @@
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
     <value>δωρίστε σε έναν παίχτη</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>προσθέστε ένα προαιρετικό μήνυμα στο δώρο σας! (μέχρι {0} χαρακτήρες)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Πρέπει να είστε {0} για να πάρετε ένα supporter tag!</value>

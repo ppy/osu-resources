@@ -73,6 +73,9 @@
   <data name="index.deleted_beatmap" xml:space="preserve">
     <value>διαγραμμένο</value>
   </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Δεν βρέθηκαν συζητήσεις που να ταιριάζουν με τα κριτήρια αναζήτησης.</value>
+  </data>
   <data name="index.title" xml:space="preserve">
     <value>Συζητήσεις περί Beatmap</value>
   </data>
@@ -82,14 +85,35 @@
   <data name="index.form.deleted" xml:space="preserve">
     <value>Συμπεριλάμβανε διαγραμμένες συζητήσεις</value>
   </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Λειτουργία Beatmap</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Εμφάνιση μόνο ανεπίλυτων συζητήσεων</value>
+  </data>
   <data name="index.form.types" xml:space="preserve">
     <value>Τύποι μηνυμάτων</value>
   </data>
   <data name="index.form.username" xml:space="preserve">
     <value>Όνομα χρήστη</value>
   </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Beatmap Status</value>
+  </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Όλα</value>
+  </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Αποκλεισμένος</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Ποτέ Μη Κατάλληλο</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Πιστοποιημένα</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Κατάταξη</value>
   </data>
   <data name="index.form.user.label" xml:space="preserve">
     <value>Χρήστης</value>
@@ -115,17 +139,59 @@
   <data name="nearby_posts.notice" xml:space="preserve">
     <value>Υπάρχουν αναρτήσεις περίπου {0} ({1}). Παρακαλώ να τις ελέγξετε πριν αναρτήσετε.</value>
   </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} σε αυτή την κριτική</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Δυσκολία Ιδιοκτήτη</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Επαναφορά ιδιοκτήτη για αυτή τη δυσκολία;</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Δυσκολία</value>
+  </data>
   <data name="reply.open.guest" xml:space="preserve">
     <value>Συνδεθείτε για να Aπαντήσετε</value>
   </data>
   <data name="reply.open.user" xml:space="preserve">
     <value>Απαντήστε</value>
   </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} σε χρήση μπλοκ</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Προβολή Ανάρτησης Κριτικής</value>
+  </data>
   <data name="review.go_to_child" xml:space="preserve">
     <value>Προβολή Συζήτησης</value>
   </data>
   <data name="review.validation.block_too_large" xml:space="preserve">
     <value>κάθε block μπορεί να περιέχει μόνο έως {0} χαρακτήρες</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>ανασκόπηση περιέχει αναφορές σε ζητήματα που δεν ανήκουν σε αυτή την ανασκόπηση</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>μη έγκυρος τύπος μπλοκ</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>μη έγκυρη κριτική</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>μη έγκυρος τύπος συζήτησης</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>η κριτική πρέπει να περιέχει τουλάχιστον θέμα {0} : η κριτική πρέπει να περιέχει τουλάχιστον ζητήματα {0}</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>το μπλοκ λείπει κείμενο</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>οι κριτικές μπορεί να περιέχουν μόνο {0} παράγραφο/ζήτημα/σχόλια μπορεί να περιέχουν μόνο έως και {0} παραγράφους/ζητήματα</value>
   </data>
   <data name="system.resolved.true" xml:space="preserve">
     <value>Σημειώθηκε ως επιλυμένο από {0}</value>

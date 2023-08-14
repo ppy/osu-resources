@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid" xml:space="preserve">
+    <value>Άκυρο {0} καθορίστηκε.</value>
+  </data>
   <data name="not_negative" xml:space="preserve">
     <value>το {0} δε μπορεί να δοθεί.</value>
   </data>
@@ -66,6 +69,9 @@
   </data>
   <data name="too_long" xml:space="preserve">
     <value>το {0} υπερβαίνει το μέγιστο όριο χαρακτήρων - μπορεί να είναι μέχρι {1} χαρακτήρες.</value>
+  </data>
+  <data name="url" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε μια έγκυρη διεύθυνση URL.</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>Η βεβαίωση δεν ταιριάζει.</value>
@@ -87,6 +93,15 @@
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Η συζήτηση είναι κλειδωμένη.</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.message_type" xml:space="preserve">
+    <value>Τύπος μηνύματος</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
+    <value>Χρονοσήμανση</value>
+  </data>
+  <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
+    <value>Αυτό το beatmap είναι κλειδωμένο για συζήτηση και δεν μπορεί να εξαχθεί</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Πρέπει να είστε συνδεδεμένοι για να κάνετε hype.</value>
@@ -115,8 +130,20 @@
   <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
     <value>Το αρχικό post δε μπορεί να διαγραφεί.</value>
   </data>
+  <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
+    <value>Το μήνυμα</value>
+  </data>
   <data name="comment.deleted_parent" xml:space="preserve">
     <value>Δεν επιτρέπεται η απάντηση σε διαγραμμένο σχόλιο.</value>
+  </data>
+  <data name="comment.top_only" xml:space="preserve">
+    <value>Pinning η απάντηση σχολίου δεν επιτρέπεται.</value>
+  </data>
+  <data name="comment.attributes.message" xml:space="preserve">
+    <value>Το μήνυμα</value>
+  </data>
+  <data name="follow.invalid" xml:space="preserve">
+    <value>Άκυρο {0} καθορίστηκε.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
     <value>Μπορείτε να ψηφίσετε μόνο ένα αίτημα χαρακτηριστικών.</value>
@@ -133,8 +160,17 @@
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
     <value>Η επεξεργασία του post για τα μεταδεδομένα το beatmap δεν είναι επιτρεπτή.</value>
   </data>
+  <data name="forum.post.first_post_no_delete" xml:space="preserve">
+    <value>Αδυναμία διαγραφής εναρκτήριας δημοσίευσης</value>
+  </data>
+  <data name="forum.post.missing_topic" xml:space="preserve">
+    <value>Το άρθρο λείπει θέμα</value>
+  </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Η απάντησή σας περιέχει μόνο μία αναφορά.</value>
+  </data>
+  <data name="forum.post.attributes.post_text" xml:space="preserve">
+    <value>Ταχυδρομικός οργανισμός</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Τίτλος Θέματος</value>
@@ -160,17 +196,47 @@
   <data name="forum.topic_poll.too_many_options" xml:space="preserve">
     <value>Υπερβήκατε το μέγιστο αριθμό επιλογών που επιτρέπεται.</value>
   </data>
+  <data name="forum.topic_poll.attributes.title" xml:space="preserve">
+    <value>Τίτλος δημοσκόπησης</value>
+  </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
     <value>Επιλέξτε μία επιλογή όταν ψηφίζετε.</value>
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Επιλέχθηκαν περισσότερες επιλογές από το επιτρεπόμενο όριο.</value>
   </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>Προς το παρόν παρέχεται μόνο ένα κλειδί API ανά χρήστη.</value>
+  </data>
+  <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
+    <value>κλειδί api</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
+    <value>όνομα εφαρμογής</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
+    <value>url εφαρμογής</value>
+  </data>
+  <data name="oauth.client.too_many" xml:space="preserve">
+    <value>Υπέρβαση μέγιστου αριθμού επιτρεπόμενων εφαρμογών OAuth.</value>
+  </data>
+  <data name="oauth.client.url" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε έγκυρα URLs.</value>
+  </data>
+  <data name="oauth.client.attributes.name" xml:space="preserve">
+    <value>Όνομα Εφαρμογής</value>
+  </data>
+  <data name="oauth.client.attributes.redirect" xml:space="preserve">
+    <value>Url Επανάκλησης Εφαρμογής</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Ο κωδικός δεν πρέπει να περιέχει το όνομα χρήστη.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
     <value>Το email είναι ήδη σε χρήση.</value>
+  </data>
+  <data name="user.email_not_allowed" xml:space="preserve">
+    <value>Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν επιτρέπεται.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Η χώρα δεν υπάρχει στη βάση δεδομένων.</value>
@@ -180,6 +246,9 @@
   </data>
   <data name="user.invalid_email" xml:space="preserve">
     <value>Δε φαίνεται να είναι ένα έγκυρο email.</value>
+  </data>
+  <data name="user.invalid_twitter" xml:space="preserve">
+    <value>Twitter όνομα χρήστη μη έγκυρο.</value>
   </data>
   <data name="user.too_short" xml:space="preserve">
     <value>Ο καινούργιος κωδικός είναι πολύ μικρός.</value>
@@ -232,6 +301,15 @@
   <data name="user.too_long" xml:space="preserve">
     <value>Έχετε υπερβεί το μέγιστο όριο - μπορεί να είναι μέχρι {0} χαρακτήρες.</value>
   </data>
+  <data name="user.attributes.username" xml:space="preserve">
+    <value>Όνομα Χρήστη</value>
+  </data>
+  <data name="user.attributes.user_email" xml:space="preserve">
+    <value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+  </data>
+  <data name="user.attributes.password" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
   <data name="user.change_username.restricted" xml:space="preserve">
     <value>Δεν μπορείτε να αλλάξετε όνομα χρήστη ενώ είστε restricted.</value>
   </data>
@@ -244,7 +322,22 @@
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Αυτό είναι ήδη το όνομα χρήστη σου, χαζούλη!</value>
   </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Δεν μπορούν να αναφερθούν βαθμολογικοί beatmaps</value>
+  </data>
+  <data name="user_report.not_in_channel" xml:space="preserve">
+    <value>Δεν βρίσκεστε σε αυτό το κανάλι.</value>
+  </data>
+  <data name="user_report.reason_not_valid" xml:space="preserve">
+    <value>Το{0} δεν είναι έγκυρο για αυτόν τον τύπο αναφοράς.</value>
+  </data>
   <data name="user_report.self" xml:space="preserve">
     <value>Δεν μπορείτε να αποκλέισετε τον εαυτό σας!</value>
+  </data>
+  <data name="store.order_item.attributes.quantity" xml:space="preserve">
+    <value>Ποσότητα</value>
+  </data>
+  <data name="store.order_item.attributes.cost" xml:space="preserve">
+    <value>Κόστος</value>
   </data>
 </root>

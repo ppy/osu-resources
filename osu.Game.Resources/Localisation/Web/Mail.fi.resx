@@ -97,6 +97,12 @@
   <data name="donation_thanks.translation" xml:space="preserve">
     <value>Seuraava on yhteisön tuottama käännös tiedostusta varten:</value>
   </data>
+  <data name="donation_thanks.benefit.gift" xml:space="preserve">
+    <value>Lahjasi saaneilla on nyt pääsy osu!direct{0} ja moniin muihin tukija-etuihin.</value>
+  </data>
+  <data name="donation_thanks.benefit.self" xml:space="preserve">
+    <value>Saat nyt pääsyn osu!direct{0} ja moniin muihin tukija-etuihin {1} ajalle. </value>
+  </data>
   <data name="donation_thanks.support._" xml:space="preserve">
     <value>Kiitos paljon {0} osu!'lle.</value>
   </data>
@@ -145,8 +151,14 @@
   <data name="store_payment_completed.total" xml:space="preserve">
     <value>Yhteensä</value>
   </data>
+  <data name="supporter_gift.anonymous_gift" xml:space="preserve">
+    <value>Henkilö, joka lahjoitti sinulle tämän tägin, voi halutessaan pysyä anonyyminä, joten heitä ei ole maininttu tässä ilmoituksessa.</value>
+  </data>
   <data name="supporter_gift.anonymous_gift_maybe_not" xml:space="preserve">
     <value>Mutta taidat jo tietää kuka se mahtaa olla ;).</value>
+  </data>
+  <data name="supporter_gift.features" xml:space="preserve">
+    <value>Voit saada lisätietoja näistä ominaisuuksista täältä:</value>
   </data>
   <data name="supporter_gift.gifted" xml:space="preserve">
     <value>Joku on juuri antanut sinulle osu! -tukijan!</value>
@@ -196,11 +208,17 @@
   <data name="user_verification.code_hint" xml:space="preserve">
     <value>Voit syöttää koodin välilyönneillä tai ilman niitä.</value>
   </data>
+  <data name="user_verification.link" xml:space="preserve">
+    <value>Vaihtoehtoisesti, voit myös suorittaa vahvistuksen loppuun alla olevasta linkistä:</value>
+  </data>
   <data name="user_verification.report" xml:space="preserve">
     <value>Jos et ole pyytänyt tätä, ole hyvä ja VASTAA HETI, koska tilisi voi olla vaarassa.</value>
   </data>
   <data name="user_verification.subject" xml:space="preserve">
     <value>osu! tilin vahvistaminen</value>
+  </data>
+  <data name="user_verification.action_from._" xml:space="preserve">
+    <value>Tililläsi suoritettu toiminto maasta {0} vaatii vahvistuksen.</value>
   </data>
   <data name="user_verification.action_from.unknown_country" xml:space="preserve">
     <value>tuntemattomasta maasta</value>

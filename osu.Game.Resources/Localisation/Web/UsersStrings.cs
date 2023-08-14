@@ -975,9 +975,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraAccountStandingRecentInfringementsLength => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.length"), @"length");
 
         /// <summary>
-        /// "Permanent"
+        /// "Indefinite"
         /// </summary>
-        public static LocalisableString ShowExtraAccountStandingRecentInfringementsLengthPermanent => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.length_permanent"), @"Permanent");
+        public static LocalisableString ShowExtraAccountStandingRecentInfringementsLengthIndefinite => new TranslatableString(getKey(@"show.extra.account_standing.recent_infringements.length_indefinite"), @"Indefinite");
 
         /// <summary>
         /// "description"
