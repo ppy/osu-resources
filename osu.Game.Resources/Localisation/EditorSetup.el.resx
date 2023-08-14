@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Ρύθμιση Beatmap</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>άλλαξε τις γενικές ρυθμίσεις του beatmap σου</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Χρώματα</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Κύκλος χτυπήματος / Slider Combos</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Σχεδίαση</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Ενεργοποίηση αντίστροφης μέτρησης</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Εάν ενεργοποιηθεί, μια καταμέτρηση "Είστε έτοιμοι; 3, 2, 1, ΠΑΜΕ!¨ θα εισαχθεί στην αρχή του beatmap, με την προϋπόθεση ότι υπάρχει αρκετός χρόνος γι' αυτό.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Ταχύτητα αντίστροφης μέτρησης</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Εάν η αντίστροφη μέτρηση ακούγεται εκτός χρόνου, χρησιμοποιήστε το για να εμφανιστεί ένα ή περισσότερα χτυπήματα νωρίς.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Μετατόπιση αντίστροφης μέτρησης</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Υποστήριξη ευρείας οθόνης</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Επιτρέπει στους πίνακες ιστοριών να χρησιμοποιούν το διάστημα πλήρους οθόνης, αντί να περιορίζονται σε μια περιοχή 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Προειδοποίηση για επιληψία</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Συνίσταται αν το storyboard ή το βίντεο περιλαμβάνει σκηνές με χρώματα που αλλάζουν γρήγορα.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Letterbox κατά τα διαλείμματα</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Προσθέτει οριζόντια letterboxing για να δώσει μια κινηματογραφική εμφάνιση κατά τη διάρκεια των διαλειμμάτων.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Δείγματα ταιριάζουν με ρυθμό αναπαραγωγής</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Όταν ενεργοποιηθεί, όλα τα δείγματα επιταχύνουν ή επιβραδύνουν όταν είναι ενεργοποιημένα τα mods αλλαγής ρυθμού.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Το μέγεθος όλων των αντικειμένων χτυπήματος</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Ο ρυθμός παθητικής αποστράγγισης υγείας καθ 'όλη τη διάρκεια του παιχνιδιού</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Η ταχύτητα με την οποία παρουσιάζονται τα αντικείμενα στον παίκτη</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Η σκληρότητα των παραθύρων χτύπημα και δυσκολία των ειδικών αντικειμένων (δηλ. spinners)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Ρυθμός Τικ</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Καθορίζει πόσα "ticks" δημιουργούνται μέσα σε αντικείμενα μεγάλου χάσματος. Ένα ποσοστό Τικ 1 θα δημιουργήσει Τικ σε κάθε ρυθμό, 2 θα είναι δύο φορές ανά παλμό, κλπ.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Βασική Ταχύτητα</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Η ταχύτητα βάσης του beatmap, επηρεάζει πράγματα όπως η ταχύτητα του slider και η ταχύτητα κύλισης σε ορισμένα rulesets.</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Μεταδεδομένα</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Καλλιτέχνης (σε λατινικούς χαρακτήρες)</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Τίτλος (σε λατινικούς χαρακτήρες)</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Δημιουργός</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Όνομα Δυσκολίας</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Πόροι</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Κομμάτι Ήχου</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Κάνε κλικ για να επιλέξεις ένα κομμάτι</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Κάνε κλικ για να αντικαταστήσεις το κομμάτι</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Κάνε κλικ για να επιλέξεις μια εικόνα φόντου</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Κάνε κλικ για να αντικαταστήσεις την εικόνα φόντου</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Ruleset ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Καλλιτέχνης</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Δυσκολία</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Σύρετε την εικόνα εδώ για να ορίσετε φόντο beatmap!</value>
+  </data>
+</root>

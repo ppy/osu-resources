@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="user_interface_section_header" xml:space="preserve">
+    <value>Διεπαφή Χρήστη</value>
+  </data>
+  <data name="general_header" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="cursor_rotation" xml:space="preserve">
+    <value>Περιστροφή κέρσορα κατά το σύρσιμο</value>
+  </data>
+  <data name="menu_cursor_size" xml:space="preserve">
+    <value>Μέγεθος κέρσορα στο μενού</value>
+  </data>
+  <data name="parallax" xml:space="preserve">
+    <value>Παράλλαξη</value>
+  </data>
+  <data name="hold_to_confirm_activation_time" xml:space="preserve">
+    <value>Χρόνος ενεργοποίησης κρατήματος για επιβεβαίωση</value>
+  </data>
+  <data name="main_menu_header" xml:space="preserve">
+    <value>Κύριο Μενού</value>
+  </data>
+  <data name="interface_voices" xml:space="preserve">
+    <value>Φωνές διεπαφής</value>
+  </data>
+  <data name="osu_music_theme" xml:space="preserve">
+    <value>Μουσικό θέμα του osu!</value>
+  </data>
+  <data name="intro_sequence" xml:space="preserve">
+    <value>Ακολουθία εισαγωγής</value>
+  </data>
+  <data name="background_source" xml:space="preserve">
+    <value>Πηγή φόντου</value>
+  </data>
+  <data name="seasonal_backgrounds" xml:space="preserve">
+    <value>Εποχιακά φόντα</value>
+  </data>
+  <data name="not_supporter_note" xml:space="preserve">
+    <value>Οι αλλαγές σε αυτήν τη ρύθμιση θα ισχύουν μόνο με ένα ενεργό osu!supporter tag.</value>
+  </data>
+  <data name="song_select_header" xml:space="preserve">
+    <value>Επιλογή Τραγουδιού</value>
+  </data>
+  <data name="right_mouse_scroll" xml:space="preserve">
+    <value>Σύρσιμο με δεξί κλικ για απόλυτη κύλιση</value>
+  </data>
+  <data name="show_converted_beatmaps" xml:space="preserve">
+    <value>Εμφάνισε beatmaps που έχουν μετατραπεί</value>
+  </data>
+  <data name="stars_minimum" xml:space="preserve">
+    <value>Εμφάνισε beatmaps από</value>
+  </data>
+  <data name="stars_maximum" xml:space="preserve">
+    <value>μέχρι</value>
+  </data>
+  <data name="random_selection_algorithm" xml:space="preserve">
+    <value>Αλγόριθμος τυχαίας επιλογής</value>
+  </data>
+  <data name="mod_select_hotkey_style" xml:space="preserve">
+    <value>Επιλέξτε πλήκτρο συντόμευσης mod</value>
+  </data>
+  <data name="no_limit" xml:space="preserve">
+    <value>χωρίς όριο</value>
+  </data>
+  <data name="beatmap_with_storyboard" xml:space="preserve">
+    <value>Beatmap (με storyboard / βίντεο)</value>
+  </data>
+  <data name="always_seasonal_backgrounds" xml:space="preserve">
+    <value>Πάντα</value>
+  </data>
+  <data name="never_seasonal_backgrounds" xml:space="preserve">
+    <value>Ποτέ</value>
+  </data>
+  <data name="sometimes_seasonal_backgrounds" xml:space="preserve">
+    <value>Μερικές φορές</value>
+  </data>
+  <data name="mods_sequential_hotkeys" xml:space="preserve">
+    <value>Διαδοχικό</value>
+  </data>
+  <data name="mods_classic_hotkeys" xml:space="preserve">
+    <value>Κλασικό</value>
+  </data>
+  <data name="never_repeat_random" xml:space="preserve">
+    <value>Να μην επαναλαμβάνονται</value>
+  </data>
+  <data name="true_random" xml:space="preserve">
+    <value>Πραγματικά Τυχαίος</value>
+  </data>
+</root>

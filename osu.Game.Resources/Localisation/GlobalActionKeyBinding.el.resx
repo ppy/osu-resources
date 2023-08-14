@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Εναλλαγή επικάλυψης συνομιλίας</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Εναλλαγή κοινωνικής επικάλυψης</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Επαναφορά ρυθμίσεων εισόδου</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Εναλλαγή γραμμής εργαλείων</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Εναλλαγή ρυθμίσεων</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Άνοιγμα του beatmap listing</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Αύξηση έντασης</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Μείωση έντασης</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Άνοιγμα σίγασης</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Παράλειψη σκηνής κοπής</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Γρήγορη επανάληψη (κρατήθηκε)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Λήψη στιγμιότυπου οθόνης</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Εναλλαγή πλήκτρων ποντικιού παιχνιδιού</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Αύξηση ταχύτητας κύλισης</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Μείωση ταχύτητας κύλισης</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Επιλογή</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Γρήγορη έξοδος (κρατήθηκε)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Επόμενο κομμάτι</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Προηγούμενο κομμάτι</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Αναπαραγωγή / παύση</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Εναλλαγή εμφάνισης τώρα</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Προηγούμενη επιλογή</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Επόμενη επιλογή</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Επιλογή προηγούμενης ομάδας</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Επιλογή επόμενης ομάδας</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Αρχική</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Άνοιγμα ειδοποιήσεων</value>
+  </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>Άνοιγμα προφίλ</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Παύση / συνέχιση παιχνιδιού</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Λειτουργία εγκατάστασης</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Λειτουργία σύνθεσης</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Λειτουργία σχεδιασμού</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Λειτουργία χρονισμού</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Πατήστε για BPM</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>Κλωνοποίηση επιλογής</value>
+  </data>
+  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+    <value>Κύκλος λειτουργίας οθόνης πλέγματος</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>Δοκιμή παιχνιδιού</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Κρατήστε για HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Τυχαίο skin</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Παύση / συνέχιση επανάληψης</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Εναλλαγή διεπαφής εντός του παιχνιδιού</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Άνοιγμα επιλογής mod</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Αποεπιλογή όλων των mods</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Τυχαία</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Rewind</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Επιλογές Beatmap</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Λειτουργία επαλήθευσης</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Επιλογή ψευδής αριστερά</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Φωτεινή επιλογή δεξιά</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>Αναστροφή επιλογής οριζόντια</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>Αναστροφή επιλογής κατακόρυφα</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Αύξηση απόστασης απόστασης</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Μείωση απόστασης spacing</value>
+  </data>
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Κύκλος προηγούμενο χτύπημα divisor</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Κύκλος επόμενο χτύπημα divisor</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Άνοιγμα επεξεργαστή skin</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>Άνοιγμα μετρητή FPS</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Προηγούμενος μετρητής έντασης</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Μετρητής επόμενης έντασης</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Αναζήτηση επανάληψης προς τα εμπρός</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Αναζήτηση επανάληψης πίσω</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Εναλλαγή εστίασης συνομιλίας</value>
+  </data>
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>Εναλλαγή ρυθμίσεων επανάληψης</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Αποθήκευση επανάληψης</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Εξαγωγή επανάληψης</value>
+  </data>
+</root>

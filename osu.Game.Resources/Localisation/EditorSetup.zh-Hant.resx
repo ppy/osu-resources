@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>圖譜設定</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>變更你的圖譜的整體設定</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>顔色</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>點擊圈圈 / 滑條連擊數</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>設計</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>開啟開頭前倒數動畫</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>開啟後，如果有足夠時間的話，圖譜開始前會出現「Are you ready? 3, 2, 1, GO!」的倒數畫面。</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>倒數速度</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>如果倒數聲音聽起來有些對不上，請調整該設定讓倒數畫面提前一拍或是更多拍出來</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>倒數畫面時間偏移</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>寬畫寬螢幕支援</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>允許Storyboard佔滿全螢幕，而不是侷限在4:3比例的畫面中。</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>癲癇警告</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>如果Storyboard或是影片含有快速變換色彩的場景，建議將此設定開啟。</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>休息時顯示黑邊</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>休息時間時，在螢幕上下兩側添加電影風格的黑邊。</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>打擊音效符合播放速度</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>如果開啟，當使用了會影響歌曲速度的Mod，所有的打擊音效將會變快或變慢。</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>所有打擊物件的大小</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>遊戲時的掉血速度</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>物件出現的速度</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>判定嚴格度和特殊物件難度 (如，轉盤)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>滑條點倍率</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>確定在長條物件中"滑條點"的數量。1 倍時，每一拍生成 1 個點，2 倍時則為 2 個點，依此類推。</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>基本滑條速度</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>圖譜的基本滑條速度，影響一些遊戲模式中滑條的速度和滑動的速度。</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>描述資料</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>演奏者的羅馬拼音</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>標題的羅馬拼音</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>作圖者</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>難度名稱</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>音樂曲目</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>按一下以選擇歌曲</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>按一下以取代歌曲</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>按一下以選擇背景圖片</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>按一下以替換背景圖片</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>模式({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>連擊數</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>演出者</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>難度</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>將圖片拖曳至這裡即可將其設為圖譜背景!</value>
+  </data>
+</root>
