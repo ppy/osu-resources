@@ -70,6 +70,9 @@
   <data name="title" xml:space="preserve">
     <value>osu! φόρουμ</value>
   </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Επεξεργασία εξωφύλλου</value>
+  </data>
   <data name="covers.create._" xml:space="preserve">
     <value>Επιλογή εικόνας εξωφύλλου</value>
   </data>
@@ -84,6 +87,15 @@
   </data>
   <data name="covers.destroy.confirm" xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να αφαιρέσετε την εικόνα εξωφύλλου;</value>
+  </data>
+  <data name="forums.forums" xml:space="preserve">
+    <value>Φόρουμ</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Τελευταία Δημοσίευση</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Ευρετήριο Φόρουμ</value>
   </data>
   <data name="forums.topics.empty" xml:space="preserve">
     <value>Δεν υπάρχουν θέματα!</value>
@@ -109,14 +121,23 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>δημοσιεύτηκε {0}</value>
   </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>δημοσιεύτηκε από {0} στο {1}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Διαγραφή δημοσίευσης</value>
   </data>
   <data name="post.actions.edit" xml:space="preserve">
     <value>Επεξεργασία δημοσίευσης</value>
   </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Αναφορά δημοσίευσης</value>
+  </data>
   <data name="post.actions.restore" xml:space="preserve">
     <value>Επαναφορά δημοσίευσης</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Νέα απάντηση</value>
   </data>
   <data name="post.info.post_count" xml:space="preserve">
     <value>{0} δημοσίευση|{0} δημοσιεύσεις</value>
@@ -133,11 +154,23 @@
   <data name="search.total_posts" xml:space="preserve">
     <value>{0} δημοσιεύσεις συνολικά</value>
   </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Πραγματικά διαγραφή θέματος;</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Πραγματικά επαναφορά θέματος;</value>
+  </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>διαγραμμένο θέμα</value>
   </data>
   <data name="topic.go_to_latest" xml:space="preserve">
     <value>δείτε την πιο πρόσφατη δημοσίευση</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Έχετε απαντήσει σε αυτό το θέμα</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>στο {0}</value>
   </data>
   <data name="topic.latest_post" xml:space="preserve">
     <value>{0} από τον {1}</value>
@@ -165,6 +198,15 @@
   </data>
   <data name="topic.started_by_verbose" xml:space="preserve">
     <value>ξεκίνησε από {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Διαγραφή θέματος</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Επαναφορά θέματος</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Κλείσιμο</value>
   </data>
   <data name="topic.create.preview" xml:space="preserve">
     <value>Προεπισκόπηση</value>
@@ -204,6 +246,114 @@
   </data>
   <data name="topic.jump.previous" xml:space="preserve">
     <value>μετάβαση σε 10 δημοσιεύσεις πίσω</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Αρχεία καταγραφής θεμάτων</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Περιήγηση στα αρχεία καταγραφής θεμάτων</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Ενέργεια</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Χρήστης</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>προστέθηκε ετικέτα "{0}"</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>καρφιτσωμένο θέμα και σημειωμένο ως ανακοίνωση</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>στο {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>από {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>καρφιτσωμένο θέμα</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>δημοσιεύτηκε από {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>αφαιρέθηκε ετικέτα "{0}"</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>από {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>μη καρφιτσωμένο θέμα</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>δεν βρέθηκαν αρχεία καταγραφής...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Διαγραμμένη δημοσίευση</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Διαγραμμένο θέμα</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Αλλαγή τίτλου θέματος</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Επεξεργασία δημοσκόπησης θέματος</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Αντιγραφή θέματος</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Ετικέτα έκδοσης</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Κλειδωμένο θέμα</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Συγχωνευμένες δημοσιεύσεις σε αυτό το θέμα</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Μετακινήθηκε θέμα</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Καρφιτσωμένο θέμα</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Επεξεργασία δημοσίευσης</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Επαναφορά δημοσίευσης</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Θέμα επαναφοράς</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Μετακινήθηκε διαχωρισμός άρθρων</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Διαχωρισμός δημοσιεύσεων</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Ορισμός τύπου θέματος</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Αλλαγμένος τύπος θέματος</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Ξεκλείδωτο θέμα</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Ξεκαρφιτσωμένο θέμα</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Κλειδωμένο δικό θέμα</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Ξεκλείδωτο δικό του θέμα</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Ακύρωση</value>
@@ -385,11 +535,17 @@
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>Ξεκλειδώστε το θέμα</value>
   </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Ξεκλείδωμα θέματος;</value>
+  </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Το θέμα ξεκλειδώθηκε</value>
   </data>
   <data name="topics.lock.to_1" xml:space="preserve">
     <value>Κλειδώστε το θέμα</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Κλείδωμα θέματος;</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
     <value>Το θέμα κλειδώθηκε</value>
@@ -400,11 +556,17 @@
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
     <value>Ξεκαρφίτσωμα θέματος</value>
   </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Ξεκαρφιτσώστε το θέμα;</value>
+  </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Το θέμα ξεκαρφιτσώθηκε</value>
   </data>
   <data name="topics.moderate_pin.to_1" xml:space="preserve">
     <value>Καρφίτσωμα θέματος</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Καρφίτσωμα θέματος;</value>
   </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
     <value>Το θέμα καρφιτσώθηκε</value>
@@ -412,8 +574,17 @@
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
     <value>Καρφίτσωμα θέματος και σήμανση ως ανακοίνωση</value>
   </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Καρφίτσωμα θέματος και σήμα ως ανακοίνωση;</value>
+  </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Το θέμα καρφιτσώθηκε και σημάνθηκε ως ανακοίνωση</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Εμφάνιση διαγραμμένων άρθρων</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Απόκρυψη διαγραμμένων άρθρων</value>
   </data>
   <data name="topics.show.deleted-posts" xml:space="preserve">
     <value>Διαγραμμένες Δημοσιεύσεις</value>
@@ -445,8 +616,26 @@
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>Δε σας απομένουν ψήφοι</value>
   </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Επεξεργασία Δημοσκόπησης</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Η επεξεργασία μιας δημοσκόπησης θα καταργήσει τα τρέχοντα αποτελέσματα!</value>
+  </data>
   <data name="topics.show.poll.vote" xml:space="preserve">
     <value>Ψηφίστε</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Αλλαγή ψήφου</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Επεξεργασία δημοσκόπησης</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Μετάβαση στα αποτελέσματα</value>
+  </data>
+  <data name="topics.show.poll.button.vote" xml:space="preserve">
+    <value>Ψηφοφορίες</value>
   </data>
   <data name="topics.show.poll.detail.end_time" xml:space="preserve">
     <value>Η ψηφοφορία θα λήξει στις {0}</value>

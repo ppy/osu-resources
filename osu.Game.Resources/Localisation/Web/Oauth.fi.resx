@@ -70,6 +70,9 @@
   <data name="authorise.title" xml:space="preserve">
     <value>Yhdistyspyyntö</value>
   </data>
+  <data name="authorized_clients.confirm_revoke" xml:space="preserve">
+    <value>Oletko varma, että haluat peruuttaa tämän käyttäjän valtuudet?</value>
+  </data>
   <data name="authorized_clients.scopes_title" xml:space="preserve">
     <value>Tämä sovellus voi:</value>
   </data>
@@ -79,11 +82,29 @@
   <data name="authorized_clients.revoked.false" xml:space="preserve">
     <value>Kumoa käyttöoikeudet</value>
   </data>
+  <data name="authorized_clients.revoked.true" xml:space="preserve">
+    <value>Pääsy Peruutettu</value>
+  </data>
+  <data name="client.name" xml:space="preserve">
+    <value>Sovelluksen Nimi</value>
+  </data>
+  <data name="client.redirect" xml:space="preserve">
+    <value>Sovelluksen Takaisinsoitto URL{0}</value>
+  </data>
   <data name="new_client.header" xml:space="preserve">
     <value>Rekisteröi uusi OAuth-sovellus</value>
   </data>
+  <data name="new_client.register" xml:space="preserve">
+    <value>Rekisteröi uusi sovellus</value>
+  </data>
+  <data name="new_client.terms_of_use._" xml:space="preserve">
+    <value>Käyttämällä rajapintaa hyväksyt {0}.</value>
+  </data>
   <data name="new_client.terms_of_use.link" xml:space="preserve">
     <value>Käyttöehdot</value>
+  </data>
+  <data name="own_clients.new" xml:space="preserve">
+    <value>Uusi OAuth-Sovellus</value>
   </data>
   <data name="own_clients.revoked.false" xml:space="preserve">
     <value>Poista</value>

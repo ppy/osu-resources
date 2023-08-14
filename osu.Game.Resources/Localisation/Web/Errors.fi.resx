@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="load_failed" xml:space="preserve">
+    <value>Tietojen lataus epäonnistui.</value>
+  </data>
   <data name="missing_route" xml:space="preserve">
     <value>Virheellinen URL-osoite tai virheellinen pyyntötapa.</value>
   </data>
@@ -96,6 +99,9 @@
   </data>
   <data name="search.default" xml:space="preserve">
     <value>Tuloksia ei saatu, yritä myöhemmin uudelleen.</value>
+  </data>
+  <data name="search.invalid_cursor_exception" xml:space="preserve">
+    <value>Virheellinen kohdistimen parametri määritetty.</value>
   </data>
   <data name="search.operation_timeout_exception" xml:space="preserve">
     <value>Haku on tavallista aktiivisempi. Yritä uudelleen myöhemmin.</value>

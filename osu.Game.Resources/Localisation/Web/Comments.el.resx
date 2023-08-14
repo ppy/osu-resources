@@ -61,14 +61,32 @@
   <data name="deleted" xml:space="preserve">
     <value>διαγράφηκε</value>
   </data>
+  <data name="deleted_by" xml:space="preserve">
+    <value>διαγράφηκε {0} από {1}</value>
+  </data>
+  <data name="deleted_by_system" xml:space="preserve">
+    <value>σύστημα</value>
+  </data>
   <data name="deleted_count" xml:space="preserve">
     <value>{0} διαγραμμένο σχόλιο|{0} διαγραμμένα σχόλια</value>
   </data>
   <data name="edited" xml:space="preserve">
     <value>επεξεργάστηκε {0} απο {1}</value>
   </data>
+  <data name="pinned" xml:space="preserve">
+    <value>καρφιτσωμένο</value>
+  </data>
   <data name="empty" xml:space="preserve">
     <value>Κανένα σχόλιο ακόμη.</value>
+  </data>
+  <data name="empty_other" xml:space="preserve">
+    <value>Κανένα άλλο σχόλιο ακόμα.</value>
+  </data>
+  <data name="load_replies" xml:space="preserve">
+    <value>φόρτωση απαντήσεων</value>
+  </data>
+  <data name="replies_count" xml:space="preserve">
+    <value>{0} απαντούν οι απαντήσεις{0}</value>
   </data>
   <data name="title" xml:space="preserve">
     <value>Σχόλια</value>
@@ -103,6 +121,15 @@
   <data name="guest_button.reply" xml:space="preserve">
     <value>Συνδεθείτε για να απαντήσετε</value>
   </data>
+  <data name="index.nav_comments" xml:space="preserve">
+    <value>σχόλια</value>
+  </data>
+  <data name="index.nav_title" xml:space="preserve">
+    <value>καταχώρηση</value>
+  </data>
+  <data name="index.no_comments" xml:space="preserve">
+    <value>δεν βρέθηκαν σχόλια...</value>
+  </data>
   <data name="placeholder.edit" xml:space="preserve">
     <value>Επεξεργαστείτε το σχόλιο εδώ</value>
   </data>
@@ -111,5 +138,8 @@
   </data>
   <data name="placeholder.reply" xml:space="preserve">
     <value>Πληκτρολόγηση απάντησης εδώ</value>
+  </data>
+  <data name="show.nav_title" xml:space="preserve">
+    <value>σχόλια</value>
   </data>
 </root>

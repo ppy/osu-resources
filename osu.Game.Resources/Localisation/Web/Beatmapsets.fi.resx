@@ -83,7 +83,7 @@
     <value>Beatmapit</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
-    <value>Beatmapit</value>
+    <value>Rytmikartat</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
     <value>ei rytmikarttoja</value>
@@ -101,7 +101,7 @@
     <value>avaa osu!directissä</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Usean pelimuodon rytmikartta edellyttää, että valitset vähintään yhden pelimuodon, jota panet ehdolle.</value>
+    <value>Usean pelimuodon rytmikartta edellyttää, että valitset ainakin yhden pelimuodon, jonka panet ehdolle.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Sinulla ei ole käyttöoikeutta panna ehdolle pelimuotoa: {0}</value>
@@ -136,8 +136,14 @@
   <data name="show.deleted_banner.message" xml:space="preserve">
     <value>(tämä näkyy vain moderaattoreille)</value>
   </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>esittäjältä {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Lisää tämä beatmap-setti suosikkeihin</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>kirjaudu sisään, niin voit lisätä tämän rytmikartan suosikkeihin</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Sinun täytyy kirjautua sisään ladataksesi beatmappeja!</value>
@@ -169,6 +175,24 @@
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Kirjaudu sisään</value>
   </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>hyväksytty {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>rakastettu {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>kelpuutettu {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>tehty pisteyttäväksi {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>lähetetty {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>päivitetty viimeksi {0}</value>
+  </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
     <value>Sinulla on liian monta lempikappaletta! Poista joitain suosikeistasi ennen uudelleenyrittämistä.</value>
   </data>
@@ -186,6 +210,9 @@
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>keskeneräinen</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Jos löydät ongelman, joka liittyy tähän rytmikarttaan, ole hyvä ja epäkelpuuta se {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Jos löydät jonkun ongelman tämän beatmapin kanssa, olmoita siitä {0} hälyttääksesi tiimiä.</value>
@@ -208,17 +235,44 @@
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Dataa lasketaan...</value>
   </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Ehdollepanijat</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Sopimaton sisältö</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Online tasoitus</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Epäonnistumiskohdat</value>
   </data>
   <data name="show.info.source" xml:space="preserve">
     <value>Lähde</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Tämä rytmikartta sisältää taustaesityksen</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Läpäisyprosentti</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
     <value>Tunnisteet</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Tämä rytmikartta sisältää videon</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Tämä rytmikartta sisältää sopimatonta, loukkaavaa ta järkyttävää sisältöä. Haluatko kuitenkin tarkastella sitä?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Sopimatonta sisältöä</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Poista varoitus käytöstä</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Rytmikarttalista</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Näytä</value>
@@ -228,6 +282,9 @@
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Maakohtaiset sijoitukset</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Sijoituksen lataaminen epäonnistui</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Kavereiden sijoitukset</value>
@@ -255,6 +312,9 @@
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Modit</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Kiinnitä</value>
   </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Pelaaja</value>
@@ -292,6 +352,12 @@
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Sinun parhaasi</value>
   </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Napsauta {0}, niin näet kaikki hienot ominaisuudet, jotka saat!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>täällä</value>
+  </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Ympyräkoko</value>
   </data>
@@ -322,6 +388,9 @@
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>Slidereiden määrä</value>
   </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Online tasoitus {0}</value>
+  </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Käyttäjien arvio</value>
   </data>
@@ -334,13 +403,28 @@
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Pelikertojen määrä</value>
   </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Pisteyttävä</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Hyväksytty</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Rakastettu</value>
+  </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Esihyväksytty</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>Työn alla</value>
   </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>Vireillä</value>
+  </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Hautausmaa</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Kohdevalo</value>
   </data>
 </root>

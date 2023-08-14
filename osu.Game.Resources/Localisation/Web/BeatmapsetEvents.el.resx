@@ -61,6 +61,9 @@
   <data name="event.approve" xml:space="preserve">
     <value>Approved.</value>
   </data>
+  <data name="event.beatmap_owner_change" xml:space="preserve">
+    <value>Ο ιδιοκτήτης δυσκολίας {0} άλλαξε σε {1}.</value>
+  </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Ένας συντονιστής διέγραψε τη συζήτηση {0}.</value>
   </data>
@@ -118,14 +121,38 @@
   <data name="event.nominate" xml:space="preserve">
     <value>Nominated από {0}.</value>
   </data>
+  <data name="event.nominate_modes" xml:space="preserve">
+    <value>Υποψήφια από {0} ({1}).</value>
+  </data>
   <data name="event.nomination_reset" xml:space="preserve">
     <value>Ένα νέο πρόβλημα {0} ({1}) ξεκίνησε μια επαναφορά της διαδικασίας υποψηφιότητας.</value>
+  </data>
+  <data name="event.nomination_reset_received" xml:space="preserve">
+    <value>Διορισμός από {0} επαναφέρθηκε από {1} ({2})</value>
+  </data>
+  <data name="event.nomination_reset_received_profile" xml:space="preserve">
+    <value>Η υποψηφιότητα επαναφέρθηκε από {0} ({1})</value>
+  </data>
+  <data name="event.offset_edit" xml:space="preserve">
+    <value>Η Online μετατόπιση άλλαξε από {0} σε {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
     <value>Αυτό το beatmap έχει φτάσει των απαραίτητο αριθμό nominations και είναι πλέον qualified.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Ranked.</value>
+  </data>
+  <data name="event.remove_from_loved" xml:space="preserve">
+    <value>Αφαιρέθηκε από Loved by {0}. ({1})</value>
+  </data>
+  <data name="event.tags_edit" xml:space="preserve">
+    <value>Οι ετικέτες άλλαξαν από "{0}" σε "{1}".</value>
+  </data>
+  <data name="event.nsfw_toggle.to_0" xml:space="preserve">
+    <value>Η explict επισήμανση αφαιρέθηκε</value>
+  </data>
+  <data name="event.nsfw_toggle.to_1" xml:space="preserve">
+    <value>Σήμανση ως explict</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Γεγονότα Beatmapset</value>
@@ -148,6 +175,9 @@
   <data name="type.approve" xml:space="preserve">
     <value>Έγκριση</value>
   </data>
+  <data name="type.beatmap_owner_change" xml:space="preserve">
+    <value>Αλλαγή ιδιοκτήτη δυσκολίας</value>
+  </data>
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Διαγραφή συζήτησης</value>
   </data>
@@ -162,6 +192,9 @@
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Αποκλεισμός</value>
+  </data>
+  <data name="type.genre_edit" xml:space="preserve">
+    <value>Επεξεργασία είδους</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
     <value>Επανάνοιγμα συζήτησης</value>
@@ -184,6 +217,9 @@
   <data name="type.kudosu_recalculate" xml:space="preserve">
     <value>Επαναϋπολογισμός Kudosu</value>
   </data>
+  <data name="type.language_edit" xml:space="preserve">
+    <value>Επεξεργασία γλώσσας</value>
+  </data>
   <data name="type.love" xml:space="preserve">
     <value>Αγαπημένο</value>
   </data>
@@ -193,10 +229,22 @@
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Επαναφορά διορισμού</value>
   </data>
+  <data name="type.nomination_reset_received" xml:space="preserve">
+    <value>Ελήφθησαν επαναφορά διορισμού</value>
+  </data>
+  <data name="type.nsfw_toggle" xml:space="preserve">
+    <value>Explict σήμα</value>
+  </data>
+  <data name="type.offset_edit" xml:space="preserve">
+    <value>Επεξεργασία μετατόπισης</value>
+  </data>
   <data name="type.qualify" xml:space="preserve">
     <value>Προσόντα</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Κατάταξη</value>
+  </data>
+  <data name="type.remove_from_loved" xml:space="preserve">
+    <value>Αφαίρεση αγάπης</value>
   </data>
 </root>

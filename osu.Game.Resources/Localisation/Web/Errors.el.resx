@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="load_failed" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης δεδομένων.</value>
+  </data>
+  <data name="missing_route" xml:space="preserve">
+    <value>Μη έγκυρη διεύθυνση url ή εσφαλμένη μέθοδος αιτήματος.</value>
+  </data>
   <data name="no_restricted_access" xml:space="preserve">
     <value>Δεν μπορείτε να εκτελέσετε αυτήν την ενέργεια ενώ ο λογαριασμός σας είναι σε περιορισμένη κατάσταση (restricted).</value>
   </data>
@@ -90,5 +96,14 @@
   </data>
   <data name="checkout.generic" xml:space="preserve">
     <value>Παρουσιάστηκε κάποιο σφάλμα στην προετοιμασία της αγοράς σας.</value>
+  </data>
+  <data name="search.default" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η λήψη αποτελεσμάτων, προσπαθήστε ξανά αργότερα.</value>
+  </data>
+  <data name="search.invalid_cursor_exception" xml:space="preserve">
+    <value>Καθορίστηκε μη έγκυρη παράμετρος δρομέα.</value>
+  </data>
+  <data name="search.operation_timeout_exception" xml:space="preserve">
+    <value>Η αναζήτηση αυτή τη στιγμή είναι πιο έντονη από το συνηθισμένο, δοκιμάστε ξανά αργότερα.</value>
   </data>
 </root>

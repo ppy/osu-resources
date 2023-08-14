@@ -97,6 +97,9 @@
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>piilota</value>
   </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Tämä viesti on piilotettu.</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Tämä käyttäjä ei ole estetty.</value>
   </data>
@@ -343,6 +346,12 @@
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} kommentti|{0} kommenttia</value>
   </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Piilota kansikuva</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Näytä kansikuva</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Muuta profiilin kansikuvaa</value>
   </data>
@@ -409,8 +418,14 @@
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Kuopatut</value>
   </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Vierasyhteisön beatmapit</value>
+  </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Rakastetut beatmapit</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Nimitetyt Hyväksytyt Beatmapit</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Vireillä olevat Beatmapit</value>
@@ -571,6 +586,9 @@
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Poista kiinnitys</value>
   </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Poistettiin kiinnitetyistä</value>
+  </data>
   <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
     <value>Kiinnitä</value>
   </data>
@@ -615,9 +633,6 @@
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>pituus</value>
-  </data>
-  <data name="show.extra.account_standing.recent_infringements.length_permanent" xml:space="preserve">
-    <value>Ikuinen</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>kuvaus</value>

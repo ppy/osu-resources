@@ -77,7 +77,7 @@
     <value>Prieiga draudžiama.</value>
   </data>
   <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
-    <value>Iškėlimo nuėmimas negalimas.</value>
+    <value>Skatinimo atšaukimas negalimas.</value>
   </data>
   <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
     <value>Diskusijų su atsakymais ištrinti negalima</value>
@@ -89,16 +89,16 @@
     <value>Įvyko klaida atliekant šį veiksmą, pamėgink atnaujinti puslapį.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
-    <value> Savo bitmapo nominuoti negali.</value>
+    <value> Savo beatmap'o nominuoti negali.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
     <value>Jūs turite nustatyti žanrą ir kalbą prieš nominuojant.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Uždaryti diskusiją gali tik pokalbio ir bitmapo kūrėjai.</value>
+    <value>Uždaryti diskusiją gali tik pokalbio ir beatmap'o kūrėjai.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Tik bitmapo savininkas ar nominatorius/NAT grupės narys gali rašyti į kūrėjo užrašus.</value>
+    <value>Tik beatmap'o savininkas ar nominatorius/NAT grupės narys gali rašyti į kūrėjo užrašus.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Negalima balsuoti diskusijoje sukurtoje boto</value>
@@ -110,7 +110,7 @@
     <value>Negali balsuoti už savo diskusiją.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Gali balsuoti tik nepabaigtų bitmapų diskusijose.</value>
+    <value>Gali balsuoti tik laukiančių beatmap'ų diskusijose.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Jūs galite ištrinti tik savo įrašus.</value>
@@ -131,10 +131,10 @@
     <value>Automatiškai sugeneruoti įrašai negali būti redaguojami.</value>
   </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
-    <value>Ši taktalapio diskusija užrakinta.</value>
+    <value>Ši beatmap'o diskusija užrakinta.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Jūs negalite pakeisti nominuoto bitmapo metaduomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad jie buvo nustatyti neteisingai.</value>
+    <value>Jūs negalite pakeisti nominuoto beatmap'o metaduomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad jie buvo nustatyti neteisingai.</value>
   </data>
   <data name="chat.annnonce_only" xml:space="preserve">
     <value>Šis kanalas tik skelbimams.</value>
@@ -276,6 +276,9 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Šį forumą gali skaityti tik administratoriai.</value>
+  </data>
+  <data name="score.pin.disabled_type" xml:space="preserve">
+    <value>Negalima prisegti šio tipo rezultato</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Tik rezultato savininkas gali prisegti rezultatą.</value>

@@ -70,4 +70,76 @@
   <data name="authorise.title" xml:space="preserve">
     <value>Αίτηση Εξουσιοδότησης</value>
   </data>
+  <data name="authorized_clients.confirm_revoke" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να ανακαλέσετε τα δικαιώματα αυτού του client;</value>
+  </data>
+  <data name="authorized_clients.scopes_title" xml:space="preserve">
+    <value>Αυτή η εφαρμογή μπορεί:</value>
+  </data>
+  <data name="authorized_clients.owned_by" xml:space="preserve">
+    <value>Ανήκει σε {0}</value>
+  </data>
+  <data name="authorized_clients.none" xml:space="preserve">
+    <value>Δεν Υπάρχουν clients</value>
+  </data>
+  <data name="authorized_clients.revoked.false" xml:space="preserve">
+    <value>Ανάκληση Πρόσβασης</value>
+  </data>
+  <data name="authorized_clients.revoked.true" xml:space="preserve">
+    <value>Ανάκληση Πρόσβασης</value>
+  </data>
+  <data name="client.id" xml:space="preserve">
+    <value>Ταυτότητα Client</value>
+  </data>
+  <data name="client.name" xml:space="preserve">
+    <value>Όνομα Εφαρμογής</value>
+  </data>
+  <data name="client.redirect" xml:space="preserve">
+    <value>Url Επανάκλησης Εφαρμογής</value>
+  </data>
+  <data name="client.reset" xml:space="preserve">
+    <value>Επαναφορά μυστικού client</value>
+  </data>
+  <data name="client.reset_failed" xml:space="preserve">
+    <value>Αποτυχία επαναφοράς του μυστικού client</value>
+  </data>
+  <data name="client.secret" xml:space="preserve">
+    <value>Μυστικό Client</value>
+  </data>
+  <data name="client.secret_visible.false" xml:space="preserve">
+    <value>Εμφάνιση μυστικού client</value>
+  </data>
+  <data name="client.secret_visible.true" xml:space="preserve">
+    <value>Απόκρυψη μυστικού client</value>
+  </data>
+  <data name="new_client.header" xml:space="preserve">
+    <value>Καταχωρήστε μια νέα εφαρμογή OAuth</value>
+  </data>
+  <data name="new_client.register" xml:space="preserve">
+    <value>Εγγραφή αίτησης</value>
+  </data>
+  <data name="new_client.terms_of_use._" xml:space="preserve">
+    <value>Χρησιμοποιώντας το API συμφωνείτε με το {0}.</value>
+  </data>
+  <data name="new_client.terms_of_use.link" xml:space="preserve">
+    <value>Όροι χρήσης</value>
+  </data>
+  <data name="own_clients.confirm_delete" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον πελάτη;</value>
+  </data>
+  <data name="own_clients.confirm_reset" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να επαναφέρετε το μυστικό του πελάτη? Αυτό θα ανακαλέσει όλα τα υπάρχοντα Tokens.</value>
+  </data>
+  <data name="own_clients.new" xml:space="preserve">
+    <value>Νέα Εφαρμογή Oauth</value>
+  </data>
+  <data name="own_clients.none" xml:space="preserve">
+    <value>Δεν Υπάρχουν Clients</value>
+  </data>
+  <data name="own_clients.revoked.false" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="own_clients.revoked.true" xml:space="preserve">
+    <value>Διαγράφηκε</value>
+  </data>
 </root>

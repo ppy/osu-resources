@@ -73,8 +73,11 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Nastavit bod náhledu na aktuální čas</value>
   </data>
-  <data name="export_package" xml:space="preserve">
-    <value>Exportovat balíček</value>
+  <data name="export_for_editing" xml:space="preserve">
+    <value>Pro úpravy (.olz)</value>
+  </data>
+  <data name="export_for_compatibility" xml:space="preserve">
+    <value>Pro kompatibilitu (.osz)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Vytvořit novou obtížnost</value>
@@ -113,9 +116,12 @@
     <value>Ticky</value>
   </data>
   <data name="rotation_unsnapped" xml:space="preserve">
-    <value>{0:0.0}°</value>
+    <value>{0:0}°</value>
   </data>
   <data name="rotation_snapped" xml:space="preserve">
-    <value>{0:0.0}° (snapped)</value>
+    <value>{0:0}° (po krocích)</value>
+  </data>
+  <data name="limited_distance_snap_grid" xml:space="preserve">
+    <value>Omezte umístění v mřížce vzdálenosti na aktuální čas</value>
   </data>
 </root>

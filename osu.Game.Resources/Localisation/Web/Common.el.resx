@@ -76,8 +76,17 @@
   <data name="array_and.last_word_connector" xml:space="preserve">
     <value>, και </value>
   </data>
+  <data name="badges.new" xml:space="preserve">
+    <value>ΝΕΟ</value>
+  </data>
   <data name="buttons.admin" xml:space="preserve">
     <value>Διαχειριστής</value>
+  </data>
+  <data name="buttons.authorise" xml:space="preserve">
+    <value>Εξουσιοδότηση</value>
+  </data>
+  <data name="buttons.authorising" xml:space="preserve">
+    <value>Εξουσιοδότηση...</value>
   </data>
   <data name="buttons.back_to_previous" xml:space="preserve">
     <value>Επιστροφή στην προηγούμενη κατάσταση</value>
@@ -91,11 +100,17 @@
   <data name="buttons.change" xml:space="preserve">
     <value>κάντε αλλαγές</value>
   </data>
+  <data name="buttons.clear" xml:space="preserve">
+    <value>Εκκαθάριση</value>
+  </data>
   <data name="buttons.click_to_copy" xml:space="preserve">
     <value>κάντε κλικ για να αντιγράψετε στο πρόχειρο</value>
   </data>
   <data name="buttons.click_to_copy_copied" xml:space="preserve">
     <value>αντιγράφτηκε στο πρόχειρο!</value>
+  </data>
+  <data name="buttons.close" xml:space="preserve">
+    <value>Κλείσιμο</value>
   </data>
   <data name="buttons.collapse" xml:space="preserve">
     <value>σύμπτυξη</value>
@@ -115,8 +130,14 @@
   <data name="buttons.permalink" xml:space="preserve">
     <value>permalink</value>
   </data>
+  <data name="buttons.pin" xml:space="preserve">
+    <value>καρφίτσωμα</value>
+  </data>
   <data name="buttons.post" xml:space="preserve">
     <value>Δημοσίευση</value>
+  </data>
+  <data name="buttons.read_more" xml:space="preserve">
+    <value>διαβάστε περισσότερα</value>
   </data>
   <data name="buttons.reply" xml:space="preserve">
     <value>Απάντηση</value>
@@ -132,6 +153,9 @@
   </data>
   <data name="buttons.restore" xml:space="preserve">
     <value>Επαναφορά</value>
+  </data>
+  <data name="buttons.retry" xml:space="preserve">
+    <value>Δοκίμασε ξανά</value>
   </data>
   <data name="buttons.save" xml:space="preserve">
     <value>Αποθήκευση</value>
@@ -151,14 +175,32 @@
   <data name="buttons.show_deleted" xml:space="preserve">
     <value>Εμφάνιση διαγραμμένου</value>
   </data>
+  <data name="buttons.show_less" xml:space="preserve">
+    <value>εμφάνιση λιγότερων</value>
+  </data>
   <data name="buttons.show_more" xml:space="preserve">
     <value>εμφάνιση περισσότερων</value>
   </data>
   <data name="buttons.show_more_options" xml:space="preserve">
     <value>περισσότερες επιλογές</value>
   </data>
+  <data name="buttons.submit" xml:space="preserve">
+    <value>Υποβολή</value>
+  </data>
+  <data name="buttons.unpin" xml:space="preserve">
+    <value>ξεκαρφίτσωμα</value>
+  </data>
+  <data name="buttons.update" xml:space="preserve">
+    <value>Ενημέρωση</value>
+  </data>
   <data name="buttons.upload_image" xml:space="preserve">
     <value>ανεβάστε εικόνα</value>
+  </data>
+  <data name="buttons.watch.to_0" xml:space="preserve">
+    <value>Κατάργηση Παρακολούθησης</value>
+  </data>
+  <data name="buttons.watch.to_1" xml:space="preserve">
+    <value>Παρακολούθηση</value>
   </data>
   <data name="count.badges" xml:space="preserve">
     <value>{0} έμβλημα|{0} εμβλήματα</value>
@@ -184,8 +226,26 @@
   <data name="count.months" xml:space="preserve">
     <value>{0} μήνας|{0} μήνες</value>
   </data>
+  <data name="count.notifications" xml:space="preserve">
+    <value>Ειδοποιήσεις{0}{0}</value>
+  </data>
+  <data name="count.plus_others" xml:space="preserve">
+    <value>+ {0} άλλα!|+ {0} άλλα!</value>
+  </data>
+  <data name="count.post" xml:space="preserve">
+    <value>{0} δημοσιεύσεις|{0} δημοσιεύσεις</value>
+  </data>
   <data name="count.second_short_unit" xml:space="preserve">
     <value>δευτ.|δευτ.</value>
+  </data>
+  <data name="count.star_priority" xml:space="preserve">
+    <value>{0} Προτεραιότητα αστεριών|{0} Προτεραιότητες αστεριών</value>
+  </data>
+  <data name="count.update" xml:space="preserve">
+    <value>{0} Ενημέρωση|{0} Ενημέρωσης</value>
+  </data>
+  <data name="count.view" xml:space="preserve">
+    <value>{0} Προβολή|{0} προβολές</value>
   </data>
   <data name="count.years" xml:space="preserve">
     <value>{0} χρόνος|{0} χρόνια</value>
@@ -226,6 +286,9 @@
   <data name="dropzone.target" xml:space="preserve">
     <value>αφήστε εδώ για να ανεβάσετε</value>
   </data>
+  <data name="input.search" xml:space="preserve">
+    <value>αναζήτηση...</value>
+  </data>
   <data name="pagination.previous" xml:space="preserve">
     <value>προηγ.</value>
   </data>
@@ -247,6 +310,39 @@
   <data name="score_count.count_miss" xml:space="preserve">
     <value>Miss</value>
   </data>
+  <data name="scoreboard_time.d" xml:space="preserve">
+    <value>%dd</value>
+  </data>
+  <data name="scoreboard_time.dd" xml:space="preserve">
+    <value>%dd</value>
+  </data>
+  <data name="scoreboard_time.h" xml:space="preserve">
+    <value>%dh</value>
+  </data>
+  <data name="scoreboard_time.hh" xml:space="preserve">
+    <value>%dh</value>
+  </data>
+  <data name="scoreboard_time.m" xml:space="preserve">
+    <value>τώρα</value>
+  </data>
+  <data name="scoreboard_time.mm" xml:space="preserve">
+    <value>τώρα</value>
+  </data>
+  <data name="scoreboard_time.month" xml:space="preserve">
+    <value>%dm</value>
+  </data>
+  <data name="scoreboard_time.months" xml:space="preserve">
+    <value>%dm</value>
+  </data>
+  <data name="scoreboard_time.s" xml:space="preserve">
+    <value>τώρα</value>
+  </data>
+  <data name="scoreboard_time.y" xml:space="preserve">
+    <value>%dy</value>
+  </data>
+  <data name="scoreboard_time.yy" xml:space="preserve">
+    <value>%dy</value>
+  </data>
   <data name="time.days_ago" xml:space="preserve">
     <value>{0} μέρα πριν|{0} μέρες πριν</value>
   </data>
@@ -261,5 +357,11 @@
   </data>
   <data name="title.notice" xml:space="preserve">
     <value>Ειδοποίηση</value>
+  </data>
+  <data name="wrong_user._" xml:space="preserve">
+    <value>Είστε συνδεδεμένοι ως {0}. {1}.</value>
+  </data>
+  <data name="wrong_user.logout_link" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να συνδεθείτε ως διαφορετικός χρήστης</value>
   </data>
 </root>

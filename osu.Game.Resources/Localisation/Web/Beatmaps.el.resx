@@ -64,6 +64,9 @@
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>επίτρεψε kudosu</value>
   </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Beatmap Page</value>
+  </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>διαγραφή</value>
   </data>
@@ -78,6 +81,9 @@
   </data>
   <data name="discussions.edited" xml:space="preserve">
     <value>Τελευταία επεξεργασία από: {0} {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Δυσκολία επισκέπτη από {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Αδύνατη η απόκτηση kudosu.</value>
@@ -151,6 +157,9 @@
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
     <value>Πληκτρολογήστε εδώ για να δημοσιεύσετε στο General (όλες τις δυσκολίες)</value>
   </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Πληκτρολογήστε εδώ για να δημοσιεύσετε μια κριτική</value>
+  </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
     <value>Πληκτρολογήστε εδώ για να δημοσιεύσετε στο Χρονολόγιο ({0})</value>
   </data>
@@ -172,6 +181,12 @@
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Πρόβλημα</value>
   </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Αναφορά Προβλήματος</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Κριτική</value>
+  </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Πρόταση</value>
   </data>
@@ -180,6 +195,9 @@
   </data>
   <data name="discussions.mode.general" xml:space="preserve">
     <value>Γενικά {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Κριτικές</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
     <value>Χρονολόγιο</value>
@@ -205,8 +223,38 @@
   <data name="discussions.new.unpin" xml:space="preserve">
     <value>Ξεκαρφίτσωμα</value>
   </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Νέα κριτική</value>
+  </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>Διαγραφή</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[Η ΣΥΖΗΤΗΣΗ ΔΙΑΓΡΑΦΗΚΕ]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Μη Αποθηκευμένα</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Οι δημοσιεύσεις στο "Όλες οι δυσκολίες" δεν μπορούν να επισημανθούν με χρονοσήμανση.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Αν αυτή η ανάρτηση ξεκινήσει με ετικέτα χρόνου, θα εμφανίζεται κάτω από το Χρονοδιάγραμμα.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>εισαγωγή παραγράφου</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>insert praise</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>πρόβλημα εισαγωγής</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>εισαγωγή πρότασης</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} δημιουργήθηκε από {1}</value>
@@ -301,6 +349,12 @@
   <data name="feedback.button" xml:space="preserve">
     <value>Αφήστε Σχόλια</value>
   </data>
+  <data name="nominations.already_nominated" xml:space="preserve">
+    <value>Έχετε ήδη ορίσει αυτό το beatmap.</value>
+  </data>
+  <data name="nominations.cannot_nominate" xml:space="preserve">
+    <value>Δεν μπορείτε να ορίσετε αυτή τη λειτουργία beatmap.</value>
+  </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Διαγραφή</value>
   </data>
@@ -327,6 +381,9 @@
   </data>
   <data name="nominations.love" xml:space="preserve">
     <value>Love</value>
+  </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Επιλέξτε δυσκολία για τους αγαπημένους</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Αγαπάτε αυτό το beatmap;</value>
@@ -361,6 +418,15 @@
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Εξακολουθούν να υπάρχουν άλυτα ζητήματα που πρέπει να αντιμετωπιστούν πρώτα.</value>
   </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Ο χάρτης υπολογίζεται σε κατάταξη {0} εάν δεν βρεθούν προβλήματα. Είναι #{1} στο {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.on" xml:space="preserve">
+    <value>στο {0}</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>ουρά κατάταξης</value>
+  </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>σύντομα</value>
   </data>
@@ -375,6 +441,9 @@
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Είστε σίγουροι; Η δημοσίευση ενός νέου προβλήματος θα επανεκκινήσει την διαδικασία υποψηφιότητας.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Είστε βέβαιοι να αναφέρετε το ζήτημα σε αυτό το beatmap? Αυτό θα ειδοποιήσει Beatmap Nominators.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>πληκτρολογήστε λέξεις-κλειδιά...</value>
@@ -408,6 +477,9 @@
   </data>
   <data name="listing.search.filters.mode" xml:space="preserve">
     <value>Mode</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Explicit Content</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Που έχετε παίξει</value>
@@ -457,8 +529,17 @@
   <data name="general.converts" xml:space="preserve">
     <value>Συμπεριλάμβανε beatmaps που έχουν μετατραπεί</value>
   </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Προτεινόμενοι Καλλιτέχνες</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Εγγεγραμμένοι χάρτες</value>
+  </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Προτεινόμενη δυσκολία</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Spotlighted beatmaps</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Όλα</value>
@@ -489,6 +570,9 @@
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Pending &amp; WIP</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Qualified</value>
@@ -525,6 +609,15 @@
   </data>
   <data name="genre.electronic" xml:space="preserve">
     <value>Ηλεκτρονική Μουσική</value>
+  </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Μέταλλο</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Κλασική</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Λαϊκή</value>
   </data>
   <data name="genre.jazz" xml:space="preserve">
     <value>Τζάζ</value>
@@ -570,6 +663,15 @@
   </data>
   <data name="language.other" xml:space="preserve">
     <value>Άλλο</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Απροσδιόριστο</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Απόκρυψη</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Εμφάνιση</value>
   </data>
   <data name="played.any" xml:space="preserve">
     <value>Οποιοδήποτε</value>

@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Τι θα έλεγες να παίξεις osu! αντι αυτου;</value>
+  </data>
   <data name="require_login" xml:space="preserve">
     <value>Παρακαλώ συνδεθείτε για να συνεχίσετε.</value>
   </data>
@@ -88,11 +91,17 @@
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>Δεν μπορείτε να κάνετε nominate το δικό σας beatmap.</value>
   </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Πρέπει να ορίσετε το είδος και τη γλώσσα πριν υποβάλετε υποψηφιότητα.</value>
+  </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
     <value>Μόνο οι δημιουργοί του thread και του beatmap μπορούν να επιλύσουν τη συζήτηση.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
     <value>Μόνο ο ιδιοκτήτης ή κάποιος nominator/μέλος του QAT γκρουπ του beatmap μπορεί να δημοσιεύσει σημειώσεις τύπου mapper.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Δεν μπορώ να ψηφίσω για συζήτηση που έγινε από bot</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
     <value>Παρακαλώ περιμένετε λίγο πριν ψηφίσετε ξανά</value>
@@ -106,14 +115,29 @@
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Μπορείτε να διαγράψετε μόνο τις δικές σας δημοσιεύσεις.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Δεν μπορείτε να διαγράψετε μια ανάρτηση μιας λυμένης συζήτησης.</value>
+  </data>
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>Οι δημοσιεύσεις που έχουν δημιουργηθεί αυτόματα δεν μπορούν να διαγραφούν.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Μόνο ο δημιουργός της δημοσίευσης μπορεί να την επεξεργαστεί.</value>
   </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Δεν μπορείτε να τροποποιήσετε μια ανάρτηση μιας λυμένης συζήτησης.</value>
+  </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Οι δημοσιεύσεις που έχουν δημιουργηθεί αυτόματα δεν μπορούν να επεξεργαστούν.</value>
+  </data>
+  <data name="beatmapset.discussion_locked" xml:space="preserve">
+    <value>Αυτός ο beatmap είναι κλειδωμένος για συζήτηση.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Δεν μπορείτε να αλλάξετε τα μεταδεδομένα ενός προτεινόμενου χάρτη. Επικοινωνήστε με ένα μέλος BN ή NAT αν νομίζετε ότι δεν έχει οριστεί σωστά.</value>
+  </data>
+  <data name="chat.annnonce_only" xml:space="preserve">
+    <value>Αυτό το κανάλι είναι μόνο για ανακοινώσεις.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Αδυναμία αποστολής σε χρήστη που σας έχει ή έχετε αποκλείσει.</value>
@@ -127,11 +151,17 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Δεν έχετε πρόσβαση σε αυτό το κανάλι.</value>
   </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Ο χρήστης μπορεί να μην είναι σε θέση να απαντήσει, επειδή δέχεστε μόνο μηνύματα από άτομα στη λίστα φίλων σας.</value>
+  </data>
   <data name="chat.restricted" xml:space="preserve">
     <value>Δεν μπορείτε να στείλετε μηνύματα ενώ είστε σιγασμένος, περιορισμένος ή απαγορευμένος.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
     <value>Δεν μπορείτε να στείλετε μηνύματα ενώ είστε σιγασμένος, περιορισμένος ή απαγορευμένος.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Τα σχόλια είναι απενεργοποιημένα</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Δεν μπορείτε να επεξεργαστείτε διαγραμμένη δημοσίευση.</value>
@@ -246,6 +276,15 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Μόνο οι διαχειριστές μπορούν να δούν αυτό το φόρουμ.</value>
+  </data>
+  <data name="score.pin.disabled_type" xml:space="preserve">
+    <value>Αδυναμία καρφιτσώματος αυτού του τύπου βαθμολογίας</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Μόνο ο ιδιοκτήτης της βαθμολογίας μπορεί να καρφιτσώσει βαθμολογία.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Καρφιτσωμένο πάρα πολλές βαθμολογίες.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Το userpage είναι κλειδωμένο.</value>

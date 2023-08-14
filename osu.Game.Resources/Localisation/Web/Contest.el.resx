@@ -64,11 +64,17 @@
   <data name="header.large" xml:space="preserve">
     <value>Διαγωνισμοί Κοινότητας</value>
   </data>
+  <data name="index.nav_title" xml:space="preserve">
+    <value>καταχώρηση</value>
+  </data>
   <data name="voting.login_required" xml:space="preserve">
     <value>Παρακαλώ συνδεθείτε για να ψηφίσετε.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
     <value>Η ψηφοφορία για αυτόν τον διαγωνισμό έχει λήξει</value>
+  </data>
+  <data name="voting.show_voted_only" xml:space="preserve">
+    <value>Εμφάνιση ψήφων</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
     <value>Φαίνεται ότι δεν έχετε παίξει κάποιο beatmap που πληροί τα κριτήρια για αυτόν τον διαγωνισμό!</value>
@@ -81,6 +87,12 @@
   </data>
   <data name="voting.button.used_up" xml:space="preserve">
     <value>Έχετε χρησιμοποιήσει όλες σας τις ψήφους</value>
+  </data>
+  <data name="voting.progress._" xml:space="preserve">
+    <value>{0} / {1} χρησιμοποιήθηκαν οι ψήφοι</value>
+  </data>
+  <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
+    <value>Πρέπει να παίξει όλους τους beatmaps στις καθορισμένες λίστες αναπαραγωγής πριν από την ψηφοφορία</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>καταχώριση</value>
@@ -109,6 +121,9 @@
   <data name="entry.wrong_type.music" xml:space="preserve">
     <value>Μόνο .mp3 αρχεία είναι αποδεκτά για αυτόν τον διαγωνισμό.</value>
   </data>
+  <data name="entry.wrong_dimensions" xml:space="preserve">
+    <value>Οι καταχωρήσεις για αυτό το διαγωνισμό πρέπει να είναι {0}{1}</value>
+  </data>
   <data name="entry.too_big" xml:space="preserve">
     <value>Οι καταχωρήσεις για αυτόν τον διαγωνισμό μπορούν να είναι το πολύ {0}.</value>
   </data>
@@ -126,6 +141,9 @@
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Τελείωσε στις {0}</value>
+  </data>
+  <data name="dates.ended_no_date" xml:space="preserve">
+    <value>Τελείωσε</value>
   </data>
   <data name="dates.starts._" xml:space="preserve">
     <value>Ξεκινάει στις {0}</value>
