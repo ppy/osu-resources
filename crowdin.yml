@@ -1,11 +1,13 @@
 preserve_hierarchy: true
 files:
-  - source: /osu.Game.Resources/Localisation/*.resx
-    translation: /osu.Game.Resources/Localisation/%file_name%.%locale%.%file_extension%
+  - source: /osu.Game.Resources/Localisation/**/*.resx
+    translation: /osu.Game.Resources/Localisation/**/%file_name%.%locale%.%file_extension%
     ignore:
       # note that this should probably be using %locale% rather than a simple wildcard
       # but it doesn't seem to respect our mapping below.
-      - /osu.Game.Resources/Localisation/%file_name%.*.%file_extension%
+      - /osu.Game.Resources/Localisation/**/%file_name%.*.%file_extension%
+      # automatically pulled from Crowdin
+      - /osu.Game.Resources/Localisation/Web/**/*
     update_option: update_as_unapproved
     languages_mapping:
       locale:
