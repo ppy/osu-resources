@@ -158,13 +158,13 @@
     <value>Apabila kamu melanggar peraturan, akunmu akan ditempatkan pada masa percobaan selama satu bulan, di mana dalam rentang waktu ini kami tidak akan menanggapi permintaan apa pun yang terkait dengan akun Anda. Setelah masa ini berakhir, Anda baru akan dapat menghubungi kami untuk mengembalikan akunmu. Mohon diperhatikan bahwa membuat akun baru &lt;strong&gt;hanya akan menambah masa hukumanmu&lt;/strong&gt;, dan &lt;strong&gt;masa hukumanmu akan bertambah panjang untuk setiap akun baru yang kamu buat&lt;/strong&gt;. Kami harap kamu dapat belajar dari kesalahanmu!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Apabila kamu merasa bahwa hal ini merupakan sebuah kesalahan, kamu disarankan untuk mengontak kami (baik melalui {0} atau tombol "?" yang terletak pada pojok kanan bawah layar) sesegera mungkin. Mohon diperhatikan bahwa segala keputusan yang kami ambil selalu berdasar pada data yang konkrit dan diambil dengan penuh keyakinan. Di samping itu, kami juga berhak untuk tidak menindaklanjuti aduanmu lebih lanjut apabila kami merasa kamu dengan sengaja telah berbohong kepada kami.</value>
+    <value>Apabila kamu merasa bahwa hal ini merupakan sebuah kesalahan, kamu dapat menghubungi kami (baik melalui {0} atau tombol "?" yang terletak pada pojok kanan bawah layar) sesegera mungkin. Mohon diperhatikan bahwa segala keputusan yang kami ambil selalu berdasar pada data dan diambil dengan penuh keyakinan. Di samping itu, kami juga berhak untuk tidak menindaklanjuti aduanmu apabila kami merasa kamu dengan sengaja telah berbohong kepada kami.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>email</value>
   </data>
   <data name="disabled.reasons.compromised" xml:space="preserve">
-    <value>Akunmu terindikasi telah disalahgunakan oleh pihak lain. Akun ini akan dinonaktifkan untuk sementara waktu hingga identitas pengguna akun telah terkonfirmasi.</value>
+    <value>Akunmu terindikasi telah disusupi. Akun ini akan dinonaktifkan untuk sementara waktu hingga identitas pengguna akun terkonfirmasi.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
     <value>Terdapat sejumlah alasan yang dapat menyebabkan akunmu dinonaktifkan:</value>
@@ -197,7 +197,7 @@
     <value>Alamat email untuk saat ini tidak dapat digunakan untuk masuk. Silakan masuk dengan menggunakan nama pengguna.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
-    <value>Gagal masuk</value>
+    <value>Rincian masuk salah</value>
   </data>
   <data name="login.forgot" xml:space="preserve">
     <value>Lupa kata sandi?</value>
@@ -206,7 +206,7 @@
     <value>Silakan masuk untuk melanjutkan</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Kamu telah berulang kali gagal memasukkan kredensial pengguna yang valid. Harap selesaikan captcha yang muncul dan coba lagi. (Muat ulang laman ini apabila captcha tidak terlihat)</value>
+    <value>Terlalu banyak upaya login yang gagal. Mohon selesaikan captcha yang muncul dan coba lagi. (Muat ulang laman ini apabila captcha tidak terlihat)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Alamat IP-mu dikunci. Silakan tunggu beberapa menit.</value>
@@ -221,7 +221,7 @@
     <value>Ingat perangkat ini</value>
   </data>
   <data name="login.title" xml:space="preserve">
-    <value>Mohon masuk untuk melanjutkan</value>
+    <value>Silakan masuk untuk melanjutkan</value>
   </data>
   <data name="login.username" xml:space="preserve">
     <value>Nama Pengguna</value>
@@ -362,7 +362,7 @@
     <value>Pilihan sampul lainnya akan tersedia di masa mendatang</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
-    <value>Gagal memproses gambar. Mohon periksa kembali gambar yang diunggah dan coba lagi.</value>
+    <value>Gambar gagal diproses. Periksa keabsahan gambar yang diunggah dan coba lagi.</value>
   </data>
   <data name="show.edit.cover.upload.button" xml:space="preserve">
     <value>Unggah gambar</value>
@@ -636,6 +636,9 @@
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>durasi</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
+    <value>Tak tentu</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>keterangan</value>

@@ -230,6 +230,51 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsMessageTypeSuggestion => new TranslatableString(getKey(@"discussions.message_type.suggestion"), @"Suggestion");
 
         /// <summary>
+        /// "Post Disqualification"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleDisqualify => new TranslatableString(getKey(@"discussions.message_type_title.disqualify"), @"Post Disqualification");
+
+        /// <summary>
+        /// "Post Hype!"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleHype => new TranslatableString(getKey(@"discussions.message_type_title.hype"), @"Post Hype!");
+
+        /// <summary>
+        /// "Post Note"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleMapperNote => new TranslatableString(getKey(@"discussions.message_type_title.mapper_note"), @"Post Note");
+
+        /// <summary>
+        /// "Remove all Nominations"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleNominationReset => new TranslatableString(getKey(@"discussions.message_type_title.nomination_reset"), @"Remove all Nominations");
+
+        /// <summary>
+        /// "Post Praise"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitlePraise => new TranslatableString(getKey(@"discussions.message_type_title.praise"), @"Post Praise");
+
+        /// <summary>
+        /// "Post Problem"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleProblem => new TranslatableString(getKey(@"discussions.message_type_title.problem"), @"Post Problem");
+
+        /// <summary>
+        /// "Post Problem"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleProblemWarning => new TranslatableString(getKey(@"discussions.message_type_title.problem_warning"), @"Post Problem");
+
+        /// <summary>
+        /// "Post Review"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleReview => new TranslatableString(getKey(@"discussions.message_type_title.review"), @"Post Review");
+
+        /// <summary>
+        /// "Post Suggestion"
+        /// </summary>
+        public static LocalisableString DiscussionsMessageTypeTitleSuggestion => new TranslatableString(getKey(@"discussions.message_type_title.suggestion"), @"Post Suggestion");
+
+        /// <summary>
         /// "History"
         /// </summary>
         public static LocalisableString DiscussionsModeEvents => new TranslatableString(getKey(@"discussions.mode.events"), @"History");

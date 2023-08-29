@@ -35,9 +35,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScopesIdentify => new TranslatableString(getKey(@"scopes.identify"), @"Identify you and read your public profile.");
 
         /// <summary>
+        /// "Read messages on your behalf."
+        /// </summary>
+        public static LocalisableString ScopesChatRead => new TranslatableString(getKey(@"scopes.chat.read"), @"Read messages on your behalf.");
+
+        /// <summary>
         /// "Send messages on your behalf."
         /// </summary>
         public static LocalisableString ScopesChatWrite => new TranslatableString(getKey(@"scopes.chat.write"), @"Send messages on your behalf.");
+
+        /// <summary>
+        /// "Join and leave channels on your behalf."
+        /// </summary>
+        public static LocalisableString ScopesChatWriteManage => new TranslatableString(getKey(@"scopes.chat.write_manage"), @"Join and leave channels on your behalf.");
 
         /// <summary>
         /// "Create and edit forum topics and posts on your behalf."
