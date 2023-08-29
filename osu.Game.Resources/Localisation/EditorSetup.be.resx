@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>Налада карты</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>змяніць агульныя налады вашай карты</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>Колеры</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Комба Нот / Слайдараў</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>Дызайн</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Уключыць зваротны адлік</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>Калі ўключана, "Are you ready? 3, 2, 1, GO!" зваротны адлік будзе даданы ў пачатак карты, калі для гэтага ёсць дастаткова часу.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Хуткасць зваротнага адліку</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>Калі адлік гучыць збітым па рытме, скарыстайце гэта, каб зрабіць яго на адзін або некалькі тактаў раней.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Здвіг зваротнага адліку</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Падтрымка шырокага экрана</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Дазваляе раскадроўцы карыстацца ўсім экранам, а не абмяжоўвацца вобласцю 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Папярэджанне аб эпілепсіі</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Рэкамендуецца, калі фон змяшчае сцэны з хутка мільготкімі колерамі.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Паласы на экране падчас перапынкаў</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Дадае чорныя паласы па вертыкальных краях экрану для кінематаграфічнага выгляду падчас перапынкаў.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Адпаведнасць сэмплаў хуткасці прайгравання</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Калі ўключана, усе сэмплы будуць паскарацца або запавольвацца калі ўключаны моды, якія змяняюць хуткасць.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>Памер уcіх аб'ектаў</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>Хуткасць пасіўнай страты здароўя падчас гульні</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Хуткасць, з якой гульнявыя аб'екты з'яўляюцца перад гульцом</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>Строгасць вокнаў траплення і цяжкасць асобых аб'ектаў (напрыклад, спінеры)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Частата цікаў</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Вызначае, колькі "цікаў" генеруецца ў межах аб'ектаў з доўгім трапленнем. Частата цікаў, роўная 1, будзе генераваць цікі на кожным такце, 2 — двойчы за такт і г. д.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Базавая хуткасць</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Базавая хуткасць уплывае на такія рэчы як хуткасць слайдэраў і хуткасць пракруткі ў некаторых наборах правілаў.</value>
+  </data>
+  <data name="metadata_header" xml:space="preserve">
+    <value>Метададзеныя</value>
+  </data>
+  <data name="romanised_artist" xml:space="preserve">
+    <value>Раманізаваны Выканаўца</value>
+  </data>
+  <data name="romanised_title" xml:space="preserve">
+    <value>Раманізаваная Назва</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Аўтар</value>
+  </data>
+  <data name="difficulty_name" xml:space="preserve">
+    <value>Назва складанасці</value>
+  </data>
+  <data name="resources_header" xml:space="preserve">
+    <value>Рэсурсы</value>
+  </data>
+  <data name="audio_track" xml:space="preserve">
+    <value>Гукавая дарожка</value>
+  </data>
+  <data name="click_to_select_track" xml:space="preserve">
+    <value>Націсніце, каб абраць трэк</value>
+  </data>
+  <data name="click_to_replace_track" xml:space="preserve">
+    <value>Націсніце, каб змяніць трэк</value>
+  </data>
+  <data name="click_to_select_background" xml:space="preserve">
+    <value>Націсніце, каб абраць фанавы відарыс</value>
+  </data>
+  <data name="click_to_replace_background" xml:space="preserve">
+    <value>Націсніце, каб змяніць фанавы відарыс</value>
+  </data>
+  <data name="ruleset" xml:space="preserve">
+    <value>Рэжым ({0})</value>
+  </data>
+  <data name="combo_colour_prefix" xml:space="preserve">
+    <value>Комба</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Выканаўца</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="difficulty_header" xml:space="preserve">
+    <value>Цяжкасць</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Перацягніце відарыс сюды, каб змяніць фон карты!</value>
+  </data>
+</root>
