@@ -50,9 +50,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Empty => new TranslatableString(getKey(@"empty"), @"This user hasn't done anything notable recently!");
 
         /// <summary>
-        /// "&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; achieved rank #{1} on &lt;em&gt;{2}&lt;/em&gt; ({3})"
+        /// "{0} achieved {1} on {2} ({3})"
         /// </summary>
-        public static LocalisableString Rank(LocalisableString user, LocalisableString rank, LocalisableString beatmap, LocalisableString mode) => new TranslatableString(getKey(@"rank"), @"<strong><em>{0}</em></strong> achieved rank #{1} on <em>{2}</em> ({3})", user, rank, beatmap, mode);
+        public static LocalisableString Rank(LocalisableString user, LocalisableString rank, LocalisableString beatmap, LocalisableString mode) => new TranslatableString(getKey(@"rank"), @"{0} achieved {1} on {2} ({3})", user, rank, beatmap, mode);
 
         /// <summary>
         /// "&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; has lost first place on &lt;em&gt;{1}&lt;/em&gt; ({2})"
@@ -98,6 +98,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "ranked"
         /// </summary>
         public static LocalisableString BeatmapsetStatusRanked => new TranslatableString(getKey(@"beatmapset_status.ranked"), @"ranked");
+
+        /// <summary>
+        /// "rank #{0}"
+        /// </summary>
+        public static LocalisableString ValueRank(LocalisableString rank) => new TranslatableString(getKey(@"value.rank"), @"rank #{0}", rank);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

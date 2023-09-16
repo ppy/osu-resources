@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="judgement_line_thickness" xml:space="preserve">
+    <value>Yargı çizgisi kalınlığı</value>
+  </data>
+  <data name="judgement_line_thickness_description" xml:space="preserve">
+    <value>Bireysel çizgilerin ne kadar kalın olması gerektiği.</value>
+  </data>
+  <data name="colour_bar_visibility" xml:space="preserve">
+    <value>Renk çubuklarını göster</value>
+  </data>
+  <data name="show_moving_average" xml:space="preserve">
+    <value>Hareketli ortalama okunu göster</value>
+  </data>
+  <data name="show_moving_average_description" xml:space="preserve">
+    <value>Ortalama hatayı gösteren çubuğun altında bir okun hareket edip etmeyeceği.</value>
+  </data>
+  <data name="centre_marker_style" xml:space="preserve">
+    <value>Merkez işaretleyici stili</value>
+  </data>
+  <data name="centre_marker_style_description" xml:space="preserve">
+    <value>Ekranın merkezi nasıl belirtilir</value>
+  </data>
+  <data name="centre_marker_styles_none" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="centre_marker_styles_circle" xml:space="preserve">
+    <value>Çember</value>
+  </data>
+  <data name="centre_marker_styles_line" xml:space="preserve">
+    <value>Çizgi</value>
+  </data>
+  <data name="label_style" xml:space="preserve">
+    <value>Etiket sitili</value>
+  </data>
+  <data name="label_style_description" xml:space="preserve">
+    <value>Erken/geç ekstremiteler nasıl gösterilir</value>
+  </data>
+  <data name="label_styles_none" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="label_styles_icons" xml:space="preserve">
+    <value>Simgeler</value>
+  </data>
+  <data name="label_styles_text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+</root>

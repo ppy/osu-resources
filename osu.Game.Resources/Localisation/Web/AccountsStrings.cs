@@ -50,6 +50,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditEmailTitle => new TranslatableString(getKey(@"edit.email.title"), @"Email");
 
         /// <summary>
+        /// "Please contact the {0} if you need your email updated."
+        /// </summary>
+        public static LocalisableString EditEmailLockedDefault(LocalisableString accounts) => new TranslatableString(getKey(@"edit.email.locked._"), @"Please contact the {0} if you need your email updated.", accounts);
+
+        /// <summary>
+        /// "account support team"
+        /// </summary>
+        public static LocalisableString EditEmailLockedAccounts => new TranslatableString(getKey(@"edit.email.locked.accounts"), @"account support team");
+
+        /// <summary>
         /// "api"
         /// </summary>
         public static LocalisableString EditLegacyApiApi => new TranslatableString(getKey(@"edit.legacy_api.api"), @"api");
