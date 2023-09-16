@@ -404,6 +404,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString UserPageEditRequireSupporterTag => new TranslatableString(getKey(@"user.page.edit.require_supporter_tag"), @"osu!supporter tag is required.");
 
+        /// <summary>
+        /// "email address is locked"
+        /// </summary>
+        public static LocalisableString UserUpdateEmailLocked => new TranslatableString(getKey(@"user.update_email.locked"), @"email address is locked");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

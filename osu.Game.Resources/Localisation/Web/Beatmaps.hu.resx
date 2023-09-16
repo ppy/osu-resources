@@ -83,7 +83,7 @@
     <value>Utoljára frissítve {0} által, {1}.</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>Vendég nehézség {0} által</value>
+    <value>Vendég nehézséget készítette: {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Kudosu szerzéstől megtagadva.</value>
@@ -107,7 +107,7 @@
     <value>Ide írd a válaszod</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Kérlek jelentkezz be posztoláshoz illetve válaszoláshoz</value>
+    <value>Kérlek jelentkezz be a hozzászóláshoz illetve válaszoláshoz</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Megoldott</value>
@@ -155,13 +155,13 @@
     <value>Írj ide az Általános ({0}) részlegbe való posztoláshoz</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Ide írj az Általánosba való hozzászóláshoz (Összes nehézség)</value>
+    <value>Írj ide az Általános (Minden nehézség) való hozzászóláshoz</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Ide írj, hogy hozzászólj</value>
+    <value>Írj ide az Összetett hozzászóláshoz</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Írj ide az Idővonalra ({0}) való posztoláshoz</value>
+    <value>Írj ide az Idővonalra ({0}) való hozzászóláshoz</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Diszkvalifikálás</value>
@@ -189,6 +189,33 @@
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Javaslat</value>
+  </data>
+  <data name="discussions.message_type_title.disqualify" xml:space="preserve">
+    <value>Diszkvalifikáció posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.hype" xml:space="preserve">
+    <value>Hype! posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
+    <value>Jegyzet posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
+    <value>Összes nominálás eltávolítása</value>
+  </data>
+  <data name="discussions.message_type_title.praise" xml:space="preserve">
+    <value>Dicséret posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.problem" xml:space="preserve">
+    <value>Probléma posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.problem_warning" xml:space="preserve">
+    <value>Probléma posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.review" xml:space="preserve">
+    <value>Vélemény posztolása</value>
+  </data>
+  <data name="discussions.message_type_title.suggestion" xml:space="preserve">
+    <value>Javaslat posztolása</value>
   </data>
   <data name="discussions.mode.events" xml:space="preserve">
     <value>Előzmények</value>
@@ -224,7 +251,7 @@
     <value>Rögzítés feloldása</value>
   </data>
   <data name="discussions.review.new" xml:space="preserve">
-    <value>Új hozzászólás</value>
+    <value>Új Összetett hozzászólás</value>
   </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>Törlés</value>
@@ -239,7 +266,7 @@
     <value>Mentetlen</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Az "All difficulties"-ban lévő hozzászólásokat nem lehet időbélyegezni.</value>
+    <value>A "Minden nehézség" alatti hozzászólásokat nem lehet időbélyegezni.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Ha {0} típussal fog kezdődni, akkor az idővonal alatt fog megjelenni.</value>
@@ -350,10 +377,10 @@
     <value>Visszajelzés Küldése</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
-    <value>Már nominálva vagy erre a beatmapre.</value>
+    <value>Már nomináltad ezt a beatmap-et.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>Nem nominálhatod ezt a beatmapet ebben a játékmódban.</value>
+    <value>Nem nominálhatod ezt a beatmap-et ebben a játékmódban.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Törlés</value>
@@ -398,13 +425,13 @@
     <value>nominálva {0} által</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>Nincs elég hype.</value>
+    <value>Nincs elég Hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Eltávolítás a szeretettek közül</value>
+    <value>Eltávolítás a Loved közül</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Indoka a szeretettek közül való eltávolításnak:</value>
+    <value>Loved-ból való eltávolítás indoka:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominálások: {0}/{1}</value>
@@ -419,19 +446,19 @@
     <value>Még mindig vannak megoldatlan problémák amelyeket először kezelni kell.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Ez a pálya rangsorolt lesz {0} napján, ha további problémák nem merülnek fel. Jelenleg a {1}. helyen áll a {2}.</value>
+    <value>Ez a pálya rangsorolt lesz {0}, ha nem merülnek fel további problémák. Jelenleg a #{1} helyen áll: {2}.</value>
   </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
-    <value>ekkor: {0}</value>
+    <value>{0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>ranglistázási sorban</value>
+    <value>ranglistázási sor</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
-    <value>a közeljövő egy</value>
+    <value>hamarosan</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>A nominálási folyamat újraindításra került {0} {1} által: {2} ({3}).</value>
+    <value>{0} újraindította a Nominálási folyamatot {1}: {2} ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
     <value>{0} óta diszkvalifikálva {1} által egy új probléma miatt {2} ({3}).</value>
@@ -443,7 +470,7 @@
     <value>Biztos vagy ebben? Egy új probléma posztolása alaphelyzetbe állítja a nominálási folyamatot.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>Biztos, hogy jelenteni fogja a hibát ezen a beatmap-en? Ez figyelmezteti a Beatmap nominálókat.</value>
+    <value>Biztos, hogy hibát szeretnél jelenteni ezen a beatmap-en? Ez jelezni fog a Beatmap Nominálóknak.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>írj kulcsszavakat...</value>
@@ -455,7 +482,7 @@
     <value>További Keresési Beállítások</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>A {0} általi szűrés egy aktív osu!supporter címet igényel</value>
+    <value>{0} általi szűrés aktív osu!supporter cím-et igényel</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>nincs találat</value>
@@ -533,7 +560,7 @@
     <value>Kiemelt előadók</value>
   </data>
   <data name="general.follows" xml:space="preserve">
-    <value>Követett készítők</value>
+    <value>Követett Mapperek</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Ajánlott nehézség</value>
@@ -563,10 +590,10 @@
     <value>Ranglistás</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Szeretett</value>
+    <value>Loved</value>
   </data>
   <data name="status.mine" xml:space="preserve">
-    <value>Saját mapjaim</value>
+    <value>Saját Mapjaim</value>
   </data>
   <data name="status.pending" xml:space="preserve">
     <value>Függőben lévő &amp; WIP</value>
