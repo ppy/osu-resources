@@ -95,13 +95,13 @@
     <value>Bạn phải chọn thể loại nhạc và ngôn ngữ trước khi nominating.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Chỉ có chủ thớt và chủ beatmap mới có thể đánh dấu cuộc thảo luận là đã được giải quyết.</value>
+    <value>Chỉ có người mở thread và chủ beatmap mới có thể đánh dấu cuộc thảo luận là đã được giải quyết.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
     <value>Chỉ chủ beatmap hoặc người đề cử beatmap/thành viên của NAT mới có thể đăng ghi chú.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Không thể bầu trên thảo luận tạo bởi bot</value>
+    <value>Không thể bình chọn trên thảo luận tạo bởi bot</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
     <value>Vui lòng đợi một lúc trước khi bình chọn thêm</value>
@@ -122,7 +122,7 @@
     <value>Không thể xóa bài đăng được tạo tự động.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Bài đăng chỉ có thể được chỉnh sửa bởi người đăng.</value>
+    <value>Chỉ người đăng mới có thể chỉnh sửa bài đăng.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
     <value>Bạn không thể sửa một bài đăng về một thảo luận đã được giải quyết.</value>
@@ -294,5 +294,8 @@
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
     <value>phải có osu!supporter.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>địa chỉ email bị khóa</value>
   </data>
 </root>

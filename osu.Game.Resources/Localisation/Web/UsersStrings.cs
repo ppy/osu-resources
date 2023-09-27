@@ -300,6 +300,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoginBetaSmall => new TranslatableString(getKey(@"login.beta.small"), @"(osu!supporters will get in soon)");
 
         /// <summary>
+        /// "Rank ({0}): {1} | {2}"
+        /// </summary>
+        public static LocalisableString OgpDescriptionDefault(LocalisableString ruleset, LocalisableString global, LocalisableString country) => new TranslatableString(getKey(@"ogp.description._"), @"Rank ({0}): {1} | {2}", ruleset, global, country);
+
+        /// <summary>
+        /// "Country {0}"
+        /// </summary>
+        public static LocalisableString OgpDescriptionCountry(LocalisableString rank) => new TranslatableString(getKey(@"ogp.description.country"), @"Country {0}", rank);
+
+        /// <summary>
+        /// "Global {0}"
+        /// </summary>
+        public static LocalisableString OgpDescriptionGlobal(LocalisableString rank) => new TranslatableString(getKey(@"ogp.description.global"), @"Global {0}", rank);
+
+        /// <summary>
         /// "{0}&#39;s posts"
         /// </summary>
         public static LocalisableString PostsTitle(LocalisableString username) => new TranslatableString(getKey(@"posts.title"), @"{0}'s posts", username);
