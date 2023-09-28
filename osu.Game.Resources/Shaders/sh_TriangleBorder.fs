@@ -13,11 +13,11 @@ layout(std140, set = 0, binding = 0) uniform m_BorderData
 
 layout(location = 0) out vec4 o_Colour;
 
-highp float dstToLine(highp vec2 start, highp vec2 end, highp vec2 pixelPos)
+// Distance to the line with the points (0.0, 1.0) and (0.5, 0.0)
+highp float dstToSideLine(highp vec2 pixelPos)
 {
-    highp float lineLength = distance(end, start);
-    highp vec2 a = (end - start) / lineLength; // Within the scope of this shader line length won't be 0
-    highp vec2 closest = clamp(dot(a, pixelPos - start), 0.0, lineLength) * a + start; // closest point on a line from given position
+    highp vec2 a = vec2(0.4472, -0.8944);
+    highp vec2 closest = dot(a, pixelPos - vec2(0.0, 1.0)) * a + vec2(0.0, 1.0); // closest point on a line from given position
     return distance(closest, pixelPos);
 }
 
@@ -33,9 +33,7 @@ void main(void)
         return;
     }
 
-    highp float dstToBottom = 1.0 - pixelPos.y;
-    highp float dstToSide = dstToLine(vec2(0.0, 1.0), vec2(0.5, 0.0), pixelPos);
-    highp float dst = min(dstToBottom, dstToSide);
+    highp float dst = min(1.0 - pixelPos.y, dstToSideLine(pixelPos));
 
     lowp float alpha = 0.0;
 
