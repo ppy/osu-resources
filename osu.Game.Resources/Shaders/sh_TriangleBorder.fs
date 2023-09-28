@@ -36,7 +36,7 @@ void main(void)
         return;
     }
 
-    highp float dst1 = dstToLine(vec2(0.0, 1.0), vec2(1.0), pixelPos);
+    highp float dst1 = 1.0 - pixelPos.y;
     highp float dst2 = dstToLine(vec2(1.0), vec2(0.5, 0.0), pixelPos);
     highp float dst3 = dstToLine(vec2(0.0, 1.0), vec2(0.5, 0.0), pixelPos);
     highp float dst = min(min(dst1, dst2), dst3);
