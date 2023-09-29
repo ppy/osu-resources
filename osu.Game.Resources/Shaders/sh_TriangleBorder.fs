@@ -13,10 +13,10 @@ layout(std140, set = 0, binding = 0) uniform m_BorderData
 
 layout(location = 0) out vec4 o_Colour;
 
-// Distance to the line with the points (0.0, 1.0) and (0.5, 0.0)
+// Distance to the line which starts at (0.0, 1.0) and ends at (0.5, 0.0)
 highp float dstToSideLine(highp vec2 pixelPos)
 {
-    highp vec2 a = vec2(0.4472, -0.8944);
+    highp vec2 a = vec2(0.4472, -0.8944); // (end - start) / distance(end, start)
     highp vec2 closest = dot(a, pixelPos - vec2(0.0, 1.0)) * a + vec2(0.0, 1.0); // closest point on a line from given position
     return distance(closest, pixelPos);
 }
