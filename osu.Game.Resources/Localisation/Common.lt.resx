@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="back" xml:space="preserve">
+    <value>Atgal</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Kitas</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Baigti</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Įjungtas</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Išjungtas</value>
+  </data>
+  <data name="default" xml:space="preserve">
+    <value>Numatytasis</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Eksportuoti</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Plotis</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Aukštis</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Atsiunčiama...</value>
+  </data>
+  <data name="importing" xml:space="preserve">
+    <value>Importuojama...</value>
+  </data>
+  <data name="deselect_all" xml:space="preserve">
+    <value>Atžymėti visus</value>
+  </data>
+  <data name="select_all" xml:space="preserve">
+    <value>Pažymėti visus</value>
+  </data>
+  <data name="beatmaps" xml:space="preserve">
+    <value>Beatmap'ai</value>
+  </data>
+  <data name="scores" xml:space="preserve">
+    <value>Taškai</value>
+  </data>
+  <data name="skins" xml:space="preserve">
+    <value>Išvaizdos</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Rinkiniai</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Modų ruošinai</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Aprašymas</value>
+  </data>
+  <data name="menu_bar_file" xml:space="preserve">
+    <value>Failas</value>
+  </data>
+  <data name="menu_bar_edit" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="menu_bar_view" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="undo" xml:space="preserve">
+    <value>Anuliuoti</value>
+  </data>
+  <data name="redo" xml:space="preserve">
+    <value>Grąžinti</value>
+  </data>
+  <data name="cut" xml:space="preserve">
+    <value>Iškirpti</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Kopijuoti</value>
+  </data>
+  <data name="paste" xml:space="preserve">
+    <value>Įklijuoti</value>
+  </data>
+  <data name="clone" xml:space="preserve">
+    <value>Klonuoti</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Išeiti</value>
+  </data>
+  <data name="caps_lock_is_active" xml:space="preserve">
+    <value>“Caps lock“ Įjungtas</value>
+  </data>
+  <data name="revert_to_default" xml:space="preserve">
+    <value>Atstatyti numatytasias reikšmes</value>
+  </data>
+  
+</root>

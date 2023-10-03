@@ -155,6 +155,41 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditSignatureUpdate => new TranslatableString(getKey(@"edit.signature.update"), @"update");
 
         /// <summary>
+        /// "If you&#39;re a contributor to osu!&#39;s open-source repositories, linking your GitHub account here will associate your changelog entries with your osu! profile. GitHub accounts with no contribution history to osu! cannot be linked."
+        /// </summary>
+        public static LocalisableString GithubUserInfo => new TranslatableString(getKey(@"github_user.info"), @"If you're a contributor to osu!'s open-source repositories, linking your GitHub account here will associate your changelog entries with your osu! profile. GitHub accounts with no contribution history to osu! cannot be linked.");
+
+        /// <summary>
+        /// "Link GitHub Account"
+        /// </summary>
+        public static LocalisableString GithubUserLink => new TranslatableString(getKey(@"github_user.link"), @"Link GitHub Account");
+
+        /// <summary>
+        /// "GitHub"
+        /// </summary>
+        public static LocalisableString GithubUserTitle => new TranslatableString(getKey(@"github_user.title"), @"GitHub");
+
+        /// <summary>
+        /// "Unlink GitHub Account"
+        /// </summary>
+        public static LocalisableString GithubUserUnlink => new TranslatableString(getKey(@"github_user.unlink"), @"Unlink GitHub Account");
+
+        /// <summary>
+        /// "This GitHub account is already linked to a different user."
+        /// </summary>
+        public static LocalisableString GithubUserErrorAlreadyLinked => new TranslatableString(getKey(@"github_user.error.already_linked"), @"This GitHub account is already linked to a different user.");
+
+        /// <summary>
+        /// "Cannot link GitHub account without any contribution history in osu! repositories."
+        /// </summary>
+        public static LocalisableString GithubUserErrorNoContribution => new TranslatableString(getKey(@"github_user.error.no_contribution"), @"Cannot link GitHub account without any contribution history in osu! repositories.");
+
+        /// <summary>
+        /// "Please verify your primary email on GitHub, then try linking your account again."
+        /// </summary>
+        public static LocalisableString GithubUserErrorUnverifiedEmail => new TranslatableString(getKey(@"github_user.error.unverified_email"), @"Please verify your primary email on GitHub, then try linking your account again.");
+
+        /// <summary>
         /// "receive notifications for new problems on qualified beatmaps of the following modes"
         /// </summary>
         public static LocalisableString NotificationsBeatmapsetDiscussionQualifiedProblem => new TranslatableString(getKey(@"notifications.beatmapset_discussion_qualified_problem"), @"receive notifications for new problems on qualified beatmaps of the following modes");

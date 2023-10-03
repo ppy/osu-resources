@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="get_started" xml:space="preserve">
+    <value>Començar</value>
+  </data>
+  <data name="click_to_resume_first_run_setup_at_any_point" xml:space="preserve">
+    <value>Feu clic per reprendre la configuració de la primera execució en qualsevol punt</value>
+  </data>
+  <data name="first_run_setup_title" xml:space="preserve">
+    <value>Configuració de la primera execució</value>
+  </data>
+  <data name="first_run_setup_description" xml:space="preserve">
+    <value>Configura osu! per adaptar-te a tu</value>
+  </data>
+  <data name="welcome_title" xml:space="preserve">
+    <value>Benvingut</value>
+  </data>
+  <data name="welcome_description" xml:space="preserve">
+    <value>Us donem la benvinguda a la guia de configuració de la primera execució!
+
+Osu! És un joc molt configurable, i submergir-se directament a la configuració de vegades pot ser aclaparador. Aquesta guia us ajudarà a treure les opcions importants del camí per assegurar una gran primera experiència!</value>
+  </data>
+  <data name="ui_scale_description" xml:space="preserve">
+    <value>La mida de la interfície d'usuari d'osu! es pot ajustar al teu gust.</value>
+  </data>
+  <data name="behaviour" xml:space="preserve">
+    <value>Comportament</value>
+  </data>
+  <data name="behaviour_description" xml:space="preserve">
+    <value>S'han implementat alguns nous valors per defecte per a comportaments de joc, amb l'objectiu de millorar l'experiència del joc i fer-lo més accessible per a tothom.
+
+Us recomanem que proveu els nous valors per defecte, però si voleu que les coses se sentin més com a versions clàssiques d'osu!, podeu aplicar fàcilment alguns valors per defecte sans a continuació.</value>
+  </data>
+  <data name="new_defaults" xml:space="preserve">
+    <value>Valors predeterminats nous</value>
+  </data>
+  <data name="classic_defaults" xml:space="preserve">
+    <value>Predeterminat clàssic</value>
+  </data>
+</root>
