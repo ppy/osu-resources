@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gameplay_section_header" xml:space="preserve">
+    <value>Gameplay</value>
+  </data>
+  <data name="beatmap_header" xml:space="preserve">
+    <value>Beatmap</value>
+  </data>
+  <data name="audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="h_u_d" xml:space="preserve">
+    <value>HUD</value>
+  </data>
+  <data name="input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="dim" xml:space="preserve">
+    <value>Dilim ng background</value>
+  </data>
+  <data name="blur" xml:space="preserve">
+    <value>Labo ng background</value>
+  </data>
+  <data name="lighten_during_breaks" xml:space="preserve">
+    <value>Paliwanagin ang playfield habang may pahinga</value>
+  </data>
+  <data name="hud_visibility_mode" xml:space="preserve">
+    <value>Bisibilidad ng HUD overlay</value>
+  </data>
+  <data name="show_health_display_when_cant_fail" xml:space="preserve">
+    <value>Laging ipakita ang health display kahit hindi ka maaaring magbigo</value>
+  </data>
+  
+  <data name="fade_playfield_when_health_low" xml:space="preserve">
+    <value>Ikupas ang playfield ng pula kapag mababa ang health</value>
+  </data>
+  <data name="key_overlay" xml:space="preserve">
+    <value>Lagi ipakita ang key overlay</value>
+  </data>
+  <data name="gameplay_leaderboard" xml:space="preserve">
+    <value>Palaging ipakita ang leaderboard ng gameplay</value>
+  </data>
+  <data name="always_play_first_combo_break" xml:space="preserve">
+    <value>Lagi ipatunog ang unang combo break</value>
+  </data>
+  <data name="score_display_mode" xml:space="preserve">
+    <value>Paraan ng pagpapakita ng iskor</value>
+  </data>
+  <data name="disable_win_key" xml:space="preserve">
+    <value>I-disable ang Windows key habang naglalaro</value>
+  </data>
+  <data name="mods_header" xml:space="preserve">
+    <value>Mga mod</value>
+  </data>
+  <data name="increase_first_object_visibility" xml:space="preserve">
+    <value>Dagdagan ang visibility ng unang bagay tuwing gumagamit ng visual impairment na mga mod</value>
+  </data>
+  <data name="hide_during_gameplay" xml:space="preserve">
+    <value>Itago habang nasa gameplay</value>
+  </data>
+  <data name="always_show_hud" xml:space="preserve">
+    <value>Palagi</value>
+  </data>
+  <data name="never_show_hud" xml:space="preserve">
+    <value>Hindi kailanman</value>
+  </data>
+  <data name="standardised_score_display" xml:space="preserve">
+    <value>Standardised</value>
+  </data>
+  <data name="classic_score_display" xml:space="preserve">
+    <value>Klasiko</value>
+  </data>
+</root>

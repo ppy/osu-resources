@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Resetiraj postavke inputa</value>
+  </data>
+  
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Uključi/isključi postavke</value>
+  </data>
+  
+  <data name="increase_volume" xml:space="preserve">
+    <value>Pojačavanje glasnoće</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Smanjivanje glasnoće</value>
+  </data>
+  
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Preskoči cutscene</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Brzi ponovni pokušaj (drži)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Snimi zaslon</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Uključi/isključi tipke miša tijekom igre</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Natrag</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Povećaj brzinu pomicanja</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Smanji brzinu pomicanja</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Odaberi</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Brzi izlaz (drži)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Sljedeća pjesma</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Prethodna pjesma</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Pokreni / zaustavi</value>
+  </data>
+  
+  <data name="select_previous" xml:space="preserve">
+    <value>Prethodni odabir</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Sljedeći odabir</value>
+  </data>
+  
+  
+  <data name="home" xml:space="preserve">
+    <value>Početna</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Uključi/isključi obavijesti</value>
+  </data>
+  
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Pauziraj gameplay</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>Testiraj gameplay</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Drži za HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value> Nasumičan skin</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Pauziraj / nastavi reprodukciju</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Uključi/isključi sučelje u igri</value>
+  </data>
+  
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Uključi/isključi Odabir Modova</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Poništi sve modove</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Slučajni</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Premotaj</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Opcije beatmape</value>
+  </data>
+  
+  
+  
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>Horizontalno okreni odabrano</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>Vertikalno okreni odabrano</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Povećaj razmak udaljenosti</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Smanji razmak udaljenosti</value>
+  </data>
+  
+  
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Postavi uređivač skina</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>Postavi brojač FPS-a</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Prethodni mjerač zvuka</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Sljedeći mjerač zvuka</value>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+</root>

@@ -83,7 +83,7 @@
     <value>Questo utente non ha fatto nulla degno di nota recentemente!</value>
   </data>
   <data name="rank" xml:space="preserve">
-    <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha ottenuto il posto #{1} su &lt;em&gt;{2}&lt;/em&gt; ({3})</value>
+    <value>{0} ha raggiunto {1} su {2} ({3})</value>
   </data>
   <data name="rank_lost" xml:space="preserve">
     <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha perso il primo posto su &lt;em&gt;{1}&lt;/em&gt; ({2})</value>
@@ -111,5 +111,8 @@
   </data>
   <data name="beatmapset_status.ranked" xml:space="preserve">
     <value>classificata</value>
+  </data>
+  <data name="value.rank" xml:space="preserve">
+    <value>la posizione #{0}</value>
   </data>
 </root>

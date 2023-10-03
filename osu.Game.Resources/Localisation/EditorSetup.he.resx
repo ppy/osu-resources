@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_setup" xml:space="preserve">
+    <value>בניית מפה</value>
+  </data>
+  <data name="beatmap_setup_description" xml:space="preserve">
+    <value>שינוי הגדרות כלליות של המפה שלך</value>
+  </data>
+  <data name="colours_header" xml:space="preserve">
+    <value>צבעים</value>
+  </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>קומבוים של עיגול פגיעה / גלשן</value>
+  </data>
+  <data name="design_header" xml:space="preserve">
+    <value>עיצוב</value>
+  </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>הפעלת ספירה לאחור</value>
+  </data>
+  <data name="countdown_description" xml:space="preserve">
+    <value>אם מופעל, ספירה לאחור של "מוכנים? 3, 2, 1, צאו לדרך!" תתווסף בתחילת המפה, בהנחה שיש מספיק זמן עבורה.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>מהירות ספירה לאחור</value>
+  </data>
+  <data name="countdown_offset_description" xml:space="preserve">
+    <value>אם הספירה לאחור נשמעת לא מתוזמנת, השתמשו בזה כדי לגרום לה להופיע פעימה אחת או יותר לפני.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>הסטת תזמון ספירה לאחור</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>תמיכה במסכים רחבים</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>מאפשר לסטוריבורד להשתמש בכל חלל המסך, במקום להיות מוגבל לאיזור של 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>אזהרת אפילפסיה</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>מומלץ אם הסטוריבורד או סרטון מכילים סצנות עם הבזקי צבע תכופים.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>פסים שחורים במהלך הפסקות</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>מוסיף פסים אופקיים שחורים במהלך הפסקות בשביל מראה קולנועי.</value>
+  </data>
+</root>

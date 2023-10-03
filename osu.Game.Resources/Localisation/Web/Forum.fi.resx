@@ -121,6 +121,9 @@
   <data name="post.posted_at" xml:space="preserve">
     <value>lähetetty {0}</value>
   </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>lähettänyt {0} foorumille {1}</value>
+  </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>Poista viesti</value>
   </data>
@@ -244,11 +247,47 @@
   <data name="topic.jump.previous" xml:space="preserve">
     <value>mene 10 viestiä takaisin</value>
   </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Aiheen lokit</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Selaa aiheen lokeja</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Toiminto</value>
+  </data>
   <data name="topic.logs.columns.date" xml:space="preserve">
     <value>Päivämäärä</value>
   </data>
   <data name="topic.logs.columns.user" xml:space="preserve">
     <value>Käyttäjä</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>lisätty tunniste "{0}"</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>aihe kiinnitetty ja merkitty tiedotteeksi</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>otsikoksi {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>aiheesta {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>aihe kiinnitetty</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>lähettänyt {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>poistettu tunniste "{0}"</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>foorumista {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>aihe irrotettu</value>
   </data>
   <data name="topic.logs.no_results" xml:space="preserve">
     <value>lokeja ei löytynyt...</value>
@@ -259,11 +298,38 @@
   <data name="topic.logs.operations.delete_topic" xml:space="preserve">
     <value>Poistettu aihe</value>
   </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Vaihdettu aiheen otsikkoa</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Muokattu aiheen kyselyä</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Aihe kopioitu</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Tunniste myönnetty</value>
+  </data>
   <data name="topic.logs.operations.lock" xml:space="preserve">
     <value>Lukittu aihe</value>
   </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Yhdistetty viestejä tähän aiheeseen</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Aihe siirretty</value>
+  </data>
   <data name="topic.logs.operations.pin" xml:space="preserve">
     <value>Kiinnitetty aihe</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Muokattu viestiä</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Viesti palautettu</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Aihe palautettu</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Peruuta</value>

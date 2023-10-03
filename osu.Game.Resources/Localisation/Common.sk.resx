@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="back" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Ďalej</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Dokončiť</value>
+  </data>
+  <data name="enabled" xml:space="preserve">
+    <value>Povolený</value>
+  </data>
+  <data name="disabled" xml:space="preserve">
+    <value>Zakázaný</value>
+  </data>
+  <data name="default" xml:space="preserve">
+    <value>Predvolený</value>
+  </data>
+  
+  <data name="width" xml:space="preserve">
+    <value>Šírka</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Výška</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Sťahuje sa...</value>
+  </data>
+  <data name="importing" xml:space="preserve">
+    <value>Importuje sa...</value>
+  </data>
+  <data name="deselect_all" xml:space="preserve">
+    <value>Zrušiť výber</value>
+  </data>
+  <data name="select_all" xml:space="preserve">
+    <value>Vybrať všetko</value>
+  </data>
+  <data name="beatmaps" xml:space="preserve">
+    <value>Beatmapy</value>
+  </data>
+  <data name="scores" xml:space="preserve">
+    <value>Skóre</value>
+  </data>
+  <data name="skins" xml:space="preserve">
+    <value>Skiny</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Kolekcie</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Prednastavenia módov</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Meno</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="menu_bar_file" xml:space="preserve">
+    <value>Súbor</value>
+  </data>
+  <data name="menu_bar_edit" xml:space="preserve">
+    <value>Upraviť</value>
+  </data>
+  <data name="menu_bar_view" xml:space="preserve">
+    <value>Zobraziť</value>
+  </data>
+  
+  
+  <data name="cut" xml:space="preserve">
+    <value>Vystrihnúť</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Kopírovať</value>
+  </data>
+  <data name="paste" xml:space="preserve">
+    <value>Prilepiť</value>
+  </data>
+  <data name="clone" xml:space="preserve">
+    <value>Klonovať</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Odísť</value>
+  </data>
+  
+  <data name="revert_to_default" xml:space="preserve">
+    <value>Vrátiť späť na predvolené</value>
+  </data>
+  
+</root>

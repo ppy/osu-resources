@@ -182,7 +182,7 @@
     <value>Miembros por modo de juego</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
-    <value>Su cuenta no ha sido utilizada en mucho tiempo.</value>
+    <value>Tu cuenta no ha sido usada en mucho tiempo.</value>
   </data>
   <data name="login._" xml:space="preserve">
     <value>Iniciar sesión</value>
@@ -194,7 +194,7 @@
     <value>Iniciando sesión...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>El inicio de sesión con correo está actualmente desactivado. Use el nombre de usuario en su lugar.</value>
+    <value>El inicio de sesión con correo electrónico está actualmente desactivado. Por favor, usa el nombre de usuario en su lugar.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Inicio de sesión incorrecto</value>
@@ -231,6 +231,15 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(los osu!supporters tendrán acceso pronto)</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Clasificación ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>Clasificación nacional {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Clasificación global {0}</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>Publicaciones de {0}</value>
@@ -281,7 +290,7 @@
     <value>Utiliza múltiples cuentas</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
-    <value>Insulta a mí o a otros</value>
+    <value>Insultándome/insultando a otros</value>
   </data>
   <data name="report.options.spam" xml:space="preserve">
     <value>Envía mensajes spam</value>
@@ -296,13 +305,13 @@
     <value>Otros (indicar abajo)</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
-    <value>¡Su cuenta ha sido restringida!</value>
+    <value>¡Tu cuenta ha sido restringida!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Mientras estás restringido, no podrás interactuar con otros jugadores y tus puntuaciones solo las podrás ver tú. Esto es, normalmente, el resultado de un proceso automatizado, y se levanta normalmente dentro de 24 horas. Si deseas apelar a tu restricción, por favor &lt;a href="mailto{0}@ppy.sh"&gt;contacta con el soporte&lt;/a&gt;.</value>
+    <value>Mientras estás restringido, no podrás interactuar con otros jugadores y tus puntuaciones solo las podrás ver tú. Normalmente, este es el resultado de un proceso automatizado, y se levanta normalmente dentro de 24 horas. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
-    <value>Consulte esta página para obtener más información.</value>
+    <value>Consulta esta página para obtener más información.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} años</value>
@@ -329,7 +338,7 @@
     <value>Actualmente en línea</value>
   </data>
   <data name="show.missingtext" xml:space="preserve">
-    <value>¡Es posible que hayas cometido un error tipográfico! (o el usuario puede haber sido baneado)</value>
+    <value>¡Es posible que hayas cometido un error tipográfico! (o el usuario puede haber sido restringido)</value>
   </data>
   <data name="show.origin_country" xml:space="preserve">
     <value>De {0}</value>
@@ -473,7 +482,7 @@
     <value>precisión: {0}</value>
   </data>
   <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
-    <value>Jugadas recientes (24 h)</value>
+    <value>Jugadas recientes (24 h)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
     <value>Historial de repeticiones vistas</value>
@@ -482,7 +491,7 @@
     <value>Repeticiones vistas</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
-    <value>Historial de Kudosu Reciente</value>
+    <value>Historial de Kudosu reciente</value>
   </data>
   <data name="show.extra.kudosu.title" xml:space="preserve">
     <value>Kudosu!</value>
@@ -530,7 +539,7 @@
     <value>Se le negó kudosu por {0} por la publicación {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Según la contribución que el usuario ha hecho al modding de mapas. Vea {0} para más información.</value>
+    <value>Según la contribución que el usuario ha hecho a la moderación de mapas. Consulta {0} para más información.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>esta página</value>
@@ -647,13 +656,13 @@
     <value>por {0}</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
-    <value>Restringir</value>
+    <value>Prohibir</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Silenciado</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
-    <value>Prohibición de torneo</value>
+    <value>Restricción de torneos</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Nota</value>
@@ -740,7 +749,7 @@
     <value>Medallas</value>
   </data>
   <data name="show.stats.play_count" xml:space="preserve">
-    <value>Conteo de jugadas</value>
+    <value>Número de jugadas</value>
   </data>
   <data name="show.stats.play_time" xml:space="preserve">
     <value>Tiempo de juego total</value>
@@ -773,7 +782,7 @@
     <value>Mapas clasificados</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
-    <value>Actualmente está silenciado.</value>
+    <value>Actualmente estás silenciado.</value>
   </data>
   <data name="silenced_banner.message" xml:space="preserve">
     <value>Es posible que algunas acciones no estén disponibles.</value>

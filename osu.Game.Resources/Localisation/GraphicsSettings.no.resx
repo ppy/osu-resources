@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="graphics_section_header" xml:space="preserve">
+    <value>Grafikk</value>
+  </data>
+  <data name="renderer_header" xml:space="preserve">
+    <value>Renderer</value>
+  </data>
+  
+  <data name="frame_limiter" xml:space="preserve">
+    <value>FPS-begrensing</value>
+  </data>
+  <data name="threading_mode" xml:space="preserve">
+    <value>Tråd-tilstand</value>
+  </data>
+  <data name="show_fps" xml:space="preserve">
+    <value>Vis FPS</value>
+  </data>
+  <data name="layout_header" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="screen_mode" xml:space="preserve">
+    <value>Skjermmodus</value>
+  </data>
+  <data name="resolution" xml:space="preserve">
+    <value>Oppløsning</value>
+  </data>
+  <data name="display" xml:space="preserve">
+    <value>Skjerm</value>
+  </data>
+  <data name="ui_scaling" xml:space="preserve">
+    <value>UI-skalering</value>
+  </data>
+  <data name="screen_scaling" xml:space="preserve">
+    <value>Skjerm-skalering</value>
+  </data>
+  <data name="horizontal_position" xml:space="preserve">
+    <value>Horisontal posisjon</value>
+  </data>
+  <data name="vertical_position" xml:space="preserve">
+    <value>Vertikal posisjon</value>
+  </data>
+  <data name="horizontal_scale" xml:space="preserve">
+    <value>Horisontal skalering</value>
+  </data>
+  <data name="vertical_scale" xml:space="preserve">
+    <value>Vertikal skalering</value>
+  </data>
+  <data name="not_fullscreen_note" xml:space="preserve">
+    <value>Kjøring uten fullskjerm vil øke inndataforsinkelsen din!</value>
+  </data>
+  <data name="detail_settings_header" xml:space="preserve">
+    <value>Detaljeinnstillinger</value>
+  </data>
+  <data name="storyboard_video" xml:space="preserve">
+    <value>Storyboard / video</value>
+  </data>
+  <data name="combo_colour_normalisation" xml:space="preserve">
+    <value>Combofarge-normalisering</value>
+  </data>
+  <data name="hit_lighting" xml:space="preserve">
+    <value>Treffbelysning</value>
+  </data>
+  <data name="screenshots" xml:space="preserve">
+    <value>Skjermbilder</value>
+  </data>
+  <data name="screenshot_format" xml:space="preserve">
+    <value>Skjermbilde-format</value>
+  </data>
+  <data name="show_cursor_in_screenshots" xml:space="preserve">
+    <value>Vis meny-musepeker i skjermbilder</value>
+  </data>
+  <data name="video_header" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="use_hardware_acceleration" xml:space="preserve">
+    <value>Bruk hardware-akselerasjon</value>
+  </data>
+  <data name="jpg_web_friendly" xml:space="preserve">
+    <value>JPG (nett-vennlig)</value>
+  </data>
+  <data name="png_lossless" xml:space="preserve">
+    <value>PNG (tapsfri)</value>
+  </data>
+  
+</root>
