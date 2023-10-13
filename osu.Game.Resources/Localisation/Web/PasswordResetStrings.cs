@@ -10,11 +10,6 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.PasswordReset";
 
         /// <summary>
-        /// "Cancel"
-        /// </summary>
-        public static LocalisableString ButtonCancel => new TranslatableString(getKey(@"button.cancel"), @"Cancel");
-
-        /// <summary>
         /// "Resend verification email"
         /// </summary>
         public static LocalisableString ButtonResend => new TranslatableString(getKey(@"button.resend"), @"Resend verification email");

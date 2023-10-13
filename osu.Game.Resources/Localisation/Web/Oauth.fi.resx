@@ -79,17 +79,38 @@
   <data name="authorized_clients.owned_by" xml:space="preserve">
     <value>Omistaa {0}</value>
   </data>
+  <data name="authorized_clients.none" xml:space="preserve">
+    <value>Ei clienttejä</value>
+  </data>
   <data name="authorized_clients.revoked.false" xml:space="preserve">
     <value>Kumoa käyttöoikeudet</value>
   </data>
   <data name="authorized_clients.revoked.true" xml:space="preserve">
     <value>Pääsy Peruutettu</value>
   </data>
+  <data name="client.id" xml:space="preserve">
+    <value>Clientin ID</value>
+  </data>
   <data name="client.name" xml:space="preserve">
     <value>Sovelluksen Nimi</value>
   </data>
   <data name="client.redirect" xml:space="preserve">
     <value>Sovelluksen Takaisinsoitto URL{0}</value>
+  </data>
+  <data name="client.reset" xml:space="preserve">
+    <value>Nollaa clientin salaisuus</value>
+  </data>
+  <data name="client.reset_failed" xml:space="preserve">
+    <value>Clientin salaisuuden nollaaminen epäonnistui</value>
+  </data>
+  <data name="client.secret" xml:space="preserve">
+    <value>Clientin salaisuus</value>
+  </data>
+  <data name="client.secret_visible.false" xml:space="preserve">
+    <value>Näytä clientin salaisuus</value>
+  </data>
+  <data name="client.secret_visible.true" xml:space="preserve">
+    <value>Piilota clientin salaisuus</value>
   </data>
   <data name="new_client.header" xml:space="preserve">
     <value>Rekisteröi uusi OAuth-sovellus</value>
@@ -103,8 +124,17 @@
   <data name="new_client.terms_of_use.link" xml:space="preserve">
     <value>Käyttöehdot</value>
   </data>
+  <data name="own_clients.confirm_delete" xml:space="preserve">
+    <value>Haluatko varmasti poistaa tämän clientin?</value>
+  </data>
+  <data name="own_clients.confirm_reset" xml:space="preserve">
+    <value>Haluatko varmasti nollata clientin salaisuuden? Tämä kumoaa kaikki olemassa olevat tokenit.</value>
+  </data>
   <data name="own_clients.new" xml:space="preserve">
     <value>Uusi OAuth-Sovellus</value>
+  </data>
+  <data name="own_clients.none" xml:space="preserve">
+    <value>Ei clienttejä</value>
   </data>
   <data name="own_clients.revoked.false" xml:space="preserve">
     <value>Poista</value>

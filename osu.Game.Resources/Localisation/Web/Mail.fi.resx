@@ -79,6 +79,9 @@
   <data name="common.report" xml:space="preserve">
     <value>Vastaa tähän sähköpostiin VÄLITTÖMÄSTI, jos et ole pyytänyt tätä muutosta.</value>
   </data>
+  <data name="common.ignore" xml:space="preserve">
+    <value>Jos et pyytänyt tätä, voit turvallisesti jättää tämän sähköpostin huomiotta.</value>
+  </data>
   <data name="donation_thanks.benefit_more" xml:space="preserve">
     <value>Lisää etuja tukijoille tulee myös tulemaan aikaa myöten!</value>
   </data>
@@ -117,6 +120,9 @@
   </data>
   <data name="forum_new_reply.subject" xml:space="preserve">
     <value>[osu!] Uusi vastaus aiheessa "{0}"</value>
+  </data>
+  <data name="forum_new_reply.unwatch" xml:space="preserve">
+    <value>Jos et enää halua seurata tätä aihetta, voit napsauttaa "Lopeta aiheen seuraaminen" -linkkiä, joka löytyy yllämainitun aiheen alareunasta tai aihekohtaisten tilausten hallintasivulta:</value>
   </data>
   <data name="forum_new_reply.visit" xml:space="preserve">
     <value>Siirry viimeiseen vastaukseen käyttämällä seuraavaa linkkiä:</value>
@@ -157,11 +163,17 @@
   <data name="supporter_gift.anonymous_gift_maybe_not" xml:space="preserve">
     <value>Mutta taidat jo tietää kuka se mahtaa olla ;).</value>
   </data>
+  <data name="supporter_gift.duration" xml:space="preserve">
+    <value>Kiitos hänen, sinulla on pääsy osu!directiin ja muihin osu!tukija-etuihin seuraavan {0} ajan.</value>
+  </data>
   <data name="supporter_gift.features" xml:space="preserve">
     <value>Voit saada lisätietoja näistä ominaisuuksista täältä:</value>
   </data>
   <data name="supporter_gift.gifted" xml:space="preserve">
     <value>Joku on juuri antanut sinulle osu! -tukijan!</value>
+  </data>
+  <data name="supporter_gift.gift_message" xml:space="preserve">
+    <value>Henkilö, joka lahjoitti sinulle tämän merkin, jätti sinulle viestin:</value>
   </data>
   <data name="supporter_gift.subject" xml:space="preserve">
     <value>Sinulle on lahjoitettu osu!tukijatagi!</value>
@@ -189,6 +201,9 @@
   </data>
   <data name="user_force_reactivation.subject" xml:space="preserve">
     <value>osu! Tilin Uudelleenaktivointi Vaaditaan</value>
+  </data>
+  <data name="user_notification_digest.new" xml:space="preserve">
+    <value>Tiedoksesi vain, että on tullut uusia päivityksiä kohteisiin, joita seuraat.</value>
   </data>
   <data name="user_notification_digest.settings" xml:space="preserve">
     <value>Muuta sähköposti-ilmoitusten asetuksia:</value>
