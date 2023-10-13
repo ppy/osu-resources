@@ -65,6 +65,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexFormOnlyUnresolved => new TranslatableString(getKey(@"index.form.only_unresolved"), @"Show only unresolved discussions");
 
         /// <summary>
+        /// "Show review posts"
+        /// </summary>
+        public static LocalisableString IndexFormShowReviewEmbeds => new TranslatableString(getKey(@"index.form.show_review_embeds"), @"Show review posts");
+
+        /// <summary>
         /// "Message types"
         /// </summary>
         public static LocalisableString IndexFormTypes => new TranslatableString(getKey(@"index.form.types"), @"Message types");
