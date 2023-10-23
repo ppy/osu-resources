@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="achievement" xml:space="preserve">
-    <value>¡&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha desbloqueado el logro "&lt;strong&gt;{1}&lt;/strong&gt;"!</value>
+    <value>¡&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha desbloqueado el logro «&lt;strong&gt;{1}&lt;/strong&gt;»!</value>
   </data>
   <data name="beatmap_playcount" xml:space="preserve">
     <value>¡{0} ha sido jugado {1} veces!</value>
@@ -77,13 +77,13 @@
     <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha actualizado el mapa "&lt;em&gt;{1}&lt;/em&gt;"</value>
   </data>
   <data name="beatmapset_upload" xml:space="preserve">
-    <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha enviado un nuevo mapa "{1}"</value>
+    <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha enviado un nuevo mapa «{1}»</value>
   </data>
   <data name="empty" xml:space="preserve">
     <value>¡Este usuario no ha hecho nada notable recientemente!</value>
   </data>
   <data name="rank" xml:space="preserve">
-    <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; logró el puesto #{1} en &lt;em&gt;{2}&lt;/em&gt; ({3})</value>
+    <value>{0} logró el {1} en {2} ({3})</value>
   </data>
   <data name="rank_lost" xml:space="preserve">
     <value>&lt;strong&gt;&lt;em&gt;{0}&lt;/em&gt;&lt;/strong&gt; ha perdido el primer puesto en &lt;em&gt;{1}&lt;/em&gt; ({2})</value>
@@ -113,6 +113,6 @@
     <value>clasificado</value>
   </data>
   <data name="value.rank" xml:space="preserve">
-    <value>clasificación #{0}</value>
+    <value>puesto #{0}</value>
   </data>
 </root>

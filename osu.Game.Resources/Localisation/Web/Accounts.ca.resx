@@ -139,6 +139,27 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>actualitzar</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Si ets un col·laborador dels repositoris de codi obert d'osu!, enllaçant el teu compte de GitHub aquí, s'associarà les entrades del registre de canvis amb el teu perfil d'osu!. Comptes de GitHub sense historial de contribucions a osu! no es poden enllaçar.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Enllaça el compte de GitHub</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Desenllaça el compte de GitHub</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Aquest compte de GitHub ja està enllaçat a un usuari diferent.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>No es pot enllaçar el compte de GitHub sense cap historial de contribucions als repositoris d'osu!</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Verifica el teu correu electrònic principal a GitHub i torna a provar d'enllaçar el teu compte.</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>rebre notificacions de nous problemes en beatmaps qualificats dels següents modes</value>
   </data>
@@ -203,7 +224,7 @@
     <value>Opcions</value>
   </data>
   <data name="options.beatmapset_download._" xml:space="preserve">
-    <value>tipus de baixada de mapa predeterminat</value>
+    <value>tipus de baixada de beatmap predeterminat</value>
   </data>
   <data name="options.beatmapset_download.all" xml:space="preserve">
     <value>amb vídeo si està disponible</value>
