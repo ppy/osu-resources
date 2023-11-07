@@ -82,6 +82,12 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>E-mail</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Neem contact op met {0} als je het e-mailadres wilt updaten.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>account support team</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -109,6 +115,12 @@
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profiel</value>
   </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Het lijkt erop dat het land van uw account niet overeenkomt met uw land van verblijf. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>Bijwerken naar {0}</value>
+  </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>huidige locatie</value>
   </data>
@@ -126,6 +138,27 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>bijwerken</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Als je een bijdrager bent aan osu!'s open-source repositories, door het koppelen van je GitHub account hier zal je changelog items koppelen aan je osu! profiel. GitHub accounts zonder bijdrage geschiedenis aan osu! kunnen niet worden gekoppeld.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>GitHub-account koppelen</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>GitHub-account ontkoppelen</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Dit GitHub account is al gekoppeld aan een andere gebruiker.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Kan GitHub account niet koppelen zonder bijdragegeschiedenis in osu! repositories.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Verifieer je primaire e-mailadres op GitHub, probeer dan je account opnieuw te koppelen.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>ontvang meldingen voor nieuw probleem op gekwalificeerde beatmaps van de volgende modes</value>

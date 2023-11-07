@@ -130,6 +130,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexNoComments => new TranslatableString(getKey(@"index.no_comments"), @"no comments found...");
 
         /// <summary>
+        /// "comment by {0}"
+        /// </summary>
+        public static LocalisableString OgpTitle(LocalisableString user) => new TranslatableString(getKey(@"ogp.title"), @"comment by {0}", user);
+
+        /// <summary>
         /// "Edit the comment here"
         /// </summary>
         public static LocalisableString PlaceholderEdit => new TranslatableString(getKey(@"placeholder.edit"), @"Edit the comment here");
