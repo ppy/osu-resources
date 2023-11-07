@@ -300,6 +300,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoginBetaSmall => new TranslatableString(getKey(@"login.beta.small"), @"(osu!supporters will get in soon)");
 
         /// <summary>
+        /// "Beatmaps: {0}"
+        /// </summary>
+        public static LocalisableString OgpModdingDescription(LocalisableString counts) => new TranslatableString(getKey(@"ogp.modding_description"), @"Beatmaps: {0}", counts);
+
+        /// <summary>
+        /// "User doesn&#39;t have any beatmaps..."
+        /// </summary>
+        public static LocalisableString OgpModdingDescriptionEmpty => new TranslatableString(getKey(@"ogp.modding_description_empty"), @"User doesn't have any beatmaps...");
+
+        /// <summary>
         /// "Rank ({0}): {1} | {2}"
         /// </summary>
         public static LocalisableString OgpDescriptionDefault(LocalisableString ruleset, LocalisableString global, LocalisableString country) => new TranslatableString(getKey(@"ogp.description._"), @"Rank ({0}): {1} | {2}", ruleset, global, country);
@@ -493,11 +503,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Plays with {0}"
         /// </summary>
         public static LocalisableString ShowPlaysWith(LocalisableString devices) => new TranslatableString(getKey(@"show.plays_with"), @"Plays with {0}", devices);
-
-        /// <summary>
-        /// "{0}&#39;s profile"
-        /// </summary>
-        public static LocalisableString ShowTitle(LocalisableString username) => new TranslatableString(getKey(@"show.title"), @"{0}'s profile", username);
 
         /// <summary>
         /// "Posted {0}"

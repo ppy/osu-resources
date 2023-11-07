@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid" xml:space="preserve">
+    <value>Virheellinen {0} määritelty.</value>
+  </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} ei voi olla negatiivinen.</value>
   </data>
@@ -66,6 +69,9 @@
   </data>
   <data name="too_long" xml:space="preserve">
     <value>{0} ylittää maksimipituuden - voi olla enintään {1} merkkiä.</value>
+  </data>
+  <data name="url" xml:space="preserve">
+    <value>Syötä kelvollinen URL-osoite.</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>Tarkistus ei täsmää.</value>
@@ -87,6 +93,15 @@
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Keskustelu on lukittu.</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.message_type" xml:space="preserve">
+    <value>Viestin tyyppi</value>
+  </data>
+  <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
+    <value>Aikaleima</value>
+  </data>
+  <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
+    <value>Tämän beatmapin keskustelu on lukittu eikä sitä voi hurrata</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Sinun on kirjauduttava sisään hurrataksesi.</value>
@@ -115,8 +130,20 @@
   <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
     <value>Aloitusviestiä ei voida poistaa.</value>
   </data>
+  <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
+    <value>Viesti</value>
+  </data>
   <data name="comment.deleted_parent" xml:space="preserve">
     <value>Poistettuun kommenttiin ei voida vastata.</value>
+  </data>
+  <data name="comment.top_only" xml:space="preserve">
+    <value>Kommentin vastauksen kiinnitys ei ole sallittu.</value>
+  </data>
+  <data name="comment.attributes.message" xml:space="preserve">
+    <value>Viesti</value>
+  </data>
+  <data name="follow.invalid" xml:space="preserve">
+    <value>Virheellinen {0} määritelty.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
     <value>Vain ominaisuutta voi äänestää.</value>
@@ -128,10 +155,10 @@
     <value>Virheellinen valinta määritelty.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Beatmapin metatietoviestiä ei voida poistaa.</value>
+    <value>Rytmikartan kuvailutietoviestiä ei voida poistaa.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Beatmapin metatietoviestiä ei voida muokata.</value>
+    <value>Rytmikartan kuvailutietoviestiä ei voida muokata.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
     <value>Aloitusviestiä ei voi poistaa</value>
@@ -141,6 +168,9 @@
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Sinun vastauksesi sisältää ainoastaan lainauksen.</value>
+  </data>
+  <data name="forum.post.attributes.post_text" xml:space="preserve">
+    <value>Varsinainen teksti</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
     <value>Aiheen otsikko</value>
@@ -174,6 +204,21 @@
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Enemmän valintoja kuin sallittu.</value>
+  </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>Käyttäjää kohti annetaan tällä hetkellä vain yksi API-avain.</value>
+  </data>
+  <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
+    <value>rajapinta-avain</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
+    <value>sovelluksen nimi</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
+    <value>sovelluksen url</value>
+  </data>
+  <data name="oauth.client.too_many" xml:space="preserve">
+    <value>Sallittujen OAuth-sovellusten maksimimäärä ylittyi.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
     <value>Syötä kelvollinen URL-osoite.</value>
@@ -276,6 +321,9 @@
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Tämä on jo käyttäjänimesi, höpsö!</value>
+  </data>
+  <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
+    <value>Rankattuja beatmappeja ei voi raportoida</value>
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Et ole tällä kanavalla.</value>

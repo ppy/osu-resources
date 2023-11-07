@@ -139,6 +139,27 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>päivitä</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Jos osallistut osu!n kehitykseen, GitHub-tilin linkittäminen tässä yhdistää muutoslokin merkintäsi osu!-profiiliisi. GitHub-tilit, joilla ei ole osallistumishistoriaa osu!un, ei voida linkittää.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Linkitä GitHub-tili</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Poista GitHub-tilin linkitys</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Tämä GitHub-tili on jo linkitetty eri käyttäjälle.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>GitHub-tiliä ei voi linkittää, jos sillä ei ole muutoshistoriaa osu!lle.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Ole hyvä ja vahvista ensisijainen sähköpostiosoitteesi GitHubissa ja yritä sitten yhdistää tilisi uudelleen.</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>vastaanota ilmoituksia uudesta ongelmasta seuraavien tilojen hyväksytyissä beatmapeissa</value>
   </data>
@@ -197,7 +218,7 @@
     <value>piilota varoitukset sopimattomasta sisällöstä beatmapeissa</value>
   </data>
   <data name="options.beatmapset_title_show_original" xml:space="preserve">
-    <value>näytä beatmap-metadata alkuperäisellä kielellä</value>
+    <value>näytä rytmikarttojen kuvailutiedot alkuperäisellä kielellä</value>
   </data>
   <data name="options.title" xml:space="preserve">
     <value>Asetukset</value>
