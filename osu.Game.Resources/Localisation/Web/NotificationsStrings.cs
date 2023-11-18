@@ -175,14 +175,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionPostNewCompactEmpty(LocalisableString username) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty"), @"New post by {0}", username);
 
         /// <summary>
-        /// "New review on &quot;{0}&quot; by {1} containing problems: {2}, suggestions: {3}, praises: {4}"
+        /// "New review on &quot;{0}&quot; by {1} containing {2}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNew(LocalisableString title, LocalisableString username, LocalisableString problems, LocalisableString suggestions, LocalisableString praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new"), @"New review on ""{0}"" by {1} containing problems: {2}, suggestions: {3}, praises: {4}", title, username, problems, suggestions, praises);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNew(LocalisableString title, LocalisableString username, LocalisableString reviewCounts) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new"), @"New review on ""{0}"" by {1} containing {2}", title, username, reviewCounts);
 
         /// <summary>
-        /// "New review by {0} containing problems: {1}, suggestions: {2}, praises: {3}"
+        /// "New review by {0} containing {1}"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNewCompact(LocalisableString username, LocalisableString problems, LocalisableString suggestions, LocalisableString praises) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact"), @"New review by {0} containing problems: {1}, suggestions: {2}, praises: {3}", username, problems, suggestions, praises);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionReviewNewCompact(LocalisableString username, LocalisableString reviewCounts) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact"), @"New review by {0} containing {1}", username, reviewCounts);
 
         /// <summary>
         /// "Discussion on &quot;{0}&quot; has been unlocked"
@@ -193,6 +193,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Discussion was unlocked"
         /// </summary>
         public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionBeatmapsetDiscussionUnlockCompact => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact"), @"Discussion was unlocked");
+
+        /// <summary>
+        /// "{0} praise|{0} praises"
+        /// </summary>
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountPraises(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.praises"), @"{0} praise|{0} praises", countDelimited);
+
+        /// <summary>
+        /// "{0} problem|{0} problems"
+        /// </summary>
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountProblems(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.problems"), @"{0} problem|{0} problems", countDelimited);
+
+        /// <summary>
+        /// "{0} suggestion|{0} suggestions"
+        /// </summary>
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountSuggestions(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.suggestions"), @"{0} suggestion|{0} suggestions", countDelimited);
 
         /// <summary>
         /// "Qualified Beatmap problem"

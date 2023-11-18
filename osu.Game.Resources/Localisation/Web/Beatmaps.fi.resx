@@ -65,7 +65,7 @@
     <value>salli kudosu</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
-    <value>Beatmap-sivu</value>
+    <value>Rytmikarttasivu</value>
   </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>poista</value>
@@ -92,7 +92,7 @@
     <value>Tämä vaikeustaso on poistettu, joten siitä ei voi enää keskustella.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>Keskustelu tällä beatmapille on poistettu käytöstä.</value>
+    <value>Tämän rytmikartan keskustelu on poistettu käytöstä.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
     <value>Keskusteluun ei voi osallistua mykistettynä.</value>
@@ -317,19 +317,19 @@
     <value>Kaikki</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Tämä beatmappi hyväksyttiiin {0}!</value>
+    <value>Tämä rytmikartta hyväksyttiiin {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>Tätä beatmappia ei ole päivitetty sitten {0} ja sen tekijä on todennäköisesti hylännyt sen...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Tämä beatmap lisättiin Rakastettuihin {0}!</value>
+    <value>Tämä rytmikartta lisättiin rakastettuihin {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Tämä beatmap hyväksyttiin {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Huomaa: Tämän beatmapin tekijä on merkannut sen keskeneräiseksi.</value>
+    <value>Huomaa: Tämän rytmikartan tekijä on merkannut sen keskeneräiseksi.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Ei vielä vastaääniä</value>
@@ -353,10 +353,10 @@
     <value>Oletko varma? Tämä toiminto käyttää yhden jäljelläolevista hurrauspisteistä eikä se ole peruutettavissa. Hurrauksia jäljellä {0}.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Hurraa tätä beatmappia tuodaksesi sille näkyvyyttä suositusta- ja hyväksymistä varten!</value>
+    <value>Hurraa tätä rytmikarttaa tuodaksesi sille näkyvyyttä ehdollepanoa ja rankkausta varten!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Kirjaudu sisään ja hurraa tätä beatmappia tuodaksesi sille näkyvyyttä suositusta- ja hyväksymistä varten!</value>
+    <value>Kirjaudu sisään ja hurraa tätä rytmikarttaa tuodaksesi sille näkyvyyttä ehdollepanoa ja rankkausta varten!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>Saat uuden hurrauksen {0}.</value>
@@ -377,10 +377,10 @@
     <value>Jätä Palautetta</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
-    <value>Olet jo pannut ehdolle tämän beatmapin.</value>
+    <value>Olet jo pannut ehdolle tämän rytmikartan.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>Et voi panna ehdolle tähän pelimuotoon kuuluvia beatmappeja.</value>
+    <value>Et voi panna ehdolle tähän pelimuotoon kuuluvia rytmikarttoja.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Poista</value>
@@ -395,7 +395,7 @@
     <value>Hylkäyksen syy?</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>Hylättiin {0} sitten ({1}).</value>
+    <value>Epäkelpuutettu {0} ({1}).</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>ei määriteltyä syytä</value>
@@ -413,25 +413,25 @@
     <value>Valitse rakastetun vaikeustaso</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>Rakasta tätä beatmappia?</value>
+    <value>Rakasta tätä rytmikarttaa?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>Suosittele</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Suosittele tätä beatmappia?</value>
+    <value>Ehdollepane tämä rytmikartta?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>suositellut {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>Ei ole riittävästi hypetystä.</value>
+    <value>Ei ole riittävästi hurrauksia.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Poista rakastetuista beatmapeista</value>
+    <value>Poista rakastetuista rytmikartoista</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Rakastetuista beatmapeista poistamisen syy:</value>
+    <value>Rakastetuista rytmikartoista poistamisen syy:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Suositukset: {0}/{1}</value>
@@ -446,7 +446,7 @@
     <value>Vanhat ongelmat on ratkaistava ensin.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Tämän beatmapin arvioidaan tulla hyväksytyksi {0}, jos mitään ongelmia ei löydy. Se on #{1} {2}.</value>
+    <value>Tämä kartta tulee arvion perusteella rankatuksi{0}, jos ongelmia ei löydy. Se on {1}. {2}.</value>
   </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>{0}</value>
@@ -554,7 +554,7 @@
     <value>osu!supporter-tagi</value>
   </data>
   <data name="general.converts" xml:space="preserve">
-    <value>Sisällytä muunnetut beatmapit</value>
+    <value>Sisällytä automaattisesti muunnetut rytmikartat</value>
   </data>
   <data name="general.featured_artists" xml:space="preserve">
     <value>Esitellyt artistit</value>
@@ -566,7 +566,7 @@
     <value>Suositeltu vaikeustaso</value>
   </data>
   <data name="general.spotlights" xml:space="preserve">
-    <value>Kohdevaloissa olevat beatmapit</value>
+    <value>Kohdevaloissa olevat rytmikartat</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Kaikki</value>

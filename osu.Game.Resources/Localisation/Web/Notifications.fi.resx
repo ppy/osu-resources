@@ -86,7 +86,7 @@
     <value>kaikki</value>
   </data>
   <data name="action_type.beatmapset" xml:space="preserve">
-    <value>beatmapit</value>
+    <value>rytmikartat</value>
   </data>
   <data name="action_type.build" xml:space="preserve">
     <value>rakennuskerrat</value>
@@ -110,7 +110,7 @@
     <value>profiili</value>
   </data>
   <data name="filters.beatmapset" xml:space="preserve">
-    <value>beatmapit</value>
+    <value>rytmikartat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>foorumi</value>
@@ -125,31 +125,31 @@
     <value>chatti</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
-    <value>Beatmappi</value>
+    <value>Rytmikartta</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
     <value>Vieraan vaikeustaso</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Omistat nyt vaikeustason "{0}" beatmapille "{1}"</value>
+    <value>Omistat nyt vaikeustason "{0}" rytmikartassa "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
     <value>Omistat nyt vaikeustason "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
-    <value>Beatmap-keskustelut</value>
+    <value>Rytmikarttakeskustelu</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Keskustelu beatmapissa "{0}" on lukittu</value>
+    <value>Keskustelu kohteessa "{0}" on lukittu</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>Keskustelu on lukittu</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>Uusi viesti beatmapissa "{0}" käyttäjältä {1}: "{2}"</value>
+    <value>Uusi viesti kohteessa "{0}" käyttäjältä {1}: "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
-    <value>Uusi viesti beatmapissa "{0}" käyttäjältä {1}</value>
+    <value>Uusi viesti kohteessa "{0}" käyttäjältä {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
     <value>Uusi viesti käyttäjältä {0}: "{1}"</value>
@@ -158,7 +158,7 @@
     <value>Uusi viesti käyttäjältä {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Uusi arvostelu beatmapissa "{0}" käyttäjältä {1} sisältäen ongelmia: {2}, ehdotuksia: {3}, kehuja: {4}</value>
+    <value>Uusi arvostelu rytmikartassa "{0}" käyttäjältä {1} sisältäen ongelmia: {2}, ehdotuksia: {3}, kehuja: {4}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
     <value>Uusi arvostelu käyttäjältä {0} sisältäen ongelmia: {1}, ehdotuksia: {2}, kehuja: {3}</value>
@@ -170,19 +170,19 @@
     <value>Keskustelu on avattu</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>Esihyväksytyn Beatmapin ongelma</value>
+    <value>Kelpuutetun rytmikartan ongelma</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>{0} ilmoitti kohteen "{1}": "{2}"</value>
+    <value>{0} ilmiantoi kohteen "{1}": "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
-    <value>{0} ilmoitti kohteen "{1}"</value>
+    <value>{0} ilmiantoi kohteen "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
-    <value>{0} ilmoitti kohteen: "{1}"</value>
+    <value>{0} ilmiantoi kohteen: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
-    <value>{0}{1} Ilmiantama</value>
+    <value>{0}'n Ilmiantama</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
     <value>Beatmapin tila muutettu</value>
@@ -191,37 +191,37 @@
     <value>"{0}" on hylätty</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
-    <value>Beatmappi hylättiin</value>
+    <value>Rytmikartta epäkelpuutettiin</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
     <value>"{0}" ylennettiin rakastetuksi</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Beatmappi ylennettiin rakastetuksi</value>
+    <value>Rytmikartta ylennettiin rakastetuksi</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" on hyväksytty</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>Beatmap ehdollepantiin</value>
+    <value>Rytmikartta ehdollepantiin</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>"{0}" sai riittävästi ehdollepanoja ja on siirtynyt rankkausjonoon</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>Beatmap on siirtynyt ranking-jonoon</value>
+    <value>Rytmikartta on siirtynyt rankkausjonoon</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" on hyväksytty</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>Beatmap hyväksyttiin</value>
+    <value>Rytmikartta rankattiin</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" poistettiin rakastetuista</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Beatmappi poistettiin rakastetuista</value>
+    <value>Rytmikartta poistettiin rakastetuista</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>"{0}"n ehdollepanot on nollattu</value>
@@ -320,22 +320,22 @@
     <value>{0} vastasi</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
-    <value>Uusi beatmappi</value>
+    <value>Uusi rytmikartta</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>Uusi beatmappi "{0}" {1}'lta</value>
+    <value>Uusi rytmikartta "{0}" {1}'lta</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
-    <value>Uusi beatmap "{0}"</value>
+    <value>Uusi rytmikartta "{0}"</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
-    <value>Uusia beatmappeja {0}'lta</value>
+    <value>Uusia rytmikarttoja {0}'lta</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} elvytti beatmapin "{1}"</value>
+    <value>{0} elvytti rytmikartan "{1}"</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
-    <value>Beatmappi "{0}" elvytetty</value>
+    <value>Rytmikartta "{0}" elvytetty</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Mitalit</value>
@@ -353,7 +353,7 @@
     <value>Mitaleja saavutettu!</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Olet nyt vieraana beatmapissa "{0}"</value>
+    <value>Olet nyt vieraana rytmikartassa "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>Keskustelu aiheesta "{0}" on lukittu</value>
@@ -389,7 +389,7 @@
     <value>"{0}"n ehdollepanot on nollattu</value>
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
-    <value>Beatmapissa "{0}" on uusia kommentteja</value>
+    <value>Rytmikartassa "{0}" on uusia kommentteja</value>
   </data>
   <data name="mail.channel.announcement.announce" xml:space="preserve">
     <value>"{0}" on saanut uuden ilmoituksen</value>
@@ -413,9 +413,9 @@
     <value>Olet avannut uuden mitalin, "{0}"!</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>{0} on luonut uusia beatmappeja</value>
+    <value>{0} on luonut uusia rytmikarttoja</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} on elvyttänyt beatmappeja</value>
+    <value>{0} on elvyttänyt rytmikarttoja</value>
   </data>
 </root>
