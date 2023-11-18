@@ -15,6 +15,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CartCheckout => new TranslatableString(getKey(@"cart.checkout"), @"Checkout");
 
         /// <summary>
+        /// "Remove all items from cart"
+        /// </summary>
+        public static LocalisableString CartEmptyCart => new TranslatableString(getKey(@"cart.empty_cart"), @"Remove all items from cart");
+
+        /// <summary>
         /// "{0} item in cart (${1})|{0} items in cart (${1})"
         /// </summary>
         public static LocalisableString CartInfo(LocalisableString countDelimited, LocalisableString subtotal) => new TranslatableString(getKey(@"cart.info"), @"{0} item in cart (${1})|{0} items in cart (${1})", countDelimited, subtotal);
@@ -130,6 +135,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Discount(LocalisableString percent) => new TranslatableString(getKey(@"discount"), @"save {0}%", percent);
 
         /// <summary>
+        /// "free!"
+        /// </summary>
+        public static LocalisableString Free => new TranslatableString(getKey(@"free"), @"free!");
+
+        /// <summary>
+        /// "Contact:"
+        /// </summary>
+        public static LocalisableString InvoiceContact => new TranslatableString(getKey(@"invoice.contact"), @"Contact:");
+
+        /// <summary>
+        /// "Date:"
+        /// </summary>
+        public static LocalisableString InvoiceDate => new TranslatableString(getKey(@"invoice.date"), @"Date:");
+
+        /// <summary>
         /// "As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!"
         /// </summary>
         public static LocalisableString InvoiceEcheckDelay => new TranslatableString(getKey(@"invoice.echeck_delay"), @"As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!");
@@ -140,9 +160,69 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString InvoiceHideFromActivity => new TranslatableString(getKey(@"invoice.hide_from_activity"), @"osu!supporter tags in this order are not displayed in your recent activities.");
 
         /// <summary>
+        /// "Sent Via:"
+        /// </summary>
+        public static LocalisableString InvoiceSentVia => new TranslatableString(getKey(@"invoice.sent_via"), @"Sent Via:");
+
+        /// <summary>
+        /// "Shipping To:"
+        /// </summary>
+        public static LocalisableString InvoiceShippingTo => new TranslatableString(getKey(@"invoice.shipping_to"), @"Shipping To:");
+
+        /// <summary>
+        /// "Invoice"
+        /// </summary>
+        public static LocalisableString InvoiceTitle => new TranslatableString(getKey(@"invoice.title"), @"Invoice");
+
+        /// <summary>
         /// "invoice"
         /// </summary>
         public static LocalisableString InvoiceTitleCompact => new TranslatableString(getKey(@"invoice.title_compact"), @"invoice");
+
+        /// <summary>
+        /// "Your order has been cancelled"
+        /// </summary>
+        public static LocalisableString InvoiceStatusCancelledTitle => new TranslatableString(getKey(@"invoice.status.cancelled.title"), @"Your order has been cancelled");
+
+        /// <summary>
+        /// "If you didn&#39;t request a cancellation please contact {0} quoting your order number (#{1})."
+        /// </summary>
+        public static LocalisableString InvoiceStatusCancelledLine1Default(LocalisableString link, LocalisableString orderNumber) => new TranslatableString(getKey(@"invoice.status.cancelled.line_1._"), @"If you didn't request a cancellation please contact {0} quoting your order number (#{1}).", link, orderNumber);
+
+        /// <summary>
+        /// "osu!store support"
+        /// </summary>
+        public static LocalisableString InvoiceStatusCancelledLine1LinkText => new TranslatableString(getKey(@"invoice.status.cancelled.line_1.link_text"), @"osu!store support");
+
+        /// <summary>
+        /// "Your order has been delivered! We hope you are enjoying it!"
+        /// </summary>
+        public static LocalisableString InvoiceStatusDeliveredTitle => new TranslatableString(getKey(@"invoice.status.delivered.title"), @"Your order has been delivered! We hope you are enjoying it!");
+
+        /// <summary>
+        /// "If you have any issues with your purchase, please contact the {0}."
+        /// </summary>
+        public static LocalisableString InvoiceStatusDeliveredLine1Default(LocalisableString link) => new TranslatableString(getKey(@"invoice.status.delivered.line_1._"), @"If you have any issues with your purchase, please contact the {0}.", link);
+
+        /// <summary>
+        /// "osu!store support"
+        /// </summary>
+        public static LocalisableString InvoiceStatusDeliveredLine1LinkText => new TranslatableString(getKey(@"invoice.status.delivered.line_1.link_text"), @"osu!store support");
+
+        /// <summary>
+        /// "Your order is being prepared!"
+        /// </summary>
+        public static LocalisableString InvoiceStatusPreparedTitle => new TranslatableString(getKey(@"invoice.status.prepared.title"), @"Your order is being prepared!");
+
+        /// <summary>
+        /// "Please wait a bit longer for it to be shipped. Tracking information will appear here once the order has been processed and sent. This can take up to 5 days (but usually less!) depending on how busy we are."
+        /// </summary>
+        public static LocalisableString InvoiceStatusPreparedLine1 => new TranslatableString(getKey(@"invoice.status.prepared.line_1"), @"Please wait a bit longer for it to be shipped. Tracking information will appear here once the order has been processed and sent. This can take up to 5 days (but usually less!) depending on how busy we are.");
+
+        /// <summary>
+        /// "We send all orders from Japan using a variety of shipping services depending on the weight and value. This area will update with specifics once we have shipped the order."
+        /// </summary>
+        public static LocalisableString InvoiceStatusPreparedLine2 => new TranslatableString(getKey(@"invoice.status.prepared.line_2"), @"We send all orders from Japan using a variety of shipping services depending on the weight and value. This area will update with specifics once we have shipped the order.");
 
         /// <summary>
         /// "Your payment has not yet been confirmed!"
@@ -163,6 +243,26 @@ namespace osu.Game.Resources.Localisation.Web
         /// "click here to resume your checkout"
         /// </summary>
         public static LocalisableString InvoiceStatusProcessingLine2LinkText => new TranslatableString(getKey(@"invoice.status.processing.line_2.link_text"), @"click here to resume your checkout");
+
+        /// <summary>
+        /// "Your order has been shipped!"
+        /// </summary>
+        public static LocalisableString InvoiceStatusShippedTitle => new TranslatableString(getKey(@"invoice.status.shipped.title"), @"Your order has been shipped!");
+
+        /// <summary>
+        /// "Tracking details follow:"
+        /// </summary>
+        public static LocalisableString InvoiceStatusShippedTrackingDetails => new TranslatableString(getKey(@"invoice.status.shipped.tracking_details"), @"Tracking details follow:");
+
+        /// <summary>
+        /// "We don&#39;t have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received {0}."
+        /// </summary>
+        public static LocalisableString InvoiceStatusShippedNoTrackingDetailsDefault(LocalisableString link) => new TranslatableString(getKey(@"invoice.status.shipped.no_tracking_details._"), @"We don't have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received {0}.", link);
+
+        /// <summary>
+        /// "send us an email"
+        /// </summary>
+        public static LocalisableString InvoiceStatusShippedNoTrackingDetailsLinkText => new TranslatableString(getKey(@"invoice.status.shipped.no_tracking_details.link_text"), @"send us an email");
 
         /// <summary>
         /// "Cancel Order"
@@ -200,9 +300,54 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OrderResume => new TranslatableString(getKey(@"order.resume"), @"Resume Checkout");
 
         /// <summary>
+        /// "Shipping &amp; Handling"
+        /// </summary>
+        public static LocalisableString OrderShippingAndHandling => new TranslatableString(getKey(@"order.shipping_and_handling"), @"Shipping & Handling");
+
+        /// <summary>
         /// "The checkout link for this order has expired."
         /// </summary>
         public static LocalisableString OrderShopifyExpired => new TranslatableString(getKey(@"order.shopify_expired"), @"The checkout link for this order has expired.");
+
+        /// <summary>
+        /// "Subtotal"
+        /// </summary>
+        public static LocalisableString OrderSubtotal => new TranslatableString(getKey(@"order.subtotal"), @"Subtotal");
+
+        /// <summary>
+        /// "Total"
+        /// </summary>
+        public static LocalisableString OrderTotal => new TranslatableString(getKey(@"order.total"), @"Total");
+
+        /// <summary>
+        /// "Order #"
+        /// </summary>
+        public static LocalisableString OrderDetailsOrderNumber => new TranslatableString(getKey(@"order.details.order_number"), @"Order #");
+
+        /// <summary>
+        /// "Payment Terms"
+        /// </summary>
+        public static LocalisableString OrderDetailsPaymentTerms => new TranslatableString(getKey(@"order.details.payment_terms"), @"Payment Terms");
+
+        /// <summary>
+        /// "Salesperson"
+        /// </summary>
+        public static LocalisableString OrderDetailsSalesperson => new TranslatableString(getKey(@"order.details.salesperson"), @"Salesperson");
+
+        /// <summary>
+        /// "Shipping Method"
+        /// </summary>
+        public static LocalisableString OrderDetailsShippingMethod => new TranslatableString(getKey(@"order.details.shipping_method"), @"Shipping Method");
+
+        /// <summary>
+        /// "Shipping Terms"
+        /// </summary>
+        public static LocalisableString OrderDetailsShippingTerms => new TranslatableString(getKey(@"order.details.shipping_terms"), @"Shipping Terms");
+
+        /// <summary>
+        /// "Order Details"
+        /// </summary>
+        public static LocalisableString OrderDetailsTitle => new TranslatableString(getKey(@"order.details.title"), @"Order Details");
 
         /// <summary>
         /// "Quantity"
@@ -285,6 +430,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OrderStatusShipped => new TranslatableString(getKey(@"order.status.shipped"), @"Shipped");
 
         /// <summary>
+        /// "Order Status"
+        /// </summary>
+        public static LocalisableString OrderStatusTitle => new TranslatableString(getKey(@"order.status.title"), @"Order Status");
+
+        /// <summary>
+        /// "Thanks for your order!"
+        /// </summary>
+        public static LocalisableString OrderThanksTitle => new TranslatableString(getKey(@"order.thanks.title"), @"Thanks for your order!");
+
+        /// <summary>
+        /// "You will receive a confirmation email soon. If you have any enquiries, please {0}!"
+        /// </summary>
+        public static LocalisableString OrderThanksLine1Default(LocalisableString link) => new TranslatableString(getKey(@"order.thanks.line_1._"), @"You will receive a confirmation email soon. If you have any enquiries, please {0}!", link);
+
+        /// <summary>
+        /// "contact us"
+        /// </summary>
+        public static LocalisableString OrderThanksLine1LinkText => new TranslatableString(getKey(@"order.thanks.line_1.link_text"), @"contact us");
+
+        /// <summary>
         /// "Name"
         /// </summary>
         public static LocalisableString ProductName => new TranslatableString(getKey(@"product.name"), @"Name");
@@ -353,6 +518,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Checking availability of {0}..."
         /// </summary>
         public static LocalisableString UsernameChangeChecking(LocalisableString username) => new TranslatableString(getKey(@"username_change.checking"), @"Checking availability of {0}...", username);
+
+        /// <summary>
+        /// "Requested Username"
+        /// </summary>
+        public static LocalisableString UsernameChangePlaceholder => new TranslatableString(getKey(@"username_change.placeholder"), @"Requested Username");
+
+        /// <summary>
+        /// "New Username"
+        /// </summary>
+        public static LocalisableString UsernameChangeLabel => new TranslatableString(getKey(@"username_change.label"), @"New Username");
+
+        /// <summary>
+        /// "Your current username is &quot;{0}&quot;."
+        /// </summary>
+        public static LocalisableString UsernameChangeCurrent(LocalisableString username) => new TranslatableString(getKey(@"username_change.current"), @"Your current username is ""{0}"".", username);
 
         /// <summary>
         /// "You need to be {0} to change your name!"

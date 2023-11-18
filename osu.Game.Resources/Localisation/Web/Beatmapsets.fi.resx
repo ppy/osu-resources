@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="availability.disabled" xml:space="preserve">
-    <value>Beatmap ei ole tällä hetkellä saatavilla.</value>
+    <value>Tätä rytmikarttaa ei voi juuri nyt ladata.</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
     <value>Joitain osia tästä beatmapista on poistettu joko sen tekijän tai kolmannen osapuolen oikeuksien omaavan pyynnöstä.</value>
@@ -71,7 +71,7 @@
     <value>Osa tämän beatmapin resursseista on poistettu, koska on katsottu, että niiden käyttö ei sovi osu!un.</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
-    <value>Poistettu beatmappi</value>
+    <value>Poistettu rytmikartta</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Hidasta vähän, pelaa enemmän.</value>
@@ -80,13 +80,13 @@
     <value>Esitelty artisti</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Beatmapit</value>
+    <value>Rytmikarttojen listaus</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmapit</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
-    <value>ei beatmappeja</value>
+    <value>ei rytmikarttoja</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>lataa</value>
@@ -101,7 +101,7 @@
     <value>avaa osu!directissä</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Usean pelimuodon beatmappi edellyttää, että valitset ainakin yhden pelimuodon, jonka panet ehdolle.</value>
+    <value>Usean pelimuodon rytmikartta edellyttää, että valitset ainakin yhden pelimuodon, jonka panet ehdolle.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Sinulla ei ole käyttöoikeutta panna ehdolle pelimuotoa: {0}</value>
@@ -113,10 +113,10 @@
     <value>Ehdollepanovaatimus on jo täyttynyt.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>Oletko varma, että haluat ehdollepanna tämän beatmapin?</value>
+    <value>Oletko varma, että haluat ehdollepanna tämän rytmikartan?</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
-    <value>Ehdollepane beatmappi</value>
+    <value>Ehdollepane rytmikartta</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>huomaa: voit tehdä ehdollepanon vain kerran, joten varmista, että olet valinnut kaikki pelimuodot, jotka aiot panna ehdolle</value>
@@ -134,7 +134,7 @@
     <value>Näytä täysikokoinen kansikuva</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
-    <value>Tämä beatmappi on poistettu.</value>
+    <value>Tämä rytmikartta on poistettu.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
     <value>(tämä näkyy vain moderaattoreille)</value>
@@ -143,7 +143,7 @@
     <value>esittäjältä {0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
-    <value>Lisää tämä beatmap-setti suosikkeihin</value>
+    <value>lisää tämä rytmikartta suosikkeihin</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
     <value>kirjaudu sisään, niin voit lisätä tämän beatmapin suosikkeihin</value>
@@ -158,7 +158,7 @@
     <value>vieraileva vaikeustaso, kartoittanut {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
-    <value>Poista tämä beatmapkokoelma suosikeista</value>
+    <value>poista tämä rytmikartta suosikeista</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
     <value>päivitetty viimeksi {0}</value>
@@ -197,10 +197,10 @@
     <value>päivitetty viimeksi {0}</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
-    <value>Sinulla on liian monta lempikappaletta! Poista joitain suosikeistasi ennen uudelleenyrittämistä.</value>
+    <value>Sinulla on liian monta lempikappaletta! Poista joitain suosikeistasi ja yritä sitten uudelleen.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Jos nautit tästä kartasta, hurraa sitä edistääksesi sen siirtymistä &lt;strong&gt;Hyväksyttyyn&lt;/strong&gt; tilaan.</value>
+    <value>Jos nautit tästä kartasta, hurraa sitä edistääksesi sen siirtymistä &lt;strong&gt;rankatuksi&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Tämä kartta on {0}.</value>
@@ -209,13 +209,13 @@
     <value>vireillä</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>hyväksytty</value>
+    <value>kelpuutettu</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
-    <value>keskeneräinen</value>
+    <value>työn alla</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Jos löydät ongelman, joka liittyy tähän beatmappiin, ole hyvä ja epäkelpuuta se {0}.</value>
+    <value>Jos löydät ongelman, joka liittyy tähän rytmikarttaan, ole hyvä ja epäkelpuuta se {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Jos löydät jonkun ongelman tämän beatmapin kanssa, olmoita siitä {0} hälyttääksesi tiimiä.</value>
@@ -254,7 +254,7 @@
     <value>Lähde</value>
   </data>
   <data name="show.info.storyboard" xml:space="preserve">
-    <value>Tämä beatmappi sisältää taustaesityksen</value>
+    <value>Tämä rytmikartta sisältää taustaesityksen</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Läpäisyprosentti</value>
@@ -263,10 +263,10 @@
     <value>Tunnisteet</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
-    <value>Tämä beatmappi sisältää videon</value>
+    <value>Tämä rytmikartta sisältää videon</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Tämä beatmappi sisältää sopimatonta, loukkaavaa tai järkyttävää sisältöä. Haluatko kuitenkin tarkastella sitä?</value>
+    <value>Tämä rytmikartta sisältää sopimatonta, loukkaavaa tai järkyttävää sisältöä. Haluatko kuitenkin tarkastella sitä?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Sopimatonta sisältöä</value>
@@ -275,7 +275,7 @@
     <value>Poista varoitus käytöstä</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
-    <value>Beatmappilistaus</value>
+    <value>Takaisin rytmikarttalistaukseen</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Näytä</value>
@@ -299,7 +299,7 @@
     <value>Klikkaa &lt;a href="{0}"&gt;tästä&lt;/a&gt; nähdäksesi kaikki hienot ominaisuudet mitä saat!</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
-    <value>Sinun täytyy olla Tukija nähdäksesi maa- ja ystäväkohtaiset sijoitukset!</value>
+    <value>Sinun täytyy olla osu!-tukija nähdäksesi kaveri-, maa- ja muunnelmakohtaiset sijoitukset!</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Tulokset</value>
@@ -314,7 +314,7 @@
     <value>Ohi</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
-    <value>Modit</value>
+    <value>Muunnelmat</value>
   </data>
   <data name="show.scoreboard.headers.pin" xml:space="preserve">
     <value>Kiinnitä</value>
@@ -347,7 +347,7 @@
     <value>Ladataan tuloksia...</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Beatmap ei ole hyväksytyssä tilassa.</value>
+    <value>Rankkaamaton rytmikartta.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Johdossa</value>
@@ -368,7 +368,7 @@
     <value>Näppäinten määrä</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>HP Drain</value>
+    <value>Terveyden valutus</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Tarkkuus</value>
@@ -416,7 +416,7 @@
     <value>Rakastettu</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>Esihyväksytty</value>
+    <value>Kelpuutettu</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>Työn alla</value>

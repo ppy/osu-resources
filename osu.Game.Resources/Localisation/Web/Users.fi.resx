@@ -230,7 +230,7 @@
     <value>Beta on tällä hetkellä käytössä vain siihen oikeutetuilla käyttäjillä.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
-    <value>(osu!tukijat tulevat kohta)</value>
+    <value>(osu!-tukijat tulevat kohta)</value>
   </data>
   <data name="ogp.description._" xml:space="preserve">
     <value>Sijoitus ({0}): {1} | {2}</value>
@@ -323,10 +323,10 @@
     <value>Täällä alusta alkaen</value>
   </data>
   <data name="show.is_developer" xml:space="preserve">
-    <value>osu!kehittäjä</value>
+    <value>osu!n kehittäjä</value>
   </data>
   <data name="show.is_supporter" xml:space="preserve">
-    <value>Tukija</value>
+    <value>osu!-tukija</value>
   </data>
   <data name="show.joined_at" xml:space="preserve">
     <value>Liittyi {0}</value>
@@ -349,14 +349,11 @@
   <data name="show.plays_with" xml:space="preserve">
     <value>Pelityylinä {0}</value>
   </data>
-  <data name="show.title" xml:space="preserve">
-    <value>{0}{1} profiili</value>
-  </data>
   <data name="show.comments_count._" xml:space="preserve">
     <value>Julkaissut {0}</value>
   </data>
   <data name="show.comments_count.count" xml:space="preserve">
-    <value>{0} kommentti|{0} kommenttia</value>
+    <value>{0} kommentin|{0} kommenttia</value>
   </data>
   <data name="show.cover.to_0" xml:space="preserve">
     <value>Piilota kansikuva</value>
@@ -422,28 +419,28 @@
     <value>artistilta {0}</value>
   </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
-    <value>Beatmapit</value>
+    <value>Rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
     <value>Suosikit</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
-    <value>Kuopatut</value>
+    <value>Haudatut rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Vierasyhteisön beatmapit</value>
+    <value>Vierasyhteisön rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
-    <value>Rakastetut beatmapit</value>
+    <value>Rakastetut rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
-    <value>Nimitetyt Hyväksytyt Beatmapit</value>
+    <value>Ehdollepannut rankatut rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
-    <value>Vireillä olevat Beatmapit</value>
+    <value>Vireillä olevat rytmikartat</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>Hyväksytyt &amp; Vahvistetut Beatmapit</value>
+    <value>Rankatut rytmikartat</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>Keskustelut</value>
@@ -476,7 +473,7 @@
     <value>pelikertoja: </value>
   </data>
   <data name="show.extra.historical.most_played.title" xml:space="preserve">
-    <value>Pelatuimmat Beatmapit</value>
+    <value>Pelatuimmat rytmikartat</value>
   </data>
   <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
     <value>tarkkuus: {0}</value>
@@ -485,13 +482,13 @@
     <value>Viimeisimmät pelaukset (24t)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>Katsotut Uusinnat</value>
+    <value>Uusintojen katsomishistoria</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Uusintoja katsottu</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
-    <value>Viimeisimmät Kudosut</value>
+    <value>Viimeaikainen kudosuhistoria</value>
   </data>
   <data name="show.extra.kudosu.title" xml:space="preserve">
     <value>Kudosu!</value>
@@ -539,10 +536,10 @@
     <value>Kudosuhylkäys käyttäjältä {0} keskustelussa {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Näe käyttäjän tekemä vaikutus beatmapin moderoinnissa. Lisätietoja {0}</value>
+    <value>Perustuu käyttäjän tekemään vaikutukseen rytmikarttojen modauksessa. Lisätietoja {0}.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
-    <value>tämä sivu</value>
+    <value>tällä sivulla</value>
   </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>minä!</value>
@@ -662,7 +659,7 @@
     <value>Mykistys</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
-    <value>Turnaus kielto</value>
+    <value>Turnauskielto</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Muistutus</value>
@@ -710,7 +707,7 @@
     <value>Sinun täytyy olla {0} avataksesi tämän ominaisuuden.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
-    <value>osu!tukija</value>
+    <value>osu!-tukija</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
     <value>Mukana toiminnassa {0}</value>
@@ -731,7 +728,7 @@
     <value>Maailmanlaajuinen sijoitus</value>
   </data>
   <data name="show.rank.highest" xml:space="preserve">
-    <value>Paras sijoitus: {0} päivänä {1}</value>
+    <value>Korkein sija {0} oli {1}</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Osumatarkkuus</value>
@@ -758,7 +755,7 @@
     <value>Tilastoidut pisteet</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
-    <value>Muiden Katsomat Uusinnat</value>
+    <value>Muiden katsomat uusinnat</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
     <value>Luokitukset</value>
@@ -770,16 +767,16 @@
     <value>Pisteitä yhteensä</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>Kuopatut Beatmapit</value>
+    <value>Haudatut rytmikartat</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Rakastetut Beatmapit</value>
+    <value>Rakastetut rytmikartat</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
-    <value>Tulossa olevat Beatmapit</value>
+    <value>Vireillä olevat rytmikartat</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>Hyväksytyt &amp; Vahvistetut Beatmapit</value>
+    <value>Rankatut rytmikartat</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>Olet hiljennetty.</value>
