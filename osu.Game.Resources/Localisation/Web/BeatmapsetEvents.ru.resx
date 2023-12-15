@@ -62,31 +62,31 @@
     <value>Карта получила категорию Одобрена.</value>
   </data>
   <data name="event.beatmap_owner_change" xml:space="preserve">
-    <value>Владелец сложности {0} изменен на {1}.</value>
+    <value>Владелец сложности {0} изменён на {1}.</value>
   </data>
   <data name="event.discussion_delete" xml:space="preserve">
     <value>Модератор удалил отзыв {0}.</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
-    <value>Обсуждение для этой карты было отключено. ({0})</value>
+    <value>Возможность обсуждения этой карты закрыта. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
     <value>Модератор удалил пост к отзыву {0}.</value>
   </data>
   <data name="event.discussion_post_restore" xml:space="preserve">
-    <value>Модератор восстановил пост в обсуждении {0}.</value>
+    <value>Модератор восстановил пост к отзыву {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
     <value>Модератор восстановил отзыв {0}.</value>
   </data>
   <data name="event.discussion_unlock" xml:space="preserve">
-    <value>Обсуждение для этой карты было включено.</value>
+    <value>Возможность обсуждения этой карты снова открыта.</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
     <value>Дисквалифицирована {0}. Причина: {1} ({2}).</value>
   </data>
   <data name="event.disqualify_legacy" xml:space="preserve">
-    <value>Дисквалифицирована {0}. Причина: {1}.</value>
+    <value>Получена дисквалификация от {0}. Причина: {1}.</value>
   </data>
   <data name="event.genre_edit" xml:space="preserve">
     <value>Жанр изменен с {0} на {1}.</value>
@@ -98,16 +98,16 @@
     <value>Проблема {0}, открытая {1}, решена {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>Отказ в кудосу {0} был удален.</value>
+    <value>Вето на начисление кудосу за отзыв {0} было снято.</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
-    <value>Отзыву {0} отказано в кудосу.</value>
+    <value>На начисление кудосу за отзыв {0} наложено вето.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Отзыв {0} от {1} получил достаточно голосов для получения кудосу.</value>
+    <value>Отзыв {0} от {1} получил достаточно голосов для начисления кудосу.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Отзыв {0} от {1} потерял голоса и присуждённые кудосу были удалены.</value>
+    <value>Отзыв {0} от {1} потерял голоса и начисленные кудосу были отозваны.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Кудосу за отзыв {0} были пересчитаны.</value>
@@ -119,7 +119,7 @@
     <value>Карта получила категорию Любимая. ({0})</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
-    <value>Номинирована {0}.</value>
+    <value>Карта получила номинацию от {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
     <value>Карта получила номинацию от {0} ({1}).</value>
@@ -137,7 +137,7 @@
     <value>Значение оффсета изменено с {0} на {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Эта карта была номинирована достаточное количество раз для квалификации.</value>
+    <value>Карта получила достаточное количество номинаций и стала квалифицированной.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Карта получила категорию Рейтинговая.</value>
@@ -161,7 +161,7 @@
     <value>Период</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Типы событий</value>
+    <value>Виды событий</value>
   </data>
   <data name="item.content" xml:space="preserve">
     <value>Контент</value>
@@ -197,7 +197,7 @@
     <value>Изменение жанра</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
-    <value>Возобновление обсуждения</value>
+    <value>Возобновление обсуждения проблемы</value>
   </data>
   <data name="type.issue_resolve" xml:space="preserve">
     <value>Решение проблем</value>

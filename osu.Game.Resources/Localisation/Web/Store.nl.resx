@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Afrekenen</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Verwijder alle items uit de winkelwagen</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} artikel in winkelwagen (${1})|{0} artikels in winkelwagen (${1})</value>
   </data>
@@ -130,14 +133,53 @@
   <data name="discount" xml:space="preserve">
     <value>bespaar {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Aangezien uw betaling een eCheck was, Wacht maximaal 10 dagen extra om de betaling veilig via PayPal te laten gaan!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter tags in deze bestelling worden niet weergegeven in je recente activiteiten.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Gestuurd Via:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Verzenden Naar:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Factuur</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factuur</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Je bestelling is geannuleerd</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Als je geen annulering hebt aangevraagd, neem dan contact op met {0} en vermeld je bestelnummer (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!store support</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Je bestelling is geleverd! We hopen dat je ervan geniet!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Als je problemen hebt met je aankoop, neem dan contact op met de {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!store support</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Je bestelling wordt voorbereid!</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Uw betaling is nog niet bevestigd!</value>
@@ -150,6 +192,12 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klik hier om uw afrekenen te hervatten</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Je bestelling is verzonden!</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>stuur ons een email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Annuleer bestelling</value>
@@ -172,8 +220,20 @@
   <data name="order.resume" xml:space="preserve">
     <value>Hervat afrekenen</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Verzending &amp; Verwerking</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>De checkout link voor deze bestelling is verlopen.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotaal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Bestelling #</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Aantal</value>
@@ -223,6 +283,12 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Verzonden</value>
   </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Bedankt voor je bestelling!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>contacteer ons</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Naam</value>
   </data>
@@ -264,6 +330,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Bezig met beschikbaarheid te controleren van {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Aangevraagde Gebruikersnaam</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nieuwe Gebruikersnaam</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Je huidige gebruikersnaam is "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Je moet {0} zijn om je naam te veranderen!</value>

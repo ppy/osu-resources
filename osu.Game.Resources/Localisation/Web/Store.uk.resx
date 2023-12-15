@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Перевірка</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Видалити всі товари з кошику</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} товар в кошику (${1})|{0} товару в кошику (${1})|{0} товарів в кошику (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>ви заощадите {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>безкоштовно!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Контактна особа:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Оскільки оплата була через eCheck, очікування підтвердження оплати через Paypal може зайнятий до 10 днів!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
-    <value>тег osu!прихильника в цьому замовленні не буде показуватись в останніх активностях.</value>
+    <value>тег osu!прихильника в цьому замовленні не буде показуватися в останніх активностях.</value>
+  </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Надіслати через:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Доставити за адресою:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>До сплати</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>рахунок</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Ваше замовлення було скасовано</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Якщо ви не робили запит на скасовування замовлення, будь ласка, зв'яжіться з {0} вказуючи номер замовлення (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>службою підтримки osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Ваше замовлення було доставлено! Сподіваємось, що вам сподобається!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Якщо у вас виникли проблеми при покупці, зв'яжіться з {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>службою підтримки osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Ваше замовлення готується!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Зачекайте трохи більше часу на доставлення. Інформація про відслідковування замовлення з'явиться тут, як тільки воно буде оброблено й надіслано. Цей процес може зайняти до 5 днів (але зазвичай менше!) в залежності від того, наскільки ми зайняті.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Ми надсилаємо всі замовлення з Японії, використовуючи різні транспортні служби доставлення в залежності від ваги та вартості. Ця область оновиться зі специфікацією як тільки ми відправили замовлення.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Ваш платіж ще не підтверджений!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>натисніть тут, щоб продовжити оплату</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Ваше замовлення вже доставлено!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Деталі відстежування:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>У нас немає деталей про трек, коли ми відправляли ваш пакет через Air Mail, але ви можете очікувати на отримання його протягом 1-3 тижнів. Для Європи іноді митниці можуть затримувати замовлення без нашого відома. Якщо ви маєте будь-які занепокоєння, надішліть відповіть на електронний лист з підтвердженням замовлення, який ви отримали {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>надішліть нам email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Скасувати замовлення</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Продовжити покупку</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Доставка та оброблення</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Термін дії посилання для оформлення замовлення закінчився.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Проміжна сума</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Всього</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Замовлення #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Умови оплати</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Продавець</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Спосіб доставки</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Умови доставки</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Деталі замовлення</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Кількість</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>В дорозі</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Статус замовлення</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Дякуємо за замовлення!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Ви отримаєте підтвердження електронною поштою вже найближчим часом. Якщо у вас є будь-які запитання, будь ласка, {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>зв'яжіться з нами</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Назва</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Перевіряємо доступність імені {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Запитане ім'я користувача</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Нове ім'я користувача</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ваше поточне ім'я користувача - "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Ви повинні {0} для зміни ніку!</value>

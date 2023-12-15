@@ -232,6 +232,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(владельцы osu!supporter получат доступ позже)</value>
   </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Карты пользователя: {0}</value>
+  </data>
+  <data name="ogp.modding_description_empty" xml:space="preserve">
+    <value>У пользователя нет своих карт...</value>
+  </data>
   <data name="ogp.description._" xml:space="preserve">
     <value>Рейтинг ({0}): {1} | {2}</value>
   </data>
@@ -467,7 +473,7 @@
     <value>График игр по месяцам</value>
   </data>
   <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
-    <value>Игр</value>
+    <value>Игры:</value>
   </data>
   <data name="show.extra.historical.most_played.count" xml:space="preserve">
     <value>количество раз сыграно</value>
@@ -503,7 +509,7 @@
     <value>Этот пользователь ещё не получал Кудосу!</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
-    <value>Получено {0} за ответ в {1}</value>
+    <value>Начислено {0} за снятие вето на получение кудосу за отзыв {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
     <value>Отнято {0} за ответ в {1}</value>
@@ -512,22 +518,22 @@
     <value>Потеряно {0} за удаление ответа в посте {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
-    <value>Получено {0} за восстановление ответа в посте {1}</value>
+    <value>Начислено {0} за восстановление ответа {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
-    <value>Получено {0} за получение голосов в посте {1}</value>
+    <value>Начислено {0} за получение голосов за отзыв {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
     <value>Потеряно {0} за потерю голосов в посте {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
-    <value>Получено {0} за перерасчёт голосов в посте {1}</value>
+    <value>Начислено {0} за перерасчёт голосов у отзыва {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
     <value>Потеряно {0} за перерасчёт голосов в посте {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
-    <value>Получено {0} от {1} за сообщение в посте {2}</value>
+    <value>Начислено {0} от {1} за пост в отзыве {2}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
     <value>{0} сбросил кудосу за ответ в посте {1}</value>

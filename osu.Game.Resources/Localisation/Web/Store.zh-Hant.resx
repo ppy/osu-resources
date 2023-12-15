@@ -130,14 +130,32 @@
   <data name="discount" xml:space="preserve">
     <value>折扣 {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>免費！</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>日期：</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>由於您是用 eCheck 付款，請等待至多 10 天以使該支付通過 PayPal 完成！</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>這項 osu! 贊助者訂單未在您的最近活動中顯示。</value>
   </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>運送至：</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>帳單</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!store 支援</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!store 支援</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>正在準備您的訂單！</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>您的付款尚未被確認!</value>
@@ -150,6 +168,9 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>點擊這裡繼續您的結帳</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>向我們發送電子郵件</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>取消訂單</value>
@@ -174,6 +195,15 @@
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>此訂單的結帳網址已經過期。</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>總計</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>運送方式</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>數量</value>
@@ -223,6 +253,12 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>已出貨</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>訂單狀態</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>聯絡我們</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>名稱</value>
   </data>
@@ -264,6 +300,12 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>正在檢查 {0} 是否可用。。。</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>新的使用者名稱</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>您目前的使用者名稱是 "{0}"。</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>需要 {0} 才能變更使用者名稱！</value>

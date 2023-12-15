@@ -61,11 +61,14 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Paga</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Rimuovi tutti gli articoli dal carrello</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} articolo nel carrello (${1})|{0} articoli nel carrello (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
-    <value>Voglio dare un'occhiata ad altri elementi prima di completare l'ordine</value>
+    <value>Voglio controllare altri articoli prima di completare l'ordine</value>
   </data>
   <data name="cart.shipping_fees" xml:space="preserve">
     <value>costi di spedizione</value>
@@ -130,14 +133,47 @@
   <data name="discount" xml:space="preserve">
     <value>risparmi {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Referente:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Data:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Visto che il tuo pagamento era un eCheck, dovrai attendere altri 10 giorni per far passare il pagamento attraverso PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>I tag osu!supporter in questo ordine non verranno mostrati nella tua attività recente.</value>
   </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Ricevuta</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>ricevuta</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Il tuo ordine è stato annullato</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Se non hai richiesto la cancellazione contatta il {0} menzionando il tuo numero d'ordine (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>supporto di osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Il tuo ordine è stato consegnato! Speriamo ti piaccia!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Se hai problemi con il tuo acquisto, contatta il {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>supporto di osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Il tuo ordine è in preparazione!</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Il tuo pagamento non è ancora stato confermato!</value>
@@ -150,6 +186,9 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>clicca qui per riprendere con il pagamento</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Il tuo ordine è stato spedito!</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Annulla Ordine</value>
@@ -175,11 +214,29 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Il link del pagamento per quest'ordine è scaduto.</value>
   </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Ordine #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Termini di Pagamento</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Metodo di Spedizione</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Termini di Spedizione</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Dettagli Ordine</value>
+  </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Quantità</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
-    <value>{0} per {1}({2})</value>
+    <value>{0} per {1} ({2})</value>
   </data>
   <data name="order.item.subtext.supporter_tag" xml:space="preserve">
     <value>Messaggio: {0}</value>
@@ -223,6 +280,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>In Transito</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Stato Ordine</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Grazie per il tuo ordine!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Riceverai presto un'email di conferma. Per qualsiasi richiesta, {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>contattaci</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -248,7 +317,7 @@
     <value>Questo prodotto è già disponibile!</value>
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
-    <value>regalo ad un giocatore</value>
+    <value>regala ad un giocatore</value>
   </data>
   <data name="supporter_tag.gift_message" xml:space="preserve">
     <value>aggiungi un messaggio opzionale al tuo regalo (fino a {0} caratteri)</value>
@@ -264,6 +333,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Controllando la disponibilità di {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nome Utente Richiesto</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nuovo Nome Utente</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Il tuo nome utente attuale è "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Devi {0} per poter cambiare il tuo nome!</value>

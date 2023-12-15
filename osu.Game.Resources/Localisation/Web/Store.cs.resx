@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Zaplatit</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Odebrat všechny položky z košíku</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} položka v košíku (${1})|{0} položky v košíku (${1})|{0} položek v košíku (${1})</value>
   </data>
@@ -130,14 +133,47 @@
   <data name="discount" xml:space="preserve">
     <value>ušetři {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>zdarma!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kontakt:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Jelikož vaše platba byla prováděna službou eCheck, prosím, dejte nám až 10 dní na to, aby platba úspěšně prošla přes PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter tagy v této objednávce se nebudou zobrazovat v nedávných aktivitách.</value>
   </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Vaše objednávka byla zrušena</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Pokud jste nepožádali o zrušení, kontaktujte prosím {0} se svým číslem objednávky (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>podporu osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Vaše objednávka byla doručena! Doufáme, že si ji užíváte!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Pokud máte nějaké problémy s vaším nákupem, kontaktujte prosím {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>podporu osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Vaše objednávka se připravuje!</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Vaše platba nebyla ještě potvrzena!</value>
@@ -150,6 +186,9 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klikněte zde pro pokračování v placení</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Vaše objednávka byla odeslána!</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Zrušit objednávku</value>
@@ -174,6 +213,18 @@
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Odkaz na objednávku pro tuto objednávku vypršel.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Mezisoučet</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Celkem</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Objednávka č.</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Detail objednávky</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Množství</value>
@@ -223,6 +274,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Na cestě</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Stav objednávky</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Děkujeme za Vaši objednávku!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Brzy obdržíte potvrzovací email. Pokud máte nějaké dotazy, {0} prosím!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>kontaktujte nás</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Název</value>
   </data>
@@ -264,6 +327,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Probíhá kontrola dostupnosti uživatelského jména {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Kýžené uživatelské jméno</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nové uživatelské jméno</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Tvoje aktuální uživatelské jméno je "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Pro změnu uživatelského jména se musíš {0}!</value>

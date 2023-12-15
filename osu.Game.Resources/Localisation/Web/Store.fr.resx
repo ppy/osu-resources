@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Acheter</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Supprimer tous les articles du panier</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} article dans le panier (${1})|{0} articles dans le panier (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>économisez {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratuit !</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Contact :</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Date :</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Si votre paiement est en eCheck, comptez jusqu'à 10 jours supplémentaires pour le paiement via PayPal !</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Les tags osu!supporter dans cette commande ne sont pas affichés dans vos activités récentes.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Envoyé via :</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Expédition à :</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Facture</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>facture</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Votre commande a été annulée</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Si vous n'avez pas demandé d'annulation, veuillez contacter le {0} en citant votre numéro de commande (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>support de l'osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Votre commande a été livrée ! Nous espérons que vous l'appréciez !</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Si vous avez un problème avec votre achat, veuillez contacter le {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>support de l'osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Votre commande est en cours de préparation !</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Veuillez patienter un peu plus longtemps avant que la commande ne soit expédiée. Les informations de suivi apparaîtront ici une fois que la commande aura été traitée et envoyée. Cela peut prendre jusqu'à 5 jours (mais généralement moins !) en fonction de notre activité.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Nous envoyons toutes les commandes depuis le Japon en utilisant divers services d'expédition en fonction du poids et de la valeur. Cette section sera mise à jour une fois que nous aurons expédié la commande.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Votre paiement n'a pas encore été confirmé !</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>cliquez ici pour la reprendre</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Votre commande a été expédiée !</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Détails de suivi :</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Nous n'avons pas d'informations de suivi puisque nous avons envoyé votre colis par Air Mail, mais vous pouvez vous attendre à le recevoir dans un délai de 1 à 3 semaines. Pour l'Europe, les douanes peuvent parfois retarder la commande hors de notre contrôle. Si vous avez des inquiétudes, veuillez répondre à l'e-mail de confirmation de commande que vous avez reçu {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>envoyez-nous un email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Annuler la commande</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Reprendre la commande</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Expédition et traitement</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Le lien de commande pour cette commande a expiré.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Sous-total</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Commande #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Conditions de paiement</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Vendeur</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Mode de livraison</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Conditions d'expédition</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Détails de la commande</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Quantité</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Expédié</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Statut de la commande</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Merci pour votre commande !</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Vous recevrez bientôt un email de confirmation. Si vous avez des questions, veuillez {0} !</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>contactez-nous</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nom</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Vérification de la disponibilité de {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nom d'utilisateur demandé</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nouveau nom d'utilisateur</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Votre nom d'utilisateur actuel est «{0}».</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Vous devez être {0} pour changer de nom !</value>

@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Pagamento</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Remover todos os artigos do carrinho</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} artigo no carrinho (${1})|{0} artigos no carrinho (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>poupa {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>grátis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Contacto:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Data:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Como o teu pagamento era um eCheck, por favor permite até 10 dias extras para o pagamento ser autorizado através do PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>As etiquetas osu!supporter nesta ordem não estão visíveis nas tuas atividades recentes.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Enviado através de:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Enviar para:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Fatura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>fatura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>A tua encomenda foi cancelada</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Se não pediste o cancelamento, contacta {0} indicando o teu número da encomenda (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>Apoio da osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>A tua encomenda foi entregue. Esperemos que gostes!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Se tiveres algum problema com a tua compra, contacta {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>Apoio da osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>O teu pedido está a ser preparado!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Aguarda um pouco mais para que a encomenda seja enviada. A informação de seguimento aparecerá aqui assim que ela for processada e enviada. Isto pode demorar até 5 dias (normalmente menos), dependendo do nosso nível de atividade.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Enviamos todas as encomendas do Japão utilizando uma variedade de serviços de envio, consoante o peso e o valor. Esta área será atualizada com os detalhes específicos assim que a encomenda for enviada.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>O teu pagamento ainda não foi confirmado!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>clica aqui para resumir o teu pagamento</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>O teu pedido foi enviado!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Detalhes do seguimento:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Não temos detalhes de seguimento, pois enviamos a tua embalagem por correio aéreo, mas podes esperar recebê-lo dentro de 1 a 3 semanas. Para a Europa, por vezes a alfândega poderá atrasar a encomenda. Este processo está fora do nosso controlo. Se tiveres alguma dúvida, responde ao email de confirmação da encomenda que recebeste {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>envia-nos um email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Cancelar o pedido</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Retomar pagamento</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Expedição e manuseamento</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>O link de pagamento para este pedido expirou.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Pedido n.º </value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Condições de pagamento</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Método de envío</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Condições de envio</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Detalhes do pedido</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Quantidade</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Em curso</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Estado do pedido</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Obrigado pelo teu pedido!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Receberás um email de confirmação em breve. Se tiveres alguma dúvida, por favor {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>contacta-nos</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>A confirmar disponibilidade de {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nome de utilizador solicitado</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Novo nome de utilizador</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>O teu nome de utilizador atual: {0}.</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Precisas de ter {0} para mudares o teu nome!</value>

@@ -331,6 +331,12 @@
   <data name="topic.logs.operations.split_source" xml:space="preserve">
     <value>Sadalīt rakstus</value>
   </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
   <data name="topics.edit_title.start" xml:space="preserve">
     <value>Rediģēt nosaukumu</value>
   </data>
@@ -421,11 +427,17 @@
   <data name="topics.lock.to_0" xml:space="preserve">
     <value>Atvērt tēmu</value>
   </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Atslēgt tematu?</value>
+  </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Tēma tika atvērta</value>
   </data>
   <data name="topics.lock.to_1" xml:space="preserve">
     <value>Slēgt tēmu</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Slēgt tematu?</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
     <value>Tēma tika slēgta</value>
@@ -436,17 +448,26 @@
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
     <value>Atspraust tēmu</value>
   </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Atspraust tematu?</value>
+  </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Tēma tika atsprausta</value>
   </data>
   <data name="topics.moderate_pin.to_1" xml:space="preserve">
     <value>Piespraust tēmu</value>
   </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Piespraust tematu?</value>
+  </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
     <value>Tēma tika piesprausta</value>
   </data>
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
     <value>Piespraust tēmu un atzīmēt kā paziņojumu</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Piespraust tematu un atzīmēt kā paziņojumu?</value>
   </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Tēma tika piesprausta un atzīmēta kā paziņojums</value>
@@ -481,11 +502,17 @@
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
     <value>{0} nav balsu|{1} {0} balss|[2,*] {0} balsis</value>
   </data>
+  <data name="topics.show.feature_vote.user.current" xml:space="preserve">
+    <value>Jums palikušas {0} balsis.</value>
+  </data>
   <data name="topics.show.poll.edit" xml:space="preserve">
     <value>Balsošanas Rediģēšana</value>
   </data>
   <data name="topics.show.poll.edit_warning" xml:space="preserve">
     <value>Rediģējot balsošanas metodi tiks noņemti visi esošie rezultāti!</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Balsot</value>
   </data>
   <data name="topics.show.poll.button.change_vote" xml:space="preserve">
     <value>Mainīt balsi</value>

@@ -82,6 +82,21 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>البريد الإلكتروني</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>الرجاء التواصل مع {0} إذا احتجت إلى تحديث بريدك الإلكتروني.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>فريق دعم الحسابات</value>
+  </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>واجهة برمجة التطبيقات</value>
+  </data>
+  <data name="edit.legacy_api.irc" xml:space="preserve">
+    <value>بروتوكول الدردشة</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>واجهة برمجة التطبيقات القديمة</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>كلمة المرور الحالية</value>
   </data>
@@ -94,8 +109,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>كلمة المرور</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>الملف الشخصي</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>يبدو أن دولة حسابك لا تتطابق مع دولة الإقامة. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>التحديث إلى {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>الموقع الحالي</value>
@@ -114,6 +138,27 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>تحديث</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>إذا كنت من مساهمي مستودعات osu! مفتوحة المصدر، فإن ربط حساب GitHub الخاص بك هنا سيربط إدخالات سجل التغييرات مع ملفك الشخصي على osu! لا يمكن ربط حسابات GitHub التي لم تساهم قبلًا في osu!.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>ربط حساب GitHub</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>إلغاء ربط حساب GitHub</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>حساب GitHub هذا مرتبط بالفعل بمستخدم مختلف.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>لا يمكن ربط حساب GitHub بلا أي مساهمات مسبقة في مستودعات osu!.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>الرجاء تأكيد بريدك الإلكتروني الأساسي على GitHub، ثم محاولة ربط حسابك مرة أخرى.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>تلقي إشعارات عن مشاكل جديدة في الخرائط المؤهلة على الأنماط التالية</value>
