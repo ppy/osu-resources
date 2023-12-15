@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Ödeme</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Sepetteki tüm ürünleri kaldır</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} ürün sepette (${1})|{0} ürün sepette (${1})</value>
   </data>
@@ -130,14 +133,35 @@
   <data name="discount" xml:space="preserve">
     <value>%{0} kazanın</value>
   </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>İletişim:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Tarih:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Ödemenizin bir eCheck olması nedeniyle, ödemenizin PayPal'dan temizlenmesi için 10 ekstra günü göz önüne alın!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Bu siparişteki osu!supporter etiketleri yakın zamandaki etkinliklerinizde gösterilmez.</value>
   </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Fatura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>fatura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Siparişiniz iptal edildi</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Siparişiniz teslim edildi! İyi günlerde kullanmanız dileğiyle!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Satın alımınızla ilgili bir problem yaşıyorsanız,lütfen {0} ile görüşün.</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Siparişiniz hazılrlanıyor!</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Ödemeniz henüz onaylanmadı!</value>
@@ -150,6 +174,12 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>ödeme özetini görmek için buraya tıklayın</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Siparişiniz kargoya verildi!</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>bize bir e-mail yollayın</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Siparişi iptal et</value>
@@ -174,6 +204,21 @@
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Bu sipariş için ödeme bağlantısının süresi doldu.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Ara toplam</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Satış Temsilcisi</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Gönderim Yolu</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Sipariş Detayları</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Adet</value>
@@ -223,6 +268,15 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Ulaştırılıyor</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Sipariş Durumu</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Siparişiniz için teşekkür ederiz!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>bizimle iletişime geçin</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>İsim</value>
   </data>
@@ -264,6 +318,12 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>{0} geçerliliği kontrol ediliyor...</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Yeni kullanıcı adı</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Şu anki kullanıcı adınız "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>İsmini değiştirmek için {0} olman gerekiyor!</value>

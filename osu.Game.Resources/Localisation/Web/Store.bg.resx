@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Разплащане</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Премахване на всичко от количката</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} артикул в количката (${1})|{0} артикула в количката (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>спести {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>безплатно!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Контакт:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Вие заплатихте чрез eCheck, което може да отнеме до 10 дена от страна на PayPal за потвърждение на плащането!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter етикетите от тази поръчка не са показани в активността ви.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Изпращане чрез:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Изпращане към:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Фактура</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>фактура</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Поръчката беше отменена</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Ако не сте заявили отмяна, молим да се свържете с {0} като съобщите вашия номер на поръчка (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>поддръжката на osu!магазин</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Поръчката ви беше доставена! Надяваме се че и се радвате!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>При затруднения с вашите поръчки, моля свържете се с {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>поддръжката на osu!магазин</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Поръчката ви се подготвя!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Моля изчакайте малко повече за изпращането. Информацията за проследяване ще бъде достъпна веднага щом поръчката бъде обработена и изпратена. Това може да отнеме до 5 дни (но обичайно по-малко) в зависимост от натовареността.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Изпращаме всички продукти от Япония с различни доставчи в зависимост от стойността и размера. Тази зона ще бъде обновена с детайли веднага след изпращане на поръчката.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Вашето плащане все още не е потвърдено!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>кликнете тук, за да възстановите вашето разплащане</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Поръчката ви е изпратена!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Детайли за проследяване:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Нямаме данни за проследяване заради използвания доставчик Air Mail, но може да очаквате пристигане на поръчката ви след около 1-3 седмици. Понякога митниците в Европа може да забавят доставката, което е извън наш контрол. Ако имате притеснения, моля отговорете обратно в получения имейл за потвърждение на поръчката ви {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>като ни изпратите имейл</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Откажи поръчка</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Продължи разплащането</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Транспорт и обработка</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Връзката за тази поръчката изтече.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Междинна сума</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Общо</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Поръчка #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Условия за плащане</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Търговец</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Начини за доставка</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Условия за доставка</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Детайли на поръчка</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Количество</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Пътува</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Статус на поръчка</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Благодарим ви за поръчката!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Скоро ще получите потвърдителен имейл. Ако имате въпроси, моля {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>свържете се с нас</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Име</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Проверка за наличност на {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Заявено име</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Ново потребителско име</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Текущото ви потребителско име е "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Трябва да сте {0} , за да промените името си!</value>

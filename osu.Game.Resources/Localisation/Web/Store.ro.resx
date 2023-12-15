@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Plată</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Elimină toate articolele din coș</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>un obiect în coș (${0})|{1} obiecte în coș (${0})|{1} de obiecte în coș (${0})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>economisește {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratuit!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Dată:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Pentru că plata ta a fost făcută electronic, te rugăm să aștepți încă 10 zile pentru ca plata să se afișeze prin PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Statusul de suporter osu! din această comandă nu sunt afișate în activitățile tale recente.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Trimis Prin:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Livrare Către:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Factură</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factură fiscală</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Comanda ta a fost anulată</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Dacă nu ai solicitat o anulare, te rugăm să contactezi {0} precizând numărul comenzii tale (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>echipa de suport pentru magazinul osu!</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Comanda ta a fost livrată! Sperăm că vă bucurați de ea!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Dacă întâmpini probleme cu achiziția ta, te rugăm să contactați {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>echipa de suport pentru magazinul osu!</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Comanda ta este în curs de pregătire!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Te rugăm să mai aștepți pentru expediere. Informațiile de urmărire vor apărea aici odată ce comanda a fost procesată și trimisă. Acest lucru poate dura până la 5 zile (dar de obicei mai puțin!) în funcție de cât de ocupați suntem.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Toate comenzile sunt expediate din Japonia folosind o varietate de servicii de transport în funcție de greutate și valoare. Această zonă se va actualiza cu mai multe informații odată ce comanda este expediată.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Plata nu a fost încă confirmată!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>apasă aici pentru a-ți calcula plata</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Comanda ta a fost expediată!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Detalii de urmărire:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Nu avem detalii de urmărire fiindca am trimis coletul tău prin Air Mail, dar te poți aștepta să îl primești in 1-3 săptămâni. Pentru Europa, uneori vămile pot întârzia comenzile fapt care nu este sub controlul nostru. Dacă aveți solicitări adiționale, vă rugăm să răspundeți la e-mailul de confirmare al comenzii pe care l-ați primit {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>trimiteți-ne un e-mail</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Anulează comanda</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Reia finalizarea comenzii</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Livrare și Procesare</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Link-ul de finalizare a comenzii a expirat.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Comanda #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Termeni de plată</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Agent de vânzare</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Metoda Livrare</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Termeni de livrare</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Detaliile Comenzii</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Cantitate</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Expediat</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Starea Comenzii</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Mulțumim pentru comandă!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Veți primi în curând un e-mail de confirmare. Dacă aveți solicitări, vă rugăm să {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>ne contactați</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nume</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Se verifică disponibilitatea lui {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nume Utilizator Solicitat</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nume Utilizator Nou</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Numele tău de utilizator actual este "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Trebuie să fii {0} pentru a îți schimba numele!</value>

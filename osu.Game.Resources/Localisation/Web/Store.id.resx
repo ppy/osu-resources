@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Checkout</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Hapus semua barang dari keranjang</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} barang dalam keranjang (${1})|{0} barang dalam keranjang (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>hemat {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kontak:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Tanggal:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Berhubung pembayaranmu berupa eCheck, mohon tunggu hingga setidaknya 10 hari agar pembayaranmu dapat diproses oleh PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Tag osu!supporter yang dipesan melalui pesanan ini tidak akan ditampilkan pada riwayat aktivitas terkini milikmu.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Dikirim Melalui:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Dikirim Ke:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Tagihan</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktur</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Pesananmu telah dibatalkan</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Apabila kamu tidak meminta pembatalan ini, silakan hubungi {0} dengan menyertakan nomor pesananmu (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>layanan dukungan osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Pesananmu sudah dikirim! Kami harap kamu menikmatinya!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Apabila kamu menemui masalah dengan pembelianmu, silakan hubungi {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>layanan dukungan osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Pesananmu sedang disiapkan!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Harap tunggu sedikit lebih lama untuk pengiriman. Informasi pelacakan akan muncul di sini setelah pesanan telah diolah dan dikirim. Ini bisa perlu sampai 5 hari (tetapi biasanya lebih cepat!) tergantung kesibukan kami.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Kami mengirim seluruh pesanan dari Jepang dengan berbagai macam layanan pengiriman tergantung berat dan nilai. Bagian ini akan diperbarui dengan perincian setelah kami mengirimkan pesanan.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Pembayaranmu belum terkonfirmasi!</value>
@@ -146,16 +194,28 @@
     <value>Apabila kamu telah membayar sebelumnya, ada kemungkinan sistem kami masih menunggu konfirmasi atas pembayaranmu. Silakan muat ulang halaman ini dalam beberapa menit!</value>
   </data>
   <data name="invoice.status.processing.line_2._" xml:space="preserve">
-    <value>Apabila kamu mengalami masalah dalam proses checkout, {0}</value>
+    <value>Apabila kamu menemui masalah dalam proses checkout, {0}</value>
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klik di sini untuk melanjutkan proses checkout</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Pesananmu sudah dikirim!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Berikut rincian pelacakan yang terkait:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Kami tidak memiliki perincian pelacakan karena kami mengirim paketmu via Air Mail, tetapi kamu bisa mendapatkannya dalam 1-3 pekan. Untuk Eropa, terkadang bea cukai dapat menunda pesanan di luar kendali kami. Jika kamu punya kekhawatiran, silakan balas email konfirmasi pesanan yang kamu terima {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>kirimi kami email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Batalkan Pesanan</value>
   </data>
   <data name="order.cancel_confirm" xml:space="preserve">
-    <value>Pesanan ini akan dibatalkan dan segala biaya yang telah kamu keluarkan tidak akan kami terima. Apakah kamu yakin?</value>
+    <value>Pesanan ini akan dibatalkan dan pembayaran yang masuk tidak akan diterima. Layanan pembayaran mungkin tidak akan mencairkan dana yang tersimpan dengan segera. Apakah kamu yakin?</value>
   </data>
   <data name="order.cancel_not_allowed" xml:space="preserve">
     <value>Pesanan ini tidak dapat dibatalkan pada saat ini.</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Lanjutkan Proses Checkout</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Pengiriman &amp; Penanganan</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Tautan checkout untuk pesanan ini telah kedaluwarsa.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Pesanan #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Ketentuan Pembayaran</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Pramuniaga</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Metode Pengiriman</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Ketentuan Pengiriman</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Detail Pesanan</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Jumlah</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Terkirim</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Status Pesanan</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Terima kasih atas pesananmu!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Kamu akan menerima email konfirmasi dengan segera. Apabila kamu memiliki pertanyaan lebih lanjut, silakan {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>hubungi kami</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nama</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Memeriksa ketersediaan {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nama Pengguna yang Diminta</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nama Pengguna Baru</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Nama penggunamu saat ini adalah "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Anda harus {0} untuk mengubah nama Anda!</value>

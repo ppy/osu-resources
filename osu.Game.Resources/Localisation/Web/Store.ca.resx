@@ -59,10 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cart.checkout" xml:space="preserve">
-    <value>Realitza la compra</value>
+    <value>Pagament</value>
+  </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Eliminar tots els elements del cistell</value>
   </data>
   <data name="cart.info" xml:space="preserve">
-    <value>{0} producte al cistell (${1})|{0} productes al cistell (${1})</value>
+    <value>{0} elements al cistell (${1})|{0} elements al cistell (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Vull veure més productes abans de completar la compra</value>
@@ -80,16 +83,16 @@
     <value>Oh, hi ha problemes a la teva cistella que no permeten el pagament!</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
-    <value>Elimina o canvia els productes de sobre per a continuar. </value>
+    <value>Elimina o actualitza els elements de dalt per continuar.</value>
   </data>
   <data name="cart.empty.text" xml:space="preserve">
     <value>La teva cistella està buida.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
-    <value>Torna a {0} per a trobar bons productes!</value>
+    <value>Torna al {0} per a trobar bons productes!</value>
   </data>
   <data name="cart.empty.return_link.link_text" xml:space="preserve">
-    <value>articles</value>
+    <value>llistat d'articles</value>
   </data>
   <data name="checkout.cart_problems" xml:space="preserve">
     <value>Oh, hi ha problemes amb la teva cistella!</value>
@@ -107,7 +110,7 @@
     <value>Amaga totes les etiquetes osu!supporter en aquesta ordre de la meva activitat</value>
   </data>
   <data name="checkout.old_cart" xml:space="preserve">
-    <value>La vostra cistella sembla desactualitzada i s'ha reiniciat, torna-ho a intentar.</value>
+    <value>La teva cistella sembla desactualitzada i s'ha reiniciat, torna-ho a intentar.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
     <value>Pagament amb Paypal</value>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>estalvia {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>de franc!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Contacte:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Data:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Com que el seu pagament va ser un eCheck, si us plau permeti fins a 10 dies addicionals perquè el pagament es faci a través de PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Les etiquetes d'osu!supporter en aquesta ordre no es mostren a les teves activitats recents.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Enviat via:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Enviament a:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Factura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>factura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>La teva comanda s'ha cancel·lat</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Si no has sol·licitat una cancel·lació, posa't en contacte amb el {0} indicant el teu número de comanda (núm. {1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>suport de la osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>La teva comanda ha estat lliurada! Esperem que l'estiguis gaudint!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Si tens algun problema amb la teva compra, posa't en contacte amb el {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>suport de la osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Estem processant la teva comanda!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Si us plau, espera una mica més perquè s'enviï. La informació de seguiment apareixerà aquí una vegada que la comanda hagi estat processada i enviada. Això pot trigar fins a 5 dies (però normalment menys!) depenent de tan ocupats estiguem.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Enviem totes les comandes des del Japó usant una varietat de serveis d'enviament depenent del pes i el valor. Aquesta àrea s'actualitzarà amb detalls una vegada hàgim enviat la comanda.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>El teu pagament encara no s'ha confirmat!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>fes clic aquí per a continuar la comanda</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>La vostra comanda ha estat enviada!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Detalls de seguiment:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>No tenim detalls de seguiment, ja que enviem el teu paquet a través d'Air Mail, però pots esperar rebre'l en un termini d'1-3 setmanes. Per a Europa, de vegades les duanes poden endarrerir la comanda fora del nostre control. Si tens algun dubte, si us plau respon al correu electrònic de confirmació de la comanda que vas rebre {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>envia'ns un correu electrònic</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Cancel·la la comanda</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Continuar pagament</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Enviament i manipulació</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>L'enllaç de pagament per aquesta comanda ha expirat.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Comanda núm. 4</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Condicions de pagament</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Venedor</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Mètode d'enviament</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Terminis d'enviament</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Detalls de la comanda</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Quantitat</value>
@@ -223,14 +310,26 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Enviada</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Estat de la comanda</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Moltes gràcies per la teva comanda!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Rebràs un correu electrònic de confirmació aviat. Si tens alguna pregunta, si us plau {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>contacta amb nosaltres</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Nom</value>
   </data>
   <data name="product.stock.out" xml:space="preserve">
-    <value>Aquest producte està esgotat. Torna més endavant!</value>
+    <value>Aquest element està esgotat. Torna més endavant!</value>
   </data>
   <data name="product.stock.out_with_alternative" xml:space="preserve">
-    <value>Aquest producte està esgotat. Utilitza el desplegable per a seleccionar un altre tipus o torna més endavant!</value>
+    <value>Aquest element està esgotat. Utilitza el desplegable per a seleccionar un altre tipus o torna més endavant!</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
     <value>Afegeix a la cistella</value>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Comprovant la disponibilitat de {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Nom d'usuari sol·licitat</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nou nom d'usuari</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>El teu nom d'usuari actual és «{0}».</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Has de ser {0} per a canviar el teu nom!</value>

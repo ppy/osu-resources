@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Fizetés</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Összes elem törlése a kosárból</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} elem a kosárban (${1})|{0} elem a kosárban (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>{0}% megtakaritása</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>ingyenes!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kapcsolat:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Dátum:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Mivel a fizetésed egy eCheck volt, engedj meg neki legalább 10 napot a PayPal-es feldolgozásra!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>ebben a vásárlásban szereplő osu!supporter címkék nem jelennek meg a legutóbbi aktivitásaid között.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Általa küldve:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Szállítás ide:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Számla</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>számla</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>A rendelés törölve lett</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Ha nem kérted a lemondást, kérjük, vedd fel a kapcsolatot itt: {0}, majd add meg a rendelésed számát (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!bolt támogatás</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>A rendelésed megérkezett! Reméljük, hogy tetszik neked!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Ha bármilyen problémád akad a vásárlással, kérlek lépj kapcsolatba {0} helyen.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!bolt támogatás</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>A rendelés feldolgozás alatt!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Kérjük, várj még egy kicsit a szállításra. A csomagkövetési információk itt fognak majd megjelenni, amikor a rendelés feldolgozása és elküldése megtörtént. Ez akár 5 napot is igénybe vehet (de általában kevesebbet!) attól függően, hogy mennyire vagyunk elfoglaltak.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Minden megrendelést Japánból küldünk, a súlytól és értéktől függően különböző szállítási szolgáltatásokat használva. Ez a szakasz frissülni fog a részletekkel, amikor a megrendelést elküldtük.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>A fizetésed még nem lett megerősítve!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>kattints ide a fizetés folytatásához</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>A rendelés kiszállításra került!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Csomagkövetés részletei:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Nem rendelkezünk csomagkövetési adatokkal, mivel azt az Air Mailen keresztül küldtük el, de 1-3 héten belül várhatóan megkapod a csomagot. Európa esetében a vám néha késleltetheti a rendelést, amit mi nem tudunk befolyásolni. Ha bármilyen aggodalmad van, kérlek válaszolj a megrendelést visszaigazoló emailre, amit kaptál {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>küldj nekünk egy emailt</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Megrendelés törlése</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Fizetés Folytatása</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Szállítás és kezelés</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>A rendelés fizetési linkje lejárt.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Részösszeg</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Összesen</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Rendelési szám</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Fizetési feltételek</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Értékesítő</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Szállítási mód</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Szállítási feltételek</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Rendelés részletei</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Mennyiség</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Szállítás alatt</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Rendelés állapota</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Köszönjük a megrendelést!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Hamarosan kapni fogsz egy megerősítő emailt. Ha bármilyen kérdésed van, kérlek {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>lépj kapcsolatba velünk</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Név</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>{0} elérhetőségének ellenőrzése...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Kért Felhasználónév</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Új Felhasználónév</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>A jelenlegi felhasználóneved "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>{0} kell lenned a neved megváltoztatásához!</value>
