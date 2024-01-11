@@ -22,12 +22,8 @@ layout(location = 0) out vec4 o_Colour;
 
 lowp vec4 bgColAt(highp float absoluteTexturePos)
 {
-    const vec4 colour_white = vec4(1.0, 1.0, 1.0, 0.8);
-    const vec4 colour_black = vec4(0.0, 0.0, 0.0, 0.2);
-
     highp float relativeTexturePos = clamp(absoluteTexturePos / pathRadius, 0.0, 1.5);
-
-    return mix(colour_black, colour_white, relativeTexturePos / 1.5);
+    return mix(vec4(vec3(0.0), 0.2), vec4(vec3(1.0), 0.8), relativeTexturePos / 1.5);
 }
 
 lowp vec4 getColour(highp float absoluteTexturePos)
@@ -47,7 +43,7 @@ void main(void)
     highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
 
     mediump vec2 absolutePos = size * pixelPos;
-    highp float absoluteTexturePos = getBarTexturePosition(size, 0.0, 1.0, pathRadius, padding, absolutePos);
+    highp float absoluteTexturePos = getBarTexturePosition(size, 0.0, 1.0, padding, absolutePos);
     o_Colour = getRoundedColor(getColour(absoluteTexturePos), v_TexCoord);
 }
 
