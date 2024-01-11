@@ -134,14 +134,14 @@ highp float dstToBottomLine(
     return dstToLine(startPos, endPos, pixelAbsolutePos);
 }
 
-highp float getBarTexturePosition(mediump vec2 size, highp float startProgress, highp float endProgress, mediump float padding, mediump vec2 pixelAbsolutePos)
+highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, mediump float padding, mediump vec2 pixelAbsolutePos)
 {
     mediump vec2 p1 = vec2(min(padding, size.x * 0.5), min(padding, size.y * 0.5));
     mediump vec2 p4 = vec2(max(size.x - padding, size.x * 0.5), max(size.y - padding, size.y * 0.5));
 
     if (p4.y == p1.y)
     {
-        return dstToLine(vec2(p1.x + startProgress * (p4.x - p1.x), p1.y), vec2(p1.x + endProgress * (p4.x - p1.x), p1.y), pixelAbsolutePos);
+        return dstToLine(vec2(p1.x + progressRange.x * (p4.x - p1.x), p1.y), vec2(p1.x + progressRange.y * (p4.x - p1.x), p1.y), pixelAbsolutePos);
     }
 
     mediump float topWidth = max(size.x - padding - 70.0, padding) - p1.x;
@@ -185,8 +185,6 @@ highp float getBarTexturePosition(mediump vec2 size, highp float startProgress, 
     highp float progressArc2End = (length1 + length2 + arcLength * 2.0) / totalLength;
     mediump vec2 arc1Centre = vec2(p2.x - roundOffset, p2.y + arcRadius);
     mediump vec2 arc2Centre = vec2(p3.x + roundOffset, p3.y - arcRadius);
-
-    highp vec2 progressRange = vec2(startProgress, endProgress);
 
     mediump float minDst = dstToTopLine(progressRange, p1, arc1Start, progressArc1Start, pixelAbsolutePos);
     minDst = min(minDst, dstToTopArc(progressRange, arcRadius, progressArc1Start, progressArc1End, arc1Centre, slashAngle, arcAngle, pixelAbsolutePos));

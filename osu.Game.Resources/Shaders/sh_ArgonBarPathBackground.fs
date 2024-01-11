@@ -43,7 +43,7 @@ void main(void)
     highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
 
     mediump vec2 absolutePos = size * pixelPos;
-    highp float absoluteTexturePos = getBarTexturePosition(size, 0.0, 1.0, padding, absolutePos);
+    highp float absoluteTexturePos = getBarTexturePosition(size, vec2(0.0, 1.0), padding, absolutePos);
     o_Colour = getRoundedColor(getColour(absoluteTexturePos), v_TexCoord);
 }
 
