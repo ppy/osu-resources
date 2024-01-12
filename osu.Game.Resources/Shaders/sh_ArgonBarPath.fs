@@ -34,11 +34,11 @@ lowp vec4 getColour(highp float absoluteTexturePos)
     highp float absoluteGlowPortion = pathRadius * glowPortion;
     absoluteTexturePos = clamp(absoluteTexturePos, 0.0, pathRadius);
 
-    if (absoluteTexturePos < pathRadius - absoluteGlowPortion)
+    if (absoluteTexturePos < pathRadius - absoluteGlowPortion - 1.0)
         return barColour;
 
-    if (absoluteTexturePos < pathRadius - absoluteGlowPortion + 1.0)
-        return mix(glowColAt(absoluteTexturePos, absoluteGlowPortion), barColour, pathRadius - absoluteGlowPortion + 1.0 - absoluteTexturePos);
+    if (absoluteTexturePos < pathRadius - absoluteGlowPortion)
+        return mix(glowColour, barColour, pathRadius - absoluteGlowPortion - absoluteTexturePos);
 
     return glowColAt(absoluteTexturePos, absoluteGlowPortion);
 }
