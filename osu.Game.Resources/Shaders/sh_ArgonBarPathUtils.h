@@ -144,8 +144,12 @@ highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, m
         return dstToLine(vec2(p1.x + progressRange.x * (p4.x - p1.x), p1.y), vec2(p1.x + progressRange.y * (p4.x - p1.x), p1.y), pixelAbsolutePos);
     }
 
-    mediump float topWidth = max(size.x - pathRadius - 70.0, pathRadius) - p1.x;
-    mediump float bottomWidth = p4.x - max(size.x - pathRadius - 40.0, pathRadius);
+    const float curve_start_offset = 70.0;
+    const float curve_end_offset = 40.0;
+    const float curve_smoothness = 10.0;
+
+    mediump float topWidth = max(size.x - pathRadius - curve_start_offset, pathRadius) - p1.x;
+    mediump float bottomWidth = p4.x - max(size.x - pathRadius - curve_end_offset, pathRadius);
 
     if (topWidth < bottomWidth)
     {
@@ -158,7 +162,7 @@ highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, m
     mediump vec2 p3 = vec2(p4.x - bottomWidth, p4.y);
 
     mediump float slashLength = distance(p2, p3);
-    mediump float roundOffset = min(topWidth, 10.0);
+    mediump float roundOffset = min(topWidth, curve_smoothness);
 
     mediump vec2 arc1Start = vec2(p2.x - roundOffset, p2.y);
     mediump vec2 arc1End = mix(p2, p3, roundOffset / slashLength);
