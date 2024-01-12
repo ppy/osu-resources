@@ -134,18 +134,18 @@ highp float dstToBottomLine(
     return dstToLine(startPos, endPos, pixelAbsolutePos);
 }
 
-highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, mediump float padding, mediump vec2 pixelAbsolutePos)
+highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, mediump float pathRadius, mediump vec2 pixelAbsolutePos)
 {
-    mediump vec2 p1 = vec2(min(padding, size.x * 0.5), min(padding, size.y * 0.5));
-    mediump vec2 p4 = vec2(max(size.x - padding, size.x * 0.5), max(size.y - padding, size.y * 0.5));
+    mediump vec2 p1 = vec2(min(pathRadius, size.x * 0.5), min(pathRadius, size.y * 0.5));
+    mediump vec2 p4 = vec2(max(size.x - pathRadius, size.x * 0.5), max(size.y - pathRadius, size.y * 0.5));
 
     if (p4.y == p1.y)
     {
         return dstToLine(vec2(p1.x + progressRange.x * (p4.x - p1.x), p1.y), vec2(p1.x + progressRange.y * (p4.x - p1.x), p1.y), pixelAbsolutePos);
     }
 
-    mediump float topWidth = max(size.x - padding - 70.0, padding) - p1.x;
-    mediump float bottomWidth = p4.x - max(size.x - padding - 40.0, padding);
+    mediump float topWidth = max(size.x - pathRadius - 70.0, pathRadius) - p1.x;
+    mediump float bottomWidth = p4.x - max(size.x - pathRadius - 40.0, pathRadius);
 
     if (topWidth < bottomWidth)
     {

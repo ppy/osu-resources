@@ -18,7 +18,6 @@ layout(std140, set = 0, binding = 0) uniform m_ArgonBarPathParameters
     mediump vec2 size;
     highp vec2 progressRange;
     mediump float pathRadius;
-    mediump float padding;
     mediump float glowPortion;
 };
 
@@ -50,7 +49,7 @@ void main(void)
     highp vec2 pixelPos = (v_TexCoord - v_TexRect.xy) / resolution;
 
     mediump vec2 absolutePos = size * pixelPos;
-    highp float absoluteTexturePos = getBarTexturePosition(size, progressRange, padding, absolutePos);
+    highp float absoluteTexturePos = getBarTexturePosition(size, progressRange, pathRadius, absolutePos);
     o_Colour = getRoundedColor(getColour(absoluteTexturePos), v_TexCoord);
 }
 
