@@ -27,7 +27,7 @@ layout(location = 0) out vec4 o_Colour;
 lowp vec4 glowColAt(highp float absoluteTexturePos, highp float absoluteGlowPortion)
 {
     highp float mixValue = 1.0 - (absoluteTexturePos - pathRadius + absoluteGlowPortion) / absoluteGlowPortion;
-    return vec4(glowColour.rgb, mix(0.0, glowColour.a, mixValue * mixValue * mixValue * mixValue));
+    return vec4(glowColour.rgb, mix(0.0, glowColour.a, mixValue * mixValue * mixValue * mixValue * mixValue));
 }
 
 lowp vec4 getColour(highp float absoluteTexturePos)
