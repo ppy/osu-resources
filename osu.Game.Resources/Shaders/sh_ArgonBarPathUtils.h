@@ -173,7 +173,7 @@ highp float getBarTexturePosition(mediump vec2 size, highp vec2 progressRange, m
     slashAngle += float(slashAngle < 0.0) * TWO_PI;
     slashAngle = TWO_PI - HALF_PI - slashAngle;
 
-    mediump float arcAngle = (HALF_PI - slashAngle * 0.5) * 2.0;
+    highp float arcAngle = (HALF_PI - slashAngle * 0.5) * 2.0;
     mediump float arcRadius = roundOffset * tan(slashAngle * 0.5);
     mediump float arcLength = arcAngle * arcRadius;
 
