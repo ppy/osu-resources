@@ -46,6 +46,9 @@ highp float dstToTopLine(
     if (progressRange.x > progressArc1Start)
         return 1000.0;
 
+    if (progressArc1Start < 0.001)
+        return distance(pixelAbsolutePos, arc1Start);
+
     progressRange.y = min(progressRange.y, progressArc1Start);
 
     mediump vec2 startPos = mix(p1, arc1Start, progressRange.x / progressArc1Start);
@@ -66,6 +69,9 @@ highp float dstToTopArc(
 {
     if (progressRange.x > progressArc1End || progressRange.y < progressArc1Start)
         return 1000.0;
+
+    if (progressArc1End - progressArc1Start < 0.001)
+        return distance(pixelAbsolutePos, vec2(arcCentre.x, arcCentre.y - radius));
 
     progressRange.x = max(progressRange.x, progressArc1Start);
     progressRange.y = min(progressRange.y, progressArc1End);
@@ -108,6 +114,9 @@ highp float dstToBottomArc(
     if (progressRange.x > progressArc2End || progressRange.y < progressArc2Start)
         return 1000.0;
 
+    if (progressArc2End - progressArc2Start < 0.001)
+        return distance(pixelAbsolutePos, vec2(arcCentre.x, arcCentre.y + radius));
+
     progressRange.x = max(progressRange.x, progressArc2Start);
     progressRange.y = min(progressRange.y, progressArc2End);
 
@@ -125,6 +134,9 @@ highp float dstToBottomLine(
 {
     if (progressRange.y < progressArc2End)
         return 1000.0;
+
+    if (1.0 - progressArc2End < 0.001)
+        return distance(pixelAbsolutePos, arc2End);
 
     progressRange.x = max(progressRange.x, progressArc2End);
 
