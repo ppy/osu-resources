@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>إتمام الشراء</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>إزالة جميع العناصر من سلة التسوق</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} عنصر في السلة (${1})|{0} عناصر في السلة (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>حفظ {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>مجاناً!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>جهة الإتصال:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>التاريخ:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>بما ان دفعتك كانت الكترونية، يرجى السماح لنا حتى 10 أيام إضافية لدفع للمرور عن طريق باي بال!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>إشارات osu!supporter لن تعرض بهذا الترتيب في نشاطك.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>ارسلت بواسطة:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>تُشحن إلى:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>الفاتورة</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>تم إلغاء طلبك</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>إذا لم تطلب إلغاء، يرجى الاتصال بـ {0} واقتبس رقم طلبك في الرسالة (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>دعم متجر osu!</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>لقد تم تسليم طلبك! نأمل أن تستمتع به!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>إذا كان لديك أي مشاكل في عملية الشراء الخاصة بك، يرجى الاتصال بـ {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>دعم متجر osu!</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>يتم إعداد طلبك!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>الرجاء الانتظار لفترة أطول قليلاً حتى يتم شحنها. ستظهر معلومات التتبع هنا بمجرد معالجة الطلب وإرساله. هذا قد يستغرق 5 أيام (ولكن عادةً ما يكون أقل!) اعتماداً على مدى إنشغالنا.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>نحن نرسل جميع الطلبات من اليابان باستخدام مجموعة متنوعة من خدمات الشحن حسب الوزن والقيمة. سيتم تحديث هذه المنطقة مع التفاصيل بمجرد شحن الطلب.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>لم يتم تأكيد الدفع الخاص بك بعد!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>انقر هنا لاِستئناف الدفع</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>تم شحن طلبك!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>وفيما يلي تفاصيل التعقب:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>ليس لدينا تفاصيل التتبع حيث أننا أرسلنا الحزمة الخاصة بك عبر البريد الجوي، ولكن يمكنك أن تتوقع تلقيها في غضون 1-3 أسابيع. وبالنسبة لأوروبا، يمكن للجمارك أحيانا أن تؤخر الأمر خارج نطاق سيطرتنا. إذا كان لديك أي مخاوف، يرجى الرد على بريد التأكيد الذي تلقيته {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>أرسل لنا بريد إلكتروني</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>إلغاء الطلبية</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>استئناف الدفع</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>الشحن والتسليم</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>انتهت صلاحية رابط الدفع لهذه الطلبية.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>حاصل الجمع</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>طلب الشراء #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>شروط الدفع</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>مندوب المبيعات</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>وسيلة الشحن</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>شروط الشحن</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>الكمية</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>تم الشحن</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>شكرا على طلبك!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>سوف تتلقى رسالة تأكيد بالبريد الإلكتروني قريبا. إذا كان لديك أي استفسارات، يرجى {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>الإسم</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>التحقق من توافر {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>اسم المستخدم المطلوب</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>اسم مستخدم جديد</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>اسم المستخدم الحالي الخاص بك هو "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>تحتاج إلى أن تكون {0} لتغيير اسمك!</value>

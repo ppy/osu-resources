@@ -95,7 +95,7 @@
     <value>El problema resuelto {0} por {1} ha sido reabierto por {2}.</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
-    <value>El problema {0} ha sido marcado como resuelto.</value>
+    <value>El problema {0} por {1} ha sido marcado como resuelto por {2}.</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
     <value>La negación de kudosu para la discusión {0} ha sido eliminada.</value>
@@ -107,7 +107,7 @@
     <value>La discusión {0} por {1} ha obtenido suficientes votos para kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>La discusión {0} por {1} ha perdido votos y su kudosu ganado ha sido removido.</value>
+    <value>La discusión {0} por {1} ha perdido votos y su kudosu ganado ha sido eliminado.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>A la discusión {0} se le han recalculado los kudosu otorgados.</value>
@@ -143,19 +143,19 @@
     <value>Clasificado.</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
-    <value>Removido de Amados por {0}. ({1})</value>
+    <value>Eliminado de amados por {0}. ({1})</value>
   </data>
   <data name="event.tags_edit" xml:space="preserve">
     <value>Las etiquetas cambiaron de «{0}» a «{1}».</value>
   </data>
   <data name="event.nsfw_toggle.to_0" xml:space="preserve">
-    <value>Marca explícita removida</value>
+    <value>Marca explícita quitada</value>
   </data>
   <data name="event.nsfw_toggle.to_1" xml:space="preserve">
     <value>Marcado como explícito</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Eventos del set de mapas</value>
+    <value>Eventos del conjunto de mapas</value>
   </data>
   <data name="index.form.period" xml:space="preserve">
     <value>Período</value>
@@ -203,25 +203,25 @@
     <value>Resolución de discusión</value>
   </data>
   <data name="type.kudosu_allow" xml:space="preserve">
-    <value>Permiso de Kudosu</value>
+    <value>Permiso de kudosu</value>
   </data>
   <data name="type.kudosu_deny" xml:space="preserve">
-    <value>Negación de Kudosu</value>
+    <value>Negación de kudosu</value>
   </data>
   <data name="type.kudosu_gain" xml:space="preserve">
-    <value>Ganancia de Kudosu</value>
+    <value>Ganancia de kudosu</value>
   </data>
   <data name="type.kudosu_lost" xml:space="preserve">
-    <value>Pérdida de Kudosu</value>
+    <value>Pérdida de kudosu</value>
   </data>
   <data name="type.kudosu_recalculate" xml:space="preserve">
-    <value>Recalculación de Kudosu</value>
+    <value>Recalculación de kudosu</value>
   </data>
   <data name="type.language_edit" xml:space="preserve">
     <value>Edición del idioma</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Amor</value>
+    <value>Amados</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Nominación</value>
@@ -245,6 +245,6 @@
     <value>Clasificación</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Remoción de Amados</value>
+    <value>Eliminación de amados</value>
   </data>
 </root>

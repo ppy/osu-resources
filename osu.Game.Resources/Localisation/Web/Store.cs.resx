@@ -148,6 +148,12 @@
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter tagy v této objednávce se nebudou zobrazovat v nedávných aktivitách.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Odesláno přes:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Místo doručení:</value>
+  </data>
   <data name="invoice.title" xml:space="preserve">
     <value>Faktura</value>
   </data>
@@ -175,6 +181,12 @@
   <data name="invoice.status.prepared.title" xml:space="preserve">
     <value>Vaše objednávka se připravuje!</value>
   </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Počkejte prosím o něco déle, než bude zásilka odeslána. Informace pro sledování se zobrazí zde, jakmile bude objednávka zpracována a odeslána. To může trvat až 5 dní (ale obvykle méně!) v závislosti na tom, jak jsme zaneprázdněni.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Všechny objednávky zasíláme z Japonska pomocí různých přepravních služeb v závislosti na váze a hodnotě. Tato oblast bude po odeslání objednávky specifikována.</value>
+  </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Vaše platba nebyla ještě potvrzena!</value>
   </data>
@@ -189,6 +201,15 @@
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
     <value>Vaše objednávka byla odeslána!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Detaily o sledování:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Vzhledem k tomu, že jsme vaší zásilku poslali přes Air Mail nemáme detaily o sledování, ale můžete zásilku očekávat během 1-3 týdnů. Pro Evropu někdy může celní správa zpozdit dopravu zásilky o něco déle. Pokud máte obavy, prosím odpovězte na email o potvrzení objednávky, který jste obdrželi {0}.</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>napište nám email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Zrušit objednávku</value>
@@ -211,6 +232,9 @@
   <data name="order.resume" xml:space="preserve">
     <value>Obnovit objednávku</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Přepravné a balné</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Odkaz na objednávku pro tuto objednávku vypršel.</value>
   </data>
@@ -222,6 +246,18 @@
   </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>Objednávka č.</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Platební podmínky</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Prodejce</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Způsob dopravy</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Dodací podmínky</value>
   </data>
   <data name="order.details.title" xml:space="preserve">
     <value>Detail objednávky</value>

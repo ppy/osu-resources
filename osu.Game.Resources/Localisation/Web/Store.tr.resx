@@ -133,6 +133,9 @@
   <data name="discount" xml:space="preserve">
     <value>%{0} kazanın</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>ücretsiz!</value>
+  </data>
   <data name="invoice.contact" xml:space="preserve">
     <value>İletişim:</value>
   </data>
@@ -145,6 +148,12 @@
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Bu siparişteki osu!supporter etiketleri yakın zamandaki etkinliklerinizde gösterilmez.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Kargo şirketi:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Gönderim adresi:</value>
+  </data>
   <data name="invoice.title" xml:space="preserve">
     <value>Fatura</value>
   </data>
@@ -154,11 +163,17 @@
   <data name="invoice.status.cancelled.title" xml:space="preserve">
     <value>Siparişiniz iptal edildi</value>
   </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!store destek</value>
+  </data>
   <data name="invoice.status.delivered.title" xml:space="preserve">
     <value>Siparişiniz teslim edildi! İyi günlerde kullanmanız dileğiyle!</value>
   </data>
   <data name="invoice.status.delivered.line_1._" xml:space="preserve">
     <value>Satın alımınızla ilgili bir problem yaşıyorsanız,lütfen {0} ile görüşün.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!store destek</value>
   </data>
   <data name="invoice.status.prepared.title" xml:space="preserve">
     <value>Siparişiniz hazılrlanıyor!</value>
@@ -177,6 +192,9 @@
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
     <value>Siparişiniz kargoya verildi!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Kargo takip detayları aşağıdadır:</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>bize bir e-mail yollayın</value>
@@ -202,6 +220,9 @@
   <data name="order.resume" xml:space="preserve">
     <value>Sepete Dön</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Kargo &amp; Taşıma</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Bu sipariş için ödeme bağlantısının süresi doldu.</value>
   </data>
@@ -211,11 +232,20 @@
   <data name="order.total" xml:space="preserve">
     <value>Toplam</value>
   </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Sipariş No.</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Ödeme Koşulları</value>
+  </data>
   <data name="order.details.salesperson" xml:space="preserve">
     <value>Satış Temsilcisi</value>
   </data>
   <data name="order.details.shipping_method" xml:space="preserve">
     <value>Gönderim Yolu</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Teslimat Koşulları</value>
   </data>
   <data name="order.details.title" xml:space="preserve">
     <value>Sipariş Detayları</value>
@@ -318,6 +348,9 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>{0} geçerliliği kontrol ediliyor...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>İstenilen Kullanıcı Adı</value>
   </data>
   <data name="username_change.label" xml:space="preserve">
     <value>Yeni kullanıcı adı</value>
