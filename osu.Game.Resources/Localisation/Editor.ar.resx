@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>محرر الخرائط</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>شفافية شريط الموجات</value>
   </data>
@@ -72,6 +75,12 @@
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>تعيين نقطة المعاينة إلى الوقت الحالي</value>
+  </data>
+  <data name="export_for_editing" xml:space="preserve">
+    <value>لتعديل (.olz)</value>
+  </data>
+  <data name="export_for_compatibility" xml:space="preserve">
+    <value>لتحقيق التوافق (.osz)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>إنشاء صعوبة جديدة</value>
@@ -108,5 +117,20 @@
   </data>
   <data name="timeline_ticks" xml:space="preserve">
     <value>علامات</value>
+  </data>
+  <data name="rotation_unsnapped" xml:space="preserve">
+    <value>{0:0}°</value>
+  </data>
+  <data name="rotation_snapped" xml:space="preserve">
+    <value>{0:0}° (محدود الإتجاه)</value>
+  </data>
+  <data name="limited_distance_snap_grid" xml:space="preserve">
+    <value>قفل حركة تحديد الإتجاه إلى الوقت الحالي</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>يجب أن تكون في وضع التحرير للتعامل مع روابط المحرر</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>فشل تحليل رابط المحرر</value>
   </data>
 </root>
