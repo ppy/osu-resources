@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>قوة النوافذ القابلة للنقر وصعوبة الكائنات الخاصة (مثل السبنر)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>معدل التكات</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>يحدد عدد "الدقات" التي يتم إنشاؤها داخل الكائنات الطويلة. معدل دقة واحد سيولد علامات على كل نبضة موسيقية، 2 سيكون مرتين لكل نبضة موسيقية، إلخ.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>السرعة المبدئية</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>السرعة المبدئية في الخريطة، تؤثر على أشياء مثل سرعة السلايدرات وسرعة التمرير في بعض مودات اللعب.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>البيانات التعريفية</value>
   </data>
@@ -148,14 +160,8 @@
   <data name="click_to_select_track" xml:space="preserve">
     <value>اضغط لتحديد أغنية</value>
   </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>اضغط لإستبدال الأغنية</value>
-  </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>انقر لتحديد صورة الخلفية</value>
-  </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>انقر لاستبدال صورة الخلفية</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>مجموعة القواعد ({0})</value>

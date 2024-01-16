@@ -255,9 +255,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString InvoiceStatusShippedTrackingDetails => new TranslatableString(getKey(@"invoice.status.shipped.tracking_details"), @"Tracking details follow:");
 
         /// <summary>
-        /// "We don&#39;t have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received {0}."
+        /// "We don&#39;t have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received (or {0})."
         /// </summary>
-        public static LocalisableString InvoiceStatusShippedNoTrackingDetailsDefault(LocalisableString link) => new TranslatableString(getKey(@"invoice.status.shipped.no_tracking_details._"), @"We don't have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received {0}.", link);
+        public static LocalisableString InvoiceStatusShippedNoTrackingDetailsDefault(LocalisableString link) => new TranslatableString(getKey(@"invoice.status.shipped.no_tracking_details._"), @"We don't have tracking details as we sent your package via Air Mail, but you can expect to receive it within 1-3 weeks. For Europe, sometimes customs can delay the order out of our control. If you have any concerns, please reply to the order confirmation email you received (or {0}).", link);
 
         /// <summary>
         /// "send us an email"

@@ -58,14 +58,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>谱面编辑器</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>波形不透明度</value>
   </data>
   <data name="show_hit_markers" xml:space="preserve">
-    <value>显示物件打击标识</value>
+    <value>标明物件圆圈</value>
   </data>
   <data name="auto_seek_on_placement" xml:space="preserve">
-    <value>放置物件后自动搜寻</value>
+    <value>放置物件后时间轴自动跳转</value>
   </data>
   <data name="timing" xml:space="preserve">
     <value>时间轴</value>
@@ -123,5 +126,11 @@
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>间距锁定时，限制物件的时间点</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>必须在编辑器界面内处理编辑器链接</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>解析编辑器链接失败</value>
   </data>
 </root>

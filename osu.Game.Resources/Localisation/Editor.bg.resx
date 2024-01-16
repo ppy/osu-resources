@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>Бийтмап редактор</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Прозрачност на вълната</value>
   </data>
@@ -116,12 +119,18 @@
     <value>Линия</value>
   </data>
   <data name="rotation_unsnapped" xml:space="preserve">
-    <value>{0:0.0}°</value>
+    <value>{0:0}°</value>
   </data>
   <data name="rotation_snapped" xml:space="preserve">
-    <value>{0:0.0}° (щракнат)</value>
+    <value>{0:0}° (закрепен)</value>
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>Ограничена distance snap позиция към текущото време</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>Трябва да сте в редактор за да използвате редакторски връзки</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>Неуспешна обработка на редакторска връзка</value>
   </data>
 </root>
