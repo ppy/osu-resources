@@ -139,6 +139,9 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>güncelle</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Eğer osu!'nun açık kaynaklı repository'lerinde katkılıysanız, GitHub hesabınızı bağlamanız sizin değişim günlüğü girişleriniz, osu! profilinizle ilişkilendirilecektir. osu! repository'lerinde katkı geçmişi olmayan GitHub hesapları bağlanamaz.</value>
+  </data>
   <data name="github_user.link" xml:space="preserve">
     <value>GitHub Hesabını Bağla</value>
   </data>
@@ -147,6 +150,15 @@
   </data>
   <data name="github_user.unlink" xml:space="preserve">
     <value>GitHub Hesabının bağlantısını Kaldır</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Bu GitHub hesabı zaten başka bir kullanıcıya bağlı.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>osu! repository'lerinde katkı geçmişi olmayan GitHub hesabı bağlanamaz.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Lütfen GitHub'daki ana e-postanızı doğrulayın, sonra hesabınızı tekrar bağlamayı deneyin.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Doğrulanmış beatmapler'in belirtilen modlardaki yeni sorunlarının bildirimlerini al</value>
