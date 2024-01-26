@@ -100,6 +100,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString StartingUsername => new TranslatableString(getKey(@"starting.username"), @"Enter email address or username");
 
         /// <summary>
+        /// "Your account hasn&#39;t been used in a long time. To ensure your account security please reset your password."
+        /// </summary>
+        public static LocalisableString StartingReasonInactiveDifferentCountry => new TranslatableString(getKey(@"starting.reason.inactive_different_country"), @"Your account hasn't been used in a long time. To ensure your account security please reset your password.");
+
+        /// <summary>
         /// "Need further assistance? Contact us via our {0}."
         /// </summary>
         public static LocalisableString StartingSupportDefault(LocalisableString button) => new TranslatableString(getKey(@"starting.support._"), @"Need further assistance? Contact us via our {0}.", button);
