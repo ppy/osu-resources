@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} item(s)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Data migration will use "hard links". No extra disk space will be used, and you can delete either data folder at any point without affecting the other installation.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Learn more about how "hard links" work</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Lightweight linking of files is not supported on your operating system yet, so a copy of all files will be made during import.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>A second copy of all files will be made during import. To avoid this, please make sure the lazer data folder is on the same drive as your previous osu! install (and the file system is NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>A second copy of all files will be made during import. To avoid this, please make sure the lazer data folder is on the same drive as your previous osu! install (and the file system supports hard links).</value>
+  </data>
 </root>
