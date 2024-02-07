@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cart.checkout" xml:space="preserve">
-    <value>Acheter</value>
+    <value>Paiement</value>
   </data>
   <data name="cart.empty_cart" xml:space="preserve">
     <value>Supprimer tous les articles du panier</value>
@@ -68,7 +68,7 @@
     <value>{0} article dans le panier (${1})|{0} articles dans le panier (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
-    <value>Je souhaite chercher d'autres goodies avant de passer commande</value>
+    <value>Je souhaite chercher d'autres articles avant de passer commande</value>
   </data>
   <data name="cart.shipping_fees" xml:space="preserve">
     <value>frais de livraison</value>
@@ -80,7 +80,7 @@
     <value>total</value>
   </data>
   <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
-    <value>Uh oh, des problèmes avec votre panier empêchent le paiement !</value>
+    <value>Il semblerait que des problèmes avec votre panier empêchent le paiement !</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
     <value>Supprimez ou mettez à jour les articles ci-dessus pour continuer.</value>
@@ -89,13 +89,13 @@
     <value>Votre panier est vide.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
-    <value>Retournez à la page {0} pour trouver quelques goodies !</value>
+    <value>Retournez à la page {0} pour trouver quelques articles !</value>
   </data>
   <data name="cart.empty.return_link.link_text" xml:space="preserve">
     <value>articles</value>
   </data>
   <data name="checkout.cart_problems" xml:space="preserve">
-    <value>Oh oh, il y a quelques problèmes avec votre panier !</value>
+    <value>On dirait qu'il y a quelques problèmes avec votre panier !</value>
   </data>
   <data name="checkout.cart_problems_edit" xml:space="preserve">
     <value>Cliquez ici pour l'éditer.</value>
@@ -107,7 +107,7 @@
     <value>Nous sommes actuellement submergés de commandes ! Vous pouvez tout de même commander, mais attendez-vous à **une à deux semaines de délai supplémentaire** le temps que nous puissions traiter toutes ces commandes.</value>
   </data>
   <data name="checkout.hide_from_activity" xml:space="preserve">
-    <value>Masquer tous les tags osu!supporter dans cette commande de mon activité</value>
+    <value>Masquer tous les tags osu!supporter de mon activité dans cette commande</value>
   </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Votre panier semble être obsolète et a donc été actualisé, merci de réessayer.</value>
@@ -119,7 +119,7 @@
     <value>commander</value>
   </data>
   <data name="checkout.has_pending._" xml:space="preserve">
-    <value>Vous avez un paiement en attente, cliquez sur {0} pour y accéder.</value>
+    <value>Vous avez des paiements en attente, cliquez sur {0} pour y accéder.</value>
   </data>
   <data name="checkout.has_pending.link_text" xml:space="preserve">
     <value>ici</value>
@@ -143,10 +143,10 @@
     <value>Date :</value>
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
-    <value>Si votre paiement est en eCheck, comptez jusqu'à 10 jours supplémentaires pour le paiement via PayPal !</value>
+    <value>Votre paiement était en eCheck, veuillez alors prévoir jusqu'à 10 jours supplémentaires pour que le paiement soit effectué via PayPal !</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
-    <value>Les tags osu!supporter dans cette commande ne sont pas affichés dans vos activités récentes.</value>
+    <value>Les tags osu!supporter achetés dans cette commande ne sont pas affichés dans vos activités récentes.</value>
   </data>
   <data name="invoice.sent_via" xml:space="preserve">
     <value>Envoyé via :</value>
@@ -182,7 +182,7 @@
     <value>Votre commande est en cours de préparation !</value>
   </data>
   <data name="invoice.status.prepared.line_1" xml:space="preserve">
-    <value>Veuillez patienter un peu plus longtemps avant que la commande ne soit expédiée. Les informations de suivi apparaîtront ici une fois que la commande aura été traitée et envoyée. Cela peut prendre jusqu'à 5 jours (mais généralement moins !) en fonction de notre activité.</value>
+    <value>Veuillez patienter un peu plus longtemps avant que la commande ne soit expédiée. Les informations de suivi apparaîtront ici une fois que la commande aura été traitée et envoyée. Cela peut prendre jusqu'à 5 jours (mais généralement moins !) en fonction de nos disponibilités.</value>
   </data>
   <data name="invoice.status.prepared.line_2" xml:space="preserve">
     <value>Nous envoyons toutes les commandes depuis le Japon en utilisant divers services d'expédition en fonction du poids et de la valeur. Cette section sera mise à jour une fois que nous aurons expédié la commande.</value>
@@ -197,7 +197,7 @@
     <value>Si vous avez rencontré un problème lors de votre commande, {0}</value>
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
-    <value>cliquez ici pour la reprendre</value>
+    <value>cliquez ici pour reprendre votre commande</value>
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
     <value>Votre commande a été expédiée !</value>
@@ -206,10 +206,10 @@
     <value>Détails de suivi :</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>Nous n'avons pas d'informations de suivi puisque nous avons envoyé votre colis par Air Mail, mais vous pouvez vous attendre à le recevoir dans un délai de 1 à 3 semaines. Pour l'Europe, les douanes peuvent parfois retarder la commande hors de notre contrôle. Si vous avez des inquiétudes, veuillez répondre à l'e-mail de confirmation de commande que vous avez reçu {0}.</value>
+    <value>Nous n'avons pas d'informations de suivi puisque nous avons envoyé votre colis par Air Mail, mais vous pouvez vous attendre à le recevoir dans un délai de 1 à 3 semaines. En Europe, les douanes peuvent parfois retarder la commande. Si vous avez des inquiétudes, veuillez répondre à l'e-mail de confirmation de commande que vous avez reçu (sinon, {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
-    <value>envoyez-nous un email</value>
+    <value>envoyez-nous un e-mail</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Annuler la commande</value>
@@ -236,7 +236,7 @@
     <value>Expédition et traitement</value>
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
-    <value>Le lien de commande pour cette commande a expiré.</value>
+    <value>Le lien pour cette commande a expiré.</value>
   </data>
   <data name="order.subtotal" xml:space="preserve">
     <value>Sous-total</value>
@@ -272,25 +272,25 @@
     <value>Message : {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier votre commande, puisqu'elle a été annulée.</value>
+    <value>Vous ne pouvez pas modifier votre commande : elle a été annulée.</value>
   </data>
   <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
     <value>Vous ne pouvez pas modifier votre commande lorsqu'elle est en préparation.</value>
   </data>
   <data name="order.not_modifiable_exception.default" xml:space="preserve">
-    <value>La commande n'est pas modifiable</value>
+    <value>Cette commande n'est pas modifiable</value>
   </data>
   <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier votre commande puisqu'elle a été expédiée.</value>
+    <value>Vous ne pouvez pas modifier votre commande : elle a déjà été expédiée.</value>
   </data>
   <data name="order.not_modifiable_exception.paid" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier votre commande puisqu'elle a déjà été payée.</value>
+    <value>Vous ne pouvez pas modifier votre commande : elle a déjà été payée.</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
     <value>Vous ne pouvez pas modifier votre commande lorsqu'elle est en préparation.</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
-    <value>Vous ne pouvez pas modifier votre commande puisqu'elle a été expédiée.</value>
+    <value>Vous ne pouvez pas modifier votre commande : elle a déjà été expédiée. </value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>Annulée</value>
@@ -299,7 +299,7 @@
     <value>Préparation</value>
   </data>
   <data name="order.status.delivered" xml:space="preserve">
-    <value>Livrée</value>
+    <value>Expédiée</value>
   </data>
   <data name="order.status.paid" xml:space="preserve">
     <value>Payée</value>
@@ -311,16 +311,16 @@
     <value>Expédié</value>
   </data>
   <data name="order.status.title" xml:space="preserve">
-    <value>Statut de la commande</value>
+    <value>État de votre commande</value>
   </data>
   <data name="order.thanks.title" xml:space="preserve">
     <value>Merci pour votre commande !</value>
   </data>
   <data name="order.thanks.line_1._" xml:space="preserve">
-    <value>Vous recevrez bientôt un email de confirmation. Si vous avez des questions, veuillez {0} !</value>
+    <value>Vous recevrez bientôt un e-mail de confirmation. Si vous avez des questions, veuillez {0} !</value>
   </data>
   <data name="order.thanks.line_1.link_text" xml:space="preserve">
-    <value>contactez-nous</value>
+    <value>nous contacter</value>
   </data>
   <data name="product.name" xml:space="preserve">
     <value>Nom</value>
@@ -350,7 +350,7 @@
     <value>offrir à un joueur</value>
   </data>
   <data name="supporter_tag.gift_message" xml:space="preserve">
-    <value>ajouter un message optionnel à votre cadeau ! (jusqu'à {0} caractères)</value>
+    <value>ajoutez un message optionnel à votre cadeau ! (jusqu'à {0} caractères)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
     <value>Vous devez être {0} pour obtenir un tag osu!supporter !</value>

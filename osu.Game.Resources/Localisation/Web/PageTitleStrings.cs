@@ -140,9 +140,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainCommentsControllerDefault => new TranslatableString(getKey(@"main.comments_controller._"), @"comments");
 
         /// <summary>
+        /// "contest judging results"
+        /// </summary>
+        public static LocalisableString MainContestEntriesControllerJudgeResults => new TranslatableString(getKey(@"main.contest_entries_controller.judge_results"), @"contest judging results");
+
+        /// <summary>
         /// "contests"
         /// </summary>
         public static LocalisableString MainContestsControllerDefault => new TranslatableString(getKey(@"main.contests_controller._"), @"contests");
+
+        /// <summary>
+        /// "contest judging"
+        /// </summary>
+        public static LocalisableString MainContestsControllerJudge => new TranslatableString(getKey(@"main.contests_controller.judge"), @"contest judging");
 
         /// <summary>
         /// "groups"

@@ -190,6 +190,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CommentUpdateDeleted => new TranslatableString(getKey(@"comment.update.deleted"), @"Can't edit deleted post.");
 
         /// <summary>
+        /// "Judging for this contest isn&#39;t active."
+        /// </summary>
+        public static LocalisableString ContestJudgingNotActive => new TranslatableString(getKey(@"contest.judging_not_active"), @"Judging for this contest isn't active.");
+
+        /// <summary>
         /// "You cannot change your vote after the voting period for this contest has ended."
         /// </summary>
         public static LocalisableString ContestVotingOver => new TranslatableString(getKey(@"contest.voting_over"), @"You cannot change your vote after the voting period for this contest has ended.");
@@ -378,6 +383,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Can&#39;t pin this type of score"
         /// </summary>
         public static LocalisableString ScorePinDisabledType => new TranslatableString(getKey(@"score.pin.disabled_type"), @"Can't pin this type of score");
+
+        /// <summary>
+        /// "Can&#39;t pin non-passing score."
+        /// </summary>
+        public static LocalisableString ScorePinFailed => new TranslatableString(getKey(@"score.pin.failed"), @"Can't pin non-passing score.");
 
         /// <summary>
         /// "Only score owner can pin score."

@@ -140,31 +140,31 @@
     <value>Discussions de beatmaps</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>La discussion de la beatmap "{0}" a été verrouillée</value>
+    <value>La discussion de "{0}" a été verrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>La discussion a été verrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>Nouveau message sur "{0}" par {1} : "{2}"</value>
+    <value>Nouveau post sur "{0}" par {1} : "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
-    <value>Nouveau message sur "{0}" par {1}</value>
+    <value>Nouveau post sur "{0}" par {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Nouveau message par {0} : "{1}"</value>
+    <value>Nouveau post par {0} : "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
-    <value>Nouveau message par {0}</value>
+    <value>Nouveau post par {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Nouvelle review sur "{0}" par {1} contenant des problèmes : {2}, suggestions : {3}, encouragements : {4}</value>
+    <value>Nouvel avis sur "{0}" par {1} contenant {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Nouvelle review par {0} contenant des problèmes : {1}, suggestions : {2}, compliments : {3}</value>
+    <value>Nouvel avis par {0} contenant {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>La discussion de la beatmap "{0}" a été déverrouillée</value>
+    <value>La discussion de "{0}" a été déverrouillée</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>La discussion n'est plus verrouillée</value>
@@ -194,7 +194,7 @@
     <value>Signalé par {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
-    <value>Statut de la beatmap modifié</value>
+    <value>Modification de l'état de la beatmap</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>"{0}" a été disqualifiée</value>
@@ -206,7 +206,7 @@
     <value>"{0}" a été ajoutée à la catégorie Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>La beatmap est passée à la catégorie Loved</value>
+    <value>La beatmap a été promue à la catégorie Loved</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" a été nominée</value>
@@ -323,7 +323,7 @@
     <value>Nouvelle réponse du forum</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
-    <value>{0} a répondu au sujet du forum "{1}"</value>
+    <value>{0} a répondu à "{1}"</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} a répondu</value>
@@ -362,7 +362,7 @@
     <value>Médailles déverrouillées !</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Vous êtes maintenant invité de la beatmap "{0}"</value>
+    <value>Vous faites maintenant partie des participants à la beatmap "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>La discussion sur "{0}" a été verrouillée</value>
@@ -380,13 +380,13 @@
     <value>"{0}" a été disqualifiée</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" est passée à la catégorie Loved</value>
+    <value>"{0}" a été promue à la catégorie Loved</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" a été nominée</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" a atteint suffisamment de nominations et est entrée dans la file d'attente de classement</value>
+    <value>"{0}" a obtenu suffisamment de nominations et est entrée dans la file d'attente de classement</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" a été classée</value>
@@ -425,6 +425,6 @@
     <value>{0} a créé de nouvelles beatmaps</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} a ressuscité les beatmaps</value>
+    <value>{0} a ressuscité des beatmaps</value>
   </data>
 </root>

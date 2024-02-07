@@ -80,7 +80,7 @@
     <value>éditer</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>Dernière modification par {0} il y a {1}.</value>
+    <value>Dernière modification par {0} {1}</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
     <value>Guest difficulty par {0}</value>
@@ -146,7 +146,7 @@
     <value>Êtes-vous sûr de vouloir déverrouiller cette discussion ?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Ce post sera déplacé vers la discussion générale du beatmapset. Pour modder cette beatmap, indiquez le timestamp (ex. 00:12:345).</value>
+    <value>Ce post sera déplacé vers la discussion générale de la beatmap. Pour modder cette beatmap, veuillez indiquer un horodatage (par exemple 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>Pour modder plusieurs sections de cette beatmap, faites plusieurs posts (un post pour chaque section).</value>
@@ -158,10 +158,10 @@
     <value>Écrivez ici pour poster dans Général (Toutes les difficultés)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Tapez ici pour poster un commentaire</value>
+    <value>Écrivez ici pour poster un avis</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Écrivez ici pour poster dans la Chronologie ({0})</value>
+    <value>Écrivez ici pour poster dans Timeline ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Disqualifier</value>
@@ -185,7 +185,7 @@
     <value>Signaler un problème</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
-    <value>Review</value>
+    <value>Avis</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Suggestion</value>
@@ -224,10 +224,10 @@
     <value>Général {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
-    <value>Reviews</value>
+    <value>Avis</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>Chronologie</value>
+    <value>Timeline</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>Cette difficulté</value>
@@ -239,10 +239,10 @@
     <value>Épingler</value>
   </data>
   <data name="discussions.new.timestamp" xml:space="preserve">
-    <value>Timestamp</value>
+    <value>Horodatage</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>ctrl + c en mode édition et collez votre message pour ajouter un timestamp !</value>
+    <value>Utilisez la combinaison de touches Ctrl + C en mode édition et collez dans votre message pour ajouter un horodatage !</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Nouvelle Discussion</value>
@@ -251,7 +251,7 @@
     <value>Désépingler</value>
   </data>
   <data name="discussions.review.new" xml:space="preserve">
-    <value>Nouveau commentaire</value>
+    <value>Nouvel avis</value>
   </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>Supprimer</value>
@@ -266,10 +266,10 @@
     <value>Non sauvegardé</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Les messages sur "Toutes les difficultés" ne peuvent pas être horodatés.</value>
+    <value>Les posts sur "Toutes les difficultés" ne peuvent pas être horodatés.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Si {0} commence par un timestamp, il sera affiché sous la timeline.</value>
+    <value>Si {0} commence par un horodatage, il sera affiché sous la timeline.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>insérer un paragraphe</value>
@@ -290,7 +290,7 @@
     <value>Date de création</value>
   </data>
   <data name="discussions.sort.timeline" xml:space="preserve">
-    <value>Chronologie</value>
+    <value>Timeline</value>
   </data>
   <data name="discussions.sort.updated_at" xml:space="preserve">
     <value>Dernière mise à jour</value>
@@ -329,7 +329,7 @@
     <value>Cette beatmap a été classée le {0} !</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Remarque : Cette beatmap a été marquée comme en cours de travail par son créateur.</value>
+    <value>Remarque : Cette beatmap a été marquée comme étant en work-in-progress par son créateur.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Pas encore de votes négatifs</value>
@@ -347,7 +347,7 @@
     <value>Hyper la beatmap !</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
-    <value>Déjà Hypée !</value>
+    <value>Déjà hypée !</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
     <value>Êtes-vous sûr ? Ceci va utiliser un de vos {0} hypes restants et l'action ne peut être annulée.</value>
@@ -359,7 +359,7 @@
     <value>Connectez-vous et hypez cette beatmap afin de la rendre plus visible pour sa nomination et son classement !</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
-    <value>Vous obtiendrez un point de hype dans {0}.</value>
+    <value>Vous obtiendrez un hype supplémentaire dans {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
     <value>Il vous reste {0} hypes.</value>
@@ -380,7 +380,7 @@
     <value>Vous avez déjà nominé cette beatmap.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>Vous ne pouvez pas nominer le mode de jeu de cette beatmap.</value>
+    <value>Vous ne pouvez pas nominer les beatmaps de ce mode de jeu.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Supprimer</value>
@@ -407,10 +407,10 @@
     <value>Une erreur s'est produite, essayez de rafraîchir la page.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>Love</value>
+    <value>Ajouter aux loved</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>Choisissez la difficulté pour loved</value>
+    <value>Choisissez la difficulté que vous souhaitez ajouter aux loved</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Voulez-vous promouvoir cette beatmap à la catégorie Loved ?</value>
@@ -440,7 +440,7 @@
     <value>supprimée</value>
   </data>
   <data name="nominations.title" xml:space="preserve">
-    <value>Statut de la nomination</value>
+    <value>État de la nomination</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
     <value>Il y a encore des problèmes non résolus qui doivent être traités en priorité.</value>
@@ -566,7 +566,7 @@
     <value>Difficulté recommandée</value>
   </data>
   <data name="general.spotlights" xml:space="preserve">
-    <value>Beatmaps spotlight</value>
+    <value>Beatmaps spotlights</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Tous</value>
@@ -635,7 +635,7 @@
     <value>Hip Hop</value>
   </data>
   <data name="genre.electronic" xml:space="preserve">
-    <value>Electronique</value>
+    <value>Électronique</value>
   </data>
   <data name="genre.metal" xml:space="preserve">
     <value>Métal</value>

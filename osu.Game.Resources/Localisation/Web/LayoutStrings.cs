@@ -270,6 +270,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString FooterLegalCopyright => new TranslatableString(getKey(@"footer.legal.copyright"), @"Copyright (DMCA)");
 
         /// <summary>
+        /// "特定商取引法"
+        /// </summary>
+        public static LocalisableString FooterLegalJpSctl => new TranslatableString(getKey(@"footer.legal.jp_sctl"), @"特定商取引法");
+
+        /// <summary>
         /// "Privacy"
         /// </summary>
         public static LocalisableString FooterLegalPrivacy => new TranslatableString(getKey(@"footer.legal.privacy"), @"Privacy");
@@ -468,6 +473,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Friends"
         /// </summary>
         public static LocalisableString PopupUserLinksFriends => new TranslatableString(getKey(@"popup_user.links.friends"), @"Friends");
+
+        /// <summary>
+        /// "Lazer mode"
+        /// </summary>
+        public static LocalisableString PopupUserLinksLegacyScoreOnlyToggle => new TranslatableString(getKey(@"popup_user.links.legacy_score_only_toggle"), @"Lazer mode");
+
+        /// <summary>
+        /// "Lazer mode shows scores set from lazer with a new scoring algorithm"
+        /// </summary>
+        public static LocalisableString PopupUserLinksLegacyScoreOnlyToggleTooltip => new TranslatableString(getKey(@"popup_user.links.legacy_score_only_toggle_tooltip"), @"Lazer mode shows scores set from lazer with a new scoring algorithm");
 
         /// <summary>
         /// "Sign Out"
