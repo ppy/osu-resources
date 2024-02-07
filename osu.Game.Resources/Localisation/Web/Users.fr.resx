@@ -137,10 +137,10 @@
     <value>créer un compte</value>
   </data>
   <data name="create.form.user_email" xml:space="preserve">
-    <value>mail</value>
+    <value>e-mail</value>
   </data>
   <data name="create.form.user_email_confirmation" xml:space="preserve">
-    <value>confirmation de l'adresse mail</value>
+    <value>confirmation de l'adresse e-mail</value>
   </data>
   <data name="create.form.username" xml:space="preserve">
     <value>nom d'utilisateur</value>
@@ -155,10 +155,10 @@
     <value>Oh-oh ! Il semble que votre compte ait été désactivé.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>Dans le cas où vous avez enfreint une règle, veuillez noter qu'il y a généralement une période d'un mois pendant laquelle nous n'accepterons aucune demande de réactivation. Après cette période, vous êtes libre de nous contacter si vous le jugez nécessaire. Veuillez noter que la création de nouveaux comptes entraînera une prolongation &lt;strong&gt;de ce délai de récupération d'un mois&lt;/strong&gt;. Veuillez également noter que pour &lt;strong&gt;chaque compte que vous créez, vous enfreignez à nouveau les règles&lt;/strong&gt;. Nous vous suggérons fortement de ne pas suivre cette voie !</value>
+    <value>Dans le cas où vous avez enfreint une règle, veuillez noter qu'il y a généralement une période d'un mois pendant laquelle nous n'accepterons aucune demande de réactivation. Après cette période, vous êtes libre de nous contacter si vous le jugez nécessaire. Veuillez noter que la création de nouveaux comptes entraînera une &lt;strong&gt;prolongation de ce délai de récupération d'un mois&lt;/strong&gt;. Veuillez également noter que pour &lt;strong&gt;chaque compte que vous créez, vous enfreignez à nouveau les règles&lt;/strong&gt;. Nous vous suggérons fortement de ne pas suivre cette voie !</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Si vous pensez qu'il s'agit d'une erreur, vous êtes invités à nous contacter (via {0} ou en cliquant sur le "?" dans le coin en bas à droite de cette page). Veuillez noter que nous sommes confiants en nos actions, car elles reposent sur des données solides. Nous nous réservons le droit de ne pas tenir compte de votre demande si nous pensons que vous êtes délibérément malhonnête.</value>
+    <value>Si vous pensez qu'il s'agit d'une erreur, vous êtes invité à nous contacter (via {0} ou en cliquant sur le "?" dans le coin inférieur droit de cette page). Veuillez noter que nous sommes confiants en nos actions, car elles reposent sur des données solides. Nous nous réservons le droit de ne pas tenir compte de votre demande si nous pensons que vous êtes délibérément malhonnête.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-mail</value>
@@ -170,7 +170,7 @@
     <value>Il y a plusieurs raisons qui peuvent conduire à la désactivation de votre compte :</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
-    <value>Vous avez enfreint une ou plusieurs de nos {0} ou les {1}.</value>
+    <value>Vous avez enfreint une ou plusieurs de nos {0} ou des {1}.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>règles de la communauté</value>
@@ -194,7 +194,7 @@
     <value>Connexion...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>La connexion par email est actuellement désactivée. Veuillez utiliser le nom d'utilisateur à la place.</value>
+    <value>La connexion par e-mail est actuellement désactivée. Veuillez utiliser votre nom d'utilisateur à la place.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Identifiants incorrects</value>
@@ -206,10 +206,10 @@
     <value>Veuillez vous connecter pour continuer</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Trop de tentatives de connexion ont échoué, veuillez compléter le captcha et réessayer. (Rafraîchissez la page si le captcha n'est pas visible)</value>
+    <value>Trop de tentatives de connexion ont échoué, veuillez compléter le captcha et réessayer. (Rafraîchissez la page si vous ne pouvez pas voir le captcha)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
-    <value>votre adresse IP est bloquée. Merci d'attendre quelques minutes.</value>
+    <value>Votre adresse IP est bloquée. Merci d'attendre quelques minutes.</value>
   </data>
   <data name="login.password" xml:space="preserve">
     <value>Mot de passe</value>
@@ -221,13 +221,13 @@
     <value>Se souvenir de cet ordinateur</value>
   </data>
   <data name="login.title" xml:space="preserve">
-    <value>Merci de vous connecter pour continuer</value>
+    <value>Veuillez vous connecter pour continuer</value>
   </data>
   <data name="login.username" xml:space="preserve">
     <value>Nom d'utilisateur</value>
   </data>
   <data name="login.beta.main" xml:space="preserve">
-    <value>L'accès à la version bêta est actuellement réservé aux utilisateurs privilégiés.</value>
+    <value>L'accès à la version bêta est actuellement réservé à des utilisateurs privilégiés.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(les osu!supporters l'obtiendront bientôt)</value>
@@ -260,7 +260,7 @@
     <value>Invité</value>
   </data>
   <data name="anonymous.error" xml:space="preserve">
-    <value>Vous devez être connecté pour faire ça.</value>
+    <value>Vous devez être connecté pour effectuer cette action.</value>
   </data>
   <data name="logout_confirm" xml:space="preserve">
     <value>Êtes-vous sûr de vouloir vous déconnecter ? :(</value>
@@ -269,10 +269,10 @@
     <value>Signaler</value>
   </data>
   <data name="report.comments" xml:space="preserve">
-    <value>Commentaires supplémentaires</value>
+    <value>Commentaires</value>
   </data>
   <data name="report.placeholder" xml:space="preserve">
-    <value>Veuillez fournir toute information que vous pensez pouvoir être utile.</value>
+    <value>Veuillez fournir toute information que vous pensez utile.</value>
   </data>
   <data name="report.reason" xml:space="preserve">
     <value>Raison</value>
@@ -290,7 +290,7 @@
     <value>Annuler</value>
   </data>
   <data name="report.options.cheating" xml:space="preserve">
-    <value>Anti-jeu / Tricherie</value>
+    <value>Anti-jeu / Triche</value>
   </data>
   <data name="report.options.multiple_accounts" xml:space="preserve">
     <value>Utilisation de plusieurs comptes</value>
@@ -305,10 +305,10 @@
     <value>Envoi de contenu inapproprié</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
-    <value>Non-sens</value>
+    <value>Absurdités répétées</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
-    <value>Autre (écrivez ci-dessous)</value>
+    <value>Autre (détaillez ci-dessous)</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Votre compte a été restreint !</value>
@@ -392,7 +392,7 @@
     <value>Le fichier est trop volumineux.</value>
   </data>
   <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
-    <value>Format non supporté.</value>
+    <value>Format non pris en charge.</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
     <value>Mise en ligne disponible pour les {0} uniquement</value>
@@ -563,13 +563,13 @@
     <value>Parties avec playlist</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
-    <value>Messages</value>
+    <value>Posts</value>
   </data>
   <data name="show.extra.posts.title_longer" xml:space="preserve">
-    <value>Messages récents</value>
+    <value>Posts récents</value>
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
-    <value>voir plus de messages</value>
+    <value>voir plus de posts</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Activité récente</value>
@@ -629,10 +629,10 @@
     <value>{0} vote|{0} votes</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
-    <value>Statut du compte</value>
+    <value>État du compte</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>Le compte de {0} ne se tient pas bien :(</value>
+    <value>Le compte de {0} n'est pas dans un bon état :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
     <value>&lt;strong&gt;{0}&lt;/strong&gt; pourra de nouveau parler dans {1}.</value>
@@ -692,7 +692,7 @@
     <value>Vous avez peut-être fait une faute de frappe !</value>
   </data>
   <data name="show.not_found.reason_header" xml:space="preserve">
-    <value>Il y a plusieurs raisons possibles pour cela :</value>
+    <value>Il existe plusieurs raisons possibles à cela :</value>
   </data>
   <data name="show.not_found.title" xml:space="preserve">
     <value>Utilisateur non trouvé ! ;_;</value>
@@ -707,7 +707,7 @@
     <value>Éditez-moi !</value>
   </data>
   <data name="show.page.placeholder" xml:space="preserve">
-    <value>Tapez le contenu de la page</value>
+    <value>Tapez ici le contenu de votre page</value>
   </data>
   <data name="show.page.restriction_info._" xml:space="preserve">
     <value>Vous devez être un {0} pour déverrouiller cette fonctionnalité.</value>
@@ -719,7 +719,7 @@
     <value>A contribué à {0}</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
-    <value>{0} post du forum|{0} posts du forum</value>
+    <value>{0} post sur le forum|{0} posts sur le forum</value>
   </data>
   <data name="show.rank.country" xml:space="preserve">
     <value>Classement national en {0}</value>
@@ -815,9 +815,9 @@
     <value>Vue brique</value>
   </data>
   <data name="view_mode.card" xml:space="preserve">
-    <value>Voir la carte</value>
+    <value>Vue en carte</value>
   </data>
   <data name="view_mode.list" xml:space="preserve">
-    <value>Voir la liste</value>
+    <value>Vue en liste</value>
   </data>
 </root>

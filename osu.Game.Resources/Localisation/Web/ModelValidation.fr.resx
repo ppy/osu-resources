@@ -62,13 +62,13 @@
     <value>{0} spécifié non valide.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
-    <value>{0} ne peut être négatif.</value>
+    <value>L'{0} ne peut être négatif.</value>
   </data>
   <data name="required" xml:space="preserve">
-    <value>{0} est requis.</value>
+    <value>Un {0} est requis.</value>
   </data>
   <data name="too_long" xml:space="preserve">
-    <value>{0} dépasse la longeur maximale - elle est de {1} caractères.</value>
+    <value>{0} dépasse la longueur maximale - elle est de {1} caractères.</value>
   </data>
   <data name="url" xml:space="preserve">
     <value>Veuillez saisir une URL valide.</value>
@@ -101,7 +101,7 @@
     <value>Horodatage</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Cette beatmap est actuellement verrouillée et ne peut pas être hypée</value>
+    <value>La discussion pour cette beatmap est actuellement verrouillée et la beatmap ne peut pas être hypée</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Vous devez être connecté pour hyper.</value>
@@ -119,7 +119,7 @@
     <value>Vous ne pouvez pas hyper votre propre beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>L'horodotage spécifié dépasse la longueur de la beatmap</value>
+    <value>L'horodotage spécifié dépasse la durée de la beatmap</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
     <value>L'horodotage ne peut pas être négatif</value>
@@ -128,7 +128,7 @@
     <value>La discussion est verrouillée.</value>
   </data>
   <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
-    <value>Impossible de supprimer le message de départ.</value>
+    <value>Impossible de supprimer le post de départ.</value>
   </data>
   <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
     <value>Le message</value>
@@ -146,25 +146,25 @@
     <value>{0} spécifié non valide.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
-    <value>Vous pouvez seulement voter pour une fonction.</value>
+    <value>Vous ne pouvez voter que pour les demandes de fonctionnalités.</value>
   </data>
   <data name="forum.feature_vote.not_enough_feature_votes" xml:space="preserve">
     <value>Pas assez de votes.</value>
   </data>
   <data name="forum.poll_vote.invalid" xml:space="preserve">
-    <value>Option invalide spécifiée.</value>
+    <value>Option spécifiée invalide.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Supprimer les métadonnées d'une beatmap n'est pas autorisé.</value>
+    <value>Supprimer le post des métadonnées d'une beatmap n'est pas autorisé.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Modifier les métadonnées d'une beatmap n'est pas autorisé.</value>
+    <value>Modifier le post des métadonnées d'une beatmap n'est pas autorisé.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
-    <value>Impossible de supprimer le message de départ</value>
+    <value>Impossible de supprimer le post de départ</value>
   </data>
   <data name="forum.post.missing_topic" xml:space="preserve">
-    <value>Le message ne contient pas de sujet</value>
+    <value>Le post ne contient pas de sujet</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Votre réponse ne contient qu'une citation.</value>
@@ -185,16 +185,16 @@
     <value>Impossible de masquer les résultats d'un sondage à durée infinie.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
-    <value>Le nombre de réponses par utilisateur ne devrait pas dépasser le nombre de réponses.</value>
+    <value>Le nombre d'options par utilisateur ne devrait pas dépasser le nombre d'options disponibles.</value>
   </data>
   <data name="forum.topic_poll.minimum_one_selection" xml:space="preserve">
     <value>Un minimum d'une réponse par utilisateur est nécessaire.</value>
   </data>
   <data name="forum.topic_poll.minimum_two_options" xml:space="preserve">
-    <value>Au moins 2 réponses nécessaires.</value>
+    <value>Le sondage doit contenir au moins 2 options.</value>
   </data>
   <data name="forum.topic_poll.too_many_options" xml:space="preserve">
-    <value>Nombre maximal de réponses dépassés.</value>
+    <value>Nombre maximal de réponses dépassé.</value>
   </data>
   <data name="forum.topic_poll.attributes.title" xml:space="preserve">
     <value>Titre du sondage</value>
@@ -209,19 +209,19 @@
     <value>Une seule clé d'API est fournie par utilisateur pour le moment.</value>
   </data>
   <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
-    <value>clé d'api</value>
+    <value>Clé d'API</value>
   </data>
   <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
     <value>nom de l'application</value>
   </data>
   <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
-    <value>url de l'application</value>
+    <value>URL de l'application</value>
   </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>Vous avez dépassé le nombre maximal d'applications OAuth.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Veuillez saisir une URL valide.</value>
+    <value>Veuillez saisir des URL valides.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Nom de l'application</value>
@@ -233,7 +233,7 @@
     <value>Le mot de passe ne doit pas contenir votre nom d'utilisateur.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
-    <value>Adresse email déjà utilisée.</value>
+    <value>Adresse e-mail déjà utilisée.</value>
   </data>
   <data name="user.email_not_allowed" xml:space="preserve">
     <value>Adresse e-mail non autorisée.</value>
@@ -245,7 +245,7 @@
     <value>Nom d'utilisateur Discord invalide.</value>
   </data>
   <data name="user.invalid_email" xml:space="preserve">
-    <value>Ça ne semble pas être une adresse email valide.</value>
+    <value>Il semblerait que cette adresse e-mail ne soit pas valide.</value>
   </data>
   <data name="user.invalid_twitter" xml:space="preserve">
     <value>Nom d'utilisateur Twitter invalide.</value>
@@ -254,7 +254,7 @@
     <value>Le nouveau mot de passe est trop court.</value>
   </data>
   <data name="user.unknown_duplicate" xml:space="preserve">
-    <value>Nom d'utilisateur ou adresse e-mail déjà utilisée.</value>
+    <value>Nom d'utilisateur ou adresse e-mail déjà utilisés.</value>
   </data>
   <data name="user.username_available_in" xml:space="preserve">
     <value>Ce nom d'utilisateur sera disponible dans {0}.</value>
@@ -272,7 +272,7 @@
     <value>Ce nom d'utilisateur est déjà utilisé !</value>
   </data>
   <data name="user.username_no_space_userscore_mix" xml:space="preserve">
-    <value>Merci d'utiliser soit des underscores ou des espaces, pas les deux ensemble !</value>
+    <value>Merci d'utiliser soit des underscores ou des espaces, pas les deux en même temps !</value>
   </data>
   <data name="user.username_no_spaces" xml:space="preserve">
     <value>Le nom d'utilisateur ne peut pas commencer ou terminer avec des espaces !</value>
@@ -293,7 +293,7 @@
     <value>Le mot de passe actuel est incorrect.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>Les deux adresses email ne correspondent pas.</value>
+    <value>Les deux adresses e-mail ne correspondent pas.</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
     <value>Les deux mots de passe ne correspondent pas.</value>

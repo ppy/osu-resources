@@ -25,6 +25,71 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexNavTitle => new TranslatableString(getKey(@"index.nav_title"), @"listing");
 
         /// <summary>
+        /// "hide judged entries"
+        /// </summary>
+        public static LocalisableString JudgeHideJudged => new TranslatableString(getKey(@"judge.hide_judged"), @"hide judged entries");
+
+        /// <summary>
+        /// "judge"
+        /// </summary>
+        public static LocalisableString JudgeNavTitle => new TranslatableString(getKey(@"judge.nav_title"), @"judge");
+
+        /// <summary>
+        /// "you didn&#39;t vote yet."
+        /// </summary>
+        public static LocalisableString JudgeNoCurrentVote => new TranslatableString(getKey(@"judge.no_current_vote"), @"you didn't vote yet.");
+
+        /// <summary>
+        /// "update"
+        /// </summary>
+        public static LocalisableString JudgeUpdate => new TranslatableString(getKey(@"judge.update"), @"update");
+
+        /// <summary>
+        /// "missing score"
+        /// </summary>
+        public static LocalisableString JudgeValidationMissingScore => new TranslatableString(getKey(@"judge.validation.missing_score"), @"missing score");
+
+        /// <summary>
+        /// "can&#39;t vote in judged contests"
+        /// </summary>
+        public static LocalisableString JudgeValidationContestVoteJudged => new TranslatableString(getKey(@"judge.validation.contest_vote_judged"), @"can't vote in judged contests");
+
+        /// <summary>
+        /// "You already submitted a vote on this entry."
+        /// </summary>
+        public static LocalisableString JudgeVoted => new TranslatableString(getKey(@"judge.voted"), @"You already submitted a vote on this entry.");
+
+        /// <summary>
+        /// "Judging results"
+        /// </summary>
+        public static LocalisableString JudgeResultsDefault => new TranslatableString(getKey(@"judge_results._"), @"Judging results");
+
+        /// <summary>
+        /// "creator"
+        /// </summary>
+        public static LocalisableString JudgeResultsCreator => new TranslatableString(getKey(@"judge_results.creator"), @"creator");
+
+        /// <summary>
+        /// "Score"
+        /// </summary>
+        public static LocalisableString JudgeResultsScore => new TranslatableString(getKey(@"judge_results.score"), @"Score");
+
+        /// <summary>
+        /// "total score"
+        /// </summary>
+        public static LocalisableString JudgeResultsTotalScore => new TranslatableString(getKey(@"judge_results.total_score"), @"total score");
+
+        /// <summary>
+        /// "You are a judge of this contest. Judge the entries here!"
+        /// </summary>
+        public static LocalisableString VotingJudgeLink => new TranslatableString(getKey(@"voting.judge_link"), @"You are a judge of this contest. Judge the entries here!");
+
+        /// <summary>
+        /// "This contest is using the judging system, the judges are currently processing the entries."
+        /// </summary>
+        public static LocalisableString VotingJudgedNotice => new TranslatableString(getKey(@"voting.judged_notice"), @"This contest is using the judging system, the judges are currently processing the entries.");
+
+        /// <summary>
         /// "Please sign in to vote."
         /// </summary>
         public static LocalisableString VotingLoginRequired => new TranslatableString(getKey(@"voting.login_required"), @"Please sign in to vote.");
