@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Scores";
 
         /// <summary>
+        /// "This score is marked for deletion and will disappear soon."
+        /// </summary>
+        public static LocalisableString ShowNonPreserved => new TranslatableString(getKey(@"show.non_preserved"), @"This score is marked for deletion and will disappear soon.");
+
+        /// <summary>
         /// "{0} on {1} [{2}]"
         /// </summary>
         public static LocalisableString ShowTitle(LocalisableString username, LocalisableString title, LocalisableString version) => new TranslatableString(getKey(@"show.title"), @"{0} on {1} [{2}]", username, title, version);
@@ -48,6 +53,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Only passing scores award pp"
         /// </summary>
         public static LocalisableString StatusNonPassing => new TranslatableString(getKey(@"status.non_passing"), @"Only passing scores award pp");
+
+        /// <summary>
+        /// "pp is not awarded for this score"
+        /// </summary>
+        public static LocalisableString StatusNoPp => new TranslatableString(getKey(@"status.no_pp"), @"pp is not awarded for this score");
 
         /// <summary>
         /// "This score is still being calculated and will be displayed soon"
