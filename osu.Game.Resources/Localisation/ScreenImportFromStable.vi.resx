@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} mục</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Quy trình chuyển dữ liệu sẽ sử dụng "hard links". Sẽ không có dung lượng ổ đĩa bổ sung nào được sử dụng và bạn có thể xóa thư mục dữ liệu bất kỳ lúc nào mà không ảnh hưởng đến bản cài đặt khác.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Tìm hiểu thêm về cách "hard links" hoạt động thế nào</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Hệ điều hành của bạn chưa hỗ trợ liên kết nhẹ giữa các tệp, do đó bản sao của tất cả các tệp sẽ được tạo trong quá trình nhập dữ liệu.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Bản sao thứ hai của tất cả các tệp sẽ được tạo trong quá trình nhập dữ liệu. Để tránh điều này xảy ra, vui lòng đảm bảo thư mục dữ liệu của lazer nằm trên cùng ổ đĩa với phiên bản osu! trước đó của bạn (và hệ thống tệp là NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Một bản sao thứ hai của tất cả các tệp sẽ được tạo trong quá trình nhập dữ liệu. Để tránh điều này xảy ra, vui lòng đảm bảo thư mục dữ liệu lazer nằm trên cùng ổ đĩa với phiên bản osu! trước đó của bạn (và hệ thống tệp hỗ trợ hard links).</value>
+  </data>
 </root>

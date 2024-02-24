@@ -84,6 +84,21 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Pakipag-ugnay sa {0} kung kailangan mong ma-update ang iyong email.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>pangkat ng suporta sa account</value>
+  </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>api</value>
+  </data>
+  <data name="edit.legacy_api.irc" xml:space="preserve">
+    <value>irc</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>Legacy na API</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>kasalukuyang password</value>
   </data>
@@ -96,8 +111,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>bansa</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profile</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Mukhang hindi tumutugma ang bansa ng iyong account sa iyong bansang tinitirhan. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>I-update sa {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>kasalukuyang lokasyon</value>
@@ -116,6 +140,27 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>i-update</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Kung isa kang kontribyutor sa mga open-source na repository ng osu!, ang pag-link ng iyong GitHub account dito ay iuugnay ang iyong mga changelog entries sa iyong osu! profile. Mga GitHub account na walang history ng kontribusyon sa osu! ay hindi ma-link.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>I-link ang GitHub Account</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>I-unlink ang GitHub Account</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Ang GitHub account na ito ay naka-link na sa ibang user.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Hindi ma-link ang GitHub account nang walang anumang kasaysayan ng kontribusyon sa mga repositoryo ng osu. </value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Paki-verify ng iyong pangunahing email sa GitHub, pagkatapos ay subukang i-link muli ang iyong account.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>tumanggap ng mga notipikasyon sa mga bagong problema sa mga kwalipikadong beatmap sa mga sumusunod na mode</value>

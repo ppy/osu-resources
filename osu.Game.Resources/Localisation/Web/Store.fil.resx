@@ -136,14 +136,56 @@
   <data name="free" xml:space="preserve">
     <value>free!</value>
   </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kontak:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Petsa:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Dahil ang pagbayad ay eCheck, maari pong magantay ng 10 araw para dumaan ng PayPal ang iyong bayarin!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>ang mga tag ng osu!supporter sa pagkakasunud-sunod na ito ay hindi ipinapakita sa iyong kamakailang mga aktibidad.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Naipadala sa pamamagitan ng:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Ipapadala sa:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>invoice</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Ang iyong order ay kinansela</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Kung hindi ka humiling ng pagkansela, pakikontak sa {0} na nakasipi ang numero ng iyong order (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>suporta ng osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Ang iyong order ay naihatid na! Umaasa kami na natutuwa ka nito!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Kung mayroon kang anumang mga isyu sa iyong pagbili, pakikontak sa {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>suporta ng osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Ang iyong order ay inihahanda!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Pakihintay ng kaunti pa upang maipadala ito. Ang impormasyon sa pagsubaybay ay lalabas dito kapag naproseso at naipadala na ang order. Ito ay maaaring tumagal ng hanggang 5 araw (ngunit kadalasang mas kaunti!) depende sa kung gaano kami ka-busy.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Ipinapadala namin ang lahat ng mga order mula sa Japan gamit ang iba't ibang serbisyo sa pagpapadala depende sa bigat at halaga. Ang lugar na ito ay mag-a-update ng mga espesipiko kapag naipadala na namin ang order.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Hindi pa kumpirmado ang iyong bayad!</value>
@@ -156,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>click para matuloy ang checkout</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Ang iyong order ay naipadala na!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Ang mga detalye ng pagsubaybay ay ang sumusunod:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Wala kaming mga detalye sa pagsubaybay habang ipinadala namin ang iyong package sa pamamagitan ng Air Mail, ngunit maaari mong asahan na matatanggap ito sa loob ng 1-3 linggo. Para sa Europa, kung minsan ang customs ay maaaring magpabagal ng order sa labas ng aming kontrol. Kung mayroon kang anumang mga alalahanin, pakitugon sa email ng kumpirmasyon ng order na natanggap mo (o {0}).</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>magpadala sa amin ng isang email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Ikansela ang Order</value>
@@ -178,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Bumalik sa Checkout</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Pagpapadala at Pangangasiwa</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Ang link ng checkout para sa order na ito ay nag-expire na.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Kabuuan</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Order #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Mga tuntunin sa Pagbabayad</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Salesperson</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Pamamaraan sa Pagpapadala</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Mga tuntunin sa Pagpapadala</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Mga Detalye ng Pag-order</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Dami</value>
@@ -229,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Naipadala</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Status ng Order</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Salamat sa iyong order!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Makakatanggap ka ng email ng kumpirmasyon sa lalong madaling panahon. Kung mayroon kang anumang mga katanungan, paki {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>kontakin kami</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Pangalan</value>
   </data>
@@ -270,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Sinusuri ang availability ng {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Hiniling na Username</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Bago na Username</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ang iyong kasalukuyang username ay "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Kailangan mong maging {0} upang baguhin ang iyong pangalan!</value>

@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} 個のアイテム</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>データ移行には「ハードリンク」を使用します。余分なディスク容量を使用せず、他のインストールに影響を与えることなく、いつでもどちらかのデータフォルダを削除することができます。</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>「ハードリンク」の仕組みについて詳しく知る</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>お使いのオペレーティングシステムでは、ファイルの軽量なリンクはサポートされていないため、インポート中にすべてのファイルのコピーが作成されます。</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>インポート時にすべてのファイルのコピーが作成されます。これを避けるために、lazerのデータフォルダが以前のosu! のインストールと同じドライブにある (かつファイルシステムがNTFSである) ことを確認してください。</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>インポート時にすべてのファイルのコピーが作成されます。これを避けるために、lazerのデータフォルダが以前のosu! のインストールと同じドライブにある (かつファイルシステムがハードリンクに対応している) ことを確認してください。</value>
+  </data>
 </root>

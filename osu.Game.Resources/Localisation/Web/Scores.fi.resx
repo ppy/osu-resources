@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Tämä suoritus on merkitty poistettavaksi ja se katoaa pian.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0}'n tulos: {1} [{2}]</value>
   </data>
@@ -81,6 +84,9 @@
   </data>
   <data name="status.non_passing" xml:space="preserve">
     <value>Vain loppuun asti päässeet tulokset antavat pp{0}ä</value>
+  </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>pp{0}ä ei myönnetä tälle suoritukselle</value>
   </data>
   <data name="status.processing" xml:space="preserve">
     <value>Pisteitä lasketaan ja ne näytetään pian</value>

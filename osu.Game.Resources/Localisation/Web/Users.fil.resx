@@ -97,6 +97,9 @@
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>itago</value>
   </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Ang post na ito ay nakatago.</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Hindi naka-block ang user na ito.</value>
   </data>
@@ -114,6 +117,9 @@
   </data>
   <data name="blocks.button.unblock" xml:space="preserve">
     <value>Tanggalin ang harang</value>
+  </data>
+  <data name="card.gift_supporter" xml:space="preserve">
+    <value>Magregalo ng tag sa tagasuporta</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Nag lo-load...</value>
@@ -226,6 +232,21 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(Makakapasok rin ang mga osu!supporter)</value>
   </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Mga beatmap {0}</value>
+  </data>
+  <data name="ogp.modding_description_empty" xml:space="preserve">
+    <value>Ang user ay walang anumang mga beatmap...</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Ranggo ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>Bansa {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Pandaigdigan {0}</value>
+  </data>
   <data name="posts.title" xml:space="preserve">
     <value>Mga post ni {0}</value>
   </data>
@@ -293,7 +314,10 @@
     <value>Naging limitado ang iyong account!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Habang restricted ang account, ikaw ay hindi maaaring makihalubilo sa kapwa kalaro at ang iyong mga iskor ay ikaw lamang ang makakakita. Ito ay madalas ng resulta ng isang automated na proseso at kadalasang ipinapawalang bisa pagkatapos ng 24 oras. Kung nais mong mag-apela sa iyong restriction, &lt;a href="mailto{0}@ppy.sh"&gt;i-contact ang support&lt;/a&gt;.</value>
+    <value>Habang na-restrict, hindi mo magagawang makipag-ugnayan sa ibang mga manlalaro at ikaw lang ang makakakita ng iyong mga iskor. Ito ay kadalasang resulta ng isang awtomatikong proseso at kadalasang maalis sa loob ng 24 na oras. {0}</value>
+  </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>Suriin ang pahinang ito upang matuto nang higit pa.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} taong gulang</value>
@@ -624,6 +648,9 @@
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>tagal</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
+    <value>Walang katiyakan</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>deskripsyon</value>

@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} 個項目</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>資料遷移將使用「硬連結」。 這將不會使用額外的磁碟空間，您也可以隨時刪除任意一個安裝版本，其他版本的 osu! 不會受此影響。</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>詳細了解「硬連結」的工作原理</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>您的作業系統尚不支援輕量檔案連結，因此在匯入過程中將建立所有檔案的副本。</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>匯入過程中將建立所有檔案的副本。為避免這種情況，請確保 lazer 的資料夾與您先前安裝的 osu! 位於同一磁碟機上 (並使用 NTFS 檔案系統)。</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>匯入過程中將建立所有檔案的副本。為避免這種情況，請確保 lazer 的資料夾與您先前安裝的 osu! 位於同一磁碟機上 (並且檔案系統支援硬連結)。</value>
+  </data>
 </root>

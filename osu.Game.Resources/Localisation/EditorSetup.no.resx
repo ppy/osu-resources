@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Hårdheten til treffvinduer og vanskeligheten til spesielle gjenstander (f. eks. spinnere)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Tick Rate</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Angir hvor mange "ticks" som genereres i lange treffobjekter. 1 setter tick på hver slag, 2 vil være to ganger per slag osv.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Grunnhastighet</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Grunnhastigheten til beatmappet påvirker ting som gliderhastighet og skollehastigheten i noen spill-moduser.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>
@@ -148,14 +160,8 @@
   <data name="click_to_select_track" xml:space="preserve">
     <value>Trykk for å velge ett spor</value>
   </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>Trykk for å erstatte sporet</value>
-  </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Trykk for å velge ett bakgrunnsbilde</value>
-  </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>Trykk for å erstatte bakgrunnsbildet</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>

@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} elemento(s)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>La migración de datos utilizará «enlaces duros». No se usará espacio adicional en el disco, y puedes eliminar cualquiera de las carpetas de datos en cualquier momento sin afectar la otra instalación.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Obtén más información sobre cómo funcionan los «enlaces duros»</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>La vinculación ligera de archivos aún no es compatible con tu sistema operativo, por lo que se realizará una copia de todos los archivos durante la importación.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Durante la importación se realizará una segunda copia de todos los archivos. Para evitar esto, asegúrate de que la carpeta de datos de lazer esté en la misma unidad que tu instalación anterior de osu! (y que el sistema de archivos sea NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Durante la importación se realizará una segunda copia de todos los archivos. Para evitar esto, asegúrate de que la carpeta de datos de lazer esté en la misma unidad que tu instalación anterior de osu! (y que el sistema de archivos admita enlaces duros).</value>
+  </data>
 </root>

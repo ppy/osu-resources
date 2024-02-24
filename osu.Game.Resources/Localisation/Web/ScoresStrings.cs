@@ -64,6 +64,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString StatusProcessing => new TranslatableString(getKey(@"status.processing"), @"This score is still being calculated and will be displayed soon");
 
+        /// <summary>
+        /// "This score has no rank as it is unranked or marked for deletion"
+        /// </summary>
+        public static LocalisableString StatusNoRank => new TranslatableString(getKey(@"status.no_rank"), @"This score has no rank as it is unranked or marked for deletion");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

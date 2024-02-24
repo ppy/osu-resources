@@ -64,7 +64,9 @@
   <data name="renderer_header" xml:space="preserve">
     <value>レンダラー</value>
   </data>
-  
+  <data name="renderer" xml:space="preserve">
+    <value>レンダラー</value>
+  </data>
   <data name="frame_limiter" xml:space="preserve">
     <value>フレーム制限</value>
   </data>
@@ -140,5 +142,13 @@
   <data name="png_lossless" xml:space="preserve">
     <value>PNG (高画質)</value>
   </data>
-  
+  <data name="change_renderer_configuration" xml:space="preserve">
+    <value>レンダラーを変更すると、ゲームが終了します。再起動してください。</value>
+  </data>
+  <data name="minimise_on_focus_loss" xml:space="preserve">
+    <value>他のアプリに切り替えた時にosu!を最小化する</value>
+  </data>
+  <data name="shrink_game_to_safe_area" xml:space="preserve">
+    <value>カメラとノッチを避けるためにゲーム画面を縮小する</value>
+  </data>
 </root>

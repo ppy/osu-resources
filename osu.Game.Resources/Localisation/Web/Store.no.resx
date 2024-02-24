@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Gå til kassen</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Fjern alle varer fra handlevognen</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} ting i kurven (${1})|{0} items i vogn (${1})</value>
   </data>
@@ -130,14 +133,59 @@
   <data name="discount" xml:space="preserve">
     <value>spar {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kontakt:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Dato:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Ettersom betalingen din var en eCheck, vennligst tillatt opp til 10 ekstra dager for at betalingen skal kunne komme gjennom PayPal!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter tag i denne bestillingen vises ikke i dine nylige aktiviteter.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Sendt Via:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Frakt til:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Bestillingen din er kansellert</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Hvis du ikke forespurte en kansellering, vennligst kontakt {0} med ordrenummeret ditt (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!store støtte</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Bestillingen din har blitt levert! Vi håper du liker den!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Hvis du har problemer med kjøpet, vennligst kontakt {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!store støtte</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Bestillingen din behandles for øyeblikket!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Vennligst vent litt lenger på frakt. Sporingsinformasjon vises her når bestillingen er behandlet og sendt. Dette kan ta opptil 5 dager (men vanligvis mindre!) avhengig av hvor opptatt vi er.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Vi sender alle bestillinger fra Japan med ulike frakttjenester ut ifra vekt og verdi. Denne siden vil oppdateres med detaljer når vi har sendt bestillingen.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Din betaling har enda ikke blitt bekreftet!</value>
@@ -150,6 +198,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klikk her for å fortsette utsjekkingen</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Bestillingen din har blitt sendt!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Sporingsdetaljer følger:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Vi har ikke sporingsdetaljer da vi sendte pakken din via Air Mail, men du kan forvente å motta pakken i løpet av 1-3 uker. For Europa kan toll noen ganger forsinke bestillingen utenfor vår kontroll. Hvis du har noen bekymringer, vennligst svar på ordrebekreftelsen du mottok på e-post (eller på {0}).</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>send oss en e-post</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Avbryt Bestilling</value>
@@ -172,8 +232,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Tilbake til kassen</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Frakt &amp; Håndtering</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Utsjekkingslenken for denne bestillingen er utløpt.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Delsum</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Ordre #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Betalingsbetingelser</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Salgsperson</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Fraktmetode</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Fraktbetingelser</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Ordre Detaljer</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Mengde</value>
@@ -223,6 +310,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>På vei</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Ordre Status</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Takk for bestillingen din!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Du vil snart motta en bekreftelse på e-post. Hvis du har noen henvendelser, vennligst {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>kontakt oss</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Navn</value>
   </data>
@@ -264,6 +363,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Sjekker om {0} er tilgjengelig...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Forespurt Brukernavn</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nytt Brukernavn</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ditt nåværende brukernavn er "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>For å endre navnet ditt, må du være {0}!</value>
