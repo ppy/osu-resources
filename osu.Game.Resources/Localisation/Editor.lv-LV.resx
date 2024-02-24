@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>Bītmapes redaktors</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Viļņu formas caurspīdīgums</value>
   </data>
@@ -68,10 +71,16 @@
     <value>Automātiski tīt pēc objektu nolikšanas</value>
   </data>
   <data name="timing" xml:space="preserve">
-    <value>Timing</value>
+    <value>Laika noteikšana</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Iestatīt priekšskatījuma punktu uz pašreizējo laiku</value>
+  </data>
+  <data name="export_for_editing" xml:space="preserve">
+    <value>Rediģēšanai (.olz)</value>
+  </data>
+  <data name="export_for_compatibility" xml:space="preserve">
+    <value>Savienojamībai (.osz)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Izveidot jaunu grūtību</value>
@@ -83,7 +92,7 @@
     <value>Dzēst grūtību</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
-    <value>uzstādīt</value>
+    <value>uzstādīšana</value>
   </data>
   <data name="compose_screen" xml:space="preserve">
     <value>veidot</value>
@@ -92,10 +101,10 @@
     <value>dizains</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>timing</value>
+    <value>laika noteikšana</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
-    <value>verificēt</value>
+    <value>apliecināt</value>
   </data>
   <data name="playback_speed" xml:space="preserve">
     <value>Atskaņošanas ātrums</value>
@@ -114,5 +123,14 @@
   </data>
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (pa 15°)</value>
+  </data>
+  <data name="limited_distance_snap_grid" xml:space="preserve">
+    <value>Ierobežot attāluma izvietošanu uz pašreizējo laiku</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>Jābūt rediģēšanas režīmā, lai apstrādātu redaktora saites</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>Neizdevās analizēt redaktora saiti</value>
   </data>
 </root>

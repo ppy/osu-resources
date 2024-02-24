@@ -62,7 +62,7 @@
     <value>Импорт</value>
   </data>
   <data name="description" xml:space="preserve">
-    <value>Если у Вас установлена предыдущая версия osu!, Вы можете перенести её содержимое. Обратите внимание: это никак не повлияет на файлы вашей существующей установки.</value>
+    <value>Если у Вас установлена предыдущая версия osu!, вы можете перенести её содержимое. Обратите внимание: это никак не повлияет на файлы вашей существующей установки.</value>
   </data>
   <data name="locate_directory_label" xml:space="preserve">
     <value>предыдущая директория osu!</value>
@@ -81,5 +81,20 @@
   </data>
   <data name="items" xml:space="preserve">
     <value>{0} элемента(-ов)</value>
+  </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Перенос данных будет осуществлён с помощью "жёстких ссылок". Дополнительного места на диске не потребуется, и в последствии Вы сможете удалить любую из папок с данными без вреда для другой установки.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Нажмите сюда, чтобы узнать принцип работы "жёстких ссылок"</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Жёсткие ссылки не поддерживаются Вашей операционной системой, поэтому во время импорта будет создана копия всех файлов.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Во время импорта будет создана копия всех файлов. Чтобы этого избежать, убедитесь, что корневая папка osu!lazer расположена на том же диске, где и предыдущая установка osu!, и что файловая система диска — NTFS.</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Во время импорта будет создана копия всех файлов. Чтобы этого избежать, убедитесь, что корневая папка osu!lazer расположена на том же диске, где и предыдущая установка osu!, и что файловая система диска поддерживает жёсткие ссылки.</value>
   </data>
 </root>

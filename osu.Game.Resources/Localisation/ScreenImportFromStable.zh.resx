@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} 个项目</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>数据迁移将使用硬链接。这不会占用额外磁盘空间，你可以在任何时候删掉其中一个安装版本，其他版本将不受影响。</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>了解“硬链接”的原理</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>您的操作系统不支持轻量文件链接，因此，导入时会生成一份所有文件的副本。</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>在导入时会复制并生成第二份文件。如果不想这样，请确保 lazer 数据文件夹和先前安装的 osu! 在同一驱动器下（且使用 NTFS 文件系统）。</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>在导入时会复制并生成第二份文件。如果不想这样，请确保 lazer 数据文件夹和先前安装的 osu! 在同一驱动器下（且文件系统支持硬链接）。</value>
+  </data>
 </root>

@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="header" xml:space="preserve">
-    <value>Importează</value>
+    <value>Importă</value>
   </data>
   <data name="description" xml:space="preserve">
     <value>Dacă aveți o instalare a unei versiuni osu! anterioare, puteți alege să migrați conținutul existent. Țineți cont că acest lucru nu vă va afecta instalarea existentă.</value>
@@ -71,15 +71,30 @@
     <value>Faceți clic pentru a localiza o instalare osu! anterioară</value>
   </data>
   <data name="import_button" xml:space="preserve">
-    <value>Importează conținut din versiunea anterioară</value>
+    <value>Importă conținut din versiunea anterioară</value>
   </data>
   <data name="import_in_progress" xml:space="preserve">
-    <value>Import-ul tău va continua în fundal. Verifică progresul său în bara laterală pentru notificări!</value>
+    <value>Importul tău va continua în fundal. Verifică progresul său în bara laterală pentru notificări!</value>
   </data>
   <data name="calculating" xml:space="preserve">
     <value>se calculează...</value>
   </data>
   <data name="items" xml:space="preserve">
     <value>{0} element(e)</value>
+  </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Migrarea datelor va folosi „hard link”-uri. Nu se va utiliza spațiu suplimentar pe disc și puteți șterge oricare dintre dosarele de date în orice moment fără a afecta cealaltă instalare.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Aflați mai mult despre cum funcționează „hard link”-uri</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Legarea simplă a fișierelor nu este disponibilă încă pe sistemul dvs. de operare, astfel încât se va crea o copie a tuturor fișierelor pentru import.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>O copie a tuturor fișierelor va fi făcută în timpul importului. Pentru a evita acest lucru, vă rugăm să vă asigurați că folderul de date este pe același disc ca instalarea anterioara osu! (și că sistemul de fișiere este de tip NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>O copie a tuturor fișierelor va fi făcută în timpul importului. Pentru a evita acest lucru, vă rugăm să vă asigurați că folderul de date este pe același disc ca instalarea anterioara osu! (și că sistemul de fișiere poate folosi „hard link”-uri).</value>
   </data>
 </root>

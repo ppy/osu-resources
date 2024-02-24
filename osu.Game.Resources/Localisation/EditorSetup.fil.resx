@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Gaano ka lupit ang mga hit window at kahirapan ng mga espesyal na bagay (hal. spinners)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Rate ng Tik</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Tinutukoy kung gaano karaming "mga tik" ang nabuo sa loob ng mga bagay na matagal nang natamaan. Ang rate ng tik na 1 ay bubuo ng mga tik sa bawat tibok, 2 ay magiging dalawang beses bawat tibok, atbp.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Batayan ng Velocity</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Ang batayang bilis ng beatmap, na nakakaapekto sa mga bagay tulad ng bilis ng slider at bilis ng pag-scroll sa ilang mga ruleset.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>
@@ -148,14 +160,8 @@
   <data name="click_to_select_track" xml:space="preserve">
     <value>I-click upang makapili ng isang track</value>
   </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>I-click upang palitan ang track</value>
-  </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>I-click upang makapili ng isang larawan sa background</value>
-  </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>I-click upang palitan ang larawan sa background</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>
@@ -172,5 +178,8 @@
   </data>
   <data name="difficulty_header" xml:space="preserve">
     <value>Kahirapan</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>I-drag ang larawan dito para itakda ang background ng beatmap!</value>
   </data>
 </root>

@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} elem(ek)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Az adatmigráció "kemény linkeket" használ.  A rendszer nem használ további lemezterületet, és bármelyik adatmappát bármikor törölheti anélkül, hogy ez befolyásolná a másik telepítést.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Tudj meg többet a „kemény linkek” működéséről</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Az operációs rendszered még nem támogatja a fájlok egyszerű összekapcsolását, ezért az importálás során minden fájlról másolat készül.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Az importálás során minden fájlról egy másolat készül. Ennek elkerülése érdekében győződj meg arról, hogy a Lazer adatmappa ugyanazon a meghajtón van, mint az előző osu! telepítésed (és a fájlrendszer NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Az importálás során minden fájlról egy másolat készül. Ennek elkerülése érdekében győződj meg arról, hogy a Lazer adatmappa ugyanazon a meghajtón van, mint az előző osu! telepítésed (és a fájlrendszered támogatja a kemény linkeket).</value>
+  </data>
 </root>

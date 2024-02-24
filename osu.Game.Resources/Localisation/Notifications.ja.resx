@@ -77,7 +77,7 @@
     <value>ゲーム音量が低すぎて何も聞こえません！ここをクリックして復元してください。</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>現在のルールセットには自動再生modがありません！</value>
+    <value>現在のルールセットにオートプレイmodはありません！</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
     <value>osu!はオーディオを正しく再生できないようです。\n\nお使いのオーディオデバイスを動作中の設定に変更してみてください。</value>
@@ -85,14 +85,50 @@
   <data name="score_overlay_disabled" xml:space="preserve">
     <value>スコアオーバーレイは現在無効になっています。 {0} を押して切り替えることができます。</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
+    <value>URL {0} はサポートされていないか危険なプロトコルを持つため、開けません。</value>
+  </data>
+  <data name="subsequent_messages_logged" xml:space="preserve">
+    <value>それ以降のメッセージはログに記録されました。ログファイルを表示するにはクリックします。</value>
+  </data>
+  <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
+    <value>タブレットのサポートは次のエラーが原因で無効になります: "{0}"</value>
+  </data>
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>タブレットの警告が発生しました。お使いのタブレットは正しく機能しない可能性があります。サポートされているすべてのタブレットのリストを表示するには、ここをクリックしてください。</value>
+  </data>
+  <data name="unsupported_link_type" xml:space="preserve">
+    <value>このリンクタイプはまだサポートされていません!</value>
+  </data>
+  <data name="private_message_received" xml:space="preserve">
+    <value>'{0}' からプライベートメッセージを受信しました。クリックして読んでください!</value>
+  </data>
+  <data name="your_name_was_mentioned" xml:space="preserve">
+    <value>'{0}' からあなたがチャットでメンションされました。クリックして理由を確認してください!</value>
+  </data>
+  <data name="invited_you_to_the_multiplayer" xml:space="preserve">
+    <value>{0} があなたをマルチプレイヤーマッチ「{1}」に招待しました! クリックして参加します。</value>
+  </data>
+  <data name="missing_beatmap_for_replay" xml:space="preserve">
+    <value>このリプレイのビートマップがありません。</value>
+  </data>
+  <data name="downloading_beatmap_for_replay" xml:space="preserve">
+    <value>リプレイのために未所持のビートマップをダウンロードしています...</value>
+  </data>
+  <data name="mismatching_beatmap_for_replay" xml:space="preserve">
+    <value>このリプレイのビートマップのローカルコピーが通常とは異なっているようです。更新するか、再ダウンロードする必要があるかもしれません。</value>
+  </data>
+  <data name="game_version_after_update" xml:space="preserve">
+    <value>現在、osu! {0}を実行しています。
+クリックして新着情報を確認してください!</value>
+  </data>
+  <data name="update_ready_to_install" xml:space="preserve">
+    <value>アップデートをインストールする準備ができました。クリックして再起動します!</value>
+  </data>
+  <data name="downloading_update" xml:space="preserve">
+    <value>アップデートをダウンロードしています...</value>
+  </data>
+  <data name="installing_update" xml:space="preserve">
+    <value>アップデートをインストールしています...</value>
+  </data>
 </root>

@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>Beatmap redigeringsverktøy</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Bølgeformsopasitet</value>
   </data>
@@ -73,6 +76,12 @@
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Angi forhåndsvisningpunkt som nåværende tidspunkt</value>
+  </data>
+  <data name="export_for_editing" xml:space="preserve">
+    <value>For redigering (.olz)</value>
+  </data>
+  <data name="export_for_compatibility" xml:space="preserve">
+    <value>For kompatibilitet (.osz)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Lag ny vanskelighetsgrad</value>
@@ -112,5 +121,17 @@
   </data>
   <data name="rotation_unsnapped" xml:space="preserve">
     <value>{0:0}°</value>
+  </data>
+  <data name="rotation_snapped" xml:space="preserve">
+    <value>{0:0}° (snapped)</value>
+  </data>
+  <data name="limited_distance_snap_grid" xml:space="preserve">
+    <value>Begrens avstandssnap til nåværende tid</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>Må være i redigeringsmodus for å håndtere redigeringslenker</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>Feilet å lese redigeringslenken</value>
   </data>
 </root>

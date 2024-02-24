@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} Item(s)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Die Datenmigration verwendet "harte Links". Es wird kein zusätzlicher Speicherplatz benötigt und du kannst zu jeder Zeit einen der beiden Datenordner löschen, ohne die andere Installation zu beeinträchtigen.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Erfahre mehr darüber, was "harte Links" sind.</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Die effiziente Verlinkung von Dateien wird von deinem Betriebsystem noch nicht unterstützt, sodass während des Imports eine Kopie aller Dateien angelegt wird.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Während des Imports wird eine zweite Kopie aller Dateien erstellt. Stelle bitte sicher, dass sich der Datenordner von lazer auf demselben Laufwerk befindet wie die vorherige osu!-Installation (und dass das Dateisystem NTFS ist).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Während des Imports wird eine zweite Kopie aller Dateien erstellt. Stelle bitte sicher, dass sich der Datenordner von lazer auf demselben Laufwerk befindet wie die vorherige osu!-Installation (und dass das Dateisystem harte Links unterstützt).</value>
+  </data>
 </root>

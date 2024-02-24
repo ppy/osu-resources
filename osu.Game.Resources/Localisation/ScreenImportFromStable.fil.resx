@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} na (mga) item</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Ang paglilipat ng data ay gagamit ng "mga hard link." Walang dagdag na espasyo sa disk ang gagamitin, at maaari mong tanggalin ang alinmang folder ng data sa anumang punto nang hindi naaapektuhan ang ibang pag-install.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Matuto nang higit pa tungkol sa kung paano gumagana ang "mga hard link."</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Ang magaan na pag-link ng mga file ay hindi pa sinusuportahan sa iyong operating system, kaya isang kopya ng lahat ng mga file ay gagawin sa panahon ng pag-import.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Ang pangalawang kopya ng lahat ng mga file ay gagawin habang nag-i-import. Upang maiwasan ito, pakitiyak na ang folder ng data ng lazer ay nasa parehong drive ng iyong nakaraang install ng osu! (at ang file system ay NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Ang pangalawang kopya ng lahat ng mga file ay gagawin habang nag-i-import. Upang maiwasan ito, pakitiyak na ang folder ng data ng lazer ay nasa parehong drive ng iyong nakaraang install ng osu! (at ang file system ay sumusuporta sa mga hard link).</value>
+  </data>
 </root>

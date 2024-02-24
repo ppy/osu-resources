@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} položek</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Migrace dat použije "pevné odkazy". Nebude využito žádné nové místo na disku a je kdykoli možné odstranit libovolnou složku s daty bez ovlivnění druhé instalace.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Dovědět se více o tom, jak "pevné odkazy" fungují</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Lightweight linkování souborů není zatím na vašem operačním systému podporováno, takže během importu bude provedena kopie všech souborů.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Druhá kopie všech souborů bude vytvořena během importu. Aby ses tomu vyhnul, ujisti se, že složka s daty lazeru je na stejném disku jako tvoje předchozí instalace osu! (a souborový systém je NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Druhá kopie všech souborů bude vytvořena během importu. Aby ses tomu vyhnul, ujisti se, že složka s daty lazeru je na stejném disku jako tvoje předchozí instalace osu! (a souborový systém podporuje pevné odkazy).</value>
+  </data>
 </root>

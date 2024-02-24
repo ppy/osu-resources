@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} артикул(а)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Пренасянето на данни ще използва "твърди връзки". Няма да се заема допълнително място от паметта, и може да изтриете папките с данни по всяко време без да засегнете другата инсталация.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Научете повече как "твърди връзки" работят</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Олекотените връзки към файлове не се поддържат от операционната ви система, ще бъде направено копие на всички файлове.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Второ копие на всички файлове ще бъде направено по време на пренасянето. За да избегнете това се уверете, че папката с данни на lazer се намира в същото устройство за съхранение, където е предишната osu! инсталация (и файловата система е NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Второ копие на всички файлове ще бъде направено по време на пренасянето. За да избегнете това се уверете, че папката с данни на lazer се намира в същото устройство за съхранение, където е предишната osu! инсталация (и файловата система поддържа твърди връзки).</value>
+  </data>
 </root>
