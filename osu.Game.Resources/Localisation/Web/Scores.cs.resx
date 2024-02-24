@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Toto skóre je označeno pro smazání a brzy zmizí.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} na {1} [{2}]</value>
   </data>
@@ -80,7 +83,10 @@
     <value>Pouze osobní nejlepší skóre ocenění</value>
   </data>
   <data name="status.non_passing" xml:space="preserve">
-    <value>pp dostávají jen schválené skóre </value>
+    <value>Pouze procházející skóre udělují pp</value>
+  </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>pp není za toto skóre uděleno</value>
   </data>
   <data name="status.processing" xml:space="preserve">
     <value>Toto skóre se stále počítá a bude brzy zobrazeno</value>

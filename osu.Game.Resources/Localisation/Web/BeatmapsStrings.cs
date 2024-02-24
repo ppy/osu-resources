@@ -660,6 +660,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NominationsRankEstimateDefault(LocalisableString date, LocalisableString position, LocalisableString queue) => new TranslatableString(getKey(@"nominations.rank_estimate._"), @"This map is estimated to be ranked {0} if no issues are found. It is #{1} in the {2}.", date, position, queue);
 
         /// <summary>
+        /// "This map is currently blocked from leaving the Qualified section until {0} are resolved."
+        /// </summary>
+        public static LocalisableString NominationsRankEstimateUnresolvedProblems(LocalisableString problems) => new TranslatableString(getKey(@"nominations.rank_estimate.unresolved_problems"), @"This map is currently blocked from leaving the Qualified section until {0} are resolved.", problems);
+
+        /// <summary>
+        /// "these problems"
+        /// </summary>
+        public static LocalisableString NominationsRankEstimateProblems => new TranslatableString(getKey(@"nominations.rank_estimate.problems"), @"these problems");
+
+        /// <summary>
         /// "on {0}"
         /// </summary>
         public static LocalisableString NominationsRankEstimateOn(LocalisableString date) => new TranslatableString(getKey(@"nominations.rank_estimate.on"), @"on {0}", date);

@@ -82,6 +82,12 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>E-post</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Vennligst kontakt {0} dersom du trenger e-posten din oppdatert.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>brukerstøtteteam</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -103,8 +109,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Passord</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>land</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profil</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Det ser ut til at landet på kontoen din ikke samsvarer med landet du bor i. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>Oppdater til {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>nåværende plassering</value>
@@ -123,6 +138,27 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>oppdater</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Hvis du er en bidragsyter til osu!s åpne kildekode, kan du knytte endringene dine med osu! profilen ved å koble til GitHub-kontoen din her. GitHub-kontoer uten bidragshistorikk til osu! kan ikke bli koblet til.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Koble til GitHub-konto</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Koble fra GitHub-konto</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Denne GitHub-kontoen er allerede koblet til en annen bruker.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Kan ikke koble GitHub-konto uten bidragshistorikk i osu! kildekode.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Vennligst bekreft din primære e-postadresse på GitHub, og så prøv å koble til kontoen på nytt.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>motta varsler for nye problemer på kvalifiserte beatmaps av følgende moduser</value>

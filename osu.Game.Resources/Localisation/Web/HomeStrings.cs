@@ -250,11 +250,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DownloadForOs(LocalisableString os) => new TranslatableString(getKey(@"download.for_os"), @"for {0}", os);
 
         /// <summary>
-        /// "note: leaderboard resets apply"
-        /// </summary>
-        public static LocalisableString DownloadLazerNote => new TranslatableString(getKey(@"download.lazer_note"), @"note: leaderboard resets apply");
-
-        /// <summary>
         /// "macOS users"
         /// </summary>
         public static LocalisableString DownloadMacosFallback => new TranslatableString(getKey(@"download.macos-fallback"), @"macOS users");

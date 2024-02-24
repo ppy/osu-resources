@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>已标记删除此分数，不久后它将消失。</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} 在 {1} [{2}] 上的成绩</value>
   </data>
@@ -82,7 +85,13 @@
   <data name="status.non_passing" xml:space="preserve">
     <value>只能在通过的成绩上获取 pp</value>
   </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>该分数没有 pp</value>
+  </data>
   <data name="status.processing" xml:space="preserve">
     <value>此分数仍在计算中，即将显示</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>因为此分数不参与排名或标记为删除，所以它没有排名。</value>
   </data>
 </root>

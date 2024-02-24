@@ -67,6 +67,45 @@
   <data name="index.nav_title" xml:space="preserve">
     <value>список</value>
   </data>
+  <data name="judge.hide_judged" xml:space="preserve">
+    <value>скрыть оценённые заявки</value>
+  </data>
+  <data name="judge.nav_title" xml:space="preserve">
+    <value>судья</value>
+  </data>
+  <data name="judge.no_current_vote" xml:space="preserve">
+    <value>вы пока ещё не проголосовали.</value>
+  </data>
+  <data name="judge.update" xml:space="preserve">
+    <value>сохранить</value>
+  </data>
+  <data name="judge.validation.missing_score" xml:space="preserve">
+    <value>балл отсутствует</value>
+  </data>
+  <data name="judge.validation.contest_vote_judged" xml:space="preserve">
+    <value>нельзя проголосовать в конкурсе, который вы судили</value>
+  </data>
+  <data name="judge.voted" xml:space="preserve">
+    <value>Вы уже выставили баллы за эту заявку.</value>
+  </data>
+  <data name="judge_results._" xml:space="preserve">
+    <value>Результаты судейства</value>
+  </data>
+  <data name="judge_results.creator" xml:space="preserve">
+    <value>создатель</value>
+  </data>
+  <data name="judge_results.score" xml:space="preserve">
+    <value>Баллы</value>
+  </data>
+  <data name="judge_results.total_score" xml:space="preserve">
+    <value>суммарный балл</value>
+  </data>
+  <data name="voting.judge_link" xml:space="preserve">
+    <value>Вы — судья этого конкурса. Нажмите сюда, чтобы начать оценивать заявки!</value>
+  </data>
+  <data name="voting.judged_notice" xml:space="preserve">
+    <value>Этот конкурс использует систему судейства, на данный момент судьи оценивают заявки.</value>
+  </data>
   <data name="voting.login_required" xml:space="preserve">
     <value>Пожалуйста, войдите в аккаунт, чтобы проголосовать.</value>
   </data>
@@ -77,7 +116,7 @@
     <value>Показать проголосованные</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>Не похоже, что Вы играли в какие-либо из карт, что квалифицированы для этого конкурса!</value>
+    <value>Не похоже, что вы сыграли карты, что квалифицированы для этого конкурса!</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>Отдать голос</value>
