@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} item(s)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>A migração de dados usará "links físicos". Nenhum espaço de disco extra será usado e você pode excluir qualquer pasta de dados em qualquer ponto sem afetar a outra instalação.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Saiba mais sobre como funcionam os "links físicos"</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Ligação leve de arquivos ainda não é suportada em seu sistema operacional, por isso uma cópia de todos os arquivos será feita durante a importação.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Uma segunda cópia de todos os arquivos será feita durante a importação. Para evitar isso, certifique-se de que a pasta de dados do lazer está na mesma unidade da sua instalação anterior do osu! (e o sistema de arquivos é NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Uma segunda cópia de todos os arquivos será feita durante a importação. Para evitar isso, certifique-se de que a pasta de dados do lazer está na mesma unidade da sua instalação anterior do osu! (e o sistema de arquivos suporta links físicos).</value>
+  </data>
 </root>

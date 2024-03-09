@@ -605,16 +605,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MailForumTopicForumTopicReplyForumTopicReply(LocalisableString title) => new TranslatableString(getKey(@"mail.forum_topic.forum_topic_reply.forum_topic_reply"), @"There are new replies in ""{0}""", title);
 
         /// <summary>
-        /// "{0} has unlocked a new medal, &quot;{1}&quot;!"
-        /// </summary>
-        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlock(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock"), @"{0} has unlocked a new medal, ""{1}""!", username, title);
-
-        /// <summary>
-        /// "You&#39;ve unlocked a new medal, &quot;{0}&quot;!"
-        /// </summary>
-        public static LocalisableString MailUserUserAchievementUnlockUserAchievementUnlockSelf(LocalisableString title) => new TranslatableString(getKey(@"mail.user.user_achievement_unlock.user_achievement_unlock_self"), @"You've unlocked a new medal, ""{0}""!", title);
-
-        /// <summary>
         /// "{0} has created new beatmaps"
         /// </summary>
         public static LocalisableString MailUserUserBeatmapsetNewUserBeatmapsetNew(LocalisableString username) => new TranslatableString(getKey(@"mail.user.user_beatmapset_new.user_beatmapset_new"), @"{0} has created new beatmaps", username);

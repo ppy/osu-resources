@@ -45,9 +45,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString KudosuUsed => new TranslatableString(getKey(@"kudosu.used"), @"Spent");
 
         /// <summary>
-        /// "spotlights"
+        /// "spotlights (old)"
         /// </summary>
-        public static LocalisableString TypeCharts => new TranslatableString(getKey(@"type.charts"), @"spotlights");
+        public static LocalisableString TypeCharts => new TranslatableString(getKey(@"type.charts"), @"spotlights (old)");
 
         /// <summary>
         /// "country"

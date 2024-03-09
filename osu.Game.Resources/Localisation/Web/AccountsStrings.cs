@@ -260,11 +260,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotificationsOptionsPush => new TranslatableString(getKey(@"notifications.options.push"), @"push");
 
         /// <summary>
-        /// "user medal unlocked"
-        /// </summary>
-        public static LocalisableString NotificationsOptionsUserAchievementUnlock => new TranslatableString(getKey(@"notifications.options.user_achievement_unlock"), @"user medal unlocked");
-
-        /// <summary>
         /// "authorized clients"
         /// </summary>
         public static LocalisableString OauthAuthorizedClients => new TranslatableString(getKey(@"oauth.authorized_clients"), @"authorized clients");
