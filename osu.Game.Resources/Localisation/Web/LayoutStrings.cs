@@ -195,11 +195,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MenuRankingsDefault => new TranslatableString(getKey(@"menu.rankings._"), @"rankings");
 
         /// <summary>
-        /// "kudosu"
-        /// </summary>
-        public static LocalisableString MenuRankingsKudosu => new TranslatableString(getKey(@"menu.rankings.kudosu"), @"kudosu");
-
-        /// <summary>
         /// "store"
         /// </summary>
         public static LocalisableString MenuStoreDefault => new TranslatableString(getKey(@"menu.store._"), @"store");

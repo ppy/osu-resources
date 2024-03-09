@@ -82,6 +82,9 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>Эл. пошта</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Напішыце ў {0}, калі хочаце змяніць адрас электроннай пошты.</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -133,6 +136,27 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>абнавіць</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Калі вы ўносіце ўклад у рэпазітар osu!, падлучэнне акаўнта GitHub дазволіць звязаць ваш нік у спісе змен з профілем osu!. Акаўнт GitHub без укладу ў osu! падлучыць нельга.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Падлучыць акаўнт GitHub</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Адвязаць уліковы запіс GitHub</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Гэты ўліковы запіс GitHub ужо звязаны з іншым карыстальнікам.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Немагчыма звязаць уліковы запіс GitHub без гісторыі ўкладаў у рэпазітары osu!.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Калі ласка, пацвердзіце сваю асноўную электронную пошту на GitHub, потым паспрабуйце звязаць свой уліковы запіс яшчэ раз.</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>атрымліваць апавяшчэнні аб новых праблемах кваліфікаваных карт наступных рэжымаў</value>
   </data>
@@ -174,9 +198,6 @@
   </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
-  </data>
-  <data name="notifications.options.user_achievement_unlock" xml:space="preserve">
-    <value>адкрыццё медаля</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>аўтарызаваныя кліенты</value>
