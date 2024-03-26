@@ -181,6 +181,12 @@
   <data name="invoice.status.prepared.title" xml:space="preserve">
     <value>Je bestelling wordt voorbereid!</value>
   </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Wacht alsjeblieft iets langer voor de verzending. Tracking-informatie zal hier verschijnen zodra de bestelling is verwerkt en verzonden. Dit kan tot 5 dagen duren (maar vaak minder!) afhankelijk van hoe druk we zijn.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>We verzenden alle bestellingen vanuit Japan d.m.v. een aantal bezorgdiensten afhankelijk van het gewicht en de waarde. Dit gebied zal worden bijgewerkt met details zodra we de bestelling hebben verzonden.</value>
+  </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Uw betaling is nog niet bevestigd!</value>
   </data>
@@ -195,6 +201,12 @@
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
     <value>Je bestelling is verzonden!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Tracking-details volgen:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>We hebben geen tracking-details omdat we jouw pakket via Air Mail verzonden hebben, maar je kunt deze verwachten binnen 1-3 weken. In Europa kan de douane soms vertraging buiten onze controle veroorzaken. Als je vragen hebt, antwoord op de bestelbevestigings-e-mail die je hebt ontvangen (of {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>stuur ons een email</value>
@@ -300,6 +312,9 @@
   </data>
   <data name="order.thanks.title" xml:space="preserve">
     <value>Bedankt voor je bestelling!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Je zal binnenkort een bevestigings-e-mail ontvangen. Als je vragen hebt, {0}!</value>
   </data>
   <data name="order.thanks.line_1.link_text" xml:space="preserve">
     <value>contacteer ons</value>
