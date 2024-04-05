@@ -22,5 +22,5 @@ for src_file in ./src/*.svg; do
 	echo "${src_file} -> ${dst_file}"
 
 	inkscape -w 100 ${src_file} -o ${dst_file} > /dev/null 2>&1
-	convert ${dst_file} -negate ${dst_file}
+	convert ${dst_file} -channel RGB -negate +channel ${dst_file}
 done
