@@ -55,6 +55,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ChannelsCreate => new TranslatableString(getKey(@"channels.create"), @"create announcement");
 
         /// <summary>
+        /// "join channel"
+        /// </summary>
+        public static LocalisableString ChannelsJoin => new TranslatableString(getKey(@"channels.join"), @"join channel");
+
+        /// <summary>
+        /// "no channel"
+        /// </summary>
+        public static LocalisableString ChannelsNone => new TranslatableString(getKey(@"channels.none"), @"no channel");
+
+        /// <summary>
         /// "Announcements"
         /// </summary>
         public static LocalisableString ChannelsListTitleANNOUNCE => new TranslatableString(getKey(@"channels.list.title.announce"), @"Announcements");
@@ -148,6 +158,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "no conversations yet"
         /// </summary>
         public static LocalisableString NoConversationsTitle => new TranslatableString(getKey(@"no-conversations.title"), @"no conversations yet");
+
+        /// <summary>
+        /// "Loading channel list..."
+        /// </summary>
+        public static LocalisableString JoinChannelsLoading => new TranslatableString(getKey(@"join_channels.loading"), @"Loading channel list...");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

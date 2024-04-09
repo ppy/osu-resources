@@ -130,14 +130,50 @@
   <data name="discount" xml:space="preserve">
     <value>spara {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>gratis!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Kontakt:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Eftersom din betalning var en eCheck, vänligen tillåt upp till 10 extra dagar för betalningen att accepteras via PayPal! </value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter taggar i denna ordning visas inte i dina senaste aktiviteter.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Skickat Via:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Levereras Till:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktura</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Din beställning har avbrutits</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>osu!store support</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Om du har några problem med ditt köp, vänligen kontakta {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!store support</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Din beställning förbereds!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Vänligen vänta lite längre på att den ska skickas. Spårningsinformation kommer att visas här när beställningen har behandlats och skickats. Detta kan ta upp till 5 dagar (men oftast mindre!) beroende på hur upptagna vi är.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Din betalning har ännu inte bekräftats!</value>
@@ -150,6 +186,15 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>klicka här för att återuppta din transaktion</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Din beställning har skickats!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Spårningsinformation följer:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>skicka oss ett e-post</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Avbryt beställning</value>
@@ -172,8 +217,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Återuppta transaktionen</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Frakt &amp; Hantering</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Kassalänken för denna beställning har utgått.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Delsumma</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Summa</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Beställning #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Betalningsvillkor</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Försäljare</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Leveransmetod</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Leveransvillkor</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Beställningsinformation</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Antal</value>
@@ -223,6 +295,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Skickad</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Beställningsstatus</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Tack för din beställning!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Du kommer att få ett bekräftelsemail snart. Om du har några frågor, vänligen {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>kontakta oss</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Namn</value>
   </data>
@@ -264,6 +348,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Kontrollerar om {0} är tillgängligt...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Begärt Användarnamn</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Nytt Användarnamn</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ditt nuvarande användarnamn är "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Du behöver var {0} för att ändra ditt namn!</value>

@@ -105,6 +105,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TracksIndexDefault => new TranslatableString(getKey(@"tracks.index._"), @"track search");
 
         /// <summary>
+        /// "All"
+        /// </summary>
+        public static LocalisableString TracksIndexExclusiveOnlyAll => new TranslatableString(getKey(@"tracks.index.exclusive_only.all"), @"All");
+
+        /// <summary>
+        /// "osu! original"
+        /// </summary>
+        public static LocalisableString TracksIndexExclusiveOnlyExclusiveOnly => new TranslatableString(getKey(@"tracks.index.exclusive_only.exclusive_only"), @"osu! original");
+
+        /// <summary>
         /// "Advanced Search"
         /// </summary>
         public static LocalisableString TracksIndexFormAdvanced => new TranslatableString(getKey(@"tracks.index.form.advanced"), @"Advanced Search");
@@ -133,6 +143,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "No tracks matching search criteria were found."
         /// </summary>
         public static LocalisableString TracksIndexFormEmpty => new TranslatableString(getKey(@"tracks.index.form.empty"), @"No tracks matching search criteria were found.");
+
+        /// <summary>
+        /// "Type"
+        /// </summary>
+        public static LocalisableString TracksIndexFormExclusiveOnly => new TranslatableString(getKey(@"tracks.index.form.exclusive_only"), @"Type");
 
         /// <summary>
         /// "Genre"

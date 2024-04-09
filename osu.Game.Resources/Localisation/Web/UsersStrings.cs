@@ -217,6 +217,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Your account hasn&#39;t been used in a long time."
         /// </summary>
+        public static LocalisableString ForceReactivationReasonInactive => new TranslatableString(getKey(@"force_reactivation.reason.inactive"), @"Your account hasn't been used in a long time.");
+
+        /// <summary>
+        /// "Your account hasn&#39;t been used in a long time."
+        /// </summary>
         public static LocalisableString ForceReactivationReasonInactiveDifferentCountry => new TranslatableString(getKey(@"force_reactivation.reason.inactive_different_country"), @"Your account hasn't been used in a long time.");
 
         /// <summary>
