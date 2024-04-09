@@ -113,7 +113,7 @@
     <value>Hanya dapat memberikan suara pada diskusi di beatmap pending.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Kamu hanya dapat menghapus postingan milik diri sendiri.</value>
+    <value>Kamu hanya dapat menghapus postingan milikmu sendiri.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
     <value>Kamu tidak dapat menghapus postingan pada topik diskusi yang telah terjawab.</value>
@@ -122,7 +122,7 @@
     <value>Postingan yang dihasilkan secara otomatis tidak dapat dihapus.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Hanya pemilik topik yang diperbolehkan untuk menyunting kiriman.</value>
+    <value>Postingan ini hanya dapat disunting oleh pengirimnya.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
     <value>Kamu tidak dapat menyunting postingan pada topik diskusi yang telah terjawab.</value>
@@ -164,7 +164,7 @@
     <value>Komentar dinonaktifkan</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
-    <value>Tidak dapat menyunting post yang telah dihapus.</value>
+    <value>Postingan yang telah dihapus tidak dapat disunting.</value>
   </data>
   <data name="contest.judging_not_active" xml:space="preserve">
     <value>Penjurian kontes ini sedang tidak aktif.</value>
@@ -176,25 +176,25 @@
     <value>Kamu telah mencapai batas entri untuk kontes ini</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>Terima kasih telah mengirimkan entrimu! Pengumpulan entri untuk kontes ini telah ditutup dan pemungutan suara akan segera berlangsung.</value>
+    <value>Terima kasih atas entrimu! Pengumpulan entri untuk kontes ini telah ditutup dan pemungutan suara akan segera dibuka.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>Kamu tidak memiliki izin untuk memoderasi forum ini.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
-    <value>Hanya kiriman terakhir yang dapat dihapus.</value>
+    <value>Hanya postingan terakhir yang dapat dihapus.</value>
   </data>
   <data name="forum.post.delete.locked" xml:space="preserve">
-    <value>Tidak dapat menghapus kiriman di topik yang telah dikunci.</value>
+    <value>Postingan pada topik yang telah dikunci tidak dapat dihapus.</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
     <value>Kamu tidak memiliki akses ke forum yang dituju.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>Hanya pemilik topik yang dapat menghapus kiriman.</value>
+    <value>Postingan ini hanya dapat dihapus oleh pengirimnya.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
-    <value>Tidak dapat menyunting postingan yang telah dihapus.</value>
+    <value>Postingan yang telah dihapus tidak dapat disunting.</value>
   </data>
   <data name="forum.post.edit.locked" xml:space="preserve">
     <value>Penyuntingan pada postingan ini telah dikunci.</value>
@@ -203,16 +203,16 @@
     <value>Kamu tidak memiliki akses ke forum yang dituju.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>Hanya pemilik topik yang dapat menyunting kiriman.</value>
+    <value>Postingan ini hanya dapat disunting oleh pengirimnya.</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
-    <value>Tidak dapat menyunting kiriman di topik yang telah dikunci.</value>
+    <value>Postingan pada topik yang telah dikunci tidak dapat disunting.</value>
   </data>
   <data name="forum.post.store.play_more" xml:space="preserve">
     <value>Kamu harus terlebih dahulu bermain sebelum kamu dapat membuat postingan pada forum! Apabila kamu mengalami masalah saat bermain, silakan kunjungi forum Help &amp; Support.</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Kamu harus lebih banyak bermain sebelum kamu dapat membuat postingan tambahan. Apabila kamu masih memerlukan bantuan lebih lanjut, silakan kirim email ke support@ppy.sh</value>
+    <value>Kamu perlu untuk bermain lebih banyak sebelum kamu dapat membuat postingan tambahan. Apabila kamu masih menemui masalah dalam bermain, silakan kirim email ke support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
     <value>Mohon sunting postingan terakhirmu alih-alih membuat postingan baru.</value>
@@ -242,7 +242,7 @@
     <value>Tidak memiliki izin untuk membuat topik baru.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>Forum ditutup sehingga tidak dapat membuat postingan.</value>
+    <value>Forum ini telah ditutup dan tidak lagi dapat ditulis.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
     <value>Kamu tidak memiliki akses ke forum yang dituju.</value>

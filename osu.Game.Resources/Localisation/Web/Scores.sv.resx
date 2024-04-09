@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Detta resultat är markerat för borttagning och kommer att försvinna snart.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} på {1} [{2}]</value>
   </data>
@@ -77,12 +80,18 @@
     <value>Global rankning</value>
   </data>
   <data name="status.non_best" xml:space="preserve">
-    <value>Endast personbästa poäng ger pp</value>
+    <value>Endast personbästa resultat ger pp</value>
   </data>
   <data name="status.non_passing" xml:space="preserve">
-    <value>Endast godkända poäng ger pp</value>
+    <value>Endast godkända resultat ger pp</value>
+  </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>pp tilldelas inte för detta resultat</value>
   </data>
   <data name="status.processing" xml:space="preserve">
-    <value>Poängsiffran räknas ännu ut och kommer snart att visas</value>
+    <value>Detta resultat räknas ännu ut och kommer snart att visas</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>Detta resultat har ingen rank eftersom den är orankad eller markerad för borttagning</value>
   </data>
 </root>

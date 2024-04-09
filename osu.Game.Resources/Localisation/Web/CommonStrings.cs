@@ -145,6 +145,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ButtonsReadMore => new TranslatableString(getKey(@"buttons.read_more"), @"read more");
 
         /// <summary>
+        /// "Refresh"
+        /// </summary>
+        public static LocalisableString ButtonsRefresh => new TranslatableString(getKey(@"buttons.refresh"), @"Refresh");
+
+        /// <summary>
         /// "Reply"
         /// </summary>
         public static LocalisableString ButtonsReply => new TranslatableString(getKey(@"buttons.reply"), @"Reply");

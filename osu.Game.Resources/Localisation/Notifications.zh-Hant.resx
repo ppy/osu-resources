@@ -71,10 +71,10 @@
     <value>全部清除</value>
   </data>
   <data name="battery_low" xml:space="preserve">
-    <value>您的裝置電量不足！請立即將裝置接上電源，以避免遊玩過程中意外關機</value>
+    <value>您的裝置電量不足！請立即將裝置接上電源，以避免遊玩過程被中斷。</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>您的遊戲音量似乎有點太低，點此來還原音量。</value>
+    <value>您的遊戲音量似乎有點太低囉！點此來還原音量。</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
     <value>目前的遊戲模式沒有提供「自動播放」Mod。</value>
@@ -88,44 +88,47 @@
     <value>遊戲介面 (HUD) 已關閉，您可以按下 {0} 來重新開啟或關閉。</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
-    <value>將不會開啟 {0}，因其使用不支援或危險的連線協定。</value>
+    <value>該網址 {0} 使用了不支援或危險的連線協定，所以將不會被開啟。</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
-    <value>相關錯誤訊息已經寫入到記錄檔中，點擊這裡來查看記錄檔</value>
+    <value>相關錯誤訊息已經寫入到記錄檔中，點擊這裡來查看記錄檔。</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
     <value>因為遇到錯誤: "{0}"，已自動取消繪圖板支援</value>
   </data>
   <data name="encountered_tablet_warning" xml:space="preserve">
-    <value>請注意，您的繪圖板可能沒有正常工作。點擊這裡來查看所有支援的繪圖板列表。</value>
+    <value>請注意，您的繪圖板可能不會正常工作。點擊這裡來查看所有支援的繪圖板列表。</value>
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
-    <value>目前暫時不支援這種連結類型</value>
+    <value>目前暫時不支援這種連結類型！</value>
   </data>
   <data name="private_message_received" xml:space="preserve">
-    <value>您收到一個來自 {0} 的私人訊息，點擊此來閱讀。</value>
+    <value>您收到一個來自 {0} 的私人訊息。點選以閱讀！</value>
   </data>
   <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>您的名字已被 {0} 在聊天中提及，點擊此來閱讀。</value>
+    <value>您的名字已被 {0} 在聊天中提及。點選以查看！</value>
   </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
-    <value>{0} 邀請你加入多人遊戲 "{1}"！點選以加入。</value>
+    <value>{0} 邀請你加入多人遊戲 「{1}」！點選以加入。</value>
   </data>
   <data name="missing_beatmap_for_replay" xml:space="preserve">
     <value>你沒有對應此重播檔的圖譜。</value>
   </data>
   <data name="downloading_beatmap_for_replay" xml:space="preserve">
-    <value>正在下載此重播檔所需的圖譜。</value>
+    <value>正在下載此重播檔所需的圖譜...</value>
   </data>
   <data name="mismatching_beatmap_for_replay" xml:space="preserve">
     <value>本機圖譜與重播檔所需的圖譜有所不同。你可能需要更新或重新下載這張圖譜。</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
     <value>osu! 已經更新至最新版本：{0}！
-按我看看更新了什麽！</value>
+按這裡看看更新了什麼！</value>
   </data>
   <data name="update_ready_to_install" xml:space="preserve">
-    <value>已準備好安裝更新。點此重新啟動遊戲！</value>
+    <value>已準備好安裝更新。點選以重新啟動遊戲！</value>
+  </data>
+  <data name="not_official_build" xml:space="preserve">
+    <value>這不是遊戲的正式發行版本。所取得的成績皆不會提交，並且部分線上系統可能無法依預期工作。</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>下載更新中...</value>

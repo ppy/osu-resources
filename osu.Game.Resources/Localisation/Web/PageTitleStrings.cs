@@ -235,6 +235,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainTournamentsControllerDefault => new TranslatableString(getKey(@"main.tournaments_controller._"), @"tournaments");
 
         /// <summary>
+        /// "user cover presets"
+        /// </summary>
+        public static LocalisableString MainUserCoverPresetsControllerDefault => new TranslatableString(getKey(@"main.user_cover_presets_controller._"), @"user cover presets");
+
+        /// <summary>
         /// "player info"
         /// </summary>
         public static LocalisableString MainUsersControllerDefault => new TranslatableString(getKey(@"main.users_controller._"), @"player info");

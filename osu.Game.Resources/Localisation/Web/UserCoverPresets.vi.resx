@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="index.batch_disable" xml:space="preserve">
+    <value>Đã chọn tắt</value>
+  </data>
+  <data name="index.batch_enable" xml:space="preserve">
+    <value>Đã chọn bật</value>
+  </data>
+  <data name="index.batch_confirm._" xml:space="preserve">
+    <value>{0} {1}?</value>
+  </data>
+  <data name="index.batch_confirm.disable" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="index.batch_confirm.enable" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="index.create_form.files" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="index.create_form.submit" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="index.create_form.title" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="index.item.click_to_disable" xml:space="preserve">
+    <value>Nhấp để tắt</value>
+  </data>
+  <data name="index.item.click_to_enable" xml:space="preserve">
+    <value>Nhấp để bật</value>
+  </data>
+  <data name="index.item.enabled" xml:space="preserve">
+    <value>Đã bật</value>
+  </data>
+  <data name="index.item.disabled" xml:space="preserve">
+    <value>Đã tắt</value>
+  </data>
+  <data name="index.item.image_store" xml:space="preserve">
+    <value>Đặt ảnh</value>
+  </data>
+  <data name="index.item.image_update" xml:space="preserve">
+    <value>Thay ảnh</value>
+  </data>
+</root>
