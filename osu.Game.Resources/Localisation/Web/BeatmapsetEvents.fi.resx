@@ -83,10 +83,10 @@
     <value>Tämän rytmikartan keskustelu on otettu käyttöön.</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
-    <value>{0} epäkelpuutti. Syy: {1} ({2}).</value>
+    <value>{0} hylkäsi. Syy: {1} ({2}).</value>
   </data>
   <data name="event.disqualify_legacy" xml:space="preserve">
-    <value>{0} keskeytti hyväksymisen. Syy: {1}.</value>
+    <value>{0} hylkäsi. Syy: {1}.</value>
   </data>
   <data name="event.genre_edit" xml:space="preserve">
     <value>Genre {0} muutettu genreen {1}.</value>
@@ -119,19 +119,19 @@
     <value>{0} rakastaa</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
-    <value>Käyttäjän {0} suosittelema.</value>
+    <value>Ehdollepannut {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
-    <value>Käyttäjän {0} suosittelema ({1}).</value>
+    <value>Ehdollepannut {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Uusi ongelma {0} ({1}) nollasi suositukset.</value>
+    <value>Uusi ongelma {0} ({1}) aiheutti ehdollepanojen nollauksen.</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
-    <value>Käyttäjän {0} suosituksen oli nollannut {1} ({2})</value>
+    <value>{0} nollasi käyttäjän {1} ehdollepanon ({2})</value>
   </data>
   <data name="event.nomination_reset_received_profile" xml:space="preserve">
-    <value>Suosituksen oli nollannut {0} ({1})</value>
+    <value>{0} nollasi ehdollepanon ({1})</value>
   </data>
   <data name="event.offset_edit" xml:space="preserve">
     <value>Vastapaino verkossa oli {0} ja vaihtui {1}.</value>
@@ -191,7 +191,7 @@
     <value>Keskustelun palauttaminen</value>
   </data>
   <data name="type.disqualify" xml:space="preserve">
-    <value>Epähyväksyntä</value>
+    <value>Hylkäys</value>
   </data>
   <data name="type.genre_edit" xml:space="preserve">
     <value>Genren muokkaus</value>
@@ -224,13 +224,13 @@
     <value>Rakkaus</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
-    <value>Äänestetty</value>
+    <value>Ehdollepano</value>
   </data>
   <data name="type.nomination_reset" xml:space="preserve">
     <value>Äänestyksen resetointi</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>Suosituksen nollaus vastaanotettu</value>
+    <value>Ehdollepanon nollaus vastaanotettu</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Sopimattoman sisällön merkki</value>
@@ -239,7 +239,7 @@
     <value>Vastapainon muokkaus</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
-    <value>Hyväksyntä</value>
+    <value>Kelpuuttaminen</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Luokittelu</value>

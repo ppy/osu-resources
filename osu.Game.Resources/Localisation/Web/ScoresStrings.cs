@@ -50,11 +50,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString StatusNonBest => new TranslatableString(getKey(@"status.non_best"), @"Only personal best scores award pp");
 
         /// <summary>
-        /// "Only passing scores award pp"
-        /// </summary>
-        public static LocalisableString StatusNonPassing => new TranslatableString(getKey(@"status.non_passing"), @"Only passing scores award pp");
-
-        /// <summary>
         /// "pp is not awarded for this score"
         /// </summary>
         public static LocalisableString StatusNoPp => new TranslatableString(getKey(@"status.no_pp"), @"pp is not awarded for this score");

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="maintenance_section_header" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="select_directory" xml:space="preserve">
+    <value>Seleccionar directorio</value>
+  </data>
+  <data name="migration_in_progress" xml:space="preserve">
+    <value>Migración en curso</value>
+  </data>
+  <data name="migration_description" xml:space="preserve">
+    <value>Esto puede tardar unos minutos dependiendo de la velocidad de tu(s) disco(s).</value>
+  </data>
+  <data name="prohibited_interact_during_migration" xml:space="preserve">
+    <value>¡Evita interactuar con el juego!</value>
+  </data>
+  <data name="failed_cleanup_notification" xml:space="preserve">
+    <value>Algunos archivos no se pudieron limpiar durante la migración. Al hacer clic en esta notificación, se abrirá la carpeta para que puedas limpiar las cosas manualmente.</value>
+  </data>
+  <data name="select_new_location" xml:space="preserve">
+    <value>Selecciona una nueva ubicación</value>
+  </data>
+  <data name="target_directory_already_installed_osu" xml:space="preserve">
+    <value>El directorio de destino ya parece tener una instalación de osu!. ¿Usar estos datos en su lugar?</value>
+  </data>
+  <data name="restart_and_re_open_required_for_completion" xml:space="preserve">
+    <value>osu! se cerrará al finalizar esta operación. Vuelve a abrirlo para utilizar la nueva ubicación de los datos.</value>
+  </data>
+  <data name="delete_all_beatmaps" xml:space="preserve">
+    <value>Eliminar TODOS los mapas</value>
+  </data>
+  <data name="delete_all_beatmap_videos" xml:space="preserve">
+    <value>Eliminar TODOS los videos de los mapas</value>
+  </data>
+  <data name="delete_all_scores" xml:space="preserve">
+    <value>Eliminar TODAS las puntuaciones</value>
+  </data>
+  <data name="delete_all_skins" xml:space="preserve">
+    <value>Eliminar TODAS las skins</value>
+  </data>
+  <data name="delete_all_collections" xml:space="preserve">
+    <value>Eliminar TODAS las colecciones</value>
+  </data>
+  <data name="restore_all_hidden_difficulties" xml:space="preserve">
+    <value>Restaurar todas las dificultades ocultas</value>
+  </data>
+  <data name="restore_all_recently_deleted_beatmaps" xml:space="preserve">
+    <value>Restaurar todos los mapas eliminados recientemente</value>
+  </data>
+  <data name="delete_all_mod_presets" xml:space="preserve">
+    <value>Eliminar TODOS los preajustes de mods</value>
+  </data>
+  <data name="restore_all_recently_deleted_mod_presets" xml:space="preserve">
+    <value>Restaurar los preajustes de mods eliminados recientemente</value>
+  </data>
+  <data name="deleted_all_collections" xml:space="preserve">
+    <value>¡Se eliminaron todas las colecciones!</value>
+  </data>
+  <data name="no_collections_found_to_delete" xml:space="preserve">
+    <value>¡No se encontraron colecciones para eliminar!</value>
+  </data>
+  <data name="deleted_all_mod_presets" xml:space="preserve">
+    <value>¡Se eliminaron todos los preajustes de mods!</value>
+  </data>
+  <data name="no_mod_presets_found_to_delete" xml:space="preserve">
+    <value>¡No se encontraron preajustes de mods para eliminar!</value>
+  </data>
+  <data name="restored_all_deleted_mod_presets" xml:space="preserve">
+    <value>¡Se restauraron todos los preajustes de mods eliminados!</value>
+  </data>
+  <data name="no_mod_presets_found_to_restore" xml:space="preserve">
+    <value>¡No se encontraron preajustes de mods para restaurar!</value>
+  </data>
+  <data name="stable_directory_select_header" xml:space="preserve">
+    <value>Selecciona la ubicación de instalación de osu!stable</value>
+  </data>
+</root>

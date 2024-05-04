@@ -128,7 +128,7 @@
     <value>Avaa kaikki</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Keskustelut puuttuu!</value>
+    <value>Ei vielä keskusteluja!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
     <value>Yksikään keskusteluista ei täsmää hakuehtoihisi.</value>
@@ -146,7 +146,7 @@
     <value>Avataanko varmasti?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Tämä viesti menee beatmapin yleiseen keskusteluun. Modataksesi tätä beatmappia, aloita viestisi aikaleimalla (esim. 00:12:345).</value>
+    <value>Tämä viesti menee rytmikarttasetin yleiseen keskusteluun. Modataksesi tätä rytmikarttaa, aloita viestisi aikaleimalla (esim. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>Modataksesi useampia aikaleimoja, lähetä useampi viesti (yksi viesti per aikaleima).</value>
@@ -269,7 +269,7 @@
     <value>Viestit "Kaikki vaikeustasot" -osiossa eivät voi olla aikaleimattuja.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Jos tämä {0} alkaa aikaleimalla, se näytetään aikajanalla.</value>
+    <value>Jos tämä viesti alkaa aikaleimalla, se näytetään aikajanalla.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>lisää kappale</value>
@@ -284,7 +284,7 @@
     <value>lisää ehdotus</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
-    <value>{0}, kartoittanut {1}</value>
+    <value>{0}, kartoittanut: {1}</value>
   </data>
   <data name="discussions.sort.created_at" xml:space="preserve">
     <value>Luomisaika</value>
@@ -344,10 +344,10 @@
     <value>Viimeisimmät äänet</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Hurraa Beatmappia!</value>
+    <value>Hurraa rytmikarttaa!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
-    <value>Hurrasit Jo!</value>
+    <value>Olet jo hurrannut!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
     <value>Oletko varma? Tämä toiminto käyttää yhden jäljelläolevista hurrauspisteistä eikä se ole peruutettavissa. Hurrauksia jäljellä {0}.</value>
@@ -374,7 +374,7 @@
     <value>Hurraukset</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
-    <value>Jätä Palautetta</value>
+    <value>Jätä palautetta</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
     <value>Olet jo pannut ehdolle tämän rytmikartan.</value>
@@ -386,16 +386,16 @@
     <value>Poista</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>Oletko varma? Tämä beatmap poistetaan ja sinut uudelleenohjataan takaisin profiiliisi.</value>
+    <value>Oletko varma? Rytmikartta poistetaan ja sinut uudelleenohjataan takaisin profiiliisi.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>Oletko varma? Tämä beatmap poistetaan ja sinut uudelleenohjataan käyttäjän profiiliin.</value>
+    <value>Oletko varma? Rytmikartta poistetaan ja sinut uudelleenohjataan takaisin käyttäjän profiiliin.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
     <value>Hylkäyksen syy?</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>Epäkelpuutettu {0} ({1}).</value>
+    <value>Hylätty {0} ({1}).</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>ei määriteltyä syytä</value>
@@ -416,16 +416,16 @@
     <value>Rakasta tätä rytmikarttaa?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
-    <value>Suosittele</value>
+    <value>Aseta ehdolle</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Ehdollepane tämä rytmikartta?</value>
+    <value>Aseta tämä rytmikartta ehdolle?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
-    <value>suositellut {0}</value>
+    <value>ehdollepannut: {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>Ei ole riittävästi hurrauksia.</value>
+    <value>Hurrausta ei ole riittävästi.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
     <value>Poista rakastetuista rytmikartoista</value>
@@ -434,22 +434,22 @@
     <value>Rakastetuista rytmikartoista poistamisen syy:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
-    <value>Suositukset: {0}/{1}</value>
+    <value>Ehdollepanot: {0}/{1}</value>
   </data>
   <data name="nominations.reset_message_deleted" xml:space="preserve">
     <value>poistettu</value>
   </data>
   <data name="nominations.title" xml:space="preserve">
-    <value>Suositusten Tila</value>
+    <value>Ehdollepanojen tilanne</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
-    <value>Vanhat ongelmat on ratkaistava ensin.</value>
+    <value>On edelleen ratkaisemattomia ongelmia, jotka pitää käsitellä ensin.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Tämä kartta tulee arvion perusteella rankatuksi {0}, jos ongelmia ei löydy. Se on {1}. {2}.</value>
+    <value>Tämä kartta tulee arviolta rankatuksi {0}, jos ongelmia ei löydy. Se on {1}. {2}.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
-    <value>Tätä karttaa estetään tällä hetkellä poistumasta kelpuutettu-osiosta, kunnes {0} on ratkaistu.</value>
+    <value>Tämä kartta on tällä hetkellä estetty poistumasta kelpuutettujen osiosta, kunnes {0} on ratkaistu.</value>
   </data>
   <data name="nominations.rank_estimate.problems" xml:space="preserve">
     <value>nämä ongelmat</value>
@@ -458,22 +458,22 @@
     <value>{0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>hyväksytysjonossa</value>
+    <value>rankkausjonossa</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>pian</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>Suositteluprosessi nollaantui {0} sitten käyttäjän {1} uuden ongelman vuoksi {2} ({3}).</value>
+    <value>Ehdollepanoprosessi nollattu {0} käyttäjän {1} uuden ongelman {2} vuoksi ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>Hyväksyminen peruuntui {0} sitten käyttäjän {1} uuden ongelman vuoksi {2} ({3}).</value>
+    <value>Hylätty {0} käyttäjän {1} uuden ongelman {2} vuoksi ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Oletko varma? Tämä poistaa rytmikartan kelpuutetuista ja kumoaa ehdollepanoprosessin.</value>
+    <value>Oletko varma? Tämä poistaa rytmikartan kelpuutetuista ja nollaa ehdollepanoprosessin.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>Oletko varma? Uuden ongelman lähettäminen kumoaa suositusprosessin.</value>
+    <value>Oletko varma? Uuden ongelman lähettäminen nollaa ehdollepanoprosessin.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
     <value>Oletko varma, että haluat ilmoittaa ongelmasta tässä rytmikartassa? Tämä aiheuttaa hälytyksen rytmikarttojen ehdollepanijoille.</value>
@@ -527,7 +527,7 @@
     <value>Nimi</value>
   </data>
   <data name="listing.search.sorting.artist" xml:space="preserve">
-    <value>Esittäjä</value>
+    <value>Artisti</value>
   </data>
   <data name="listing.search.sorting.difficulty" xml:space="preserve">
     <value>Vaikeustaso</value>
@@ -551,13 +551,13 @@
     <value>Osuvuus</value>
   </data>
   <data name="listing.search.sorting.nominations" xml:space="preserve">
-    <value>Äänestykset</value>
+    <value>Ehdollepanot</value>
   </data>
   <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
     <value>Rajataksesi tunnisteella {0} sinulla on oltava aktiivinen {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>osu!n tukijan merkki</value>
+    <value>osu!tukijamerkki</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Sisällytä automaattisesti muunnetut rytmikartat</value>
@@ -572,7 +572,7 @@
     <value>Suositeltu vaikeustaso</value>
   </data>
   <data name="general.spotlights" xml:space="preserve">
-    <value>Kohdevaloissa olevat rytmikartat</value>
+    <value>Rytmikartat kohdevaloissa</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Kaikki</value>
@@ -731,10 +731,10 @@
     <value>Hopea-S</value>
   </data>
   <data name="panel.playcount" xml:space="preserve">
-    <value>Pelikerrat {0}</value>
+    <value>Pelikertoja: {0}</value>
   </data>
   <data name="panel.favourites" xml:space="preserve">
-    <value>Suosikit {0}</value>
+    <value>Suosikkeja: {0}</value>
   </data>
   <data name="variant.mania.4k" xml:space="preserve">
     <value>4K</value>

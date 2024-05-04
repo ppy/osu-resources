@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} élément(s)</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>L'importation des données utilisera des "liens physiques". Aucun espace disque supplémentaire ne sera utilisé, et vous pouvez supprimer l'un ou l'autre de vos dossiers à tout moment sans conséquence sur l'autre installation.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>En savoir plus sur le fonctionnement des "liens physiques"</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Les liens physiques ne sont pas encore pris en charge par votre système d'exploitation. La création d'une copie de tous vos fichiers sera alors nécessaire.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Une deuxième copie de tous vos fichiers sera créée durant l'importation. Si vous souhaitez éviter cela, veuillez vous assurer que votre installation de lazer se trouve sur le même périphérique de stockage que votre ancienne installation d'osu! (et que le système de fichiers soit le NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Une deuxième copie de tous vos fichiers sera créée durant l'importation. Si vous souhaitez éviter cela, veuillez vous assurer que votre installation de lazer se trouve sur le même périphérique de stockage que votre ancienne installation d'osu! (et que le système de fichiers prenne en charge les liens physiques).</value>
+  </data>
 </root>

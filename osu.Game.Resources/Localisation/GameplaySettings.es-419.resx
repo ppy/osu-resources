@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gameplay_section_header" xml:space="preserve">
+    <value>Juego</value>
+  </data>
+  <data name="beatmap_header" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="audio" xml:space="preserve">
+    <value>Sonido</value>
+  </data>
+  <data name="h_u_d" xml:space="preserve">
+    <value>HUD</value>
+  </data>
+  <data name="input" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="background" xml:space="preserve">
+    <value>Fondo</value>
+  </data>
+  <data name="dim" xml:space="preserve">
+    <value>Oscuridad del fondo</value>
+  </data>
+  <data name="blur" xml:space="preserve">
+    <value>Desenfoque del fondo</value>
+  </data>
+  <data name="lighten_during_breaks" xml:space="preserve">
+    <value>Iluminar el campo de juego durante los descansos</value>
+  </data>
+  <data name="hud_visibility_mode" xml:space="preserve">
+    <value>Modo de visibilidad de la superposición del HUD</value>
+  </data>
+  <data name="show_health_display_when_cant_fail" xml:space="preserve">
+    <value>Mostrar la barra de salud incluso cuando no se pueda fallar</value>
+  </data>
+  <data name="show_replay_settings_overlay" xml:space="preserve">
+    <value>Mostrar la superposición de los ajustes de la repetición</value>
+  </data>
+  <data name="fade_playfield_when_health_low" xml:space="preserve">
+    <value>Colorear de rojo el campo de juego cuando la salud sea baja</value>
+  </data>
+  <data name="key_overlay" xml:space="preserve">
+    <value>Mostrar siempre la superposición de las teclas</value>
+  </data>
+  <data name="gameplay_leaderboard" xml:space="preserve">
+    <value>Mostrar siempre la tabla de clasificación en la partida</value>
+  </data>
+  <data name="always_play_first_combo_break" xml:space="preserve">
+    <value>Reproducir siempre el sonido de fallo al perder el combo por primera vez</value>
+  </data>
+  <data name="score_display_mode" xml:space="preserve">
+    <value>Modo de visualización de la puntuación</value>
+  </data>
+  <data name="disable_win_key" xml:space="preserve">
+    <value>Desactivar la tecla Windows durante el juego</value>
+  </data>
+  <data name="mods_header" xml:space="preserve">
+    <value>Mods</value>
+  </data>
+  <data name="increase_first_object_visibility" xml:space="preserve">
+    <value>Aumentar la visibilidad del primer objeto cuando se activen los mods de alteración visual</value>
+  </data>
+  <data name="hide_during_gameplay" xml:space="preserve">
+    <value>Ocultar durante el juego</value>
+  </data>
+  <data name="always_show_hud" xml:space="preserve">
+    <value>Mostrar siempre</value>
+  </data>
+  <data name="never_show_hud" xml:space="preserve">
+    <value>No mostrar nunca</value>
+  </data>
+  <data name="standardised_score_display" xml:space="preserve">
+    <value>Estandarizado</value>
+  </data>
+  <data name="classic_score_display" xml:space="preserve">
+    <value>Clásico</value>
+  </data>
+</root>
