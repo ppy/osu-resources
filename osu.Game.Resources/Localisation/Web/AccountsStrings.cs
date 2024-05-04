@@ -25,14 +25,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditAvatarTitle => new TranslatableString(getKey(@"edit.avatar.title"), @"Avatar");
 
         /// <summary>
-        /// "Please ensure your avatar adheres to {0}.&lt;br/&gt;This means it must be &lt;strong&gt;suitable for all ages&lt;/strong&gt;. i.e. no nudity, profanity or suggestive content."
+        /// "Please ensure your avatar adheres to {0}.&lt;br/&gt;This means it must be &lt;strong&gt;suitable for all ages&lt;/strong&gt;. i.e. no nudity, offensive or suggestive content."
         /// </summary>
-        public static LocalisableString EditAvatarRules(LocalisableString link) => new TranslatableString(getKey(@"edit.avatar.rules"), @"Please ensure your avatar adheres to {0}.<br/>This means it must be <strong>suitable for all ages</strong>. i.e. no nudity, profanity or suggestive content.", link);
+        public static LocalisableString EditAvatarRules(LocalisableString link) => new TranslatableString(getKey(@"edit.avatar.rules"), @"Please ensure your avatar adheres to {0}.<br/>This means it must be <strong>suitable for all ages</strong>. i.e. no nudity, offensive or suggestive content.", link);
 
         /// <summary>
-        /// "the community rules"
+        /// "the Visual content considerations"
         /// </summary>
-        public static LocalisableString EditAvatarRulesLink => new TranslatableString(getKey(@"edit.avatar.rules_link"), @"the community rules");
+        public static LocalisableString EditAvatarRulesLink => new TranslatableString(getKey(@"edit.avatar.rules_link"), @"the Visual content considerations");
 
         /// <summary>
         /// "new email"

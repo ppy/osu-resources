@@ -107,7 +107,7 @@
     <value>Жауабыңызды осы жерге теріңіз</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Жазба қалдыру немесе жауап беру үшін жүйеге кіріңіз</value>
+    <value>Жазба қалдыру немесе жауап беру үшін аккаунтыңызға кіріңіз</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Шешілді</value>
@@ -143,7 +143,7 @@
     <value>Жабу себебі</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>Пікірталасты ашуға сенімдіміз бе?</value>
+    <value>Пікірталасты ашуға сенімдісіз бе?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
     <value>Бұл жазба негізгі карта пікірталасына жөнелтіледі. Осы картаны модтау үшін хабарламаңызды уақыт белгісімен бастаңыз (мысалға 00:12:345).</value>
@@ -190,6 +190,24 @@
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Ұсыныс</value>
   </data>
+  <data name="discussions.message_type_title.hype" xml:space="preserve">
+    <value>Хайп жіберу!</value>
+  </data>
+  <data name="discussions.message_type_title.praise" xml:space="preserve">
+    <value>Мақтау жіберу</value>
+  </data>
+  <data name="discussions.message_type_title.problem" xml:space="preserve">
+    <value>Мәселе жіберу</value>
+  </data>
+  <data name="discussions.message_type_title.problem_warning" xml:space="preserve">
+    <value>Мәселе жіберу</value>
+  </data>
+  <data name="discussions.message_type_title.review" xml:space="preserve">
+    <value>Қарау жіберу</value>
+  </data>
+  <data name="discussions.message_type_title.suggestion" xml:space="preserve">
+    <value>Ұсыныс жіберу</value>
+  </data>
   <data name="discussions.mode.events" xml:space="preserve">
     <value>Тарих</value>
   </data>
@@ -221,7 +239,7 @@
     <value>Жаңа Пікірталас</value>
   </data>
   <data name="discussions.new.unpin" xml:space="preserve">
-    <value>Алып тастау</value>
+    <value>Шешу</value>
   </data>
   <data name="discussions.review.new" xml:space="preserve">
     <value>Жаңа Сын пікірлер</value>
@@ -420,6 +438,9 @@
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Мәселе табылмаса, бұл картаның рейтингі {0} күні беріледі. Бұл {1} ішінде #{2} тұр.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>осы мәселелер</value>
   </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>{0} күні</value>

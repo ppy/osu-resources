@@ -83,7 +83,7 @@
     <value>Rytmikarttojen listaus</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
-    <value>Beatmapit</value>
+    <value>Rytmikartat</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
     <value>ei rytmikarttoja</value>
@@ -104,7 +104,7 @@
     <value>Usean pelimuodon rytmikartta edellyttää, että valitset ainakin yhden pelimuodon, jonka panet ehdolle.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>Sinulla ei ole käyttöoikeutta panna ehdolle pelimuotoa: {0}</value>
+    <value>Sinulla ei ole lupaa panna ehdolle pelimuotoa: {0}</value>
   </data>
   <data name="nominate.full_bn_required" xml:space="preserve">
     <value>Sinun on oltava täysivaltainen ehdollepanija, jotta voit tehdä tämän kelpuuttavan ehdollepanon.</value>
@@ -119,10 +119,10 @@
     <value>Ehdollepane rytmikartta</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>huomaa: voit tehdä ehdollepanon vain kerran, joten varmista, että olet valinnut kaikki pelimuodot, jotka aiot panna ehdolle</value>
+    <value>huomaa: voit tehdä ehdollepanon vain kerran, joten varmista, että panet ehdolle kaikki tarkoittamasi pelimuodot</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
-    <value>Mitkä pelimuodot ehdollepannaan?</value>
+    <value>Mitkä pelimuodot asetetaan ehdolle?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Sopimaton</value>
@@ -140,7 +140,7 @@
     <value>(tämä näkyy vain moderaattoreille)</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
-    <value>esittäjältä {0}</value>
+    <value>{0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>lisää tämä rytmikartta suosikkeihin</value>
@@ -149,13 +149,13 @@
     <value>kirjaudu sisään, niin voit lisätä tämän beatmapin suosikkeihin</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>Sinun täytyy kirjautua sisään ladataksesi beatmappeja!</value>
+    <value>sinun täytyy kirjautua sisään ennen rytmikarttojen lataamista!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
-    <value>kartoittanut {0}</value>
+    <value>kartoittanut: {0}</value>
   </data>
   <data name="show.details.mapped_by_guest" xml:space="preserve">
-    <value>vieraileva vaikeustaso, kartoittanut {0}</value>
+    <value>vieraileva vaikeustaso, kartoittanut: {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>poista tämä rytmikartta suosikeista</value>
@@ -215,7 +215,7 @@
     <value>työn alla</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Jos löydät ongelman, joka liittyy tähän rytmikarttaan, ole hyvä ja epäkelpuuta se {0}.</value>
+    <value>Jos löydät ongelman tässä rytmikartassa, ole hyvä ja hylkää se {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Jos löydät jonkun ongelman tässä rytmikartassa, ilmoita siitä {0} hälyttääksesi tiimin paikalle.</value>
@@ -311,7 +311,7 @@
     <value>Suurin iskuputki</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
-    <value>Ohi</value>
+    <value>Huti</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Muunnelmat</value>
@@ -368,7 +368,7 @@
     <value>Näppäinten määrä</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>Terveyden valutus</value>
+    <value>Terveyden pieneneminen</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Tarkkuus</value>
@@ -401,7 +401,7 @@
     <value>Arvioiden jakauma</value>
   </data>
   <data name="show.stats.nominations" xml:space="preserve">
-    <value>Suositukset</value>
+    <value>Ehdollepanot</value>
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Pelikertojen määrä</value>

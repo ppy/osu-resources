@@ -181,6 +181,9 @@
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>Jäsenet pelimuodon mukaan</value>
   </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Käyttäjätiliäsi ei ole käytetty pitkään aikaan.</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Käyttäjätiliäsi ei ole käytetty pitkään aikaan.</value>
   </data>
@@ -314,7 +317,7 @@
     <value>Tilisi on rajoitettu!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Kun olet rajoitetussa tilassa, et näe muita pelaajia ja tuloksesi ovat näkyvissä vain sinulle. Tämä on yleensä automatisoitu prosessi ja poistuu useimmiten 24 tunnin sisällä. Jos haluat tehdä valituksen &lt;a href="mailto{0}@ppy.sh"&gt;ota yhteyttä tukeen&lt;/a&gt;.</value>
+    <value>Rajoitettuna et voi olla vuorovaikutuksessa muiden pelaajien kanssa ja tuloksesi näkyvät vain itsellesi. Tämä johtuu yleensä automaattisesta prosessista ja poistuu useimmiten 24 tunnin aikana. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Katso tämä sivu saadaksesi lisätietoja.</value>
@@ -335,7 +338,7 @@
     <value>osu!n tukija</value>
   </data>
   <data name="show.joined_at" xml:space="preserve">
-    <value>Liittyi {0}</value>
+    <value>Liittyi: {0}</value>
   </data>
   <data name="show.lastvisit" xml:space="preserve">
     <value>Nähty viimeksi {0}</value>
@@ -353,7 +356,7 @@
     <value>tunnettiin aiemmin nimellä</value>
   </data>
   <data name="show.plays_with" xml:space="preserve">
-    <value>Pelityylinä {0}</value>
+    <value>Pelityyli: {0}</value>
   </data>
   <data name="show.comments_count._" xml:space="preserve">
     <value>Julkaissut {0}</value>
@@ -422,7 +425,7 @@
     <value>Saavutukset</value>
   </data>
   <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
-    <value>esittäjältä {0}</value>
+    <value>artisti: {0}</value>
   </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
     <value>Rytmikartat</value>
@@ -581,7 +584,7 @@
     <value>Lataa uusinta</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Vain hyväksytyt beatmapit antavat pp{0}ä.</value>
+    <value>Vain rankatut rytmikartat myöntävät pp{0}ä</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>painotettu {0}</value>
@@ -593,7 +596,7 @@
     <value>Suoritukset</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
-    <value>Parhaat Suoritukset</value>
+    <value>Paras suorituskyky</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Kärkisijat</value>
