@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Si tienes instalada una versión anterior de osu!, puedes optar por migrar el contenido existente. Ten en cuenta que esto no afectará a los archivos de tu instalación existente de ninguna manera.</value>
+  </data>
+  <data name="locate_directory_label" xml:space="preserve">
+    <value>instalación anterior de osu!</value>
+  </data>
+  <data name="locate_directory_placeholder" xml:space="preserve">
+    <value>Haz clic para localizar una instalación anterior de osu!</value>
+  </data>
+  <data name="import_button" xml:space="preserve">
+    <value>Importar contenido de la versión anterior</value>
+  </data>
+  <data name="import_in_progress" xml:space="preserve">
+    <value>La importación continuará en segundo plano. ¡Comprueba su progreso en la barra lateral de notificaciones!</value>
+  </data>
+  <data name="calculating" xml:space="preserve">
+    <value>calculando...</value>
+  </data>
+  <data name="items" xml:space="preserve">
+    <value>{0} elemento(s)</value>
+  </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>La migración de datos utilizará «enlaces duros». No se utilizará espacio adicional en el disco y podrás eliminar cualquiera de las carpetas de datos en cualquier momento sin afectar a la otra instalación.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Obtén más información sobre cómo funcionan los «enlaces duros»</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>La vinculación ligera de archivos aún no es compatible con tu sistema operativo, por lo que se realizará una copia de todos los archivos durante la importación.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>Durante la importación se realizará una segunda copia de todos los archivos. Para evitar esto, asegúrate de que la carpeta de datos de lazer esté en la misma unidad que tu instalación anterior de osu! (y que el sistema de archivos sea NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>Durante la importación se realizará una segunda copia de todos los archivos. Para evitar esto, asegúrate de que la carpeta de datos de lazer esté en la misma unidad que tu instalación anterior de osu! (y que el sistema de archivos sea compatible con los enlaces duros).</value>
+  </data>
+</root>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="user_interface_section_header" xml:space="preserve">
+    <value>Interfaz de usuario</value>
+  </data>
+  <data name="cursor_rotation" xml:space="preserve">
+    <value>Rotar el cursor al arrastrar</value>
+  </data>
+  <data name="menu_cursor_size" xml:space="preserve">
+    <value>Tamaño del cursor del menú</value>
+  </data>
+  <data name="show_menu_tips" xml:space="preserve">
+    <value>Consejos del menú</value>
+  </data>
+  <data name="parallax" xml:space="preserve">
+    <value>Paralaje</value>
+  </data>
+  <data name="hold_to_confirm_activation_time" xml:space="preserve">
+    <value>Tiempo de pulsación para confirmar</value>
+  </data>
+  <data name="main_menu_header" xml:space="preserve">
+    <value>Menú principal</value>
+  </data>
+  <data name="interface_voices" xml:space="preserve">
+    <value>Voces de la interfaz</value>
+  </data>
+  <data name="osu_music_theme" xml:space="preserve">
+    <value>Tema musical de osu!</value>
+  </data>
+  <data name="intro_sequence" xml:space="preserve">
+    <value>Animación de apertura</value>
+  </data>
+  <data name="background_source" xml:space="preserve">
+    <value>Fuente del fondo</value>
+  </data>
+  <data name="seasonal_backgrounds" xml:space="preserve">
+    <value>Fondos estacionales</value>
+  </data>
+  <data name="not_supporter_note" xml:space="preserve">
+    <value>Los cambios en esta configuración solo se aplicarán con una etiqueta de osu!supporter activa.</value>
+  </data>
+  <data name="song_select_header" xml:space="preserve">
+    <value>Selector de canciones</value>
+  </data>
+  <data name="right_mouse_scroll" xml:space="preserve">
+    <value>Desplazamiento absoluto al arrastrar el botón derecho del ratón</value>
+  </data>
+  <data name="show_converted_beatmaps" xml:space="preserve">
+    <value>Mostrar mapas convertidos</value>
+  </data>
+  <data name="stars_minimum" xml:space="preserve">
+    <value>Mostrar mapas desde</value>
+  </data>
+  <data name="stars_maximum" xml:space="preserve">
+    <value>hasta</value>
+  </data>
+  <data name="random_selection_algorithm" xml:space="preserve">
+    <value>Algoritmo de la selección aleatoria</value>
+  </data>
+  <data name="mod_select_hotkey_style" xml:space="preserve">
+    <value>Estilo de las teclas de acceso rápido en el selector de mods</value>
+  </data>
+  <data name="mod_select_text_search_starts_active" xml:space="preserve">
+    <value>Enfocar automáticamente el cuadro de búsqueda en el selector de mods</value>
+  </data>
+  <data name="no_limit" xml:space="preserve">
+    <value>sin límite</value>
+  </data>
+  <data name="beatmap_with_storyboard" xml:space="preserve">
+    <value>Mapa (con storyboard/video)</value>
+  </data>
+  <data name="always_seasonal_backgrounds" xml:space="preserve">
+    <value>Siempre</value>
+  </data>
+  <data name="never_seasonal_backgrounds" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="sometimes_seasonal_backgrounds" xml:space="preserve">
+    <value>A veces</value>
+  </data>
+  <data name="mods_sequential_hotkeys" xml:space="preserve">
+    <value>Secuencial</value>
+  </data>
+  <data name="mods_classic_hotkeys" xml:space="preserve">
+    <value>Clásico</value>
+  </data>
+  <data name="never_repeat_random" xml:space="preserve">
+    <value>No repetir nunca</value>
+  </data>
+  <data name="true_random" xml:space="preserve">
+    <value>Aleatorio verdadero</value>
+  </data>
+</root>
