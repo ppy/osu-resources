@@ -100,17 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>open in osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Probationary nominators cannot nominate multiple rulesets.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>You must be a full nominator to perform the final nomination of a ruleset.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>A hybrid beatmap requires you to select at least one playmode to nominate for.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>You do not have permission to nominate for mode: {0}</value>
   </data>
-  <data name="nominate.full_bn_required" xml:space="preserve">
-    <value>You must be a full nominator to perform this qualifying nomination.</value>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>This beatmap has invalid nominations and cannot be qualified in this state.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>This nomination has invalid rulesets.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nomination requirement already fulfilled.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nomination requirement for non-main ruleset already fulfilled.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Are you sure you want to nominate this beatmap?</value>
@@ -120,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>note: you may only nominate once, so please ensure that you are nominating for all game modes you intend to</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>The main ruleset is currently: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominate for which modes?</value>

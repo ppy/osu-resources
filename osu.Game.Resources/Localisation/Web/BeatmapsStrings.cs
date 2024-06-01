@@ -900,6 +900,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModeMania => new TranslatableString(getKey(@"mode.mania"), @"osu!mania");
 
         /// <summary>
+        /// "not set"
+        /// </summary>
+        public static LocalisableString ModeUndefined => new TranslatableString(getKey(@"mode.undefined"), @"not set");
+
+        /// <summary>
         /// "Any"
         /// </summary>
         public static LocalisableString StatusAny => new TranslatableString(getKey(@"status.any"), @"Any");

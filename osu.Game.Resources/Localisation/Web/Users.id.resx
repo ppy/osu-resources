@@ -167,10 +167,10 @@
     <value>Akunmu terindikasi telah disusupi. Akun ini akan dinonaktifkan untuk sementara waktu hingga identitas pengguna akun terkonfirmasi.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
-    <value>Terdapat sejumlah alasan yang dapat menyebabkan akunmu dinonaktifkan:</value>
+    <value>Terdapat beberapa alasan yang dapat menyebabkan akunmu dinonaktifkan:</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
-    <value>Kamu telah melakukan pelanggaran terhadap satu atau lebih poin yang tertera pada {0} atau {1} kami.</value>
+    <value>Kamu telah melanggar satu atau lebih poin yang tertera pada {0} atau {1} kami.</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>peraturan komunitas</value>
@@ -182,7 +182,7 @@
     <value>Pengguna berdasarkan mode permainan</value>
   </data>
   <data name="force_reactivation.reason.inactive" xml:space="preserve">
-    <value>Akunmu telah tidak digunakan dalam jangka waktu yang lama.</value>
+    <value>Akunmu telah lama tidak digunakan.</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Akunmu telah lama tidak digunakan.</value>
@@ -209,7 +209,7 @@
     <value>Silakan masuk untuk melanjutkan</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Terlalu banyak upaya login yang gagal. Silakan selesaikan captcha yang muncul dan coba lagi. (Muat ulang halaman ini apabila captcha tidak terlihat)</value>
+    <value>Upaya masuk yang gagal terlalu banyak. Silakan selesaikan captcha dan coba lagi. (Muat ulang halaman ini apabila captcha tidak terlihat)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Alamat IP-mu dikunci. Silakan tunggu beberapa menit.</value>
@@ -230,7 +230,7 @@
     <value>Nama Pengguna</value>
   </data>
   <data name="login.beta.main" xml:space="preserve">
-    <value>Akses beta saat ini hanya tersedia bagi para pengguna dengan hak khusus.</value>
+    <value>Akses beta saat ini terbatas bagi para pengguna dengan hak khusus.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(para pemilik osu!supporter akan segera masuk)</value>
@@ -272,7 +272,7 @@
     <value>Laporkan</value>
   </data>
   <data name="report.comments" xml:space="preserve">
-    <value>Komentar Tambahan</value>
+    <value>Komentar</value>
   </data>
   <data name="report.placeholder" xml:space="preserve">
     <value>Mohon berikan informasi apa pun yang kamu yakini dapat bermanfaat.</value>
@@ -317,7 +317,7 @@
     <value>Akunmu telah di-restrict!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Selama di-restrict, kamu tidak akan dapat berinteraksi dengan para pengguna lain dan skormu hanya akan dapat dilihat oleh dirimu sendiri. Hal ini biasanya terproses secara otomatis dan akan diangkat dalam 24 jam. {0}</value>
+    <value>Selama di-restrict, kamu tidak akan dapat berinteraksi dengan para pengguna lain dan skormu hanya akan dapat dilihat oleh dirimu sendiri. Hal ini biasanya merupakan hasil dari proses otomatis yang berlangsung dan akan diangkat dalam 24 jam. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Kunjungi halaman ini untuk informasi lebih lanjut.</value>
@@ -386,7 +386,7 @@
     <value>Letakkan di sini untuk mengunggah</value>
   </data>
   <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
-    <value>Kamu juga dapat meletakkan gambarmu di sini untuk mengunggahnya</value>
+    <value>Kamu juga dapat meletakkan gambarmu di sini untuk mengunggah</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
     <value>Ukuran gambar sampul yang disarankan adalah 2400x640</value>
@@ -509,7 +509,7 @@
     <value>{0} kudosu</value>
   </data>
   <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
-    <value>Pengguna ini belum pernah menerima kudosu! sebelumnya.</value>
+    <value>Pengguna ini belum pernah menerima kudosu!</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
     <value>Memperoleh {0} atas dibatalkannya penganuliran kudosu pada topik diskusi {1}</value>
@@ -584,7 +584,7 @@
     <value>Unduh Tayangan Ulang</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Hanya beatmap berstatus Ranked yang dapat memberikan pp.</value>
+    <value>Hanya beatmap Ranked yang memberikan pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>terbobotkan sejumlah {0}</value>
@@ -605,13 +605,13 @@
     <value>Lepas Sematan</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
-    <value>Sematan skor berhasil dilepas</value>
+    <value>Sematan skor dilepas</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
     <value>Sematkan</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
-    <value>Skor berhasil disematkan</value>
+    <value>Skor disematkan</value>
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
     <value>Skor yang Disematkan</value>
@@ -746,7 +746,7 @@
     <value>Level {0}</value>
   </data>
   <data name="show.stats.level_progress" xml:space="preserve">
-    <value>Persentase pencapaian menuju level berikutnya</value>
+    <value>persentase pencapaian menuju level berikutnya</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
     <value>Kombo Maksimum</value>
@@ -791,7 +791,7 @@
     <value>Kamu sedang di-silence.</value>
   </data>
   <data name="silenced_banner.message" xml:space="preserve">
-    <value>Kamu sedang tidak dapat melakukan tindakan tertentu.</value>
+    <value>Tindakan tertentu mungkin tidak akan tersedia.</value>
   </data>
   <data name="status.all" xml:space="preserve">
     <value>Semua</value>

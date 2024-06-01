@@ -58,4 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>Se ha enviado un correo a {0} con un código de verificación. Introduce el código.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Verificación de la cuenta</value>
+  </data>
+  <data name="box.verifying" xml:space="preserve">
+    <value>Verificando...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>Emitiendo un nuevo código...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Asegúrate de revisar tu carpeta de spam si no encuentras el correo electrónico.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Si no puedes acceder a tu correo electrónico o has olvidado el que utilizaste, sigue el {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>proceso de recuperación de correo electrónico aquí</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>También puedes {0} o {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>solicitar otro código</value>
+  </data>
+  <data name="box.info.logout_link" xml:space="preserve">
+    <value>cerrar la sesión</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>El código de verificación ha expirado, se ha enviado un nuevo correo electrónico de verificación.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Código de verificación incorrecto.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Código de verificación incorrecto. Se ha excedido el límite de intentos, se ha enviado un nuevo correo de verificación.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>El código de verificación se ha vuelto a emitir, se ha enviado un nuevo correo electrónico de verificación.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Se ha producido un problema desconocido, se ha enviado un nuevo correo electrónico de verificación.</value>
+  </data>
 </root>

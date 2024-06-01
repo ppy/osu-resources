@@ -45,6 +45,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString KudosuUsed => new TranslatableString(getKey(@"kudosu.used"), @"Spent");
 
         /// <summary>
+        /// "This user has less than 30 days of recent ranking history."
+        /// </summary>
+        public static LocalisableString PerformanceInsufficientHistory => new TranslatableString(getKey(@"performance.insufficient_history"), @"This user has less than 30 days of recent ranking history.");
+
+        /// <summary>
         /// "spotlights (old)"
         /// </summary>
         public static LocalisableString TypeCharts => new TranslatableString(getKey(@"type.charts"), @"spotlights (old)");
