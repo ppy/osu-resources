@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>ヒットタイミングの厳しさ、特殊なオブジェクト（スピナーなど）の難易度</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>ティックレート</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>ロングヒットオブジェクト内に生成される「ティック」の数を決定します。 ティックレートが1の場合、ビートごとにティックが発生し、2の場合はビートごとに2倍になります。</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>基本速度</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>ビートマップの基本速度。いくつかのルールセットでスライダーの速度やスクロールの速度などに影響します。</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>メタデータ</value>
   </data>
@@ -135,6 +147,9 @@
   </data>
   <data name="creator" xml:space="preserve">
     <value>作者</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>ソース</value>
   </data>
   <data name="difficulty_name" xml:space="preserve">
     <value>難易度名</value>
@@ -148,14 +163,8 @@
   <data name="click_to_select_track" xml:space="preserve">
     <value>クリックをして曲を選択</value>
   </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>クリックをして曲を入れ替える</value>
-  </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>クリックをして背景を選択</value>
-  </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>クリックをして背景を入れ替える</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>ルールセット ({0})</value>
