@@ -80,6 +80,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PanelDownloadDirect => new TranslatableString(getKey(@"panel.download.direct"), @"open in osu!direct");
 
         /// <summary>
+        /// "Probationary nominators cannot nominate multiple rulesets."
+        /// </summary>
+        public static LocalisableString NominateBngLimitedTooManyRulesets => new TranslatableString(getKey(@"nominate.bng_limited_too_many_rulesets"), @"Probationary nominators cannot nominate multiple rulesets.");
+
+        /// <summary>
+        /// "You must be a full nominator to perform the final nomination of a ruleset."
+        /// </summary>
+        public static LocalisableString NominateFullNominationRequired => new TranslatableString(getKey(@"nominate.full_nomination_required"), @"You must be a full nominator to perform the final nomination of a ruleset.");
+
+        /// <summary>
         /// "A hybrid beatmap requires you to select at least one playmode to nominate for."
         /// </summary>
         public static LocalisableString NominateHybridRequiresModes => new TranslatableString(getKey(@"nominate.hybrid_requires_modes"), @"A hybrid beatmap requires you to select at least one playmode to nominate for.");
@@ -90,14 +100,24 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NominateIncorrectMode(LocalisableString mode) => new TranslatableString(getKey(@"nominate.incorrect_mode"), @"You do not have permission to nominate for mode: {0}", mode);
 
         /// <summary>
-        /// "You must be a full nominator to perform this qualifying nomination."
+        /// "This beatmap has invalid nominations and cannot be qualified in this state."
         /// </summary>
-        public static LocalisableString NominateFullBnRequired => new TranslatableString(getKey(@"nominate.full_bn_required"), @"You must be a full nominator to perform this qualifying nomination.");
+        public static LocalisableString NominateInvalidLimitedNomination => new TranslatableString(getKey(@"nominate.invalid_limited_nomination"), @"This beatmap has invalid nominations and cannot be qualified in this state.");
+
+        /// <summary>
+        /// "This nomination has invalid rulesets."
+        /// </summary>
+        public static LocalisableString NominateInvalidRuleset => new TranslatableString(getKey(@"nominate.invalid_ruleset"), @"This nomination has invalid rulesets.");
 
         /// <summary>
         /// "Nomination requirement already fulfilled."
         /// </summary>
         public static LocalisableString NominateTooMany => new TranslatableString(getKey(@"nominate.too_many"), @"Nomination requirement already fulfilled.");
+
+        /// <summary>
+        /// "Nomination requirement for non-main ruleset already fulfilled."
+        /// </summary>
+        public static LocalisableString NominateTooManyNonMainRuleset => new TranslatableString(getKey(@"nominate.too_many_non_main_ruleset"), @"Nomination requirement for non-main ruleset already fulfilled.");
 
         /// <summary>
         /// "Are you sure you want to nominate this beatmap?"
@@ -113,6 +133,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "note: you may only nominate once, so please ensure that you are nominating for all game modes you intend to"
         /// </summary>
         public static LocalisableString NominateDialogHybridWarning => new TranslatableString(getKey(@"nominate.dialog.hybrid_warning"), @"note: you may only nominate once, so please ensure that you are nominating for all game modes you intend to");
+
+        /// <summary>
+        /// "The main ruleset is currently: {0}"
+        /// </summary>
+        public static LocalisableString NominateDialogCurrentMainRuleset(LocalisableString ruleset) => new TranslatableString(getKey(@"nominate.dialog.current_main_ruleset"), @"The main ruleset is currently: {0}", ruleset);
 
         /// <summary>
         /// "Nominate for which modes?"

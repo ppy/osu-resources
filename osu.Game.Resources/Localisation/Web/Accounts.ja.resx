@@ -82,6 +82,12 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>メールアドレス</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>メールアドレスの更新が必要な場合は、 {0} までご連絡ください。</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>アカウントサポートチーム</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -109,6 +115,12 @@
   <data name="edit.profile.title" xml:space="preserve">
     <value>プロフィール</value>
   </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>アカウントの国が居住国と一致しません。 {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>{0} に更新</value>
+  </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>現在地</value>
   </data>
@@ -126,6 +138,24 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>更新</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>osu! のオープンソースリポジトリへのコントリビューターであれば、ここでGitHubアカウントをリンクすると、更新ログエントリがosu! プロフィールに関連付けられます。 osu! への貢献履歴がないGitHubアカウントはリンクできません。</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>GitHubアカウントをリンク</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>GitHubアカウントのリンクを解除</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>この GitHub アカウントはすでに別のユーザにリンクされています。</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>osu!リポジトリにコントリビューション履歴がなければGitHubアカウントをリンクできません。</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>GitHubでEメールを確認してから、もう一度アカウントをリンクしてみてください。</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>次のモードのQualifiedビートマップで新しい問題の通知を受け取る</value>
