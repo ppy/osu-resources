@@ -106,8 +106,17 @@
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Non hai il permesso di nominare per la modalità: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Questa beatmap contiene nomine non valide e non può essere qualificata in questo stato.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Questa nomina contiene modalità non valide.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Requisito di nomina già soddisfatto.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Requisiti di nomina già soddisfatti per le modalità non principali.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Sei sicuro di voler nominare questa beatmap?</value>
@@ -117,6 +126,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>nota: puoi nominare una sola volta, quindi assicurati di nominare per tutte le modalità di gioco che vuoi</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>La modalità principale al momento è: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominare per quali modalità?</value>

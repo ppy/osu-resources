@@ -540,6 +540,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowEditCoverDefaultsInfo => new TranslatableString(getKey(@"show.edit.cover.defaults_info"), @"More cover options will be available in the future");
 
         /// <summary>
+        /// "The previously selected cover is not available for selection anymore. You can&#39;t select it back after switching to a different cover. Proceed?"
+        /// </summary>
+        public static LocalisableString ShowEditCoverHoldoverRemoveConfirm => new TranslatableString(getKey(@"show.edit.cover.holdover_remove_confirm"), @"The previously selected cover is not available for selection anymore. You can't select it back after switching to a different cover. Proceed?");
+
+        /// <summary>
         /// "Failed processing image. Verify uploaded image and try again."
         /// </summary>
         public static LocalisableString ShowEditCoverUploadBrokenFile => new TranslatableString(getKey(@"show.edit.cover.upload.broken_file"), @"Failed processing image. Verify uploaded image and try again.");

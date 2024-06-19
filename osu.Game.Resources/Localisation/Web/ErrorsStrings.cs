@@ -89,6 +89,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString SearchOperationTimeoutException => new TranslatableString(getKey(@"search.operation_timeout_exception"), @"Search is currently busier than usual, try again later.");
 
+        /// <summary>
+        /// "You&#39;ve already reported this recently."
+        /// </summary>
+        public static LocalisableString UserReportRecentlyReported => new TranslatableString(getKey(@"user_report.recently_reported"), @"You've already reported this recently.");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

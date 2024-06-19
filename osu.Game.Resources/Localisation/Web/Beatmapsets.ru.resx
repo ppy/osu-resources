@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>открыть в osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Номинаторы, находящиеся на испытательном сроке, не могут номинировать несколько режимов игры за раз.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Вы должны быть полноправным номинатором, чтобы внести решающий голос по этому режиму игры.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Для гибридных карт требуется, чтобы Вы выбрали по крайней мере один режим игры для номинации.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>У вас недостаточно прав для номинации по режиму {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Эта карта имеет недопустимые номинации и не может быть квалифицирована.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Недопустимые режимы игры для этой номинации.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Требования к номинации уже выполнены.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Требование номинации основного режима игры уже было выполнено.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Вы уверены, что хотите номинировать эту карту?</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>примечание: Вы можете номинировать лишь один раз, так что убедитесь, что Вы номинируете все необходимые режимы игры</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Текущий основной режим игры: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Номинировать для каких режимов?</value>

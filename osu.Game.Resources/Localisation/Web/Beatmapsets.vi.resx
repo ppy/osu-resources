@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>mở trong osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Những người đề cử tập sự không thể đề cử nhiều ruleset cùng lúc.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Bạn phải là người đề cử chính để thực hiện đề cử cuối cùng của một ruleset.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Bạn cần chọn ít nhất một chế độ chơi trong beatmap có nhiều chế độ để đề cử.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Bạn không có sự cho phép để đề cử cho chế độ: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Beatmap này có những đề cử không hợp lệ và không thể đủ tư cách trong trạng thái này.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Đề cử này có các ruleset không hợp lệ.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Yêu cầu đề cử đã được đáp ứng.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Yêu cầu đề cử cho ruleset không chính đã được đáp ứng.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Bạn có chắc chắn muốn đề cử beatmap này không?</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>lưu ý: bạn chỉ có thể đề cử một lần, vì vậy hãy đảm bảo rằng bạn đang đề cử cho tất cả các chế độ chơi mà bạn dự định</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Ruleset chính hiện tại là: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Đề cử cho những chế độ nào?</value>
