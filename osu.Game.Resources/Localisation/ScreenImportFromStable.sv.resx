@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} objekt</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>Datamigreringen kommer att använda "hårda länkar". Inget extra diskutrymme kommer att användas, och du kan ta bort endera av mapparna när som helst utan att påverka den andra installationen.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>Läs mer om hur "hårda länkar" fungerar</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>Lättviktslänkning av filer stöds inte av ditt operativsystem ännu, så en kopia av alla filer kommer att göras under importen.</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>En ytterligare kopia av alla filer kommer att göras under importeringen. För att undvika detta, var god och se till att lazer datamappen är på samma enhet som din föregående osu! installation (och att filsystemet är NTFS).</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>En ytterligare kopia av alla filer kommer att göras under importeringen. För att undvika detta, var god och se till att lazer datamappen är på samma enhet som din föregående osu! installation (och att filsystemet stöder hårda länkar).</value>
+  </data>
 </root>
