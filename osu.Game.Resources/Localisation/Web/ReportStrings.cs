@@ -50,6 +50,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumPostTitle(LocalisableString username) => new TranslatableString(getKey(@"forum_post.title"), @"Report {0}'s post?", username);
 
         /// <summary>
+        /// "Report Message"
+        /// </summary>
+        public static LocalisableString MessageButton => new TranslatableString(getKey(@"message.button"), @"Report Message");
+
+        /// <summary>
+        /// "Report {0}&#39;s message?"
+        /// </summary>
+        public static LocalisableString MessageTitle(LocalisableString username) => new TranslatableString(getKey(@"message.title"), @"Report {0}'s message?", username);
+
+        /// <summary>
         /// "Report Score"
         /// </summary>
         public static LocalisableString ScoresButton => new TranslatableString(getKey(@"scores.button"), @"Report Score");

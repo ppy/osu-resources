@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>otevřít v osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Zkušební nominátoři nemohou nominovat více rulesetů.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Musíš být plnohodnotný nominátor, abys mohl provést finální nominaci rulesetu.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Hybridní beatmapa vyžaduje, abyste vybrali alespoň jeden herní režim, za který ji chcete nominovat.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Nemáte oprávnění k nominaci za mód: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Tato beatmapa má neplatné nominace a nemůže být v kvalifikovaném stavu.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Tato nominace má neplatné rulesety.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Požadavek na nominaci je již splněn.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Požadavek pro nominace u jiných než hlavních rulesetů je již splněn.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Jste si jisti, že chcete nominovat tuto beatmapu?</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>poznámka: můžete nominovat pouze jednou, takže se ujistěte, že nominujete za všechny herní režimy, které chcete</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Hlavní ruleset je aktuálně: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominovat pro jaké módy?</value>
