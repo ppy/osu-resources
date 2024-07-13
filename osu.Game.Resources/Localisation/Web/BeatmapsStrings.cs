@@ -85,6 +85,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsReplyNotice => new TranslatableString(getKey(@"discussions.reply_notice"), @"Press enter to reply.");
 
         /// <summary>
+        /// "Press enter to reply. Press ctrl+enter to reply and resolve."
+        /// </summary>
+        public static LocalisableString DiscussionsReplyResolveNotice => new TranslatableString(getKey(@"discussions.reply_resolve_notice"), @"Press enter to reply. Press ctrl+enter to reply and resolve.");
+
+        /// <summary>
         /// "Type your response here"
         /// </summary>
         public static LocalisableString DiscussionsReplyPlaceholder => new TranslatableString(getKey(@"discussions.reply_placeholder"), @"Type your response here");
@@ -113,6 +118,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Discussions"
         /// </summary>
         public static LocalisableString DiscussionsTitle => new TranslatableString(getKey(@"discussions.title"), @"Discussions");
+
+        /// <summary>
+        /// "{0} unresolved issues"
+        /// </summary>
+        public static LocalisableString DiscussionsUnresolvedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issues", countDelimited);
 
         /// <summary>
         /// "Collapse all"

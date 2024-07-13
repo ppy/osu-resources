@@ -490,6 +490,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PopupUserLinksProfile => new TranslatableString(getKey(@"popup_user.links.profile"), @"My Profile");
 
         /// <summary>
+        /// "Classic scoring"
+        /// </summary>
+        public static LocalisableString PopupUserLinksScoringModeToggle => new TranslatableString(getKey(@"popup_user.links.scoring_mode_toggle"), @"Classic scoring");
+
+        /// <summary>
+        /// "Adjust score values to feel more like classic uncapped scoring"
+        /// </summary>
+        public static LocalisableString PopupUserLinksScoringModeToggleTooltip => new TranslatableString(getKey(@"popup_user.links.scoring_mode_toggle_tooltip"), @"Adjust score values to feel more like classic uncapped scoring");
+
+        /// <summary>
         /// "Type to search!"
         /// </summary>
         public static LocalisableString PopupSearchInitial => new TranslatableString(getKey(@"popup_search.initial"), @"Type to search!");

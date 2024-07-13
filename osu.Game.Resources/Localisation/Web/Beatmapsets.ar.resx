@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>فتح في osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>لا يمكن للمرشِّح تحت فترة التجربة ترشيح عدة قواعد.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>عليك أن تكون مرشِّحاً مكتملاً من أجل الترشيح النهائي لقاعدة.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>تحتاج الخرائط الهجينة إلى تحديد وضع تشغيل واحد على الأقل لِتَرشيحِها.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>ليس لديك الصلاحيّات الكافية للترشيح للوضوع: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>لخريطة الإيقاع هذه ترشيحات لاغية تمنع تأهيلها حالياً.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>يشمل هذا الترشيح أنماط لاغية.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>تم بالفعل استيفاء شرط الترشيح.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>تم استيفاء متطلّب ترشيح النمط غير الأساسي بالفعل.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>هل أنت متأكد من أنك تريد ترشيح هذه الخريطة؟</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>ملاحظة: يمكنك أن ترشح مرة واحدة فقط، لذا يرجى التأكد من أنك ترشح لجميع أنماط اللعبة التي تنويها</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>النمط الرئيسي حالياً: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>ترشيح لأي وضع؟</value>
