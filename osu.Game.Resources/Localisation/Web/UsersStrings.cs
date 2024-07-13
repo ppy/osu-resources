@@ -545,6 +545,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowEditCoverHoldoverRemoveConfirm => new TranslatableString(getKey(@"show.edit.cover.holdover_remove_confirm"), @"The previously selected cover is not available for selection anymore. You can't select it back after switching to a different cover. Proceed?");
 
         /// <summary>
+        /// "Cover"
+        /// </summary>
+        public static LocalisableString ShowEditCoverTitle => new TranslatableString(getKey(@"show.edit.cover.title"), @"Cover");
+
+        /// <summary>
         /// "Failed processing image. Verify uploaded image and try again."
         /// </summary>
         public static LocalisableString ShowEditCoverUploadBrokenFile => new TranslatableString(getKey(@"show.edit.cover.upload.broken_file"), @"Failed processing image. Verify uploaded image and try again.");
@@ -598,6 +603,26 @@ namespace osu.Game.Resources.Localisation.Web
         /// "set {0} as profile default game mode"
         /// </summary>
         public static LocalisableString ShowEditDefaultPlaymodeSet(LocalisableString mode) => new TranslatableString(getKey(@"show.edit.default_playmode.set"), @"set {0} as profile default game mode", mode);
+
+        /// <summary>
+        /// "Reset colour to default? Supporter tag will be required to change it to a different colour."
+        /// </summary>
+        public static LocalisableString ShowEditHueResetNoSupporter => new TranslatableString(getKey(@"show.edit.hue.reset_no_supporter"), @"Reset colour to default? Supporter tag will be required to change it to a different colour.");
+
+        /// <summary>
+        /// "Colour"
+        /// </summary>
+        public static LocalisableString ShowEditHueTitle => new TranslatableString(getKey(@"show.edit.hue.title"), @"Colour");
+
+        /// <summary>
+        /// "Custom colour themes available for {0} only"
+        /// </summary>
+        public static LocalisableString ShowEditHueSupporterDefault(LocalisableString link) => new TranslatableString(getKey(@"show.edit.hue.supporter._"), @"Custom colour themes available for {0} only", link);
+
+        /// <summary>
+        /// "osu!supporters"
+        /// </summary>
+        public static LocalisableString ShowEditHueSupporterLink => new TranslatableString(getKey(@"show.edit.hue.supporter.link"), @"osu!supporters");
 
         /// <summary>
         /// "none"

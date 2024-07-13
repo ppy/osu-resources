@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>in osu!direct öffnen</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Probationäre Ernenner können nicht mehrere Regelsätze nominieren.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Du musst ein Vollberechtigter Ernenner sein um die finale nomination eines Regelsatzes durchzuführen.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Für ein Hybrid-Beatmapset musst du mindestens einen Spielmodus auswählen, den du nominieren möchtest.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Du hast keine Berechtigung diesen Modus zu nominieren: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Diese Beatmap hat invalide Nominationen und kann in diesem Zustand nicht qualifiziert werden.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Diese Nominierung hat inkompatible Spielmodi.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nominierungsvoraussetzung bereits erfüllt.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nomininierungsanforderungen für nicht-Hauptspielmodi sind schon erfüllt.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Bist du sicher, dass du diese Beatmap nominieren möchtest?</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>Hinweis: du kannst nur einmalig nominieren, also stelle bitte sicher, dass du für alle Spielmodi nominierst, die du beabsichtigst</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Der Hauptspielmodus ist derzeit: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Für welche Modi willst du nominieren?</value>

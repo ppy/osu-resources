@@ -15,6 +15,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString Cancel => new TranslatableString(getKey(@"cancel"), @"Cancel");
 
         /// <summary>
+        /// "an app by {0}"
+        /// </summary>
+        public static LocalisableString AuthoriseAppOwner(LocalisableString owner) => new TranslatableString(getKey(@"authorise.app_owner"), @"an app by {0}", owner);
+
+        /// <summary>
         /// "is requesting permission to access your account."
         /// </summary>
         public static LocalisableString AuthoriseRequest => new TranslatableString(getKey(@"authorise.request"), @"is requesting permission to access your account.");

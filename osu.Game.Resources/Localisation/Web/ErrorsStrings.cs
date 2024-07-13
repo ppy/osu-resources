@@ -75,6 +75,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CheckoutGeneric => new TranslatableString(getKey(@"checkout.generic"), @"An error occurred while preparing your checkout.");
 
         /// <summary>
+        /// "Invalid score id."
+        /// </summary>
+        public static LocalisableString ScoresInvalidId => new TranslatableString(getKey(@"scores.invalid_id"), @"Invalid score id.");
+
+        /// <summary>
         /// "Could not get any results, try again later."
         /// </summary>
         public static LocalisableString SearchDefault => new TranslatableString(getKey(@"search.default"), @"Could not get any results, try again later.");

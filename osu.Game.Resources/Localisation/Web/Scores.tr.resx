@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Bu skor silinmek üzere olarak işaretlendi ve yakında silinecek.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0}'da {1} [{2}]</value>
   </data>
@@ -79,7 +82,13 @@
   <data name="status.non_best" xml:space="preserve">
     <value>Yalnızca en iyi bireysel skorlar pp kazandırır</value>
   </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>bu skor için herhangi bir pp kazanılmadı</value>
+  </data>
   <data name="status.processing" xml:space="preserve">
     <value>Bu skor halen daha hesaplanıyor ve çok yakında gösterilecek</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>Bu skor, derecesiz olduğu veya silme talebinde bulunulduğu için herhangi bir dereceye sahip değil</value>
   </data>
 </root>

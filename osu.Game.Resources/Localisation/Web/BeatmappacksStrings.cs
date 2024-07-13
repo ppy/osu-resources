@@ -40,16 +40,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexBlurbInstallInstruction => new TranslatableString(getKey(@"index.blurb.install_instruction"), @"Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest.");
 
         /// <summary>
-        /// "Also note that it is highly recommended to {0}, since older maps are generally of much lower quality than more recent maps."
-        /// </summary>
-        public static LocalisableString IndexBlurbNoteDefault(LocalisableString scary) => new TranslatableString(getKey(@"index.blurb.note._"), @"Also note that it is highly recommended to {0}, since older maps are generally of much lower quality than more recent maps.", scary);
-
-        /// <summary>
-        /// "download the packs from latest to earliest"
-        /// </summary>
-        public static LocalisableString IndexBlurbNoteScary => new TranslatableString(getKey(@"index.blurb.note.scary"), @"download the packs from latest to earliest");
-
-        /// <summary>
         /// "Download"
         /// </summary>
         public static LocalisableString ShowDownload => new TranslatableString(getKey(@"show.download"), @"Download");
