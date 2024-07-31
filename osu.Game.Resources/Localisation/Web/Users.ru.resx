@@ -379,6 +379,9 @@
   <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
     <value>Ранее выбранная обложка больше недоступна. Вы не сможете ее выбрать после смены на другую. Продолжить?</value>
   </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Обложка</value>
+  </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Не удалось обработать изображение. Проверьте загруженное изображение и попробуйте снова.</value>
   </data>
@@ -389,7 +392,7 @@
     <value>Перетащите для загрузки</value>
   </data>
   <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
-    <value>Вы также можете перетащить изображение сюда для загрузки</value>
+    <value>Для загрузки изображения можно перетащить изображение сюда</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
     <value>Размер обложки должен быть равен 2400x620</value>
@@ -401,16 +404,28 @@
     <value>Неподдерживаемый формат.</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
-    <value>Загрузка доступна только {0}</value>
+    <value>Установить свою обложку можно только с {0}</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
-    <value>с тегом osu!supporter</value>
+    <value>тегом osu!supporter</value>
   </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
     <value>основной режим игры</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>установить {0} как режим игры по умолчанию</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Вы уверены, что хотите сбросить цвет профиля к стандартному? Изменять цвет можно только с тегом osu!supporter.</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Изменение цвета профиля доступно только с тегом {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporter</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>нет</value>

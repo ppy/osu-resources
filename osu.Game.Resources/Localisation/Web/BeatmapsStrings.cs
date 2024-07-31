@@ -120,9 +120,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsTitle => new TranslatableString(getKey(@"discussions.title"), @"Discussions");
 
         /// <summary>
-        /// "{0} unresolved issues"
+        /// "{0} unresolved issue|{0} unresolved issues"
         /// </summary>
-        public static LocalisableString DiscussionsUnresolvedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issues", countDelimited);
+        public static LocalisableString DiscussionsUnresolvedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issue|{0} unresolved issues", countDelimited);
 
         /// <summary>
         /// "Collapse all"
