@@ -530,6 +530,61 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowCoverTo1 => new TranslatableString(getKey(@"show.cover.to_1"), @"Show cover");
 
         /// <summary>
+        /// "Daily Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeDaily => new TranslatableString(getKey(@"show.daily_challenge.daily"), @"Daily Streak");
+
+        /// <summary>
+        /// "Best Daily Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeDailyStreakBest => new TranslatableString(getKey(@"show.daily_challenge.daily_streak_best"), @"Best Daily Streak");
+
+        /// <summary>
+        /// "Current Daily Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeDailyStreakCurrent => new TranslatableString(getKey(@"show.daily_challenge.daily_streak_current"), @"Current Daily Streak");
+
+        /// <summary>
+        /// "DailynChallenge"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeTitle => new TranslatableString(getKey(@"show.daily_challenge.title"), @"DailynChallenge");
+
+        /// <summary>
+        /// "Top 10% Placements"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeTop10pPlacements => new TranslatableString(getKey(@"show.daily_challenge.top_10p_placements"), @"Top 10% Placements");
+
+        /// <summary>
+        /// "Top 50% Placements"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeTop50pPlacements => new TranslatableString(getKey(@"show.daily_challenge.top_50p_placements"), @"Top 50% Placements");
+
+        /// <summary>
+        /// "Weekly Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeWeekly => new TranslatableString(getKey(@"show.daily_challenge.weekly"), @"Weekly Streak");
+
+        /// <summary>
+        /// "Best Weekly Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeWeeklyStreakBest => new TranslatableString(getKey(@"show.daily_challenge.weekly_streak_best"), @"Best Weekly Streak");
+
+        /// <summary>
+        /// "Current Weekly Streak"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeWeeklyStreakCurrent => new TranslatableString(getKey(@"show.daily_challenge.weekly_streak_current"), @"Current Weekly Streak");
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeUnitDay(LocalisableString valued) => new TranslatableString(getKey(@"show.daily_challenge.unit.day"), @"{0}", valued);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengeUnitWeek(LocalisableString valuew) => new TranslatableString(getKey(@"show.daily_challenge.unit.week"), @"{0}", valuew);
+
+        /// <summary>
         /// "Change Profile Cover"
         /// </summary>
         public static LocalisableString ShowEditCoverButton => new TranslatableString(getKey(@"show.edit.cover.button"), @"Change Profile Cover");
