@@ -17,12 +17,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "beatmap difficulty"
         /// </summary>
-        public static LocalisableString NameAppModelsBeatmap => new TranslatableString(getKey(@"name.appmodelsbeatmap"), @"beatmap difficulty");
+        public static LocalisableString NameAppModelsBeatmap => new TranslatableString(getKey(@"name.app\models\beatmap"), @"beatmap difficulty");
 
         /// <summary>
         /// "beatmap"
         /// </summary>
-        public static LocalisableString NameAppModelsBeatmapset => new TranslatableString(getKey(@"name.appmodelsbeatmapset"), @"beatmap");
+        public static LocalisableString NameAppModelsBeatmapset => new TranslatableString(getKey(@"name.app\models\beatmapset"), @"beatmap");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

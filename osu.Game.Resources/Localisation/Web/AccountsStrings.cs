@@ -25,6 +25,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditAvatarTitle => new TranslatableString(getKey(@"edit.avatar.title"), @"Avatar");
 
         /// <summary>
+        /// "reset"
+        /// </summary>
+        public static LocalisableString EditAvatarReset => new TranslatableString(getKey(@"edit.avatar.reset"), @"reset");
+
+        /// <summary>
         /// "Please ensure your avatar adheres to {0}.&lt;br/&gt;This means it must be &lt;strong&gt;suitable for all ages&lt;/strong&gt;. i.e. no nudity, offensive or suggestive content."
         /// </summary>
         public static LocalisableString EditAvatarRules(LocalisableString link) => new TranslatableString(getKey(@"edit.avatar.rules"), @"Please ensure your avatar adheres to {0}.<br/>This means it must be <strong>suitable for all ages</strong>. i.e. no nudity, offensive or suggestive content.", link);
