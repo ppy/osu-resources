@@ -137,7 +137,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "type message..."
         /// </summary>
-        public static LocalisableString InputPlaceholder => new TranslatableString(getKey(@"input.placeholder"), @"type message...");
+        public static LocalisableString InputPlaceholder => new TranslatableString(getKey(@"input.placeholder"), @"press enter to type message...");
 
         /// <summary>
         /// "Send"
