@@ -103,6 +103,9 @@
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Tryck enter för att svara.</value>
   </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Tryck enter för att svara. Tryck ctrl+enter för att svara och lösa.</value>
+  </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>Skriv ditt svar här</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskussioner</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} olösta problem|{0} olösta problem</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Kollapsa allt</value>
@@ -207,6 +213,15 @@
   </data>
   <data name="discussions.message_type_title.problem" xml:space="preserve">
     <value>Lägg ut Problem</value>
+  </data>
+  <data name="discussions.message_type_title.problem_warning" xml:space="preserve">
+    <value>Lägg Upp Problem</value>
+  </data>
+  <data name="discussions.message_type_title.review" xml:space="preserve">
+    <value>Lägg Upp Recension</value>
+  </data>
+  <data name="discussions.message_type_title.suggestion" xml:space="preserve">
+    <value>Lägg Upp Förslag</value>
   </data>
   <data name="discussions.mode.events" xml:space="preserve">
     <value>Historik</value>
@@ -439,6 +454,12 @@
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Denna beatmap uppskattas vara rankad {0}, så länge inga fel uppstår. Den är #{1} i {2}.</value>
   </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>Denna låt är för närvarande blockerad från att lämna den Kvalificerade sektionen tills {0} är löst.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>dessa problem</value>
+  </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>den {0}</value>
   </data>
@@ -564,6 +585,9 @@
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Alla</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>inte inställt</value>
   </data>
   <data name="status.any" xml:space="preserve">
     <value>Alla</value>

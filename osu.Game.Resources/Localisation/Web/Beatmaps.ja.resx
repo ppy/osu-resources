@@ -103,6 +103,9 @@
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Enterキーを押して送信</value>
   </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Enterを押して返信します。Ctrl + Enter キーを押して返信し、解決済みにします。</value>
+  </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>ここに入力してください</value>
   </data>
@@ -170,7 +173,7 @@
     <value>Hype!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
-    <value>注意</value>
+    <value>メモ</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
     <value>ノミネーションをリセット</value>
@@ -189,6 +192,15 @@
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>提案</value>
+  </data>
+  <data name="discussions.message_type_title.hype" xml:space="preserve">
+    <value>Hypeを投稿</value>
+  </data>
+  <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
+    <value>メモを投稿</value>
+  </data>
+  <data name="discussions.message_type_title.praise" xml:space="preserve">
+    <value>称賛を投稿</value>
   </data>
   <data name="discussions.message_type_title.problem" xml:space="preserve">
     <value>問題を投稿</value>
@@ -364,6 +376,9 @@
   <data name="nominations.already_nominated" xml:space="preserve">
     <value>既にこのビートマップをHypeしています。</value>
   </data>
+  <data name="nominations.cannot_nominate" xml:space="preserve">
+    <value>このゲームモードをノミネートすることはできません。</value>
+  </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>削除</value>
   </data>
@@ -429,6 +444,9 @@
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>このマップは、問題が見つからなければ {0} にrankedされると推定されます。{1} 内の #{2} </value>
+  </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>現在このマップは {0} が解決されるまでQualified状態から離れることをブロックされています。</value>
   </data>
   <data name="nominations.rank_estimate.problems" xml:space="preserve">
     <value>この問題</value>

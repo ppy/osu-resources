@@ -181,8 +181,26 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>この注文の決済リンクは期限切れとなりました。</value>
   </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>合計</value>
+  </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>注文 #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>支払い条件</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>配送方法</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>配送条件</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>注文の詳細</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>個数</value>
@@ -232,6 +250,12 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>発送済み</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>注文ステータス</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>ご注文ありがとうございました！</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>名前</value>
   </data>
@@ -273,6 +297,12 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>{0}が使用可能か確認中・・・</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>新しいユーザー名</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>現在のあなたのユーザー名は "{0}" です。</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>名前を変えるには{0}が必要です！</value>
