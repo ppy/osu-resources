@@ -59,22 +59,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_setup" xml:space="preserve">
-    <value>Configuração do beat mapa</value>
+    <value>Configuração do beatmap</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
-    <value>altere as configurações gerais do seu beat mapa</value>
+    <value>altera as definições gerais do seu beatmap</value>
   </data>
   <data name="colours_header" xml:space="preserve">
     <value>Cores</value>
   </data>
+  <data name="hit_circle_slider_combos" xml:space="preserve">
+    <value>Marcar círculo / Combo de sliders</value>
+  </data>
   <data name="design_header" xml:space="preserve">
     <value>Projeto</value>
   </data>
+  <data name="enable_countdown" xml:space="preserve">
+    <value>Ativar contagem decrescente</value>
+  </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Se ativado, um "Tu estás pronto? 3, 2, 1, GO!"a contagem regressiva será inserida no início do beat mapa, assumindo que haja tempo suficiente para fazê-lo.</value>
+    <value>Se ativado, um "Estás pronto? 3, 2, 1, VÁ!"a contagem será inserida no início do beatmap, assumindo que haja tempo suficiente para fazê-lo.</value>
+  </data>
+  <data name="countdown_speed" xml:space="preserve">
+    <value>Velocidade da contagem</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
     <value>Se a contagem regressiva parecer fora do prazo, use-o para fazer parecer uma ou mais batidas mais cedo.</value>
+  </data>
+  <data name="countdown_offset" xml:space="preserve">
+    <value>Offset da contagem</value>
+  </data>
+  <data name="widescreen_support" xml:space="preserve">
+    <value>Suporte à tela cheia</value>
+  </data>
+  <data name="widescreen_support_description" xml:space="preserve">
+    <value>Permita que os storyboards utilizem o espaço todo da tela, do que confinado numa área 4:3.</value>
+  </data>
+  <data name="epilepsy_warning" xml:space="preserve">
+    <value>Aviso de epilepsia</value>
+  </data>
+  <data name="epilepsy_warning_description" xml:space="preserve">
+    <value>Recomendado se o storyboard/vídeo não conter cenas com cores piscantes rápidas.</value>
+  </data>
+  <data name="letterbox_during_breaks" xml:space="preserve">
+    <value>Caixa de letras durante pausas</value>
+  </data>
+  <data name="letterbox_during_breaks_description" xml:space="preserve">
+    <value>Adicionar caixas de letras horizontais para dar um visual cinemático durante pausas.</value>
+  </data>
+  <data name="samples_match_playback_rate" xml:space="preserve">
+    <value>Amostras correspondem a taxa de reprodução</value>
+  </data>
+  <data name="samples_match_playback_rate_description" xml:space="preserve">
+    <value>Ao ativares, todas as amostras aceleraram ou desaceleraram quando os mods de alteração de taxa estão ativos.</value>
+  </data>
+  <data name="circle_size_description" xml:space="preserve">
+    <value>O tamanho de todos os objetos acertáveis</value>
+  </data>
+  <data name="drain_rate_description" xml:space="preserve">
+    <value>A taxa de drenagem de saúde passiva durante o tempo jogável</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>A velocidade em que os objetos são apresentados ao jogador</value>
+  </data>
+  <data name="overall_difficulty_description" xml:space="preserve">
+    <value>A dureza de quebrar janelas e a dificuldade de objetos especiais (ex: spinners)</value>
+  </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Taxa de tiques</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Determina quantos "tiques" são gerados em objetos enormes. Uma taxa de tiques de 1 gerará tiques a cada batida, 2 seria o dobro por batida, etc.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Velocidade base</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>A velocidade base do beatmap, afetando coisas como a velocidade de slider ou de rolagem em algumas rulesets.</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Meta-dados</value>
@@ -87,6 +147,9 @@
   </data>
   <data name="creator" xml:space="preserve">
     <value>Criador</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Fonte</value>
   </data>
   <data name="difficulty_name" xml:space="preserve">
     <value>Nome da dificuldade</value>
@@ -117,5 +180,8 @@
   </data>
   <data name="difficulty_header" xml:space="preserve">
     <value>Dificuldade</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Arrasta uma imagem aqui para definir como plano de fundo!</value>
   </data>
 </root>

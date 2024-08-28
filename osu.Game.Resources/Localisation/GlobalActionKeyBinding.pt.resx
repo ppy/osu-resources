@@ -64,12 +64,14 @@
   <data name="toggle_social" xml:space="preserve">
     <value>Alternar sobreposição social</value>
   </data>
-  
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Redefinir definições de entrada</value>
+  </data>
   <data name="toggle_toolbar" xml:space="preserve">
     <value>Alternar barra de ferramentas</value>
   </data>
   <data name="toggle_settings" xml:space="preserve">
-    <value>Alternar configurações</value>
+    <value>Alternar definições</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
     <value>Alternar listagem de beatmap</value>
@@ -86,7 +88,9 @@
   <data name="skip_cutscene" xml:space="preserve">
     <value>Saltar cena</value>
   </data>
-  
+  <data name="quick_retry" xml:space="preserve">
+    <value>Nova repetição rápida (prime)</value>
+  </data>
   <data name="take_screenshot" xml:space="preserve">
     <value>Tirar captura de ecrã</value>
   </data>
@@ -96,12 +100,18 @@
   <data name="back" xml:space="preserve">
     <value>Retroceder</value>
   </data>
-  
-  
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Aumentar velocidade de rolagem</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Diminuir velocidade de rolagem</value>
+  </data>
   <data name="select" xml:space="preserve">
     <value>Selecionar</value>
   </data>
-  
+  <data name="quick_exit" xml:space="preserve">
+    <value>Saída rápida (prime)</value>
+  </data>
   <data name="music_next" xml:space="preserve">
     <value>Próxima faixa</value>
   </data>
@@ -150,7 +160,9 @@
   <data name="editor_timing_mode" xml:space="preserve">
     <value>Modo de tempo</value>
   </data>
-  
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Toque para BPM</value>
+  </data>
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Seleção de clones</value>
   </data>
@@ -160,7 +172,9 @@
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Teste de jogabilidade</value>
   </data>
-  
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Prime para mostrar interface</value>
+  </data>
   <data name="random_skin" xml:space="preserve">
     <value>Skin aleatória</value>
   </data>
@@ -170,7 +184,9 @@
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Alternar interface no jogo</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Habilitar classificação em jogo</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Alternar seleção de modificação</value>
   </data>
@@ -201,25 +217,82 @@
   <data name="editor_flip_vertically" xml:space="preserve">
     <value>Virar seleção verticalmente</value>
   </data>
-  
-  
-  
-  
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Aumentar espaço de distância</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Diminuir espaçamento</value>
+  </data>
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Alternar para o divisor de batida anterior</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Alternar para o próximo divisor de batida</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Alternar editor de roupa</value>
   </data>
   <data name="toggle_fps_counter" xml:space="preserve">
     <value>Alternar contador FPS</value>
   </data>
-  
-  
-  
-  
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Medidor de volume anterior</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Próximo medidor de volume</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Avançar no replay</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Retroceder no replay</value>
+  </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Avançar 1 quadro no replay</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Retroceder 1 quadro no replay</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Alternar foco de bate-papo</value>
   </data>
-  
-  
-  
-  
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>Alternar definições de replay</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Guardar replay</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Exportar replay</value>
+  </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>Aumentar offset</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Diminuir offset</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Alternar controlo de rotação</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Alternar controlo de escala</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Alternar rep. automática</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Alternar pausa rápida</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Saída rápida para o tempo inicial</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Saída rápida para o tempo atual</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Aumentar velocidade do mod</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Diminuir velocidade do mod</value>
+  </data>
 </root>
