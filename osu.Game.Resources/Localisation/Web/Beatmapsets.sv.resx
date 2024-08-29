@@ -100,14 +100,29 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>öppna i osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Probationära nominatörer kan ej nominera flera regelset.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Du måste vara en fullständig nominatör för att utföra den slutliga nomineringen av ett regelset.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>En hybrid beatmap kräver att du väljer minst ett spelläge att nominera för.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Du har inte behörighet att nominera för läge: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Denna beatmap har ogiltiga nomineringar och kan inte kvalificeras i detta tillstånd</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Den här nomineringen har ogiltiga regelverk.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nomineringskravet är redan uppfyllt.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nomineringskrav för icke-huvudregelset har redan uppfyllts.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Är du säker på att du vill nominera denna beatmap?</value>
@@ -117,6 +132,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>notera: du kan bara nominera en gång, så se till att du nominerar för alla spellägen som du tänker nominera för</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Det huvudsakliga regelsettet är för närvarande {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominera för vilka spellägen?</value>

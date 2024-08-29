@@ -80,10 +80,16 @@
     <value>現在このユーザーへメッセージを送信できません。理由は次のいずれかである可能性があります：</value>
   </data>
   <data name="channels.confirm_part" xml:space="preserve">
-    <value>このチャンネルを隠したいです？まだこのチャンネルからメッセージが送れられています。</value>
+    <value>このチャンネルを隠しますか？このチャンネルからは引き続きメッセージを受信します。</value>
   </data>
   <data name="channels.create" xml:space="preserve">
     <value>お知らせを作成</value>
+  </data>
+  <data name="channels.join" xml:space="preserve">
+    <value>チャンネルに参加</value>
+  </data>
+  <data name="channels.none" xml:space="preserve">
+    <value>チャンネルがありません</value>
   </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>お知らせ</value>
@@ -141,5 +147,8 @@
   </data>
   <data name="no-conversations.title" xml:space="preserve">
     <value>まだトークはありません</value>
+  </data>
+  <data name="join_channels.loading" xml:space="preserve">
+    <value>チャンネル一覧を読み込んでいます...</value>
   </data>
 </root>

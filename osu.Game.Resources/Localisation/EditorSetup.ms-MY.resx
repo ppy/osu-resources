@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Keketatan hit window dan kesusahan object istimewa (seperti spinners)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Kadar Tick</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Tentukan berapa banyak "ticks" akan dijana diantara objek pukulan yang lama. Satu kadar tick akan menjana ticks pada setiap rentak, 2 akan menjadi dua kali setiap rentak, dll.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Kelajuan Dasar</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Kelajuan dasar beatmap, mempengaruhi objek seperti kelajuan gelongsor dan kelajuan tatal dalam sesetengah set peraturan.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>
@@ -135,6 +147,9 @@
   </data>
   <data name="creator" xml:space="preserve">
     <value>Pembuat</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Sumber</value>
   </data>
   <data name="difficulty_name" xml:space="preserve">
     <value>Nama Kesusakan</value>
@@ -148,14 +163,8 @@
   <data name="click_to_select_track" xml:space="preserve">
     <value>Klik untuk memilih trek</value>
   </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>Klik untuk mengubah trek</value>
-  </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klik untuk memilih gambar latar</value>
-  </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>Klik untuk mengubah gambar latar</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>
@@ -171,5 +180,8 @@
   </data>
   <data name="difficulty_header" xml:space="preserve">
     <value>Kesusahan</value>
+  </data>
+  <data name="drag_to_set_background" xml:space="preserve">
+    <value>Seret gambar sini untuk tetapkan latar belakang beatmap!</value>
   </data>
 </root>

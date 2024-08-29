@@ -25,6 +25,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexNavTitle => new TranslatableString(getKey(@"index.nav_title"), @"listing");
 
         /// <summary>
+        /// "comments"
+        /// </summary>
+        public static LocalisableString JudgeComments => new TranslatableString(getKey(@"judge.comments"), @"comments");
+
+        /// <summary>
         /// "hide judged entries"
         /// </summary>
         public static LocalisableString JudgeHideJudged => new TranslatableString(getKey(@"judge.hide_judged"), @"hide judged entries");
