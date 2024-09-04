@@ -545,6 +545,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDailyChallengeDailyStreakCurrent => new TranslatableString(getKey(@"show.daily_challenge.daily_streak_current"), @"Current Daily Streak");
 
         /// <summary>
+        /// "Total Participation"
+        /// </summary>
+        public static LocalisableString ShowDailyChallengePlaycount => new TranslatableString(getKey(@"show.daily_challenge.playcount"), @"Total Participation");
+
+        /// <summary>
         /// "Daily\nChallenge"
         /// </summary>
         public static LocalisableString ShowDailyChallengeTitle => new TranslatableString(getKey(@"show.daily_challenge.title"), @"Daily\nChallenge");
