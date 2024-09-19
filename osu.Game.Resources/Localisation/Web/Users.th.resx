@@ -181,6 +181,9 @@
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>สมาชิกตามโหมดเกม</value>
   </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>บัญชีของคุณไม่ได้ใช้งานมานาน</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>บัญชีของคุณไม่ได้ใช้งานมานาน</value>
   </data>
@@ -368,11 +371,53 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>แสดงปก</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>สตรีคประจำวัน</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>สตรีคประจำวันที่ดีที่สุด</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>สตรีคประจำวันปัจจุบัน</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>เข้าร่วมทั้งหมด</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>ชาเลนจ์\nประจำวัน</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>ท็อป 10% แรก</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>ท็อป 50% แรก</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>สตรีคประจำสัปดาห์</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>สตรีคประจำสัปดาห์ที่ดีที่สุด</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>สตรีคประจำสัปดาห์ปัจจุบัน</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0} วัน</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0} สัปดาห์</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>เปลี่ยนรูปภาพปก</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>จะมีตัวเลือกรูปภาพปกเพิ่มมากขึ้นในอนาคต</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>ปกที่เลือกไว้ก่อนหน้านี้ไม่สามารถเลือกได้อีกต่อไป คุณไม่สามารถเลือกกลับมาได้หลังจากสลับไปใช้ปกอื่น ดำเนินการต่อ?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>ปก</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>ประมวลผลรูปภาพล้มเหลว โปรดตรวจสอบรูปภาพและลองใหม่อีกครั้ง</value>
@@ -406,6 +451,18 @@
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>ตั้ง {0} เป็นเกมโหมดหลักของโปรไฟล์</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>รีเซ็ตสีเป็นค่าเริ่มต้นหรือไม่? จะต้องใช้แท็กผู้สนับสนุนเพื่อเปลี่ยนเป็นสีอื่น</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>สี</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>ธีมสีที่กำหนดเองมีให้เฉพาะสำหรับ {0} เท่านั้น</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>ผู้สนับสนุน osu!</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>ไม่มี</value>

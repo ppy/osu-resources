@@ -20,6 +20,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CountriesTitle => new TranslatableString(getKey(@"countries.title"), @"Country");
 
         /// <summary>
+        /// "Difficulty"
+        /// </summary>
+        public static LocalisableString DailyChallengeBeatmap => new TranslatableString(getKey(@"daily_challenge.beatmap"), @"Difficulty");
+
+        /// <summary>
+        /// "10th Percentile Score"
+        /// </summary>
+        public static LocalisableString DailyChallengePercentile10 => new TranslatableString(getKey(@"daily_challenge.percentile_10"), @"10th Percentile Score");
+
+        /// <summary>
+        /// "50th Percentile Score"
+        /// </summary>
+        public static LocalisableString DailyChallengePercentile50 => new TranslatableString(getKey(@"daily_challenge.percentile_50"), @"50th Percentile Score");
+
+        /// <summary>
         /// "Show"
         /// </summary>
         public static LocalisableString FilterTitle => new TranslatableString(getKey(@"filter.title"), @"Show");
@@ -58,6 +73,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "country"
         /// </summary>
         public static LocalisableString TypeCountry => new TranslatableString(getKey(@"type.country"), @"country");
+
+        /// <summary>
+        /// "daily challenge"
+        /// </summary>
+        public static LocalisableString TypeDailyChallenge => new TranslatableString(getKey(@"type.daily_challenge"), @"daily challenge");
 
         /// <summary>
         /// "kudosu"

@@ -215,9 +215,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotificationsTitle => new TranslatableString(getKey(@"notifications.title"), @"Notifications");
 
         /// <summary>
-        /// "automatically enable notifications on new forum topics that you create"
+        /// "automatically enable notifications on new forum topics that you create or replied to"
         /// </summary>
-        public static LocalisableString NotificationsTopicAutoSubscribe => new TranslatableString(getKey(@"notifications.topic_auto_subscribe"), @"automatically enable notifications on new forum topics that you create");
+        public static LocalisableString NotificationsTopicAutoSubscribe => new TranslatableString(getKey(@"notifications.topic_auto_subscribe"), @"automatically enable notifications on new forum topics that you create or replied to");
 
         /// <summary>
         /// "delivery options"

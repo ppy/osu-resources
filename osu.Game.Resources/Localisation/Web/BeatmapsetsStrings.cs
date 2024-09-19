@@ -130,6 +130,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NominateDialogConfirmation => new TranslatableString(getKey(@"nominate.dialog.confirmation"), @"Are you sure you want to nominate this beatmap?");
 
         /// <summary>
+        /// "Qualifying this beatmap with different nominators will reset its qualification queue position."
+        /// </summary>
+        public static LocalisableString NominateDialogDifferentNominatorWarning => new TranslatableString(getKey(@"nominate.dialog.different_nominator_warning"), @"Qualifying this beatmap with different nominators will reset its qualification queue position.");
+
+        /// <summary>
         /// "Nominate Beatmap"
         /// </summary>
         public static LocalisableString NominateDialogHeader => new TranslatableString(getKey(@"nominate.dialog.header"), @"Nominate Beatmap");
