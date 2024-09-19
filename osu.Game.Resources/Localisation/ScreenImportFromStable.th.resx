@@ -82,4 +82,19 @@
   <data name="items" xml:space="preserve">
     <value>{0} รายการ</value>
   </data>
+  <data name="data_migration_no_extra_space" xml:space="preserve">
+    <value>การโยกย้ายข้อมูลจะใช้ "hard links". จะไม่มีการใช้พื้นที่ดิสก์เพิ่มเติม และคุณสามารถลบโฟลเดอร์ข้อมูลใดๆก็ได้โดยไม่กระทบต่อการติดตั้งอื่น.</value>
+  </data>
+  <data name="learn_about_hard_links" xml:space="preserve">
+    <value>เรียนรู้เพิ่มเติมเกี่ยวกับวิธีการทำงานของ 'hard links</value>
+  </data>
+  <data name="lightweight_linking_not_supported" xml:space="preserve">
+    <value>การเชื่อมโยงไฟล์แบบเบาไม่ได้รับการสนับสนุนบนระบบปฏิบัติการของคุณในขณะนี้ ดังนั้นจะมีการสร้างสำเนาของไฟล์ทั้งหมดในระหว่างการนำเข้า</value>
+  </data>
+  <data name="second_copy_will_be_made_windows" xml:space="preserve">
+    <value>จะมีสำเนาสำรองของไฟล์ทั้งหมดถูกสร้างขึ้นระหว่างการนำเข้า. เพื่อหลีกเลี่ยงปัญหานี้ โปรดตรวจสอบให้แน่ใจว่าโฟลเดอร์ Lazer อยู่บนไดรฟ์เดียวกับการติดตั้ง osu! ก่อนหน้านี้ของคุณ (และระบบไฟล์เป็น NTFS)</value>
+  </data>
+  <data name="second_copy_will_be_made_other_platforms" xml:space="preserve">
+    <value>จะมีสำเนาสำรองของไฟล์ทั้งหมดถูกสร้างขึ้นระหว่างการนำเข้า. เพื่อหลีกเลี่ยงปัญหานี้ โปรดตรวจสอบให้แน่ใจว่าโฟลเดอร์ Lazer อยู่บนไดรฟ์เดียวกับการติดตั้ง osu! ก่อนหน้านี้ของคุณ (และระบบไฟล์ต้องรองรับแบบ hard links)</value>
+  </data>
 </root>

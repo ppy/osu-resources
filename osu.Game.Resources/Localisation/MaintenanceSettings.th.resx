@@ -73,9 +73,6 @@
   <data name="prohibited_interact_during_migration" xml:space="preserve">
     <value>โปรดหลีกเลี่ยงการโต้ตอบกับเกม!</value>
   </data>
-  <data name="failed_cleanup_notification" xml:space="preserve">
-    <value>ไม่สามารถล้างไฟล์บางไฟล์ได้ในระหว่างการย้ายข้อมูล การคลิกการแจ้งเตือนนี้จะเปิดโฟลเดอร์เพื่อให้คุณสามารถล้างสิ่งต่างๆ ได้ด้วยตนเอง</value>
-  </data>
   <data name="select_new_location" xml:space="preserve">
     <value>กรุณาเลือกตำแหน่งใหม่</value>
   </data>
@@ -115,11 +112,20 @@
   <data name="deleted_all_collections" xml:space="preserve">
     <value>ลบคอลเลกชั่นทั้งหมดแล้ว!</value>
   </data>
+  <data name="no_collections_found_to_delete" xml:space="preserve">
+    <value>ไม่พบคอลเลกชันที่สามารถลบได้!</value>
+  </data>
   <data name="deleted_all_mod_presets" xml:space="preserve">
     <value>ลบม็อดที่ตั้งล่วงหน้าทั้งหมดแล้ว!</value>
   </data>
+  <data name="no_mod_presets_found_to_delete" xml:space="preserve">
+    <value>ไม่พบพรีเซ็ตม็อดที่สามารถลบได้!</value>
+  </data>
   <data name="restored_all_deleted_mod_presets" xml:space="preserve">
     <value>คืนค่าม็อดที่ตั้งล่วงหน้าทั้งหมดแล้ว!</value>
+  </data>
+  <data name="no_mod_presets_found_to_restore" xml:space="preserve">
+    <value>ไม่พบพรีเซ็ตม็อดที่สามารถกู้คืนได้!</value>
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>โปรดเลือกตำแหน่งติดตั้ง osu!stable ของคุณ</value>

@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>ช้าลงหน่อย เล่นมากขึ้น</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>ไม่มีเซิร์ฟเวอร์สำหรับดาวน์โหลด</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>ศิลปินที่โดดเด่น</value>
   </data>
@@ -112,8 +115,17 @@
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>คุณไม่มีสิทธิในการเสนอชื่อในโหมด {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>บีทแมพนี้มีการเสนอชื่อที่ไม่ถูกต้องและไม่สามารถผ่านการคัดเลือกในสถานะนี้ได้</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>การเสนอชื่อนี้มีรูเล็ตเซตที่ไม่ถูกต้อง</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>ความต้องการเสนอชื่อได้สำเร็จแล้ว</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>ข้อกำหนดการเสนอชื่อสำหรับ ruleset ที่ไม่ใช่หลักได้ถูกทำครบแล้ว</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>คุณแน่ใจที่จะเสนอชื่อแมพนี้ใช่ไหม</value>
@@ -123,6 +135,9 @@
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>โน้ต: คุณสามารถเสนอชื่อได้เพียงแค่ครั้งเดียว ดังนั้นโปรดตรวจสอบให้แน่ใจว่าคุณเสนอชื่อในเกมโหมดทั้งหมดที่คุณต้องการจะเสนอชื่อ</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Ruleset ตอนนี้คือ: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>เสนอชื่อให้โหมดไหน</value>
