@@ -247,6 +247,12 @@
   <data name="seek_replay_backward" xml:space="preserve">
     <value>เลื่อนรีเพลย์ย้อนหลัง</value>
   </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>เลื่อนรีเพลย์ไปข้างหน้า 1 เฟรม</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>เลื่อนรีเพลย์ถอยหลัง 1 เฟรม</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>สลับโฟกัสการแชท</value>
   </data>
@@ -259,7 +265,46 @@
   <data name="export_replay" xml:space="preserve">
     <value>ส่งออกรีเพลย์</value>
   </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>เพิ่มออฟเซต</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>ลดออฟเซต</value>
+  </data>
   <data name="editor_toggle_rotate_control" xml:space="preserve">
     <value>สลับตัวควบคุมการหมุน</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>สลับการควบคุมขนาด</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Toggle autoplay</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>สลับการควิกพอส์</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>ออกอย่างรวดเร็วสู่เวลาเริ่มต้น</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>ออกอย่างรวดเร็วสู่เวลาปัจจุบัน</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>เพิ่มความเร็วของม็อด</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>ลดความเร็วของม็อด</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>เลื่อนไปยังฮิตออบเจ็กต์ก่อนหน้า</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>เลื่อนไปยังฮิตออบเจ็กต์ถัดไป</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>เลื่อนไปยังจุดแซมเพิลก่อนหน้า</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>เลื่อนไปยังจุดแซมเพิลถัดไป</value>
   </data>
 </root>
