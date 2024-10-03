@@ -103,23 +103,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>osu!direct에서 열기</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>견습 노미네이터는 여러 게임 모드를 가진 비트맵을 노미네이트 할 수 없습니다.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>이 게임 모드를 최종 노미네이션 하려면 정식 노미네이터여야 합니다.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>하이브리드 비트맵 셋은 노미네이트 할 플레이 모드를 하나 이상 선택해야 합니다.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>{0} 모드를 노미네이트 할 권한을 가지고 있지 않습니다.</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>이 비트맵에 적합하지 않은 노미네이션이 있어 Qualify 할 수 없는 상태입니다.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>이 노미네이션의 게임 모드가 잘못되었습니다.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>노미네이션 요구 사항을 이미 만족했습니다.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>메인이 아닌 모드에 대한 노미네이션 조건이 충족되었습니다.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>정말로 이 비트맵을 노미네이트 하시겠어요?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>다른 노미네이터가 이 비트맵을 Qualify하면 Qualification 대기열의 순서가 초기화됩니다.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>비트맵 노미네이트</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>주의: 딱 한 번만 노미네이트 할 수 있으므로 자신이 노미네이트 하려는 모든 게임 모드를 선택했는지 확인해주세요.</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>메인 모드는 현재 {0}입니다.</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>어떤 모드를 노미네이트 하겠습니까?</value>
