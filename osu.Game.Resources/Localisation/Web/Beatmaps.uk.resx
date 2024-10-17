@@ -125,7 +125,7 @@
     <value>Обговорення</value>
   </data>
   <data name="discussions.unresolved_count" xml:space="preserve">
-    <value>{0} невирішених проблем</value>
+    <value>{0} невирішена проблема|{0} невирішених проблем</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Приховати все</value>
@@ -152,22 +152,22 @@
     <value>Ви впевнені, що хочете розблокувати обговорення?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Цей пост потрапить в загальну гілку обговорень. Щоб почати модерувати цю мапу, почніть своє повідомлення з зазначенням часу (наприклад 00:12:345).</value>
+    <value>Цей пост потрапить в загальну гілку обговорень. Щоб перейти до модингу, почніть своє повідомлення з міткою часу (наприклад 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Для модингу декількох часових позначок, зробіть декілька дискусій (одна дискусія на позначку).</value>
+    <value>Для модингу декількох часових міток, зробіть декілька постів (один пост на мітку).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити дискусію в Загальний ({0})</value>
+    <value>Пишіть тут, щоб розмістити пост в Загальні ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити дискусію в Загальний (Всі складності)</value>
+    <value>Пишіть тут, щоб розмістити пост в Загальні (Всі складності)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Пишіть тут, щоб розмістити відгук</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Пишіть тут, щоб розмістити дискусію на шкалі часу ({0})</value>
+    <value>Пишіть тут, щоб розмістити пост на Шкалі часу ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Дискваліфікувати</value>
@@ -272,10 +272,10 @@
     <value>Не збережено</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Пости в "Всіх складнощах" не можуть мати часових відміток.</value>
+    <value>Пости в "Всі складності" не можуть мати часових міток.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Якщо цей {0} починається з мітки часу, його буде показано в Шкалі часу.</value>
+    <value>Якщо цей пост починається з мітки часу, його буде показано на Шкалі часу.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставити абзац</value>
@@ -326,7 +326,7 @@
     <value>Ця мапа була схвалена {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Ця мапа не оновлювалася вже з {0} і здається автор її покинув...</value>
+    <value>Ця мапа не оновлювалася вже з {0} і здається автор її закинув...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
     <value>Ця мапа була додана в "улюблені" {0}!</value>
@@ -494,7 +494,7 @@
     <value>Більше параметрів пошуку</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Фільтрація по {0} потребує наявності тегу osu!прихильника</value>
+    <value>Фільтрація по {0} потребує наявності тегу osu!supporter</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>немає результатів</value>
@@ -563,7 +563,7 @@
     <value>Сортування за {0} вимагає {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>тег osu!прихильник</value>
+    <value>тег osu!supporter</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Показувати конвертовані мапи</value>
@@ -719,7 +719,7 @@
     <value>Всі</value>
   </data>
   <data name="played.played" xml:space="preserve">
-    <value>Зіграними</value>
+    <value>Зіграно</value>
   </data>
   <data name="played.unplayed" xml:space="preserve">
     <value>Не зіграно</value>
