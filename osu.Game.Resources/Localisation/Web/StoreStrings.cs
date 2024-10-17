@@ -350,9 +350,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OrderDetailsTitle => new TranslatableString(getKey(@"order.details.title"), @"Order Details");
 
         /// <summary>
-        /// "Quantity"
+        /// "quantity"
         /// </summary>
-        public static LocalisableString OrderItemQuantity => new TranslatableString(getKey(@"order.item.quantity"), @"Quantity");
+        public static LocalisableString OrderItemQuantity => new TranslatableString(getKey(@"order.item.quantity"), @"quantity");
 
         /// <summary>
         /// "{0} for {1} ({2})"

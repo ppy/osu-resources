@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cart.checkout" xml:space="preserve">
-    <value>Перевірка</value>
+    <value>Оплатити</value>
   </data>
   <data name="cart.empty_cart" xml:space="preserve">
     <value>Видалити всі товари з кошику</value>
@@ -104,10 +104,10 @@
     <value>Ваш платіж було скасовано.</value>
   </data>
   <data name="checkout.delayed_shipping" xml:space="preserve">
-    <value>В даний час у нас багато замовлень. Ти можеш замовити товар, але будь ласка, пам'ятай, що його обробка замовлення може зайняти 1-2 тижні.</value>
+    <value>Зараз у нас багато замовлень. Ми все ще їх приймаємо, але будьте уважні, обробка замовлення може зайняти додаткові 1-2 тижні.</value>
   </data>
   <data name="checkout.hide_from_activity" xml:space="preserve">
-    <value>Приховати всі теги osu!прихильника в цьому замовленні з моєї активності</value>
+    <value>Приховати всі теги osu!supporter в цьому замовленні з моєї активності</value>
   </data>
   <data name="checkout.old_cart" xml:space="preserve">
     <value>Здається ваш кошик застарів, тому був перезавантажений, будь ласка спробуйте ще раз.</value>
@@ -116,7 +116,7 @@
     <value>Оплатити за допомогою PayPal</value>
   </data>
   <data name="checkout.title_compact" xml:space="preserve">
-    <value>перевірка</value>
+    <value>оплата</value>
   </data>
   <data name="checkout.has_pending._" xml:space="preserve">
     <value>У вас є незавершені транзакції, натисніть {0} щоб завершити їх.</value>
@@ -146,7 +146,7 @@
     <value>Оскільки оплата була через eCheck, очікування підтвердження оплати через Paypal може зайнятий до 10 днів!</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
-    <value>тег osu!прихильника в цьому замовленні не буде показуватися в останніх активностях.</value>
+    <value>теги osu!supporter в цьому замовленні не показуються в недавній активності.</value>
   </data>
   <data name="invoice.sent_via" xml:space="preserve">
     <value>Надіслати через:</value>
@@ -182,7 +182,7 @@
     <value>Ваше замовлення готується!</value>
   </data>
   <data name="invoice.status.prepared.line_1" xml:space="preserve">
-    <value>Зачекайте трохи більше часу на доставлення. Інформація про відслідковування замовлення з'явиться тут, як тільки воно буде оброблено й надіслано. Цей процес може зайняти до 5 днів (але зазвичай менше!) в залежності від того, наскільки ми зайняті.</value>
+    <value>Відправлення товару може зайняти трішки довше. Інформація про відстеження замовлення з'явиться тут, як тільки воно буде оброблено й надіслано. Цей процес може зайняти до 5 днів (але зазвичай менше!) в залежності від того, наскільки ми зайняті.</value>
   </data>
   <data name="invoice.status.prepared.line_2" xml:space="preserve">
     <value>Ми надсилаємо всі замовлення з Японії, використовуючи різні транспортні служби доставлення в залежності від ваги та вартості. Ця область оновиться зі специфікацією як тільки ми відправили замовлення.</value>
@@ -206,7 +206,7 @@
     <value>Деталі відстежування:</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>У нас немає деталей про трек, коли ми відправляли ваш пакет через Air Mail, але ви можете очікувати на отримання його протягом 1-3 тижнів. Для Європи іноді митниці можуть затримувати замовлення без нашого відома. Якщо ви маєте будь-які занепокоєння, надішліть відповіть на електронний лист з підтвердженням замовлення, який ви отримали {0}.</value>
+    <value>У нас немає даних для відстеження посилки відправляючи її авіапоштою, але ви можете очікувати отримання протягом 1-3 тижнів. У Європі іноді митниці можуть затримувати замовлення без нашого відома. Якщо ви маєте будь-які занепокоєння, надішліть відповідь на електронний лист з підтвердженням замовлення, який ви отримали (або {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>надішліть нам email</value>
@@ -215,10 +215,10 @@
     <value>Скасувати замовлення</value>
   </data>
   <data name="order.cancel_confirm" xml:space="preserve">
-    <value>Це замовлення буде скасовано і оплата не буде прийнята за цей товар. Постачальник оплати не може негайно випустити зарезервовані кошти. Ви впевнені?</value>
+    <value>Це замовлення буде скасовано й оплата за цей товар не буде прийнята. Платіжний провайдер може утримати гроші на певний час. Ви впевнені?</value>
   </data>
   <data name="order.cancel_not_allowed" xml:space="preserve">
-    <value>Це замовлення не може бути скасоване в даний час.</value>
+    <value>Це замовлення не може бути скасоване зараз.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Переглянути рахунок</value>
@@ -326,10 +326,10 @@
     <value>Назва</value>
   </data>
   <data name="product.stock.out" xml:space="preserve">
-    <value>В даний час товар немає в наявності. Зазирни сюди пізніше!</value>
+    <value>Наразі товару немає в наявності. Зазирни сюди пізніше!</value>
   </data>
   <data name="product.stock.out_with_alternative" xml:space="preserve">
-    <value>Даний тип в даний час відсутній на складі :(. Зазирни сюди пізніше.</value>
+    <value>На жаль цей товар відсутній на складі :(. Перевір інші товари, або зазирни сюди пізніше.</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
     <value>До кошика</value>
@@ -350,10 +350,10 @@
     <value>подарунок для гравця</value>
   </data>
   <data name="supporter_tag.gift_message" xml:space="preserve">
-    <value>додайте додаткове повідомлення до вашого подарунка! (до {0} символів)</value>
+    <value>додайте повідомлення до вашого подарунка! (до {0} символів)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Ви маєте бути {0} для покупки тегу osu!прихильника!</value>
+    <value>Ви маєте {0} для покупки тегу osu!supporter!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>увійти</value>

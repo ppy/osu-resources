@@ -140,11 +140,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsetMetadataNominated => new TranslatableString(getKey(@"beatmapset.metadata.nominated"), @"You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly.");
 
         /// <summary>
-        /// "This channel is for announcements only."
-        /// </summary>
-        public static LocalisableString ChatAnnnonceOnly => new TranslatableString(getKey(@"chat.annnonce_only"), @"This channel is for announcements only.");
-
-        /// <summary>
         /// "Cannot message a user that is blocking you or that you have blocked."
         /// </summary>
         public static LocalisableString ChatBlocked => new TranslatableString(getKey(@"chat.blocked"), @"Cannot message a user that is blocking you or that you have blocked.");
@@ -163,6 +158,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "You do not have access to that channel."
         /// </summary>
         public static LocalisableString ChatNoAccess => new TranslatableString(getKey(@"chat.no_access"), @"You do not have access to that channel.");
+
+        /// <summary>
+        /// "You do not have permission to post announcement."
+        /// </summary>
+        public static LocalisableString ChatNoAnnounce => new TranslatableString(getKey(@"chat.no_announce"), @"You do not have permission to post announcement.");
 
         /// <summary>
         /// "The user may not be able to reply because you are only accepting messages from people on your friends list."
