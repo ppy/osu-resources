@@ -19,6 +19,6 @@ void main(void)
 {
     vec2 wrappedCoord = wrap(v_TexCoord, v_TexRect);
     vec4 texel = wrappedSampler(wrappedCoord, v_TexRect, m_Texture, m_Sampler, -0.9);
-    texel = mix(texel, m_DimColour, m_DimLevel);
+    texel.rgb = mix(texel.rgb, m_DimColour.rgb, m_DimLevel);
     o_Colour = getRoundedColor(texel, wrappedCoord);
 }
