@@ -79,6 +79,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString ModdingTitle => new TranslatableString(getKey(@"modding.title"), @"beatmap discussion");
 
+        /// <summary>
+        /// "Follow limit reached."
+        /// </summary>
+        public static LocalisableString StoreTooMany => new TranslatableString(getKey(@"store.too_many"), @"Follow limit reached.");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

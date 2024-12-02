@@ -223,6 +223,9 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supportere ville kunne komme ind snart)</value>
   </data>
+  <data name="ogp.modding_description_empty" xml:space="preserve">
+    <value>Brugeren har ingen beatmaps...</value>
+  </data>
   <data name="posts.title" xml:space="preserve">
     <value>{0}'s opslag</value>
   </data>
@@ -290,7 +293,7 @@
     <value>Du konto er blevet begrænset!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Når du er begrænset, kan du ikke interagere med andre spillere, og dine scores vil kun være synlige for dig. Dette er som regel en automatisk proces, og begrænsningen vil blive fjernet indenfor 24 timer. {0}</value>
+    <value>Når du er begrænset, kan du ikke interagere med andre spillere, og dine scores vil kun være synlige for dig. Dette er som regel en automatisk proces, og begrænsningen fjernes normalt indenfor 24 timer. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Tjek denne side for at lære mere.</value>
@@ -343,6 +346,12 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Vis omslag</value>
   </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Top 10%-placeringer</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Top 50%-placeringer</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Skift Coverbillede</value>
   </data>
@@ -382,6 +391,9 @@
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>sæt {0} som din default mode</value>
   </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Farve</value>
+  </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>ingen</value>
   </data>
@@ -414,6 +426,9 @@
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Elskede beatmaps</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Nominerede Rangerede Beatmaps</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Afventende Beatmaps</value>
@@ -602,13 +617,13 @@
     <value>{0} stemme|{0} stemmer</value>
   </data>
   <data name="show.extra.account_standing.title" xml:space="preserve">
-    <value>Account Status</value>
+    <value>Kontostatus</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>&lt;strong&gt;{0}'s&lt;/strong&gt; account er ikke i en god position :(</value>
+    <value>{0}'s konto er ikke i en god position :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>&lt;strong&gt;{0}&lt;/strong&gt; kan tale igen om {1}.</value>
+    <value>{0} kan tale igen {1}.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Seneste Overtrædelser</value>
@@ -622,6 +637,9 @@
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>længde</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
+    <value>Tidsubegrænset</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>beskrivelse</value>
   </data>
@@ -632,7 +650,7 @@
     <value>Ban</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
-    <value>Mute</value>
+    <value>Silence</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
     <value>Turneringsforbud</value>
@@ -752,7 +770,7 @@
     <value>Ranked &amp; Godkendte Beatmaps</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
-    <value>Du er i øjeblikket muted.</value>
+    <value>Du er silenced i øjeblikket.</value>
   </data>
   <data name="silenced_banner.message" xml:space="preserve">
     <value>Nogle handlinger kan være utilgængelige.</value>
@@ -765,6 +783,9 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Offline</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>fuldfør venligst registrationen via osu!s website</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Bruger Oprettet</value>

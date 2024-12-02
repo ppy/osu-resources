@@ -25,14 +25,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DailyChallengeBeatmap => new TranslatableString(getKey(@"daily_challenge.beatmap"), @"Difficulty");
 
         /// <summary>
-        /// "10th Percentile Score"
+        /// "Top 10% Score"
         /// </summary>
-        public static LocalisableString DailyChallengePercentile10 => new TranslatableString(getKey(@"daily_challenge.percentile_10"), @"10th Percentile Score");
+        public static LocalisableString DailyChallengeTop10p => new TranslatableString(getKey(@"daily_challenge.top_10p"), @"Top 10% Score");
 
         /// <summary>
-        /// "50th Percentile Score"
+        /// "Top 50% Score"
         /// </summary>
-        public static LocalisableString DailyChallengePercentile50 => new TranslatableString(getKey(@"daily_challenge.percentile_50"), @"50th Percentile Score");
+        public static LocalisableString DailyChallengeTop50p => new TranslatableString(getKey(@"daily_challenge.top_50p"), @"Top 50% Score");
 
         /// <summary>
         /// "Show"
