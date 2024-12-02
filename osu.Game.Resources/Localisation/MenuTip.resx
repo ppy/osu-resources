@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Press Ctrl-T anywhere in the game to toggle the toolbar!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Press Ctrl-O anywhere in the game to access settings!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>All settings are dynamic and take effect in real-time. Try changing the skin while watching autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>New features are coming online every update. Make sure to stay up-to-date!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>If you find the UI too large or small, try adjusting UI scale in settings!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Try adjusting the "Screen Scaling" mode to change your gameplay or UI area, even in fullscreen!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>What used to be "osu!direct" is available to all users just like on the website. You can access it anywhere using Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Seeking in replays is available by dragging on the progress bar at the bottom of the screen or by using the left and right arrow keys!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Try scrolling right in mod select to find a bunch of new fun mods!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Most of the web content (profiles, rankings, etc.) are available natively in-game from the icons on the toolbar!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Get more details, hide or delete a beatmap by right-clicking on its panel at song select!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Check out the "playlists" system, which lets users create their own custom and permanent leaderboards!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Toggle advanced frame / thread statistics with Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>You can pause during a replay by pressing Space!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Most of the hotkeys in the game are configurable and can be changed to anything you want. Check the bindings panel under input settings!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Your gameplay HUD can be customised by using the skin layout editor. Open it at any time via Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>You can create mod presets to make toggling your favourite mod combinations easier!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Many mods have customisation settings that drastically change how they function. Click the Customise button in mod select to view settings!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Press Ctrl-Shift-R to switch to a random skin!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>While watching a replay, press Ctrl-H to toggle replay settings!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>You can easily copy the mods from scores on a leaderboard by right-clicking on them!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter at song select will start a beatmap in autoplay mode!</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Multithreading support means that even with low "FPS" your input and judgements will be accurate!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>All delete operations are temporary until exiting. Restore accidentally deleted content from the maintenance settings!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Take a look under the hood at performance counters and enable verbose performance logging with Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>When your gameplay HUD is hidden, you can press and hold Ctrl to view it temporarily!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Drag and drop any image into the skin editor to load it in quickly!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>a tip for you:</value>
+  </data>
+</root>

@@ -190,6 +190,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TopicGoToLatest => new TranslatableString(getKey(@"topic.go_to_latest"), @"view latest post");
 
         /// <summary>
+        /// "view first unread post"
+        /// </summary>
+        public static LocalisableString TopicGoToUnread => new TranslatableString(getKey(@"topic.go_to_unread"), @"view first unread post");
+
+        /// <summary>
         /// "You have replied to this topic"
         /// </summary>
         public static LocalisableString TopicHasReplied => new TranslatableString(getKey(@"topic.has_replied"), @"You have replied to this topic");

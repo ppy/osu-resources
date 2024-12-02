@@ -86,7 +86,10 @@
     <value>E-mel</value>
   </data>
   <data name="edit.email.locked._" xml:space="preserve">
-    <value>Sila hubungi {0} jika anda mahu emel anda dikemaskini.</value>
+    <value>Sila hubungi akaun jika anda mahu emel anda dikemaskini.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>akaun sokongan khidmat</value>
   </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
@@ -98,7 +101,7 @@
     <value>API Legasi</value>
   </data>
   <data name="edit.password.current" xml:space="preserve">
-    <value>kata laluan terkini</value>
+    <value>Kata laluan semasa</value>
   </data>
   <data name="edit.password.new" xml:space="preserve">
     <value>kata laluan baharu</value>
@@ -139,6 +142,9 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>kemas kini</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Jika anda kontributor kepada osu! repositori sumber terbuka, menghubungkan akaun Github anda disini akan mengaitkan entri log perubahan dengan osu! profil anda. Akaun Github tanpa sejarah kontribusi kepada osu! tidak boleh dihubungkan.</value>
+  </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Pautkan Akaun Github</value>
   </data>
@@ -151,6 +157,12 @@
   <data name="github_user.error.already_linked" xml:space="preserve">
     <value>Akaun Github ini telah dipautkan dengan pengguna lain.</value>
   </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Tidak boleh menghubungkan akaun Github tanpa sebarang sejarah kontribusi dalam repositori osu!.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Sila sahkan e-mel utama anda di Github, seterusnya pautkan akaun anda sekali lagi.</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>terima notifikasi untuk masalah baru pada beatmap berkelayakan pada mod tersebut </value>
   </data>
@@ -161,7 +173,7 @@
     <value>terima notifikasi untuk balasan pada komen anda</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
-    <value>Notifikasi</value>
+    <value>Notifications</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
     <value>hidupkan notifikasi secara automatik pada topik forum baru yang anda cipta</value>

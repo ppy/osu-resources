@@ -113,7 +113,7 @@
     <value>Vain vireillä olevien rytmikarttojen keskusteluja voi äänestää.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Voit poistaa vaan omia viestejä.</value>
+    <value>Voit poistaa vaan omia postauksiasi.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
     <value>Et voi poistaa ratkaistun keskustelun viestiä.</value>
@@ -122,7 +122,7 @@
     <value>Automaattisesti luotua viestiä ei voi poistaa.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Vain lähettäjä voi muokata viestiä.</value>
+    <value>Vain lähettäjä voi muokata postausta.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
     <value>Et voi muokata ratkaistun keskustelun viestiä.</value>
@@ -134,13 +134,13 @@
     <value>Tämän rytmikartan keskustelu on lukittu.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Et voi muuttaa ehdolle asetetun kartan kuvailutietoja. Ota yhteyttä BN- tai NAT-jäseneen, jos luulet sen olevan virheellinen.</value>
+    <value>Et voi muuttaa ehdolle asetetun kartan metatietoja. Ota yhteyttä BN- tai NAT-jäseneen, jos ajattelet niiden olevan virheellisiä.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Et voi lähettää viestejä käyttäjälle, joka on estänyt sinut tai jonka olet estänyt.</value>
   </data>
   <data name="chat.friends_only" xml:space="preserve">
-    <value>Käyttäjä on estänyt viestit henkilöiltä, jotka eivät ole hänen kaverilistassaan.</value>
+    <value>Käyttäjä on estänyt viestit henkilöiltä, jotka eivät ole heidän kaverilistallaan.</value>
   </data>
   <data name="chat.moderated" xml:space="preserve">
     <value>Tätä kanavaa moderoidaan.</value>
@@ -148,23 +148,26 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Sinulla ei ole oikeuksia tälle kanavalle.</value>
   </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Sinulla ei ole oikeutta ilmoitusten postaamiseen.</value>
+  </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Käyttäjä ei välttämättä pysty vastaamaan, koska hyväksyt viestejä vain kaverilistallasi olevilta henkilöiltä.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
+    <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai estettynä.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
-    <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai bännättynä.</value>
+    <value>Et voi lähettää viestejä mykistettynä, rajoitettuna tai estettynä.</value>
   </data>
   <data name="comment.store.disabled" xml:space="preserve">
     <value>Kommentit ovat poistettu käytöstä</value>
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
-    <value>Poistettuja viestejä ei voi mukata.</value>
+    <value>Poistettuja postauksia ei voi muokata.</value>
   </data>
   <data name="contest.judging_not_active" xml:space="preserve">
-    <value>Tuomarointi tälle kilpailulle ei ole avoinna.</value>
+    <value>Tuomarointi tälle kilpailulle ei ole aktiivinen.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Et voi muuttaa ääntäsi tälle kilpailulle äänestysajan loppumisen jälkeen.</value>
@@ -173,7 +176,7 @@
     <value>Olet saavuttanut kilpailuun lähetettävien töiden rajan</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>Kiitos lähettämistänne töistä! Kilpailuun ei oteta enää ehdokkaita ja äänestys avataan pian.</value>
+    <value>Kiitos lähettämistänne töistä! Töiden lähettäminen on suljettu ja äänestys avataan pian.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>Sinulla ei ole oikeutta moderoida tätä foorumia.</value>
@@ -188,10 +191,10 @@
     <value>Tarvitset pääsyn tälle foorumille.</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>Vain lähettäjä voi poistaa viestin.</value>
+    <value>Vain lähettäjä voi poistaa postauksen.</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
-    <value>Poistettuja viestejä ei voi muokata.</value>
+    <value>Poistettua postausta ei voi muokata.</value>
   </data>
   <data name="forum.post.edit.locked" xml:space="preserve">
     <value>Viestin muokkaaminen on estetty.</value>
@@ -200,7 +203,7 @@
     <value>Tarvitset pääsyn tälle foorumille.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>Vain lähettäjä voi muokata viestiä.</value>
+    <value>Vain lähettäjä voi muokata postausta.</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
     <value>Lukitun aiheen viestiä ei voi muokata.</value>
@@ -209,10 +212,10 @@
     <value>Pyydämme, että kokeilet peliä ennen viestin lähettämistä foorumeille! Jos kohtaat ongelmia pelatessasi, lähetä viesti foorumin apu- ja tukialueelle.</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Sinun on pelattava peliä enemmän, ennen kuin voit luoda useampia viestejä. Jos sinulla on edelleen ongelmia pelin kanssa, lähetä sähköpostia osoitteeseen support@ppy.sh</value>
+    <value>Sinun on pelattava peliä enemmän, ennen kuin voit luoda enemmän postauksia. Jos sinulla on edelleen ongelmia pelin pelaamisen kanssa, lähetä sähköpostia osoitteeseen support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
-    <value>Muokkaa edellistä viestiä uuden lähettämisen sijaan.</value>
+    <value>Muokkaa edellistä postaustasi uuden lähettämisen sijaan.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>Et voi vastata lukittuun aiheeseen.</value>
