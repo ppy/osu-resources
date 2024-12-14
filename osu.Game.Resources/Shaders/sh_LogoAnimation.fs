@@ -18,7 +18,13 @@ void main(void)
     // todo: workaround for a SPIR-V bug (https://github.com/ppy/osu-framework/issues/5719)
     float one = g_BackbufferDraw ? 1 : 0;
 
-    vec4 colour = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9) * one;
+    vec4 texel = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9) * one;
 
-    o_Colour = colour.r < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a) : vec4(0);
+    // in the logo animation textures, progress information is stored in red channel, 
+    // and alpha information is stored in green channel. this is done this way
+    // to avoid alpha pre-multiplication causing data precision loss.
+    float current = texel.r;
+    float alpha = texel.g;
+
+    o_Colour = current < progress ? v_Colour.rgba * alpha : vec4(0);
 }
