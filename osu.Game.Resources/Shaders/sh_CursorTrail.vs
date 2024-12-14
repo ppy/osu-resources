@@ -22,7 +22,7 @@ void main(void)
     vec3 maskingPos = g_ToMaskingSpace * vec3(m_Position, 1.0);
     v_MaskingPosition = maskingPos.xy / maskingPos.z;
 
-    v_Colour = vec4(m_Colour.rgb, m_Colour.a * pow(clamp(m_Time - g_FadeClock, 0.0, 1.0), g_FadeExponent));
+    v_Colour = m_Colour.rgba * pow(clamp(m_Time - g_FadeClock, 0.0, 1.0), g_FadeExponent);
 
     v_TexCoord = m_TexCoord;
     v_TexRect = m_TexRect;

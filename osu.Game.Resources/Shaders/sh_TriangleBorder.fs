@@ -55,5 +55,5 @@ void main(void)
 
     lowp vec4 col = getRoundedColor(vec4(1.0), v_TexCoord);
 
-    o_Colour = vec4(col.rgb, col.a * alpha);
+    o_Colour = col.rgba * alpha;
 }
