@@ -18,7 +18,12 @@ void main(void)
     // todo: workaround for a SPIR-V bug (https://github.com/ppy/osu-framework/issues/5719)
     float one = g_BackbufferDraw ? 1 : 0;
 
-    vec4 colour = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9) * one;
+    vec4 texel = texture(sampler2D(m_Texture, m_Sampler), v_TexCoord, -0.9) * one;
 
-    o_Colour = colour.r < progress ? vec4(v_Colour.rgb, v_Colour.a * colour.a) : vec4(0);
+    // progress information is stored in the red channel,
+    // and alpha information is stored in the green channel.
+    float current = texel.r;
+    float alpha = texel.g;
+
+    o_Colour = current < progress ? vec4(v_Colour.rgb, v_Colour.a * alpha) : vec4(0);
 }
