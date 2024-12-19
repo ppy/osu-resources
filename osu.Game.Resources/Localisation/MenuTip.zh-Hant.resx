@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>在任何地方按下 Ctrl-T 來切換工具欄！</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>在任何地方按下 Ctrl-O 來開啟設定！</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>所有設定皆為動態且即時奏效。嘗試在自動遊玩時切換Skin!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>每次更新都會推出新功能。務必保持更新喔！</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>如果您覺得UI太大或太小，請務必嘗試設定中的「調整UI大小」！</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>試著調整「螢幕縮放」模式，以改變你的遊戲或 UI 區域，即使在全螢幕模式下也能使用！</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>曾經的「osu!direct」可以像網站一樣供給大家使用。你能在任何地方點 Ctrl-B 來使用！</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>拖移下方的進度表或按左、右方向鍵可以在重播中調動播放時間！</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>在模組列表往右滑來看看好玩的新模組吧！</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>大多數的網站內容（個人檔案、成績等）在遊戲裡工具列中的圖示都可以做使用！</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>在歌曲選單中，對圖譜的版面右鍵點擊可以取得更多資訊、隱藏或刪除圖譜！</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>請參考「遊玩清單」系統，它可以讓使用者創造自己又自訂又永恆的計分板！</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>按下 Ctrl-F11 可以切換進階框架/執行緒統計資料！</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>你可以按下空白鍵來暫停重播！</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>遊戲中部分的快捷鍵都可以被自訂也可以改變成你像要的樣子。請參考按鍵綁定的設定！</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>您的遊玩中HUD可以用Skin版面編輯器來自定義。可以用 Ctrl-Shift-S 在任何時段打開！</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>您可以創造模組預設來更簡單地開啟您最喜歡的模組組合！</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>許多模組具有自訂設定，可以大幅改變它們的功能。在模組選擇畫面中點擊「自訂」按鈕來查看設定！</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>按下 Ctrl-Shift-R 可以切換到隨機skin！</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>在觀看重播時按Ctrl-H可以切換重播設定！</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>您可以右鍵點擊排行榜的分數來輕鬆地複製模組！</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>在歌曲選單中按 Ctrl-Enter 可以以自動遊玩的方式開始！</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>多執行緒支援意味著，即使在低幀率(FPS)下，你的輸入和判斷仍然會保持準確！</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>所有刪除操作在退出遊戲之前都是暫時性的，可以從設定→維護中恢復不小心刪除的內容！</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>按下 Ctrl-F2 可以查看性能計數器並啟用詳細的性能記錄！</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>如果您的遊戲 HUD 是隱藏的，可以按著 Ctrl 來即時的檢視！</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>把任何圖片拖曳到Skin版面編輯器裡可以快速地載入！</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>一個提示：</value>
+  </data>
+</root>

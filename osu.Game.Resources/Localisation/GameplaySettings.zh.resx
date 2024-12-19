@@ -89,13 +89,16 @@
     <value>是否显示 HUD</value>
   </data>
   <data name="show_health_display_when_cant_fail" xml:space="preserve">
-    <value>总是显示血量（即使启用 No Fail 模组）</value>
+    <value>不会失败时仍然显示血量</value>
   </data>
   <data name="show_replay_settings_overlay" xml:space="preserve">
     <value>显示回放设置界面</value>
   </data>
   <data name="fade_playfield_when_health_low" xml:space="preserve">
     <value>当血量低时屏幕变红</value>
+  </data>
+  <data name="star_fountains" xml:space="preserve">
+    <value>星星喷泉</value>
   </data>
   <data name="key_overlay" xml:space="preserve">
     <value>总是显示按键框</value>
@@ -105,6 +108,9 @@
   </data>
   <data name="always_show_hold_for_menu_button" xml:space="preserve">
     <value>总是在按下菜单按钮时保持显示</value>
+  </data>
+  <data name="require_holding_key_to_pause_gameplay" xml:space="preserve">
+    <value>长按按键暂停游戏</value>
   </data>
   <data name="always_play_first_combo_break" xml:space="preserve">
     <value>总是播放第一次连击中断的提示音</value>
