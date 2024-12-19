@@ -60,6 +60,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ButtonsAuthorising => new TranslatableString(getKey(@"buttons.authorising"), @"Authorising...");
 
         /// <summary>
+        /// "Back"
+        /// </summary>
+        public static LocalisableString ButtonsBack => new TranslatableString(getKey(@"buttons.back"), @"Back");
+
+        /// <summary>
         /// "Return to previous position"
         /// </summary>
         public static LocalisableString ButtonsBackToPrevious => new TranslatableString(getKey(@"buttons.back_to_previous"), @"Return to previous position");

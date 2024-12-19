@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="edit.saved" xml:space="preserve">
+    <value>Settings saved successfully</value>
+  </data>
+  <data name="edit.title" xml:space="preserve">
+    <value>Team Settings</value>
+  </data>
+  <data name="edit.description.label" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="edit.description.title" xml:space="preserve">
+    <value>Team Description</value>
+  </data>
+  <data name="edit.header.label" xml:space="preserve">
+    <value>Header Image</value>
+  </data>
+  <data name="edit.header.title" xml:space="preserve">
+    <value>Set Header Image</value>
+  </data>
+  <data name="edit.logo.label" xml:space="preserve">
+    <value>Team Flag</value>
+  </data>
+  <data name="edit.logo.title" xml:space="preserve">
+    <value>Set Team Flag</value>
+  </data>
+  <data name="edit.settings.application" xml:space="preserve">
+    <value>Team Application</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>Whether to allow people to apply for the team</value>
+  </data>
+  <data name="edit.settings.default_ruleset" xml:space="preserve">
+    <value>Default Ruleset</value>
+  </data>
+  <data name="edit.settings.default_ruleset_help" xml:space="preserve">
+    <value>The ruleset to be selected by default when visiting the team page</value>
+  </data>
+  <data name="edit.settings.title" xml:space="preserve">
+    <value>Team Settings</value>
+  </data>
+  <data name="edit.settings.url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="edit.settings.application_state.state_0" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="edit.settings.application_state.state_1" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="members.destroy.success" xml:space="preserve">
+    <value>Team member removed</value>
+  </data>
+  <data name="members.index.title" xml:space="preserve">
+    <value>Manage Members</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>Join Date</value>
+  </data>
+  <data name="members.index.table.remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="members.index.table.title" xml:space="preserve">
+    <value>Current Members</value>
+  </data>
+  <data name="members.index.status.status_0" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="members.index.status.status_1" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="show.bar.settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>Formed</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="show.members.members" xml:space="preserve">
+    <value>Team Members</value>
+  </data>
+  <data name="show.members.owner" xml:space="preserve">
+    <value>Team Leader</value>
+  </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="show.sections.info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+</root>

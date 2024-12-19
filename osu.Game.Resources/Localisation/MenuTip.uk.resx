@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Натисніть Ctrl-T будь-де, щоб перемикнути панель інструментів!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Натисніть Ctrl-O будь-де, щоб відкрити налаштування!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Всі налаштування динамічні та змінюються в реальному часі. Спробуйте змінити скін під час перегляду авторежиму!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Нові функції з'являються з кожним оновленням. Переконайтеся, що використовуєте останню версію гри!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Якщо вам здається, що інтерфейс занадто великий або малий, спробуйте відрегулювати його масштаб в налаштуваннях!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Спробуйте "Масштабування екрану", щоб змінити ігрову область або інтерфейс навіть у повноекранному режимі!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Те, що раніше називалося "osu!direct", тепер доступно всім користувачам так само, як і на сайті. Відкрити його можна будь-де, використовуючи Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Повтори можна перемотувати, перетягуйте індикатор прогресу внизу екрана або використовуйте стрілки вліво та вправо на клавіатурі!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Спробуйте прогорнути список модів вправо, щоб знайти купу нових та цікавих модів!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Практично все, що є на сайті (профілі, рейтинги й т.д.) доступно безпосередньо у грі через іконки на панелі інструментів!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Приховуйте або видаляйте мапи, натиснувши правою кнопкою миші на їх панелі під час вибору пісні!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Ознайомтесь із системою "плейлистів", яка дозволяє користувачам створювати власні та постійні таблиці рекордів!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Перегляньте розширену статистику кадрів/потоків, натиснувши Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Ви можете поставити повтор на паузу, натиснувши Пробіл!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Більшість гарячих клавіш у грі налаштовуються і можуть бути змінені на будь-які інші. Перевірте панель прив'язок у розділі "Пристрої" в налаштуваннях!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Ігровий інтерфейс можна налаштувати під себе в редакторі скінів. Відкрийте його в будь-який час за допомогою Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Ви можете створювати пресети модів, щоб легко перемикатись між улюбленими комбінаціями модів!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Багато модів мають налаштування, які кардинально змінюють їхню роботу. Натисніть кнопку Налаштувати у виборі модів та спробуйте змінити їх під себе!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Натисніть Ctrl-Shift-R, щоб перемкнутися на випадковий скін!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Під час перегляду повтору натисніть Ctrl-H, щоб змінювати його налаштування!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Ви можете легко скопіювати моди з результатів у таблиці лідерів, натиснувши на них правою кнопкою миші!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Натисніть Ctrl-Enter в меню вибору пісні щоб запустити мапу в авторежимі!</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Підтримка мультипоточності означає, що навіть з низьким "FPS" ваші попадання завжди будуть точними!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Всі операції видалення є тимчасовими до моменту виходу. Відновіть випадково видалений вміст у розділі "Управління" в налаштуваннях!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Зазирніть всередину лічильників продуктивності, увімкнув докладний журнал роботи за допомогою Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Коли інтерфейс приховано, утримуйте Ctrl для того щоб його переглянути!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Перетягніть будь-яке зображення в редактор скінів, щоб швидко завантажити його!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>порада:</value>
+  </data>
+</root>

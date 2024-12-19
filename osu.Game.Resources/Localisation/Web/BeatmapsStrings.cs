@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Beatmaps";
 
         /// <summary>
+        /// "Too many guest mappers."
+        /// </summary>
+        public static LocalisableString ChangeOwnerTooMany => new TranslatableString(getKey(@"change_owner.too_many"), @"Too many guest mappers.");
+
+        /// <summary>
         /// "Failed updating vote"
         /// </summary>
         public static LocalisableString DiscussionVotesUpdateError => new TranslatableString(getKey(@"discussion-votes.update.error"), @"Failed updating vote");

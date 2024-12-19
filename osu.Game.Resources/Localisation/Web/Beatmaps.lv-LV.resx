@@ -103,6 +103,9 @@
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Nospiediet enter, lai atbildētu.</value>
   </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Uzspied enter lai atbildētu. Uzspeid ctrl+enter lai atbildētu un atrisinātu.</value>
+  </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>Raksiet atbildi šeit</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskusijas</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} neatrisināta problēma|{0} neatrisinātas problēmas</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Sakļaut visu</value>
@@ -195,6 +201,9 @@
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>Publicēt piezīmi</value>
+  </data>
+  <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
+    <value>Noņemt visas nominācijas</value>
   </data>
   <data name="discussions.message_type_title.praise" xml:space="preserve">
     <value>Publicēt slavējumu</value>
@@ -442,6 +451,12 @@
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Tiek paredzēts, ka šī mape tiks ierindota {0}, ja netiks konstatētas problēmas. Tā ir #{1} {2}.</value>
   </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>Šī ritma-mape pašlaik ir nobloķēta no iziešanas no Kvalificēta statusa, līdz {0} tiks atrisināts.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>šīs problēmas</value>
+  </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>{0}</value>
   </data>
@@ -567,6 +582,9 @@
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Viss</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>nav uzstādīts</value>
   </data>
   <data name="status.any" xml:space="preserve">
     <value>Viss</value>

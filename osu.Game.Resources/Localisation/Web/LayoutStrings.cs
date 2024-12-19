@@ -500,6 +500,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PopupUserLinksScoringModeToggleTooltip => new TranslatableString(getKey(@"popup_user.links.scoring_mode_toggle_tooltip"), @"Adjust score values to feel more like classic uncapped scoring");
 
         /// <summary>
+        /// "My Team"
+        /// </summary>
+        public static LocalisableString PopupUserLinksTeam => new TranslatableString(getKey(@"popup_user.links.team"), @"My Team");
+
+        /// <summary>
         /// "Type to search!"
         /// </summary>
         public static LocalisableString PopupSearchInitial => new TranslatableString(getKey(@"popup_search.initial"), @"Type to search!");

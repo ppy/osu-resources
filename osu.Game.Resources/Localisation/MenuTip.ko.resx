@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>게임 어디에서든 Ctrl-T를 눌러 툴바를 켜고 끌 수 있어요!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>게임 어디에서든 Ctrl-O를 눌러 설정을 열 수 있어요!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>모든 설정은 실시간으로 적용돼요. 자동 플레이 도중에 스킨을 바꿔보세요!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>새 기능이 업데이트마다 추가돼요. 항상 최신 업데이트 상태를 유지하세요!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>UI가 너무 크거나 작다면, 설정에서 UI 크기를 조정해보세요!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>"화면 크기 조정" 모드를 설정하여 게임 플레이, UI 영역의 크기를 조정해 보세요. 전체 화면도 조정할 수 있어요!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>예전의 "osu!direct"는 이제 웹사이트처럼 모든 사용자에게 제공됩니다. Ctrl-B를 사용하면 어디서든 접근할 수 있어요!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>리플레이에서 원하는 부분으로 이동하려면 화면 하단의 진행 바를 드래그하거나 왼쪽, 오른쪽 화살표 키를 사용하세요!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>모드 선택 창에서 오른쪽으로 스크롤하여 재미있는 모드를 찾아보세요!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>대부분의 웹 콘텐츠(프로필, 랭킹 등)는 툴바의 아이콘을 통해 게임 내에서 바로 이용할 수 있어요!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>곡 선택 화면에서 비트맵 패널을 오른쪽 클릭하여 더 많은 정보를 확인하고, 숨기거나 삭제할 수 있어요!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>나에게 딱 맞는 영구적 리더보드를 만들 수 있는 "플레이리스트" 시스템을 확인해 보세요!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Ctrl-F11 키를 눌러 세부 프레임 / 스레드 통계를 켜고 끌 수 있어요!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>스페이스 바를 눌러 리플레이 도중에 일시 정지할 수 있어요!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>게임 내 대부분의 단축키는 원하는 대로 바꿀 수 있어요. 입력 설정 아래의 키 할당을 확인해 보세요!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>게임 플레이 HUD는 스킨 레이아웃 편집기를 사용하여 수정할 수 있어요. Ctrl-Shift-S 키를 눌러 어디에서든 열 수 있어요!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>모드 프리셋을 만들어 즐겨 찾는 모드 조합을 쉽게 고를 수 있어요!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>많은 모드들이 기능을 크게 변화시키는 맞춤 설정을 지원해요. 모드 선택 화면에서 "맞춤 설정" 버튼을 클릭하여 설정을 확인해 보세요!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Ctrl-Shift-R 키를 눌러 무작위로 스킨을 고를 수 있어요!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Ctrl-H 키를 눌러 리플레이를 보는 도중에 리플레이 설정을 켜고 끌 수 있어요!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>리더보드 내의 점수 기록을 오른쪽 클릭하여 모드를 복사할 수 있어요!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>곡 선택 창에서 Ctrl-Enter를 눌러 자동 재생 모드로 비트맵을 시작할 수 있어요!</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>멀티스레딩 지원 덕분에 낮은 "FPS"에서도 입력과 판정이 정확하게 이루어져요!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>모든 삭제 작업은 종료할 때까지 임시로 남아있어요. 실수로 삭제한 콘텐츠는 설정의 관리에서 복구할 수 있어요!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Ctrl-F2 키를 눌러 성능 카운터와 자세한 성능 로그를 활성화해 보세요!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>게임 플레이 HUD가 숨겨져 있을 때, Ctrl 키를 눌러 잠시 HUD를 볼 수 있어요!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>스킨 에디터에 이미지를 끌어다 놓아 빠르게 불러올 수 있어요!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>알아두면 좋은 팁:</value>
+  </data>
+</root>

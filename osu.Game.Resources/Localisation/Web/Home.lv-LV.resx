@@ -58,6 +58,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="landing.download" xml:space="preserve">
+    <value>Lejupielādēt tagad</value>
+  </data>
+  <data name="landing.online" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; pašlaik tiešsaistē
+&lt;strong&gt;{1}&lt;/strong&gt; spēles</value>
+  </data>
+  <data name="landing.peak" xml:space="preserve">
+    <value>Visvairāk, {0} lietotāji tiešsaistē</value>
+  </data>
+  <data name="landing.players" xml:space="preserve">
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; reģistrētie spēlētāji</value>
+  </data>
+  <data name="landing.title" xml:space="preserve">
+    <value>esi sveicināts</value>
+  </data>
+  <data name="landing.see_more_news" xml:space="preserve">
+    <value>skatīt vairāk jaunumus</value>
+  </data>
+  <data name="landing.slogan.main" xml:space="preserve">
+    <value>vislabākā brīvā ritma spēle</value>
+  </data>
   <data name="landing.slogan.sub" xml:space="preserve">
     <value>ritms ir tikai klikšķa attālumā</value>
   </data>
@@ -70,6 +92,9 @@
   <data name="search.empty_result" xml:space="preserve">
     <value>Nekas nav atrasts!</value>
   </data>
+  <data name="search.keyword_required" xml:space="preserve">
+    <value>Meklēšanas atslēgvārds ir nepieciešams</value>
+  </data>
   <data name="search.placeholder" xml:space="preserve">
     <value>rakstiet, lai meklētu</value>
   </data>
@@ -78,6 +103,12 @@
   </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Ielogojieties, lai meklētu bītmapes</value>
+  </data>
+  <data name="search.beatmapset.more" xml:space="preserve">
+    <value>{0} vairāk ritma-mapju meklēšanas rezultāti</value>
+  </data>
+  <data name="search.beatmapset.more_simple" xml:space="preserve">
+    <value>Redzēt vairāk ritma-mapju meklēšanas rezultātus</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
     <value>Bītmapes</value>
@@ -91,6 +122,9 @@
   <data name="search.forum_post.login_required" xml:space="preserve">
     <value>Ieiet, lai meklētu forumā</value>
   </data>
+  <data name="search.forum_post.more_simple" xml:space="preserve">
+    <value>Redzēt vairāk foruma meklēšanas rezultātus</value>
+  </data>
   <data name="search.forum_post.title" xml:space="preserve">
     <value>Forums</value>
   </data>
@@ -102,6 +136,9 @@
   </data>
   <data name="search.forum_post.label.include_deleted" xml:space="preserve">
     <value>iekļaut dzēstos rakstus</value>
+  </data>
+  <data name="search.forum_post.label.topic_id" xml:space="preserve">
+    <value>temats #</value>
   </data>
   <data name="search.forum_post.label.username" xml:space="preserve">
     <value>autors</value>
@@ -130,8 +167,14 @@
   <data name="search.user.more_simple" xml:space="preserve">
     <value>Rādīt vairāk spēlētāju meklēšanas rezultātus</value>
   </data>
+  <data name="search.user.more_hidden" xml:space="preserve">
+    <value>Spēlētāju meklētājs ir limitēts līdz {0} spēlētājiem. Pamēģini precizēt meklējamo. </value>
+  </data>
   <data name="search.user.title" xml:space="preserve">
     <value>Spēlētāji</value>
+  </data>
+  <data name="search.wiki_page.link" xml:space="preserve">
+    <value>Meklēt vikipēdijā</value>
   </data>
   <data name="search.wiki_page.more_simple" xml:space="preserve">
     <value>Rādīt vairāk wiki meklēšanas rezultātus</value>
@@ -142,17 +185,56 @@
   <data name="download.action" xml:space="preserve">
     <value>Lejupielādēt osu!</value>
   </data>
+  <data name="download.action_lazer" xml:space="preserve">
+    <value>Ielādēt osu!(lazer)</value>
+  </data>
+  <data name="download.action_lazer_description" xml:space="preserve">
+    <value>nākamais lielais atjauninājums osu!</value>
+  </data>
+  <data name="download.action_lazer_info" xml:space="preserve">
+    <value>apskatīt šo lapu priekš vairāk informācijas</value>
+  </data>
+  <data name="download.action_lazer_title" xml:space="preserve">
+    <value>pamēģini osu!(lazer)</value>
+  </data>
+  <data name="download.action_title" xml:space="preserve">
+    <value>ielādēt osu!</value>
+  </data>
+  <data name="download.for_os" xml:space="preserve">
+    <value>priekš {0}</value>
+  </data>
   <data name="download.macos-fallback" xml:space="preserve">
     <value>macOS lietotāji</value>
   </data>
   <data name="download.mirror" xml:space="preserve">
     <value>instalācija</value>
   </data>
+  <data name="download.or" xml:space="preserve">
+    <value>vai</value>
+  </data>
+  <data name="download.os_version_or_later" xml:space="preserve">
+    <value>{0} vai jaunāku </value>
+  </data>
+  <data name="download.other_os" xml:space="preserve">
+    <value>citas platformas</value>
+  </data>
+  <data name="download.quick_start_guide" xml:space="preserve">
+    <value>ātra sākuma pamācība</value>
+  </data>
   <data name="download.tagline" xml:space="preserve">
     <value>sagatavosim &lt;br&gt; tevi!</value>
   </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>video pamācība</value>
+  </data>
+  <data name="download.help._" xml:space="preserve">
+    <value>ja tev ir problēma ar spēles uzsākšanu vai konta reģistrēšanu, {0} vai {1}.</value>
+  </data>
+  <data name="download.help.help_forum_link" xml:space="preserve">
+    <value>apskatīt palīdzības forumu</value>
+  </data>
+  <data name="download.help.support_button" xml:space="preserve">
+    <value>kontaktēt atbalstu</value>
   </data>
   <data name="download.os.windows" xml:space="preserve">
     <value>priekš Windows</value>

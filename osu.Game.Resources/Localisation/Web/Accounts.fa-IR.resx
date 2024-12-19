@@ -67,6 +67,9 @@
   <data name="edit.avatar.title" xml:space="preserve">
     <value>اکس پرفایل</value>
   </data>
+  <data name="edit.avatar.reset" xml:space="preserve">
+    <value>بازنشانی</value>
+  </data>
   <data name="edit.avatar.rules" xml:space="preserve">
     <value>لطفا مطمئن شوید که تصویر نمایه شما به {0} پایبند است.&lt;br/&gt;این بدین معنیست که باید &lt;strong&gt;برای تمامی سنین مناسب باشد&lt;/strong&gt; یعنی بدون برهنگی ، فحاشی یا محتوای وسوسه انگیز.</value>
   </data>
@@ -82,6 +85,18 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>ایمیل</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>اگر میخواهید ایمیل خود را بروز کنید، لطفا با {0} صحبت کنید.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>تیم پشتیبانی حساب های کاربری</value>
+  </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>واسط برنامه‌نویسی نرم‌افزار</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>واسط برنامه‌نویسی نرم‌افزار قدیمی</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>پسورد فعلی</value>
   </data>
@@ -94,8 +109,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>پسورد</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>کشور</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>نمایه</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>بنظر میرسد که کشور ثبت شده حساب شما با کشور اقامت شما تطابق ندارد. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>بروز رسانی به {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>موقعیت فعلی</value>
@@ -114,6 +138,24 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>بروز کردن</value>
+  </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>اگر در مخازن منبع باز osu مشارکت می کنید، با پیوند دادن حساب GitHub خود به اینجا، لاگ تغییرات شما به نمایه osu شما متصل می شود. نمایه حساب‌های GitHub که سابقه مشارکت در osu! ندارند را نمی توان پیوند داد.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>پیوند دادن حساب GitHub</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>گیت‌هاب</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>لغو پیوند حساب GitHub</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>این حساب گیت‌هاب به نمایه شخص دیگری متصل شده است.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>نمی توان حساب گیت‌هابی که سابقه کمک به مخازن osu! نداشته را متصل کرد.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>دریافت اعلانات مشکلات جدید در بیت مپ های واجد شرایط در نوع های زیر</value>

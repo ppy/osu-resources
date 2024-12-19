@@ -58,8 +58,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="audio.autoplay" xml:space="preserve">
+    <value>Spēlēt nākamo sarakstu automātiski</value>
+  </data>
   <data name="defaults.page_description" xml:space="preserve">
     <value>osu! - Ritms ir tikai *klikšķa* attālumā! Ar Ouendan/EBA, Taiko un oriģināliem spēļu režīmiem, kā arī ar pilnveidotu, funkcionālu līmeņu rediģētāju.</value>
+  </data>
+  <data name="header.admin.root" xml:space="preserve">
+    <value>konsole</value>
+  </data>
+  <data name="header.artists.index" xml:space="preserve">
+    <value>saraksts</value>
+  </data>
+  <data name="header.beatmapsets.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header.beatmapsets.discussions" xml:space="preserve">
+    <value>diskusija</value>
+  </data>
+  <data name="header.changelog.index" xml:space="preserve">
+    <value>saraksts</value>
   </data>
   <data name="header.help.index" xml:space="preserve">
     <value>indekss</value>
@@ -72,6 +90,9 @@
   </data>
   <data name="header.store.products" xml:space="preserve">
     <value>produkti</value>
+  </data>
+  <data name="header.tournaments.index" xml:space="preserve">
+    <value>saraksts</value>
   </data>
   <data name="header.users.modding" xml:space="preserve">
     <value>modēšana</value>
@@ -145,6 +166,9 @@
   <data name="footer.general.changelog-index" xml:space="preserve">
     <value>Izmaiņu saraksts</value>
   </data>
+  <data name="footer.general.beatmaps" xml:space="preserve">
+    <value>Ritma-mapju Saraksts</value>
+  </data>
   <data name="footer.general.download" xml:space="preserve">
     <value>Lejupielādēt osu!</value>
   </data>
@@ -166,6 +190,9 @@
   <data name="footer.help.wiki" xml:space="preserve">
     <value>Wiki</value>
   </data>
+  <data name="footer.legal._" xml:space="preserve">
+    <value>Legālais &amp; Statuss</value>
+  </data>
   <data name="footer.legal.copyright" xml:space="preserve">
     <value>Autortiesības (DMCA)</value>
   </data>
@@ -181,6 +208,12 @@
   <data name="footer.legal.terms" xml:space="preserve">
     <value>Nosacījumi</value>
   </data>
+  <data name="errors.404.error" xml:space="preserve">
+    <value>Lapa trūkst</value>
+  </data>
+  <data name="errors.404.description" xml:space="preserve">
+    <value>Piedod, bet lapa kuru tu esi pieprasījis nav šeit!</value>
+  </data>
   <data name="errors.403.error" xml:space="preserve">
     <value>Tev šeit nevajedzētu būt.</value>
   </data>
@@ -190,8 +223,14 @@
   <data name="errors.401.error" xml:space="preserve">
     <value>Tev šeit nevajedzētu būt.</value>
   </data>
+  <data name="errors.401.description" xml:space="preserve">
+    <value>Tu varētu mēģināt iet atpakaļ. Vai varbūt pierakstīties.</value>
+  </data>
   <data name="errors.405.error" xml:space="preserve">
     <value>Lapas Trūkst</value>
+  </data>
+  <data name="errors.405.description" xml:space="preserve">
+    <value>Piedod, bet lapa kuru tu esi pieprasījis nav šeit!</value>
   </data>
   <data name="errors.429.error" xml:space="preserve">
     <value>Reitinga limits pārsniegts</value>
@@ -199,14 +238,38 @@
   <data name="errors.500.error" xml:space="preserve">
     <value>Ak nē! Kaut kas salūza! ;_;</value>
   </data>
+  <data name="errors.500.description" xml:space="preserve">
+    <value>Mums automātiski paziņo par katru kļūdu.</value>
+  </data>
   <data name="errors.fatal.error" xml:space="preserve">
     <value>Ak nē! Kaut kas salūza (ļoti)! ;_;</value>
+  </data>
+  <data name="errors.fatal.description" xml:space="preserve">
+    <value>Mums automātiski paziņo par katru kļūdu.</value>
+  </data>
+  <data name="errors.503.error" xml:space="preserve">
+    <value>Izslēgts remontdarbu dēļ!</value>
+  </data>
+  <data name="errors.503.description" xml:space="preserve">
+    <value>Parasti remonti var aizņemt no 5 sekundēm līdz 10 minūtēm. Ja remonti notiek ilgāk, apskatīt {0} priekš vairāk informācijas.</value>
+  </data>
+  <data name="errors.reference" xml:space="preserve">
+    <value>Tikai drošības dēļ, te ir kods, kuru tu vari iedot atbalstam!</value>
+  </data>
+  <data name="popup_login.button" xml:space="preserve">
+    <value>pierakstīties / reģistrēties</value>
+  </data>
+  <data name="popup_login.login.forgot" xml:space="preserve">
+    <value>Esmu aizmirsis/usi savus datus</value>
   </data>
   <data name="popup_login.login.password" xml:space="preserve">
     <value>parole</value>
   </data>
   <data name="popup_login.login.title" xml:space="preserve">
     <value>Ielogojieties, lai turpinātu</value>
+  </data>
+  <data name="popup_login.login.username" xml:space="preserve">
+    <value>lietotājvārds</value>
   </data>
   <data name="popup_login.login.error.email" xml:space="preserve">
     <value>Lietotājvārds vai e-pasta adrese neeksistē</value>
@@ -229,11 +292,23 @@
   <data name="popup_user.links.friends" xml:space="preserve">
     <value>Draugi</value>
   </data>
+  <data name="popup_user.links.legacy_score_only_toggle" xml:space="preserve">
+    <value>Lazer režīms</value>
+  </data>
+  <data name="popup_user.links.legacy_score_only_toggle_tooltip" xml:space="preserve">
+    <value>Lazer režīms rāda rezultātus, kuri ir uzstādīti no lazer ar jauno skaitīšanas algoritmu</value>
+  </data>
   <data name="popup_user.links.logout" xml:space="preserve">
     <value>Iziet</value>
   </data>
   <data name="popup_user.links.profile" xml:space="preserve">
     <value>Mans Profils</value>
+  </data>
+  <data name="popup_user.links.scoring_mode_toggle" xml:space="preserve">
+    <value>Klasiskā skaitīšana</value>
+  </data>
+  <data name="popup_user.links.scoring_mode_toggle_tooltip" xml:space="preserve">
+    <value>Pielāgot rezultātus klasiskākai vērtēšanas sistēmai</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
     <value>Rakstiet, lai meklētu!</value>
