@@ -21,13 +21,19 @@ layout(location = 0) out vec4 o_Colour;
 lowp vec4 bgColAt(highp float absoluteTexturePos, mediump float pathRadius)
 {
     highp float relativeTexturePos = clamp(absoluteTexturePos / pathRadius, 0.0, 1.5);
-    return mix(vec4(vec3(0.0), 0.2), vec4(vec3(1.0), 0.8), relativeTexturePos / 1.5);
+    vec4 result = mix(vec4(0.2), vec4(vec3(1.0), 0.8), relativeTexturePos / 1.5);
+    result = vec4(result.rgb * result.a, result.a);
+    return result;
 }
 
 lowp vec4 getColour(highp float absoluteTexturePos, mediump float pathRadius)
 {
     if (absoluteTexturePos > pathRadius - 1.0)
-        return mix(vec4(1.0), vec4(vec3(1.0), 0.0), absoluteTexturePos - (pathRadius - 1.0));
+    {
+        vec4 result = mix(vec4(1.0), vec4(vec3(1.0), 0.0), absoluteTexturePos - (pathRadius - 1.0));
+        result = vec4(result.rgb * result.a, result.a);
+        return result;
+    }
 
     if (absoluteTexturePos > pathRadius - 2.0)
         return mix(bgColAt(absoluteTexturePos, pathRadius), vec4(1.0), absoluteTexturePos - (pathRadius - 2.0));

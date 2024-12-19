@@ -6,5 +6,5 @@ lowp vec4 getColourAt(highp vec2 diff, highp vec2 size, lowp vec4 originalColour
 
     lowp float alpha = length(smoothstep(size, size * flashlightSmoothness, diff));
 
-    return originalColour * vec4(1.0, 1.0, 1.0, alpha);
+    return originalColour * vec4(alpha);
 }

@@ -31,7 +31,7 @@ lowp vec4 glowColAt(highp float absoluteTexturePos, highp float absoluteGlowPort
     mixValue *= mixValue;
     mixValue *= mixValue;
     mixValue *= mixValue; 
-    return vec4(glowColour.rgb, glowColour.a * mixValue);
+    return glowColour.rgba * mixValue;
 }
 
 lowp vec4 getColour(highp float absoluteTexturePos)
