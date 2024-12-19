@@ -68,7 +68,7 @@
     <value>驗證以繼續。</value>
   </data>
   <data name="restricted" xml:space="preserve">
-    <value>帳戶處於限制模式，無法進行該操作。</value>
+    <value>帳號處於限制模式，無法進行該操作。</value>
   </data>
   <data name="silenced" xml:space="preserve">
     <value>帳號被禁言，無法進行該操作。</value>
@@ -134,7 +134,10 @@
     <value>這個圖譜被鎖定討論。</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>你不能修改已提名的圖譜資訊。如果你認為有誤，請聯繫 BN 或 NAT 成員。</value>
+    <value>你不能修改已提名的圖譜資訊。如果你認為有誤，請聯絡 BN 或 NAT 成員。</value>
+  </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>您必須先在一個圖譜取得分數才能新增標籤。</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>無法向封鎖你或被你封鎖的人傳送訊息。</value>
@@ -279,6 +282,9 @@
   </data>
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>這個討論區僅限管理員查看。</value>
+  </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>只有房間主人才能關閉。</value>
   </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>無法置頂這類分數。</value>

@@ -85,17 +85,29 @@
   <data name="blocks.banner_text" xml:space="preserve">
     <value>Jūs esiet nobloķējis šo lietotāju.</value>
   </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Šis komentārs ir paslēpts.</value>
+  </data>
   <data name="blocks.blocked_count" xml:space="preserve">
     <value>bloķētie lietotāji ({0})</value>
   </data>
   <data name="blocks.hide_profile" xml:space="preserve">
     <value>Slēpt profilu</value>
   </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>paslēpt</value>
+  </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Šis raksts ir paslēpts.</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Šis lietotājs nav bloķēts.</value>
   </data>
   <data name="blocks.show_profile" xml:space="preserve">
     <value>Rādīt profilu</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>rādīt</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
     <value>Ir sasniegts bloķēsanas limits.</value>
@@ -106,14 +118,59 @@
   <data name="blocks.button.unblock" xml:space="preserve">
     <value>Atbloķēt</value>
   </data>
+  <data name="card.gift_supporter" xml:space="preserve">
+    <value>Uzdāvināt supporter statusu.</value>
+  </data>
   <data name="card.loading" xml:space="preserve">
     <value>Notiek ielāde...</value>
   </data>
   <data name="card.send_message" xml:space="preserve">
     <value>nosūtīt ziņu</value>
   </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>parole</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>paroles apstiprināšana</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>izveidot kontu</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>e-pasts</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>e-pasta apstiprināšana</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>lietotājvārds</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>izveidojot kontu, tu piekrīti {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>pakalpojumu sniegšanas noteikumi</value>
+  </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>Ak nē! Izskatās ka tavs konts ir atslēgts.</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-pasts</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Tu esi pārkāpis vienu vai vairākus no mūsu {0} vai {1}.</value>
+  </data>
+  <data name="disabled.reasons.tos.tos" xml:space="preserve">
+    <value>lietošanas noteikumi</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Lietotāji spēles veidā</value>
+  </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Tavs konts nav ilgi ticis izmantots.</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>Tavs konts nav ilgi ticis izmantots.</value>
   </data>
   <data name="login._" xml:space="preserve">
     <value>Ienākt</value>
@@ -124,11 +181,20 @@
   <data name="login.button_posting" xml:space="preserve">
     <value>Savienojas...</value>
   </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>Pierakstīšanās ar e-pastu pašlaik nav iespējama. Lūdzu izmanto lietotājvārdu tā vietā.</value>
+  </data>
   <data name="login.failed" xml:space="preserve">
     <value>Nepareizi dati</value>
   </data>
   <data name="login.forgot" xml:space="preserve">
     <value>Aizmirsāt paroli?</value>
+  </data>
+  <data name="login.info" xml:space="preserve">
+    <value>Lūdzu pieraksties lai turpinātu</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Pārāk daudz neizdevušos pierakstīšanās mēģinājumu, lūdzu izpildi captcha un mēģini vēlreiz. (Atsvaidzini lapu ja captcha nav redzama)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>jūsu IP adrese ir bloķēta. Lūdzu uzgaidiet pāris minūtes</value>
@@ -153,6 +219,21 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!atbalstītāji drīz pienāks klāt)</value>
+  </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Ritma-mapes {0}</value>
+  </data>
+  <data name="ogp.modding_description_empty" xml:space="preserve">
+    <value>Lietotājam nav ritma-mapes...</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Vieta ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>Valsts {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Globāli {0}</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>{0} raksti</value>
@@ -199,6 +280,9 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>Netīra spēle / Krāpšanās</value>
   </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Izmanto vairākus kontus</value>
+  </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Mani / citus apvainoja</value>
   </data>
@@ -219,6 +303,9 @@
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
     <value>Kamēr esiet ierobežots, jūs nevarēsiet sazināties ar citiem spēlētājiem un jūsu rezultāts būs pieejams tikai jums. Šis parasti mēdz būt rezultāts pateicoties automātiskam procesam un kas visticamāk tiks nolaists 24 stundu laikā. Ja vēlaties iesniegt apelāciju par jūsu ierobežojumu, lūgums &lt;a href="mailto{0}@ppy.sh"&gt;sazināties ar atbalsta komandu&lt;/a&gt;.</value>
+  </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>Apskati šo lapu lai uzzinātu vairāk.</value>
   </data>
   <data name="show.age" xml:space="preserve">
     <value>{0} gadus vecs</value>
@@ -255,6 +342,33 @@
   </data>
   <data name="show.plays_with" xml:space="preserve">
     <value>Spēlē ar {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} komentārs|{0} komentāri</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Paslēpt pārvalku</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Rādīt pārvalku</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Kopējais piedalīšanās skaits</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Ikdienas\nIzaicinājums</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Top 10% Novietojums</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Top 50% Novietojums</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Mainīt Profila Pārklāju</value>
@@ -488,22 +602,22 @@
     <value>Mājaslapa</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
-    <value>Viņi iespējams nomainīja savu lietotājvārdu.</value>
+    <value>Meklējamais cilvēks, iespējams nomainīja savu lietotājvārdu.</value>
   </data>
   <data name="show.not_found.reason_2" xml:space="preserve">
-    <value>Konts var nebūt pieejams sakarā ar drošības vai ļaunprātīgas izmantošanas saistībām.</value>
+    <value>Konts var nebūt uz kādu laiku pieejams, drošību vai ļaunprātīgu iemeslu dēļ.</value>
   </data>
   <data name="show.not_found.reason_3" xml:space="preserve">
-    <value>Iespējams, ka esi ielaidis rakstveida kļūdu!</value>
+    <value>Iespējams, ka esi izdarījis rakstveida kļūdu!</value>
   </data>
   <data name="show.not_found.reason_header" xml:space="preserve">
-    <value>Šim ir pāris iespējami iemesli:</value>
+    <value>Šim ir pāris iespējamu iemeslu:</value>
   </data>
   <data name="show.not_found.title" xml:space="preserve">
     <value>Lietotājs nav atrasts! ;_;</value>
   </data>
   <data name="show.page.button" xml:space="preserve">
-    <value>Rediģēt profila lapu</value>
+    <value>rediģēt profila lapu</value>
   </data>
   <data name="show.page.description" xml:space="preserve">
     <value>&lt;strong&gt;es!&lt;/strong&gt; ir personiski rediģējams lauks tavā profila lapā.</value>
@@ -518,7 +632,7 @@
     <value>Tev jābūt {0}, lai atvērtu šo iespēju.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
-    <value>osu!atbalstītājs</value>
+    <value>osu!supporter</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
     <value>Dotais ieguldījums {0}</value>
@@ -530,13 +644,13 @@
     <value>Valsts ranks pēc {0}</value>
   </data>
   <data name="show.rank.country_simple" xml:space="preserve">
-    <value>Valsts Rankējums</value>
+    <value>Valsts Pozīcijas</value>
   </data>
   <data name="show.rank.global" xml:space="preserve">
     <value>Globālais ranks pēc {0}</value>
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
-    <value>Globālais Rankējums</value>
+    <value>Globālās Pozīcijas</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Trāpījuma Precizitāte</value>
@@ -551,6 +665,6 @@
     <value>Spēļu skaits</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Loved Bītmapes</value>
+    <value>Iemīlētās Ritma-Mapes</value>
   </data>
 </root>

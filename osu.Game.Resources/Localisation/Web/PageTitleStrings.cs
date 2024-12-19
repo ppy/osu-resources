@@ -230,6 +230,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainSeasonsControllerDefault => new TranslatableString(getKey(@"main.seasons_controller._"), @"rankings");
 
         /// <summary>
+        /// "teams"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerDefault => new TranslatableString(getKey(@"main.teams_controller._"), @"teams");
+
+        /// <summary>
+        /// "team info"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerShow => new TranslatableString(getKey(@"main.teams_controller.show"), @"team info");
+
+        /// <summary>
         /// "tournaments"
         /// </summary>
         public static LocalisableString MainTournamentsControllerDefault => new TranslatableString(getKey(@"main.tournaments_controller._"), @"tournaments");
