@@ -175,6 +175,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OwnerEditorVersion => new TranslatableString(getKey(@"owner_editor.version"), @"Difficulty");
 
         /// <summary>
+        /// "Checking for updates..."
+        /// </summary>
+        public static LocalisableString RefreshChecking => new TranslatableString(getKey(@"refresh.checking"), @"Checking for updates...");
+
+        /// <summary>
+        /// "The discussion has updates, click to refresh."
+        /// </summary>
+        public static LocalisableString RefreshHasUpdates => new TranslatableString(getKey(@"refresh.has_updates"), @"The discussion has updates, click to refresh.");
+
+        /// <summary>
+        /// "No updates."
+        /// </summary>
+        public static LocalisableString RefreshNoUpdates => new TranslatableString(getKey(@"refresh.no_updates"), @"No updates.");
+
+        /// <summary>
+        /// "Updating..."
+        /// </summary>
+        public static LocalisableString RefreshUpdating => new TranslatableString(getKey(@"refresh.updating"), @"Updating...");
+
+        /// <summary>
         /// "Sign in to Respond"
         /// </summary>
         public static LocalisableString ReplyOpenGuest => new TranslatableString(getKey(@"reply.open.guest"), @"Sign in to Respond");

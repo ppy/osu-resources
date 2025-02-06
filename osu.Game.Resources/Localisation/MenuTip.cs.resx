@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Stiskni Ctrl-T kdekoli ve hře pro zobrazení/skrytí nástrojové lišty!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Stiskni Ctrl-O kdekoli ve hře pro přístup k nastavení!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Všechna nastavení jsou dynamická a projeví se v reálném čase. Zkus změnit skin při sledování autoplaye!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Nová funkcionalita je přidávána při každé aktualizaci. Nezapomeň vždy aktualizovat na nejnovější verzi!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Pokud se ti zdá uživatelské rozhraní příliš velké nebo malé, zkus upravit měřítko uživatelského rozhraní v nastavení!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Zkus upravit režim "škálování obrazovky" pro změnu oblasti hry nebo uživatelského rozhraní, a to i v režimu celé obrazovky!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Co bývalo "osu!direct" je k dispozici všem uživatelům stejně jako na webové stránce. Můžeš na něj kdekoli přejít pomocí Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Pohybování se v záznamech je možné tažením na panelu postupu v dolní části obrazovky nebo pomocí kláves šipek vlevo a vpravo!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Zkus se posunout doprava ve výběru módu, abys objevil spoustu nových zábavných módů!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Většina webového obsahu (profily, žebříčky, atd.) je k dispozici nativně ve hře pomocí ikon na nástrojové liště!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Získejte více podrobností, skryj nebo odstraň beatmapu kliknutím pravým tlačítkem myši na její panel při výběru skladby!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Vyzkoušej si systém "playlistů", který uživatelům umožňuje vytvářet své vlastní a trvalé žebříčky!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Vypni/zapni pokročilé statistiky snímků / vláken pomocí Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Přehrávání záznamu můžeš pozastavit stisknutím mezerníku!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Většina klávesových zkratek ve hře je konfigurovatelná a může být změněna na cokoliv, co tě napadne. Podívej se do sekce nastavení kláves v nastavení vstupu!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Tvoje herní HUD si můžeš přizpůsobit pomocí editoru rozložení skinu. Otevřít ho můžeš kdykoli pomocí Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Můžeš si vytvořit předvolby módů, které ti usnadní přepínání tvých oblíbených kombinací módů!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Mnoho módů má podrobnější nastavení, která drasticky mění způsob jejich fungování. Kliknutím na tlačítko Přizpůsobit ve výběru módu si můžeš toto nastavení zobrazit!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Stiskni Ctrl-Shift-R pro přepnutí na náhodný skin!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Při sledování záznamu můžeš zobrazit/skrýt nastavení přehrávání stisknutím klávesy Ctrl-H!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Módy za skóre na žebříčku můžeš snadno zkopírovat kliknutím pravým tlačítkem myši!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter při výběru skladby spustí beatmapu v autoplay režimu!</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Podpora multithreadingu znamená, že i s nízkým počtem "FPS" bude tvůj vstup a hodnocení přesné!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Všechny operace smazání jsou dočasné do ukončení aplikace. Obnov omylem smazaný obsah pomocí sekce Údržba v nastavení!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Pomocí Ctrl-F2 se podívej pod kapotu na počítadla výkonu a povol jeho podrobné logování!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Když je tvoje herní HUD skryté, tak si jej můžeš dočasně zobrazit stisknutím a podržením Ctrl!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Přetáhni a pusť jakýkoli obrázek do editoru skinu pro jeho rychlé přidání!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>tip:</value>
+  </data>
+</root>

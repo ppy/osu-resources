@@ -80,7 +80,7 @@
     <value>編輯</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>最後由 {0} 編輯於 {1} 。</value>
+    <value>最後由 {0} 在 {1} 編輯。</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
     <value>由 {0} 製作的客串難度</value>
@@ -92,10 +92,10 @@
     <value>該難度已被刪除，無法繼續討論</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>此圖譜的討論已被禁用。</value>
+    <value>此圖譜的討論已被停用。</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>帳戶被禁言，無法發佈討論。</value>
+    <value>禁言時無法發布討論。</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>選擇回覆類型</value>
@@ -104,13 +104,13 @@
     <value>按下 Enter 以回覆</value>
   </data>
   <data name="discussions.reply_resolve_notice" xml:space="preserve">
-    <value>按下 Enter 以回覆。按 Ctrl+Enter 以回覆與解決。</value>
+    <value>按下 Enter 以回覆。按下 Ctrl+Enter 以回覆並標記為解決。</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>在此處輸入您的回覆</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>回覆前請先登入。</value>
+    <value>登入以發文或回覆</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>已解決</value>
@@ -119,7 +119,7 @@
     <value>已修復</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>顯示刪除的項目</value>
+    <value>顯示已刪除的訊息</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>討論區</value>
@@ -128,10 +128,10 @@
     <value>{0} 個未解決問題</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
-    <value>收回全部</value>
+    <value>全部摺疊</value>
   </data>
   <data name="discussions.collapse.all-expand" xml:space="preserve">
-    <value>展開全部</value>
+    <value>全部展開</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
     <value>還沒有討論！</value>
@@ -146,28 +146,28 @@
     <value>解鎖討論</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
-    <value>鎖定的原因</value>
+    <value>鎖定原因</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>確認解鎖？</value>
+    <value>確定要解鎖嗎？</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>這篇貼文將發佈到圖譜討論區中。如需要檢查此圖譜某個特定部分，請在開頭加入時間戳 (例如: 00:12:345)。</value>
+    <value>這則貼文將發布至一般圖譜討論區。如要針對此難度提供修改意見，請在訊息開頭加上時間戳記（例如：00:12:345）。</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>每篇貼文僅加入一個時間戳，如需要檢查多個時間戳，請將時間戳分別發佈至不同貼文，並寫下發表意見。</value>
+    <value>如要針對多個時間戳記提供修改意見，請分多次發布訊息（每個時間戳記一則貼文）。</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>在此處輸入以發佈至整體 ({0})</value>
+    <value>在這裡輸入以發布至整體 ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>在此處輸入以發佈至整體 (所有難度)</value>
+    <value>在這裡輸入以發布至整體（所有難度）</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>在此處輸入以發佈評論</value>
+    <value>在這裡輸入以發布評論</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>在此處輸入以發佈至時間軸 ({0})</value>
+    <value>在這裡輸入以發布至時間軸 ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>取消提名</value>
@@ -203,7 +203,7 @@
     <value>推薦！</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
-    <value>備注</value>
+    <value>發布備註</value>
   </data>
   <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
     <value>刪除所有提名</value>
@@ -233,7 +233,7 @@
     <value>評論</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
-    <value>時間線</value>
+    <value>時間軸</value>
   </data>
   <data name="discussions.mode.scopes.general" xml:space="preserve">
     <value>目前難度</value>
@@ -248,7 +248,7 @@
     <value>時間戳</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>在編輯模式下按 Ctrl+C 並至您輸入的對話框中按 Ctrl+V 以加入時間戳！</value>
+    <value>在編輯模式下按下 Ctrl+C，然後貼到你的訊息中即可加入時間戳記！</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>新的討論</value>
@@ -272,10 +272,10 @@
     <value>尚未儲存</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>發佈於「所有難度」的無法進行時間戳記</value>
+    <value>發布於「所有難度」的無法進行時間戳記</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>如果這個 {0} 開頭是時間戳，時間戳會在「時間軸」下顯示。</value>
+    <value>如果這則貼文以時間戳記開頭，它將顯示在時間軸下方。</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>插入段落</value>
@@ -323,16 +323,16 @@
     <value>全部</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>這張圖譜於 {0} 被批准!</value>
+    <value>這張圖譜在 {0} 獲得核准！</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>這張圖譜自 {0} 就未更新了，或許它已經被作者拋棄了 ;w;</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>這張圖譜於 {0} 被 Loved !</value>
+    <value>這張圖譜於 {0} 被加入到社群喜愛分類！</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>這張圖譜於 {0} 進榜了!</value>
+    <value>這張圖譜於 {0} 進榜！</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>注意：這張圖譜被作者標記為製作中（半成品）</value>
@@ -356,13 +356,13 @@
     <value>已經推薦！</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>你確定嗎？這將會使用你剩下的 {0} 次推薦次數並且無法撤銷。</value>
+    <value>你確定嗎？這將會使用你剩下的 {0} 次推薦次數並且無法取消。</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>推薦這張圖譜讓它更容易被提名和進榜 ！</value>
+    <value>推薦這張圖譜讓它更容易被提名和進榜！</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>登錄並推薦這張譜面讓它更容易被提名然後 ranked ！</value>
+    <value>登入並推薦這張圖譜，讓它更容易被提名並進榜！</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>你將在 {0} 後獲得新的推薦次數。</value>
@@ -386,22 +386,22 @@
     <value>您已經提名過這張圖譜了</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>您不能提名此遊戲模式的圖譜</value>
+    <value>您不能提名這個遊戲模式的圖譜</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>刪除</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>你確定嗎？這個圖譜將被刪除，刪除後你將重新導向到你的個人資料頁面。</value>
+    <value>你確定嗎？這張圖譜將被刪除，刪除後你將重新導向到你的個人檔案頁面。</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>你確定嗎？這個圖譜將被刪除，刪除後你將重新導向到他的個人資料頁面。</value>
+    <value>你確定嗎？這張圖譜將被刪除，刪除後你將重新導向到他的個人檔案頁面。</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
-    <value>Disqualified 的理由？</value>
+    <value>請說明取消資格的原因。</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>於 {0} 被 Disqualified（{1}）。</value>
+    <value>於 {0} 被取消資格（{1}）。</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>沒有指定原因</value>
@@ -410,13 +410,13 @@
     <value>取消提名</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
-    <value>操作發生錯誤，請重新載入頁面。</value>
+    <value>執行該操作時發生錯誤，請嘗試重新整理頁面。</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
-    <value>喜歡</value>
+    <value>社群喜愛</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>選擇 Loved 圖譜的難度</value>
+    <value>選擇要移入社群喜愛狀態的難度</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>喜歡這張圖譜嗎？</value>
@@ -434,13 +434,13 @@
     <value>沒有足夠的推薦。</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>從 Loved 中移除</value>
+    <value>從社群喜愛中移除</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>從 Loved 中移除的原因：</value>
+    <value>從社群喜愛中移除的原因：</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
-    <value>提名數: {0}/{1}</value>
+    <value>提名數：{0}/{1}</value>
   </data>
   <data name="nominations.reset_message_deleted" xml:space="preserve">
     <value>已刪除</value>
@@ -449,10 +449,10 @@
     <value>提名狀態</value>
   </data>
   <data name="nominations.unresolved_issues" xml:space="preserve">
-    <value>仍然有需解決的問題 。</value>
+    <value>請先處理圖譜中待解決的問題。</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>若沒找到問題，該圖譜將於 {0} 進榜。位於 {1} 中的 #{2}。</value>
+    <value>如果沒有發現問題，這張圖譜預計會在 {0} 進榜。它在 {1} 中排名第 #{2}。</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>除非已解決 {0}，否則這張圖譜會一直處於已提名狀態。</value>
@@ -464,25 +464,25 @@
     <value>在{0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>ranking 列隊</value>
+    <value>排名佇列</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>不久後</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>提名進度於 {0} 被新問題 {1} 重置。</value>
+    <value>提名程序已由 {0} 在 {1} 重設，新的問題是 {2} ({3})。</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>{0}  {1} 因新问题 {2} ({3}) 而被 DQ.</value>
+    <value>由 {0} 在 {1} 取消資格，新的問題是 {2} ({3})。</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>你確定嗎？這個會移除圖譜從進榜和重設提名進度。</value>
+    <value>你確定嗎？這將把譜面從合格狀態移除並重設提名程序。</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>你確定嗎？提出新的問題會重置提名進度。</value>
+    <value>你確定嗎？提出新的問題將重設提名程序。</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>您確定要回報本圖譜的問題嗎？這問題將通知圖譜管理團隊。</value>
+    <value>你確定要回報這個譜面的問題嗎？這會通知圖譜管理團隊 (BN)。</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>輸入關鍵字...</value>
@@ -494,13 +494,13 @@
     <value>更多搜尋選項</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>按 {0} 篩選需要擁有有效的贊助者標籤</value>
+    <value>使用 {0} 進行篩選需要有效的 osu!supporter 標籤</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>沒有結果</value>
   </data>
   <data name="listing.search.not-found-quote" xml:space="preserve">
-    <value>姆....，什麼也沒有。</value>
+    <value>… 呃，什麼都沒找到。</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
     <value>其他資訊</value>
@@ -560,7 +560,7 @@
     <value>提名狀態</value>
   </data>
   <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
-    <value>按 {0} 篩選需先成為 {1}</value>
+    <value>使用 {0} 進行篩選需要有效的 {1}</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu! 贊助者標籤</value>
@@ -572,7 +572,7 @@
     <value>精選藝術家</value>
   </data>
   <data name="general.follows" xml:space="preserve">
-    <value>訂閱的作圖者</value>
+    <value>已訂閱的圖譜製作者</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>推薦難度</value>
@@ -593,7 +593,7 @@
     <value>所有</value>
   </data>
   <data name="status.approved" xml:space="preserve">
-    <value>批准</value>
+    <value>已核准</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
     <value>收藏</value>
@@ -605,19 +605,19 @@
     <value>擁有排行榜</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>社群喜愛</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>我的圖譜</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>待處理&amp;製作中</value>
+    <value>待處理</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>尚未完工 (WIP)</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
-    <value>Qualified</value>
+    <value>提名</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
     <value>已進榜</value>
@@ -668,37 +668,37 @@
     <value>所有</value>
   </data>
   <data name="language.english" xml:space="preserve">
-    <value>英語</value>
+    <value>英文</value>
   </data>
   <data name="language.chinese" xml:space="preserve">
     <value>漢語</value>
   </data>
   <data name="language.french" xml:space="preserve">
-    <value>法語</value>
+    <value>法文</value>
   </data>
   <data name="language.german" xml:space="preserve">
-    <value>德語</value>
+    <value>德文</value>
   </data>
   <data name="language.italian" xml:space="preserve">
-    <value>意大利語</value>
+    <value>義大利文</value>
   </data>
   <data name="language.japanese" xml:space="preserve">
-    <value>日語</value>
+    <value>日文</value>
   </data>
   <data name="language.korean" xml:space="preserve">
-    <value>韓語</value>
+    <value>韓文</value>
   </data>
   <data name="language.spanish" xml:space="preserve">
-    <value>西班牙語</value>
+    <value>西班牙文</value>
   </data>
   <data name="language.swedish" xml:space="preserve">
-    <value>瑞典語</value>
+    <value>瑞典文</value>
   </data>
   <data name="language.russian" xml:space="preserve">
-    <value>俄語</value>
+    <value>俄文</value>
   </data>
   <data name="language.polish" xml:space="preserve">
-    <value>波蘭語</value>
+    <value>波蘭文</value>
   </data>
   <data name="language.instrumental" xml:space="preserve">
     <value>樂器演奏</value>

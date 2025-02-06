@@ -65,46 +65,46 @@
     <value>難度 {0} 的作者已變更為 {1}。</value>
   </data>
   <data name="event.discussion_delete" xml:space="preserve">
-    <value>管理員刪除了 {0} 。</value>
+    <value>管理員刪除了 {0}。</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
-    <value>此圖譜的討論已被禁用。（{0}）</value>
+    <value>這張圖譜的討論已被停用。（{0}）</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
-    <value>管理員在 {0} 中刪除了這條回覆。</value>
+    <value>管理員在 {0} 中刪除了這則回覆。</value>
   </data>
   <data name="event.discussion_post_restore" xml:space="preserve">
-    <value>管理員在 {0} 中恢復了這條回覆。</value>
+    <value>版主已將 {0} 中的貼文恢復。</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
     <value>管理員已恢復 {0} 。</value>
   </data>
   <data name="event.discussion_unlock" xml:space="preserve">
-    <value>此圖譜的討論已被啟用。</value>
+    <value>這張圖譜的討論已被啟用。</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
-    <value>該圖譜因 {0}（{1}）被 {2} DQ</value>
+    <value>這張圖譜因 {0}（{1}）被 {2} 取消資格 (DQ)。</value>
   </data>
   <data name="event.disqualify_legacy" xml:space="preserve">
     <value>該圖譜因 {0} 被 DQ</value>
   </data>
   <data name="event.genre_edit" xml:space="preserve">
-    <value>曲風由 {0} 更改為 {1}。</value>
+    <value>曲風由 {0} 變更為 {1}。</value>
   </data>
   <data name="event.issue_reopen" xml:space="preserve">
-    <value>問題 {0} 被重新打開。</value>
+    <value>{0} 要求重審 {1} 提出的問題 {2}。</value>
   </data>
   <data name="event.issue_resolve" xml:space="preserve">
-    <value>問題 {0} 被標記為 “已解決”。</value>
+    <value>{0} 已解決 {1} 提出的問題 {2}。</value>
   </data>
   <data name="event.kudosu_allow" xml:space="preserve">
-    <value>討論 {0} 的 kudosu 移除操作已被重置。</value>
+    <value>討論串 {0} 的 Kudosu 拒絕已被移除。</value>
   </data>
   <data name="event.kudosu_deny" xml:space="preserve">
     <value>討論 {0} 所得的 kudosu 被移除。</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>討論 {0} 獲得了足夠的票數而被給予 kudosu 。</value>
+    <value>討論 {0} 獲得了足夠的票數而被給予 kudosu。</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
     <value>討論 {0} 失去了票數，並且所得 kudosu 已被移除。</value>
@@ -113,7 +113,7 @@
     <value>討論 {0} 所得的 kudosu 已經重新計算。</value>
   </data>
   <data name="event.language_edit" xml:space="preserve">
-    <value>語言由{0}更改為{1}</value>
+    <value>語言從 {0} 改為 {1}。</value>
   </data>
   <data name="event.love" xml:space="preserve">
     <value>受到 {0} 的喜愛</value>
@@ -125,13 +125,13 @@
     <value>由 {0} 提名 ({1})。</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>新問題 {0} （{1}）導致提名被重置。</value>
+    <value>新問題 {0}（{1}）導致提名被重設。</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
-    <value>{0} 重置了 {1} 的提名 ({2})</value>
+    <value>{0} 重設了 {1} 的提名 ({2})</value>
   </data>
   <data name="event.nomination_reset_received_profile" xml:space="preserve">
-    <value>{0} 重置了提名 ({1})</value>
+    <value>{0} 重設了提名 ({1})</value>
   </data>
   <data name="event.offset_edit" xml:space="preserve">
     <value>線上偏移調整已從 {0} 變更為 {1}。</value>
@@ -143,7 +143,7 @@
     <value>進榜</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
-    <value>由 {0} 從 Loved 中移除。({1})</value>
+    <value>由 {0} 從社群喜愛中移除。({1})</value>
   </data>
   <data name="event.tags_edit" xml:space="preserve">
     <value>標籤由 {0} 變更為 {1}。</value>
@@ -185,7 +185,7 @@
     <value>刪除討論的回覆</value>
   </data>
   <data name="type.discussion_post_restore" xml:space="preserve">
-    <value>恢復已刪除的討論的回覆</value>
+    <value>討論回覆恢復</value>
   </data>
   <data name="type.discussion_restore" xml:space="preserve">
     <value>恢復已刪除的討論</value>
@@ -197,7 +197,7 @@
     <value>編輯曲風</value>
   </data>
   <data name="type.issue_reopen" xml:space="preserve">
-    <value>重新打開討論</value>
+    <value>重審問題</value>
   </data>
   <data name="type.issue_resolve" xml:space="preserve">
     <value>討論被解決</value>
@@ -218,10 +218,10 @@
     <value>重新計算 Kudosu</value>
   </data>
   <data name="type.language_edit" xml:space="preserve">
-    <value>更改語言</value>
+    <value>變更語言</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Love</value>
+    <value>加到社群喜愛</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>被提名</value>
@@ -230,7 +230,7 @@
     <value>被取消提名</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>收到提名重置</value>
+    <value>收到提名重設</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>成人內容標記</value>
@@ -239,12 +239,12 @@
     <value>編輯偏移</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
-    <value>Qualification</value>
+    <value>合格</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>排名</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Loved 移除</value>
+    <value>移除社群喜愛</value>
   </data>
 </root>

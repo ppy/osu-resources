@@ -58,72 +58,256 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="toggle_chat" xml:space="preserve">
+    <value>Buka/tutup "overlay" perbualan</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>Buka/tutup "overlay" sosial</value>
+  </data>
+  <data name="reset_input_settings" xml:space="preserve">
+    <value>Set semula tetapan input</value>
+  </data>
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>Tunjuk/sorok "toolbar"</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>Buka/tutup tetapan</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>Buka/tutup senarai beatmap</value>
+  </data>
+  <data name="increase_volume" xml:space="preserve">
+    <value>Besarkan kelantangan</value>
+  </data>
+  <data name="decrease_volume" xml:space="preserve">
+    <value>Perlahankan kelantangan</value>
+  </data>
+  <data name="toggle_mute" xml:space="preserve">
+    <value>Bunyikan/senyapkan irama</value>
+  </data>
+  <data name="skip_cutscene" xml:space="preserve">
+    <value>Langkau "cutscene"</value>
+  </data>
+  <data name="quick_retry" xml:space="preserve">
+    <value>Percubaan pantas (tahan)</value>
+  </data>
+  <data name="take_screenshot" xml:space="preserve">
+    <value>Ambil tangkap layar</value>
+  </data>
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>Aktifkan/lumpuhkan butang tetikus</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Kembali</value>
+  </data>
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>Tingkatkan kelajuan tatal</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>Perlahankan kelajuan tatal</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="quick_exit" xml:space="preserve">
+    <value>Keluar cepat (tahan)</value>
+  </data>
+  <data name="music_next" xml:space="preserve">
+    <value>Lagu seterusnya</value>
+  </data>
+  <data name="music_prev" xml:space="preserve">
+    <value>Lagu sebelumnya</value>
+  </data>
+  <data name="music_play" xml:space="preserve">
+    <value>Main / jeda</value>
+  </data>
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>Tunjukkan/sembunyikan pemutar lagu</value>
+  </data>
+  <data name="select_previous" xml:space="preserve">
+    <value>Pilihan sebelumnya</value>
+  </data>
+  <data name="select_next" xml:space="preserve">
+    <value>Pilihan berikutnya</value>
+  </data>
+  <data name="select_previous_group" xml:space="preserve">
+    <value>Pilih kumpulan sebelumnya</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>Pilih kumpulan seterusnya</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Menu Utama</value>
+  </data>
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>Benarkan pemberitahuan</value>
+  </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>Buka profil</value>
+  </data>
+  <data name="pause_gameplay" xml:space="preserve">
+    <value>Jeda / sambung permainan</value>
+  </data>
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>Mod ubahsuai</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>Mod gubal</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>Mod reka bentuk</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>Mod masa</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>Tekan untuk BPM</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>Pemilih klon</value>
+  </data>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Tukar jarak grid secara berulang</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>Tukar jenis grid secara berulang</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>Uji arus permainan</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>Tekan untuk HUD</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>Kulit rawak</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>Jeda / sambung ulang tayang</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>Tunjukkan/sembunyi antara muka permainan</value>
+  </data>
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Tunjukkan/sembunyikan carta</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>Buka/tutup tempat pemilihan mod</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>Nyahpilih semua mod</value>
+  </data>
+  <data name="select_next_random" xml:space="preserve">
+    <value>Rawak</value>
+  </data>
+  <data name="select_previous_random" xml:space="preserve">
+    <value>Putar balik</value>
+  </data>
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>Pilihan Beatmap</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>Mod pengesahan</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>Alih pilihan ke kiri</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>Alih pilihan ke kanan</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>Terbalikkan pilihan secara melintang</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>Terbalikkan pilihan secara menegak</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>Naikkan jarak</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>Turunkan jarak</value>
+  </data>
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Tukar pembahagi beat snap sebelumnya secara berulang</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Tukar pembahagi beat snap seterusnya secara berulang</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>Tunjukkan/sembunyikan penyungting kulit</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>Tunjukkan/sembunyikan kiraan FPS</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>Meter volum sebelumnya</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>Meter volum seterusnya</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>Mencari ulangan ke hadapan</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>Mencari ulangan ke belakang</value>
+  </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Mencari ulangan ke hadapan satu bingkai</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Langkah ulangan ke belakang satu bingkai</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>Togol fokus chat</value>
+  </data>
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>Togol tetapan ulangan</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Simpan main semula</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Eksport main semula</value>
+  </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>Naikkan offset</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Turunkan offset</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Togol kawalan putaran</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Togol kawalan skala</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Aktifkan mod automatik</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Aktifkan henti sekejap</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Keluar cepat ke waktu permulaan</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Keluar cepat ke waktu ketika</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Naikkan kelajuan mod</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Turunkan kelajuan mod</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Mencari objek hit sebelumnya</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Mencari objek hit seterusnya</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Mencari titik sampel sebelumnya</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Mencari titik sampel seterusnya</value>
+  </data>
 </root>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Naciśnij Ctrl-T gdziekolwiek w grze, aby wyświetlić pasek narzędzi!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Naciśnij Ctrl-O gdziekolwiek w grze, aby uzyskać dostęp do ustawień!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Wszystkie ustawienia są dynamiczne i działają w czasie rzeczywistym. Spróbuj zmienić skórkę podczas oglądania autoplay'a!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Nowe funkcje pojawiają się w każdej aktualizacji. Bądź na bieżąco!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Jeśli uważasz, że interfejs jest za duży lub za mały, spróbuj dostosować skalę interfejsu w ustawieniach!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Spróbuj dostosować tryb „Skalowanie ekranu”, aby zmienić obszar rozgrywki lub interfejsu użytkownika, nawet w trybie pełnoekranowym!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>To, co kiedyś było „osu!direct”, jest dostępne dla wszystkich użytkowników, tak jak na stronie internetowej. Możesz uzyskać do niego dostęp w dowolnym miejscu za pomocą Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Możesz dowolnie przewijać powtórki, przeciągając pasek postępu u dołu ekranu lub używając strzałek lewo i prawo!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Spróbuj przewinąć w prawo w ekranie zmiany modyfikatorów, aby znaleźć kilka nowych zabawnych modyfikacji!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Większość zawartości stron (profile, rankingi, itp.) jest teraz dostępna bezpośrednio w grze na pasku narzędzi!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Uzyskaj więcej szczegółów, ukryj lub usuń beatmapę klikając prawym przyciskiem myszy na panelu przy wyborze piosenki!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Sprawdź system "playlist", który pozwala użytkownikom stworzenie swojej własnej z trwałą tabelą wyników!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Przełącz zaawansowane statystyki ramki / wątku z Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Możesz zatrzymać powtórkę, naciskając spację!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Większość skrótów klawiszowych w grze jest konfigurowalna i może być zmieniona, na jakikolwiek przycisk chcesz. Sprawdź panel przypisań w ustawieniach sterowania!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Nakładka podczas rozgrywki może być dostosowana za pomocą edytora układu skórki. Otwórz go w dowolnym momencie za pomocą Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Możesz utworzyć zestawienia modyfikatorów, aby ułatwić przełączanie się między twoimi ulubionymi kombinacjami modyfikatorów!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Wiele modyfikatorów ma możliwość dostosowania, które drastycznie zmieniają sposób, w jaki działają. Kliknij przycisk Dostosuj podczas wyboru modyfikatorów, aby wyświetlić ustawienia!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Naciśnij Ctrl-Shift-R, aby wybrać losową skórkę!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Kiedy oglądasz powtórkę, kliknij Ctrl-H, aby przełączyć ustawienia powtórki!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Możesz łatwo skopiować modyfikatory z wyników na tabeli wyników, klikając na nie prawym przyciskiem myszy!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter podczas wyboru piosenki rozpocznie beatmapę w trybie autoodtwarzania!</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Wsparcie wielowątkowe oznacza, że nawet przy niskim "FPS" twoje kliknięcia oraz oceny będą dokładniejsze!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Wszystkie operacje usuwania są tymczasowe, dopóki nie zamkniesz gry. Przywróć przypadkowo usunięte treści w zakładce Zarządzanie!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Zajrzyj pod maskę liczników wydajności i włącz szczegółowe rejestrowanie wydajności za pomocą Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Kiedy nakładka podczas rozgrywki jest ukryta, możesz nacisnąć i przytrzymać Ctrl, aby tymczasowo ją zobaczyć!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Przeciągnij i upuść dowolny obraz do edytora skinów, aby szybko go załadować!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>wskazówka dla ciebie:</value>
+  </data>
+</root>

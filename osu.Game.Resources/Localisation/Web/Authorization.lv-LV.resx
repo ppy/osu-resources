@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Kā būtu, ja tā vietā nedaudz paspēlētu osu!?</value>
+    <value>Kā būtu, ja tā vietā nedaudz paspēlētu osu?</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>Lūdzu, pierakstieties, lai turpinātu.</value>
@@ -68,7 +68,7 @@
     <value>Lūdzu, verificēt, lai turpinātu.</value>
   </data>
   <data name="restricted" xml:space="preserve">
-    <value>Nevar veikt darbību, kamēr esat ierobežots.</value>
+    <value>Nevar veikt darbību, kamēr esi ierobežots.</value>
   </data>
   <data name="silenced" xml:space="preserve">
     <value>Nevar veikt darbību, kamēr esat apklusināts.</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Nominētas mapes metadatus mainīt nevar. Sazinieties ar BN vai NAT locekli, ja uzskatāt, ka tā ir iestatīta nepareizi.</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Tev vajag uzstādīt rezultātu uz ritma-mapi lai pievienotu atzīmi.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Nevar nosūtīt ziņu lietotājam, kurš nobloķējis jūs vai kuru jūs esat nobloķējis.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Jums nav piekļuves tiesības uz šo kanālu.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Tev nav atļauja publicēt paziņojumu.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Lietotājs nevarēs atbildēt, jo jūs pieņemat ziņas tikai no cilvēkiem, kas ir jūsu draugu sarakstā.</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Nevar rediģēt izdzēstu rakstu.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Tiesāšana šīm sacensībām nav aktīva.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Jūs nevarat mainīt savu balsojumu pēc šī konkursa balsošanas perioda beigām.</value>
@@ -274,8 +283,14 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Tikai administrators var skatīt šo forumu.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Tikai istabas īpašnieks var to aizvērt.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>Nevar piespraust šāda veida rezultātu</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>Nevar piespraust izgāzušos rezultātu.</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Rezultātu var piespraust tikai rezultāta īpašnieks.</value>

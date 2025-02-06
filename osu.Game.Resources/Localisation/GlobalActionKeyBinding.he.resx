@@ -58,38 +58,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
+  <data name="toggle_chat" xml:space="preserve">
+    <value>מתג שכבת הצ'ט</value>
+  </data>
+  <data name="toggle_social" xml:space="preserve">
+    <value>מתג שכבת החברה</value>
+  </data>
   <data name="reset_input_settings" xml:space="preserve">
     <value>איפוס הגדרות</value>
   </data>
-  
-  
-  
+  <data name="toggle_toolbar" xml:space="preserve">
+    <value>מתג סרגל הכלים</value>
+  </data>
+  <data name="toggle_settings" xml:space="preserve">
+    <value>מתג הגדרות</value>
+  </data>
+  <data name="toggle_beatmap_listing" xml:space="preserve">
+    <value>מתג רשימת מפות</value>
+  </data>
   <data name="increase_volume" xml:space="preserve">
     <value>הגבר את עוצמת הקול</value>
   </data>
   <data name="decrease_volume" xml:space="preserve">
     <value>הנמך את עוצמת הקול</value>
   </data>
-  
+  <data name="toggle_mute" xml:space="preserve">
+    <value>מתג השתקה</value>
+  </data>
   <data name="skip_cutscene" xml:space="preserve">
     <value>דילוג על סרטון המעבר</value>
   </data>
-  
+  <data name="quick_retry" xml:space="preserve">
+    <value>ניסיון חדש מהיר (החזק)</value>
+  </data>
   <data name="take_screenshot" xml:space="preserve">
     <value>צלם מסך</value>
   </data>
-  
+  <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
+    <value>מתג כפתורי עכבר במהלך משחק</value>
+  </data>
   <data name="back" xml:space="preserve">
     <value>הקודם</value>
   </data>
-  
-  
+  <data name="increase_scroll_speed" xml:space="preserve">
+    <value>הגבר מהירות גלילה</value>
+  </data>
+  <data name="decrease_scroll_speed" xml:space="preserve">
+    <value>הנמך מהירות גלילה</value>
+  </data>
   <data name="select" xml:space="preserve">
     <value>בחר</value>
   </data>
-  
+  <data name="quick_exit" xml:space="preserve">
+    <value>יציאה מהירה (החזק)</value>
+  </data>
   <data name="music_next" xml:space="preserve">
     <value>שיר הבא</value>
   </data>
@@ -99,63 +121,193 @@
   <data name="music_play" xml:space="preserve">
     <value>נגן / הפסק</value>
   </data>
-  
+  <data name="toggle_now_playing" xml:space="preserve">
+    <value>מתג שכבת משחק כעת</value>
+  </data>
   <data name="select_previous" xml:space="preserve">
     <value>לבחירה הקודמת</value>
   </data>
   <data name="select_next" xml:space="preserve">
     <value>לבחירה הבאה</value>
   </data>
-  
-  
+  <data name="select_previous_group" xml:space="preserve">
+    <value>בחר קבוצה קודמת</value>
+  </data>
+  <data name="select_next_group" xml:space="preserve">
+    <value>בחר קבוצה הבאה</value>
+  </data>
   <data name="home" xml:space="preserve">
     <value>ראשי</value>
   </data>
-  
-  
+  <data name="toggle_notifications" xml:space="preserve">
+    <value>מתג התראות</value>
+  </data>
+  <data name="toggle_profile" xml:space="preserve">
+    <value>מתג פרופיל</value>
+  </data>
   <data name="pause_gameplay" xml:space="preserve">
     <value>עצור משחק</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="editor_setup_mode" xml:space="preserve">
+    <value>מצב הגדרת תצורה</value>
+  </data>
+  <data name="editor_compose_mode" xml:space="preserve">
+    <value>מצב יצירה</value>
+  </data>
+  <data name="editor_design_mode" xml:space="preserve">
+    <value>מצב עיצוב</value>
+  </data>
+  <data name="editor_timing_mode" xml:space="preserve">
+    <value>מצב תזמון</value>
+  </data>
+  <data name="editor_tap_for_bpm" xml:space="preserve">
+    <value>לחץ עבור BPM</value>
+  </data>
+  <data name="editor_clone_selection" xml:space="preserve">
+    <value>שכפל בחירה</value>
+  </data>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>החלף סביב בין מרווחי רשת</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>החלף סביב בין סוגי רשת</value>
+  </data>
+  <data name="editor_test_gameplay" xml:space="preserve">
+    <value>בחן מהלך משחק</value>
+  </data>
+  <data name="hold_for_hud" xml:space="preserve">
+    <value>החזק עבור תצוגה עילית</value>
+  </data>
+  <data name="random_skin" xml:space="preserve">
+    <value>סקין אקראי</value>
+  </data>
+  <data name="toggle_pause_replay" xml:space="preserve">
+    <value>עצור / המשך שידור חוזר</value>
+  </data>
+  <data name="toggle_in_game_interface" xml:space="preserve">
+    <value>מתג ממשק בתוך המשחק</value>
+  </data>
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>מתג לוח תוצאות בתוך המשחק</value>
+  </data>
+  <data name="toggle_mod_selection" xml:space="preserve">
+    <value>מתג בחירת מודים</value>
+  </data>
+  <data name="deselect_all_mods" xml:space="preserve">
+    <value>בטל בחירת כל המודים</value>
+  </data>
   <data name="select_next_random" xml:space="preserve">
     <value>רנדומלי</value>
   </data>
   <data name="select_previous_random" xml:space="preserve">
     <value>החזר לאחור</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="toggle_beatmap_options" xml:space="preserve">
+    <value>אפשרויות מפה</value>
+  </data>
+  <data name="editor_verify_mode" xml:space="preserve">
+    <value>מצב וידוא</value>
+  </data>
+  <data name="editor_nudge_left" xml:space="preserve">
+    <value>הינד בחירה שמאלה</value>
+  </data>
+  <data name="editor_nudge_right" xml:space="preserve">
+    <value>הינד בחירה ימינה</value>
+  </data>
+  <data name="editor_flip_horizontally" xml:space="preserve">
+    <value>הפוך בחירה אופקית</value>
+  </data>
+  <data name="editor_flip_vertically" xml:space="preserve">
+    <value>הפוך בחירה אנכית</value>
+  </data>
+  <data name="editor_increase_distance_spacing" xml:space="preserve">
+    <value>הגבר מרווחי מרחק</value>
+  </data>
+  <data name="editor_decrease_distance_spacing" xml:space="preserve">
+    <value>הנמך מרווחי מרחק</value>
+  </data>
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>החלף סביב למחלק צימוד הפעימות הקודם</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>החלף סביב למחלק צימוד הפעימות הבא</value>
+  </data>
+  <data name="toggle_skin_editor" xml:space="preserve">
+    <value>מתג עורך הסקינים</value>
+  </data>
+  <data name="toggle_fps_counter" xml:space="preserve">
+    <value>מתג מונה FPS</value>
+  </data>
+  <data name="previous_volume_meter" xml:space="preserve">
+    <value>מד ווליום קודם</value>
+  </data>
+  <data name="next_volume_meter" xml:space="preserve">
+    <value>מד ווליום הבא</value>
+  </data>
+  <data name="seek_replay_forward" xml:space="preserve">
+    <value>חפש קדימה בשידור חוזר</value>
+  </data>
+  <data name="seek_replay_backward" xml:space="preserve">
+    <value>חפש אחורה בשידור חוזר</value>
+  </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>הינד קדימה בשידור חוזר פריים בודד</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>הינד אחורה בשידור חוזר פריים בודד</value>
+  </data>
+  <data name="toggle_chat_focus" xml:space="preserve">
+    <value>מתג התמקדות בצ'ט</value>
+  </data>
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>מתג הגדרות שידור חוזר</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>שמור הילוך חוזר</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>ייצוא שידור חוזר</value>
+  </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>הגבר היסט</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>הנמך היסט</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>מתג שולט סיבוב</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>מתג שולט קנה מידה</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>מתג שיחוק אוטומטי</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>מתג עצירה מהירה</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>יציאה מהירה לזמן ראשוני</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>יציאה מהירה לזמן נוכחי</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>הגבר מהירות מוד</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>הנמך מהירות מוד</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>חפש עצם פגיעה קודם</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>חפש עצם פגיעה הבא</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>חפש נקודת דוגמית קול קודמת</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>חפש נקודת דוגמית קול הבאה</value>
+  </data>
 </root>

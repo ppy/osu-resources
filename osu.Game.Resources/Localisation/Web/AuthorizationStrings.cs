@@ -140,6 +140,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapsetMetadataNominated => new TranslatableString(getKey(@"beatmapset.metadata.nominated"), @"You cannot change metadata of a nominated map. Contact a BN or NAT member if you think it is set incorrectly.");
 
         /// <summary>
+        /// "You must set a score on a beatmap to add a tag."
+        /// </summary>
+        public static LocalisableString BeatmapTagStoreNoScore => new TranslatableString(getKey(@"beatmap_tag.store.no_score"), @"You must set a score on a beatmap to add a tag.");
+
+        /// <summary>
         /// "Cannot message a user that is blocking you or that you have blocked."
         /// </summary>
         public static LocalisableString ChatBlocked => new TranslatableString(getKey(@"chat.blocked"), @"Cannot message a user that is blocking you or that you have blocked.");
@@ -378,6 +383,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Only admin can view this forum."
         /// </summary>
         public static LocalisableString ForumViewAdminOnly => new TranslatableString(getKey(@"forum.view.admin_only"), @"Only admin can view this forum.");
+
+        /// <summary>
+        /// "Only room owner can close it."
+        /// </summary>
+        public static LocalisableString RoomDestroyNotOwner => new TranslatableString(getKey(@"room.destroy.not_owner"), @"Only room owner can close it.");
 
         /// <summary>
         /// "Can&#39;t pin this type of score"

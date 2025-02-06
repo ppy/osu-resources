@@ -55,6 +55,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString RoomErrorsDurationTooLong => new TranslatableString(getKey(@"room.errors.duration_too_long"), @"Duration is too long.");
 
         /// <summary>
+        /// "Room name is too long."
+        /// </summary>
+        public static LocalisableString RoomErrorsNameTooLong => new TranslatableString(getKey(@"room.errors.name_too_long"), @"Room name is too long.");
+
+        /// <summary>
         /// "active"
         /// </summary>
         public static LocalisableString RoomStatusActive => new TranslatableString(getKey(@"room.status.active"), @"active");

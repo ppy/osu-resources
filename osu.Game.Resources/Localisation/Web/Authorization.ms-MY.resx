@@ -106,6 +106,24 @@
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
     <value>Tidak dapat mengundi perbincangan sendiri.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Anda hanya boleh memadamkan post sendiri.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Anda tidak boleh memadamkan post perbincangan yang telah diselesaikan.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Post yang dijana secara automatik tidak boleh dipadamkan.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Hanya pembuat post boleh membuat pengeditan terhadap post tersebut.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Anda tidak boleh edit post perbincangan yang telah diselesaikan.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>Post yang dijana secara automatik tidak boleh dieditkan.</value>
+  </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
     <value>Beatmap ini dikunci bagi perbincangan.</value>
   </data>
@@ -120,6 +138,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Anda tiada kebenaran untuk mengakses saluran itu.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Anda tidak mempunyai kebenaran untuk post pengumuman.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Pengguna ini mungkin tidak boleh membalas kerana anda hanya menerima pesanan dari orang dalam senarai kawan anda.</value>
@@ -151,6 +172,9 @@
   <data name="forum.post.delete.locked" xml:space="preserve">
     <value>Tidak boleh padam hantaran bagi topik yang dikunci.</value>
   </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
+  </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
     <value>Hanya penghantar boleh memadam hantaran ini.</value>
   </data>
@@ -160,8 +184,62 @@
   <data name="forum.post.edit.locked" xml:space="preserve">
     <value>Hantaran ini dikunci daripada disunting.</value>
   </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
+  </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Hanya penghantar boleh memadam hantaran ini.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>Tidak boleh mengedit post topik yang dikunci.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Sila main game dulu sebelum membuat post di forum! Jika anda menghadapi apa-apa masalah ketika bermain, sila post masalah tersebut di Bantuan dan Sokongan forum.</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Daripada membuat post baharu, sila editkan post terakhir anda.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>Tidak boleh membalas jalur yang dikunci.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>Tiada kebenaran untuk membuat balasan.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Sila daftar masuk untuk membuat balasan.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>Tidak boleh membuat balasan semasa dibatasi.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>Tidak boleh membuat balasana semasa disenyapkan.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>Tiada kebenaran untuk memulakan topik baharu.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Pertukaran pengundian tidak dibenarkan.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Sila daftar masuk untuk mengundi.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>Tidak boleh mengundi semasa dibatasi.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>Tidak boleh mengundi semasa disenyapkan.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Akses kepada forum yang dimohon diperlukan.</value>
   </data>
   <data name="user.update_email.locked" xml:space="preserve">
     <value>alamat emel terkunci</value>

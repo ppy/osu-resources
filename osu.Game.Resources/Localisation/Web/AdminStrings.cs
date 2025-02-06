@@ -100,6 +100,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PagesRootSectionsGeneral => new TranslatableString(getKey(@"pages.root.sections.general"), @"General");
 
         /// <summary>
+        /// "User"
+        /// </summary>
+        public static LocalisableString PagesRootSectionsUsersHeader => new TranslatableString(getKey(@"pages.root.sections.users.header"), @"User");
+
+        /// <summary>
+        /// "Profile Cover Presets"
+        /// </summary>
+        public static LocalisableString PagesRootSectionsUsersCoverPresets => new TranslatableString(getKey(@"pages.root.sections.users.cover_presets"), @"Profile Cover Presets");
+
+        /// <summary>
         /// "This user is currently restricted."
         /// </summary>
         public static LocalisableString UsersRestrictedBannerTitle => new TranslatableString(getKey(@"users.restricted_banner.title"), @"This user is currently restricted.");
