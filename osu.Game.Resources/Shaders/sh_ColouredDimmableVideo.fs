@@ -18,9 +18,9 @@ void main(void)
 {
     vec2 wrappedCoord = wrap(v_TexCoord, v_TexRect);
     vec4 texel = wrappedSamplerRgb(wrappedCoord, v_TexRect, 0.0);
-    texel *= v_Colour;
+    texel = multiplyByVColour(texel);
     texel.rgb += m_DimColour.rgb;
-    o_Colour = getRoundedColor(texel, wrappedCoord);
+    o_Colour = applyRounding(texel, wrappedCoord);
 }
 
 #endif
