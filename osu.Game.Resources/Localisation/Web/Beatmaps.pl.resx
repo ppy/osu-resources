@@ -58,8 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Zbyt wielu gościnnych twórców beatmap.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Aktualizacja oceny nie powiodła się</value>
+    <value>Nie udało się zaktualizować oceny</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>zezwól na kudosu</value>
@@ -86,10 +89,10 @@
     <value>Gościnny poziom trudności autorstwa {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>Odmówiono uzyskania kudosu.</value>
+    <value>Odmówiono przyznania kudosu.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Ten poziom trudności został usunięty, więc nie można umieszczać w nim postów.</value>
+    <value>Nie możesz zamieszczać dyskusji dla usuniętego poziomu trudności.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
     <value>Tworzenie dyskusji dla tej beatmapy zostało wyłączone.</value>
@@ -104,13 +107,13 @@
     <value>Naciśnij Enter, aby odpowiedzieć.</value>
   </data>
   <data name="discussions.reply_resolve_notice" xml:space="preserve">
-    <value>Wciśnij Enter, aby odpowiedzieć. Wciśnij ctrl+enter, aby i rozwiązać.</value>
+    <value>Naciśnij Enter, aby odpowiedzieć. Naciśnij Ctrl+Enter, aby odpowiedzieć i rozwiązać dyskusję.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>Napisz tutaj swoją odpowiedź</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Zaloguj się, aby odpowiedzieć bądź opublikować uwagę</value>
+    <value>Zaloguj się, aby opublikować uwagi</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Rozwiązane</value>
@@ -137,7 +140,7 @@
     <value>Brak dyskusji!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
-    <value>Żadna dyskusja nie pasuje do wybranego filtru.</value>
+    <value>Brak dyskusji spełniających wybrane filtry.</value>
   </data>
   <data name="discussions.lock.button.lock" xml:space="preserve">
     <value>Zablokuj dyskusję</value>
@@ -158,16 +161,16 @@
     <value>Aby zgłosić uwagi dla kilku różnych znaczników czasu, utwórz dla nich odrębne posty (po jednym dla każdego znacznika czasu).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Utwórz post w ogólnej dyskusji ({0})</value>
+    <value>Pisz tutaj, aby utworzyć post w ogólnej dyskusji ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Utwórz post w ogólnej dyskusji (wszystkie poziomy trudności)</value>
+    <value>Pisz tutaj, aby utworzyć post w ogólnej dyskusji (wszystkie poziomy trudności)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Pisz tutaj, by zamieścić recenzję</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Utwórz post dla osi czasu ({0})</value>
+    <value>Pisz tutaj, aby utworzyć post dla osi czasu ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Zdyskwalifikuj</value>
@@ -179,7 +182,7 @@
     <value>Adnotacja</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
-    <value>Zresetuj nominację</value>
+    <value>Zresetuj nominacje</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
     <value>Pochwała</value>
@@ -197,10 +200,10 @@
     <value>Sugestia</value>
   </data>
   <data name="discussions.message_type_title.disqualify" xml:space="preserve">
-    <value>Zdyskwalifikuj</value>
+    <value>Zdyskwalifikuj beatmapę</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
-    <value>Nagłośnij</value>
+    <value>Nagłośnij beatmapę</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>Opublikuj adnotację</value>
@@ -227,7 +230,7 @@
     <value>Historia</value>
   </data>
   <data name="discussions.mode.general" xml:space="preserve">
-    <value>Główne {0}</value>
+    <value>Ogólne {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
     <value>Recenzje</value>
@@ -248,7 +251,7 @@
     <value>Znacznik czasu</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>Naciśnij Ctrl+C w edytorze i wklej swoją wiadomość, aby dodać znacznik czasu!</value>
+    <value>Naciśnij Ctrl+C w edytorze i wklej zawartość, aby dodać znacznik czasu!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Nowa dyskusja</value>
@@ -329,10 +332,10 @@
     <value>Ta beatmapa nie była aktualizowana od {0} i trafiła do kategorii porzuconych...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Ta beatmapa otrzymała status ulubionej społeczności {0}!</value>
+    <value>Ta beatmapa uzyskała status ulubionej społeczności {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Ta beatmapa otrzymała status rankingowy {0}!</value>
+    <value>Ta beatmapa uzyskała status rankingowy {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Ważne: Ta beatmapa została oznaczona przez twórcę jako aktualnie rozwijana.</value>
@@ -356,7 +359,7 @@
     <value>Już nagłośniono!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Na pewno? Zużyje to jedno z twoich możliwych nagłośnień. Tej czynności nie można cofnąć.</value>
+    <value>Czy na pewno chcesz to zrobić? Ta czynność jest nieodwracalna i zużyje jedno z twoich {0} dostępnych nagłośnień.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
     <value>Nagłośnij tę beatmapę, aby stała się bardziej widoczna dla nominatorów i osób modujących!</value>
@@ -380,7 +383,7 @@
     <value>Priorytet</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
-    <value>Zostaw ocenę</value>
+    <value>Zostaw opinię</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
     <value>Już nominowano tę beatmapę.</value>
@@ -425,7 +428,7 @@
     <value>Nominuj</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Nominować tę beatmapę?</value>
+    <value>Czy chcesz nominować tę beatmapę?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nominowana przez {0}</value>
@@ -476,10 +479,10 @@
     <value>{0} zdyskwalifikował(a) beatmapę {1} z powodu nowego problemu {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Czy na pewno chcesz to zrobić? Ta czynność odbierze tej beatmapie status zakwalifikowanej i zresetuje proces nominacji.</value>
+    <value>Czy na pewno chcesz to zrobić? Ta czynność zdyskwalifikuje tę beatmapę i zresetuje proces nominacji.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>Na pewno? Zgłoszenie nowego problemu zresetuje proces nominacji.</value>
+    <value>Czy na pewno chcesz to zrobić? Zgłoszenie nowego problemu zresetuje proces nominacji.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
     <value>Czy na pewno chcesz zgłosić problem z tą beatmapą? Powiadomi to nominatorów beatmap.</value>
@@ -536,7 +539,7 @@
     <value>Wykonawca</value>
   </data>
   <data name="listing.search.sorting.difficulty" xml:space="preserve">
-    <value>Poziom trudności</value>
+    <value>Trudność</value>
   </data>
   <data name="listing.search.sorting.favourites" xml:space="preserve">
     <value>Polubienia</value>

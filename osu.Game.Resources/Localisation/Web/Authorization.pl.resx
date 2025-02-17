@@ -95,10 +95,10 @@
     <value>Musisz ustawić gatunek i język przed nominowaniem beatmapy.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Tylko autor wątku i autor beatmapy mogą zakończyć dyskusję.</value>
+    <value>Tylko autor wątku i twórca beatmapy mogą zakończyć dyskusję.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Adnotacje mogą być dodawane tylko przez twórcę mapy, nominatora lub członka NAT.</value>
+    <value>Adnotacje mogą być dodawane tylko przez twórcę beatmapy, nominatora lub członka NAT.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>Nie możesz głosować w dyskusji utworzonej przez bota</value>
@@ -107,10 +107,10 @@
     <value>Zaczekaj, zanim zagłosujesz ponownie</value>
   </data>
   <data name="beatmap_discussion.vote.owner" xml:space="preserve">
-    <value>Nie możesz głosować we własnej dyskusji!</value>
+    <value>Nie możesz głosować we własnej dyskusji.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Możesz głosować tylko przy oczekujących beatmapach.</value>
+    <value>Możesz głosować tylko w dyskusjach do oczekujących beatmap.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Możesz usuwać tylko swoje posty.</value>
@@ -134,7 +134,10 @@
     <value>Tworzenie dyskusji dla tej beatmapy zostało zablokowane.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Nie możesz zmienić metadanych nominowanej mapy. Skontaktuj się z członkiem BN lub NAT, jeśli uważasz, że są one ustawione nieprawidłowo.</value>
+    <value>Nie możesz zmienić metadanych nominowanej beatmapy. Skontaktuj się z członkiem BN lub NAT, jeśli uważasz, że są one ustawione nieprawidłowo.</value>
+  </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Musisz ustanowić wynik na beatmapie, aby dodać do niej tag.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Nie możesz wysłać wiadomości do użytkownika, którego blokujesz lub który cię blokuje.</value>
@@ -149,7 +152,7 @@
     <value>Nie masz dostępu do tego kanału.</value>
   </data>
   <data name="chat.no_announce" xml:space="preserve">
-    <value>Nie posiadasz uprawnień do publikowania ogłoszeń.</value>
+    <value>Nie posiadasz uprawnień do zamieszczania ogłoszeń.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Ten użytkownik może nie być w stanie odpowiedzieć, ponieważ blokujesz prywatne wiadomości od osób spoza listy znajomych.</value>
@@ -167,10 +170,10 @@
     <value>Nie możesz edytować usuniętego posta.</value>
   </data>
   <data name="contest.judging_not_active" xml:space="preserve">
-    <value>Ocenianie dla tego konkursu nie jest aktywne.</value>
+    <value>Faza oceniania prac w tym konkursie nie jest aktywna.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
-    <value>Nie możesz zmieniać swojego głosu po zakończeniu głosowania.</value>
+    <value>Nie możesz zmienić swojego głosu po zakończeniu głosowania.</value>
   </data>
   <data name="contest.entry.limit_reached" xml:space="preserve">
     <value>Osiągnięto limit zgłoszeń dla tego konkursu</value>
@@ -280,11 +283,14 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Tylko administrator ma dostęp do tego forum.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Tylko właściciel pokoju może go zamknąć.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>Nie możesz przypiąć tego typu wyników</value>
   </data>
   <data name="score.pin.failed" xml:space="preserve">
-    <value>Nie można przypiąć niezaliczonego wyniku.</value>
+    <value>Nie możesz przypiąć wyniku zakończonego porażką.</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Nie możesz przypiąć czyjegoś wyniku.</value>

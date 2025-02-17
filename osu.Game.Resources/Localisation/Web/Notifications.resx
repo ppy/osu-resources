@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>news</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>team</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profile</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>all</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>profile</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>beatmaps</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>builds</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>chat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>forum</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>news</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>builds</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>team</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>chat</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>profile</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} replied</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Team join request</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>You're now member of team {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>You're now member of team {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Your request to join team {0} has been declined</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Your request to join team {0} has been declined</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>New beatmap</value>
   </data>
@@ -414,6 +435,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>There are new replies in "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>You're now member of team {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Your request to join team {0} has been declined</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} has created new beatmaps</value>

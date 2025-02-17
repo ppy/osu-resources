@@ -58,6 +58,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Added user to team.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Cancelled join request.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Rejected join request.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Requested to join team.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Team removed</value>
+  </data>
   <data name="edit.saved" xml:space="preserve">
     <value>Settings saved successfully</value>
   </data>
@@ -106,11 +121,44 @@
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>leaderboard</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>manage members</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Global Rank</value>
+  </data>
+  <data name="leaderboard.performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="leaderboard.total_score" xml:space="preserve">
+    <value>Total Score</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Team member removed</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Manage Members</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>No join requests at the moment.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Available slots</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Join Requests</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Requested At</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Status</value>
@@ -130,8 +178,20 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Active</value>
   </data>
-  <data name="show.bar.settings" xml:space="preserve">
-    <value>Settings</value>
+  <data name="part.ok" xml:space="preserve">
+    <value>Left the team ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Disband Team</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Request Join</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Cancel Join</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Leave Team</value>
   </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Formed</value>
@@ -145,10 +205,10 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>Team Leader</value>
   </data>
-  <data name="show.sections.members" xml:space="preserve">
-    <value>Members</value>
-  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Info</value>
+  </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>Members</value>
   </data>
 </root>

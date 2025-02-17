@@ -62,7 +62,7 @@
     <value>Dzēsts lietotājs</value>
   </data>
   <data name="beatmapset_activities.title" xml:space="preserve">
-    <value>Lietotāja modošanas vēsture</value>
+    <value>Lietotāja Mooficēšanas Vēsture</value>
   </data>
   <data name="beatmapset_activities.title_compact" xml:space="preserve">
     <value>Regulēšana</value>
@@ -154,11 +154,26 @@
   <data name="disabled.title" xml:space="preserve">
     <value>Ak nē! Izskatās ka tavs konts ir atslēgts.</value>
   </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>Ja nu gadijumā tu esi pārkoiāpis noteikumu, lūdzu iegaumē, ka mums galvenokārt ir 1 mēneša uzgadīšanas laiks, kurā mēs attaisnojumus nepieņemsim. Pēc šī perioda, tu vari ar mums sazināties, ja uzskati ka tas ir nepieciešams. Lūdzu iegaumē, ja tu izveidosi jaunu kontu pēc tam kad viens tika atslēgts, &lt;strong&gt;1 mēneša uzgaidīsanas periods tiks pagarināts&lt;/strong&gt;. Lūdzu arī iegaumē ka &lt;strong&gt;jo vairāk kontus tu izveidosi, jo tālāk tu pārkāpsi noteikumus&lt;/strong&gt;. Mēs stingri iesakam nenoiet uz to ceļu.</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Ja tu domā ka tā ir kļūda, droši vari sazināties ar mums (caur {0} vai uzspiežot "?" apakšējā labajā stūrī šajā lapā). Lūdzu iegum'ē to ka mēs vienmēr esam ļoti pārliecināti par saviem lēmumiem, jo tie tiek balstīti uz ļoti stipru informāciju. Mums arī paliek opcija noraidīt tavu pieprasījumu, ja mums ir aizdomas, ka tu esi tīšām negodīgs.</value>
+  </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-pasts</value>
   </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Tavs konts ir konpensējams. Tas var būt uz neilgu laiku izslēgts, kamēr tā identitāe tiek apstiprināta.</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>Ir daudzi iesmesli, kuru rezultātā tavs konts var tikt izslēgt:</value>
+  </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
     <value>Tu esi pārkāpis vienu vai vairākus no mūsu {0} vai {1}.</value>
+  </data>
+  <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
+    <value>kopienas noteikumi</value>
   </data>
   <data name="disabled.reasons.tos.tos" xml:space="preserve">
     <value>lietošanas noteikumi</value>
@@ -343,6 +358,9 @@
   <data name="show.plays_with" xml:space="preserve">
     <value>Spēlē ar {0}</value>
   </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Publicēja {0}</value>
+  </data>
   <data name="show.comments_count.count" xml:space="preserve">
     <value>{0} komentārs|{0} komentāri</value>
   </data>
@@ -351,6 +369,15 @@
   </data>
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Rādīt pārvalku</value>
+  </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Dienu </value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Labākais Dienu </value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Pašreizējais Dienu </value>
   </data>
   <data name="show.daily_challenge.playcount" xml:space="preserve">
     <value>Kopējais piedalīšanās skaits</value>
@@ -364,6 +391,15 @@
   <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
     <value>Top 50% Novietojums</value>
   </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Nedēļu </value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Labākais Nedēļu </value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Pašreizējais Nedēļu </value>
+  </data>
   <data name="show.daily_challenge.unit.day" xml:space="preserve">
     <value>{0}</value>
   </data>
@@ -375,6 +411,12 @@
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>Vairāk pārklāja iestatījumu būs pieejami nākotnē</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>Iepriekš izvēlētais pārklājs vairāk nav pieejams izvēlei. Tu nevari to izvēlēties atkal, pēc tam kad esi mto nomainījis uz citu. Turpināt?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Pārklājs</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Neizdevās apstrādāt bildi. Verificējiet augšupielādēto bildi un mēģiniet vēlreiz.</value>
@@ -409,6 +451,18 @@
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>uzstādīt {0} kā profila noklusējuma spēles režīmu</value>
   </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Iestatīt krāsu uz pamata krāsu? Atbalstītāja žertons būs nepieciešams, lai to nomainītu uz citu krāsu. </value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Krāsa</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Personalizējami krāsu dizaini ir pieejami tikai {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!atbalstītāji</value>
+  </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>neviens</value>
   </data>
@@ -436,8 +490,20 @@
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
     <value>Kapā Metamās Bītmapes</value>
   </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Viesu Dalības Ritma-Mapēs</value>
+  </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Mīļākās Bītmapes</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Nominētās Novērtētās Ritma-mapes</value>
+  </data>
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
+    <value>Gaidošās Ritma-mapes</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>Novērtētās Ritma-mapes</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>Diskusijas</value>
@@ -499,8 +565,50 @@
   <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
     <value>Šis lietotājs vēl nav saņēmis nevienu kudosu!</value>
   </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
+    <value>Saņēma {0} no kudosu??????????????????</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>Noliedza {0} no moderācijas raksta {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
+    <value>Pazaudēja {0} no moderācijas raksta izdzēšanas {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>Saņēma {0} no moderācijas raksta atjaunināšanas {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>Saņēma {0} no balsu saņemšanas moderācijas rakstā {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>Pazaudēja {0} no balsu zaudēšanas {1} rakstā</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>Saņēma {0} no balsu rekalkulāciias, {1} raksta modificēšanā</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>Pazaudēja {0} no balsu rekalkulāciias, {1} raksta modificēšanā</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>Saņēmis {0} no {1} rakstam {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>Kudosu atiestatīja {0} rakstam {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>Noliedza kudosu {0} rakstam {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Balstīts uz to lielu ieguldījumu lietotājs ir veicis ritma-mapes modificēšanā. Apskatīt {0} priekš vairāk informācijas.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>šī lapa</value>
+  </data>
   <data name="show.extra.me.title" xml:space="preserve">
     <value>Es!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Šis lietotājs nav necik saņēmis. ;_;</value>
   </data>
   <data name="show.extra.medals.recent" xml:space="preserve">
     <value>Jaunākais</value>
@@ -508,14 +616,23 @@
   <data name="show.extra.medals.title" xml:space="preserve">
     <value>Medaļas</value>
   </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Saraksta Spēles</value>
+  </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Ziņas</value>
   </data>
   <data name="show.extra.posts.title_longer" xml:space="preserve">
     <value>Jaunākās ziņas</value>
   </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>apskatīt vairāk rakstus</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Nesenie</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Daudzspēlētāju Spēles</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
     <value>Lejupielādēt Spēles Ierakstu</value>
@@ -537,6 +654,21 @@
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Pirmās Vietas Ranki</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Atspraust</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Nepiesprausts rezultāts</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Piespraust</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Piespraustais rezultāts</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Piespraustie Rezultāti</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
     <value>Dotās balsis (beidzamos 3 mēnešus)</value>
@@ -574,6 +706,9 @@
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>ilgums</value>
   </data>
+  <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
+    <value>Nenoteikts</value>
+  </data>
   <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
     <value>apraksts</value>
   </data>
@@ -585,6 +720,9 @@
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
     <value>Klusums</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Turnīru aizliegums</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>Piezīme</value>
@@ -652,11 +790,20 @@
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>Globālās Pozīcijas</value>
   </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Augstākais novietojums: {0} {1}</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Trāpījuma Precizitāte</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Līmenis {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>progress uz nākamo līmeni</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Maksimālā Kombinācija</value>
   </data>
   <data name="show.stats.medals" xml:space="preserve">
     <value>Medaļas</value>
@@ -664,7 +811,70 @@
   <data name="show.stats.play_count" xml:space="preserve">
     <value>Spēļu skaits</value>
   </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Kopējais Spēlēšanas Laiks</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Novērtēto Punktu Daudzums</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Atkārtojumi, kurus citi ir noskatījušies</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Punktu Reitingi</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Totālie sitieni</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Totālais Punktu Skaits</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Izmirušās Ritma-mapes</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Iemīlētās Ritma-Mapes</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>Uzgaidāmās Ritma-mapes</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Novērtētās Ritma-mapes</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Tu pašlaik esi apklusināts.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Dažas darbības iespējams var nebūt pieejamas.</value>
+  </data>
+  <data name="status.all" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>Pieslēdzies</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>Atslēdzies</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>lūdzu tā vietā reğistrējies ar spēles klijentu!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>lūdzu pabeidz reğistrāciju izmantojot osu! mājaslapu</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Lietotājs izveidots</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Konta Verifikācija</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Ķieğeļa skats</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Profila skats</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Saraksta skats</value>
   </data>
 </root>

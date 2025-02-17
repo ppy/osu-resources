@@ -104,10 +104,10 @@
     <value>Dyskusja {0} nie otrzyma kudosu.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Dyskusja {0} otrzymała wystarczająco dużo głosów na kudosu.</value>
+    <value>Dyskusja {0} użytkownika {1} otrzymała wystarczająco dużo głosów na kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Dyskusja {0} straciła głosy, a przyznane kudosu zostało odebrane.</value>
+    <value>Dyskusja {0} użytkownika {1} straciła głosy, a przyznane kudosu zostało odebrane.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Kudosu w dyskusji {0} zostało przekalkulowane.</value>
@@ -119,16 +119,16 @@
     <value>{0} nadał(a) tej beatmapie status ulubionej społeczności</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
-    <value>Nominowana przez {0}.</value>
+    <value>Nominowana przez użytkownika {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
     <value>Nominowana przez użytkownika {0} ({1}).</value>
   </data>
   <data name="event.nomination_reset" xml:space="preserve">
-    <value>Nowy problem {0} spowodował zresetowanie nominacji.</value>
+    <value>Nowy problem {0} ({1}) spowodował zresetowanie nominacji.</value>
   </data>
   <data name="event.nomination_reset_received" xml:space="preserve">
-    <value>Nominacja użytkownika {0} została zresetowana przez {1} ({2})</value>
+    <value>Nominacja użytkownika {0} została zresetowana przez użytkownika {1} ({2})</value>
   </data>
   <data name="event.nomination_reset_received_profile" xml:space="preserve">
     <value>Nominacja została zresetowana przez użytkownika {0} ({1})</value>
@@ -155,7 +155,7 @@
     <value>Oznaczono jako treść dla pełnoletnich</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Historia zdarzeń zestawów beatmap</value>
+    <value>Historia zdarzeń w beatmapach</value>
   </data>
   <data name="index.form.period" xml:space="preserve">
     <value>Okres</value>
@@ -230,7 +230,7 @@
     <value>Zresetowanie nominacji</value>
   </data>
   <data name="type.nomination_reset_received" xml:space="preserve">
-    <value>Nominacja została zresetowana</value>
+    <value>Ręczne zresetowanie nominacji</value>
   </data>
   <data name="type.nsfw_toggle" xml:space="preserve">
     <value>Oznaczenie jako treść dla pełnoletnich</value>

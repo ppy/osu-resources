@@ -58,13 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>E-pasts ir aizsūtīts uz {0} ar verifikācijas kodu. Ieraksti kodu.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Konta Verifikācija</value>
+  </data>
   <data name="box.verifying" xml:space="preserve">
     <value>Pārbauda...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>Sūta jaunu kode...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Pārliecinies ka esi arī pārbaudījis nevēlamajā sadaļā, ja tu nevari to atrast.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Ja tu nevari piekļūt savam e-pastam vai esi aizmirsis ko esi izmantojis, lūdzu seko saitei {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>e-pasta atgūšanas process šeit</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>Tu arī vari {0} vai {1}.</value>
   </data>
   <data name="box.info.reissue_link" xml:space="preserve">
     <value>pieprasīt vēl vienu kodu</value>
   </data>
   <data name="box.info.logout_link" xml:space="preserve">
     <value>izrakstīties</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>Verifikācijas kodam beidzies termiņš, aizsūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Nepareizs verifikācijas kods.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Nepareizs verifikācijas kods. Mēģinājumu limits pārsniegts, aizsūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>Verifikācijas kods atkārtoti izsniegts, aizstūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Uzradās nepazīstama problēma, aizsūtīts jauns verifikācijas e-pasts.</value>
   </data>
 </root>

@@ -40,6 +40,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexBlurbInstallInstruction => new TranslatableString(getKey(@"index.blurb.install_instruction"), @"Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest.");
 
         /// <summary>
+        /// "by {0}"
+        /// </summary>
+        public static LocalisableString ShowCreatedBy(LocalisableString author) => new TranslatableString(getKey(@"show.created_by"), @"by {0}", author);
+
+        /// <summary>
         /// "Download"
         /// </summary>
         public static LocalisableString ShowDownload => new TranslatableString(getKey(@"show.download"), @"Download");

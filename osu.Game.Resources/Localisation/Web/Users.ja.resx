@@ -209,7 +209,9 @@
     <value>ログインして続行してください</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Captcha が無効です。ページを更新して再度お試し下さい。</value>
+    <value>ログイン試行回数の上限に到達しました。
+CAPTCHA認証を成功させてから再試行してください。
+(表示されない場合はページを更新してください)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>あなたのIPアドレスは規制されています。数分後もう一度お試しください。</value>
@@ -317,7 +319,8 @@
     <value>アカウントが制限されました！</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>制限中は他のプレイヤーと交流ができなくなり、スコアが他人には表示されなくなります。ほとんどの場合、自動的に行われた処理で通常２４時間以内に解除されます。この制限に異議を申し立てたい場合は&lt;a href="mailto{0}@ppy.sh"&gt;サポート&lt;/a&gt;に問い合わせて下さい。</value>
+    <value>制限中はプレイヤーとの交流が禁止され、スコアは自分以外に表示されなくなります。この制限は機械的な処理によるものですので、通常 24 時間以内に解除されます。
+この対応に異議の申し立てを行いたい場合は、こちらのリンクまでお問い合せください。{0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>詳細については、こちらのページをご覧ください。</value>
