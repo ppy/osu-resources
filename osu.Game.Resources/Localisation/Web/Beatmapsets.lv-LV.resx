@@ -59,19 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="availability.disabled" xml:space="preserve">
-    <value>Šīs bītkartes lejupielāde šobrīd nav iespējama.</value>
+    <value>Šīs ritma-kartes lejupielāde šobrīd nav iespējama.</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
-    <value>Daļas no šīs bītmapes ir noņemtas pēc autora vai trešās puses tiesību īpašnieka pieprasījuma.</value>
+    <value>Daļas no šīs ritma-mapes ir noņemtas pēc autora vai trešās puses tiesību īpašnieka pieprasījuma.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
     <value>Lai iegūtu papildu informāciju, noklikšķiniet šeit.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>Daži šajā bītmapē ietvertie resursi ir izņemti pēc tam, kad tie tika novērtēti kā nepiemēroti izmantošanai osu!.</value>
+    <value>Daži šajā ritma-kartē ietvertie resursi ir izņemti pēc tam, kad tie tika novērtēti kā nepiemēroti izmantošanai osu!.</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
-    <value>Izdzēstā bītmape</value>
+    <value>Izdzēsta ritma-karte</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Piebremzējiet, spēlējiet vairāk.</value>
@@ -83,13 +83,13 @@
     <value>Attēlotais mākslinieks</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Bītkaršu saraksts</value>
+    <value>Ritma-mapju saraksts</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
-    <value>Bītkartes</value>
+    <value>Ritma-mapes</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
-    <value>nav bītmapju</value>
+    <value>nav ritma-mapju</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>lejupielādēt</value>
@@ -103,23 +103,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>atvērt ar osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Prakses nominātori nevar nominēt vairākus pamatlikumus.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Tev vajag būt pilnam nominātoram lai izpildītu pēdēju pamatlikuma nomināciju.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Hibrīda bītmapei ir jāizvēlas vismaz viens spēles režīms, kuram veikt nomināciju.</value>
+    <value>Hibrīda ritma-mapē ir jāizvēlas vismaz viens spēles režīms, kuram veikt nomināciju.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Jums nav atļaujas nominēt modam: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Šai ritma-mapei ir nepareizi nominātori, un tā šādā stāvoklī nevar tikt kvalificēta.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Nominātoram ir nepareizi pamatlikumi.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nominācijas prasība jau ir izpildīta.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nominātoru pieprasījums par ne galvenu pamatlikumu ir jau piepildīts.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>Vai esat pārliecināts, ka vēlaties nominēt šo bītmapi?</value>
+    <value>Vai esat pārliecināts, ka vēlaties nominēt šo ritma-mapi?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Kvalificējot šo ritma-mapi ar dažādiem nominātoriem, aizvedīs to uz kvalifikācijas rindas beigām.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
-    <value>Nominēt Bītmapi</value>
+    <value>Nominēt Ritma-karti</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
-    <value>piezīme: jūs varat nominēt tikai vienu reizi, tāpēc, lūdzu, pārliecinieties, ka nominējat visus plānotos spēles režīmus (modus)</value>
+    <value>piezīme: jūs varat nominēt tikai vienu reizi, tāpēc, lūdzu, pārliecinieties, ka nominējat visus plānotos spēles režīmus</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Galvenais pamatlikums pašlaik ir: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Kādiem modiem nominēt?</value>
@@ -134,7 +155,7 @@
     <value>Skatīt pilna izmēra bildes pārvalku</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
-    <value>Šī bītmape ir izdzēsta.</value>
+    <value>Šī ritma-mape ir izdzēsta.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
     <value>(šo var redzēt tikai moderatori)</value>
@@ -143,13 +164,13 @@
     <value>{0}</value>
   </data>
   <data name="show.details.favourite" xml:space="preserve">
-    <value>Favorizēt šo bītmapi</value>
+    <value>iemīļot šo ritma-karti</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
-    <value>Pierakstieties, lai favorizētu šo bītmapi</value>
+    <value>pierakstieties, lai iemīļotu šo ritma-karti</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>Jums nepieciešams pierakstīties pirms lejupielādēt jebkuru bītkarti!</value>
+    <value>tev vajag pierakstīties pirms lejupielādēt jebkuru ritma-karti!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>kartēja {0}</value>
@@ -158,10 +179,10 @@
     <value>viesa grūtības līmenis: {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
-    <value>Noņemt favorizāciju šai bītmapei</value>
+    <value>noņemt iemīļojumu šajai ritma-kartei</value>
   </data>
   <data name="show.details.updated_timeago" xml:space="preserve">
-    <value>pēdējo reizi atjaonots {0}</value>
+    <value>pēdējo reizi atjaunots {0}</value>
   </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>Lejupielādēt</value>
@@ -182,22 +203,22 @@
     <value>apstiprināja {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>loved {0}</value>
+    <value>iemīļoja {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>kvalificēja {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>ierindoja {0}</value>
+    <value>novērtēta {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
-    <value>iesniedza {0}</value>
+    <value>iesniegta {0}</value>
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
     <value>pēdējais atjauninājums {0}</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
-    <value>Jums ir pārāk daudz favorizētu bītmapju! Pirms mēģināt vēlreiz, lūdzu, noņemiet dažas mapes no favorītiem.</value>
+    <value>Jums ir pārāk daudz iemīļotu ritma-mapju! Pirms mēģināt vēlreiz, noņem dažas mapes no favorītiem.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
     <value>Atbalstiet šo mapi, ja jums patika to spēlēt, palīdziet tai sasniegt &lt;strong&gt;Ierindota&lt;/strong&gt; statusu.</value>
@@ -215,10 +236,10 @@
     <value>izstrādes stadijā</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Ja atrodat problēmu ar šo bītmapi, lūdzu, diskvalificējiet to {0}.</value>
+    <value>Ja atrodat problēmu ar šo ritma-karti, lūdzu, diskvalificējiet to {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
-    <value>Ja atrodat problēmu ar šo ritma karti, lūdzu, ziņojiet par to {0}, lai brīdinātu komandu.</value>
+    <value>Ja atrodat problēmu ar šo ritma-karti, lūdzu, ziņojiet par to {0}, lai brīdinātu komandu.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Ziņot par problēmu</value>
@@ -254,19 +275,19 @@
     <value>Avots</value>
   </data>
   <data name="show.info.storyboard" xml:space="preserve">
-    <value>Šī bītmape satur montāžu</value>
+    <value>Šī ritma-mape satur vizuālo saturu</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Izdošanās līmenis</value>
   </data>
   <data name="show.info.tags" xml:space="preserve">
-    <value>Tagi</value>
+    <value>Atzīme</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
-    <value>Šī bītmape satur video</value>
+    <value>Šī ritma-mape satur video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Šajā bītmapē ir atklāts, aizskarošs vai satraucošs saturs. Vai tomēr vēlaties to skatīt?</value>
+    <value>Šajā ritma-mapē ir atklāts, aizskarošs vai  satraucošs saturs. Vai tomēr vēlaties to skatīt?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Nepiemērots Saturs</value>
@@ -275,7 +296,7 @@
     <value>Atspējot brīdinājumu</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
-    <value>Bītmapju saraksts</value>
+    <value>Ritma-mapju saraksts</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Rādīt</value>
@@ -308,7 +329,7 @@
     <value>Precizitāte</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>Max Kombo</value>
+    <value>Max Kombinācija</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>Netrāpījumi</value>
@@ -347,7 +368,7 @@
     <value>Ielādē rezultātus...</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Neierindota bītmape.</value>
+    <value>Nevērtējama ritma-mape.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Vadībā</value>
@@ -413,7 +434,7 @@
     <value>Apstiprināta</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>Iemīļota</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Kvalificēta</value>

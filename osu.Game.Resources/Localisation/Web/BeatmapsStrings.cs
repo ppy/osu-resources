@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Beatmaps";
 
         /// <summary>
+        /// "Invalid ruleset specified."
+        /// </summary>
+        public static LocalisableString InvalidRuleset => new TranslatableString(getKey(@"invalid_ruleset"), @"Invalid ruleset specified.");
+
+        /// <summary>
         /// "Too many guest mappers."
         /// </summary>
         public static LocalisableString ChangeOwnerTooMany => new TranslatableString(getKey(@"change_owner.too_many"), @"Too many guest mappers.");

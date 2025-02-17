@@ -235,6 +235,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainTeamsControllerDefault => new TranslatableString(getKey(@"main.teams_controller._"), @"teams");
 
         /// <summary>
+        /// "team settings"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerEdit => new TranslatableString(getKey(@"main.teams_controller.edit"), @"team settings");
+
+        /// <summary>
+        /// "team leaderboard"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerLeaderboard => new TranslatableString(getKey(@"main.teams_controller.leaderboard"), @"team leaderboard");
+
+        /// <summary>
         /// "team info"
         /// </summary>
         public static LocalisableString MainTeamsControllerShow => new TranslatableString(getKey(@"main.teams_controller.show"), @"team info");
@@ -278,6 +288,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "store"
         /// </summary>
         public static LocalisableString StoreDefault => new TranslatableString(getKey(@"store._"), @"store");
+
+        /// <summary>
+        /// "team members"
+        /// </summary>
+        public static LocalisableString TeamsMembersControllerIndex => new TranslatableString(getKey(@"teams.members_controller.index"), @"team members");
 
         /// <summary>
         /// "modder info"

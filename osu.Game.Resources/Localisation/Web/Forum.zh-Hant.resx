@@ -113,7 +113,7 @@
     <value>刪除此回覆？</value>
   </data>
   <data name="post.confirm_restore" xml:space="preserve">
-    <value>確定要恢復這篇貼文嗎？</value>
+    <value>確定要還原貼文嗎？</value>
   </data>
   <data name="post.edited" xml:space="preserve">
     <value>最後由 {0} 於 {1} 編輯，總共編輯了 {2} 次。</value>
@@ -122,7 +122,7 @@
     <value>發表於 {0}</value>
   </data>
   <data name="post.posted_by_in" xml:space="preserve">
-    <value>{0} 在 "{1}" 中發布了貼文</value>
+    <value>{0} 在 "{1}" 中發表了貼文</value>
   </data>
   <data name="post.actions.destroy" xml:space="preserve">
     <value>刪除回覆</value>
@@ -158,7 +158,7 @@
     <value>確定要刪除這個主題嗎？</value>
   </data>
   <data name="topic.confirm_restore" xml:space="preserve">
-    <value>確定要復原這個主題嗎？</value>
+    <value>確定要還原這個主題嗎？</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>已刪除的主題</value>
@@ -223,13 +223,13 @@
     <value>發表</value>
   </data>
   <data name="topic.create.necropost.default" xml:space="preserve">
-    <value>此主題不被討論一段時間了。如非有特殊理由，請勿在此回覆。</value>
+    <value>這個主題已經閒置一段時間了。除非你有特別的原因，否則請不要在這裡回覆。</value>
   </data>
   <data name="topic.create.necropost.new_topic._" xml:space="preserve">
-    <value>此主題不被討論一段時間了。如果你沒有在這裡回文的具體理由, 請用 {0} 代替。</value>
+    <value>這個主題已經閒置一段時間了。如果你沒有特別的原因在這裡發文，請使用 {0} 發表新的主題。</value>
   </data>
   <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
-    <value>建立一個新的主題</value>
+    <value>建立新主題</value>
   </data>
   <data name="topic.create.placeholder.body" xml:space="preserve">
     <value>在這裡輸入內文</value>
@@ -283,7 +283,7 @@
     <value>已置頂主題</value>
   </data>
   <data name="topic.logs.data.post_operation" xml:space="preserve">
-    <value>由 {0} 發布</value>
+    <value>由 {0} 發表</value>
   </data>
   <data name="topic.logs.data.remove_tag" xml:space="preserve">
     <value>已移除「{0}」標籤</value>
@@ -295,7 +295,7 @@
     <value>已取消置頂主題</value>
   </data>
   <data name="topic.logs.no_results" xml:space="preserve">
-    <value>找不到日誌……</value>
+    <value>找不到記錄檔…</value>
   </data>
   <data name="topic.logs.operations.delete_post" xml:space="preserve">
     <value>已刪除貼文</value>
@@ -331,10 +331,10 @@
     <value>已編輯貼文</value>
   </data>
   <data name="topic.logs.operations.restore_post" xml:space="preserve">
-    <value>已回復貼文</value>
+    <value>已還原貼文</value>
   </data>
   <data name="topic.logs.operations.restore_topic" xml:space="preserve">
-    <value>已恢復主題</value>
+    <value>已還原主題</value>
   </data>
   <data name="topic.logs.operations.split_destination" xml:space="preserve">
     <value>已移動分割的貼文</value>
@@ -478,7 +478,7 @@
     <value>移除 "assigned" 標籤</value>
   </data>
   <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
-    <value>已移除 "assigned" 标签</value>
+    <value>已移除 "assigned" 標籤</value>
   </data>
   <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
     <value>新增 "assigned" 標籤</value>
@@ -538,7 +538,7 @@
     <value>主題已被鎖定，不能回覆</value>
   </data>
   <data name="topics.lock.to_0" xml:space="preserve">
-    <value>解鎖主题</value>
+    <value>解鎖主題</value>
   </data>
   <data name="topics.lock.to_0_confirm" xml:space="preserve">
     <value>解鎖主題?</value>
@@ -547,13 +547,13 @@
     <value>主题已經解鎖</value>
   </data>
   <data name="topics.lock.to_1" xml:space="preserve">
-    <value>鎖定主题</value>
+    <value>鎖定主題</value>
   </data>
   <data name="topics.lock.to_1_confirm" xml:space="preserve">
     <value>鎖定主題?</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
-    <value>主题已被鎖定</value>
+    <value>主題已被鎖定</value>
   </data>
   <data name="topics.moderate_move.title" xml:space="preserve">
     <value>將主題移動至其他討論</value>
@@ -565,7 +565,7 @@
     <value>取消置頂主題?</value>
   </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
-    <value>該主题已取消置頂</value>
+    <value>該主題已取消置頂</value>
   </data>
   <data name="topics.moderate_pin.to_1" xml:space="preserve">
     <value>置頂</value>
@@ -574,7 +574,7 @@
     <value>置頂主題?</value>
   </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
-    <value>該主题已置頂</value>
+    <value>該主題已置頂</value>
   </data>
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
     <value>置頂並標記為公告</value>
@@ -583,7 +583,7 @@
     <value>置頂主題並設為公告?</value>
   </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
-    <value>該主题已置頂並標記為公告</value>
+    <value>該主題已置頂並標記為公告</value>
   </data>
   <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
     <value>顯示已刪除帖子</value>
@@ -598,7 +598,7 @@
     <value>總主題數量</value>
   </data>
   <data name="topics.show.feature_vote.current" xml:space="preserve">
-    <value>當前優先順序: +{0}</value>
+    <value>目前優先順序：+{0}</value>
   </data>
   <data name="topics.show.feature_vote.do" xml:space="preserve">
     <value>提升這個請求</value>
@@ -631,7 +631,7 @@
     <value>投票</value>
   </data>
   <data name="topics.show.poll.button.change_vote" xml:space="preserve">
-    <value>更改投票</value>
+    <value>變更投票</value>
   </data>
   <data name="topics.show.poll.button.edit" xml:space="preserve">
     <value>編輯投票</value>
@@ -664,9 +664,9 @@
     <value>訂閱並開啟電子郵件通知</value>
   </data>
   <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
-    <value>通知已啟用。點擊以禁用。</value>
+    <value>通知已啟用。按這裡停用。</value>
   </data>
   <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
-    <value>通知已禁用。點擊以啟用。</value>
+    <value>通知已停用。按這裡啟用。</value>
   </data>
 </root>

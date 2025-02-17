@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>뉴스</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>팀</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>프로필</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>전체</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>프로필</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>비트맵</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>빌드 버전</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>채팅</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>포럼</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>뉴스</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>빌드 버전</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>팀</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>채팅</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>프로필</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>비트맵</value>
@@ -328,6 +334,15 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0}님이 답글을 달았습니다.</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>팀 가입 요청</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>당신은 이제 {0} 팀의 멤버입니다.</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>당신은 이제 {0} 팀의 멤버입니다.</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>새 비트맵</value>
   </data>
@@ -414,6 +429,9 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>"{0}"에 새로운 답글이 달렸습니다.</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>당신은 이제 {0} 팀의 멤버입니다.</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0}님이 새 비트맵을 제작했습니다</value>

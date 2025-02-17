@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Quá nhiều mapper khách.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Cập nhật phiếu thất bại</value>
   </data>
@@ -89,10 +92,10 @@
     <value>Đã từ chối nhận kudosu.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Difficulty này đã bị xóa nên nó có thể sẽ không còn được thảo luận nữa.</value>
+    <value>Độ khó này đã bị xóa nên nó có thể sẽ không còn được thảo luận nữa.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>Chức năng bàn luận của beatmap này đã bị vô hiệu hóa.</value>
+    <value>Chức năng thảo luận của beatmap này đã bị vô hiệu hóa.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
     <value>Không thể đăng thảo luận khi bị khoá mõm.</value>
@@ -161,16 +164,16 @@
     <value>Nhập vào đây để đăng vào Chung ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Nhập vào đây để đăng vào Chung (Tất cả difficulties)</value>
+    <value>Nhập vào đây để đăng vào Chung (Tất cả độ khó)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Gõ ở đây để đăng một bài đánh giá</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Nhập vào đây để đăng vào Timeline ({0})</value>
+    <value>Nhập vào đây để đăng vào dòng thời gian ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
-    <value>Không đủ tư cách</value>
+    <value>Hủy tư cách</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
     <value>Hype!</value>
@@ -197,7 +200,7 @@
     <value>Gợi ý</value>
   </data>
   <data name="discussions.message_type_title.disqualify" xml:space="preserve">
-    <value>Đăng Disqualification</value>
+    <value>Hủy xét duyệt tư cách</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
     <value>Đăng Hype!</value>

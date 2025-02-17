@@ -62,7 +62,7 @@
     <value>Pengaturan Beatmap</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
-    <value>ubah pengaturan umum beatmap yang kamu buat</value>
+    <value>ubah pengaturan umum beatmap kamu</value>
   </data>
   <data name="colours_header" xml:space="preserve">
     <value>Warna</value>
@@ -77,13 +77,13 @@
     <value>Aktifkan hitungan mundur</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Apabila diaktifkan, beatmap akan menyertakan hitungan mundur "Are you ready? 3, 2, 1, GO!" sebelum permainan dimulai jikalau terdapat cukup waktu.</value>
+    <value>Apabila diaktifkan, hitungan mundur "Are you ready? 3, 2, 1, GO!" akan disisipkan pada awal beatmap manakala terdapat cukup waktu.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Kecepatan hitungan mundur</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
-    <value>Apabila suara hitungan mundur tidak selaras dengan musik, gunakan pengaturan ini untuk memundurkan hitungan mundur sejauh satu beat atau lebih.</value>
+    <value>Apabila hitungan mundur tidak terdengar selaras, gunakan pengaturan ini untuk memundurkan hitungan mundur sejauh satu beat atau lebih.</value>
   </data>
   <data name="countdown_offset" xml:space="preserve">
     <value>Offset hitungan mundur</value>
@@ -110,19 +110,19 @@
     <value>Sesuaikan laju pemutaran sampel dengan lagu</value>
   </data>
   <data name="samples_match_playback_rate_description" xml:space="preserve">
-    <value>Apabila diaktifkan, seluruh sampel hitsound akan turut diputar secara lebih cepat atau lebih lambat pada saat beatmap dimainkan dengan mod yang mengubah kecepatan lagu.</value>
+    <value>Apabila diaktifkan, seluruh sampel suara akan ikut melaju atau melambat pada saat mod yang mengubah kecepatan lagu sedang aktif.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
-    <value>Ukuran seluruh hit object</value>
+    <value>Ukuran seluruh objek permainan</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
     <value>Laju penurunan health bar pasif dalam permainan</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
-    <value>Kecepatan kemunculan hit object</value>
+    <value>Kecepatan kemunculan objek permainan</value>
   </data>
   <data name="overall_difficulty_description" xml:space="preserve">
-    <value>Keketatan hit window dan tingkat kesulitan berbagai objek khusus (mis. spinner)</value>
+    <value>Keketatan rentang waktu penilaian dan tingkat kesulitan berbagai objek khusus (mis. spinner)</value>
   </data>
   <data name="tick_rate" xml:space="preserve">
     <value>Tick Rate</value>
@@ -165,6 +165,15 @@
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klik untuk memilih gambar latar</value>
+  </data>
+  <data name="application_scope_selection_title" xml:space="preserve">
+    <value>Terapkan perubahan ini pada seluruh tingkat kesulitan?</value>
+  </data>
+  <data name="apply_to_all_difficulties" xml:space="preserve">
+    <value>Terapkan pada seluruh tingkat kesulitan</value>
+  </data>
+  <data name="apply_to_this_difficulty" xml:space="preserve">
+    <value>Hanya terapkan pada tingkat kesulitan ini</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>

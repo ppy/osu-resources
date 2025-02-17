@@ -125,6 +125,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SeasonsUrl => new TranslatableString(getKey(@"seasons.url"), @"Display more informations on that season.");
 
         /// <summary>
+        /// "there is not enough score factors for proper calculation"
+        /// </summary>
+        public static LocalisableString SeasonsValidationNotEnoughFactors => new TranslatableString(getKey(@"seasons.validation.not_enough_factors"), @"there is not enough score factors for proper calculation");
+
+        /// <summary>
         /// "End Date"
         /// </summary>
         public static LocalisableString SpotlightEndDate => new TranslatableString(getKey(@"spotlight.end_date"), @"End Date");
@@ -158,6 +163,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Country"
         /// </summary>
         public static LocalisableString StatCountry => new TranslatableString(getKey(@"stat.country"), @"Country");
+
+        /// <summary>
+        /// "Division"
+        /// </summary>
+        public static LocalisableString StatDivision => new TranslatableString(getKey(@"stat.division"), @"Division");
 
         /// <summary>
         /// "Play Count"
