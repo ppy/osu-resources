@@ -58,8 +58,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Daftar masuk untuk menyunting.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Hantaran janaan sistem tidak boleh disunting.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value>Pemilik hantaran sahaja boleh menyunting.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Tiada yang terjadi... lagi.</value>
+  </data>
   <data name="index.deleted_beatmap" xml:space="preserve">
     <value>dipadam</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Tiada perbincangan sepadan dengan ukur tara carian ditemui.</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Perbincangan Beatmap</value>
@@ -67,17 +82,26 @@
   <data name="index.form._" xml:space="preserve">
     <value>Cari</value>
   </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Sertakan perbincangan terpadam</value>
+  </data>
   <data name="index.form.mode" xml:space="preserve">
-    <value>Mod beatmap</value>
+    <value>Mod peta rentak</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Tunjuk perbincangan tidak selesai sahaja</value>
+  </data>
+  <data name="index.form.show_review_embeds" xml:space="preserve">
+    <value>Tunjuk hantaran ulasan</value>
   </data>
   <data name="index.form.types" xml:space="preserve">
-    <value>Jenis mesej</value>
+    <value>Jenis pesanan</value>
   </data>
   <data name="index.form.username" xml:space="preserve">
-    <value>Nama penggua</value>
+    <value>Nama pengguna</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Status Beatmap</value>
+    <value>Taraf Peta Rentak</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Semua</value>
@@ -92,13 +116,13 @@
     <value>Layak</value>
   </data>
   <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
-    <value>Berkedudukan</value>
+    <value>Berperingkat</value>
   </data>
   <data name="index.form.user.label" xml:space="preserve">
     <value>Pengguna</value>
   </data>
   <data name="index.form.user.overview" xml:space="preserve">
-    <value>Aktiviti keseluruhan</value>
+    <value>Gambaran kegiatan</value>
   </data>
   <data name="item.created_at" xml:space="preserve">
     <value>Tarikh hantaran</value>
@@ -112,20 +136,83 @@
   <data name="item.permalink" xml:space="preserve">
     <value>Pautan Kekal</value>
   </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Tiada hantaran yang menumpukan perhatian terhadap kebimbangan saya</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Terdapat hantaran pada {0} ({1}). Sila semak sebelum membuat hantaran.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} pada ulasan ini</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Pemilik Kesukaran</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Set semula pemilik kesukaran ini?</value>
+  </data>
   <data name="owner_editor.user" xml:space="preserve">
     <value>Pemilik</value>
   </data>
   <data name="owner_editor.version" xml:space="preserve">
     <value>Kesukaran</value>
   </data>
+  <data name="refresh.checking" xml:space="preserve">
+    <value>Menyemak untuk pengemaskinian...</value>
+  </data>
+  <data name="refresh.has_updates" xml:space="preserve">
+    <value>Perbincangan ini mempunyai pengemaskinian, klik untuk segar semula.</value>
+  </data>
+  <data name="refresh.no_updates" xml:space="preserve">
+    <value>Tiada pengemaskinian.</value>
+  </data>
+  <data name="refresh.updating" xml:space="preserve">
+    <value>Mengemas kini...</value>
+  </data>
   <data name="reply.open.guest" xml:space="preserve">
-    <value>Daftar masuk untuk Maklum balas</value>
+    <value>Daftar Masuk untuk Menjawab</value>
   </data>
   <data name="reply.open.user" xml:space="preserve">
-    <value>Maklum balas</value>
+    <value>Jawab</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} blok diguna</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Lihat Hantaran Ulasan</value>
   </data>
   <data name="review.go_to_child" xml:space="preserve">
     <value>Lihat Perbincangan</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>setiap blok hanya boleh mengandungi hingga {0} aksara</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>ulasan mengandungi rujukan kepada isu yang tiada tempat pada ulasan ini</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>jenis blok tidak sah</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>ulasan tidak sah</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>jenis perbincangan tidak sah</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>ulasan mesti mengandungi minimum {0} isu</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>blok tiada teks</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>ulasan hanya boleh mengandungi {0} perenggan/isu |ulasan hanya boleh mengandungi hingga {0} perenggan/isu</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>Ditanda selesai oleh {0}</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>Dibuka semula oleh {0}</value>
   </data>
   <data name="timestamp_display.general" xml:space="preserve">
     <value>umum</value>
@@ -137,6 +224,6 @@
     <value>Semua orang</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
-    <value>Tapis mengikut pengguna</value>
+    <value>Tapis menurut pengguna</value>
   </data>
 </root>

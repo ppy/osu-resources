@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Pressione Ctrl-T em qualquer lugar no jogo para alternar a barra de ferramentas!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Pressione Ctrl-O em qualquer lugar no jogo para acessar as configurações!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Todas as configurações são dinâmicas e alteradas em tempo real. Tente alterar as skins enquanto assiste o autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Novos recursos estão sempre sendo adicionados a cada atualização. Tenha certeza de estar na última versão!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Se encontrar alguma UI muito grande ou pequena, tente ajustar a escala da UI pelas configurações!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Tente ajustar o modo "Escala da tela" para mudar a área de jogabilidade, mesmo em tela cheia!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>O que costumava ser "osu!direct", agora está disponível para todos os usuários assim como no site do osu. Você pode acessar a qualquer momento pressionando Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Ver as replays, agora está disponível apenas segurando na barra de progresso em baixo da tela ou  apenas segurando as teclas das setas esquerda e direta!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Tente rolar para a direita na seleção de mods para encontrar um monte de novos mods divertidos!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>A maioria do conteúdo web (perfis, classificações, etc.) estão disponíveis nativamente no jogo pelos ícones na barra de ferramentas!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Obtenha mais detalhes, esconda ou exclua um beatmap clicando com o botão direito no seu painel na seleção de músicas!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Confira o sistema de "playlists", que permite aos usuários que criem seus próprios placares personalizados e permanentes!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Alternar estatísticas de quadro avançado / thread com Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Você pode pausar durante um replay pressionando Espaço!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Muito das teclas de atalho no jogo são configuráveis e podem ser alterados por qualquer tecla. Cheque o painel de bindings embaixo das configurações de entrada!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Sua HUD de jogabilidade pode ser personalizado apenas usando o editor de skin layout. Abrindo a qualquer momento usando Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Você pode criar mod presets para alternar suas combinações de mods favoritos mais facilmente!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Alguns mods possuem configurações personalizadas que mudam drasticamente como funcionam. Aperte no botão de Personalização na seleção de mod para visualizar!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Pressione Ctrl-Shift-R para trocar para uma skin aleatória!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Enquanto estiver assistindo um replay, pressione Ctrl-H para alternar as configurações de replay!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Você pode copiar os mods de pontuações num placar facilmente clicando com o botão direito neles!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter na seleção de música irá começar um beatmap em modo autoplay!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" não é uma palavra em Inglês. A ortografia correta para a luz brilhante é "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Suporte Multithreading significa que mesmo com pouco "FPS" a detecção de entrada será precisa!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Qualquer operação de deletar será temporária até sair. Restaure acidentalmente conteúdo deletado através das configurações de manutenção!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Dê uma olhada em baixo do contador de desempenho e habilite verbose performance logging com Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Quando sua HUD de jogabilidade está escondida, você pode pressionar e segurar a tecla Ctrl para visualizar temporariamente!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Segure e arraste qualquer imagem no editor de skins para carregar mais rápido!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>uma dica para você:</value>
+  </data>
+</root>

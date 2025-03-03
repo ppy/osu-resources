@@ -295,6 +295,46 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OauthClientAttributesRedirect => new TranslatableString(getKey(@"oauth.client.attributes.redirect"), @"Application Callback URL");
 
         /// <summary>
+        /// "This {0} contains invalid characters."
+        /// </summary>
+        public static LocalisableString TeamInvalidCharacters(LocalisableString attribute) => new TranslatableString(getKey(@"team.invalid_characters"), @"This {0} contains invalid characters.", attribute);
+
+        /// <summary>
+        /// "This {0} choice is already used."
+        /// </summary>
+        public static LocalisableString TeamUsed(LocalisableString attribute) => new TranslatableString(getKey(@"team.used"), @"This {0} choice is already used.", attribute);
+
+        /// <summary>
+        /// "This {0} choice is not allowed."
+        /// </summary>
+        public static LocalisableString TeamWordNotAllowed(LocalisableString attribute) => new TranslatableString(getKey(@"team.word_not_allowed"), @"This {0} choice is not allowed.", attribute);
+
+        /// <summary>
+        /// "Default ruleset"
+        /// </summary>
+        public static LocalisableString TeamAttributesDefaultRulesetId => new TranslatableString(getKey(@"team.attributes.default_ruleset_id"), @"Default ruleset");
+
+        /// <summary>
+        /// "Team application"
+        /// </summary>
+        public static LocalisableString TeamAttributesIsOpen => new TranslatableString(getKey(@"team.attributes.is_open"), @"Team application");
+
+        /// <summary>
+        /// "Name"
+        /// </summary>
+        public static LocalisableString TeamAttributesName => new TranslatableString(getKey(@"team.attributes.name"), @"Name");
+
+        /// <summary>
+        /// "Short name"
+        /// </summary>
+        public static LocalisableString TeamAttributesShortName => new TranslatableString(getKey(@"team.attributes.short_name"), @"Short name");
+
+        /// <summary>
+        /// "URL"
+        /// </summary>
+        public static LocalisableString TeamAttributesUrl => new TranslatableString(getKey(@"team.attributes.url"), @"URL");
+
+        /// <summary>
         /// "Password may not contain username."
         /// </summary>
         public static LocalisableString UserContainsUsername => new TranslatableString(getKey(@"user.contains_username"), @"Password may not contain username.");

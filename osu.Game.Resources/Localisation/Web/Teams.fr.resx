@@ -58,8 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Paramètres enregistrés avec succès</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Vous avez accepté la candidature.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Candidature annulée.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Vous avez refusé la candidature.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Candidature envoyée.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Équipe supprimée</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Paramètres de l'équipe</value>
@@ -71,46 +83,58 @@
     <value>Description de l'équipe</value>
   </data>
   <data name="edit.header.label" xml:space="preserve">
-    <value>Image d'en-tête</value>
+    <value>Bannière</value>
   </data>
   <data name="edit.header.title" xml:space="preserve">
-    <value>Définir l'image d'en-tête</value>
-  </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Drapeau de l'équipe</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Définir le drapeau de l'équipe</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Candidatures d'équipe</value>
+    <value>Définir la bannière</value>
   </data>
   <data name="edit.settings.application_help" xml:space="preserve">
-    <value>Permettre aux personnes de candidater pour l'équipe</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Mode de jeu par défaut</value>
+    <value>Cette option permet aux autres joueurs d'envoyer une candidature pour rejoindre votre équipe</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
-    <value>Le mode de jeu à sélectionner par défaut lors de la visite de la page de l'équipe</value>
+    <value>Le mode de jeu sélectionné par défaut lors de la visite de la page de l'équipe</value>
   </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>Paramètres de l'équipe</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
-    <value>Fermée</value>
+    <value>Fermées</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
-    <value>Ouverte</value>
+    <value>Ouvertes</value>
+  </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>paramètres</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>classement</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>infos</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>gestion des membres</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Classement global</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
-    <value>Membre d'équipe retiré</value>
+    <value>Ce membre a été exclu</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
-    <value>Gérer les membres</value>
+    <value>Gestion des membres</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Aucune candidature pour le moment.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Places disponibles </value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Candidatures</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Date</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Statut</value>
@@ -119,10 +143,10 @@
     <value>Date d'adhésion</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
-    <value>Retirer</value>
+    <value>Exclure</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
-    <value>Membres Actuels</value>
+    <value>Liste des membres</value>
   </data>
   <data name="members.index.status.status_0" xml:space="preserve">
     <value>Inactif</value>
@@ -130,11 +154,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Actif</value>
   </data>
-  <data name="show.info.created" xml:space="preserve">
-    <value>Formé</value>
+  <data name="part.ok" xml:space="preserve">
+    <value>Vous avez quitté l'équipe ;_;</value>
   </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Site web</value>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Dissoudre l'équipe</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Demander à rejoindre</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Annuler la demande</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Quitter l'équipe</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>Créée en</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Membres de l'équipe</value>

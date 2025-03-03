@@ -58,8 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Pengaturan berhasil disimpan</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Pengguna ditambahkan ke tim.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Permintaan bergabung dibatalkan.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Permintaan bergabung ditolak.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Permintaan bergabung dikirim.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Tim dihapus</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Pengaturan Tim</value>
@@ -76,20 +88,8 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>Pasang Gambar Tajuk</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Bendera Tim</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Pasang Bendera Tim</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Pendaftaran Tim</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Apakah pengguna lain akan diizinkan untuk mendaftar ke tim</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Ruleset Bawaan</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>Ruleset yang akan terpilih secara bawaan pada saat mengunjungi halaman tim</value>
@@ -97,20 +97,44 @@
   <data name="edit.settings.title" xml:space="preserve">
     <value>Pengaturan Tim</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Ditutup</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Dibuka</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>pengaturan</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>papan peringkat</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>kelola anggota</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Peringkat Global</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Anggota tim dikeluarkan</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Kelola Anggota</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Tidak ada permintaan untuk bergabung pada saat ini.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Slot yang tersedia</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Permintaan Bergabung</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Diminta Pada</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Status</value>
@@ -130,11 +154,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktif</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Tinggalkan tim ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Bubarkan Tim</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Minta Gabung</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Batal Gabung</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Tinggalkan Tim</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Dibentuk pada</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Situs web</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Anggota Tim</value>

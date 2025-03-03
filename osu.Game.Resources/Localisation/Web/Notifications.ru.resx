@@ -100,6 +100,9 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>новости</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>команда</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>игроки</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="filters.news_post" xml:space="preserve">
     <value>новости</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>команда</value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>игроки</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ответил</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Запрос на вступление в команду</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Вы присоединились к команде {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Вы присоединились к команде {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Ваш запрос на вступление в команду {0} отклонен</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Ваш запрос на вступление в команду {0} отклонен</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Новая карта</value>
   </data>
@@ -414,6 +435,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Есть новые ответы в "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Вы присоединились к команде {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Ваш запрос на вступление в команду {0} отклонен</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} создал новую карту</value>

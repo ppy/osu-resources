@@ -420,9 +420,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TeamApplicationStoreAlreadyOtherMember => new TranslatableString(getKey(@"team.application.store.already_other_member"), @"You're already part of a different team.");
 
         /// <summary>
-        /// "You have pending team join request."
+        /// "You have a pending team join request."
         /// </summary>
-        public static LocalisableString TeamApplicationStoreCurrentlyApplying => new TranslatableString(getKey(@"team.application.store.currently_applying"), @"You have pending team join request.");
+        public static LocalisableString TeamApplicationStoreCurrentlyApplying => new TranslatableString(getKey(@"team.application.store.currently_applying"), @"You have a pending team join request.");
 
         /// <summary>
         /// "The team is currently not accepting any join requests."
@@ -443,6 +443,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Not a member of the team."
         /// </summary>
         public static LocalisableString TeamPartNotMember => new TranslatableString(getKey(@"team.part.not_member"), @"Not a member of the team.");
+
+        /// <summary>
+        /// "osu!supporter tag is required to create team."
+        /// </summary>
+        public static LocalisableString TeamStoreRequireSupporterTag => new TranslatableString(getKey(@"team.store.require_supporter_tag"), @"osu!supporter tag is required to create team.");
 
         /// <summary>
         /// "User page is locked."
