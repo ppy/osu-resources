@@ -76,6 +76,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>将预览点设为当前时间</value>
   </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>在修改时间轴时，同步移动所有已经放置的物件</value>
+  </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>编辑优先 (.olz)</value>
   </data>
@@ -90,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>删除难度</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>外部编辑</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>提交谱面</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>设置</value>
@@ -121,6 +130,9 @@
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>间距锁定时，限制物件的时间点</value>
   </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>光标未悬停至侧边栏上时，收起侧边栏</value>
+  </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
     <value>必须在编辑器界面内处理编辑器链接</value>
   </data>
@@ -133,7 +145,34 @@
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>显示变化</value>
   </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>显示休息段</value>
+  </data>
   <data name="timeline_show_ticks" xml:space="preserve">
     <value>显示节拍细分线</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>添加书签</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>移除最近的书签</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>前往上一个书签</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>前往下一个书签</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>重置书签</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>打开谱面信息页</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>打开谱面讨论页</value>
   </data>
 </root>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Submisi beatmap</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Bagikan beatmapmu kepada dunia!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Perizinan konten</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Saya mengerti</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Pertanyaan umum</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Pengaturan submisi</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Kirim beatmap!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Mengekspor beatmap untuk kompatibilitas...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Mempersiapkan unggahan...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Mengunggah konten beatmap...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Menyelesaikan unggahan...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Sebelum kamu melanjutkan, kami ingin meminta kamu untuk memastikan apakah konten yang ingin kamu unggah telah berizin. Mohon dipahami bahwa kamu bertanggung jawab terhadap konten yang kamu unggah, dan apabila kamu ragu, kamu sebaiknya meminta izin kepada pemilik konten ini terlebih dahulu sebelum menggunggah!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Periksa panduan penggunaan konten untuk informasi lebih lanjut</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Kriteria ranking beatmap</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Tidak yakin apakah beatmap kamu memenuhi kriteria ini? Periksa daftar persyaratannya dan percepat proses ranking beatmap kamu!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Proses submisi</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Tidak yakin mengenai proses submisi yang ada? Pelajari entri wiki seputar proses ini!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Forum bantuan mapping</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Memiliki pertanyaan seputar mapping dan pengunggahan beatmap? Tanyakan pertanyaanmu di forum!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Forum antrian modding</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Kesulitan mencari masukan? Cobalah untuk bertanya pada antrian modding!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Ke mana kamu ingin mengirim beatmap kamu?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Work in Progress / Help (belum rampung, belum siap untuk di-rank)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Pending (rampung, siap untuk di-rank)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Terima notifikasi untuk balasan diskusi baru</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Muat di browser setelah terkirim</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Catatan: Agar beatmap kamu dapat dimainkan oleh pada seluruh versi osu!, beatmap ini akan diekspor dalam format yang kompatibel dengan osu! versi lawas (backwards-compatible). Walaupun kami telah berusaha agar dalam prosesnya beatmap ini dapat dimainkan sebagaimana mestinya, sebagian data yang berhubungan dengan fitur yang tidak didukung oleh osu! versi lawas akan dapat hilang.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Kamu tidak dapat mengirim beatmap kosong.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Perbarui beatmap!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Unggah beatmap BARU!</value>
+  </data>
+</root>
