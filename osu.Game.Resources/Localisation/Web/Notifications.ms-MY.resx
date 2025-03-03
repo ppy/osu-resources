@@ -65,7 +65,7 @@
     <value>Padam {0}</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>Memuatkan yang belum dibaca...</value>
+    <value>Memuatkan pemberitahuan belum dibaca...</value>
   </data>
   <data name="mark_read" xml:space="preserve">
     <value>Padam {0}</value>
@@ -77,10 +77,10 @@
     <value>lihat semua pemberitahuan</value>
   </data>
   <data name="see_channel" xml:space="preserve">
-    <value>buka tetingkap bual</value>
+    <value>ke bualan</value>
   </data>
   <data name="verifying" xml:space="preserve">
-    <value>Harap disahkan sesi terlebih dahulu sebelum melihat pemberitahuan</value>
+    <value>Sila sahkan sesi untuk melihat pemberitahuan</value>
   </data>
   <data name="action_type._" xml:space="preserve">
     <value>semua</value>
@@ -89,10 +89,10 @@
     <value>beatmap</value>
   </data>
   <data name="action_type.build" xml:space="preserve">
-    <value>versi terbitan</value>
+    <value>binaan</value>
   </data>
   <data name="action_type.channel" xml:space="preserve">
-    <value>perbualan</value>
+    <value>bualan</value>
   </data>
   <data name="action_type.forum_topic" xml:space="preserve">
     <value>forum</value>
@@ -100,14 +100,17 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>berita</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>pasukan</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profil</value>
   </data>
   <data name="filters._" xml:space="preserve">
-    <value>semua pemberitahuan</value>
+    <value>semua</value>
   </data>
   <data name="filters.beatmapset" xml:space="preserve">
-    <value>beatmap</value>
+    <value>peta rentak</value>
   </data>
   <data name="filters.build" xml:space="preserve">
     <value>versi</value>
@@ -121,56 +124,68 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>berita</value>
   </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>pasukan</value>
+  </data>
   <data name="filters.user" xml:space="preserve">
     <value>profil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
-    <value>Beatmap</value>
+    <value>Peta rentak</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
     <value>Kesukaran tamu</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Kamu telah terdaftar sebagai pemilik tingkat kesukaran "{0}" pada beatmap "{1}"</value>
+    <value>Anda kini pemilik kesukaran "{0}" pada peta rentak "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
-    <value>Kamu telah terdaftar sebagai pemilik dari tingkat kesukaran "{0}"</value>
+    <value>Anda kini pemilik kesukaran "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
-    <value>Laman perbincangan beatmap</value>
+    <value>Perbincangan peta rentak</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Perbincangan untuk beatmap "{0}" telah ditutup</value>
+    <value>Perbincangan pada "{0}" telah dikunci</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
-    <value>Perbincangan beatmap telah ditutup</value>
+    <value>Perbincangan dikunci</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>Kiriman baharu pada "{0}" oleh {1}: "{2}"</value>
+    <value>Hantaran baharu pada "{0}" oleh {1}: "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
-    <value>Kiriman baharu pada "{0}" oleh {1}</value>
+    <value>Hantaran baharu pada "{0}" oleh {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Kiriman baharu oleh {0}: "{1}"</value>
+    <value>Hantaran baharu oleh {0}: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
-    <value>Kiriman baharu oleh {0}</value>
+    <value>Hantaran baharu oleh {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Terdapat ulasan baharu pada "{0}" oleh {1} yang menyinggung seputar masalah: {2}, saran: {3}, dan pujian berupa: {4}</value>
+    <value>Ulasan baharu pada "{0}" oleh {1} mengandungi {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Terdapat ulasan baharu oleh {0} yang menyinggung seputar masalah: {1}, saran: {2}, dan pujian berupa: {3}</value>
+    <value>Ulasan baharu oleh {0} mengandungi {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>Perbincangan untuk beatmap "{0}" telah dibuka kembali.</value>
+    <value>Perbincangan tentang "{0}" telah dibuka kunci</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
-    <value>Perbincangan beatmap telah dibuka</value>
+    <value>Perbincangan telah dibuka kunci</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} pujian</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} masalah</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} cadangan</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>Masalah pada Beatmap Lulusan</value>
+    <value>Masalah Peta Rentak Layak</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Dilaporkan oleh {0} pada "{1}": "{2}"</value>
@@ -185,7 +200,7 @@
     <value>Dilaporkan oleh {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
-    <value>Perubahan status beatmap</value>
+    <value>Taraf peta rentak diubah</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>Beatmap "{0}" telah disingkirkan</value>
@@ -194,34 +209,163 @@
     <value>Beatmap telah disingkirkan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>Beatmap "{0}" telah diberikan status digemari</value>
+    <value>Peta rentak "{0}" telah dinaikkan ke Kegemaran</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Beatmap telah diberikan status digemari</value>
+    <value>Peta rentak telah dinaikkan ke Kegemaran</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" telah dicalonkan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>Beatmap telah dicalonkan</value>
+    <value>Peta rentak telah dicalonkan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" telah memperoleh jumlah pencalonan yang diperlukan untuk memasuki barisan pemeringkatan</value>
+    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran pemeringkatan</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
+    <value>Peta rentak memasuki giliran pemeringkatan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" telah diperingkatkan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>Beatmap telah diperingkatkan</value>
+    <value>Peta rentak telah diperingkatkan</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" dipadam dari Kegemaran</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>Peta rentak dipadam dari Kegemaran</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>Pencalonan "{0}" telah diset semula</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
+    <value>Pencalonan telah diset semula</value>
+  </data>
+  <data name="item.beatmapset.comment._" xml:space="preserve">
+    <value>Komen baharu</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>{0} mengomen "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} mengomen "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} membalas "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} membalas "{1}"</value>
+  </data>
+  <data name="item.channel._" xml:space="preserve">
+    <value>Bualan</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Pengumuman baharu</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} berkata "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Pengumuman dari {0}</value>
+  </data>
+  <data name="item.channel.channel._" xml:space="preserve">
+    <value>Pesanan baharu</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message" xml:space="preserve">
+    <value>{0} berkata "{1}"</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
+    <value>dari {0}</value>
+  </data>
+  <data name="item.build._" xml:space="preserve">
+    <value>Log perubahan</value>
+  </data>
+  <data name="item.build.comment._" xml:space="preserve">
+    <value>Komen baharu</value>
+  </data>
+  <data name="item.build.comment.comment_new" xml:space="preserve">
+    <value>{0} mengomen "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} mengomen "{1}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} membalas "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} membalas "{1}"</value>
+  </data>
+  <data name="item.news_post._" xml:space="preserve">
+    <value>Berita</value>
+  </data>
+  <data name="item.news_post.comment._" xml:space="preserve">
+    <value>Komen baharu</value>
+  </data>
+  <data name="item.news_post.comment.comment_new" xml:space="preserve">
+    <value>{0} mengomen "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} mengomen "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} membalas "{1}" pada "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} membalas "{1}"</value>
+  </data>
+  <data name="item.forum_topic._" xml:space="preserve">
+    <value>Tajuk forum</value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply._" xml:space="preserve">
+    <value>Balasan forum baharu</value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>{0} membalas pada "{1}"</value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
+    <value>{0} membalas</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Permintaan masuk pasukan</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Anda kini ahli pasukan {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Anda kini ahli pasukan {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
-    <value>Beatmap baharu</value>
+    <value>Peta rentak baharu</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>Beatmap baharu "{0}" oleh {1}</value>
+    <value>Peta rentak baharu "{0}" oleh {1}</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
-    <value>Beatmap baharu "{0}"</value>
+    <value>Peta rentak baharu "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Peta rentak baharu oleh {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Peta rentak "{0}" dikembalikan oleh {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Peta rentak "{0}" dikembalikan</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Pingat</value>
@@ -230,16 +374,16 @@
     <value>Pingat baharu</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
-    <value>"{0}" terbuka!</value>
+    <value>"{0}" dibuka!</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
-    <value>Pingat "{0}" terbuka!</value>
+    <value>Pingat "{0}" dibuka!</value>
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
-    <value>Pingat diperolehi!</value>
+    <value>Pingat dibuka!</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Kamu telah terdaftar sebagai pemilik kesukaran tamu pada beatmap "{0}"</value>
+    <value>Anda kini tamu beatmap "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>Perbincangan untuk "{0}" telah ditutup</value>
@@ -248,7 +392,7 @@
     <value>Terdapat kemas kini pada perbincangan "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>Perbincangan untuk "{0}' telah dibuka</value>
+    <value>Perbincangan untuk "{0}' telah dibuka kunci</value>
   </data>
   <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Terdapat masalah baharu yang dilaporkan pada "{0}"</value>
@@ -257,25 +401,25 @@
     <value>"{0}" telah disingkirkan</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" telah diberikan status digemari</value>
+    <value>"{0}" telah dinaikkan ke Kegemaran</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" telah diberikan status dicalonkan</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" telah memperoleh jumlah pencalonan yang diperlukan untuk memasuki barisan pemeringkatan</value>
+    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran pemeringkatan</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" telah diberikan status diperingkatkan</value>
+    <value>"{0}" telah diperingkatkan</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>Status digemari telah dibuang dari "{0}"</value>
+    <value>"{0}" dipadam dari Kegemaran</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>Status dicalonkan pada "{0}" telah dibatalkan</value>
+    <value>Pencalonan "{0}" telah diset semula</value>
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
-    <value>Terdapat ulasan baharu pada beatmap "{0}"</value>
+    <value>Peta rentak "{0}" mempunyai komen baharu</value>
   </data>
   <data name="mail.channel.announcement.announce" xml:space="preserve">
     <value>Terdapat pengumuman baharu pada "{0}"</value>
@@ -284,13 +428,19 @@
     <value>Kamu menerima pesanan baharu dari {0}</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
-    <value>Terdapat ulasan baharu pada riwayat perubahan "{0}"</value>
+    <value>Terdapat komen baharu pada log perubahan "{0}"</value>
   </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
-    <value>Terdapat ulasan baharu pada berita "{0}"</value>
+    <value>Terdapat komen baharu pada berita "{0}"</value>
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Terdapat balasan baharu pada "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Anda kini ahli pasukan {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} telah mencipta beatmap baru</value>

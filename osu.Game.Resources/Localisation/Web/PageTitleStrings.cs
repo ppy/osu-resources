@@ -235,6 +235,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainTeamsControllerDefault => new TranslatableString(getKey(@"main.teams_controller._"), @"teams");
 
         /// <summary>
+        /// "create team"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerCreate => new TranslatableString(getKey(@"main.teams_controller.create"), @"create team");
+
+        /// <summary>
         /// "team settings"
         /// </summary>
         public static LocalisableString MainTeamsControllerEdit => new TranslatableString(getKey(@"main.teams_controller.edit"), @"team settings");

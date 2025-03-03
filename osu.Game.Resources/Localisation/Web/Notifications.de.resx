@@ -100,6 +100,9 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>Neuigkeiten</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>Team</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>Profil</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="filters.news_post" xml:space="preserve">
     <value>Neuigkeiten</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>Team</value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>Profil</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} antwortete</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Team-Beitrittsanfrage</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du bist jetzt Mitglied des Teams {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Du bist jetzt Mitglied des Teams {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Deine Beitrittsanfrage für das Team {0} wurde abgelehnt</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Deine Beitrittsanfrage für das Team {0} wurde abgelehnt</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Neue Beatmap</value>
   </data>
@@ -414,6 +435,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Es gibt neue Antworten in "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du bist jetzt Mitglied des Teams {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Deine Beitrittsanfrage für das Team {0} wurde abgelehnt</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} hat neue Beatmaps erstellt</value>

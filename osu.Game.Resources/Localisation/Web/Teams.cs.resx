@@ -58,8 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Nastavení bylo úspěšně uloženo</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Uživatel byl přidán do týmu.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Žádost o připojení byla zrušena.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Žádost o připojení byla zamítnuta.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Požádáno o připojení k týmu.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Tým odebrán</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Nastavení týmu</value>
@@ -76,20 +88,8 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>Nastavit obrázek záhlaví</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Vlajka týmu</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Nastavit vlajku týmu</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Přihláška do týmu</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Zdali umožnit lidem, aby mohli podávat přihlášky do týmu</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Výchozí ruleset</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>Ruleset, který má být automaticky vybrán při návštěvě stránky týmu</value>
@@ -97,20 +97,44 @@
   <data name="edit.settings.title" xml:space="preserve">
     <value>Nastavení týmu</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
-    <value>Uzavřená</value>
+    <value>Zavřené</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
-    <value>Otevřená</value>
+    <value>Otevřené</value>
+  </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>nastavení</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>žebříček</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>spravovat členy</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Globální umístění</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Člen týmu byl odebrán</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Spravovat členy</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Momentálně nemáte žádné žádosti o připojení.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Dostupná místa</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Žádosti o připojení</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Žádost vytvořena</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Stav</value>
@@ -130,11 +154,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktivní</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Opustil jsi tento tým ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Rozpustit tým</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Požádat o připojení</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Zrušit žádost</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Opustit tým</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Založen</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Webové stránky</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Členové týmu</value>

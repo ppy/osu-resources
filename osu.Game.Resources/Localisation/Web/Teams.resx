@@ -70,11 +70,29 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Requested to join team.</value>
   </data>
-  <data name="destroy.ok" xml:space="preserve">
-    <value>Team removed</value>
+  <data name="create.submit" xml:space="preserve">
+    <value>Create Team</value>
   </data>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Settings saved successfully</value>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>Your team name. The name is permanent at the moment.</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>Maximum 4 characters.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Let's set up a new team</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Play together with friends; existing or new. You're not currently in a team. Join an existing team by visiting their team page or create your own team from this page.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>Team!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Team removed.</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>Settings saved successfully.</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Team Settings</value>
@@ -85,35 +103,32 @@
   <data name="edit.description.title" xml:space="preserve">
     <value>Team Description</value>
   </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>Team Flag</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>Set Team Flag</value>
+  </data>
   <data name="edit.header.label" xml:space="preserve">
     <value>Header Image</value>
   </data>
   <data name="edit.header.title" xml:space="preserve">
     <value>Set Header Image</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Team Flag</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Set Team Flag</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Team Application</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Whether to allow people to apply for the team</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Default Ruleset</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>The ruleset to be selected by default when visiting the team page</value>
   </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>Maximum size of {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>Maximum size of {0}×{1}</value>
+  </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>Team Settings</value>
-  </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
   </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Closed</value>
@@ -135,12 +150,6 @@
   </data>
   <data name="leaderboard.global_rank" xml:space="preserve">
     <value>Global Rank</value>
-  </data>
-  <data name="leaderboard.performance" xml:space="preserve">
-    <value>Performance</value>
-  </data>
-  <data name="leaderboard.total_score" xml:space="preserve">
-    <value>Total Score</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Team member removed</value>
@@ -181,6 +190,9 @@
   <data name="part.ok" xml:space="preserve">
     <value>Left the team ;_;</value>
   </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Team Chat</value>
+  </data>
   <data name="show.bar.destroy" xml:space="preserve">
     <value>Disband Team</value>
   </data>
@@ -196,9 +208,6 @@
   <data name="show.info.created" xml:space="preserve">
     <value>Formed</value>
   </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Website</value>
-  </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Team Members</value>
   </data>
@@ -210,5 +219,8 @@
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Members</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Team created.</value>
   </data>
 </root>

@@ -58,8 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Настройки сохранены</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Игрок добавлен в команду.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Запрос на вступление отменен.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Запрос на вступление отклонен.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Запрос отправлен.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Команда удалена</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Настройки команды</value>
@@ -76,20 +88,8 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>Загрузить обложку</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Флаг команды</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Установить флаг команды</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Подача заявок на вступление</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Разрешить ли игрокам подавать заявки на вступление в команду</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Режим игры по умолчанию</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>Режим игры, отображаемый при открытии страницы команды</value>
@@ -97,20 +97,44 @@
   <data name="edit.settings.title" xml:space="preserve">
     <value>Настройки команды</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>Ссылка</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Закрыта</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Открыта</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>таблица лидеров</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>информация</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>управление участниками</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Рейтинг в мире</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Участник успешно выгнан</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Управление участниками</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Нет запросов на вступление.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Свободных мест</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Запросы на вступление</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Запрос отправлен в</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Статус</value>
@@ -130,11 +154,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Активный</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Вы покинули команду ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Удалить команду</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Отправить запрос</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Отменить запрос</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Покинуть команду</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Сформирована</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Веб-сайт</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Участники команды</value>

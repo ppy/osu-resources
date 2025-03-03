@@ -58,8 +58,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Configuració desada correctament</value>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Equip eliminat</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Configuracions de l'Equip</value>
@@ -76,20 +76,8 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>Posar Capçalera a la Imatge</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Bandera de l'Equip</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Posar Bandera de l'Equip</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Sol·licitud de l'Equip</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Si permetre que la gent sol·liciti unir-se a l'equip</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Mode de joc Predeterminat</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>El Mode de joc a ser seleccionat per defecte quan visites la pàgina de l'equip</value>
@@ -97,20 +85,32 @@
   <data name="edit.settings.title" xml:space="preserve">
     <value>Configuració de l'Equip</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Tancat</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Obert</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>configuració</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Classificació global</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Membre de l'equip eliminat</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Gestionar els Membres</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Places disponibles</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Sol·licituds d'accés</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Sol·licitat a</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Estatus</value>
@@ -130,11 +130,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Actiu</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Has abandonat l'equip ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Dissol l'Equip</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Sol·licitar accés</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Cancel·la la sol·licitud d'accés</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Abandona l'Equip</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Format</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Lloc web</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Membres de l'Equip</value>

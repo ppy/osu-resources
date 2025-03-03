@@ -30,14 +30,44 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ApplicationsStoreOk => new TranslatableString(getKey(@"applications.store.ok"), @"Requested to join team.");
 
         /// <summary>
-        /// "Team removed"
+        /// "Create Team"
         /// </summary>
-        public static LocalisableString DestroyOk => new TranslatableString(getKey(@"destroy.ok"), @"Team removed");
+        public static LocalisableString CreateSubmit => new TranslatableString(getKey(@"create.submit"), @"Create Team");
 
         /// <summary>
-        /// "Settings saved successfully"
+        /// "Your team name. The name is permanent at the moment."
         /// </summary>
-        public static LocalisableString EditSaved => new TranslatableString(getKey(@"edit.saved"), @"Settings saved successfully");
+        public static LocalisableString CreateFormNameHelp => new TranslatableString(getKey(@"create.form.name_help"), @"Your team name. The name is permanent at the moment.");
+
+        /// <summary>
+        /// "Maximum 4 characters."
+        /// </summary>
+        public static LocalisableString CreateFormShortNameHelp => new TranslatableString(getKey(@"create.form.short_name_help"), @"Maximum 4 characters.");
+
+        /// <summary>
+        /// "Let&#39;s set up a new team"
+        /// </summary>
+        public static LocalisableString CreateFormTitle => new TranslatableString(getKey(@"create.form.title"), @"Let's set up a new team");
+
+        /// <summary>
+        /// "Play together with friends; existing or new. You&#39;re not currently in a team. Join an existing team by visiting their team page or create your own team from this page."
+        /// </summary>
+        public static LocalisableString CreateIntroDescription => new TranslatableString(getKey(@"create.intro.description"), @"Play together with friends; existing or new. You're not currently in a team. Join an existing team by visiting their team page or create your own team from this page.");
+
+        /// <summary>
+        /// "Team!"
+        /// </summary>
+        public static LocalisableString CreateIntroTitle => new TranslatableString(getKey(@"create.intro.title"), @"Team!");
+
+        /// <summary>
+        /// "Team removed."
+        /// </summary>
+        public static LocalisableString DestroyOk => new TranslatableString(getKey(@"destroy.ok"), @"Team removed.");
+
+        /// <summary>
+        /// "Settings saved successfully."
+        /// </summary>
+        public static LocalisableString EditOk => new TranslatableString(getKey(@"edit.ok"), @"Settings saved successfully.");
 
         /// <summary>
         /// "Team Settings"
@@ -55,6 +85,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditDescriptionTitle => new TranslatableString(getKey(@"edit.description.title"), @"Team Description");
 
         /// <summary>
+        /// "Team Flag"
+        /// </summary>
+        public static LocalisableString EditFlagLabel => new TranslatableString(getKey(@"edit.flag.label"), @"Team Flag");
+
+        /// <summary>
+        /// "Set Team Flag"
+        /// </summary>
+        public static LocalisableString EditFlagTitle => new TranslatableString(getKey(@"edit.flag.title"), @"Set Team Flag");
+
+        /// <summary>
         /// "Header Image"
         /// </summary>
         public static LocalisableString EditHeaderLabel => new TranslatableString(getKey(@"edit.header.label"), @"Header Image");
@@ -65,29 +105,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditHeaderTitle => new TranslatableString(getKey(@"edit.header.title"), @"Set Header Image");
 
         /// <summary>
-        /// "Team Flag"
-        /// </summary>
-        public static LocalisableString EditLogoLabel => new TranslatableString(getKey(@"edit.logo.label"), @"Team Flag");
-
-        /// <summary>
-        /// "Set Team Flag"
-        /// </summary>
-        public static LocalisableString EditLogoTitle => new TranslatableString(getKey(@"edit.logo.title"), @"Set Team Flag");
-
-        /// <summary>
-        /// "Team Application"
-        /// </summary>
-        public static LocalisableString EditSettingsApplication => new TranslatableString(getKey(@"edit.settings.application"), @"Team Application");
-
-        /// <summary>
         /// "Whether to allow people to apply for the team"
         /// </summary>
         public static LocalisableString EditSettingsApplicationHelp => new TranslatableString(getKey(@"edit.settings.application_help"), @"Whether to allow people to apply for the team");
-
-        /// <summary>
-        /// "Default Ruleset"
-        /// </summary>
-        public static LocalisableString EditSettingsDefaultRuleset => new TranslatableString(getKey(@"edit.settings.default_ruleset"), @"Default Ruleset");
 
         /// <summary>
         /// "The ruleset to be selected by default when visiting the team page"
@@ -95,14 +115,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EditSettingsDefaultRulesetHelp => new TranslatableString(getKey(@"edit.settings.default_ruleset_help"), @"The ruleset to be selected by default when visiting the team page");
 
         /// <summary>
+        /// "Maximum size of {0}&#215;{1}"
+        /// </summary>
+        public static LocalisableString EditSettingsFlagHelp(LocalisableString width, LocalisableString height) => new TranslatableString(getKey(@"edit.settings.flag_help"), @"Maximum size of {0}×{1}", width, height);
+
+        /// <summary>
+        /// "Maximum size of {0}&#215;{1}"
+        /// </summary>
+        public static LocalisableString EditSettingsHeaderHelp(LocalisableString width, LocalisableString height) => new TranslatableString(getKey(@"edit.settings.header_help"), @"Maximum size of {0}×{1}", width, height);
+
+        /// <summary>
         /// "Team Settings"
         /// </summary>
         public static LocalisableString EditSettingsTitle => new TranslatableString(getKey(@"edit.settings.title"), @"Team Settings");
-
-        /// <summary>
-        /// "URL"
-        /// </summary>
-        public static LocalisableString EditSettingsUrl => new TranslatableString(getKey(@"edit.settings.url"), @"URL");
 
         /// <summary>
         /// "Closed"
@@ -138,16 +163,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Global Rank"
         /// </summary>
         public static LocalisableString LeaderboardGlobalRank => new TranslatableString(getKey(@"leaderboard.global_rank"), @"Global Rank");
-
-        /// <summary>
-        /// "Performance"
-        /// </summary>
-        public static LocalisableString LeaderboardPerformance => new TranslatableString(getKey(@"leaderboard.performance"), @"Performance");
-
-        /// <summary>
-        /// "Total Score"
-        /// </summary>
-        public static LocalisableString LeaderboardTotalScore => new TranslatableString(getKey(@"leaderboard.total_score"), @"Total Score");
 
         /// <summary>
         /// "Team member removed"
@@ -215,6 +230,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PartOk => new TranslatableString(getKey(@"part.ok"), @"Left the team ;_;");
 
         /// <summary>
+        /// "Team Chat"
+        /// </summary>
+        public static LocalisableString ShowBarChat => new TranslatableString(getKey(@"show.bar.chat"), @"Team Chat");
+
+        /// <summary>
         /// "Disband Team"
         /// </summary>
         public static LocalisableString ShowBarDestroy => new TranslatableString(getKey(@"show.bar.destroy"), @"Disband Team");
@@ -240,11 +260,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoCreated => new TranslatableString(getKey(@"show.info.created"), @"Formed");
 
         /// <summary>
-        /// "Website"
-        /// </summary>
-        public static LocalisableString ShowInfoWebsite => new TranslatableString(getKey(@"show.info.website"), @"Website");
-
-        /// <summary>
         /// "Team Members"
         /// </summary>
         public static LocalisableString ShowMembersMembers => new TranslatableString(getKey(@"show.members.members"), @"Team Members");
@@ -263,6 +278,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Members"
         /// </summary>
         public static LocalisableString ShowSectionsMembers => new TranslatableString(getKey(@"show.sections.members"), @"Members");
+
+        /// <summary>
+        /// "Team created."
+        /// </summary>
+        public static LocalisableString StoreOk => new TranslatableString(getKey(@"store.ok"), @"Team created.");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

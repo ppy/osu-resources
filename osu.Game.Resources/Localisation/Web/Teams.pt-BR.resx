@@ -58,8 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Configurações salvas com sucesso</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Adicionado usuário à equipe.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Pedido de adesão cancelado.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Pedido de adesão rejeitado.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Solicitado para se juntar à equipe.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Time removido</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Configurações da Equipe</value>
@@ -76,20 +88,8 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>Definir imagem do cabeçalho</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Bandeira da Equipe</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Definir Bandeira da Equipe</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Aplicativo de Equipe</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Se deve permitir que as pessoas se inscrevam para a equipe</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Regras padrão</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>O conjunto de regras a ser selecionado por padrão quando visitar a página da equipe</value>
@@ -97,20 +97,44 @@
   <data name="edit.settings.title" xml:space="preserve">
     <value>Configurações da Equipe</value>
   </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
-  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Fechado</value>
   </data>
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Abrir</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>configurações</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>placar</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>informações</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>gerenciar membros</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Ranking Global</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Membro da equipe removido</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Gerenciar Membros</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Nenhum pedido de adesão no momento.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Espaços disponíveis</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Pedidos de Adesão</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Solicitado em</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Situação</value>
@@ -130,11 +154,23 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Ativo</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Deixou a equipe ;_;</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Dispensar Equipe</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Pedir para juntar-se</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Cancelar Entrada</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Deixe a equipe</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Formado</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Website</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Membros da equipe</value>
