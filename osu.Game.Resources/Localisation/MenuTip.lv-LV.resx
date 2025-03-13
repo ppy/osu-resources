@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Uzspiest Ctrl-T jebkur spēlē, lai ieslēgtu vai izslēgtu darbarīku galdu!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Uzspiest Ctrl-O jebkur spēlē, lai piekļūtu iestatījumiem!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Visi iestatījumi ir dinamiski un tiek ietekmēti tiešraidē. Pamēğini izmainīt skinu, kamēr tu skaties autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Jaunas funkcijas nāk ar katru atjauninājumu. Pārliecinies ka tiec līdzi tiem!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Ja tev šķiet ka UI ir par lielu vai par mazu, pamēğini to izmainīt UI izmēra iestatījumos!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Pamēğini noregulēt "Ekrāna Izmēra" režīmu, lai izmainītu spēli vai UI teritoriju, pat pilnekrāna režīmā!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Kas kādreiz bija zināms kā "osu!direct" ir pieejams visiem lietotājiem, tā pat kā mājaslapā. Tu vari tam piekļūt jebkur izmantojot Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Iešana cauri atkārtojumiem ir pieejama, velkot progresa līniju ekrāna apakšā, vai izmantojot labās un kreisās bultu taustiņus!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Pamēğini ritināties uz labo pusi modifikāciju izvēlnē, lai atrastu čupu ar jaunām, foršām modifikācijām!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Lielākā daļa no interneta satura (profili, rangi, utt.) ir dabiski pieejami iekšā spēlē no ikonas darbarīku joslā!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Iegūsti vairāk opcijas, paslēp vai izdzēs ritma-mapi, uzspiežot uz tās paneļa dziesmu izvēlē, ar peles labo taustiņu!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Apskati "dziesmu izlase" sistēmu, kura atļauj lietotājiem izveidot pašiem savu personalizējamu un paliekošu līderu sarakstu!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Ieslēdz advancẽtos kadrus / pavedienu statistiku ar Ctlr-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Tu vari nopauzēt atkārtojumu, uzspiežot Atstarpi!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Vairums taustiņu saīsinājumi ir izmaināmi uz ko vien tu vēlies. Paskaties uz saistību paneli zem ievades iestatījumiem!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Izmantojot skina izkārtojuma rediğētāju, lai personalizētu savu spēles HUD. Atver to jebkurā laikā ar Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Tu vari uztaisīt modifikāciju izvēles savienojumus, lai ieslēgtu savas modifikāciju kombinācijas vieglāk!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Daudzām modifikācijām ir personalizēšana, kura stipri ietekmē tās funkciju. Uzspied Personalizēt pogu, modifikāciju izvēlnē, lai apskatītu iestatījumus!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Uzspied Ctrl-Shift-R lai skins nejauši nomainītos!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Skatoties atkārtojumu, uzspied Ctrl-H lai ieslēgtu vai izslēgtu atkārtojumu iestatījumus!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Tu vari viegli nokopēt modifikācijas no līderu saraksta rezultāta, uzklikšķinot uz to ar labo peles pogu!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter dziesmu izvēlē, sāks ritma-mapi automātiskajā režīmā!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" nav angļu vārds. Pareiza pareizrakstība priekš spošās gaismas ir "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Daudzpavedienu atbalsts nozīmē, ka pat ar zemu "FPS" tavi ievades signāli būs precīzi!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Visas izdzēšanas operācijas ir pagaidu līdz iziešanai. Atgriez nejauši izdzēstu saturu no remontu iestatījumiem!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Paskaties uz veiktspējas skaitītājiem dziļāk, un ieslēdz veiktspējas pierakstus ar Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Kas tavs spēles HUD ir paslēpts, tu vari uzspiest un noturēt Ctrl, lai to īslaicīgi ieraudzītu!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Aizvelc un iemet jebkādu bildi skinu rediğētājā, lai to ielādētu ātri!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>padoms tev:</value>
+  </data>
+</root>

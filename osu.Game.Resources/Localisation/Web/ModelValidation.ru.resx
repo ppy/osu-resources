@@ -68,7 +68,7 @@
     <value>Поле {0} обязательно для заполнения.</value>
   </data>
   <data name="too_long" xml:space="preserve">
-    <value>{0} превышает максимальное количество символов - можно использовать только до {1} characters символов.</value>
+    <value>Максимально допустимое количество символов в поле {0} — не более {1}.</value>
   </data>
   <data name="url" xml:space="preserve">
     <value>Пожалуйста, введите действительный URL.</value>
@@ -101,7 +101,7 @@
     <value>Временная отметка</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Данная карта в текущий момент закрыта для обсуждения и не может быть хайпанута</value>
+    <value>Эта карта закрыта для обсуждения, поэтому на данный момент её нельзя хайпануть</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Вам нужно войти, чтобы хайпить.</value>
@@ -229,6 +229,30 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>Callback URL приложения</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0} содержит недопустимые символы.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>{0} уже занято.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Такое {0} запрещено.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Основной режим игры</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Подача заявок</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Короткое название</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Пароль не должен содержать ник.</value>
   </data>
@@ -278,7 +302,7 @@
     <value>Никнейм не может начинаться или заканчиваться пробелами!</value>
   </data>
   <data name="user.username_not_allowed" xml:space="preserve">
-    <value>Этот ник запрещён к регистрации.</value>
+    <value>Этот ник запрещён.</value>
   </data>
   <data name="user.username_too_short" xml:space="preserve">
     <value>Введённый никнейм слишком короткий.</value>

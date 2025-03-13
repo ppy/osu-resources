@@ -229,14 +229,38 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>URL Panggil Balik Aplikasi</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0} ini mengandungi aksara tidak sah.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>{0} ini telah digunakan.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>{0} ini tidak dibenarkan.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Ruleset asal</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Permohonan pasukan</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Nama pendek</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Kata laluan tidak boleh mengandungi nama pengguna.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
-    <value>Alamat emel telah digunakan.</value>
+    <value>Alamat e-mel telah digunakan.</value>
   </data>
   <data name="user.email_not_allowed" xml:space="preserve">
-    <value>Alamat emel tidak dibenarkan.</value>
+    <value>Alamat e-mel tidak dibenarkan.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Negara tiada dalam pangkalan data.</value>
@@ -245,7 +269,7 @@
     <value>Nama pengguna Discord tidak sah.</value>
   </data>
   <data name="user.invalid_email" xml:space="preserve">
-    <value>Nampaknya bukan alamat emel sah.</value>
+    <value>Nampaknya bukan alamat e-mel sah.</value>
   </data>
   <data name="user.invalid_twitter" xml:space="preserve">
     <value>Nama pengguna Twitter tidak sah.</value>
@@ -254,7 +278,7 @@
     <value>Kata laluan baharu terlalu pendek.</value>
   </data>
   <data name="user.unknown_duplicate" xml:space="preserve">
-    <value>Nama pengguna atau emel telah digunakan.</value>
+    <value>Nama pengguna atau e-mel telah digunakan.</value>
   </data>
   <data name="user.username_available_in" xml:space="preserve">
     <value>Nama pengguna ini akan sedia digunakan dalam {0}.</value>
@@ -293,7 +317,7 @@
     <value>Kata laluan semasa tidak betul.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>Pengesahan emel tidak sepadan.</value>
+    <value>Pengesahan e-mel tidak sepadan.</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
     <value>Pengesahan kata laluan tidak sepadan.</value>
@@ -305,7 +329,7 @@
     <value>Nama pengguna</value>
   </data>
   <data name="user.attributes.user_email" xml:space="preserve">
-    <value>Alamat emel</value>
+    <value>Alamat e-mel</value>
   </data>
   <data name="user.attributes.password" xml:space="preserve">
     <value>Kata Laluan</value>

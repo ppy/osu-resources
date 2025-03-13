@@ -70,8 +70,29 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Solicita unirse al equipo.</value>
   </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>Crear equipo</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>El nombre de tu equipo. Por el momento, los nombres son permanentes.</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>Máximo 4 caracteres.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Vamos a crear un nuevo equipo</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Juega con tus amigos, con los que ya tienes o con los nuevos. Actualmente no estás en un equipo. Únete a un equipo existente visitando su página de equipo o crea tu propio equipo desde esta página.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>¡Equipo!</value>
+  </data>
   <data name="destroy.ok" xml:space="preserve">
     <value>Equipo eliminado</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>Configuración guardada correctamente.</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Configuración del equipo</value>
@@ -81,6 +102,12 @@
   </data>
   <data name="edit.description.title" xml:space="preserve">
     <value>Descripción del equipo</value>
+  </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>Bandera del equipo</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>Establecer bandera del equipo</value>
   </data>
   <data name="edit.header.label" xml:space="preserve">
     <value>Imagen del encabezado</value>
@@ -93,6 +120,12 @@
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>El modo de juego que se seleccionará de forma predeterminada al visitar la página del equipo</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>Tamaño máximo de {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>Tamaño máximo de {0}×{1}</value>
   </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>Configuración del equipo</value>
@@ -130,6 +163,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Espacios disponibles</value>
   </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Solicitudes para unirse al equipo</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Solicitud realizada</value>
+  </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Estado</value>
   </data>
@@ -148,6 +187,24 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Activo</value>
   </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Abandonar equipo ;_;</value>
+  </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Chat del equipo</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Disolver equipo</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Solicitar unirse</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Cancelar solicitud</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Abandonar equipo</value>
+  </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Formado</value>
   </data>
@@ -162,5 +219,8 @@
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Miembros</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Equipo creado.</value>
   </data>
 </root>

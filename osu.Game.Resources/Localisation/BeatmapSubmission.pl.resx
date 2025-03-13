@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Przesyłanie beatmapy</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Podziel się swoją beatmapą ze światem!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Uprawnienia treści</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Rozumiem</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Często zadawane pytania</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Ustawienia zgłoszenia</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Prześlij beatmapę!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Eksportowanie beatmapy dla kompatybilności...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Przygotowywanie do przesłania...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Przesyłanie zawartości beatmapy...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Finalizowanie...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Zanim przejdziesz dalej, prosimy o sprawdzenie, czy przesyłane treści zostały zatwierdzone do przesłania. Pamiętaj, że jesteś odpowiedzialny za treści, które przesyłasz na platformę i w razie wątpliwości powinieneś poprosić twórców o pozwolenie przed ich przesłaniem!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Sprawdź wytyczne dotyczące użycia zawartości, aby uzyskać więcej informacji</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Kryteria rankingu beatmapy</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Nie jesteś pewien czy spełniasz wytyczne? Sprawdź listę i przyspiesz proces nadania statusu rankingowego!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Proces przesyłania</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Nie masz pewności co do procesu przesyłania? Sprawdź wpis na wiki!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Forum pomocy w mapowaniu</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Masz pytania dotyczące mapowania i zgłoszeń? Zadaj je na forum!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Forum kolejki moderacji</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Masz problem z otrzymaniem opinii? Zapytaj w kolejce moderacji!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Gdzie chciałbyś opublikować swoją beatmapę?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Rozwijana / Pomoc (niekompletna, nie gotowa do nadania statusu rankingowego)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Oczekująca (ukończona, gotowa do uzyskania statusu rankingowego)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Otrzymuj powiadomienia o odpowiedziach na dyskusje</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Otwórz w przeglądarce po przesłaniu</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Uwaga: Aby umożliwić użytkownikom wszystkich wersji osu! korzystanie z beatmapy, zostanie ona wyeksportowana w formacie kompatybilnym wstecz. Chociaż dołożyliśmy starań, aby proces ten zapewniał zagranie beatmapy w zamierzonej formie, niektóre dane związane z funkcjami, których poprzednie wersje osu! nie obsługują, mogą zostać utracone.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Puste beatmapy nie mogą być przesłane.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Aktualizuj beatmapę!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Prześlij NOWĄ beatmapę!</value>
+  </data>
+</root>

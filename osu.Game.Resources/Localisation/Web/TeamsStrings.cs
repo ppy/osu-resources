@@ -270,6 +270,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowMembersOwner => new TranslatableString(getKey(@"show.members.owner"), @"Team Leader");
 
         /// <summary>
+        /// "About Us!"
+        /// </summary>
+        public static LocalisableString ShowSectionsAbout => new TranslatableString(getKey(@"show.sections.about"), @"About Us!");
+
+        /// <summary>
         /// "Info"
         /// </summary>
         public static LocalisableString ShowSectionsInfo => new TranslatableString(getKey(@"show.sections.info"), @"Info");
@@ -278,6 +283,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Members"
         /// </summary>
         public static LocalisableString ShowSectionsMembers => new TranslatableString(getKey(@"show.sections.members"), @"Members");
+
+        /// <summary>
+        /// "Rank"
+        /// </summary>
+        public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
+
+        /// <summary>
+        /// "Team Leader"
+        /// </summary>
+        public static LocalisableString ShowStatisticsLeader => new TranslatableString(getKey(@"show.statistics.leader"), @"Team Leader");
 
         /// <summary>
         /// "Team created."

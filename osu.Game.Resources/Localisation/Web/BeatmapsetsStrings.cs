@@ -455,6 +455,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be an osu!supporter to access the friend, country, or mod-specific rankings!");
 
         /// <summary>
+        /// "Team Ranking"
+        /// </summary>
+        public static LocalisableString ShowScoreboardTeam => new TranslatableString(getKey(@"show.scoreboard.team"), @"Team Ranking");
+
+        /// <summary>
         /// "Scoreboard"
         /// </summary>
         public static LocalisableString ShowScoreboardTitle => new TranslatableString(getKey(@"show.scoreboard.title"), @"Scoreboard");
@@ -533,6 +538,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Loading scores..."
         /// </summary>
         public static LocalisableString ShowScoreboardNoScoresLoading => new TranslatableString(getKey(@"show.scoreboard.no_scores.loading"), @"Loading scores...");
+
+        /// <summary>
+        /// "No one from your team has set a score on this map yet!"
+        /// </summary>
+        public static LocalisableString ShowScoreboardNoScoresTeam => new TranslatableString(getKey(@"show.scoreboard.no_scores.team"), @"No one from your team has set a score on this map yet!");
 
         /// <summary>
         /// "Unranked beatmap."

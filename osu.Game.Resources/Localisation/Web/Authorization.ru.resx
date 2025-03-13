@@ -62,7 +62,7 @@
     <value>Может, лучше в osu! поиграете?</value>
   </data>
   <data name="require_login" xml:space="preserve">
-    <value>Войдите, чтобы оставить своё мнение</value>
+    <value>Войдите, чтобы продолжить.</value>
   </data>
   <data name="require_verification" xml:space="preserve">
     <value>Пожалуйста, подтвердите свой аккаунт.</value>
@@ -134,7 +134,7 @@
     <value>Возможность обсуждения этой карты закрыта.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>Если карта номинирована, её метаданные нельзя менять. В случае ошибок свяжитесь с номинатором или членом NAT.</value>
+    <value>Вы не можете изменить метаданные номинированной карты. Чтобы исправить возможные ошибки, свяжитесь с номинаторами или членом NAT.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
     <value>Сыграйте эту карту, чтобы начать добавлять теги.</value>
@@ -212,16 +212,16 @@
     <value>Нельзя редактировать пост в закрытой теме.</value>
   </data>
   <data name="forum.post.store.play_more" xml:space="preserve">
-    <value>Поиграйте в игру, прежде чем писать что-либо на форуме. Если у вас имеются проблемы с игрой, попробуйте написать об этом на форуме «Помощи и поддержки».</value>
+    <value>Пожалуйста, поиграйте в osu!, прежде чем начать создавать темы! Если у вас возникли проблемы, попробуйте сообщить об этом уже в существующей теме "Вопросы и проблемы" на форуме "Русский".</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>Вы должны поиграть в игру подольше, прежде чем создавать дополнительные посты. Если у вас все ещё имеются проблемы с игрой, напишите на почту support@ppy.sh</value>
+    <value>Поиграйте в osu! ещё немного, прежде чем снова публиковать посты. Если вы всё еще испытываете проблемы с игрой, напишите на почту support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
     <value>Пожалуйста, отредактируйте ваш последний пост, не создавайте новый.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
-    <value>В закрытой теме отключена возможность отвечать.</value>
+    <value>Эта тема закрыта — в ней нельзя ответить.</value>
   </data>
   <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
@@ -299,25 +299,28 @@
     <value>Закреплено слишком много рекордов.</value>
   </data>
   <data name="team.application.store.already_member" xml:space="preserve">
-    <value>Вы уже присоединились к команде.</value>
+    <value>Вы уже вступили в эту команду.</value>
   </data>
   <data name="team.application.store.already_other_member" xml:space="preserve">
-    <value>Вы уже присоединились к другой команде.</value>
+    <value>Вы уже вступили в другую команду.</value>
   </data>
   <data name="team.application.store.currently_applying" xml:space="preserve">
-    <value>У вас есть запрос на вступление в команду.</value>
+    <value>У вас уже есть один запрос на вступление в команду.</value>
   </data>
   <data name="team.application.store.team_closed" xml:space="preserve">
-    <value>В настоящее время команда не принимает заявок на вступление.</value>
+    <value>Эта команда не принимает запросы на вступление на данный момент.</value>
   </data>
   <data name="team.application.store.team_full" xml:space="preserve">
-    <value>Команда уже переполнена и не принимает новых участников.</value>
+    <value>Эта команда уже переполнена и больше не может принять новых участников.</value>
   </data>
   <data name="team.part.is_leader" xml:space="preserve">
-    <value>Владельцу команды нельзя покидать ее.</value>
+    <value>Капитан не может покинуть собственную команду.</value>
   </data>
   <data name="team.part.not_member" xml:space="preserve">
     <value>Вы не являетесь участником команды.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Для создания команды необходим тег osu!supporter.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Страница пользователя заблокирована.</value>

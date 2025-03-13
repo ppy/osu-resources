@@ -70,8 +70,29 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>已请求加入战队。</value>
   </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>创建战队</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>你的战队名称。目前不可再修改。</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>最多4个字符。</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>来组建战队吧</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>与新老朋友一起游戏吧。你目前并未加入战队，但你可以在这一页内，访问其他战队的主页并加入，或是直接创建你自己的战队。</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>战队！</value>
+  </data>
   <data name="destroy.ok" xml:space="preserve">
     <value>已删除战队</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>成功保存设置。</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>战队设置</value>
@@ -81,6 +102,12 @@
   </data>
   <data name="edit.description.title" xml:space="preserve">
     <value>战队介绍</value>
+  </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>战队旗帜</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>设置战队旗帜</value>
   </data>
   <data name="edit.header.label" xml:space="preserve">
     <value>战队头像</value>
@@ -93,6 +120,12 @@
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>第一次进入组队界面时默认选择的游戏模式</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>最大尺寸 {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>最大尺寸 {0}×{1}</value>
   </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>战队设置</value>
@@ -157,6 +190,9 @@
   <data name="part.ok" xml:space="preserve">
     <value>已离开战队 ;_;</value>
   </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>战队聊天</value>
+  </data>
   <data name="show.bar.destroy" xml:space="preserve">
     <value>解散战队</value>
   </data>
@@ -183,5 +219,8 @@
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>成员</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>已创建战队。</value>
   </data>
 </root>
