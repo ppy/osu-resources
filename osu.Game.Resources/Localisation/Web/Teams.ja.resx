@@ -70,8 +70,29 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>チームへの参加をリクエストしました。</value>
   </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>チームを作成</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>チーム名。現在一度決めたチーム名は変更できません。</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>最大 4 文字。</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>新しいチームを作成しましょう</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>既存のフレンドや新しいフレンドと一緒にプレイします。現在、あなたはチームに所属していません。チームページにアクセスして既存のチームに所属するか、このページからチームを作成してください。</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>チーム！</value>
+  </data>
   <data name="destroy.ok" xml:space="preserve">
     <value>チームを削除しました</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>設定が正常に保存されました。</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>チームの設定</value>
@@ -81,6 +102,12 @@
   </data>
   <data name="edit.description.title" xml:space="preserve">
     <value>チームの説明</value>
+  </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>チームフラグ</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>チームフラグを設定</value>
   </data>
   <data name="edit.header.label" xml:space="preserve">
     <value>ヘッダー画像</value>
@@ -93,6 +120,12 @@
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>チームのページにアクセスしたときにデフォルトで表示されるルールセット</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>最大サイズ {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>最大サイズ {0}×{1}</value>
   </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>チームの設定</value>
@@ -157,6 +190,9 @@
   <data name="part.ok" xml:space="preserve">
     <value>チームから退出しました ;_;</value>
   </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>チームチャット</value>
+  </data>
   <data name="show.bar.destroy" xml:space="preserve">
     <value>チームを解散</value>
   </data>
@@ -183,5 +219,8 @@
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>メンバー</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>チームを作成しました。</value>
   </data>
 </root>

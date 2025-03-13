@@ -630,9 +630,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowEditCoverUploadDropzoneInfo => new TranslatableString(getKey(@"show.edit.cover.upload.dropzone_info"), @"You can also drop your image here to upload");
 
         /// <summary>
-        /// "Cover size should be 2400x640"
+        /// "Cover size should be 2000x500"
         /// </summary>
-        public static LocalisableString ShowEditCoverUploadSizeInfo => new TranslatableString(getKey(@"show.edit.cover.upload.size_info"), @"Cover size should be 2400x640");
+        public static LocalisableString ShowEditCoverUploadSizeInfo => new TranslatableString(getKey(@"show.edit.cover.upload.size_info"), @"Cover size should be 2000x500");
 
         /// <summary>
         /// "Uploaded file is too large."

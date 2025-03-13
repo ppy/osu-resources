@@ -105,6 +105,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeSeasons => new TranslatableString(getKey(@"type.seasons"), @"seasons");
 
         /// <summary>
+        /// "team"
+        /// </summary>
+        public static LocalisableString TypeTeam => new TranslatableString(getKey(@"type.team"), @"team");
+
+        /// <summary>
         /// "There are no rooms in this season yet."
         /// </summary>
         public static LocalisableString SeasonsEmpty => new TranslatableString(getKey(@"seasons.empty"), @"There are no rooms in this season yet.");
@@ -168,6 +173,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Division"
         /// </summary>
         public static LocalisableString StatDivision => new TranslatableString(getKey(@"stat.division"), @"Division");
+
+        /// <summary>
+        /// "Members"
+        /// </summary>
+        public static LocalisableString StatMembers => new TranslatableString(getKey(@"stat.members"), @"Members");
 
         /// <summary>
         /// "Play Count"
