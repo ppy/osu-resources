@@ -145,8 +145,17 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>決済方法がeCheckのため、PayPalを介した支払いが完了するまで、さらに最大10日を要します。予めご了承ください。</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>PayPal が eCheck によるお支払いを拒否しました。</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!サポータータグは最近のアクティビティには表示されません。</value>
+  </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>発送方法：</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>配送先：</value>
   </data>
   <data name="invoice.title" xml:space="preserve">
     <value>請求書</value>
@@ -202,6 +211,9 @@
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
     <value>エアメールでお送りしたため、追跡情報はございませんが、通常1〜3週間ほどでお届けできる見込みです。ヨーロッパへの発送の場合、税関の事情により配送が遅れる可能性があり、私たちでは対応が難しいこともございます。ご不明点やご不安な点がありましたら、ご注文確認メールへの返信(または {0})にてお問い合わせください。</value>
   </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>メールでお問い合わせください</value>
+  </data>
   <data name="order.cancel" xml:space="preserve">
     <value>注文をキャンセル</value>
   </data>
@@ -240,6 +252,9 @@
   </data>
   <data name="order.details.payment_terms" xml:space="preserve">
     <value>支払い条件</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>営業担当者</value>
   </data>
   <data name="order.details.shipping_method" xml:space="preserve">
     <value>配送方法</value>
@@ -304,6 +319,9 @@
   <data name="order.thanks.title" xml:space="preserve">
     <value>ご注文ありがとうございました！</value>
   </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>まもなく確認メールが届きます。ご不明な点がございましたら、{0} からお問い合わせください！</value>
+  </data>
   <data name="order.thanks.line_1.link_text" xml:space="preserve">
     <value>お問い合わせ</value>
   </data>
@@ -348,6 +366,9 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>{0}が使用可能か確認中・・・</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>ご希望のユーザー名</value>
   </data>
   <data name="username_change.label" xml:space="preserve">
     <value>新しいユーザー名</value>

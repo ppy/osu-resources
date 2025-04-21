@@ -70,6 +70,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScoresTitle(LocalisableString username) => new TranslatableString(getKey(@"scores.title"), @"Report {0}'s score?", username);
 
         /// <summary>
+        /// "Report Team"
+        /// </summary>
+        public static LocalisableString TeamButton => new TranslatableString(getKey(@"team.button"), @"Report Team");
+
+        /// <summary>
+        /// "Report {0}&#39;s team?"
+        /// </summary>
+        public static LocalisableString TeamTitle(LocalisableString username) => new TranslatableString(getKey(@"team.title"), @"Report {0}'s team?", username);
+
+        /// <summary>
         /// "Report"
         /// </summary>
         public static LocalisableString UserButton => new TranslatableString(getKey(@"user.button"), @"Report");

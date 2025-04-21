@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="new_difficulty_dialog_header" xml:space="preserve">
-    <value>您要创建一个空白难度吗？</value>
+    <value>要创建一个空白难度吗？</value>
   </data>
   <data name="create_new" xml:space="preserve">
     <value>是，从头开始！</value>
@@ -68,10 +68,10 @@
     <value>否，创建当前难度的副本</value>
   </data>
   <data name="keep_editing" xml:space="preserve">
-    <value>我改变了主意，想要继续编辑这个难度</value>
+    <value>我改主意了，继续编辑这个难度</value>
   </data>
   <data name="save_dialog_header" xml:space="preserve">
-    <value>您要保存这些更改吗？</value>
+    <value>要保存这些更改吗？</value>
   </data>
   <data name="save" xml:space="preserve">
     <value>是，保存我的作品！</value>
@@ -83,6 +83,9 @@
     <value>否，继续编辑</value>
   </data>
   <data name="editor_reload_dialog_header" xml:space="preserve">
-    <value>要应用此更改，编辑器必须重新加载。谱面将会保存。</value>
+    <value>必须重新载入编辑器才能应用此更改，谱面将会保存。</value>
+  </data>
+  <data name="discard_unsaved_changes_dialog_header" xml:space="preserve">
+    <value>确定放弃所有未保存的更改？此操作无法撤销。</value>
   </data>
 </root>

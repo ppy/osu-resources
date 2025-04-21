@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>管理成員</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>申請日期：</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>目前沒有加入請求。</value>
   </data>
@@ -166,17 +169,14 @@
   <data name="members.index.applications.title" xml:space="preserve">
     <value>加入請求</value>
   </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>申請日期：</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>狀態</value>
-  </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>加入日期</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>移除</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>狀態</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>目前的成員</value>
@@ -214,13 +214,22 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>隊伍領導人</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>關於我們！</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>資訊</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>成員</value>
   </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>排名</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>隊長</value>
+  </data>
   <data name="store.ok" xml:space="preserve">
-    <value>團隊已創建。</value>
+    <value>已建立團隊。</value>
   </data>
 </root>

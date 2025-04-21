@@ -62,10 +62,10 @@
     <value>Checkout</value>
   </data>
   <data name="cart.empty_cart" xml:space="preserve">
-    <value>Hapus semua barang dari keranjang</value>
+    <value>Hapus seluruh item dari keranjang</value>
   </data>
   <data name="cart.info" xml:space="preserve">
-    <value>{0} barang dalam keranjang (${1})|{0} barang dalam keranjang (${1})</value>
+    <value>{0} item dalam keranjang (${1})|{0} item dalam keranjang (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Saya ingin melihat produk lainnya sebelum merampungkan pesanan</value>
@@ -83,10 +83,10 @@
     <value>Uh-oh, terdapat masalah dengan keranjang belanjamu yang menghalangi proses checkout!</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
-    <value>Hapus atau perbarui rangkaian item di atas untuk melanjutkan.</value>
+    <value>Hapus atau perbarui item di atas untuk melanjutkan.</value>
   </data>
   <data name="cart.empty.text" xml:space="preserve">
-    <value>Keranjang belanjamu masih kosong.</value>
+    <value>Keranjang belanjamu kosong.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
     <value>Kembalilah ke halaman {0} untuk menelusuri berbagai cendera mata yang tersedia!</value>
@@ -104,7 +104,7 @@
     <value>Pembayaran dibatalkan.</value>
   </data>
   <data name="checkout.delayed_shipping" xml:space="preserve">
-    <value>Kami sedang kebanjiran pesanan! Apabila kamu memesan sekarang, mohon beri kami waktu tambahan **selama 1-2 minggu** untuk memproses pesananmu karena kami saat ini masih harus mengurus pesanan yang ada.</value>
+    <value>Kami sedang kebanjiran pesanan! Apabila kamu memesan sekarang, mohon beri kami waktu tambahan **selama 1-2 minggu** untuk memproses pesananmu selagi kami mengurus pesanan yang telah masuk.</value>
   </data>
   <data name="checkout.hide_from_activity" xml:space="preserve">
     <value>Sembunyikan seluruh tag osu!supporter pada pesanan ini dari aktivitas saya</value>
@@ -158,7 +158,7 @@
     <value>Dikirim Ke:</value>
   </data>
   <data name="invoice.title" xml:space="preserve">
-    <value>Tagihan</value>
+    <value>Faktur</value>
   </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>faktur</value>
@@ -173,7 +173,7 @@
     <value>layanan dukungan osu!store</value>
   </data>
   <data name="invoice.status.delivered.title" xml:space="preserve">
-    <value>Pesananmu sudah dikirim! Kami harap kamu menikmatinya!</value>
+    <value>Pesananmu telah dikirim! Kami harap kamu menikmatinya!</value>
   </data>
   <data name="invoice.status.delivered.line_1._" xml:space="preserve">
     <value>Apabila kamu menemui masalah dengan pembelianmu, silakan hubungi {0}.</value>
@@ -185,7 +185,7 @@
     <value>Pesananmu sedang dipersiapkan!</value>
   </data>
   <data name="invoice.status.prepared.line_1" xml:space="preserve">
-    <value>Harap tunggu sedikit lebih lama untuk pengiriman. Informasi pelacakan akan muncul di sini setelah pesanan telah diolah dan dikirim. Ini bisa perlu sampai 5 hari (tetapi biasanya lebih cepat!) tergantung kesibukan kami.</value>
+    <value>Mohon tunggu sedikit lebih lama sebelum pesanan kamu dikirim. Informasi pelacakan kamu akan muncul pada halaman ini setelah pesananmu diproses dan dikirim. Hal ini dapat memakan waktu hingga 5 hari (namun biasanya akan lebih cepat!) tergantung dari kesibukan kami.</value>
   </data>
   <data name="invoice.status.prepared.line_2" xml:space="preserve">
     <value>Kami mengirim seluruh pesanan dari Jepang dengan berbagai macam layanan pengiriman tergantung berat dan nilai. Bagian ini akan diperbarui dengan perincian setelah kami mengirimkan pesanan.</value>
@@ -203,13 +203,13 @@
     <value>klik di sini untuk melanjutkan proses checkout</value>
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
-    <value>Pesananmu sudah dikirim!</value>
+    <value>Pesananmu telah dikirim!</value>
   </data>
   <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
     <value>Berikut rincian pelacakan yang terkait:</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>Kami tidak memiliki perincian pelacakan karena kami mengirim paketmu via Air Mail, tetapi kamu bisa mendapatkannya dalam 1-3 pekan. Untuk Eropa, terkadang bea cukai dapat menunda pesanan di luar kendali kami. Jika kamu punya kekhawatiran, silakan balas email konfirmasi pesanan yang kamu terima {0}.</value>
+    <value>Kami tidak memiliki rincian pelacakan apa pun karena kami mengirim paketmu via Air Mail, namun pesananmu seharusnya akan dapat kamu terima dalam 1-3 pekan. Untuk pengiriman yang tertuju ke Eropa, terkadang bea cukai setempat dapat menunda pesananmu di luar kendali kami. Apabila kamu memiliki sesuatu yang ingin ditanyakan, silakan balas email konfirmasi pesanan yang kamu terima (atau {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>kirimi kami email</value>
@@ -266,7 +266,7 @@
     <value>Rincian Pesanan</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
-    <value>Jumlah</value>
+    <value>jumlah</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} untuk {1} ({2})</value>
@@ -275,25 +275,25 @@
     <value>Pesan: {0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu karena pesanan ini telah dibatalkan.</value>
+    <value>Kamu tidak dapat mengubah pesananmu karena pesanan ini telah dibatalkan.</value>
   </data>
   <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu pada saat pesanan sedang diproses.</value>
+    <value>Kamu tidak dapat mengubah pesananmu pada saat pesanan sedang diproses.</value>
   </data>
   <data name="order.not_modifiable_exception.default" xml:space="preserve">
     <value>Pesanan tidak dapat diubah</value>
   </data>
   <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu karena pesanan ini telah dikirim.</value>
+    <value>Kamu tidak dapat mengubah pesananmu karena pesanan ini telah dikirim.</value>
   </data>
   <data name="order.not_modifiable_exception.paid" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu karena pesanan ini telah dibayar lunas.</value>
+    <value>Kamu tidak dapat mengubah pesananmu karena pesanan ini telah dibayar.</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu pada saat pesanan sedang diproses.</value>
+    <value>Kamu tidak dapat mengubah pesananmu pada saat pesanan sedang diproses.</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
-    <value>Kamu tidak dapat menyunting pesananmu karena pesanan ini telah dikirim.</value>
+    <value>Kamu tidak dapat mengubah pesananmu karena pesanan ini telah dikirim.</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>Dibatalkan</value>
@@ -302,7 +302,7 @@
     <value>Mempersiapkan</value>
   </data>
   <data name="order.status.delivered" xml:space="preserve">
-    <value>Terkirim</value>
+    <value>Sampai Tujuan</value>
   </data>
   <data name="order.status.paid" xml:space="preserve">
     <value>Lunas</value>
@@ -311,7 +311,7 @@
     <value>Menunggu konfirmasi</value>
   </data>
   <data name="order.status.shipped" xml:space="preserve">
-    <value>Terkirim</value>
+    <value>Dalam Perjalanan</value>
   </data>
   <data name="order.status.title" xml:space="preserve">
     <value>Status Pesanan</value>
@@ -350,7 +350,7 @@
     <value>Produk ini telah tersedia!</value>
   </data>
   <data name="supporter_tag.gift" xml:space="preserve">
-    <value>hadiahkan ke pengguna lain</value>
+    <value>hadiahkan ke pemain lain</value>
   </data>
   <data name="supporter_tag.gift_message" xml:space="preserve">
     <value>tambahkan pesan untuk melengkapi hadiahmu! (maksimal {0} karakter)</value>

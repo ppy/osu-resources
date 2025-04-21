@@ -58,6 +58,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Додан корисник у тим.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Захтев за придруживање тима је отказан.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Одбијен захтев за придруживање тима.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Поднет захтев за придруживање тима.</value>
+  </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>Направи Тим</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>Највише до 4 знака.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Хајде да направимо нови тим</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Играјте заједно са пријатељима; постојећи или нови. Тренутно нисте у тиму. Придружите се постојећем тиму тако што ћете посетити страницу њиховог тима или креирати свој тим са ове странице.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>Тим!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Тим уклоњен.</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>Подешавања успешно сачувана.</value>
+  </data>
   <data name="edit.title" xml:space="preserve">
     <value>Подешавања Тима</value>
   </data>
@@ -66,6 +99,27 @@
   </data>
   <data name="edit.description.title" xml:space="preserve">
     <value>Опис Тима</value>
+  </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>Застава Тима</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>Постави Заставу Тима</value>
+  </data>
+  <data name="edit.header.label" xml:space="preserve">
+    <value>Главна Слика</value>
+  </data>
+  <data name="edit.header.title" xml:space="preserve">
+    <value>Постави Главну Слику</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>Да ли дозволити другим људима да се пријаве за придруживање тима</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>Максимална величина од {0}{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>Максимална величина од {0}{1}</value>
   </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>Подешавање Тима</value>
@@ -85,6 +139,9 @@
   <data name="header_links.show" xml:space="preserve">
     <value>инфо</value>
   </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>управљање члановима</value>
+  </data>
   <data name="leaderboard.global_rank" xml:space="preserve">
     <value>Глобални Ранг</value>
   </data>
@@ -94,17 +151,26 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Управљајте Чланове</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Захтевано у</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>Тренутно нема захтева за придруживање.</value>
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Број доступних места</value>
   </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>Статус</value>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Захтеви за придруживање</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>Датум Придруживања</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Уклони</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Статус</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>Тренутни чланови</value>
@@ -118,6 +184,12 @@
   <data name="part.ok" xml:space="preserve">
     <value>Изашао/ла из тима ;_;</value>
   </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Часкање Тима</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Распусти Тим</value>
+  </data>
   <data name="show.bar.join" xml:space="preserve">
     <value>Захтев за придруживање</value>
   </data>
@@ -127,10 +199,31 @@
   <data name="show.bar.part" xml:space="preserve">
     <value>Изађи из тима</value>
   </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>Створен</value>
+  </data>
+  <data name="show.members.members" xml:space="preserve">
+    <value>Чланови Тима</value>
+  </data>
+  <data name="show.members.owner" xml:space="preserve">
+    <value>Вођа Тима</value>
+  </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>О Нама!</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Инфо</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Чланови</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Вођа Тима</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Тим Направљен.</value>
   </data>
 </root>

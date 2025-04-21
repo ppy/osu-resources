@@ -100,6 +100,9 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>novetats</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>equip</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>perfil</value>
   </data>
@@ -121,11 +124,14 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>novetats</value>
   </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>equip</value>
+  </data>
   <data name="filters.user" xml:space="preserve">
     <value>perfil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
-    <value>Mapa</value>
+    <value>Beatmap</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
     <value>Dificultat de convidat</value>
@@ -179,7 +185,7 @@
     <value>{0} suggeriment|{0} suggeriments</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
-    <value>Problema amb un mapa qualificat</value>
+    <value>Problema amb un beatmap qualificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Informe de {0} sobre "{1}": "{2}"</value>
@@ -194,7 +200,7 @@
     <value>Informe de {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
-    <value>L'estat del mapa ha canviat</value>
+    <value>L'estat del beatmap ha canviat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>"{0}" ha estat desqualificat</value>
@@ -341,7 +347,7 @@
     <value>Nous mapes de {0}</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} ha restaurat el mapa "{1}"</value>
+    <value>{0} ha restaurat el beatmap «{1}»</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
     <value>S'ha restaurat el mapa "{0}"</value>

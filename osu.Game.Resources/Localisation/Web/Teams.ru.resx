@@ -116,7 +116,7 @@
     <value>Загрузить обложку</value>
   </data>
   <data name="edit.settings.application_help" xml:space="preserve">
-    <value>Разрешить ли игрокам подавать запросы на вступление в команду</value>
+    <value>Разрешить ли всем желающим подавать запросы на вступление в команду</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>Режим игры, отображаемый на главной странице команды</value>
@@ -143,7 +143,7 @@
     <value>рейтинг</value>
   </data>
   <data name="header_links.show" xml:space="preserve">
-    <value>основная</value>
+    <value>главная</value>
   </data>
   <data name="header_links.members.index" xml:space="preserve">
     <value>управление участниками</value>
@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Управление участниками</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Запрос отправлен</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>Нет запросов на вступление.</value>
   </data>
@@ -166,17 +169,14 @@
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Запросы на вступление</value>
   </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>Запрос отправлен</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>Статус</value>
-  </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>Дата вступления</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Исключить</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Статус</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>Текущие участники</value>
@@ -214,11 +214,20 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>Капитан команды</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>О нас!</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Общее</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Участники</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Рейтинг в мире</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Капитан команды</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Команда создана.</value>

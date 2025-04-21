@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>メンバーの管理</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>申請日</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>現在参加申請はありません。</value>
   </data>
@@ -166,17 +169,14 @@
   <data name="members.index.applications.title" xml:space="preserve">
     <value>参加リクエスト</value>
   </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>申請日</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>ステータス</value>
-  </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>参加日</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>削除</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>ステータス</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>現在参加しているメンバー</value>
@@ -214,11 +214,20 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>チームリーダー</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>私たちについて！</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>情報</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>メンバー</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>ランキング</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>チームリーダー</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>チームを作成しました。</value>

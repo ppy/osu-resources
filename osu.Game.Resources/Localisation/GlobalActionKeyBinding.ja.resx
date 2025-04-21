@@ -166,8 +166,11 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>選択範囲を複製</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>円グリッド表示モード</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>グリッド間隔を順に切り替え</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>グリッドタイプを順に切り替え</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>ゲームプレイのテスト</value>
@@ -184,7 +187,9 @@
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>ゲーム内インターフェイスを切り替え</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>ゲーム内リーダーボードの切り替え</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Mod選択の切り替え</value>
   </data>
@@ -221,8 +226,12 @@
   <data name="editor_decrease_distance_spacing" xml:space="preserve">
     <value>距離の間隔を縮める</value>
   </data>
-  
-  
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>拍スナップ分割を前の設定に切り替え</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>拍スナップ分割を次の設定に切り替え</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>スキンエディターの切り替え</value>
   </data>
@@ -241,15 +250,85 @@
   <data name="seek_replay_backward" xml:space="preserve">
     <value>リプレイを巻き戻す</value>
   </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>リプレイを1フレーム進める</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>リプレイを1フレーム戻す</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>チャットフォーカスの切り替え</value>
   </data>
   <data name="toggle_replay_settings" xml:space="preserve">
     <value>リプレイ設定を切り替える</value>
   </data>
-  
+  <data name="save_replay" xml:space="preserve">
+    <value>リプレイを保存</value>
+  </data>
   <data name="export_replay" xml:space="preserve">
     <value>エクスポートリプレイ</value>
   </data>
-  
+  <data name="increase_offset" xml:space="preserve">
+    <value>オフセットを増やす</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>オフセットを減らす</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>回転コントロールの切り替え</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>回転コントロールの切り替え</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>オートプレイの切り替え</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>クイックポーズの切り替え</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>再生開始位置で終了</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>現在の再生位置で終了</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>MODの速度を上げる</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>MODの速度を下げる</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>前のヒットオブジェクトへ移動</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>次のヒットオブジェクトへ移動</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>前のサンプルポイントへ移動</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>次のサンプルポイントへ移動</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>ブックマークを追加</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>最寄りのブックマークを削除</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>前のブックマークへ移動</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>次のブックマークへ移動</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>曲リストを絶対スクロール</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>移動制御の切り替え</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>未保存の変更を破棄</value>
+  </data>
 </root>
