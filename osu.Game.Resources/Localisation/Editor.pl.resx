@@ -76,6 +76,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Ustaw początek podglądu na bieżący czas</value>
   </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Przenieś już umieszczone obiekty podczas zmiany czasu</value>
+  </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Do edycji (.olz)</value>
   </data>
@@ -90,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>Usuń poziom trudności</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Edytuj zewnętrznie</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Prześlij beatmapę</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>ustawienia</value>
@@ -121,8 +130,11 @@
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>Ogranicz położenie przyciągania odległościowego do bieżącego czasu</value>
   </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Zwiń pasek boczny, gdy nie jest najechany</value>
+  </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
-    <value>Musisz być w trybie edycji, aby obsługiwać linki do edytora</value>
+    <value>Musisz być w trybie edycji, aby obsługiwać linki edytora</value>
   </data>
   <data name="failed_to_parse_edtior_link" xml:space="preserve">
     <value>Nie udało się przetworzyć linku edytora</value>
@@ -133,7 +145,34 @@
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>Pokaż zmiany timingu</value>
   </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Pokaż przerwy</value>
+  </data>
   <data name="timeline_show_ticks" xml:space="preserve">
     <value>Pokaż ticki</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Zakładki</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Dodaj zakładkę</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Usuń najbliższą zakładkę</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Przejdź do poprzedniej zakładki</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Przejdź do następnej zakładki</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Zresetuj zakładki</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Otwórz stronę informacyjną beatmapy</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Otwórz stronę dyskusji beatmapy</value>
   </data>
 </root>
