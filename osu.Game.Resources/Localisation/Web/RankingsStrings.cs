@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeDailyChallenge => new TranslatableString(getKey(@"type.daily_challenge"), @"daily challenge");
 
         /// <summary>
+        /// "global"
+        /// </summary>
+        public static LocalisableString TypeGlobal => new TranslatableString(getKey(@"type.global"), @"global");
+
+        /// <summary>
         /// "kudosu"
         /// </summary>
         public static LocalisableString TypeKudosu => new TranslatableString(getKey(@"type.kudosu"), @"kudosu");
@@ -88,16 +93,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "multiplayer"
         /// </summary>
         public static LocalisableString TypeMultiplayer => new TranslatableString(getKey(@"type.multiplayer"), @"multiplayer");
-
-        /// <summary>
-        /// "performance"
-        /// </summary>
-        public static LocalisableString TypePerformance => new TranslatableString(getKey(@"type.performance"), @"performance");
-
-        /// <summary>
-        /// "score"
-        /// </summary>
-        public static LocalisableString TypeScore => new TranslatableString(getKey(@"type.score"), @"score");
 
         /// <summary>
         /// "seasons"

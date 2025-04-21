@@ -89,16 +89,16 @@
     <value>Error en realitzar aquesta acció, intenteu actualitzar la pàgina.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
-    <value>No pots nominar el teu propi mapa.</value>
+    <value>No pots nominar el teu propi beatmap.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
     <value>Heu d'establir el gènere i l'idioma abans de nominar.</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>Només el creador del tema i el propietari del mapa poden resoldre una discussió.</value>
+    <value>Només el creador del tema i el propietari del beatmap poden resoldre una discussió.</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>Només el propietari del mapa o el nominador/membre del grup NAT pot publicar notes de mapatge.</value>
+    <value>Només el propietari del beatmap o el nominador/membre del grup NAT pot publicar notes de mapatge.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>No podeu votar en una discussió feta per un bot</value>
@@ -134,10 +134,10 @@
     <value>La discussió d'aquest beatmap està bloquejada.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>No podeu canviar les metadades d'un mapa nominat. Contacta amb un membre dels BN o NAT si creus que estan establerts incorrectament.</value>
+    <value>No podeu canviar les metadades d'un beatmap nominat. Contacta amb un membre dels BN o del NAT si creus que estan establerts incorrectament.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
-    <value>Has de tenir una puntuació al mapa per afegir una etiqueta.</value>
+    <value>Has de tenir una puntuació al beatmap per afegir una etiqueta.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>No es pot enviar un missatge a un usuari que us està bloquejant o que heu bloquejat.</value>
@@ -297,6 +297,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Has fixat massa puntuacions.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Ja formes part de l'equip.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Ja formes part d'un altre equip.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Tens una sol·licitud d'unió a l'equip pendent.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Actualment, l'equip no accepta sol·licituds.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>L'equip està complet i no pot acceptar més membres.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>El líder de l'equip no pot sortir de l'equip.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>No ets membre de l'equip.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Has de tenir una etiqueta osu!supporter per crear un equip.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>La pàgina d'usuari està bloquejada.</value>

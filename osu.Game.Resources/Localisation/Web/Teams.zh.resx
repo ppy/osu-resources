@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>管理战队成员</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>请求于</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>目前没有加入战队请求。</value>
   </data>
@@ -166,17 +169,14 @@
   <data name="members.index.applications.title" xml:space="preserve">
     <value>加入战队申请</value>
   </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>请求于</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>状态</value>
-  </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>加入日期</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>移除</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>状态</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>当前战队成员</value>
@@ -214,11 +214,20 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>队长</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>关于我们！</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>信息</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>成员</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>排名</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>队长</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>已创建战队。</value>

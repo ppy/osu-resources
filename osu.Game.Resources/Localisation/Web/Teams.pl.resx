@@ -58,8 +58,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Dodano użytkownika do drużyny.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Anulowano prośbę o dołączenie.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Odrzucono prośbę o dołączenie.</value>
+  </data>
   <data name="applications.store.ok" xml:space="preserve">
     <value>Przesłano prośbę o dołączenie do zespołu.</value>
+  </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>Stwórz Drużynę</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>Nazwa twojej drużyny. Jest ona stała na tę chwilę.</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>Maksymalnie 4 znaki.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Stwórzmy nową drużynę</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Graj razem z przyjaciółmi; obecnymi lub nowymi. Nie jesteś aktualnie w drużynie. Dołącz do istniejącej drużyny, odwiedzając jej stronę lub stwórz swoją własną tutaj.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>Drużyna!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Usunięto drużynę.</value>
   </data>
   <data name="edit.ok" xml:space="preserve">
     <value>Ustawienia zostały zapisane pomyślnie.</value>
@@ -127,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Zarządzaj członkami zespołu</value>
   </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Data przesłania</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>Brak próśb o dołączenie do zespołu.</value>
   </data>
@@ -136,17 +169,14 @@
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Prośby o dołączenie</value>
   </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>Data przesłania</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>Status</value>
-  </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>Data dołączenia</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Usuń</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>Aktualni członkowie</value>
@@ -156,6 +186,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktywny</value>
+  </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Opuścił drużynę ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
     <value>Czat zespołu</value>
@@ -181,11 +214,20 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>Lider zespołu</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>O nas</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Informacje</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Członkowie</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Pozycja w rankingu</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Lider zespołu</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Utworzono zespół.</value>

@@ -345,6 +345,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoLanguage => new TranslatableString(getKey(@"show.info.language"), @"Language");
 
         /// <summary>
+        /// "Mapper Tags"
+        /// </summary>
+        public static LocalisableString ShowInfoMapperTags => new TranslatableString(getKey(@"show.info.mapper_tags"), @"Mapper Tags");
+
+        /// <summary>
         /// "Data still being calculated..."
         /// </summary>
         public static LocalisableString ShowInfoNoScores => new TranslatableString(getKey(@"show.info.no_scores"), @"Data still being calculated...");
@@ -385,9 +390,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoSuccessRate => new TranslatableString(getKey(@"show.info.success-rate"), @"Success Rate");
 
         /// <summary>
-        /// "Tags"
+        /// "User Tags"
         /// </summary>
-        public static LocalisableString ShowInfoTags => new TranslatableString(getKey(@"show.info.tags"), @"Tags");
+        public static LocalisableString ShowInfoUserTags => new TranslatableString(getKey(@"show.info.user_tags"), @"User Tags");
 
         /// <summary>
         /// "This beatmap contains video"

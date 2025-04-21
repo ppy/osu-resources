@@ -173,7 +173,7 @@
     <value>anda perlu mendaftar masuk sebelum memuat turun peta rentak!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
-    <value>dipeta oleh {0}</value>
+    <value>petaan {0}</value>
   </data>
   <data name="show.details.mapped_by_guest" xml:space="preserve">
     <value>kesukaran tamu oleh {0}</value>
@@ -209,7 +209,7 @@
     <value>dilayakkan {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>diperingkatkan {0}</value>
+    <value>berkedudukan {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>diserahkan {0}</value>
@@ -221,7 +221,7 @@
     <value>Anda mempunyai terlalu banyak peta rentak yang disukai! Sila nyahsuka beberapa peta rentak dahulu.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Gembarkan peta ini jika dinikmati untuk membantu peta ini maju ke taraf &lt;strong&gt;Berperingkat&lt;/strong&gt;.</value>
+    <value>Gembarkan peta ini jika dinikmati untuk membantu peta ini maju ke taraf &lt;strong&gt;Berkedudukan&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Peta ini kini {0}.</value>
@@ -280,9 +280,6 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Kadar Kejayaan</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>Tag</value>
-  </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Peta rentak ini mengandungi video</value>
   </data>
@@ -322,6 +319,9 @@
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Anda perlu menjadi osu!supporter untuk mencapai kedudukan penyesuai tertentu, kebangsaan atau kawan!</value>
   </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Kedudukan Pasukan</value>
+  </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Papan Markah</value>
   </data>
@@ -344,7 +344,7 @@
     <value>Pemain</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
-    <value>Peringkat</value>
+    <value>Kedudukan</value>
   </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Markah</value>
@@ -367,8 +367,11 @@
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Memuatkan markah...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Ahli pasukan anda belum mencapai apa-apa markah pada peta ini lagi!</value>
+  </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Peta rentak tanpa peringkat.</value>
+    <value>Peta rentak tanpa kedudukan.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Sedang Mendahului</value>
@@ -383,7 +386,7 @@
     <value>sini</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
-    <value>Besar Bulatan</value>
+    <value>Ukuran Bulatan</value>
   </data>
   <data name="show.stats.cs-mania" xml:space="preserve">
     <value>Jumlah Kekunci</value>
@@ -395,7 +398,7 @@
     <value>Ketepatan</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Kadar Pendekatan</value>
+    <value>Kadar Mendekat</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Nilai Bintang</value>
@@ -428,7 +431,7 @@
     <value>Jumlah Mainan</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>Berperingkat</value>
+    <value>Berkedudukan</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
     <value>Lulus</value>

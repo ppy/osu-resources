@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>無効なルールセットが指定されています。</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>ゲストマッパーの数が多すぎます。</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>評価の更新に失敗しました</value>
   </data>
@@ -123,6 +129,9 @@
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>ディスカッション</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} 個の未解決問題|{0} 個の未解決問題</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>全てを折りたたむ</value>
@@ -193,11 +202,17 @@
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>提案</value>
   </data>
+  <data name="discussions.message_type_title.disqualify" xml:space="preserve">
+    <value>失格を投稿</value>
+  </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
     <value>Hypeを投稿</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>メモを投稿</value>
+  </data>
+  <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
+    <value>すべてのノミネートを削除する</value>
   </data>
   <data name="discussions.message_type_title.praise" xml:space="preserve">
     <value>称賛を投稿</value>

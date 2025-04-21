@@ -101,13 +101,13 @@
     <value>Keterangan Waktu</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Beatmap ini tidak dapat di-hype karena laman diskusi beatmap ini tengah dikunci</value>
+    <value>Beatmap ini tidak dapat di-hype karena halaman diskusi beatmap ini sedang dikunci</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Kamu harus masuk untuk memberikan hype.</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>Kamu telah memberikan hype pada beatmap ini.</value>
+    <value>Kamu telah memberikan hype kepada beatmap ini.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
     <value>Kamu telah menggunakan seluruh hype yang kamu miliki.</value>
@@ -116,13 +116,13 @@
     <value>Beatmap ini tidak dapat di-hype</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>Kamu tidak dapat memberikan hype pada beatmap milik sendiri.</value>
+    <value>Kamu tidak dapat memberikan hype kepada beatmap milik sendiri.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>Keterangan waktu yang ditentukan melebihi panjang beatmap.</value>
+    <value>Keterangan waktu yang ditentukan berada di luar durasi beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Keterangan waktu tidak dapat mengacu pada nilai waktu yang negatif.</value>
+    <value>Keterangan waktu tidak dapat bernilai negatif.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Topik diskusi ini dikunci.</value>
@@ -167,7 +167,7 @@
     <value>Postingan ini tidak memiliki topik</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
-    <value>Balasanmu hanya berisi kutipan.</value>
+    <value>Balasan kamu hanya berisi kutipan.</value>
   </data>
   <data name="forum.post.attributes.post_text" xml:space="preserve">
     <value>Isi postingan</value>
@@ -182,7 +182,7 @@
     <value>Jajak pendapat tidak lagi dapat disunting setelah {0} jam.</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
-    <value>Suara pada polling yang tidak memiliki batasan akhir waktu tidak dapat dirahasiakan.</value>
+    <value>Suara pada jajak pendapat yang tidak pernah berakhir tidak dapat dirahasiakan.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Pilihan per pengguna tidak boleh melebihi jumlah opsi yang tersedia.</value>
@@ -191,13 +191,13 @@
     <value>Diperlukan setidaknya satu opsi per pengguna.</value>
   </data>
   <data name="forum.topic_poll.minimum_two_options" xml:space="preserve">
-    <value>Diperlukan setidaknya dua opsi</value>
+    <value>Kamu harus menyertakan setidaknya dua pilihan.</value>
   </data>
   <data name="forum.topic_poll.too_many_options" xml:space="preserve">
-    <value>Jumlah maksimum opsi melebihi yang diizinkan.</value>
+    <value>Jumlah pilihan yang diizinkan melebihi batas.</value>
   </data>
   <data name="forum.topic_poll.attributes.title" xml:space="preserve">
-    <value>Judul pemungutan suara</value>
+    <value>Judul jajak pendapat</value>
   </data>
   <data name="forum.topic_vote.required" xml:space="preserve">
     <value>Pilih opsi saat memilih.</value>
@@ -221,13 +221,13 @@
     <value>Jumlah aplikasi OAuth melebihi batas maksimal.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Mohon masukkan URL yang valid.</value>
+    <value>Silakan masukkan URL yang valid.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Nama Aplikasi</value>
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
-    <value>Callback URL Aplikasi</value>
+    <value>URL Callback Aplikasi</value>
   </data>
   <data name="team.invalid_characters" xml:space="preserve">
     <value>{0} ini mengandung karakter yang tidak valid.</value>
@@ -254,13 +254,13 @@
     <value>URL</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
-    <value>Nama pengguna tidak diperbolehkan untuk berada di dalam kata sandi.</value>
+    <value>Kata sandi tidak boleh mengandung nama pengguna.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
-    <value>Alamat email ini sudah digunakan sebelumnya.</value>
+    <value>Alamat email ini telah digunakan.</value>
   </data>
   <data name="user.email_not_allowed" xml:space="preserve">
-    <value>Alamat email ini tidak diperbolehkan.</value>
+    <value>Alamat email ini tidak diizinkan.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
     <value>Negara tidak ada dalam basis data.</value>
@@ -269,7 +269,7 @@
     <value>Nama pengguna Discord tidak valid.</value>
   </data>
   <data name="user.invalid_email" xml:space="preserve">
-    <value>Tampaknya bukan alamat email yang valid.</value>
+    <value>Alamat email ini sepertinya tidak valid.</value>
   </data>
   <data name="user.invalid_twitter" xml:space="preserve">
     <value>Nama pengguna Twitter tidak valid.</value>
@@ -278,19 +278,19 @@
     <value>Kata sandi baru terlalu pendek.</value>
   </data>
   <data name="user.unknown_duplicate" xml:space="preserve">
-    <value>Nama pengguna atau alamat email ini sudah digunakan sebelumnya.</value>
+    <value>Nama pengguna atau alamat email ini telah digunakan.</value>
   </data>
   <data name="user.username_available_in" xml:space="preserve">
     <value>Nama pengguna ini akan tersedia untuk digunakan dalam {0}.</value>
   </data>
   <data name="user.username_available_soon" xml:space="preserve">
-    <value>Nama pengguna ini tersedia untuk digunakan!</value>
+    <value>Nama pengguna ini akan segera tersedia untuk digunakan!</value>
   </data>
   <data name="user.username_invalid_characters" xml:space="preserve">
     <value>Nama pengguna yang diminta mengandung karakter yang tidak valid.</value>
   </data>
   <data name="user.username_in_use" xml:space="preserve">
-    <value>Nama pengguna sudah digunakan!</value>
+    <value>Nama pengguna ini telah digunakan!</value>
   </data>
   <data name="user.username_locked" xml:space="preserve">
     <value>Nama pengguna ini telah digunakan!</value>
@@ -302,7 +302,7 @@
     <value>Nama pengguna tidak dapat dimulai atau diakhiri dengan spasi!</value>
   </data>
   <data name="user.username_not_allowed" xml:space="preserve">
-    <value>Nama pengguna ini tidak diizinkan.</value>
+    <value>Pilihan nama pengguna ini tidak diizinkan.</value>
   </data>
   <data name="user.username_too_short" xml:space="preserve">
     <value>Nama pengguna yang diminta terlalu pendek.</value>
@@ -338,10 +338,10 @@
     <value>Kamu tidak dapat mengubah nama pengguna pada saat akunmu sedang di-restrict.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Kamu harus memiliki {0} untuk mengubah nama penggunamu!</value>
+    <value>Kamu harus pernah {0} untuk mengubah nama penggunamu!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
-    <value>osu!supporter</value>
+    <value>menjadi osu!supporter</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
     <value>Ini adalah nama penggunamu yang sekarang, duh!</value>
@@ -350,18 +350,18 @@
     <value>Kamu tidak dapat melaporkan beatmap yang berstatus Ranked</value>
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
-    <value>Kamu tidak tergabung dalam kanal percakapan ini.</value>
+    <value>Kamu tidak berada dalam kanal percakapan ini.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} bukan merupakan alasan yang valid untuk jenis laporan ini.</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
-    <value>Kamu tidak dapat melaporkan diri sendiri!</value>
+    <value>Kamu tidak dapat melaporkan dirimu sendiri!</value>
   </data>
   <data name="store.order_item.attributes.quantity" xml:space="preserve">
     <value>Jumlah</value>
   </data>
   <data name="store.order_item.attributes.cost" xml:space="preserve">
-    <value>Biaya</value>
+    <value>Harga</value>
   </data>
 </root>

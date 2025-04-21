@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>El conjunt de regles especificat no és vàlid.</value>
+  </data>
   <data name="change_owner.too_many" xml:space="preserve">
     <value>Massa mapejadors convidats.</value>
   </data>
@@ -68,7 +71,7 @@
     <value>permetre kudosu</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
-    <value>Pàgina del mapa</value>
+    <value>Pàgina del beatmap</value>
   </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>eliminar</value>
@@ -95,7 +98,7 @@
     <value>Aquesta dificultat ha estat eliminada, per tant ja no es pot discutir.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>La discussió per a aquest mapa s'ha desactivat.</value>
+    <value>La discussió per a aquest beatmap s'ha desactivat.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
     <value>No podeu publicar una discussió mentre estigui silenciat.</value>
@@ -203,7 +206,7 @@
     <value>Publicar desqualificació</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
-    <value>Publicar Eufòria!</value>
+    <value>Publicar eufòria!</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>Publicar nota</value>
@@ -353,34 +356,34 @@
     <value>Últims vots positius</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Hipejar aquest beatmap!</value>
+    <value>Mostrar eufòria a aquest beatmap!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
-    <value>Hypejat!</value>
+    <value>Ja li has donat la teva mostra d'eufòria!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Segur? Això farà servir un dels seus {0} hype restants i no es pot desfer.</value>
+    <value>Segur? Això farà servir una de les teves {0} mostres d'eufòria restants i no es pot desfer.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Hypeja aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
+    <value>Mostra eufòria a aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Inicia sessió i hypeja aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
+    <value>Inicia sessió i mostra eufòria a aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
-    <value>Obtindràs un altre hype {0}.</value>
+    <value>Obtindràs una altra mostra d'eufòria {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Et queden {0} hypes.</value>
+    <value>Et queden {0} mostres d'eufòria.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
-    <value>Hype: {0}/{1}</value>
+    <value>Eufòria: {0}/{1}</value>
   </data>
   <data name="hype.section_title" xml:space="preserve">
-    <value>Tren de hype</value>
+    <value>Mostres d'eufòria</value>
   </data>
   <data name="hype.title" xml:space="preserve">
-    <value>Hype</value>
+    <value>Eufòria</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
     <value>Deixar un comentari</value>
@@ -422,7 +425,7 @@
     <value>Trieu la dificultat per a l'estimat</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>Estimar aquest mapa?</value>
+    <value>Estimar aquest beatmap?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>Nominar</value>
@@ -434,7 +437,7 @@
     <value>nominat per {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>No hi ha prou hype.</value>
+    <value>No hi ha prou eufòria.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
     <value>Eliminar de Estimats</value>

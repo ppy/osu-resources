@@ -157,26 +157,44 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Manage Members</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Add user {0} to team?</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Requested At</value>
+  </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>No join requests at the moment.</value>
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Available slots</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} user overflow|{0} users overflow</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Deny join request from user {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Join Requests</value>
-  </data>
-  <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>Requested At</value>
-  </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>Status</value>
   </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>Join Date</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Remove</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Remove user {0} from team?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Transfer team leadership</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Transfer team leadership to user {0}?</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>Current Members</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Active</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>User {0} is now the team leader.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Left the team ;_;</value>

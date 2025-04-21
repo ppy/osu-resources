@@ -85,6 +85,27 @@
   <data name="action_type._" xml:space="preserve">
     <value>全て</value>
   </data>
+  <data name="action_type.beatmapset" xml:space="preserve">
+    <value>ビートマップ</value>
+  </data>
+  <data name="action_type.build" xml:space="preserve">
+    <value>ビルド</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>チャット</value>
+  </data>
+  <data name="action_type.forum_topic" xml:space="preserve">
+    <value>フォーラム</value>
+  </data>
+  <data name="action_type.news_post" xml:space="preserve">
+    <value>ニュース</value>
+  </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="action_type.user" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>全て</value>
   </data>
@@ -102,6 +123,9 @@
   </data>
   <data name="filters.news_post" xml:space="preserve">
     <value>お知らせ</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>チーム</value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>プロフィール</value>
@@ -150,6 +174,15 @@
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>ディスカッションはアンロックされました。</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} 件の称賛|{0} 件の称賛</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} 件の問題|{0} 件の問題</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} 件の提案|{0} 件の提案</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
     <value>Qualifiedビートマップの問題</value>
@@ -301,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} の返信</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>チームへの参加リクエスト</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>あなたは既にチーム {0} に参加しています</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>あなたは既にチーム {0} に参加しています</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>チーム {0} への参加リクエストが却下されました</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>チーム {0} への参加リクエストが却下されました</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>新しいビートマップ</value>
   </data>
@@ -387,6 +435,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>「{0}」に新しい返信があります</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>あなたは既にチーム {0} に参加しています</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>チーム {0} への参加リクエストが却下されました</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0}がビートマップを作成しました</value>

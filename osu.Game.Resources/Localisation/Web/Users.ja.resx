@@ -297,23 +297,23 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="report.options.cheating" xml:space="preserve">
     <value>チート</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>複数のアカウントを管理している</value>
-  </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>あなた/他の人への侮辱</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>スパム</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>不適切なコンテンツへのリンク</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>複数のアカウントを管理している</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>ナンセンスな行為</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>その他（下記に入力）</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>スパム</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>不適切なコンテンツへのリンク</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>アカウントが制限されました！</value>
@@ -415,6 +415,9 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>カバー画像の選択肢は増える予定です</value>
   </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>以前に選択したカバーは選択できなくなります。別のカバーに切り替えた後、再び選択することはできません。続行しますか？</value>
+  </data>
   <data name="show.edit.cover.title" xml:space="preserve">
     <value>カバー画像</value>
   </data>
@@ -431,7 +434,7 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>ここにドラッグ＆ドロップでアップロードが可能です。</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>推奨の画像サイズは2400x620です</value>
+    <value>推奨の画像サイズは2000x500です</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>アップロードファイルが大きすぎます。</value>
@@ -450,6 +453,9 @@ CAPTCHA認証を成功させてから再試行してください。
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>{0}をメインのゲームモードに設定する</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>カラーをデフォルトに戻しますか？別の色に変更するにはサポータータグが必要です。</value>
   </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>カラー</value>
