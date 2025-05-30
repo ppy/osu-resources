@@ -89,10 +89,10 @@
     <value>隊伍！</value>
   </data>
   <data name="destroy.ok" xml:space="preserve">
-    <value>團隊已移除</value>
+    <value>團隊已移除。</value>
   </data>
   <data name="edit.ok" xml:space="preserve">
-    <value>設定儲存成功</value>
+    <value>設定儲存成功。</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>隊伍設定</value>
@@ -157,14 +157,23 @@
   <data name="members.index.title" xml:space="preserve">
     <value>管理成員</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>是否將玩家 {0} 加入團隊？</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>申請日期：</value>
+    <value>申請於</value>
   </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>目前沒有加入請求。</value>
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>剩餘名額</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} 位玩家超過上限</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>是否拒絕玩家 {0} 的加入請求？</value>
   </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>加入請求</value>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>移除</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>是否將 {0} 移出團隊？</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>轉讓隊長</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>是否轉讓隊長給玩家 {0}？</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>狀態</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>活躍中</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>玩家 {0} 現在是隊長。</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>離開了隊伍 ;_;</value>

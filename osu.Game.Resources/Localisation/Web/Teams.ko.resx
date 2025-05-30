@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>멤버 관리</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>유저 {0} 님을 팀에 추가할까요?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>요청 일시</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>빈 슬롯</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} 명 초과|{0} 명 초과</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>{0} 님의 참가 신청을 거절할까요?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>가입 요청</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>제거</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>{0} 님을 팀으로부터 추방할까요?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>팀 대표 이관</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>{0} 님에게 팀 대표 자격을 이관할까요?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>상태</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>활성</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>{0} 님이 팀의 리더가 되었어요.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>팀을 나갔어요 ;_;</value>

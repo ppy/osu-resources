@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="applications.accept.ok" xml:space="preserve">
-    <value>Dodano użytkownika do drużyny.</value>
+    <value>Dodano użytkownika do zespołu.</value>
   </data>
   <data name="applications.destroy.ok" xml:space="preserve">
     <value>Anulowano prośbę o dołączenie.</value>
@@ -71,25 +71,25 @@
     <value>Przesłano prośbę o dołączenie do zespołu.</value>
   </data>
   <data name="create.submit" xml:space="preserve">
-    <value>Stwórz Drużynę</value>
+    <value>Stwórz Zespół</value>
   </data>
   <data name="create.form.name_help" xml:space="preserve">
-    <value>Nazwa twojej drużyny. Jest ona stała na tę chwilę.</value>
+    <value>Nazwa twojego zespołu. Jest ona stała na tę chwilę.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>Maksymalnie 4 znaki.</value>
   </data>
   <data name="create.form.title" xml:space="preserve">
-    <value>Stwórzmy nową drużynę</value>
+    <value>Stwórzmy nowy zespół</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Graj razem z przyjaciółmi; obecnymi lub nowymi. Nie jesteś aktualnie w drużynie. Dołącz do istniejącej drużyny, odwiedzając jej stronę lub stwórz swoją własną tutaj.</value>
+    <value>Graj razem z przyjaciółmi; obecnymi lub nowymi. Nie jesteś aktualnie w zespole. Dołącz do istniejącego zespołu, odwiedzając jego stronę lub stwórz swój własny tutaj.</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
-    <value>Drużyna!</value>
+    <value>Zespół!</value>
   </data>
   <data name="destroy.ok" xml:space="preserve">
-    <value>Usunięto drużynę.</value>
+    <value>Usunięto zespół.</value>
   </data>
   <data name="edit.ok" xml:space="preserve">
     <value>Ustawienia zostały zapisane pomyślnie.</value>
@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Zarządzaj członkami zespołu</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Dodać użytkownika {0} do zespołu?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Data przesłania</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Dostępnych miejsc</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} nadmiar użytkowników|{0} nadmiar użytkowników</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Odmówić prośby o dołączenie od użytkownika {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Prośby o dołączenie</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Usuń</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Usunąć użytkownika {0} z zespołu?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Przekaż dowództwo zespołu</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Przekazać dowództwo zespołu użytkownikowi {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Status</value>
@@ -187,8 +205,11 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktywny</value>
   </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Użytkownik {0} jest teraz dowódcą zespołu.</value>
+  </data>
   <data name="part.ok" xml:space="preserve">
-    <value>Opuścił drużynę ;_;</value>
+    <value>Opuścił zespół ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
     <value>Czat zespołu</value>

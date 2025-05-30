@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Spravovat členy</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Přidat uživatele {0} do týmu?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Žádost vytvořena</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Dostupná místa</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} uživatel nad limit|{0} uživatelé nad limit|{0} uživatelů nad limit</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Odmítnout žádost o připojení od uživatele {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Žádosti o připojení</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Odebrat</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Odebrat uživatele {0} z týmu?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Převést vedení týmu</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Převést vedení týmu na uživatele {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Stav</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktivní</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Uživatel {0} je nyní vedoucím týmu.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Opustil jsi tento tým ;_;</value>

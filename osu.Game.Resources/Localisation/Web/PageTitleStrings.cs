@@ -185,6 +185,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainHomeControllerTestflight => new TranslatableString(getKey(@"main.home_controller.testflight"), @"testflight");
 
         /// <summary>
+        /// "matches"
+        /// </summary>
+        public static LocalisableString MainLegacyMatchesControllerDefault => new TranslatableString(getKey(@"main.legacy_matches_controller._"), @"matches");
+
+        /// <summary>
         /// "information"
         /// </summary>
         public static LocalisableString MainLegalControllerDefault => new TranslatableString(getKey(@"main.legal_controller._"), @"information");
@@ -193,11 +198,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "live streams"
         /// </summary>
         public static LocalisableString MainLivestreamsControllerDefault => new TranslatableString(getKey(@"main.livestreams_controller._"), @"live streams");
-
-        /// <summary>
-        /// "matches"
-        /// </summary>
-        public static LocalisableString MainMatchesControllerDefault => new TranslatableString(getKey(@"main.matches_controller._"), @"matches");
 
         /// <summary>
         /// "news"

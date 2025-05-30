@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="applications.accept.ok" xml:space="preserve">
-    <value>Utilizador adicionado à equipa.</value>
+    <value>Jogador adicionado à equipa.</value>
   </data>
   <data name="applications.destroy.ok" xml:space="preserve">
     <value>Pedido de adesão cancelado.</value>
@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Gerir membros</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Adicionar o jogador {0} à equipa?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Pedido em</value>
   </data>
@@ -166,6 +169,9 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Espaços disponíveis</value>
   </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Negar o pedido de adesão do jogador {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Pedidos de adesão</value>
   </data>
@@ -174,6 +180,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Remover</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Eliminar o jogador {0} da equipa?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Transferir a liderança da equipa</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Transferir a liderança da equipa ao jogador {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Estado</value>
@@ -186,6 +201,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Ativos</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Jogador {0} é agora o líder da equipa.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Deixou a equipa ;_;</value>

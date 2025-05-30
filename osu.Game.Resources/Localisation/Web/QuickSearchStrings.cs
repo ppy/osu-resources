@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.QuickSearch";
 
         /// <summary>
+        /// "Featured Artist Track"
+        /// </summary>
+        public static LocalisableString ModeArtistTrack => new TranslatableString(getKey(@"mode.artist_track"), @"Featured Artist Track");
+
+        /// <summary>
         /// "Beatmap"
         /// </summary>
         public static LocalisableString ModeBeatmapset => new TranslatableString(getKey(@"mode.beatmapset"), @"Beatmap");
@@ -25,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ModeOther => new TranslatableString(getKey(@"mode.other"), @"Other");
 
         /// <summary>
+        /// "Team"
+        /// </summary>
+        public static LocalisableString ModeTeam => new TranslatableString(getKey(@"mode.team"), @"Team");
+
+        /// <summary>
         /// "Player"
         /// </summary>
         public static LocalisableString ModeUser => new TranslatableString(getKey(@"mode.user"), @"Player");
@@ -33,11 +43,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Wiki"
         /// </summary>
         public static LocalisableString ModeWikiPage => new TranslatableString(getKey(@"mode.wiki_page"), @"Wiki");
-
-        /// <summary>
-        /// "No results"
-        /// </summary>
-        public static LocalisableString ResultEmpty => new TranslatableString(getKey(@"result.empty"), @"No results");
 
         /// <summary>
         /// "No results for {0}"

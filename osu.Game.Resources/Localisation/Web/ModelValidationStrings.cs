@@ -500,9 +500,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString UserReportNotInChannel => new TranslatableString(getKey(@"user_report.not_in_channel"), @"You're not in this channel.");
 
         /// <summary>
-        /// "You&#39;re part of the the team."
+        /// "You&#39;re part of the team."
         /// </summary>
-        public static LocalisableString UserReportInTeam => new TranslatableString(getKey(@"user_report.in_team"), @"You're part of the the team.");
+        public static LocalisableString UserReportInTeam => new TranslatableString(getKey(@"user_report.in_team"), @"You're part of the team.");
 
         /// <summary>
         /// "{0} is not valid for this report type."

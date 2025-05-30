@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="all_read" xml:space="preserve">
-    <value>已经阅读所有通知！</value>
+    <value>无未读通知</value>
   </data>
   <data name="delete" xml:space="preserve">
     <value>删除 {0}</value>
@@ -68,10 +68,10 @@
     <value>正在加载未读通知……</value>
   </data>
   <data name="mark_read" xml:space="preserve">
-    <value>清除 {0} 类型的通知</value>
+    <value>将 {0} 通知设为已读</value>
   </data>
   <data name="none" xml:space="preserve">
-    <value>没有新通知</value>
+    <value>没有新消息</value>
   </data>
   <data name="see_all" xml:space="preserve">
     <value>显示所有通知</value>
@@ -166,10 +166,10 @@
     <value>{0} 发布了新帖子</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>{0} 在 "{1}" 内发表了新审阅：问题：{2}，建议：{3}，赞：{4}</value>
+    <value>来自 {0} 在 "{1}" 内的新审阅，包含 {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>{0} 发表了新审阅，问题：{1}，建议：{2}，赞：{3}</value>
+    <value>来自 {0} 的新审阅，包含 {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>谱面 "{0}" 的讨论已解锁。</value>
@@ -423,12 +423,6 @@
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>谱面 "{0}" 有新的讨论</value>
-  </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>"{0}" 中有一条新通知</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>您收到了 {0} 的新消息</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>更新日志 "{0}" 有新的评论</value>

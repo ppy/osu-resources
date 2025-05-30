@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Управление участниками</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Принять игрока {0} в команду?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Запрос отправлен</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Свободных мест</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>переполнена на {0} игрока|переполнена на {0} игроков</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Отклонить запрос на вступление игрока {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Запросы на вступление</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Исключить</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Исключить игрока {0} из команды?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Передать права управления</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Передать титул капитана команды игроку {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Статус</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Активный</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Теперь игрок {0} — новый капитан команды.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Вы покинули команду ;_;</value>

@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>from {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>New team message</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} says "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} says "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} says "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Changelog</value>
   </data>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>You're now member of team {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Team join request updates</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Your request to join team {0} has been declined</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Your request to join team {0} has been declined</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} requested to join your team</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} requested to join your team</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>New beatmap</value>
@@ -421,11 +442,14 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap "{0}" has new comments</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
     <value>There is a new announcement in "{0}"</value>
   </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>You've received a new message from {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>There is a new message in team "{0}"</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Changelog "{0}" has new comments</value>
@@ -441,6 +465,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Your request to join team {0} has been declined</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} requested to join your team</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} has created new beatmaps</value>

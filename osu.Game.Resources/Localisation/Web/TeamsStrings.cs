@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ApplicationsStoreOk => new TranslatableString(getKey(@"applications.store.ok"), @"Requested to join team.");
 
         /// <summary>
+        /// "{0} member|{0} members"
+        /// </summary>
+        public static LocalisableString CardMembers(LocalisableString countDelimited) => new TranslatableString(getKey(@"card.members"), @"{0} member|{0} members", countDelimited);
+
+        /// <summary>
         /// "Create Team"
         /// </summary>
         public static LocalisableString CreateSubmit => new TranslatableString(getKey(@"create.submit"), @"Create Team");
