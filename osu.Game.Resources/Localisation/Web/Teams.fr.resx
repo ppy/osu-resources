@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Gestion des membres</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir accepter la candidature de {0} ?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Date</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Places disponibles </value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} membre en trop|{0} membres en trop</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir refuser la candidature de {0} ?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Candidatures</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Exclure</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir expulser {0} de votre équipe ?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Nommer chef d'équipe</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir nommer {0} en tant que chef de l'équipe ?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Statut</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Actif</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>{0} est désormais le chef de l'équipe.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Vous avez quitté l'équipe ;_;</value>

@@ -297,6 +297,9 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="report.options.cheating" xml:space="preserve">
     <value>チート</value>
   </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>不適切なチャット行為</value>
+  </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>あなた/他の人への侮辱</value>
   </data>
@@ -313,7 +316,7 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>スパム</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>不適切なコンテンツへのリンク</value>
+    <value>不適切なコンテンツ</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>アカウントが制限されました！</value>
@@ -795,6 +798,12 @@ CAPTCHA認証を成功させてから再試行してください。
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>最高ランク: {0} ({1}に取得)</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>トップ {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>合計スコア</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>精度</value>

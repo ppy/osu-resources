@@ -229,8 +229,20 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>애플리케이션 Callback URL</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0} 에 사용할 수 없는 문자가 있어요.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>{0} 는 이미 사용되고 있어요.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>{0} 는 허용되지 않아요.</value>
+  </data>
   <data name="team.attributes.default_ruleset_id" xml:space="preserve">
     <value>기본 룰셋</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>팀 참가</value>
   </data>
   <data name="team.attributes.name" xml:space="preserve">
     <value>이름</value>
@@ -339,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>이 채널에 있지 않습니다.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>이 팀의 일원이 되었어요.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} 은(는) 이 신고 형식에 맞지 않습니다.</value>

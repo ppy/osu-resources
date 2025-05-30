@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Tryck Ctrl-T var som helst i spelet för att sänga/sätta på verktygsfältet!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Tryck Ctrl-O var som helst i spelet för att komma åt inställningarna!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Alla inställningar är dynamiska och träder i kraft i realtid. Prova att byta skal medan du tittar på autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Nya funktioner kommer online varje uppdatering. Se till att hålla dig uppdaterad!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Om du tycker att UI'n är för stor eller liten kan du prova att justera skalan i inställningarna!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Försök att justera läget "Skärmskalning" för att ändra ditt spel eller UI area, även i helskärm!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Det som tidigare var "osu!direct" är tillgängligt för alla användare precis som på webbplatsen. Du kan komma åt den var som helst med Ctrl-B!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Du kan söka i repriser genom att dra i förloppsindikatorn längst ner på skärmen eller genom att använda vänster- och höger-pil tangenterna!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Prova att skrolla åt höger i mod val för att hitta massor av nya roliga moddar!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Det mesta av webbinnehållet (profiler, rankningar etc.) är tillgängliga direkt i spelet via ikonerna i verktygsfältet!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Få mer information, dölj eller ta bort en beatmap genom att högerklicka på dess panel vid låtval!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Kolla in systemet "spellistor", som låter användare skapa sina egna anpassade och permanenta topplistor!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Växla avancerad ram / trådstatistik med Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Du kan pausa under en repris genom att trycka på blanksteg!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>De flesta snabbtangenterna i spelet är konfigurerbara och kan ändras till vad du vill. Kolla bindningspanelen under inmatningsinställningar!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Din spel-HUD kan anpassas med hjälp av skin-layoutredigeraren. Öppna den när som helst med Ctrl-Shift-S!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Du kan skapa förinställningar för mod för att göra det enklare att växla mellan dina favoritkombinationer av mods!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Många moddar har anpassningsinställningar som drastiskt förändrar hur de fungerar. Klicka på knappen Anpassa i mod-valet för att visa inställningarna!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Tryck Ctrl-Shift-R för att byta till ett slumpmässigt skin!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>När du tittar på en repris trycker du på Ctrl-H för att öppna reprisinställningar!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Du kan enkelt kopiera moddarna från poäng på en topplista genom att högerklicka på dem!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter vid låtval startar en beatmap i autospelningsläge!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" inte ett ord. Den korrekta stavningen för det starka ljuset är "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Multithreading-stöd innebär att även med låg "FPS" kommer din input och bedömningar att vara korrekta!
+</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Alla borttagningsåtgärder är tillfälliga tills du lämnar. Återställ oavsiktligt raderat innehåll från underhållsinställningarna!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Ta en titt under huven på prestandamätarna och aktivera utförlig prestandaloggning med Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>När din spel-HUD är dold kan du trycka och hålla ner Ctrl för att visa den tillfälligt!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Dra och släpp valfri bild i skin-redigeraren för att ladda den snabbt!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>ett tips till dig:</value>
+  </data>
+</root>

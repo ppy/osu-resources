@@ -157,6 +157,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>メンバーの管理</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>ユーザー {0} をチームに追加しますか？</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>申請日</value>
   </data>
@@ -166,6 +169,12 @@
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>空きスロット</value>
   </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} 人のユーザーが超過|{0}人のユーザーが超過</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>ユーザー {0} からの参加リクエストを拒否しますか？</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>参加リクエスト</value>
   </data>
@@ -174,6 +183,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>削除</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>ユーザー {0} をチームから削除しますか？</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>チームリーダーを移譲</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>チームリーダーをユーザー {0} に移譲しますか？</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>ステータス</value>
@@ -186,6 +204,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>アクティブ</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>ユーザー {0} が新しいチームリーダーになりました。</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>チームから退出しました ;_;</value>

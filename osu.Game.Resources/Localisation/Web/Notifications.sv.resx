@@ -100,6 +100,9 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>nyheter</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>lag</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profil</value>
   </data>
@@ -120,6 +123,9 @@
   </data>
   <data name="filters.news_post" xml:space="preserve">
     <value>nyheter</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>lag </value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>profil</value>
@@ -168,6 +174,15 @@
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Diskussionen låstes upp</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} beröm |{0} beröm</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} problem|{0}  problem</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} förslag|{0} förslag </value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
     <value>Kvalificerad beatmap-problem</value>
@@ -319,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} svarade</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Lagmedlemskapsberäran </value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du är nu medlem i laget {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Du är nu medlem i laget {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Din begäran om att gå med i team {0} har avböjts</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Din begäran om att gå med i team {0} har avböjts</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Ny beatmap</value>
   </data>
@@ -391,12 +421,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap "{0}" har nya kommentarer</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>Det finns ett nytt meddelande i "{0}"</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Du har fått ett nytt meddelande från {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Ändringslogg "{0}" har nya kommentarer</value>
   </data>
@@ -405,6 +429,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Det finns nya svar i "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du är nu medlem i laget {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Din begäran om att gå med i team {0} har avböjts</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} har skapat nya beatmaps</value>

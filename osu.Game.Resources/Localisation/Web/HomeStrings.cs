@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchTitle => new TranslatableString(getKey(@"search.title"), @"search");
 
         /// <summary>
+        /// "See more featured artist track search results"
+        /// </summary>
+        public static LocalisableString SearchArtistTrackMoreSimple => new TranslatableString(getKey(@"search.artist_track.more_simple"), @"See more featured artist track search results");
+
+        /// <summary>
         /// "Sign in to search beatmaps"
         /// </summary>
         public static LocalisableString SearchBeatmapsetLoginRequired => new TranslatableString(getKey(@"search.beatmapset.login_required"), @"Sign in to search beatmaps");
@@ -155,6 +160,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchModeAll => new TranslatableString(getKey(@"search.mode.all"), @"all");
 
         /// <summary>
+        /// "featured artist track"
+        /// </summary>
+        public static LocalisableString SearchModeArtistTrack => new TranslatableString(getKey(@"search.mode.artist_track"), @"featured artist track");
+
+        /// <summary>
         /// "beatmap"
         /// </summary>
         public static LocalisableString SearchModeBeatmapset => new TranslatableString(getKey(@"search.mode.beatmapset"), @"beatmap");
@@ -165,6 +175,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchModeForumPost => new TranslatableString(getKey(@"search.mode.forum_post"), @"forum");
 
         /// <summary>
+        /// "team"
+        /// </summary>
+        public static LocalisableString SearchModeTeam => new TranslatableString(getKey(@"search.mode.team"), @"team");
+
+        /// <summary>
         /// "player"
         /// </summary>
         public static LocalisableString SearchModeUser => new TranslatableString(getKey(@"search.mode.user"), @"player");
@@ -173,6 +188,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "wiki"
         /// </summary>
         public static LocalisableString SearchModeWikiPage => new TranslatableString(getKey(@"search.mode.wiki_page"), @"wiki");
+
+        /// <summary>
+        /// "See more team search results"
+        /// </summary>
+        public static LocalisableString SearchTeamMoreSimple => new TranslatableString(getKey(@"search.team.more_simple"), @"See more team search results");
 
         /// <summary>
         /// "Sign in to search users"
