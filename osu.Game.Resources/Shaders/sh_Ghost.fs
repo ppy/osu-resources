@@ -47,7 +47,9 @@ float zigzag(in vec2 pos) {
     const float scale = pi * 2 * num_spikes;
     const float falloff_radius = 0.0625;
 
-    float y = 0.875 + (cos((pos.x - g_Time) * scale) * 0.5 + 0.5) * 0.125 * sin(pos.x * pi);
+    float strength = sin(pos.x * pi);
+
+    float y = 0.875 + (cos((pos.x - g_Time) * scale) * 0.5 + 0.5) * 0.125 * strength;
 
     float distanceToEdge = 0.375 - abs(pos.x - 0.5);
 
