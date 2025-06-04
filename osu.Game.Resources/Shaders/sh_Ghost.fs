@@ -45,7 +45,7 @@ highp float eyes(in vec2 pos) {
 highp float zigzag(in vec2 pos) {
     const int num_spikes = 4;
     const float scale = pi * 2 * num_spikes;
-    const float falloff_radius = 0.0625;
+    const float corner_radius = 0.0625;
 
     highp float strength = sin(pos.x * pi);
 
@@ -53,8 +53,8 @@ highp float zigzag(in vec2 pos) {
 
     highp float distanceToEdge = 0.375 - abs(pos.x - 0.5);
 
-    if (distanceToEdge < falloff_radius) {
-        threshold -= easeInCirc(1.0 - distanceToEdge / falloff_radius) * falloff_radius;
+    if (distanceToEdge < corner_radius) {
+        threshold -= easeInCirc(1.0 - distanceToEdge / corner_radius) * corner_radius;
     }
 
     return pos.y - threshold;
