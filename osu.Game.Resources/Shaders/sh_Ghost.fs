@@ -18,9 +18,9 @@ layout(location = 0) out vec4 o_Colour;
 
 const float pi = 3.14159265359;
 
-highp float distanceToBox(in vec2 p, in vec2 b)
+highp float distanceToBox(in vec2 pos, in vec2 size)
 {
-    vec2 d = abs(p) - b;
+    vec2 d = abs(pos) - size;
     return length(max(d, 0.0)) + min(max(d.x, d.y), 0.0);
 }
 
