@@ -80,10 +80,10 @@
     <value>La marca de temps s'ha especificat però falta la dificultat del beatmap. </value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>El beatmap no pot ser hypejat.</value>
+    <value>El mapa no pot rebre més eufòria.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>El hype s'ha de fer a la secció General (totes les dificultats).</value>
+    <value>Mostrar eufòria s'ha de fer a la secció General (totes les dificultats).</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>Dificultat no vàlida.</value>
@@ -101,25 +101,25 @@
     <value>Marca de temps</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Aquest beatmap està tancat per discussió i no es pot hypejar</value>
+    <value>Aquest beatmap està tancat per discussió i no pot mostrar més eufòria</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
-    <value>Has d'haver iniciat la sessió per hypejar.</value>
+    <value>Has d'haver iniciat la sessió per mostrar eufòria.</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>Ja has hypejat aquest beatmap.</value>
+    <value>Ja has mostrat eufòria a aquest beatmap.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>Ja has fet servir tots els teus hype.</value>
+    <value>Ja has fet servir totes les teves mostres d'eufòria.</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
-    <value>No es pot hypejar aquest beatmap</value>
+    <value>No es pot mostrar més eufòria a aquest beatmap</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>No pots hypejar el teu propi beatmap.</value>
+    <value>No pots mostrar eufòria al teu propi beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>La marca de temps està fora de la llargada del beatmap.</value>
+    <value>La marca de temps està fora de la llargada del mapa.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
     <value>La marca de temps no pot ser negativa.</value>
@@ -155,10 +155,10 @@
     <value>Opció no vàlida.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Eliminar la publicació de les metadades del beatmap no està permès.</value>
+    <value>Eliminar la publicació de les metadades del mapa no està permès.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Editar la publicación de los metadatos del beatmap no está permitido.</value>
+    <value>Editar les metadades de la publicació del mapa no està permès.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
     <value>No es pot eliminar la publicació inicial</value>
@@ -228,6 +228,15 @@
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>URL de trucada d'Aplicació</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Nom curt</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>La contrasenya no pot contenir el nom d'usuari.</value>
@@ -327,6 +336,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>No ets en aquest canal.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>Ets part de l'equip.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} no és vàlida per aquest tipus d'informe.</value>

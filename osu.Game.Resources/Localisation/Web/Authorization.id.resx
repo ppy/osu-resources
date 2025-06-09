@@ -77,16 +77,16 @@
     <value>Akses ditolak.</value>
   </data>
   <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
-    <value>Tidak dapat membatalkan pemberian hype.</value>
+    <value>Pemberian hype tidak dapat diurungkan.</value>
   </data>
   <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
-    <value>Tidak dapat menghapus topik diskusi yang mempunyai balasan</value>
+    <value>Topik diskusi yang memiliki balasan tidak dapat dihapus</value>
   </data>
   <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
-    <value>Anda telah mencapai batas nominasi Anda untuk hari ini, silakan coba lagi besok.</value>
+    <value>Kamu telah mencapai batas nominasi kamu untuk hari ini. Silakan coba lagi besok.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
-    <value>Terjadi kesalahan pada saat melangsungkan tindakan. Silakan muat ulang laman.</value>
+    <value>Terdapat kesalahan pada saat melangsungkan tindakan ini. Cobalah untuk memuat ulang halaman.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>Tidak dapat menominasikan beatmap buatan sendiri.</value>
@@ -122,7 +122,7 @@
     <value>Postingan yang dihasilkan secara otomatis tidak dapat dihapus.</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>Postingan ini hanya dapat disunting oleh pengirimnya.</value>
+    <value>Postingan hanya dapat disunting oleh pengirim.</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
     <value>Kamu tidak dapat menyunting postingan pada topik diskusi yang telah terjawab.</value>
@@ -251,7 +251,7 @@
     <value>Kamu tidak memiliki akses ke forum yang dituju.</value>
   </data>
   <data name="forum.topic.vote.over" xml:space="preserve">
-    <value>Polling selesai dan tidak dapat dipilih lagi.</value>
+    <value>Jajak pendapat ini telah berakhir dan tidak lagi dapat dipilih.</value>
   </data>
   <data name="forum.topic.vote.play_more" xml:space="preserve">
     <value>Kamu harus lebih banyak bermain sebelum kamu dapat memberikan suara pada forum.</value>
@@ -298,8 +298,32 @@
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Skor yang disematkan sudah terlalu banyak.</value>
   </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Kamu sudah menjadi bagian dari tim ini.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Kamu sudah menjadi bagian dari tim yang berbeda.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Kamu memiliki permintaan untuk bergabung ke tim yang belum dijawab.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Tim ini saat ini tidak menerima permintaan untuk bergabung.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Tim ini sudah penuh dan tidak lagi dapat menerima anggota baru.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Ketua tim tidak dapat meninggalkan tim.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Kamu bukan merupakan anggota dari tim ini.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Tag osu!supporter diperlukan untuk membuat tim.</value>
+  </data>
   <data name="user.page.edit.locked" xml:space="preserve">
-    <value>Laman pengguna terkunci.</value>
+    <value>Halaman pengguna terkunci.</value>
   </data>
   <data name="user.page.edit.not_owner" xml:space="preserve">
     <value>Hanya dapat menyunting laman pengguna sendiri.</value>

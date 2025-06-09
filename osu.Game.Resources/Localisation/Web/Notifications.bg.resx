@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>отбор</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>профил</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>всички</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>профил</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>бийтмапове</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>промени</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>чат</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>форум</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>промени</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>отбор</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>чат</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>профил</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Бийтмап</value>
@@ -399,12 +405,6 @@
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Бийтмап "{0}" има нов коментар</value>
-  </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>Има ново съобщение в "{0}"</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Получи ново съобщение от {0}</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>В списък с промените "{0}" има нов коментар</value>

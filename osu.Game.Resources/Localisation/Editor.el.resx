@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>Επεξεργασία beatmap</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Διαφάνεια κυματομορφής</value>
   </data>
@@ -73,6 +76,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Όρισε το σημείο προεπισκόπησης στο τρέχον χρονικό σημείο</value>
   </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Μετακίνηση ήδη τοποθετημένων αντικειμένων κατά την αλλαγή χρονισμού</value>
+  </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Για επεξεργασία (.olz)</value>
   </data>
@@ -87,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>Διαγραφή δυσκολίας</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Εξωτερική επεξεργασία</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Υποβολή beatmap</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>ρύθμιση</value>
@@ -109,12 +121,6 @@
   <data name="test_beatmap" xml:space="preserve">
     <value>Δοκιμή!</value>
   </data>
-  <data name="timeline_waveform" xml:space="preserve">
-    <value>Κυματομορφή</value>
-  </data>
-  <data name="timeline_ticks" xml:space="preserve">
-    <value>Τικ</value>
-  </data>
   <data name="rotation_unsnapped" xml:space="preserve">
     <value>{0:0}°</value>
   </data>
@@ -123,5 +129,50 @@
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>Περιορίστε την τοποθέτηση προσκόλλησης απόστασης στην τρέχουσα ώρα</value>
+  </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Δεν ξέρω πως να το μεταφράσω αυτό. (Contract sidebars when not hovered)</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>Πρέπει να είσαι σε λειτουργία επεξεργασίας για να χειριστείς συνδέσμους επεξεργαστή (editor links)</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>Αποτυχία ανάλυσης του συνδέσμου επεξεργαστή</value>
+  </data>
+  <data name="timeline" xml:space="preserve">
+    <value>Χρονολόγιο</value>
+  </data>
+  <data name="timeline_show_timing_changes" xml:space="preserve">
+    <value>Εμφάνιση αλλαγών χρόνου</value>
+  </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Εμφάνιση διαλυμάτων </value>
+  </data>
+  <data name="timeline_show_ticks" xml:space="preserve">
+    <value>Εμφάνιση ticks</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Σελιδοδείκτες</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Προσθήκη σελιδοδείκτη</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Αφαίρεση πλησιέστερου σελιδοδείκτη</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Αναζήτηση σε προηγούμενο σελιδοδείκτη</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Αναζήτηση στον επόμενο σελιδοδείκτη</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Επαναφορά σελιδοδεικτών</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Άνοιγμα σελίδας πληροφοριών beatmap</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Άνοιγμα σελίδας συζήτησης beatmap</value>
   </data>
 </root>

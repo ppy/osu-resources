@@ -143,7 +143,10 @@
     <value>Дата:</value>
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
-    <value>Поскольку оплата была через eCheck, ожидание подтверждения оплаты через Paypal может занят до 10 дней!</value>
+    <value>Поскольку вы оплатили заказ методом eCheck, пожалуйста, будьте готовы ожидать ещё до 10 дополнительных дней для прохождения оплаты через PayPal!</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Оплата через eCheck была отклонена PayPal.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>сообщения о тегах osu!supporter после покупки не будут отображены в вашем профиле.</value>
@@ -218,7 +221,7 @@
     <value>Этот заказ будет отменен и оплата за него не будет принята. Платёжная система не сразу вернёт вам средства. Вы уверены?</value>
   </data>
   <data name="order.cancel_not_allowed" xml:space="preserve">
-    <value>Этот заказ не может быть отменен сейчас.</value>
+    <value>Этот заказ не может быть отменён прямо сейчас.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
     <value>Посмотреть чек</value>

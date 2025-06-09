@@ -80,7 +80,7 @@
     <value>上传封面</value>
   </data>
   <data name="covers.create.info" xml:space="preserve">
-    <value>图片尺寸应为 {0} 。 也可以将图片拖动到这里上传。</value>
+    <value>图片尺寸应为 {0}。也可以将图片拖放到这里上传。</value>
   </data>
   <data name="covers.destroy._" xml:space="preserve">
     <value>移除封面</value>
@@ -167,7 +167,7 @@
     <value>查看最新的帖子</value>
   </data>
   <data name="topic.go_to_unread" xml:space="preserve">
-    <value>查看第一条未读贴</value>
+    <value>查看第一条未读帖</value>
   </data>
   <data name="topic.has_replied" xml:space="preserve">
     <value>你已回复过此主题</value>
@@ -233,7 +233,7 @@
     <value>在这里输入正文</value>
   </data>
   <data name="topic.create.placeholder.title" xml:space="preserve">
-    <value>点击这里设置标题</value>
+    <value>点击这里输入标题</value>
   </data>
   <data name="topic.jump.enter" xml:space="preserve">
     <value>点击这里跳转到指定回复</value>
@@ -416,7 +416,7 @@
     <value>隐藏投票结果。</value>
   </data>
   <data name="topics.create.poll.hide_results_info" xml:space="preserve">
-    <value>这些内容只在投票结束之后显示。</value>
+    <value>相关内容将在投票结束后显示。</value>
   </data>
   <data name="topics.create.poll.length" xml:space="preserve">
     <value>投票持续</value>
@@ -431,13 +431,13 @@
     <value>最大可选数</value>
   </data>
   <data name="topics.create.poll.max_options_info" xml:space="preserve">
-    <value>填写每个人最多可以选的选项数。</value>
+    <value>投票可选选项上限。</value>
   </data>
   <data name="topics.create.poll.options" xml:space="preserve">
     <value>选项</value>
   </data>
   <data name="topics.create.poll.options_info" xml:space="preserve">
-    <value>一个选项占一行，最多10个选项。</value>
+    <value>每个选项单独一行，最多可输入 10 个选项。</value>
   </data>
   <data name="topics.create.poll.title" xml:space="preserve">
     <value>问题</value>
@@ -446,7 +446,7 @@
     <value>允许修改</value>
   </data>
   <data name="topics.create.poll.vote_change_info" xml:space="preserve">
-    <value>如果选中，则用户可以更改他们的投票。</value>
+    <value>如果开启此功能，用户可修改已提交的投票。</value>
   </data>
   <data name="topics.edit_title.start" xml:space="preserve">
     <value>编辑标题</value>
@@ -532,6 +532,42 @@
   <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
     <value>已添加 "已解决" 标签</value>
   </data>
+  <data name="topics.issue_tag_osulazer.to_0" xml:space="preserve">
+    <value>删除 "osu!lazer" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_0_done" xml:space="preserve">
+    <value>已删除 "osu!lazer" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_1" xml:space="preserve">
+    <value>添加 "osu!lazer" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_1_done" xml:space="preserve">
+    <value>已添加 "osu!lazer" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_0" xml:space="preserve">
+    <value>删除 "osu!stable" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_0_done" xml:space="preserve">
+    <value>已删除 "osu!stable" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_1" xml:space="preserve">
+    <value>添加 "osu!stable" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_1_done" xml:space="preserve">
+    <value>已添加 "osu!stable" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_0" xml:space="preserve">
+    <value>删除 "osu!web" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_0_done" xml:space="preserve">
+    <value>已删除 "osu!web" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_1" xml:space="preserve">
+    <value>添加 "osu!web" 标签</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_1_done" xml:space="preserve">
+    <value>已添加 "osu!web" 标签</value>
+  </data>
   <data name="topics.lock.is_locked" xml:space="preserve">
     <value>主题已被锁定，不能回复</value>
   </data>
@@ -599,22 +635,22 @@
     <value>当前优先级: +{0}</value>
   </data>
   <data name="topics.show.feature_vote.do" xml:space="preserve">
-    <value>提升这个请求</value>
+    <value>推动此提案</value>
   </data>
   <data name="topics.show.feature_vote.info._" xml:space="preserve">
-    <value>这是一个 {0}。{1} 可以为新功能请求投票。</value>
+    <value>这是一个 {0}。{1} 可以为新功能提案投票。</value>
   </data>
   <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
-    <value>新功能请求</value>
+    <value>新功能提案</value>
   </data>
   <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
     <value>osu! 支持者</value>
   </data>
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
-    <value>{0} 0 票|{1} {0} 票|[2,*] {0} 票</value>
+    <value>{0} 0|{1} {0}|[2,*] {0}</value>
   </data>
   <data name="topics.show.feature_vote.user.current" xml:space="preserve">
-    <value>还有 {0} 张选票。</value>
+    <value>您还有 {0} 张选票。</value>
   </data>
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>没有票了</value>
@@ -641,10 +677,10 @@
     <value>投票</value>
   </data>
   <data name="topics.show.poll.detail.end_time" xml:space="preserve">
-    <value>{0} 结束</value>
+    <value>将于 {0} 结束</value>
   </data>
   <data name="topics.show.poll.detail.ended" xml:space="preserve">
-    <value>{0} 结束</value>
+    <value>结束于 {0}</value>
   </data>
   <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
     <value>投票结束后才显示结果。</value>

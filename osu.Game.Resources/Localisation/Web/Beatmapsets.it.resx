@@ -65,7 +65,7 @@
     <value>Porzioni di questa beatmap sono state rimosse su richiesta del creatore o di un titolare di copyright di terze parti.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
-    <value>Controlla qui per maggiori informazioni.</value>
+    <value>Controlla qui per maggiori dettagli.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
     <value>Alcuni elementi contenuti in questa mappa sono stati rimossi dopo che sono stati giudicati non idonei per l'uso in osu!.</value>
@@ -102,6 +102,12 @@
   </data>
   <data name="panel.download.direct" xml:space="preserve">
     <value>apri in osu!direct</value>
+  </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>I proponenti in prova non possono nominare più set di regole.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Devi essere un proponente a pieno titolo per effettuare la nomina definitiva di un set di regole.</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Un beatmapset ibrido richiede che venga selezionata almeno una modalità di gioco per poterla nominare.</value>
@@ -164,7 +170,7 @@
     <value>Accedi per aggiungere questa beatmap ai preferiti</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>hai bisogno di accedere per scaricare le beatmap!</value>
+    <value>devi accedere se vuoi scaricare le beatmap!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>mappata da {0}</value>
@@ -188,7 +194,7 @@
     <value>con Video</value>
   </data>
   <data name="show.details.login_required.bottom" xml:space="preserve">
-    <value>per accedere a maggiori funzionalità</value>
+    <value>per vedere altre funzioni</value>
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Accedi</value>
@@ -250,6 +256,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Lingua</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Etichette del mapper</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Dati ancora in elaborazione...</value>
   </data>
@@ -274,8 +283,8 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Rateo di Successo</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>Tag</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Etichette degli utenti</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Questa beatmap contiene video</value>
@@ -316,6 +325,9 @@
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Devi essere un osu!supporter per vedere la classifica nazionale, degli amici, o con mod specifiche!</value>
   </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Classifica Squadra</value>
+  </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Classifica</value>
   </data>
@@ -350,16 +362,19 @@
     <value>Tempo</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
-    <value>Nessuno dal tuo paese ha fatto un punteggio in questa mappa!</value>
+    <value>Nessuno dal tuo paese ha un punteggio in questa mappa!</value>
   </data>
   <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
-    <value>Nessuno dei tuoi amici ha ancora fatto un punteggio su questa mappa!</value>
+    <value>Nessuno dei tuoi amici ha un punteggio su questa mappa!</value>
   </data>
   <data name="show.scoreboard.no_scores.global" xml:space="preserve">
     <value>Ancora nessun punteggio. Perché non provi a farne uno?</value>
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Caricamento punteggi...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Nessuno della tua squadra ha un punteggio su questa mappa!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Beatmap non classificata.</value>

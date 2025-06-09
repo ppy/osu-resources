@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="gameplay_section_header" xml:space="preserve">
-    <value>Joc</value>
+    <value>Partida</value>
   </data>
   <data name="beatmap_header" xml:space="preserve">
     <value>Beatmap</value>
@@ -97,6 +97,9 @@
   <data name="fade_playfield_when_health_low" xml:space="preserve">
     <value>Esvaeix el camp de joc a vermell quan la salut és baixa</value>
   </data>
+  <data name="star_fountains" xml:space="preserve">
+    <value>Fonts d'estrelles</value>
+  </data>
   <data name="key_overlay" xml:space="preserve">
     <value>Mostra sempre la superposició de tecles</value>
   </data>
@@ -104,7 +107,10 @@
     <value>Mostra sempre la taula de classificació a la partida</value>
   </data>
   <data name="always_show_hold_for_menu_button" xml:space="preserve">
-    <value>Mostra sempre el botó del menú</value>
+    <value>Mostra sempre mantenir el botó del menú</value>
+  </data>
+  <data name="require_holding_key_to_pause_gameplay" xml:space="preserve">
+    <value>Requereix mantenir la tecla per pausar la partida</value>
   </data>
   <data name="always_play_first_combo_break" xml:space="preserve">
     <value>Reproduir sempre el so en perdre el combo per primera vegada</value>

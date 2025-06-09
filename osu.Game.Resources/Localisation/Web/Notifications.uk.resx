@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>команда</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>профіль</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>усе</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>профіль</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>мапи</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>збiрки</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>чат</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>форум</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>збiрки</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>команда</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>чат</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>профіль</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Бітмапа</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} відповів</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Запит на вступ до команди</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Тепер ви член команди {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Тепер ви член команди {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Ваш запит на вступ до команди {0} був відхилений</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Ваш запит на вступ до команди {0} був відхилений</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Нова бітмапа</value>
   </data>
@@ -400,12 +421,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>На мапі "{0}" нові коментарі</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>Нове оголошення в "{0}"</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Ви отримали нове повідомлення від {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>У changelog'а "{0}" були знайдені нові коментарі</value>
   </data>
@@ -414,6 +429,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Є нові відповіді в "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Тепер ви член команди {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Ваш запит на вступ до команди {0} був відхилений</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} створив нову бітмапу</value>

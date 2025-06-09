@@ -405,9 +405,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReportOptionsCheating => new TranslatableString(getKey(@"report.options.cheating"), @"Cheating");
 
         /// <summary>
-        /// "Using multiple accounts"
+        /// "Inappropriate chat behaviour"
         /// </summary>
-        public static LocalisableString ReportOptionsMultipleAccounts => new TranslatableString(getKey(@"report.options.multiple_accounts"), @"Using multiple accounts");
+        public static LocalisableString ReportOptionsInappropriateChat => new TranslatableString(getKey(@"report.options.inappropriate_chat"), @"Inappropriate chat behaviour");
 
         /// <summary>
         /// "Insulting me / others"
@@ -415,14 +415,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReportOptionsInsults => new TranslatableString(getKey(@"report.options.insults"), @"Insulting me / others");
 
         /// <summary>
-        /// "Spamming"
+        /// "Using multiple accounts"
         /// </summary>
-        public static LocalisableString ReportOptionsSpam => new TranslatableString(getKey(@"report.options.spam"), @"Spamming");
-
-        /// <summary>
-        /// "Linking inappropriate content"
-        /// </summary>
-        public static LocalisableString ReportOptionsUnwantedContent => new TranslatableString(getKey(@"report.options.unwanted_content"), @"Linking inappropriate content");
+        public static LocalisableString ReportOptionsMultipleAccounts => new TranslatableString(getKey(@"report.options.multiple_accounts"), @"Using multiple accounts");
 
         /// <summary>
         /// "Nonsense"
@@ -433,6 +428,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Other (type below)"
         /// </summary>
         public static LocalisableString ReportOptionsOther => new TranslatableString(getKey(@"report.options.other"), @"Other (type below)");
+
+        /// <summary>
+        /// "Spamming"
+        /// </summary>
+        public static LocalisableString ReportOptionsSpam => new TranslatableString(getKey(@"report.options.spam"), @"Spamming");
+
+        /// <summary>
+        /// "Inappropriate content"
+        /// </summary>
+        public static LocalisableString ReportOptionsUnwantedContent => new TranslatableString(getKey(@"report.options.unwanted_content"), @"Inappropriate content");
 
         /// <summary>
         /// "Your account has been restricted!"
@@ -630,9 +635,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowEditCoverUploadDropzoneInfo => new TranslatableString(getKey(@"show.edit.cover.upload.dropzone_info"), @"You can also drop your image here to upload");
 
         /// <summary>
-        /// "Cover size should be 2400x640"
+        /// "Cover size should be 2000x500"
         /// </summary>
-        public static LocalisableString ShowEditCoverUploadSizeInfo => new TranslatableString(getKey(@"show.edit.cover.upload.size_info"), @"Cover size should be 2400x640");
+        public static LocalisableString ShowEditCoverUploadSizeInfo => new TranslatableString(getKey(@"show.edit.cover.upload.size_info"), @"Cover size should be 2000x500");
 
         /// <summary>
         /// "Uploaded file is too large."
@@ -1243,6 +1248,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Highest rank: {0} on {1}"
         /// </summary>
         public static LocalisableString ShowRankHighest(LocalisableString rank, LocalisableString date) => new TranslatableString(getKey(@"show.rank.highest"), @"Highest rank: {0} on {1}", rank, date);
+
+        /// <summary>
+        /// "Top {0}"
+        /// </summary>
+        public static LocalisableString ShowSeasonStatsDivisionTopPercentage(LocalisableString value) => new TranslatableString(getKey(@"show.season_stats.division_top_percentage"), @"Top {0}", value);
+
+        /// <summary>
+        /// "Total score"
+        /// </summary>
+        public static LocalisableString ShowSeasonStatsTotalScore => new TranslatableString(getKey(@"show.season_stats.total_score"), @"Total score");
 
         /// <summary>
         /// "Hit Accuracy"

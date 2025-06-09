@@ -345,6 +345,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoLanguage => new TranslatableString(getKey(@"show.info.language"), @"Language");
 
         /// <summary>
+        /// "Mapper Tags"
+        /// </summary>
+        public static LocalisableString ShowInfoMapperTags => new TranslatableString(getKey(@"show.info.mapper_tags"), @"Mapper Tags");
+
+        /// <summary>
         /// "Data still being calculated..."
         /// </summary>
         public static LocalisableString ShowInfoNoScores => new TranslatableString(getKey(@"show.info.no_scores"), @"Data still being calculated...");
@@ -385,9 +390,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoSuccessRate => new TranslatableString(getKey(@"show.info.success-rate"), @"Success Rate");
 
         /// <summary>
-        /// "Tags"
+        /// "User Tags"
         /// </summary>
-        public static LocalisableString ShowInfoTags => new TranslatableString(getKey(@"show.info.tags"), @"Tags");
+        public static LocalisableString ShowInfoUserTags => new TranslatableString(getKey(@"show.info.user_tags"), @"User Tags");
 
         /// <summary>
         /// "This beatmap contains video"
@@ -453,6 +458,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "You need to be an osu!supporter to access the friend, country, or mod-specific rankings!"
         /// </summary>
         public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be an osu!supporter to access the friend, country, or mod-specific rankings!");
+
+        /// <summary>
+        /// "Team Ranking"
+        /// </summary>
+        public static LocalisableString ShowScoreboardTeam => new TranslatableString(getKey(@"show.scoreboard.team"), @"Team Ranking");
 
         /// <summary>
         /// "Scoreboard"
@@ -533,6 +543,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Loading scores..."
         /// </summary>
         public static LocalisableString ShowScoreboardNoScoresLoading => new TranslatableString(getKey(@"show.scoreboard.no_scores.loading"), @"Loading scores...");
+
+        /// <summary>
+        /// "No one from your team has set a score on this map yet!"
+        /// </summary>
+        public static LocalisableString ShowScoreboardNoScoresTeam => new TranslatableString(getKey(@"show.scoreboard.no_scores.team"), @"No one from your team has set a score on this map yet!");
 
         /// <summary>
         /// "Unranked beatmap."

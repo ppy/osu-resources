@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>圖譜發布</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>和全世界分享你的圖譜！</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>內容權限</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>我了解了</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>常見問題</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>提交設定</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>提交圖譜！</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>正在匯出相容模式的圖譜……</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>準備上傳……</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>正在上傳圖譜內容……</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>即將完成……</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>在你繼續之前，請你檢查你正在上傳的內容是否受版權保護。請你明白，你需要對你上傳的內容負責。如果有任何疑問，請在上傳之前詢問內容創作者！</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>查看內容使用指南以獲得更多資訊</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>圖譜進榜標準</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>不確定你的圖譜是不是符合進榜指標？檢查進榜標準列表，加快進榜過程！</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>提交進度</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>不確定提交流程嗎？請查看 wiki 頁面！</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>模圖說明論壇</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>對模圖和圖譜提交有疑問嗎？到論壇發問吧！</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>模圖列隊論壇</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>難以取得圖譜的意見回饋嗎？何不試試模圖列隊！</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>你想將圖譜提交到哪個類別呢？</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>尚未完工/需要幫助（未完成、沒準備進榜）</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>待處理（已完成、準備進榜）</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>接收討論回覆的通知</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>提交後在瀏覽器開啟圖譜頁面</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>注意：為了讓所有 osu! 版本的使用者都能享受你的圖譜，它將會以向下相容的格式匯出。雖然我們已盡力確保此過程能讓圖譜以其預期形式正常遊玩，但某些與舊版 osu! 不支援的功能相關的資料仍可能遺失。</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>無法提交空白圖譜。</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>更新圖譜！</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>上傳新圖譜！</value>
+  </data>
+</root>

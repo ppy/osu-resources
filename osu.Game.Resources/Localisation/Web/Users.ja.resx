@@ -209,7 +209,9 @@
     <value>ログインして続行してください</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Captcha が無効です。ページを更新して再度お試し下さい。</value>
+    <value>ログイン試行回数の上限に到達しました。
+CAPTCHA認証を成功させてから再試行してください。
+(表示されない場合はページを更新してください)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>あなたのIPアドレスは規制されています。数分後もう一度お試しください。</value>
@@ -295,17 +297,14 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>チート</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>複数のアカウントを管理している</value>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>不適切なチャット行為</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>あなた/他の人への侮辱</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>スパム</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>不適切なコンテンツへのリンク</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>複数のアカウントを管理している</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>ナンセンスな行為</value>
@@ -313,11 +312,18 @@
   <data name="report.options.other" xml:space="preserve">
     <value>その他（下記に入力）</value>
   </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>スパム</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>不適切なコンテンツ</value>
+  </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>アカウントが制限されました！</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>制限中は他のプレイヤーと交流ができなくなり、スコアが他人には表示されなくなります。ほとんどの場合、自動的に行われた処理で通常２４時間以内に解除されます。この制限に異議を申し立てたい場合は&lt;a href="mailto{0}@ppy.sh"&gt;サポート&lt;/a&gt;に問い合わせて下さい。</value>
+    <value>制限中はプレイヤーとの交流が禁止され、スコアは自分以外に表示されなくなります。この制限は機械的な処理によるものですので、通常 24 時間以内に解除されます。
+この対応に異議の申し立てを行いたい場合は、こちらのリンクまでお問い合せください。{0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>詳細については、こちらのページをご覧ください。</value>
@@ -379,6 +385,9 @@
   <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
     <value>現在の連続記録</value>
   </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>参加合計</value>
+  </data>
   <data name="show.daily_challenge.title" xml:space="preserve">
     <value>デイリー\nチャレンジ</value>
   </data>
@@ -397,11 +406,20 @@
   <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
     <value>現在の週間連続記録</value>
   </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>カバー画像の変更</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>カバー画像の選択肢は増える予定です</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>以前に選択したカバーは選択できなくなります。別のカバーに切り替えた後、再び選択することはできません。続行しますか？</value>
   </data>
   <data name="show.edit.cover.title" xml:space="preserve">
     <value>カバー画像</value>
@@ -419,7 +437,7 @@
     <value>ここにドラッグ＆ドロップでアップロードが可能です。</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>推奨の画像サイズは2400x620です</value>
+    <value>推奨の画像サイズは2000x500です</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>アップロードファイルが大きすぎます。</value>
@@ -439,6 +457,9 @@
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>{0}をメインのゲームモードに設定する</value>
   </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>カラーをデフォルトに戻しますか？別の色に変更するにはサポータータグが必要です。</value>
+  </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>カラー</value>
   </data>
@@ -446,7 +467,7 @@
     <value>カラーテーマをカスタムできるのは {0} のみです</value>
   </data>
   <data name="show.edit.hue.supporter.link" xml:space="preserve">
-    <value>osu!サポーター</value>
+    <value>osu!supporters</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>なし</value>
@@ -777,6 +798,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>最高ランク: {0} ({1}に取得)</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>トップ {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>合計スコア</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>精度</value>

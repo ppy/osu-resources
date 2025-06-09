@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Указан недопустимый режим игры.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Слишком много гостевых мапперов.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Не удалось проголосовать</value>
   </data>
@@ -74,7 +80,7 @@
     <value>Удалено {0} в {1}.</value>
   </data>
   <data name="discussions.deny_kudosu" xml:space="preserve">
-    <value>запретить кудосу</value>
+    <value>отозвать кудосу</value>
   </data>
   <data name="discussions.edit" xml:space="preserve">
     <value>изменить</value>
@@ -95,7 +101,7 @@
     <value>Возможность обсуждения этой карты закрыта.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Запрещено писать посты в обсуждении, пока вы заглушены.</value>
+    <value>Запрещено публиковать посты в обсуждении, пока вы заглушены.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Выбрать тип комментария</value>
@@ -146,7 +152,7 @@
     <value>Открыть обсуждение</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
-    <value>Причина блокировки</value>
+    <value>Причина ограничения</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
     <value>Вы уверены, что хотите открыть обсуждение?</value>
@@ -323,16 +329,16 @@
     <value>Все</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Эта карта стала одобреной {0}!</value>
+    <value>Эта карта стала Одобреной {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>Эта карта не обновлялась с {0} и, похоже, что автор её забросил...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Эта карта стала любимой {0}!</value>
+    <value>Эта карта стала Любимой {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Эта карта стала рейтинговой {0}!</value>
+    <value>Эта карта стала Рейтинговой {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
     <value>Примечание: Эта карта была помечена создателем как незавершённая.</value>
@@ -392,10 +398,10 @@
     <value>Удалить</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>Уверены? Карта будет удалена, и вы будете перенаправлены обратно в свой профиль.</value>
+    <value>Вы уверены? Карта будет удалена, и вы будете перенаправлены на основную страницу своего профиля.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>Уверены? Карта будет удалена, и вы будете перенаправлены в профиль пользователя.</value>
+    <value>Вы уверены? Карта будет удалена, и вы будете перенаправлены на страницу профиля пользователя.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
     <value>Причина для дисквалификации?</value>
@@ -434,10 +440,10 @@
     <value>Недостаточно хайпа.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Дисквалифицировать</value>
+    <value>Исключить из Любимых</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Причина дисквалификации из категории Любимая:</value>
+    <value>Причина исключения из категории Любимая:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Номинаций: {0}/{1}</value>
@@ -452,7 +458,7 @@
     <value>Ещё остались нерешённые проблемы, которые необходимо решить в первую очередь.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Эта карта станет рейтинговой {0}, если не будет найдено проблем. Она #{1} в {2}.</value>
+    <value>Эта карта станет рейтинговой {0}, если не будет найдено новых проблем. Она #{1} в {2}.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>Эта карта останется в очереди квалифицированных, пока не будут решены {0}.</value>
@@ -596,7 +602,7 @@
     <value>Одобренные</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
-    <value>Избранные</value>
+    <value>В избранном</value>
   </data>
   <data name="status.graveyard" xml:space="preserve">
     <value>Заброшенные</value>

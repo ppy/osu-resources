@@ -59,25 +59,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_editor" xml:space="preserve">
-    <value>Penyunting Beatmap</value>
+    <value>Sunting peta rentak</value>
   </data>
   <data name="waveform_opacity" xml:space="preserve">
-    <value>Kelegapan Bentuk Gelombang</value>
+    <value>Kelegapan bentuk gelombang</value>
   </data>
   <data name="show_hit_markers" xml:space="preserve">
-    <value>Tunjukkan penanda pukulan</value>
+    <value>Tunjuk penanda pukulan</value>
   </data>
   <data name="auto_seek_on_placement" xml:space="preserve">
-    <value>Terus cari selepas meletakkan objek</value>
+    <value>Jangkau secara automatik setelah meletakkan objek</value>
   </data>
   <data name="timing" xml:space="preserve">
-    <value>Masa</value>
+    <value>Pemasaan</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
-    <value>Tetapkan titik pratonton kepada detik ini</value>
+    <value>Tetapkan titik pratonton ke masa ini</value>
+  </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Gerakkan objek yang sudah diletakkan ketika mengubah pemasaan</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
-    <value>Untuk suntingan (.olz)</value>
+    <value>Untuk penyuntingan (.olz)</value>
   </data>
   <data name="export_for_compatibility" xml:space="preserve">
     <value>Untuk keserasian (.osz)</value>
@@ -86,13 +89,19 @@
     <value>Cipta kesukaran baru</value>
   </data>
   <data name="change_difficulty" xml:space="preserve">
-    <value>Tukar kesukaran</value>
+    <value>Ubah kesukaran</value>
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>Padam kesukaran</value>
   </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Sunting di luar</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Serah peta rentak</value>
+  </data>
   <data name="setup_screen" xml:space="preserve">
-    <value>pengaturan</value>
+    <value>persediaan</value>
   </data>
   <data name="compose_screen" xml:space="preserve">
     <value>gubah</value>
@@ -101,39 +110,69 @@
     <value>reka bentuk</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>masa</value>
+    <value>pemasaan</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
-    <value>pengesahan</value>
+    <value>sahkan</value>
   </data>
   <data name="playback_speed" xml:space="preserve">
-    <value>Kelajuan pemain balik</value>
+    <value>Kelajuan putar semula</value>
   </data>
   <data name="test_beatmap" xml:space="preserve">
-    <value>Cuba!</value>
+    <value>Uji!</value>
   </data>
   <data name="rotation_unsnapped" xml:space="preserve">
     <value>{0:0}°</value>
   </data>
   <data name="rotation_snapped" xml:space="preserve">
-    <value>{0:0}° (sudut tetap)</value>
+    <value>{0:0}° (terlekat)</value>
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Hadkan penempatan penetapan jarak kepada detik ini</value>
+    <value>Hadkan penempatan lekat jarak ke masa semasa</value>
+  </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Kecut palang sisi ketika tidak dilayang</value>
   </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
-    <value>Mesti berada dalam mod sunting untuk tangani pautan penyunting</value>
+    <value>Mesti berada dalam mod sunting untuk menangani pautan penyunting</value>
   </data>
   <data name="failed_to_parse_edtior_link" xml:space="preserve">
-    <value>Pautan penyunting gagal dihuraikan</value>
+    <value>Gagal menghuraikan pautan penyunting</value>
   </data>
   <data name="timeline" xml:space="preserve">
-    <value>Garis Masa</value>
+    <value>Garis masa</value>
   </data>
   <data name="timeline_show_timing_changes" xml:space="preserve">
-    <value>Tunjukkan perubahan masa</value>
+    <value>Tunjuk perubahan pemasaan</value>
+  </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Tunjuk rehat</value>
   </data>
   <data name="timeline_show_ticks" xml:space="preserve">
-    <value>Tunjukkan "ticks"</value>
+    <value>Tunjuk tanda</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Penanda</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Tambah penanda</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Padam penanda terdekat</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Jangkau ke penanda sebelumnya</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Jangkau ke penanda seterusnya</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Set semula penanda</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Buka halaman maklumat peta rentak</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Buka halaman perbincangan peta rentak</value>
   </data>
 </root>

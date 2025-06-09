@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="show.non_preserved" xml:space="preserve">
-    <value>已标记删除此分数，不久后它将消失。</value>
+    <value>该成绩已被标记为删除，不久后它将消失。</value>
   </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} 在 {1} [{2}] 上的成绩</value>
   </data>
   <data name="show.beatmap.by" xml:space="preserve">
-    <value>by {0}</value>
+    <value>- {0}</value>
   </data>
   <data name="show.player.by" xml:space="preserve">
     <value>玩家</value>
@@ -80,15 +80,15 @@
     <value>全球排名</value>
   </data>
   <data name="status.non_best" xml:space="preserve">
-    <value>只有个人最好成绩才能获取到 pp</value>
+    <value>只有个人最好成绩才能获取到表现分（PP）</value>
   </data>
   <data name="status.no_pp" xml:space="preserve">
-    <value>该分数没有 pp</value>
+    <value>该分数没有表现分（PP）</value>
   </data>
   <data name="status.processing" xml:space="preserve">
-    <value>此分数仍在计算中，即将显示</value>
+    <value>该成绩仍在计算中，即将显示</value>
   </data>
   <data name="status.no_rank" xml:space="preserve">
-    <value>因为此分数不参与排名或标记为删除，所以它没有排名。</value>
+    <value>该成绩未获得排名（谱面未上架或成绩已标记为删除）</value>
   </data>
 </root>

@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeDailyChallenge => new TranslatableString(getKey(@"type.daily_challenge"), @"daily challenge");
 
         /// <summary>
+        /// "global"
+        /// </summary>
+        public static LocalisableString TypeGlobal => new TranslatableString(getKey(@"type.global"), @"global");
+
+        /// <summary>
         /// "kudosu"
         /// </summary>
         public static LocalisableString TypeKudosu => new TranslatableString(getKey(@"type.kudosu"), @"kudosu");
@@ -90,19 +95,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeMultiplayer => new TranslatableString(getKey(@"type.multiplayer"), @"multiplayer");
 
         /// <summary>
-        /// "performance"
-        /// </summary>
-        public static LocalisableString TypePerformance => new TranslatableString(getKey(@"type.performance"), @"performance");
-
-        /// <summary>
-        /// "score"
-        /// </summary>
-        public static LocalisableString TypeScore => new TranslatableString(getKey(@"type.score"), @"score");
-
-        /// <summary>
         /// "seasons"
         /// </summary>
         public static LocalisableString TypeSeasons => new TranslatableString(getKey(@"type.seasons"), @"seasons");
+
+        /// <summary>
+        /// "team"
+        /// </summary>
+        public static LocalisableString TypeTeam => new TranslatableString(getKey(@"type.team"), @"team");
 
         /// <summary>
         /// "There are no rooms in this season yet."
@@ -123,6 +123,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Display more informations on that season."
         /// </summary>
         public static LocalisableString SeasonsUrl => new TranslatableString(getKey(@"seasons.url"), @"Display more informations on that season.");
+
+        /// <summary>
+        /// "there is not enough score factors for proper calculation"
+        /// </summary>
+        public static LocalisableString SeasonsValidationNotEnoughFactors => new TranslatableString(getKey(@"seasons.validation.not_enough_factors"), @"there is not enough score factors for proper calculation");
 
         /// <summary>
         /// "End Date"
@@ -158,6 +163,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Country"
         /// </summary>
         public static LocalisableString StatCountry => new TranslatableString(getKey(@"stat.country"), @"Country");
+
+        /// <summary>
+        /// "Division"
+        /// </summary>
+        public static LocalisableString StatDivision => new TranslatableString(getKey(@"stat.division"), @"Division");
+
+        /// <summary>
+        /// "Members"
+        /// </summary>
+        public static LocalisableString StatMembers => new TranslatableString(getKey(@"stat.members"), @"Members");
 
         /// <summary>
         /// "Play Count"

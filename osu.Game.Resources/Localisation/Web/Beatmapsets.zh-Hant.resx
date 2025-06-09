@@ -68,7 +68,7 @@
     <value>按這裡查看更多資訊。</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>已移除此圖譜中部份被評斷為不合適於 osu! 的內容。</value>
+    <value>這個地圖中包含的一些素材，在被評估為不適合在 osu! 中使用後已移除。</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
     <value>已刪除圖譜</value>
@@ -107,7 +107,7 @@
     <value>見習提名者無法提名多個規則集的圖譜。</value>
   </data>
   <data name="nominate.full_nomination_required" xml:space="preserve">
-    <value>你必須完全是一個提名者才能展現一個遊戲模式的最終提名。</value>
+    <value>你必須是完整的提名者才能執行遊戲模式的最終提名。</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>包含多個遊戲模式的圖譜至少需要選擇一種遊戲模式進行提名。</value>
@@ -188,10 +188,10 @@
     <value>下載</value>
   </data>
   <data name="show.details.download.no-video" xml:space="preserve">
-    <value>不含影像</value>
+    <value>不含影片</value>
   </data>
   <data name="show.details.download.video" xml:space="preserve">
-    <value>含影像</value>
+    <value>含影片</value>
   </data>
   <data name="show.details.login_required.bottom" xml:space="preserve">
     <value>以使用更多的功能</value>
@@ -203,16 +203,16 @@
     <value>於 {0} 核准</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>loved {0}</value>
+    <value>於 {0} 被加入至社群喜愛</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>已提名 {0}</value>
+    <value>於 {0} 列為合格圖譜</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>於{0}進榜</value>
+    <value>於 {0} 進榜</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
-    <value>於{0}提交</value>
+    <value>於 {0} 提交</value>
   </data>
   <data name="show.details_date.updated" xml:space="preserve">
     <value>上次更新於{0}</value>
@@ -230,7 +230,7 @@
     <value>等待中</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>已提名</value>
+    <value>已合格</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>製作中</value>
@@ -256,6 +256,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>語言</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>譜師標籤</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>資料還在計算中...</value>
   </data>
@@ -280,8 +283,8 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>成功率</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>標籤</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>玩家標籤</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>此圖譜包含背景影片</value>
@@ -317,10 +320,13 @@
     <value>全球排名</value>
   </data>
   <data name="show.scoreboard.supporter-link" xml:space="preserve">
-    <value>點擊 &lt;a href="{0}"&gt;這裡&lt;/a&gt; 來查看你可以得到的精彩功能！</value>
+    <value>按&lt;a href="{0}"&gt;這裡&lt;/a&gt;來查看你可以得到的精彩功能！</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>你需要成為贊助者才能查看國內與好友排名！</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>隊伍排名</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>排行榜</value>
@@ -367,6 +373,9 @@
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>正在載入分數...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>您的隊員尚未在此圖譜上傳任何分數！</value>
+  </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Unranked 譜面</value>
   </data>
@@ -377,7 +386,7 @@
     <value>您的最佳成績</value>
   </data>
   <data name="show.scoreboard.supporter_link._" xml:space="preserve">
-    <value>點{0}查看您能得到的精彩功能！</value>
+    <value>按{0}查看您能得到的精彩功能！</value>
   </data>
   <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
     <value>這裡</value>
@@ -419,7 +428,7 @@
     <value>玩家評價</value>
   </data>
   <data name="show.stats.rating-spread" xml:space="preserve">
-    <value>評分情況</value>
+    <value>評分狀況</value>
   </data>
   <data name="show.stats.nominations" xml:space="preserve">
     <value>提名</value>
@@ -434,10 +443,10 @@
     <value>已核准</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Loved</value>
+    <value>社群喜愛</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>已提名</value>
+    <value>已合格</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>製作中</value>
@@ -446,7 +455,7 @@
     <value>待處理</value>
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
-    <value>拋棄</value>
+    <value>閒置</value>
   </data>
   <data name="spotlight_badge.label" xml:space="preserve">
     <value>聚光燈</value>

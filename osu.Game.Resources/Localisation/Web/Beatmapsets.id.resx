@@ -158,7 +158,7 @@
     <value>Beatmap ini telah dihapus.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
-    <value>(hanya moderator yang dapat melihat ini)</value>
+    <value>(hanya moderator yang dapat melihat pesan ini)</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>oleh {0}</value>
@@ -256,6 +256,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Bahasa</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Tag Mapper</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data sedang diproses...</value>
   </data>
@@ -280,14 +283,14 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Tingkat Keberhasilan</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>Tag</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Tag Pengguna</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Beatmap ini menyertakan video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap ini mengandung konten yang bersifat eksplisit dan/atau konten yang dapat dianggap menyinggung bagi kalangan tertentu. Apakah kamu tetap ingin melihat beatmap ini?</value>
+    <value>Beatmap ini mengandung konten yang bersifat eksplisit, menyinggung, atau meresahkan. Apakah kamu tetap ingin menampilkan beatmap ini?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Konten Eksplisit</value>
@@ -321,6 +324,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Kamu harus menjadi osu!supporter untuk mengakses papan peringkat teman, negara, atau mod!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Peringkat Tim</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Papan Skor</value>
@@ -356,7 +362,7 @@
     <value>Waktu</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
-    <value>Tidak seorang pun dari negara Anda yang memiliki skor di map ini!</value>
+    <value>Belum ada seorang pun dari negaramu yang telah mencetak skor pada map ini!</value>
   </data>
   <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
     <value>Belum ada seorang pun dari daftar temanmu yang telah mencetak skor pada map ini!</value>
@@ -366,6 +372,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Memuat skor...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Belum ada seorang pun dari tim kamu yang telah mencetak skor pada map ini!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Beatmap ini tidak berstatus Ranked.</value>

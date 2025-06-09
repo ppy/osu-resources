@@ -229,6 +229,30 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>URL de Callback da Aplicação</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0} contém caracteres inválidos.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>Essa escolha de {0} já está sendo usada.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Essa escolha de {0} não é permitida.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Regras padrão</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Aplicação para equipe</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Nome curto</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Senha não deve conter seu nome de usuário.</value>
   </data>
@@ -327,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Você não está nesse canal.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>Você não faz parte da equipe.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} não é valido para este tipo de denúncia.</value>

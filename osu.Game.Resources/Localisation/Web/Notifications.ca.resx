@@ -77,7 +77,7 @@
     <value>veure totes les notificacions</value>
   </data>
   <data name="see_channel" xml:space="preserve">
-    <value>vés al xat</value>
+    <value>ves al xat</value>
   </data>
   <data name="verifying" xml:space="preserve">
     <value>Verifica la sessió per a veure les notificacions</value>
@@ -86,7 +86,7 @@
     <value>totes</value>
   </data>
   <data name="action_type.beatmapset" xml:space="preserve">
-    <value>beatmaps</value>
+    <value>mapes</value>
   </data>
   <data name="action_type.build" xml:space="preserve">
     <value>versions</value>
@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>novetats</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>equip</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>perfil</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>totes</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>perfil</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
-    <value>beatmaps</value>
+    <value>mapes</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>versions</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>xat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>fòrum</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>novetats</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>versions</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>equip</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>xat</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>perfil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
@@ -131,13 +137,13 @@
     <value>Dificultat de convidat</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Ara ets propietari de la dificultat "{0}" per al beatmap "{1}"</value>
+    <value>Ara ets propietari de la dificultat "{0}" del mapa "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
     <value>Ara ets el propietari de la dificultat "{0}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
-    <value>Discussió de beatmaps</value>
+    <value>Discussió de mapes</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>La discussió a "{0}" s'ha tancat</value>
@@ -158,16 +164,16 @@
     <value>Nova publicació per {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Nova revisió de "{0}" per {1} que conté problemes: {2}, suggeriments {3}, elogis: {4}</value>
+    <value>Nova revisió de "{0}" per {1} que conté {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Nova revisió per {0} que conté problemes: {1}, suggeriments {2}, elogis: {3}</value>
+    <value>Nova revisió per {0} que conté {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
-    <value>La discussió de "{0}" s'ha obert</value>
+    <value>La discussió de "{0}" s'ha desbloquejat</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
-    <value>La discussió s'ha obert</value>
+    <value>La discussió s'ha desbloquejat</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
     <value>{0} elogi|{0} elogis</value>
@@ -200,37 +206,37 @@
     <value>"{0}" ha estat desqualificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
-    <value>El beatmap ha estat desqualificat</value>
+    <value>El mapa ha estat desqualificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>s'ha promogut "{0}" a "estimats"</value>
+    <value>s'ha promogut "{0}" a "amats"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>El beatmap s'ha promocionat a "estimats"</value>
+    <value>El mapa s'ha promocionat a "estimats"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" ha estat nominat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>El beatmap ha estat nominat</value>
+    <value>El mapa ha estat nominat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>"{0}" ha obtingut suficients nominacions i ha entrat a la cua per a classificatoris</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>El beatmap ha entrat a la cua per a classificatoris</value>
+    <value>El mapa ha entrat a la cua per a classificatoris</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
     <value>"{0}" s'ha classificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>El beatmap s'ha classificat</value>
+    <value>El mapa s'ha classificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>s'ha esborrat "{0}" de "estimats"</value>
+    <value>s'ha esborrat "{0}" d'"amats"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>El beatmap s'ha esborrat de "estimats"</value>
+    <value>El mapa s'ha esborrat d'"amats"</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>La nominació de "{0}" s'ha reiniciat</value>
@@ -328,23 +334,29 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ha respost</value>
   </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>T'has unit a l'equip {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>T'has unit a l'equip {0}</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
-    <value>Nou beatmap</value>
+    <value>Nou mapa</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>Nou beatmap "{0}" per {1}</value>
+    <value>Nou mapa "{0}" per {1}</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
-    <value>Nou beatmap "{0}"</value>
+    <value>Nou mapa "{0}"</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
-    <value>Nous beatmaps de {0}</value>
+    <value>Nous mapes de {0}</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} ha restaurat el beatmap "{1}"</value>
+    <value>{0} ha restaurat el beatmap «{1}»</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
-    <value>S'ha restaurat el beatmap "{0}"</value>
+    <value>S'ha restaurat el mapa "{0}"</value>
   </data>
   <data name="item.user_achievement._" xml:space="preserve">
     <value>Medalles</value>
@@ -400,12 +412,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>El beatmap "{0}" té nous comentaris</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>Hi ha un nou anunci a "{0}"</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Has rebut un nou missatge de {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>El registre de canvis "{0}" té nous comentaris</value>
   </data>
@@ -414,6 +420,9 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Hi ha noves respostes a "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>T'has unit a l'equip {0}</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} ha creat nous beatmaps</value>

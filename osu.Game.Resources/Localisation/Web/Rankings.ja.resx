@@ -67,6 +67,12 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>難易度</value>
   </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>上位10%スコア</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>上位50%スコア</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>表示</value>
   </data>
@@ -82,6 +88,9 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>使用済み</value>
   </data>
+  <data name="performance.insufficient_history" xml:space="preserve">
+    <value>このユーザーの最近のランキング履歴は30日未満です。</value>
+  </data>
   <data name="type.charts" xml:space="preserve">
     <value>スポットライト</value>
   </data>
@@ -91,20 +100,35 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>デイリーチャレンジ</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>グローバル</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
     <value>マルチプレイ</value>
   </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>パフォーマンス</value>
+  <data name="type.seasons" xml:space="preserve">
+    <value>シーズン</value>
   </data>
-  <data name="type.score" xml:space="preserve">
-    <value>スコア</value>
+  <data name="type.team" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="seasons.empty" xml:space="preserve">
+    <value>今シーズンはまだルームがありません。</value>
+  </data>
+  <data name="seasons.ongoing" xml:space="preserve">
+    <value>今シーズンはまだ継続中です（プレイリストはさらに追加される予定）。</value>
   </data>
   <data name="seasons.room_count" xml:space="preserve">
     <value>プレイリスト数</value>
+  </data>
+  <data name="seasons.url" xml:space="preserve">
+    <value>そのシーズンに関する詳細情報を表示する。</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>適切に計算するためのスコア要素が不足しています</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>終了日</value>
@@ -126,6 +150,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>所在国</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>階級</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>メンバー</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>プレイ回数</value>

@@ -122,6 +122,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "Relevance"
         /// </summary>
+        public static LocalisableString TeamsRelevance => new TranslatableString(getKey(@"teams.relevance"), @"Relevance");
+
+        /// <summary>
+        /// "Name"
+        /// </summary>
+        public static LocalisableString TeamsName => new TranslatableString(getKey(@"teams.name"), @"Name");
+
+        /// <summary>
+        /// "Short Name"
+        /// </summary>
+        public static LocalisableString TeamsShortName => new TranslatableString(getKey(@"teams.short-name"), @"Short Name");
+
+        /// <summary>
+        /// "Relevance"
+        /// </summary>
         public static LocalisableString UsersRelevance => new TranslatableString(getKey(@"users.relevance"), @"Relevance");
 
         /// <summary>

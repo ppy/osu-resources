@@ -169,9 +169,6 @@
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>na żywo</value>
   </data>
-  <data name="main.matches_controller._" xml:space="preserve">
-    <value>mecze</value>
-  </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>aktualności</value>
   </data>
@@ -190,8 +187,26 @@
   <data name="main.seasons_controller._" xml:space="preserve">
     <value>rankingi</value>
   </data>
+  <data name="main.teams_controller._" xml:space="preserve">
+    <value>zespoły</value>
+  </data>
+  <data name="main.teams_controller.create" xml:space="preserve">
+    <value>Utwórz drużynę</value>
+  </data>
+  <data name="main.teams_controller.edit" xml:space="preserve">
+    <value>Ustawienia drużyny</value>
+  </data>
+  <data name="main.teams_controller.leaderboard" xml:space="preserve">
+    <value>Tabela wyników drużyny</value>
+  </data>
+  <data name="main.teams_controller.show" xml:space="preserve">
+    <value>informacje o zespole</value>
+  </data>
   <data name="main.tournaments_controller._" xml:space="preserve">
     <value>turnieje</value>
+  </data>
+  <data name="main.user_cover_presets_controller._" xml:space="preserve">
+    <value>ustawienia okładki użytkownika</value>
   </data>
   <data name="main.users_controller._" xml:space="preserve">
     <value>informacje o użytkowniku</value>
@@ -210,6 +225,9 @@
   </data>
   <data name="store._" xml:space="preserve">
     <value>sklep</value>
+  </data>
+  <data name="teams.members_controller.index" xml:space="preserve">
+    <value>Członkowie drużyny</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
     <value>informacje o modowaniu</value>

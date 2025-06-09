@@ -130,8 +130,14 @@
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>پست هایی که خودکار ساخته شده اند، نمیتوانند ویرایش شوند.</value>
   </data>
+  <data name="beatmapset.discussion_locked" xml:space="preserve">
+    <value>مباحثه برای این بیت‌مپ قفل است.</value>
+  </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>شما نمیتوانید متادیتای یک بیت مپ نامزد شده را عوض کنید. اگر فکر میکنید این اطلاعات اشتباه است به یک عضو BN یا NAT پیام دهید.</value>
+  </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>برای اضافه کردن تگ، باید امتیاز بیت‌مپ را تعیین کنید.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>نمیتوان به کاربری پیام ارسال کرد که او را مسدود کرده اید یا او شما را مسدود کرده باشد.</value>
@@ -144,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>شما به آن کانال دسترسی ندارید.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>شما دسترسی لازم برای انتشار اعلامیه ندارید.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>کاربر شاید نتواند به شما پاسخ بدهد چون شما فقط دوستانتان را مجاز به ارسال پیام کرده اید.</value>
@@ -159,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>نمیتوان پست پاک شده را ویرایش کرد.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>داوری برای این جشنواره غیرفعال است.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>شما نمیتوانید رای خود را بعد این که رقابت به پایان رسیده عوض کنید.</value>
@@ -271,6 +283,15 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>فقط مدیران می توانند این انجمن را ببینند.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>فقط مالک اتاق می‌تواند آن را ببندد.</value>
+  </data>
+  <data name="score.pin.disabled_type" xml:space="preserve">
+    <value>این نوع اسکور پین نمیشه</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>اسکور تکمیل‌نشده پین نمیشه.</value>
+  </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>فقط صاحب امتیاز می تواند آن را سنجاق کند.</value>
   </data>
@@ -285,5 +306,8 @@
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
     <value>تگ حامی osu! نیاز است.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>این آدرس ایمیل قفل است</value>
   </data>
 </root>

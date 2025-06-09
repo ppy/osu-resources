@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Ruleset yang diberikan tidak valid.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Jumlah mapper tamu terlalu banyak.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Pilihan gagal diperbarui</value>
   </data>
@@ -125,7 +131,7 @@
     <value>Diskusi</value>
   </data>
   <data name="discussions.unresolved_count" xml:space="preserve">
-    <value>{0} isu yang terbuka</value>
+    <value>{0} masalah yang belum terjawab|{0} masalah yang belum terjawab</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Ciutkan semua</value>
@@ -368,7 +374,7 @@
     <value>Kamu akan memperoleh lebih banyak hype {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Kamu memiliki {0} hype tersisa.</value>
+    <value>Kamu memiliki {0} hype yang tersisa.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
     <value>Hype: {0}/{1}</value>
@@ -431,7 +437,7 @@
     <value>dinominasikan oleh {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>Beatmap belum memperoleh cukup hype.</value>
+    <value>Beatmap ini belum memperoleh cukup hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
     <value>Lepas dari Loved</value>
@@ -452,7 +458,7 @@
     <value>Terdapat masalah belum terjawab yang harus diselesaikan terlebih dahulu.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Map ini diperkirakan akan berstatus Ranked {0} apabila tidak terdapat masalah yang ditemukan. Map ini berada pada urutan ke-{1} dalam {2} saat ini.</value>
+    <value>Map ini diperkirakan akan di-rank {0} apabila tidak terdapat masalah yang ditemukan. Map ini berada pada urutan ke-{1} dalam {2} saat ini.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>Beatmap ini sedang diblokir untuk dapat melewati kategori Qualified hingga {0} terselesaikan.</value>
@@ -482,7 +488,7 @@
     <value>Apakah kamu yakin? Memposting masalah baru akan mengulang proses nominasi.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>Apakah kamu yakin untuk melaporkan masalah yang terdapat pada beatmap ini? Tindakan ini akan memperingatkan seluruh anggota Beatmap Nominator.</value>
+    <value>Apakah kamu yakin untuk melaporkan masalah pada beatmap ini? Tindakan ini akan memperingatkan seluruh anggota Beatmap Nominator.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>ketik kata kunci pencarian...</value>
@@ -611,7 +617,7 @@
     <value>Map Saya</value>
   </data>
   <data name="status.pending" xml:space="preserve">
-    <value>Pending &amp; WIP</value>
+    <value>Pending</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>WIP</value>

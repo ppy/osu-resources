@@ -410,6 +410,46 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScorePinTooMany => new TranslatableString(getKey(@"score.pin.too_many"), @"Pinned too many scores.");
 
         /// <summary>
+        /// "You&#39;re already part of the team."
+        /// </summary>
+        public static LocalisableString TeamApplicationStoreAlreadyMember => new TranslatableString(getKey(@"team.application.store.already_member"), @"You're already part of the team.");
+
+        /// <summary>
+        /// "You&#39;re already part of a different team."
+        /// </summary>
+        public static LocalisableString TeamApplicationStoreAlreadyOtherMember => new TranslatableString(getKey(@"team.application.store.already_other_member"), @"You're already part of a different team.");
+
+        /// <summary>
+        /// "You have a pending team join request."
+        /// </summary>
+        public static LocalisableString TeamApplicationStoreCurrentlyApplying => new TranslatableString(getKey(@"team.application.store.currently_applying"), @"You have a pending team join request.");
+
+        /// <summary>
+        /// "The team is currently not accepting any join requests."
+        /// </summary>
+        public static LocalisableString TeamApplicationStoreTeamClosed => new TranslatableString(getKey(@"team.application.store.team_closed"), @"The team is currently not accepting any join requests.");
+
+        /// <summary>
+        /// "The team is full and can&#39;t accept any more members."
+        /// </summary>
+        public static LocalisableString TeamApplicationStoreTeamFull => new TranslatableString(getKey(@"team.application.store.team_full"), @"The team is full and can't accept any more members.");
+
+        /// <summary>
+        /// "Team leader can&#39;t leave the team."
+        /// </summary>
+        public static LocalisableString TeamPartIsLeader => new TranslatableString(getKey(@"team.part.is_leader"), @"Team leader can't leave the team.");
+
+        /// <summary>
+        /// "Not a member of the team."
+        /// </summary>
+        public static LocalisableString TeamPartNotMember => new TranslatableString(getKey(@"team.part.not_member"), @"Not a member of the team.");
+
+        /// <summary>
+        /// "osu!supporter tag is required to create team."
+        /// </summary>
+        public static LocalisableString TeamStoreRequireSupporterTag => new TranslatableString(getKey(@"team.store.require_supporter_tag"), @"osu!supporter tag is required to create team.");
+
+        /// <summary>
         /// "User page is locked."
         /// </summary>
         public static LocalisableString UserPageEditLocked => new TranslatableString(getKey(@"user.page.edit.locked"), @"User page is locked.");

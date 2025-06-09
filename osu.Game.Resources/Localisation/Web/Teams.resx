@@ -58,8 +58,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="edit.saved" xml:space="preserve">
-    <value>Settings saved successfully</value>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Added user to team.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Cancelled join request.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Rejected join request.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Requested to join team.</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} member|{0} members</value>
+  </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>Create Team</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>Your team name. The name is permanent at the moment.</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>Maximum 4 characters.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Let's set up a new team</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Play together with friends; existing or new. You're not currently in a team. Join an existing team by visiting their team page or create your own team from this page.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>Team!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Team removed.</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>Settings saved successfully.</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>Team Settings</value>
@@ -70,35 +106,32 @@
   <data name="edit.description.title" xml:space="preserve">
     <value>Team Description</value>
   </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>Team Flag</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>Set Team Flag</value>
+  </data>
   <data name="edit.header.label" xml:space="preserve">
     <value>Header Image</value>
   </data>
   <data name="edit.header.title" xml:space="preserve">
     <value>Set Header Image</value>
   </data>
-  <data name="edit.logo.label" xml:space="preserve">
-    <value>Team Flag</value>
-  </data>
-  <data name="edit.logo.title" xml:space="preserve">
-    <value>Set Team Flag</value>
-  </data>
-  <data name="edit.settings.application" xml:space="preserve">
-    <value>Team Application</value>
-  </data>
   <data name="edit.settings.application_help" xml:space="preserve">
     <value>Whether to allow people to apply for the team</value>
-  </data>
-  <data name="edit.settings.default_ruleset" xml:space="preserve">
-    <value>Default Ruleset</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
     <value>The ruleset to be selected by default when visiting the team page</value>
   </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>Maximum size of {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>Maximum size of {0}×{1}</value>
+  </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>Team Settings</value>
-  </data>
-  <data name="edit.settings.url" xml:space="preserve">
-    <value>URL</value>
   </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Closed</value>
@@ -106,20 +139,65 @@
   <data name="edit.settings.application_state.state_1" xml:space="preserve">
     <value>Open</value>
   </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>leaderboard</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>manage members</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Global Rank</value>
+  </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Team member removed</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
     <value>Manage Members</value>
   </data>
-  <data name="members.index.table.status" xml:space="preserve">
-    <value>Status</value>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Add user {0} to team?</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Requested At</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>No join requests at the moment.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Available slots</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} user overflow|{0} users overflow</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Deny join request from user {0}?</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Join Requests</value>
   </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>Join Date</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Remove</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Remove user {0} from team?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Transfer team leadership</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Transfer team leadership to user {0}?</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
     <value>Current Members</value>
@@ -130,14 +208,29 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Active</value>
   </data>
-  <data name="show.bar.settings" xml:space="preserve">
-    <value>Settings</value>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>User {0} is now the team leader.</value>
+  </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Left the team ;_;</value>
+  </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Team Chat</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Disband Team</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Request Join</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Cancel Join</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Leave Team</value>
   </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Formed</value>
-  </data>
-  <data name="show.info.website" xml:space="preserve">
-    <value>Website</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>Team Members</value>
@@ -145,10 +238,22 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>Team Leader</value>
   </data>
-  <data name="show.sections.members" xml:space="preserve">
-    <value>Members</value>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>About Us!</value>
   </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Info</value>
+  </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Team Leader</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Team created.</value>
   </data>
 </root>

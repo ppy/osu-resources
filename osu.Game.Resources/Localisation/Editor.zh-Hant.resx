@@ -62,7 +62,7 @@
     <value>圖譜編輯器</value>
   </data>
   <data name="waveform_opacity" xml:space="preserve">
-    <value>波形不透明度</value>
+    <value>波聲形不透明度</value>
   </data>
   <data name="show_hit_markers" xml:space="preserve">
     <value>顯示打擊物件標記</value>
@@ -74,7 +74,10 @@
     <value>時間軸</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
-    <value>將預覽時間點設定為此處</value>
+    <value>將預覽時間點設為目前時間</value>
+  </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>「移動」已經在切換定時時放置物件</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>編輯性優先 (.olz)</value>
@@ -90,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>刪除難度</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>外部編輯</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>提交圖譜</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>設定</value>
@@ -121,6 +130,9 @@
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>鎖定間距時限制物件的時間點</value>
   </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>在滑鼠接近時開啟側邊欄</value>
+  </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
     <value>必須在編輯模式才能處理編輯器連結</value>
   </data>
@@ -133,7 +145,34 @@
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>顯示時機變動</value>
   </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>顯示休息時間</value>
+  </data>
   <data name="timeline_show_ticks" xml:space="preserve">
-    <value>顯示循環週期</value>
+    <value>顯示時間軸</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>書籤</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>新增書籤</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>移除最近的書籤</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>前往上一個書籤</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>前往下一個書籤</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>重設書籤</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>開啟圖譜資訊頁面</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>開啟圖譜討論頁面</value>
   </data>
 </root>

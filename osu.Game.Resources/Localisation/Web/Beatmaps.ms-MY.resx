@@ -58,6 +58,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Ruleset tidak sah ditentukan.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Terlalu ramai pemeta tamu.</value>
+  </data>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Gagal mengemas kini undian</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>benarkan kudosu</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Halaman Peta Rentak</value>
+  </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>padam</value>
   </data>
@@ -71,10 +86,25 @@
     <value>sunting</value>
   </data>
   <data name="discussions.edited" xml:space="preserve">
-    <value>Kali terakhir disunting oleh {0} {1}.</value>
+    <value>Terakhir disunting oleh {0} {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Kesukaran tamu oleh {0}</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Pemerolehan kudosu ditolak.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Kesukaran ini tidak boleh dibincangkan lagi kerana telah dipadam.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Perbincangan untuk peta rentak ini telah dilumpuhkan.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Perbincangan tidak boleh dihantar ketika didiamkan.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
-    <value>Pilih Jenis Balasan</value>
+    <value>Pilih Jenis Komen</value>
   </data>
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Tekan "enter" untuk membalas.</value>
@@ -83,7 +113,10 @@
     <value>Tekan "enter" untuk membalas. Tekan ctrl+enter untuk membalas dan selesaikan.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
-    <value>Tulis respon anda disini</value>
+    <value>Taip jawapan anda di sini</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Sila daftar masuk untuk menghantar atau membalas</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Selesai</value>
@@ -92,34 +125,64 @@
     <value>pulihkan</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>Tunjuk dipadam</value>
+    <value>Tunjuk padaman</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Perbincangan</value>
   </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} isu tidak selesai</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Kecutkan semua</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Kembangkan semua</value>
+  </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Tiada perbincangan buat masa sekarang!</value>
+    <value>Tiada perbincangan lagi!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Tiada perbincangan sepadan dengan penapis terpilih.</value>
   </data>
   <data name="discussions.lock.button.lock" xml:space="preserve">
     <value>Kunci perbincangan</value>
   </data>
   <data name="discussions.lock.button.unlock" xml:space="preserve">
-    <value>Nyahkunci perbincangan</value>
+    <value>Buka kunci perbincangan</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
-    <value>Alasan untuk mengunci</value>
+    <value>Sebab mengunci</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>Anda pasti mahu nyahkunci?</value>
+    <value>Adakah anda pasti ingin membuka kunci?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Hantaran ini akan ke perbincangan peta rentak umum. Untuk menyelaras kesukaran ini, mulakan pesanan dengan cap masa (cth. 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Untuk menyelaras lebih daripada satu cap masa, hantar banyak kali (sekali setiap cap masa).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Taip di sini untuk hantar ke Umum ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Taip di sini untuk hantar ke Umum (Semua Kesukaran)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Taip di sini untuk menghantar ulasan</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Taip di sini untuk hantar ke Garis Masa ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Singkirkan</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
-    <value>Hype!</value>
+    <value>Gembarkan!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
-    <value>Nota</value>
+    <value>Catatan</value>
   </data>
   <data name="discussions.message_type.nomination_reset" xml:space="preserve">
     <value>Set Semula Pencalonan</value>
@@ -134,7 +197,7 @@
     <value>Laporkan Masalah</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
-    <value>Semak</value>
+    <value>Ulasan</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Cadangan</value>
@@ -143,13 +206,13 @@
     <value>Hantar Penyingkiran</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
-    <value>Hantar Hype!</value>
+    <value>Hantar Gembaran!</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
-    <value>Hantar Nota</value>
+    <value>Hantar Catatan</value>
   </data>
   <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
-    <value>Buang semua Pencalonan</value>
+    <value>Padam Semua Pencalonan</value>
   </data>
   <data name="discussions.message_type_title.praise" xml:space="preserve">
     <value>Hantar Pujian</value>
@@ -161,7 +224,7 @@
     <value>Hantar Masalah</value>
   </data>
   <data name="discussions.message_type_title.review" xml:space="preserve">
-    <value>Hantar Semakan</value>
+    <value>Hantar Ulasan</value>
   </data>
   <data name="discussions.message_type_title.suggestion" xml:space="preserve">
     <value>Hantar Cadangan</value>
@@ -173,7 +236,7 @@
     <value>Umum {0}</value>
   </data>
   <data name="discussions.mode.reviews" xml:space="preserve">
-    <value>Semakan</value>
+    <value>Ulasan</value>
   </data>
   <data name="discussions.mode.timeline" xml:space="preserve">
     <value>Garis Masa</value>
@@ -187,6 +250,12 @@
   <data name="discussions.new.pin" xml:space="preserve">
     <value>Semat</value>
   </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Cap Masa</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl-c dalam mod sunting dan tampal pesanan anda untuk menambah cap masa!</value>
+  </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Perbincangan Baharu</value>
   </data>
@@ -194,7 +263,7 @@
     <value>Nyahsemat</value>
   </data>
   <data name="discussions.review.new" xml:space="preserve">
-    <value>Semakan Baharu</value>
+    <value>Ulasan Baharu</value>
   </data>
   <data name="discussions.review.embed.delete" xml:space="preserve">
     <value>Padam</value>
@@ -206,13 +275,31 @@
     <value>Nyahpaut</value>
   </data>
   <data name="discussions.review.embed.unsaved" xml:space="preserve">
-    <value>Nyahsimpan</value>
+    <value>Tidak disimpan</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Hantaran pada "Semua kesukaran" tidak boleh dicap masa.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Sekiranya hantaran ini bermula dengan cap masa, hantaran ini akan muncul pada bahagian Garis Masa.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>selipkan perenggan</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>selipkan pujian</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>selipkan masalah</value>
   </data>
   <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
-    <value>masukkan cadangan</value>
+    <value>selipkan cadangan</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} petaan {1}</value>
   </data>
   <data name="discussions.sort.created_at" xml:space="preserve">
-    <value>Waktu direka</value>
+    <value>Masa dicipta</value>
   </data>
   <data name="discussions.sort.timeline" xml:space="preserve">
     <value>Garis Masa</value>
@@ -224,13 +311,13 @@
     <value>Dipadam</value>
   </data>
   <data name="discussions.stats.mapper_notes" xml:space="preserve">
-    <value>Nota</value>
+    <value>Catatan</value>
   </data>
   <data name="discussions.stats.mine" xml:space="preserve">
     <value>Saya</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
-    <value>Belum Selesai</value>
+    <value>Tergantung</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
     <value>Pujian</value>
@@ -242,55 +329,184 @@
     <value>Semua</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Beatmap ini diluluskan pada {0}!</value>
+    <value>Peta rentak ini lulus pada {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Beatmap ini tidak dikemaskini sejak {0} jadi ia telah dikuburkan...</value>
+    <value>Peta rentak ini dikuburkan kerana tidak dikemas kini sejak {0}...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Beatmap ini ditambah kepada digemari pada {0}!</value>
+    <value>Peta rentak ini ditambah ke Kegemaran pada {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Beatmap ini dipangkatkan pada {0}!</value>
+    <value>Beatmap ini berkedudukan pada {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Nota: Beatmap ini ditanda sebagai "dalam selenggara" oleh pencipta.</value>
+    <value>Catatan: Peta rentak ini ditanda selaku kerja sedang berjalan oleh pencipta.</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Tiada undi turun lagi</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Tiada undi naik lagi</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Undi turun terkini</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Undi naik terkini</value>
+  </data>
+  <data name="hype.button" xml:space="preserve">
+    <value>Gembarkan Peta Rentak!</value>
+  </data>
+  <data name="hype.button_done" xml:space="preserve">
+    <value>Telah Digembarkan!</value>
+  </data>
+  <data name="hype.confirm" xml:space="preserve">
+    <value>Adakah anda pasti? Tindakan ini akan menggunakan satu daripada {0} gembaran anda dan tidak boleh dibuat asal.</value>
+  </data>
+  <data name="hype.explanation" xml:space="preserve">
+    <value>Gembarkan peta rentak ini agar lebih tampak untuk pencalonan dan penarafan Berkedudukan!</value>
+  </data>
+  <data name="hype.explanation_guest" xml:space="preserve">
+    <value>Daftar masuk dan gembarkan peta rentak ini agar lebih tampak untuk pencalonan dan penarafan Berkedudukan!</value>
+  </data>
+  <data name="hype.new_time" xml:space="preserve">
+    <value>Anda akan mendapat gembaran lagi {0}.</value>
+  </data>
+  <data name="hype.remaining" xml:space="preserve">
+    <value>Anda mempunyai {0} gembaran lagi.</value>
+  </data>
+  <data name="hype.required_text" xml:space="preserve">
+    <value>Gembaran: {0}/{1}</value>
+  </data>
+  <data name="hype.section_title" xml:space="preserve">
+    <value>Ikutan Gembaran</value>
+  </data>
+  <data name="hype.title" xml:space="preserve">
+    <value>Gembaran</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
     <value>Tinggalkan Maklum Balas</value>
   </data>
+  <data name="nominations.already_nominated" xml:space="preserve">
+    <value>Anda telah mencalonkan peta rentak ini.</value>
+  </data>
+  <data name="nominations.cannot_nominate" xml:space="preserve">
+    <value>Anda tidak boleh mencalonkan mod mainan peta rentak ini.</value>
+  </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Padam</value>
   </data>
+  <data name="nominations.delete_own_confirm" xml:space="preserve">
+    <value>Adakah anda pasti? Peta rentak ini akan dipadam dan anda akan diarah semula ke profil anda.</value>
+  </data>
+  <data name="nominations.delete_other_confirm" xml:space="preserve">
+    <value>Adakah anda pasti? Peta rentak ini akan dipadam dan anda akan diarah semula ke profil pengguna.</value>
+  </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
-    <value>Alasan untuk penyingkiran?</value>
+    <value>Apakah sebab penyingkiran?</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
     <value>Tersingkir {0} ({1}).</value>
   </data>
+  <data name="nominations.disqualified_no_reason" xml:space="preserve">
+    <value>tiada sebab ditentukan</value>
+  </data>
   <data name="nominations.disqualify" xml:space="preserve">
     <value>Singkirkan</value>
   </data>
+  <data name="nominations.incorrect_state" xml:space="preserve">
+    <value>Ralat menjalankan tindakan, cuba segar semula halaman.</value>
+  </data>
+  <data name="nominations.love" xml:space="preserve">
+    <value>Gemar</value>
+  </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Pilih kesukaran untuk kegemaran</value>
+  </data>
+  <data name="nominations.love_confirm" xml:space="preserve">
+    <value>Adakah anda gemar peta rentak ini?</value>
+  </data>
+  <data name="nominations.nominate" xml:space="preserve">
+    <value>Calonkan</value>
+  </data>
+  <data name="nominations.nominate_confirm" xml:space="preserve">
+    <value>Calonkan peta rentak ini?</value>
+  </data>
+  <data name="nominations.nominated_by" xml:space="preserve">
+    <value>dicalon oleh {0}</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Gembaran tidak mencukupi.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Padam dari Kegemaran</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Sebab dipadam dari Kegemaran:</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>Pencalonan: {0}/{1}</value>
+  </data>
   <data name="nominations.reset_message_deleted" xml:space="preserve">
-    <value>padam</value>
+    <value>dipadam</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>Taraf Pencalonan</value>
+  </data>
+  <data name="nominations.unresolved_issues" xml:space="preserve">
+    <value>Masih terdapat isu tidak selesai yang mesti diberi perhatian dahulu.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Peta ini dianggarkan berkedudukan pada {0} sekiranya tiada isu ditemui. Peta ini bergiliran #{1} pada {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>Peta ini disekat dari meninggalkan bahagian Layak hingga {0} diselesaikan.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>masalah-masalah ini</value>
   </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>pada {0}</value>
   </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>giliran penarafan Berkedudukan</value>
+  </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
-    <value>akan datang</value>
+    <value>nanti</value>
+  </data>
+  <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
+    <value>Proses pencalonan diset semula {0} oleh {1} dengan masalah baru {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_at.disqualify" xml:space="preserve">
+    <value>Disingkirkan {0} oleh {1} dengan masalah baru {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Anda pasti? Ini akan keluarkan beatmap ini dari kelayakan dan set semula proses pencalonan.</value>
+    <value>Adakah anda pasti? Tindakan ini akan menarik balik kelayakan peta rentak ini dan mengeset semula proses pencalonan.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>Adakah anda pasti? Menghantar masalah baru akan mengeset semula proses pencalonan.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Adakah anda pasti ingin melaporkan isu pada peta rentak ini? Tindakan ini akan menyedarkan Pencalon Peta Rentak.</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>taipkan kata kunci...</value>
   </data>
   <data name="listing.search.login_required" xml:space="preserve">
     <value>Daftar masuk untuk cari.</value>
   </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Pilihan Carian Lain</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Tapisan menggunakan {0} memerlukan tag osu!supporter yang giat</value>
+  </data>
   <data name="listing.search.not-found" xml:space="preserve">
-    <value>tiada hasil carian</value>
+    <value>tiada hasil</value>
   </data>
   <data name="listing.search.not-found-quote" xml:space="preserve">
-    <value>... tidak, tak jumpa apa-apa.</value>
+    <value>... tak, tak jumpa apa-apa.</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
     <value>Tambahan</value>
@@ -308,10 +524,13 @@
     <value>Mod</value>
   </data>
   <data name="listing.search.filters.nsfw" xml:space="preserve">
-    <value>Kandungan Sensitif</value>
+    <value>Kandungan Tidak Senonoh</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
     <value>Dimain</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Gred Dicapai</value>
   </data>
   <data name="listing.search.filters.status" xml:space="preserve">
     <value>Kategori</value>
@@ -326,10 +545,13 @@
     <value>Kesukaran</value>
   </data>
   <data name="listing.search.sorting.favourites" xml:space="preserve">
-    <value>Kegemaran</value>
+    <value>Sukaan</value>
   </data>
   <data name="listing.search.sorting.updated" xml:space="preserve">
-    <value>Kemaskini</value>
+    <value>Kemas kini</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Berkedudukan</value>
   </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>Nilai</value>
@@ -337,35 +559,83 @@
   <data name="listing.search.sorting.plays" xml:space="preserve">
     <value>Mainan</value>
   </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Kaitan</value>
+  </data>
   <data name="listing.search.sorting.nominations" xml:space="preserve">
     <value>Pencalonan</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Tapisan menggunakan {0} memerlukan {1} yang giat</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>tag osu!supporter</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Sertakan peta rentak yang ditukar</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Artis Sorotan</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Pemeta ikutan</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Kesukaran saranan</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Peta rentak sorotan</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Semua</value>
   </data>
   <data name="mode.any" xml:space="preserve">
-    <value>Mana-Mana</value>
+    <value>Semua</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>tidak tetap</value>
   </data>
   <data name="status.any" xml:space="preserve">
-    <value>Mana-Mana</value>
+    <value>Semua</value>
+  </data>
+  <data name="status.approved" xml:space="preserve">
+    <value>Lulus</value>
   </data>
   <data name="status.favourites" xml:space="preserve">
-    <value>Kegemaran</value>
+    <value>Sukaan</value>
   </data>
   <data name="status.graveyard" xml:space="preserve">
     <value>Kubur</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
-    <value>Ada Carta</value>
+    <value>Mempunyai Carta Kedudukan</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Digemari</value>
+    <value>Kegemaran</value>
+  </data>
+  <data name="status.mine" xml:space="preserve">
+    <value>Petaku</value>
+  </data>
+  <data name="status.pending" xml:space="preserve">
+    <value>Tergantung</value>
   </data>
   <data name="status.wip" xml:space="preserve">
     <value>WIP</value>
   </data>
+  <data name="status.qualified" xml:space="preserve">
+    <value>Layak</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Berkedudukan</value>
+  </data>
+  <data name="genre.any" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="genre.unspecified" xml:space="preserve">
+    <value>Tidak Tentu</value>
+  </data>
   <data name="genre.video-game" xml:space="preserve">
-    <value>Permainan Video</value>
+    <value>Mainan Video</value>
   </data>
   <data name="genre.anime" xml:space="preserve">
     <value>Anime</value>
@@ -401,7 +671,7 @@
     <value>Jaz</value>
   </data>
   <data name="language.any" xml:space="preserve">
-    <value>Mana-Mana</value>
+    <value>Semua</value>
   </data>
   <data name="language.english" xml:space="preserve">
     <value>Inggeris</value>
@@ -442,6 +712,9 @@
   <data name="language.other" xml:space="preserve">
     <value>Lain-Lain</value>
   </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Tidak Tentu</value>
+  </data>
   <data name="nsfw.exclude" xml:space="preserve">
     <value>Sorok</value>
   </data>
@@ -449,7 +722,13 @@
     <value>Tunjuk</value>
   </data>
   <data name="played.any" xml:space="preserve">
-    <value>Mana-Mana</value>
+    <value>Semua</value>
+  </data>
+  <data name="played.played" xml:space="preserve">
+    <value>Telah Main</value>
+  </data>
+  <data name="played.unplayed" xml:space="preserve">
+    <value>Belum Main</value>
   </data>
   <data name="extra.video" xml:space="preserve">
     <value>Ada Video</value>
@@ -458,10 +737,19 @@
     <value>Ada Papan Cerita</value>
   </data>
   <data name="rank.any" xml:space="preserve">
-    <value>Mana-Mana</value>
+    <value>Semua</value>
+  </data>
+  <data name="rank.xh" xml:space="preserve">
+    <value>SS Perak</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>S Perak</value>
   </data>
   <data name="panel.playcount" xml:space="preserve">
-    <value>Kiraan main: {0}</value>
+    <value>Jumlah mainan: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Sukaan: {0}</value>
   </data>
   <data name="variant.mania.4k" xml:space="preserve">
     <value>4k</value>

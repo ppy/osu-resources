@@ -85,6 +85,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ChannelsListTitlePUBLIC => new TranslatableString(getKey(@"channels.list.title.public"), @"Channels");
 
         /// <summary>
+        /// "Team"
+        /// </summary>
+        public static LocalisableString ChannelsListTitleTEAM => new TranslatableString(getKey(@"channels.list.title.team"), @"Team");
+
+        /// <summary>
         /// "Create New Announcement"
         /// </summary>
         public static LocalisableString FormTitleAnnouncement => new TranslatableString(getKey(@"form.title.announcement"), @"Create New Announcement");

@@ -166,8 +166,11 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Κλωνοποίηση επιλογής</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Κύκλος λειτουργίας οθόνης πλέγματος</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Κύκλος πλέγματος</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>Τύπος καννάβου κύκλου</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Δοκιμή παιχνιδιού</value>
@@ -184,7 +187,9 @@
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Εναλλαγή διεπαφής εντός του παιχνιδιού</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Εναλλαγή πίνακα βαθμολογιών</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Άνοιγμα επιλογής mod</value>
   </data>
@@ -245,6 +250,12 @@
   <data name="seek_replay_backward" xml:space="preserve">
     <value>Αναζήτηση επανάληψης πίσω</value>
   </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Αναζήτηση επανάληψης ενός πλαισίου προς τα εμπρός</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Βήμα επανάληψης προς τα πίσω ένα πλαίσιο</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Εναλλαγή εστίασης συνομιλίας</value>
   </data>
@@ -257,5 +268,67 @@
   <data name="export_replay" xml:space="preserve">
     <value>Εξαγωγή επανάληψης</value>
   </data>
-  
+  <data name="increase_offset" xml:space="preserve">
+    <value>Αύξηση μετατόπισης</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Μείωση μετατόπισης</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Εναλλαγή ελέγχου περιστροφής</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Εναλλαγή ελέγχου κλίμακας</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Εναλλαγή αυτόματης αναπαραγωγής</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Εναλλαγή γρήγορης παύσης</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Γρήγορη έξοδος στην αρχική ώρα</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Γρήγορη έξοδος στην τρέχουσα ώρα</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Αύξηση ταχύτητας mod</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Μείωση ταχύτητας mod</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Αναζήτηση στο προηγούμενο αντικείμενο χτυπήματος</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Αναζήτηση στο επόμενο αντικείμενο χτυπήματος</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Αναζήτηση στο προηγούμενο σημείο δείγματος</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Αναζήτηση στο επόμενο σημείο δείγματος</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Προσθήκη σελιδοδείκτη</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Αφαίρεση πλησιέστερου σελιδοδείκτη</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Αναζήτηση σε προηγούμενο σελιδοδείκτη</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Αναζήτηση στον επόμενο σελιδοδείκτη</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Απόλυτη λίστα τραγουδιών κύλισης</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Εναλλαγή ελέγχου κίνησης</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Απόρριψη μη αποθηκευμένων αλλαγών;</value>
+  </data>
 </root>

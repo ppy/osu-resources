@@ -229,6 +229,30 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>Application Callback URL</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>This {0} contains invalid characters.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>This {0} choice is already used.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>This {0} choice is not allowed.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Default ruleset</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Team application</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Short name</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Password may not contain username.</value>
   </data>
@@ -327,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>You're not in this channel.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>You're part of the team.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} is not valid for this report type.</value>

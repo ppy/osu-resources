@@ -77,7 +77,7 @@
     <value>Accés denegat.</value>
   </data>
   <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
-    <value>No es pot desfer el hyping.</value>
+    <value>No es pot desfer l'eufòria.</value>
   </data>
   <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
     <value>No es pot eliminar una discussió amb respostes</value>
@@ -110,7 +110,7 @@
     <value>No pots votar les teves discussions.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Només podeu votar en discussions de beatmaps pendents.</value>
+    <value>Només podeu votar en discussions de mapes pendents.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
     <value>Només pots eliminar les teves publicacions.</value>
@@ -134,7 +134,10 @@
     <value>La discussió d'aquest beatmap està bloquejada.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
-    <value>No podeu canviar les metadades d'un beatmap nominat. Contacta amb un membre dels BN o NAT si creus que estan establerts incorrectament.</value>
+    <value>No podeu canviar les metadades d'un beatmap nominat. Contacta amb un membre dels BN o del NAT si creus que estan establerts incorrectament.</value>
+  </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Has de tenir una puntuació al beatmap per afegir una etiqueta.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>No es pot enviar un missatge a un usuari que us està bloquejant o que heu bloquejat.</value>
@@ -155,10 +158,10 @@
     <value>És possible que l'usuari no pugui respondre perquè només accepta missatges de persones de la llista d'amics.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>No podeu enviar missatges mentre estigui silenciat, restringit o banejat.</value>
+    <value>No podeu enviar missatges mentre estigui silenciat, restringit o prohibit.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
-    <value>No podeu enviar missatges mentre estigui silenciat, restringit o banejat.</value>
+    <value>No podeu enviar missatges mentre estigui silenciat, restringit o prohibit.</value>
   </data>
   <data name="comment.store.disabled" xml:space="preserve">
     <value>Els comentaris estan desactivats</value>
@@ -280,6 +283,9 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Només els administradors poden veure aquest fòrum.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Només el propietari de la sala pot tancar-la.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>No es pot fixar aquest tipus de puntuació</value>
   </data>
@@ -291,6 +297,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Has fixat massa puntuacions.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Ja formes part de l'equip.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Ja formes part d'un altre equip.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Tens una sol·licitud d'unió a l'equip pendent.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Actualment, l'equip no accepta sol·licituds.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>L'equip està complet i no pot acceptar més membres.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>El líder de l'equip no pot sortir de l'equip.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>No ets membre de l'equip.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Has de tenir una etiqueta osu!supporter per crear un equip.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>La pàgina d'usuari està bloquejada.</value>

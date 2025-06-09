@@ -295,23 +295,26 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>Cheating</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Using multiple accounts</value>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Inappropriate chat behaviour</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Insulting me / others</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Spamming</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Linking inappropriate content</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Using multiple accounts</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Nonsense</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Other (type below)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spamming</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Inappropriate content</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Your account has been restricted!</value>
@@ -431,7 +434,7 @@
     <value>You can also drop your image here to upload</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>Cover size should be 2400x640</value>
+    <value>Cover size should be 2000x500</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>Uploaded file is too large.</value>
@@ -798,6 +801,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Highest rank: {0} on {1}</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Total score</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Hit Accuracy</value>

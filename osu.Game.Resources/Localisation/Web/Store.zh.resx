@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cart.checkout" xml:space="preserve">
-    <value>结账</value>
+    <value>去结算</value>
   </data>
   <data name="cart.empty_cart" xml:space="preserve">
     <value>清空购物车</value>
@@ -116,7 +116,7 @@
     <value>使用 Paypal 支付</value>
   </data>
   <data name="checkout.title_compact" xml:space="preserve">
-    <value>结账</value>
+    <value>结算</value>
   </data>
   <data name="checkout.has_pending._" xml:space="preserve">
     <value>您有未完成的支付，点击 {0} 查看。</value>
@@ -144,6 +144,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>由于您的支付是通过 eCheck 进行的，请再等待至多 10 天来让 PayPal 完成支付。</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Paypal 拒绝受理 eCheck 支付。</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>此订单的支持者标签购买未显示在你的个人活动中。</value>
@@ -206,7 +209,7 @@
     <value>物流信息如下：</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>由于我们使用 Air Mail 发货，所以无法记录物流信息。但您可以在 1-3 周内收到包裹。如果收货地位于欧洲，则海关可能会在这个基础上延长订单的运输时间。如果您有任何问题，请回复您收到的 {0} 邮件。</value>
+    <value>由于商品包裹通过航空邮件寄送，我们无法提供物流追踪信息，通常包裹预计 1 至 3 周内可送达。对于欧洲地区，清关流程可能导致包裹延误（此情况非商店可控）。如有疑问，请直接回复您收到的订单确认邮件（或通过 {0} 联系）。</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>给我们发送邮件</value>
@@ -215,28 +218,28 @@
     <value>取消订单</value>
   </data>
   <data name="order.cancel_confirm" xml:space="preserve">
-    <value>您确定取消订单吗？（此订单不能再支付，支付提供商可能不会立刻退款。）</value>
+    <value>您确定取消订单吗？（支付平台可能不会立即退回已支付款项或即时解冻预授权资金）</value>
   </data>
   <data name="order.cancel_not_allowed" xml:space="preserve">
     <value>目前无法取消订单。</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
-    <value>查看发票</value>
+    <value>查看购物小票</value>
   </data>
   <data name="order.no_orders" xml:space="preserve">
     <value>没有可显示的订单。</value>
   </data>
   <data name="order.paid_on" xml:space="preserve">
-    <value>{0} 支付订单</value>
+    <value>订单支付于 {0}</value>
   </data>
   <data name="order.resume" xml:space="preserve">
-    <value>恢复结账</value>
+    <value>继续结算</value>
   </data>
   <data name="order.shipping_and_handling" xml:space="preserve">
     <value>运输和处理</value>
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
-    <value>此订单的结账链接已过期。</value>
+    <value>此订单的结算链接已失效。</value>
   </data>
   <data name="order.subtotal" xml:space="preserve">
     <value>小计</value>
@@ -251,7 +254,7 @@
     <value>支付条款</value>
   </data>
   <data name="order.details.salesperson" xml:space="preserve">
-    <value>销售员</value>
+    <value>销售方</value>
   </data>
   <data name="order.details.shipping_method" xml:space="preserve">
     <value>运输方式</value>
@@ -272,25 +275,25 @@
     <value>留言：{0}</value>
   </data>
   <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
-    <value>您不能修改已取消的订单。</value>
+    <value>该订单已取消，无法进行修改。</value>
   </data>
   <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
-    <value>您不能修改正在处理的订单。</value>
+    <value>该订单正在处理中，无法进行修改。</value>
   </data>
   <data name="order.not_modifiable_exception.default" xml:space="preserve">
     <value>订单不可修改</value>
   </data>
   <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
-    <value>您不能修改已送达订单。</value>
+    <value>该订单已签收，无法进行修改。</value>
   </data>
   <data name="order.not_modifiable_exception.paid" xml:space="preserve">
-    <value>你不能修改此订单，因为它已经完成付款了。</value>
+    <value>该订单已完成支付，无法进行修改。</value>
   </data>
   <data name="order.not_modifiable_exception.processing" xml:space="preserve">
-    <value>您不能修改正在处理的订单。</value>
+    <value>该订单正在处理中，无法进行修改。</value>
   </data>
   <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
-    <value>您不能修改已发货订单。</value>
+    <value>该订单已发货，无法进行修改。</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>已取消</value>
@@ -329,7 +332,7 @@
     <value>卖完了呢( ´_ゝ｀) 过段时间再回来看看吧。</value>
   </data>
   <data name="product.stock.out_with_alternative" xml:space="preserve">
-    <value>选择的类型已售罄(´；ω；`) 试试另外几种或者过段时间再回来看看吧。</value>
+    <value>选择的款式已售罄(´；ω；`) 试试另外几种款式或者过段时间再回来看看吧。</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
     <value>添加到购物车</value>
@@ -353,13 +356,13 @@
     <value>给礼物留下附言吧！（可选，至多 {0} 个字符）</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>你需要 {0} 以获得 osu! 支持者标签！</value>
+    <value>您需要 {0} 以获得 osu! 支持者标签！</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>登录</value>
   </data>
   <data name="username_change.check" xml:space="preserve">
-    <value>输入用户名并检查是否可用</value>
+    <value>输入玩家名并检查是否可用</value>
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>正在检查 {0} 是否可用...</value>
@@ -374,7 +377,7 @@
     <value>您现在的玩家名是 "{0}"。</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
-    <value>需要 {0} 才能改变用户名！</value>
+    <value>需要 {0} 才能改变玩家名！</value>
   </data>
   <data name="username_change.require_login.link_text" xml:space="preserve">
     <value>登录</value>

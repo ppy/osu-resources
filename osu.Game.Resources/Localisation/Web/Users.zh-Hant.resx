@@ -62,7 +62,7 @@
     <value>[已刪除的使用者]</value>
   </data>
   <data name="beatmapset_activities.title" xml:space="preserve">
-    <value>{0} 的摸圖紀錄</value>
+    <value>{0} 的摸圖歷史記錄</value>
   </data>
   <data name="beatmapset_activities.title_compact" xml:space="preserve">
     <value>摸圖</value>
@@ -158,7 +158,7 @@
     <value>若你沒有遵守規則，我們原則上在一個月的期限以內不會考慮解禁您的帳號。在此之後，您如有需要，可以隨時聯絡我們。請注意，在一個帳號被封禁後創建新帳號會&lt;strong&gt;使您的封禁期限被延長&lt;/strong&gt;。而且&lt;strong&gt;每當您創建一個新帳號，您都是在更嚴重地破壞規則&lt;/strong&gt;。我們強烈建議您不要誤入歧途。</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>如果您認為這是一個錯誤，歡迎您與我們聯繫（通過 {0} 或點擊本頁右下角的"？"）。請注意：我們對於我們的作為充滿信心，因為它是基於非常可靠的資料證據。如果我們認為您是故意不誠實，我們有可能無視您的請求。</value>
+    <value>如果您認為這是個錯誤，歡迎透過電子郵件（{0}）或點選這個頁面右下方的「?」來聯絡我們。請注意，我們對我們的行動始終充滿信心，因為這些行動都是基於非常紮實的資料。如果我們認為您是故意不誠實，我們保留無視您的請求的權利。</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>電郵</value>
@@ -182,7 +182,7 @@
     <value>成員按遊戲模式篩選</value>
   </data>
   <data name="force_reactivation.reason.inactive" xml:space="preserve">
-    <value>你的帳號有一段時間沒有登入了</value>
+    <value>你的帳號已經很久沒有使用了。</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>你的帳號已經一段時間沒有登入了</value>
@@ -295,23 +295,26 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>違規 / 作弊</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>使用多個帳號</value>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>不適當的聊天行為</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>侮辱我 / 其他人</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>使用多個帳號</value>
+  </data>
+  <data name="report.options.nonsense" xml:space="preserve">
+    <value>無意義內容</value>
+  </data>
+  <data name="report.options.other" xml:space="preserve">
+    <value>其他（在下方輸入原因）</value>
   </data>
   <data name="report.options.spam" xml:space="preserve">
     <value>垃圾訊息</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>鏈接不適當的內容</value>
-  </data>
-  <data name="report.options.nonsense" xml:space="preserve">
-    <value>無用內容</value>
-  </data>
-  <data name="report.options.other" xml:space="preserve">
-    <value>其他（在下方輸入原因）</value>
+    <value>連結不適當的內容</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>您的帳號已受到限制!</value>
@@ -353,7 +356,7 @@
     <value>來自 {0}</value>
   </data>
   <data name="show.previous_usernames" xml:space="preserve">
-    <value>前一個的使用者名稱</value>
+    <value>曾用名為</value>
   </data>
   <data name="show.plays_with" xml:space="preserve">
     <value>慣用 {0}</value>
@@ -386,19 +389,19 @@
     <value>每日挑戰</value>
   </data>
   <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
-    <value>前10%名次</value>
+    <value>前10% 名次</value>
   </data>
   <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
-    <value>前50%名次</value>
+    <value>前50% 名次</value>
   </data>
   <data name="show.daily_challenge.weekly" xml:space="preserve">
-    <value>每周連續次數</value>
+    <value>每週連續次數</value>
   </data>
   <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
-    <value>最佳每周連續次數</value>
+    <value>最佳每週連續次數</value>
   </data>
   <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
-    <value>目前每周連續次數</value>
+    <value>目前每週連續次數</value>
   </data>
   <data name="show.daily_challenge.unit.day" xml:space="preserve">
     <value>{0}</value>
@@ -413,7 +416,7 @@
     <value>未來將提供更多的封面選項</value>
   </data>
   <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
-    <value>上一個橫幅已經無法使用。您無法在切換別的橫幅後選回去了。要繼續嗎？</value>
+    <value>先前選擇的封面已無法再次選取。切換到其他封面後，你無法再選回之前的封面。確定要繼續嗎？</value>
   </data>
   <data name="show.edit.cover.title" xml:space="preserve">
     <value>封面</value>
@@ -458,7 +461,7 @@
     <value>顏色</value>
   </data>
   <data name="show.edit.hue.supporter._" xml:space="preserve">
-    <value>自定義色彩主題只對 {0} 開放</value>
+    <value>自訂色彩主題只對 {0} 開放</value>
   </data>
   <data name="show.edit.hue.supporter.link" xml:space="preserve">
     <value>osu! 贊助者</value>
@@ -488,13 +491,13 @@
     <value>收藏的圖譜</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
-    <value>已拋棄的圖譜</value>
+    <value>已閒置的圖譜</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>客串圖譜</value>
+    <value>客串的圖譜</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
-    <value>喜歡的圖譜</value>
+    <value>社群喜愛的圖譜</value>
   </data>
   <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
     <value>已提名 &amp; 進榜的圖譜</value>
@@ -569,31 +572,31 @@
     <value>此貼文 {0} 總共獲得 {1} 點 kudosu</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
-    <value>此貼文 {0} 總共被拒絕 {1} 點 kudosu</value>
+    <value>在 {0} 總共被拒絕 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
-    <value>此貼文 {0} 因被移除總共失去 {1} 點 kudosu</value>
+    <value>在 {0} 因被移除總共失去 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
-    <value>此貼文 {0} 因被還原總共獲得 {1} 點 kudosu</value>
+    <value>在 {0} 因被還原總共獲得 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
-    <value>此貼文 {0} 因取得足夠票數總共獲得 {1} 點 kudosu</value>
+    <value>在 {0} 因取得足夠票數總共獲得 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
-    <value>此貼文 {0} 因得票數不足總共失去 {1} 點 kudosu</value>
+    <value>在 {0} 因得票數不足總共失去 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
-    <value>此貼文 {0} 因得票數重新計算總共獲得 {1} 點 kudosu</value>
+    <value>在 {0} 因得票數重新計算總共獲得 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
-    <value>此貼文 {0} 因得票數重新計算總共失去 {1} 點 kudosu</value>
+    <value>在 {0} 因得票數重新計算總共失去 {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
-    <value>此貼文 {0} 由 {1} 給予 {2} 點 kudosu</value>
+    <value>在 {0} 由 {1} 給予 {2}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
-    <value>此貼文 {0} 的 kudosu 點數由 {1} 重新設定 </value>
+    <value>在 {0} 的 kudosu 點數由 {1} 重新設定 </value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
     <value>此貼文 {0} 已被 {1} 移除 kudosu 點數</value>
@@ -793,6 +796,12 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>最高排名{0}於{1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>前 {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>總分</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>準確率</value>
   </data>
@@ -830,10 +839,10 @@
     <value>總分</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>已拋棄的圖譜</value>
+    <value>已閒置的圖譜</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Loved 圖譜</value>
+    <value>社群喜愛的圖譜</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>待處理的圖譜</value>

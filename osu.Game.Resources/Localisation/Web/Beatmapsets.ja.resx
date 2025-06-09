@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>スピードを落として、もっと遊ぼう。</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>ダウンロードサーバーがありません。</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>注目アーティスト</value>
   </data>
@@ -112,11 +115,23 @@
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>モード{0}でノミネートする権限がありません。</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>このビートマップには無効なノミネーターが含まれており、この状態では qualified することができません。</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>このノミネートには無効なルールセットがあります。</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>ノミネーションの要件を満たしています</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>メインではないルールセットのノミネート条件はすでに満たされています。</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>このビートマップを本当にノミネートしますか？</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>このビートマップを異なるノミネーターで認定すると、認定待ちキューの位置がリセットされます。</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>ビートマップをノミネート</value>
@@ -241,6 +256,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>言語</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>マッパータグ</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>データはまだ計算中です・・・</value>
   </data>
@@ -265,8 +283,8 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>クリア率</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>タグ</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>ユーザータグ</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>このビートマップには動画が含まれています</value>
@@ -306,6 +324,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>フレンドランキングと国別ランキングを利用するにはosu!サポータータグが必要です！</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>チームランキング</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>スコアボード</value>
@@ -351,6 +372,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>スコアの読み込み中・・・</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>あなたのチームのプレイヤーで記録を作った人はまだいません！</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Unrankedのビートマップです。</value>

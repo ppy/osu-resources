@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>aktualności</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>drużyna</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profil</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>wszystkie</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>profil</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>beatmapy</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>kompilacje</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>czat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>forum</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>aktualności</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>kompilacje</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>drużyna</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>czat</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>profil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmapa</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>Użytkownik {0} odpowiedział</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Prośba o dołączenie do drużyny</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Jesteś teraz członkiem drużyny {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Jesteś teraz członkiem drużyny {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Twoja prośba o dołączenie do drużyny {0} została odrzucona</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Twoja prośba o dołączenie do drużyny {0} została odrzucona</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nowa beatmapa</value>
   </data>
@@ -400,12 +421,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>W beatmapie „{0}” pojawiły się nowe komentarze</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>Nowe ogłoszenie w pokoju „{0}” </value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Otrzymujesz nową wiadomość od użytkownika {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>W liście zmian „{0}” pojawiły się nowe komentarze</value>
   </data>
@@ -414,6 +429,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>W wątku „{0}” pojawiły się nowe odpowiedzi</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Jesteś teraz członkiem drużyny {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Jesteś teraz członkiem drużyny {0}</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>Użytkownik {0} przesłał nowe beatmapy</value>

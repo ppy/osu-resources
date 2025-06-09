@@ -89,7 +89,7 @@
     <value>Virhe toiminnon suorittamisessa, kokeile päivittää sivu.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
-    <value>Omaa rytmikarttaa ei voi asettaa ehdolle.</value>
+    <value>Omaa beatmappia ei voi asettaa ehdolle.</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
     <value>Sinun täytyy määrittää tyylilaji ja kieli ennen ehdolle asettamista.</value>
@@ -110,10 +110,10 @@
     <value>Omia keskusteluja ei voi äänestää.</value>
   </data>
   <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
-    <value>Vain vireillä olevien rytmikarttojen keskusteluja voi äänestää.</value>
+    <value>Voit äänestää vain vireillä olevien beatmappien keskusteluissa.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>Voit poistaa vaan omia postauksiasi.</value>
+    <value>Voit poistaa ainoastaan omia viestejäsi.</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
     <value>Et voi poistaa ratkaistun keskustelun viestiä.</value>
@@ -291,6 +291,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Kiinnitit liian monta tulosta.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Olet jo osa joukkuetta.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Kuulut jo toiseen joukkueseen.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Sinulla on vierillä oleva tiimiin liittymis pyyntö.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Tiimi ei hyväksy tällä hetkellä liittymispyyntöjä.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Tiimi on täynnä eikä voi hyväksyä enempää jäseniä.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Tiimin johtaja ei pysty lähtemään tiimistä.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Ei ole tiimin jäsen.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>osu!supporter tagia tarvitaan tiimin luomiseen.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Käyttäjäsivu on lukittu.</value>
