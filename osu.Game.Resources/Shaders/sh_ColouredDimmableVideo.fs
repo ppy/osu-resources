@@ -1,5 +1,5 @@
-#ifndef VIDEO_FS
-#define VIDEO_FS
+#ifndef COLOURED_DIMMABLE_VIDEO_FS
+#define COLOURED_DIMMABLE_VIDEO_FS
 
 #include "sh_Utils.h"
 #include "sh_Masking.h"
