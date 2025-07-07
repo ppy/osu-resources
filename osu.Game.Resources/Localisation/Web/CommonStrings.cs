@@ -360,6 +360,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CountdownSeconds => new TranslatableString(getKey(@"countdown.seconds"), @"seconds");
 
         /// <summary>
+        /// "m"
+        /// </summary>
+        public static LocalisableString DatetimeMonthPhp => new TranslatableString(getKey(@"datetime.month.php"), @"m");
+
+        /// <summary>
+        /// "y"
+        /// </summary>
+        public static LocalisableString DatetimeYearPhp => new TranslatableString(getKey(@"datetime.year.php"), @"y");
+
+        /// <summary>
         /// "MMMM YYYY"
         /// </summary>
         public static LocalisableString DatetimeYearMonthMoment => new TranslatableString(getKey(@"datetime.year_month.moment"), @"MMMM YYYY");

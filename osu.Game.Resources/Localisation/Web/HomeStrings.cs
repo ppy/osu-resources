@@ -405,6 +405,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString UserHeaderStatsOnline => new TranslatableString(getKey(@"user.header.stats.online"), @"Online Users");
 
         /// <summary>
+        /// "Daily Challenge Beatmap"
+        /// </summary>
+        public static LocalisableString UserBeatmapsDailyChallenge => new TranslatableString(getKey(@"user.beatmaps.daily_challenge"), @"Daily Challenge Beatmap");
+
+        /// <summary>
         /// "New Ranked Beatmaps"
         /// </summary>
         public static LocalisableString UserBeatmapsNew => new TranslatableString(getKey(@"user.beatmaps.new"), @"New Ranked Beatmaps");
@@ -418,6 +423,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "by {0}"
         /// </summary>
         public static LocalisableString UserBeatmapsByUser(LocalisableString user) => new TranslatableString(getKey(@"user.beatmaps.by_user"), @"by {0}", user);
+
+        /// <summary>
+        /// "resets {0}"
+        /// </summary>
+        public static LocalisableString UserBeatmapsResets(LocalisableString ends) => new TranslatableString(getKey(@"user.beatmaps.resets"), @"resets {0}", ends);
 
         /// <summary>
         /// "Download osu!"

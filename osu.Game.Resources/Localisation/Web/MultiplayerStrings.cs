@@ -50,6 +50,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString RoomTimeLeft(LocalisableString time) => new TranslatableString(getKey(@"room.time_left"), @"{0} left", time);
 
         /// <summary>
+        /// "View History"
+        /// </summary>
+        public static LocalisableString RoomViewHistory => new TranslatableString(getKey(@"room.view_history"), @"View History");
+
+        /// <summary>
+        /// "View Summary"
+        /// </summary>
+        public static LocalisableString RoomViewSummary => new TranslatableString(getKey(@"room.view_summary"), @"View Summary");
+
+        /// <summary>
         /// "Duration is too long."
         /// </summary>
         public static LocalisableString RoomErrorsDurationTooLong => new TranslatableString(getKey(@"room.errors.duration_too_long"), @"Duration is too long.");

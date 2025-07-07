@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>da {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Nuovo messaggio di squadra</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Note di rilascio</value>
   </data>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Sei diventato un membro della squadra {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Aggiornamenti di richiesta unione al team</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nuova beatmap</value>
@@ -421,6 +442,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>La beatmap "{0}" ha nuovi commenti</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>C'è un nuovo annuncio su "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Hai ricevuto un nuovo messaggio da {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>C'è un nuovo messaggio sulla squadra "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>La nota di rilascio "{0}" ha nuovi commenti</value>
   </data>
@@ -435,6 +465,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} ha creato nuove beatmap</value>

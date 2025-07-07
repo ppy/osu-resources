@@ -71,7 +71,7 @@
     <value>초기화</value>
   </data>
   <data name="edit.avatar.rules" xml:space="preserve">
-    <value>아바타가 {0}을 따르고 있는지 확인해 주세요. &lt;br/&gt;표시되는 아바타가 &lt;strong&gt;모든 연령에 적합&lt;/strong&gt;해야 해요. 예를 들어, 나체, 폭력, 또는 이를 암시하는 내용이 없어야 합니다.</value>
+    <value>아바타가 {0}을 따르고 있는지 확인하세요.&lt;br/&gt;이는 아바타가 &lt;strong&gt;모든 연령에 적합해야 하므로&lt;/strong&gt; 과도한 노출, 욕설 혹은 이러한 것을 암시하는 내용이 없어야 한다는 의미입니다.</value>
   </data>
   <data name="edit.avatar.rules_link" xml:space="preserve">
     <value>커뮤니티 규칙</value>
@@ -119,7 +119,7 @@
     <value>프로필</value>
   </data>
   <data name="edit.profile.country_change._" xml:space="preserve">
-    <value>현재 거주 중인 국가와 계정에 설정된 국가가 틀린 것 같아요. {0}.</value>
+    <value>계정에 등록된 국가와 실제 거주 국가가 다른 것 같습니다. {0}</value>
   </data>
   <data name="edit.profile.country_change.update_link" xml:space="preserve">
     <value>{0}(으)로 변경</value>
@@ -155,7 +155,7 @@
     <value>GitHub 계정 연결 해제</value>
   </data>
   <data name="github_user.error.already_linked" xml:space="preserve">
-    <value>본 GitHub 계정은 이미 다른 사용자에게 연동되어 있어요.</value>
+    <value>이 GitHub 계정은 이미 다른 유저에게 연결되어 있습니다.</value>
   </data>
   <data name="github_user.error.no_contribution" xml:space="preserve">
     <value>osu! 레포지토리에 기여한 이력이 없는 GitHub 계정은 연동할 수 없어요.</value>
@@ -164,7 +164,7 @@
     <value>GitHub에 등록된 주 이메일 인증 후, 계정을 다시 연동해 주세요.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>Qualified 상태의 비트맵에 새로운 문제가 생겼을 경우 알림을 수신받을 모드</value>
+    <value>Qualified 비트맵에 문제가 생길 경우 알림을 수신할 모드</value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
     <value>비트맵이 Disqualified 처리됐을 때 알림을 수신할 모드</value>
@@ -189,6 +189,9 @@
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>개인 채팅 메시지</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>팀 채팅 메시지</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>새 댓글</value>

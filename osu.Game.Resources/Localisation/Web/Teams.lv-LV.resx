@@ -59,31 +59,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="applications.accept.ok" xml:space="preserve">
-    <value>Lietotājs pievienots komandai.</value>
+    <value>Pievienoji lietotāju komandai.</value>
   </data>
   <data name="applications.destroy.ok" xml:space="preserve">
-    <value>Atcelts pievienošanās lūgums.</value>
+    <value>Atcēli pieprasīšanās pieprasījumu.</value>
   </data>
   <data name="applications.reject.ok" xml:space="preserve">
-    <value>Atteikts pievienošanās lūgums.</value>
+    <value>Pievienošanās pieprasījums tika noliegts.</value>
   </data>
   <data name="applications.store.ok" xml:space="preserve">
-    <value>Pieprasīts pievienoties komandai.</value>
+    <value>Tu pieprasīji pievienoties komandai.</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} lietotājs|{0} lietotāji</value>
   </data>
   <data name="create.submit" xml:space="preserve">
     <value>Izveidot Komandu</value>
   </data>
   <data name="create.form.name_help" xml:space="preserve">
-    <value>Jūsu komandas nosaukums. Nosaukums pašreiz ir pastāvīgs.</value>
+    <value>Jūsu komandas nosaukums. Nosaukums pašreiz ir neizmaināms.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>Maksimums 4 rakstzīmes.</value>
   </data>
   <data name="create.form.title" xml:space="preserve">
-    <value>Izveidojam jaunu komandu</value>
+    <value>Uzstādam jaunu komandu</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Spēlē kopā ar draugiem; esošiem vai jauniem. Jūs pašlaik neesat komandā. Pievienojies jau esošai komandai ieejot komandas lapā, vai izveido savu komandu šeit.</value>
+    <value>Spēlē kopā ar draugiem; esošajiem vai jauniem. Tu pašlaik neesi komandā. Pievienojies esoša komandā, apmeklējot komandas lapu, vai izveido savu komandu šeit.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>Komanda!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Komanda noņemta.</value>
   </data>
   <data name="edit.ok" xml:space="preserve">
     <value>Iestatījumi veiksmīgi saglabāti.</value>
@@ -133,26 +142,59 @@
   <data name="header_links.edit" xml:space="preserve">
     <value>iestatījumi</value>
   </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>līderu saraksts</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
   <data name="header_links.members.index" xml:space="preserve">
-    <value>pārvaldīt biedrus</value>
+    <value>pārvaldīt dalībniekus</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Globālais rangs</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Komandas biedrs noņemts</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
-    <value>Menedžēt Dalībniekus</value>
+    <value>Pārvaldīt Dalībniekus</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Pievienot lietotāju {0} komandai?</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Pieprasīts Vietnē</value>
   </data>
   <data name="members.index.applications.empty" xml:space="preserve">
-    <value>Pašreiz nav pieprasījumi pievienoties.</value>
+    <value>Pašreiz nav jauni pieprasījumi pievienoties.</value>
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Brīvās vietas</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} lietotāja pārplūde|{0} lietotāju pārplūde</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Noliegt pievienošanās pieprasījumu no lietotāja {0}?</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Pievienošanās Pieprasījumi</value>
   </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
     <value>Pievienošanās Datums</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Noņemt</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Noņemt lietotāju {0} no komandas?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Iedot komandas līdera pozīciju</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Pārslēgt komandas līdera pozīciju uz lietotāju {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Status </value>
@@ -166,11 +208,26 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktīvi</value>
   </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Lietotājs {0} tagad ir komandas līderis</value>
+  </data>
   <data name="part.ok" xml:space="preserve">
     <value>Komanda pamesta ;_;</value>
   </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Komandas Tērzētava</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Izjaukt Komandu</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Paprasīt Pievienoties</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Atcelt Pievienošanos</value>
+  </data>
   <data name="show.bar.part" xml:space="preserve">
-    <value>Pamest komandu</value>
+    <value>Pamest Komandu</value>
   </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Izveidoti</value>
@@ -181,10 +238,22 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>Komandas Vadonis</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>Par Mums!</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>Info</value>
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>Dalībnieki</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Rangs</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Komandas Līderis</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Komanda izveidota.</value>
   </data>
 </root>

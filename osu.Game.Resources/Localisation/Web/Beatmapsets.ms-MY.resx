@@ -104,10 +104,10 @@
     <value>buka di osu!direct</value>
   </data>
   <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
-    <value>Pencalon percubaan tidak boleh mencalonkan lebih daripada satu ruleset.</value>
+    <value>Pencalon percubaan tidak boleh mencalonkan lebih daripada satu cara main.</value>
   </data>
   <data name="nominate.full_nomination_required" xml:space="preserve">
-    <value>Anda mesti menjadi pencalon penuh untuk melakukan pencalonan terakhir sesebuah ruleset.</value>
+    <value>Anda mesti menjadi pencalon penuh untuk melakukan pencalonan terakhir sesebuah cara main.</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Peta rentak kacukan memerlukan anda untuk memilih sekurang-kurangnya satu mod permainan untuk dicalonkan.</value>
@@ -119,19 +119,19 @@
     <value>Peta rentak ini mempunyai pencalonan tidak sah dan tidak boleh dilayakkan dalam keadaan ini.</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
-    <value>Pencalonan ini mempunyai ruleset tidak sah.</value>
+    <value>Pencalonan ini mempunyai cara main tidak sah.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Keperluan pencalonan telah dipenuhi.</value>
   </data>
   <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
-    <value>Keperluan pencalonan ruleset bukan utama telah dipenuhi.</value>
+    <value>Keperluan pencalonan cara main bukan utama telah dipenuhi.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Adakah anda pasti ingin mencalonkan peta rentak ini?</value>
   </data>
   <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
-    <value>Pelayakan peta rentak ini dengan pencalon berbeza akan mengeset semula giliran kelayakkannya.</value>
+    <value>Pelayakan peta rentak ini dengan pencalon berbeza akan menetap semula giliran kelayakkannya.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Calonkan Peta Rentak</value>
@@ -140,7 +140,7 @@
     <value>catatan: anda hanya boleh mencalon sekali jadi sila pastikan anda mencalon bagi semua mod mainan yang dikehendaki</value>
   </data>
   <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
-    <value>Ruleset utama semasa: {0}</value>
+    <value>Cara main utama semasa: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Mod yang mana dicalonkan?</value>
@@ -209,7 +209,7 @@
     <value>dilayakkan {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>berkedudukan {0}</value>
+    <value>berpangkat {0}</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>diserahkan {0}</value>
@@ -221,7 +221,7 @@
     <value>Anda mempunyai terlalu banyak peta rentak yang disukai! Sila nyahsuka beberapa peta rentak dahulu.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>Gembarkan peta ini jika dinikmati untuk membantu peta ini maju ke taraf &lt;strong&gt;Berkedudukan&lt;/strong&gt;.</value>
+    <value>Gembarkan peta ini jika dinikmati untuk membantu peta ini maju ke taraf &lt;strong&gt;Berpangkat&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>Peta ini kini {0}.</value>
@@ -290,7 +290,7 @@
     <value>Peta rentak ini mengandungi video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Peta rentak ini mengandungi kandungan tidak senonoh, menyinggung atau tidak sesuai untuk pemain tertentu. Adakah anda kekal ingin melihatnya?</value>
+    <value>Peta rentak ini mengandungi kandungan tidak senonoh, menyinggung atau tidak sesuai untuk pemain tertentu. Adakah anda masih ingin melihatnya?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Kandungan Tidak Senonoh</value>
@@ -299,7 +299,7 @@
     <value>Lumpuhkan amaran</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
-    <value>Senarai Beatmap</value>
+    <value>Senarai peta rentak</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Tunjuk</value>
@@ -308,16 +308,16 @@
     <value>dicapai {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
-    <value>Kedudukan Kebangsaan</value>
+    <value>Pangkat Kebangsaan</value>
   </data>
   <data name="show.scoreboard.error" xml:space="preserve">
-    <value>Kedudukan gagal dimuat</value>
+    <value>Pangkat gagal dimuat</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
-    <value>Kedudukan Kawan</value>
+    <value>Pangkat Kawan</value>
   </data>
   <data name="show.scoreboard.global" xml:space="preserve">
-    <value>Kedudukan Dunia</value>
+    <value>Pangkat Dunia</value>
   </data>
   <data name="show.scoreboard.supporter-link" xml:space="preserve">
     <value>Klik di &lt;a href="{0}"&gt;sini&lt;/a&gt; untuk lihat semua ciri menarik yang anda dapat!</value>
@@ -326,7 +326,7 @@
     <value>Anda perlu menjadi osu!supporter untuk mencapai kedudukan penyesuai tertentu, kebangsaan atau kawan!</value>
   </data>
   <data name="show.scoreboard.team" xml:space="preserve">
-    <value>Kedudukan Pasukan</value>
+    <value>Pangkat Pasukan</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Papan Markah</value>
@@ -350,7 +350,7 @@
     <value>Pemain</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
-    <value>Kedudukan</value>
+    <value>Pangkat</value>
   </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Markah</value>
@@ -377,7 +377,7 @@
     <value>Ahli pasukan anda belum mencapai apa-apa markah pada peta ini lagi!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Peta rentak tanpa kedudukan.</value>
+    <value>Peta rentak tanpa pangkat.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Sedang Mendahului</value>
@@ -437,7 +437,7 @@
     <value>Jumlah Mainan</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>Berkedudukan</value>
+    <value>Berpangkat</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
     <value>Lulus</value>

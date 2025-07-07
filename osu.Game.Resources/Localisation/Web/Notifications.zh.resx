@@ -288,6 +288,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>来自 {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>新的战队信息</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>更新日志</value>
   </data>
@@ -345,11 +357,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>您现在是战队 {0} 的成员</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>新的战队加入申请</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>您加入战队 {0} 的请求已被拒绝</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>您加入战队 {0} 的请求已被拒绝</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>新谱面</value>
@@ -424,6 +445,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>谱面 "{0}" 有新的讨论</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>“{0}” 中有一条新通知</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>您收到了 {0} 的新消息</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>战队 “{0}” 中有新消息</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>更新日志 "{0}" 有新的评论</value>
   </data>
@@ -438,6 +468,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>您加入战队 {0} 的请求已被拒绝</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} 创建了一张新谱面</value>

@@ -285,6 +285,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainWikiControllerDefault => new TranslatableString(getKey(@"main.wiki_controller._"), @"wiki");
 
         /// <summary>
+        /// "room history"
+        /// </summary>
+        public static LocalisableString MultiplayerRoomsControllerEvents => new TranslatableString(getKey(@"multiplayer.rooms_controller.events"), @"room history");
+
+        /// <summary>
         /// "authorize app"
         /// </summary>
         public static LocalisableString PassportAuthorizationControllerDefault => new TranslatableString(getKey(@"passport.authorization_controller._"), @"authorize app");

@@ -235,8 +235,20 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters хутка атрымаць доступ)</value>
   </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Карты карыстальніка: {0}</value>
+  </data>
   <data name="ogp.modding_description_empty" xml:space="preserve">
     <value>Карыстальнік не мае бітмапаў...</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Рэйтынг ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>У краіне {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Глабальны {0}</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>допісаў {0}</value>
@@ -282,6 +294,9 @@
   </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Несумленная гульня / Чыты</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Непрыстойныя паводзіны ў чаце</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Абраза мяне / іншых</value>
@@ -358,11 +373,53 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Паказаць вокладку</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Штодзённая серыя</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Лепшая штодзённая серыя</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Цяперашняя штодзённая серыя</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Усяго згуляна</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Карта\nдня</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Топ 10% пазіцый</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Топ 50% пазіцый</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Тыднёвая серыя</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Лепшая тыднёвая серыя</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Цяперашняя тыднёвая серыя</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Змяніць фон профілю</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>Больш параметраў фону будуць доступны ў будучыні</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>Раней абраная вокладка больш недаступная. Вы не зможаце яе выбраць пасля змены на іншую. Працягнуць?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Вокладка</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Не атрымалася апрацаваць выяву. Паспрабуйце яшчэ раз.</value>
@@ -396,6 +453,18 @@
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>усталяваць {0} як прадвызначаны рэжым гульні</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Вы ўпэўненыя, што хочаце скінуць колер профілю да стандартнага? Змяняць колер можна толькі з тэгам osu!supporter.</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Колер</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Змяненне колеру профілю даступна толькі з тэгам {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporter</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>няма</value>
@@ -726,6 +795,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Найвышэйшы ранг: {0}, {1}</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Топ {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Усяго ачкоў</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Дакладнасць трапленняў</value>

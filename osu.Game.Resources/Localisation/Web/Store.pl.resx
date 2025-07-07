@@ -71,7 +71,7 @@
     <value>Chcę przejrzeć inne produkty przed zakończeniem zamówienia</value>
   </data>
   <data name="cart.shipping_fees" xml:space="preserve">
-    <value>koszt wysyłki</value>
+    <value>koszt dostawy</value>
   </data>
   <data name="cart.title" xml:space="preserve">
     <value>Koszyk</value>
@@ -83,7 +83,7 @@
     <value>Oho, wystąpił problem z twoim koszykiem uniemożliwiający płatność!</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
-    <value>Usuń lub zmień przedmioty powyżej, aby kontynuować.</value>
+    <value>Usuń lub zmień określone produkty w koszyku, aby kontynuować.</value>
   </data>
   <data name="cart.empty.text" xml:space="preserve">
     <value>Twój koszyk jest pusty.</value>
@@ -98,28 +98,28 @@
     <value>O nie, wystąpił problem z twoim koszykiem!</value>
   </data>
   <data name="checkout.cart_problems_edit" xml:space="preserve">
-    <value>Kliknij tutaj, aby go zedytować.</value>
+    <value>Kliknij tutaj, aby go edytować.</value>
   </data>
   <data name="checkout.declined" xml:space="preserve">
     <value>Płatność została anulowana.</value>
   </data>
   <data name="checkout.delayed_shipping" xml:space="preserve">
-    <value>Obecnie jesteśmy przeciążeni zamówieniami! Wciąż możesz złożyć swoje zamówienie, ale spodziewaj się **dodatkowego opóźnienia w postaci 1-2 tygodni**, dopóki te już istniejące nie zostaną zakończone.</value>
+    <value>Obecnie jesteśmy przeciążeni zamówieniami! Wciąż możesz złożyć swoje zamówienie, ale spodziewaj się **dodatkowego opóźnienia w postaci 1-2 tygodni**, dopóki istniejące zamówienia nie zostaną przetworzone.</value>
   </data>
   <data name="checkout.hide_from_activity" xml:space="preserve">
     <value>Ukryj zakup wszystkich statusów donatora osu! z tego zamówienia w mojej aktywności</value>
   </data>
   <data name="checkout.old_cart" xml:space="preserve">
-    <value>Zawartość twojego koszyka była przestarzała i została odświeżona, spróbuj ponownie.</value>
+    <value>Zawartość twojego koszyka przedawniła się i została odświeżona, spróbuj ponownie.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
     <value>Zapłać przez PayPal</value>
   </data>
   <data name="checkout.title_compact" xml:space="preserve">
-    <value>kasa</value>
+    <value>podsumowanie</value>
   </data>
   <data name="checkout.has_pending._" xml:space="preserve">
-    <value>Masz kilka niedokończonych zamówień, kliknij {0}, aby je wyświetlić.</value>
+    <value>Masz kilka niedokończonych zamówień. Kliknij {0}, aby je wyświetlić.</value>
   </data>
   <data name="checkout.has_pending.link_text" xml:space="preserve">
     <value>tutaj</value>
@@ -134,7 +134,7 @@
     <value>zaoszczędź {0}%</value>
   </data>
   <data name="free" xml:space="preserve">
-    <value>Bezpłatne!</value>
+    <value>bezpłatne</value>
   </data>
   <data name="invoice.contact" xml:space="preserve">
     <value>Kontakt:</value>
@@ -146,16 +146,16 @@
     <value>Jako że twoja płatność została przesłana czekiem elektronicznym, odczekaj do 10 dni na przetworzenie transakcji przez PayPal.</value>
   </data>
   <data name="invoice.echeck_denied" xml:space="preserve">
-    <value>eCheck został odrzucony przez PayPal.</value>
+    <value>Płatność czekiem elektronicznym została odrzucona przez PayPal.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Zakup statusów donatora osu! z tego zamówienia nie zostanie wyświetlony w twojej aktywności.</value>
   </data>
   <data name="invoice.sent_via" xml:space="preserve">
-    <value>Wysłane poprzez:</value>
+    <value>Wysłane z:</value>
   </data>
   <data name="invoice.shipping_to" xml:space="preserve">
-    <value>Wysyłka do:</value>
+    <value>Adres dostawy:</value>
   </data>
   <data name="invoice.title" xml:space="preserve">
     <value>Faktura</value>
@@ -167,28 +167,28 @@
     <value>Twoje zamówienie zostało anulowane</value>
   </data>
   <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
-    <value>Jeśli nie prosiłeś o anulowanie, skontaktuj się na {0} uwzględniając swój numer zamówienia (#{1}).</value>
+    <value>Jeżeli nie prosiłeś(-aś) o anulowanie tego zamówienia, skontaktuj się z {0}, uwzględniając numer zamówienia (#{1}).</value>
   </data>
   <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
-    <value>pomoc sklepu osu!</value>
+    <value>zespołem sklepu osu!</value>
   </data>
   <data name="invoice.status.delivered.title" xml:space="preserve">
     <value>Twoje zamówienie zostało dostarczone! Mamy nadzieję, że Ci się spodoba!</value>
   </data>
   <data name="invoice.status.delivered.line_1._" xml:space="preserve">
-    <value>Jeśli masz problem z twoim zamówieniem, skontaktuj się na {0}.</value>
+    <value>Jeżeli masz jakiekolwiek uwagi dotyczące tego zamówienia, skontaktuj się z {0}.</value>
   </data>
   <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
-    <value>pomoc sklepu osu!</value>
+    <value>zespołem sklepu osu!</value>
   </data>
   <data name="invoice.status.prepared.title" xml:space="preserve">
     <value>Twoje zamówienie jest w trakcie realizacji!</value>
   </data>
   <data name="invoice.status.prepared.line_1" xml:space="preserve">
-    <value>Proszę, zaczekaj trochę dłużej, aż twoja przesyłka zostanie wysłana. Śledzenie przesyłki będzie możliwe, gdy zostanie ona przygotowana i wysłana. Może to potrwać do 5 dni (ale zazwyczaj mniej!) w zależności od tego, jak bardzo jesteśmy zajęci.</value>
+    <value>Twoje zamówienie jest aktualnie w przygotowaniu. Śledzenie dostawy będzie możliwe, gdy zamówienie zostanie przetworzone i wysłane. Może to potrwać do 5 dni (zazwyczaj krócej) w zależności od aktualnego nakładu zamówień.</value>
   </data>
   <data name="invoice.status.prepared.line_2" xml:space="preserve">
-    <value>Realizujemy nasze zamówienia w Japonii, korzystając z różnych opcji wysyłek w zależności od wagi i wartości. Tutaj znajdziesz szczegóły dotyczące twojej przesyłki, gdy ją wyślemy.</value>
+    <value>Wszystkie zamówienia są realizowane w Japonii z wykorzystaniem usług różnych dostawców w zależności od wagi i wartości zamówienia. Informacje w tej sekcji będą aktualizowane na bieżąco, gdy zamówienie zostanie wysłane.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Twoja płatność nie została jeszcze potwierdzona!</value>
@@ -206,13 +206,13 @@
     <value>Twoje zamówienie zostało wysłane!</value>
   </data>
   <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
-    <value>Szczegóły śledzenia:</value>
+    <value>Szczegóły dostawy:</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>Nie posiadamy szczegółów śledzenia, ponieważ wysłaliśmy Twoją paczkę przez Air Mail, ale możesz się jej spodziewać w ciągu 1-3 tygodni. Czasami europejskie służby celne mogą opóźnić paczkę, na co nie mamy wpływu. Jeśli masz jakieś wątpliwości, odpowiedz na e-mail z potwierdzeniem zamówienia, który otrzymałeś (lub {0}).</value>
+    <value>Nie posiadamy informacji o aktualnym statusie dostawy, ponieważ wysłaliśmy Twoje zamówienie przez Air Mail - możesz się go jednak spodziewać w przeciągu 1-3 tygodni. W przypadku zamówień wysłanych do Europy, służby celne mogą opóźniać dostawę, na co nie mamy wpływu. Jeżeli masz jakieś wątpliwości, odpowiedz na e-mail z potwierdzeniem zamówienia lub {0}.</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
-    <value>wyślij nam maila</value>
+    <value>wyślij nam wiadomość e-mail</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Anuluj zamówienie</value>
@@ -236,16 +236,16 @@
     <value>Wznów zamówienie</value>
   </data>
   <data name="order.shipping_and_handling" xml:space="preserve">
-    <value>Dostawa i obsługa</value>
+    <value>Dostawa i obsługa zamówienia</value>
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Łącze do płatności za to zamówienie wygasło.</value>
   </data>
   <data name="order.subtotal" xml:space="preserve">
-    <value>Suma częściowa</value>
+    <value>Łącznie</value>
   </data>
   <data name="order.total" xml:space="preserve">
-    <value>Suma</value>
+    <value>Łącznie</value>
   </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>Zamówienie #</value>
@@ -257,7 +257,7 @@
     <value>Sprzedawca</value>
   </data>
   <data name="order.details.shipping_method" xml:space="preserve">
-    <value>Sposób wysyłki</value>
+    <value>Sposób dostawy</value>
   </data>
   <data name="order.details.shipping_terms" xml:space="preserve">
     <value>Warunki dostawy</value>
@@ -266,7 +266,7 @@
     <value>Szczegóły zamówienia</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
-    <value>Ilość</value>
+    <value>liczba</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} dla {1} ({2})</value>
@@ -299,7 +299,7 @@
     <value>Anulowane</value>
   </data>
   <data name="order.status.checkout" xml:space="preserve">
-    <value>Przygotowywane</value>
+    <value>W przygotowaniu</value>
   </data>
   <data name="order.status.delivered" xml:space="preserve">
     <value>Dostarczone</value>
@@ -308,7 +308,7 @@
     <value>Opłacone</value>
   </data>
   <data name="order.status.processing" xml:space="preserve">
-    <value>Oczekiwanie na potwierdzenie</value>
+    <value>Oczekuje na potwierdzenie</value>
   </data>
   <data name="order.status.shipped" xml:space="preserve">
     <value>W transporcie</value>
@@ -317,10 +317,10 @@
     <value>Status zamówienia</value>
   </data>
   <data name="order.thanks.title" xml:space="preserve">
-    <value>Dziękujemy za złożenie zamówienia!</value>
+    <value>Dziękujemy za Twoje zamówienie!</value>
   </data>
   <data name="order.thanks.line_1._" xml:space="preserve">
-    <value>Wkrótce otrzymasz e-mail z potwierdzeniem. Jeśli masz jakieś pytania, proszę {0}!</value>
+    <value>Wkrótce otrzymasz e-mail z potwierdzeniem zamówienia. Jeżeli masz jakieś pytania, {0}!</value>
   </data>
   <data name="order.thanks.line_1.link_text" xml:space="preserve">
     <value>skontaktuj się z nami</value>
@@ -329,10 +329,10 @@
     <value>Nazwa</value>
   </data>
   <data name="product.stock.out" xml:space="preserve">
-    <value>Ten przedmiot jest obecnie niedostępny. Sprawdź później!</value>
+    <value>Ten produkt jest obecnie niedostępny. Sprawdź później!</value>
   </data>
   <data name="product.stock.out_with_alternative" xml:space="preserve">
-    <value>Niestety ten przedmiot jest obecnie niedostępny. Spróbuj z innym rozmiarem/typem bądź sprawdź później.</value>
+    <value>Niestety ten produkt jest obecnie niedostępny. Spróbuj z innym rozmiarem lub typem albo sprawdź ponownie później.</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
     <value>Dodaj do koszyka</value>
@@ -365,7 +365,7 @@
     <value>Wprowadź nazwę użytkownika, aby sprawdzić, czy jest dostępna!</value>
   </data>
   <data name="username_change.checking" xml:space="preserve">
-    <value>Sprawdzanie możliwości zmiany na {0}...</value>
+    <value>Sprawdzanie dostępności nazwy {0}...</value>
   </data>
   <data name="username_change.placeholder" xml:space="preserve">
     <value>Żądana nazwa użytkownika</value>
@@ -374,7 +374,7 @@
     <value>Nowa nazwa użytkownika</value>
   </data>
   <data name="username_change.current" xml:space="preserve">
-    <value>Twoja aktualna nazwa użytkownika to "{0}".</value>
+    <value>Twoja aktualna nazwa użytkownika to „{0}”.</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Aby zmienić swoją nazwę użytkownika, musisz się {0}!</value>

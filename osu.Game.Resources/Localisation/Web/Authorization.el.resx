@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Δεν μπορείτε να αλλάξετε τα μεταδεδομένα ενός προτεινόμενου χάρτη. Επικοινωνήστε με ένα μέλος BN ή NAT αν νομίζετε ότι δεν έχει οριστεί σωστά.</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Πρέπει να βάλεις ένα σκορ στο beatmap σου για να προσθέσεις μια ετικέτα.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Αδυναμία αποστολής σε χρήστη που σας έχει ή έχετε αποκλείσει.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Δεν έχετε πρόσβαση σε αυτό το κανάλι.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Δεν έχεις άδεια για να δημοσιεύσεις ανακοίνωση.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Ο χρήστης μπορεί να μην είναι σε θέση να απαντήσει, επειδή δέχεστε μόνο μηνύματα από άτομα στη λίστα φίλων σας.</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Δεν μπορείτε να επεξεργαστείτε διαγραμμένη δημοσίευση.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Η κριτική για αυτό τον διαγωνισμό δεν είναι ενεργό.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Δε μπορείτε να αλλάξετε την ψήφο σας αφού η περίοδος ψηφοφορίας γι' αυτόν τον διαγωνισμό έχει τελειώσει.</value>
@@ -274,14 +283,44 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Μόνο οι διαχειριστές μπορούν να δούν αυτό το φόρουμ.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Μόνο ο ιδιοκτήτης δωματίου μπορεί να το κλείσει.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>Αδυναμία καρφιτσώματος αυτού του τύπου βαθμολογίας</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>Αδυναμία καρφιτσώματος βαθμολογία μη επιτυχίας</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Μόνο ο ιδιοκτήτης της βαθμολογίας μπορεί να καρφιτσώσει βαθμολογία.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Καρφιτσωμένο πάρα πολλές βαθμολογίες.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Είσαι ήδη μέλος της ομάδας.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Είσαι ήδη μέλος μιας διαφορετικής ομάδας</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Έχεις ένα εκκρεμές αίτημα συμμετοχής για ομάδα.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Αυτή τη στιγμή η ομάδα δεν δέχεται καμία αίτηση συμμετοχής.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Η ομάδα είναι γεμάτη και δεν μπορεί να δεχτεί άλλα μέλη.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Ο αρχηγός της ομάδας δεν μπορεί να φύγει από την ομάδα.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Δεν είναι μέλος της ομάδας.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>osu!supporter tag απαιτείται για τη δημιουργία ομάδας.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Το userpage είναι κλειδωμένο.</value>
@@ -291,5 +330,8 @@
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
     <value>απαιτείται osu!supporter tag.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>η διεύθυνση email είναι κλειδωμένη</value>
   </data>
 </root>

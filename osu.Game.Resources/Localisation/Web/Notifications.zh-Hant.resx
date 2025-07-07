@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>來自 {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>新的團隊訊息</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} 説 "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} 説 "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} 説 "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>更新日誌</value>
   </data>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>你現在是 {0} 團隊的成員了</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>隊伍邀請紀錄</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>你加入 {0} 團隊的請求已被拒絕</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>你加入 {0} 團隊的請求已被拒絕</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 想要加入你的團隊</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} 想要加入你的團隊</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>新圖譜</value>
@@ -421,6 +442,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>圖譜【{0}】中有新的留言</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>「{0}」裡有新的公告</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>你已收到來自 {0} 的訊息</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>有一個來自隊伍 「{0}」的訊息</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>更新日誌【{0}】中有新的留言</value>
   </data>
@@ -435,6 +465,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>你加入 {0} 團隊的請求已被拒絕</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 請求加入你的團隊</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} 建立了新圖譜</value>

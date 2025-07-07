@@ -61,8 +61,86 @@
   <data name="all_read" xml:space="preserve">
     <value>Όλες οι ειδοποιήσεις διαβάστηκαν!</value>
   </data>
+  <data name="delete" xml:space="preserve">
+    <value>Διαγραφή {0}</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Φόρτωση μη αναγνωσμένων ειδοποιήσεων...</value>
+  </data>
+  <data name="mark_read" xml:space="preserve">
+    <value>Καθαρισμός {0}</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Καμία ειδοποίηση</value>
+  </data>
+  <data name="see_all" xml:space="preserve">
+    <value>εμφάνιση όλων των ειδοποιήσεων</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>μετάβαση στη συνομιλία</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Παρακαλώ επιβεβαίωσε τη συνεδρία για να δεις τις ειδοποιήσεις</value>
+  </data>
+  <data name="action_type._" xml:space="preserve">
+    <value>όλα</value>
+  </data>
+  <data name="action_type.beatmapset" xml:space="preserve">
+    <value>beatmaps</value>
+  </data>
+  <data name="action_type.build" xml:space="preserve">
+    <value>εκδόσεις</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>συνομιλία</value>
+  </data>
+  <data name="action_type.forum_topic" xml:space="preserve">
+    <value>φόρουμ</value>
+  </data>
+  <data name="action_type.news_post" xml:space="preserve">
+    <value>νέα</value>
+  </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>ομάδα</value>
+  </data>
+  <data name="action_type.user" xml:space="preserve">
+    <value>προφίλ</value>
+  </data>
+  <data name="filters._" xml:space="preserve">
+    <value>όλα</value>
+  </data>
+  <data name="filters.beatmapset" xml:space="preserve">
+    <value>beatmaps</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>εκδόσεις</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>συνομιλία</value>
+  </data>
+  <data name="filters.forum_topic" xml:space="preserve">
+    <value>φόρουμ</value>
+  </data>
+  <data name="filters.news_post" xml:space="preserve">
+    <value>νέα</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>ομάδα</value>
+  </data>
+  <data name="filters.user" xml:space="preserve">
+    <value>προφίλ</value>
+  </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Δυσκολία επισκέπτη</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Τώρα είσαι ιδιοκτήτης δυσκολίας ''{0}'' για το beatmap ''{1}''</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Τώρα είσαι ιδιοκτήτης δυσκολίας ''{0}''</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Συζήτηση για το beatmap</value>
@@ -70,11 +148,56 @@
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>Η συζήτηση για το beatmap "{0}" έχει κλειδώσει.</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
+    <value>Η συζήτηση κλειδώθηκε</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
     <value>Ο χρήστης{0} δημοσίευσε ένα καινούριο μήνυμα στη συζήτηση για το beatmap "{1}".</value>
   </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
+    <value>Νέα δημοσίευση στο "{0}" από {1}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
+    <value>Νέα δημοσίευση από {0}: "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
+    <value>Νέα δημοσίευση από {0}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
+    <value>Νέα κριτική στο "{0}" από {1} που περιέχει {2}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
+    <value>Νέα κριτική από {0} που περιέχει {1}</value>
+  </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Η συζήτηση για το beatmap "{0}" ξεκλειδώθηκε.</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
+    <value>Η συζήτηση ξεκλειδώθηκε</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} επαίνους|{0} επαινεί</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} πρόβλημα|{0} προβλήματα</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} πρόταση|{0} προτάσεις</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
+    <value>Περασμένο πρόβλημα Beatmap</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Αναφέρθηκε από {0} στο "{1}": "{2}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
+    <value>Αναφέρθηκε από {0} στο "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
+    <value>Αναφέρθηκε από {0}: "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
+    <value>Αναφέρθηκε από {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
     <value>Η κατάσταση του beatmap άλλαξε</value>
@@ -82,17 +205,44 @@
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>Το beatmap "{0}" απορρίφθηκε από τον χρήστη {1}.</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
+    <value>Το Beatmap αποκλείστηκε</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
     <value>Το beatmap "{0}" προάχθηκε ως loved από τον χρήστη {1}.</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
+    <value>Το Beatmap προωθήθηκε στα αγαπημένα (loved)</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>Το beatmap "{0}" έγινε nominate από τον χρήστη {1}.</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
+    <value>Το Beatmap διορίστηκε</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>To beatmap "{0}" έχει λάβει αρκετά nominations και μπήκε στη σειρά για να γίνει ranked.</value>
   </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
+    <value>Το Beatmap εισήγαγε την ουρά κατάταξης</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>Το "{0}" έχει καταταχθεί</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
+    <value>Το Beatmap κατατάχθηκε</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
+    <value>"{0}" αφαιρέθηκε από τα αγαπημένα (loved)</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
+    <value>Το Beatmap αφαιρέθηκε από τα αγαπημένα (loved)</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>Το θέμα που δημοσιεύτηκε από τον χρήστη {0} επανέφερε το beatmap "{1}" σε κατάσταση προς nomination </value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
+    <value>Έγινε επαναφορά διορισμού</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Θέμα του forum</value>

@@ -35,6 +35,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DailyChallengeTop50p => new TranslatableString(getKey(@"daily_challenge.top_50p"), @"Top 50% Score");
 
         /// <summary>
+        /// "No daily challenge at the specified date yet!"
+        /// </summary>
+        public static LocalisableString DailyChallengeUnavailableFuture => new TranslatableString(getKey(@"daily_challenge.unavailable.future"), @"No daily challenge at the specified date yet!");
+
+        /// <summary>
+        /// "No daily challenge at the specified date!"
+        /// </summary>
+        public static LocalisableString DailyChallengeUnavailablePast => new TranslatableString(getKey(@"daily_challenge.unavailable.past"), @"No daily challenge at the specified date!");
+
+        /// <summary>
         /// "Show"
         /// </summary>
         public static LocalisableString FilterTitle => new TranslatableString(getKey(@"filter.title"), @"Show");

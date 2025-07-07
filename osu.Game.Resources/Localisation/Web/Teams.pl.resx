@@ -70,23 +70,26 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Przesłano prośbę o dołączenie do zespołu.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} członek|{0} członków|{0} członków</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
-    <value>Stwórz Zespół</value>
+    <value>Utwórz zespół</value>
   </data>
   <data name="create.form.name_help" xml:space="preserve">
-    <value>Nazwa twojego zespołu. Jest ona stała na tę chwilę.</value>
+    <value>Nazwa twojego zespołu. Aktualnie nie da się jej zmodyfikować.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
-    <value>Maksymalnie 4 znaki.</value>
+    <value>Może składać się z maksymalnie 4 znaków.</value>
   </data>
   <data name="create.form.title" xml:space="preserve">
-    <value>Stwórzmy nowy zespół</value>
+    <value>Kreator nowego zespołu</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Graj razem z przyjaciółmi; obecnymi lub nowymi. Nie jesteś aktualnie w zespole. Dołącz do istniejącego zespołu, odwiedzając jego stronę lub stwórz swój własny tutaj.</value>
+    <value>Graj wspólnie ze swoimi przyjaciółmi. Nie jesteś aktualnie w żadnym zespole. Możesz dołączyć do istniejącego zespołu poprzez odwiedzenie jego strony lub utworzyć swój własny z wykorzystaniem poniższego kreatora.</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
-    <value>Zespół!</value>
+    <value>Graj w zespole!</value>
   </data>
   <data name="destroy.ok" xml:space="preserve">
     <value>Usunięto zespół.</value>
@@ -158,7 +161,7 @@
     <value>Zarządzaj członkami zespołu</value>
   </data>
   <data name="members.index.applications.accept_confirm" xml:space="preserve">
-    <value>Dodać użytkownika {0} do zespołu?</value>
+    <value>Czy na pewno chcesz dodać użytkownika {0} do zespołu?</value>
   </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Data przesłania</value>
@@ -170,10 +173,10 @@
     <value>Dostępnych miejsc</value>
   </data>
   <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
-    <value>{0} nadmiar użytkowników|{0} nadmiar użytkowników</value>
+    <value>{0} nadmiarowy użytkownik|{0} nadmiarowych użytkowników|{0} nadmiarowych użytkowników</value>
   </data>
   <data name="members.index.applications.reject_confirm" xml:space="preserve">
-    <value>Odmówić prośby o dołączenie od użytkownika {0}?</value>
+    <value>Czy na pewno chcesz odrzucić prośbę o dołączenie do zespołu od użytkownika {0}?</value>
   </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Prośby o dołączenie</value>
@@ -185,13 +188,13 @@
     <value>Usuń</value>
   </data>
   <data name="members.index.table.remove_confirm" xml:space="preserve">
-    <value>Usunąć użytkownika {0} z zespołu?</value>
+    <value>Czy na pewno chcesz usunąć użytkownika {0} z zespołu?</value>
   </data>
   <data name="members.index.table.set_leader" xml:space="preserve">
-    <value>Przekaż dowództwo zespołu</value>
+    <value>Przekaż status lidera zespołu</value>
   </data>
   <data name="members.index.table.set_leader_confirm" xml:space="preserve">
-    <value>Przekazać dowództwo zespołu użytkownikowi {0}?</value>
+    <value>Czy na pewno chcesz przekazać status lidera zespołu użytkownikowi {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Status</value>
@@ -206,10 +209,10 @@
     <value>Aktywny</value>
   </data>
   <data name="members.set_leader.success" xml:space="preserve">
-    <value>Użytkownik {0} jest teraz dowódcą zespołu.</value>
+    <value>Użytkownik {0} zostaje liderem zespołu.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
-    <value>Opuścił zespół ;_;</value>
+    <value>Opuszczono zespół ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
     <value>Czat zespołu</value>
