@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Ritma-mapes diskusija</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Parādi savu ritma-karti pasaulei!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Satura atļaujas</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Es saprotu</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Biežāk uzdotie jautājumi</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Iesūtīšanas iestatījumi</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Iesūtīt ritma-karti!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Eksportē ritma-kartes priekš saderības...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Gatavo augšupielādei...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Augšupielādē ritma-kartes saturu...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Gandriiīiiīiiz...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Pirms tu turpini, mēs vēlamies paprasīt vai tu esi pārbaudījis saturu, kuru tu taisies publicēt. Lūdzu saproti, ka tu esi atbildīgs par saturu, kuru tu augšupielādē platformā, un ja tev ir šaubas, pajautā atļauju satura izveidotājam pirms publicēšanas!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value> Pārbaudi materiāla izmantošanas noteikumus, lai iegūtu vairāk informāciju</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Ritma-Karšu novērtēšanas kritēriji</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Neesi drošs vai tu seko noteikumiem? Pārbaudi sarakstu un paātrini novērtēšanas procesu!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Iesūtīšanas process</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Neesi drošs par iesūtīšanas procesu? Apskati viki!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Kartēšanas palīdzības forums</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Ir jautājumi par kartēšanu? Uzdod tos forumā!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Moderātoru citējumu forums</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Problēmas ar komentāru iegūšanu? Kāpēc nepajautāt moderātoru sarakstā?</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Kur tu vēlētos nopublicēt savu ritma-karti?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Pabeigšanas Procesā / Palīdzība (nepabeigta, nav gatava novērtēšanai)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Pagaidu (pabeigtas, gatavas novērtēšanai)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Saņemt paziņojumus par diskusiju atbildēm</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Ielādēt pārlūkā pēc iesūtīšanas</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Piezīme: Lai visu osu! versijas lietotāji varētu izbaudīt tavu ritma-karti, tā tiks eksportēta atgriezeniski saderīgā formātā. Kamēr mēs esam centušies ar šo procesu, uzturēt ritma-karti spēlējamu tās nodomātajā formā, dati, kuri ir saistīti ar jaunām spēles funkcijām, kuras iepriekšējās osu! versijas neatbalsta, varētu tikt pazaudēti.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Tukšas ritma-kartes nevar tikt iesūtītas.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Atjaunināt ritma-karti!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Augšupielādēt JAUNU ritma-karti!</value>
+  </data>
+</root>
