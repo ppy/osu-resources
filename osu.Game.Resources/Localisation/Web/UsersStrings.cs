@@ -1265,6 +1265,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsHitAccuracy => new TranslatableString(getKey(@"show.stats.hit_accuracy"), @"Hit Accuracy");
 
         /// <summary>
+        /// "Hits Per Play"
+        /// </summary>
+        public static LocalisableString ShowStatsHitsPerPlay => new TranslatableString(getKey(@"show.stats.hits_per_play"), @"Hits Per Play");
+
+        /// <summary>
         /// "Level {0}"
         /// </summary>
         public static LocalisableString ShowStatsLevel(LocalisableString level) => new TranslatableString(getKey(@"show.stats.level"), @"Level {0}", level);

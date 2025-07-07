@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>cerca</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Mostra més resultats de cerca de pistes d'artista destacat</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Inicieu sessió per cercar mapes</value>
   </data>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>tots</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>pista d'artista destacat</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
-    <value>beatmap</value>
+    <value>mapa</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>fòrum</value>
+  </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>equip</value>
   </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>jugador</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Mostra més resultats de la cerca d'equip</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Inicia sessió per cercar usuaris</value>
@@ -257,13 +269,13 @@
     <value>fes clic al botó de dalt per descarregar l'instal·lador, després executa-ho!</value>
   </data>
   <data name="download.steps.beatmaps.title" xml:space="preserve">
-    <value>obtenir beatmaps</value>
+    <value>obtén mapes</value>
   </data>
   <data name="download.steps.beatmaps.description._" xml:space="preserve">
-    <value>{0} la enorme biblioteca de beatmaps creats pels usuaris i comença a jugar!</value>
+    <value>{0} l'enorme biblioteca de mapes creats pels usuaris i comença a jugar!</value>
   </data>
   <data name="download.steps.beatmaps.description.browse" xml:space="preserve">
-    <value>fes una ullada</value>
+    <value>cerca</value>
   </data>
   <data name="user.title" xml:space="preserve">
     <value>tauler</value>
@@ -284,10 +296,10 @@
     <value>Usuaris en línia</value>
   </data>
   <data name="user.beatmaps.new" xml:space="preserve">
-    <value>Nous Beatmaps Classificatoris</value>
+    <value>Mapes Classificats Nous</value>
   </data>
   <data name="user.beatmaps.popular" xml:space="preserve">
-    <value>Beatmaps populars</value>
+    <value>Mapes Populars</value>
   </data>
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>per {0}</value>

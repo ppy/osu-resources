@@ -480,6 +480,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ProductNotify => new TranslatableString(getKey(@"product.notify"), @"Notify me when available!");
 
         /// <summary>
+        /// "Out of stock"
+        /// </summary>
+        public static LocalisableString ProductOutOfStock => new TranslatableString(getKey(@"product.out_of_stock"), @"Out of stock");
+
+        /// <summary>
         /// "you will be notified when we have new stock. click {0} to cancel"
         /// </summary>
         public static LocalisableString ProductNotificationSuccess(LocalisableString link) => new TranslatableString(getKey(@"product.notification_success"), @"you will be notified when we have new stock. click {0} to cancel", link);

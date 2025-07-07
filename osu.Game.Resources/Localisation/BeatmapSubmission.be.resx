@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Публікацыя карты</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Падзяліцеся сваёй картай з усім светам!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Правы на выкарыстанне медыя</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Зразумела</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Частыя пытанні</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Параметры публікацыі</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Апублікаваць карту!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Пераўтварэнне ў сумяшчальны фармат...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Падрыхтоўка да загрузцы...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Загрузка змесціва карты...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Завяршэнне...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Перш чым працягнуць, мы просім вас праверыць, ці дазволена выкарыстоўваць загружанае вамі змесціва. Звярніце ўвагу, што вы адказныя за апублікаваны вамі кантэнт на платформе osu!. Калі сумняваецеся, калі ласка, атрымаеце дазвол ад аўтараў перад загрузкай!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Азнаёміцца з кіраўніцтвам па правілах выкарыстання медыя</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Крытэрыі ранкинга карт</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Не ўпэўненыя, што карта адпавядаюць усім правілам і рэкамендацыям? Паспрабуйцце звярнуцца са спісам неабходных крытэрыяў, паскорыце працэс атрымання рэйтынгу!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Працэдура ранкинга</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Хочаце даведацца больш аб этапах атрымання рэйтынгу? Вывучыце падрабязны артыкул на вікі!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Форум для абмеркавання маппинга</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Ёсць пытанні па маппингу і працэдуры ранкинга? Задайце іх на форуме!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Форум для пошуку модероў</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Узніклі праблемы з атрыманнем зваротнай сувязі? Пастаўце карту ў чаргу моддера!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>У якой катэгорыі апублікаваць карту?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>У распрацоўцы/патрэбна дапамога (не завершана, не гатовая да атрымання рэйтынгу)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>На разглядзе (завершана, гатовая да атрымання рэйтынгу)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Атрымліваць апавяшчэнні аб водгуках на карту</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Адкрыць у браўзэры пасля загрузкі</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Заўвага: каб гульцы ўсіх версій osu! змаглі атрымаць асалоду ад вашай картай, яна будзе ператворана ў назад-сумяшчальны фармат. Мы зрабілі ўсё магчымае для выключэння ўплыву гэтага працэсу на зыходны стан карты, аднак некаторыя даныя новых функцый, не падтрымоўваных папярэднімі версіямі osu!, у любым выпадку могуць быць страчаныя.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Нельга апублікаваць пустую карту.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Абнавіць карту!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Загрузіць НОВУЮ карту!</value>
+  </data>
+</root>

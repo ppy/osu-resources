@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>dari {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Pesan tim baru</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} mengatakan "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} mengatakan "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} mengatakan "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Riwayat Perubahan</value>
   </data>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Kamu kini merupakan anggota dari tim {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Pembaruan permintaan gabung tim</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Permintaan kamu untuk bergabung ke tim {0} telah ditolak</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Permintaan kamu untuk bergabung ke tim {0} telah ditolak</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} meminta untuk bergabung ke tim kamu</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} meminta untuk bergabung ke tim kamu</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Beatmap baru</value>
@@ -421,6 +442,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Terdapat komentar baru pada beatmap "{0}"</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Terdapat pengumuman baru pada "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Kamu menerima pesan baru dari {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Terdapat pesan baru pada tim "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Terdapat komentar baru pada riwayat perubahan "{0}"</value>
   </data>
@@ -435,6 +465,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Permintaan kamu untuk bergabung ke tim {0} telah ditolak</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} meminta untuk bergabung ke tim kamu</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} telah mengunggah beatmap baru</value>

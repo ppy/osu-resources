@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid" xml:space="preserve">
-    <value>Określono nieprawidłowy atrybut „{0}”.</value>
+    <value>Nieprawidłowa wartość atrybutu „{0}”.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
     <value>Atrybut „{0}” nie może być ujemny.</value>
@@ -83,7 +83,7 @@
     <value>Nie możesz nagłośnić tej beatmapy.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>Priorytet musi zostać nadany w sekcji Główne (wszystkie poziomy trudności).</value>
+    <value>Beatmapa może zostać nagłośniona wyłącznie w sekcji „Główne (wszystkie poziomy trudności)”.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>Ustawiono nieprawidłowy poziom trudności.</value>
@@ -110,10 +110,10 @@
     <value>Już nagłośniono tę beatmapę.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>Zużyto całą liczbę nagłośnień.</value>
+    <value>Osiągnięto limit możliwych do nagłośnienia beatmap.</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
-    <value>Nie można nagłośnić tej beatmapy</value>
+    <value>Ta beatmapa nie może zostać nagłośniona</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
     <value>Nie możesz nagłośnić własnej beatmapy.</value>
@@ -137,7 +137,7 @@
     <value>Nie możesz odpowiedzieć na usunięty komentarz.</value>
   </data>
   <data name="comment.top_only" xml:space="preserve">
-    <value>Nie możesz przypiąć komentarza.</value>
+    <value>Nie możesz przypiąć odpowiedzi do komentarza.</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>Wiadomość</value>
@@ -146,10 +146,10 @@
     <value>Nieprawidłowa wartość atrybutu „{0}”.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
-    <value>Możesz głosować tylko na prośby o funkcję.</value>
+    <value>Możesz głosować tylko w wątkach z prośbami o nowe funkcjonalności.</value>
   </data>
   <data name="forum.feature_vote.not_enough_feature_votes" xml:space="preserve">
-    <value>Niewystarczająco dużo głosów.</value>
+    <value>Niewystarczająca liczba głosów.</value>
   </data>
   <data name="forum.poll_vote.invalid" xml:space="preserve">
     <value>Wybrano nieprawidłową opcję.</value>
@@ -164,7 +164,7 @@
     <value>Nie możesz usunąć posta rozpoczynającego</value>
   </data>
   <data name="forum.post.missing_topic" xml:space="preserve">
-    <value>Post nie zawiera tematu.</value>
+    <value>Post nie zawiera wątku.</value>
   </data>
   <data name="forum.post.only_quote" xml:space="preserve">
     <value>Twoja odpowiedź zawiera tylko cytat.</value>
@@ -173,7 +173,7 @@
     <value>Zawartość posta</value>
   </data>
   <data name="forum.topic.attributes.topic_title" xml:space="preserve">
-    <value>Tytuł tematu</value>
+    <value>Tytuł wątku</value>
   </data>
   <data name="forum.topic_poll.duplicate_options" xml:space="preserve">
     <value>Nie możesz dodać takich samych możliwości wyboru.</value>
@@ -203,10 +203,10 @@
     <value>Wybierz jedną z opcji, aby zagłosować.</value>
   </data>
   <data name="forum.topic_vote.too_many" xml:space="preserve">
-    <value>Wybrano więcej opcji, niż jest to dozwolone.</value>
+    <value>Wybrano więcej opcji niż jest to dozwolone.</value>
   </data>
   <data name="legacy_api_key.exists" xml:space="preserve">
-    <value>Nie możesz aktualnie posiadać więcej niż jeden klucz API.</value>
+    <value>Nie możesz aktualnie posiadać więcej niż jednego klucza API.</value>
   </data>
   <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
     <value>klucz api</value>
@@ -230,19 +230,19 @@
     <value>Adres URL wywołań zwrotnych aplikacji</value>
   </data>
   <data name="team.invalid_characters" xml:space="preserve">
-    <value>Ten {0} zawiera nieprawidłowe znaki.</value>
+    <value>Atrybut „{0}” zawiera nieprawidłowe znaki.</value>
   </data>
   <data name="team.used" xml:space="preserve">
-    <value>Ten wybór {0} jest już używany.</value>
+    <value>Obecna wartość atrybutu „{0}” jest już w użyciu.</value>
   </data>
   <data name="team.word_not_allowed" xml:space="preserve">
-    <value>Ten wybór {0} nie jest dozwolony.</value>
+    <value>Obecna wartość atrybutu „{0}” nie jest dozwolona.</value>
   </data>
   <data name="team.attributes.default_ruleset_id" xml:space="preserve">
-    <value>Domyślny zestaw reguł</value>
+    <value>Domyślny tryb gry</value>
   </data>
   <data name="team.attributes.is_open" xml:space="preserve">
-    <value>Aplikacja do zespołu</value>
+    <value>Dostępność</value>
   </data>
   <data name="team.attributes.name" xml:space="preserve">
     <value>Nazwa</value>
@@ -353,7 +353,7 @@
     <value>Nie jesteś na tym kanale.</value>
   </data>
   <data name="user_report.in_team" xml:space="preserve">
-    <value>Jesteś częścią zespołu.</value>
+    <value>Jesteś członkiem tego zespołu.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>Powód „{0}” nie jest właściwy dla tego typu zgłoszenia.</value>

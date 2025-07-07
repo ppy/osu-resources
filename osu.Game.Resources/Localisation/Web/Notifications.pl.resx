@@ -101,7 +101,7 @@
     <value>aktualności</value>
   </data>
   <data name="action_type.team" xml:space="preserve">
-    <value>drużyna</value>
+    <value>zespół</value>
   </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profil</value>
@@ -113,7 +113,7 @@
     <value>beatmapy</value>
   </data>
   <data name="filters.build" xml:space="preserve">
-    <value>kompilacje</value>
+    <value>zmiany</value>
   </data>
   <data name="filters.channel" xml:space="preserve">
     <value>czat</value>
@@ -125,7 +125,7 @@
     <value>aktualności</value>
   </data>
   <data name="filters.team" xml:space="preserve">
-    <value>drużyna</value>
+    <value>zespół</value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>profil</value>
@@ -158,16 +158,16 @@
     <value>Nowy post od użytkownika {0} dla beatmapy „{1}”</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Nowy post od użytkownika {0}</value>
+    <value>Nowy post od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Nowy post od użytkownika {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Nowa recenzja od {0} pod beatmapą „{1}” zawierająca {2}</value>
+    <value>Nowa recenzja od użytkownika {0} pod beatmapą „{1}” zawierająca {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Nowa recenzja od {0} zawierająca {1}</value>
+    <value>Nowa recenzja od użytkownika {0} zawierająca {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Tworzenie dyskusji dla beatmapy „{0}” zostało odblokowane.</value>
@@ -203,22 +203,22 @@
     <value>Status beatmapy został zmieniony</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>Beatmapa „{0}” została zdyskwalifikowana przez użytkownika {1}.</value>
+    <value>Beatmapa „{0}” została zdyskwalifikowana</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
     <value>Beatmapa została zdyskwalifikowana</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>Beatmapa „{0}” uzyskała status ulubionej społeczności od użytkownika {1}.</value>
+    <value>Beatmapa „{0}” uzyskała status ulubionej społeczności</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
     <value>Beatmapa uzyskała status ulubionej społeczności</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
-    <value>Beatmapa „{0}” została nominowana przez użytkownika {1}.</value>
+    <value>Beatmapa „{0}” została nominowana do sekcji rankingowej</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
-    <value>Beatmapa została nominowana</value>
+    <value>Beatmapa została nominowana do sekcji rankingowej</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
     <value>Beatmapa „{0}” uzyskała wystarczającą liczbę nominacji i została zakwalifikowana.</value>
@@ -248,16 +248,16 @@
     <value>Nowy komentarz</value>
   </data>
   <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz pod „{1}”: „{2}”</value>
+    <value>Nowy komentarz od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz: „{1}”</value>
+    <value>Nowy komentarz od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}” na „{2}”</value>
+    <value>Nowa odpowiedź od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}”</value>
+    <value>Nowa odpowiedź od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.channel._" xml:space="preserve">
     <value>Czat</value>
@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>od użytkownika {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Nowa wiadomość na czacie zespołu</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} pisze „{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} pisze „{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} pisze „{1}”</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Zmiany</value>
   </data>
@@ -293,16 +305,16 @@
     <value>Nowy komentarz</value>
   </data>
   <data name="item.build.comment.comment_new" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz pod „{1}”: „{2}”</value>
+    <value>Nowy komentarz od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.build.comment.comment_new_compact" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz: „{1}”</value>
+    <value>Nowy komentarz od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.build.comment.comment_reply" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}” na „{2}”</value>
+    <value>Nowa odpowiedź od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}”</value>
+    <value>Nowa odpowiedź od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.news_post._" xml:space="preserve">
     <value>Aktualności</value>
@@ -311,16 +323,16 @@
     <value>Nowy komentarz</value>
   </data>
   <data name="item.news_post.comment.comment_new" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz pod „{1}”: „{2}”</value>
+    <value>Nowy komentarz od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
-    <value>Użytkownik {0} napisał komentarz: „{1}”</value>
+    <value>Nowy komentarz od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.news_post.comment.comment_reply" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}” na „{2}”</value>
+    <value>Nowa odpowiedź od użytkownika {0} pod „{1}”: „{2}”</value>
   </data>
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział: „{1}”</value>
+    <value>Nowa odpowiedź od użytkownika {0}: „{1}”</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Wątek na forum</value>
@@ -329,25 +341,34 @@
     <value>Nowa odpowiedź na forum</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział w wątku „{1}”</value>
+    <value>Nowa odpowiedź od użytkownika {0} w wątku „{1}”</value>
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
-    <value>Użytkownik {0} odpowiedział</value>
+    <value>Nowa odpowiedź od użytkownika {0}</value>
   </data>
   <data name="item.team.team_application._" xml:space="preserve">
-    <value>Prośba o dołączenie do drużyny</value>
+    <value>Prośba o dołączenie do zespołu</value>
   </data>
   <data name="item.team.team_application.team_application_accept" xml:space="preserve">
-    <value>Jesteś teraz członkiem drużyny {0}</value>
+    <value>Od teraz jesteś członkiem zespołu {0}</value>
   </data>
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
-    <value>Jesteś teraz członkiem drużyny {0}</value>
+    <value>Od teraz jesteś członkiem zespołu {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Nowe prośby o dołączenie do zespołu</value>
   </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
-    <value>Twoja prośba o dołączenie do drużyny {0} została odrzucona</value>
+    <value>Twoja prośba o dołączenie do zespołu {0} została odrzucona</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
-    <value>Twoja prośba o dołączenie do drużyny {0} została odrzucona</value>
+    <value>Twoja prośba o dołączenie do zespołu {0} została odrzucona</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} prosi o dołączenie do twojego zespołu</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} prosi o dołączenie do twojego zespołu</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nowa beatmapa</value>
@@ -421,6 +442,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>W beatmapie „{0}” pojawiły się nowe komentarze</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Nowe ogłoszenie w pokoju „{0}” </value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Otrzymujesz nową wiadomość od użytkownika {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Nowa wiadomość na czacie zespołu „{0}” </value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>W liście zmian „{0}” pojawiły się nowe komentarze</value>
   </data>
@@ -431,10 +461,13 @@
     <value>W wątku „{0}” pojawiły się nowe odpowiedzi</value>
   </data>
   <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
-    <value>Jesteś teraz członkiem drużyny {0}</value>
+    <value>Od teraz jesteś członkiem zespołu {0}</value>
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
-    <value>Jesteś teraz członkiem drużyny {0}</value>
+    <value>Twoja prośba o dołączenie do zespołu {0} została odrzucona</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} prosi o dołączenie do twojego zespołu</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>Użytkownik {0} przesłał nowe beatmapy</value>

@@ -67,11 +67,20 @@
   <data name="availability.more-info" xml:space="preserve">
     <value>Κάντε κλικ εδώ για να δείτε περισσότερα.</value>
   </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Ορισμένα περιουσιακά στοιχεία που περιέχονται σε αυτόν τον χάρτη έχουν αφαιρεθεί αφού έχουν κριθεί ότι δεν είναι κατάλληλα για χρήση στο osu!.</value>
+  </data>
   <data name="cover.deleted" xml:space="preserve">
     <value>Διαγραμμένα beatmap</value>
   </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Πιο αργά, παίξε περισσότερο.</value>
+  </data>
   <data name="download.no_mirrors" xml:space="preserve">
     <value>Κανένας διαθέσιμος server λήψης.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Προτεινόμενος Καλλιτέχνης</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Λίστα Beatmaps</value>
@@ -91,17 +100,83 @@
   <data name="panel.download.no_video" xml:space="preserve">
     <value>λήψη χωρίς βίντεο</value>
   </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>άνοιγμα με osu!direct</value>
+  </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Οι υποψήφιοι δεν μπορούν να προτείνουν πολλαπλούς κανόνες.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Πρέπει να είσαι ένας πλήρης υποψήφιος για να εκτελέσεις την τελική υποψηφιότητα ενός συνόλου κανόνων.</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Ένα υβριδικό beatmap απαιτεί από εσένα να επιλέξεις τουλάχιστον μία λειτουργία αναπαραγωγής για την οποία θα ορίσεις.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Δεν έχεις άδεια να ορίσεις για τη λειτουργία: {0}</value>
+  </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Αυτό το beatmap έχει άκυρες υποψηφιότητες και δεν μπορεί να χαρακτηριστεί σε αυτή την κατάσταση.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Αυτή η υποψηφιότητα έχει μη έγκυρους κανόνες.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Η απαίτηση διορισμού πληρούται ήδη.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Ήδη πληρούται η απαίτηση διορισμού για μη κύριους κανόνες.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Θέλεις σίγουρα να ενημερώσεις αυτό το beatmap;</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Ο καθορισμός αυτού του beatmap με διαφορετικούς αριθμητές θα επαναφέρει τη θέση της σειράς προσόντων του.</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Υποψηφιότητα Beatmap</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>σημείωση: μπορείς να υποδείξεις μόνο μία φορά, οπότε βεβαιώσου ότι ορίζεις για όλες τις λειτουργίες παιχνιδιού που σκοπεύεις να</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Το κύριο σύνολο κανόνων είναι τρέχον: {0}</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Υποψηφιότητα για ποιες λειτουργίες?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Άσεμνο περιεχόμενο</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Συζήτηση</value>
   </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Προβολή εικόνας πλήρους μεγέθους εξωφύλλου</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Το beatmap έχει διαγραφτεί.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(μόνο οι συντονιστές μπορούν να το δουν αυτό)</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>από {0}</value>
+  </data>
   <data name="show.details.favourite" xml:space="preserve">
     <value>Προσθέστε αυτό το beatmapset στα αγαπημένα</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>συνδέσου για να κάνεις αγαπημένο αυτό το beatmap</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
     <value>Πρέπει να συνδεθείτε πριν κάνετε λήψη κάποιου beatmap!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>δημιουργήθηκε από {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>δυσκολία επισκέπτη από {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Αφαιρέστε αυτό το beatmapset από τα αγαπημένα</value>
@@ -124,6 +199,24 @@
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Συνδεθείτε</value>
   </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>εγκεκριμένο {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>αγαπημένο {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>πιστοποιημένο {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>καταταγμένο {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>υποβλήθηκε {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>τελευταία ενημέρωση {0}</value>
+  </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
     <value>Έχετε πάρα πολλά αγαπημένα beatmaps! Παρακαλώ αφαιρέστε κάποια πριν ξαναδοκιμάσετε.</value>
   </data>
@@ -142,6 +235,18 @@
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>εργασία σε εξέλιξη</value>
   </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Αν βρεις κάποιο πρόβλημα με αυτό το beatmap, παρακαλούμε να το αποκλείσεις {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Αν βρεις κάποιο πρόβλημα με αυτό το beatmap, παρακαλώ ανέφερε το στο {0} για να ειδοποιήσετε την ομάδα.</value>
+  </data>
+  <data name="show.hype.report.button" xml:space="preserve">
+    <value>Αναφορά Προβλήματος</value>
+  </data>
+  <data name="show.hype.report.link" xml:space="preserve">
+    <value>εδώ</value>
+  </data>
   <data name="show.info.description" xml:space="preserve">
     <value>Περιγραφή</value>
   </data>
@@ -151,8 +256,20 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Γλώσσα</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Ετικέτες Mapper</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Τα δεδομένα ακόμα υπολογίζονται...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Υποψηφιότητες</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Ακατάλληλο περιεχόμενο</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Συνδεδεμένη μετατόπιση</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Σημεία Αποτυχίας</value>
@@ -160,14 +277,41 @@
   <data name="show.info.source" xml:space="preserve">
     <value>Προέλευση</value>
   </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Αυτό το beatmap περιέχει storyboard</value>
+  </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Ποσοστό Επιτυχίας</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Ετικέτες Χρήστη</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Αυτό το beatmap περιέχει βίντεο</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Αυτό το beatmap περιέχει ρητό, προσβλητικό, ή ενοχλητικό περιεχόμενο. Θα θέλεις να το δεις ούτως ή άλλως?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Ακατάλληλο περιεχόμενο</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Απενεργοποίηση προειδοποίησης</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Λίστα Beatmap</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Εμφάνιση</value>
   </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>επετεύχθη {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
     <value>Κατάταξη στη Χώρα</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Αποτυχία φόρτωσης κατάταξης</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Κατάταξη στους Φίλους</value>
@@ -196,6 +340,9 @@
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
     <value>Mods</value>
   </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Καρφίτσωμα</value>
+  </data>
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Παίκτης</value>
   </data>
@@ -207,6 +354,9 @@
   </data>
   <data name="show.scoreboard.headers.score_total" xml:space="preserve">
     <value>Συνολικό Σκορ</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Χρόνος</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
     <value>Κανένας από τη χώρα σας δεν έχει κάποιο σκορ σε αυτό το map ακόμα!</value>
@@ -220,6 +370,9 @@
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Φόρτωση σκορ...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Κανένας από την ομάδα σου δεν έχει ορίσει βαθμολογία σε αυτό το map ακόμα!</value>
+  </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Unranked beatmap.</value>
   </data>
@@ -228,6 +381,12 @@
   </data>
   <data name="show.scoreboard.score.own" xml:space="preserve">
     <value>Το καλύτερό σας</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Κάνε κλικ {0} για να δεις όλες τις φοβερές δυνατότητες που αποκτάς!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>εδώ</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>Μέγεθος Κύκλου</value>
@@ -259,6 +418,9 @@
   <data name="show.stats.count_sliders" xml:space="preserve">
     <value>Αριθμός Sliders</value>
   </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Διαδικτυακή μετατόπιση: {0}</value>
+  </data>
   <data name="show.stats.user-rating" xml:space="preserve">
     <value>Βαθμολόγηση Χρηστών</value>
   </data>
@@ -270,5 +432,29 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Φορές που παίχτηκε</value>
+  </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Καταταγμένο</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Αγαπημένο</value>
+  </data>
+  <data name="show.status.qualified" xml:space="preserve">
+    <value>Πιστοποιημένο</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>Σε εκκρεμότητα</value>
+  </data>
+  <data name="show.status.graveyard" xml:space="preserve">
+    <value>Νεκροταφείο</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Προσκήνιο</value>
   </data>
 </root>

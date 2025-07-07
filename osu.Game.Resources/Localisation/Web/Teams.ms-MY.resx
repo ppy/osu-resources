@@ -68,7 +68,10 @@
     <value>Permintaan masuk ditolak.</value>
   </data>
   <data name="applications.store.ok" xml:space="preserve">
-    <value>Kemasukan ke pasukan diminta.</value>
+    <value>Kemasukan ke pasukan dipinta.</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} ahli</value>
   </data>
   <data name="create.submit" xml:space="preserve">
     <value>Cipta Pasukan</value>
@@ -119,7 +122,7 @@
     <value>Membenarkan pemain lain memohon masuk pasukan</value>
   </data>
   <data name="edit.settings.default_ruleset_help" xml:space="preserve">
-    <value>Ruleset yang dipilih secara asal ketika melawat halaman pasukan</value>
+    <value>Cara main yang dipilih secara asal ketika melawat halaman pasukan</value>
   </data>
   <data name="edit.settings.flag_help" xml:space="preserve">
     <value>Ukuran maksimum {0}×{1}</value>
@@ -140,7 +143,7 @@
     <value>tetapan</value>
   </data>
   <data name="header_links.leaderboard" xml:space="preserve">
-    <value>carta kedudukan</value>
+    <value>papan pendahulu</value>
   </data>
   <data name="header_links.show" xml:space="preserve">
     <value>maklumat</value>
@@ -149,7 +152,7 @@
     <value>urus ahli</value>
   </data>
   <data name="leaderboard.global_rank" xml:space="preserve">
-    <value>Kedudukan Dunia</value>
+    <value>Pangkat Dunia</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>Ahli pasukan dikeluarkan</value>
@@ -161,7 +164,7 @@
     <value>Tambah pengguna {0} ke pasukan?</value>
   </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>Diminta pada</value>
+    <value>Dipinta Pada</value>
   </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>Tiada permintaan masuk pada masa ini.</value>
@@ -172,6 +175,9 @@
   <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
     <value>{0} pengguna limpahan</value>
   </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Tolak permintaan masuk dari pengguna {0}?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Permintaan Masuk</value>
   </data>
@@ -180,6 +186,15 @@
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Keluarkan</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Keluarkan pengguna {0} dari pasukan?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Pindahkan kepimpinan pasukan</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Pindahkan kepimpinan pasukan kepada pengguna {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Taraf</value>
@@ -192,6 +207,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Giat</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Pengguna {0} kini ketua pasukan.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Pasukan ditinggalkan ;m;</value>
@@ -230,7 +248,7 @@
     <value>Ahli</value>
   </data>
   <data name="show.statistics.rank" xml:space="preserve">
-    <value>Kedudukan</value>
+    <value>Pangkat</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Ketua Pasukan</value>

@@ -131,16 +131,16 @@
     <value>perfil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
-    <value>Beatmap</value>
+    <value>Mapa</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
     <value>Dificultat de convidat</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Ara ets propietari de la dificultat "{0}" del mapa "{1}"</value>
+    <value>Ara ets propietari de la dificultat «{0}» del mapa «{1}»</value>
   </data>
   <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
-    <value>Ara ets el propietari de la dificultat "{0}"</value>
+    <value>Ara ets el propietari de la dificultat «{0}»</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
     <value>Discussió de mapes</value>
@@ -200,7 +200,7 @@
     <value>Informe de {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
-    <value>L'estat del beatmap ha canviat</value>
+    <value>L'estat del mapa ha canviat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
     <value>"{0}" ha estat desqualificat</value>
@@ -209,10 +209,10 @@
     <value>El mapa ha estat desqualificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>s'ha promogut "{0}" a "amats"</value>
+    <value>s'ha promogut «{0}» a «estimats»</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>El mapa s'ha promocionat a "estimats"</value>
+    <value>El mapa s'ha promogut a «estimats»</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" ha estat nominat</value>
@@ -233,10 +233,10 @@
     <value>El mapa s'ha classificat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>s'ha esborrat "{0}" d'"amats"</value>
+    <value>s'ha esborrat «{0}» d'«estimats»</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>El mapa s'ha esborrat d'"amats"</value>
+    <value>El mapa s'ha esborrat d'«estimats»</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>La nominació de "{0}" s'ha reiniciat</value>
@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>de {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Missatge d'equip nou</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} diu «{1}»</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} diu «{1}»</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} diu «{1}»</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Registre de canvis</value>
   </data>
@@ -334,26 +346,44 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ha respost</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Sol·licitud d'unió a l'equip</value>
+  </data>
   <data name="item.team.team_application.team_application_accept" xml:space="preserve">
     <value>T'has unit a l'equip {0}</value>
   </data>
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>T'has unit a l'equip {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Actualitzacions de sol·licituds d'unió a l'equip</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>La vostra sol·licitud per a unir-vos a l'equip {0} s'ha desestimat.</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>La vostra sol·licitud per a unir-vos a l'equip {0} s'ha desestimat.</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} sol·licita unir-se al vostre equip.</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} sol·licita unir-se al vostre equip.</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
-    <value>Nou mapa</value>
+    <value>Mapa nou</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>Nou mapa "{0}" per {1}</value>
+    <value>Mapa «{0}» de {1} nou</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
-    <value>Nou mapa "{0}"</value>
+    <value>Mapa «{0}» nou</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
-    <value>Nous mapes de {0}</value>
+    <value>Mapes nous de {0}</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} ha restaurat el beatmap «{1}»</value>
+    <value>{0} ha restaurat el mapa "{1}"</value>
   </data>
   <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
     <value>S'ha restaurat el mapa "{0}"</value>
@@ -374,7 +404,7 @@
     <value>S'han desbloquejat Medalles!</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Ara ets un convidat del beatmap "{0}"</value>
+    <value>Ara ets un convidat del mapa «{0}»</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>La discussió a "{0}" s'ha tancat</value>
@@ -392,7 +422,7 @@
     <value>"{0}" ha estat desqualificat</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>s'ha promogut "{0}" a "estimats"</value>
+    <value>s'ha promogut «{0}» a «estimats»</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>"{0}" ha estat nominat</value>
@@ -404,13 +434,22 @@
     <value>"{0}" s'ha classificat</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>s'ha esborrat "{0}" de "estimats"</value>
+    <value>s'ha esborrat «{0}» d'«estimats»</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>La nominació de "{0}" s'ha reiniciat</value>
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
-    <value>El beatmap "{0}" té nous comentaris</value>
+    <value>El mapa «{0}» té comentaris nous</value>
+  </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Hi ha un anunci nou a «{0}».</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Has rebut un nou missatge de {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Hi ha un missatge a l'equip «{0}».</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>El registre de canvis "{0}" té nous comentaris</value>
@@ -424,10 +463,16 @@
   <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
     <value>T'has unit a l'equip {0}</value>
   </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>La vostra sol·licitud per a unir-vos a l'equip {0} s'ha desestimat.</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} sol·licita unir-se al vostre equip.</value>
+  </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>{0} ha creat nous beatmaps</value>
+    <value>{0} ha creat mapes nous</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} ha restaurat beatmaps</value>
+    <value>{0} ha restaurat mapes</value>
   </data>
 </root>

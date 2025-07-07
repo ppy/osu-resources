@@ -278,13 +278,25 @@
     <value>Новое сообщение</value>
   </data>
   <data name="item.channel.channel.pm.channel_message" xml:space="preserve">
-    <value>{0} вам написал: "{1}"</value>
+    <value>{0} написал: "{1}"</value>
   </data>
   <data name="item.channel.channel.pm.channel_message_compact" xml:space="preserve">
     <value>{0}</value>
   </data>
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>от {0}</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Новое сообщение от команды</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} написал: "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} написал: "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} написал: "{1}"</value>
   </data>
   <data name="item.build._" xml:space="preserve">
     <value>Список изменений</value>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Вы стали участником команды {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Обновления по запросам на вступление в команду</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
-    <value>Отклонён запрос на вступление в команду {0}</value>
+    <value>Ваш запрос на вступление в команду {0} отклонён</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
-    <value>Отклонён запрос на вступление в команду {0}</value>
+    <value>Ваш запрос на вступление в команду {0} отклонён</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} подал запрос на вступление в вашу команду</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} подал запрос на вступление в вашу команду</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Новая карта</value>
@@ -421,6 +442,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Новые комментарии под картой "{0}"</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Новое объявление в канале "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Вы получили новое сообщение от {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Новое сообщение в чате команды "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Новые комментарии под обновлением "{0}"</value>
   </data>
@@ -435,6 +465,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Ваш запрос на вступление в команду {0} отклонён</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} подал запрос на вступление в вашу команду</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} создал новые карты</value>

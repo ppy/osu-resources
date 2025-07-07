@@ -86,7 +86,7 @@
     <value>semua</value>
   </data>
   <data name="action_type.beatmapset" xml:space="preserve">
-    <value>beatmap</value>
+    <value>peta rentak</value>
   </data>
   <data name="action_type.build" xml:space="preserve">
     <value>binaan</value>
@@ -113,7 +113,7 @@
     <value>peta rentak</value>
   </data>
   <data name="filters.build" xml:space="preserve">
-    <value>versi</value>
+    <value>binaan</value>
   </data>
   <data name="filters.channel" xml:space="preserve">
     <value>bual</value>
@@ -221,16 +221,16 @@
     <value>Peta rentak telah dicalonkan</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran penarafan Berkedudukan</value>
+    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran penarafan Berpangkat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
-    <value>Peta rentak memasuki giliran penarafan Berkedudukan</value>
+    <value>Peta rentak memasuki giliran penarafan Berpangkat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" telah berkedudukan</value>
+    <value>"{0}" telah berpangkat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>Peta rentak telah berkedudukan</value>
+    <value>Peta rentak telah berpangkat</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" dipadam dari Kegemaran</value>
@@ -239,10 +239,10 @@
     <value>Peta rentak dipadam dari Kegemaran</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>Pencalonan "{0}" telah diset semula</value>
+    <value>Pencalonan "{0}" telah ditetap semula</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
-    <value>Pencalonan telah diset semula</value>
+    <value>Pencalonan telah ditetap semula</value>
   </data>
   <data name="item.beatmapset.comment._" xml:space="preserve">
     <value>Komen baharu</value>
@@ -285,6 +285,18 @@
   </data>
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>dari {0}</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Pesanan pasukan baharu</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} berkata "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} berkata "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} berkata "{1}"</value>
   </data>
   <data name="item.build._" xml:space="preserve">
     <value>Log perubahan</value>
@@ -343,11 +355,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Anda kini ahli pasukan {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Pengemaskinian permintaan masuk pasukan</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} meminta untuk memasuki pasukan anda</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} meminta untuk memasuki pasukan anda</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Peta rentak baharu</value>
@@ -383,7 +404,7 @@
     <value>Pingat dibuka!</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
-    <value>Anda kini tamu beatmap "{0}"</value>
+    <value>Anda kini tamu peta rentak "{0}"</value>
   </data>
   <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
     <value>Perbincangan untuk "{0}" telah ditutup</value>
@@ -407,19 +428,28 @@
     <value>"{0}" telah diberikan status dicalonkan</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
-    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran penarafan Berkedudukan</value>
+    <value>"{0}" telah memperoleh jumlah pencalonan yang cukup dan memasuki giliran penarafan Berpangkat</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" telah berkedudukan</value>
+    <value>"{0}" telah berpangkat</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" dipadam dari Kegemaran</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
-    <value>Pencalonan "{0}" telah diset semula</value>
+    <value>Pencalonan "{0}" telah ditetap semula</value>
   </data>
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Peta rentak "{0}" mempunyai komen baharu</value>
+  </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Terdapat pengumuman baharu pada "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Anda telah menerima pesanan baharu dari {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Terdapat pesanan baharu dalam pasukan "{0}"</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Terdapat komen baharu pada log perubahan "{0}"</value>
@@ -436,10 +466,13 @@
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Permintaan anda untuk memasuki pasukan {0} ditolak</value>
   </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} meminta untuk memasuki pasukan anda</value>
+  </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
-    <value>{0} telah mencipta beatmap baru</value>
+    <value>{0} telah mencipta peta rentak baru</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
-    <value>{0} memiliki beatmap yang dipulihkan dari Perkuburan</value>
+    <value>{0} telah kembalikan peta rentak</value>
   </data>
 </root>

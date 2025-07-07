@@ -155,10 +155,10 @@
     <value>Oh não! Parece que a tua conta foi desativada.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>No caso de teres desrespeitado uma regra, por favor nota que geralmente há um período de espera de 1 mês durante o qual não iremos considerar nenhum pedido de amnistia. Após este período, podes entrar em contacto connosco caso aches necessário. Por favor nota que a criação de novas contas após teres tido uma desativada resultará numa &lt;strong&gt;extensão deste período de espera de 1 mês &lt;/strong&gt;. Por favor nota também que para &lt;strong&gt;cada conta que cries, estás a violar ainda mais as regras&lt;/strong&gt;. Sugerimos muito que não sigas este caminho!</value>
+    <value>No caso de teres desrespeitado uma regra, nota que há geralmente um período de espera de um mês durante o qual não iremos considerar nenhum pedido de amnistia. Após este período, poderás entrar em contacto connosco caso aches necessário. Nota que a criação de novas contas, após teres tido uma desativada, resultará numa &lt;strong&gt;extensão deste período de espera de um mês &lt;/strong&gt;. Recorda também que para &lt;strong&gt;cada conta que cries, estás a violar ainda mais as regras&lt;/strong&gt;. Instamos que não sigas este caminho!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Se achas que isto é um engano, poderás entrar em contacto connosco (via {0} ou ao clicar em "?" no canto inferior direito desta página). Por favor nota que estamos sempre totalmente confiantes com as nossas ações, uma vez que se baseiam em dados fidedignos. Nós reservamo-nos ao direito de ignorar o teu pedido se sentirmos que estás a ser intencionalmente desonesto.</value>
+    <value>Se achares que isto é um engano, poderás entrar em contacto connosco (por {0} ou ao clicar em "?" no canto inferior direito desta página). Recorda que estamos sempre confiantes com as nossas ações, uma vez que se baseiam em dados fidedignos. Reservamo-nos ao direito de ignorar o teu pedido se sentirmos que estejas a ser intencionalmente desonesto.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>email</value>
@@ -197,7 +197,7 @@
     <value>A iniciar sessão...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>Neste momento, a autenticação por email está desativada. Por favor usa o nome de utilizador como alternativa.</value>
+    <value>Neste momento, a autenticação por email está desativada. Usa o nome de utilizador como alternativa.</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>Início de sessão incorreto</value>
@@ -206,13 +206,13 @@
     <value>Esqueceste-te da palavra-passe?</value>
   </data>
   <data name="login.info" xml:space="preserve">
-    <value>Por favor inicia sessão para continuar</value>
+    <value>Inicia sessão para continuar</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
     <value>Demasiadas tentativas falhadas de início de sessão, termina o captcha e tenta novamente. (Atualiza a página se o captcha não estiver visível)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
-    <value>o teu endereço de IP foi bloqueado. Por favor espera uns minutos.</value>
+    <value>O teu endereço de IP foi bloqueado. Espera uns minutos.</value>
   </data>
   <data name="login.password" xml:space="preserve">
     <value>Palavra-passe</value>
@@ -224,7 +224,7 @@
     <value>Lembrar este computador</value>
   </data>
   <data name="login.title" xml:space="preserve">
-    <value>Por favor inicia sessão para proceder</value>
+    <value>Inicia sessão para proceder</value>
   </data>
   <data name="login.username" xml:space="preserve">
     <value>Nome de utilizador</value>
@@ -275,7 +275,7 @@
     <value>Comentários adicionais</value>
   </data>
   <data name="report.placeholder" xml:space="preserve">
-    <value>Por favor fornece qualquer informação que acredites ser útil.</value>
+    <value>Fornece qualquer informação que acredites ser útil.</value>
   </data>
   <data name="report.reason" xml:space="preserve">
     <value>Motivo</value>
@@ -294,6 +294,9 @@
   </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Jogada suja / Fazer batota</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Comportamento inadequado na conversa</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Insulto a mim ou a outros</value>
@@ -317,7 +320,7 @@
     <value>A tua conta foi restrita!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Enquanto restrito(a), estarás incapaz de interagir com outros jogadores e as tuas pontuações só serão visíveis para ti. Isto é habitualmente o resultado dum processo automático e irá ser levantado geralmente em 24 horas. Se quiseres apelar a tua restrição, por favor &lt;a href="mailto{0}@ppy.sh"&gt;contacta a assistência&lt;/a&gt;.</value>
+    <value>Enquanto estiveres restrito(a), estarás incapaz de interagir com outros jogadores e as tuas pontuações só serão visíveis para ti. Isto é o resultado dum processo automático e será levantado geralmente em 24 horas. Se quiseres apelar a tua restrição, &lt;a href="mailto{0}@ppy.sh"&gt;contacta a assistência&lt;/a&gt;.</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Consulta esta página para saberes mais.</value>
@@ -793,6 +796,12 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Classificação mais alta: {0} em {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Topo {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Pontuação total</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisão de acertos</value>
   </data>
@@ -857,10 +866,10 @@
     <value>Offline</value>
   </data>
   <data name="store.from_client" xml:space="preserve">
-    <value>por favor regista-te através do cliente do jogo!</value>
+    <value>Regista-te através do cliente do jogo!</value>
   </data>
   <data name="store.from_web" xml:space="preserve">
-    <value>por favor regista-te através do sítio web</value>
+    <value>Regista-te através do sítio web.</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Criado por utilizadores</value>

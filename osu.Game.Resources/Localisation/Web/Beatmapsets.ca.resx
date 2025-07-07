@@ -62,7 +62,7 @@
     <value>Aquest beatmap no es pot baixar actualment.</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
-    <value>S'han eliminat parts d'aquest beatmap a petició del creador o d'un tercer titular dels drets.</value>
+    <value>S'han eliminat parts d'aquest mapa a petició del creador o d'un tercer titular dels drets.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
     <value>Fes clic aquí per a més informació.</value>
@@ -71,7 +71,7 @@
     <value>Alguns continguts d'aquest mapa han estat eliminats després de ser considerats no aptes pel seu ús a osu!.</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
-    <value>Beatmap eliminat</value>
+    <value>Mapa eliminat</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>A poc a poc, juga més.</value>
@@ -128,13 +128,13 @@
     <value>El requisit de nominació per a regles no bàsiques ja s'ha complit.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>Estàs segur que vols nominar aquest beatmap?</value>
+    <value>Esteu segur que voleu nominar aquest mapa?</value>
   </data>
   <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
-    <value>Si es qualifica aquest beatmap amb nominadors diferents farà que es restableixi la seva posició a la cua de qualificacions.</value>
+    <value>Si es qualifica aquest mapa amb nominadors diferents farà que es restableixi la seva posició a la cua de qualificacions.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
-    <value>Nominar beatmap</value>
+    <value>Nomina el mapa</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>nota: només pot nominar una vegada, així que assegureu-vos que està nominant per a totes els modes de joc que desitgi</value>
@@ -155,7 +155,7 @@
     <value>Veure imatge de portada a mida completa</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
-    <value>Aquest beatmap ha sigut esborrat.</value>
+    <value>Aquest mapa s'ha esborrat.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
     <value>(només els moderadors poden veure això)</value>
@@ -167,10 +167,10 @@
     <value>marcar com a preferit</value>
   </data>
   <data name="show.details.favourite_login" xml:space="preserve">
-    <value>inicia sessió per a guardar el beatmap a preferits</value>
+    <value>inicia sessió per a guardar el mapa a preferits</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>necessites iniciar sessió abans de descarregar qualsevol beatmap!</value>
+    <value>necessites iniciar sessió abans de descarregar mapes!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>mapejat per {0}</value>
@@ -218,7 +218,7 @@
     <value>darrera actualització: {0}</value>
   </data>
   <data name="show.favourites.limit_reached" xml:space="preserve">
-    <value>Has guardat masses beatmaps a preferits! Si us plau, esborra'n alguns abans de tornar-ho a intentar.</value>
+    <value>Has guardat masses mapes a preferits! Esborra'n alguns abans de tornar-ho a intentar.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
     <value>Mostra eufòria a aquest mapa per ajudar al seu progrés a l'estat &lt;strong&gt;classificat&lt;/strong&gt;.</value>
@@ -236,10 +236,10 @@
     <value>treball en curs</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Si trobeu algun problema amb aquest beatmap, si us plau desqualifiqueu-lo {0}.</value>
+    <value>Si trobeu algun problema amb aquest mapa, desqualifiqueu-lo {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
-    <value>Si trobeu un problema amb aquest beatmap, si us plau reporteu-lo {0} per alertar l'equip.</value>
+    <value>Si trobeu un problema amb aquest mapa, informeu a l'enllaç {0} per a alertar l'equip.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Informar un problema</value>
@@ -255,6 +255,9 @@
   </data>
   <data name="show.info.language" xml:space="preserve">
     <value>Idioma</value>
+  </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Etiquetes de mapejadors</value>
   </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Les dades encara s'estan calculant...</value>
@@ -275,16 +278,19 @@
     <value>Font</value>
   </data>
   <data name="show.info.storyboard" xml:space="preserve">
-    <value>Aquest beatmap conté una storyboard</value>
+    <value>Aquest mapa conté un storyboard</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Percentatge d'èxit</value>
   </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Etiquetes d'usuari</value>
+  </data>
   <data name="show.info.video" xml:space="preserve">
-    <value>Aquest beatmap conté vídeo</value>
+    <value>Aquest mapa conté vídeo</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Aquest beatmap conté llenguatge explícit o ofensiu. Tot i això voleu veure'l?</value>
+    <value>Aquest mapa conté llenguatge explícit o ofensiu. Tot i això voleu veure'l?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Contingut explícit</value>
@@ -293,10 +299,10 @@
     <value>Deshabilitar l'advertència</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
-    <value>Llistat de beatmaps</value>
+    <value>Llistat de mapes</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
-    <value>Mostrar</value>
+    <value>Mostra</value>
   </data>
   <data name="show.scoreboard.achieved" xml:space="preserve">
     <value>assolit {0}</value>
@@ -356,10 +362,10 @@
     <value>Temps</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
-    <value>Ningú del teu país ha establert una puntuació en aquest beatmap encara!</value>
+    <value>Ningú del vostre país ha establert una puntuació en aquest mapa!</value>
   </data>
   <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
-    <value>Cap dels teus amics ha marcat cap puntuació en aquest beatmap encara!</value>
+    <value>Cap dels teus amics ha marcat cap puntuació en aquest mapa!</value>
   </data>
   <data name="show.scoreboard.no_scores.global" xml:space="preserve">
     <value>Sense puntuacions encara. Potser hauries d'intentar-ne establir alguna?</value>
@@ -371,7 +377,7 @@
     <value>Ningú del teu equip ha establert una puntuació en aquest beatmap!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Beatmap no classificat.</value>
+    <value>Mapa sense classificar</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Liderant</value>
