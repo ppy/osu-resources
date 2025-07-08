@@ -78,7 +78,7 @@ for first_indicator in $(seq $regional_indicator_a $regional_indicator_z); do
                  -0.0213  1.0285 -0.0072, 0.0, 0.0 \
                  -0.0213 -0.0715  1.0928, 0.0, 0.0 \
                   0.0000  0.0000  0.0000, 1.0, 0.0 \
-                  0.0000  0.0000  0.0000, 0.0, 0.1" \
+                  0.0000  0.0000  0.0000, 0.0, 1.0" \
                 -fill "#FEFEFE" -colorize 25% \
                 -resize x108 \
                 -gravity center -background none -extent 150x108 ${intermediate_path}
