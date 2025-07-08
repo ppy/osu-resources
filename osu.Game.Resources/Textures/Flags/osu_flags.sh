@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script generates PNG flag images for use with osu!, basing on flags from the twemoji project: https://github.com/twitter/twemoji
+# This script generates PNG flag images for use with osu!, basing on flags from the twemoji project: https://github.com/jdecked/twemoji
 # The script should be copied into the root directory of the twemoji repository after cloning, and ran from there.
 # inkscape, imagemagick, and pngcrush are required to run this script.
 
