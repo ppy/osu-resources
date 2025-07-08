@@ -73,7 +73,7 @@ for first_indicator in $(seq $regional_indicator_a $regional_indicator_z); do
             #   Unfortunately the world is cruel and flags have differing aspect ratio, and lazer expects to be able to fill the flag area with the sprite horizontally.
             #   So sometimes, on square flags (Switzerland, Vatican) or worse (Nepal), we need to pad the sprite on the left & right to a common constant size.
             #   That dimension is set to 150x108.
-            convert ${target_path} -trim +repage -color-matrix \
+            magick ${target_path} -trim +repage -color-matrix \
                 " 1.0787 -0.0715 -0.0072, 0.0, 0.0 \
                  -0.0213  1.0285 -0.0072, 0.0, 0.0 \
                  -0.0213 -0.0715  1.0928, 0.0, 0.0 \
