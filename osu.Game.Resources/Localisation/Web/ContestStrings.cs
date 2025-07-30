@@ -264,6 +264,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString StatesResults => new TranslatableString(getKey(@"states.results"), @"Results Out");
 
+        /// <summary>
+        /// "View info and entries"
+        /// </summary>
+        public static LocalisableString ShowAdminPage => new TranslatableString(getKey(@"show.admin.page"), @"View info and entries");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

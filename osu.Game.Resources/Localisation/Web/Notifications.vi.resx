@@ -287,6 +287,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>từ {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Tin nhắn mới của đội</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} nói "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} nói "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} nói "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Chi tiết thay đổi</value>
   </data>
@@ -344,11 +356,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Bây giờ bạn là thành viên của đội {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Cập nhật yêu cầu tham gia đội</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Yêu cầu gia nhập đội {0} của bạn đã bị từ chối</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Yêu cầu gia nhập đội {0} của bạn đã bị từ chối</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} yêu cầu tham gia đội của bạn</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} yêu cầu tham gia đội của bạn</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Beatmap mới</value>
@@ -422,6 +443,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap "{0}" đã có bình luận mới</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Có một thông báo mới ở "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Bạn nhận được tin nhắn mới từ {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Có tin nhắn mới trong đội "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Nhật kí thay đổi "{0}" đã có bình luận mới</value>
   </data>
@@ -436,6 +466,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Yêu cầu gia nhập đội {0} của bạn đã bị từ chối</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} yêu cầu tham gia đội của bạn</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} đã tạo beatmap mới</value>

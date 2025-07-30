@@ -70,6 +70,9 @@
   <data name="applications.store.ok" xml:space="preserve">
     <value>Đã yêu cầu gia nhập vào đội.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} thành viên|:{0} thành viên</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Tạo đội</value>
   </data>
@@ -157,6 +160,9 @@
   <data name="members.index.title" xml:space="preserve">
     <value>Quản lý thành viên</value>
   </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Thêm {0} vào đội không?</value>
+  </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
     <value>Yêu cầu vào lúc</value>
   </data>
@@ -165,6 +171,12 @@
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
     <value>Số chỗ còn trống</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} người dùng|:{0} người dùng</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Từ chối yêu cầu tham gia từ {0}?</value>
   </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>Yêu cầu gia nhập</value>
@@ -175,8 +187,14 @@
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Loại</value>
   </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Loại bỏ {0} khỏi đội không?</value>
+  </data>
   <data name="members.index.table.set_leader" xml:space="preserve">
     <value>Bàn giao quyền lãnh đạo đội</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Chuyển trưởng đội sang {0}?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Trạng thái</value>
@@ -189,6 +207,9 @@
   </data>
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Hoạt động</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Bây giờ {0} là trưởng đội.</value>
   </data>
   <data name="part.ok" xml:space="preserve">
     <value>Đã rời đội ;_;</value>
@@ -226,11 +247,11 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Thành viên</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Hạng</value>
-  </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Trưởng đội</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Hạng</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Đội đã được tạo.</value>

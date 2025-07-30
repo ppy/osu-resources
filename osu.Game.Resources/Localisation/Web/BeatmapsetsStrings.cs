@@ -170,6 +170,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowAdminFullSizeCover => new TranslatableString(getKey(@"show.admin.full_size_cover"), @"View full size cover image");
 
         /// <summary>
+        /// "View admin page"
+        /// </summary>
+        public static LocalisableString ShowAdminPage => new TranslatableString(getKey(@"show.admin.page"), @"View admin page");
+
+        /// <summary>
         /// "This beatmap has been deleted."
         /// </summary>
         public static LocalisableString ShowDeletedBannerTitle => new TranslatableString(getKey(@"show.deleted_banner.title"), @"This beatmap has been deleted.");

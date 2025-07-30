@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Score</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Score normalisé</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>score total</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>score total normalisé</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Vous êtes juge de ce concours. Jugez les entrées ici !</value>
@@ -180,6 +186,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} point|{0} points</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} points</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Terminé le {0}</value>

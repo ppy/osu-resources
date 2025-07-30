@@ -255,6 +255,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumPostEditNoForumAccess => new TranslatableString(getKey(@"forum.post.edit.no_forum_access"), @"Access to requested forum is required.");
 
         /// <summary>
+        /// "No permission to edit."
+        /// </summary>
+        public static LocalisableString ForumPostEditNoPermission => new TranslatableString(getKey(@"forum.post.edit.no_permission"), @"No permission to edit.");
+
+        /// <summary>
         /// "Only poster can edit the post."
         /// </summary>
         public static LocalisableString ForumPostEditNotOwner => new TranslatableString(getKey(@"forum.post.edit.not_owner"), @"Only poster can edit the post.");

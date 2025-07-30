@@ -45,11 +45,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BadgesNew => new TranslatableString(getKey(@"badges.new"), @"NEW");
 
         /// <summary>
-        /// "Admin"
-        /// </summary>
-        public static LocalisableString ButtonsAdmin => new TranslatableString(getKey(@"buttons.admin"), @"Admin");
-
-        /// <summary>
         /// "Authorise"
         /// </summary>
         public static LocalisableString ButtonsAuthorise => new TranslatableString(getKey(@"buttons.authorise"), @"Authorise");

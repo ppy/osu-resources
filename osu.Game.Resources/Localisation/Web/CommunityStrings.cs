@@ -305,14 +305,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SupportPerksFriendFilteringDescription => new TranslatableString(getKey(@"support.perks.friend_filtering.description"), @"Compete with your friends and see how you rank up against them!");
 
         /// <summary>
-        /// "Thanks for your support so far! You have contributed {0} over {1} tag purchases!"
+        /// "Thank you for your ongoing support! So far, you&#39;ve contributed a total of {0}, earning you the &quot;Supporter&quot; tag for {1}."
         /// </summary>
-        public static LocalisableString SupportSupporterStatusContribution(LocalisableString dollars, LocalisableString tags) => new TranslatableString(getKey(@"support.supporter_status.contribution"), @"Thanks for your support so far! You have contributed {0} over {1} tag purchases!", dollars, tags);
-
-        /// <summary>
-        /// "You have given away {0} of your purchases as gifts (that&#39;s {1} worth), how generous!"
-        /// </summary>
-        public static LocalisableString SupportSupporterStatusGifted(LocalisableString giftedTags, LocalisableString giftedDollars) => new TranslatableString(getKey(@"support.supporter_status.gifted"), @"You have given away {0} of your purchases as gifts (that's {1} worth), how generous!", giftedTags, giftedDollars);
+        public static LocalisableString SupportSupporterStatusContributionWithDuration(LocalisableString dollars, LocalisableString duration) => new TranslatableString(getKey(@"support.supporter_status.contribution_with_duration"), @"Thank you for your ongoing support! So far, you've contributed a total of {0}, earning you the ""Supporter"" tag for {1}.", dollars, duration);
 
         /// <summary>
         /// "You haven&#39;t ever had an osu!supporter tag :("
@@ -328,6 +323,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Your osu!supporter tag was valid until {0}."
         /// </summary>
         public static LocalisableString SupportSupporterStatusWasValidUntil(LocalisableString date) => new TranslatableString(getKey(@"support.supporter_status.was_valid_until"), @"Your osu!supporter tag was valid until {0}.", date);
+
+        /// <summary>
+        /// "Out of your total contributions, you’ve gifted {0} worth of tags to {1} covering {2}. That’s incredibly generous!"
+        /// </summary>
+        public static LocalisableString SupportSupporterStatusGiftedDefault(LocalisableString dollars, LocalisableString users, LocalisableString duration) => new TranslatableString(getKey(@"support.supporter_status.gifted._"), @"Out of your total contributions, you’ve gifted {0} worth of tags to {1} covering {2}. That’s incredibly generous!", dollars, users, duration);
+
+        /// <summary>
+        /// "{0} other user|{0} other users"
+        /// </summary>
+        public static LocalisableString SupportSupporterStatusGiftedUsers(LocalisableString countDelimited) => new TranslatableString(getKey(@"support.supporter_status.gifted.users"), @"{0} other user|{0} other users", countDelimited);
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
