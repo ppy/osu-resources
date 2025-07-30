@@ -444,6 +444,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString UserButtonsStore => new TranslatableString(getKey(@"user.buttons.store"), @"osu!store");
 
+        /// <summary>
+        /// "Open admin console"
+        /// </summary>
+        public static LocalisableString UserShowAdminPage => new TranslatableString(getKey(@"user.show.admin.page"), @"Open admin console");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

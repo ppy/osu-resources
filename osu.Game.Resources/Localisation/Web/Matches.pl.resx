@@ -82,6 +82,54 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} różnicą {1} punktów</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>gra została anulowana</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>gra została anulowana</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>gra została zakończona</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>gra została zakończona</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>gracz {0} został hostem</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>host został zmieniony</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>gracz {0} dołączył do meczu</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>gracz dołączył do meczu</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>gracz {0} został wyrzucony z meczu</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>gracz został wyrzucony z meczu</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>gracz {0} opuścił mecz</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>gracz opuścił mecz</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>gracz {0} utworzył mecz</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>mecz został utworzony</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>mecz został zakończony</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>mecz został zakończony</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Celność</value>
   </data>
@@ -91,6 +139,18 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Wynik</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Każdy z każdym (Head-to-head)</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Kooperacja turowa (Tag Co-op)</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Kooperacja drużynowa (Tag Team VS)</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Rywalizacja drużyn (Team VS)</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Drużyna niebieska</value>
   </data>
@@ -98,7 +158,7 @@
     <value>Drużyna czerwona</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
-    <value>Najlepszy wynik</value>
+    <value>Najwyższy wynik</value>
   </data>
   <data name="game.scoring-type.accuracy" xml:space="preserve">
     <value>Najwyższa celność</value>

@@ -325,14 +325,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowSectionsMembers => new TranslatableString(getKey(@"show.sections.members"), @"Members");
 
         /// <summary>
-        /// "Rank"
+        /// "{0} slot available|{0} slots available"
         /// </summary>
-        public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
+        public static LocalisableString ShowStatisticsEmptySlots(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.statistics.empty_slots"), @"{0} slot available|{0} slots available", countDelimited);
 
         /// <summary>
         /// "Team Leader"
         /// </summary>
         public static LocalisableString ShowStatisticsLeader => new TranslatableString(getKey(@"show.statistics.leader"), @"Team Leader");
+
+        /// <summary>
+        /// "Rank"
+        /// </summary>
+        public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
 
         /// <summary>
         /// "Team created."

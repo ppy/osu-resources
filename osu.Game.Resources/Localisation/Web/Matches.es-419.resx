@@ -82,6 +82,54 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} por {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>la partida fue cancelada</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>la partida fue cancelada</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>la partida ha terminado</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>la partida ha terminado</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} se convirtió en el anfitrión</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>el anfitrión fue cambiado</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} se unió a la partida</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>un jugador se unió a la partida</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} ha sido expulsado de la partida</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>un jugador fue expulsado de la partida</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} abandonó la partida</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>un jugador abandonó la partida</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} creó la partida</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>la partida fue creada</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>la partida fue disuelta</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>la partida fue disuelta</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precisión</value>
   </data>
@@ -91,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Puntuación</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Cara a cara</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Tag cooperativo</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Tag por equipos</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Modo por equipos</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Equipo azul</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Equipo rojo</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Modo libre</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Puntuación más alta</value>
