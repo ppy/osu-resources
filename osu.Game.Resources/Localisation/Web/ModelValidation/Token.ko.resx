@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* 은 클라이언트 자격 증명에 허용되지 않아요</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* 은 다른 범위에 적합하지 않아요</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>본 클라이언트의 소유자가 없어요.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>본 클라이언트는 승인되지 않았어요.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>클라이언트 자격 증명 위임은 챗봇에게만 허용돼요.</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>대표인 범위는 오직 client_credentials 토큰들 중에서만 가능해요.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>지금의 범위 조합에서는 위임을 지원하지 않아요.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>대표인 범위를 정해 주세요.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>범위가 없는 토큰들은 유효하지 않아요.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>본 범위는 오직 챗봇 또는 사용자 자신의 클라이언트로만 설정 가능해요.</value>
+  </data>
 </root>

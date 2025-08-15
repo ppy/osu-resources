@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* não é permitido com as credenciais de cliente</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* não é permitido com outros escopos</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>O cliente está sem dono.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>O cliente não está autorizado.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Ordens com as Credenciais de Cliente só estão disponíveis para chat bots.</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>Ordenar escopo ó é valido para tokens client_credentials.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Ordens não são permitidas com essa combinação de escopos.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>Delegar escopos é necessário.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Tokens sem escopos não são necessários.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Este escopo só está disponível para chat bots ou para seus próprios clientes.</value>
+  </data>
 </root>

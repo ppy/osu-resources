@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>Использовать * с Client Credentials запрещено</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* недопустим с другими scopes</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>У клиента отсутствует владелец.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Клиент не авторизован.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Делегирование с Client Credentials доступно только чат-ботам.</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>область (scope) делегирования допустима только для токенов client_credentials.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Делегирование не поддерживается для данной комбинации scope.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>область (scope) делегирования обязательна.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Токены без scope недействительны.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Данный scope доступен только чат-ботам или вашим собственным клиентам.</value>
+  </data>
 </root>
