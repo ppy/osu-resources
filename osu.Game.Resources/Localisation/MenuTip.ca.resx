@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Pitja {0} en qualsevol moment en el joc per commutar la barra d'eines!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Pitja {0} en qualsevol moment en el joc per accedir a la configuració!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Totes les configuracions són dinàmiques i fan efecte en temps real. Prova de canviar de skin mentre mires l'autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Noves funcions surten en línia a cada actualització. Assegura't d'estar al dia!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Si trobes la UI molt gran or molt petita, prova d'ajustar l'escala de la UI a la configuració!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Prova d'ajustar el mode "Escalat de pantalla" per canviar la teva àrea de joc or de la UI, fins i tot en pantalla completa!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>El que solia ser «osu!direct» està disponible per a tots els jugadors just com al lloc web. Podeu accedir-hi en qualsevol moment usant {0}!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Cercar en les repeticions és accessible arrossegant la barra de progrés al peu de la pantalla o usant les tecles de dreta i esquerra!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Prova de desplaçar-te a la dreta en la selecció de mod per trobar un munt de nous mods divertits!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>La majoria del contingut de la web (perfils, classificacions, etc.) estan disponibles de forma nativa al joc des de les icones de la barra d'eines!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Rep més detalls, amaga o elimina un mapa fent clic dret al seu panell al selector de cançons!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Fes una ullada a sistema de "llistes d'àudio", el qual permet als jugadors crear la seva pròpia taula classificatòria personalitzada i permanent!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Commuta les estadístiques avançades dels fotogrames / fils pitjant Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Podeu posar la partida en pausa durant una repetició pitjant {0}!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Moltes de les tecles del joc són configurables i poden ser canviades a qualsevol cosa que vulguis. Revisa el panell de tecles a sota de les configuracions d'entrada!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>El vostre indicador en pantalla de la partida es pot personalitzar amb la interfície d'edició de skins. Obriu-la en qualsevol moment amb {0}!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Pots crear una preselecció de mods per poder canviar la teva configuració preferida de mods de forma més fàcil!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Molts mods tenen configuracions de personalització que canvies dràsticament com funcionen. Clica la tecla de Personalitzar al selector de mods per veure la configuració!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Pitja {0} per canviar a una skin aleatòria!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Mentre mires una repetició, pitja {0} per commutar les opcions de la repetició!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Pots copiar fàcilment els mods d'altres puntuacions a la taula de classificacions fent-los clic dret!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Retorn al selector de cançons iniciarà el mapa amb el mode autoplay!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>«Lazer» no és una paraula correcta en català. La manera correcta d'escriure un raig de llum brillant és «làser».</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>El suport multifilament significa que tenint fins i tot pocs "FPS"  les teves entrades i judicis seran precisos!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Totes les operacions d'eliminació són temporals fins que surts. Restaura el contingut eliminat accidentalment des de les configuracions de manteniment!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Fes una ullada a sota de la coberta al comptador de rendiment i habilita el registre de rendiment detallat amb Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Quan el vostre indicador en pantalla de la partida està amagat, podeu mantenir premut {0} per a veure'l temporalment!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Arrossega i deixa qualsevol imatge a l'editor de skins per carregar-la ràpidament!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Prova de mantenir el botó dret del ratolí al costat del carrusel de mapes per desplaçar-te ràpidament a una posició absoluta!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>un truc per a tu:</value>
+  </data>
+</root>
