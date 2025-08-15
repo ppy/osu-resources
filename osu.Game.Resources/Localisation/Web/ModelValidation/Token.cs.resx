@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* není povoleno s klientskými údaji</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* není platný s jinými rozsahy</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Klientovi chybí vlastník.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Klient není autorizován.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Delegace s klientskými údaji je k dispozici pouze pro chatboty.</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>rozsah delegace je platný pouze pro client_credentials tokeny.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Pro tuto kombinaci rozsahů není delegace podporována.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>rozsah delegáta je vyžadován.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Tokeny bez rozsahu nejsou platné.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Tento rozsah je dostupný pouze pro chatboty nebo pro vaše vlastní klienty.</value>
+  </data>
 </root>

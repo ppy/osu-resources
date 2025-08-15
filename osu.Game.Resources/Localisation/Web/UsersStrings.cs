@@ -305,6 +305,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoginBetaSmall => new TranslatableString(getKey(@"login.beta.small"), @"(osu!supporters will get in soon)");
 
         /// <summary>
+        /// "Active"
+        /// </summary>
+        public static LocalisableString MultiplayerIndexActive => new TranslatableString(getKey(@"multiplayer.index.active"), @"Active");
+
+        /// <summary>
+        /// "Ended"
+        /// </summary>
+        public static LocalisableString MultiplayerIndexEnded => new TranslatableString(getKey(@"multiplayer.index.ended"), @"Ended");
+
+        /// <summary>
         /// "Beatmaps: {0}"
         /// </summary>
         public static LocalisableString OgpModdingDescription(LocalisableString counts) => new TranslatableString(getKey(@"ogp.modding_description"), @"Beatmaps: {0}", counts);

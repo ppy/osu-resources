@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* no està permès amb credencials de client</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* no està permès amb altres àmbits</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Al client li falta el propietari.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>El client no està autoritzat.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>La delegació amb credencials de client només és disponible per a bots del xat.</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>l'àmbit delegat només és vàlid per a testimonis de client_credentials.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>La delegació no suporta aquesta combinació d'àmbits.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>es requereix un àmbit delegat.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Els testimonis sense àmbit no són vàlids.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Aquest àmbit només està disponible per als bots del xat i els vostres propis clients.</value>
+  </data>
 </root>
