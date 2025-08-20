@@ -1,26 +1,12 @@
 #!/bin/bash
 
-# This is a skeleton of a script used to generate these assets from figma correctly.
-# To start using it, export your desired assets from figma *in SVG format*.
+# This script fixes "black border" artifacts on transparent edges that occur on PNG exports from figma.
+# The script will run on all PNG files in $PWD.
+# This script assumes that it is being run on monochrome transparent icon assets and therefore does not attempt to salvage any RGB channel data.
 #
-# Prerequisites for this script: inkscape, imagemagick.
-#
-# Presumed folder structure:
-# - source .svgs in ./src
-# - output .pngs will be placed in ./out
-# - directories must exist
-#
-# Presumed image format:
-# - svgs must contain icons in BLACK
-#   otherwise the `convert -negate` step will not do the right thing
-#   the goal is to have RGB channels of the output PNG all white
-#   and only masked by the alpha channel
+# Prerequisites for this script: imagemagick.
 
-for src_file in ./src/*.svg; do
-	src_filename=$(basename ${src_file})
-	dst_file="./out/${src_filename%.svg}.png"
-	echo "${src_file} -> ${dst_file}"
-
-	inkscape -w 100 ${src_file} -o ${dst_file} > /dev/null 2>&1
-	convert ${dst_file} -channel RGB -negate +channel ${dst_file}
+for src_file in ./*.png; do
+	echo $src_file
+	magick $src_file -alpha set -fill white -colorize 100,100,100 -compose CopyOpacity $src_file
 done
