@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Du kannst überall Strg + T drücken, um die Symbolleiste zu aktivieren oder zu deaktivieren!</value>
+    <value>Du kannst überall {0} drücken, um die Symbolleiste zu aktivieren oder zu deaktivieren!</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Du kannst überall Strg + O drücken, um auf die Optionen zuzugreifen!</value>
+    <value>Du kannst überall {0} drücken, um auf die Optionen zuzugreifen!</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>Alle Einstellungen sind dynamisch und werden in Echtzeit wirksam. Probiere, den Skin zu ändern während die Mod Autoplay aktiv ist!</value>
@@ -77,7 +77,7 @@
     <value>Versuche, die Bildschirmskalierung anzupassen, um den Bereich der Benutzeroberfläche oder des Gameplays zu ändern, sogar im Vollbildmodus!</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>Was früher "osu!direct" war, ist nun wie auf der Webseite für alle Nutzer verfügbar. Du kannst es überall mit Strg + B aufrufen!</value>
+    <value>Was früher "osu!direct" war, ist nun wie auf der Webseite für alle Nutzer verfügbar. Du kannst es überall mit {0} aufrufen!</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>Du kannst durch Replays springen, indem du die linke oder rechte Pfeiltaste drückst oder den Cursor über die Fortschrittsleiste am unteren Bildschirmrand ziehst!</value>
@@ -98,13 +98,13 @@
     <value>Mit Strg + F11 kannst du Statistiken über Frames und Threads erhalten!</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>Während eines Replays kannst du mit Leertaste pausieren!</value>
+    <value>Während eines Replays kannst du mit {0} pausieren!</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
     <value>Die meisten der Tastenkürzel im Spiel sind konfigurierbar und auf die eigenen Bedürfnisse anpassbar. Schlage die Tastenbelegungen in den Eingabeeinstellungen nach!</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>Das Gameplay-HUD kann mit dem Skin-Editor angepasst werden. Öffne ihn jederzeit mit Strg + Shift + S!</value>
+    <value>Das Gameplay-HUD kann mit dem Skin-Editor angepasst werden. Öffne ihn jederzeit mit {0}!</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>Durch Mod-Voreinstellungen gelangst du einfacher zu deinen bevorzugten Mod-Kombinationen!</value>
@@ -113,10 +113,10 @@
     <value>Viele Mods haben Konfigurationseinstellungen, die ihre Funktionsweise drastisch ändern. Klicke in der Modauswahl auf den Button "Mod Customisation", um die Einstellungen zu sehen!</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Drücke Strg + Shift + R, um einen zufälligen Skin auszuwählen!</value>
+    <value>Drücke {0}, um einen zufälligen Skin auszuwählen!</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>Drücke beim Ansehen eines Replays Strg + H für die Replay-Einstellungen!</value>
+    <value>Drücke beim Ansehen eines Replays {0} für die Replay-Einstellungen!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>Klicke mit der rechten Maustaste auf einen Score in der Rangliste, um dieselben Mods zu aktivieren!</value>
@@ -137,10 +137,13 @@
     <value>Werfe einen Blick unter die Haube der Leistungsindikatoren und aktiviere die ausführliche Leistungsprotokollierung mit Strg + F2!</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>Wenn das HUD im Spiel verborgen ist, kannst du Strg halten, um es vorübergehend zu sehen!</value>
+    <value>Wenn das HUD im Spiel verborgen ist, kannst du {0} halten, um es vorübergehend zu sehen!</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Ziehe Bilder in den Skin-Editor, um sie schnell zu laden!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Klicke mit der rechten Maustaste nahe dem Beatmap-Karussell, um schnell an eine absolute Position zu scrollen!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>Ein Tipp für dich:</value>

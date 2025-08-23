@@ -82,6 +82,54 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} per {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>la partida ha sigut cancel·lada</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>la partida s'ha cancel·lat</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>la partida ha finalitzat</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>la partida ha finalitzat</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} és ara l'amfitrió</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>l'amfitrió ha canviat</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} s'ha unit a la partida</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>un jugador s'ha unit a la partida</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} ha estat expulsat de la partida</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>un jugador ha estat expulsat de la partida</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} ha abandonat la partida</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>un jugador ha abandonat la partida</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} ha creat la partida</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>s'ha creat la partida</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>la partida s'ha dissolt</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>la partida s'ha dissolt</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precisió</value>
   </data>
@@ -91,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Puntuació</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Cara a cara</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Etiqueta cooperatiu</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Etiqueta per equips</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Per equips</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Equip Blau</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Equip Vermell</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Estil lliure</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Puntuació més alta</value>

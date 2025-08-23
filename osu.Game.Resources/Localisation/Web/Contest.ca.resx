@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Puntuació</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Puntuació Estandarditzada</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>puntuació total</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>puntuació estandarditzada total</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Ets un avaluador d'aquest concurs. Avalua les entrades aquí!</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0} punt|{0} punts</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} punts</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Finalitzat {0}</value>
   </data>
@@ -201,5 +210,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Resultats fora</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Veure info i entrades</value>
   </data>
 </root>

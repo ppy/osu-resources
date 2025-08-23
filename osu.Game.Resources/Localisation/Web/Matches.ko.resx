@@ -82,6 +82,54 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} 차로 {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>게임이 취소됨</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>게임이 취소됨</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>게임이 종료됨</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>게임이 종료됨</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} 님이 방장 권한을 얻음</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>방장이 변경됨</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} 님이 대전에 참가함</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>플레이어가 대전에 참가함</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} 님이 대전에서 강제 퇴장됨</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>플레이어가 대전에서 강제 퇴장됨</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} 님이 대전에서 퇴장함</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>플레이어가 대전에서 퇴장함</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} 님이 대전을 생성함</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>대전이 생성됨</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>대전이 해체됨</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>대전이 해체됨</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>정확도</value>
   </data>
@@ -91,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>점수</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>개인전</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>태그 협동</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>태그 팀전</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>팀전</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Blue 팀</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Red 팀</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>프리스타일</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>최고 점수</value>

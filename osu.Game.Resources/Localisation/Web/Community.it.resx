@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Competi con i tuoi amici e guarda come ti classifichi rispetto a loro!</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Grazie per il tuo sostegno finora! Hai contribuito un totale di {0} in {1} tag acquistati!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>{0} dei tuo tag acquistati sono stati regalati (per un totale di {1} donati), come sei generoso!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Grazie per il tuo continuo sostegno! Finora hai contribuito un totale di {0}, guadagnandoti il tag "Supporter" per {1}.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Non hai ancora un tag osu!supporter :(</value>
@@ -248,6 +245,12 @@
     <value>Il tuo attuale tag osu!supporter è valido fino al {0}!</value>
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
-    <value>Il tuo tag supporter era valido fino al {0}.</value>
+    <value>Il tuo tag osu!supporter era valido fino al {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Fra tutti i tuoi contributi, hai donato {0} di tag a {1} ricoprendo {2}. Come sei generoso!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} altro utente|{0} altri utenti</value>
   </data>
 </root>

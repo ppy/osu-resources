@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Puoi premere Ctrl-T in ogni momento per nascondere la barra degli strumenti!</value>
+    <value>Puoi premere {0} in ogni momento per nascondere la barra degli strumenti!</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Puoi premere Ctrl-O in ogni momento per aprire le impostazioni!</value>
+    <value>Puoi premere {0} in ogni momento per aprire le impostazioni!</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>Tutte le impostazioni sono dinamiche e si applicano in tempo reale. Prova a cambiare skin mentre guardi l'autoplay!</value>
@@ -77,13 +77,13 @@
     <value>Prova a regolare la modalità "Ridimensionamento schermo" per cambiare l'area di gioco o dell'interfaccia, anche a schermo intero!</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>È a disposizione di tutti gli utenti il noto "osu!direct" come dal sito web. Puoi accederci in ogni momento usando Ctrl-B!</value>
+    <value>È disponibile per tutti il noto "osu!direct" come dal sito web. Puoi accederci in qualsiasi momento usando {0}!</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>La navigazione dei replay è disponibile trascinando la barra di progresso in basso allo schermo o usando i tasti freccia destra e sinistra!</value>
   </data>
   <data name="try_new_mods" xml:space="preserve">
-    <value>Prova a scorrere a destra in selezione mod per trovare un sacco di nuove mod divertenti!</value>
+    <value>Scorri verso destra nella selezione mod per trovare un sacco di nuove mod divertenti!</value>
   </data>
   <data name="embedded_web_content" xml:space="preserve">
     <value>La maggior parte dei contenuti web (profili, classifiche, ecc.) sono disponibili nativamente in gioco dalle icone sulla barra degli strumenti!</value>
@@ -98,13 +98,13 @@
     <value>Mostra le statistiche frame / thread avanzate con Ctrl-F11!</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>Puoi mettere in pausa durante un replay premendo Spazio!</value>
+    <value>Puoi mettere in pausa durante un replay premendo {0}!</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
-    <value>La maggior parte dei tasti di scelta rapida nel gioco sono configurabili e possono essere cambiati in qualsiasi cosa desideri. Dai un'occhiata al pannello delle associazioni sotto le impostazioni di input!</value>
+    <value>La maggior parte dei tasti di scelta rapida nel gioco sono configurabili e puoi modificarli come preferisci. Dai un'occhiata al pannello delle scorciatoie sotto le impostazioni di input!</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>È possibile personalizzare l'interfaccia di gioco utilizzando l'editor di skin. Aprilo in qualsiasi momento con Ctrl-Shift-S!</value>
+    <value>È possibile personalizzare l'interfaccia di gioco utilizzando l'editor di skin. Aprilo in qualsiasi momento con {0}!</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>Puoi creare delle preimpostazioni di mod per rendere più facile l'attivazione delle tue combinazioni di mod preferite!</value>
@@ -113,10 +113,10 @@
     <value>Molte mod hanno impostazioni di personalizzazione che cambiano drasticamente il loro funzionamento. Fai clic sul pulsante Personalizza in selezione mod per visualizzare le impostazioni!</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Premi Ctrl-Shift-R per passare a una skin casuale!</value>
+    <value>Premi {0} per passare a una skin casuale!</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>Mentre guardi un replay, premi Ctrl-H per mostrare le impostazioni di replay!</value>
+    <value>Mentre guardi un replay, premi {0} per mostrare le opzioni di replay!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>Puoi copiare facilmente le mod da un punteggio su una classifica cliccandole col tasto destro!</value>
@@ -137,10 +137,13 @@
     <value>Dai un'occhiata sotto il cofano ai contatori delle prestazioni e abilita la registrazione verbosa delle prestazioni con Ctrl-F2!</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>Quando la tua interfaccia di gioco è nascosta, puoi premere e tenere premuto Ctrl per visualizzarla temporaneamente!</value>
+    <value>Quando l'interfaccia di gioco è nascosta, puoi tenere premuto {0} per vederla all'istante!</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Trascina e rilascia qualsiasi immagine nell'editor di skin per caricarla rapidamente!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Tieni premuto il tasto destro del mouse accanto la selezione beatmap per un rapido scorrimento assoluto!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>suggerimento:</value>

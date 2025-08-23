@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>分数</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>标准分数</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>总分</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>总标准分数</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>你是此竞赛的评委。请在这里打分！</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0} 分</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} 分</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>{0} 结束</value>
   </data>
@@ -202,5 +211,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>已结束</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>查看详细信息和参赛作品</value>
   </data>
 </root>

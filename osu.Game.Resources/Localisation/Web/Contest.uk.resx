@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Бали</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Стандартизований рахунок</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>всього очок</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>загальний стандартизований рахунок</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Ви - суддя цього конкурсу. Натисніть сюди, щоб почати оцінювати заявки!</value>
@@ -180,6 +186,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} очко|{0} очка|{0} очків</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} очок</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Завершено {0}</value>

@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Soutěž se svými přáteli a uvidíš, jak dobrý jsi v porovnáni s nimi!</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Díky za tvou podporu! Zatím jsi přispěl/a celkově {0} napříč {1} nákupy supporter tagů!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>{0} z vašich nákupů tagů bylo darováno (což dělá celkem {1}), jak štědré!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Děkujeme za tvoji přetrvávající podporu! Už jsi přispěl celkem {0}, což ti přineslo "Supporter" tag pro {1}.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Ještě nemáš supporter tag :(</value>
@@ -249,5 +246,11 @@
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
     <value>Tvůj supporter tag byl platný do {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Přes všechny tvé příspěvky jsi daroval tagy v hodnotě {0} {1} uživatelům pokrývající {2}. To je neuvěřitelně velkorysé!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} další uživatel|{0} další uživatelé|{0} dalších uživatelů</value>
   </data>
 </root>

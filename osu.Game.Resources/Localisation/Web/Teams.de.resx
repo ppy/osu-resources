@@ -77,7 +77,7 @@
     <value>Team erstellen</value>
   </data>
   <data name="create.form.name_help" xml:space="preserve">
-    <value>Dein Teamname. Der Name kann nicht mehr geändert werden.</value>
+    <value>Dein Teamname. Der Name kann später nicht mehr geändert werden.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>Maximal 4 Zeichen.</value>
@@ -86,7 +86,7 @@
     <value>Ein neues Team anlegen</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
-    <value>Spiele zusammen mit Freunden, egal ob bereits erfahrene Spieler oder Anfänger. Du bist aktuell in keinem Team. Tritt einem existierendem Team bei, indem du die Teamseite besuchst oder hier dein eigenes Team erstellst.</value>
+    <value>Spiele zusammen mit Freunden, egal ob bereits erfahrene Spieler oder Anfänger. Du bist aktuell in keinem Team. Tritt einem existierenden Team bei, indem du die Teamseite besuchst oder hier dein eigenes Team erstellst.</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Team!</value>
@@ -247,11 +247,14 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Mitglieder</value>
   </data>
-  <data name="show.statistics.rank" xml:space="preserve">
-    <value>Rang</value>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} Platz verfügbar|{0} Plätze verfügbar</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Teamleiter</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Rang</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Team erstellt.</value>

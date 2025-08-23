@@ -305,6 +305,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoginBetaSmall => new TranslatableString(getKey(@"login.beta.small"), @"(osu!supporters will get in soon)");
 
         /// <summary>
+        /// "Active"
+        /// </summary>
+        public static LocalisableString MultiplayerIndexActive => new TranslatableString(getKey(@"multiplayer.index.active"), @"Active");
+
+        /// <summary>
+        /// "Ended"
+        /// </summary>
+        public static LocalisableString MultiplayerIndexEnded => new TranslatableString(getKey(@"multiplayer.index.ended"), @"Ended");
+
+        /// <summary>
         /// "Beatmaps: {0}"
         /// </summary>
         public static LocalisableString OgpModdingDescription(LocalisableString counts) => new TranslatableString(getKey(@"ogp.modding_description"), @"Beatmaps: {0}", counts);
@@ -400,9 +410,29 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ReportActionsCancel => new TranslatableString(getKey(@"report.actions.cancel"), @"Cancel");
 
         /// <summary>
+        /// "Please report copyright infringement through a DMCA claim to {0} as per {1}."
+        /// </summary>
+        public static LocalisableString ReportDmcaMessage1Default(LocalisableString mail, LocalisableString policy) => new TranslatableString(getKey(@"report.dmca.message_1._"), @"Please report copyright infringement through a DMCA claim to {0} as per {1}.", mail, policy);
+
+        /// <summary>
+        /// "the osu! copyright policy"
+        /// </summary>
+        public static LocalisableString ReportDmcaMessage1Policy => new TranslatableString(getKey(@"report.dmca.message_1.policy"), @"the osu! copyright policy");
+
+        /// <summary>
+        /// "This applies to cases where audio tracks, visual content or beatmap level content is used without correct permission."
+        /// </summary>
+        public static LocalisableString ReportDmcaMessage2 => new TranslatableString(getKey(@"report.dmca.message_2"), @"This applies to cases where audio tracks, visual content or beatmap level content is used without correct permission.");
+
+        /// <summary>
         /// "Cheating"
         /// </summary>
         public static LocalisableString ReportOptionsCheating => new TranslatableString(getKey(@"report.options.cheating"), @"Cheating");
+
+        /// <summary>
+        /// "Copyright infringement"
+        /// </summary>
+        public static LocalisableString ReportOptionsCopyrightInfringement => new TranslatableString(getKey(@"report.options.copyright_infringement"), @"Copyright infringement");
 
         /// <summary>
         /// "Inappropriate chat behaviour"
