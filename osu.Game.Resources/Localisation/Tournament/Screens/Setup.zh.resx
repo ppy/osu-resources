@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string"/>
+                            <xsd:attribute name="type" type="xsd:string"/>
+                            <xsd:attribute name="mimetype" type="xsd:string"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string"/>
+                            <xsd:attribute name="name" type="xsd:string"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="not_found" xml:space="preserve">
+        <value>未找到</value>
+    </data>
+    <data name="current_ipc_source" xml:space="preserve">
+        <value>当前 IPC 源</value>
+    </data>
+    <data name="ipc_source_description" xml:space="preserve">
+        <value>当前用作数据源的 osu!stable 位置。如果没有，请在 stable 测试版安装目录创建一个空 ipc.txt 文件。</value>
+    </data>
+    <data name="current_user" xml:space="preserve">
+        <value>当前用户</value>
+    </data>
+    <data name="current_user_description" xml:space="preserve">
+        <value>登录后才能访问 API 并显示相关数据。</value>
+    </data>
+    <data name="current_tournament" xml:space="preserve">
+        <value>当前赛事配置</value>
+    </data>
+    <data name="current_tournament_description" xml:space="preserve">
+        <value>用于使用相应配置、显示对应背景，重启后生效。</value>
+    </data>
+    <data name="resolution" xml:space="preserve">
+        <value>直播区分辨率</value>
+    </data>
+    <data name="set_resolution" xml:space="preserve">
+        <value>设置高度</value>
+    </data>
+    <data name="ruleset" xml:space="preserve">
+        <value>游戏模式</value>
+    </data>
+    <data name="ruleset_description" xml:space="preserve">
+        <value>确定为玩家显示的排名与统计数据。重启后生效。</value>
+    </data>
+    <data name="display_seeds" xml:space="preserve">
+        <value>显示队伍 Seed</value>
+    </data>
+    <data name="display_seeds_description" xml:space="preserve">
+        <value>在游玩展示/图池界面的队伍显示区显示对应的 Seed。</value>
+    </data>
+    <data name="auto_advance_screens" xml:space="preserve">
+        <value>自动推进屏幕</value>
+    </data>
+    <data name="auto_advance_screens_description" xml:space="preserve">
+        <value>将按流程条件自动切换屏幕，如游玩展示-&gt;结果展示-&gt;图池。</value>
+    </data>
+    <data name="close_osu" xml:space="preserve">
+        <value>关闭 osu!</value>
+    </data>
+    <data name="open_folder" xml:space="preserve">
+        <value>打开目录</value>
+    </data>
+    <data name="change_ipc_source" xml:space="preserve">
+        <value>更改 IPC 源</value>
+    </data>
+    <data name="change_sign_in" xml:space="preserve">
+        <value>更改登录</value>
+    </data>
+</root>
