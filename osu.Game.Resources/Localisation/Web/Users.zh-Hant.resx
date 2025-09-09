@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!贊助者將在不久後開放)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>活躍中</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>已結束</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>圖譜: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>請依照《{0}》的規定，透過 DMCA 聲明向 {1} 檢舉著作權侵權。</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! 著作權政策</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>本規定適用於未經合法授權使用音訊、視覺內容或圖譜內容的情況。</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>違規 / 作弊</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>侵犯版權</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>不適當的聊天行為</value>
@@ -804,6 +822,9 @@
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>準確率</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>每次遊玩打擊數</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>等級 {0}</value>
