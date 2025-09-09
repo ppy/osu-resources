@@ -58,23 +58,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mods" xml:space="preserve">
+    <value>Modai</value>
+  </data>
+  <data name="random" xml:space="preserve">
+    <value>Atsitiktinis</value>
+  </data>
+  <data name="rewind" xml:space="preserve">
+    <value>Atsukti atgal</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Parinktys</value>
+  </data>
   <data name="locally_modified" xml:space="preserve">
     <value>Vietinis</value>
   </data>
   <data name="locally_modified_tooltip" xml:space="preserve">
     <value>Vietinė modifikacija</value>
   </data>
-  <data name="manage_collections" xml:space="preserve">
-    <value>Valdyti kolekcijas</value>
+  <data name="status_unknown" xml:space="preserve">
+    <value>Nežinoma</value>
+  </data>
+  <data name="total_plays" xml:space="preserve">
+    <value>Iš viso Sužaista</value>
+  </data>
+  <data name="personal_plays" xml:space="preserve">
+    <value>Asmeniniai Sužaidimai</value>
+  </data>
+  <data name="circle_size" xml:space="preserve">
+    <value>Apskritimų Dydis</value>
+  </data>
+  <data name="key_count" xml:space="preserve">
+    <value>Klavišų Skaičius</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Artėjimo greitis</value>
+  </data>
+  <data name="accuracy" xml:space="preserve">
+    <value>Tikslumas</value>
+  </data>
+  <data name="hp_drain" xml:space="preserve">
+    <value>HP išsekimas</value>
+  </data>
+  <data name="scroll_speed" xml:space="preserve">
+    <value>Slinkimo Greitis</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Pateiktas</value>
+  </data>
+  <data name="ranked" xml:space="preserve">
+    <value>Reitinguotas</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="ranking" xml:space="preserve">
+    <value>Rezultatai</value>
+  </data>
+  <data name="use_these_mods" xml:space="preserve">
+    <value>Naudoti šiuos modus</value>
   </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Visiems sunkumams</value>
   </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Ištrinti beatmap'ą</value>
-  </data>
   <data name="for_selected_difficulty" xml:space="preserve">
     <value>Tik pasirinktam sunkumui</value>
+  </data>
+  <data name="update_beatmap_tooltip" xml:space="preserve">
+    <value>Pritaikyti beatmap'ui tinklo pakeitimus</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
     <value>Pažymėti kaip žaista</value>
@@ -82,7 +133,76 @@
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Išvalyti visus vietinius rezultatus</value>
   </data>
-  <data name="edit_beatmap" xml:space="preserve">
-    <value>Redaguoti beatmap'ą</value>
+  <data name="delete_beatmap" xml:space="preserve">
+    <value>Ištrinti beatmap'ą</value>
+  </data>
+  <data name="restore_all_hidden" xml:space="preserve">
+    <value>Grąžinti visus paslėptus</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} žvaigždės</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>Rūšiuoti</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Grupė</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Jokia</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Atlikėjas</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Autorius</value>
+  </data>
+  <data name="bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>Pateikimo Data</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>Reitingavimo Data</value>
+  </data>
+  <data name="date_added" xml:space="preserve">
+    <value>Pridėjimo Data</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>Paskutinį Kartą Žaista</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Sunkumas</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Trukmė</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Mėgstamiausi</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Mano Beatmap'ai</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Kolekcijos</value>
+  </data>
+  <data name="rank_achieved" xml:space="preserve">
+    <value>Pasiektas Reitingas</value>
+  </data>
+  <data name="ranked_status" xml:space="preserve">
+    <value>Įvertinimo Būsena</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Šaltinis</value>
+  </data>
+  <data name="no_matching_beatmaps" xml:space="preserve">
+    <value>Nėra atitinkančių beatmap'ų</value>
+  </data>
+  <data name="no_matching_beatmaps_description" xml:space="preserve">
+    <value>Nėra beatmap'ų atitinkančių filtravimo kriterijus!</value>
   </data>
 </root>
