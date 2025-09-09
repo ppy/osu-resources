@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="empty.active" xml:space="preserve">
+    <value>Ei tällä hetkellä missään keskeneräisessä osu!(lazer) {0} pelissä!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Ei vielä missään valmiissa osu!(lazer) {0} pelissä!</value>
+  </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>soittolistoja</value>
   </data>
@@ -79,8 +85,17 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} jäljellä</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Näytä Historia</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Näytä yhteenveto</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>Liian pitkä aika.</value>
+  </data>
+  <data name="room.errors.name_too_long" xml:space="preserve">
+    <value>Huoneen nimi on liian pitkä.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>avoinna</value>

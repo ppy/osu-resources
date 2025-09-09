@@ -82,6 +82,21 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0}，勝分差: {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>遊戲被中止</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>遊戲被中止</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>遊戲已結束</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>遊戲已結束</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} 成為房主</value>
+  </data>
   <data name="match.events.host_changed_no_user" xml:space="preserve">
     <value>房主已經變更</value>
   </data>
@@ -104,7 +119,16 @@
     <value>有玩家離開了房間</value>
   </data>
   <data name="match.events.room_created" xml:space="preserve">
-    <value>{0} 創建了此房間</value>
+    <value>{0} 建立了房間</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>建立了房間</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>關閉了房間</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>關閉了房間</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>準確率</value>
@@ -115,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>得分</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>對戰</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Tag Co-op</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Tag 團隊對戰</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>團隊對戰</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>藍隊</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>紅隊</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>自由模式</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>最高分</value>
