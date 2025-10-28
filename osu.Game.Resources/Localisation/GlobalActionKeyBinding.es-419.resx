@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Selección siguiente</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Seleccionar el grupo anterior</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Ir al mapa anterior</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Seleccionar el siguiente grupo</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Ir al siguiente mapa</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Expandir el grupo anterior de mapas</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Expandir el siguiente grupo de mapas</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Activar/desactivar la expansión del grupo actual de mapas</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Inicio</value>
@@ -182,7 +191,7 @@
     <value>Skin aleatoria</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
-    <value>Pausar/reanudar el juego</value>
+    <value>Pausar/reanudar repetición</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Mostrar/ocultar la interfaz del juego</value>
@@ -309,5 +318,26 @@
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
     <value>Ir al siguiente punto de muestra</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Añadir marcador</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Eliminar el marcador más cercano</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Ir al marcador anterior</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Ir al siguiente marcador</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Desplazamiento absoluto en la lista de canciones</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Activar/desactivar el control de movimiento</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Descartar cambios no guardados</value>
   </data>
 </root>

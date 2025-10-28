@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Gửi beatmap</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Chia sẻ beatmap của bạn cho cả thế giới nào!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Quyền trên nội dung</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Tôi hiểu</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Câu hỏi thường gặp</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Cài đặt việc gửi</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Gửi beatmap!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Đang xuất beatmap để cho tương thích...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Đang chuẩn bị tải lên...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Đang tải nội dung beatmap...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Đang hoàn tất...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Trước khi tiếp tục, chúng tôi yêu cầu bạn kiểm tra xem liệu nội dung bạn đang tải lên có phù hợp và được phép đăng tải hay không. Xin hãy hiểu rằng bạn phải chịu trách nhiệm cho nội dung mà bạn tải lên nền tảng và nếu có nghi ngờ, bạn nên xin phép người sáng tạo trước khi tải lên!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Kiểm tra hướng dẫn sử dụng nội dung để biết thêm thông tin chi tiết</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Tiêu chí xếp hạng beatmap</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Bạn không chắc mình đáp ứng các yêu cầu ư? Kiểm tra danh sách này và tăng tốc quá trình xếp hạng!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Quy trình gửi bài</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Không chắc chắn về quy trình đăng tải? Hãy tham khảo bài viết trên wiki!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Diễn đàn trợ giúp Mapping</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Có câu hỏi nào về mapping và đăng tải không? Hãy đặt câu hỏi trên diễn đàn!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Diễn đàn danh sách chờ modding</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Gặp khó khăn trong việc nhận phản hồi? Tại sao không thử hỏi trong danh sách chờ mod!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Bạn muốn đăng beatmap của mình ở đâu?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Các tác phẩm đang trong quá trình hoàn thiện / Cần trợ giúp (chưa hoàn thành, chưa sẵn sàng để xếp hạng)
+</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Đang chờ (hoàn thiện, chỉ chờ được xếp hạng)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Nhận thông báo khi có phản hồi ở thảo luận</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Mở trong trình duyệt sau khi gửi đi</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Lưu ý: Để người dùng của tất cả các phiên bản osu! có thể thưởng thức beatmap của bạn, nó sẽ được xuất ở định dạng tương thích ngược. Mặc dù chúng tôi đã nỗ lực để đảm bảo quá trình này giữ cho beatmap có thể chơi được ở dạng dự định, một số dữ liệu liên quan đến các tính năng mà các phiên bản trước của osu! không hỗ trợ có thể bị mất.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Beatmap trống không thể đăng lên.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Cập nhật beatmap!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Tải lên beatmap MỚI!</value>
+  </data>
+</root>

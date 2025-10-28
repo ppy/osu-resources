@@ -65,7 +65,7 @@
     <value>显示通知列表</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
-    <value>运行中的任务</value>
+    <value>进行中的任务</value>
   </data>
   <data name="clear_all" xml:space="preserve">
     <value>全部清除</value>
@@ -74,10 +74,10 @@
     <value>电池电量过低！请为设备充电以避免游戏中断。</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>你的游戏音量低到什么也听不见了！点击这里复位。</value>
+    <value>你的游戏音量低到什么也听不见了！点击这里还原。</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>当前游戏模式没有可用的 Autoplay 模组！</value>
+    <value>当前游戏模式无法使用 Autoplay 模组！</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
     <value>osu! 似乎无法正确播放音频。
@@ -91,28 +91,22 @@
     <value>将不会打开 URL {0} ，因为其使用了不受支持或存在危险的协议。</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
-    <value>已记录后续消息。点击此处查看日志文件。</value>
+    <value>相关错误信息已被记录至日志文件，点击这里来查看。</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
     <value>由于出现错误 “{0}”，将禁用内置数位板映射功能。</value>
   </data>
   <data name="encountered_tablet_warning" xml:space="preserve">
-    <value>收到了数位板警告，你的数位板可能无法正常工作。点击此处查看所有支持的数位板列表。</value>
+    <value>请注意：当前正在使用的数位板可能无法正常工作。点击这里来查看游戏所支持的数位板列表。</value>
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
     <value>尚未支持此类链接！</value>
   </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>你收到了来自“{0}”的私信。点击查看！</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>“{0}”在聊天中提到了你的名字。点击这里查看详情！</value>
-  </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
-    <value>{0} 邀请你加入多人游戏 "{1}"！点击加入。</value>
+    <value>{0} 邀请你加入多人游戏 "{1}"！点击这里加入。</value>
   </data>
   <data name="missing_beatmap_for_replay" xml:space="preserve">
-    <value>你没有这个回放对应的谱面。</value>
+    <value>你没有该回放文件所对应的谱面。</value>
   </data>
   <data name="downloading_beatmap_for_replay" xml:space="preserve">
     <value>正在下载此回放所需的谱面......</value>
@@ -121,16 +115,22 @@
     <value>你拥有的本地谱面与回放所需的谱面不同，你可能需要更新或者重新下载。</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
-    <value>已更新到 osu! 版本{0}。
-点击看看有什么新功能！</value>
+    <value>osu! 已更新到版本： {0}。
+点击这里查看更新说明！</value>
   </data>
   <data name="update_ready_to_install" xml:space="preserve">
-    <value>更新已准备好安装。点击这里重启游戏！</value>
+    <value>已准备好安装更新。点这里重启游戏！</value>
   </data>
   <data name="not_official_build" xml:space="preserve">
-    <value>该版本不是游戏的官方构建版本。获得的分数将不会提交，并且部分在线系统可能不会正常工作。</value>
+    <value>当前使用的游戏版本不是官方构建版本，所打出的分数将不会提交，且游戏的部分在线系统可能将无法正常工作。</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>正在下载更新...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>这个多人游戏房间已经结束。点击查看房间成绩结果。</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>提及</value>
   </data>
 </root>

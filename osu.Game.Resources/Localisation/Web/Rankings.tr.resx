@@ -67,6 +67,19 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>Zorluk</value>
   </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>İlk %10 Skor</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>İlk %50 Skor</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Şimdilik belirtilen tarihte günlük meydan okuma yok!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>
+Belirtilen tarihte günlük meydan okuma yok!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Göster</value>
   </data>
@@ -94,20 +107,20 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>günlük meydan okuma</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>küresel</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
     <value>çok oyunculu</value>
   </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>Performans</value>
-  </data>
-  <data name="type.score" xml:space="preserve">
-    <value>Skor</value>
-  </data>
   <data name="type.seasons" xml:space="preserve">
     <value>sezonlar</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>takım</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Bu sezonda henüz oda bulunmamaktadır.</value>
@@ -120,6 +133,9 @@
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Bu sezon hakkında daha fazla bilgi görüntüleyin.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>düzgün hesaplama için yeterince skor faktörü yok</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>Bitiş Tarihi</value>
@@ -141,6 +157,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>Ülke</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Bölüm</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Üyeler</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>Oynama Sayısı</value>

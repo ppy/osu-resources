@@ -71,28 +71,28 @@
     <value>komentarze</value>
   </data>
   <data name="judge.hide_judged" xml:space="preserve">
-    <value>ukryj ocenione zgłoszenia</value>
+    <value>ukryj ocenione prace</value>
   </data>
   <data name="judge.nav_title" xml:space="preserve">
-    <value>oceniać</value>
+    <value>ocena prac</value>
   </data>
   <data name="judge.no_current_vote" xml:space="preserve">
-    <value>jeszcze nie zagłosowałeś.</value>
+    <value>brak głosów</value>
   </data>
   <data name="judge.update" xml:space="preserve">
-    <value>aktualizacja</value>
+    <value>zaktualizuj</value>
   </data>
   <data name="judge.validation.missing_score" xml:space="preserve">
-    <value>brakujący wynik</value>
+    <value>brak wyniku</value>
   </data>
   <data name="judge.validation.contest_vote_judged" xml:space="preserve">
-    <value>nie można głosować w ocenianych konkursach</value>
+    <value>nie możesz głosować w konkursach ocenianych przez jury</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
-    <value>Już zagłosowałeś w tym wpisie.</value>
+    <value>Już zagłosowano na tę pracę.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
-    <value>Wyniki oceniania</value>
+    <value>Wyniki oceny prac</value>
   </data>
   <data name="judge_results.creator" xml:space="preserve">
     <value>twórca</value>
@@ -100,17 +100,23 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Wynik</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Wynik standaryzowany</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
-    <value>wynik całkowity</value>
+    <value>całkowity wynik</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>całkowity wynik standaryzowany</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
-    <value>Jesteś sędzią tego konkursu. Oceń wpisy tutaj!</value>
+    <value>Jesteś członkiem jury tego konkursu. Oceń zgłoszone prace tutaj!</value>
   </data>
   <data name="voting.judged_notice" xml:space="preserve">
-    <value>Ten konkurs używa systemu oceniania, sędziowie obecnie sprawdzają wpisy.</value>
+    <value>Ten konkurs jest oceniany przez jury - członkowie zespołu są w trakcie przetwarzania zgłoszonych prac.</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
-    <value>Zaloguj się, aby zagłosować!</value>
+    <value>Zaloguj się, aby zagłosować.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
     <value>Głosowanie dla tego konkursu zostało zakończone</value>
@@ -134,13 +140,13 @@
     <value>oddano {0} z {1} głosów</value>
   </data>
   <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
-    <value>Musisz zagrać wszystkie beatmapy w określonych grach, by zagłosować</value>
+    <value>Musisz zagrać wszystkie beatmapy w określonych grach asynchronicznych, by zagłosować</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>zgłoszenie</value>
   </data>
   <data name="entry.login_required" xml:space="preserve">
-    <value>Zaloguj się, aby uczestniczyć w tym konkursie.</value>
+    <value>Zaloguj się, aby wziąć udział w konkursie.</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
     <value>Nie możesz uczestniczyć w konkursach po tym, jak twoje konto zostało ograniczone lub uciszone.</value>
@@ -155,19 +161,19 @@
     <value>Pobierz plik .osz</value>
   </data>
   <data name="entry.wrong_type.art" xml:space="preserve">
-    <value>Jedynie pliki o rozszerzeniach .jpg czy .png są dozwolone w tym konkursie.</value>
+    <value>W tym konkursie dozwolone są wyłącznie pliki o rozszerzeniach .jpg i .png.</value>
   </data>
   <data name="entry.wrong_type.beatmap" xml:space="preserve">
-    <value>Jedynie pliki o rozszerzeniu .osu są dozwolone w tym konkursie.</value>
+    <value>W tym konkursie dozwolone są wyłącznie pliki o rozszerzeniu .osu.</value>
   </data>
   <data name="entry.wrong_type.music" xml:space="preserve">
-    <value>Jedynie pliki o rozszerzeniu .mp3 są dozwolone w tym konkursie.</value>
+    <value>W tym konkursie dozwolone są wyłącznie pliki o rozszerzeniu .mp3.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Zgłoszenia do tego konkursu muszą mieć rozdzielczość {0}{1}</value>
   </data>
   <data name="entry.too_big" xml:space="preserve">
-    <value>Maksymalna wielkość zgłoszeń dla tego konkursu to {0}.</value>
+    <value>Maksymalny rozmiar pliku ze zgłoszeniem dla tego konkursu to {0}.</value>
   </data>
   <data name="beatmaps.download" xml:space="preserve">
     <value>Pobierz zgłoszenie</value>
@@ -180,6 +186,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} punkt|{0} punkty|{0} punktów</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} pkt</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Zakończony {0}</value>
@@ -201,5 +210,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Wyniki</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Pokaż informacje i zgłoszenia</value>
   </data>
 </root>

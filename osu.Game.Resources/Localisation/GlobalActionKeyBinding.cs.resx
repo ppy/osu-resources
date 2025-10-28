@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Následující položka</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Vybrad předchozí skupinu</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Aktivovat předchozí sadu</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Vybrad další skupinu</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Aktivovat další sadu</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Rozbalit předchozí skupinu</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Rozbalit další skupinu</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Rozbalit/sbalit aktuální skupinu</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Domů</value>
@@ -275,10 +284,10 @@
     <value>Snížit offset</value>
   </data>
   <data name="editor_toggle_rotate_control" xml:space="preserve">
-    <value>Vypnout/Zapnout ovládání otáčení</value>
+    <value>Otevřít/zavřít ovládání otáčení</value>
   </data>
   <data name="editor_toggle_scale_control" xml:space="preserve">
-    <value>Vypnout/zapnout ovládání velikosti</value>
+    <value>Otevřít/zavřít ovládání velikosti</value>
   </data>
   <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
     <value>Vypnout/zapnout automatické přehrávání</value>
@@ -305,9 +314,30 @@
     <value>Přejít na další hit objekt</value>
   </data>
   <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
-    <value>Přejít k předchozímu bodu vzorku</value>
+    <value>Přejít k předchozímu bodu zvukového vzorku</value>
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
-    <value>Přejít k dalšímu bodu vzorku</value>
+    <value>Přejít k dalšímu bodu zvukového  vzorku</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Přidat záložku</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Odebrat nejbližší záložku</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Přejít na předchozí záložku</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Přejít na další záložku</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absolutní posun v seznamu skladeb</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Otevřít/zavřít ovládání pohybu</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Zahodit neuložené změny</value>
   </data>
 </root>

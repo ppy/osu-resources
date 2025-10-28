@@ -137,7 +137,7 @@
     <value>Du kannst die Metadaten einer nominierten Map nicht ändern. Wenn du glaubst, dass sie falsch sind, wende dich an ein BN- oder NAT-Mitglied.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
-    <value>Du musst einen Score auf einer Beatmap erreichen, um einen Tag hinzuzufügen.</value>
+    <value>Du musst einen Score auf einer Beatmap erreichen, um ein Tag hinzuzufügen.</value>
   </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Du kannst keine Nachrichten an einen Benutzer senden, der dich oder den du blockiert hast.</value>
@@ -204,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Zugang zum angeforderten Forum ist erforderlich.</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>Keine Berechtigung zum Bearbeiten.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Nur der Autor kann den Beitrag bearbeiten.</value>
@@ -297,6 +300,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Zu viele Scores angepinnt.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Du bist bereits Teil des Teams.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Du bist bereits Teil eines anderen Teams.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Eine Team-Beitrittsanfrage steht noch aus.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Das Team akzeptiert derzeit keine Beitrittsanfragen.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Das Team ist voll und kann keine weiteren Mitglieder mehr aufnehmen.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Der Teamleiter kann das Team nicht verlassen.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Kein Mitglied des Teams.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Um ein Team zu erstellen, wird ein osu!supporter-Tag benötigt.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Dieses Profil ist gesperrt.</value>

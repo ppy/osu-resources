@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Ανταγωνίζονται με τους φίλους σας και να δούμε πώς θα κατατάσσονται εναντίον τους!</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Ευχαριστούμε για την υποστήριξή σας μέχρι τώρα! Έχετε συνεισφέρει το χρηματικό ποσό των {0} σε {1} συναλλαγές!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>{0} από τις αγορές των tag που έχετε κάνει έχουν δωριστεί (συνολικά {1}), πόσο γενναιόδωρο!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Σας ευχαριστούμε για την συνεχή σας υποστήριξη! Μέχρι στιγμής, έχετε συνεισφέρει ένα σύνολο {0}, κερδίζοντας την ετικέτα ''Supporter'' για {1}</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Δεν έχετε supporter tag. :(</value>
@@ -249,5 +246,11 @@
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
     <value>Το supporter tag σας ήταν έγκυρο μέχρι {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Από τις συνολικές σου συνεισφορές, έχεις δωρίσει ετικέτες αξίας {0} σε {1} που καλύπτουν {2}. Αυτό είναι απίστευτα γενναιόδωρο!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} άλλος χρήστης|{0} άλλοι χρήστες</value>
   </data>
 </root>

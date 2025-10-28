@@ -230,6 +230,30 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>アプリケーションコールバックURL</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>この {0} には無効な文字が含まれています。</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>この {0} はすでに使用されています。</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>この {0} の使用は許可されていません。</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>デフォルトのルールセット</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>チームの参加設定</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>略称</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>ユーザー名を含んだパスワードは使用できません。</value>
   </data>
@@ -328,6 +352,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>あなたはこのチャンネルに参加していません。</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>あなたはチームの一員です。</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} はこの報告タイプでは無効です。</value>

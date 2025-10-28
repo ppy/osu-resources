@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>مپرهای مهمان بیش‌از حد زیادند.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>شکست در بروز کردن رای</value>
   </data>
@@ -102,6 +105,9 @@
   </data>
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>برای پاسخ اینتر بزنید.</value>
+  </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>برای ریپلای اینتر بزنید. برای ریپلای و بستن، کنترل+اینتر بزنید.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>پاسخ خود را اینجا تایپ کنید</value>
@@ -148,6 +154,9 @@
   <data name="discussions.message_hint.in_general" xml:space="preserve">
     <value>این پست به قسمت گفتگوی کلی بیت مپ ها میرود. برای ماد کردن این درجه ساختی، پیام را با مهرزمان آغاز کنید (مثلا 00:12:345).</value>
   </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>نظرتان را اینجا بنویسید</value>
+  </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>رد صلاحیت</value>
   </data>
@@ -175,13 +184,295 @@
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>پیشنهاد</value>
   </data>
+  <data name="discussions.message_type_title.disqualify" xml:space="preserve">
+    <value>ارسال دیسکوالیفای</value>
+  </data>
+  <data name="discussions.message_type_title.hype" xml:space="preserve">
+    <value>ارسال هایپ!</value>
+  </data>
+  <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
+    <value>ارسال یادداشت</value>
+  </data>
+  <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
+    <value>حذف همهٔ قبولی‌ها</value>
+  </data>
+  <data name="discussions.message_type_title.praise" xml:space="preserve">
+    <value>ارسال تعریف</value>
+  </data>
+  <data name="discussions.message_type_title.problem" xml:space="preserve">
+    <value>ارسال مشکل</value>
+  </data>
+  <data name="discussions.message_type_title.problem_warning" xml:space="preserve">
+    <value>ارسال مشکل</value>
+  </data>
+  <data name="discussions.message_type_title.review" xml:space="preserve">
+    <value>ارسال نقد و بررسی</value>
+  </data>
+  <data name="discussions.message_type_title.suggestion" xml:space="preserve">
+    <value>ارسال پیشنهاد</value>
+  </data>
   <data name="discussions.mode.events" xml:space="preserve">
     <value>تاریخچه</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>نقد و بررسی‌ها</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>تایم‌لاین</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>این دیفیکالتی</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>همهٔ دیفیکالتی‌ها</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>پین</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>نشانگر تایم</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>برای نشون‌دادن تایم، موقع ادیت بیت‌مپ، کنترل C بزنید و اینجا پیست کنید!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>مباحثهٔ جدید</value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>آن‌پین</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>نقد و بررسی جدید</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[مباحثه حذف شد]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>آن‌لینک</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>سیونشده</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>پست‌هایی که روی کل دیفیکالتی‌ها گذاشته میشن، نمی‌تونن نشانگر تایم داشته باشن.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>اگه این پست با نشانگر تایم شروع بشه، زیر تایم‌لاین نمایش داده میشه.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>گذاشتن پاراگراف</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>گذاشتن تعریف</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>گذاشتن مشکل</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>گذاشتن پیشنهاد</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>زمان ایجاد</value>
+  </data>
+  <data name="discussions.sort.timeline" xml:space="preserve">
+    <value>تایم‌لاین</value>
+  </data>
+  <data name="discussions.sort.updated_at" xml:space="preserve">
+    <value>آخرین آپدیت</value>
+  </data>
+  <data name="discussions.stats.deleted" xml:space="preserve">
+    <value>حذف شده</value>
+  </data>
+  <data name="discussions.stats.mapper_notes" xml:space="preserve">
+    <value>یادداشت‌ها</value>
+  </data>
+  <data name="discussions.stats.mine" xml:space="preserve">
+    <value>مال من</value>
+  </data>
+  <data name="discussions.stats.pending" xml:space="preserve">
+    <value>منتظر تأیید</value>
+  </data>
+  <data name="discussions.stats.praises" xml:space="preserve">
+    <value>تعریف‌ها</value>
+  </data>
+  <data name="discussions.stats.resolved" xml:space="preserve">
+    <value>حل شده</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>هایپ کافی نیست.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>حذف‌کردن از Loved</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>دلیل حذف‌کردن از Loved:</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>تأییدها: {0}/{1}</value>
+  </data>
+  <data name="nominations.reset_message_deleted" xml:space="preserve">
+    <value>حذف شده</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>وضعیت تأیید</value>
+  </data>
+  <data name="nominations.unresolved_issues" xml:space="preserve">
+    <value>هنوز مشکلات حل‌نشده ای هستند که اول باید به آنها رسیدگی شود.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>اگه مشکلی پیدا نشه، این مپ تقریبا در تاریخ {0} رنکد میشه. شمارهٔ #{1} در {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>این مپ نمی‌تونه از حالت کوالیفای خارج شه، تا وقتی {0} حل بشن.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>این مشکلات</value>
+  </data>
+  <data name="nominations.rank_estimate.on" xml:space="preserve">
+    <value>در روز {0}</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>صف رنکد شدن</value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>بزودی</value>
+  </data>
+  <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
+    <value>با مشکل جدید {0}، پروسهٔ تأیید {1} توسط {2} ریست شد. ({3}).</value>
+  </data>
+  <data name="nominations.reset_at.disqualify" xml:space="preserve">
+    <value>با مشکل جدید {0}، توسط {1} در {2} دیس‌کوالیفای شد. ({3}). </value>
+  </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>مطمئنی؟ این کار باعث حذف بیت‌مپ از کوالیفای، و ریست‌شدن پروسهٔ تأیید میشه.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>مطمئنی؟ گذاشتن مشکل جدید باعث ریست‌شدن پروسهٔ تأیید میشه.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
     <value>آیا مطمئنید که میخواهید یک ایراد در بیت مپ را گزارش کنید؟ این برای نامزد کننده های بیت مپ یک هشدار ارسال می کند.</value>
   </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>جستجو...</value>
+  </data>
+  <data name="listing.search.login_required" xml:space="preserve">
+    <value>برای سرچ‌کردن، لاگین کنید.</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>تنظیمات بیشتر</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>صافی‌کردن با {0} نیازمند تگ osu!supporter فعال است</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>نتیجه ای یافت نشد</value>
+  </data>
+  <data name="listing.search.not-found-quote" xml:space="preserve">
+    <value>... نچ. هیچی پیدا نکردم.</value>
+  </data>
+  <data name="listing.search.filters.extra" xml:space="preserve">
+    <value>دیگر</value>
+  </data>
+  <data name="listing.search.filters.general" xml:space="preserve">
+    <value>کلیات</value>
+  </data>
+  <data name="listing.search.filters.genre" xml:space="preserve">
+    <value>ژانر</value>
+  </data>
+  <data name="listing.search.filters.language" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>مود</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>محتوای نامناسب</value>
+  </data>
+  <data name="listing.search.filters.played" xml:space="preserve">
+    <value>قبلاً بازی کردم</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>رنک کسب‌شده</value>
+  </data>
+  <data name="listing.search.filters.status" xml:space="preserve">
+    <value>دسته‌بندی‌ها</value>
+  </data>
+  <data name="listing.search.sorting.title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="listing.search.sorting.artist" xml:space="preserve">
+    <value>آرتیست</value>
+  </data>
+  <data name="listing.search.sorting.difficulty" xml:space="preserve">
+    <value>دیفیکالتی</value>
+  </data>
+  <data name="listing.search.sorting.favourites" xml:space="preserve">
+    <value>علاقه‌مندی‌ها</value>
+  </data>
+  <data name="listing.search.sorting.updated" xml:space="preserve">
+    <value>آپدیت‌شده</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>رنکد شده</value>
+  </data>
+  <data name="listing.search.sorting.rating" xml:space="preserve">
+    <value>ارزیابی</value>
+  </data>
+  <data name="listing.search.sorting.plays" xml:space="preserve">
+    <value>تعداد پلی</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>مرتبط بودن</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>تأییدها</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>صافی کردن با {0} نیازمند {1} فعال است</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>تگ osu!supporter</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>بیت‌مپ‌های تبدیل‌شده</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>آرتیست‌های ویژه</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>مپ‌سازهای دنبال‌شده</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>دیفیکالتی پیشنهادی</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>بیت‌مپ‌های Spotlight</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>همه</value>
+  </data>
   <data name="status.wip" xml:space="preserve">
     <value>در حال کار</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>Silver S</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>تعداد پلی: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>پسندیدن‌ها: {0}</value>
+  </data>
+  <data name="variant.mania.4k" xml:space="preserve">
+    <value>4K</value>
+  </data>
+  <data name="variant.mania.7k" xml:space="preserve">
+    <value>7K</value>
+  </data>
+  <data name="variant.mania.all" xml:space="preserve">
+    <value>همه</value>
   </data>
 </root>

@@ -73,9 +73,6 @@
   <data name="prohibited_interact_during_migration" xml:space="preserve">
     <value>Παρακαλώ αποφύγετε την αλληλεπίδραση με το παιχνίδι!</value>
   </data>
-  <data name="failed_cleanup_notification" xml:space="preserve">
-    <value>Ορισμένα αρχεία δεν ήταν δυνατό να καθαριστούν κατά τη μετεγκατάσταση. Κάνοντας κλικ σε αυτήν την ειδοποίηση θα ανοίξει το φάκελο, ώστε να μπορείτε να καθαρίσετε χειροκίνητα τα πράγματα.</value>
-  </data>
   <data name="select_new_location" xml:space="preserve">
     <value>Παρακαλώ επιλέξτε μια νέα τοποθεσία</value>
   </data>
@@ -90,6 +87,9 @@
   </data>
   <data name="delete_all_beatmap_videos" xml:space="preserve">
     <value>Διαγραφή ΟΛΩΝ των βίντεο των beatmaps</value>
+  </data>
+  <data name="reset_all_offsets" xml:space="preserve">
+    <value>Επαναφορά όλων των μετατοπίσεων beatmap</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
     <value>Διαγραφή ΟΛΩΝ των βαθμολογιών</value>
@@ -115,11 +115,20 @@
   <data name="deleted_all_collections" xml:space="preserve">
     <value>Διαγράφηκαν όλες οι συλλογές!</value>
   </data>
+  <data name="no_collections_found_to_delete" xml:space="preserve">
+    <value>Δεν βρέθηκαν συλλογές για διαγραφή!</value>
+  </data>
   <data name="deleted_all_mod_presets" xml:space="preserve">
     <value>Διαγράφηκαν όλες οι προεπιλογές mod!</value>
   </data>
+  <data name="no_mod_presets_found_to_delete" xml:space="preserve">
+    <value>Δεν βρέθηκαν προεπιλογές mod για διαγραφή!</value>
+  </data>
   <data name="restored_all_deleted_mod_presets" xml:space="preserve">
     <value>Επαναφέρετε όλες τις διαγραμμένες ρυθμίσεις mod!</value>
+  </data>
+  <data name="no_mod_presets_found_to_restore" xml:space="preserve">
+    <value>Δεν βρέθηκαν προεπιλογές mod για επαναφορά!</value>
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Παρακαλώ επιλέξτε την τοποθεσία εγκατάστασης σας για το osu!stable</value>

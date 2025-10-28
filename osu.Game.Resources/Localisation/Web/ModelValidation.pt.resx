@@ -71,7 +71,7 @@
     <value>{0} limite máximo excedido - só pode ser até {1} caracteres.</value>
   </data>
   <data name="url" xml:space="preserve">
-    <value>Por favor insere um URL válido.</value>
+    <value>Insere um URL válido.</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>A confirmação não corresponde.</value>
@@ -221,13 +221,37 @@
     <value>Excedeste o n.º máximo de aplicações OAuth autorizadas.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Por favor insere um URL válido.</value>
+    <value>Insere um URL válido.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Nome da aplicação</value>
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>URL de recolha da aplicação</value>
+  </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>Esta {0} contém caracteres inválidos.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>Esta escolha {0} já foi utilizada.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Esta escolha {0} não é permitida.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Regras padrão</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Candidatura à equipa</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Nome abreviado</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>Hiperligação</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>A palavra-passe não pode conter o nome de utilizador.</value>
@@ -272,7 +296,7 @@
     <value>Este nome de utilizador já está a ser usado!</value>
   </data>
   <data name="user.username_no_space_userscore_mix" xml:space="preserve">
-    <value>Por favor usa underscores ou espaços, não ambos!</value>
+    <value>Só podes usar underscores ou espaços. Não podes usar ambos!</value>
   </data>
   <data name="user.username_no_spaces" xml:space="preserve">
     <value>O nome de utilizador não pode começar ou acabar com espaços!</value>
@@ -327,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Não estás neste canal.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>Fazes parte da equipa.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} não é valida para este tipo de denúncia.</value>

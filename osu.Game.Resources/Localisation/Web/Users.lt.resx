@@ -181,6 +181,9 @@
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>Nariai pagal žaidimo režimą</value>
   </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Jūsų paskyra nenaudojama jau ilgą laiką.</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Jūsų paskyra buvo nenaudojama ilga laiką.</value>
   </data>
@@ -292,23 +295,23 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>Sukčiavimas</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Naudoja kelias paskyras</value>
-  </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Įžeidinėja manę / kitus</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Siuntinėja šlamštą</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Nuorodos į netinkamą turinį</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Naudoja kelias paskyras</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Nesąmonės</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Kita (nurodykite žemiau)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Siuntinėja šlamštą</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Nuorodos į netinkamą turinį</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Tavo vartotojo prieiga buvo apribota!</value>
@@ -367,6 +370,42 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Rodyti viršelį</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Kasdieninių Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Didžiausia Kasdieninių Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Dabartinė Kasdieninių Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Iš Viso Dalyvauta</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Kasdienis\nIššūkis</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Top 10% Pasiekimų</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Top 50% Pasiekimų</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Savaitinė Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Didžiausia Savaitinių Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Dabartinė Savaitinių Įveikimų Serija</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Keisti profilio viršelį</value>
   </data>
@@ -405,6 +444,15 @@
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>nustatyti {0} kaip pagrindiniu profilio žaidimo rėžimu</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Spalva</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Spalvų pasirinkimas galimas tik {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!rėmėjai</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>nėra</value>
@@ -488,10 +536,10 @@
     <value>Nesenai žaisti (24h)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>Sužaidimų Peržiūrų Istorija</value>
+    <value>Įrašų Peržiūros Istorija</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
-    <value>Sužaidimai Žiūrėti</value>
+    <value>Įrašai Žiūrėti</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Paskutinių Kudosu Istorija</value>
@@ -578,7 +626,7 @@
     <value>Tinklo Žaidimai</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
-    <value>Atsiųsti Sužaidimą</value>
+    <value>Atsiųsti Įrašą</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
     <value>Tik reitinguoti beatmap'ai duoda pp</value>
@@ -593,7 +641,7 @@
     <value>Reitingai</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
-    <value>Geriausi rezultatai</value>
+    <value>Geriausi Rezultatai</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>Pirmos vietos</value>
@@ -736,8 +784,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Aukščiausias reitingas: {0} kada: {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Visi taškai</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Paspaudimų Tikslumas</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Pataikymai Per Sužaidimą</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Lygis {0}</value>
@@ -762,7 +819,7 @@
     <value>Reitinguoti taškai</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
-    <value>Sužaidimų peržiūros iš kitų</value>
+    <value>Įrašų peržiūros iš kitų</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
     <value>Taškų Įvertinimai</value>

@@ -82,41 +82,53 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} {1} pisteellä</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} poistui pelistä</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>peli peruutettiin</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} liittyi peliin</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>peli peruutettiin</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} potkittiin pelistä</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>peli on päättynyt</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} loi pelin</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>peli on päättynyt</value>
   </data>
-  <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>peli lakkautettiin</value>
-  </data>
-  <data name="match.events.host-changed" xml:space="preserve">
+  <data name="match.events.host_changed" xml:space="preserve">
     <value>{0} on nyt isäntä</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>pelaaja poistui pelistä</value>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>isäntä vaihdettiin</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} liittyi peliin</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
     <value>pelaaja liittyi peliin</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} potkittiin pelistä</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
     <value>pelaaja potkittiin pelistä</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} poistui pelistä</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>pelaaja poistui pelistä</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} loi pelin</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
     <value>peli luotiin</value>
   </data>
-  <data name="match.events.match-disbanded-no-user" xml:space="preserve">
-    <value>peli lakkautettiin</value>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>peli hajoitettiin</value>
   </data>
-  <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>isäntä vaihtui</value>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>peli hajoitettiin</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Tarkkuus</value>
@@ -127,23 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Pisteet</value>
   </data>
-  <data name="match.team-types.head-to-head" xml:space="preserve">
+  <data name="match.team_types.head_to_head" xml:space="preserve">
     <value>Kaikki vastakkain</value>
   </data>
-  <data name="match.team-types.tag-coop" xml:space="preserve">
-    <value>Tag Co-op</value>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Yhteistyöpeli</value>
   </data>
-  <data name="match.team-types.team-vs" xml:space="preserve">
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Tiimi yhteistyöpeli VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
     <value>Tiimi VS</value>
-  </data>
-  <data name="match.team-types.tag-team-vs" xml:space="preserve">
-    <value>Tag Tiimi VS</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Sininen joukkue</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Punainen joukkue</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Freestyle</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Korkeimmat Pisteet</value>

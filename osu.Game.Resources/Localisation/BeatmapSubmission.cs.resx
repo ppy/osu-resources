@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Odeslání beatmapy</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Sdílej svou beatmapu s celým světem!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Oprávnění k použití obsahu</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Chápu</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Často kladené otázky</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Nastavení odeslání</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Odeslat beatmapu!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Exportování beatmapy pro kompatibilitu...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Příprava na nahrání...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Nahrávání obsahu beatmapy...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Dokončování...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Než budeš pokračovat, prosíme tě, abys zkontroloval, zda obsah, který nahráváš, je v pořádku pro nahrání. Měj prosím na paměti, že jsi odpovědný za obsah, který na platformu nahráváš, a pokud si nejsi jistý, tak bys měl pro použití obsahu požádat svolení od tvůrců před nahráním!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Podívej se na pokyny k používání obsahu pro více informací</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Kritéria hodnocení beatmapy</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Nejsi si jistý, zda splňuješ požadavky? Podívej se na jejich seznam a urychli tím proces hodnocení!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Proces odesílání</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Nejsi si jistý procesem odesílání? Podívej se na tuto wiki stránku!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Fórum pro pomoc s mapováním</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Máš nějaké otázky ohledně mapování a odesílání? Zeptej se na ně na fórech!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Fórum módovacích front</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Máš problém se získáváním zpětné vazby? Proč se nezeptat ve módovací frontě!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Kam bys chtěl odeslat svou beatmapu?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Rozdělané / Vyžadující pomoc (nedokončená, není připravená k hodnocení)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Čekající (dokončená, připravená k hodnocení)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Dostávat oznámení o odpovědích v diskuzi</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Načíst v prohlížeči po odeslání</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Poznámka: Aby bylo možné pro uživatele všech verzí osu! tvoji beatmapu hrát, bude vyexportována ve zpětně kompatibilním formátu. Ačkoli jsme se snažili zajistit, aby tento proces zachoval beatmapu hratelnou v zamýšlené podobě, některá data související s funkcemi, které starší verze osu! nepodporují, mohou být ztracena.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Prázdné beatmapy nelze odeslat.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Aktualizovat beatmapu!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Nahrát NOVOU beatmapu!</value>
+  </data>
+</root>

@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>점수</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>표준화된 점수</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>총 점수</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>표준화된 총점</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>이 콘테스트의 심사위원입니다. 출품작의 심사는 이곳에서 하세요!</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0}포인트</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} 점</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>{0}에 끝났습니다</value>
   </data>
@@ -201,5 +210,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>결과 발표됨</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>정보 및 항목 보기</value>
   </data>
 </root>

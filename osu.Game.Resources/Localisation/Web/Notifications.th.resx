@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>ข่าวสาร</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>ทีม</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>โปรไฟล์</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>ทั้งหมด</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>โปรไฟล์</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>บีทแมพ</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>เวอร์ชั่น</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>แชท</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>บอร์ดข่าวสาร</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>ข่าวสาร</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>เวอร์ชั่น</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>ทีม</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>แชท</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>โปรไฟล์</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>บีทแมพ</value>
@@ -328,6 +334,18 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ตอบกลับ</value>
   </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>คุณได้เป็นสมาชิกของทีม {0} แล้ว</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>คุณได้เป็นสมาชิกของทีม {0} แล้ว</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>คำของร้องเข้าร่วมทีม {0} ของคุณถูกปฏิเสธ</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>คำของร้องเข้าร่วมทีม {0} ของคุณถูกปฏิเสธ</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>บีทแมพใหม่</value>
   </data>
@@ -400,12 +418,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value> บีทแมพ "{0}" มีความคิดเห็นใหม่</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>มีประกาศใหม่ใน "{0}"</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>คุณได้รับข้อความจาก {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>บันทึกการเปลี่ยนแปลง "{0}" มีความคิดเห็นใหม่</value>
   </data>
@@ -414,6 +426,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>มีการตอบกลับใหม่ใน "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>คุณได้เป็นสมาชิกของทีม {0} แล้ว</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>คำของร้องเข้าร่วมทีม {0} ของคุณถูกปฏิเสธ</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} ได้สร้างบีทแมพใหม่</value>

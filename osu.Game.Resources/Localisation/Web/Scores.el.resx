@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Αυτό το σκορ επισημαίνεται για διαγραφή και θα εξαφανιστεί σύντομα.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} στο {1} [{2}]</value>
   </data>
@@ -79,7 +82,13 @@
   <data name="status.non_best" xml:space="preserve">
     <value>Μόνο προσωπικές καλύτερες βαθμολογίες που απονέμονται pp</value>
   </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>δεν δίνεται pp για αυτό το σκορ</value>
+  </data>
   <data name="status.processing" xml:space="preserve">
     <value>Αυτό το σκορ εξακολουθεί να υπολογίζεται και θα εμφανιστεί σύντομα</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>Αυτό το σκορ δεν έχει κατάταξη καθώς είναι μη καταταγμένο ή σημειωμένο για διαγραφή</value>
   </data>
 </root>

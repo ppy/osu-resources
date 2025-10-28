@@ -65,31 +65,31 @@
     <value>{0} 不能為負數。</value>
   </data>
   <data name="required" xml:space="preserve">
-    <value>需要 {0} 。</value>
+    <value>需要 {0}。</value>
   </data>
   <data name="too_long" xml:space="preserve">
-    <value>{0} 超出最大長度——最多允許 {1} 個字符。</value>
+    <value>{0} 超出最大長度限制，最多只能輸入 {1} 個字元。</value>
   </data>
   <data name="url" xml:space="preserve">
-    <value>請輸入一個正確無誤的網址。</value>
+    <value>請輸入有效的 URL。</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>確認資訊不符。</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>指定了時間戳記但是譜面不存在。</value>
+    <value>指定了時間戳記但是圖譜不存在。</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>無法推薦譜面。</value>
+    <value>無法推薦圖譜。</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>只能在 常規（全難度） 中推薦。</value>
+    <value>推薦必須在「一般（所有難度）」區塊進行。</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>指定的難度無效。</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>指定的譜面無效。</value>
+    <value>指定的圖譜無效。</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>討論被鎖定。</value>
@@ -107,7 +107,7 @@
     <value>必須登入後才能推薦</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>你已經推薦了這張譜面</value>
+    <value>你已經推薦了這張圖譜。</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
     <value>你已經用完推薦次數</value>
@@ -116,10 +116,10 @@
     <value>這張譜面無法推薦</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>不能推薦你自己的譜面</value>
+    <value>不能推薦你自己的圖譜。</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>指定的時間戳記不在譜面範圍內。</value>
+    <value>指定的時間戳記不在圖譜範圍內。</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
     <value>無法定位時間戳記。</value>
@@ -229,6 +229,30 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>應用程式回傳 URL</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0}包含無效字元。</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>{0}已被使用。</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>不允許使用{0}。</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>預設遊戲模式</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>隊伍申請</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>簡稱</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>超連結</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>密碼不能包含使用者名稱。</value>
   </data>
@@ -299,7 +323,7 @@
     <value>重複新密碼與新密碼不一致。</value>
   </data>
   <data name="user.too_long" xml:space="preserve">
-    <value>超出長度限制——最多為 {0} 個字符。</value>
+    <value>超出最大長度限制，最多只能輸入 {0} 個字元。</value>
   </data>
   <data name="user.attributes.username" xml:space="preserve">
     <value>使用者名稱</value>
@@ -327,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>您不在這個頻道中。</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>你是團隊成員。</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} 不符合此報告類型。</value>

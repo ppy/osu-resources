@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Ολοκλήρωση αγοράς</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Αφαίρεση όλων των αντικειμένων από το καλάθι</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} αντικείμενο στο καλάθι (${1}),{0} αντικείμενα στο καλάθι (${1})</value>
   </data>
@@ -130,14 +133,62 @@
   <data name="discount" xml:space="preserve">
     <value>κερδίστε {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>δωρεάν!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Επικοινωνία</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Ημερομηνία:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Δεδομένου ότι η πληρωμή σας ήταν μια eCheck, παρακαλώ επιτρέψτε έως και 10ημέρες για την πληρωμή μέσω PayPal!</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Η πληρωμή eCheck απορρίφθηκε από την PayPal.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter ετικέτες με αυτή τη σειρά δεν εμφανίζονται στις πρόσφατες δραστηριότητές σας.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Στάλθηκε Με:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Αποστολή Σε:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Τιμολόγιο</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>τιμολόγιο</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Η παραγγελία σου έχει ακυρωθεί</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Αν δεν ζήτησες για ακύρωση παρακαλούμε να επικοινωνήσεις με το {0} αναφέροντας τον αριθμό παραγγελίας σου (#{1})</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>υποστήριξη osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Η παραγγελία σου έχει παραδοθεί! Ελπίζουμε να την απολαμβάνεις!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Αν έχεις οποιαδήποτε προβλήματα με την αγορά σου, παρακαλούμε επικοινωνήστε με το {0}</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>υποστήριξη osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Η παραγγελία σου προετοιμάζεται!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Παρακαλούμε να περιμένεις λίγο περισσότερο για να αποσταλεί. Η πληροφορίες παρακολούθησης θα εμφανιστούν εδώ μόλις ή παραγγελία έχει επεξεργαστεί και αποσταλεί. Αυτό μπορεί να διαρκέσει έως και 5 ημέρες (αλλά κυρίως λιγότερες!) ανάλογα με το πόσο απασχολημένοι είμαστε.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Στέλνουμε όλες τις παραγγελίες από την Ιαπωνία χρησιμοποιώντας μια ποικιλία ναυτιλιακών υπηρεσιών ανάλογα με το βάρος και την αξία. Αυτή η περιοχή θα ενημερώσει με τις λεπτομέρειες μόλις έχουμε στείλει την παραγγελία.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Δεν έχει ακόμη επιβεβαιωθεί η πληρωμή σας!</value>
@@ -150,6 +201,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>κάντε κλικ εδώ για να συνεχίσετε την παραγγελία σας</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Η παραγγελία σου έχει αποσταλεί!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Λεπτομέρειες παρακολούθησης παρακάτω:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Δεν έχουμε πληροφορίες παρακολούθησης καθώς στείλαμε το πακέτο σου μέσω Air Mail, αλλά μπορείς να περιμένεις να το λάβεις μέσα σε 1-3 εβδομάδες. Για την Ευρώπη, μερικές φορές τα τελωνεία μπορούν να καθυστερήσουν την παραγγελία από τον έλεγχο μας. Άμα έχεις οποιεσδήποτε ερωτήσεις, παρακαλούμε να απαντήσεις στο email επιβεβαίωσης παραγγελίας που έλαβες (ή {0}).</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>στείλε μας ένα email</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Ακύρωση Παραγγελίας</value>
@@ -172,8 +235,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Συνέχιση Αγοράς</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Μεταφορικά &amp; Διεκπεραιωτικά</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Ο σύνδεσμος παραγγελίας για αυτήν την παραγγελία έχει λήξει.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Υποσύνολο</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Σύνολο</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Παραγγελία #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Όροι πληρωμής</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Πωλητής</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Τρόπος αποστολής</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Όροι Αποστολής</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Λεπτομέρειες παραγγελίας</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Ποσότητα</value>
@@ -223,6 +313,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Μεταφέρεται</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Κατάσταση Παραγγελίας</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Ευχαριστούμε για την παραγγελία σου!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Θα λάβεις ένα email επιβεβαίωσης σύντομα. Αν έχεις οποιεσδήποτε ερωτήσεις, παρακαλούμε {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>επικοινώνησε μαζί μας</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Όνομα</value>
   </data>
@@ -237,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Ειδοποιήστε με όταν θα είναι διαθέσιμο!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Εξαντλημένο</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>θα σας ειδοποιήσουμε όταν ανανεωθεί το απόθεμά μας. Πατήστε εδω {0} για ακύρωση</value>
@@ -264,6 +369,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Ελέγχουμε τη διαθεσιμότητα του {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Ζητήθηκε Όνομα Χρήστη</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Νέο Όνομα Χρήστη</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Το τρέχον όνομα χρήστη σου είναι "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Πρέπει να είστε {0} για να αλλάξετε το όνομα χρήστη σας!</value>

@@ -92,13 +92,16 @@
     <value>Tidak ada hasil yang ditemukan!</value>
   </data>
   <data name="search.keyword_required" xml:space="preserve">
-    <value>Kata kunci pencarian diperlukan</value>
+    <value>Kata kunci pencarian dibutuhkan</value>
   </data>
   <data name="search.placeholder" xml:space="preserve">
     <value>ketik untuk mulai mencari</value>
   </data>
   <data name="search.title" xml:space="preserve">
     <value>pencarian</value>
+  </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Lihat lebih banyak hasil pencarian lagu featured artist</value>
   </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Masuk untuk mencari beatmap</value>
@@ -107,7 +110,7 @@
     <value>{0} hasil pencarian beatmap lainnya</value>
   </data>
   <data name="search.beatmapset.more_simple" xml:space="preserve">
-    <value>Lihat hasil pencarian beatmap lainnya</value>
+    <value>Lihat lebih banyak hasil pencarian beatmap</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
     <value>Beatmap</value>
@@ -122,7 +125,7 @@
     <value>Masuk untuk mencari forum</value>
   </data>
   <data name="search.forum_post.more_simple" xml:space="preserve">
-    <value>Lihat hasil pencarian forum lainnya</value>
+    <value>Lihat lebih banyak hasil pencarian forum</value>
   </data>
   <data name="search.forum_post.title" xml:space="preserve">
     <value>Forum</value>
@@ -140,10 +143,13 @@
     <value>topik #</value>
   </data>
   <data name="search.forum_post.label.username" xml:space="preserve">
-    <value>pembuat post</value>
+    <value>pengirim</value>
   </data>
   <data name="search.mode.all" xml:space="preserve">
     <value>semua</value>
+  </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>lagu featured artist</value>
   </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>beatmap</value>
@@ -151,11 +157,17 @@
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>forum</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>tim</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>pemain</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Lihat lebih banyak hasil pencarian tim</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Masuk untuk mencari pengguna</value>
@@ -164,7 +176,7 @@
     <value>{0} hasil pencarian pengguna lainnya</value>
   </data>
   <data name="search.user.more_simple" xml:space="preserve">
-    <value>Lihat hasil pencarian pengguna lainnya</value>
+    <value>Lihat lebih banyak hasil pencarian pengguna</value>
   </data>
   <data name="search.user.more_hidden" xml:space="preserve">
     <value>Pencarian pengguna terbatas hanya pada {0} pengguna. Cobalah untuk mempersempit kriteria pencarian.</value>
@@ -176,7 +188,7 @@
     <value>Cari di wiki</value>
   </data>
   <data name="search.wiki_page.more_simple" xml:space="preserve">
-    <value>Lihat hasil pencarian wiki lainnya</value>
+    <value>Lihat lebih banyak hasil pencarian wiki</value>
   </data>
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
@@ -230,7 +242,7 @@
     <value>apabila kamu menemui masalah pada saat kamu ingin memulai permainan atau mendaftarkan akun, silakan {0} atau {1}.</value>
   </data>
   <data name="download.help.help_forum_link" xml:space="preserve">
-    <value>kunjungi sub-forum Help</value>
+    <value>kunjungi forum Help</value>
   </data>
   <data name="download.help.support_button" xml:space="preserve">
     <value>hubungi layanan dukungan kami</value>
@@ -260,7 +272,7 @@
     <value>dapatkan beatmapnya</value>
   </data>
   <data name="download.steps.beatmaps.description._" xml:space="preserve">
-    <value>{0} berbagai beatmap buatan pengguna yang tersedia pada pustaka beatmap kami dan mulailah bermain!</value>
+    <value>{0} berbagai beatmap buatan pengguna pada pustaka beatmap kami dan mulailah bermain!</value>
   </data>
   <data name="download.steps.beatmaps.description.browse" xml:space="preserve">
     <value>telusuri</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Pemain yang Online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Beatmap Tantangan Harian</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Beatmap Ranked Terbaru</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>oleh {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>berakhir dalam {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Unduh osu!</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Buka konsol admin</value>
   </data>
 </root>

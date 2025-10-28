@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>știri</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>echipă</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profil</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>tot</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>profil</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>beatmap-uri</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>versiuni</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>chat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>forum</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>noutăți</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>versiuni</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>echipă</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>chat</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>profil</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
@@ -280,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>de la {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Mesaj de echipă nou</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} spune "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} spune "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} spune "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Istoric modificări</value>
   </data>
@@ -327,6 +345,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} a răspuns</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Cerere de înscriere în echipă</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Acum ești membru al echipei {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Acum ești membru al echipei {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Actualizări la cererile de înscriere în echipă</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Cererea ta de înscriere în echipa {0} a fost refuzată</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Cererea ta de înscriere în echipa {0} a fost refuzată</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} a solicitat să se înscrie echipei tale</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} a solicitat să se înscrie echipei tale</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Beatmap nou</value>
@@ -400,11 +442,14 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap-ul ”{0}” are noi comentarii</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
     <value>Există un anunț nou în „{0}”</value>
   </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Ai primit un mesaj nou de la {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Există un mesaj nou în echipa "{0}"</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Istoricul schimbărilor "{0}" are comentarii noi</value>
@@ -414,6 +459,15 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Există răspunsuri noi în "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Acum ești membru al echipei {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Cererea ta de înscriere în echipa {0} a fost refuzată</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} a solicitat să se înscrie echipei tale</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} a creat beatmap-uri noi</value>

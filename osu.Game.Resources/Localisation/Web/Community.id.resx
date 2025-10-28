@@ -77,13 +77,13 @@
     <value>Mendukung Tim Kami</value>
   </data>
   <data name="support.why-support.team.description" xml:space="preserve">
-    <value>osu! dikembangkan dan dikelola oleh tim yang berukuran kecil. Dukunganmu akan sangat membantu... keberlangsungan hidup mereka.</value>
+    <value>osu! dikembangkan dan dikelola oleh tim yang kecil. Dukunganmu akan sangat membantu... keberlangsungan hidup mereka.</value>
   </data>
   <data name="support.why-support.infra.title" xml:space="preserve">
     <value>Prasarana Server</value>
   </data>
   <data name="support.why-support.infra.description" xml:space="preserve">
-    <value>Kontribusimu akan digunakan untuk menutupi biaya server yang menjalankan fasilitas seperti situs web, layanan multiplayer, papan peringkat online, dan lain sebagainya.</value>
+    <value>Kontribusimu akan digunakan untuk membiayai server yang menjalankan fasilitas seperti situs web, layanan multiplayer, papan peringkat online, dan lain sebagainya.</value>
   </data>
   <data name="support.why-support.featured-artists.title" xml:space="preserve">
     <value>Featured Artist</value>
@@ -113,7 +113,7 @@
     <value>Program Open Source Bounty</value>
   </data>
   <data name="support.why-support.bounty-program.description" xml:space="preserve">
-    <value>Sebagian dari dana ini juga akan disalurkan kepada para kontributor komunitas yang telah menyisihkan waktu dan upaya mereka untuk membuat osu! menjadi lebih istimewa.</value>
+    <value>Sebagian dari dana ini juga akan disalurkan kepada para kontributor komunitas yang telah menyisihkan waktu dan upaya mereka demi membuat osu! menjadi lebih baik.</value>
   </data>
   <data name="support.why-support.bounty-program.link_text" xml:space="preserve">
     <value>Cari tahu lebih lanjut seputar program Open Source Bounty &amp;raquo;</value>
@@ -125,13 +125,13 @@
     <value>osu!direct</value>
   </data>
   <data name="support.perks.osu_direct.description" xml:space="preserve">
-    <value>Telusuri dan unduh berbagai beatmap secara cepat dan mudah tanpa harus meninggalkan permainan.</value>
+    <value>Dapatkan akses yang cepat dan mudah ke bilah pencarian dan unduhan beatmap tanpa harus meninggalkan permainan.</value>
   </data>
   <data name="support.perks.friend_ranking.title" xml:space="preserve">
     <value>Papan Peringkat Teman</value>
   </data>
   <data name="support.perks.friend_ranking.description" xml:space="preserve">
-    <value>Bandingkan skor yang kamu peroleh dengan skor teman-temanmu baik di dalam permainan maupun pada situs web.</value>
+    <value>Bandingkan skor kamu dengan skor teman-temanmu pada papan peringkat khusus teman, baik itu di dalam permainan maupun pada situs web.</value>
   </data>
   <data name="support.perks.country_ranking.title" xml:space="preserve">
     <value>Papan Peringkat Negara</value>
@@ -152,7 +152,7 @@
     <value>osu! akan secara otomatis mengunduh beatmap yang belum kamu miliki pada saat kamu bermain multiplayer, menonton orang lain, atau mengklik tautan dalam chat!</value>
   </data>
   <data name="support.perks.upload_more.title" xml:space="preserve">
-    <value>Unggah Lebih Banyak</value>
+    <value>Lebih Banyak Unggahan</value>
   </data>
   <data name="support.perks.upload_more.description" xml:space="preserve">
     <value>Kuota tambahan bagimu untuk dapat mengunggah lebih banyak beatmap (dengan rincian satu kuota tambahan per beatmap Ranked yang kamu miliki, hingga maksimum 10 beatmap)</value>
@@ -167,7 +167,7 @@
     <value>Kustomisasi Profil</value>
   </data>
   <data name="support.perks.customisation.description" xml:space="preserve">
-    <value>Buat halaman profilmu lebih menarik dengan tambahan gambar latar dan kolom "saya!" yang dapat kamu isi sesuka hatimu.</value>
+    <value>Buat halaman profilmu lebih menarik dengan tambahan gambar latar atau kolom "saya!" yang dapat disesuaikan sesuka hati.</value>
   </data>
   <data name="support.perks.beatmap_filters.title" xml:space="preserve">
     <value>Opsi Pencarian Beatmap Tambahan</value>
@@ -206,7 +206,7 @@
     <value>Hak suara tambahan yang dapat kamu dipergunakan pada sub-forum Feature Requests. (2 suara per bulan)</value>
   </data>
   <data name="support.perks.sort_options.title" xml:space="preserve">
-    <value>Opsi Untuk Menyortir</value>
+    <value>Opsi Penyortiran</value>
   </data>
   <data name="support.perks.sort_options.description" xml:space="preserve">
     <value>Kemampuan untuk dapat mengakses papan peringkat negara / teman / mod dari dalam permainan.</value>
@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Bersainglah dengan teman-temanmu dan lihat siapa yang paling unggul di antara kamu dan teman-temanmu!</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Terima kasih atas dukunganmu sejauh ini! Kamu telah berkontribusi senilai {0} melalui pembelian {1} tag supporter!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>Dari jumlah tersebut, kamu telah menghadiahkan {0} tag di antaranya ({1}) kepada para pemain lainnya. Terima kasih atas kemurahan hatimu!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Terima kasih atas dukunganmu! Sejauh ini, kamu telah berkontribusi senilai total {0}, yang memberikan kamu tag "Supporter" selama {1}.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Kamu belum pernah memiliki supporter tag :(</value>
@@ -248,6 +245,12 @@
     <value>Tag supporter yang kamu miliki saat ini berlaku hingga tanggal {0}!</value>
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
-    <value>Masa berlaku tag supporter milikmu telah berakhir pada {0}.</value>
+    <value>Tag supporter kamu telah berakhir pada {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Dari jumlah ini, kamu telah menghadiahkan tag senilai {0} kepada {1}, yang mencakup total durasi selama {2}. Terima kasih atas kemurahan hatimu!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} pengguna lainnya|{0}[ pengguna lainnya</value>
   </data>
 </root>

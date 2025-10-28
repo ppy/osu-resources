@@ -143,7 +143,7 @@
     <value>적용</value>
   </data>
   <data name="github_user.info" xml:space="preserve">
-    <value>osu!의 오픈소스 저장소에 기여를 한 사람인 경우, 여기에 GitHub 계정을 연결하면 당신의 변경 사항 항목이 osu! 프로필과 연결됩니다. osu!에 기여를 한 이력 없는 GitHub 계정은 연결할 수 없습니다.</value>
+    <value>만약 osu! 오픈 소스 리포지토리의 기여자이신 경우, GitHub 계정을 연동하시면 변경 사항 항목이 osu! 프로필과 연동돼요. 기여 이력이 없는 GitHub 계정의 경우에는 osu!와 연동할 수 없어요.</value>
   </data>
   <data name="github_user.link" xml:space="preserve">
     <value>GitHub 계정 연결</value>
@@ -158,10 +158,10 @@
     <value>이 GitHub 계정은 이미 다른 유저에게 연결되어 있습니다.</value>
   </data>
   <data name="github_user.error.no_contribution" xml:space="preserve">
-    <value>osu! 저장소에 기여를 한 이력이 없으면 GitHub 계정을 연결할 수 없습니다.</value>
+    <value>osu! 레포지토리에 기여한 이력이 없는 GitHub 계정은 연동할 수 없어요.</value>
   </data>
   <data name="github_user.error.unverified_email" xml:space="preserve">
-    <value>GitHub에서 주 이메일을 인증한 후에 계정을 다시 연결해보세요.</value>
+    <value>GitHub에 등록된 주 이메일 인증 후, 계정을 다시 연동해 주세요.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Qualified 비트맵에 문제가 생길 경우 알림을 수신할 모드</value>
@@ -176,7 +176,7 @@
     <value>알림</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
-    <value>새로 만드는 포럼 주제에 대한 알림을 자동으로 활성화</value>
+    <value>생성했거나 답변을 게시한 포럼 주제에 대한 알림을 자동으로 활성화</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
     <value>수신 옵션</value>
@@ -189,6 +189,9 @@
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>개인 채팅 메시지</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>팀 채팅 메시지</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>새 댓글</value>

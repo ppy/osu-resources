@@ -68,13 +68,16 @@
     <value>Zobrazit značky zásahů</value>
   </data>
   <data name="auto_seek_on_placement" xml:space="preserve">
-    <value>Automaticky vyhledat po umístění objektů</value>
+    <value>Automatický posun po umístění objektů</value>
   </data>
   <data name="timing" xml:space="preserve">
     <value>Časování</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Nastavit bod náhledu na aktuální čas</value>
+  </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Přesunout již umístěné objekty při změně časování</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Pro úpravy (.olz)</value>
@@ -90,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>Odstranit obtížnost</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Upravit externě</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Odeslat beatmapu</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>nastavení</value>
@@ -119,7 +128,10 @@
     <value>{0:0}° (po krocích)</value>
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Omezte umístění v mřížce vzdálenosti na aktuální čas</value>
+    <value>Omezit přichycení umístění dle vzdálenosti na aktuální čas</value>
+  </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Smrštit postranní panely, když nad nimi není ukazatel myši</value>
   </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
     <value>Pro zpracování odkazů pro editor je třeba být v režimu úprav</value>
@@ -133,7 +145,43 @@
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>Zobrazit změny časování</value>
   </data>
+  <data name="Finish editing and import changes" xml:space="preserve">
+    <value>Dokončit úpravy a naimportovat změny</value>
+  </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Zobrazit přestávky</value>
+  </data>
   <data name="timeline_show_ticks" xml:space="preserve">
     <value>Zobrazit tiky</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Záložky</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Přidat záložku</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Odebrat nejbližší záložku</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Přejít na předchozí záložku</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Přejít na další záložku</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Resetovat záložky</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Otevřít stránku s informacemi beatmapy</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Otevřít stránku diskusí k beatmapě</value>
+  </data>
+  <data name="check_current_difficulty" xml:space="preserve">
+    <value>Aktuální obtížnost</value>
+  </data>
+  <data name="check_entire_beatmap_set" xml:space="preserve">
+    <value>Celá sada beatmap</value>
   </data>
 </root>

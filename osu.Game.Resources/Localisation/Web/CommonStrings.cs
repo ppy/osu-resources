@@ -45,11 +45,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BadgesNew => new TranslatableString(getKey(@"badges.new"), @"NEW");
 
         /// <summary>
-        /// "Admin"
-        /// </summary>
-        public static LocalisableString ButtonsAdmin => new TranslatableString(getKey(@"buttons.admin"), @"Admin");
-
-        /// <summary>
         /// "Authorise"
         /// </summary>
         public static LocalisableString ButtonsAuthorise => new TranslatableString(getKey(@"buttons.authorise"), @"Authorise");
@@ -358,6 +353,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "seconds"
         /// </summary>
         public static LocalisableString CountdownSeconds => new TranslatableString(getKey(@"countdown.seconds"), @"seconds");
+
+        /// <summary>
+        /// "m"
+        /// </summary>
+        public static LocalisableString DatetimeMonthPhp => new TranslatableString(getKey(@"datetime.month.php"), @"m");
+
+        /// <summary>
+        /// "y"
+        /// </summary>
+        public static LocalisableString DatetimeYearPhp => new TranslatableString(getKey(@"datetime.year.php"), @"y");
 
         /// <summary>
         /// "MMMM YYYY"

@@ -59,40 +59,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="availability.disabled" xml:space="preserve">
-    <value>Beatmap ini tidak tersedia untuk muat turun ketika ini.</value>
+    <value>Peta rentak ini kini tidak tersedia untuk dimuat turun.</value>
   </data>
   <data name="availability.parts-removed" xml:space="preserve">
-    <value>Beberapa bahagian beatmap ini telah dibuang atas permintaan pencipta atau pemegang pihak ketiga.</value>
+    <value>Sebahagian peta rentak ini telah dipadam atas permintaan pencipta atau pemegang hak pihak ketiga.</value>
   </data>
   <data name="availability.more-info" xml:space="preserve">
-    <value>Periksa sini untuk lebih maklumat.</value>
+    <value>Semak sini untuk maklumat lanjut.</value>
   </data>
   <data name="availability.rule_violation" xml:space="preserve">
-    <value>Beberapa aset dalam peta ini telah dibuang selepas dipertimbangkan sebagai tidak sesuai untuk kegunaan dalam osu!.</value>
+    <value>Beberapa aset dalam peta ini telah dipadam setelah dipertimbangkan tidak sesuai digunakan dalam osu!.</value>
   </data>
   <data name="cover.deleted" xml:space="preserve">
-    <value>Beatmap yang dipadam</value>
+    <value>Peta rentak yang dipadam</value>
   </data>
   <data name="download.limit_exceeded" xml:space="preserve">
-    <value>Sabar, main yang dah ada dulu.</value>
+    <value>Sabar, main lagi dulu.</value>
+  </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Pelayan muat turun tidak tersedia.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
-    <value>Artis yang Ditampilkan</value>
+    <value>Artis Sorotan</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Senarai Beatmap</value>
+    <value>Senarai Peta Rentak</value>
   </data>
   <data name="index.guest_title" xml:space="preserve">
-    <value>Beatmap</value>
+    <value>Peta Rentak</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
-    <value>tiada beatmap</value>
+    <value>tiada peta rentak</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>muat turun</value>
   </data>
   <data name="panel.download.video" xml:space="preserve">
-    <value>muat turun berserta video</value>
+    <value>muat turun dengan video</value>
   </data>
   <data name="panel.download.no_video" xml:space="preserve">
     <value>muat turun tanpa video</value>
@@ -101,40 +104,85 @@
     <value>buka di osu!direct</value>
   </data>
   <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
-    <value>Pencalon percubaan tidak boleh mencalonkan banyak set peraturan.</value>
+    <value>Pencalon percubaan tidak boleh mencalonkan lebih daripada satu cara main.</value>
   </data>
   <data name="nominate.full_nomination_required" xml:space="preserve">
-    <value>Anda mesti menjadi pencalon penuh untuk melakukan pencalonan terakhir sesebuah set peraturan.</value>
+    <value>Anda mesti menjadi pencalon penuh untuk melakukan pencalonan terakhir sesebuah cara main.</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
-    <value>Satu beatmap hibrid memerlukan anda untuk memilih sekurang-kurangnya satu mod permainan untuk pencalonan.</value>
+    <value>Peta rentak kacukan memerlukan anda untuk memilih sekurang-kurangnya satu mod permainan untuk dicalonkan.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>Anda tiada kebenaran untuk mencalonkan mod {0}</value>
+    <value>Anda tidak diizinkan mencalonkan untuk mod: {0}</value>
   </data>
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
-    <value>Beatmap ini mempunyai pencalonan tidak sah dan tidak boleh layak dalam keadaan ini.</value>
+    <value>Peta rentak ini mempunyai pencalonan tidak sah dan tidak boleh dilayakkan dalam keadaan ini.</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
-    <value>Pencalonan ini mempunyai set peraturan tidak sah.</value>
+    <value>Pencalonan ini mempunyai cara main tidak sah.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
-    <value>Keperluan pencalonan telah dikabulkan.</value>
+    <value>Keperluan pencalonan telah dipenuhi.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Keperluan pencalonan cara main bukan utama telah dipenuhi.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
-    <value>Anda pasti mahu mencalonkan beatmap ini?</value>
+    <value>Adakah anda pasti ingin mencalonkan peta rentak ini?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Pelayakan peta rentak ini dengan pencalon berbeza akan menetap semula giliran kelayakkannya.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
-    <value>Calonkan Beatmap</value>
+    <value>Calonkan Peta Rentak</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>catatan: anda hanya boleh mencalon sekali jadi sila pastikan anda mencalon bagi semua mod mainan yang dikehendaki</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Cara main utama semasa: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
-    <value>Calonkan untuk mod apa?</value>
+    <value>Mod yang mana dicalonkan?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>Sensitif</value>
+    <value>Tidak senonoh</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Perbincangan</value>
+  </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Lihat gambar kulit ukuran penuh</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Peta rentak ini telah dipadam.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(hanya moderator boleh lihat)</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>oleh {0}</value>
+  </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>suka peta rentak ini</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>daftar masuk untuk menyukai peta rentak ini</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>anda perlu mendaftar masuk sebelum memuat turun peta rentak!</value>
+  </data>
+  <data name="show.details.mapped_by" xml:space="preserve">
+    <value>petaan {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>kesukaran tamu oleh {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>nyahsuka peta rentak ini</value>
+  </data>
+  <data name="show.details.updated_timeago" xml:space="preserve">
+    <value>terakhir dikemas kini {0}</value>
   </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>Muat Turun</value>
@@ -143,31 +191,73 @@
     <value>tanpa Video</value>
   </data>
   <data name="show.details.download.video" xml:space="preserve">
-    <value>berserta Video</value>
+    <value>dengan Video</value>
   </data>
   <data name="show.details.login_required.bottom" xml:space="preserve">
-    <value>untuk akses lebih ciri-ciri</value>
+    <value>untuk mencapai ciri-ciri lain</value>
   </data>
   <data name="show.details.login_required.top" xml:space="preserve">
     <value>Daftar Masuk</value>
   </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>lulus {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>digemari {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>dilayakkan {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>berpangkat {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>diserahkan {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>terakhir dikemas kini {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Anda mempunyai terlalu banyak peta rentak yang disukai! Sila nyahsuka beberapa peta rentak dahulu.</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>Gembarkan peta ini jika dinikmati untuk membantu peta ini maju ke taraf &lt;strong&gt;Berpangkat&lt;/strong&gt;.</value>
+  </data>
   <data name="show.hype.current._" xml:space="preserve">
-    <value>Peta ini mempunyai status {0}.</value>
+    <value>Peta ini kini {0}.</value>
+  </data>
+  <data name="show.hype.current.status.pending" xml:space="preserve">
+    <value>tergantung</value>
+  </data>
+  <data name="show.hype.current.status.qualified" xml:space="preserve">
+    <value>layak</value>
+  </data>
+  <data name="show.hype.current.status.wip" xml:space="preserve">
+    <value>kerja sedang berjalan</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Sekiranya anda menemui isu pada peta rentak ini, sila singkirkan {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Sekiranya anda menemukan isu dengan peta rentak ini, sila laporkan {0} untuk menyedarkan pasukan kami.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Laporkan Masalah</value>
   </data>
   <data name="show.hype.report.link" xml:space="preserve">
-    <value>sini</value>
+    <value>di sini</value>
   </data>
   <data name="show.info.description" xml:space="preserve">
-    <value>Perihal</value>
+    <value>Keterangan</value>
   </data>
   <data name="show.info.genre" xml:space="preserve">
     <value>Genre</value>
   </data>
   <data name="show.info.language" xml:space="preserve">
     <value>Bahasa</value>
+  </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Tag Pemeta</value>
   </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data masih lagi dikira...</value>
@@ -176,7 +266,10 @@
     <value>Pencalon</value>
   </data>
   <data name="show.info.nsfw" xml:space="preserve">
-    <value>Kandungan sensitif</value>
+    <value>Kandungan tidak senonoh</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Imbangan dalam talian</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Titik Kegagalan</value>
@@ -185,28 +278,28 @@
     <value>Sumber</value>
   </data>
   <data name="show.info.storyboard" xml:space="preserve">
-    <value>Beatmap ini mengandungi papan cerita</value>
+    <value>Papan rentak ini mengandungi papan cerita</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
-    <value>Kadar Berjaya</value>
+    <value>Kadar Kejayaan</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>Tag</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Tag Pengguna</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
-    <value>Beatmap ini mengandungi video</value>
+    <value>Peta rentak ini mengandungi video</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap ini mengandungi unsur sensitif, menyinggung perasaan dan tidak enak. Anda pasti mahu melihatnya?</value>
+    <value>Peta rentak ini mengandungi kandungan tidak senonoh, menyinggung atau tidak sesuai untuk pemain tertentu. Adakah anda masih ingin melihatnya?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
-    <value>Kandungan Sensitif</value>
+    <value>Kandungan Tidak Senonoh</value>
   </data>
   <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
     <value>Lumpuhkan amaran</value>
   </data>
   <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
-    <value>Senarai Beatmap</value>
+    <value>Senarai peta rentak</value>
   </data>
   <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
     <value>Tunjuk</value>
@@ -215,34 +308,40 @@
     <value>dicapai {0}</value>
   </data>
   <data name="show.scoreboard.country" xml:space="preserve">
-    <value>Peringkat Kebangsaan</value>
+    <value>Pangkat Kebangsaan</value>
   </data>
   <data name="show.scoreboard.error" xml:space="preserve">
-    <value>Peringkat gagal dimuat</value>
+    <value>Pangkat gagal dimuat</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
-    <value>Peringkat Rakan-Rakan</value>
+    <value>Pangkat Kawan</value>
   </data>
   <data name="show.scoreboard.global" xml:space="preserve">
-    <value>Peringkat Dunia</value>
+    <value>Pangkat Dunia</value>
   </data>
   <data name="show.scoreboard.supporter-link" xml:space="preserve">
-    <value>Tekan &lt;a href="{0}"&gt;sini&lt;/a&gt; untuk lihat ciri-ciri menaik yang anda boleh dapat!</value>
+    <value>Klik di &lt;a href="{0}"&gt;sini&lt;/a&gt; untuk lihat semua ciri menarik yang anda dapat!</value>
+  </data>
+  <data name="show.scoreboard.supporter-only" xml:space="preserve">
+    <value>Anda perlu menjadi osu!supporter untuk mencapai kedudukan penyesuai tertentu, kebangsaan atau kawan!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Pangkat Pasukan</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Papan Markah</value>
   </data>
   <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
-    <value>Ketepatan</value>
+    <value>Kejituan</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>Kombo Maksima</value>
+    <value>Kombo Maks</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>Terlepas</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
-    <value>Mod</value>
+    <value>P'suai</value>
   </data>
   <data name="show.scoreboard.headers.pin" xml:space="preserve">
     <value>Semat</value>
@@ -251,7 +350,7 @@
     <value>Pemain</value>
   </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
-    <value>Kedudukan</value>
+    <value>Pangkat</value>
   </data>
   <data name="show.scoreboard.headers.score" xml:space="preserve">
     <value>Markah</value>
@@ -263,28 +362,40 @@
     <value>Masa</value>
   </data>
   <data name="show.scoreboard.no_scores.country" xml:space="preserve">
-    <value>Tiada orang dari negara anda telah menetapkan markah di peta ini!</value>
+    <value>Pemain dari negara anda belum mencapai apa-apa markah pada peta ini lagi!</value>
   </data>
   <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
-    <value>Tiada kawan-kawan anda yang telah menetapkan markah di peta ini!</value>
+    <value>Kawan-kawan anda belum mencapai apa-apa markah pada peta ini lagi!</value>
   </data>
   <data name="show.scoreboard.no_scores.global" xml:space="preserve">
-    <value>Tiada markah. Mungkin kamu boleh cuba?</value>
+    <value>Tiada markah lagi. Mungkin anda patut mencapai yang baharu!</value>
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Memuatkan markah...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Ahli pasukan anda belum mencapai apa-apa markah pada peta ini lagi!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
+    <value>Peta rentak tanpa pangkat.</value>
+  </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Sedang Mendahului</value>
+  </data>
+  <data name="show.scoreboard.score.own" xml:space="preserve">
+    <value>Markah Terbaikku</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Klik {0} untuk melihat semua ciri menarik yang anda dapat!</value>
   </data>
   <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
     <value>sini</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
-    <value>Besar Bulatan</value>
+    <value>Ukuran Bulatan</value>
   </data>
   <data name="show.stats.cs-mania" xml:space="preserve">
-    <value>Kiraan Kekunci</value>
+    <value>Jumlah Kekunci</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
     <value>Aliran Nyawa</value>
@@ -293,7 +404,7 @@
     <value>Ketepatan</value>
   </data>
   <data name="show.stats.ar" xml:space="preserve">
-    <value>Kadar Penghampiran</value>
+    <value>Kadar Mendekat</value>
   </data>
   <data name="show.stats.stars" xml:space="preserve">
     <value>Nilai Bintang</value>
@@ -305,31 +416,34 @@
     <value>BPM</value>
   </data>
   <data name="show.stats.count_circles" xml:space="preserve">
-    <value>Kiraan Bulatan</value>
+    <value>Jumlah Bulatan</value>
   </data>
   <data name="show.stats.count_sliders" xml:space="preserve">
-    <value>Kiraan Peluncur</value>
+    <value>Jumlah Gelangsar</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Imbangan dalam talian: {0}</value>
   </data>
   <data name="show.stats.user-rating" xml:space="preserve">
-    <value>Penilaian Pengguna</value>
+    <value>Nilai Pengguna</value>
   </data>
   <data name="show.stats.rating-spread" xml:space="preserve">
-    <value>Sebaran Penilaian</value>
+    <value>Sebaran Nilai</value>
   </data>
   <data name="show.stats.nominations" xml:space="preserve">
     <value>Pencalonan</value>
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
-    <value>Kiraan Mainan</value>
+    <value>Jumlah Mainan</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>Diperingkat</value>
+    <value>Berpangkat</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
-    <value>Diluluskan</value>
+    <value>Lulus</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Dicintai</value>
+    <value>Kegemaran</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Layak</value>
@@ -338,10 +452,10 @@
     <value>WIP</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
-    <value>Menunggu</value>
+    <value>Tergantung</value>
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
-    <value>Dikuburkan</value>
+    <value>Kubur</value>
   </data>
   <data name="spotlight_badge.label" xml:space="preserve">
     <value>Sorotan</value>

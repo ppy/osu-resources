@@ -58,22 +58,421 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="all_read" xml:space="preserve">
+    <value>Visi paziņojumi izlasīti!</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Izdzēst {0}</value>
+  </data>
+  <data name="loading" xml:space="preserve">
+    <value>Ielādē neizlasītos paziņojumus...</value>
+  </data>
+  <data name="mark_read" xml:space="preserve">
+    <value>Iztīrīt {0}</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Nav paziņojumu</value>
+  </data>
+  <data name="see_all" xml:space="preserve">
+    <value>apskatīt visus paziņojumus</value>
+  </data>
+  <data name="see_channel" xml:space="preserve">
+    <value>iet uz čatu</value>
+  </data>
+  <data name="verifying" xml:space="preserve">
+    <value>Lūdzu verificē sesiju, lai apskatītu paziņojumus</value>
+  </data>
+  <data name="action_type._" xml:space="preserve">
+    <value>visi</value>
+  </data>
+  <data name="action_type.beatmapset" xml:space="preserve">
+    <value>ritma-mapes</value>
+  </data>
+  <data name="action_type.build" xml:space="preserve">
+    <value>izveidojumi</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>čats</value>
+  </data>
+  <data name="action_type.forum_topic" xml:space="preserve">
+    <value>forums</value>
+  </data>
+  <data name="action_type.news_post" xml:space="preserve">
+    <value>jaunumi</value>
+  </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>komanda</value>
+  </data>
+  <data name="action_type.user" xml:space="preserve">
+    <value>profils</value>
+  </data>
+  <data name="filters._" xml:space="preserve">
+    <value>visi</value>
+  </data>
+  <data name="filters.beatmapset" xml:space="preserve">
+    <value>ritma-mapes</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>izveidojumi</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>čats</value>
+  </data>
+  <data name="filters.forum_topic" xml:space="preserve">
+    <value>forums</value>
+  </data>
+  <data name="filters.news_post" xml:space="preserve">
+    <value>jaunumi</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>komanda</value>
+  </data>
+  <data name="filters.user" xml:space="preserve">
+    <value>profils</value>
+  </data>
+  <data name="item.beatmapset._" xml:space="preserve">
+    <value>Ritma-mape</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change._" xml:space="preserve">
+    <value>Viesu grūtība</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Tu tagad esi "{0}" grūtības īpašnieks priekš ritma-mapes "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmap_owner_change.beatmap_owner_change_compact" xml:space="preserve">
+    <value>Tu tagad esi "{0}" grūtības īpašnieks</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion._" xml:space="preserve">
+    <value>Ritma-mapes diskusija</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Diskusija uz "{0}" tika aizslēgta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
+    <value>Diskusija tika aizslēgta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Jauns raksts uz "{0}" no {1}: "{2}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
+    <value>Jauns raksts uz "{0}" no {1}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
+    <value>Jauns raksts no {0}: "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
+    <value>Jauns raksts no {0}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
+    <value>Jauna atsauce "{0}" no {1} saturot {2}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
+    <value>Jauna atsauce no {0} saturot {1}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Diskusiju par "{0}" atvēra</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
+    <value>Diskusija tika atvērta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} uzaslava|{0} uzslavas</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} problēma|{0} problēmas</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} ieteikums|{0} ieteikumi</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
+    <value>Kvalificētas Rima-mapes problēma</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>{0} Pasūdzējās par "{1}": "{2}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_empty" xml:space="preserve">
+    <value>{0} Pasūdzējās par "{1}"</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact" xml:space="preserve">
+    <value>Par "{0}" pasūdzējās: {1}</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem_compact_empty" xml:space="preserve">
+    <value>{0} Pasūdzējās</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state._" xml:space="preserve">
+    <value>Ritma-mapes status izmainijās</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" tika diskvalificēta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
+    <value>Ritma-mape tika diskvalificēta</value>
+  </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" tika paaugstināta uz loved</value>
+    <value>"{0}" tika paaugstināta uz iemīļotu</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>Bītmape tika paaugstināta uz loved</value>
+    <value>Ritma-mape tika paaugstināta uz iemīļotu</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" tika nominēta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_nominate_compact" xml:space="preserve">
+    <value>Ritma-mape tika nominēta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" saņēma pietiekami daudz nomināciju, un iestājās novērtējamo rindā</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_qualify_compact" xml:space="preserve">
+    <value>Ritma-mape iestājās novērtējamo rindā</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" tika novērtēta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
+    <value>Ritma-mape tika novērtēta</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" tika noņemta no Loved</value>
+    <value>"{0}" tika noņemta no Iemīļota</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>Bītmape tika noņemta no Loved</value>
+    <value>Ritma-mape tika noņemta no iemīļota</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>"{0}" Nominācija tika atiestatīta</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations_compact" xml:space="preserve">
+    <value>Nominācija tika atiestatīta</value>
+  </data>
+  <data name="item.beatmapset.comment._" xml:space="preserve">
+    <value>Jauns komentrārs</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>{0} komentēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} komentēja "{1}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply" xml:space="preserve">
+    <value>{0} atbildēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.beatmapset.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} atbildēja "{1}"</value>
+  </data>
+  <data name="item.channel._" xml:space="preserve">
+    <value>Čats</value>
+  </data>
+  <data name="item.channel.announcement._" xml:space="preserve">
+    <value>Jauns paziņojums</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement" xml:space="preserve">
+    <value>{0} saka "{1}"</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.announcement.announce.channel_announcement_group" xml:space="preserve">
+    <value>Paziņojums no {0}</value>
+  </data>
+  <data name="item.channel.channel._" xml:space="preserve">
+    <value>Jauna ziņa</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message" xml:space="preserve">
+    <value>{0} saka "{1}"</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
+    <value>no {0}</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Jaunas komandas ziņas</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} saka "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} saka "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} saka "{1}"</value>
+  </data>
+  <data name="item.build._" xml:space="preserve">
+    <value>Izmaiņu pieraksts</value>
+  </data>
+  <data name="item.build.comment._" xml:space="preserve">
+    <value>Jauns komentārs</value>
+  </data>
+  <data name="item.build.comment.comment_new" xml:space="preserve">
+    <value>{0} komentēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} komentēja "{1}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply" xml:space="preserve">
+    <value>{0} atbildēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.build.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} atbildēja "{1}"</value>
+  </data>
+  <data name="item.news_post._" xml:space="preserve">
+    <value>Jaunumi</value>
+  </data>
+  <data name="item.news_post.comment._" xml:space="preserve">
+    <value>Jauns komentārs</value>
+  </data>
+  <data name="item.news_post.comment.comment_new" xml:space="preserve">
+    <value>{0} komentēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_new_compact" xml:space="preserve">
+    <value>{0} komentēja "{1}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply" xml:space="preserve">
+    <value>{0} atbildēja "{1}" par "{2}"</value>
+  </data>
+  <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
+    <value>{0} atbildēja "{1}"</value>
+  </data>
+  <data name="item.forum_topic._" xml:space="preserve">
+    <value>Foruma temats</value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply._" xml:space="preserve">
+    <value>Jauna foruma atbilde</value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>{0} atbildēja par "{1}" </value>
+  </data>
+  <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
+    <value>{0} atbildēja</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Komandas pievienošanās pieprasījums</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Tu tagad esi daļa no komandas {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Tu tagad esi daļa no komandas {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Komandas pievienošanās pieprasījuma atjaunojumi</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Tavs pieprasījums pievienoties komandai {0} ir noraidīts</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Tavs pieprasījums pievienoties komandai {0} ir noraidīts</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} pieprasīja pievienoties tavai komandai</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} pieprasīja pievienoties tavai komandai</value>
+  </data>
+  <data name="item.user.user_beatmapset_new._" xml:space="preserve">
+    <value>Jauna ritma-mape</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>Jauna ritma-mape "{0}" no {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_compact" xml:space="preserve">
+    <value>Jauna ritma-mape "{0}"</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_new_group" xml:space="preserve">
+    <value>Jaunas ritma-mapes no {0}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>Ritma-mapi "{0}" atjaunināja {1}</value>
+  </data>
+  <data name="item.user.user_beatmapset_new.user_beatmapset_revive_compact" xml:space="preserve">
+    <value>Ritma-mape "{0}" atjaunināta</value>
+  </data>
+  <data name="item.user_achievement._" xml:space="preserve">
+    <value>Medaļas</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock._" xml:space="preserve">
+    <value>Jauna medaļa</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock" xml:space="preserve">
+    <value>Tu atslēdzi "{0}"!</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_compact" xml:space="preserve">
+    <value>Tu atslēdzi "{0}"!</value>
+  </data>
+  <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
+    <value>Medaļas atslēgtas!</value>
+  </data>
+  <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
+    <value>Tu tagad esi "{0}" ritma-mapes viesis</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
+    <value>Diskusija par "{0}" tika aizslēgta</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
+    <value>Diskusijai par "{0}" ir atjauninājumi</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
+    <value>Diskusija par "{0}" tika atslēgta</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_problem.beatmapset_discussion_qualified_problem" xml:space="preserve">
+    <value>Pasūdzējās par jaunu problēmu "{0}"</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
+    <value>"{0}" tika diskvalificēta</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>"{0}" tika paaugstināta uz loved</value>
+    <value>"{0}" tika paaugstināta uz iemīļotu</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
+    <value>"{0}" tika nominēta</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_qualify" xml:space="preserve">
+    <value>"{0}" saņēma pietiekami daudz nomināciju, un iestājās novērtējamo rindā</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
+    <value>"{0}" tika novērtēta</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>"{0}" tika noņemta no Loved</value>
+    <value>"{0}" tika noņemta no Iemīļota</value>
+  </data>
+  <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
+    <value>"{0}" Nominācija tika atcelta</value>
+  </data>
+  <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
+    <value>Ritma-mapei "{0}" ir jauni komentāri</value>
+  </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Ir jauns paziņojums "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Tu saņēmi jaunu ziņu no {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Ir jauna ziņa komandā "{0}"</value>
+  </data>
+  <data name="mail.build.comment.comment_new" xml:space="preserve">
+    <value>Izmaiņu saraksts "{0}" ir jauni komentāri</value>
+  </data>
+  <data name="mail.news_post.comment.comment_new" xml:space="preserve">
+    <value>Jaunumi "{0}" ir komentāri</value>
+  </data>
+  <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
+    <value>Ir jaunas atbildes "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Tu tagad esi komandas {0} dalībnieks</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Tavs pieprasījums pievienoties komandai {0} ir ticis noliegts</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} pievienojās tavai komandai</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
+    <value>{0} ir izveidojis jaunas ritma-mapes</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} ir atjauninājis ritma-mapes</value>
   </data>
 </root>

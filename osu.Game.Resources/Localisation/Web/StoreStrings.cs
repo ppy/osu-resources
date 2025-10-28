@@ -155,6 +155,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString InvoiceEcheckDelay => new TranslatableString(getKey(@"invoice.echeck_delay"), @"As your payment was an eCheck, please allow up to 10 extra days for the payment to clear through PayPal!");
 
         /// <summary>
+        /// "The eCheck payment was rejected by PayPal."
+        /// </summary>
+        public static LocalisableString InvoiceEcheckDenied => new TranslatableString(getKey(@"invoice.echeck_denied"), @"The eCheck payment was rejected by PayPal.");
+
+        /// <summary>
         /// "osu!supporter tags in this order are not displayed in your recent activities."
         /// </summary>
         public static LocalisableString InvoiceHideFromActivity => new TranslatableString(getKey(@"invoice.hide_from_activity"), @"osu!supporter tags in this order are not displayed in your recent activities.");
@@ -473,6 +478,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Notify me when available!"
         /// </summary>
         public static LocalisableString ProductNotify => new TranslatableString(getKey(@"product.notify"), @"Notify me when available!");
+
+        /// <summary>
+        /// "Out of stock"
+        /// </summary>
+        public static LocalisableString ProductOutOfStock => new TranslatableString(getKey(@"product.out_of_stock"), @"Out of stock");
 
         /// <summary>
         /// "you will be notified when we have new stock. click {0} to cancel"

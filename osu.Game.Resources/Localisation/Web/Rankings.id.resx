@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>Skor 50% Teratas</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Tanggal yang dipilih belum memiliki tantangan harian!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Tidak ada tantangan harian pada tanggal yang dipilih!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Tampilkan</value>
   </data>
@@ -92,7 +98,7 @@
     <value>Pengguna ini memiliki riwayat peringkat terkini yang kurang dari 30 hari.</value>
   </data>
   <data name="type.charts" xml:space="preserve">
-    <value>spotlights</value>
+    <value>spotlight (versi lawas)</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>negara</value>
@@ -100,20 +106,20 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>tantangan harian</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>global</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
     <value>multiplayer</value>
   </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>performa</value>
-  </data>
-  <data name="type.score" xml:space="preserve">
-    <value>skor</value>
-  </data>
   <data name="type.seasons" xml:space="preserve">
     <value>musim</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>tim</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Musim ini belum memiliki ruangan.</value>
@@ -126,6 +132,9 @@
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Menampilkan informasi lebih lanjut seputar musim yang dipilih.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>faktor skor yang ada tidak cukup untuk perhitungan yang layak</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>Tanggal Berakhir</value>
@@ -148,6 +157,12 @@
   <data name="stat.country" xml:space="preserve">
     <value>Negara</value>
   </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Divisi</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Anggota</value>
+  </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>Jml. Permainan</value>
   </data>
@@ -165,5 +180,14 @@
   </data>
   <data name="stat.average_performance" xml:space="preserve">
     <value>pp Rata-Rata</value>
+  </data>
+  <data name="stat.ss" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="stat.s" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="stat.a" xml:space="preserve">
+    <value>A</value>
   </data>
 </root>

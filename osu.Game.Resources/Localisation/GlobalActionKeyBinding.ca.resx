@@ -74,7 +74,7 @@
     <value>Commuta la configuració</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
-    <value>Alternar llista de beatmaps</value>
+    <value>Commuta la llista de mapes</value>
   </data>
   <data name="increase_volume" xml:space="preserve">
     <value>Augmenta el volum</value>
@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Selecció següent</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Selecciona el grup anterior</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Activa el conjunt anterior</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Selecciona el grup següent</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Activa el següent conjunt</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Expandeix el grup anterior</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Expandeix el següent grup</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Commuta l'expansió del grup actual</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Inici</value>
@@ -146,7 +155,7 @@
     <value>Commuta el perfil</value>
   </data>
   <data name="pause_gameplay" xml:space="preserve">
-    <value>Pausar / reprèn el joc</value>
+    <value>Pausar / reprèn la partida</value>
   </data>
   <data name="editor_setup_mode" xml:space="preserve">
     <value>Mode de configuració</value>
@@ -161,7 +170,7 @@
     <value>Mode de temps</value>
   </data>
   <data name="editor_tap_for_bpm" xml:space="preserve">
-    <value>Toca per al BPM</value>
+    <value>Toca per al PPM</value>
   </data>
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Clona la selecció</value>
@@ -188,10 +197,10 @@
     <value>Commuta la interfície del joc</value>
   </data>
   <data name="toggle_in_game_leaderboard" xml:space="preserve">
-    <value>Alternar taula de classificació del joc</value>
+    <value>Commuta la taula de classificació de la partida</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>Commuta la selecció mod</value>
+    <value>Commuta la selecció de mods</value>
   </data>
   <data name="deselect_all_mods" xml:space="preserve">
     <value>Desselecciona tots els mods</value>
@@ -203,7 +212,7 @@
     <value>Rebobina</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
-    <value>Opcions del beatmap</value>
+    <value>Opcions del mapa</value>
   </data>
   <data name="editor_verify_mode" xml:space="preserve">
     <value>Mode de verificació</value>
@@ -266,7 +275,7 @@
     <value>Desa la repetició</value>
   </data>
   <data name="export_replay" xml:space="preserve">
-    <value>Exportar repetició</value>
+    <value>Exporta la repetició</value>
   </data>
   <data name="increase_offset" xml:space="preserve">
     <value>Augmentar compensació</value>
@@ -309,5 +318,26 @@
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
     <value>Vés al punt de mostra següent</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Afegeix punt de llibre</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Elimina el punt de llibre més proper</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Cerca el punt de llibre anterior</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Cerca el punt de llibre següent</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Desplaçament absolut a la llista de pistes</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Commuta el control de moviment</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Descarta els canvis sense desar</value>
   </data>
 </root>

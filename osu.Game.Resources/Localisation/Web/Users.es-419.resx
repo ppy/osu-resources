@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(los osu!supporters tendrán acceso pronto)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Activas</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Finalizadas</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Mapas: {0}</value>
   </data>
@@ -292,26 +298,41 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Por favor, reporta la infracción de derechos de autor a través de una reclamación de DMCA a {0} según {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>la política de derechos de autor de osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Esto se aplica a los casos en los que se usan pistas de audio, contenido visual o contenido de los mapas sin el permiso correcto.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Juega sucio o hace trampa</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Utiliza múltiples cuentas</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Infracción de derechos de autor</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Conducta inapropiada en el chat</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Insultándome/insultando a otros</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Envía muchos mensajes a la vez (spam)</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Enlaza contenido inapropiado</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Utiliza múltiples cuentas</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Sin sentido</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Otros (indicar abajo)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Envía muchos mensajes a la vez (spam)</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Enlaza contenido inapropiado</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>¡Tu cuenta ha sido restringida!</value>
@@ -793,8 +814,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Clasificación más alta: {0} el {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Puntuación total</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisión</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Pulsaciones por jugada</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Nivel {0}</value>

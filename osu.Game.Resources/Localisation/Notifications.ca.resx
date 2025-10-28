@@ -68,7 +68,7 @@
     <value>Tasques en execució</value>
   </data>
   <data name="clear_all" xml:space="preserve">
-    <value>Esborrar tot</value>
+    <value>Esborrar-ho tot</value>
   </data>
   <data name="battery_low" xml:space="preserve">
     <value>El teu nivell de bateria és baix! Carrega el teu dispositiu per a evitar interrupcions durant el joc.</value>
@@ -80,13 +80,13 @@
     <value>El ruleset actual no té un mod de joc automàtic disponible!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
-    <value>Sembla que osu! no pot reproduir àudio correctament.\n\nSi us plau, prova de canviar el teu dispositiu d'àudio a una configuració que funcioni.</value>
+    <value>Sembla que l'osu! no pot reproduir l'àudio correctament.\n\nIntenteu canviar la configuració del dispositiu d'àudio.</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
-    <value>La superposició de puntuacions està actualment deshabilitada. Podeu alternar-ho prement {0}.</value>
+    <value>La superposició de puntuacions està actualment deshabilitada. Podeu commutar-ho prement {0}.</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
-    <value>L'URL {0} té un protocol no compatible o perillos i no s'obrirà.</value>
+    <value>L'URL {0} té un protocol no compatible o perillós i no s'obrirà.</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
     <value>Els missatges posteriors s'han registrat. Fes clic per veure els fitxers de registre.</value>
@@ -100,23 +100,17 @@
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Aquest tipus d'enllaç no és compatible!</value>
   </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Has rebut un missatge privat de '{0}'. Fes clic per llegir-lo!</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>El teu nom ha sigut mencionat al xat per '{0}'. Fes clic per saber per què!</value>
-  </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
     <value>{0} t'ha convidat al partit multijugador «{1}»! Fes clic per unir-te.</value>
   </data>
   <data name="missing_beatmap_for_replay" xml:space="preserve">
-    <value>No tens el beatmap per a aquesta repetició.</value>
+    <value>No tens el mapa per a aquesta repetició.</value>
   </data>
   <data name="downloading_beatmap_for_replay" xml:space="preserve">
-    <value>S'està baixant el beatmap que falta per a aquesta reproducció...</value>
+    <value>S'està baixant el mapa que falta per a aquesta reproducció...</value>
   </data>
   <data name="mismatching_beatmap_for_replay" xml:space="preserve">
-    <value>La teva còpia local del beatmap per a aquesta repetició sembla ser diferent del que s'esperava. És possible que hagis d'actualitzar-lo o tornar-lo a baixar.</value>
+    <value>La teva còpia local del mapa per a aquesta repetició sembla ser diferent del que s'esperava. És possible que hagis d'actualitzar-lo o tornar-lo a baixar.</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
     <value>Estàs executant osu! {0}.
@@ -130,5 +124,11 @@ Fes clic per veure que hi ha de nou!</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Baixant actualització...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Aquesta sala multijugador s'ha tancat. Feu clic per a mostrar-ne els resultats.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Menciona</value>
   </data>
 </root>

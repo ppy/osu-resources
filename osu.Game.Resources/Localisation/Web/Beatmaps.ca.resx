@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>El conjunt de regles especificat no és vàlid.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Massa mapejadors convidats.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Error en actualitzar el vot</value>
   </data>
@@ -65,7 +71,7 @@
     <value>permetre kudosu</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
-    <value>Pàgina del beatmap</value>
+    <value>Pàgina del mapa</value>
   </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>eliminar</value>
@@ -86,13 +92,13 @@
     <value>Dificultat de convidat per {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>Negat d'obtenir kudosu.</value>
+    <value>Negar l'obtenció de kudosu.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Aquesta dificultat ha estat eliminada, per la qual cosa ja no es pot discutir.</value>
+    <value>Aquesta dificultat ha estat eliminada, per tant ja no es pot discutir.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>La discussió per a aquest beatmap s'ha desactivat.</value>
+    <value>La discussió per a aquest mapa s'ha desactivat.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
     <value>No podeu publicar una discussió mentre estigui silenciat.</value>
@@ -119,7 +125,7 @@
     <value>restaurar</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>Mostrar eliminats</value>
+    <value>Mostra els eliminats</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussions</value>
@@ -128,10 +134,10 @@
     <value>{0} problema sense resoldre|{0} problemes sense resoldre</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
-    <value>Replegar-ho tot</value>
+    <value>Plega-ho tot</value>
   </data>
   <data name="discussions.collapse.all-expand" xml:space="preserve">
-    <value>Ampliar-ho tot</value>
+    <value>Expandeix-ho tot</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
     <value>Encara no hi ha discussions!</value>
@@ -152,10 +158,10 @@
     <value>Esteu segur que voleu desbloquejar-la?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Aquest post anirà a la discussió general de beatmaps. Per modejar aquesta dificultat, comença un missatge amb una marca de temps (ex. 00:12:345).</value>
+    <value>Aquest post anirà a la discussió general de mapes. Per modejar aquesta dificultat, comença un missatge amb una marca de temps (ex. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Per moddejar diverses marques de temps, publiqueu diverses vegades (un missatge per marca de temps).</value>
+    <value>Per modejar diverses marques de temps, publiqueu diverses vegades (un missatge per marca de temps).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>Escriviu aquí per publicar a General ({0})</value>
@@ -173,7 +179,7 @@
     <value>Desqualificar</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
-    <value>Hype!</value>
+    <value>Eufòria!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
     <value>Nota</value>
@@ -200,7 +206,7 @@
     <value>Publicar desqualificació</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
-    <value>Publicar Hype!</value>
+    <value>Publicar eufòria!</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>Publicar nota</value>
@@ -323,19 +329,19 @@
     <value>Tots</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Aquest beatmap va ser aprovat el {0}!</value>
+    <value>Aquest mapa es va aprovar el {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Aquest beatmap no s'ha actualitzat des del {0}, de manera que va ser enterrat...</value>
+    <value>Aquest mapa no s'ha actualitzat des del {0}, de manera que s'ha abandonat...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Aquest beatmap es va afegir a Estimats el {0}!</value>
+    <value>Aquest mapa es va afegir a Estimats el {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Aquest beatmap va ser classificat el {0}!</value>
+    <value>Aquest mapa va ser classificat el {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Nota: el creador ha marcat aquest beatmap com a treball en curs.</value>
+    <value>Nota: el creador ha marcat aquest mapa com a treball en curs.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Encara no hi ha vots negatius</value>
@@ -350,52 +356,52 @@
     <value>Últims vots positius</value>
   </data>
   <data name="hype.button" xml:space="preserve">
-    <value>Hipejar aquest beatmap!</value>
+    <value>Mostra eufòria a aquest mapa!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
-    <value>Hypejat!</value>
+    <value>Ja li has donat la teva mostra d'eufòria!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Segur? Això farà servir un dels seus {0} hype restants i no es pot desfer.</value>
+    <value>Segur? Això farà servir una de les teves {0} mostres d'eufòria restants i no es pot desfer.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Hypeja aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
+    <value>Mostra eufòria a aquest mapa per a fer-lo més visible per a la nominació i la classificació!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Inicia sessió i hypeja aquest beatmap per fer-lo més visible per a la nominació i la classificació!</value>
+    <value>Inicia sessió i mostra eufòria a aquest mapa per a fer-lo més visible per a la nominació i la classificació!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
-    <value>Obtindràs un altre hype {0}.</value>
+    <value>Obtindràs una altra mostra d'eufòria {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Et queden {0} hypes.</value>
+    <value>Et queden {0} mostres d'eufòria.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
-    <value>Hype: {0}/{1}</value>
+    <value>Eufòria: {0}/{1}</value>
   </data>
   <data name="hype.section_title" xml:space="preserve">
-    <value>Tren de hype</value>
+    <value>Mostres d'eufòria</value>
   </data>
   <data name="hype.title" xml:space="preserve">
-    <value>Hype</value>
+    <value>Eufòria</value>
   </data>
   <data name="feedback.button" xml:space="preserve">
     <value>Deixar un comentari</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
-    <value>Ja has nominat aquest beatmap.</value>
+    <value>Ja has nominat aquest mapa.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>No podeu nominar aquest mode de joc del beatmap.</value>
+    <value>No podeu nominar aquest mode de joc del mapa.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Eliminar</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>Estàs segur? El beatmap serà eliminat i seràs redirigit de tornada al teu perfil.</value>
+    <value>Estàs segur? El mapa s'eliminarà i se us redigirirà de tornada al perfil.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>Estàs segur? El beatmap serà eliminat i seràs redirigit al perfil de l'usuari.</value>
+    <value>Estàs segur? El mapa s'eliminarà i se us redigirirà al perfil d'usuari.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
     <value>Motiu de la desqualificació?</value>
@@ -425,13 +431,13 @@
     <value>Nominar</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Nominar aquest beatmap?</value>
+    <value>Nominar aquest mapa?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nominat per {0}</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
-    <value>No hi ha prou hype.</value>
+    <value>No hi ha prou eufòria.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
     <value>Eliminar de Estimats</value>
@@ -476,13 +482,13 @@
     <value>Desqualificat {0} per {1} amb el nou problema {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Estàs segur? Això eliminarà el beatmap de la qualificació i restablirà el procés de nominació.</value>
+    <value>Estàs segur? Això eliminarà el mapa de la qualificació i restablirà el procés de nominació.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>N'estàs segur? Publicar un nou problema reiniciarà el temps de nominació.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>Segur que vols informar d'un problema en aquest beatmap? Això alertarà els Nominadors de Beatmaps.</value>
+    <value>Segur que vols informar d'un problema en aquest mapa? Això alertarà els Nominadors de Mapes.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>escriu paraules clau...</value>

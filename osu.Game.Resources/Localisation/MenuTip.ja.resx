@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Ctrl+Tを押せばゲームのどこでもツールバーを切り替えできます！</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Ctrl+Oを押せばゲームのどこでも設定にアクセスできます！</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>すべての設定はリアルタイムで変更されます。オートプレイを見ながらスキンを変更してみましょう！</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>アップデートするたびに新しい機能がやってきます。最新の状態を保つようにしてください！</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>UIが大きすぎたり小さすぎる場合は、設定でUI拡大縮小を試してください！</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>フルスクリーンでもゲームプレイやUIエリアを変更するには、「画面の拡大縮小」モードを調整してみてください！</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>以前「osu!direct」だったものは全てのユーザーがWebサイトと同じように使えます。Ctrl+Bでどこでもアクセスできます！</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>画面下部のプログレスバーをドラッグするか矢印キーの左右を使用してリプレイをシークすることができます！</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Modセレクトで右にスクロールして、たくさんの新しくて楽しいModを見つけてください！</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>ほとんどのウェブコンテンツ(プロファイル、ランキングなど)は、ツールバー上のアイコンから直接ゲーム内で利用できます！</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>楽曲選択時にパネルを右クリックしてビートマップの詳細を表示したり、非表示、または削除できます！</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>ユーザーが自分のカスタムおよび永続的なリーダーボードを作成できる「プレイリスト」システムをチェックしてください！</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Ctrl-F11で高度なフレーム/スレッドの統計情報を切り替えます！</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>スペースを押すとリプレイ中に一時停止できます！</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>ゲーム内のほとんどのホットキーは設定可能で、好きなものに変更できます。入力設定のショートカットとゲームプレイの割り当てをチェックしてください！</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>スキンレイアウトエディターを使用してゲームプレイHUDをカスタマイズできます。Ctrl-Shift-Sでいつでも開けます！</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Modプリセットを作成すると、お気に入りのModの組み合わせを簡単に切り替えることができます！</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>多くのMODは機能を大幅に変更するカスタマイズ設定を持っています。Modのカスタマイズボタンをクリックして設定を見てみましょう！</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Ctrl-Shift-R を押してランダムなスキンに切り替えます！</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>リプレイを見ながら、Ctrl+Hでリプレイ設定を切り替えます！</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>リーダーボードのスコアからModを簡単にコピーできます！</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>ソングセレクト中にCtrl+Enterでビートマップをオートプレイで開始します！</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>「Lazer」は英単語ではありません。明るい光を表す正しい綴りは「laser」です。</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>マルチスレッドサポートはFPSが高くなくても入力と判定が正確になることを意味します！</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>全ての削除の操作は終了するまで確定しません。間違って削除したコンテンツはメンテナンス設定から復元できます！</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Ctrl-F2を押せばパフォーマンス統計を有効にできます！</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>ゲームプレイHUDが非表示でも、Ctrlを長押しすると一時的に表示できます！</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>スキンエディターに画像をドラッグ&amp;ドロップして素早く読み込むことができます！</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>ビートマップカルーセルの近くでマウスの右ボタンを押したまま、すぐに絶対位置までスクロールできます！</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>あなたのためのヒント：</value>
+  </data>
+</root>

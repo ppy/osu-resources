@@ -58,23 +58,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mods" xml:space="preserve">
+    <value>Моди</value>
+  </data>
+  <data name="random" xml:space="preserve">
+    <value>Випадкова</value>
+  </data>
+  <data name="rewind" xml:space="preserve">
+    <value>Попередня</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
   <data name="locally_modified" xml:space="preserve">
     <value>Локальний</value>
   </data>
   <data name="locally_modified_tooltip" xml:space="preserve">
     <value>Був локально змінений</value>
   </data>
-  <data name="manage_collections" xml:space="preserve">
-    <value>Керування колекціями</value>
+  <data name="status_unknown" xml:space="preserve">
+    <value>Невідомо</value>
+  </data>
+  <data name="total_plays" xml:space="preserve">
+    <value>Всього ігор</value>
+  </data>
+  <data name="personal_plays" xml:space="preserve">
+    <value>Персональні ігри</value>
+  </data>
+  <data name="circle_size" xml:space="preserve">
+    <value>Розмір нот</value>
+  </data>
+  <data name="key_count" xml:space="preserve">
+    <value>Клавіші</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Темп подання</value>
+  </data>
+  <data name="accuracy" xml:space="preserve">
+    <value>Точність</value>
+  </data>
+  <data name="hp_drain" xml:space="preserve">
+    <value>Втрата HP</value>
+  </data>
+  <data name="scroll_speed" xml:space="preserve">
+    <value>Швидкість прокручування</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Опублікована</value>
+  </data>
+  <data name="ranked" xml:space="preserve">
+    <value>Рейтингова</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Подробиці</value>
+  </data>
+  <data name="ranking" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="use_these_mods" xml:space="preserve">
+    <value>Використовуйте такі моди</value>
   </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Для всіх складностей</value>
   </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Видалити мапу</value>
-  </data>
   <data name="for_selected_difficulty" xml:space="preserve">
     <value>Для вибраної складності</value>
+  </data>
+  <data name="update_beatmap_tooltip" xml:space="preserve">
+    <value>Оновити мапу зі змінами в мережі</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
     <value>Позначити як зіграну</value>
@@ -82,7 +133,76 @@
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Очистити локальний топ</value>
   </data>
-  <data name="edit_beatmap" xml:space="preserve">
-    <value>Редагувати бітмапу</value>
+  <data name="delete_beatmap" xml:space="preserve">
+    <value>Видалити мапу</value>
+  </data>
+  <data name="restore_all_hidden" xml:space="preserve">
+    <value>Відновити всі приховані</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} зірок</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>Сортувати</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Групувати</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Жоден</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Виконавець</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="bpm" xml:space="preserve">
+    <value>УД/ХВ</value>
+  </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>Дата Подання</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>Дата Рангу</value>
+  </data>
+  <data name="date_added" xml:space="preserve">
+    <value>Дата Додавання</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>Востаннє Грали</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Складність</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Тривалість</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Вподобані</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Мої мапи</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Колекції</value>
+  </data>
+  <data name="rank_achieved" xml:space="preserve">
+    <value>Досягнутий ранг</value>
+  </data>
+  <data name="ranked_status" xml:space="preserve">
+    <value>Статус Рейтингу</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Джерело</value>
+  </data>
+  <data name="no_matching_beatmaps" xml:space="preserve">
+    <value>Немає відповідних мап</value>
+  </data>
+  <data name="no_matching_beatmaps_description" xml:space="preserve">
+    <value>Жодної мапи не відповідають критеріям ваших фільтрів!</value>
   </data>
 </root>

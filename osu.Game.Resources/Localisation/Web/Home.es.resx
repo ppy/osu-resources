@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>buscar</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Ver más resultados de las canciones de los artistas destacados</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Inicia sesión para buscar mapas</value>
   </data>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>todos</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>artistas destacados</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>mapa</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>foro</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>equipos</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>jugador</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Ver más resultados de equipos</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Inicia sesión para buscar usuarios</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Usuarios en línea</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Mapa del desafío diario</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Nuevos mapas clasificados</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>por {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>nuevo mapa {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Descargar osu!</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Abrir la consola de administración</value>
   </data>
 </root>

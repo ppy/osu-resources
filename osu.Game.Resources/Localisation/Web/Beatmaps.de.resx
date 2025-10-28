@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Ungültigen Spielmodus ausgewählt.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Zu viele Gastmapper.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Aktualisieren der Stimme fehlgeschlagen</value>
   </data>
@@ -86,7 +92,7 @@
     <value>Guest-Difficulty von {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>Kudosu-Annahme abgelehnt.</value>
+    <value>Kudosu-Vergabe abgelehnt.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Diese Difficulty wurde gelöscht und kann nicht mehr diskutiert werden.</value>
@@ -473,7 +479,7 @@
     <value>Nominierungsprozess zurückgesetzt vor {0} von {1} mit dem Problem {2} ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>Vor {0} disqualifiziert von {1} mit einem neuen Problem {2} ({3}).</value>
+    <value>Wegen eines neuen Problems {0} ({1}) {2} von {3} disqualifiziert.</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
     <value>Bist du sicher? Das wird die Beatmap von der Qualifizierung entfernen und den Nominierungsprozess zurücksetzen.</value>

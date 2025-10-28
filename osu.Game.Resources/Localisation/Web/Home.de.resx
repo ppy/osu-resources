@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>Suche</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Mehr Suchergebnisse von Featured-Artist-Songs anzeigen</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Melde dich an, um Beatmaps zu suchen</value>
   </data>
@@ -145,11 +148,17 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>alle</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>Song eines Featured Artist</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>Beatmap</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>Forum</value>
+  </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>Team</value>
   </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>Spieler</value>
@@ -157,8 +166,11 @@
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>Wiki</value>
   </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Weitere Team-Ergebnisse anzeigen</value>
+  </data>
   <data name="search.user.login_required" xml:space="preserve">
-    <value>Melde Dich an, um Benutzer zu suchen</value>
+    <value>Melde dich an, um Benutzer zu suchen</value>
   </data>
   <data name="search.user.more" xml:space="preserve">
     <value>{0} weitere Spieler-Ergebnisse</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>User online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Tägliche Herausforderung</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Neue Ranked Beatmaps</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>von {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>endet {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>osu! herunterladen</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Adminkonsole öffnen</value>
   </data>
 </root>

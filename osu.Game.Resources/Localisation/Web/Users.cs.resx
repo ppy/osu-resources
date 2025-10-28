@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(brzy pro podporovatele)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktivní</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Skončila</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmap: {0}</value>
   </data>
@@ -292,26 +298,41 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Zrušit</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Prosím nahlaste porušení autorských práv prostřednictvím DMCA požadavku na {0} podle {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! pravidla autorských práv</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>To platí pro případy, kdy jsou zvukové stopy, vizuální obsah nebo obsah úrovně beatmapy použity bez správného oprávnění.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Podvádění</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Používání více účtů</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Porušení autorských práv</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Nevhodné chování v chatu</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Uráží mě / ostatní</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Spamování</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Odkazování na nevhodný obsah</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Používání více účtů</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Nesmysl</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Jiný (napište níže)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spamování</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Nevhodný obsah</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Tvůj účet byl omezen!</value>
@@ -638,7 +659,7 @@
     <value>Stáhnout záznam</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Pouze hodnocené mapy vydávají pp.</value>
+    <value>Pouze hodnocené mapy udělují pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>váženo na {0}</value>
@@ -793,8 +814,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Nejvyšší rank {0} v {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Celkové skóre</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Přesnost zásahů</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Zásahů za hru</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Úroveň {0}</value>
@@ -857,10 +887,10 @@
     <value>Offline</value>
   </data>
   <data name="store.from_client" xml:space="preserve">
-    <value>prosím, zaregistrujte se přes herního klienta!</value>
+    <value>prosím, zaregistruj se přes herního klienta!</value>
   </data>
   <data name="store.from_web" xml:space="preserve">
-    <value>prosím dokončete registraci na webové stránce osu!</value>
+    <value>prosím dokonči registraci na webové stránce osu!</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Uživatelem vytvořen</value>

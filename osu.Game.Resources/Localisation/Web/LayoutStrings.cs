@@ -275,6 +275,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString FooterLegalPrivacy => new TranslatableString(getKey(@"footer.legal.privacy"), @"Privacy");
 
         /// <summary>
+        /// "Rules"
+        /// </summary>
+        public static LocalisableString FooterLegalRules => new TranslatableString(getKey(@"footer.legal.rules"), @"Rules");
+
+        /// <summary>
         /// "Server Status"
         /// </summary>
         public static LocalisableString FooterLegalServerStatus => new TranslatableString(getKey(@"footer.legal.server_status"), @"Server Status");

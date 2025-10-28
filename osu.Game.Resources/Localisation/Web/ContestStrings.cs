@@ -80,9 +80,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString JudgeResultsScore => new TranslatableString(getKey(@"judge_results.score"), @"Score");
 
         /// <summary>
+        /// "Standardised Score"
+        /// </summary>
+        public static LocalisableString JudgeResultsScoreStd => new TranslatableString(getKey(@"judge_results.score_std"), @"Standardised Score");
+
+        /// <summary>
         /// "total score"
         /// </summary>
         public static LocalisableString JudgeResultsTotalScore => new TranslatableString(getKey(@"judge_results.total_score"), @"total score");
+
+        /// <summary>
+        /// "total standardised score"
+        /// </summary>
+        public static LocalisableString JudgeResultsTotalScoreStd => new TranslatableString(getKey(@"judge_results.total_score_std"), @"total standardised score");
 
         /// <summary>
         /// "You are a judge of this contest. Judge the entries here!"
@@ -215,6 +225,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString VotePoints(LocalisableString countDelimited) => new TranslatableString(getKey(@"vote.points"), @"{0} point|{0} points", countDelimited);
 
         /// <summary>
+        /// "{0} points"
+        /// </summary>
+        public static LocalisableString VotePointsFloat(LocalisableString points) => new TranslatableString(getKey(@"vote.points_float"), @"{0} points", points);
+
+        /// <summary>
         /// "Ended {0}"
         /// </summary>
         public static LocalisableString DatesEnded(LocalisableString date) => new TranslatableString(getKey(@"dates.ended"), @"Ended {0}", date);
@@ -248,6 +263,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Results Out"
         /// </summary>
         public static LocalisableString StatesResults => new TranslatableString(getKey(@"states.results"), @"Results Out");
+
+        /// <summary>
+        /// "View info and entries"
+        /// </summary>
+        public static LocalisableString ShowAdminPage => new TranslatableString(getKey(@"show.admin.page"), @"View info and entries");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

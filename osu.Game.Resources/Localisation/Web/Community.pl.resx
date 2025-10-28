@@ -131,7 +131,7 @@
     <value>Ranking znajomych</value>
   </data>
   <data name="support.perks.friend_ranking.description" xml:space="preserve">
-    <value>Sprawdź, gdzie plasujesz się w rywalizacji ze znajomymi na liście wyników beatmapy zarówno na stronie, jak i w grze.</value>
+    <value>Sprawdź, gdzie plasujesz się w rywalizacji ze znajomymi w tabeli wyników beatmapy zarówno na stronie, jak i w grze.</value>
   </data>
   <data name="support.perks.country_ranking.title" xml:space="preserve">
     <value>Ranking krajowy</value>
@@ -185,10 +185,10 @@
     <value>Szybkie pobieranie</value>
   </data>
   <data name="support.perks.speedy_downloads.description" xml:space="preserve">
-    <value>Mniejsze ograniczenia prędkości pobierania, szczególnie podczas używania osu!direct.</value>
+    <value>Mniejsze ograniczenia szybkości pobierania, szczególnie podczas korzystania z osu!direct.</value>
   </data>
   <data name="support.perks.change_username.title" xml:space="preserve">
-    <value>Zmiana nicku</value>
+    <value>Zmiana nazwy użytkownika</value>
   </data>
   <data name="support.perks.change_username.description" xml:space="preserve">
     <value>Jednorazowa darmowa zmiana nazwy użytkownika przy pierwszym zakupie.</value>
@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Rywalizuj ze swoimi znajomymi i zobacz, jak ci idzie!</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Dziękujemy za twoje dotychczasowe wsparcie! Otrzymaliśmy od ciebie łącznie {0} pochodzących z {1} zakupionych statusów donatora!</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>Ze wszystkich zakupionych statusów donatora, {0} podarowano innym użytkownikom (za łączną wartość {1}). Wspaniała szczodrość!</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Dziękujemy za ciągłe wsparcie! Przeznaczyłeś(-aś) łącznie {0} na status donatora osu! przez okres {1}.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Nie masz jeszcze statusu donatora osu! :(</value>
@@ -249,5 +246,11 @@
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
     <value>Twój status donatora przestał być aktywny {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Z całego wsparcia {0} zostało przeznaczone na status donatora dla {1} przez łączny okres {2}. Dziękujemy za szczodrość!</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} innego użytkownika|{0} innych użytkowników|{0} innych użytkowników</value>
   </data>
 </root>

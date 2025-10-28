@@ -71,7 +71,7 @@
     <value>{0} přesáhl maximální délku - může mít maximálně {1} znaků.</value>
   </data>
   <data name="url" xml:space="preserve">
-    <value>Zadejte prosím platnou URL adresu.</value>
+    <value>Zadej prosím platnou URL adresu.</value>
   </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>Potvrzení se neshoduje.</value>
@@ -221,13 +221,37 @@
     <value>Byl překročen limit povolených možností.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>Zadejte prosím platné adresy URL.</value>
+    <value>Zadej prosím platné URL adresy.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>Název aplikace</value>
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>URL zpětného volání aplikace</value>
+  </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>{0} obsahuje neplatné znaky.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>Toto {0} je již používáno.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Toto {0} není povoleno.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Výchozí ruleset</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Přihlašování do týmu</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Krátké jméno</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Heslo nesmí obsahovat uživatelské jméno.</value>
@@ -327,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Nejste v tomto kanálu.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>Jsi součástí tohoto týmu.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} není platný pro tento typ nahlášení.</value>

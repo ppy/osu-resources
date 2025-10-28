@@ -224,7 +224,7 @@
     <value>Запомнить этот браузер</value>
   </data>
   <data name="login.title" xml:space="preserve">
-    <value>Войдите для продолжения</value>
+    <value>Войдите, чтобы продолжить</value>
   </data>
   <data name="login.username" xml:space="preserve">
     <value>Никнейм</value>
@@ -234,6 +234,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(владельцы osu!supporter получат доступ позже)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Активные</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Завершённые</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Карты пользователя: {0}</value>
@@ -292,26 +298,41 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Отмена</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Пожалуйста, сообщите о нарушении авторских прав, отправив DMCA-жалобу на адрес электронной почты {0} в соответствии с {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>политикой osu! в отношении авторского права</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Применимо к случаям, когда аудиотреки, визуальное содержимое или игровые уровни карты используются без надлежащего разрешения.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Нечестная игра / читы</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Использование нескольких аккаунтов</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Нарушение авторских прав</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Неподобающее поведение в чате</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Оскорбление меня / других</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Спам</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Ссылки на неприемлемое содержимое</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Использование нескольких аккаунтов</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Вздор</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Другая (напишите ниже)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Спам</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Неприемлемый контент</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Ваш аккаунт был ограничен!</value>
@@ -767,10 +788,10 @@
     <value>Напишите о себе</value>
   </data>
   <data name="show.page.restriction_info._" xml:space="preserve">
-    <value>Для использования этой функции нужен {0}.</value>
+    <value>Разблокировать эту функцию можно с помощью {0}.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
-    <value>тег osu!supporter</value>
+    <value>тега osu!supporter</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
     <value>Всего {0} на форуме,</value>
@@ -793,8 +814,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Наивысший: {0} от {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Топ {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Всего очков</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Точность попаданий</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Попаданий в среднем за игру</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Уровень {0}</value>

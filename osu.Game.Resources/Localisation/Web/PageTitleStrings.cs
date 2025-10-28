@@ -185,6 +185,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainHomeControllerTestflight => new TranslatableString(getKey(@"main.home_controller.testflight"), @"testflight");
 
         /// <summary>
+        /// "matches"
+        /// </summary>
+        public static LocalisableString MainLegacyMatchesControllerDefault => new TranslatableString(getKey(@"main.legacy_matches_controller._"), @"matches");
+
+        /// <summary>
         /// "information"
         /// </summary>
         public static LocalisableString MainLegalControllerDefault => new TranslatableString(getKey(@"main.legal_controller._"), @"information");
@@ -193,11 +198,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "live streams"
         /// </summary>
         public static LocalisableString MainLivestreamsControllerDefault => new TranslatableString(getKey(@"main.livestreams_controller._"), @"live streams");
-
-        /// <summary>
-        /// "matches"
-        /// </summary>
-        public static LocalisableString MainMatchesControllerDefault => new TranslatableString(getKey(@"main.matches_controller._"), @"matches");
 
         /// <summary>
         /// "news"
@@ -235,6 +235,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainTeamsControllerDefault => new TranslatableString(getKey(@"main.teams_controller._"), @"teams");
 
         /// <summary>
+        /// "create team"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerCreate => new TranslatableString(getKey(@"main.teams_controller.create"), @"create team");
+
+        /// <summary>
+        /// "team settings"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerEdit => new TranslatableString(getKey(@"main.teams_controller.edit"), @"team settings");
+
+        /// <summary>
+        /// "team leaderboard"
+        /// </summary>
+        public static LocalisableString MainTeamsControllerLeaderboard => new TranslatableString(getKey(@"main.teams_controller.leaderboard"), @"team leaderboard");
+
+        /// <summary>
         /// "team info"
         /// </summary>
         public static LocalisableString MainTeamsControllerShow => new TranslatableString(getKey(@"main.teams_controller.show"), @"team info");
@@ -270,6 +285,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainWikiControllerDefault => new TranslatableString(getKey(@"main.wiki_controller._"), @"wiki");
 
         /// <summary>
+        /// "room history"
+        /// </summary>
+        public static LocalisableString MultiplayerRoomsControllerEvents => new TranslatableString(getKey(@"multiplayer.rooms_controller.events"), @"room history");
+
+        /// <summary>
         /// "authorize app"
         /// </summary>
         public static LocalisableString PassportAuthorizationControllerDefault => new TranslatableString(getKey(@"passport.authorization_controller._"), @"authorize app");
@@ -278,6 +298,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "store"
         /// </summary>
         public static LocalisableString StoreDefault => new TranslatableString(getKey(@"store._"), @"store");
+
+        /// <summary>
+        /// "team members"
+        /// </summary>
+        public static LocalisableString TeamsMembersControllerIndex => new TranslatableString(getKey(@"teams.members_controller.index"), @"team members");
 
         /// <summary>
         /// "modder info"

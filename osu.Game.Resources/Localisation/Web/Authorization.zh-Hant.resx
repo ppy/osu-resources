@@ -92,13 +92,13 @@
     <value>不能提名自己的圖譜。</value>
   </data>
   <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
-    <value>您必須在提名之前先設定類型和語言。</value>
+    <value>您必須在提名之前先設定曲風和語言。</value>
   </data>
   <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
-    <value>只有樓主和圖譜擁有者才能標記為已解決。</value>
+    <value>只有樓主和譜師才能標記為已解決。</value>
   </data>
   <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
-    <value>只有圖譜製作者或圖譜管理團隊/品質保證團隊可以發布備註。</value>
+    <value>只有譜師或 BN/NAT 成員才能發表備註。</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
     <value>不能為機器人建立的討論投票。</value>
@@ -113,7 +113,7 @@
     <value>只能對待處理的圖譜討論進行投票。</value>
   </data>
   <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
-    <value>您只能刪除自己的貼文。</value>
+    <value>你只能刪除自己的貼文。</value>
   </data>
   <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
     <value>你不能刪除已解決的討論串。</value>
@@ -122,7 +122,7 @@
     <value>自動生成的貼文無法刪除。</value>
   </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
-    <value>只有發文者可以編輯。</value>
+    <value>只有發文作者才能編輯。</value>
   </data>
   <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
     <value>你不能編輯已解決討論裡的貼文。</value>
@@ -152,7 +152,7 @@
     <value>你沒有權限存取該頻道。</value>
   </data>
   <data name="chat.no_announce" xml:space="preserve">
-    <value>你沒有權限發布公告。</value>
+    <value>你沒有權限發表公告。</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>由於您只接受好友訊息，故使用者可能無法回應。</value>
@@ -173,7 +173,7 @@
     <value>本次競賽尚未進入評分階段。</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
-    <value>投票已結束，禁止重新投票。</value>
+    <value>在本次競賽的投票期間結束後，您將無法變更投票。</value>
   </data>
   <data name="contest.entry.limit_reached" xml:space="preserve">
     <value>您已達到此競賽的參賽上限</value>
@@ -182,7 +182,7 @@
     <value>感謝參與！提交已經關閉，投票即將開始。</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
-    <value>沒有權限編輯這個論壇。</value>
+    <value>沒有權限編輯該子板。</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
     <value>只有最後一篇貼文可以刪除。</value>
@@ -191,10 +191,10 @@
     <value>無法刪除已鎖定主題的貼文。</value>
   </data>
   <data name="forum.post.delete.no_forum_access" xml:space="preserve">
-    <value>沒有權限進入該論壇。</value>
+    <value>沒有權限進入該子板。</value>
   </data>
   <data name="forum.post.delete.not_owner" xml:space="preserve">
-    <value>只有發文者可以刪除貼文。</value>
+    <value>只有發文者才能刪除貼文。</value>
   </data>
   <data name="forum.post.edit.deleted" xml:space="preserve">
     <value>無法編輯已刪除的貼文。</value>
@@ -205,8 +205,11 @@
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>需要有存取該論壇的權限。</value>
   </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>沒有編輯權限。</value>
+  </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
-    <value>只有發文者可以編輯貼文。</value>
+    <value>只有發文作者才能編輯貼文。</value>
   </data>
   <data name="forum.post.edit.topic_locked" xml:space="preserve">
     <value>無法編輯已鎖定主題的貼文。</value>
@@ -215,10 +218,10 @@
     <value>在論壇發文前，請先嘗試遊玩遊戲！如果您在遊玩過程中遇到問題，請在「說明與支援」論壇發文。</value>
   </data>
   <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
-    <value>您需要再玩久一點才可以發布更多貼文，如果您仍然在遊戲中遇到問題，請聯絡 support@ppy.sh</value>
+    <value>您需要再玩久一點才可以發表更多貼文，如果您仍然在遊戲中遇到問題，請聯絡 support@ppy.sh</value>
   </data>
   <data name="forum.topic.reply.double_post" xml:space="preserve">
-    <value>請編輯您的最後一則貼文，而不是再次發布。</value>
+    <value>請編輯您的最後一則貼文，而不是再次發表。</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
     <value>無法回覆被鎖定的主題。</value>
@@ -245,7 +248,7 @@
     <value>沒有權限，無法建立新主題。</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>該討論區已關閉，無法發布新主題。</value>
+    <value>該子板已關閉，無法發表新主題。</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
     <value>沒有權限，無法進入該論壇。</value>
@@ -284,7 +287,7 @@
     <value>這個討論區僅限管理員查看。</value>
   </data>
   <data name="room.destroy.not_owner" xml:space="preserve">
-    <value>只有房間主人才能關閉。</value>
+    <value>只有房主才能關閉。</value>
   </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>無法置頂這類分數。</value>
@@ -297,6 +300,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>置頂過多成績。</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>你已經是此團隊成員了。</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>你已經是其他團隊的成員了。</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>你有待處理的團隊加入請求。</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>這個團隊目前不接受任何加入請求。</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>這個團隊已經額滿，無法再接受新成員。</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>隊伍領導人無法離開團隊。</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>不是此團隊成員。</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>只有 osu!supporter 才能建立隊伍。</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>個人頁面被鎖定。</value>

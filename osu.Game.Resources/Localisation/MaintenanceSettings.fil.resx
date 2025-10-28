@@ -73,9 +73,6 @@
   <data name="prohibited_interact_during_migration" xml:space="preserve">
     <value>Mangyaring iwasan ang pakikipag-ugnayan sa laro!</value>
   </data>
-  <data name="failed_cleanup_notification" xml:space="preserve">
-    <value>Ang ilang mga file ay hindi nalinis sa panahon ng paglipat. Ang pag-click sa notipikasyon na ito ay magbubukas ng folder upang maaari mong manual na linisin ang mga bagay.</value>
-  </data>
   <data name="select_new_location" xml:space="preserve">
     <value>Mangyaring pumili ng bagong lokasyon</value>
   </data>
@@ -90,6 +87,9 @@
   </data>
   <data name="delete_all_beatmap_videos" xml:space="preserve">
     <value>Burahin LAHAT ng mga video ng beatmap</value>
+  </data>
+  <data name="reset_all_offsets" xml:space="preserve">
+    <value>I-reset LAHAT ng mga offset sa mga beatmap</value>
   </data>
   <data name="delete_all_scores" xml:space="preserve">
     <value>Burahin LAHAT ng mga iskor</value>
@@ -115,11 +115,20 @@
   <data name="deleted_all_collections" xml:space="preserve">
     <value>Tinanggal ang lahat ng mga koleksyon!</value>
   </data>
+  <data name="no_collections_found_to_delete" xml:space="preserve">
+    <value>Walang koleksyong nahanap para burahin!</value>
+  </data>
   <data name="deleted_all_mod_presets" xml:space="preserve">
     <value>Tinanggal lahat ang mga preset ng mod!</value>
   </data>
+  <data name="no_mod_presets_found_to_delete" xml:space="preserve">
+    <value>Walang mod preset nahanap para burahin!</value>
+  </data>
   <data name="restored_all_deleted_mod_presets" xml:space="preserve">
     <value>Ibinalik ang lahat ng tinanggal na mga preset ng mod!</value>
+  </data>
+  <data name="no_mod_presets_found_to_restore" xml:space="preserve">
+    <value>Walang mod preset nahanap para bawiin!</value>
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Mangyaring piliin ang iyong osu!stable na lokasyon ng pag-install</value>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Puoi premere {0} in ogni momento per nascondere la barra degli strumenti!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Puoi premere {0} in ogni momento per aprire le impostazioni!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Tutte le impostazioni sono dinamiche e si applicano in tempo reale. Prova a cambiare skin mentre guardi l'autoplay!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Per ogni versione online escono nuove funzionalità. Resta sempre aggiornato!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Se l'interfaccia ti sembra troppo grande o piccola, prova a ridimensionarla dalle impostazioni!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Prova a regolare la modalità "Ridimensionamento schermo" per cambiare l'area di gioco o dell'interfaccia, anche a schermo intero!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>È disponibile per tutti il noto "osu!direct" come dal sito web. Puoi accederci in qualsiasi momento usando {0}!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>La navigazione dei replay è disponibile trascinando la barra di progresso in basso allo schermo o usando i tasti freccia destra e sinistra!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Scorri verso destra nella selezione mod per trovare un sacco di nuove mod divertenti!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>La maggior parte dei contenuti web (profili, classifiche, ecc.) sono disponibili nativamente in gioco dalle icone sulla barra degli strumenti!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Ottieni ulteriori dettagli, nascondi o elimina una beatmap facendo clic con il tasto destro del mouse sul suo pannello in selezione brano!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Scopri il sistema "playlist", che consente agli utenti di creare le proprie classifiche personalizzate e permanenti!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Mostra le statistiche frame / thread avanzate con Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Puoi mettere in pausa durante un replay premendo {0}!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>La maggior parte dei tasti di scelta rapida nel gioco sono configurabili e puoi modificarli come preferisci. Dai un'occhiata al pannello delle scorciatoie sotto le impostazioni di input!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>È possibile personalizzare l'interfaccia di gioco utilizzando l'editor di skin. Aprilo in qualsiasi momento con {0}!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Puoi creare delle preimpostazioni di mod per rendere più facile l'attivazione delle tue combinazioni di mod preferite!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Molte mod hanno impostazioni di personalizzazione che cambiano drasticamente il loro funzionamento. Fai clic sul pulsante Personalizza in selezione mod per visualizzare le impostazioni!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Premi {0} per passare a una skin casuale!</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Mentre guardi un replay, premi {0} per mostrare le opzioni di replay!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Puoi copiare facilmente le mod da un punteggio su una classifica cliccandole col tasto destro!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Invio in selezione brano avvierà una beatmap in modalità autoplay!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" non è un termine inglese o italiano. L'espressione corretta per il fascio di luce è "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Il supporto multithreading significa che anche con "FPS" bassi i tui input e i giudizi saranno precisi!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Tutte le operazioni di eliminazione sono temporanee fino all'uscita. Ripristina contenuti cancellati accidentalmente dalle impostazioni di manutenzione!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Dai un'occhiata sotto il cofano ai contatori delle prestazioni e abilita la registrazione verbosa delle prestazioni con Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Quando l'interfaccia di gioco è nascosta, puoi tenere premuto {0} per vederla all'istante!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Trascina e rilascia qualsiasi immagine nell'editor di skin per caricarla rapidamente!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Tieni premuto il tasto destro del mouse accanto la selezione beatmap per un rapido scorrimento assoluto!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>suggerimento:</value>
+  </data>
+</root>

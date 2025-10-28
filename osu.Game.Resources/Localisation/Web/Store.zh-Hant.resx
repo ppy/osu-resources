@@ -92,7 +92,7 @@
     <value>返回到 {0} 來找些好東西！</value>
   </data>
   <data name="cart.empty.return_link.link_text" xml:space="preserve">
-    <value>商店列表</value>
+    <value>商店清單</value>
   </data>
   <data name="checkout.cart_problems" xml:space="preserve">
     <value>糟糕，您的購物車出現問題！</value>
@@ -144,6 +144,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>由於您是用 eCheck 付款，請等待至多 10 天以使該支付通過 PayPal 完成！</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>您的電子支票付款已被 PayPal 拒絕。</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>這項 osu! 贊助者訂單未在您的最近活動中顯示。</value>
@@ -337,6 +340,9 @@
   <data name="product.notify" xml:space="preserve">
     <value>可訂購時通知我 !</value>
   </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>缺貨</value>
+  </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>當商品有貨時會收到通知，點擊 {0} 以取消該通知</value>
   </data>
@@ -359,7 +365,7 @@
     <value>已登入</value>
   </data>
   <data name="username_change.check" xml:space="preserve">
-    <value>输入使用者名稱並檢查是否可用</value>
+    <value>輸入使用者名稱並檢查是否可用！</value>
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>正在檢查 {0} 是否可用。。。</value>

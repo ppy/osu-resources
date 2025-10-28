@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="all_read" xml:space="preserve">
-    <value>已经阅读所有通知！</value>
+    <value>无未读通知</value>
   </data>
   <data name="delete" xml:space="preserve">
     <value>删除 {0}</value>
@@ -68,10 +68,10 @@
     <value>正在加载未读通知……</value>
   </data>
   <data name="mark_read" xml:space="preserve">
-    <value>清除 {0} 类型的通知</value>
+    <value>将 {0} 通知设为已读</value>
   </data>
   <data name="none" xml:space="preserve">
-    <value>没有新通知</value>
+    <value>没有新消息</value>
   </data>
   <data name="see_all" xml:space="preserve">
     <value>显示所有通知</value>
@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>新闻</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>战队</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>个人资料</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>所有</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>个人资料</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>谱面</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>聊天</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>论坛</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>新闻</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>版本</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>战队</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>聊天</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>个人资料</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>谱面</value>
@@ -160,10 +166,10 @@
     <value>{0} 发布了新帖子</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>{0} 在 "{1}" 内发表了新审阅：问题：{2}，建议：{3}，赞：{4}</value>
+    <value>来自 {0} 在 "{1}" 内的新审阅，包含 {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>{0} 发表了新审阅，问题：{1}，建议：{2}，赞：{3}</value>
+    <value>来自 {0} 的新审阅，包含 {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>谱面 "{0}" 的讨论已解锁。</value>
@@ -282,6 +288,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>来自 {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>新的战队信息</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} 说：“{1}”</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>更新日志</value>
   </data>
@@ -329,6 +347,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} 回复</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>加入战队请求</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>您现在是战队 {0} 的成员</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>您现在是战队 {0} 的成员</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>新的战队加入申请</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>您加入战队 {0} 的请求已被拒绝</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>您加入战队 {0} 的请求已被拒绝</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>新谱面</value>
@@ -403,11 +445,14 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>谱面 "{0}" 有新的讨论</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>"{0}" 中有一条新通知</value>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>“{0}” 中有一条新通知</value>
   </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>您收到了 {0} 的新消息</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>战队 “{0}” 中有新消息</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>更新日志 "{0}" 有新的评论</value>
@@ -417,6 +462,15 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>主题 "{0}" 有新的回复</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>您现在是战队 {0} 的成员</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>您加入战队 {0} 的请求已被拒绝</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} 申请加入你的战队</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} 创建了一张新谱面</value>

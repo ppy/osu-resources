@@ -92,13 +92,16 @@
     <value>Nebylo nic nenalezeno!</value>
   </data>
   <data name="search.keyword_required" xml:space="preserve">
-    <value>Je vyžadováno hledané slovo</value>
+    <value>Je vyžadován hledaný výraz</value>
   </data>
   <data name="search.placeholder" xml:space="preserve">
-    <value>zadejte hledaný výraz</value>
+    <value>zadej hledaný výraz</value>
   </data>
   <data name="search.title" xml:space="preserve">
     <value>hledat</value>
+  </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Zobrazit další výsledky hledání skladeb oficiálních umělců</value>
   </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Pro hledání beatmap se přihlaste</value>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>vše</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>skladba oficiálního umělce</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>beatmapa</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>fórum</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>tým</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>hráč</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Zobrazit další výsledky vyhledávání týmů</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Pro hledání uživatelů se přihlaste</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Uživatelé online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Beatmapa denní výzvy</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Nově hodnocené beatmapy</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>od {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>obnoví se {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Stáhnout osu!</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Otevřít administrátorskou konzoli</value>
   </data>
 </root>

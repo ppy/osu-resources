@@ -82,41 +82,53 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} з відривом в {1} очків</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} покинув гру</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>гру було скасовано</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} зайшов в гру</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>гру було скасовано</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} був вигнаний з гри</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>гра завершилась</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} створив гру</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>гра завершилась</value>
   </data>
-  <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>гра була розпущена</value>
-  </data>
-  <data name="match.events.host-changed" xml:space="preserve">
+  <data name="match.events.host_changed" xml:space="preserve">
     <value>{0} став хостом</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>хост змінився</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} доєднався до гри</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>гравець доєднався до гри</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} був вигнаний з гри</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>гравець був вигнаний з гри</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} покинув гру</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
     <value>гравець покинув гру</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
-    <value>гравець приєднався до гри</value>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} створив гру</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
-    <value>був вигнаний з гри</value>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>створено гру</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
-    <value>гра була створена</value>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>гру було розпущено</value>
   </data>
-  <data name="match.events.match-disbanded-no-user" xml:space="preserve">
-    <value>гра була розпущена</value>
-  </data>
-  <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>хост гри змінився</value>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>гру було розпущено</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Точність</value>
@@ -127,23 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Очки</value>
   </data>
-  <data name="match.team-types.head-to-head" xml:space="preserve">
-    <value>Head-to-head</value>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Всі проти всіх</value>
   </data>
-  <data name="match.team-types.tag-coop" xml:space="preserve">
-    <value>Tag Co-op</value>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Естафета</value>
   </data>
-  <data name="match.team-types.team-vs" xml:space="preserve">
-    <value>Team VS</value>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Командна естафета</value>
   </data>
-  <data name="match.team-types.tag-team-vs" xml:space="preserve">
-    <value>Tag Team VS</value>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Командна гра</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Синя команда</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Червона команда</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Вільний стиль</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Найвищий бал</value>

@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Press Ctrl-T anywhere in the game to toggle the toolbar!</value>
+    <value>Press {0} anywhere in the game to toggle the toolbar!</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Press Ctrl-O anywhere in the game to access settings!</value>
+    <value>Press {0} anywhere in the game to access settings!</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>All settings are dynamic and take effect in real-time. Try changing the skin while watching autoplay!</value>
@@ -77,7 +77,7 @@
     <value>Try adjusting the "Screen Scaling" mode to change your gameplay or UI area, even in fullscreen!</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>What used to be "osu!direct" is available to all users just like on the website. You can access it anywhere using Ctrl-B!</value>
+    <value>What used to be "osu!direct" is available to all users just like on the website. You can access it anywhere using {0}!</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>Seeking in replays is available by dragging on the progress bar at the bottom of the screen or by using the left and right arrow keys!</value>
@@ -98,13 +98,13 @@
     <value>Toggle advanced frame / thread statistics with Ctrl-F11!</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>You can pause during a replay by pressing Space!</value>
+    <value>You can pause during a replay by pressing {0}!</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
     <value>Most of the hotkeys in the game are configurable and can be changed to anything you want. Check the bindings panel under input settings!</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>Your gameplay HUD can be customised by using the skin layout editor. Open it at any time via Ctrl-Shift-S!</value>
+    <value>Your gameplay HUD can be customised by using the skin layout editor. Open it at any time via {0}!</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>You can create mod presets to make toggling your favourite mod combinations easier!</value>
@@ -113,16 +113,19 @@
     <value>Many mods have customisation settings that drastically change how they function. Click the Customise button in mod select to view settings!</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Press Ctrl-Shift-R to switch to a random skin!</value>
+    <value>Press {0} to switch to a random skin!</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>While watching a replay, press Ctrl-H to toggle replay settings!</value>
+    <value>While watching a replay, press {0} to toggle replay settings!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>You can easily copy the mods from scores on a leaderboard by right-clicking on them!</value>
   </data>
   <data name="autoplay_beatmap_shortcut" xml:space="preserve">
     <value>Ctrl-Enter at song select will start a beatmap in autoplay mode!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" is not an English word. The correct spelling for the bright light is "laser".</value>
   </data>
   <data name="multithreading_support" xml:space="preserve">
     <value>Multithreading support means that even with low "FPS" your input and judgements will be accurate!</value>
@@ -134,10 +137,16 @@
     <value>Take a look under the hood at performance counters and enable verbose performance logging with Ctrl-F2!</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>When your gameplay HUD is hidden, you can press and hold Ctrl to view it temporarily!</value>
+    <value>When your gameplay HUD is hidden, you can press and hold {0} to view it temporarily!</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Drag and drop any image into the skin editor to load it in quickly!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Try holding your right mouse button near the beatmap carousel to quickly scroll to an absolute position!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Shift-click on a beatmap panel in the beatmap listing overlay to quickly download or view the beatmap in song select!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>a tip for you:</value>

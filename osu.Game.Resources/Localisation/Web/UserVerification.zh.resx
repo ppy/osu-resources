@@ -59,28 +59,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="box.sent" xml:space="preserve">
-    <value>一封包含验证码的邮件已经发送到 {0} ，请输入该验证码。</value>
+    <value>验证邮件已发送至 {0} ，请输入邮件中的验证码。</value>
   </data>
   <data name="box.title" xml:space="preserve">
-    <value>账户认证</value>
+    <value>账户验证</value>
   </data>
   <data name="box.verifying" xml:space="preserve">
-    <value>认证中</value>
+    <value>验证中……</value>
   </data>
   <data name="box.issuing" xml:space="preserve">
-    <value>正在生成新的验证码</value>
+    <value>正在生成新的验证码……</value>
   </data>
   <data name="box.info.check_spam" xml:space="preserve">
-    <value>如果找不到这封邮件，请检查垃圾箱。</value>
+    <value>如果未能找到邮件，请检查垃圾邮件文件夹。</value>
   </data>
   <data name="box.info.recover" xml:space="preserve">
-    <value>无法登录邮箱或者忘记了所使用的邮箱？{0}.</value>
+    <value>无法访问或忘记了所使用的邮箱？请通过 {0} 以重设绑定邮箱地址和密码。</value>
   </data>
   <data name="box.info.recover_link" xml:space="preserve">
     <value>点击此处</value>
   </data>
   <data name="box.info.reissue" xml:space="preserve">
-    <value>也可以 {0} 或者 {1}.</value>
+    <value>也可以尝试 {0} 或者 {1}。</value>
   </data>
   <data name="box.info.reissue_link" xml:space="preserve">
     <value>重发验证码</value>
@@ -89,18 +89,18 @@
     <value>登出</value>
   </data>
   <data name="errors.expired" xml:space="preserve">
-    <value>该验证码已经过期，新验证码已经重新发送。</value>
+    <value>该验证码已经过期，已重新发送新的验证邮件至绑定邮箱。</value>
   </data>
   <data name="errors.incorrect_key" xml:space="preserve">
     <value>验证码错误。</value>
   </data>
   <data name="errors.retries_exceeded" xml:space="preserve">
-    <value>验证码错误次数超过限定次数，新验证码已经重新发送。</value>
+    <value>验证码错误且重试次数已达上限，已重新发送新的验证邮件至绑定邮箱。</value>
   </data>
   <data name="errors.reissued" xml:space="preserve">
-    <value>新验证码已经重新发送。</value>
+    <value>已重新发送新的验证邮件至绑定邮箱。</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
-    <value>发生了未知的错误，新验证码已经重新发送。</value>
+    <value>发生了未知的错误，已重新发送新的验证邮件至绑定邮箱。</value>
   </data>
 </root>

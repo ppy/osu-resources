@@ -89,7 +89,7 @@
     <value>нельзя проголосовать в конкурсе, который вы судили</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
-    <value>Вы уже выставили баллы за эту заявку.</value>
+    <value>Вы уже проголосовали за эту заявку.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
     <value>Результаты судейства</value>
@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Баллы</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Стандартизированные очки</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>суммарный балл</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>всего стандартизированных очков</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Вы — судья этого конкурса. Нажмите сюда, чтобы начать оценивать заявки!</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0} очко|{0} очка|{0} очков</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} очков</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Окончен {0}</value>
   </data>
@@ -201,5 +210,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Результаты опубликованы</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Открыть общую информацию и заявки</value>
   </data>
 </root>

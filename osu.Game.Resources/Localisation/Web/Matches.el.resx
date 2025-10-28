@@ -82,41 +82,53 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} από {1}</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>Ο {0} έφυγε από το ματς</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>το παιχνίδι ακυρώθηκε</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>Ο {0} μπήκε στο ματς</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>το παιχνίδι ακυρώθηκε</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>Ο {0} εκδιώχθηκε από το ματς</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>το παιχνίδι έχει τελειώσει</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} δημιούργησε το ματς</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>το παιχνίδι έχει τελειώσει</value>
   </data>
-  <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>το ματς εγκαταλείφθηκε</value>
-  </data>
-  <data name="match.events.host-changed" xml:space="preserve">
+  <data name="match.events.host_changed" xml:space="preserve">
     <value>Ο {0} έγινε ο host</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>ένας παίχτης άφησε το ματς</value>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>ο host άλλαξε</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>Ο {0} μπήκε στο ματς</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
     <value>ένας παίχτης μπήκε στο ματς</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>Ο {0} εκδιώχθηκε από το ματς</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
     <value>ένας παίχτης εκδιώχθηκε από το ματς</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>Ο {0} έφυγε από το ματς</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>ένας παίχτης άφησε το ματς</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} δημιούργησε το ματς</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
     <value>το ματς δημιουργήθηκε</value>
   </data>
-  <data name="match.events.match-disbanded-no-user" xml:space="preserve">
+  <data name="match.events.room_disbanded" xml:space="preserve">
     <value>το ματς εγκαταλείφθηκε</value>
   </data>
-  <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>ο host άλλαξε</value>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>ο αγώνας διαλύθηκε</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Ακρίβεια</value>
@@ -127,23 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Σκορ</value>
   </data>
-  <data name="match.team-types.head-to-head" xml:space="preserve">
+  <data name="match.team_types.head_to_head" xml:space="preserve">
     <value>Head-to-head</value>
   </data>
-  <data name="match.team-types.tag-coop" xml:space="preserve">
-    <value>Tag Co-op</value>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Ετικέτα Συν-op</value>
   </data>
-  <data name="match.team-types.team-vs" xml:space="preserve">
-    <value>Team VS</value>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Ομάδα Ετικετών VS</value>
   </data>
-  <data name="match.team-types.tag-team-vs" xml:space="preserve">
-    <value>Tag Team VS</value>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Ομάδα VS</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Μπλε Ομάδα</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Κόκκινη Ομάδα</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Ελεύθερο</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Yψηλότερο Σκορ</value>

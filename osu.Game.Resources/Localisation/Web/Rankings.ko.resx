@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>상위 50% 점수</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>아직 본 날짜에는 일일 도전 계획이 없어요!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>본 날짜에는 일일 도전 계획이 없어요!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>보기</value>
   </data>
@@ -100,20 +106,20 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>데일리 챌린지</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>전세계</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>Kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
     <value>멀티플레이어</value>
   </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>퍼포먼스</value>
-  </data>
-  <data name="type.score" xml:space="preserve">
-    <value>점수</value>
-  </data>
   <data name="type.seasons" xml:space="preserve">
     <value>시즌</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>팀</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>이 시즌에는 등록된 방이 없습니다.</value>
@@ -126,6 +132,9 @@
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>해당 시즌의 자세한 정보를 표시합니다.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>적절한 계산을 수행하기에 충분한 점수 요인이 없습니다.</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>마감일</value>
@@ -147,6 +156,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>국가</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>티어</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>멤버</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>플레이 횟수</value>
