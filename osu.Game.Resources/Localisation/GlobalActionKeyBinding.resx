@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Next selection</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Select previous group</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Activate previous set</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Select next group</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Activate next set</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Expand previous group</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Expand next group</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Toggle expansion of current group</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Home</value>
@@ -251,7 +260,7 @@
     <value>Seek replay backward</value>
   </data>
   <data name="step_replay_forward" xml:space="preserve">
-    <value>Seek replay forward one frame</value>
+    <value>Step replay forward one frame</value>
   </data>
   <data name="step_replay_backward" xml:space="preserve">
     <value>Step replay backward one frame</value>
@@ -321,5 +330,14 @@
   </data>
   <data name="editor_seek_to_next_bookmark" xml:space="preserve">
     <value>Seek to next bookmark</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absolute scroll song list</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Toggle movement control</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Discard unsaved changes</value>
   </data>
 </root>

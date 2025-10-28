@@ -82,41 +82,53 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} o {1}</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} opustil zápas</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>hra byla zrušena</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} se připojil</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>hra byla zrušena</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} byl vyhozen ze zápasu</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>hra skončila</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} vytvořil zápas</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>hra skončila</value>
   </data>
-  <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>zápas byl zrušen</value>
-  </data>
-  <data name="match.events.host-changed" xml:space="preserve">
+  <data name="match.events.host_changed" xml:space="preserve">
     <value>{0} se stal hostitelem zápasu</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>hráč opustil zápas</value>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>hostitel byl změněn</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} se připojil k zápasu</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
     <value>hráč se připojil k zápasu</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
-    <value>hráč byl ze zápasu vyhozen</value>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} byl vyhozen ze zápasu</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>hráč byl vyhozen ze zápasu</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} opustil zápas</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>hráč opustil zápas</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} vytvořil zápas</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
     <value>zápas byl vytvořen</value>
   </data>
-  <data name="match.events.match-disbanded-no-user" xml:space="preserve">
+  <data name="match.events.room_disbanded" xml:space="preserve">
     <value>zápas byl zrušen</value>
   </data>
-  <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>hostitel byl změněn</value>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>zápas byl zrušen</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Přesnost</value>
@@ -127,23 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Skóre</value>
   </data>
-  <data name="match.team-types.head-to-head" xml:space="preserve">
+  <data name="match.team_types.head_to_head" xml:space="preserve">
     <value>Head-to-head</value>
   </data>
-  <data name="match.team-types.tag-coop" xml:space="preserve">
+  <data name="match.team_types.tag_coop" xml:space="preserve">
     <value>Tag Co-op</value>
   </data>
-  <data name="match.team-types.team-vs" xml:space="preserve">
-    <value>Team VS</value>
-  </data>
-  <data name="match.team-types.tag-team-vs" xml:space="preserve">
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
     <value>Tag Team VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Team VS</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Modrý tým</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Červený tým</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Freestyle</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Nejvyšší skóre</value>

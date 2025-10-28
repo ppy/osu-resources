@@ -59,13 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="match.beatmap-deleted" xml:space="preserve">
-    <value>izdzēsta bītmape</value>
+    <value>izdzēsta ritma-mape</value>
+  </data>
+  <data name="match.failed" xml:space="preserve">
+    <value>IZGĀZĀS</value>
+  </data>
+  <data name="match.header" xml:space="preserve">
+    <value>Daudzspēlētāju Mači</value>
   </data>
   <data name="match.in-progress" xml:space="preserve">
-    <value>(notiek mačs)</value>
+    <value>(notiek spēle)</value>
   </data>
   <data name="match.in_progress_spinner_label" xml:space="preserve">
-    <value>notiek mačs</value>
+    <value>notiek spēle</value>
   </data>
   <data name="match.loading-events" xml:space="preserve">
     <value>Ielādē notikumus...</value>
@@ -76,32 +82,74 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} ar starpību {1}</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} pameta maču</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>šī spēle tika atcelta</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} pievienojās mačam</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>šī spēle tika atcelta</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} tika izraidīts no mača</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>šī spēle tika atcelta</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} izveidoja maču</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>šī spēle tika atcelta</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>spēlētājs pameta maču</value>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} ir kļuvis par vadītāju</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
-    <value>spēlētājs pievienojās mačam</value>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>vadītājs nomainijās</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
-    <value>spēlētājs tika izraidīts no mača</value>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} pievienojās spēlei</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
-    <value>mačs tika izveidots</value>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>spēlētājs ir pievienojies spēlei</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} ir ticis izmests no spēlēs</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>spēlētājs ir ticis izmests no spēles</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} pameta spēli</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>spēlētājs pameta spēli</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} izveidoja spēli</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>spēle tika izveidota</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>spēle tika izjaukta</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>spēle tika izjaukta</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precizitāte</value>
+  </data>
+  <data name="match.score.stats.combo" xml:space="preserve">
+    <value>Kombinācija</value>
+  </data>
+  <data name="match.score.stats.score" xml:space="preserve">
+    <value>Rezultāts</value>
+  </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Viens-pret-vienu</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Stafetes kooperatīvs</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Stafetes Komanda VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Komanda VS</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Zilā Komanda</value>
@@ -109,10 +157,19 @@
   <data name="match.teams.red" xml:space="preserve">
     <value>Sarkanā Komanda</value>
   </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Brīvais stills</value>
+  </data>
+  <data name="game.scoring-type.score" xml:space="preserve">
+    <value>Visaugstākais Rezultāts</value>
+  </data>
   <data name="game.scoring-type.accuracy" xml:space="preserve">
     <value>Augstākā Precizitāte</value>
   </data>
   <data name="game.scoring-type.combo" xml:space="preserve">
-    <value>Augstākais Kombo</value>
+    <value>Augstākā Kombinācija</value>
+  </data>
+  <data name="game.scoring-type.scorev2" xml:space="preserve">
+    <value>Skaitīšana V2</value>
   </data>
 </root>

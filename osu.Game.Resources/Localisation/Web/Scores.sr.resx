@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="show.non_preserved" xml:space="preserve">
+    <value>Овај резултат је означен за брисање и ускоро ће нестати.</value>
+  </data>
   <data name="show.title" xml:space="preserve">
     <value>{0} у {1} [{2}]</value>
   </data>
@@ -79,7 +82,13 @@
   <data name="status.non_best" xml:space="preserve">
     <value>Само најбољи персонални резултати награђују pp</value>
   </data>
+  <data name="status.no_pp" xml:space="preserve">
+    <value>pp није додељено за овај резултат</value>
+  </data>
   <data name="status.processing" xml:space="preserve">
     <value>Овај резултат се и даље рачуна и биће приказан ускоро</value>
+  </data>
+  <data name="status.no_rank" xml:space="preserve">
+    <value>Овај резултат нема ранг, јер је нерангиран или означен за брисање</value>
   </data>
 </root>

@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Stiskni Ctrl-T kdekoli ve hře pro zobrazení/skrytí nástrojové lišty!</value>
+    <value>Stiskni {0} kdekoli ve hře pro zobrazení/skrytí nástrojové lišty!</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Stiskni Ctrl-O kdekoli ve hře pro přístup k nastavení!</value>
+    <value>Stiskni {0} kdekoli ve hře pro přístup k nastavení!</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>Všechna nastavení jsou dynamická a projeví se v reálném čase. Zkus změnit skin při sledování autoplaye!</value>
@@ -77,7 +77,7 @@
     <value>Zkus upravit režim "škálování obrazovky" pro změnu oblasti hry nebo uživatelského rozhraní, a to i v režimu celé obrazovky!</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>Co bývalo "osu!direct" je k dispozici všem uživatelům stejně jako na webové stránce. Můžeš na něj kdekoli přejít pomocí Ctrl-B!</value>
+    <value>Co bývalo "osu!direct" je k dispozici všem uživatelům stejně jako na webové stránce. Můžeš na něj kdekoli přejít pomocí {0}!</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>Pohybování se v záznamech je možné tažením na panelu postupu v dolní části obrazovky nebo pomocí kláves šipek vlevo a vpravo!</value>
@@ -89,7 +89,7 @@
     <value>Většina webového obsahu (profily, žebříčky, atd.) je k dispozici nativně ve hře pomocí ikon na nástrojové liště!</value>
   </data>
   <data name="beatmap_right_click" xml:space="preserve">
-    <value>Získejte více podrobností, skryj nebo odstraň beatmapu kliknutím pravým tlačítkem myši na její panel při výběru skladby!</value>
+    <value>Získej více podrobností, skryj nebo odstraň beatmapu kliknutím pravým tlačítkem myši na její panel při výběru skladby!</value>
   </data>
   <data name="discover_playlists" xml:space="preserve">
     <value>Vyzkoušej si systém "playlistů", který uživatelům umožňuje vytvářet své vlastní a trvalé žebříčky!</value>
@@ -98,13 +98,13 @@
     <value>Vypni/zapni pokročilé statistiky snímků / vláken pomocí Ctrl-F11!</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>Přehrávání záznamu můžeš pozastavit stisknutím mezerníku!</value>
+    <value>Přehrávání záznamu můžeš pozastavit stisknutím {0}!</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
     <value>Většina klávesových zkratek ve hře je konfigurovatelná a může být změněna na cokoliv, co tě napadne. Podívej se do sekce nastavení kláves v nastavení vstupu!</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>Tvoje herní HUD si můžeš přizpůsobit pomocí editoru rozložení skinu. Otevřít ho můžeš kdykoli pomocí Ctrl-Shift-S!</value>
+    <value>Tvoje herní HUD si můžeš přizpůsobit pomocí editoru rozložení skinu. Otevřít ho můžeš kdykoli pomocí {0}!</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>Můžeš si vytvořit předvolby módů, které ti usnadní přepínání tvých oblíbených kombinací módů!</value>
@@ -113,16 +113,19 @@
     <value>Mnoho módů má podrobnější nastavení, která drasticky mění způsob jejich fungování. Kliknutím na tlačítko Přizpůsobit ve výběru módu si můžeš toto nastavení zobrazit!</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Stiskni Ctrl-Shift-R pro přepnutí na náhodný skin!</value>
+    <value>Stiskni {0} pro přepnutí na náhodný skin!</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>Při sledování záznamu můžeš zobrazit/skrýt nastavení přehrávání stisknutím klávesy Ctrl-H!</value>
+    <value>Při sledování záznamu můžeš zobrazit/skrýt nastavení přehrávání stisknutím klávesy {0}!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>Módy za skóre na žebříčku můžeš snadno zkopírovat kliknutím pravým tlačítkem myši!</value>
   </data>
   <data name="autoplay_beatmap_shortcut" xml:space="preserve">
     <value>Ctrl-Enter při výběru skladby spustí beatmapu v autoplay režimu!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" není české slovo. Pravopisně správný název pro jasné světlo je "laser".</value>
   </data>
   <data name="multithreading_support" xml:space="preserve">
     <value>Podpora multithreadingu znamená, že i s nízkým počtem "FPS" bude tvůj vstup a hodnocení přesné!</value>
@@ -134,10 +137,13 @@
     <value>Pomocí Ctrl-F2 se podívej pod kapotu na počítadla výkonu a povol jeho podrobné logování!</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>Když je tvoje herní HUD skryté, tak si jej můžeš dočasně zobrazit stisknutím a podržením Ctrl!</value>
+    <value>Když je tvoje herní HUD skryté, tak si jej můžeš dočasně zobrazit stisknutím a podržením {0}!</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Přetáhni a pusť jakýkoli obrázek do editoru skinu pro jeho rychlé přidání!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Zkus podržet pravé tlačítko myši poblíž seznamu beatmap pro rychlý přechod na absolutní pozici!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>tip:</value>

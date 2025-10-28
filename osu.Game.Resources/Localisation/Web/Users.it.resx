@@ -119,7 +119,7 @@
     <value>Sblocca</value>
   </data>
   <data name="card.gift_supporter" xml:space="preserve">
-    <value>Regala osu!supporter</value>
+    <value>Regala il tag supporter</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Caricamento...</value>
@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(gli osu!supporter lo avranno a breve)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>In corso</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Terminate</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmap: {0}</value>
   </data>
@@ -292,26 +298,41 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Annulla</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Segnala le violazioni del copyright attraverso un reclamo DMCA a {0}, come da {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>normativa sulla privacy di osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Questo vale per i casi in cui le tracce audio, il contenuto visivo o il contenuto del livello beatmap vengono utilizzati senza il corretto permesso.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Gioco scorretto / Cheating</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Uso di account multipli</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Violazione del copyright</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Comportamento inappropriato in chat</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Insulti a me / altri</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Spamming</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Condivisione di contenuti inappropriati</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Uso di account multipli</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Senza senso</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Altro (scrivi sotto)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spamming</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Contenuto inappropriato</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Il tuo account è stato limitato!</value>
@@ -412,6 +433,9 @@
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>Più opzioni per la copertina saranno disponibili in futuro</value>
   </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>La copertina precedentemente selezionata non è più disponibile. Non puoi riselezionarla dopo essere passato a una copertina diversa. Procedere?</value>
+  </data>
   <data name="show.edit.cover.title" xml:space="preserve">
     <value>Immagine di copertina</value>
   </data>
@@ -428,7 +452,7 @@
     <value>Puoi anche trascinare qui l'immagine per caricarla</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>L'immagine di copertina dovrebbe essere 2400x640</value>
+    <value>L'immagine di copertina dovrebbe essere 2000x500</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>Il file caricato è troppo grande.</value>
@@ -641,7 +665,7 @@
     <value>valutata {0}</value>
   </data>
   <data name="show.extra.top_ranks.view_details" xml:space="preserve">
-    <value>Visualizza Dettagli</value>
+    <value>Visualizza dettagli</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
     <value>Rank</value>
@@ -790,8 +814,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Posizione più alta: {0} il {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Punteggio totale</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisione dei Colpi</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Colpi Per Partita</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Livello {0}</value>

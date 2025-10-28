@@ -152,25 +152,25 @@
     <value>服务协议</value>
   </data>
   <data name="disabled.title" xml:space="preserve">
-    <value>哎呀！看起来您的账户已被禁用。</value>
+    <value>哎呀！看起来您的账户已被封停。</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>如果您违反了规则，原则上在一个月的期限以内我们不会考虑解禁您的账户。在此之后，您如果需要，可以随时联系我们。请注意，在一个账户被封后创建新账户会&lt;strong&gt;使您的封禁期限被延长&lt;/strong&gt;。您更需要注意&lt;strong&gt;您每创建一个新账户都会更严重地违反规则&lt;/strong&gt;。我们强烈建议您不要误入歧途。</value>
+    <value>如果您确实存在违规行为，请注意通常存在一个月的封禁冷静期，在此期间我们将不接受任何的解除封禁申请。在此之后您可自行判断是否需要联系我们。请注意：在已有账户被封停后创建新账户&lt;strong&gt;将导致封禁冷静期延长一个月&lt;/strong&gt;，且&lt;strong&gt;每创建一个新账户均属额外违规行为&lt;/strong&gt;。我们强烈建议不要误入歧途！</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>如果你觉得我们误封了你的账号，你可以通过电子邮件（{0}）或者点击本页面右下方的问号来联系我们。一般来说，我们犯错的几率是很低的。我们只以可靠的数据为参考进行这一类的操作。如果你执意违反规则，我们保留拒绝你的请求的权利。</value>
+    <value>若您认为此处理存在误判，欢迎通过向 {0} 发送电子邮件或点击本页面右下角的问号来联系我们。同时，我们的处理方式基于了充分的数据支持且经过严格审核。如认定您的申诉存在主观恶意，我们保留不予受理的权利。</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>电子邮件</value>
   </data>
   <data name="disabled.reasons.compromised" xml:space="preserve">
-    <value>我们认为你的账户已被盗用。在确认身份期间，账户被暂时停用。</value>
+    <value>账户存在安全风险，身份核验结束前将被临时封停。</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
-    <value>您的账户可能由于这几种原因被禁用：</value>
+    <value>账户可能由于以下被封停：</value>
   </data>
   <data name="disabled.reasons.tos._" xml:space="preserve">
-    <value>您已经违反了一条或多条 {0} 或是 {1}。</value>
+    <value>您的行为已违反 {0} 或 {1} 中的一项或多项规定。</value>
   </data>
   <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
     <value>社区规则</value>
@@ -197,7 +197,7 @@
     <value>登录中...</value>
   </data>
   <data name="login.email_login_disabled" xml:space="preserve">
-    <value>当前不可以使用电子邮件登录。请使用您的用户名。</value>
+    <value>当前已停用电子邮箱登录。请使用用户名进行登录。</value>
   </data>
   <data name="login.failed" xml:space="preserve">
     <value>登录失败</value>
@@ -209,7 +209,7 @@
     <value>请登录以继续</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>验证码无效，请刷新页面后重试。</value>
+    <value>登录失败次数过多，请完成验证码验证后重试。（如果验证码未显示，请刷新此页面）</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>IP 已被锁定，请稍等几分钟。</value>
@@ -234,6 +234,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>（在不久后将对 osu! 支持者开放）</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>正在进行</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>已结束</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>谱面：{0}</value>
@@ -263,7 +269,7 @@
     <value>游客</value>
   </data>
   <data name="anonymous.error" xml:space="preserve">
-    <value>请先登录</value>
+    <value>登录以继续</value>
   </data>
   <data name="logout_confirm" xml:space="preserve">
     <value>确定要退出吗？o(TヘTo)</value>
@@ -275,37 +281,46 @@
     <value>附加信息</value>
   </data>
   <data name="report.placeholder" xml:space="preserve">
-    <value>请提供你认为可能有用的所有信息。</value>
+    <value>请提供您认为有帮助的所有信息。</value>
   </data>
   <data name="report.reason" xml:space="preserve">
     <value>原因</value>
   </data>
   <data name="report.thanks" xml:space="preserve">
-    <value>感谢你的报告！</value>
+    <value>举报已收到，感谢您的反馈！</value>
   </data>
   <data name="report.title" xml:space="preserve">
     <value>举报 {0} ？</value>
   </data>
   <data name="report.actions.send" xml:space="preserve">
-    <value>发送报告</value>
+    <value>提交举报</value>
   </data>
   <data name="report.actions.cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>请根据 {0} 向 {1} 以 DMCA 的形式报告侵权行为。</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! 版权政策</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>这适用于在没有正确权限的情况下使用音轨、视觉内容或谱面内容的情况。</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>作弊</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>使用多账号（开小号）</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>侵犯版权</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>不当的聊天行为</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>侮辱 我/其他人</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>刷屏/垃圾广告</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>发布包含不当内容的链接</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>使用多账号（开小号）</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>无意义内容</value>
@@ -313,11 +328,17 @@
   <data name="report.options.other" xml:space="preserve">
     <value>其他（在下方输入原因）</value>
   </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>刷屏/垃圾广告</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>发布包含不当内容的文本或链接</value>
+  </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>账户进入限制模式！</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>处于被限制状态时，你将不能与其他玩家互动，成绩只有你自己可见。限制通常是系统自动给予，通常会在 24 小时内解除。{0}</value>
+    <value>处于受限模式时，您将不能与其他玩家互动，所有成绩仅自己可见。此限制通常由系统自动触发，并将在24小时内自动解除。{0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>点击此页了解更多。</value>
@@ -326,7 +347,7 @@
     <value>{0} 岁</value>
   </data>
   <data name="show.change_avatar" xml:space="preserve">
-    <value>更换头像！</value>
+    <value>点击以更换头像</value>
   </data>
   <data name="show.first_members" xml:space="preserve">
     <value>元老玩家</value>
@@ -347,7 +368,7 @@
     <value>当前在线</value>
   </data>
   <data name="show.missingtext" xml:space="preserve">
-    <value>你可能打错字了！（或者该用户已经被封禁）</value>
+    <value>手滑打错字了？（或者该用户已被封禁）</value>
   </data>
   <data name="show.origin_country" xml:space="preserve">
     <value>来自 {0}</value>
@@ -425,13 +446,13 @@
     <value>上传图片</value>
   </data>
   <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
-    <value>拖拽到此处</value>
+    <value>拖放到此处</value>
   </data>
   <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
-    <value>将图片拖动到这里也可以上传</value>
+    <value>您也可以将图片拖放到此处上传</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>图片尺寸最好是 2400x620 像素</value>
+    <value>最佳图片尺寸为 2000x500 像素</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>上传的图片过大。</value>
@@ -467,10 +488,10 @@
     <value>无</value>
   </data>
   <data name="show.extra.unranked" xml:space="preserve">
-    <value>最近没玩过</value>
+    <value>暂无近期游玩记录</value>
   </data>
   <data name="show.extra.achievements.achieved-on" xml:space="preserve">
-    <value>{0} 达成</value>
+    <value>达成于 {0}</value>
   </data>
   <data name="show.extra.achievements.locked" xml:space="preserve">
     <value>锁定</value>
@@ -557,7 +578,7 @@
     <value>Kudosu!</value>
   </data>
   <data name="show.extra.kudosu.total" xml:space="preserve">
-    <value>总共获得 kudosu</value>
+    <value>Kudosu 总数</value>
   </data>
   <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
     <value>{0} kudosu</value>
@@ -599,7 +620,7 @@
     <value>在帖子 {0} 中被 {1} 移除 kudosu </value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>取决于你对制谱的贡献如何。查看 {0} 获得更多信息。</value>
+    <value>取决于你对作图的贡献如何。查看 {0} 获得更多信息。</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>此页面</value>
@@ -638,7 +659,7 @@
     <value>下载回放</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>只能在上架 (Ranked) 谱面中获得 pp。</value>
+    <value>只能在上架（Ranked）谱面中获得表现分（PP）</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>权重：{0}</value>
@@ -665,7 +686,7 @@
     <value>置顶</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
-    <value>已置顶成绩</value>
+    <value>选定成绩已置顶</value>
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
     <value>置顶成绩</value>
@@ -689,19 +710,19 @@
     <value>账号状态</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>{0} 的账号存在不良记录 :(</value>
+    <value>{0} 的账号存在违规行为 :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>{0}的禁言将在 {1} 解除</value>
+    <value>{0} 的禁言将在 {1} 后解除</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
-    <value>最近记录</value>
+    <value>近期违规行为记录</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
     <value>时间</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
-    <value>处理</value>
+    <value>处置方式</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
     <value>时长</value>
@@ -713,7 +734,7 @@
     <value>原因</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
-    <value>裁决者： {0}</value>
+    <value>操作人： {0}</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
     <value>封禁</value>
@@ -722,7 +743,7 @@
     <value>禁言</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
-    <value>锦标赛封禁</value>
+    <value>禁赛</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
     <value>注释</value>
@@ -740,16 +761,16 @@
     <value>网站</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
-    <value>他可能换了用户名。</value>
+    <value>该用户可能已更改用户名。</value>
   </data>
   <data name="show.not_found.reason_2" xml:space="preserve">
     <value>该账号由于安全或滥用问题暂时不可用。</value>
   </data>
   <data name="show.not_found.reason_3" xml:space="preserve">
-    <value>你可能输错用户名了！</value>
+    <value>手滑打错用户名了？</value>
   </data>
   <data name="show.not_found.reason_header" xml:space="preserve">
-    <value>可能是由于以下原因：</value>
+    <value>可能的原因包括：</value>
   </data>
   <data name="show.not_found.title" xml:space="preserve">
     <value>找不到指定的用户！;_;</value>
@@ -758,16 +779,16 @@
     <value>修改资料页面</value>
   </data>
   <data name="show.page.description" xml:space="preserve">
-    <value>&lt;strong&gt;个人介绍&lt;/strong&gt; 是可以自定义内容的展示区.</value>
+    <value>&lt;strong&gt;个人介绍&lt;/strong&gt; 是位于个人资料页中的自定义展示空间。</value>
   </data>
   <data name="show.page.edit_big" xml:space="preserve">
-    <value>编辑</value>
+    <value>编辑个人介绍</value>
   </data>
   <data name="show.page.placeholder" xml:space="preserve">
     <value>在这里编辑</value>
   </data>
   <data name="show.page.restriction_info._" xml:space="preserve">
-    <value>你需要成为 {0} 才能使用此功能。</value>
+    <value>需要成为 {0} 才能使用此功能。</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
     <value>osu! 支持者</value>
@@ -793,14 +814,23 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>{0} 达成生涯最高排名 {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>排名前 {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>总分</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>准确率</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>每次游玩击打数</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>等级 {0}</value>
   </data>
   <data name="show.stats.level_progress" xml:space="preserve">
-    <value>到下一级的进度</value>
+    <value>距下一等级进度</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
     <value>最大连击</value>
@@ -842,7 +872,7 @@
     <value>上架 (Ranked) 谱面</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
-    <value>你已被禁言。</value>
+    <value>您已被禁言。</value>
   </data>
   <data name="silenced_banner.message" xml:space="preserve">
     <value>部分操作将不可用。</value>

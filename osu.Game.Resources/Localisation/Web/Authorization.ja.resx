@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>ノミネートされたビートマップのメタデータを変更することはできません。正しく設定されていないと思われる場合は、BNまたはNATのメンバーに問い合わせてください。</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>タグを追加するには、ビートマップでスコアを登録する必要があります。</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>あなたをブロックしているユーザーまたは、あなたがブロックしているユーザーとはメッセージをやり取りできません。</value>
   </data>
@@ -201,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>要求されたフォーラムへのアクセスが必要です。</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>編集する権限がありません。</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>投稿を編集できるのは投稿者のみです。</value>
@@ -280,6 +286,9 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>このフォーラムは管理人のみ閲覧可能です。</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>ルームオーナーのみが閉じることができます。</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>この種類のスコアはピン留めできません</value>
   </data>
@@ -291,6 +300,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>ピン留めの数が多すぎます。</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>あなたは既にチームの一員です。</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>あなたはすでに別のチームの一員です。</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>チームへの参加申請が保留中です。</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>現在、このチームは参加申請を受け付けていません。</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>チームが満員で、これ以上メンバーを受け入れることはできません。</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>チームリーダーはチームから抜けることはできません。</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>チームのメンバーではありません。</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>チームを作成するには osu!supporter が必要です。</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>ユーザーページはロックされています。</value>

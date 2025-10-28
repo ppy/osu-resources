@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporter kommen bald dazu)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Beendet</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
   </data>
@@ -292,26 +298,41 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Bitte melde Urheberrechtsverstöße durch einen DMCA-Antrag an {0} wie in {1} beschrieben.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>der osu!-Urheberrechtsrichtlinie</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Dies betrifft Fälle, in denen Audiospuren, visuelle Inhalte oder Inhalte aus Beatmapleveln ohne korrekte Genehmigung verwendet werden.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Cheating</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Verwendet mehrere Konten</value>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Urheberrechtsverletzung</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Unangemessenes Verhalten im Chat</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Beleidigt mich / andere</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Spamming</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Verlinkt unangemessene Inhalte</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Verwendet mehrere Konten</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Unsinn</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Anderes (unten angeben)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spamming</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Unangemessene Inhalte</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Dein Account wurde restricted!</value>
@@ -431,7 +452,7 @@
     <value>Du kannst das Bild auch hier ablegen, um es hochzuladen</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>Banner sollte 2400x640 groß sein</value>
+    <value>Banner sollte 2000x500 groß sein</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>Datei ist zu groß.</value>
@@ -539,7 +560,7 @@
     <value>Meistgespielte Beatmaps</value>
   </data>
   <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
-    <value>genauigkeit: {0}</value>
+    <value>Genauigkeit: {0}</value>
   </data>
   <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
     <value>Zuletzt gespielt (24h)</value>
@@ -793,8 +814,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Höchster Rang: {0} am {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Gesamtpunktzahl</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Genauigkeit</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Treffer pro Spiel</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Level {0}</value>

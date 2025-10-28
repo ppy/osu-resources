@@ -64,6 +64,21 @@
   <data name="countries.title" xml:space="preserve">
     <value>Negara</value>
   </data>
+  <data name="daily_challenge.beatmap" xml:space="preserve">
+    <value>Kesukaran</value>
+  </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>Markah 10% Teratas</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>Markah 50% Teratas</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Belum ada cabaran harian pada tarikh ditentukan!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Tiada cabaran harian pada tarikh ditentukan!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Paparkan</value>
   </data>
@@ -80,7 +95,7 @@
     <value>Digunakan</value>
   </data>
   <data name="performance.insufficient_history" xml:space="preserve">
-    <value>Pengguna ini mempunyai kurang dari 30 hari bagi sejarah peringkat terkini.</value>
+    <value>Sejarah pangkat terkini pengguna ini kurang daripada 30 hari.</value>
   </data>
   <data name="type.charts" xml:space="preserve">
     <value>sorotan (lama)</value>
@@ -88,38 +103,44 @@
   <data name="type.country" xml:space="preserve">
     <value>negara</value>
   </data>
+  <data name="type.daily_challenge" xml:space="preserve">
+    <value>cabaran harian</value>
+  </data>
+  <data name="type.global" xml:space="preserve">
+    <value>sejagat</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
-    <value>pemainan beramai-ramai</value>
-  </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>pencapaian</value>
-  </data>
-  <data name="type.score" xml:space="preserve">
-    <value>markah</value>
+    <value>pemain ramai</value>
   </data>
   <data name="type.seasons" xml:space="preserve">
     <value>musim</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>pasukan</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Musim ini belum memiliki bilik.</value>
   </data>
   <data name="seasons.ongoing" xml:space="preserve">
-    <value>Musim ini masih lagi berlangsung (lebih banyak senarai main akan ditambah).</value>
+    <value>Musim ini masih berlangsung (lebih banyak senarai main akan ditambah).</value>
   </data>
   <data name="seasons.room_count" xml:space="preserve">
     <value>Jumlah senarai main</value>
   </data>
   <data name="seasons.url" xml:space="preserve">
-    <value>Paparan lebih banyak maklumat untuk musim itu.</value>
+    <value>Paparkan lebih banyak maklumat tentang musim tersebut.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>faktor permarkahan tidak cukup untuk pengiraan sah</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>Tarikh Akhir</value>
   </data>
   <data name="spotlight.map_count" xml:space="preserve">
-    <value>Kiraan Peta</value>
+    <value>Jumlah Peta</value>
   </data>
   <data name="spotlight.participants" xml:space="preserve">
     <value>Peserta</value>
@@ -128,30 +149,36 @@
     <value>Tarikh Mula</value>
   </data>
   <data name="stat.accuracy" xml:space="preserve">
-    <value>Ketepatan</value>
+    <value>Kejituan</value>
   </data>
   <data name="stat.active_users" xml:space="preserve">
-    <value>Pengguna aktif</value>
+    <value>Pengguna Giat</value>
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>Negara</value>
   </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Pembahagian</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Ahli</value>
+  </data>
   <data name="stat.play_count" xml:space="preserve">
-    <value>Kiraan Mainan</value>
+    <value>Jumlah Mainan</value>
   </data>
   <data name="stat.performance" xml:space="preserve">
-    <value>Pencapaian</value>
+    <value>Prestasi</value>
   </data>
   <data name="stat.total_score" xml:space="preserve">
     <value>Jumlah Markah</value>
   </data>
   <data name="stat.ranked_score" xml:space="preserve">
-    <value>Markah Diperingkat</value>
+    <value>Markah Berpangkat</value>
   </data>
   <data name="stat.average_score" xml:space="preserve">
     <value>Markah Purata</value>
   </data>
   <data name="stat.average_performance" xml:space="preserve">
-    <value>Prestasi Purata. </value>
+    <value>Prestasi Purata</value>
   </data>
 </root>

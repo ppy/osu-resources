@@ -76,6 +76,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Đặt mốc thời gian hiện tại làm điểm xem trước</value>
   </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Di chuyển các đối tượng đã đặt khi thay đổi thời gian</value>
+  </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Cho việc chỉnh sửa (.olz)</value>
   </data>
@@ -91,6 +94,12 @@
   <data name="delete_difficulty" xml:space="preserve">
     <value>Xóa độ khó</value>
   </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Sửa ở bên ngoài</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Gửi beatmap</value>
+  </data>
   <data name="setup_screen" xml:space="preserve">
     <value>thiết lập</value>
   </data>
@@ -101,7 +110,7 @@
     <value>thiết kế</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>thời gian</value>
+    <value>timing</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
     <value>xác minh</value>
@@ -113,13 +122,16 @@
     <value>Thử!</value>
   </data>
   <data name="rotation_unsnapped" xml:space="preserve">
-    <value>{0:0.0}°</value>
+    <value>{0:0}°</value>
   </data>
   <data name="rotation_snapped" xml:space="preserve">
-    <value>{0:0.0}° (làm tròn)</value>
+    <value>{0:0}° (đã snap)</value>
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>Giới hạn làm tròn khoảng cách đến thời điểm hiện tại</value>
+  </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Thu gọn các thanh bên khi không di chuột vào</value>
   </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
     <value>Phải ở chế độ chỉnh sửa để xử lý các liên kết của trình chỉnh sửa</value>
@@ -131,9 +143,45 @@
     <value>Dòng thời gian</value>
   </data>
   <data name="timeline_show_timing_changes" xml:space="preserve">
-    <value>Hiện thay đổi về thời gian</value>
+    <value>Hiện thay đổi timing</value>
+  </data>
+  <data name="Finish editing and import changes" xml:space="preserve">
+    <value>Hoàn thành chỉnh sửa và xuất thay đổi</value>
+  </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Hiển thị các điểm ngắt</value>
   </data>
   <data name="timeline_show_ticks" xml:space="preserve">
     <value>Hiện dấu tích</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Các dấu trang</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Thêm dấu trang</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Xoá dấu trang gần nhất</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Chuyển về dấu trang trước</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Chuyển sang dấu trang tiếp theo</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Đặt lại dấu trang</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Mở trang thông tin beatmap</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Mở trang thảo luận beatmap</value>
+  </data>
+  <data name="check_current_difficulty" xml:space="preserve">
+    <value>Độ khó hiện tại</value>
+  </data>
+  <data name="check_entire_beatmap_set" xml:space="preserve">
+    <value>Cả bộ beatmap</value>
   </data>
 </root>

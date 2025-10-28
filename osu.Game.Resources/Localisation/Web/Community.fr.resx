@@ -235,11 +235,8 @@
   <data name="support.perks.friend_filtering.description" xml:space="preserve">
     <value>Faites concurrence à vos amis et voyez comment vous vous situez par rapport à eux !</value>
   </data>
-  <data name="support.supporter_status.contribution" xml:space="preserve">
-    <value>Merci beaucoup pour votre soutien ! Vous avez contribué avec un total de {0} avec {1} achats de tags !</value>
-  </data>
-  <data name="support.supporter_status.gifted" xml:space="preserve">
-    <value>Vous avez offert {0} tags (pour un total de {1} offerts), quelle générosité !</value>
+  <data name="support.supporter_status.contribution_with_duration" xml:space="preserve">
+    <value>Merci pour votre soutien ! Jusqu'à présent, vous avez contribué pour un total de {0}, ce qui équivaut à {1} de durée totale pour votre tag osu!supporter.</value>
   </data>
   <data name="support.supporter_status.not_yet" xml:space="preserve">
     <value>Vous n'avez pas de tag osu!supporter :(</value>
@@ -249,5 +246,11 @@
   </data>
   <data name="support.supporter_status.was_valid_until" xml:space="preserve">
     <value>Votre tag osu!supporter était valable jusqu'au {0}.</value>
+  </data>
+  <data name="support.supporter_status.gifted._" xml:space="preserve">
+    <value>Parmi toutes vos contributions, vous avez offert pour une valeur totale de {0} en tags osu!supporter, offerts à {1}, pour une durée totale de {2}. Quelle générosité !</value>
+  </data>
+  <data name="support.supporter_status.gifted.users" xml:space="preserve">
+    <value>{0} autre personne|{0} autres personnes</value>
   </data>
 </root>

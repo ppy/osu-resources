@@ -77,7 +77,7 @@
     <value>账户认证</value>
   </data>
   <data name="error.error.405" xml:space="preserve">
-    <value>访问方法错误</value>
+    <value>请求被拒绝</value>
   </data>
   <data name="error.error.422" xml:space="preserve">
     <value>请求无效</value>
@@ -163,14 +163,14 @@
   <data name="main.home_controller.testflight" xml:space="preserve">
     <value>testflight 测试</value>
   </data>
+  <data name="main.legacy_matches_controller._" xml:space="preserve">
+    <value>比赛</value>
+  </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>信息</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>直播</value>
-  </data>
-  <data name="main.matches_controller._" xml:space="preserve">
-    <value>比赛</value>
   </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>新闻</value>
@@ -190,6 +190,21 @@
   <data name="main.seasons_controller._" xml:space="preserve">
     <value>排名</value>
   </data>
+  <data name="main.teams_controller._" xml:space="preserve">
+    <value>战队</value>
+  </data>
+  <data name="main.teams_controller.create" xml:space="preserve">
+    <value>创建战队</value>
+  </data>
+  <data name="main.teams_controller.edit" xml:space="preserve">
+    <value>战队设置</value>
+  </data>
+  <data name="main.teams_controller.leaderboard" xml:space="preserve">
+    <value>战队排行</value>
+  </data>
+  <data name="main.teams_controller.show" xml:space="preserve">
+    <value>战队信息</value>
+  </data>
   <data name="main.tournaments_controller._" xml:space="preserve">
     <value>比赛</value>
   </data>
@@ -208,11 +223,17 @@
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
   </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>房间历史</value>
+  </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>授权应用</value>
   </data>
   <data name="store._" xml:space="preserve">
     <value>商店</value>
+  </data>
+  <data name="teams.members_controller.index" xml:space="preserve">
+    <value>战队成员</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
     <value>摸图者信息</value>

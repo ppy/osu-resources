@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>eCheck로 결제하셨다면 10일까지 PayPal을 통해 결제할 수 있도록 허용해주세요.</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>eCheck 결제가 PayPal에서 거부되었습니다.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>이 주문에 포함된 osu! 서포터 내역은 나의 최근 활동에 표시되지 않습니다.</value>
   </data>
@@ -336,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>구매할 수 있을 때 알려주세요!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>재고 없음</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>재고가 들어오면 알려드리겠습니다. 취소하려면 {0}를 누르세요.</value>

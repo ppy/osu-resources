@@ -59,16 +59,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="audio.autoplay" xml:space="preserve">
-    <value>Odtwarzaj następny utwór automatycznie</value>
+    <value>Odtwórz następny utwór automatycznie</value>
   </data>
   <data name="defaults.page_description" xml:space="preserve">
     <value>osu! - rytm jest tylko o *klik* stąd! Z Ouendanem/EBA, Taiko i oryginalnymi trybami gry, a także w pełni funkcjonalnym edytorem!</value>
   </data>
   <data name="header.admin.beatmapset" xml:space="preserve">
-    <value>zestaw beatmap</value>
+    <value>beatmapa</value>
   </data>
   <data name="header.admin.beatmapset_covers" xml:space="preserve">
-    <value>tła zestawów beatmap</value>
+    <value>tła beatmap</value>
   </data>
   <data name="header.admin.contest" xml:space="preserve">
     <value>konkurs</value>
@@ -214,6 +214,9 @@
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Prywatność</value>
   </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Zasady</value>
+  </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Status serwera</value>
   </data>
@@ -224,7 +227,7 @@
     <value>Warunki świadczenia usług</value>
   </data>
   <data name="errors.400.error" xml:space="preserve">
-    <value>Nieprawidłowy parametr żądania</value>
+    <value>Nieprawidłowy parametr zapytania</value>
   </data>
   <data name="errors.404.error" xml:space="preserve">
     <value>Nie znaleziono strony</value>
@@ -251,7 +254,7 @@
     <value>Przepraszamy, ale poszukiwana strona nie istnieje!</value>
   </data>
   <data name="errors.422.error" xml:space="preserve">
-    <value>Nieprawidłowy parametr żądania</value>
+    <value>Nieprawidłowy parametr zapytania</value>
   </data>
   <data name="errors.429.error" xml:space="preserve">
     <value>Przekroczono limit zapytań</value>
@@ -272,7 +275,7 @@
     <value>Przerwa techniczna!</value>
   </data>
   <data name="errors.503.description" xml:space="preserve">
-    <value>Przerwa techniczna zajmuje od 5 sekund do 10 minut. Jeżeli jesteśmy niedostępni na dłużej, sprawdź {0}, aby dowiedzieć się więcej.</value>
+    <value>Przerwa techniczna zajmuje zwykle od 5 sekund do 10 minut. Jeżeli jesteśmy niedostępni na dłużej, sprawdź {0}, aby dowiedzieć się więcej.</value>
   </data>
   <data name="errors.reference" xml:space="preserve">
     <value>Na wszelki wypadek, tutaj jest kod, który możesz przekazać osobom z pomocy technicznej!</value>
@@ -293,7 +296,7 @@
     <value>nazwa użytkownika</value>
   </data>
   <data name="popup_login.login.error.email" xml:space="preserve">
-    <value>Nazwa użytkownika bądź adres e-mail nie istnieją</value>
+    <value>Użytkownik o podanej nazwie lub adresie e-mail nie istnieje</value>
   </data>
   <data name="popup_login.login.error.password" xml:space="preserve">
     <value>Nieprawidłowe hasło</value>
@@ -317,10 +320,10 @@
     <value>Znajomi</value>
   </data>
   <data name="popup_user.links.legacy_score_only_toggle" xml:space="preserve">
-    <value>Tryb lazer</value>
+    <value>Tryb „lazer”</value>
   </data>
   <data name="popup_user.links.legacy_score_only_toggle_tooltip" xml:space="preserve">
-    <value>Tryb Lazer pokazuje wyniki ustalone z lazera z nowym algorytmem punktacji</value>
+    <value>Tryb „lazer” uwzględnia wyniki ustanowione w osu!lazer, które wykorzystują nowy algorytm punktacji</value>
   </data>
   <data name="popup_user.links.logout" xml:space="preserve">
     <value>Wyloguj się</value>
@@ -329,7 +332,13 @@
     <value>Mój profil</value>
   </data>
   <data name="popup_user.links.scoring_mode_toggle" xml:space="preserve">
-    <value>Klasyczny wynik</value>
+    <value>Klasyczna punktacja</value>
+  </data>
+  <data name="popup_user.links.scoring_mode_toggle_tooltip" xml:space="preserve">
+    <value>Dostosowuje punktację wyników, aby przyjmowały klasyczne, nieograniczone wartości</value>
+  </data>
+  <data name="popup_user.links.team" xml:space="preserve">
+    <value>Mój zespół</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
     <value>Napisz, aby wyszukać!</value>

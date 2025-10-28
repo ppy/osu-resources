@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>osu!를 조금 더 해보시는 건 어떨까요?</value>
+    <value>대신에 osu! 몇 판을 즐겨보시는 게 어떨까요?</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>계속하려면 로그인해 주세요.</value>
@@ -86,7 +86,7 @@
     <value>오늘은 더 이상 추천할 수 없습니다. 내일 다시 시도해주세요.</value>
   </data>
   <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
-    <value>해당 작업을 수행하는 중 오류가 발생했습니다. 페이지를 새로 고쳐주세요.</value>
+    <value>요청하신 작업 수행 중 오류가 발생했으니, 본 페이지를 새로고침해 주세요.</value>
   </data>
   <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
     <value>자신의 비트맵을 추천할 수 없습니다.</value>
@@ -205,6 +205,9 @@
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>요청하신 포럼에 대한 접근 권한이 필요합니다.</value>
   </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>수정 권한이 없어요.</value>
+  </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>본인이 쓴 답글만 수정할 수 있습니다.</value>
   </data>
@@ -297,6 +300,30 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>너무 많은 점수를 고정했습니다.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>이미 팀에 소속되어 있습니다.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>이미 다른 팀에 소속되어 있습니다.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>대기 중인 팀 가입 요청이 있습니다.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>이 팀은 현재 가입 요청을 받고 있지 않습니다.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>이 팀은 가득 차 더 이상 팀원을 받을 수 없습니다.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>팀 리더는 팀을 떠날 수 없습니다.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>팀의 멤버가 아닙니다.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>팀을 만들려면 osu! 서포터 태그가 필요합니다.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>유저 페이지가 잠겨있습니다.</value>

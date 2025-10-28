@@ -61,6 +61,9 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Завяршэнне пакупкі</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Выдаліць усе тавары з кошыка</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
     <value>{0} тавар у кошыку (${1})|{0} прадметы ў кошыку  (${1})</value>
   </data>
@@ -130,14 +133,62 @@
   <data name="discount" xml:space="preserve">
     <value>эканомія: {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>бясплатна!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Кантакты:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Так як аплата была праз eCheck, чаканне пацверджання аплаты праз Paypal можа займаць да 10 дзён!</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Аплата праз eCheck была адхіленая PayPal.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>паведамленні аб тэгах osu!supporter пасля куплі не будуць адлюстраваны ў вашым профілі.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Адпраўлена праз:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Дастаўка ў:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Да аплаты</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>рахунак-фактура</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Ваш заказ быў адменены</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Калі вы не адмянялі заказ самастойна, калі ласка, звяжыцеся з {0}, паказаўшы нумар вашага заказу (#{1}).</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>падтрымкай osu!store</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Ваш заказ дастаўлены! Спадзяемся, ён вам спадабаецца!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Калі ў вас узніклі праблемы з пакупкай, калі ласка, звяжыцеся з {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>падтрымкай osu!store</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Ваш заказ рыхтуецца да адпраўкі!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Калі ласка, дачакайцеся адпраўкі заказу. Інфармацыя пра адсочванне з'явіцца тут пасля апрацоўкі заказу і адпраўкі. Гэты працэс можа заняць да 5 дзён (але звычайна менш!) у залежнасці ад нашай загружанасці.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Мы адпраўляем усе заказы з Японіі рознымі службамі дастаўкі ў залежнасці ад вагі і кошту.  Падрабязнасці дастаўкі з'явяцца тут, як толькі мы адправім Ваш заказ.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Ваша аплата яшчэ не была пацверджана!</value>
@@ -150,6 +201,18 @@
   </data>
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>націсніце тут, каб узнавіць аплату</value>
+  </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Ваш заказ адпраўлены!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Падрабязнасці адсочвання:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>У нас няма даных адсочвання, паколькі мы адправілі ваш заказ авіяпоштай, аднак вы можаце разлічваць на іх атрыманне на працягу 1-3 тыдняў. Часам мытня ў Еўропе можа затрымаць заказ па-за нашага кантролю. Калі ў вас засталіся пытанні, адкажыце на атрыманае вамі пісьмо з пацвярджэннем заказу (або {0}).</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>адпраўце нам пісьмо</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Адмяніць заказ</value>
@@ -172,8 +235,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Працягнуць пакупку</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Дастаўка і апрацоўка</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Тэрмін дзеяння спасылкі на заказ для гэтага замовы скончыўся.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Прамежкавая сума</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Выніковая сума</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Заказ #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Умовы аплаты</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Прадавец</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Спосаб дастаўкі</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Умовы дастаўкі</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Склад замовы</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Колькасць</value>
@@ -223,6 +313,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>У дарозе</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Статус заказу</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Дзякуй за ваш заказ!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>У бліжэйшы час вы атрымаеце пісьмо з пацвярджэннем заказу. Калі ў вас засталіся пытанні, калі ласка, {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>звяжыцеся з намі</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Назва</value>
   </data>
@@ -264,6 +366,15 @@
   </data>
   <data name="username_change.checking" xml:space="preserve">
     <value>Ідзе праверка даступнасці {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Увядзіце імя карыстальніка</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Новае імя карыстальніка</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ваша сучаснае імя карыстальніка: "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Вы павінны {0}, каб змяніць імя карыстальніка!</value>

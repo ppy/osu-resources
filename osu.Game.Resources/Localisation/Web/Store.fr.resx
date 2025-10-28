@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Votre paiement était en eCheck, veuillez alors prévoir jusqu'à 10 jours supplémentaires pour que le paiement soit effectué via PayPal !</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Le paiement eCheck a été rejeté par PayPal.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Les tags osu!supporter achetés dans cette commande ne sont pas affichés dans vos activités récentes.</value>
   </data>
@@ -336,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Prévenez-moi quand cet article sera disponible !</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Rupture de stock</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>vous serez prévenu quand cet article sera de nouveau en stock. cliquez {0} pour annuler</value>

@@ -67,6 +67,9 @@
   <data name="edit.avatar.title" xml:space="preserve">
     <value>Profilbillede</value>
   </data>
+  <data name="edit.avatar.reset" xml:space="preserve">
+    <value>genstart</value>
+  </data>
   <data name="edit.avatar.rules" xml:space="preserve">
     <value>Vær sikker på at din avatar overholder {0}.&lt;br/&gt;Dette betyder at den skal være &lt;strong&gt;passende for alle aldre&lt;/strong&gt;. Det betyder ingen nøgenhed, skælsord eller suggestivt indhold.</value>
   </data>
@@ -82,6 +85,12 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Venligst kontakt {0} his du har brug for at opdatere din email.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>kontohjælp</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>nuværende adgangskode</value>
   </data>
@@ -94,8 +103,17 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Adgangskode</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>land</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profil</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Det ser ud til at dit konto-land ikke er det samme som dit bopælslands. {0}.</value>
+  </data>
+  <data name="edit.profile.country_change.update_link" xml:space="preserve">
+    <value>Opdater til {0}</value>
   </data>
   <data name="edit.profile.user.user_from" xml:space="preserve">
     <value>nuværende placering</value>
@@ -114,6 +132,21 @@
   </data>
   <data name="edit.signature.update" xml:space="preserve">
     <value>opdater</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Tilknyt GitHub konto</value>
+  </data>
+  <data name="github_user.title" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Fjern GitHub konto</value>
+  </data>
+  <data name="github_user.error.already_linked" xml:space="preserve">
+    <value>Denne GitHub konto er allerede tilknyttet en anden bruger.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Venligst bekræft din primære email på GitHub, og efterfølgende prøv at tilknytte din konto igen.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>modtag notifikationer for nye problemer på kvalificerede beatmaps for de følgende spileltilstande</value>

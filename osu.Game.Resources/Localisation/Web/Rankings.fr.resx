@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>Score du Top 50%</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Pas de défi du jour à cette date pour le moment !</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Pas de défi du jour à cette date !</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Afficher</value>
   </data>
@@ -100,20 +106,20 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>défi du jour</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>global</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
   <data name="type.multiplayer" xml:space="preserve">
     <value>multijoueur</value>
   </data>
-  <data name="type.performance" xml:space="preserve">
-    <value>performance</value>
-  </data>
-  <data name="type.score" xml:space="preserve">
-    <value>score</value>
-  </data>
   <data name="type.seasons" xml:space="preserve">
     <value>saisons</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>équipe</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Il n'y a pas encore de salles pour cette saison.</value>
@@ -126,6 +132,9 @@
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Afficher plus d'informations sur cette saison.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>Il n'y a pas suffisamment de facteurs de score pour établir un calcul correct</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>Date de fin</value>
@@ -147,6 +156,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>Pays</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Membres</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>Nombres de parties</value>

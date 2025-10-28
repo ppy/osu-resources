@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>поиск</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Посмотреть все результаты поиска среди треков избранных исполнителей</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Войдите в аккаунт для поиска по картам</value>
   </data>
@@ -107,7 +110,7 @@
     <value>больше {0} результатов поиска среди карт</value>
   </data>
   <data name="search.beatmapset.more_simple" xml:space="preserve">
-    <value>Посмотреть другие результаты поиска среди карт</value>
+    <value>Посмотреть все результаты поиска среди карт</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
     <value>Карты</value>
@@ -122,7 +125,7 @@
     <value>Войдите в аккаунт для поиска по форуму</value>
   </data>
   <data name="search.forum_post.more_simple" xml:space="preserve">
-    <value>Посмотреть другие результаты поиска на форуме</value>
+    <value>Посмотреть все результаты поиска на форуме</value>
   </data>
   <data name="search.forum_post.title" xml:space="preserve">
     <value>Форумы</value>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>все</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>треки избранных исполнителей</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>карты</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>форум</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>команды</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>игроки</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>вики</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Посмотреть все результаты поиска среди команд</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Войдите в аккаунт для поиска по пользователям</value>
@@ -164,7 +176,7 @@
     <value>больше {0} результатов поиска среди игроков</value>
   </data>
   <data name="search.user.more_simple" xml:space="preserve">
-    <value>Посмотреть другие результаты поиска среди игроков</value>
+    <value>Посмотреть все результаты поиска среди игроков</value>
   </data>
   <data name="search.user.more_hidden" xml:space="preserve">
     <value>Результаты поиска игроков сокращены до {0}. Попробуйте уточнить запрос.</value>
@@ -176,7 +188,7 @@
     <value>Искать в вики</value>
   </data>
   <data name="search.wiki_page.more_simple" xml:space="preserve">
-    <value>Посмотреть другие результаты поиска в вики</value>
+    <value>Посмотреть все результаты поиска на вики</value>
   </data>
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Вики</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Игроков в сети</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Карта дня</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Новые рейтинговые карты</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>от {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>закончится {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Скачать osu!</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>Магазин osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Открыть админ-консоль</value>
   </data>
 </root>

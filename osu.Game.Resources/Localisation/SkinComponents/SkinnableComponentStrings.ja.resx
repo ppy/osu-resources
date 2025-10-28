@@ -61,20 +61,11 @@
   <data name="sprite_name" xml:space="preserve">
     <value>スプライト名</value>
   </data>
-  <data name="sprite_name_description" xml:space="preserve">
-    <value>スプライトのファイル名</value>
-  </data>
   <data name="font" xml:space="preserve">
     <value>フォント</value>
   </data>
-  <data name="font_description" xml:space="preserve">
-    <value>使用するフォント</value>
-  </data>
   <data name="text_element_text" xml:space="preserve">
     <value>テキスト</value>
-  </data>
-  <data name="text_element_text_description" xml:space="preserve">
-    <value>表示するテキスト</value>
   </data>
   <data name="corner_radius" xml:space="preserve">
     <value>角の丸み</value>
@@ -85,7 +76,22 @@
   <data name="show_label" xml:space="preserve">
     <value>ラベルを表示</value>
   </data>
-  <data name="show_label_description" xml:space="preserve">
-    <value>コンポーネントのラベルを表示するかどうか。</value>
+  <data name="colour" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="text_colour" xml:space="preserve">
+    <value>テキストの色</value>
+  </data>
+  <data name="text_weight" xml:space="preserve">
+    <value>テキストの太さ</value>
+  </data>
+  <data name="use_relative_size" xml:space="preserve">
+    <value>相対サイズを使用</value>
+  </data>
+  <data name="collapse_during_gameplay" xml:space="preserve">
+    <value>ゲームプレイ中に畳む</value>
+  </data>
+  <data name="if_enabled_the_leaderboard_will" xml:space="preserve">
+    <value>有効な場合、リーダーボードはゲームプレイ中に小さくなります。</value>
   </data>
 </root>

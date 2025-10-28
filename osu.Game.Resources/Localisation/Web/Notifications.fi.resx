@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>uutiset</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>tiimi</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profiili</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>kaikki</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>profiili</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>rytmikartat</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>rakennukset</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>chatti</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>foorumi</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>uutiset</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>rakennukset</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>tiimi</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>chatti</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>profiili</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Rytmikartta</value>
@@ -328,6 +334,21 @@
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} vastasi</value>
   </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Tiimiin liittymispyyntö</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Olet nyt tiimin {0} jäsen</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Olet nyt tiimin {0} jäsen</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Sinun pyyntösi tiimiin {0} on hylätty</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Sinun pyyntösi tiimiin {0} on hylätty</value>
+  </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Uusi rytmikartta</value>
   </data>
@@ -400,12 +421,6 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Rytmikartassa "{0}" on uusia kommentteja</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>"{0}" on saanut uuden tiedotteen</value>
-  </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Olet saanut uuden viestin käyttäjältä {0}</value>
-  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Muutosloki "{0}" on saanut uusia kommentteja</value>
   </data>
@@ -414,6 +429,12 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Aihe "{0}" on saanut uusia vastauksia</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Olet nyt tiimin {0} jäsen</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Pyyntösi tiimiin {0} on hylätty</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} on luonut uusia rytmikarttoja</value>

@@ -800,6 +800,66 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TopicsIssueTagResolvedTo1Done => new TranslatableString(getKey(@"topics.issue_tag_resolved.to_1_done"), @"Added ""resolved"" tag");
 
         /// <summary>
+        /// "Remove &quot;osu!lazer&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsulazerTo0 => new TranslatableString(getKey(@"topics.issue_tag_osulazer.to_0"), @"Remove ""osu!lazer"" tag");
+
+        /// <summary>
+        /// "Removed &quot;osu!lazer&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsulazerTo0Done => new TranslatableString(getKey(@"topics.issue_tag_osulazer.to_0_done"), @"Removed ""osu!lazer"" tag");
+
+        /// <summary>
+        /// "Add &quot;osu!lazer&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsulazerTo1 => new TranslatableString(getKey(@"topics.issue_tag_osulazer.to_1"), @"Add ""osu!lazer"" tag");
+
+        /// <summary>
+        /// "Added &quot;osu!lazer&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsulazerTo1Done => new TranslatableString(getKey(@"topics.issue_tag_osulazer.to_1_done"), @"Added ""osu!lazer"" tag");
+
+        /// <summary>
+        /// "Remove &quot;osu!stable&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsustableTo0 => new TranslatableString(getKey(@"topics.issue_tag_osustable.to_0"), @"Remove ""osu!stable"" tag");
+
+        /// <summary>
+        /// "Removed &quot;osu!stable&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsustableTo0Done => new TranslatableString(getKey(@"topics.issue_tag_osustable.to_0_done"), @"Removed ""osu!stable"" tag");
+
+        /// <summary>
+        /// "Add &quot;osu!stable&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsustableTo1 => new TranslatableString(getKey(@"topics.issue_tag_osustable.to_1"), @"Add ""osu!stable"" tag");
+
+        /// <summary>
+        /// "Added &quot;osu!stable&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsustableTo1Done => new TranslatableString(getKey(@"topics.issue_tag_osustable.to_1_done"), @"Added ""osu!stable"" tag");
+
+        /// <summary>
+        /// "Remove &quot;osu!web&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsuwebTo0 => new TranslatableString(getKey(@"topics.issue_tag_osuweb.to_0"), @"Remove ""osu!web"" tag");
+
+        /// <summary>
+        /// "Removed &quot;osu!web&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsuwebTo0Done => new TranslatableString(getKey(@"topics.issue_tag_osuweb.to_0_done"), @"Removed ""osu!web"" tag");
+
+        /// <summary>
+        /// "Add &quot;osu!web&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsuwebTo1 => new TranslatableString(getKey(@"topics.issue_tag_osuweb.to_1"), @"Add ""osu!web"" tag");
+
+        /// <summary>
+        /// "Added &quot;osu!web&quot; tag"
+        /// </summary>
+        public static LocalisableString TopicsIssueTagOsuwebTo1Done => new TranslatableString(getKey(@"topics.issue_tag_osuweb.to_1_done"), @"Added ""osu!web"" tag");
+
+        /// <summary>
         /// "This topic is locked and can not be replied to"
         /// </summary>
         public static LocalisableString TopicsLockIsLocked => new TranslatableString(getKey(@"topics.lock.is_locked"), @"This topic is locked and can not be replied to");

@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Ödemenizin bir eCheck olması nedeniyle, ödemenizin PayPal'dan temizlenmesi için 10 ekstra günü göz önüne alın!</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>eCheck ödemesi PayPal tarafından reddedildi.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>Bu siparişteki osu!supporter etiketleri yakın zamandaki etkinliklerinizde gösterilmez.</value>
   </data>
@@ -336,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Mevcut olduğundan bana bildir!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Tükendi</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>yeni ürün geldiğinde size haber vereceğiz. iptal etmek için {0} tıklayın</value>

@@ -83,7 +83,7 @@
     <value>更新</value>
   </data>
   <data name="judge.validation.missing_score" xml:space="preserve">
-    <value>缺失成績</value>
+    <value>缺少成績</value>
   </data>
   <data name="judge.validation.contest_vote_judged" xml:space="preserve">
     <value>無法在已評分的競賽中投票</value>
@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>分數</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>標準分數</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>總分</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>總標準分數</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>您是此競賽的評委。請在這裡評分。</value>
@@ -181,6 +187,9 @@
   <data name="vote.points" xml:space="preserve">
     <value>{0} 分|{0} 分</value>
   </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} 分</value>
+  </data>
   <data name="dates.ended" xml:space="preserve">
     <value>結束於 {0}</value>
   </data>
@@ -201,5 +210,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>已結束</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>檢視詳細資訊及參賽作品</value>
   </data>
 </root>

@@ -83,7 +83,7 @@
     <value>nieprawidłowe żądanie</value>
   </data>
   <data name="error.error.429" xml:space="preserve">
-    <value>zbyt wiele zapytań</value>
+    <value>zbyt wiele żądań</value>
   </data>
   <data name="error.error.500" xml:space="preserve">
     <value>coś się popsuło</value>
@@ -95,7 +95,7 @@
     <value>forum</value>
   </data>
   <data name="forum.topic_logs_controller.index" xml:space="preserve">
-    <value>rejestry wątków</value>
+    <value>historia zdarzeń wątku</value>
   </data>
   <data name="main.account_controller.verify_link" xml:space="preserve">
     <value>weryfikacja konta</value>
@@ -137,13 +137,13 @@
     <value>komentarze</value>
   </data>
   <data name="main.contest_entries_controller.judge_results" xml:space="preserve">
-    <value>wyniki oceniania konkursu</value>
+    <value>wyniki oceny prac konkursowych</value>
   </data>
   <data name="main.contests_controller._" xml:space="preserve">
     <value>konkursy</value>
   </data>
   <data name="main.contests_controller.judge" xml:space="preserve">
-    <value>ocenianie konkursu</value>
+    <value>ocena prac konkursowych</value>
   </data>
   <data name="main.groups_controller.show" xml:space="preserve">
     <value>grupy</value>
@@ -163,14 +163,14 @@
   <data name="main.home_controller.testflight" xml:space="preserve">
     <value>testflight</value>
   </data>
+  <data name="main.legacy_matches_controller._" xml:space="preserve">
+    <value>mecze</value>
+  </data>
   <data name="main.legal_controller._" xml:space="preserve">
     <value>informacje</value>
   </data>
   <data name="main.livestreams_controller._" xml:space="preserve">
     <value>na żywo</value>
-  </data>
-  <data name="main.matches_controller._" xml:space="preserve">
-    <value>mecze</value>
   </data>
   <data name="main.news_controller._" xml:space="preserve">
     <value>aktualności</value>
@@ -190,8 +190,26 @@
   <data name="main.seasons_controller._" xml:space="preserve">
     <value>rankingi</value>
   </data>
+  <data name="main.teams_controller._" xml:space="preserve">
+    <value>zespoły</value>
+  </data>
+  <data name="main.teams_controller.create" xml:space="preserve">
+    <value>utwórz zespół</value>
+  </data>
+  <data name="main.teams_controller.edit" xml:space="preserve">
+    <value>ustawienia zespołu</value>
+  </data>
+  <data name="main.teams_controller.leaderboard" xml:space="preserve">
+    <value>ranking zespołu</value>
+  </data>
+  <data name="main.teams_controller.show" xml:space="preserve">
+    <value>informacje o zespole</value>
+  </data>
   <data name="main.tournaments_controller._" xml:space="preserve">
     <value>turnieje</value>
+  </data>
+  <data name="main.user_cover_presets_controller._" xml:space="preserve">
+    <value>konfiguracja domyślnych teł profili</value>
   </data>
   <data name="main.users_controller._" xml:space="preserve">
     <value>informacje o użytkowniku</value>
@@ -205,11 +223,17 @@
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
   </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>historia meczu</value>
+  </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>autoryzuj aplikację</value>
   </data>
   <data name="store._" xml:space="preserve">
     <value>sklep</value>
+  </data>
+  <data name="teams.members_controller.index" xml:space="preserve">
+    <value>członkowie zespołu</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
     <value>informacje o modowaniu</value>

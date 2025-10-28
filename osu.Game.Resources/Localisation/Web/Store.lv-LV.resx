@@ -67,6 +67,9 @@
   <data name="cart.info" xml:space="preserve">
     <value>{0} prece grozā (${1})|{0} prece grozā (${1})</value>
   </data>
+  <data name="cart.more_goodies" xml:space="preserve">
+    <value>Es gribu apskatīt vairāk labumiņus pirms es pabeikšu savu pasūtījumu</value>
+  </data>
   <data name="cart.shipping_fees" xml:space="preserve">
     <value>piegādes maksas</value>
   </data>
@@ -76,17 +79,38 @@
   <data name="cart.total" xml:space="preserve">
     <value>kopā</value>
   </data>
+  <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
+    <value>Ak nē, ar tavu grozu iznāca upsie, neatļaujot norēķināšanos!</value>
+  </data>
+  <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
+    <value>Noņem vai atjauno redzamos iepirkumus lai turpinātu.</value>
+  </data>
   <data name="cart.empty.text" xml:space="preserve">
     <value>Jūsu grozs ir tukšs.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
     <value>Atgriezties uz {0} lai atrastu dažus labumiņus!</value>
   </data>
+  <data name="cart.empty.return_link.link_text" xml:space="preserve">
+    <value>veikala skatlogs</value>
+  </data>
   <data name="checkout.cart_problems" xml:space="preserve">
     <value>Ak nē, ir izveidojušās problēmas ar tavu grozu!</value>
   </data>
+  <data name="checkout.cart_problems_edit" xml:space="preserve">
+    <value>Uzspied šeit lai to rediģētu</value>
+  </data>
+  <data name="checkout.declined" xml:space="preserve">
+    <value>Apmaksa tika atcelta.</value>
+  </data>
+  <data name="checkout.delayed_shipping" xml:space="preserve">
+    <value>Mēs pašlaik esam pārslogoi ar pasūtījumiem! Tu droši vari izpildīt savu pasūtījumu, bet vari sagaidīt **papildus 1-2 nedēļu aizkavi** kamēr mēs pierausimies esošajiem pasūtījumiem.</value>
+  </data>
   <data name="checkout.hide_from_activity" xml:space="preserve">
     <value>Slēpt visus osu!supporter tagus šajā pasūtījumā no manas aktivitātes</value>
+  </data>
+  <data name="checkout.old_cart" xml:space="preserve">
+    <value>Izskatās ka tavs grozs ir pārāk vecs, un tas tika pārlādēts, lūdzu mēģini atkal.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
     <value>Norēķināties ar PayPal</value>
@@ -94,8 +118,17 @@
   <data name="checkout.title_compact" xml:space="preserve">
     <value>norēķināšanās</value>
   </data>
+  <data name="checkout.has_pending._" xml:space="preserve">
+    <value>Tev ir nepabeigtas norēķināšanās, uzspied {0}, lai tās apskatītu.</value>
+  </data>
   <data name="checkout.has_pending.link_text" xml:space="preserve">
     <value>šeit</value>
+  </data>
+  <data name="checkout.pending_checkout.line_1" xml:space="preserve">
+    <value>Iepirekš izveidota norēķināšanās tika izveidota, bet nepabeigta.</value>
+  </data>
+  <data name="checkout.pending_checkout.line_2" xml:space="preserve">
+    <value>Turpini savu norēķināšanos, izvēloties maksājuma veidu.</value>
   </data>
   <data name="discount" xml:space="preserve">
     <value>atlaide {0} %</value>
@@ -111,6 +144,9 @@
   </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Tā kā jūsu samakasa bija e-samaksa, lūdzu pagaidīt līdz 10 papildus dienām, lai samaksa izietu cauri PayPal!</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>PayPal noraidīja eČeka maksājumu.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter tagi šajā pasūtījumā netiek rādīti jūsu nesenajās aktivitātēs.</value>
@@ -130,8 +166,35 @@
   <data name="invoice.status.cancelled.title" xml:space="preserve">
     <value>Jūsu pasūtījums ir atcelts </value>
   </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Ja tu nepieprasīji atcelšanu, lūdzu sazināties ar {0} citējot savu pasūtIjuma nummuru (#{1}).</value>
+  </data>
   <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
     <value>osu!veikala atbalsts</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Tavs pasūtījums tika piegādāts! Mēc ceram, ka tu to izbaudi!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Ja tev ir jebkādas problēmas ar savu pasūtījmu, lūdzam sazināties ar {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>osu!veikala atbalsts</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Jūsu pasūtījums tiek sagatavots!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Lūdzu, uzgaidi nedaudz ilgāk, līdz tas tiks nosūtīts. Izsekošanas informācija šeit tiks parādīta pēc pasūtījuma apstrādes un nosūtīšanas. Tas var ilgt pat 5 dienas (bet parasti mazāk!) atkarībā no tā, cik esam aizņemti.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Mēs sūtām visus pasūtījumus no Japānas, izmantojot dažādus kuģošanas pakalpojumus atkarībā no svara un vērtības. Kad pasūtījums būs nosūtīts, šis apgabals tiks atjaunināts ar informāciju.</value>
+  </data>
+  <data name="invoice.status.processing.title" xml:space="preserve">
+    <value>Tava apmaksa vēl nav tikusi apstiprināta!</value>
+  </data>
+  <data name="invoice.status.processing.line_1" xml:space="preserve">
+    <value>Ja tu jau esi samaksājis, iespējams, joprojām gaidām tava maksājuma apstiprinājumu. Lūdzu, atsvaidziniet šo lapu pēc vienas vai vairākām minūtēm!</value>
   </data>
   <data name="invoice.status.processing.line_2._" xml:space="preserve">
     <value>Ja tu sastapies ar problēmu, kamēr norēķinājies, {0}</value>
@@ -144,6 +207,9 @@
   </data>
   <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
     <value>Izsekošanas saturs seko:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Mums nav detalizēta informācija par izsekošanu, jo nosūtijām tavu pasūtījumu, izmantojot Air Mail, bet tu vari cerēt sagaidīt to 1-3 nedēļu laikā. Eiropai, Europas muita var dažkārtr aizkavēt pasūtījumu ārpus no mūsu kontroles. Ja rodas kādas bažas, lūdzu atbildi pasūtījuma apstiprinājuma e-pastam, kuru tu saņēmi (vai {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>atsūti mums e-pastu</value>
@@ -175,11 +241,59 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Šī pasūtījuma norēķināšanās saitei ir beidzies derīguma termiņš.</value>
   </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Starpsumma</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Kopā</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Pasūtījums #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Samaksas Nosacījumi</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Pārdevējs</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Piegādes Veids</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Piegādes Nosacījumi</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Pasūtījuma Detaļas</value>
+  </data>
   <data name="order.item.quantity" xml:space="preserve">
-    <value>Daudzums</value>
+    <value>daudzums</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} priekš {1} ({2})</value>
+  </data>
+  <data name="order.item.subtext.supporter_tag" xml:space="preserve">
+    <value>Ziņa: {0}</value>
+  </data>
+  <data name="order.not_modifiable_exception.cancelled" xml:space="preserve">
+    <value>Tu nevari modificēt savu pasūtījumu, kamēr tas tiek atcelts.</value>
+  </data>
+  <data name="order.not_modifiable_exception.checkout" xml:space="preserve">
+    <value>Tu nevari modificēt savu pasūtījumu, kamēr tas tiek apstrādāts.</value>
+  </data>
+  <data name="order.not_modifiable_exception.default" xml:space="preserve">
+    <value>Pasūtījums nav izmaināms</value>
+  </data>
+  <data name="order.not_modifiable_exception.delivered" xml:space="preserve">
+    <value>Tu nevari modificēt savu pasūtījumu, jo tas jau tika piegādāts.</value>
+  </data>
+  <data name="order.not_modifiable_exception.paid" xml:space="preserve">
+    <value>Tu nevari modificēt savu pasūtījumu, jo par to jau tika samaksāts.</value>
+  </data>
+  <data name="order.not_modifiable_exception.processing" xml:space="preserve">
+    <value>Tu nevari modificēt savu pasūtījumu, kamēr tas tiek apstrādāts.</value>
+  </data>
+  <data name="order.not_modifiable_exception.shipped" xml:space="preserve">
+    <value>Tu nevari izmainīt savu pasūtījumu, jo tas jau tika piegādāts.</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
     <value>Atcelts</value>
@@ -199,17 +313,74 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Izsūtīts</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Pasūtījuma Statuss</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Paldies par pirkumu!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Tu saņemsi apstiprinājuma e-pastu drīz. Ja tev ir vēl kādi jautāumi, lūdzu {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>sazinies ar mums</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Vārds</value>
   </data>
+  <data name="product.stock.out" xml:space="preserve">
+    <value>Šis produkts pašlaik nav pieejams. Pārbaudi vēlāk!</value>
+  </data>
+  <data name="product.stock.out_with_alternative" xml:space="preserve">
+    <value>Diemžēl šis produkts nav noliktavā. Izmanto apakšu lai izvēlētos citu tipu vai pārbaudi vēlāk!</value>
+  </data>
+  <data name="product.add_to_cart" xml:space="preserve">
+    <value>Pievienot grozam</value>
+  </data>
+  <data name="product.notify" xml:space="preserve">
+    <value>Paziņot man, kad pieejams!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Izpirkts</value>
+  </data>
+  <data name="product.notification_success" xml:space="preserve">
+    <value>tev paziņos, kad mums būs jauns krājums. uzspied {0} lai atceltu</value>
+  </data>
+  <data name="product.notification_remove_text" xml:space="preserve">
+    <value>šeit</value>
+  </data>
+  <data name="product.notification_in_stock" xml:space="preserve">
+    <value>Šis produkts jau ir pieejams!</value>
+  </data>
+  <data name="supporter_tag.gift" xml:space="preserve">
+    <value>uzdāvināt spēlētājam</value>
+  </data>
+  <data name="supporter_tag.gift_message" xml:space="preserve">
+    <value>pēc izvēles pievienot ziņu savai dāvanai! (līdz {0} rakstzīmēm)</value>
+  </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Jums ir nepiciešams būt {0}, lai iegūtu osu!supporter!</value>
+    <value>Jums ir nepieciešams būt {0}, lai iegūtu osu!supporter!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>pierakstījies</value>
   </data>
   <data name="username_change.check" xml:space="preserve">
     <value>Ievadi lietotājvārdu lai redzētu tā pieejamību!</value>
+  </data>
+  <data name="username_change.checking" xml:space="preserve">
+    <value>Pārbauda {0} pieejamību...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Pieprasītais Lietotājvārds</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Jauns Lietotājvārds</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Tavs pašreizējais lietotājvārds ir "{0}".</value>
+  </data>
+  <data name="username_change.require_login._" xml:space="preserve">
+    <value>Tev vajag būt {0}, lai nomainītu savu vārdu!</value>
   </data>
   <data name="username_change.require_login.link_text" xml:space="preserve">
     <value>pierakstījies</value>

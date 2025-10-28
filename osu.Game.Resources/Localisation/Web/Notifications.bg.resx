@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>отбор</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>профил</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>всички</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>профил</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>бийтмапове</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>промени</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>чат</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>форум</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>новини</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>промени</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>отбор</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>чат</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>профил</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Бийтмап</value>
@@ -280,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>от {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Ново отборно съобщение</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} каза "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} каза "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} каза "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Списък с промени</value>
   </data>
@@ -327,6 +345,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} отговори</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Заявка за влизане в отбор</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Вече сте член на {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Вече сте член на {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Обновявания на заявките за присъединяване към екип</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Заявлението Ви за отбора {0} беше отказано</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Заявлението Ви за отбора {0} беше отказано</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} заяви да влезе в отбора Ви</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} заяви да влезе в отбора Ви</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Нов бийтмап</value>
@@ -400,11 +442,14 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Бийтмап "{0}" има нов коментар</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
     <value>Има ново съобщение в "{0}"</value>
   </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
-    <value>Получи ново съобщение от {0}</value>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Получихте съобщение от {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Имате ново съобщение от отбора '{0}'</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>В списък с промените "{0}" има нов коментар</value>
@@ -414,6 +459,15 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Има нов отговор в "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Вече сте член на {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Заявлението Ви за отбора {0} беше отказано</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} заяви да влезе в отбора Ви</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} създаде нов бийтмап</value>

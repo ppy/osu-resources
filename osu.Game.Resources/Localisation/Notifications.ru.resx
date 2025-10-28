@@ -88,7 +88,7 @@
     <value>Внутриигровой интерфейс сейчас отключён. Вы можете включить его, нажав {0}.</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
-    <value>Ссылка {0} содержит неподдерживаемый или опасный протокол и не будет открыта.</value>
+    <value>Ссылка {0} содержит неподдерживаемый или опасный протокол, поэтому не будет открыта.</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
     <value>Последующие сообщения будут записаны. Нажмите сюда, чтобы открыть файлы логов.</value>
@@ -101,12 +101,6 @@
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Этот тип ссылок не поддерживается!</value>
-  </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Новое сообщение от {0}. Нажмите сюда, чтобы прочитать!</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>{0} упомянул вас в чате. Нажмите сюда, чтобы узнать почему!</value>
   </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
     <value>{0} пригласил вас в комнату мультиплеера "{1}"! Нажмите сюда, чтобы присоединиться.</value>
@@ -132,5 +126,11 @@
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Загрузка обновления...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Игры в этой комнате мультиплеера завершены. Нажмите сюда, чтобы посмотреть итоги.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Упоминание</value>
   </data>
 </root>

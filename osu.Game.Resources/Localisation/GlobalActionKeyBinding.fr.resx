@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Sélection suivante</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Sélectionner le groupe précédent</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Beatmapset précédent</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Sélectionner le groupe suivant</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Beatmapset suivant</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Groupe précédent</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Groupe suivant</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Extension du groupe sélectionné</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Menu principal</value>
@@ -167,10 +176,10 @@
     <value>Dupliquer la sélection</value>
   </data>
   <data name="editor_cycle_grid_spacing" xml:space="preserve">
-    <value>Itérer l'espacement de la grille</value>
+    <value>Changer l'espacement de la grille</value>
   </data>
   <data name="editor_cycle_grid_type" xml:space="preserve">
-    <value>Itérer le type de grille</value>
+    <value>Changer le type de grille</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Tester la beatmap</value>
@@ -309,5 +318,26 @@
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
     <value>Aller au bruitage suivant</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Ajouter un marque-page</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Supprimer le marque-page le plus proche</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Marque-page précédent</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Marque-page suivant</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Défilement absolu sur la liste des musiques</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Activer/désactiver le contrôle de mouvements</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Abandonner les modifications non enregistrées</value>
   </data>
 </root>

@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>لا يمكنك تغيير البيانات الوصفية لخريطة مُرَشَحة بالفعل. اتصل بعضو BN أو NAT إذا كنت تعتقد أنه تم تعيينها بشكل غير صحيح.</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>يجب عليك تعيين نتيجة على خريطة لإضافة علامة.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>لا يمكن مراسلة شخص قام بحظرك او قمت بحظره.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>غير مسموح لك الوصول الى هذه القناة.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>ليس لديك الصلاحية لنشر الإعلان.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>قد لا يكون المستخدم قادراً على الرد لأنك تقبل فقط الرسائل من أشخاص على قائمة أصدقائك.</value>
@@ -277,6 +283,9 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>يمكن للمسؤول فقط عرض هذا المنتدى.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>فقط مالك الغرفة يمكنه إغلاقها.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>لا يمكن تثبيت هذا النوع من النقاط</value>
   </data>
@@ -288,6 +297,27 @@
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>قمت بتثبيت نتائج كثيرة.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>أنت بالفعل جزء من الفريق.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>أنت بالفعل جزء من فريق مختلف.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>لديك طلب إنضمام فريق معلق.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>لا يقبل الفريق حاليا أي طلبات انضمام.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>الفريق ممتلئ ولا يمكنه قبول المزيد من الأعضاء.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>لا يستطيع قائد الفريق مغادرة الفريق.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>ليس عضوا في الفريق.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>صفحة المستخدم مقفلة.</value>

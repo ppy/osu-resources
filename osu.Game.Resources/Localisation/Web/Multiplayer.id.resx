@@ -58,8 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty._" xml:space="preserve">
-    <value>Pengguna ini belum pernah bermain {0} di osu!(lazer)!</value>
+  <data name="empty.active" xml:space="preserve">
+    <value>Pengguna ini tidak sedang berada di dalam ruang {0} osu!(lazer) mana pun yang sedang berlangsung!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Pengguna ini belum pernah mengikuti ruang {0} osu!(lazer) mana pun yang telah berakhir!</value>
   </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>playlist</value>
@@ -82,8 +85,17 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} tersisa</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Lihat Riwayat</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Lihat Ringkasan</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>Durasi pertandingan terlalu lama.</value>
+  </data>
+  <data name="room.errors.name_too_long" xml:space="preserve">
+    <value>Nama ruangan terlalu panjang.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>aktif</value>

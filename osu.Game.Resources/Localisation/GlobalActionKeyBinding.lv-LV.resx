@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_chat" xml:space="preserve">
-    <value>Pārslēgt čata pārklājumu</value>
+    <value>Pārslēgt saraksta pārklājumu</value>
   </data>
   <data name="toggle_social" xml:space="preserve">
     <value>Pārslēgt sociālo pārklājumu</value>
@@ -74,7 +74,7 @@
     <value>Pārslēgt iestatījumus</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
-    <value>Pārslēgt bītmapju sarakstu</value>
+    <value>Pārslēgt ritma-mapju sarakstu</value>
   </data>
   <data name="increase_volume" xml:space="preserve">
     <value>Palielināt skaļumu</value>
@@ -92,7 +92,7 @@
     <value>Ātrā atkārtošana (turēt)</value>
   </data>
   <data name="take_screenshot" xml:space="preserve">
-    <value>Uzņemt ekrānattēlu</value>
+    <value>Uzņemt ekrānuzņēmumu</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
     <value>Ieslēgt/izslēgt peles pogas spēles laikā</value>
@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Nākamā atlase</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Atlasīt iepriekšējo grupu</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Aktivizēt iepriekšējo komplektu</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Atlasīt nākamo grupu</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Aktivizēt nākamo komplektu</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Paplašinā iepriekšējo grupu</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Paplašināt nākamo grupu</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Ieslēgt paplašināšanu pašreizējai grupai</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Sākums</value>
@@ -166,8 +175,11 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Klonēt atlasi</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Cikla režģa displeja režīms</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Ciklēt plakņu atstarpes</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>Ciklēt plakņu veidus</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Testēt spēli</value>
@@ -182,14 +194,16 @@
     <value>Pauzēt / turpināt atkārtojumu</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>Pārslēgt spēles saskarni</value>
+    <value>Ieslēgt spēles saskarni</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Ieslēgt spēles līderu sarakstu</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>Pārslēgt modu atlasi</value>
+    <value>Ieslēgt modifikāciju atlasi</value>
   </data>
   <data name="deselect_all_mods" xml:space="preserve">
-    <value>Atcelt visu modu atlasi</value>
+    <value>Atcelt visu modifikāciju atlasi</value>
   </data>
   <data name="select_next_random" xml:space="preserve">
     <value>Nejaušs</value>
@@ -198,7 +212,7 @@
     <value>Atgriezt</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
-    <value>Bītmapes Opcijas</value>
+    <value>Ritma-mapju Opcijas</value>
   </data>
   <data name="editor_verify_mode" xml:space="preserve">
     <value>Pārbaudes režīms</value>
@@ -221,8 +235,12 @@
   <data name="editor_decrease_distance_spacing" xml:space="preserve">
     <value>Samazināt attālumu</value>
   </data>
-  
-  
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Ciklēt uz iepriekšējo ritma sadalījumu</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Ciklēt uz nākamo ritma sadalījumu</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Pārslēgt motīvu redaktoru</value>
   </data>
@@ -241,11 +259,85 @@
   <data name="seek_replay_backward" xml:space="preserve">
     <value>Tīt atkārtojumu atpakaļ</value>
   </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Aizsūtīt atkārtojumu vienu kadru uz priekšu</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Aizsūtīt atkārtojumu vienu kadru atpakaļ</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Pārslēgt čata fokusu</value>
   </data>
-  
-  
-  
-  
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>Pārslēgt atkārtojuma iestatījumus</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Saglabāt atkārtojumu</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Eksportēt atkārtojumu</value>
+  </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>Palielināt nobīdi</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Samazināt nobīdi</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Pārslēgt rotācijas kontroli</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Pārslēgt mērogošanas kontroli</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Pārslēgt automātisko atskaņošanu</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Pārslēgt ātro pauzi</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Ātri iziet uz sākuma laiku</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Ātri iziet uz pašreizējo laiku</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Palielināt ātrumu</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Samazināt ātrumu</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Iet uz iepriekšējo sitamo objektu</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Iet uz nākamo sitamo objektu</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Iet uz iepriekšējo pamata punktu</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Iet uz nāmkamo pamata punktu</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Pievienot grāmatzīmi</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Noņemt tuvāko grāmatzīni</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Iet uz iepriekšējo grāmatzīmi</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Iet uz nākamo grāmatzīmi</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absolūtais ritināšanas dziesmu saraksts</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Pārslēgt kustības kontroli</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Atcelt nesaglabātās izmaiņas</value>
+  </data>
 </root>

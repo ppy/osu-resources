@@ -82,41 +82,53 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} cu {1} puncte</value>
   </data>
-  <data name="match.events.player-left" xml:space="preserve">
-    <value>{0} a părăsit meciul</value>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>meciul a fost anulat</value>
   </data>
-  <data name="match.events.player-joined" xml:space="preserve">
-    <value>{0} s-a alăturat meciului</value>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>meciul a fost anulat</value>
   </data>
-  <data name="match.events.player-kicked" xml:space="preserve">
-    <value>{0} a fost dat afară din meci</value>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>meciul s-a terminat</value>
   </data>
-  <data name="match.events.match-created" xml:space="preserve">
-    <value>{0} a creat meciul</value>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>meciul s-a terminat</value>
   </data>
-  <data name="match.events.match-disbanded" xml:space="preserve">
-    <value>meciul a fost desființat</value>
-  </data>
-  <data name="match.events.host-changed" xml:space="preserve">
+  <data name="match.events.host_changed" xml:space="preserve">
     <value>{0} a devenit gazda</value>
   </data>
-  <data name="match.events.player-left-no-user" xml:space="preserve">
-    <value>un jucător a părăsit meciul</value>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>gazda s-a schimbat</value>
   </data>
-  <data name="match.events.player-joined-no-user" xml:space="preserve">
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} s-a alăturat meciului</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
     <value>un jucător s-a alăturat meciului</value>
   </data>
-  <data name="match.events.player-kicked-no-user" xml:space="preserve">
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} a fost dat afară din meci</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
     <value>un jucător a fost dat afară din meci</value>
   </data>
-  <data name="match.events.match-created-no-user" xml:space="preserve">
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} a părăsit meciul</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>un jucător a părăsit meciul</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} a creat meciul</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
     <value>meciul a fost creat</value>
   </data>
-  <data name="match.events.match-disbanded-no-user" xml:space="preserve">
+  <data name="match.events.room_disbanded" xml:space="preserve">
     <value>meciul a fost desființat</value>
   </data>
-  <data name="match.events.host-changed-no-user" xml:space="preserve">
-    <value>gazda s-a schimbat</value>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>meciul a fost desființat</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precizie</value>
@@ -127,23 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Scor</value>
   </data>
-  <data name="match.team-types.head-to-head" xml:space="preserve">
+  <data name="match.team_types.head_to_head" xml:space="preserve">
     <value>Cap la cap</value>
   </data>
-  <data name="match.team-types.tag-coop" xml:space="preserve">
+  <data name="match.team_types.tag_coop" xml:space="preserve">
     <value>Tag Co-op</value>
   </data>
-  <data name="match.team-types.team-vs" xml:space="preserve">
-    <value>Team VS</value>
-  </data>
-  <data name="match.team-types.tag-team-vs" xml:space="preserve">
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
     <value>Tag Team VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Team VS</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Echipa Albastră</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Echipa Roșie</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Freestyle</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Scor Maxim</value>

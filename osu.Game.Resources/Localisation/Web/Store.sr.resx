@@ -61,8 +61,11 @@
   <data name="cart.checkout" xml:space="preserve">
     <value>Завршите куповину</value>
   </data>
+  <data name="cart.empty_cart" xml:space="preserve">
+    <value>Уклоните све производе из корпе</value>
+  </data>
   <data name="cart.info" xml:space="preserve">
-    <value>{0} производа у колицима (${1})|{0} производа у колицима (${1})</value>
+    <value>{0} производа у корпи (${1})|{0} производа у корпи (${1})</value>
   </data>
   <data name="cart.more_goodies" xml:space="preserve">
     <value>Желим да погледам још ствари пре него што завршим куповину</value>
@@ -77,7 +80,7 @@
     <value>укупно</value>
   </data>
   <data name="cart.errors_no_checkout.line_1" xml:space="preserve">
-    <value>Нажалост постоји проблем са Вашим колицима који спречава жавршавање куповине!</value>
+    <value>Нажалост постоји проблем са Вашом корпом који спречава завршавање куповине!</value>
   </data>
   <data name="cart.errors_no_checkout.line_2" xml:space="preserve">
     <value>Уклоните или ажурирајте производе изнад да би сте наставили.</value>
@@ -86,13 +89,13 @@
     <value>Ваша корпа је празна.</value>
   </data>
   <data name="cart.empty.return_link._" xml:space="preserve">
-    <value>Вратите се на  {0} да би сте нашли доступне производе!</value>
+    <value>Вратите се на {0} да би сте нашли доступне производе!</value>
   </data>
   <data name="cart.empty.return_link.link_text" xml:space="preserve">
     <value>листа производа</value>
   </data>
   <data name="checkout.cart_problems" xml:space="preserve">
-    <value>Нажалост постоји проблем са Вашим колицима!</value>
+    <value>Нажалост постоји проблем са Вашом корпом!</value>
   </data>
   <data name="checkout.cart_problems_edit" xml:space="preserve">
     <value>Кликните овде да би сте изменили.</value>
@@ -110,7 +113,7 @@
     <value>Изгледа да су ваша колица застарела и поново су учитана, молимо Вас да пробате поново.</value>
   </data>
   <data name="checkout.pay" xml:space="preserve">
-    <value>Платите преко Paypal-а</value>
+    <value>Завршите куповину преко Paypal-а</value>
   </data>
   <data name="checkout.title_compact" xml:space="preserve">
     <value>завршите куповину</value>
@@ -130,20 +133,69 @@
   <data name="discount" xml:space="preserve">
     <value>сачувајте {0}%</value>
   </data>
+  <data name="free" xml:space="preserve">
+    <value>бесплатно!</value>
+  </data>
+  <data name="invoice.contact" xml:space="preserve">
+    <value>Контакт:</value>
+  </data>
+  <data name="invoice.date" xml:space="preserve">
+    <value>Датум:</value>
+  </data>
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Зато што је Ваша куповина плаћена eCheck-ом, молимо Вас да дозволите до 10 додатних дана док се куповина не потврди преко PayPal-а!</value>
+  </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>еCheck плаћање је прихваћено од стране PayPal.</value>
   </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!supporter ознаке овим редоследом се не приказују у вашим недавним активностима.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Пошаљи преко:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Испорука на:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Рачун</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>рачун</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Ваша поруџбина је отказана</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1._" xml:space="preserve">
+    <value>Ако нисте тражили отказивање, контактирајте {0} цитирајући број ваше поруџбине (#{1}).
+</value>
+  </data>
+  <data name="invoice.status.cancelled.line_1.link_text" xml:space="preserve">
+    <value>подршку osu!продавнице</value>
+  </data>
+  <data name="invoice.status.delivered.title" xml:space="preserve">
+    <value>Ваша поруџбина је испоручена! Надамо се да ћете уживати!</value>
+  </data>
+  <data name="invoice.status.delivered.line_1._" xml:space="preserve">
+    <value>Ако имате било каквих проблема са куповином, контактирајте {0}.</value>
+  </data>
+  <data name="invoice.status.delivered.line_1.link_text" xml:space="preserve">
+    <value>подршку osu!продавнице</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Ваша поруџбина је спремна!</value>
+  </data>
+  <data name="invoice.status.prepared.line_1" xml:space="preserve">
+    <value>Сачекајте још мало да буде испоручен. Информације о праћењу ће се појавити овде када се поруџбина обради и пошаље. Ово може потрајати до 5 дана (али обично мање!) У зависности од тога колико смо заузети.</value>
+  </data>
+  <data name="invoice.status.prepared.line_2" xml:space="preserve">
+    <value>Све поруџбине шаљемо из Јапана користећи различите услуге доставе у зависности од тежине и вредности. Ова област ће се ажурирати са појединостима када пошаљемо поруџбину.</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Ваша куповина још увек није потврђена!</value>
   </data>
   <data name="invoice.status.processing.line_1" xml:space="preserve">
-    <value>Ако сте већ платили, могуће је да и даље чекамо потврду Вашег плаћања. Молимо Вас да освежите страницу за минут!</value>
+    <value>Ако сте већ платили, могуће је да и даље чекамо потврду Вашег плаћања. Молимо Вас да освежите страницу за минут или два!</value>
   </data>
   <data name="invoice.status.processing.line_2._" xml:space="preserve">
     <value>Ако сте наишли на проблем у току завршавања куповине, {0}</value>
@@ -151,8 +203,20 @@
   <data name="invoice.status.processing.line_2.link_text" xml:space="preserve">
     <value>кликните овде да наставите са куповином</value>
   </data>
+  <data name="invoice.status.shipped.title" xml:space="preserve">
+    <value>Наруџбина је послата!</value>
+  </data>
+  <data name="invoice.status.shipped.tracking_details" xml:space="preserve">
+    <value>Детаљи праћења:</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
+    <value>Немамо детаље о праћењу пошто смо ваш пакет послали ваздушном поштом, али можете очекивати да ћете га примити у року од 1-3 недеље. За Европу, понекад царина може да одложи наруџбу ван наше контроле. Ако имате било каквих недоумица, одговорите на поруку преко мејла са потврдом поруџбине коју сте примили (или {0}).</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>пошаљите нам имејл</value>
+  </data>
   <data name="order.cancel" xml:space="preserve">
-    <value>Откажите наруџбину</value>
+    <value>Откажи наруџбину</value>
   </data>
   <data name="order.cancel_confirm" xml:space="preserve">
     <value>Ова наруџбина ће бити отказана и плаћање неће бити прихваћено. Провајдер плаћања можда неће одмах извршити повраћај новца. Да ли сте сигурни?</value>
@@ -161,7 +225,7 @@
     <value>Ова наруџбина тренутно не може бити отказана.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
-    <value>Прикажи Фактуру</value>
+    <value>Прикажи Рачун</value>
   </data>
   <data name="order.no_orders" xml:space="preserve">
     <value>Нема наруџбина.</value>
@@ -172,8 +236,35 @@
   <data name="order.resume" xml:space="preserve">
     <value>Наставите са куповином</value>
   </data>
+  <data name="order.shipping_and_handling" xml:space="preserve">
+    <value>Достава и Руковање</value>
+  </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Линк за ову наруџбину је истекао.</value>
+  </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Међузбир</value>
+  </data>
+  <data name="order.total" xml:space="preserve">
+    <value>Укупно</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Поруџбина #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Услови Плаћања</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Продавац</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Начин Испоруке</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Услови Испоруке</value>
+  </data>
+  <data name="order.details.title" xml:space="preserve">
+    <value>Детаљи Поруџбине</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
     <value>Количина</value>
@@ -223,6 +314,18 @@
   <data name="order.status.shipped" xml:space="preserve">
     <value>Послато</value>
   </data>
+  <data name="order.status.title" xml:space="preserve">
+    <value>Статус поруџбине</value>
+  </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Хвала вам на Вашој наруџбини!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Ускоро ћете добити поруку преко мејла са потврдом. Ако имате било каквих питања, молимо {0}!</value>
+  </data>
+  <data name="order.thanks.line_1.link_text" xml:space="preserve">
+    <value>контактирајте нас</value>
+  </data>
   <data name="product.name" xml:space="preserve">
     <value>Име</value>
   </data>
@@ -233,7 +336,7 @@
     <value>Нажалост овај артикал тренутно није на лагеру. Искористите падајући мени да изаберете другачији тип или проверите касније!</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
-    <value>Додати у корпу</value>
+    <value>Додај у Корпу</value>
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Обавести ме када буде доступан/на!</value>
@@ -254,16 +357,25 @@
     <value>додајте опционалну поруку свом поклону! (до {0} знакова)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Морате бити {0} да би сте добили osu!supporter таг!</value>
+    <value>Морате бити {0} да би сте добили osu!supporter ознаку!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>пријављени</value>
   </data>
   <data name="username_change.check" xml:space="preserve">
-    <value>Укуцајте име да би сте проверили доступност!</value>
+    <value>Укуцајте корисничко име да би сте проверили доступност!</value>
   </data>
   <data name="username_change.checking" xml:space="preserve">
-    <value>Проверите доступност {0}...</value>
+    <value>Проверавање доступност {0}...</value>
+  </data>
+  <data name="username_change.placeholder" xml:space="preserve">
+    <value>Захтевано Корисничко Име</value>
+  </data>
+  <data name="username_change.label" xml:space="preserve">
+    <value>Ново Корисничко Име</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Ваше тренутно корисничко име је "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Морате бити {0} да би сте променили ваше име!</value>

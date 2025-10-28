@@ -100,17 +100,23 @@
   <data name="action_type.news_post" xml:space="preserve">
     <value>notizie</value>
   </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>squadra</value>
+  </data>
   <data name="action_type.user" xml:space="preserve">
     <value>profilo</value>
   </data>
   <data name="filters._" xml:space="preserve">
     <value>tutto</value>
   </data>
-  <data name="filters.user" xml:space="preserve">
-    <value>profilo</value>
-  </data>
   <data name="filters.beatmapset" xml:space="preserve">
     <value>beatmap</value>
+  </data>
+  <data name="filters.build" xml:space="preserve">
+    <value>versioni</value>
+  </data>
+  <data name="filters.channel" xml:space="preserve">
+    <value>chat</value>
   </data>
   <data name="filters.forum_topic" xml:space="preserve">
     <value>forum</value>
@@ -118,11 +124,11 @@
   <data name="filters.news_post" xml:space="preserve">
     <value>notizie</value>
   </data>
-  <data name="filters.build" xml:space="preserve">
-    <value>versioni</value>
+  <data name="filters.team" xml:space="preserve">
+    <value>squadra</value>
   </data>
-  <data name="filters.channel" xml:space="preserve">
-    <value>chat</value>
+  <data name="filters.user" xml:space="preserve">
+    <value>profilo</value>
   </data>
   <data name="item.beatmapset._" xml:space="preserve">
     <value>Beatmap</value>
@@ -280,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>da {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Nuovo messaggio di squadra</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} ha scritto "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Note di rilascio</value>
   </data>
@@ -327,6 +345,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} ha risposto</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Richiesta di partecipazione squadra</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Sei diventato un membro della squadra {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Sei diventato un membro della squadra {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Aggiornamenti di richiesta unione al team</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nuova beatmap</value>
@@ -389,7 +431,7 @@
     <value>"{0}" ha ottenuto abbastanza nomine ed è entrata nella coda di ranking</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>"{0}" è stata rankata</value>
+    <value>"{0}" è stata classificata</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
     <value>"{0}" è stata rimossa dalle amate</value>
@@ -400,11 +442,14 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>La beatmap "{0}" ha nuovi commenti</value>
   </data>
-  <data name="mail.channel.announcement.announce" xml:space="preserve">
-    <value>C'è un nuovo annuncio in "{0}"</value>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>C'è un nuovo annuncio su "{0}"</value>
   </data>
-  <data name="mail.channel.channel.pm" xml:space="preserve">
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Hai ricevuto un nuovo messaggio da {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>C'è un nuovo messaggio sulla squadra "{0}"</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>La nota di rilascio "{0}" ha nuovi commenti</value>
@@ -414,6 +459,15 @@
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Ci sono nuove risposte in "{0}"</value>
+  </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Sei diventato un membro della squadra {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>La tua richiesta di unirsi alla squadra {0} è stata rifiutata</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} ha richiesto di unirsi alla tua squadra</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} ha creato nuove beatmap</value>

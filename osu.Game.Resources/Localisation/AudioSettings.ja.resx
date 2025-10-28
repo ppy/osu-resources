@@ -71,13 +71,13 @@
     <value>出力デバイス</value>
   </data>
   <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>ヒットサウンドをステレオに分離</value>
+    <value>ヒットサウンドのステレオ化（左右への分離率）</value>
   </data>
   <data name="master_volume" xml:space="preserve">
-    <value>主音量</value>
+    <value>全体の音量</value>
   </data>
   <data name="master_volume_inactive" xml:space="preserve">
-    <value>主音量 (ウィンドウが非アクティブ時)</value>
+    <value>全体の音量 (ほかのアプリケーションを使用中の場合)</value>
   </data>
   <data name="effect_volume" xml:space="preserve">
     <value>効果音</value>
@@ -86,16 +86,19 @@
     <value>音楽</value>
   </data>
   <data name="offset_header" xml:space="preserve">
-    <value>オフセット調整</value>
+    <value>オフセットの調整</value>
   </data>
   <data name="audio_offset" xml:space="preserve">
     <value>オーディオオフセット</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>推奨オフセットを特定するためにいくつかのビートマップをプレイしましょう!</value>
+    <value>あなたに最適なオフセットを提案するには、いくつかのビートマップをプレイしていただく必要があります！</value>
+  </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>最後の {0} プレイに基づいて、オフセットが正しく設定されています！</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>最後の {0} 回のプレイに基づく推奨されるオフセットは {1} msです。</value>
+    <value>直近 {0} 回のプレイに基づいて推奨されるオフセットは {1} msです。</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>推奨オフセットを適用する</value>

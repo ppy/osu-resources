@@ -167,7 +167,7 @@
     <value>pokaż najnowszy post</value>
   </data>
   <data name="topic.go_to_unread" xml:space="preserve">
-    <value>zobacz pierwszy nieprzeczytany post</value>
+    <value>pokaż najstarszy nieprzeczytany post</value>
   </data>
   <data name="topic.has_replied" xml:space="preserve">
     <value>Twoja odpowiedź znajduje się w tym wątku</value>
@@ -236,7 +236,7 @@
     <value>Kliknij, aby wprowadzić tytuł</value>
   </data>
   <data name="topic.jump.enter" xml:space="preserve">
-    <value>kliknij, aby przejść do specyficznego posta</value>
+    <value>kliknij, aby przejść do wybranego posta</value>
   </data>
   <data name="topic.jump.first" xml:space="preserve">
     <value>przejdź do pierwszego posta</value>
@@ -347,7 +347,7 @@
     <value>Zmieniono typ wątku</value>
   </data>
   <data name="topic.logs.operations.unlock" xml:space="preserve">
-    <value>Odblokowano wątek</value>
+    <value>Otwarto wątek</value>
   </data>
   <data name="topic.logs.operations.unpin" xml:space="preserve">
     <value>Odpięto wątek</value>
@@ -356,7 +356,7 @@
     <value>Zamknięto własny wątek</value>
   </data>
   <data name="topic.logs.operations.user_unlock" xml:space="preserve">
-    <value>Odblokowano własny wątek</value>
+    <value>Otwarto własny wątek</value>
   </data>
   <data name="topic.post_edit.cancel" xml:space="preserve">
     <value>Anuluj</value>
@@ -461,76 +461,112 @@
     <value>wyświetleń</value>
   </data>
   <data name="topics.issue_tag_added.to_0" xml:space="preserve">
-    <value>Usuń tag "dodane"</value>
+    <value>Usuń tag „dodane”</value>
   </data>
   <data name="topics.issue_tag_added.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "dodane"</value>
+    <value>Usunięto tag „dodane”</value>
   </data>
   <data name="topics.issue_tag_added.to_1" xml:space="preserve">
-    <value>Dodaj tag "dodane"</value>
+    <value>Dodaj tag „dodane”</value>
   </data>
   <data name="topics.issue_tag_added.to_1_done" xml:space="preserve">
-    <value>Dodano tag "dodane"</value>
+    <value>Dodano tag „dodane”</value>
   </data>
   <data name="topics.issue_tag_assigned.to_0" xml:space="preserve">
-    <value>Usuń tag "przypisane"</value>
+    <value>Usuń tag „przypisane”</value>
   </data>
   <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "przypisane"</value>
+    <value>Usunięto tag „przypisane”</value>
   </data>
   <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
-    <value>Dodaj tag "przypisane"</value>
+    <value>Dodaj tag „przypisane”</value>
   </data>
   <data name="topics.issue_tag_assigned.to_1_done" xml:space="preserve">
-    <value>Dodano tag "przypisane"</value>
+    <value>Dodano tag „przypisane”</value>
   </data>
   <data name="topics.issue_tag_confirmed.to_0" xml:space="preserve">
-    <value>Usuń tag "potwierdzone"</value>
+    <value>Usuń tag „potwierdzone”</value>
   </data>
   <data name="topics.issue_tag_confirmed.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "potwierdzone"</value>
+    <value>Usunięto tag „potwierdzone”</value>
   </data>
   <data name="topics.issue_tag_confirmed.to_1" xml:space="preserve">
-    <value>Dodaj tag "potwierdzone"</value>
+    <value>Dodaj tag „potwierdzone”</value>
   </data>
   <data name="topics.issue_tag_confirmed.to_1_done" xml:space="preserve">
-    <value>Dodano tag "potwierdzone"</value>
+    <value>Dodano tag „potwierdzone”</value>
   </data>
   <data name="topics.issue_tag_duplicate.to_0" xml:space="preserve">
-    <value>Usuń tag "duplikat"</value>
+    <value>Usuń tag „duplikat”</value>
   </data>
   <data name="topics.issue_tag_duplicate.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "duplikat"</value>
+    <value>Usunięto tag „duplikat”</value>
   </data>
   <data name="topics.issue_tag_duplicate.to_1" xml:space="preserve">
-    <value>Dodaj tag "duplikat"</value>
+    <value>Dodaj tag „duplikat”</value>
   </data>
   <data name="topics.issue_tag_duplicate.to_1_done" xml:space="preserve">
-    <value>Dodano tag "duplikat"</value>
+    <value>Dodano tag „duplikat”</value>
   </data>
   <data name="topics.issue_tag_invalid.to_0" xml:space="preserve">
-    <value>Usuń tag "nieprawidłowe"</value>
+    <value>Usuń tag „nieprawidłowe”</value>
   </data>
   <data name="topics.issue_tag_invalid.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "nieprawidłowe"</value>
+    <value>Usunięto tag „nieprawidłowe”</value>
   </data>
   <data name="topics.issue_tag_invalid.to_1" xml:space="preserve">
-    <value>Dodaj tag "nieprawidłowe"</value>
+    <value>Dodaj tag „nieprawidłowe”</value>
   </data>
   <data name="topics.issue_tag_invalid.to_1_done" xml:space="preserve">
-    <value>Dodano tag "nieprawidłowe"</value>
+    <value>Dodano tag „nieprawidłowe”</value>
   </data>
   <data name="topics.issue_tag_resolved.to_0" xml:space="preserve">
-    <value>Usuń tag "rozwiązane"</value>
+    <value>Usuń tag „rozwiązane”</value>
   </data>
   <data name="topics.issue_tag_resolved.to_0_done" xml:space="preserve">
-    <value>Usunięto tag "rozwiązane"</value>
+    <value>Usunięto tag „rozwiązane”</value>
   </data>
   <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
-    <value>Dodaj tag "rozwiązane"</value>
+    <value>Dodaj tag „rozwiązane”</value>
   </data>
   <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
-    <value>Dodano tag "rozwiązane"</value>
+    <value>Dodano tag „rozwiązane”</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_0" xml:space="preserve">
+    <value>Usuń tag „osu!lazer”</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_0_done" xml:space="preserve">
+    <value>Usunięto tag „osu!lazer”</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_1" xml:space="preserve">
+    <value>Dodaj tag „osu!lazer”</value>
+  </data>
+  <data name="topics.issue_tag_osulazer.to_1_done" xml:space="preserve">
+    <value>Dodano tag „osu!lazer”</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_0" xml:space="preserve">
+    <value>Usuń tag „osu!stable”</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_0_done" xml:space="preserve">
+    <value>Usunięto tag „osu!stable”</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_1" xml:space="preserve">
+    <value>Dodaj tag „osu!stable”</value>
+  </data>
+  <data name="topics.issue_tag_osustable.to_1_done" xml:space="preserve">
+    <value>Dodano tag „osu!stable”</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_0" xml:space="preserve">
+    <value>Usuń tag „strona osu!”</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_0_done" xml:space="preserve">
+    <value>Usunięto tag „strona osu!”</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_1" xml:space="preserve">
+    <value>Dodaj tag „strona osu!”</value>
+  </data>
+  <data name="topics.issue_tag_osuweb.to_1_done" xml:space="preserve">
+    <value>Dodano tag „strona osu!”</value>
   </data>
   <data name="topics.lock.is_locked" xml:space="preserve">
     <value>Ten wątek został zamknięty i nie możesz w nim odpowiadać</value>
@@ -539,7 +575,7 @@
     <value>Otwórz wątek</value>
   </data>
   <data name="topics.lock.to_0_confirm" xml:space="preserve">
-    <value>Odblokować wątek?</value>
+    <value>Czy na pewno chcesz otworzyć wątek?</value>
   </data>
   <data name="topics.lock.to_0_done" xml:space="preserve">
     <value>Wątek został otworzony</value>
@@ -548,7 +584,7 @@
     <value>Zamknij wątek</value>
   </data>
   <data name="topics.lock.to_1_confirm" xml:space="preserve">
-    <value>Zablokować wątek?</value>
+    <value>Czy na pewno chcesz zamknąć wątek?</value>
   </data>
   <data name="topics.lock.to_1_done" xml:space="preserve">
     <value>Wątek został zamknięty</value>
@@ -557,28 +593,28 @@
     <value>Przenieś do innego forum</value>
   </data>
   <data name="topics.moderate_pin.to_0" xml:space="preserve">
-    <value>Odepnij ten wątek</value>
+    <value>Odepnij wątek</value>
   </data>
   <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
-    <value>Odpiąć wątek?</value>
+    <value>Czy na pewno chcesz odpiąć wątek?</value>
   </data>
   <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
     <value>Wątek został odpięty</value>
   </data>
   <data name="topics.moderate_pin.to_1" xml:space="preserve">
-    <value>Przypnij ten wątek</value>
+    <value>Przypnij wątek</value>
   </data>
   <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
-    <value>Przypiąć wątek?</value>
+    <value>Czy na pewno chcesz przypiąć wątek?</value>
   </data>
   <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
     <value>Wątek został przypięty</value>
   </data>
   <data name="topics.moderate_pin.to_2" xml:space="preserve">
-    <value>Przypnij ten wątek i oznacz jako ogłoszenie</value>
+    <value>Przypnij wątek i oznacz jako ogłoszenie</value>
   </data>
   <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
-    <value>Przypiąć wątek i oznaczyć go jako ogłoszenie?</value>
+    <value>Czy na pewno chcesz przypiąć wątek i oznaczyć go jako ogłoszenie?</value>
   </data>
   <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
     <value>Wątek został przypięty i oznaczony jako ogłoszenie</value>
@@ -602,19 +638,19 @@
     <value>Nagłośnij tę prośbę</value>
   </data>
   <data name="topics.show.feature_vote.info._" xml:space="preserve">
-    <value>To jest {0}. Na prośby o funkcję mogą głosować tylko {1}.</value>
+    <value>Ten wątek jest {0} - mogą na nie głosować wyłącznie {1}.</value>
   </data>
   <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
-    <value>prośba o funkcję</value>
+    <value>prośbą o nową funkcjonalność</value>
   </data>
   <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
-    <value>donatorzy</value>
+    <value>donatorzy osu!</value>
   </data>
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
     <value>{0} 0 głosów|{1} {0} głos|[2,4] {0} głosy|{5,*} {0} głosów</value>
   </data>
   <data name="topics.show.feature_vote.user.current" xml:space="preserve">
-    <value>Pozostało ci {0} głosów.</value>
+    <value>Pozostało ci {0}.</value>
   </data>
   <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
     <value>Nie posiadasz żadnych głosów</value>

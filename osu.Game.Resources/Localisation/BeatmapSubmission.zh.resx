@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>发布谱面</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>和全世界分享你的谱面！</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>内容授权</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>我已知悉</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>常见问题</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>提交设定</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>提交谱面！</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>正在导出谱面（兼容优先）……</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>准备上传……</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>正在上传谱面内容……</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>即将完成……</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>在你继续之前，请检查一下当前正在上传的内容是否获得了相应授权。请知悉：你需要对上传到平台的内容负责。如果你不确定内容是否得到授权，请在上传之前向对应的内容创建者申请授权！</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>查阅内容使用指南以了解更多信息</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>谱面上架标准</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>不确定你的谱面是否达到了上架标准？核对一下标准列表来加快谱面的上架进程！</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>提交进程</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>对提交进程有疑问？参阅一下wiki条目！</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>作图帮助论坛</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>在作图和谱面提交中有疑问？在论坛中提问吧！</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>摸图队列论坛</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>很难获取谱面的反馈意见？为什么不在摸图队列中问问呢！</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>你想要将谱面提交到哪个类别？</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>正在制作中/需要帮助（未完成，不准备上架）</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>待定（已完成，准备上架）</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>接收讨论回复的通知</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>提交后在浏览器中打开谱面信息页</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>注意：为了确保所有 osu! 版本内的玩家都能享受你的谱面，它将按向后兼容的格式导出。即使我们已经努力确保谱面能按预期进行游玩，但一些可能包含与旧版本 osu! 不兼容的相关特性的数据将会丢失。</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>无法提交空白谱面。</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>更新谱面！</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>上传新谱面！</value>
+  </data>
+</root>

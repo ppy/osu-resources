@@ -58,8 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="empty._" xml:space="preserve">
-    <value>Uživatel zatím nehrál žádné {0} osu!(lazer) hry!</value>
+  <data name="empty.active" xml:space="preserve">
+    <value>Není právě v žádných probíhajících osu!(lazer) {0} hrách!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Zatím není v žádných dokončených osu!(lazer) {0} hrách!</value>
   </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>playlist</value>
@@ -82,8 +85,17 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} zbývá</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Zobrazit historii</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Zobrazit shrnutí</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>Doba je příliě dlouhá.</value>
+  </data>
+  <data name="room.errors.name_too_long" xml:space="preserve">
+    <value>Název místnosti je příliš dlouhý.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>aktivní</value>

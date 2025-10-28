@@ -101,9 +101,21 @@
     <value>タイミングベースのノートの色付け</value>
   </data>
   <data name="ruleset" xml:space="preserve">
-    <value>{0}ms (スピード {1})</value>
+    <value>{0}ms (スピード {1:N1})</value>
   </data>
   <data name="touch_control_scheme" xml:space="preserve">
     <value>タッチ操作スキーム</value>
+  </data>
+  <data name="mobile_layout" xml:space="preserve">
+    <value>モバイルレイアウト</value>
+  </data>
+  <data name="portrait_expanded_columns" xml:space="preserve">
+    <value>縦表示（カラム拡張）</value>
+  </data>
+  <data name="landscape_expanded_columns" xml:space="preserve">
+    <value>横表示（カラム拡張）</value>
+  </data>
+  <data name="landscape_touch_overlay" xml:space="preserve">
+    <value>横表示（タッチオーバーレイ）</value>
   </data>
 </root>

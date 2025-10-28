@@ -58,4 +58,205 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>已将玩家添加进战队。</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>已取消加入战队请求。</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>已拒绝加入战队请求。</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>已请求加入战队。</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} 成员</value>
+  </data>
+  <data name="create.submit" xml:space="preserve">
+    <value>创建战队</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>你的战队名称。目前不可再修改。</value>
+  </data>
+  <data name="create.form.short_name_help" xml:space="preserve">
+    <value>最多4个字符。</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>来组建战队吧</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>与新老朋友一起游戏吧。你目前并未加入任何战队，但你可以在这一页内，访问其他战队的主页并加入，或是直接创建你自己的战队。</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>战队！</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>已删除战队</value>
+  </data>
+  <data name="edit.ok" xml:space="preserve">
+    <value>设置已成功保存。</value>
+  </data>
+  <data name="edit.title" xml:space="preserve">
+    <value>战队设置</value>
+  </data>
+  <data name="edit.description.label" xml:space="preserve">
+    <value>介绍</value>
+  </data>
+  <data name="edit.description.title" xml:space="preserve">
+    <value>战队介绍</value>
+  </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>战队旗帜</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>设置战队旗帜</value>
+  </data>
+  <data name="edit.header.label" xml:space="preserve">
+    <value>战队头像</value>
+  </data>
+  <data name="edit.header.title" xml:space="preserve">
+    <value>设置战队头像</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>是否允许其他人申请加入战队</value>
+  </data>
+  <data name="edit.settings.default_ruleset_help" xml:space="preserve">
+    <value>第一次进入战队界面时默认选择的游戏模式</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>最大尺寸 {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>最大尺寸 {0}×{1}</value>
+  </data>
+  <data name="edit.settings.title" xml:space="preserve">
+    <value>战队设置</value>
+  </data>
+  <data name="edit.settings.application_state.state_0" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="edit.settings.application_state.state_1" xml:space="preserve">
+    <value>开放</value>
+  </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>排行榜</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>管理战队成员</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>全球排名</value>
+  </data>
+  <data name="members.destroy.success" xml:space="preserve">
+    <value>已移除战队成员</value>
+  </data>
+  <data name="members.index.title" xml:space="preserve">
+    <value>管理战队成员</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>确定将玩家 {0} 添加进战队吗？</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>申请日期：</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>目前没有加入请求。</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>剩余名额</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} 名玩家超限</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>确定拒绝玩家 {0} 的加入请求吗？</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>加入战队申请</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>加入日期</value>
+  </data>
+  <data name="members.index.table.remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>确定将玩家 {0} 移出战队吗？</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>转让队长</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>确定将队长转让给玩家 {0} 吗？</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="members.index.table.title" xml:space="preserve">
+    <value>当前战队成员</value>
+  </data>
+  <data name="members.index.status.status_0" xml:space="preserve">
+    <value>不活跃</value>
+  </data>
+  <data name="members.index.status.status_1" xml:space="preserve">
+    <value>活跃</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>玩家 {0} 现在是战队队长。</value>
+  </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>已离开战队 ;_;</value>
+  </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>战队聊天</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>解散战队</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>请求加入</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>取消加入</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>离开战队</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>创立于</value>
+  </data>
+  <data name="show.members.members" xml:space="preserve">
+    <value>战队成员</value>
+  </data>
+  <data name="show.members.owner" xml:space="preserve">
+    <value>队长</value>
+  </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>关于我们！</value>
+  </data>
+  <data name="show.sections.info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} 栏位可用</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>队长</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>排名</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>已创建战队。</value>
+  </data>
 </root>

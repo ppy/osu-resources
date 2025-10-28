@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Visto che il tuo pagamento era un eCheck, dovrai attendere altri 10 giorni per far passare il pagamento attraverso PayPal!</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Il pagamento eCheck è stato rifiutato da PayPal.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>I tag osu!supporter in questo ordine non verranno mostrati nella tua attività recente.</value>
   </data>
@@ -182,7 +185,7 @@
     <value>Il tuo ordine è in preparazione!</value>
   </data>
   <data name="invoice.status.prepared.line_1" xml:space="preserve">
-    <value>Si prega di attendere ancora un po' prima che venga spedito. Le informazioni di tracciamento verranno visualizzate qui una volta che l'ordine è stato elaborato e inviato. Questo può richiedere fino a cinque giorni (ma di solito meno!) a seconda di quanto siamo occupati.</value>
+    <value>Si prega di attendere ancora un po' prima che venga spedito. I dettagli di tracciamento verranno visualizzati qui una volta che l'ordine è stato elaborato e inviato. Questo può richiedere fino a 5 giorni (ma di solito meno!) a seconda di quanto siamo occupati.</value>
   </data>
   <data name="invoice.status.prepared.line_2" xml:space="preserve">
     <value>Inviamo tutti gli ordini dal Giappone utilizzando una varietà di servizi di spedizione a seconda del peso e del valore. Questa area verrà aggiornata con le specifiche una volta spedito l'ordine.</value>
@@ -250,6 +253,9 @@
   <data name="order.details.payment_terms" xml:space="preserve">
     <value>Termini di Pagamento</value>
   </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Addetto alle Vendite</value>
+  </data>
   <data name="order.details.shipping_method" xml:space="preserve">
     <value>Metodo di Spedizione</value>
   </data>
@@ -290,7 +296,7 @@
     <value>Non è possibile modificare il vostro ordine in quanto è stato inviato.</value>
   </data>
   <data name="order.status.cancelled" xml:space="preserve">
-    <value>Cancellato</value>
+    <value>Annullato</value>
   </data>
   <data name="order.status.checkout" xml:space="preserve">
     <value>In Preparazione</value>
@@ -333,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Avvisami quando è disponibile!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Non disponibile</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>verrai avvisato quando sarà disponibile. clicca {0} per annullare</value>

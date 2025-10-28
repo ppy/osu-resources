@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* 不允许使用客户端证书</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* 在其他作用域内无效</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>客户端缺少所有者。</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>客户端未授权。</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>只有聊天机器人可以使用包含客户端认证的委托。</value>
+  </data>
+  <data name="invalid_scope.delegate_client_credentials_only" xml:space="preserve">
+    <value>只有客户端认证令牌才能指定委托范围。</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>在此作用域组合下无法使用委托。</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>需要填写委托作用域。</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>不包含作用域的令牌无效。</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>此作用域仅适用于聊天机器人和你自己的客户端。</value>
+  </data>
+</root>

@@ -62,19 +62,19 @@
     <value>Scarica ora</value>
   </data>
   <data name="landing.online" xml:space="preserve">
-    <value>&lt;strong&gt;{0}&lt;/strong&gt; giocatori online in &lt;strong&gt;{1}&lt;/strong&gt; partite</value>
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; online in &lt;strong&gt;{1}&lt;/strong&gt; partite</value>
   </data>
   <data name="landing.peak" xml:space="preserve">
     <value>Picco, {0} utenti online</value>
   </data>
   <data name="landing.players" xml:space="preserve">
-    <value>&lt;strong&gt;{0}&lt;/strong&gt; utenti registrati</value>
+    <value>&lt;strong&gt;{0}&lt;/strong&gt; giocatori registrati</value>
   </data>
   <data name="landing.title" xml:space="preserve">
     <value>benvenuto</value>
   </data>
   <data name="landing.see_more_news" xml:space="preserve">
-    <value>guarda più notizie</value>
+    <value>vedi più notizie</value>
   </data>
   <data name="landing.slogan.main" xml:space="preserve">
     <value>il miglior gioco di ritmo free-to-win</value>
@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>Cerca</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Vedi più risultati di ricerca per traccia di artisti in primo piano</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Accedi per cercare beatmap</value>
   </data>
@@ -107,7 +110,7 @@
     <value>altri {0} risultati di ricerca delle beatmap</value>
   </data>
   <data name="search.beatmapset.more_simple" xml:space="preserve">
-    <value>Vedi più risultati di ricerca delle beatmap</value>
+    <value>Vedi più risultati di ricerca per beatmap</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
     <value>Beatmap</value>
@@ -122,7 +125,7 @@
     <value>Accedi per cercare nel forum</value>
   </data>
   <data name="search.forum_post.more_simple" xml:space="preserve">
-    <value>Vedi più risultati di ricerca del forum</value>
+    <value>Vedi più risultati di ricerca per forum</value>
   </data>
   <data name="search.forum_post.title" xml:space="preserve">
     <value>Forum</value>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>tutto</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>traccia artista in primo piano</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>beatmap</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>forum</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>squadra</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>giocatore</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Vedi più risultati di ricerca per squadra</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Accedi per cercare utenti</value>
@@ -164,7 +176,7 @@
     <value>altri {0} risultati di ricerca di giocatori</value>
   </data>
   <data name="search.user.more_simple" xml:space="preserve">
-    <value>Vedi più risultati di ricerca di giocatori</value>
+    <value>Vedi più risultati di ricerca per giocatore</value>
   </data>
   <data name="search.user.more_hidden" xml:space="preserve">
     <value>La ricerca di giocatori è limitata a {0} giocatori. Prova a ridefinire la ricerca.</value>
@@ -176,7 +188,7 @@
     <value>Cerca nella wiki</value>
   </data>
   <data name="search.wiki_page.more_simple" xml:space="preserve">
-    <value>Vedi più risultati di ricerca della wiki</value>
+    <value>Vedi più risultati di ricerca per wiki</value>
   </data>
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
@@ -283,6 +295,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Utenti Online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Beatmap della Sfida Giornaliera</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Nuove Beatmap Classificate</value>
   </data>
@@ -292,6 +307,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>di {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>si resetta {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Scarica osu!</value>
   </data>
@@ -300,5 +318,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Apri la console amministratore</value>
   </data>
 </root>

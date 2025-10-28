@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Запавольвайце, гуляйце больш.</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Няма даступных сервераў загрузкі.</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Ліцэнзаваный мастак</value>
   </data>
@@ -100,23 +103,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>адкрыць у osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Намінатары, размешчаныя на выпрабаванні, не могуць намінаваць некалькі рэжымаў гульні адначасова.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Вы павінны быць паўнапраўным намінатарам, каб унесці вырашальны голас па гэтым рэжыму гульні.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Гібрыдная бітмапа патрабуе выбраць хаця б адзін рэжым прайгравання для намінацыі.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>У вас няма дазволу на намінаванне на рэжым {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Гэтая карта мае недапушчальныя намінацыі і не можа быць кваліфікаваная.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Недапушчальныя рэжымы гульні для гэтай намінацыі.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Патрабаванне да намінацыі ужо выканана.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Патрабаванне намінацыі асноўнага рэжыму гульні ўжо было выканана.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Вы сапраўды жадаеце намінаваць гэту бiтмапу?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Паўторная кваліфікацыя гэтай карты парай намінатараў, якая адрозніваецца ад першапачатковай, скінуць яе пазіцыю ў чарзе атрымання рэйтынгу.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Намінаваць бiтмапу</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>заўвага: вы можаце намінаваць толькі адзін раз, таму, калі ласка, пераканайцеся, што вы вылучаецеся для ўсіх рэжымаў гульні, якіх вы збіраецеся</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Цяперашні асноўны рэжым гульні: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Намінаваць для якіх рэжымаў?</value>
@@ -126,6 +150,9 @@
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Абмеркаванне</value>
+  </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Адкрыць вокладку ў арыгінальным памеры</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Гэта бітмапа была выдалена.</value>
@@ -229,6 +256,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Мова</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Тэгі маппера</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Усё яшчэ ідзе падлік даных...</value>
   </data>
@@ -253,8 +283,8 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Шанц поспеху</value>
   </data>
-  <data name="show.info.tags" xml:space="preserve">
-    <value>Тэгі</value>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Карыстальніцкія тэгі</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Гэта карта ўтрымлівае відэа</value>
@@ -294,6 +324,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Каб мець доступ да рэйтынгу краін і сяброў вам трэба быць osu!supporter</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Камандны рэйтынг</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Табло</value>
@@ -339,6 +372,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Загрузка вынікаў...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Ніхто з вашай каманды яшчэ не паставіў рэкорд на гэтай карте!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Unranked бітмапа.</value>

@@ -83,7 +83,7 @@
     <value>Mest oppstemt (siste 3 måneder)</value>
   </data>
   <data name="blocks.banner_text" xml:space="preserve">
-    <value>Du har blokkerte denne brukeren.</value>
+    <value>Du har blokkert denne brukeren.</value>
   </data>
   <data name="blocks.comment_text" xml:space="preserve">
     <value>Denne kommentaren er skjult.</value>
@@ -110,7 +110,7 @@
     <value>vis</value>
   </data>
   <data name="blocks.too_many" xml:space="preserve">
-    <value>Maks antall blokkerte personer nådd.</value>
+    <value>Maks antall blokkerte brukere nådd.</value>
   </data>
   <data name="blocks.button.block" xml:space="preserve">
     <value>Blokker</value>
@@ -125,22 +125,22 @@
     <value>Laster...</value>
   </data>
   <data name="card.send_message" xml:space="preserve">
-    <value>send melding</value>
+    <value>Send melding</value>
   </data>
   <data name="create.form.password" xml:space="preserve">
     <value>passord</value>
   </data>
   <data name="create.form.password_confirmation" xml:space="preserve">
-    <value>passord bekreftelse</value>
+    <value>passordbekreftelse</value>
   </data>
   <data name="create.form.submit" xml:space="preserve">
     <value>opprett konto</value>
   </data>
   <data name="create.form.user_email" xml:space="preserve">
-    <value>epost</value>
+    <value>e-post</value>
   </data>
   <data name="create.form.user_email_confirmation" xml:space="preserve">
-    <value>epostbekreftelse</value>
+    <value>e-postbekreftelse</value>
   </data>
   <data name="create.form.username" xml:space="preserve">
     <value>brukernavn</value>
@@ -295,23 +295,26 @@
   <data name="report.options.cheating" xml:space="preserve">
     <value>Juksing</value>
   </data>
-  <data name="report.options.multiple_accounts" xml:space="preserve">
-    <value>Bruker flere kontoer</value>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Upassende chat atferd</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Fornærmer meg / andre</value>
   </data>
-  <data name="report.options.spam" xml:space="preserve">
-    <value>Spamming</value>
-  </data>
-  <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Deling av upassende innhold</value>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Bruker flere kontoer</value>
   </data>
   <data name="report.options.nonsense" xml:space="preserve">
     <value>Tull</value>
   </data>
   <data name="report.options.other" xml:space="preserve">
     <value>Annet (skriv under)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spamming</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Deling av upassende innhold</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>Kontoen din har blitt begrenset!</value>
@@ -370,11 +373,53 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Vis banner</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Daglig Streak</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Beste Daglig Streak</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Nåværende Daglig Streak</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Total Deltagelse</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Daglig\nUtfordring</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Topp 10% Plassering</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Topp 50% Plassering</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Ukentlig Streak</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Beste Ukentlig Streak</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Nåværende Ukentlig Streak</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Endre profilbanner</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>Flere banneralternativer vil være tilgjengelige i framtiden</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>Den forrige valgte forsiden er ikke tilgjenglig for utvalg lenger. Du kan ikke velge den tilbake etter at du har byttet til et annet forside. Fortsett?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Forside</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Kunne ikke prosessere bildet. Verifiser opplastet bilde og prøv igjen.</value>
@@ -408,6 +453,18 @@
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>angi :{0} som standard spillmodus</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Tilbakestille fargen til standard? Supporter-tag kreves for å endre den til en annen farge.</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Farge</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Egendefinerte fargetemaer kun tilgjengelig for {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supportere</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>ingen</value>
@@ -739,8 +796,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Høyeste rangering: {0} den {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Topp {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Total poengsum</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Presisjon</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Treff per spill</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Nivå {0}</value>
