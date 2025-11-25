@@ -86,7 +86,7 @@
     <value>Įjungti / Išjungti garsą</value>
   </data>
   <data name="skip_cutscene" xml:space="preserve">
-    <value>Praleisti meninį intarpą</value>
+    <value>Praleisti intarpinę sceną</value>
   </data>
   <data name="quick_retry" xml:space="preserve">
     <value>Greitas paleidimas iš naujo (laikyti)</value>
@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Sekantis pasirinkimas</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Pasirinkti ankstesnę grupę</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Aktivuoti ankstesnį setą</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Pasirinkti sekančią grupę</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Aktivuoti kitą setą</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Išplėsti ankstesnę grupę</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Išplėsti sekančią grupę</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Perjungti dabartinės grupės išplėtimą</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Pradžios Ekranas</value>
@@ -166,7 +175,10 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Klonuoti pasirinkimą</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Keisti tinklelio dydį</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
     <value>Keisti tinklelio tipą</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
@@ -179,12 +191,14 @@
     <value>Atsitiktinė išvaizda</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
-    <value>Pristabdyti / testi sužaidimo peržiūrą</value>
+    <value>Pristabdyti / tęsti įrašą</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Įjungti / Išjungti žaidimo sąsają</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Perjungti žaidimo rezultatų lentą</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Modų langas</value>
   </data>
@@ -221,8 +235,12 @@
   <data name="editor_decrease_distance_spacing" xml:space="preserve">
     <value>Sumažinti tarpus tarp objektų</value>
   </data>
-  
-  
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Grįžti į ankstesnį fiksavimo tašką</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Peršokti į kitą fiksavimo tašką</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Išvaizdos redagavimas</value>
   </data>
@@ -236,22 +254,90 @@
     <value>Sekantis garso matuoklis</value>
   </data>
   <data name="seek_replay_forward" xml:space="preserve">
-    <value>Prasukti sužaidimo peržiūrą</value>
+    <value>Prasukti įrašą</value>
   </data>
   <data name="seek_replay_backward" xml:space="preserve">
-    <value>Atsukti sužaidimo peržiūrą</value>
+    <value>Atsukti įrašą</value>
+  </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Peršokti vieną įrašo kadrą į priekį</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Grįžti vieną įrašo kadrą atgal</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Pokalbių langas žaidime</value>
   </data>
   <data name="toggle_replay_settings" xml:space="preserve">
-    <value>Įjungti / Išjungti sužaidimo peržiūros nustatymus</value>
+    <value>Perjungti įrašo peržiūros nustatymus</value>
   </data>
   <data name="save_replay" xml:space="preserve">
-    <value>Išsaugoti sužaidimą</value>
+    <value>Išsaugoti įrašą</value>
   </data>
   <data name="export_replay" xml:space="preserve">
-    <value>Eksportuoti sužaidimą</value>
+    <value>Eksportuoti įrašą</value>
   </data>
-  
+  <data name="increase_offset" xml:space="preserve">
+    <value>Padidinti poslinkį</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Pamažinti poslinkį</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Perjungti sukimo kontroles</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Perjungti masto kontroles</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Perjungti automatinį žaidimą</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Perjungti greitąją pauzę</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Greitasis išėjimas į pradinį laiką</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Greitasis išėjimas į dabartinį laiką</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Padidinti modifikacijos greitį</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Sumažinti modifikacijos greitį</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Grįžti į praeitą paspaudimo objektą</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Peršokti į kitą paspaudimo objektą</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Grįžti į praeito pavyzdžio vietą</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Peršokti į sekančia pavyzdžio vietą</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Pridėti žymę</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Pašalinti artimiausią žymę</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Grįžti į praeitą žymę</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Peršokti į kitą žymę</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absoliutus dainų sąrašo slinkimas</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Perjungti judinimo kontroles</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Atsisakyti neišsaugotų pakeitimų</value>
+  </data>
 </root>

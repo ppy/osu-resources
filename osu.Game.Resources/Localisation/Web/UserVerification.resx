@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>sign out</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Please enter the code from your authenticator app.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>You can also {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>sign out</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>If you can't access your app, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>you can verify using email instead</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Verification code expired, new verification email sent.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Verification code reissued, new verification email sent.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verification code has already been used. Please wait and use a new one.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Authentication token has been removed, switching to email verification. Verification email has been sent.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Unknown problem occurred, new verification email sent.</value>

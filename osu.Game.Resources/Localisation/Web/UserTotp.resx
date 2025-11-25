@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="create.finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="create.key" xml:space="preserve">
+    <value>Scan the QR code with the authenticator app and enter the verification key</value>
+  </data>
+  <data name="create.key_copy" xml:space="preserve">
+    <value>Or click this link to copy the key for the authenticator app</value>
+  </data>
+  <data name="create.key_link" xml:space="preserve">
+    <value>Use this link if you're using mobile phone</value>
+  </data>
+  <data name="create.password" xml:space="preserve">
+    <value>To set up authenticator app verification, please enter your current password</value>
+  </data>
+  <data name="create.start" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="destroy.missing" xml:space="preserve">
+    <value>You don't have authenticator app verification set up.</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>Authenticator app verification removed.</value>
+  </data>
+  <data name="edit.password" xml:space="preserve">
+    <value>Please enter your current password to remove authenticator app verification.</value>
+  </data>
+  <data name="edit.start" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="store.existing" xml:space="preserve">
+    <value>You already have authenticator app verification set up.</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Authenticator app verification has been set up</value>
+  </data>
+  <data name="store.restart" xml:space="preserve">
+    <value>Error occurred. Please restart the process.</value>
+  </data>
+</root>

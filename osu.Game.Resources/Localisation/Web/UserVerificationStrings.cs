@@ -60,6 +60,31 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BoxInfoLogoutLink => new TranslatableString(getKey(@"box.info.logout_link"), @"sign out");
 
         /// <summary>
+        /// "Please enter the code from your authenticator app."
+        /// </summary>
+        public static LocalisableString BoxTotpHeading => new TranslatableString(getKey(@"box_totp.heading"), @"Please enter the code from your authenticator app.");
+
+        /// <summary>
+        /// "You can also {0}."
+        /// </summary>
+        public static LocalisableString BoxTotpInfoLogoutDefault(LocalisableString link) => new TranslatableString(getKey(@"box_totp.info.logout._"), @"You can also {0}.", link);
+
+        /// <summary>
+        /// "sign out"
+        /// </summary>
+        public static LocalisableString BoxTotpInfoLogoutLink => new TranslatableString(getKey(@"box_totp.info.logout.link"), @"sign out");
+
+        /// <summary>
+        /// "If you can&#39;t access your app, {0}."
+        /// </summary>
+        public static LocalisableString BoxTotpInfoMailFallbackDefault(LocalisableString link) => new TranslatableString(getKey(@"box_totp.info.mail_fallback._"), @"If you can't access your app, {0}.", link);
+
+        /// <summary>
+        /// "you can verify using email instead"
+        /// </summary>
+        public static LocalisableString BoxTotpInfoMailFallbackLink => new TranslatableString(getKey(@"box_totp.info.mail_fallback.link"), @"you can verify using email instead");
+
+        /// <summary>
         /// "Verification code expired, new verification email sent."
         /// </summary>
         public static LocalisableString ErrorsExpired => new TranslatableString(getKey(@"errors.expired"), @"Verification code expired, new verification email sent.");
@@ -78,6 +103,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Verification code reissued, new verification email sent."
         /// </summary>
         public static LocalisableString ErrorsReissued => new TranslatableString(getKey(@"errors.reissued"), @"Verification code reissued, new verification email sent.");
+
+        /// <summary>
+        /// "Verification code has already been used. Please wait and use a new one."
+        /// </summary>
+        public static LocalisableString ErrorsTotpUsedKey => new TranslatableString(getKey(@"errors.totp_used_key"), @"Verification code has already been used. Please wait and use a new one.");
+
+        /// <summary>
+        /// "Authentication token has been removed, switching to email verification. Verification email has been sent."
+        /// </summary>
+        public static LocalisableString ErrorsTotpGone => new TranslatableString(getKey(@"errors.totp_gone"), @"Authentication token has been removed, switching to email verification. Verification email has been sent.");
 
         /// <summary>
         /// "Unknown problem occurred, new verification email sent."

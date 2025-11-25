@@ -60,6 +60,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderBeatmapsetsDiscussions => new TranslatableString(getKey(@"header.beatmapsets.discussions"), @"discussion");
 
         /// <summary>
+        /// "version history"
+        /// </summary>
+        public static LocalisableString HeaderBeatmapsetsVersions => new TranslatableString(getKey(@"header.beatmapsets.versions"), @"version history");
+
+        /// <summary>
         /// "listing"
         /// </summary>
         public static LocalisableString HeaderChangelogIndex => new TranslatableString(getKey(@"header.changelog.index"), @"listing");
@@ -103,6 +108,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "playlists"
         /// </summary>
         public static LocalisableString HeaderUsersPlaylists => new TranslatableString(getKey(@"header.users.playlists"), @"playlists");
+
+        /// <summary>
+        /// "quick play"
+        /// </summary>
+        public static LocalisableString HeaderUsersQuickplay => new TranslatableString(getKey(@"header.users.quickplay"), @"quick play");
 
         /// <summary>
         /// "multiplayer"

@@ -235,34 +235,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchWikiPageTitle => new TranslatableString(getKey(@"search.wiki_page.title"), @"Wiki");
 
         /// <summary>
-        /// "Download osu!"
-        /// </summary>
-        public static LocalisableString DownloadAction => new TranslatableString(getKey(@"download.action"), @"Download osu!");
-
-        /// <summary>
-        /// "Download osu!(lazer)"
-        /// </summary>
-        public static LocalisableString DownloadActionLazer => new TranslatableString(getKey(@"download.action_lazer"), @"Download osu!(lazer)");
-
-        /// <summary>
-        /// "the next major update to osu!"
-        /// </summary>
-        public static LocalisableString DownloadActionLazerDescription => new TranslatableString(getKey(@"download.action_lazer_description"), @"the next major update to osu!");
-
-        /// <summary>
         /// "check this page for more information"
         /// </summary>
         public static LocalisableString DownloadActionLazerInfo => new TranslatableString(getKey(@"download.action_lazer_info"), @"check this page for more information");
 
         /// <summary>
-        /// "try osu!(lazer)"
+        /// "Download"
         /// </summary>
-        public static LocalisableString DownloadActionLazerTitle => new TranslatableString(getKey(@"download.action_lazer_title"), @"try osu!(lazer)");
-
-        /// <summary>
-        /// "download osu!"
-        /// </summary>
-        public static LocalisableString DownloadActionTitle => new TranslatableString(getKey(@"download.action_title"), @"download osu!");
+        public static LocalisableString DownloadDownload => new TranslatableString(getKey(@"download.download"), @"Download");
 
         /// <summary>
         /// "for {0}"
@@ -300,9 +280,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DownloadQuickStartGuide => new TranslatableString(getKey(@"download.quick_start_guide"), @"quick start guide");
 
         /// <summary>
-        /// "let&#39;s get&lt;br&gt;you started!"
+        /// "if you&#39;re looking for the older one"
         /// </summary>
-        public static LocalisableString DownloadTagline => new TranslatableString(getKey(@"download.tagline"), @"let's get<br>you started!");
+        public static LocalisableString DownloadStableText => new TranslatableString(getKey(@"download.stable_text"), @"if you're looking for the older one");
+
+        /// <summary>
+        /// "let&#39;s get you"
+        /// </summary>
+        public static LocalisableString DownloadTagline1 => new TranslatableString(getKey(@"download.tagline_1"), @"let's get you");
+
+        /// <summary>
+        /// "started!"
+        /// </summary>
+        public static LocalisableString DownloadTagline2 => new TranslatableString(getKey(@"download.tagline_2"), @"started!");
 
         /// <summary>
         /// "video guide"

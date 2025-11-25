@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>paieška</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Rodyti daugiau ryškiojo atlikėjo kūrinių paieškos rezultatų</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Prisijunkite, kad ieškoti bitmapų</value>
   </data>
@@ -107,7 +110,7 @@
     <value>{0} dar beatmap'ų paieškos rezultatų</value>
   </data>
   <data name="search.beatmapset.more_simple" xml:space="preserve">
-    <value> Žiūrėti daugiau bitmapų paieškos rezultatų</value>
+    <value> Žiūrėti daugiau beatmap'ų paieškos rezultatų</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
     <value>Beatmap'ai</value>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>visi</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>ryškiojo atlikėjo kūrinys</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>beatmap'as</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>forumas</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>komanda</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>žaidėjas</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value> Žiūrėti daugiau komandų paieškos rezultatų</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Prisijunkite, kad ieškot vartotojus</value>
@@ -181,23 +193,8 @@
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
   </data>
-  <data name="download.action" xml:space="preserve">
-    <value>Atsisiųsti osu!</value>
-  </data>
-  <data name="download.action_lazer" xml:space="preserve">
-    <value>Atsisiųsti osu!(lazer)</value>
-  </data>
-  <data name="download.action_lazer_description" xml:space="preserve">
-    <value>kitas didesnis osu! atnaujinimas.</value>
-  </data>
   <data name="download.action_lazer_info" xml:space="preserve">
     <value>peržiūrėk šį puslapį dėl papildomos informacijos</value>
-  </data>
-  <data name="download.action_lazer_title" xml:space="preserve">
-    <value>išbandyk osu!(lazer)</value>
-  </data>
-  <data name="download.action_title" xml:space="preserve">
-    <value>atsisiųsti osu!</value>
   </data>
   <data name="download.for_os" xml:space="preserve">
     <value>skirtas {0}</value>
@@ -219,9 +216,6 @@
   </data>
   <data name="download.quick_start_guide" xml:space="preserve">
     <value>pagalba pradedančiam</value>
-  </data>
-  <data name="download.tagline" xml:space="preserve">
-    <value>gaukime &lt;br&gt; ko jums reikia pradžiai!</value>
   </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>vaizdo gidas</value>
@@ -283,6 +277,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Prisijungę vartotojai</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Kasdienio Iššūkio Beatmap'as</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Nauji Reitinguoti Beatmap'ai</value>
   </data>
@@ -292,6 +289,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>sukūrė {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>pasikeis {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Atsisiųsti osu!</value>
   </data>
@@ -300,5 +300,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!parduotuvė</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Atidaryti administracinę konsole</value>
   </data>
 </root>

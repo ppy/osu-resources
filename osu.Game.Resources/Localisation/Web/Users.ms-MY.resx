@@ -77,10 +77,10 @@
     <value>Hantaran semasa</value>
   </data>
   <data name="beatmapset_activities.votes_received.title_most" xml:space="preserve">
-    <value>Paling diundi naik oleh (3 bulan terakhir)</value>
+    <value>Paling diundi naik oleh (3 bulan terkini)</value>
   </data>
   <data name="beatmapset_activities.votes_made.title_most" xml:space="preserve">
-    <value>Paling diundi naik (3 bulan terakhir)</value>
+    <value>Paling diundi naik (3 bulan terkini)</value>
   </data>
   <data name="blocks.banner_text" xml:space="preserve">
     <value>Anda telah menyekat pengguna ini.</value>
@@ -155,7 +155,7 @@
     <value>Alamak! Nampaknya akaun anda telah dilumpuhkan.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>Sekiranya anda telah melanggar peraturan, sila catat bahawa terdapat tempoh bertenang selama sebulan yang mana kami tidak akan pertimbangkan sebarang permintaan pengampunan. Setelah tempoh ini, anda dipersilakan untuk menghubungi kami jika perlu. Sila catat bahawa jika anda mencipta akaun baru selepas pelumpuhan akaun sebelumnya, &lt;strong&gt;tempoh bertenang sebulan akan dilanjutkan&lt;/strong&gt;. Sila catat juga &lt;strong&gt;anda terus melanggar peraturan bagi setiap akaun yang dicipta&lt;/strong&gt;. Kami sarankan anda tidak membuat demikian!</value>
+    <value>Sekiranya anda telah melanggar peraturan, sila catat bahawa terdapat tempoh bertenang selama sebulan yang mana kami tidak akan pertimbangkan sebarang permintaan pengampunan. Setelah tempoh ini, anda dipersilakan untuk menghubungi kami jika perlu. Sila catat bahawa jika anda mencipta akaun baru selepas pelumpuhan akaun sebelumnya, &lt;strong&gt;tempoh bertenang sebulan akan dilanjutkan&lt;/strong&gt;. Sila catat juga &lt;strong&gt;anda terus melanggar peraturan untuk setiap akaun yang dicipta&lt;/strong&gt;. Kami sarankan anda tidak membuat demikian!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
     <value>Sekiranya anda berasa ini satu kesilapan, anda dialu-alukan untuk menghubungi kami (melalui {0} atau dengan mengklik "?" pada bucu kanan bahagian bawah halaman ini). Sila catat bahawa kami selalu yakin sepenuhnya dengan tindakan kami kerana berpangkalkan data yang sangat kukuh. Kami berhak mengendah permintaan anda sekiranya kami berasa anda secara sengaja tidak jujur.</value>
@@ -209,7 +209,7 @@
     <value>Sila daftar masuk untuk teruskan</value>
   </data>
   <data name="login.invalid_captcha" xml:space="preserve">
-    <value>Terlalu banyak percubaan log masuk gagal, sila lengkapkan captcha dan cuba lagi. (Segar semula halaman sekiranya captcha tidak tampak)</value>
+    <value>Terlalu banyak percubaan log masuk gagal. Sila lengkapkan captcha dan cuba lagi. (Segar semula halaman sekiranya captcha tidak tampak)</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
     <value>Alamat IP anda dikunci. Sila tunggu beberapa minit.</value>
@@ -234,6 +234,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters akan masuk sebentar lagi)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Giat</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Tamat</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Peta rentak: {0}</value>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Batal</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Sila laporkan pelanggaran hak cipta melalui aduan Akta Hak Cipta Alaf Digital (DMCA) ke {0} sesuai dengan {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>dasar hak cipta osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Hal ini diterapkan sekiranya runut audio, kandungan tampak atau kandungan tahap peta rentak digunakan tanpa izin yang betul.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Menipu</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Pelanggaran hak cipta</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Perilaku perbualan tidak senonoh</value>
@@ -320,7 +338,7 @@
     <value>Akaun anda telah dihadkan!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Ketika dihadkan, anda tidak boleh berinteraksi dengan pemain lain dan markah anda akan tampak bagi anda sahaja. Hal ini biasanya hasil proses automatik dan akan ditarik balik dalam masa 24 jam. {0}</value>
+    <value>Ketika dihadkan, anda tidak boleh berinteraksi dengan pemain lain dan markah anda akan tampak untuk anda sahaja. Hal ini biasanya hasil proses automatik dan akan ditarik balik dalam masa 24 jam. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Semak halaman ini untuk belajar lebih lanjut.</value>
@@ -344,7 +362,7 @@
     <value>Sertai {0}</value>
   </data>
   <data name="show.lastvisit" xml:space="preserve">
-    <value>Kali terakhir dilihat {0}</value>
+    <value>Pelihatan terkini {0}</value>
   </data>
   <data name="show.lastvisit_online" xml:space="preserve">
     <value>Kini dalam talian</value>
@@ -416,7 +434,7 @@
     <value>Pilihan kulit lain akan tersedia kelak</value>
   </data>
   <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
-    <value>Kulit yang dipilih sebelumnya tidak tersedia untuk dipilih lagi. Anda tidak boleh pilih semula selepas mengubah ke kulit lain. Teruskan juga?</value>
+    <value>Kulit yang dipilih sebelumnya tidak tersedia untuk dipilih lagi. Anda tidak boleh pilih semula setelah mengubah ke kulit lain. Teruskan juga?</value>
   </data>
   <data name="show.edit.cover.title" xml:space="preserve">
     <value>Kulit</value>
@@ -461,7 +479,7 @@
     <value>Warna</value>
   </data>
   <data name="show.edit.hue.supporter._" xml:space="preserve">
-    <value>Tema warna tersuai tersedia bagi {0} sahaja</value>
+    <value>Tema warna tersuai tersedia untuk {0} sahaja</value>
   </data>
   <data name="show.edit.hue.supporter.link" xml:space="preserve">
     <value>osu!supporter</value>
@@ -569,7 +587,7 @@
     <value>Pengguna ini belum pernah menerima kudosu!</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
-    <value>Memperoleh {0} dari pemansuhan penolakan kudosu bagi hantaran penyelarasan {1}</value>
+    <value>Memperoleh {0} dari pemansuhan penolakan kudosu untuk hantaran penyelarasan {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
     <value>{0} ditolak dari hantaran penyelarasan {1}</value>
@@ -593,13 +611,13 @@
     <value>Kehilangan {0} dari kiraan semula undian pada hantaran penyelarasan {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
-    <value>{0} diterima daripada {1} bagi hantaran pada {2}</value>
+    <value>{0} diterima daripada {1} untuk hantaran pada {2}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
-    <value>Kudosu ditetap semula oleh {0} bagi hantaran {1}</value>
+    <value>Kudosu ditetap semula oleh {0} untuk hantaran {1}</value>
   </data>
   <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
-    <value>Kudosu ditolak oleh {0} bagi hantaran {1}</value>
+    <value>Kudosu ditolak oleh {0} untuk hantaran {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
     <value>Berpangkalkan jumlah sumbangan yang dibuat pengguna kepada penyelarasan peta rentak. Lihat {0} untuk maklumat lanjut.</value>
@@ -674,10 +692,10 @@
     <value>Markah yang Disemat</value>
   </data>
   <data name="show.extra.votes.given" xml:space="preserve">
-    <value>Undian Diberi (3 bulan terakhir)</value>
+    <value>Undian Diberi (3 bulan terkini)</value>
   </data>
   <data name="show.extra.votes.received" xml:space="preserve">
-    <value>Undian Diterima (3 bulan terakhir)</value>
+    <value>Undian Diterima (3 bulan terkini)</value>
   </data>
   <data name="show.extra.votes.title" xml:space="preserve">
     <value>Undian</value>
@@ -815,7 +833,7 @@
     <value>kemajuan ke tahap seterusnya</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
-    <value>Kombo Maksimum</value>
+    <value>Gabungan Maksimum</value>
   </data>
   <data name="show.stats.medals" xml:space="preserve">
     <value>Pingat</value>
@@ -863,7 +881,7 @@
     <value>Semua</value>
   </data>
   <data name="status.online" xml:space="preserve">
-    <value>Dalam Talian</value>
+    <value>Dalam talian</value>
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Luar Talian</value>
@@ -872,7 +890,7 @@
     <value>sila mendaftar dari pelanggan mainan!</value>
   </data>
   <data name="store.from_web" xml:space="preserve">
-    <value>sila selesaikan pendaftaran melalui laman sesawang osu!</value>
+    <value>sila lengkapkan pendaftaran melalui laman sesawang osu!</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Pengguna dicipta</value>

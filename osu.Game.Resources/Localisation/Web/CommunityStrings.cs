@@ -190,9 +190,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SupportPerksCustomisationTitle => new TranslatableString(getKey(@"support.perks.customisation.title"), @"Customisation");
 
         /// <summary>
-        /// "Stand out by uploading a custom cover image or by creating a fully customizable &#39;me!&#39; section within your user profile."
+        /// "Stand out by uploading a custom cover image, creating a fully customizable &#39;me!&#39; section, or even change the colour to any of your liking within your user profile."
         /// </summary>
-        public static LocalisableString SupportPerksCustomisationDescription => new TranslatableString(getKey(@"support.perks.customisation.description"), @"Stand out by uploading a custom cover image or by creating a fully customizable 'me!' section within your user profile.");
+        public static LocalisableString SupportPerksCustomisationDescription => new TranslatableString(getKey(@"support.perks.customisation.description"), @"Stand out by uploading a custom cover image, creating a fully customizable 'me!' section, or even change the colour to any of your liking within your user profile.");
 
         /// <summary>
         /// "Beatmap Filters"

@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Jūs negalite pakeisti nominuoto beatmap'o metaduomenų. Susisiekite su BN arba NAT nariu jeigu jūs manote, kad jie buvo nustatyti neteisingai.</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Turite įveikti beatmap'ą kad galėtumėte pridėti žymę.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Negalima išsiųsti žinučių vartotojui, kuris yra jūs užblokavęs, ar jūs esat užblokavę.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Jūs neturite leidimo įeiti į šį kanalą.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Jūs neturite leidimo skelbti pranešimo.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Naudotojas gali negalėti atsakyti, nes priėmat žinutes tik iš žmonių jūsų draugų sąraše.</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Ištrinto įrašo negalima redaguoti.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Vertinimas šiame konkurse nėra aktyvus.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Po konkurso balsavimo pabaigos, balso keitimas nebegalimas.</value>
@@ -195,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Prieiga prie norimo forumo reikalauja papildomų teisių.</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>Nėra leidimo keisti.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Tik įrašo autorius gali ištrinti įrašą.</value>
@@ -274,14 +286,44 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Šį forumą gali skaityti tik administratoriai.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Tik kambario savininkas gali jį uždaryti.</value>
+  </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>Negalima prisegti šio tipo rezultato</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>Negalite prisegti neįveiktą rezultatą.</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Tik rezultato savininkas gali prisegti rezultatą.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Prisegta perdaug rezultatų.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Jūs jau komandos dalis.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Jūs jau kitos komandos dalis.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Jus jau turite laukianti prisijungimo prie komandos prašymą.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Komanda šiuo metu nepriima jokių prisijungimo prašymų.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Šita komanda jau pilna ir negali priimti daugiau narių.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Komandos vadovas negali palikti komandos.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Ne komandos narys.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>reikalinga osu!rėmėjo žymė kad  sukurti komandą.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Vartotojo puslapis užrakintas.</value>

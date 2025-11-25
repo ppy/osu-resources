@@ -58,4 +58,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* tidak dibenarkan dengan Kelayakan Pelanggan</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* tidak sah dengan lingkungan lain</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Pelanggan tiada pemilik.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Pelanggan tak berizin.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Perwakilan dengan Kelayakan Pelanggan hanya tersedia untuk bot sembang.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Perwakilan tidak disokong untuk gabungan lingkungan ini.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>lingkungan wakil diperlukan.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Token tanpa lingkungan tidak sah.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Lingkungan ini hanya tersedia untuk bot sembang atau pelanggan anda sendiri.</value>
+  </data>
 </root>

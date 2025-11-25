@@ -25,6 +25,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EmptyPlaylists => new TranslatableString(getKey(@"empty.playlists"), @"playlist");
 
         /// <summary>
+        /// "quick play"
+        /// </summary>
+        public static LocalisableString EmptyQuickplay => new TranslatableString(getKey(@"empty.quickplay"), @"quick play");
+
+        /// <summary>
         /// "multiplayer"
         /// </summary>
         public static LocalisableString EmptyRealtime => new TranslatableString(getKey(@"empty.realtime"), @"multiplayer");

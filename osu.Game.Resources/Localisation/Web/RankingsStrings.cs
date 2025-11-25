@@ -75,6 +75,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PerformanceInsufficientHistory => new TranslatableString(getKey(@"performance.insufficient_history"), @"This user has less than 30 days of recent ranking history.");
 
         /// <summary>
+        /// "The data is being calculated..."
+        /// </summary>
+        public static LocalisableString TopPlaysEmpty => new TranslatableString(getKey(@"top_plays.empty"), @"The data is being calculated...");
+
+        /// <summary>
         /// "spotlights (old)"
         /// </summary>
         public static LocalisableString TypeCharts => new TranslatableString(getKey(@"type.charts"), @"spotlights (old)");
@@ -105,6 +110,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeMultiplayer => new TranslatableString(getKey(@"type.multiplayer"), @"multiplayer");
 
         /// <summary>
+        /// "season room"
+        /// </summary>
+        public static LocalisableString TypeSeasonRoom => new TranslatableString(getKey(@"type.season_room"), @"season room");
+
+        /// <summary>
         /// "seasons"
         /// </summary>
         public static LocalisableString TypeSeasons => new TranslatableString(getKey(@"type.seasons"), @"seasons");
@@ -113,6 +123,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "team"
         /// </summary>
         public static LocalisableString TypeTeam => new TranslatableString(getKey(@"type.team"), @"team");
+
+        /// <summary>
+        /// "top plays"
+        /// </summary>
+        public static LocalisableString TypeTopPlays => new TranslatableString(getKey(@"type.top_plays"), @"top plays");
 
         /// <summary>
         /// "There are no rooms in this season yet."
@@ -128,6 +143,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Playlist count"
         /// </summary>
         public static LocalisableString SeasonsRoomCount => new TranslatableString(getKey(@"seasons.room_count"), @"Playlist count");
+
+        /// <summary>
+        /// "View Season Summary"
+        /// </summary>
+        public static LocalisableString SeasonsSummary => new TranslatableString(getKey(@"seasons.summary"), @"View Season Summary");
 
         /// <summary>
         /// "Display more informations on that season."

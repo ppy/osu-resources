@@ -300,6 +300,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CountNotifications(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.notifications"), @"{0} notification|{0} notifications", countDelimited);
 
         /// <summary>
+        /// "{0} player|{0} players"
+        /// </summary>
+        public static LocalisableString CountPlayer(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.player"), @"{0} player|{0} players", countDelimited);
+
+        /// <summary>
         /// "+ {0} other!|+ {0} others!"
         /// </summary>
         public static LocalisableString CountPlusOthers(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.plus_others"), @"+ {0} other!|+ {0} others!", countDelimited);
@@ -480,14 +485,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScoreboardTimemm => new TranslatableString(getKey(@"scoreboard_time.mm"), @"now");
 
         /// <summary>
-        /// "%dm"
+        /// "%dmo"
         /// </summary>
-        public static LocalisableString ScoreboardTimeMonth => new TranslatableString(getKey(@"scoreboard_time.month"), @"%dm");
+        public static LocalisableString ScoreboardTimeMonth => new TranslatableString(getKey(@"scoreboard_time.month"), @"%dmo");
 
         /// <summary>
-        /// "%dm"
+        /// "%dmo"
         /// </summary>
-        public static LocalisableString ScoreboardTimeMonths => new TranslatableString(getKey(@"scoreboard_time.months"), @"%dm");
+        public static LocalisableString ScoreboardTimeMonths => new TranslatableString(getKey(@"scoreboard_time.months"), @"%dmo");
 
         /// <summary>
         /// "%s"

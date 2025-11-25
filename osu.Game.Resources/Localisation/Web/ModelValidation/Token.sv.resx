@@ -58,4 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* är inte tillåtet med klientuppgifter</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Klienten saknar ägare.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Klienten är inte auktoriserad.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Delegering med klientuppgifter är endast tillgänglig för chattrobotar.</value>
+  </data>
 </root>

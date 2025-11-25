@@ -67,6 +67,9 @@
   <data name="edit.avatar.title" xml:space="preserve">
     <value>Avatar</value>
   </data>
+  <data name="edit.avatar.reset" xml:space="preserve">
+    <value>resetiraj</value>
+  </data>
   <data name="edit.avatar.rules" xml:space="preserve">
     <value>Provjeri da li je tvoj avatar u skladu s {0}.&lt;br/&gt;To znači da mora biti &lt;strong&gt;prikladno za sve uzraste&lt;/strong&gt;. tj. bez golotinje, vulgarnosti ili sugestivnog sadržaja.</value>
   </data>
@@ -82,6 +85,21 @@
   <data name="edit.email.title" xml:space="preserve">
     <value>E-pošta</value>
   </data>
+  <data name="edit.email.locked._" xml:space="preserve">
+    <value>Molimo te kontaktiraj {0} ako trebaš ažurirati email.</value>
+  </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>tim za korisničku podršku</value>
+  </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>api</value>
+  </data>
+  <data name="edit.legacy_api.irc" xml:space="preserve">
+    <value>irc</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>Stariji API</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>trenutna lozinka</value>
   </data>
@@ -94,8 +112,14 @@
   <data name="edit.password.title" xml:space="preserve">
     <value>Lozinka</value>
   </data>
+  <data name="edit.profile.country" xml:space="preserve">
+    <value>država</value>
+  </data>
   <data name="edit.profile.title" xml:space="preserve">
     <value>Profil</value>
+  </data>
+  <data name="edit.profile.country_change._" xml:space="preserve">
+    <value>Izgleda da zemlja tvog računa ne odgovara tvojoj zemlji prebivališta. {0}.</value>
   </data>
   <data name="edit.profile.country_change.update_link" xml:space="preserve">
     <value>Promjeni na {0}</value>
@@ -118,11 +142,26 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>ažuriraj</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Ako doprinosiš osu! open-source repozitorijima, povezivanjem svojeg GitHub računa ovdje ćeš asocirati svoje dnevnike promjena sa svojim osu! profilom. GitHub računi sa praznom povijesti doprinosa za osu! se ne mogu povezati.</value>
+  </data>
+  <data name="github_user.link" xml:space="preserve">
+    <value>Poveži GitHub Račun</value>
+  </data>
   <data name="github_user.title" xml:space="preserve">
     <value>GitHub</value>
   </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Ukloni vezu GitHub Računa</value>
+  </data>
   <data name="github_user.error.already_linked" xml:space="preserve">
-    <value>Ovaj GitHub nalog je vec povezan drugom korisniku.</value>
+    <value>Ovaj GitHub račun je već povezan s drugim korisnikom.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Nije moguće povezati GitHub račun bez povijesti doprinosa u osu! repozitoriju.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Molimo te povrdi svoj glavni email na GitHubu te zatim pokušaj ponovo povezati račun.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>primaj obavijesti o novim problemima na kvalificiranim beatmapovima sljedećih modova</value>
@@ -150,6 +189,9 @@
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privatne chat poruke</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>poruke timskog čavrljanja</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nove komentare</value>

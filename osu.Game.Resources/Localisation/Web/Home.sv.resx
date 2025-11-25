@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>sök</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>Se fler sökresultat av utvalda artistlåtar</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>Logga in för att söka efter beatmaps</value>
   </data>
@@ -145,17 +148,26 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>alla</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>utvalda artistlåtar</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>beatmap</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>forum</value>
   </data>
+  <data name="search.mode.team" xml:space="preserve">
+    <value>lag</value>
+  </data>
   <data name="search.mode.user" xml:space="preserve">
     <value>spelare</value>
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>Se fler lag sökresultat</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>Logga in för att söka efter användare</value>
@@ -181,23 +193,8 @@
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
   </data>
-  <data name="download.action" xml:space="preserve">
-    <value>Ladda ner osu!</value>
-  </data>
-  <data name="download.action_lazer" xml:space="preserve">
-    <value>Ladda ner osu!(lazer)</value>
-  </data>
-  <data name="download.action_lazer_description" xml:space="preserve">
-    <value>den nästa stora uppdateringen till osu!</value>
-  </data>
   <data name="download.action_lazer_info" xml:space="preserve">
     <value>se denna sida för mer information</value>
-  </data>
-  <data name="download.action_lazer_title" xml:space="preserve">
-    <value>pröva osu!(lazer)</value>
-  </data>
-  <data name="download.action_title" xml:space="preserve">
-    <value>installera osu!</value>
   </data>
   <data name="download.for_os" xml:space="preserve">
     <value>för {0}</value>
@@ -219,9 +216,6 @@
   </data>
   <data name="download.quick_start_guide" xml:space="preserve">
     <value>snabbstartsguide</value>
-  </data>
-  <data name="download.tagline" xml:space="preserve">
-    <value>låt oss&lt;br&gt;få dig igång!</value>
   </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>videoguide</value>
@@ -283,6 +277,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Användare online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Daglig utmaning Beatmap</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>Nya rankade beatmaps</value>
   </data>
@@ -292,6 +289,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>av {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>återställer {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>Ladda ner osu!</value>
   </data>
@@ -300,5 +300,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Öppna administratörskonsol</value>
   </data>
 </root>

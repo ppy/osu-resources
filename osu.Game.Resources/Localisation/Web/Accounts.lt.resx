@@ -88,6 +88,9 @@
   <data name="edit.email.locked._" xml:space="preserve">
     <value>Prašome susisiekti su {0} jei tau reikia atnaujinti el. paštą.</value>
   </data>
+  <data name="edit.email.locked.accounts" xml:space="preserve">
+    <value>paskyros pagalbos komanda</value>
+  </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
   </data>
@@ -139,14 +142,26 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>išsaugoti</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Jei prisidedate prie osu! atvirojo kodo saugyklų, susiejant jūsų GitHub paskyrą galite pririšti jūsų pakeitimų pateiktis prie jūsų osu! paskyros. GitHub paskyros be jokios prisidėjimų prie osu! istorijos negali būti susietos.</value>
+  </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Susieti GitHub paskyrą</value>
   </data>
   <data name="github_user.title" xml:space="preserve">
     <value>GitHub</value>
   </data>
+  <data name="github_user.unlink" xml:space="preserve">
+    <value>Atsieti GitHub paskyrą</value>
+  </data>
   <data name="github_user.error.already_linked" xml:space="preserve">
     <value>Ši GitHub paskyra jau yra susieta su kitu naudotuju.</value>
+  </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Negalima susieti GitHub paskyros be įnašų istorijos osu! saugyklose.</value>
+  </data>
+  <data name="github_user.error.unverified_email" xml:space="preserve">
+    <value>Prašome patvirtinti jūsų pagrindinį el. pašto adresą GitHub platformoje, tada vėl bandyti susieti su savo paskyra.</value>
   </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>gauti pranešimus dėl naujų problemų kvalifikuotuose beatmap'uose šiuose režimuose </value>
@@ -170,10 +185,13 @@
     <value>svečio sunkumas</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>beatmap'ų modifikacijos</value>
+    <value>beatmap'ų taisymai</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privatūs susirašinėjimai</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>komandos žinutės</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nauji komentarai</value>
