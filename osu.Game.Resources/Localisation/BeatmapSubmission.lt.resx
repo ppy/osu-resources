@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Beatmap'o pateikimas</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Pasidalink savo beatmap'u su pasauliu!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Turinio leidimai</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Supratau</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Dažniausiai užduodami klausimai       </value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Pateikimo parametrai</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Įkelti beatmap'ą!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Eksportuojamas beatmap'as suderinamumui...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Ruošiamasi įkėlimui...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Įkeliamas beatmap'o turinys...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Baigiama...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Prieš tęsiant patikrinkit ar jūsų turinį leista įkelti. Prašome suprasti, kad jus esate atsakingas už turinį kuri įkeliate platformoje, ir jei abejojate pirmiausiai turėtumėte paprašyti kūrėjų leidimo!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Peržiūrėk turinio naudojimo gaires dėl papildomos informacijos</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Beatmap'o reitingavimo kriterijai</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Neužtikrintas ar jūsų turinys atitinka gaires? Peržiūrėk sąrašą ir pagreitink reitingavimo procesą!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Pateikimo procesas</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Neaiškus pateikimo procesas? Užeik į wiki!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Beatmap'ų kūrimo pagalbos forumas</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Turi klausymų apie beatmap'ų kūrimą ir pateikimą? Užduok juos  forumuose!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Taisymų eilių forumas</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Negauni jokių atsiliepimų? Pabandyk paklausti taisymų eilėje!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Kur tu norėtum įkelti savo beatmap'ą?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Vis dar kuriamas (neužbaigtas, neparuoštas reitingavimui)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Laukiantis (užbaigtas, paruoštas reitingavimui)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Gauti diskusijos atsakymų pranešimus</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Atidaryti naršyklėje po įkėlimo</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Pastaba: Siekiant padaryti beatmap'ą prieinama visų osu! versijų vartotojams, beatmap'as bus eksportuojamas atgalinai suderinamu formatu. Nors mes pasistengėme, kad šis procesas išlaikytu beatmap'ą žaidžiama numatytoje formoje, dalis duomenų susijusiu su funkcijomis, kuriu nepalaiko ankstesnės osu! versijos, gali būti prarasta.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Tuščių beatmap'ų negalima pateikti.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Atnaujinti beatmap'ą!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Įkelti naują beatmap'ą!</value>
+  </data>
+</root>

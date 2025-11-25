@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Następny wybór</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Wybierz poprzednią grupę</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Przejdź do poprzedniej beatmapy</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Wybierz następną grupę</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Przejdź do następnej beatmapy</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Rozwiń poprzednią grupę</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Rozwiń następną grupę</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Przełącz rozwinięcie aktualnie wybranej grupy</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Przejdź do menu głównego</value>
@@ -167,10 +176,10 @@
     <value>Klonuj zaznaczenie</value>
   </data>
   <data name="editor_cycle_grid_spacing" xml:space="preserve">
-    <value>Odstęp siatki cyklu</value>
+    <value>Przełącz zagęszczenie siatki</value>
   </data>
   <data name="editor_cycle_grid_type" xml:space="preserve">
-    <value>Typ siatki cyklu</value>
+    <value>Przełącz typ siatki</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Przetestuj rozgrywkę</value>
@@ -227,10 +236,10 @@
     <value>Zmniejsz odległość między obiektami</value>
   </data>
   <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
-    <value>Poprzedni dzielnik rytmu</value>
+    <value>Poprzedni podzielnik beatu</value>
   </data>
   <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
-    <value>Następny dzielnik rytmu</value>
+    <value>Następny podzielnik beatu</value>
   </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Wyświetl edytor skórek</value>
@@ -275,40 +284,40 @@
     <value>Zmniejsz opóźnienie</value>
   </data>
   <data name="editor_toggle_rotate_control" xml:space="preserve">
-    <value>Przełącz obrót</value>
+    <value>Wybierz narzędzie - obrót</value>
   </data>
   <data name="editor_toggle_scale_control" xml:space="preserve">
-    <value>Przełącz kontrolę skalowania</value>
+    <value>Wybierz narzędzie - skalowanie</value>
   </data>
   <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
-    <value>Przełącz autoodtwarzanie</value>
+    <value>Włącz automatyczne przejście</value>
   </data>
   <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
-    <value>Przełącz szybką pauzę</value>
+    <value>Wstrzymaj rozgrywkę</value>
   </data>
   <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
-    <value>Szybkie wyjście do czasu rozpoczęcia</value>
+    <value>Wyjdź z rozgrywki do czasu początkowego</value>
   </data>
   <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
-    <value>Szybkie wyjście do czasu bieżącego</value>
+    <value>Wyjdź z rozgrywki do czasu bieżącego</value>
   </data>
   <data name="increase_mod_speed" xml:space="preserve">
-    <value>Zwiększ prędkość modyfikacji</value>
+    <value>Zwiększ szybkość rozgrywki</value>
   </data>
   <data name="decrease_mod_speed" xml:space="preserve">
-    <value>Zmniejsz prędkość modyfikacji</value>
+    <value>Zmniejsz szybkość rozgrywki</value>
   </data>
   <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
-    <value>Przejdź do poprzednich uderzonych obiektów</value>
+    <value>Przejdź do poprzedniego obiektu</value>
   </data>
   <data name="editor_seek_to_next_hit_object" xml:space="preserve">
-    <value>Przejdź do następnych uderzonych obiektów</value>
+    <value>Przejdź do następnego obiektu</value>
   </data>
   <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
-    <value>Przejdź do poprzedniego punktu dźwięku</value>
+    <value>Przejdź do poprzedniego sampla</value>
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
-    <value>Przejdź do następnego punktu dźwięku</value>
+    <value>Przejdź do następnego sampla</value>
   </data>
   <data name="editor_add_bookmark" xml:space="preserve">
     <value>Dodaj zakładkę</value>
@@ -323,12 +332,12 @@
     <value>Przejdź do następnej zakładki</value>
   </data>
   <data name="absolute_scroll_song_list" xml:space="preserve">
-    <value>Bezwzględne przewijanie listy utworów</value>
+    <value>Przewijanie absolutne listy beatmap</value>
   </data>
   <data name="editor_toggle_move_control" xml:space="preserve">
-    <value>Przełączanie kontroli ruchu</value>
+    <value>Wybierz narzędzie - przesunięcie</value>
   </data>
   <data name="editor_discard_unsaved_changes" xml:space="preserve">
-    <value>Porzuć niezapisane zmiany</value>
+    <value>Odrzuć niezapisane zmiany</value>
   </data>
 </root>

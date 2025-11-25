@@ -77,9 +77,12 @@
     <value>Jūsų žaidimo garsumas yra peržemas, kad kažką girdėtumėte! Paspauskite čia, kad atstatytumėte tai.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>Šis rėžimas neturi auto sužaidimo modo!</value>
+    <value>Šis rėžimas neturi auto žaidimo modo!</value>
   </data>
-  
+  <data name="audio_playback_issue" xml:space="preserve">
+    <value>osu! negali tinkamai paleisti garso.
+Pabadykite pakeisti garso įrenginio nustatymus.</value>
+  </data>
   <data name="score_overlay_disabled" xml:space="preserve">
     <value>Rezultatų perdanga yra išjungta. Gali ją Įjungti / Išjungti spausdamas {0}.</value>
   </data>
@@ -90,19 +93,43 @@
     <value>Sekančios žinutės buvo dokumentuotos. Paspausk, kad peržiūrėti failus.</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
-    <value>Išjugiamas grafinės planšėtės palaikymas dėl kliados:  "{0}"</value>
+    <value>Išjugiamas planšetės palaikymas dėl klaidos:  "{0}"</value>
   </data>
-  
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>Grafinės planšetės perspėjimas, jūsų planšetė gali veikti netinkamai. Spauskite čia, kad peržiūrėti palaikomų planšečių sąrašą.</value>
+  </data>
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Šio tipo nuoroda dar nepalaikoma!</value>
   </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Gavai privačią žinutę iš '{0}'. Paspausk, kad perskaityti!</value>
+  <data name="invited_you_to_the_multiplayer" xml:space="preserve">
+    <value>{0} pakvietė jūs į kelių žaidėjų rungtynes "{1}"! Spustelėkite, kad prisijungtumėte.</value>
   </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>'{0}' paminėjo tavę pokalbyje. Paspausk, kad sužinotum kodėl!</value>
+  <data name="missing_beatmap_for_replay" xml:space="preserve">
+    <value>Neturite beatmap'o šiam įrašui.</value>
   </data>
-  
-  
-  
+  <data name="downloading_beatmap_for_replay" xml:space="preserve">
+    <value>Atsiunčiamas trūkstamas beatmap'as šiam įrašui...</value>
+  </data>
+  <data name="mismatching_beatmap_for_replay" xml:space="preserve">
+    <value>Jūsų vietinė beatmap'o kopija šiam  įrašui kitokia nei tikėtasi. Jums gali reikėti atnaujinti arba atsisiųsti beatmap'ą iš naujo.</value>
+  </data>
+  <data name="game_version_after_update" xml:space="preserve">
+    <value>Jus leidžiate osu! {0}.
+Paspauskite, kad peržiūrėti kas naujo!</value>
+  </data>
+  <data name="update_ready_to_install" xml:space="preserve">
+    <value>Yra atnaujinimų! Spustelėkite, kad paleistumėte iš naujo!</value>
+  </data>
+  <data name="not_official_build" xml:space="preserve">
+    <value>Tai nėra oficialus žaidimo leidimas.  Taškai nebus pateikiami ir kitos tinklo sistemos gali veikti netinkamai.</value>
+  </data>
+  <data name="downloading_update" xml:space="preserve">
+    <value>Atsiunčiamas atnaujinimas...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Šis tinklo kambarys nebegalioja. Paspauskite, kad peržiūrėtumet kambario rezultatus.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Paminėjimas</value>
+  </data>
 </root>

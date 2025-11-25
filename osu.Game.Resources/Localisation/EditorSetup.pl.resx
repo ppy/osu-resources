@@ -77,13 +77,13 @@
     <value>Włącz odliczanie</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Jeśli ta opcja jest włączona, na początku beatmapy zostanie umieszczone odliczanie, pod warunkiem że będzie na to wystarczająco dużo czasu.</value>
+    <value>Umieszcza na początku beatmapy odliczanie, pod warunkiem że będzie na to wystarczająco dużo czasu.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Szybkość odliczania</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
-    <value>Jeśli dźwięk odliczania nie jest zsynchronizowany, użyj tej opcji, by pojawił się jeden lub więcej beatów wcześniej.</value>
+    <value>Jeśli odliczanie nie jest poprawnie zsynchronizowane z dźwiękiem beatmapy, użyj tej opcji, by pojawiło się jeden lub więcej beatów wcześniej.</value>
   </data>
   <data name="countdown_offset" xml:space="preserve">
     <value>Opóźnienie odliczania</value>
@@ -110,7 +110,7 @@
     <value>Dopasowanie sampli do szybkości odtwarzania</value>
   </data>
   <data name="samples_match_playback_rate_description" xml:space="preserve">
-    <value>Jeśli ta opcja jest włączona, szybkość wszystkich sampli zostanie dopasowana do szybkości odtwarzania zmienionej przez aktualnie włączone modyfikatory.</value>
+    <value>Dopasowuje szybkość wszystkich sampli do aktualnie włączonych modyfikatorów wpływających na szybkość rozgrywki.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
     <value>Wielkość wszystkich obiektów</value>
@@ -125,10 +125,10 @@
     <value>Dokładność z jaką należy uderzać obiekty oraz trudność obiektów specjalnych (np. spinnerów)</value>
   </data>
   <data name="tick_rate" xml:space="preserve">
-    <value>Wartość Rytmiczna</value>
+    <value>Częstotliwość generowania ticków</value>
   </data>
   <data name="tick_rate_description" xml:space="preserve">
-    <value>Determinuje jak dużo "ticków" jest generowane wewnątrz obiektów trafienia. Wartość 1 ticku wygeneruje ticki w każdym bicie, 2 wygenerują dwa razy na bit, etc.</value>
+    <value>Określa, ile „ticków” zostanie wygenerowanych wewnątrz obiektów, takich jak slidery. Przykładowo, dla wartości 1 zostanie wygenerowany pojedynczy tick na każdy beat, dla wartości 2 - dwa na beat itd.</value>
   </data>
   <data name="base_velocity" xml:space="preserve">
     <value>Szybkość bazowa</value>
@@ -167,13 +167,13 @@
     <value>Kliknij, by wybrać tło</value>
   </data>
   <data name="application_scope_selection_title" xml:space="preserve">
-    <value>Zastosować tę zmianę dla wszystkich poziomów trudności?</value>
+    <value>Czy chcesz zastosować tę zmianę dla wszystkich poziomów trudności?</value>
   </data>
   <data name="apply_to_all_difficulties" xml:space="preserve">
     <value>Zastosuj dla wszystkich poziomów trudności</value>
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
-    <value>Zastosuj tylko dla tego poziomu trudności</value>
+    <value>Zastosuj wyłącznie dla tego poziomu trudności</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Tryb gry ({0})</value>

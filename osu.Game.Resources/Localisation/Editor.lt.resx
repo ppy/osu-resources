@@ -58,6 +58,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="beatmap_editor" xml:space="preserve">
+    <value>Beatmap'ų redaktorius</value>
+  </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Bangos formos nepermatomumas</value>
   </data>
@@ -68,16 +71,19 @@
     <value>Automatiškai peršokti į padėto objekto vietą</value>
   </data>
   <data name="timing" xml:space="preserve">
-    <value>Ritmas</value>
+    <value>Taktai</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
-    <value>Nustatyti peržiuros tašką į dabartinį laiką</value>
+    <value>Nustatyti peržiūros tašką į dabartinį laiką</value>
+  </data>
+  <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
+    <value>Perkelti padėtus objektus radagavus taktus</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
-    <value>(.olz) redagavimui</value>
+    <value>Redagavimui (.olz)</value>
   </data>
   <data name="export_for_compatibility" xml:space="preserve">
-    <value>(.osz) suderinimui</value>
+    <value>Suderinimui (.osz)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Sukurti naują sunkumą</value>
@@ -87,6 +93,12 @@
   </data>
   <data name="delete_difficulty" xml:space="preserve">
     <value>Ištrinti sunkumą</value>
+  </data>
+  <data name="edit_externally" xml:space="preserve">
+    <value>Redaguoti išoriškai</value>
+  </data>
+  <data name="submit_beatmap" xml:space="preserve">
+    <value>Pateikti beatmap'ą</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>sąranka</value>
@@ -98,7 +110,7 @@
     <value>dizainas</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>ritmas</value>
+    <value>taktai</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
     <value>tikrinti</value>
@@ -109,12 +121,6 @@
   <data name="test_beatmap" xml:space="preserve">
     <value>Testuoti!</value>
   </data>
-  <data name="timeline_waveform" xml:space="preserve">
-    <value>Bangos forma</value>
-  </data>
-  <data name="timeline_ticks" xml:space="preserve">
-    <value>Tiksėjimai</value>
-  </data>
   <data name="rotation_unsnapped" xml:space="preserve">
     <value>{0:0}°</value>
   </data>
@@ -123,5 +129,59 @@
   </data>
   <data name="limited_distance_snap_grid" xml:space="preserve">
     <value>Apriboti atstumo užfiksavimą esamam laikui</value>
+  </data>
+  <data name="contract_sidebars" xml:space="preserve">
+    <value>Sutraukti šonines juostas pasitraukus</value>
+  </data>
+  <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
+    <value>Turi būti radagavimo rėžime, kad galėtum valdyti radaktoriaus nuorodas</value>
+  </data>
+  <data name="failed_to_parse_edtior_link" xml:space="preserve">
+    <value>Nepavyko išnagrinėti redaktoriaus nuorodos</value>
+  </data>
+  <data name="timeline" xml:space="preserve">
+    <value>Laiko juosta</value>
+  </data>
+  <data name="timeline_show_timing_changes" xml:space="preserve">
+    <value>Rodyti taktų pakeitimus</value>
+  </data>
+  <data name="Finish editing and import changes" xml:space="preserve">
+    <value>Užbaigti redagavimą ir importuoti pakeitimus</value>
+  </data>
+  <data name="timeline_show_breaks" xml:space="preserve">
+    <value>Rodyti pertraukas</value>
+  </data>
+  <data name="timeline_show_ticks" xml:space="preserve">
+    <value>Rodyti tiksėjimus</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Žymės</value>
+  </data>
+  <data name="add_bookmark" xml:space="preserve">
+    <value>Pridėti žymę</value>
+  </data>
+  <data name="remove_closest_bookmark" xml:space="preserve">
+    <value>Pašalinti artimiausią žymę</value>
+  </data>
+  <data name="seek_to_previous_bookmark" xml:space="preserve">
+    <value>Grįžti į praeitą žymę</value>
+  </data>
+  <data name="seek_to_next_bookmark" xml:space="preserve">
+    <value>Peršokti į kitą žymę</value>
+  </data>
+  <data name="reset_bookmarks" xml:space="preserve">
+    <value>Atstatyti žymes</value>
+  </data>
+  <data name="open_info_page" xml:space="preserve">
+    <value>Atidaryti beatmap'o informacijos puslapį</value>
+  </data>
+  <data name="open_discussion_page" xml:space="preserve">
+    <value>Atidaryti beatmap'o diskusijos puslapį</value>
+  </data>
+  <data name="check_current_difficulty" xml:space="preserve">
+    <value>Dabartinį sunkumą</value>
+  </data>
+  <data name="check_entire_beatmap_set" xml:space="preserve">
+    <value>Visą beatmap'ų setą</value>
   </data>
 </root>
