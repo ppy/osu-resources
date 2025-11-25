@@ -655,6 +655,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsPlaycount => new TranslatableString(getKey(@"show.stats.playcount"), @"Playcount");
 
         /// <summary>
+        /// "Favourites"
+        /// </summary>
+        public static LocalisableString ShowStatsFavourites => new TranslatableString(getKey(@"show.stats.favourites"), @"Favourites");
+
+        /// <summary>
+        /// "No favourites yet"
+        /// </summary>
+        public static LocalisableString ShowStatsNoFavourites => new TranslatableString(getKey(@"show.stats.no_favourites"), @"No favourites yet");
+
+        /// <summary>
         /// "Ranked"
         /// </summary>
         public static LocalisableString ShowStatusRanked => new TranslatableString(getKey(@"show.status.ranked"), @"Ranked");

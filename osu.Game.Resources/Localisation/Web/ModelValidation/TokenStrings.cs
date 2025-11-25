@@ -35,9 +35,9 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         public static LocalisableString InvalidScopeDelegateBotOnly => new TranslatableString(getKey(@"invalid_scope.delegate_bot_only"), @"Delegation with Client Credentials is only available to chat bots.");
 
         /// <summary>
-        /// "delegate scope is only valid for client_credentials tokens."
+        /// "This scope is only valid for client_credentials tokens."
         /// </summary>
-        public static LocalisableString InvalidScopeDelegateClientCredentialsOnly => new TranslatableString(getKey(@"invalid_scope.delegate_client_credentials_only"), @"delegate scope is only valid for client_credentials tokens.");
+        public static LocalisableString InvalidScopeClientCredentialsOnly => new TranslatableString(getKey(@"invalid_scope.client_credentials_only"), @"This scope is only valid for client_credentials tokens.");
 
         /// <summary>
         /// "Delegation is not supported for this combination of scopes."

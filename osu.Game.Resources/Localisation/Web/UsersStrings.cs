@@ -995,6 +995,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraPostsShowMore => new TranslatableString(getKey(@"show.extra.posts.show_more"), @"see more posts");
 
         /// <summary>
+        /// "Quick Play Matches"
+        /// </summary>
+        public static LocalisableString ShowExtraQuickplayTitle => new TranslatableString(getKey(@"show.extra.quickplay.title"), @"Quick Play Matches");
+
+        /// <summary>
         /// "Recent"
         /// </summary>
         public static LocalisableString ShowExtraRecentActivityTitle => new TranslatableString(getKey(@"show.extra.recent_activity.title"), @"Recent");

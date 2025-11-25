@@ -125,6 +125,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MainBeatmapsetsControllerShow => new TranslatableString(getKey(@"main.beatmapsets_controller.show"), @"beatmap info");
 
         /// <summary>
+        /// "beatmap version history"
+        /// </summary>
+        public static LocalisableString MainBeatmapsetsControllerVersions => new TranslatableString(getKey(@"main.beatmapsets_controller.versions"), @"beatmap version history");
+
+        /// <summary>
         /// "changelog"
         /// </summary>
         public static LocalisableString MainChangelogControllerDefault => new TranslatableString(getKey(@"main.changelog_controller._"), @"changelog");
@@ -153,6 +158,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "contest judging"
         /// </summary>
         public static LocalisableString MainContestsControllerJudge => new TranslatableString(getKey(@"main.contests_controller.judge"), @"contest judging");
+
+        /// <summary>
+        /// "group history"
+        /// </summary>
+        public static LocalisableString MainGroupHistoryControllerDefault => new TranslatableString(getKey(@"main.group_history_controller._"), @"group history");
 
         /// <summary>
         /// "groups"
@@ -263,6 +273,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "user cover presets"
         /// </summary>
         public static LocalisableString MainUserCoverPresetsControllerDefault => new TranslatableString(getKey(@"main.user_cover_presets_controller._"), @"user cover presets");
+
+        /// <summary>
+        /// "authenticator app"
+        /// </summary>
+        public static LocalisableString MainUserTotpControllerDefault => new TranslatableString(getKey(@"main.user_totp_controller._"), @"authenticator app");
 
         /// <summary>
         /// "player info"

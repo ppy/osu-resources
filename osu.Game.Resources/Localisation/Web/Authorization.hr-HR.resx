@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Što kažeš na to da sada zaigraš malo osu! umjesto toga?</value>
+    <value>Što kažeš na to da zaigraš malo osu! umjesto toga?</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>Molimo da se prijaviš kako bi nastavio/la.</value>
@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Ne možeš promijeniti metapodatke nominirane mape. Obratite se BN ili NAT članu ako mislite da su pogrešno postavljeni.</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Moraš postaviti rezultat na beatmapi kako bi dodao oznaku.</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>Ne možeš poslati poruku korisniku koji te blokira ili kojeg si blokirao/la.</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="chat.no_access" xml:space="preserve">
     <value>Nemaš pristup tom kanalu.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Nemaš dopuštenje da objaviš najavu.</value>
   </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Korisnik možda neće moći odgovoriti zato što samo prihvaćaš poruke od ljudi koji su na tvojoj listi prijatelja.</value>
@@ -162,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Ne možeš urediti izbrisanu objavu.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Suđenje za ovaj natječaj nije aktivno.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Ne možeš promijeniti svoj glas nakon završetka razdoblja glasanja za ovo natjecanje.</value>
@@ -195,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Potreban je pristup zatraženom forumu.</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>Nemaš dopuštenje za uređivanje.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Samo autor može urediti objavu.</value>
@@ -274,11 +286,44 @@
   <data name="forum.view.admin_only" xml:space="preserve">
     <value>Samo administrator može vidjeti ovaj forum.</value>
   </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Samo vlasnik sobe može zatvoriti sobu.</value>
+  </data>
+  <data name="score.pin.disabled_type" xml:space="preserve">
+    <value>Nije moguće prikačiti ovakav tip rezultata</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>Nije moguće prikačiti neprolazni rezultat.</value>
+  </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>Samo vlasnik rezultata može prikvačiti rezultat.</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
     <value>Prikvačeno previše rezultata.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Već si dio tima.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Već si dio drugog tima.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Imaš neriješen zahtjev za pridruživanje timu.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Tim trenutačno ne prihvaća zahtjev za pridruživanje.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Tim je pun i ne može prihvatiti više članova.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Vođa tima ne može napustiti tim.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Nije član tima.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>osu!supporter oznaka je potrebna za stvaranje tima.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Korisnička stranica je zaključana.</value>
@@ -288,5 +333,8 @@
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
     <value>Potrebna je osu!supporter oznaka.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>email adresa je zaključana</value>
   </data>
 </root>

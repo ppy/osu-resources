@@ -85,8 +85,20 @@
   <data name="match.events.game_aborted" xml:space="preserve">
     <value>oyun iptal edildi</value>
   </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>oyun iptal edildi</value>
+  </data>
   <data name="match.events.game_completed" xml:space="preserve">
     <value>oyun sona erdi</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>oyun sona erdi</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>oda sahibi değişti</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} oyuna katıldı</value>
   </data>
   <data name="match.events.player_joined_no_user" xml:space="preserve">
     <value>bir oyuncu oyuna katıldı</value>
@@ -102,6 +114,9 @@
   </data>
   <data name="match.events.player_left_no_user" xml:space="preserve">
     <value>bir oyuncu eşleşmeyi terk etti</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} oyunu oluşturdu</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>İsabetlilik</value>

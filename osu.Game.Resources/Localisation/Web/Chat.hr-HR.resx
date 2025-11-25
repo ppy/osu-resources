@@ -70,6 +70,9 @@
   <data name="title_compact" xml:space="preserve">
     <value>razgovor</value>
   </data>
+  <data name="unread_messages" xml:space="preserve">
+    <value>nepročitane poruke</value>
+  </data>
   <data name="cannot_send.channel" xml:space="preserve">
     <value>Trenutno ne možeš slati poruke u ovom kanalu.</value>
   </data>
@@ -81,6 +84,12 @@
   </data>
   <data name="channels.create" xml:space="preserve">
     <value>napravi obavijest</value>
+  </data>
+  <data name="channels.join" xml:space="preserve">
+    <value>uđi u kanal</value>
+  </data>
+  <data name="channels.none" xml:space="preserve">
+    <value>nema kanala</value>
   </data>
   <data name="channels.list.title.announce" xml:space="preserve">
     <value>Obaveštenja</value>
@@ -94,11 +103,17 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Kanali</value>
   </data>
+  <data name="channels.list.title.team" xml:space="preserve">
+    <value>Tim</value>
+  </data>
   <data name="form.title.announcement" xml:space="preserve">
     <value>Napravi novu obavijest</value>
   </data>
   <data name="form.labels.description" xml:space="preserve">
     <value>opis</value>
+  </data>
+  <data name="form.labels.message" xml:space="preserve">
+    <value>poruka</value>
   </data>
   <data name="form.labels.name" xml:space="preserve">
     <value>ime sobe</value>
@@ -135,5 +150,8 @@
   </data>
   <data name="no-conversations.title" xml:space="preserve">
     <value>još nema razgovora</value>
+  </data>
+  <data name="join_channels.loading" xml:space="preserve">
+    <value>Učitavanje lista kanala...</value>
   </data>
 </root>

@@ -100,6 +100,9 @@
   <data name="search.title" xml:space="preserve">
     <value>検索</value>
   </data>
+  <data name="search.artist_track.more_simple" xml:space="preserve">
+    <value>もっと注目アーティストの検索結果を見る</value>
+  </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
     <value>ログインしてビートマップを検索</value>
   </data>
@@ -145,6 +148,9 @@
   <data name="search.mode.all" xml:space="preserve">
     <value>全て</value>
   </data>
+  <data name="search.mode.artist_track" xml:space="preserve">
+    <value>注目アーティストトラック</value>
+  </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
     <value>ビートマップ</value>
   </data>
@@ -159,6 +165,9 @@
   </data>
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="search.team.more_simple" xml:space="preserve">
+    <value>もっとチームの検索結果を見る</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
     <value>ログインしてユーザーを検索</value>
@@ -184,23 +193,8 @@
   <data name="search.wiki_page.title" xml:space="preserve">
     <value>Wiki</value>
   </data>
-  <data name="download.action" xml:space="preserve">
-    <value>osu!をダウンロード</value>
-  </data>
-  <data name="download.action_lazer" xml:space="preserve">
-    <value>osu!(lazer)をダウンロード</value>
-  </data>
-  <data name="download.action_lazer_description" xml:space="preserve">
-    <value>次の大規模アップデート</value>
-  </data>
   <data name="download.action_lazer_info" xml:space="preserve">
     <value>詳細はこちらのページをご覧ください</value>
-  </data>
-  <data name="download.action_lazer_title" xml:space="preserve">
-    <value>osu!(lazer)を試す</value>
-  </data>
-  <data name="download.action_title" xml:space="preserve">
-    <value>osu!をダウンロード</value>
   </data>
   <data name="download.for_os" xml:space="preserve">
     <value>{0} 版</value>
@@ -222,9 +216,6 @@
   </data>
   <data name="download.quick_start_guide" xml:space="preserve">
     <value>クイックスタートガイド</value>
-  </data>
-  <data name="download.tagline" xml:space="preserve">
-    <value>さぁ、&lt;br&gt;始めよう！</value>
   </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>説明動画</value>
@@ -286,6 +277,9 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>オンラインのユーザー数</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>デイリーチャレンジビートマップ</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
     <value>最新のRankedビートマップ</value>
   </data>
@@ -295,6 +289,9 @@
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>by {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>{0}にリセット</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
     <value>osu!をダウンロード</value>
   </data>
@@ -303,5 +300,8 @@
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!ストア</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>管理コンソールを開く</value>
   </data>
 </root>

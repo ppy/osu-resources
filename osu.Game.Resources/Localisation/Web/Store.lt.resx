@@ -142,11 +142,29 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Kadangi jūsų mokėjote el. čekiu, pervedimas gali užtrukti iki 10 dienų kol praeis per PayPal sistemą!</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>Paypal atšaukė eCheck apmokėjimą.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>osu!rėmėjo žymos šiame užsakyme nerodomos jūsų pastarojoje veikloje.</value>
   </data>
+  <data name="invoice.sent_via" xml:space="preserve">
+    <value>Siunčiama Per:</value>
+  </data>
+  <data name="invoice.shipping_to" xml:space="preserve">
+    <value>Pristatymas:</value>
+  </data>
+  <data name="invoice.title" xml:space="preserve">
+    <value>Sąskaitos faktūra</value>
+  </data>
   <data name="invoice.title_compact" xml:space="preserve">
     <value>sąskaita</value>
+  </data>
+  <data name="invoice.status.cancelled.title" xml:space="preserve">
+    <value>Jūsų užsakymas buvo atšauktas</value>
+  </data>
+  <data name="invoice.status.prepared.title" xml:space="preserve">
+    <value>Jūsų užsakymas ruošiamas!</value>
   </data>
   <data name="invoice.status.processing.title" xml:space="preserve">
     <value>Jūsų pervedimas dar nepatvirtintas!</value>
@@ -162,6 +180,9 @@
   </data>
   <data name="invoice.status.shipped.title" xml:space="preserve">
     <value>Jūsų užsakymas išsiųstas!</value>
+  </data>
+  <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
+    <value>atsiuskite mums el. laišką</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
     <value>Atšaukti užsakymą</value>
@@ -187,8 +208,26 @@
   <data name="order.shopify_expired" xml:space="preserve">
     <value>Ši apmokėjimo nuoroda nebegalioja.</value>
   </data>
+  <data name="order.subtotal" xml:space="preserve">
+    <value>Tarpinė suma</value>
+  </data>
   <data name="order.total" xml:space="preserve">
     <value>Iš viso</value>
+  </data>
+  <data name="order.details.order_number" xml:space="preserve">
+    <value>Užsakymas #</value>
+  </data>
+  <data name="order.details.payment_terms" xml:space="preserve">
+    <value>Mokėjimo Sąlygos</value>
+  </data>
+  <data name="order.details.salesperson" xml:space="preserve">
+    <value>Pardavėjas</value>
+  </data>
+  <data name="order.details.shipping_method" xml:space="preserve">
+    <value>Pristatymo Būdas</value>
+  </data>
+  <data name="order.details.shipping_terms" xml:space="preserve">
+    <value>Pristatymo Sąlygos</value>
   </data>
   <data name="order.details.title" xml:space="preserve">
     <value>Užsakymo Informacija</value>
@@ -244,6 +283,12 @@
   <data name="order.status.title" xml:space="preserve">
     <value>Užsakymo Būsena</value>
   </data>
+  <data name="order.thanks.title" xml:space="preserve">
+    <value>Dėkojame už jūsų užsakymą!</value>
+  </data>
+  <data name="order.thanks.line_1._" xml:space="preserve">
+    <value>Netrukus gausite patvirtinimo el. laišką. Jei turite klausimų, {0}!</value>
+  </data>
   <data name="order.thanks.line_1.link_text" xml:space="preserve">
     <value>susisiekite su mumis</value>
   </data>
@@ -261,6 +306,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Informuokite mane kai bus!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Išparduota</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>kai prekė atsiras mes jums pranešime. Atšaukimui spausk {0}</value>
@@ -294,6 +342,9 @@
   </data>
   <data name="username_change.label" xml:space="preserve">
     <value>Naujas naudotojo vardas</value>
+  </data>
+  <data name="username_change.current" xml:space="preserve">
+    <value>Jūsų dabartinis vartotojo vardas yra "{0}".</value>
   </data>
   <data name="username_change.require_login._" xml:space="preserve">
     <value>Tau turi būti {0}, kad pakeistum vardą!</value>

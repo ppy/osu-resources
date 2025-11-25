@@ -55,6 +55,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScopesForumWrite => new TranslatableString(getKey(@"scopes.forum.write"), @"Create and edit forum topics and posts on your behalf.");
 
         /// <summary>
+        /// "Manage forum topics and posts on your behalf."
+        /// </summary>
+        public static LocalisableString ScopesForumWriteManage => new TranslatableString(getKey(@"scopes.forum.write_manage"), @"Manage forum topics and posts on your behalf.");
+
+        /// <summary>
         /// "See who you are following."
         /// </summary>
         public static LocalisableString ScopesFriendsRead => new TranslatableString(getKey(@"scopes.friends.read"), @"See who you are following.");
