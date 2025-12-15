@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Assistente de atraso</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajustar o atraso de áudio automaticamente</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Caso habilitado, o atraso sugerido de sua última tentativa em um beatmap será automaticamente ajustado.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Use modo de áudio experimental</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Isso tentará inicializar o mecanismo de áudio em um modo de baixa latência.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Devido à latência reduzida, o seu atraso de áudio deverá ser ajustado ao habilitar essa opção. Geralmente, espere subtrair de 20 a 60 ms do seu valor antigo.</value>
+  </data>
 </root>
