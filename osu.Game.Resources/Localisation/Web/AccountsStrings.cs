@@ -210,6 +210,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotificationsCommentReply => new TranslatableString(getKey(@"notifications.comment_reply"), @"receive notifications for replies to your comments");
 
         /// <summary>
+        /// "receive notifications for news posts"
+        /// </summary>
+        public static LocalisableString NotificationsNewsPost => new TranslatableString(getKey(@"notifications.news_post"), @"receive notifications for news posts");
+
+        /// <summary>
         /// "Notifications"
         /// </summary>
         public static LocalisableString NotificationsTitle => new TranslatableString(getKey(@"notifications.title"), @"Notifications");
@@ -263,6 +268,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "beatmap mapper"
         /// </summary>
         public static LocalisableString NotificationsOptionsMapping => new TranslatableString(getKey(@"notifications.options.mapping"), @"beatmap mapper");
+
+        /// <summary>
+        /// "news posts"
+        /// </summary>
+        public static LocalisableString NotificationsOptionsNewsPost => new TranslatableString(getKey(@"notifications.options.news_post"), @"news posts");
 
         /// <summary>
         /// "push"

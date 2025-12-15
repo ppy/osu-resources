@@ -317,7 +317,7 @@
     <value>Mé</value>
   </data>
   <data name="discussions.stats.pending" xml:space="preserve">
-    <value>Nevyřízené</value>
+    <value>Čekající</value>
   </data>
   <data name="discussions.stats.praises" xml:space="preserve">
     <value>Pochvaly</value>
@@ -329,19 +329,19 @@
     <value>Vše</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Tato mapa byla schválena dne {0}!</value>
+    <value>Tato mapa byla schválena {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
     <value>Tato beatmapa nebyla aktualizována od {0} a pravděpodobně ji tvůrce odbyl...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Tato beatmapa byla přidána do kategorie Oblíbené dne {0}!</value>
+    <value>Tato beatmapa byla přidána do oblíbených komunitou {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Tato beatmapa byla schválena {0}!</value>
+    <value>Tato beatmapa byla hodnocena {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Tato beatmapa byla označena jako Rozpracovaná jejím autorem.</value>
+    <value>Tato beatmapa byla označena jako rozdělaná jejím autorem.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Zatím žádné downvoty</value>
@@ -365,10 +365,10 @@
     <value>Jsi si jist? Tato akce použije jeden z tvých {0} zbývajících bodů podpory a nelze vrátit zpět.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Podpoř tuto beatmapu, aby byla více viditelná pro nominaci a schválení!</value>
+    <value>Podpoř tuto beatmapu, aby byla více viditelná pro nominaci a hodnocení!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Přihlas se a podpoř tuto beatmapu - udělej ji více viditelnou pro nominaci a schválení!</value>
+    <value>Přihlas se a podpoř tuto beatmapu - udělej ji více viditelnou pro nominaci a hodnocení!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>Další body podpory dostaneš až {0}.</value>
@@ -422,7 +422,7 @@
     <value>Láska</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>Zvolte obtížnost pro loved</value>
+    <value>Zvol obtížnost pro zařazení k oblíbeným komunitou</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Miluješ tuto beatmapu?</value>
@@ -440,10 +440,10 @@
     <value>Není dostatečný hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Odstranit z Loved</value>
+    <value>Odebrat z oblíbených komunitou</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Důvod pro odebrání z Loved:</value>
+    <value>Důvod pro odebrání z oblíbených komunitou:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Nominace: {0}/{1}</value>
@@ -458,7 +458,7 @@
     <value>Existují stále nevyřešené problémy, které musí být řešeny jako první.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Odhaduje se, že tato mapa bude schválena {0}, pokud nejsou nalezeny žádné problémy. Aktuálně je #{1} ve {2}.</value>
+    <value>Odhaduje se, že tato mapa bude hodnocená {0}, pokud nejsou nalezeny žádné problémy. Aktuálně je #{1} ve {2}.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>Této mapě je nyní bráněno v opuštění Kvalifikované sekce, dokud nebudou {0} vyřešeny.</value>
@@ -470,7 +470,7 @@
     <value>dne {0}</value>
   </data>
   <data name="nominations.rank_estimate.queue" xml:space="preserve">
-    <value>frontě schválení</value>
+    <value>frontě hodnocení</value>
   </data>
   <data name="nominations.rank_estimate.soon" xml:space="preserve">
     <value>brzy</value>
@@ -527,7 +527,7 @@
     <value>Explicitní obsah</value>
   </data>
   <data name="listing.search.filters.played" xml:space="preserve">
-    <value>Již hrané</value>
+    <value>Již odehrané</value>
   </data>
   <data name="listing.search.filters.rank" xml:space="preserve">
     <value>Získané hodnocení</value>
@@ -551,7 +551,7 @@
     <value>Aktualizováno</value>
   </data>
   <data name="listing.search.sorting.ranked" xml:space="preserve">
-    <value>Schválení</value>
+    <value>Hodnoceno</value>
   </data>
   <data name="listing.search.sorting.rating" xml:space="preserve">
     <value>Hodnocení</value>
@@ -563,7 +563,7 @@
     <value>Relevance</value>
   </data>
   <data name="listing.search.sorting.nominations" xml:space="preserve">
-    <value>Nominace</value>
+    <value>Nominací</value>
   </data>
   <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
     <value>Filtrování podle {0} vyžaduje aktivní {1}</value>
@@ -620,13 +620,13 @@
     <value>Čekající</value>
   </data>
   <data name="status.wip" xml:space="preserve">
-    <value>Rozpracované</value>
+    <value>Rozdělané</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
     <value>Kvalifikované</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
-    <value>Schválené</value>
+    <value>Hodnocené</value>
   </data>
   <data name="genre.any" xml:space="preserve">
     <value>Jakýkoliv</value>
@@ -725,10 +725,10 @@
     <value>Jakékoliv</value>
   </data>
   <data name="played.played" xml:space="preserve">
-    <value>Hrané</value>
+    <value>Odehrané</value>
   </data>
   <data name="played.unplayed" xml:space="preserve">
-    <value>Nehrané</value>
+    <value>Neodehrané</value>
   </data>
   <data name="extra.video" xml:space="preserve">
     <value>S videem</value>

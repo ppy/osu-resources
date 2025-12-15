@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Точная настройка</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Корректировать синхронизацию аудио с картами автоматически</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Если включено, рекомендованное значение сдвига звука последней игры на карте будет применяться автоматически.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Включить экспериментальный аудиорежим</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Попытка инициализировать аудиодвижок в режиме низкой задержки.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Из-за уменьшения задержки, после активации этой настройки вам необходимо скорректировать значение сдвига звука. Как правило, оно должно быть меньше на 20 - 60 мс от вашего текущего значения.</value>
+  </data>
 </root>

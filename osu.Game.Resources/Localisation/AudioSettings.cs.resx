@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Průvodce offsetem</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Automaticky upravovat offset beatmapy</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Je-li povoleno, automaticky se aplikuje offset navržený dle poslední hry na beatmapě.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Použít experimentální režim zvuku</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Pokusí se inicializovat zvukový engine v režimu nižší prodlevy.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Z důvodu snížené prodlevy při povolení této možnosti bude nutné upravit offset zvuku. Obecně můžeš očekávat, že bude třeba odečíst 20 - 60 ms od tvé předchozí hodnoty.</value>
+  </data>
 </root>

@@ -94,6 +94,9 @@
   <data name="suggested_offset_note" xml:space="preserve">
     <value>Maglaro ng ilang mga beatmap para makatanggap ng inirerekomendang offset!</value>
   </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>Base sa huling {0} na (mga) laro, ang iyong offset ay naka-set ng maayos!</value>
+  </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
     <value>Batay sa huling {0} (mga) laro, ang inirerekomendang offset ay {1} ms.</value>
   </data>
@@ -102,5 +105,20 @@
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Offset wizard</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Iayos ang beatmap offset nang kusa</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Kapag naka-enable, ang offset na inirerekomenda ng huling laro ay kusang gagamitin.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Gamitin ang experimental na audio mode</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Susubukan nito na magsimula ng audio engine sa mas mababang latency na mode.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Dahil sa mas mababang latency, ang iyong audio offset ay kinakailangan na i-adjust pag nakabukas itong setting. Umasa na magbawas ng 20 - 60 ms sa iyong kasalukuyan na ginagamit na value.</value>
   </data>
 </root>

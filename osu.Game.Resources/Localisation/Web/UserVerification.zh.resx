@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>登出</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>请输入您身份验证器应用中的验证码。</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>或者您可以 {0} 。</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>如果您不能访问您的应用，{0}。</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>您可以使用电子邮件验证</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>该验证码已经过期，已重新发送新的验证邮件至绑定邮箱。</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>已重新发送新的验证邮件至绑定邮箱。</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>验证码已被使用。请等待并使用新的验证码。</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>身份验证器密钥已移除，将切换到电子邮件验证。已发送验证邮件。</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>发生了未知的错误，已重新发送新的验证邮件至绑定邮箱。</value>

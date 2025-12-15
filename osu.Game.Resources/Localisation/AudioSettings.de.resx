@@ -98,12 +98,27 @@
     <value>Basierend auf den letzten {0} Play(s) ist dein Offset richtig gesetzt!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Basierend auf den letzten {0} Spielen ist der empfohlene Offset {1} ms.</value>
+    <value>Basierend auf den letzten {0} Play(s) ist der empfohlene Offset {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Empfohlenes Offset anwenden</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Offset-Assistent</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Beatmap-Offset automatisch anpassen</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Wenn aktiviert, wird der vom letzten Durchlauf vorgeschlagene Versatz auf einer Beatmap automatisch angewendet.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Experimentellen Audiomodus verwenden</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Die Audio-Komponente wird in einem Modus mit niedrigerer Latenz initialisiert.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Aufgrund der reduzierten Latenz muss der Audio-Offset angepasst werden, wenn diese Einstellung aktiviert wird. Im Allgemeinen müssen vom vorherigen Wert 20 bis 60 ms abgezogen werden.</value>
   </data>
 </root>

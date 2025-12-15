@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Assistente offset</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Regola automaticamente l'offset delle beatmap</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Se abilitata, l'offset suggerito dall'ultima giocata in una beatmap viene applicato automaticamente.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Usa la modalità audio sperimentale</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Questo tenterà di inizializzare il motore audio in una modalità di latenza inferiore.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>A causa della ridotta latenza, l'offset audio dovrà essere regolato quando si attiva questa impostazione. Generalmente, aspettatevi di sottrarre 20 - 60 ms dal vostro valore iniziale.</value>
+  </data>
 </root>

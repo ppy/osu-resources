@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>выйти</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Пожалуйста, введите одноразовый пароль из вашего приложения для аутентификации.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Также, вы можете {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>выйти</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Если вы потеряли доступ к приложению, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>запросите подтверждение входа по электронной почте</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Код подтверждения устарел, отправлено новое письмо.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Код подтверждения устарел, отправлено новое письмо.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Этот одноразовый пароль уже был использован. Пожалуйста, подождите немного и введите новый.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Токен аутентификации был отозван, возвращено подтверждение входа по электронной почте. Вам уже отправлено письмо с кодом подтверждения.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Произошла неизвестная ошибка, отправлено новое письмо.</value>

@@ -98,12 +98,27 @@
     <value>根據最近的 {0} 次遊戲，你的偏移已被正確設置！</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>根據最近的 {0} 次遊戲，建議的偏移調整為 {1} ms。</value>
+    <value>根據最近 {0} 次的遊玩，建議的偏移值為 {1} 毫秒。</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>套用推薦的偏移設定</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>音訊偏移設定精靈</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>自動調整圖譜偏移</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>若開啟，來自上一個圖譜遊玩紀錄的建議偏移設定會自動生效。</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>使用實驗性音訊模式</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>這會嘗試以低延遲模式啟動音訊引擎。</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>由於延遲程度降低，您需要在開啟此設定時對音訊偏移進行調整。通常會是現在的數值減去 20 ~ 60ms。</value>
   </data>
 </root>

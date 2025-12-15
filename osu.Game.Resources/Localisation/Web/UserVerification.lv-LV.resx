@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>izrakstīties</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Lūdzu, ievadi kodu no savas autentifikatora lietotnes.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Tu vari arī {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>izrakstīties</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Ja nevari piekļūt savai lietotnei, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>tu vari verificēt, izmantojot e-pastu</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Verifikācijas kodam beidzies termiņš, aizsūtīts jauns verifikācijas e-pasts.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Verifikācijas kods atkārtoti izsniegts, aizstūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verifikācijas kods jau ir izmantots. Lūdzu, uzgaidi un izmanto jaunu.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Autentifikācijas marķieris ir noņemts, pārslēdzamies uz e-pasta verifikāciju. Verifikācijas e-pasts ir nosūtīts.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Uzradās nepazīstama problēma, aizsūtīts jauns verifikācijas e-pasts.</value>

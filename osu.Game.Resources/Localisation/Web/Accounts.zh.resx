@@ -209,7 +209,7 @@
     <value>推送</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
-    <value>已授权的第三方</value>
+    <value>已授权的第三方应用</value>
   </data>
   <data name="oauth.own_clients" xml:space="preserve">
     <value>拥有的客户端</value>
@@ -259,6 +259,9 @@
   <data name="privacy.hide_online" xml:space="preserve">
     <value>隐藏在线状态</value>
   </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>将同步到 osu!lazer 的隐身模式</value>
+  </data>
   <data name="privacy.title" xml:space="preserve">
     <value>隐私</value>
   </data>
@@ -285,6 +288,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>更新</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>身份验证器应用</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>使用身份验证器应用而不是电子邮件进行验证。电子邮件验证仍会作为备用选项。</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>添加身份验证器应用</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>未设置</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>已设置</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>现在可以关闭此窗口</value>

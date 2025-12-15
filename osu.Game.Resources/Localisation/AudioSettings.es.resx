@@ -92,7 +92,7 @@
     <value>Compensación de sonido</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>¡Juega algunos beatmaps para recibir una compensación sugerida!</value>
+    <value>¡Juega algunos mapas para recibir una compensación sugerida!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
     <value>Según tus últimas {0} jugadas, ¡tu compensación es correcta!</value>
@@ -105,5 +105,20 @@
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Asistente de compensación</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajustar compensación del mapa automáticamente</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Si se activa, la compensación sugerida de la última jugada de un mapa se aplica automáticamente.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Usar modo de audio experimental</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Esto intentará iniciar el motor de audio en un modo de menor latencia.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Debido a la reducción de la latencia, será necesario ajustar la compensación del audio al activar esta opción. Por lo general, se espera restar entre 20 y 60 ms del valor ya conocido.</value>
   </data>
 </root>
