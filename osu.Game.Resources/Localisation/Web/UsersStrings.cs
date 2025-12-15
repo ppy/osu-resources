@@ -1195,6 +1195,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoWebsite => new TranslatableString(getKey(@"show.info.website"), @"Website");
 
         /// <summary>
+        /// "Details coming soon!"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingDetailsSoon => new TranslatableString(getKey(@"show.matchmaking.details_soon"), @"Details coming soon!");
+
+        /// <summary>
+        /// "Quick Play"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingTitle => new TranslatableString(getKey(@"show.matchmaking.title"), @"Quick Play");
+
+        /// <summary>
         /// "They may have changed their username."
         /// </summary>
         public static LocalisableString ShowNotFoundReason1 => new TranslatableString(getKey(@"show.not_found.reason_1"), @"They may have changed their username.");

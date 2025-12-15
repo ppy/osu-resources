@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>ausloggen</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Bitte gib die PIN aus deiner Authentifizierungs-App ein.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Du kannst dich auch {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>ausloggen</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Wenn du keinen Zugriff auf deine App hast, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>kannst du dich auch per E-Mail authentifizieren</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Der Bestätigungscode ist abgelaufen, eine neue E-Mail wurde gesendet.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Neuer Bestätigungscode wurde angefordert, eine neue E-Mail wurde gesendet.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Die PIN wurde bereits verwendet. Bitte warte und verwende eine neue.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Die Zwei-Faktor-Authentifizierung wurde deaktiviert. Es wird auf die Authentifizierung per E-Mail gewechselt. Eine E-Mail mit einem PIN wurde bereits versendet.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Ein unbekannter Fehler ist aufgetreten, eine neue E-Mail wurde gesendet.</value>

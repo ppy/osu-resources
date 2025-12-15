@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>se odhlásit</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Zadej prosím kód z tvojí ověřovací aplikace.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Můžeš se také {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>odhlásit</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Pokud nemáš přístup ke své aplikaci, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>můžeš se místo toho ověřit pomocí emailu</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Ověřovací kód vypršel, byl zaslán nový ověřovací email.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Ověřovací kód znovu vygenerován, byl zaslán nový ověřovací email.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Ověřovací kód byl již použit. Počkej prosím a použij nový.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Ověřovací token byl odebrán, přepnuto na ověřování emailem. Ověřovací email byl odeslán.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Vyskytl se neznámý problém, byl zaslán nový ověřovací email.</value>

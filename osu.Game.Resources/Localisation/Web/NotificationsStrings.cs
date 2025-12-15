@@ -470,6 +470,21 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemNewsPostCommentCommentReplyCompact(LocalisableString username, LocalisableString content) => new TranslatableString(getKey(@"item.news_post.comment.comment_reply_compact"), @"{0} replied ""{1}""", username, content);
 
         /// <summary>
+        /// "News ({0})"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostDefault(LocalisableString series) => new TranslatableString(getKey(@"item.news_post.news_post._"), @"News ({0})", series);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostNewsPostNew(LocalisableString title) => new TranslatableString(getKey(@"item.news_post.news_post.news_post_new"), @"{0}", title);
+
+        /// <summary>
+        /// "{0}"
+        /// </summary>
+        public static LocalisableString ItemNewsPostNewsPostNewsPostNewCompact(LocalisableString title) => new TranslatableString(getKey(@"item.news_post.news_post.news_post_new_compact"), @"{0}", title);
+
+        /// <summary>
         /// "Forum topic"
         /// </summary>
         public static LocalisableString ItemForumTopicDefault => new TranslatableString(getKey(@"item.forum_topic._"), @"Forum topic");
@@ -673,6 +688,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "News &quot;{0}&quot; has new comments"
         /// </summary>
         public static LocalisableString MailNewsPostCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.news_post.comment.comment_new"), @"News ""{0}"" has new comments", title);
+
+        /// <summary>
+        /// "News ({0}): &quot;{1}&quot;"
+        /// </summary>
+        public static LocalisableString MailNewsPostNewsPostNewsPostNew(LocalisableString series, LocalisableString title) => new TranslatableString(getKey(@"mail.news_post.news_post.news_post_new"), @"News ({0}): ""{1}""", series, title);
 
         /// <summary>
         /// "There are new replies in &quot;{0}&quot;"

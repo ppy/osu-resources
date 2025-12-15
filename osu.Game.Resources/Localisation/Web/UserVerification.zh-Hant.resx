@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>登出</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>請輸入您驗證器應用程式中的代碼。</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>您也可以 {0} 。</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>如果您無法使用應用程式， {0} 。</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>您也可以使用電子郵件驗證</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>該驗證碼已經過期，新驗證碼已經重新發送。</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>新驗證碼已經重新發送。</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>驗證代碼已被使用。請等待並使用新的代碼。</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>驗證密鑰已被移除，將使用電子郵件驗證。驗證碼已傳送。</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>發生了未知的錯誤，新驗證碼已經重新發送。</value>

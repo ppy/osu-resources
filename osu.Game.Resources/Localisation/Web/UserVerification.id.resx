@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>keluar dari akun</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Silakan masukkan kode yang diterima dari aplikasi autentikator yang kamu gunakan.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Kamu juga dapat {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>keluar dari akun</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Apabila kamu tidak dapat mengakses aplikasimu, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>kamu dapat memverifikasi akun kamu melalui email sebagai gantinya</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Kode verifikasi telah kedaluwarsa, email verifikasi baru telah dikirim.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Kode verifikasi diperbarui, email verifikasi baru telah dikirim.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Kode verifikasi telah digunakan. Silakan tunggu dan gunakan kode verifikasi yang baru.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Token autentikasi telah dihapus. Beralih ke email verifikasi. Email verifikasi telah dikirim.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Terjadi masalah yang tidak diketahui, email verifikasi baru telah dikirim.</value>

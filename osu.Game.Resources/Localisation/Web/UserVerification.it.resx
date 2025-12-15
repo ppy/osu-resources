@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>disconnetterti</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Inserisci il codice dalla tua app di autenticazione.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Puoi anche {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>uscire</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Se non riesci ad accedere alla tua app, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>puoi verificare anche usando l'email</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Codice di verifica scaduto, è stata inviata una nuova email di verifica.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Nuovo codice di verifica richiesto, è stata inviata una nuova email di verifica.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Il codice di verifica è stato già utilizzato. Attendi e utilizzane uno nuovo.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Il token di autenticazione è stato rimosso, passando alla verifica tramite email. L'email di verifica è stata inviata.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>È successo un problema sconosciuto, è stata inviata una nuova email di verifica.</value>

@@ -35,6 +35,86 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexTitleInfo => new TranslatableString(getKey(@"index.title.info"), @"frontpage");
 
         /// <summary>
+        /// "Beatmap Spotlights"
+        /// </summary>
+        public static LocalisableString SeriesBeatmapSpotlights => new TranslatableString(getKey(@"series.beatmap_spotlights"), @"Beatmap Spotlights");
+
+        /// <summary>
+        /// "community contests"
+        /// </summary>
+        public static LocalisableString SeriesCommunityContests => new TranslatableString(getKey(@"series.community_contests"), @"community contests");
+
+        /// <summary>
+        /// "community tournaments"
+        /// </summary>
+        public static LocalisableString SeriesCommunityTournaments => new TranslatableString(getKey(@"series.community_tournaments"), @"community tournaments");
+
+        /// <summary>
+        /// "art contests"
+        /// </summary>
+        public static LocalisableString SeriesFanartContests => new TranslatableString(getKey(@"series.fanart_contests"), @"art contests");
+
+        /// <summary>
+        /// "Featured Artist announcements"
+        /// </summary>
+        public static LocalisableString SeriesFeaturedArtists => new TranslatableString(getKey(@"series.featured_artists"), @"Featured Artist announcements");
+
+        /// <summary>
+        /// "client and website updates"
+        /// </summary>
+        public static LocalisableString SeriesGameUpdates => new TranslatableString(getKey(@"series.game_updates"), @"client and website updates");
+
+        /// <summary>
+        /// "Mappers&#39; Guild"
+        /// </summary>
+        public static LocalisableString SeriesMappersGuild => new TranslatableString(getKey(@"series.mappers_guild"), @"Mappers' Guild");
+
+        /// <summary>
+        /// "Monthly Beatmapping Contest"
+        /// </summary>
+        public static LocalisableString SeriesMonthlyBeatmappingContest => new TranslatableString(getKey(@"series.monthly_beatmapping_contest"), @"Monthly Beatmapping Contest");
+
+        /// <summary>
+        /// "osu! merchandise"
+        /// </summary>
+        public static LocalisableString SeriesMerchRuns => new TranslatableString(getKey(@"series.merch_runs"), @"osu! merchandise");
+
+        /// <summary>
+        /// "miscellaneous announcements"
+        /// </summary>
+        public static LocalisableString SeriesMiscellaneous => new TranslatableString(getKey(@"series.miscellaneous"), @"miscellaneous announcements");
+
+        /// <summary>
+        /// "official contests"
+        /// </summary>
+        public static LocalisableString SeriesOfficialContests => new TranslatableString(getKey(@"series.official_contests"), @"official contests");
+
+        /// <summary>
+        /// "offline events"
+        /// </summary>
+        public static LocalisableString SeriesOfflineEvents => new TranslatableString(getKey(@"series.offline_events"), @"offline events");
+
+        /// <summary>
+        /// "online events"
+        /// </summary>
+        public static LocalisableString SeriesOnlineEvents => new TranslatableString(getKey(@"series.online_events"), @"online events");
+
+        /// <summary>
+        /// "Project Loved"
+        /// </summary>
+        public static LocalisableString SeriesProjectLoved => new TranslatableString(getKey(@"series.project_loved"), @"Project Loved");
+
+        /// <summary>
+        /// "ranking system updates"
+        /// </summary>
+        public static LocalisableString SeriesRankingSystemUpdates => new TranslatableString(getKey(@"series.ranking_system_updates"), @"ranking system updates");
+
+        /// <summary>
+        /// "osu! World Cups"
+        /// </summary>
+        public static LocalisableString SeriesWorldCups => new TranslatableString(getKey(@"series.world_cups"), @"osu! World Cups");
+
+        /// <summary>
         /// "by {0}"
         /// </summary>
         public static LocalisableString ShowBy(LocalisableString user) => new TranslatableString(getKey(@"show.by"), @"by {0}", user);

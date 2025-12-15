@@ -70,6 +70,18 @@
   <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
     <value>La delegazione con le credenziali del client è solo disponibile ai chat bot.</value>
   </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Questo scope è valido solo per token client_credentials.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>La delegazione non è supportata per questa combinazione di scope.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>scope delegato è richiesto.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>I token senza scope non sono validi.</value>
+  </data>
   <data name="invalid_scope.bot_only" xml:space="preserve">
     <value>Questo scopo è solo disponibile ai chat bot o ai tuoi client.</value>
   </data>

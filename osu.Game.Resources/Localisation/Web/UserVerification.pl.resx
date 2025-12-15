@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>wylogować się</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Wprowadź kod z aplikacji uwierzytelniającej.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Możesz również {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>wyloguj się</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Jeżeli nie możesz uzyskać dostępu do aplikacji, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>zamiast tego możesz się zweryfikować używając e-maila </value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Ten kod wygasł. Wysłano nowy kod weryfikacyjny.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Wygenerowano nowy kod weryfikacyjny. Sprawdź swoją skrzynkę odbiorczą.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Kod weryfikacyjny został już użyty. Proszę poczekać i użyć nowego.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Token uwierzytelniania został usunięty, zmieniam na weryfikację e-mailem. E-mail weryfikacyjny został wysłany.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Wystąpił nieoczekiwany błąd. Wysłano nowy kod weryfikacyjny.</value>

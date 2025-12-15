@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>çıkış yapabilirsiniz</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Doğrulama uygulamanızdaki kodu girin.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Aynı zamanda {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>Çıkış yapabilirsin</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Uygulamana erişemiyorsan, {0}</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>Email ile doğrulayabilirsin</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Doğrulama kodunun süresi doldu, yeni doğrulama e-postası yollandı.</value>
   </data>
@@ -99,6 +114,9 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Doğrulama kodu yeniden verildi, yeni e-posta gönderildi.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Doğrulama kodu zaten kullanıldı. Lütfen bekleyin ve yeni bir tane kullanın.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Bilinmeyen hata oluştu, yeni doğrulama e-postası gönderildi.</value>

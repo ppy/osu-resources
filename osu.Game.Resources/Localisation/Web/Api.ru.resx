@@ -62,16 +62,16 @@
     <value>Нельзя отправить пустое сообщение.</value>
   </data>
   <data name="error.chat.limit_exceeded" xml:space="preserve">
-    <value>Вы слишком часто отправляете сообщения. Пожалуйста, немного подождите.</value>
+    <value>Вы слишком часто отправляете сообщения. Пожалуйста, немного подождите и повторите отправку.</value>
   </data>
   <data name="error.chat.too_long" xml:space="preserve">
-    <value>Сообщение, которое вы пытаетесь отправить, слишком длинное.</value>
+    <value>Вы пытаетесь отправить слишком длинное сообщение.</value>
   </data>
   <data name="scopes.bot" xml:space="preserve">
     <value>Функционировать как чат-бот.</value>
   </data>
   <data name="scopes.identify" xml:space="preserve">
-    <value>Идентифицировать вас и читать общедоступные данные.</value>
+    <value>Идентифицировать вас и читать публичные данные вашего профиля.</value>
   </data>
   <data name="scopes.chat.read" xml:space="preserve">
     <value>Читать сообщения от вашего имени.</value>
@@ -84,6 +84,9 @@
   </data>
   <data name="scopes.forum.write" xml:space="preserve">
     <value>Создавать и редактировать темы и посты на форуме от вашего имени.</value>
+  </data>
+  <data name="scopes.forum.write_manage" xml:space="preserve">
+    <value>Управлять темами и постами на форуме от вашего имени.</value>
   </data>
   <data name="scopes.friends.read" xml:space="preserve">
     <value>Видеть список ваших друзей.</value>

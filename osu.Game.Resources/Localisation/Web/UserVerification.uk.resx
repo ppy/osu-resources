@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>вийти</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Будь ласка, введіть код з вашого додатку для автентифікації.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Ви також можете {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>вийти</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Якщо ви не можете отримати доступ до вашого додатку, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>ви можете використати замість цього електронну пошту </value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Даний код не є дійсним, відправлено новий лист.</value>
   </data>
@@ -99,6 +114,13 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Лист з кодом підтвердження відправлено повторно.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Цей код верифікації вже використано. Зачекайте й використайте новий.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Токен автентифікації було вилучено, перемикання на верифікацію електронною поштою. 
+Лист для верифікації було відправлено.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Сталась невідома помилка, новий лист з кодом відправлено.</value>
