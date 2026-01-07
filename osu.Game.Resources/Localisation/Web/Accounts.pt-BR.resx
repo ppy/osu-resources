@@ -172,6 +172,9 @@
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>receber notificações das respostas aos seus comentários</value>
   </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>receber notificações para novos posts</value>
+  </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Notificações</value>
   </data>
@@ -200,10 +203,13 @@
     <value>resposta em tópico</value>
   </data>
   <data name="notifications.options.mail" xml:space="preserve">
-    <value>Caixa de Entrada</value>
+    <value>email</value>
   </data>
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>mapper do beatmap</value>
+  </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>novos posts</value>
   </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
@@ -254,7 +260,7 @@
     <value>touch</value>
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
-    <value>Bloquear mensagens de pessoas que não estão na sua lista de amigos</value>
+    <value>bloquear mensagens de pessoas que não estão na sua lista de amigos</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>esconder sua presença online</value>
@@ -293,7 +299,7 @@
     <value>Autenticador</value>
   </data>
   <data name="user_totp.usage_note" xml:space="preserve">
-    <value>Use um app de autenticação no lugar de seu email para verificação. A verificação por email estará disponível como uma segunda opção.</value>
+    <value>Use um app de autenticação no lugar do seu email para verificação. A verificação por email continuará disponível como uma segunda opção.</value>
   </data>
   <data name="user_totp.button.remove" xml:space="preserve">
     <value>Remover</value>

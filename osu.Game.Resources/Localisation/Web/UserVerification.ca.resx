@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>tanca la sessió</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Escriviu el codi de l'Authenticator.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>També podeu {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>tancar la sessió</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Si no podeu entrar a l'aplicació, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>podeu fer la verificació amb el correu electrònic</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>El codi de verificació ha caducat, s'ha enviat un correu electrònic de verificació nou.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>S'ha reeditat el codi de verificació, s'ha enviat un nou correu electrònic de verificació.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>El codi de verificació ja s'ha fet servir. Espereu un moment i feu-ne servir un de nou.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>El testimoni d'autenticació s'ha eliminat. Es canvia a verificació per correu electrònic. S'ha enviat un correu electrònic.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>S'ha produït un problema desconegut, s'ha enviat un correu electrònic de verificació nou.</value>

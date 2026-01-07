@@ -94,6 +94,9 @@
   <data name="suggested_offset_note" xml:space="preserve">
     <value>Játssz néhány beatmapet, hogy megkapja a javasolt eltolást!</value>
   </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>Az eltolás beállítva az utolsó {0} lejátszás alapján!</value>
+  </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
     <value>Az utolsó {0} lejátszás alapján a javasolt eltolás {1} ms.</value>
   </data>
@@ -102,5 +105,20 @@
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Eltolásvarázsló</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Beatmap eltolás autómatikus igazítása</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Ha engedélyezve van, az utolsó beatmap-lejátszás során javasolt eltolás automatikusan alkalmazásra kerül.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Kísérleti hang mód használata</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Megpróbálja az hang motort alacsonyabb késleltetésű módban elindítani.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>A csökkentett késleltetés miatt ennek a beállításnak az engedélyezésekor az hang-eltolást módosítani kell. Általában arra lehet számítani, hogy a korábban megszokott értékből 20–60 ms-ot kell levonni.</value>
   </data>
 </root>
