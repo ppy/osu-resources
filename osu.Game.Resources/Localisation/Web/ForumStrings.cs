@@ -95,14 +95,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MarkAsReadBusy => new TranslatableString(getKey(@"mark_as_read.busy"), @"Marking as read...");
 
         /// <summary>
-        /// "Really delete post?"
+        /// "Are you sure you want to delete this post?"
         /// </summary>
-        public static LocalisableString PostConfirmDestroy => new TranslatableString(getKey(@"post.confirm_destroy"), @"Really delete post?");
+        public static LocalisableString PostConfirmDestroy => new TranslatableString(getKey(@"post.confirm_destroy"), @"Are you sure you want to delete this post?");
 
         /// <summary>
-        /// "Really restore post?"
+        /// "Are you sure you want to restore this post?"
         /// </summary>
-        public static LocalisableString PostConfirmRestore => new TranslatableString(getKey(@"post.confirm_restore"), @"Really restore post?");
+        public static LocalisableString PostConfirmRestore => new TranslatableString(getKey(@"post.confirm_restore"), @"Are you sure you want to restore this post?");
 
         /// <summary>
         /// "Last edited by {0} {1}, edited {2} time in total.|Last edited by {0} {1}, edited {2} times in total."
@@ -170,14 +170,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchTotalPosts(LocalisableString postsCount) => new TranslatableString(getKey(@"search.total_posts"), @"{0} posts total", postsCount);
 
         /// <summary>
-        /// "Really delete topic?"
+        /// "Are you sure you want to delete this topic?"
         /// </summary>
-        public static LocalisableString TopicConfirmDestroy => new TranslatableString(getKey(@"topic.confirm_destroy"), @"Really delete topic?");
+        public static LocalisableString TopicConfirmDestroy => new TranslatableString(getKey(@"topic.confirm_destroy"), @"Are you sure you want to delete this topic?");
 
         /// <summary>
-        /// "Really restore topic?"
+        /// "Are you sure you want to restore this topic?"
         /// </summary>
-        public static LocalisableString TopicConfirmRestore => new TranslatableString(getKey(@"topic.confirm_restore"), @"Really restore topic?");
+        public static LocalisableString TopicConfirmRestore => new TranslatableString(getKey(@"topic.confirm_restore"), @"Are you sure you want to restore this topic?");
 
         /// <summary>
         /// "deleted topic"
