@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Nhấn Ctrl-T ở bất kỳ đâu trong trò chơi để bật/tắt thanh công cụ!</value>
+    <value>Nhấn {0} ở bất kỳ đâu trong trò chơi để bật/tắt thanh công cụ!</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Nhấn Ctrl-O ở bất kỳ đâu trong trò chơi để mở cài đặt!</value>
+    <value>Nhấn {0} ở bất kỳ đâu trong trò chơi để mở cài đặt!</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>Tất cả cài đặt đều là động và có hiệu lực ngay lập tức. Hãy thử thay đổi skin khi đang xem chế độ autoplay!</value>
@@ -77,7 +77,7 @@
     <value>Hãy thử điều chỉnh chế độ 'Tỷ lệ màn hình' để thay đổi khu vực chơi hoặc giao diện, ngay cả khi ở chế độ toàn màn hình!</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>Chức năng trước đây là 'osu!direct' hiện có sẵn cho tất cả người dùng giống như trên trang web. Bạn có thể truy cập nó ở bất kỳ đâu bằng cách nhấn Ctrl-B!</value>
+    <value>Chức năng trước đây là 'osu!direct' hiện có sẵn cho tất cả người dùng giống như trên trang web. Bạn có thể truy cập nó ở bất kỳ đâu bằng cách nhấn {0}!</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>Chức năng tìm kiếm trong replay có sẵn bằng cách kéo thanh tiến độ ở dưới cùng màn hình hoặc sử dụng phím mũi tên trái và phải!</value>
@@ -98,13 +98,13 @@
     <value>Bật/tắt số đo khung hình / luồng nâng cao bằng Ctrl-F11!</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>Bạn có thể tạm dừng trong khi xem replay bằng cách nhấn phím Space!</value>
+    <value>Bạn có thể tạm dừng trong khi xem replay bằng cách nhấn phím {0}!</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
     <value>Hầu hết các phím tắt trong trò chơi đều có thể cấu hình và thay đổi theo ý muốn của bạn. Hãy kiểm tra bảng gán phím trong phần cài đặt đầu vào!</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>Giao diện HUD của bạn có thể được tùy chỉnh bằng cách sử dụng trình chỉnh sửa bố cục skin. Mở nó bất kỳ lúc nào bằng Ctrl-Shift-S!</value>
+    <value>Giao diện HUD của bạn có thể được tùy chỉnh bằng cách sử dụng trình chỉnh sửa bố cục skin. Mở nó bất kỳ lúc nào bằng {0}!</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>Bạn có thể tạo các preset mod để dễ dàng bật/tắt các kết hợp mod yêu thích của mình!</value>
@@ -113,10 +113,10 @@
     <value>Nhiều mod có cài đặt tùy chỉnh thay đổi mạnh mẽ cách thức hoạt động của chúng. Nhấn nút Tùy chỉnh trong phần chọn mod để xem các cài đặt!</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Nhấn Ctrl-Shift-R để chuyển sang một skin ngẫu nhiên!</value>
+    <value>Nhấn {0} để chuyển sang một skin ngẫu nhiên!</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>Khi xem replay, nhấn Ctrl-H để bật/tắt cài đặt replay!</value>
+    <value>Khi xem replay, nhấn {0} để bật/tắt cài đặt replay!</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>Bạn có thể dễ dàng sao chép các mod từ điểm số trên bảng xếp hạng bằng cách nhấp chuột phải vào chúng!</value>
@@ -137,13 +137,16 @@
     <value>Xem các chỉ số hiệu suất và bật ghi log hiệu suất chi tiết bằng Ctrl-F2!</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>Khi giao diện HUD trong trò chơi của bạn bị ẩn, bạn có thể nhấn và giữ Ctrl để xem nó tạm thời!</value>
+    <value>Khi giao diện HUD trong trò chơi của bạn bị ẩn, bạn có thể nhấn và giữ {0} để xem nó tạm thời!</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>Kéo và thả bất kỳ hình ảnh nào vào trình chỉnh sửa skin để tải nhanh chóng!</value>
   </data>
   <data name="right_mouse_absolute_scroll" xml:space="preserve">
     <value>Hãy thử giữ chuột phải gần vòng xoay bản đồ nhịp điệu để nhanh chóng xoay đến vị trí tối đa!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Giữ shift và bấm vào một beatmap trên bảng trong danh sách beatmap để nhanh chóng tải hoặc xem beatmap trong phần chọn nhạc!</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>một mẹo dành cho bạn:</value>
