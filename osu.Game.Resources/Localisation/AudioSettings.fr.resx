@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Assistant de décalage</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajuster automatiquement le décalage audio</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Si activé, le décalage audio suggéré lors de la dernière partie sera automatiquement appliqué.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Utiliser le mode audio expérimental</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Cela tentera d'initialiser le moteur audio en mode latence réduite.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>En raison de la latence réduite, votre décalage audio devra être ajusté si vous activez ce paramètre. De manière générale, vous devrez réduire votre latence actuelle d'environ 20 à 60 ms.</value>
+  </data>
 </root>
