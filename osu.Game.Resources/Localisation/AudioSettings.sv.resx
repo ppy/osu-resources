@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Förskjutningsguide</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Justera Slagkarta förskjutning automatiskt</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Om aktiverad, tillämpas den offset som föreslagits från senaste uppspelning på en slagkarta automatiskt.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Använd experimentellt ljudläge</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Detta kommer att försöka initiera ljudmotorn i ett lägre latensläge.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>På grund av minskad fördröjning måste ljudförskjutningen justeras när den här inställningen aktiveras. Generellt räkna med att subtrahera 20 - 60 ms från ditt kända värde.</value>
+  </data>
 </root>

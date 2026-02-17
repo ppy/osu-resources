@@ -73,6 +73,12 @@
   <data name="daily_challenge.top_50p" xml:space="preserve">
     <value>Topp 50% resultat</value>
   </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Ingen daglig utmaning på angivet datum ännu!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Ingen daglig utmaning på angivet datum!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Visa</value>
   </data>
@@ -88,8 +94,44 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>Spenderat</value>
   </data>
+  <data name="matchmaking.plays" xml:space="preserve">
+    <value>Spelningar</value>
+  </data>
+  <data name="matchmaking.points" xml:space="preserve">
+    <value>Poäng</value>
+  </data>
+  <data name="matchmaking.provisional" xml:space="preserve">
+    <value>Inte tillräckligt med matcher som spelas för att exakt bestämma betyg</value>
+  </data>
+  <data name="matchmaking.rating" xml:space="preserve">
+    <value>Betyg</value>
+  </data>
+  <data name="matchmaking.wins" xml:space="preserve">
+    <value>Vinster</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>Rumsnamn </value>
+  </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>Denna spelare har mindre än 30 dagar av nylig rankinghistorik.</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>Data beräknas...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>Senast uppdaterat</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>spotlights (gammal)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>utvald</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>säsongsrum</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>säsonger</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>land</value>
@@ -103,8 +145,17 @@
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>snabbspel</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>spellistor</value>
+  </data>
   <data name="type.team" xml:space="preserve">
     <value>lag</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>topp spelningar</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Det finns inga rum i denna säsong ännu.</value>
@@ -114,6 +165,9 @@
   </data>
   <data name="seasons.room_count" xml:space="preserve">
     <value>Antal spellistor</value>
+  </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>Sammanfattning av säsong</value>
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Visa mer information om den säsongen.</value>

@@ -58,7 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>Client Credentialsでは * は許可されていません</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* は他のスコープと併用できません</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>クライアントのオーナーが見つかりません。</value>
+  </data>
   <data name="invalid_scope.client_unauthorized" xml:space="preserve">
     <value>クライアントは承認されていません。</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>クライアント資格情報を使用した委任は、チャットボットのみ利用可能です。</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>このスコープは、client_credentialsトークンに対してのみ有効です。</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>このスコープの組み合わせでは、権限の委譲はサポートされていません。</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>委任スコープが必要です。</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>スコープが設定されていないトークンは無効です。</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>このスコープは、チャットボットまたは自身で作成したクライアントでのみ利用可能です。</value>
   </data>
 </root>

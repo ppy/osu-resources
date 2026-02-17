@@ -190,6 +190,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString SearchModeWikiPage => new TranslatableString(getKey(@"search.mode.wiki_page"), @"wiki");
 
         /// <summary>
+        /// "Sign in to search teams"
+        /// </summary>
+        public static LocalisableString SearchTeamLoginRequired => new TranslatableString(getKey(@"search.team.login_required"), @"Sign in to search teams");
+
+        /// <summary>
         /// "See more team search results"
         /// </summary>
         public static LocalisableString SearchTeamMoreSimple => new TranslatableString(getKey(@"search.team.more_simple"), @"See more team search results");
@@ -433,6 +438,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "osu!store"
         /// </summary>
         public static LocalisableString UserButtonsStore => new TranslatableString(getKey(@"user.buttons.store"), @"osu!store");
+
+        /// <summary>
+        /// "Featured Livestream"
+        /// </summary>
+        public static LocalisableString UserLivestreamTitle => new TranslatableString(getKey(@"user.livestream.title"), @"Featured Livestream");
 
         /// <summary>
         /// "Open admin console"

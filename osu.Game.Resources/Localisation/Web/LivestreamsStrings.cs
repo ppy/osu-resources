@@ -10,14 +10,14 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Livestreams";
 
         /// <summary>
-        /// "Are you sure you want to promote this livestream?"
+        /// "Are you sure you want to promote this livestream on the homepage?"
         /// </summary>
-        public static LocalisableString PromotePin => new TranslatableString(getKey(@"promote.pin"), @"Are you sure you want to promote this livestream?");
+        public static LocalisableString PromotePin => new TranslatableString(getKey(@"promote.pin"), @"Are you sure you want to promote this livestream on the homepage?");
 
         /// <summary>
-        /// "Are you sure you want to remove this livestream&#39;s promotion?"
+        /// "Are you sure you want to remove this livestream&#39;s promotion from the homepage?"
         /// </summary>
-        public static LocalisableString PromoteUnpin => new TranslatableString(getKey(@"promote.unpin"), @"Are you sure you want to remove this livestream's promotion?");
+        public static LocalisableString PromoteUnpin => new TranslatableString(getKey(@"promote.unpin"), @"Are you sure you want to remove this livestream's promotion from the homepage?");
 
         /// <summary>
         /// "Live Streams"

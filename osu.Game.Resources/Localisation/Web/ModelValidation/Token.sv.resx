@@ -61,6 +61,9 @@
   <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
     <value>* är inte tillåtet med klientuppgifter</value>
   </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* är inte giltigt med andra tillämpningsområden</value>
+  </data>
   <data name="invalid_scope.client_missing_owner" xml:space="preserve">
     <value>Klienten saknar ägare.</value>
   </data>
@@ -69,5 +72,20 @@
   </data>
   <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
     <value>Delegering med klientuppgifter är endast tillgänglig för chattrobotar.</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Detta område är endast giltigt för client_credentials poletter.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Delegationen stöds inte för denna kombination av omfång.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>delegatens omfattning krävs.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Poletter utan räckvidd är inte giltiga.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Detta område är endast tillgängligt för chattrobotar eller dina egna kunder.</value>
   </data>
 </root>

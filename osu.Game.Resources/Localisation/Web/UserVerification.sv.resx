@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>logga ut</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Ange koden från din autentiseringsapp.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Du kan också {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>logga ut</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Om du inte har åtkomst till din app, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>du kan verifiera med e-post istället</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Verifieringskoden har löpt ut, ett nytt bekräftelsemejl har skickats.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Verifieringskod återutfärdad, ett nytt bekräftelsemail har skickats.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verifikationskoden har redan använts. Vänta och använd en ny.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Autentiseringstoken har tagits bort, växlar till e-postverifiering. Verifieringsmejl har skickats.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Ett okänt problem uppstod, ett nytt bekräftelsemejl har skickats.</value>

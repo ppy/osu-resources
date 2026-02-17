@@ -97,6 +97,9 @@
   <data name="blocks.hide_comment" xml:space="preserve">
     <value>skjul</value>
   </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Dette opslag er skjult.</value>
+  </data>
   <data name="blocks.not_blocked" xml:space="preserve">
     <value>Denne bruger er ikke blokeret.</value>
   </data>
@@ -287,13 +290,13 @@
     <value>Spamming</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>Sender links med upassende indhold</value>
+    <value>Upassende indhold</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
-    <value>Du konto er blevet begrænset!</value>
+    <value>Din konto er blevet begrænset!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Når du er begrænset, kan du ikke interagere med andre spillere, og dine scores vil kun være synlige for dig. Dette er som regel en automatisk proces, og begrænsningen fjernes normalt indenfor 24 timer. {0}</value>
+    <value>Mens du er begrænset, kan du ikke interagere med andre spillere, og dine scores vil kun være synlige for dig. Dette sker som regel på grund af en automatisk proces, og begrænsningen fjernes normalt indenfor 24 timer. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Tjek denne side for at lære mere.</value>
@@ -623,7 +626,7 @@
     <value>{0}'s konto er ikke i en god position :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>{0} kan tale igen {1}.</value>
+    <value>{0} vil kunne tale igen {1}.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Seneste Overtrædelser</value>
@@ -635,7 +638,7 @@
     <value>handling</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
-    <value>længde</value>
+    <value>varighed</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
     <value>Tidsubegrænset</value>

@@ -82,6 +82,54 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} med {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>spelet avbröts</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>spelet avbröts</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>spelet har avslutats</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>spelet har avslutats</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} blev värd</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>värden ändrades</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} gick med i matchen</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>en spelare gick med i matchen</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} har sparkats från matchen</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>en spelare har sparkats från matchen</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} lämnade matchen</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>en spelare lämnade matchen</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} skapade matchen</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>matchen skapades</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>matchen upplöstes</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>matchen upplöstes</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precision</value>
   </data>
@@ -91,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Poäng</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Huvud-mot-huvud</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Lag samspel</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Lag spel VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Lag VS</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Blått lag</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Rött lag</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Fristil</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Högsta poäng</value>

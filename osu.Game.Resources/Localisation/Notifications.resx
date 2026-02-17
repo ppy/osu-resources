@@ -139,11 +139,8 @@ Click to see what's new!</value>
   <data name="friend_offline" xml:space="preserve">
     <value>Offline: {0}</value>
   </data>
-  <data name="api_disconnect" xml:space="preserve">
-    <value>Connection to API was lost. Can't continue with online play.</value>
-  </data>
-  <data name="multiplayer_disconnect" xml:space="preserve">
-    <value>Connection to the multiplayer server was lost. Exiting multiplayer.</value>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Connection to online services was interrupted. osu! will be operating with limited functionality.</value>
   </data>
   <data name="another_device_disconnect" xml:space="preserve">
     <value>You have been logged out on this device due to a login to your account on another device.</value>
@@ -165,5 +162,50 @@ Click to see what's new!</value>
   </data>
   <data name="collections_import_progress_total" xml:space="preserve">
     <value>Imported {0} of {1} collections</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>This error has been automatically reported to the dev team.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>A newer release of osu! has been found ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Click here to download the new version, which can be installed over the top of your existing installation.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Check with your package manager / provider to bring osu! up-to-date!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>An action was interrupted due to a dialog being displayed.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Exporting {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Exported {0}! Click to view.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Exporting logs...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Exported logs! Click to view.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Running osu! as {0} does not improve performance, may break integrations and poses a security risk. Please run the game as a normal user.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Screenshot {0} saved!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>The multiplayer server will be right back...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>The multiplayer server is restarting in {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Created new collection "{0}" with {1} beatmaps.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Added {0} beatmaps to collection "{1}".</value>
   </data>
 </root>

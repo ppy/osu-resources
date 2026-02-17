@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supportrar kommer att komma in snart)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Avslutad</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Avbryt</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Vänligen rapportera intrång i upphovsrätten genom ett DMCA-anspråk på {0} enligt {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! copyright policy</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Detta gäller för fall där ljudspår, visuellt innehåll eller innehåll på beatmapnivå används utan rätt tillstånd.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Fusk</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Upphovsrättsintrång</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Olämpligt chattbeteende</value>
@@ -631,6 +649,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>se fler inlägg</value>
   </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Snabba spelmatcher</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Senaste</value>
   </data>
@@ -742,6 +763,9 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Hemsida</value>
   </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Snabbspel</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>De kan ha ändrat sitt användarnamn.</value>
   </data>
@@ -804,6 +828,9 @@
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Träffsäkerhet</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Träffar per spel</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Nivå {0}</value>

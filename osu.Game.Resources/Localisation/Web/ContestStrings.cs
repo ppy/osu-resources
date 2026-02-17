@@ -175,24 +175,29 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EntryDropHere => new TranslatableString(getKey(@"entry.drop_here"), @"Drop your entry here");
 
         /// <summary>
+        /// "{0} files are accepted"
+        /// </summary>
+        public static LocalisableString EntryAllowedExtensions(LocalisableString types) => new TranslatableString(getKey(@"entry.allowed_extensions"), @"{0} files are accepted", types);
+
+        /// <summary>
+        /// "Max size: {0}"
+        /// </summary>
+        public static LocalisableString EntryMaxSize(LocalisableString limit) => new TranslatableString(getKey(@"entry.max_size"), @"Max size: {0}", limit);
+
+        /// <summary>
+        /// "Dimensions must be {0}{1}"
+        /// </summary>
+        public static LocalisableString EntryRequiredDimensions(LocalisableString widthx, LocalisableString height) => new TranslatableString(getKey(@"entry.required_dimensions"), @"Dimensions must be {0}{1}", widthx, height);
+
+        /// <summary>
         /// "Download .osz"
         /// </summary>
         public static LocalisableString EntryDownload => new TranslatableString(getKey(@"entry.download"), @"Download .osz");
 
         /// <summary>
-        /// "Only .jpg and .png files are accepted for this contest."
+        /// "Only {0} files are accepted for this contest."
         /// </summary>
-        public static LocalisableString EntryWrongTypeArt => new TranslatableString(getKey(@"entry.wrong_type.art"), @"Only .jpg and .png files are accepted for this contest.");
-
-        /// <summary>
-        /// "Only .osu files are accepted for this contest."
-        /// </summary>
-        public static LocalisableString EntryWrongTypeBeatmap => new TranslatableString(getKey(@"entry.wrong_type.beatmap"), @"Only .osu files are accepted for this contest.");
-
-        /// <summary>
-        /// "Only .mp3 files are accepted for this contest."
-        /// </summary>
-        public static LocalisableString EntryWrongTypeMusic => new TranslatableString(getKey(@"entry.wrong_type.music"), @"Only .mp3 files are accepted for this contest.");
+        public static LocalisableString EntryWrongFileType(LocalisableString types) => new TranslatableString(getKey(@"entry.wrong_file_type"), @"Only {0} files are accepted for this contest.", types);
 
         /// <summary>
         /// "Entries for this contest must be {0}{1}"

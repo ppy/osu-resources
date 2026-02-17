@@ -600,6 +600,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemUserAchievementUserAchievementUnlockUserAchievementUnlockGroup => new TranslatableString(getKey(@"item.user_achievement.user_achievement_unlock.user_achievement_unlock_group"), @"Medals unlocked!");
 
         /// <summary>
+        /// "News"
+        /// </summary>
+        public static LocalisableString MailNews => new TranslatableString(getKey(@"mail.news"), @"News");
+
+        /// <summary>
         /// "You&#39;re now guest of beatmap &quot;{0}&quot;"
         /// </summary>
         public static LocalisableString MailBeatmapsetBeatmapOwnerChangeBeatmapOwnerChange(LocalisableString title) => new TranslatableString(getKey(@"mail.beatmapset.beatmap_owner_change.beatmap_owner_change"), @"You're now guest of beatmap ""{0}""", title);
@@ -688,11 +693,6 @@ namespace osu.Game.Resources.Localisation.Web
         /// "News &quot;{0}&quot; has new comments"
         /// </summary>
         public static LocalisableString MailNewsPostCommentCommentNew(LocalisableString title) => new TranslatableString(getKey(@"mail.news_post.comment.comment_new"), @"News ""{0}"" has new comments", title);
-
-        /// <summary>
-        /// "News ({0}): &quot;{1}&quot;"
-        /// </summary>
-        public static LocalisableString MailNewsPostNewsPostNewsPostNew(LocalisableString series, LocalisableString title) => new TranslatableString(getKey(@"mail.news_post.news_post.news_post_new"), @"News ({0}): ""{1}""", series, title);
 
         /// <summary>
         /// "There are new replies in &quot;{0}&quot;"
