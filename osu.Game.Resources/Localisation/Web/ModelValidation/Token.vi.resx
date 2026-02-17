@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* Không thể sử dụng với Client Credentials</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* Không hợp lệ khi dùng chung với các scope khác</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Thiết bị này không có chủ sở hữu.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Client không được cấp quyền.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Delegation với Client Credentials chỉ khả dụng cho chat bot.</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Scope này chỉ hợp lệ với token client_credentials.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Không hỗ trợ Delegation cho cách kết hợp scope này.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>cần có scope delegate.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Token không có scope là không hợp lệ.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Chỉ chat bot hoặc client do bạn sở hữu mới dùng được scope này.</value>
+  </data>
 </root>

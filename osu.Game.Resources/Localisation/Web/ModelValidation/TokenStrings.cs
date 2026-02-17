@@ -30,9 +30,9 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         public static LocalisableString InvalidScopeClientUnauthorized => new TranslatableString(getKey(@"invalid_scope.client_unauthorized"), @"The client is not authorized.");
 
         /// <summary>
-        /// "Delegation with Client Credentials is only available to chat bots."
+        /// "Delegation with Client Credentials is only available to bots."
         /// </summary>
-        public static LocalisableString InvalidScopeDelegateBotOnly => new TranslatableString(getKey(@"invalid_scope.delegate_bot_only"), @"Delegation with Client Credentials is only available to chat bots.");
+        public static LocalisableString InvalidScopeDelegateBotOnly => new TranslatableString(getKey(@"invalid_scope.delegate_bot_only"), @"Delegation with Client Credentials is only available to bots.");
 
         /// <summary>
         /// "This scope is only valid for client_credentials tokens."
@@ -55,9 +55,9 @@ namespace osu.Game.Resources.Localisation.Web.ModelValidation
         public static LocalisableString InvalidScopeEmpty => new TranslatableString(getKey(@"invalid_scope.empty"), @"Tokens without scopes are not valid.");
 
         /// <summary>
-        /// "This scope is only available for chat bots or your own clients."
+        /// "This scope is only available for bots or your own clients."
         /// </summary>
-        public static LocalisableString InvalidScopeBotOnly => new TranslatableString(getKey(@"invalid_scope.bot_only"), @"This scope is only available for chat bots or your own clients.");
+        public static LocalisableString InvalidScopeBotOnly => new TranslatableString(getKey(@"invalid_scope.bot_only"), @"This scope is only available for bots or your own clients.");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

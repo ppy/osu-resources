@@ -865,6 +865,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraHistoricalReplaysWatchedCountsCountLabel => new TranslatableString(getKey(@"show.extra.historical.replays_watched_counts.count_label"), @"Replays Watched");
 
         /// <summary>
+        /// "Most Watched Replays"
+        /// </summary>
+        public static LocalisableString ShowExtraHistoricalScoreReplayStatsTitle => new TranslatableString(getKey(@"show.extra.historical.score_replay_stats.title"), @"Most Watched Replays");
+
+        /// <summary>
         /// "Recent Kudosu History"
         /// </summary>
         public static LocalisableString ShowExtraKudosuRecentEntries => new TranslatableString(getKey(@"show.extra.kudosu.recent_entries"), @"Recent Kudosu History");

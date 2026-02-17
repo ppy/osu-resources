@@ -50,6 +50,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ErrorMissingKey => new TranslatableString(getKey(@"error.missing_key"), @"Required.");
 
         /// <summary>
+        /// "Password reset request limit has been reached. Please contact support to recover account."
+        /// </summary>
+        public static LocalisableString ErrorTooManyRequests => new TranslatableString(getKey(@"error.too_many_requests"), @"Password reset request limit has been reached. Please contact support to recover account.");
+
+        /// <summary>
         /// "Too many failed attempts."
         /// </summary>
         public static LocalisableString ErrorTooManyTries => new TranslatableString(getKey(@"error.too_many_tries"), @"Too many failed attempts.");
@@ -58,6 +63,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Requested user does not exist."
         /// </summary>
         public static LocalisableString ErrorUserNotFound => new TranslatableString(getKey(@"error.user_not_found"), @"Requested user does not exist.");
+
+        /// <summary>
+        /// "Please wait a few moments."
+        /// </summary>
+        public static LocalisableString ErrorWaitResend => new TranslatableString(getKey(@"error.wait_resend"), @"Please wait a few moments.");
 
         /// <summary>
         /// "Incorrect code."

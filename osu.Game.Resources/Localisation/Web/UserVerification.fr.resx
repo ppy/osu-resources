@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>se déconnecter</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Veuillez saisir le code de votre application d'authentification.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Vous pouvez également {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>vous déconnecter</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Si vous ne pouvez pas accéder à votre application, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>vous pouvez vous authentifier à l'aide de votre adresse e-mail</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Le code de vérification a expiré, un nouvel e-mail de vérification a été envoyé.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Un nouveau code de vérification a été généré et envoyé, merci de vérifier votre boîte mail.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Ce code d'authentification a déjà été utilisé. Veuillez patienter et en utiliser un nouveau.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Le jeton d'authentification a été supprimé, vous devrez désormais vous authentifier par e-mail. Un e-mail de vérification vous a été envoyé.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Un problème inconnu est survenu, nouvel e-mail de vérification envoyé.</value>

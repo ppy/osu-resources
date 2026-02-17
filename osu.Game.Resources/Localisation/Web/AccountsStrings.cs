@@ -295,6 +295,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OauthTitle => new TranslatableString(getKey(@"oauth.title"), @"OAuth");
 
         /// <summary>
+        /// "show anime style beatmap covers"
+        /// </summary>
+        public static LocalisableString OptionsBeatmapsetShowAnimeCover => new TranslatableString(getKey(@"options.beatmapset_show_anime_cover"), @"show anime style beatmap covers");
+
+        /// <summary>
         /// "hide warnings for explicit content in beatmaps"
         /// </summary>
         public static LocalisableString OptionsBeatmapsetShowNsfw => new TranslatableString(getKey(@"options.beatmapset_show_nsfw"), @"hide warnings for explicit content in beatmaps");

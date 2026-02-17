@@ -158,13 +158,13 @@
     <value>Nytt inlägg på "{0}" av {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Nytt inlägg på "{0}" av {1}"</value>
+    <value>Nytt inlägg på {0} av "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Nytt inlägg av {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Ny recension av "{0}" av{1} som innehåller problem: {2}, förslag: {3}, beröm: {4}</value>
+    <value>Ny recension av "{0}" av {1} som innehåller problem: {2}, förslag: {3}, beröm: {4}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
     <value>Ny recension av {0} som innehåller problem: {1}, förslag: {2}, beröm: {3}</value>
@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>från {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Nytt lagmeddelande</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} säger "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} säger "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} säger "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Ändringslogg</value>
   </data>
@@ -322,6 +334,15 @@
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} svarade "{1}"</value>
   </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>Nyheter ({0})</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Forumämnen</value>
   </data>
@@ -343,11 +364,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Du är nu medlem i laget {0}</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Uppdateringar för Lag anslutning förfrågan</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Din begäran om att gå med i team {0} har avböjts</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Din begäran om att gå med i team {0} har avböjts</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} begärde att gå med i ditt team</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} begärde att gå med i ditt team</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Ny beatmap</value>
@@ -421,6 +451,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap "{0}" har nya kommentarer</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Det finns ett nytt meddelande i "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Du har fått ett nytt meddelande från {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Det finns ett nytt meddelande i laget "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Ändringslogg "{0}" har nya kommentarer</value>
   </data>
@@ -435,6 +474,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Din begäran om att gå med i team {0} har avböjts</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} begärde att gå med i ditt lag</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} har skapat nya beatmaps</value>

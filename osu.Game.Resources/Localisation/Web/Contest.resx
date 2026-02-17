@@ -157,17 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Drop your entry here</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} files are accepted</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Max size: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Dimensions must be {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Download .osz</value>
   </data>
-  <data name="entry.wrong_type.art" xml:space="preserve">
-    <value>Only .jpg and .png files are accepted for this contest.</value>
-  </data>
-  <data name="entry.wrong_type.beatmap" xml:space="preserve">
-    <value>Only .osu files are accepted for this contest.</value>
-  </data>
-  <data name="entry.wrong_type.music" xml:space="preserve">
-    <value>Only .mp3 files are accepted for this contest.</value>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Only {0} files are accepted for this contest.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Entries for this contest must be {0}{1}</value>

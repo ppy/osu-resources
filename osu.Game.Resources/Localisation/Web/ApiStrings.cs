@@ -65,6 +65,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ScopesFriendsRead => new TranslatableString(getKey(@"scopes.friends.read"), @"See who you are following.");
 
         /// <summary>
+        /// "Create and manage multiplayer rooms on your behalf."
+        /// </summary>
+        public static LocalisableString ScopesMultiplayerWriteManage => new TranslatableString(getKey(@"scopes.multiplayer.write_manage"), @"Create and manage multiplayer rooms on your behalf.");
+
+        /// <summary>
         /// "Read public data on your behalf."
         /// </summary>
         public static LocalisableString ScopesPublic => new TranslatableString(getKey(@"scopes.public"), @"Read public data on your behalf.");

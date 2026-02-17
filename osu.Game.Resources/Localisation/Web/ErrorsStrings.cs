@@ -65,16 +65,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString AccountProfileOrderGeneric => new TranslatableString(getKey(@"account.profile-order.generic"), @"An error occured. Try refreshing the page.");
 
         /// <summary>
-        /// "Invalid mode specified."
-        /// </summary>
-        public static LocalisableString BeatmapsInvalidMode => new TranslatableString(getKey(@"beatmaps.invalid_mode"), @"Invalid mode specified.");
-
-        /// <summary>
-        /// "No scores are available for the requested mode on this beatmap difficulty."
-        /// </summary>
-        public static LocalisableString BeatmapsStandardConvertsOnly => new TranslatableString(getKey(@"beatmaps.standard_converts_only"), @"No scores are available for the requested mode on this beatmap difficulty.");
-
-        /// <summary>
         /// "An error occurred while preparing your checkout."
         /// </summary>
         public static LocalisableString CheckoutGeneric => new TranslatableString(getKey(@"checkout.generic"), @"An error occurred while preparing your checkout.");

@@ -110,10 +110,10 @@
     <value>Отмечается как прочитанное...</value>
   </data>
   <data name="post.confirm_destroy" xml:space="preserve">
-    <value>Удалить ответ?</value>
+    <value>Вы точно хотите удалить этот ответ?</value>
   </data>
   <data name="post.confirm_restore" xml:space="preserve">
-    <value>Восстановить ответ?</value>
+    <value>Вы точно хотите восстановить этот ответ?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
     <value>Последний раз редактировал {0} {1}, всего правок: {2}.</value>
@@ -155,10 +155,10 @@
     <value>{0} ответов</value>
   </data>
   <data name="topic.confirm_destroy" xml:space="preserve">
-    <value>Действительно удалить тему?</value>
+    <value>Вы точно хотите удалить эту тему?</value>
   </data>
   <data name="topic.confirm_restore" xml:space="preserve">
-    <value>Действительно восстановить тему?</value>
+    <value>Вы точно хотите восстановить эту тему?</value>
   </data>
   <data name="topic.deleted" xml:space="preserve">
     <value>удалённая тема</value>
@@ -459,114 +459,6 @@
   </data>
   <data name="topics.index.views" xml:space="preserve">
     <value>просмотров</value>
-  </data>
-  <data name="topics.issue_tag_added.to_0" xml:space="preserve">
-    <value>Убрать тег "добавлено"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_0_done" xml:space="preserve">
-    <value>Убран тег "добавлено"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_1" xml:space="preserve">
-    <value>Добавить тег "добавлено"</value>
-  </data>
-  <data name="topics.issue_tag_added.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "добавлено"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_0" xml:space="preserve">
-    <value>Убрать тег "присвоено"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_0_done" xml:space="preserve">
-    <value>Убран тег "присвоено"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_1" xml:space="preserve">
-    <value>Добавить тег "присвоено"</value>
-  </data>
-  <data name="topics.issue_tag_assigned.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "присвоено"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_0" xml:space="preserve">
-    <value>Убрать тег "подтверждено"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_0_done" xml:space="preserve">
-    <value>Убран тег "подтверждено"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_1" xml:space="preserve">
-    <value>Добавить тег "подтверждено"</value>
-  </data>
-  <data name="topics.issue_tag_confirmed.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "подтверждено"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_0" xml:space="preserve">
-    <value>Убрать тег "дубликат"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_0_done" xml:space="preserve">
-    <value>Убран тег "дубликат"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_1" xml:space="preserve">
-    <value>Добавить тег "дубликат"</value>
-  </data>
-  <data name="topics.issue_tag_duplicate.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "дубликат"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_0" xml:space="preserve">
-    <value>Убрать тег "недействительно"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_0_done" xml:space="preserve">
-    <value>Убран тег "недействительно"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_1" xml:space="preserve">
-    <value>Добавить тег "недействительно"</value>
-  </data>
-  <data name="topics.issue_tag_invalid.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "недействительно"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_0" xml:space="preserve">
-    <value>Убрать тег "решено"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_0_done" xml:space="preserve">
-    <value>Убран тег "решено"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_1" xml:space="preserve">
-    <value>Добавить тег "решено"</value>
-  </data>
-  <data name="topics.issue_tag_resolved.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "решено"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_0" xml:space="preserve">
-    <value>Удалить тег "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_0_done" xml:space="preserve">
-    <value>Удалён тег "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_1" xml:space="preserve">
-    <value>Добавить тег "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osulazer.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "osu!lazer"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_0" xml:space="preserve">
-    <value>Удалить тег "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_0_done" xml:space="preserve">
-    <value>Удалён тег "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_1" xml:space="preserve">
-    <value>Добавить тег "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osustable.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "osu!stable"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_0" xml:space="preserve">
-    <value>Удалить тег "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_0_done" xml:space="preserve">
-    <value>Удалён тег "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_1" xml:space="preserve">
-    <value>Добавить тег "osu!web"</value>
-  </data>
-  <data name="topics.issue_tag_osuweb.to_1_done" xml:space="preserve">
-    <value>Добавлен тег "osu!web"</value>
   </data>
   <data name="topics.lock.is_locked" xml:space="preserve">
     <value>Нельзя написать ответ в закрытой теме</value>

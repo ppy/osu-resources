@@ -330,6 +330,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatisticsEmptySlots(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.statistics.empty_slots"), @"{0} slot available|{0} slots available", countDelimited);
 
         /// <summary>
+        /// "First places"
+        /// </summary>
+        public static LocalisableString ShowStatisticsFirstPlaces => new TranslatableString(getKey(@"show.statistics.first_places"), @"First places");
+
+        /// <summary>
         /// "Team Leader"
         /// </summary>
         public static LocalisableString ShowStatisticsLeader => new TranslatableString(getKey(@"show.statistics.leader"), @"Team Leader");
@@ -338,6 +343,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Rank"
         /// </summary>
         public static LocalisableString ShowStatisticsRank => new TranslatableString(getKey(@"show.statistics.rank"), @"Rank");
+
+        /// <summary>
+        /// "Ranked beatmaps"
+        /// </summary>
+        public static LocalisableString ShowStatisticsRankedBeatmapsets => new TranslatableString(getKey(@"show.statistics.ranked_beatmapsets"), @"Ranked beatmaps");
 
         /// <summary>
         /// "Team created."

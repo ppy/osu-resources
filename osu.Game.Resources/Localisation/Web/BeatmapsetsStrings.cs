@@ -375,6 +375,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoOffset => new TranslatableString(getKey(@"show.info.offset"), @"Online offset");
 
         /// <summary>
+        /// "Beatmap Packs"
+        /// </summary>
+        public static LocalisableString ShowInfoPackTags => new TranslatableString(getKey(@"show.info.pack_tags"), @"Beatmap Packs");
+
+        /// <summary>
         /// "Points of Failure"
         /// </summary>
         public static LocalisableString ShowInfoPointsOfFailure => new TranslatableString(getKey(@"show.info.points-of-failure"), @"Points of Failure");
@@ -393,6 +398,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Success Rate"
         /// </summary>
         public static LocalisableString ShowInfoSuccessRate => new TranslatableString(getKey(@"show.info.success-rate"), @"Success Rate");
+
+        /// <summary>
+        /// "{0} of {1} play|{0} of {1} plays"
+        /// </summary>
+        public static LocalisableString ShowInfoSuccessRatePlays(LocalisableString passes, LocalisableString countDelimited) => new TranslatableString(getKey(@"show.info.success_rate_plays"), @"{0} of {1} play|{0} of {1} plays", passes, countDelimited);
 
         /// <summary>
         /// "User Tags"
