@@ -101,7 +101,7 @@
     <value>Цей тип посилань не підтримується!</value>
   </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
-    <value>Гравець {0} запросив вас на багатокористувацький матч під назвою "{1}"! Натисніть, щоб доєднатись.</value>
+    <value>{0} запрошує вас на багатокористувацький матч "{1}"! Натисніть сюди, щоб доєднатись.</value>
   </data>
   <data name="missing_beatmap_for_replay" xml:space="preserve">
     <value>У вас немає мапи для цього повтору.</value>
@@ -130,5 +130,80 @@
   </data>
   <data name="mention" xml:space="preserve">
     <value>Згадати</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Онлайн: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Офлайн: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>З'єднання з онлайн-сервісами перервано. osu! працюватиме з обмеженою функціональністю.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Вашу сесію на цьому пристрої завершено через вхід в обліковий запис на іншому пристрої.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Вашу сесію на цьому пристрої завершено через зміну облікового запису. Будь ласка, увійдіть ще раз.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Завантаження {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Підготовка до імпорту колекцій...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Читання колекцій...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>Імпортовано {0} колекцій</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>Імпортовано {0} колекцій з {1}</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Ця помилка була автоматично надіслана команді розробників.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Знайдено свіжу версію osu! ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Натисніть тут, щоб завантажити нову версію, яку можна встановити поверх поточної версії.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Перегляньте ваш пакетний менеджер / крамницю додатків, щоб оновити osu!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Дію перервано через показ іншого діалогового вікна.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Експорт {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>{0} експортовано! Натисніть сюди, щоб подивитися.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Експорт логів...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Логи експортовано! Натисніть сюди, щоб подивитися.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Запуск osu! з правами {0} не покращує продуктивність, може зламати інтеграцію та поставити безпеку під загрозу. Краще запустіть гру з правами звичайного користувача.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Скриншот {0} збережено!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Сервер мультиплеєра обіцяє повернутися...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Сервер мультиплеєра буде перезавантажено через {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Створено нову колекцію "{0}" з {1} бітмап.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Додано {0} бітмап до колекції "{1}".</value>
   </data>
 </root>

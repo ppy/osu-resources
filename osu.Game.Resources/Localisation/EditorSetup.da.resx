@@ -124,6 +124,18 @@
   <data name="overall_difficulty_description" xml:space="preserve">
     <value>Strengheden af rammevinduer og sværhedsgraden af specielle objekter (f. eks. spinnere)</value>
   </data>
+  <data name="tick_rate" xml:space="preserve">
+    <value>Opdateringshastighed</value>
+  </data>
+  <data name="tick_rate_description" xml:space="preserve">
+    <value>Bestemmer, hvor mange "ticks" der genereres for lange klik-objekter. En tikrate på 1 vil generere et tick på hvert beat, 2 ville være to gange pr. beat, osv.</value>
+  </data>
+  <data name="base_velocity" xml:space="preserve">
+    <value>Grundlæggende hastighed</value>
+  </data>
+  <data name="base_velocity_description" xml:space="preserve">
+    <value>Den grundlæggende hastighed for hele beatmappet, påvirker ting som hastigheden på slidere and rullehastigheden i nogle regelsæt.</value>
+  </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadata</value>
   </data>
@@ -136,6 +148,9 @@
   <data name="creator" xml:space="preserve">
     <value>Kreatør</value>
   </data>
+  <data name="source" xml:space="preserve">
+    <value>Kilde</value>
+  </data>
   <data name="difficulty_name" xml:space="preserve">
     <value>Sværhedsgradsnavn</value>
   </data>
@@ -145,17 +160,23 @@
   <data name="audio_track" xml:space="preserve">
     <value>Lydspor</value>
   </data>
+  <data name="custom_sample_sets" xml:space="preserve">
+    <value>Tilpassede eksempelsæt</value>
+  </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Klik for at vælge et spor</value>
-  </data>
-  <data name="click_to_replace_track" xml:space="preserve">
-    <value>Klik for at erstatte sporet</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klik for at vælge et baggrundsbillede</value>
   </data>
-  <data name="click_to_replace_background" xml:space="preserve">
-    <value>Klik for at erstatte baggrundsbilledet</value>
+  <data name="application_scope_selection_title" xml:space="preserve">
+    <value>Anvend denne ændring på alle sværhedsgrader?</value>
+  </data>
+  <data name="apply_to_all_difficulties" xml:space="preserve">
+    <value>Anvend på aææe sværhedsgrader</value>
+  </data>
+  <data name="apply_to_this_difficulty" xml:space="preserve">
+    <value>Kun anvend på denne sværhedsgrad</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Regler ({0})</value>

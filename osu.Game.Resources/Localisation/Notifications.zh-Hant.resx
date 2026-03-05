@@ -62,7 +62,7 @@
     <value>通知</value>
   </data>
   <data name="header_description" xml:space="preserve">
-    <value>尚未閱讀的通知</value>
+    <value>查看通知列表</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
     <value>執行中的工作</value>
@@ -88,7 +88,7 @@
     <value>遊戲介面 (HUD) 已關閉，您可以按下 {0} 來重新開啟或關閉。</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
-    <value>該網址 {0} 使用了不支援或危險的連線協定，所以將不會被開啟。</value>
+    <value>該網址 {0} 使用了不支援或危險的通訊協定，為了安全起見，此網址將不會被開啟。</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
     <value>相關錯誤訊息已經寫入到記錄檔中，按這裡來查看記錄檔。</value>
@@ -128,9 +128,84 @@
     <value>下載更新中...</value>
   </data>
   <data name="multiplayer_room_ended" xml:space="preserve">
-    <value>這個多人遊玩房間已結束，點擊這裡來查看成績。</value>
+    <value>此多人遊戲房間已結束，點擊這裡來查看成績。</value>
   </data>
   <data name="mention" xml:space="preserve">
     <value>提及</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>已上線：{0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>已下線：{0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>與線上服務的連線已中斷。osu! 會在部分功能受限下繼續運作。</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>由於您的帳號已在另一部裝置上登入，已在這部裝置上登出。</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>由於您的帳號發生變更，帳號已登出。請重新登入。</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>正在下載 {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>正在初始化收藏匯入...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>讀取收藏...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>已匯入 {0} 個收藏</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>已匯入 {0}/{1} 個收藏</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>該錯誤已自動回報給開發團隊。</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>發現了新的 osu! 版本 ({0} → {1})。</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>點擊這裡來下載最新版本，可以直接覆蓋現有版本。</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>請檢查您的軟件包管理系統 / 提供者來更新 osu!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>操作已被中斷，因為有對話框在顯示。</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>正在匯出 {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>已匯出 {0}！點擊查看。</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>正在匯出紀錄...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>紀錄已匯出！點擊查看。</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>以 {0} 身分開啟 osu! 並不會提升效能，可能會破壞整合並造成安全問題。請以標準使用者身分開啟遊戲。</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>螢幕截圖 {0} 已保存！</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>多人遊戲伺服器正在維護中，請稍後再進行遊玩...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>多人遊戲伺服器將於 {0} 後重新啟動。</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>創建新的收藏夾 "{0}"，包含了 {1} 張圖譜。</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>新增 {0} 張圖譜至收藏 "{1}"。</value>
   </data>
 </root>

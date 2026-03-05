@@ -80,6 +80,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString RoomErrorsNameTooLong => new TranslatableString(getKey(@"room.errors.name_too_long"), @"Room name is too long.");
 
         /// <summary>
+        /// "Too many playlist items."
+        /// </summary>
+        public static LocalisableString RoomErrorsTooManyPlaylistItems => new TranslatableString(getKey(@"room.errors.too_many_playlist_items"), @"Too many playlist items.");
+
+        /// <summary>
         /// "active"
         /// </summary>
         public static LocalisableString RoomStatusActive => new TranslatableString(getKey(@"room.status.active"), @"active");

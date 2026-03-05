@@ -58,31 +58,160 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mods" xml:space="preserve">
+    <value>Modyfikatory</value>
+  </data>
+  <data name="random" xml:space="preserve">
+    <value>Losuj</value>
+  </data>
+  <data name="rewind" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Opcje</value>
+  </data>
   <data name="locally_modified" xml:space="preserve">
     <value>Lokalna</value>
   </data>
   <data name="locally_modified_tooltip" xml:space="preserve">
     <value>Została zmodyfikowana lokalnie</value>
   </data>
-  <data name="manage_collections" xml:space="preserve">
-    <value>Zarządzaj kolekcjami</value>
+  <data name="status_unknown" xml:space="preserve">
+    <value>Nieznany</value>
+  </data>
+  <data name="total_plays" xml:space="preserve">
+    <value>Liczba zagrań</value>
+  </data>
+  <data name="personal_plays" xml:space="preserve">
+    <value>Moje zagrania</value>
+  </data>
+  <data name="circle_size" xml:space="preserve">
+    <value>Wielkość kółek</value>
+  </data>
+  <data name="key_count" xml:space="preserve">
+    <value>Liczba klawiszy</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Prędkość otoczki</value>
+  </data>
+  <data name="accuracy" xml:space="preserve">
+    <value>Precyzja</value>
+  </data>
+  <data name="hp_drain" xml:space="preserve">
+    <value>Spadek HP</value>
+  </data>
+  <data name="scroll_speed" xml:space="preserve">
+    <value>Szybkość przewijania</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Data przesłania</value>
+  </data>
+  <data name="ranked" xml:space="preserve">
+    <value>Data uzyskania statusu rankingowego</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Szczegóły</value>
+  </data>
+  <data name="ranking" xml:space="preserve">
+    <value>Ranking</value>
+  </data>
+  <data name="use_these_mods" xml:space="preserve">
+    <value>Użyj tych modyfikatorów</value>
+  </data>
+  <data name="watch_replay" xml:space="preserve">
+    <value>Obejrzyj powtórkę</value>
   </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Dla wszystkich poziomów trudności</value>
   </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Usuń beatmapę</value>
-  </data>
   <data name="for_selected_difficulty" xml:space="preserve">
     <value>Dla wybranego poziomu trudności</value>
   </data>
+  <data name="update_beatmap_tooltip" xml:space="preserve">
+    <value>Zaktualizuj beatmapę do najnowszej wersji</value>
+  </data>
   <data name="mark_as_played" xml:space="preserve">
-    <value>Oznacz jako ukończona</value>
+    <value>Oznacz jako zagrana</value>
+  </data>
+  <data name="remove_from_played" xml:space="preserve">
+    <value>Usuń z zagranych</value>
   </data>
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Usuń wszystkie lokalne wyniki</value>
   </data>
-  <data name="edit_beatmap" xml:space="preserve">
-    <value>Edytuj beatmapę</value>
+  <data name="restore_all_hidden" xml:space="preserve">
+    <value>Przywróć ukryte poziomy trudności</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} gwiazdek</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>Sortuj wg</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Grupuj wg</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Brak</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Tytul</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Artysta</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Twórca</value>
+  </data>
+  <data name="bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>Data przesłania</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>Data uzyskania statusu rankingowego</value>
+  </data>
+  <data name="date_added" xml:space="preserve">
+    <value>Data dodania</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>Ostatnio zagrane</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Trudność</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Długość</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Polubienia</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Moje beatmapy</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Kolekcje</value>
+  </data>
+  <data name="rank_achieved" xml:space="preserve">
+    <value>Uzyskana ocena</value>
+  </data>
+  <data name="ranked_status" xml:space="preserve">
+    <value>Status beatmapy</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Źródło</value>
+  </data>
+  <data name="no_matching_beatmaps" xml:space="preserve">
+    <value>Nie znaleziono beatmap</value>
+  </data>
+  <data name="no_matching_beatmaps_description" xml:space="preserve">
+    <value>Brak beatmap spełniających wybrane kryteria wyszukiwania!</value>
+  </data>
+  <data name="temporarily_showing_all_beatmaps_in" xml:space="preserve">
+    <value>Tymczasowo wyświetlane są wszystkie beatmapy w</value>
+  </data>
+  <data name="mostly_bpm" xml:space="preserve">
+    <value>głównie {0}</value>
   </data>
 </root>

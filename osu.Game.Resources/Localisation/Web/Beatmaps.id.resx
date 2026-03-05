@@ -95,13 +95,13 @@
     <value>Perolehan kudosu ditolak.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Tingkat kesulitan ini telah dihapus sehingga diskusi lebih lanjut tidak lagi diperkenankan.</value>
+    <value>Tingkat kesulitan ini sudah dihapus, sehingga tidak lagi bisa didiskusikan.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>Diskusi pada beatmap ini telah ditutup.</value>
+    <value>Diskusi untuk beatmap ini sudah dinonaktifkan.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Kamu tidak dapat mengirim topik diskusi pada saat sedang di-silence.</value>
+    <value>Kamu tidak bisa mengirim topik diskusi ketika akunmu sedang di-silence.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Pilih Jenis Komentar</value>
@@ -125,7 +125,7 @@
     <value>pulihkan</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>Tampilkan yang telah dihapus</value>
+    <value>Tampilkan yang dihapus</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskusi</value>
@@ -158,7 +158,7 @@
     <value>Apakah kamu yakin untuk membuka kunci halaman diskusi ini?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Topik diskusi ini akan tertuju pada Umum (Seluruh tingkat kesulitan). Untuk membuka topik diskusi baru khusus bagi tingkat kesulitan ini, mulailah pesanmu dengan keterangan waktu (mis: 00:12:345).</value>
+    <value>Postingan diskusi ini akan terkirim ke Umum (Semua tingkat kesulitan). Untuk memberikan mod bagi tingkat kesulitan ini, mulailah pesanmu dengan keterangan waktu (mis: 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
     <value>Untuk memberikan mod pada beberapa keterangan waktu, pisahkan mod kamu ke dalam beberapa topik diskusi (satu topik per keterangan waktunya).</value>
@@ -167,7 +167,7 @@
     <value>Ketik di sini untuk mengirimkan topik diskusi baru pada Umum ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Ketik di sini untuk mengirimkan topik diskusi baru pada Umum (Seluruh tingkat kesulitan)</value>
+    <value>Ketik di sini untuk mengirimkan postingan ke Umum (Semua tingkat kesulitan)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
     <value>Ketik di sini untuk mengirimkan kajian</value>
@@ -212,7 +212,7 @@
     <value>Tulis Catatan</value>
   </data>
   <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
-    <value>Hapus seluruh Nominasi</value>
+    <value>Hapus semua Nominasi</value>
   </data>
   <data name="discussions.message_type_title.praise" xml:space="preserve">
     <value>Tulis Pujian</value>
@@ -245,7 +245,7 @@
     <value>Tingkat kesulitan ini</value>
   </data>
   <data name="discussions.mode.scopes.generalall" xml:space="preserve">
-    <value>Seluruh tingkat kesulitan</value>
+    <value>Semua tingkat kesulitan</value>
   </data>
   <data name="discussions.new.pin" xml:space="preserve">
     <value>Sematkan</value>
@@ -278,7 +278,7 @@
     <value>Belum Tersimpan</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>Postingan yang tertuju pada "Umum (Seluruh tingkat kesulitan)" tidak dapat mengandung keterangan waktu.</value>
+    <value>Postingan yang dikirimkan ke "Umum (Semua tingkat kesulitan)" tidak bisa dibubuhi keterangan waktu.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Apabila topik diskusi ini dimulai dengan keterangan waktu, topik ini akan muncul pada tab Linimasa.</value>
@@ -329,19 +329,19 @@
     <value>Semua</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Beatmap ini telah di-approve pada tanggal {0}!</value>
+    <value>Beatmap ini di-approve pada tanggal {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Beatmap ini belum diperbarui sejak {0} dan sepertinya telah diabaikan oleh pembuatnya...</value>
+    <value>Beatmap ini belum diperbarui sejak {0} dan sudah terkubur dalam-dalam...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Beatmap ini telah ditambahkan ke kategori Loved pada tanggal {0}!</value>
+    <value>Beatmap ini ditambahkan ke kategori Loved pada tanggal {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Beatmap ini telah di-rank pada tanggal {0}!</value>
+    <value>Beatmap ini di-rank pada tanggal {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Catatan: Beatmap ini ditandai dengan status dalam pengerjaan (work-in-progress) oleh pembuatnya.</value>
+    <value>Catatan: Beatmap ini ditandai sebagai dalam pengerjaan (work-in-progress) oleh pembuatnya.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Belum ada downvote</value>
@@ -359,16 +359,16 @@
     <value>Berikan Hype!</value>
   </data>
   <data name="hype.button_done" xml:space="preserve">
-    <value>Telah di-Hype!</value>
+    <value>Sudah di-Hype!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Apakah kamu yakin? Dengan ini, kamu akan memberikan 1 hype kepada beatmap ini dari {0} hype yang kamu miliki saat ini. Tindakan ini tidak dapat dibatalkan.</value>
+    <value>Apakah kamu yakin? Dengan ini, kamu akan menggunakan 1 hype dari {0} hype yang kamu miliki saat ini. Tindakan ini tidak bisa diurungkan.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
     <value>Berikan hype-mu untuk membawa beatmap ini lebih dekat menuju Ranked!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Masuk dan berikan hype kepada beatmap ini agar beatmap ini dapat segera dinominasikan dan di-rank!</value>
+    <value>Masuk dan berikan hype kepada beatmap ini agar beatmap ini bisa segera dinominasikan dan di-rank!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>Kamu akan memperoleh lebih banyak hype {0}.</value>
@@ -389,10 +389,10 @@
     <value>Berikan Masukan</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
-    <value>Kamu telah menominasikan beatmap ini.</value>
+    <value>Kamu sudah menominasikan beatmap ini.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>Kamu tidak dapat memberikan nominasi untuk mode permainan ini.</value>
+    <value>Kamu tidak bisa memberikan nominasi untuk mode permainan ini.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Hapus</value>
@@ -416,7 +416,7 @@
     <value>Diskualifikasi</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
-    <value>Terdapat kesalahan dalam melangsungkan tindakan ini. Cobalah untuk memuat ulang halaman.</value>
+    <value>Terjadi kesalahan dalam melangsungkan tindakan ini. Cobalah untuk memuat ulang halaman.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
     <value>Love</value>
@@ -458,7 +458,7 @@
     <value>Terdapat masalah belum terjawab yang harus diselesaikan terlebih dahulu.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Beatmap ini diperkirakan akan di-rank {0} apabila tidak terdapat masalah yang ditemukan. Beatmap ini berada pada urutan ke-{1} dalam {2} saat ini.</value>
+    <value>Beatmap ini diperkirakan akan di-rank {0} apabila tidak terdapat masalah yang ditemukan. Beatmap ini berada dalam urutan ke-{1} dalam {2} saat ini.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
     <value>Beatmap ini sedang diblokir untuk dapat melewati kategori Qualified hingga {0} terselesaikan.</value>
@@ -488,7 +488,7 @@
     <value>Apakah kamu yakin? Memposting masalah baru akan mengulang proses nominasi.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>Apakah kamu yakin untuk melaporkan masalah pada beatmap ini? Tindakan ini akan memperingatkan seluruh anggota Beatmap Nominator.</value>
+    <value>Apakah kamu yakin untuk melaporkan masalah pada beatmap ini? Tindakan ini akan memberitahukan anggota Beatmap Nominator.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
     <value>ketik kata kunci pencarian...</value>
@@ -498,6 +498,9 @@
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Opsi Pencarian Lainnya</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Jumlah dan hasil peringkat teratas profil yang ditampilkan di halaman ini didasarkan dari skor "terstandardisasi" (atau skor "lazer") pada beatmap yang kamu miliki.</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Penyaringan berdasarkan {0} memerlukan tag osu!supporter yang aktif</value>

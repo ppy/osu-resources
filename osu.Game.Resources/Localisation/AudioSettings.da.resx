@@ -91,7 +91,34 @@
   <data name="audio_offset" xml:space="preserve">
     <value>Universel forskydning</value>
   </data>
+  <data name="suggested_offset_note" xml:space="preserve">
+    <value>Spil et par beatmaps for at modtage en foreslået forskydning!</value>
+  </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>Baseret på dine sidste {0} gennemspilning(er), er din forskydning indstillet korrekt!</value>
+  </data>
+  <data name="suggested_offset_value_received" xml:space="preserve">
+    <value>Baseret på dine sidste {0} gennemspilning(er), er den foreslåede forskydning {1} millisekund.</value>
+  </data>
+  <data name="apply_suggested_offset" xml:space="preserve">
+    <value>Avend foreslået forskydning</value>
+  </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Forskydning guide</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Justér forskydning for beatmaps automatisk</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Hvis aktiveret, vil forskydningen fra den sidste gennemspilning af et beatmap automatisk anvendes.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Brug eksperimentel lydtilstand</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Dette vil forsøge at initialisere lydmotoren in en lavere latenstidstilstand.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Grundet lavere latenstid skal dit lydforskydning justeres, når denne indstilling anvendes. Forvent generelt at trække 20 - 60 millisekunder fra din kendte værdi.</value>
   </data>
 </root>

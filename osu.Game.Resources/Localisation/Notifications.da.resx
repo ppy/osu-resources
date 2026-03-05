@@ -64,21 +64,147 @@
   <data name="header_description" xml:space="preserve">
     <value>venter på dig</value>
   </data>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <data name="running_tasks" xml:space="preserve">
+    <value>Kører Opgaver</value>
+  </data>
+  <data name="clear_all" xml:space="preserve">
+    <value>Ryd Alle</value>
+  </data>
+  <data name="battery_low" xml:space="preserve">
+    <value>Dit batteriniveau er lavt! Oplad din enhed for at forhindre afbrydelser under spil.</value>
+  </data>
+  <data name="game_volume_too_low" xml:space="preserve">
+    <value>Din spilvolumen er for lav til at høre noget. Klik her for at gendanne den.</value>
+  </data>
+  <data name="no_autoplay_mod" xml:space="preserve">
+    <value>Det nuværende regelsæt har ikke en automatisk afspilning modifikation tilgængelig!</value>
+  </data>
+  <data name="audio_playback_issue" xml:space="preserve">
+    <value>osu! ser ikke ud til at afspille lyd korrekt.
+Prøv at ændre din lydenhed til en, der virker.</value>
+  </data>
+  <data name="score_overlay_disabled" xml:space="preserve">
+    <value>Scoreoverlejringen er i øjeblikket deaktiveret. Du kan slå denne til/fra ved at trykke på {0}.</value>
+  </data>
+  <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
+    <value>URL {0} har en ikke-understøttet eller farlig protokol og vil ikke blive åbnet.</value>
+  </data>
+  <data name="subsequent_messages_logged" xml:space="preserve">
+    <value>Efterfølgende beskeder er blevet logget. Klik her for at se logfiler.</value>
+  </data>
+  <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
+    <value>Deaktivering af tablet-understøttelse på grund af fejl: "{0}"</value>
+  </data>
+  <data name="encountered_tablet_warning" xml:space="preserve">
+    <value>Advarsel om tablet opstod, din tablet fungerer muligvis ikke korret. Klik her for at se en lister over alle understøttede tablets.</value>
+  </data>
+  <data name="unsupported_link_type" xml:space="preserve">
+    <value>Denne linktype er endnu ikke understøttet!</value>
+  </data>
+  <data name="invited_you_to_the_multiplayer" xml:space="preserve">
+    <value>{0} har inviteret dig til multiplayer kampen "{1}"! Klik her for at deltage.</value>
+  </data>
+  <data name="missing_beatmap_for_replay" xml:space="preserve">
+    <value>Du har ikke beatmappet til denne genafspilning.</value>
+  </data>
+  <data name="downloading_beatmap_for_replay" xml:space="preserve">
+    <value>Henter manglende beatmap til genne genafspilning...</value>
+  </data>
+  <data name="mismatching_beatmap_for_replay" xml:space="preserve">
+    <value>Din lokale kopi af beatmappet for genafspilningen ser ud til at være anderledes end forventet. You skal måske opdatere eller hente det igen.</value>
+  </data>
+  <data name="game_version_after_update" xml:space="preserve">
+    <value>Du kører nu osu! {0}.
+Klik her, for at se hvad der er nyt!</value>
+  </data>
+  <data name="update_ready_to_install" xml:space="preserve">
+    <value>Opdatering klar til installation. Klik her for at genstarte!</value>
+  </data>
+  <data name="not_official_build" xml:space="preserve">
+    <value>Dette er ikke en officiel udgivelse af spillet. Scores vil ikke blive indsendt og øvrig online systemer fungerer muligvis ikke som forventet.</value>
+  </data>
+  <data name="downloading_update" xml:space="preserve">
+    <value>Henter opdatering...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Denne multiplayerrum er afsluttet. Klik her for at se resultaterne for rummet.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Omtal</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Online: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Offline: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Forbindelse til onlinetjenester blev afbrudt. osu! vil fungere med begrænset funktionalitet.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Du er blevet logget ud af denne enhed fordi der blev logget ind på din konto på en anden enhed.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Du er blevet logget ud grundet en ændring på din konto. Log venligst ind igen.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Henter {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Import af kollektioner initialiserer...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Læser kollektioner...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>Importerede {0} kollektioner</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>Importerede {0} af {1} kollektioner</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Denne fejl er automatisk blevet rapporteret til udvikler-holdet.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>A nyere udgivelse af osu! blev fundet ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Klik her for at hente den nye version, som kan installeres oven på din eksisterende installation.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Tjek med din pakke-manager / udbyder for at holde osu! opdateret!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>En handling blev afbrudt på grund af dialog der blev vises.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Eksporterer {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Eksporterede {0}!. Klik her for at se.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Eksporterer logfiler...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Logfiler blev eksporteret! Klik her for at se.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>At køre osu! som {0} forbedrer ikke ydeevnen, som kan bryde integrationer og udgør en sikkerhedsrisiko. Være flink at køre spillet som en normal bruger.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Skærmbillede {0} blev gemt!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Multiplayer serveren vender tilbage...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Multiplayer serveren genstarter om {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Oprettede ny kollektion "{0}" med {1} beatmaps.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Tilføjede {0} beatmaps til kollektion "{1}".</value>
+  </data>
 </root>
