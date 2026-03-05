@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Næste vælg</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Vælg forrige gruppe</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Aktiver forrige sæt</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Vælg næste gruppe</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Aktiver næste sæt</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Udvid forrige gruppe</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Udvid næste gruppe</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Slå udvidelse af nuværende gruppe til/fra</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Hjem</value>
@@ -166,8 +175,11 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Klon dit valg</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Skift gittervisningstilstand</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Cyklus gitterafstand</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>Cyklus gittertype</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Test gameplay</value>
@@ -178,13 +190,21 @@
   <data name="random_skin" xml:space="preserve">
     <value>Tilfældigt skin</value>
   </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>Forrige skin</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>Næste skin</value>
+  </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>Pause / fortsæt genafspilning</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
     <value>Vis/skjul spil grænseflade</value>
   </data>
-  
+  <data name="toggle_in_game_leaderboard" xml:space="preserve">
+    <value>Slå rangeringslisten til/fra under spil</value>
+  </data>
   <data name="toggle_mod_selection" xml:space="preserve">
     <value>Åbn/luk Mod Vælg</value>
   </data>
@@ -221,8 +241,12 @@
   <data name="editor_decrease_distance_spacing" xml:space="preserve">
     <value>Formindsk afstand</value>
   </data>
-  
-  
+  <data name="editor_cycle_previous_beat_snap_divisor" xml:space="preserve">
+    <value>Rul videre til forrige beat snap division</value>
+  </data>
+  <data name="editor_cycle_next_snap_divisor" xml:space="preserve">
+    <value>Rul videre til næste beat snap division</value>
+  </data>
   <data name="toggle_skin_editor" xml:space="preserve">
     <value>Åbn/luk skin editor</value>
   </data>
@@ -241,11 +265,85 @@
   <data name="seek_replay_backward" xml:space="preserve">
     <value>Spol genafspilning tilbage</value>
   </data>
+  <data name="step_replay_forward" xml:space="preserve">
+    <value>Hop et skridt frem i genafspilningen</value>
+  </data>
+  <data name="step_replay_backward" xml:space="preserve">
+    <value>Hop et skridt tilbage i genafspilningen</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Skift chatfokus</value>
   </data>
-  
-  
-  
-  
+  <data name="toggle_replay_settings" xml:space="preserve">
+    <value>Slå genafspilningsindstillinger til/fra</value>
+  </data>
+  <data name="save_replay" xml:space="preserve">
+    <value>Gem genafspilning</value>
+  </data>
+  <data name="export_replay" xml:space="preserve">
+    <value>Ekportér gengivelse</value>
+  </data>
+  <data name="increase_offset" xml:space="preserve">
+    <value>Forøg forskydning</value>
+  </data>
+  <data name="decrease_offset" xml:space="preserve">
+    <value>Formindsk forskydning</value>
+  </data>
+  <data name="editor_toggle_rotate_control" xml:space="preserve">
+    <value>Slå rotationskontrol til/fra</value>
+  </data>
+  <data name="editor_toggle_scale_control" xml:space="preserve">
+    <value>Slå skaleringskontrol til/fra</value>
+  </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Slå automatimask genafspilning til/fra</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Slå hurtig pause til/fra</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Hurtig afslutning til starttiden</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Hurtig afslutning til aktuel tid</value>
+  </data>
+  <data name="increase_mod_speed" xml:space="preserve">
+    <value>Forøg modifikationshastighed</value>
+  </data>
+  <data name="decrease_mod_speed" xml:space="preserve">
+    <value>Formindsk modifikationshastighed</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Søg efter forrige klik-objekt</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Søg efter næste klik-objekt</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Søg efter forrige prøvepunkt</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Søg efter næste prøvepunkt</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Tilføj bogmærke</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>Fjern nærmeste bogmærke</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Søg efter forrige bogmærke</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Søg efter næste bogmærke</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absolut rul af sangliste</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Slå kontrol af bevæglese til/fra</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Kassér ikke anvendte ændringer</value>
+  </data>
 </root>

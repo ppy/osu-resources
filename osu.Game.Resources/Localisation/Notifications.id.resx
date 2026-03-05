@@ -80,24 +80,24 @@
     <value>Ruleset yang saat ini dimainkan tidak memiliki mod autoplay!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
-    <value>osu! sepertinya tidak dapat memutar audio yang ada sebagaimana mestinya.
+    <value>osu! sepertinya tidak bisa memutar audio yang ada dengan benar.
 
-Mohon atur perangkat audiomu agar dapat dikenali dan digunakan oleh osu!.</value>
+Silakan sesuaikan perangkat audiomu ke pengaturan yang dapat digunakan oleh osu!.</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
-    <value>Overlay skor sedang dinonaktifkan. Kamu dapat mengaktifkannya kembali dengan menekan {0}.</value>
+    <value>Overlay skor sedang dinonaktifkan. Kamu bisa mengaktifkannya kembali dengan menekan {0}.</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
     <value>URL {0} mengandung protokol yang tidak didukung atau berbahaya dan tidak akan dibuka.</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
-    <value>Rangkaian pesan yang mengiringi kesalahan ini telah dicatat. Klik di sini untuk melihat berkas log.</value>
+    <value>Rangkaian pesan yang mengiringi kesalahan ini sudah dicatat. Klik di sini untuk melihat berkas log.</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
     <value>Menonaktifkan dukungan tablet akibat kesalahan: "{0}"</value>
   </data>
   <data name="encountered_tablet_warning" xml:space="preserve">
-    <value>Peringatan tablet: Tabletmu mungkin tidak berfungsi sebagaimana mestinya. Klik di sini untuk menampilkan daftar seluruh tablet yang didukung.</value>
+    <value>Peringatan tablet: Tabletmu mungkin tidak berfungsi sebagaimana mestinya. Klik di sini untuk menampilkan daftar semua tablet yang didukung.</value>
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Tipe tautan ini belum didukung!</value>
@@ -122,15 +122,90 @@ Klik untuk melihat apa-apa saja yang baru!</value>
     <value>Pembaruan siap dipasang. Klik untuk memulai ulang aplikasi!</value>
   </data>
   <data name="not_official_build" xml:space="preserve">
-    <value>Versi osu! ini bukan merupakan versi osu! yang resmi. Skor yang diraih tidak akan dikirim dan sistem online lainnya dapat tidak berfungsi sebagaimana mestinya.</value>
+    <value>Versi osu! ini bukan versi osu! yang resmi. Skor yang diraih tidak akan dikirim dan sistem online lainnya bisa tidak berfungsi sebagaimana mestinya.</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Mengunduh pembaruan...</value>
   </data>
   <data name="multiplayer_room_ended" xml:space="preserve">
-    <value>Ruangan multiplayer ini telah berakhir. Klik untuk menampilkan hasil ruangan.</value>
+    <value>Ruangan multiplayer ini sudah berakhir. Klik untuk menampilkan hasil ruangan.</value>
   </data>
   <data name="mention" xml:space="preserve">
     <value>Sebutan</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Online: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Offline: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Koneksi ke layanan online terganggu. osu! akan berjalan dengan kinerja yang terbatas.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Kamu sudah dikeluarkan dari perangkat ini karena entri masuk ke akunmu pada perangkat lain.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Kamu sudah dikeluarkan karena perubahan yang berlaku pada akunmu. Silakan masuk kembali.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Mengunduh {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Impor koleksi sedang dimulai...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Membaca koleksi...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>{0} koleksi diimpor</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>{0} dari {1} koleksi diimpor</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Kesalahan ini sudah dilaporkan secara otomatis kepada tim pengembang.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Versi rilis osu! yang lebih baru ditemukan ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Klik di sini untuk mengunduh versi baru ini, yang bisa dipasang di atas instalasi osu! yang sudah kamu miliki.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Periksalah dengan pengelola / penyedia paket yang kamu gunakan untuk memperbarui osu! ke versi terbaru!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Suatu tindakan terganggu akibat munculnya kotak dialog.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Mengekspor {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>{0} diekspor! Klik untuk melihat ekspor ini.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Mengekspor log...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Log diekspor! Klik untuk melihat ekspor ini.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Menjalankan osu! sebagai {0} tidak meningkatkan performa, bisa merusak integrasi aplikasi, serta berpotensi menimbulkan resiko keamanan. Silakan jalankan osu! sebagai pengguna biasa.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Tangkapan layar {0} disimpan!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Server multiplayer akan segera kembali...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Server multiplayer akan dimulai ulang dalam {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Koleksi baru "{0}" dengan {1} beatmap dibuat.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>{0} beatmap ditambahkan ke koleksi "{1}".</value>
   </data>
 </root>

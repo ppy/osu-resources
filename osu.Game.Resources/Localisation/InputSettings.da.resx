@@ -61,6 +61,9 @@
   <data name="input_section_header" xml:space="preserve">
     <value>Input</value>
   </data>
+  <data name="device" xml:space="preserve">
+    <value>Enhed: {0}</value>
+  </data>
   <data name="global_key_binding_header" xml:space="preserve">
     <value>Globalt</value>
   </data>
@@ -73,12 +76,17 @@
   <data name="in_game_section" xml:space="preserve">
     <value>I spillet</value>
   </data>
-  
+  <data name="replay_section" xml:space="preserve">
+    <value>Genafspilning</value>
+  </data>
   <data name="audio_section" xml:space="preserve">
     <value>Lyd</value>
   </data>
   <data name="editor_section" xml:space="preserve">
     <value>Editor</value>
+  </data>
+  <data name="editor_test_play_section" xml:space="preserve">
+    <value>Editor: Test spil</value>
   </data>
   <data name="reset_section_button" xml:space="preserve">
     <value>Nulstil alle bindinger i sektionen</value>
@@ -88,5 +96,17 @@
   </data>
   <data name="key_binding_panel_description" xml:space="preserve">
     <value>Tilpas dit tasteangivelser!</value>
+  </data>
+  <data name="key_binding_conflict_detected" xml:space="preserve">
+    <value>Den binding du har valgt overlapper en anden eksisternede binding.</value>
+  </data>
+  <data name="keep_existing_binding" xml:space="preserve">
+    <value>Behold eksisterende</value>
+  </data>
+  <data name="apply_new_binding" xml:space="preserve">
+    <value>Anvend ny</value>
+  </data>
+  <data name="action_has_no_key_binding" xml:space="preserve">
+    <value>(ingen)</value>
   </data>
 </root>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Tryk på {0} hvor som helst i spillet for at slå værktøjslinjen til/fra!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Tryk på {0} hvor som helst i spillet for at tilgå indstillinger!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Alle indstillinger er dynamiske og træder i kraft i realtid. På at ændre dit skin, mens du ser en automatisk afspilning!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Nye ændringer kommer online hver opdatering. Sørg for at holde dig opdateret!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Hvis du finder brugergrænsefladen for stor eller lille, så prøv at justere skalaen for brugergrænsefladen i indstillinger!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Prøv at justere "Skærm Skalering" tilstanden for at ændre dit spil eller området for brugergrænsefladen, endda i fuldskærm!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Hvad der plejede at være "osu!direct" er nu tilgængeligt for alle brugere ligesom på hjemmesiden. Du kan tilgå det hvor som helst ved hjælp af {0}!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Søgning i genafspilninger er muligt ved at trække på fremskridtslinjen i bunden af skærmen eller ved at bruge venstre og højre piletaster!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Prøv at rulle til højre i modfikationsvalget for at finde en masse nye sjove modifikationer!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Det meste af webindholdet (profiler, rangeringer, osv.) er tilgængeligt indbygget i spillet fra ikonerne på værktøjslinjen!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Få flere detaljer, skul eller slet et beatmap ved at højreklikke på dets panel ved sangvalg!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Tjek "spilleliste" systemet, som lader brugerne oprette deres egne og permanente rangeringslister!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Slå avanceret ramme / tråd statisik til/fra med Ctrl-F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Du kan holde pause under en genafspilning ved at trykke på {0}!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>De fleste af genvejstasterne i spillet er konfigurerbare og kan ændres til hvad som helst du ønsker. Tjek bindingspanelet under indtastningsindstillinger!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Din brugergrænseflade i spil kan ændres ved at bruge skin overlejrings editoren. Åbn den til enhver tid via {0}!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Du kan oprette modifikations-forudindstillinger for at slå dine favorit mod-kombinationer til nemmere!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Mange modifikationer har tilpasningsindstillinger som væsentligt ændrer hvordan de fungerer. Klik på Tilpas-knappen i modfikationsvalget for at se indstillinger!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Tryk på {0} for at skifte til et tilfældigt skin! Du kan også bruge {1} og {2} til at rulle gennem skins.</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Mens du ser en genafspilning, kan du trykke på {0} for at ændre indstillinger for genafspilningen!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Du kan nemt kopiere modifikationer fra en score på en rangeringsliste ved at højreklikke på dem!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl-Enter ved sangvalgt for at starte et beatmap i automatisk afspilningstilstand!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" er ikke et engelsk ord. Den korrekte stavemåde for det skarpe lys er "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Understøttelse af flere tråde betyder at selv ved lav "FPS" kan dit input og vurderinger være præcise!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Alle sletteoperationer er midlertidige indtil afslutning. Gendan indhold slettet ved fejltagelse fra vedligeholdelsesindstillingerne!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Tag et kig under overfladen på optrædelses-tællere og aktiver verbøs optrædelseslogging med Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Når dit brugergrænsefladen i spil er skjult, kan du trykke og holde {0} for at se den midlertidigt!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Træk og slip ethvert billede ind i skin-redigeringsvørktøjet for at indlæse det hurtigt!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Prøv at holde din højre museknap inde nære beatmap karusselen for hurtigt at rulle til en absolut placering!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Skift klik på et beatmap-panel i beatmap liste overlejringen for hurtigt at hente eller se beatmappet i sangvalg!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>et tip til dig:</value>
+  </data>
+</root>

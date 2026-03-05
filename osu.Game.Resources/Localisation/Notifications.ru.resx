@@ -133,4 +133,79 @@
   <data name="mention" xml:space="preserve">
     <value>Упоминание</value>
   </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>В сети: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Не в сети: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Соединение с онлайн-сервисами было прервано. Связанные функции osu! ограничены.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Ваша сессия была прервана из-за входа в вашу учётную запись на другом устройстве.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Сессия вашего аккаунта была завершена из-за внесённых в него изменений. Пожалуйста, войдите снова.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Загрузка {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Подготовка к импорту коллекций...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Чтение коллекций...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>Импортировано коллекций: {0}</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>Импорт коллекций: {0} из {1}</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Эта ошибка была отправлена команде разработчиков.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Найдена новейшая версия osu! ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Нажмите сюда, чтобы скачать новую версию, которую можно установить поверх текущей версии.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Зайдите в ваш пакетный менеджер/магазин приложений, чтобы обновить игру!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Действие было прервано из-за отображения другого диалогового окна.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Экспорт {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Экспортировано: {0}! Нажмите сюда, чтобы посмотреть.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Экспорт логов...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Логи экспортированы! Нажмите сюда, чтобы посмотреть.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Запуск osu! от имени {0} не улучшает производительность, может нарушить работу интеграций и представляет угрозу безопасности. Пожалуйста, запустите игру от имени обычного пользователя.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Скриншот {0} сохранен!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Сервер мультиплеера уходит на короткий технический перерыв...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Сервер мультиплеера будет перезагружен через {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Создана новая коллекция "{0}" из {1} карт.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Добавлено {0} карт в коллекцию "{1}".</value>
+  </data>
 </root>

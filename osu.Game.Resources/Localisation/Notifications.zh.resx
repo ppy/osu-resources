@@ -133,4 +133,79 @@
   <data name="mention" xml:space="preserve">
     <value>提及</value>
   </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>已上线：{0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>已下线：{0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>与在线服务的连接已中断。osu! 将以功能受限的状态运行。</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>由于您已经在另一台设备上登录，该设备已登出。</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>由于您的账户信息有更改，账号已登出。请重新登录。</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>正在下载 {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>收藏导入正在初始化……</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>读取收藏夹……</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>导入了 {0} 个收藏</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>导入了 {0}/{1} 个收藏</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>此错误已自动报告给开发团队。</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>发现新的 osu! 版本（{0}→{1}）。</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>点击此处下载新版本，可直接覆盖安装。</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>请通过您的软件包管理器/提供商将 osu! 更新至最新版本！</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>由于需要显示对话框，操作已被中断。</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>正在导出 {0} ......</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>已导出 {0}！点击查看。</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>正在导出日志......</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>已导出日志！点击查看。</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>以 {0} 身份运行 osu! 不会提升性能，可能破坏集成并带来安全风险。请以普通用户身份运行游戏。</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>截图 {0} 已保存！</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>多人游戏服务器即将恢复......</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>多人游戏服务器将在 {0} 后重新启动。</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>已创建收藏夹 "{0}"，包含 {1} 张谱面。</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>已将 {0} 张谱面加入收藏夹 "{1}"。</value>
+  </data>
 </root>
