@@ -71,7 +71,7 @@
     <value>komentar</value>
   </data>
   <data name="judge.hide_judged" xml:space="preserve">
-    <value>sembunyikan entri yang telah dinilai</value>
+    <value>sembunyikan entri yang sudah dinilai</value>
   </data>
   <data name="judge.nav_title" xml:space="preserve">
     <value>juri</value>
@@ -86,10 +86,10 @@
     <value>skor hilang</value>
   </data>
   <data name="judge.validation.contest_vote_judged" xml:space="preserve">
-    <value>kamu tidak dapat memberikan suara pada kontes yang dinilai oleh juri</value>
+    <value>kamu tidak bisa memberikan suara pada kontes yang dinilai oleh juri</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
-    <value>Kamu telah memberikan suara untuk entri ini.</value>
+    <value>Kamu sudah memberikan suara untuk entri ini.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
     <value>Hasil penjurian</value>
@@ -119,7 +119,7 @@
     <value>Silakan masuk untuk memberikan suara.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
-    <value>Pemungutan suara untuk kontes ini telah berakhir</value>
+    <value>Pemungutan suara untuk kontes ini sudah berakhir</value>
   </data>
   <data name="voting.show_voted_only" xml:space="preserve">
     <value>Tampilkan pilihan</value>
@@ -134,13 +134,13 @@
     <value>Lepas pilihan</value>
   </data>
   <data name="voting.button.used_up" xml:space="preserve">
-    <value>Kamu telah menggunakan seluruh hak suaramu</value>
+    <value>Kamu sudah menggunakan semua hak suaramu</value>
   </data>
   <data name="voting.progress._" xml:space="preserve">
-    <value>{0} / {1} suara telah digunakan</value>
+    <value>{0} / {1} suara digunakan</value>
   </data>
   <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
-    <value>Seluruh beatmap yang terkandung pada playlist yang ditentukan harus terlebih dahulu dimainkan sebelum memberikan suara</value>
+    <value>Kamu harus memainkan semua beatmap pada playlist yang ditentukan sebelum memberikan suara</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>entri</value>
@@ -149,7 +149,7 @@
     <value>Silakan masuk untuk mengikuti kontes.</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
-    <value>Kamu tidak dapat mengikuti kontes ketika kamu sedang di-restrict atau di-silence.</value>
+    <value>Kamu tidak bisa mengikuti kontes ketika kamu sedang di-restrict atau di-silence.</value>
   </data>
   <data name="entry.preparation" xml:space="preserve">
     <value>Kami sedang mempersiapkan kontes ini. Mohon bersabar!</value>
@@ -157,8 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Letakkan entrimu di sini</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>Kontes ini menerima jenis berkas {0}</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Ukuran berkas maks.: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Ukuran gambar harus {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Unduh .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Kontes ini hanya menerima berkas {0}.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Entri untuk kontes ini harus berukuran {0}{1}</value>
@@ -182,7 +194,7 @@
     <value>{0} poin</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
-    <value>Telah Berakhir Pada {0}</value>
+    <value>Berakhir Pada {0}</value>
   </data>
   <data name="dates.ended_no_date" xml:space="preserve">
     <value>Telah Berakhir</value>

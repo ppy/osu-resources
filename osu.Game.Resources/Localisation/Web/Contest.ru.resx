@@ -125,7 +125,7 @@
     <value>Показать проголосованные</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>Не похоже, что вы сыграли карты, что квалифицированы для этого конкурса!</value>
+    <value>Не похоже, что вы играли в карты, квалифицированные для этого конкурса!</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>Отдать голос</value>
@@ -157,8 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Оставь свою заявку здесь</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>Принимаются файлы {0}</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Максимальный размер: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Размеры должны быть строго {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Скачать .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Для этого конкурса принимаются только файлы формата {0}</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Размеры заявки для этого конкурса должны быть {0}{1}</value>

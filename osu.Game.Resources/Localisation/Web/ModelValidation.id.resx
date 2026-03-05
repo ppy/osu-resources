@@ -62,7 +62,7 @@
     <value>{0} yang ditentukan tidak valid.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
-    <value>{0} tidak dapat bernilai negatif.</value>
+    <value>{0} tidak boleh bernilai negatif.</value>
   </data>
   <data name="required" xml:space="preserve">
     <value>{0} diwajibkan.</value>
@@ -77,13 +77,13 @@
     <value>Konfirmasi tidak cocok.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Keterangan waktu telah ditentukan tetapi beatmap tidak ada.</value>
+    <value>Keterangan waktu ditentukan, namun tingkat beatmap tidak ada.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>Beatmap ini tidak dapat di-hype.</value>
+    <value>Beatmap ini tidak bisa di-hype.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
-    <value>Hype harus diberikan pada bagian Umum (Seluruh tingkat kesulitan).</value>
+    <value>Hype harus diberikan pada bagian Umum (Semua tingkat kesulitan).</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
     <value>Tingkat kesulitan yang ditentukan tidak valid.</value>
@@ -101,43 +101,43 @@
     <value>Keterangan Waktu</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Beatmap ini tidak dapat di-hype karena halaman diskusi beatmap ini sedang dikunci</value>
+    <value>Beatmap ini sedang dikunci untuk diskusi lebih lanjut dan tidak bisa di-hype.</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Kamu harus masuk untuk memberikan hype.</value>
   </data>
   <data name="beatmapset_discussion.hype.hyped" xml:space="preserve">
-    <value>Kamu telah memberikan hype kepada beatmap ini.</value>
+    <value>Kamu sudah memberikan hype kepada beatmap ini.</value>
   </data>
   <data name="beatmapset_discussion.hype.limit_exceeded" xml:space="preserve">
-    <value>Kamu telah menggunakan seluruh hype yang kamu miliki.</value>
+    <value>Kamu sudah menggunakan semua hype yang kamu miliki.</value>
   </data>
   <data name="beatmapset_discussion.hype.not_hypeable" xml:space="preserve">
-    <value>Beatmap ini tidak dapat di-hype</value>
+    <value>Beatmap ini tidak bisa di-hype</value>
   </data>
   <data name="beatmapset_discussion.hype.owner" xml:space="preserve">
-    <value>Kamu tidak dapat memberikan hype kepada beatmap milik sendiri.</value>
+    <value>Kamu tidak bisa memberikan hype kepada beatmap milik sendiri.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
     <value>Keterangan waktu yang ditentukan berada di luar durasi beatmap.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Keterangan waktu tidak dapat bernilai negatif.</value>
+    <value>Keterangan waktu tidak boleh bernilai negatif.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Topik diskusi ini dikunci.</value>
   </data>
   <data name="beatmapset_discussion_post.first_post" xml:space="preserve">
-    <value>Postingan awal tidak dapat dihapus.</value>
+    <value>Postingan pembuka tidak bisa dihapus.</value>
   </data>
   <data name="beatmapset_discussion_post.attributes.message" xml:space="preserve">
     <value>Pesan</value>
   </data>
   <data name="comment.deleted_parent" xml:space="preserve">
-    <value>Kamu tidak dapat membalas komentar yang telah dihapus.</value>
+    <value>Komentar yang dihapus tidak bisa dibalas.</value>
   </data>
   <data name="comment.top_only" xml:space="preserve">
-    <value>Komentar balasan tidak dapat disematkan.</value>
+    <value>Komentar balasan tidak bisa disematkan.</value>
   </data>
   <data name="comment.attributes.message" xml:space="preserve">
     <value>Isi pesan</value>
@@ -161,7 +161,7 @@
     <value>Postingan metadata beatmap tidak diperkenankan untuk disunting.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
-    <value>Tidak dapat menghapus postingan awal</value>
+    <value>Postingan pembuka tidak bisa dihapus</value>
   </data>
   <data name="forum.post.missing_topic" xml:space="preserve">
     <value>Postingan ini tidak memiliki topik</value>
@@ -179,10 +179,10 @@
     <value>Pilihan berganda tidak diizinkan.</value>
   </data>
   <data name="forum.topic_poll.grace_period_expired" xml:space="preserve">
-    <value>Jajak pendapat tidak lagi dapat disunting setelah {0} jam.</value>
+    <value>Jajak pendapat tidak lagi bisa disunting setelah {0} jam.</value>
   </data>
   <data name="forum.topic_poll.hiding_results_forever" xml:space="preserve">
-    <value>Suara pada jajak pendapat yang tidak pernah berakhir tidak dapat dirahasiakan.</value>
+    <value>Hasil jajak pendapat yang tidak pernah berakhir tidak bisa dirahasiakan.</value>
   </data>
   <data name="forum.topic_poll.invalid_max_options" xml:space="preserve">
     <value>Pilihan per pengguna tidak boleh melebihi jumlah opsi yang tersedia.</value>
@@ -233,7 +233,7 @@
     <value>{0} ini mengandung karakter yang tidak valid.</value>
   </data>
   <data name="team.used" xml:space="preserve">
-    <value>Pilihan {0} ini telah digunakan.</value>
+    <value>Pilihan {0} ini sudah digunakan.</value>
   </data>
   <data name="team.word_not_allowed" xml:space="preserve">
     <value>Pilihan {0} ini tidak diizinkan.</value>
@@ -257,13 +257,13 @@
     <value>Kata sandi tidak boleh mengandung nama pengguna.</value>
   </data>
   <data name="user.email_already_used" xml:space="preserve">
-    <value>Alamat email ini telah digunakan.</value>
+    <value>Alamat email ini sudah digunakan.</value>
   </data>
   <data name="user.email_not_allowed" xml:space="preserve">
     <value>Alamat email ini tidak diizinkan.</value>
   </data>
   <data name="user.invalid_country" xml:space="preserve">
-    <value>Negara tidak ada dalam basis data.</value>
+    <value>Negara tidak terdapat dalam basis data.</value>
   </data>
   <data name="user.invalid_discord" xml:space="preserve">
     <value>Nama pengguna Discord tidak valid.</value>
@@ -278,7 +278,7 @@
     <value>Kata sandi baru terlalu pendek.</value>
   </data>
   <data name="user.unknown_duplicate" xml:space="preserve">
-    <value>Nama pengguna atau alamat email ini telah digunakan.</value>
+    <value>Nama pengguna atau alamat email ini sudah digunakan.</value>
   </data>
   <data name="user.username_available_in" xml:space="preserve">
     <value>Nama pengguna ini akan tersedia untuk digunakan dalam {0}.</value>
@@ -290,16 +290,16 @@
     <value>Nama pengguna yang diminta mengandung karakter yang tidak valid.</value>
   </data>
   <data name="user.username_in_use" xml:space="preserve">
-    <value>Nama pengguna ini telah digunakan!</value>
+    <value>Nama pengguna ini sudah digunakan!</value>
   </data>
   <data name="user.username_locked" xml:space="preserve">
-    <value>Nama pengguna ini telah digunakan!</value>
+    <value>Nama pengguna ini sudah digunakan!</value>
   </data>
   <data name="user.username_no_space_userscore_mix" xml:space="preserve">
     <value>Mohon gunakan garis bawah atau spasi, jangan keduanya!</value>
   </data>
   <data name="user.username_no_spaces" xml:space="preserve">
-    <value>Nama pengguna tidak dapat dimulai atau diakhiri dengan spasi!</value>
+    <value>Nama pengguna tidak boleh dimulai atau diakhiri dengan spasi!</value>
   </data>
   <data name="user.username_not_allowed" xml:space="preserve">
     <value>Pilihan nama pengguna ini tidak diizinkan.</value>
@@ -335,7 +335,7 @@
     <value>Kata sandi</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
-    <value>Kamu tidak dapat mengubah nama pengguna pada saat akunmu sedang di-restrict.</value>
+    <value>Kamu tidak bisa mengubah nama pengguna pada saat akunmu sedang di-restrict.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
     <value>Kamu harus pernah {0} untuk mengubah nama penggunamu!</value>
@@ -347,7 +347,7 @@
     <value>Ini adalah nama penggunamu yang sekarang, duh!</value>
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
-    <value>Kamu tidak dapat melaporkan beatmap yang berstatus Ranked</value>
+    <value>Beatmap yang berstatus Ranked tidak bisa dilaporkan</value>
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Kamu tidak berada dalam kanal percakapan ini.</value>
@@ -359,7 +359,7 @@
     <value>{0} bukan alasan yang valid untuk jenis laporan ini.</value>
   </data>
   <data name="user_report.self" xml:space="preserve">
-    <value>Kamu tidak dapat melaporkan dirimu sendiri!</value>
+    <value>Kamu tidak bisa melaporkan dirimu sendiri!</value>
   </data>
   <data name="store.order_item.attributes.quantity" xml:space="preserve">
     <value>Jumlah</value>
