@@ -59,22 +59,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_chat" xml:space="preserve">
-    <value>สลับการซ้อนแชท</value>
+    <value>เปิด/ปิดโอเวอร์เลย์แชท</value>
   </data>
   <data name="toggle_social" xml:space="preserve">
-    <value>สลับการซ้อนสื่อ</value>
+    <value>เปิด/ปิดโอเวอร์เลย์โซเชียล</value>
   </data>
   <data name="reset_input_settings" xml:space="preserve">
     <value>รีเซ็ตการตั้งค่าอินพุต</value>
   </data>
   <data name="toggle_toolbar" xml:space="preserve">
-    <value>สลับแถบเครื่องมือ</value>
+    <value>เปิด/ปิดแถบเครื่องมือ</value>
   </data>
   <data name="toggle_settings" xml:space="preserve">
-    <value>สลับการตั้งค่า</value>
+    <value>เปิด/ปิดการตั้งค่า</value>
   </data>
   <data name="toggle_beatmap_listing" xml:space="preserve">
-    <value>สลับรายการบีทแมพ</value>
+    <value>เปิด/ปิดรายการบีทแมพ</value>
   </data>
   <data name="increase_volume" xml:space="preserve">
     <value>เพิ่มเสียง</value>
@@ -83,7 +83,7 @@
     <value>ลดเสียง</value>
   </data>
   <data name="toggle_mute" xml:space="preserve">
-    <value>สลับปิดเสียง</value>
+    <value>เปิด/ปิดเสียง</value>
   </data>
   <data name="skip_cutscene" xml:space="preserve">
     <value>ข้ามคัตซีน</value>
@@ -95,7 +95,7 @@
     <value>ถ่ายภาพหน้าจอ</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
-    <value>สลับปุ่มเมาส์เล่นเกม</value>
+    <value>เปิด/ปิดปุ่มเมาส์ระหว่างเล่น</value>
   </data>
   <data name="back" xml:space="preserve">
     <value>กลับ</value>
@@ -122,7 +122,7 @@
     <value>เล่น/พัก</value>
   </data>
   <data name="toggle_now_playing" xml:space="preserve">
-    <value>สลับการเล่นโอเวอร์เลย์</value>
+    <value>เปิด/ปิดการเล่นโอเวอร์เลย์</value>
   </data>
   <data name="select_previous" xml:space="preserve">
     <value>เลือกอันก่อนหน้า</value>
@@ -130,20 +130,29 @@
   <data name="select_next" xml:space="preserve">
     <value>เลือกอันถัดไป</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>เลือกกลุ่มก่อนหน้า</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>บีทแมพก่อนหน้า</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>เลือกกลุ่มถัดไป</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>บีทแมพถัดไป</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>ขยายกลุ่มก่อนหน้า</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>ขยายกลุ่มถัดไป</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>เปิด/ปิดการขยายของกลุ่มปัจจุบัน</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>หน้าแรก</value>
   </data>
   <data name="toggle_notifications" xml:space="preserve">
-    <value>สลับการแจ้งเตือน</value>
+    <value>เปิด/ปิดการแจ้งเตือน</value>
   </data>
   <data name="toggle_profile" xml:space="preserve">
-    <value>สลับโปรไฟล์</value>
+    <value>เปิด/ปิดโปรไฟล์</value>
   </data>
   <data name="pause_gameplay" xml:space="preserve">
     <value>หยุดชั่วคราว / เล่นต่อ</value>
@@ -166,29 +175,38 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>เลือกซ้ำ</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>โหมดการแสดงตารางวงกลม</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>การเว้นระยะห่างตารางเซอร์เคิล</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>ประเภทตารางเซอร์เคิล</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
-    <value>ทดสอบการเล่นเกม</value>
+    <value>ทดสอบการเล่น</value>
   </data>
   <data name="hold_for_hud" xml:space="preserve">
-    <value>กดค้างที่ HUD</value>
+    <value>กดค้างเพื่อเปิด/ปิด HUD</value>
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>สุ่มสกิน</value>
+  </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>สกินก่อน</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>สกินถัดไป</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>หยุดรีเพลย์ชั่วคราว/เล่นต่อ</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>สลับหน้าต่างในเกม</value>
+    <value>เปิด/ปิดหน้าต่างในเกม</value>
   </data>
   <data name="toggle_in_game_leaderboard" xml:space="preserve">
-    <value>สลับกระดานอันดับในเกม</value>
+    <value>เปิด/ปิดกระดานอันดับในเกม</value>
   </data>
   <data name="toggle_mod_selection" xml:space="preserve">
-    <value>สลับโหมดเลือก</value>
+    <value>เปิด/ปิดการเลือกม็อด</value>
   </data>
   <data name="deselect_all_mods" xml:space="preserve">
     <value>ยกเลิกการเลือกม็อตทั้งหมด</value>
@@ -197,7 +215,7 @@
     <value>สุ่ม</value>
   </data>
   <data name="select_previous_random" xml:space="preserve">
-    <value>กรอกลับ</value>
+    <value>Undo การสุ่ม</value>
   </data>
   <data name="toggle_beatmap_options" xml:space="preserve">
     <value>ตัวเลือกบีทแมพ</value>
@@ -212,7 +230,7 @@
     <value>เขยิบไปทางขวา</value>
   </data>
   <data name="editor_flip_horizontally" xml:space="preserve">
-    <value>พลิกในแนวนอน</value>
+    <value>พลิกการเลือกแบบแนวนอน</value>
   </data>
   <data name="editor_flip_vertically" xml:space="preserve">
     <value>พลิกในตั้ง</value>
@@ -230,10 +248,10 @@
     <value>วนรอบตัวหาร snap จังหวะถัดไป</value>
   </data>
   <data name="toggle_skin_editor" xml:space="preserve">
-    <value>เปิดปิดตัวแก้ไขสกิน</value>
+    <value>เปิด/ปิดตัวแก้ไขสกิน</value>
   </data>
   <data name="toggle_fps_counter" xml:space="preserve">
-    <value>สลับตัวนับ FPS</value>
+    <value>เปิด/ปิดตัวนับ FPS</value>
   </data>
   <data name="previous_volume_meter" xml:space="preserve">
     <value>ระดับเสียงก่อนหน้า</value>
@@ -254,10 +272,10 @@
     <value>เลื่อนรีเพลย์ถอยหลัง 1 เฟรม</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
-    <value>สลับโฟกัสการแชท</value>
+    <value>เปิด/ปิดโฟกัสการสนทนา</value>
   </data>
   <data name="toggle_replay_settings" xml:space="preserve">
-    <value>เปิดปิดการตั้งค่ารีเพลย์</value>
+    <value>เปิด/ปิดการตั้งค่ารีเพลย์</value>
   </data>
   <data name="save_replay" xml:space="preserve">
     <value>บันทึกรีเพลย์</value>
@@ -272,16 +290,16 @@
     <value>ลดออฟเซต</value>
   </data>
   <data name="editor_toggle_rotate_control" xml:space="preserve">
-    <value>สลับตัวควบคุมการหมุน</value>
+    <value>เปิด/ปิดตัวควบคุมการหมุน</value>
   </data>
   <data name="editor_toggle_scale_control" xml:space="preserve">
-    <value>สลับการควบคุมขนาด</value>
+    <value>เปิด/ปิดการควบคุมขนาด</value>
   </data>
   <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
-    <value>Toggle autoplay</value>
+    <value>เปิด/ปิดการเล่นอัตโนมัติ</value>
   </data>
   <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
-    <value>สลับการควิกพอส์</value>
+    <value>เปิด/ปิดการพักอย่างรวดเร็ว</value>
   </data>
   <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
     <value>ออกอย่างรวดเร็วสู่เวลาเริ่มต้น</value>
@@ -302,9 +320,30 @@
     <value>เลื่อนไปยังฮิตออบเจ็กต์ถัดไป</value>
   </data>
   <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
-    <value>เลื่อนไปยังจุดแซมเพิลก่อนหน้า</value>
+    <value>เลื่อนไปยังจุดแซมเปิลก่อนหน้า</value>
   </data>
   <data name="editor_seek_to_next_sample_point" xml:space="preserve">
     <value>เลื่อนไปยังจุดแซมเพิลถัดไป</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>เพิ่มบุ๊กมาร์ก</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>ลบบุ๊คมาร์กที่ใกล้ที่สุด</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>ไปที่บุ๊คมาร์กก่อนหน้านี้</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>ไปที่บุ๊คมาร์กถัดไป</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>เลื่อนเลือกเพลงแบบแม่นยำ</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>เปลี่ยนการควบคุมการเคลื่อนไหว</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>ทิ้งการเปลี่ยนแปลงที่ยังไม่ได้บันทึก</value>
   </data>
 </root>

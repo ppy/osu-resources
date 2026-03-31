@@ -71,7 +71,7 @@
     <value>อุปกรณ์เอาต์พุต​</value>
   </data>
   <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>การแยกเสียงสเตอริโอ Hitsound</value>
+    <value>การแยกเสียงกดแบบสเตอริโอ</value>
   </data>
   <data name="master_volume" xml:space="preserve">
     <value>ระดับเสียงหลัก</value>
@@ -89,10 +89,13 @@
     <value>การแก้ไขความคลาดเคลื่อน</value>
   </data>
   <data name="audio_offset" xml:space="preserve">
-    <value>การชดเชยความคลาดเคลื่อนของเพลง</value>
+    <value>ออฟเซ็ตเสียง</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>เล่น beatmaps สักสองสามอันเพื่อรับค่าออฟเซ็ตที่แนะนำ!</value>
+    <value>เล่นบีทแมพสักสองสามอันเพื่อรับค่าออฟเซ็ตที่แนะนำ!</value>
+  </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>ดูจาก {0} ครั้งก่อนที่คุณเล่น ออฟเซ็ตของคุณถูกต้องแล้ว!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
     <value>อิงตามการเล่นครั้งล่าสุด {0} ครั้ง, ค่าออฟเซ็ตที่แนะนำคือ {1} มิลลิวินาที.</value>
@@ -101,6 +104,21 @@
     <value>ใช้ค่าออฟเซ็ตที่แนะนำ</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
-    <value>ตัวช่วยชดเชยความคลาดเคลื่อน</value>
+    <value>ตัวช่วยปรับออฟเซ็ต</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>ปรับออฟเซ็ตบีทแมพอัตโนมัติ</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>หากเปิด ออฟเซ็ตที่แนะนำจากการเล่นครั้งก่อนของบีทแมพนั้นๆ จะถูกใช้งานโดยอัตโนมัติ</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>ทดลองใช้ระบบเสียงแบบใหม่</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>จะเริ่มต้นระบบเสียงในโหมดความหน่วงตํ่า</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>จำเป็นต้องปรับออฟเซ็ตของคุณ เนื่องจากการเปิดตั้งค่านี้ทำให้มีความหน่วงที่ตํ่ากว่าเดิม เบื้องต้นคือนำออฟเซ็ตปกติของคุณไปลบประมาณ 20-60 มิลลิวินาที</value>
   </data>
 </root>
