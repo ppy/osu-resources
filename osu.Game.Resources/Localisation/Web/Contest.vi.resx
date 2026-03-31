@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="header.small" xml:space="preserve">
-    <value>Cạnh tranh bằng nhiều cách khác nhau hơn là chỉ bấm vòng tròn.</value>
+    <value>Cạnh tranh bằng nhiều cách khác nhau hơn là chỉ bấm nốt tròn.</value>
   </data>
   <data name="header.large" xml:space="preserve">
     <value>Cuộc Thi Cộng Đồng</value>
@@ -140,7 +140,7 @@
     <value>{0} / {1} người dùng bình chọn</value>
   </data>
   <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
-    <value>Phải chơi hết tất cả beatmap trong playlist cụ thể trước khi bình chọn</value>
+    <value>Phải chơi hết tất cả beatmap trong danh sách phát cụ thể trước khi bình chọn</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>bài dự thi</value>
@@ -157,8 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Thả bài dự thi của bạn vào đây</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>Chấp nhận tệp {0}</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Dung lượng tối đa: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Kích thước phải là {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Tải xuống .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Cuộc thi này chỉ chấp nhận tệp {0}.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Bài dự thi cho cuộc thi này phải có {0}{1}</value>

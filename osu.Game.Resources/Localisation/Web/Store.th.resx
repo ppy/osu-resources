@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>เนื่องจากการชำระเงินของคุณเป็น eCheck โปรดรอเพิ่มอีก 10 วันเพื่อให้การชำระเงินผ่าน PayPal!</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>การชำระเงิน eCheck ถูกปฏิเสธโดย PayPal</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>แท็กผู้สนับสนุน osu! ในคำสั่งซื้อนี้จะไม่แสดงในกิจกรรมล่าสุดของคุณ</value>
   </data>
@@ -336,6 +339,9 @@
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>แจ้งเตือนฉันเมื่อมีสินค้า!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>สินค้าหมด</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>เราจะแจ้งเตือนคุณทันทีเมื่อมีสินค้าเข้า คลิก {0} เพื่อยกเลิก</value>

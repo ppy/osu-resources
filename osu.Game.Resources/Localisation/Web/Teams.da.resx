@@ -61,6 +61,18 @@
   <data name="applications.accept.ok" xml:space="preserve">
     <value>Tilføjede bruger til teamet.</value>
   </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Annullerede tilmeldingsanmodning.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Afviste tilmeldingsanmodning.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Anmodede om at deltage i hold.</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} medlem|{0} medlemmer</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>Opret Team</value>
   </data>
@@ -69,6 +81,9 @@
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>Højst 4 tegn.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Lad os oprette et nyt hold</value>
   </data>
   <data name="create.intro.description" xml:space="preserve">
     <value>Spil sammen med eksisterende eller nye venner. Du er ikke i et team lige nu. Du kan melde dig ind i et team ved at besøge teamets side, eller lav dit eget team fra denne side.</value>
@@ -91,10 +106,163 @@
   <data name="edit.description.title" xml:space="preserve">
     <value>Team-beskrivelse</value>
   </data>
+  <data name="edit.flag.label" xml:space="preserve">
+    <value>Hold Flag</value>
+  </data>
+  <data name="edit.flag.title" xml:space="preserve">
+    <value>Angiv Hold Flag</value>
+  </data>
+  <data name="edit.header.label" xml:space="preserve">
+    <value>Headerbillede</value>
+  </data>
+  <data name="edit.header.title" xml:space="preserve">
+    <value>Angiv Headerbillede</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>Om folk skal kunne ansøge om at blive en del af holdet</value>
+  </data>
+  <data name="edit.settings.default_ruleset_help" xml:space="preserve">
+    <value>Regelsættet som vælgæes som standard, når holdsiden besøges</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>Maksimum størrelse af {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>Maksimum størrelse af {0}×{1}</value>
+  </data>
+  <data name="edit.settings.title" xml:space="preserve">
+    <value>Holdindstillinger</value>
+  </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
     <value>Lukket</value>
   </data>
+  <data name="edit.settings.application_state.state_1" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>indstillinger</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>rangliste</value>
+  </data>
+  <data name="header_links.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>administrér medlemmer</value>
+  </data>
+  <data name="leaderboard.global_rank" xml:space="preserve">
+    <value>Global Rang</value>
+  </data>
+  <data name="members.destroy.success" xml:space="preserve">
+    <value>Holdmedlem fjernet</value>
+  </data>
+  <data name="members.index.title" xml:space="preserve">
+    <value>Administrér Medlemmer</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Tilføj brugeren {0} til holdet?</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>Ansøgt Ved</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>Ingen tilmeldningsanmodninger i øjeblikket.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>Tilgængelige pladser</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} bruger opfyldt|{0} brugere opfyldt</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Afvis tilmeldingsanmodning  fra {0}?</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>Deltageranmodning</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>Tilmeldingsdato</value>
+  </data>
+  <data name="members.index.table.remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
   <data name="members.index.table.remove_confirm" xml:space="preserve">
     <value>Fjern brugeren {0} fra teamet?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>Overfør holdlederskab</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>Overfør holdlederskab til brugeren {0}?</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="members.index.table.title" xml:space="preserve">
+    <value>Nuværende Medlemmer</value>
+  </data>
+  <data name="members.index.status.status_0" xml:space="preserve">
+    <value>Inaktive</value>
+  </data>
+  <data name="members.index.status.status_1" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>Brugeren {0} er nu holdlederen.</value>
+  </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>Forlod holdet ;_;</value>
+  </data>
+  <data name="show.bar.chat" xml:space="preserve">
+    <value>Holdchat</value>
+  </data>
+  <data name="show.bar.destroy" xml:space="preserve">
+    <value>Opløs Hold</value>
+  </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>Anmod om at deltage</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>Annullér Deltagelse</value>
+  </data>
+  <data name="show.bar.part" xml:space="preserve">
+    <value>Forlad Hold</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>Dannet</value>
+  </data>
+  <data name="show.members.members" xml:space="preserve">
+    <value>Holdmedlemmer</value>
+  </data>
+  <data name="show.members.owner" xml:space="preserve">
+    <value>Holdleder</value>
+  </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>Om Os!</value>
+  </data>
+  <data name="show.sections.info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>Medlemmer</value>
+  </data>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} plads til rådighed|{0} pladser til rådighed</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Første plads</value>
+  </data>
+  <data name="show.statistics.leader" xml:space="preserve">
+    <value>Holdleder</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>Rang</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Rangerede Beatmaps</value>
+  </data>
+  <data name="store.ok" xml:space="preserve">
+    <value>Hold oprettet.</value>
   </data>
 </root>

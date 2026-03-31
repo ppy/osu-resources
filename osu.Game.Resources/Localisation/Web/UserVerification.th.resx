@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>ออกจากระบบ</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>โปรดกรอกโค้ดจากแอป Authenticator ของคุณ</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>คุณก็สามารถ {0} ได้เช่นกัน</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>หากเข้าถึงแอปไม่ได้ {0}</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>คุณสามารถยืนยันผ่านอีเมลแทนได้</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>รหัสยืนยันตัวตนนี้หมดอายุแล้ว ได้ทำการส่งรหัสยืนยันตัวตนใหม่ไปทางอีเมลแล้ว</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>รหัสยืนยันตัวตนถูกเปลี่ยน ได้ทำการส่งรหัสยืนยันตัวตนใหม่ไปทางอีเมลแล้ว</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>โค้ดยืนยันตัวตนถูกใช้ไปแล้ว กรุณารอสักครู่แล้วใช้โค้ดใหม่</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>โทเคนยืนยันตัวตนถูกลบไปแล้ว กำลังเปลี่ยนเป็นการยืนยันตัวตนผ่านอีเมล อีเมลยืนยันถูกส่งไปแล้ว</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>พบข้อผิดพลาดเกิดขึ้น ได้ทำการส่งรหัสยืนยันตัวตนใหม่ไปทางอีเมลแล้ว</value>

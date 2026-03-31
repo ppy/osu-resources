@@ -58,31 +58,160 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mods" xml:space="preserve">
+    <value>Công cụ sửa đổi lối chơi</value>
+  </data>
+  <data name="random" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
+  <data name="rewind" xml:space="preserve">
+    <value>Tua lại</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
   <data name="locally_modified" xml:space="preserve">
     <value>Nội bộ</value>
   </data>
   <data name="locally_modified_tooltip" xml:space="preserve">
     <value>Đã được chỉnh sửa nội bộ</value>
   </data>
-  <data name="manage_collections" xml:space="preserve">
-    <value>Quản lý bộ sưu tập</value>
+  <data name="status_unknown" xml:space="preserve">
+    <value>Không rõ</value>
+  </data>
+  <data name="total_plays" xml:space="preserve">
+    <value>Tổng lượt chơi</value>
+  </data>
+  <data name="personal_plays" xml:space="preserve">
+    <value>Lượt chơi cá nhân</value>
+  </data>
+  <data name="circle_size" xml:space="preserve">
+    <value>Cỡ nốt tròn</value>
+  </data>
+  <data name="key_count" xml:space="preserve">
+    <value>Số phím</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Tốc độ tiếp cận</value>
+  </data>
+  <data name="accuracy" xml:space="preserve">
+    <value>Độ chính xác</value>
+  </data>
+  <data name="hp_drain" xml:space="preserve">
+    <value>Độ giảm máu</value>
+  </data>
+  <data name="scroll_speed" xml:space="preserve">
+    <value>Tốc độ cuộn</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Đã gửi</value>
+  </data>
+  <data name="ranked" xml:space="preserve">
+    <value>Đã được xếp hạng</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="ranking" xml:space="preserve">
+    <value>Xếp hạng</value>
+  </data>
+  <data name="use_these_mods" xml:space="preserve">
+    <value>Sử dụng những mods này</value>
+  </data>
+  <data name="watch_replay" xml:space="preserve">
+    <value>Xem lại</value>
   </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Cho tất cả độ khó</value>
   </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Xoá beatmap</value>
-  </data>
   <data name="for_selected_difficulty" xml:space="preserve">
     <value>Cho độ khó được chọn</value>
+  </data>
+  <data name="update_beatmap_tooltip" xml:space="preserve">
+    <value>Cập nhật beatmap với thay đổi trực tuyến</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
     <value>Đánh dấu là đã chơi</value>
   </data>
+  <data name="remove_from_played" xml:space="preserve">
+    <value>Xóa khỏi đã chơi</value>
+  </data>
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Xoá tất cả kết quả chơi được lưu</value>
   </data>
-  <data name="edit_beatmap" xml:space="preserve">
-    <value>Chỉnh sửa beatmap</value>
+  <data name="restore_all_hidden" xml:space="preserve">
+    <value>Khôi phục tất cả đã ẩn</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} sao</value>
+  </data>
+  <data name="sort" xml:space="preserve">
+    <value>Lọc</value>
+  </data>
+  <data name="group" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Rỗng</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="artist" xml:space="preserve">
+    <value>Nghệ sĩ</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="date_submitted" xml:space="preserve">
+    <value>Ngày nộp</value>
+  </data>
+  <data name="date_ranked" xml:space="preserve">
+    <value>Ngày xếp hạng</value>
+  </data>
+  <data name="date_added" xml:space="preserve">
+    <value>Ngày được thêm</value>
+  </data>
+  <data name="last_played" xml:space="preserve">
+    <value>Lần cuối chơi</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Độ khó</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Độ dài</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Yêu thích</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Beatmap của tôi</value>
+  </data>
+  <data name="collections" xml:space="preserve">
+    <value>Bộ sưu tập</value>
+  </data>
+  <data name="rank_achieved" xml:space="preserve">
+    <value>Thứ hạng đạt được</value>
+  </data>
+  <data name="ranked_status" xml:space="preserve">
+    <value>Trạng thái xếp hạng</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="no_matching_beatmaps" xml:space="preserve">
+    <value>Không beatmap nào được tìm thấy</value>
+  </data>
+  <data name="no_matching_beatmaps_description" xml:space="preserve">
+    <value>Không có beatmap nào phù hợp với bộ lọc của bạn!</value>
+  </data>
+  <data name="temporarily_showing_all_beatmaps_in" xml:space="preserve">
+    <value>Tạm thời hiện tất cả beatmap trong</value>
+  </data>
+  <data name="mostly_bpm" xml:space="preserve">
+    <value>chủ yếu {0}</value>
   </data>
 </root>

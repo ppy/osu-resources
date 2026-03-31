@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>กด {0} ที่ไหนก็ได้เพื่อเปิด/ปิดแถบเครื่องมือ!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>กด {0} ที่ไหนก็ได้ในเกมเพื่อเปิดการตั้งค่า!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>ทุกตั้งค่าใช้ได้ทันทีไม่มีลีลา ลองเปลี่ยนสกินตอนดูการเล่นอัตโนมัติสิ!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>ฟีเจอร์ใหม่มากมายเพิ่มมาทุกอัปเดต! อย่าลืมอัปเดตนะ!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>ถ้า UI ขนาดไม่ถูกใจ ก็ปรับได้ในตั้งค่า!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>ลองเปลี่ยนโหมดปรับขนาดสเกลหน้าจอดูสิ แม้จะใช้ Fullscreen ก็เถอะ!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>osu!direct ตอนนี้ใช้ฟรีได้แล้วนะ จะโหลดแมพกด {0} ที่ไหนก็ได้!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>ตอนนี้กรอตอนดูรีเพลย์ได้นะ</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>ลองเลื่อนๆ ดูในหน้าเลือกม็อด จะเจอม็อดสนุกๆ มากมาย!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>เนื้อหาในเว็บเกือบทั้งหมด เช่นโปรไฟล์ แรงค์ และอื่นๆ มีให้ดูในเกมบนแถบเครื่องมือ!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>จะดูข้อมูล ซ่อน หรือลบ ก็กดคลิกขวาที่บีทแมพได้ในหน้าเลือกเพลง!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>"เพลย์ลิสต์" เป็นระบบที่ให้ผู้เล่นสร้างกระดานคะแนนได้ด้วยตนเอง!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>เปิด/ปิดการแสดงผลสถิติเฟรมและเธรดขั้นสูงด้วย Ctrl+F11!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>หยุดพักรีเพลย์ได้โดยการกด {0}!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>คีย์ลัดเกือบทั้งหมดสามารถปรับได้ตามใจในการตั้งค่า!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>ตั้งค่า HUD ระหว่างเล่นได้ตามใจชอบโดยใช้ตัวแก้ไขเลย์เอาต์สกิน กด {0} จะเปิดตอนไหนก็ได้!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>สร้างพรีเซ็ตม็อดเพื่อเลือกม็อดโปรดของคุณได้อย่างง่ายดาย!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>คุณสามารถปรับพฤติกรรมของหลาย ๆ ม็อดได้ด้วยการ "ปรับแต่ง"</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>สุ่มสกินกด {0}! หรือจะเปลี่ยนไปมาก็ได้ด้วย {1} กับ {2}</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>ตอนดูรีเพลย์ กด {0} เปิด/ปิดการตั้งค่ารีเพลย์!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>ก็อปม็อดจากกระดานคะแนนได้ด้วยการคลิกขวา!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>การกด Ctrl+Enter ในหน้าเลือกเพลงจะเป็นการเล่นบีทแมพอัตโนมัติ!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" เหรอ? เขียนผิดซะแล้ว ถ้าจะให้ถูกต้องเขียนว่า "Laser"</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>มัลติเธรดทำให้เกม</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>ถ้ายังไม่ได้ออกเกม เผลอลบอะไรไปก็กู้คืนได้จาก การตั้งค่า > บำรุงรักษา!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>กด Ctrl+F2 ดูสถิติระบบและเปิด Verbose Performance Log ได้!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>ซ่อน HUD ไว้ก็กด {0} ดูได้!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>เอารูปมาใส่แบบไว ๆ ในตัวแก้ไขสกินด้วยการลาก!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>ลองเลื่อนโดยคลิกขวาค้างข้าง ๆ บีทแมพสิ!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>โหลดบีทแมพได้โดยการกด Shift+คลิกซ้าย ถ้าโหลดไปแล้วจะเป็นการเลือกบีทแมพในหน้าเลือกเพลง!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>จะแนะนำนะ:</value>
+  </data>
+</root>

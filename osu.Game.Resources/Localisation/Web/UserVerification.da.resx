@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>logge ud</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Indtast venligst koden fra din godkendelses-app.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Du kan også {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>log ud</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Hvis du ikke har adgang til din app, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>du kan verificere med e-mail i stedet</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Bekræftelseskoden er udløbet, og en ny email med bekræftelseskode er blevet sendt.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>En email med en ny bekræftelseskode er blevet sendt.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Bekræftelseskode er allerede brugt. Vent venligst og brug en ny.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Godkendelsestoken er blevet fjernet, skifter til e-mail bekræftelse. Bekræftelsesmail er blevet sendt.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Der opstod et ukendt problem. En ny email med bekræftelseskode er blevet sendt.</value>

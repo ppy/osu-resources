@@ -70,6 +70,9 @@
   <data name="too_long" xml:space="preserve">
     <value>{0} overskrider maksimal længde - kan højest være op til {1} karakterer.</value>
   </data>
+  <data name="url" xml:space="preserve">
+    <value>Indsæt venligst en gyldig URL-adresse.</value>
+  </data>
   <data name="wrong_confirmation" xml:space="preserve">
     <value>Bekræftelseskoden matchede ikke.</value>
   </data>
@@ -202,6 +205,18 @@
   <data name="forum.topic_vote.too_many" xml:space="preserve">
     <value>Valgte flere valgmuliheder end tilladt.</value>
   </data>
+  <data name="legacy_api_key.exists" xml:space="preserve">
+    <value>Kun én API-nøgle tildeles hver bruger i øjeblikket.</value>
+  </data>
+  <data name="legacy_api_key.attributes.api_key" xml:space="preserve">
+    <value>api-nøgle</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_name" xml:space="preserve">
+    <value>applikationsnavn</value>
+  </data>
+  <data name="legacy_api_key.attributes.app_url" xml:space="preserve">
+    <value>applikations-url</value>
+  </data>
   <data name="oauth.client.too_many" xml:space="preserve">
     <value>Overskrider det maksimale antal tilladte OAuth applikationer.</value>
   </data>
@@ -213,6 +228,30 @@
   </data>
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>Applikation Callback URL</value>
+  </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>Dette {0} indeholder ugyldige karakterer.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>Dette {0} valg er allerede anvendt.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Dette {0} valg er ikke tilladt.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Standard regelsæt</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Hold tilmelding</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>Kort navn</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>URL</value>
   </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>Adgangskoden må ikke indholde et brugernavn.</value>
@@ -312,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Du er ikke i denne kanal.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>Du er en del af holdet.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} er ikke gyldt for denne type anmeldelse.</value>

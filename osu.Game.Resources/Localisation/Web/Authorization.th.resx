@@ -136,6 +136,9 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>คุณไม่สามารถเปลี่ยน metadata ของบีทแมพที่ทำการเสนอชื่อเป็นที่เรียบร้อยแล้ว ติดต่อ BN หรือ NAT หากคุณคิดว่ามีข้อผิดพลาดประการใด</value>
   </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>จำเป็นต้องมีคะแนนบนบีทแมพก่อนที่จะเพิ่มแทก</value>
+  </data>
   <data name="chat.blocked" xml:space="preserve">
     <value>ไม่สามารถส่งข้อความถึงผู้ใช้ที่บล็อกคุณหรือที่คุณบล็อกได้</value>
   </data>
@@ -167,16 +170,16 @@
     <value>ไม่สามารถแก้ไขโพสต์ที่ถูกลบได้</value>
   </data>
   <data name="contest.judging_not_active" xml:space="preserve">
-    <value>การแข่งขันนี้ยังไม่ได้รับการตัดสิน</value>
+    <value>การตัดสินคอนเทสต์นี้ไม่แอคทีฟ</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>คุณไม่สามารถเปลี่ยนการโหวตหลังจากระยะเวลาลงคะแนนเสียงสำหรับการประกวดนี้ได้สิ้นสุดลง</value>
   </data>
   <data name="contest.entry.limit_reached" xml:space="preserve">
-    <value>คุณถึงขีดจำกัดของปริมาณงานที่ส่งเข้าประกวดได้แล้ว</value>
+    <value>คุณถึงขีดจำกัดของปริมาณงานที่ส่งเข้าคอนเทสต์แล้ว</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>ขอบคุณที่เข้าร่วมการประกวดในครั้งนี้ เราได้ปิดรับผลงานสำหรับการประกวดครั้งนี้แล้วและการโหวตจะเริ่มขึ้นเร็วๆนี้</value>
+    <value>ขอบคุณที่เข้าร่วมการประกวดในครั้งนี้! เราได้ปิดรับผลงานสำหรับคอนเทสต์ครั้งนี้แล้วและการโหวตจะเริ่มขึ้นเร็วๆนี้</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>ไม่มีสิทธิในการจัดการฟอรั่มนี้</value>
@@ -201,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>ต้องการการอนุญาติในการเข้าถึงฟอรั่มนี้</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>ไม่ได้รับอนุญาตให้แก้ไข</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>เฉพาะคนโพสต์เท่านั้นที่สามารถแก้ไขโพสต์ได้</value>
@@ -298,6 +304,15 @@
   <data name="team.application.store.already_member" xml:space="preserve">
     <value>คุณเป็นส่วนหนึ่งของกลุ่มแล้ว</value>
   </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>คุณเป็นส่วนหนึ่งของกลุ่มอื่นแล้ว</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>คุณมีคำขอเข้าทีมที่กำลังดำเนินการอยู่</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>ทีมนี้ไม่รับคำขอเข้าทีม</value>
+  </data>
   <data name="team.application.store.team_full" xml:space="preserve">
     <value>กลุ่มนี้เต็มจำนวนและไม่สามารถรับสมาชิกเข้าเพิ่มได้</value>
   </data>
@@ -306,6 +321,9 @@
   </data>
   <data name="team.part.not_member" xml:space="preserve">
     <value>ไม่ใช่สมาชิกของกลุ่ม</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>คุณต้องเป็น osu!supporter เพื่อสร้างทีม</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>หน้าผู้ใช้ถูกล็อก</value>

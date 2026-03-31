@@ -91,6 +91,15 @@
   <data name="edit.email.locked.accounts" xml:space="preserve">
     <value>kontohjælp</value>
   </data>
+  <data name="edit.legacy_api.api" xml:space="preserve">
+    <value>api</value>
+  </data>
+  <data name="edit.legacy_api.irc" xml:space="preserve">
+    <value>irc</value>
+  </data>
+  <data name="edit.legacy_api.title" xml:space="preserve">
+    <value>Legacy API</value>
+  </data>
   <data name="edit.password.current" xml:space="preserve">
     <value>nuværende adgangskode</value>
   </data>
@@ -133,6 +142,9 @@
   <data name="edit.signature.update" xml:space="preserve">
     <value>opdater</value>
   </data>
+  <data name="github_user.info" xml:space="preserve">
+    <value>Hvis du er bidragsyder til osu!'s open source repositories, vil en forbindelse til din GitHub konto her forbinde dine bidrag til din osu! profil. GitHub konti uden bidragshistorik til osu! kan ikke tilknyttes.</value>
+  </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Tilknyt GitHub konto</value>
   </data>
@@ -145,6 +157,9 @@
   <data name="github_user.error.already_linked" xml:space="preserve">
     <value>Denne GitHub konto er allerede tilknyttet en anden bruger.</value>
   </data>
+  <data name="github_user.error.no_contribution" xml:space="preserve">
+    <value>Kan ikke linke GitHub-konto uden bidragshistorik i osu!-repositories.</value>
+  </data>
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Venligst bekræft din primære email på GitHub, og efterfølgende prøv at tilknytte din konto igen.</value>
   </data>
@@ -156,6 +171,9 @@
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>modtag notifikationer når der bliver svaret på dine kommentarer</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>modtag meddelelser om nyhedsindlæg</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Notifikationer</value>
@@ -175,6 +193,9 @@
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>privat beskeder</value>
   </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>holdchat beskeder</value>
+  </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>nye kommentarer</value>
   </data>
@@ -187,6 +208,9 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>beatmap mapper</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>nyhedsindlæg</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
   </data>
@@ -198,6 +222,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>vis anime-covers for beatmaps</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>skjul advarsler for eksplicit indhold i beatmaps</value>
@@ -241,6 +268,9 @@
   <data name="privacy.hide_online" xml:space="preserve">
     <value>skjul din online status</value>
   </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>dette mapper til "fremstå offline"-tilstanden i osu!lazer</value>
+  </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Privatliv</value>
   </data>
@@ -267,6 +297,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>opdater</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Godkender-app</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Brug godkender-app i stedet for email-bekræftelse. Email-bekræftelse vil stadig være tilgængelig som et tilbagefald.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Tilføje Godkender-app</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>status</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Ikke konfigureret</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Konfigureret</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Du kan nu lukke dette vindue</value>
