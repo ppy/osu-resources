@@ -870,6 +870,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ListingSearchSupporterFilterQuoteLinkText => new TranslatableString(getKey(@"listing.search.supporter_filter_quote.link_text"), @"osu!supporter tag");
 
         /// <summary>
+        /// "browse user tags"
+        /// </summary>
+        public static LocalisableString ListingSearchTagPickerTooltip => new TranslatableString(getKey(@"listing.search.tag_picker.tooltip"), @"browse user tags");
+
+        /// <summary>
+        /// "type to search"
+        /// </summary>
+        public static LocalisableString ListingSearchTagPickerPrompt => new TranslatableString(getKey(@"listing.search.tag_picker.prompt"), @"type to search");
+
+        /// <summary>
         /// "Include converted beatmaps"
         /// </summary>
         public static LocalisableString GeneralConverts => new TranslatableString(getKey(@"general.converts"), @"Include converted beatmaps");

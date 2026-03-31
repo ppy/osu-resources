@@ -172,6 +172,9 @@
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>รับการแจ้งเตือนสำหรับการตอบกลับความคิดเห็นของคุณ</value>
   </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>รับการแจ้งเตือนโพสต์ข่าว</value>
+  </data>
   <data name="notifications.title" xml:space="preserve">
     <value>การแจ้งเตือน</value>
   </data>
@@ -182,7 +185,7 @@
     <value>วิธีการรับการแจ้งเตือน</value>
   </data>
   <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
-    <value>ระดับความยากของแขก</value>
+    <value>ระดับความยากของผู้มีส่วนร่วม</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>การวิจารณ์บีทแมพ</value>
@@ -205,6 +208,9 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>ผู้ทำบีทแมพ</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>โพสต์ข่าว</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
     <value>ส่งการแจ้งเตือน</value>
   </data>
@@ -216,6 +222,9 @@
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>แสดงปกแนวอนิเมะ</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>ซ่อนคำเตือนเกี่ยวกับเนื้อหาที่ล่อแหลมในบีทแมพ</value>
@@ -259,6 +268,9 @@
   <data name="privacy.hide_online" xml:space="preserve">
     <value>ซ่อนสถานะออนไลน์ของคุณ</value>
   </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>เป็นตั้งค่าเดียวกับ "แสดงเป็นออฟไลน์" ในเกม</value>
+  </data>
   <data name="privacy.title" xml:space="preserve">
     <value>ความเป็นส่วนตัว</value>
   </data>
@@ -285,6 +297,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>อัปเดต</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>แอป Authenticator</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>ใช้แอป Authenticator แทนอีเมลสำหรับการยืนยันตัวตน การยืนยันผ่านอีเมลจะยังใช้ได้ปกติหากจำเป็น</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>เพิ่มแอป Authenticator</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>ยังไม่ได้กำหนดค่า</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>กำหนดค่าแล้ว</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>ตอนนี้คุณสามารถปิดแท็บ/หน้าต่างนี้ได้</value>

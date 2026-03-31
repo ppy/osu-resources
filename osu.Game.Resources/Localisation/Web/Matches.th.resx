@@ -65,22 +65,70 @@
     <value>ล้มเหลว</value>
   </data>
   <data name="match.header" xml:space="preserve">
-    <value>แข่งขันแบบหลายคน</value>
+    <value>แมตซ์แบบหลายคน</value>
   </data>
   <data name="match.in-progress" xml:space="preserve">
-    <value>(การแข่งขันกำลังดำเนินการ)</value>
+    <value>(แมตซ์กำลังดำเนินการ)</value>
   </data>
   <data name="match.in_progress_spinner_label" xml:space="preserve">
-    <value>การแข่งขันกำลังดำเนินการ</value>
+    <value>แมตซ์กำลังดำเนินการ</value>
   </data>
   <data name="match.loading-events" xml:space="preserve">
-    <value>กำลังโหลดสิ่งที่เกิดขึ้น...</value>
+    <value>กำลังโหลดอีเวนต์...</value>
   </data>
   <data name="match.winner" xml:space="preserve">
     <value>{0} ชนะ</value>
   </data>
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} โดย {1}</value>
+  </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>เกมถูกยกเลิกแล้ว</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>เกมถูกยกเลิกแล้ว</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>เกมจบแล้ว</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>เกมจบแล้ว</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} กลายเป็นโฮสต์แล้ว</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>โฮสต์เปลี่ยนแล้ว</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} เข้าร่วมแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>มีผู้เล่นเข้าร่วมแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} ถูกเตะออกจากแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>มีผู้เล่นถูกเตะออกจากแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} ออกจากแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>ผู้เล่นออกจากแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} ได้สร้างแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>สร้างแมตช์แล้ว</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>แมตช์ถูกยุติลงแล้ว</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>แมตช์ถูกยุติลงแล้ว</value>
   </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>ความแม่นยำ</value>
@@ -91,11 +139,26 @@
   <data name="match.score.stats.score" xml:space="preserve">
     <value>คะแนน</value>
   </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>ตัวต่อตัว</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>แท็ก Co-op</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>แท็กทีม VS</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>ทีม VS</value>
+  </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>ทีมสีน้ำเงิน</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>ทีมสีแดง</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>อิสระ</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>คะแนนสูงสุด</value>

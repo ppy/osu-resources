@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>รูลเซ็ตที่เลือกไม่ถูกต้อง</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>มีผู้มีส่วนร่วมมากเกินไป</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>ไม่สามารถอัปเดตการลงคะแนน</value>
   </data>
@@ -83,7 +89,7 @@
     <value>แก้ไขล่าสุดโดย {0} เมื่อเวลา {1}</value>
   </data>
   <data name="discussions.guest" xml:space="preserve">
-    <value>ความยากของผู้มาเยี่ยมโดย {0}</value>
+    <value>ระดับความยากโดย {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>ถูกปฏิเสธการให้ kudosu</value>
@@ -329,7 +335,7 @@
     <value>บีทแมพนี้ไม่ถูกอัปเดตตั้งแต่ {0} และน่าจะถูกละทิ้งโดยผู้ทำแมพไปแล้ว</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>บีทแมพนี้ถูก Loved ในวันที่ {0}</value>
+    <value>บีทแมพนี้ถูกเพิ่มในเลิฟด์ในวันที่ {0}</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>บีทแมพนี้ถูกจัดอันดับในวันที่ {0}</value>
@@ -416,7 +422,7 @@
     <value>ชอบ</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>เลือกระดับความยากสำหรับ Loved</value>
+    <value>เลือกระดับความยากสำหรับเลิฟด์</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>ชอบบีทแมพนี้หรือ?</value>
@@ -434,10 +440,10 @@
     <value>ไม่มี Hype เพียงพอ</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>ถูกนำออกจาก Loved</value>
+    <value>ถูกนำออกจากเลิฟด์</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>เหตุผลในการถูกออกจาก Loved</value>
+    <value>เหตุผลที่นำออกจากเลิฟด์</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>การเสนอชื่อ: {0}/{1}</value>
@@ -492,6 +498,9 @@
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>ตัวเลือกการค้นหาเพิ่มเติม</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>จำนวนแรงค์สูงสุดและผลลัพธ์ในหน้านี้ขึ้นอยู่กับ "คะแนน Standardized" (หรือก็คือ "คะแนน lazer") ที่คุณทำได้</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>การกรองด้วย {0} จำเป็นต้องมีแท็กผู้สนับสนุนที่ทำงานอยู่</value>
@@ -578,7 +587,7 @@
     <value>ระดับความยากที่แนะนำ</value>
   </data>
   <data name="general.spotlights" xml:space="preserve">
-    <value>บีทแมพที่โดดเด่น</value>
+    <value>บีทแมพสปอตไลท์</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>ทั้งหมด</value>

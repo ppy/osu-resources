@@ -82,6 +82,30 @@
   <data name="verifying" xml:space="preserve">
     <value>Bekræft venligst session for at se notifikationer</value>
   </data>
+  <data name="action_type._" xml:space="preserve">
+    <value>alt</value>
+  </data>
+  <data name="action_type.beatmapset" xml:space="preserve">
+    <value>beatmaps</value>
+  </data>
+  <data name="action_type.build" xml:space="preserve">
+    <value>builds</value>
+  </data>
+  <data name="action_type.channel" xml:space="preserve">
+    <value>chat</value>
+  </data>
+  <data name="action_type.forum_topic" xml:space="preserve">
+    <value>forum</value>
+  </data>
+  <data name="action_type.news_post" xml:space="preserve">
+    <value>nyheder</value>
+  </data>
+  <data name="action_type.team" xml:space="preserve">
+    <value>hold</value>
+  </data>
+  <data name="action_type.user" xml:space="preserve">
+    <value>profil</value>
+  </data>
   <data name="filters._" xml:space="preserve">
     <value>alle</value>
   </data>
@@ -99,6 +123,9 @@
   </data>
   <data name="filters.news_post" xml:space="preserve">
     <value>nyheder</value>
+  </data>
+  <data name="filters.team" xml:space="preserve">
+    <value>hold</value>
   </data>
   <data name="filters.user" xml:space="preserve">
     <value>profil</value>
@@ -147,6 +174,15 @@
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock_compact" xml:space="preserve">
     <value>Diskussion er blevet åbnet</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.praises" xml:space="preserve">
+    <value>{0} pris|{0} priser</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.problems" xml:space="preserve">
+    <value>{0} problem|{0} problemer</value>
+  </data>
+  <data name="item.beatmapset.beatmapset_discussion.review_count.suggestions" xml:space="preserve">
+    <value>{0} forslag|{0} forslag</value>
   </data>
   <data name="item.beatmapset.beatmapset_problem._" xml:space="preserve">
     <value>Kvalificeret Beatmap problem</value>
@@ -250,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>fra {0}</value>
   </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Ny holdbesked</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} siger "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} siger "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} siger "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Ændringsoversigt</value>
   </data>
@@ -286,6 +334,15 @@
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} kommenterede "{1}"</value>
   </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>Nyheder ({0}:)</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Forum emne</value>
   </data>
@@ -297,6 +354,30 @@
   </data>
   <data name="item.forum_topic.forum_topic_reply.forum_topic_reply_compact" xml:space="preserve">
     <value>{0} svarede</value>
+  </data>
+  <data name="item.team.team_application._" xml:space="preserve">
+    <value>Hold tilmeldingsanmodning</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du er nu en del af hold {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
+    <value>Du er nu en del af hold {0}</value>
+  </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Hold tilmeldings-opdateringer</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Din anmodning om at deltage i {0} er blevet afvist</value>
+  </data>
+  <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
+    <value>Din anmodning om at deltage i {0} er blevet afvist</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} anmodede om at deltage i dit hold</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} anmodede om at deltage i dit hold</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Nyt beatmap</value>
@@ -330,6 +411,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medaljer låst op!</value>
+  </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>Nyheder</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>Du er nu gæst på beatmap "{0}"</value>
@@ -370,6 +454,15 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Beatmap "{0}" har nye kommentarer</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Der er en ny meddelelse i "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Du har modtaget en ny besked fra {0}</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Der er en ny besked i hold "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Ændringsoversigt "{0}" har nye kommentarer</value>
   </data>
@@ -379,7 +472,19 @@
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Der er nye svar i "{0}"</value>
   </data>
+  <data name="mail.team.team_application.team_application_accept" xml:space="preserve">
+    <value>Du er nu medlem af hold {0}</value>
+  </data>
+  <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
+    <value>Din andmodning om at deltage i hold {0} er blevet afvist</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} anmodede om at deltage i dit hold</value>
+  </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} har oprettet nye beatmaps</value>
+  </data>
+  <data name="mail.user.user_beatmapset_new.user_beatmapset_revive" xml:space="preserve">
+    <value>{0} har genoplivet beatmaps</value>
   </data>
 </root>

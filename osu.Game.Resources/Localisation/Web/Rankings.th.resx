@@ -67,6 +67,18 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>ระดับความยาก</value>
   </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>คะแนน Top 10%</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>คะแนน Top 50%</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>ยังไม่มีชาเลนจ์ประจำวัน!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>ตอนนั้นไม่มีชาเลนจ์ประจำวัน!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>แสดง</value>
   </data>
@@ -82,8 +94,44 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>ใช้</value>
   </data>
+  <data name="matchmaking.plays" xml:space="preserve">
+    <value>จำนวนการเล่น</value>
+  </data>
+  <data name="matchmaking.points" xml:space="preserve">
+    <value>แต้ม</value>
+  </data>
+  <data name="matchmaking.provisional" xml:space="preserve">
+    <value>ยังเล่นไม่พอที่จะคำนวณเรตติ้ง</value>
+  </data>
+  <data name="matchmaking.rating" xml:space="preserve">
+    <value>เรตติ้ง</value>
+  </data>
+  <data name="matchmaking.wins" xml:space="preserve">
+    <value>ชัยชนะ</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>ชื่อห้อง</value>
+  </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>ผู้ใช้คนนี้มีประวัติการจัดอันดับล่าสุดน้อยกว่า 30 วัน</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>ข้อมูลกำลังถูกคำนวณ...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>อัปเดตล่าสุด</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>สปอตไลท์ (เก่า)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>แนะนำ</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>ห้องซีซั่น</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>ซีซั่น</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>ประเทศ</value>
@@ -91,11 +139,23 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>ชาเลนจ์ประจำวัน</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>โดยรวม</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>ควิกเพลย์</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>เพลย์ลิสต์</value>
+  </data>
   <data name="type.team" xml:space="preserve">
     <value>ทีม</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>ท็อปเพลย์</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>ยังไม่มีห้องในซีซั่นนี้</value>
@@ -106,8 +166,14 @@
   <data name="seasons.room_count" xml:space="preserve">
     <value>จำนวนเพลย์ลิสต์</value>
   </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>ดูสรุปซีซั่น</value>
+  </data>
   <data name="seasons.url" xml:space="preserve">
     <value>แสดงข้อมูลเพิ่มเติมในซีซั่นนั้น</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>ยังไม่มีปัจจัยคะแนนมากพอที่จะคำนวณได้อย่างถูกต้อง</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>วันสิ้นสุด</value>
@@ -129,6 +195,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>ประเทศ</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>ดิวิชั่น</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>สมาชิก</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>จำนวนครั้งที่เล่น</value>

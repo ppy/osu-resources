@@ -130,6 +130,9 @@
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Automatisk genererede opslag kan ikke redigeres.</value>
   </data>
+  <data name="beatmapset.discussion_locked" xml:space="preserve">
+    <value>Dette beatmap er lukket låst for diskussion.</value>
+  </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Du kan ikke ændre metadata for et nomineret map. Kontakt et BAT- eller NAT-medlem, hvis du mener, at det er angivet forkert.</value>
   </data>
@@ -148,6 +151,9 @@
   <data name="chat.no_access" xml:space="preserve">
     <value>Du har ikke adgang til denne kanal.</value>
   </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Du har ikke tilladelse til indlægge annonceringer.</value>
+  </data>
   <data name="chat.receive_friends_only" xml:space="preserve">
     <value>Brugeren kan muligvis ikke svare, fordi du kun accepterer beskeder fra folk på din venneliste.</value>
   </data>
@@ -162,6 +168,9 @@
   </data>
   <data name="comment.update.deleted" xml:space="preserve">
     <value>Kan ikke redigere slettede opslag.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Bedømmelse for denne konkurrence er ikke aktiv.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Du kan ikke ændre din stemme efter stemmeperioden for denne konkurrence er slut.</value>
@@ -195,6 +204,9 @@
   </data>
   <data name="forum.post.edit.no_forum_access" xml:space="preserve">
     <value>Adgang til det anmodede forum er nødvendigt.</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>Ingen tilladelse til at redigere.</value>
   </data>
   <data name="forum.post.edit.not_owner" xml:space="preserve">
     <value>Kun ejeren af dette opslag kan redigere det.</value>
@@ -295,6 +307,24 @@
   <data name="team.application.store.already_other_member" xml:space="preserve">
     <value>Du er allerede en del af et andet hold.</value>
   </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Du har en afventende holdtildmeldingsanmodning.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Holdet modtager i øjeblikket ikke tilmeldningsanmodninger.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Holdet er fuldt og kan ikke acceptere flere medlemmer.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Holdlederen kan ikke forlade holdet.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Ikke et medlem af holdet.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>osu!support tag er påkrævet for at oprette et hold.</value>
+  </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>Brugerside er låst.</value>
   </data>
@@ -303,5 +333,8 @@
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
     <value>osu!supporter tag er nødvendigt.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>email-adresse er låst</value>
   </data>
 </root>

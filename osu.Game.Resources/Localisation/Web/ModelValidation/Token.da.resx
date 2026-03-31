@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* er ikke tilladet med Klient Oplysninger</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* er ikke tilladet med andre anvendelsesområder</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Klienten mangler ejer.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Klienten er ikke autoriseret.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Uddelegering med Klient Oplysninger er kun tilgængelig for robotter.</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Dette anvendelsesområde er kun gyldigt for client_credentials tokens.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Delegationen støttes ikke for denne kombination af anvendelsesområder.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>anvendelsesområde for delegation er påkrævet.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Tokens uden anvendelsesområder er ikke gyldige.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Dette anvendelsesområde er kun tilgængeligt for robotter eller dine egne kunder.</value>
+  </data>
 </root>

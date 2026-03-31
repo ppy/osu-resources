@@ -30,6 +30,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowPlayerBy => new TranslatableString(getKey(@"show.player.by"), @"Played by");
 
         /// <summary>
+        /// "Played on"
+        /// </summary>
+        public static LocalisableString ShowPlayerPlayedOn => new TranslatableString(getKey(@"show.player.played_on"), @"Played on");
+
+        /// <summary>
         /// "Submitted on"
         /// </summary>
         public static LocalisableString ShowPlayerSubmittedOn => new TranslatableString(getKey(@"show.player.submitted_on"), @"Submitted on");

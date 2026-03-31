@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="applications.accept.ok" xml:space="preserve">
-    <value>เพิ่มผู้ใช้งานสู่ทีม</value>
+    <value>เพิ่มผู้ใช้เข้าสู่ทีมสำเร็จ</value>
   </data>
   <data name="applications.destroy.ok" xml:space="preserve">
     <value>ยกเลิกการขอเข้าร่วมแล้ว</value>
@@ -71,16 +71,22 @@
     <value>ขอร้องขอเข้าร่วมทีมแล้ว</value>
   </data>
   <data name="card.members" xml:space="preserve">
-    <value>{0} สมาชิก|{0} สมาชิก</value>
+    <value>{0} คน|{0} คน</value>
   </data>
   <data name="create.submit" xml:space="preserve">
     <value>สร้างทีม</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>ชื่อทีมของคุณ ตอนนี้ไม่สามารถเปลี่ยนได้</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>สูงสุด 4 ตัวอักษร</value>
   </data>
   <data name="create.form.title" xml:space="preserve">
     <value>ตั้งทีมใหม่กันเถอะ!</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>เล่นกับเพื่อน จะเพื่อนเก่าหรือเพื่อนใหม่ ตอนนี้คุณยังไม่มีทีมอยู่ จะเข้าร่วมทีมคนอื่นจากหน้าทีมของพวกเขา หรือสร้างทีมใหม่ได้จากหน้านี้ก็ได้</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>ทีม!</value>
@@ -112,14 +118,32 @@
   <data name="edit.header.title" xml:space="preserve">
     <value>ตั้งค่ารูปภาพส่วนหัว</value>
   </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>อนุญาตให้มีคนขอเข้าทีม</value>
+  </data>
+  <data name="edit.settings.default_ruleset_help" xml:space="preserve">
+    <value>รูลเซ็ตที่จะถูกเลือกเมื่อดูหน้าทีม</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>ขนาดสูงสุด {0}{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>ขนาดสูงสุด {0}{1}</value>
+  </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>การตั้งค่าทีม</value>
   </data>
   <data name="edit.settings.application_state.state_0" xml:space="preserve">
-    <value>ปิด</value>
+    <value>ไม่รับคนเข้าทีม</value>
+  </data>
+  <data name="edit.settings.application_state.state_1" xml:space="preserve">
+    <value>รับคนเข้าทีม</value>
   </data>
   <data name="header_links.edit" xml:space="preserve">
     <value>การตั้งค่า</value>
+  </data>
+  <data name="header_links.leaderboard" xml:space="preserve">
+    <value>กระดานผู้นำ</value>
   </data>
   <data name="header_links.show" xml:space="preserve">
     <value>ข้อมูล</value>
@@ -130,17 +154,65 @@
   <data name="leaderboard.global_rank" xml:space="preserve">
     <value>อันดับโลก</value>
   </data>
+  <data name="members.destroy.success" xml:space="preserve">
+    <value>ลบสมาชิกทีมสำเร็จ</value>
+  </data>
+  <data name="members.index.title" xml:space="preserve">
+    <value>จัดการสมาชิก</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>เพิ่มผู้ใช้ {0} เข้าสู่ทีมหรือไม่?</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>วันที่ขอเข้าทีม</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>ไม่มีคำขอเข้าทีม</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>ที่ว่าง</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>เกิน {0} คน|เกิน {0} คน</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>ปฏิเสธคำขอเข้าทีมจากผู้ใช้ {0} หรือไม่?</value>
+  </data>
   <data name="members.index.applications.title" xml:space="preserve">
     <value>คำขอเข้าร่วม</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>วันที่เข้าทีม</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>ลบออก</value>
   </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>ลบผู้ใช้ {0} ออกจากทีมหรือไม่</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>มอบตำแหน่งหัวหน้าทีม</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>มอบตำแหน่งหัวหน้าทีมให้กับผู้ใช้ {0} หรือไม่?</value>
+  </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>สถานะ</value>
   </data>
+  <data name="members.index.table.title" xml:space="preserve">
+    <value>สมาชิกในตอนนี้</value>
+  </data>
+  <data name="members.index.status.status_0" xml:space="preserve">
+    <value>ออฟไลน์</value>
+  </data>
+  <data name="members.index.status.status_1" xml:space="preserve">
+    <value>ออนไลน์</value>
+  </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>ผู้ใช้ {0} กลายเป็นหัวหน้าทีมแล้ว</value>
+  </data>
   <data name="part.ok" xml:space="preserve">
-    <value>ออกจากทีม ;_;</value>
+    <value>ออกจากทีมไปแล้ว ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
     <value>แชททีม</value>
@@ -148,8 +220,17 @@
   <data name="show.bar.destroy" xml:space="preserve">
     <value>ยุบทีม</value>
   </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>ขอเข้าร่วม</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>ยกเลิกการเข้าร่วม</value>
+  </data>
   <data name="show.bar.part" xml:space="preserve">
     <value>ออกจากทีม</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>วันที่ก่อตั้ง</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>สมาชิกทีม</value>
@@ -165,6 +246,12 @@
   </data>
   <data name="show.sections.members" xml:space="preserve">
     <value>สมาชิก</value>
+  </data>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>ว่าง {0} ที่|ว่าง {0} ที่</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>ที่หนึ่ง</value>
   </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>หัวหน้าทีม</value>

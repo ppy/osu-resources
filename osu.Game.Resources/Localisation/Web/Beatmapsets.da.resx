@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Sæt farten ned, spil mere.</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Ingen downloadservere tilgængelige.</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Udvalgte kunstner</value>
   </data>
@@ -100,6 +103,9 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>open med osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Nye nominatorer kanikke nominere adskillige regelsæt.</value>
+  </data>
   <data name="nominate.full_nomination_required" xml:space="preserve">
     <value>Du skal være en fuld nominator for at udføre en rulesets sidste nomination.</value>
   </data>
@@ -112,17 +118,29 @@
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
     <value>Dette beatmap har ugyldige nominationer og kan ikke kvalificeres i denne tilstand.</value>
   </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Denne nominering har invalide regesæt.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nomineringskravet er allerede opfyldt.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nomineringskrav for ikke-primære regelsæt allerede opfyldt.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Er du sikker på du vil nominere dette Beatmap?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Kvalificering af dette beatmap med forskellige nominatorer vil nulstille dets kvalificeringsposition i køen.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Nominér Beatmap</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>bemærk: du kan kun nominere én gang, så sørg for at du nominerer til alle spiltilstande, du har til hensigt til</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Det hovedreglsættet er lige nu: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominér for hvilke tilstande?</value>
@@ -132,6 +150,18 @@
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskussion</value>
+  </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Vis coverbillede i fuld størrelse</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Vis admin side</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Dette beatmap er blevet slettet.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(kun moderatorer kan se dette)</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>af {0}</value>
@@ -147,6 +177,9 @@
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>mappet af {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>gæstesværhedsgrad af {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>Fjern dette beatmapset fra dine favoritter</value>
@@ -226,14 +259,23 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Sprog</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Mapper Tags</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data er stadig ved at blive beregnet...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominatorer</value>
   </data>
   <data name="show.info.nsfw" xml:space="preserve">
     <value>Eksplicit indhold</value>
   </data>
   <data name="show.info.offset" xml:space="preserve">
     <value>Online forskydning</value>
+  </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Beatmap Pakker</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Fejl-steder</value>
@@ -246,6 +288,12 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Succesrate</value>
+  </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} af {1} spil|{0} af {1} spil</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Bruger Tags</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Dette beatmap indeholder video</value>
@@ -285,6 +333,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Du skal være supporter for at få adgang til venne- og landerangering!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Hold Rangering</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Scoreboard</value>
@@ -330,6 +381,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Indlæser scores...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Ingen fra dit hold har sat en score på dette map endnu!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Ikke-ranked beatmap.</value>
@@ -390,6 +444,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Playcount</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favoritter</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Ingen favoritter endnu</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

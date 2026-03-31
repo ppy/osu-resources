@@ -150,21 +150,6 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString InputSend => new TranslatableString(getKey(@"input.send"), @"Send");
 
         /// <summary>
-        /// "Start conversations from a user&#39;s profile or a usercard popup."
-        /// </summary>
-        public static LocalisableString NoConversationsHowto => new TranslatableString(getKey(@"no-conversations.howto"), @"Start conversations from a user's profile or a usercard popup.");
-
-        /// <summary>
-        /// "Public channels you join via &lt;a href=&quot;{0}&quot;&gt;osu!lazer&lt;/a&gt; will also be visible here."
-        /// </summary>
-        public static LocalisableString NoConversationsLazer(LocalisableString link) => new TranslatableString(getKey(@"no-conversations.lazer"), @"Public channels you join via <a href=""{0}"">osu!lazer</a> will also be visible here.", link);
-
-        /// <summary>
-        /// "no conversations yet"
-        /// </summary>
-        public static LocalisableString NoConversationsTitle => new TranslatableString(getKey(@"no-conversations.title"), @"no conversations yet");
-
-        /// <summary>
         /// "Loading channel list..."
         /// </summary>
         public static LocalisableString JoinChannelsLoading => new TranslatableString(getKey(@"join_channels.loading"), @"Loading channel list...");

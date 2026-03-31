@@ -118,6 +118,9 @@
   <data name="blocks.button.unblock" xml:space="preserve">
     <value>Fjern blokering</value>
   </data>
+  <data name="card.gift_supporter" xml:space="preserve">
+    <value>Giv supporter tag i gave</value>
+  </data>
   <data name="card.loading" xml:space="preserve">
     <value>Indlæser...</value>
   </data>
@@ -144,6 +147,9 @@
   </data>
   <data name="create.form.tos_notice._" xml:space="preserve">
     <value>ved at oprette konto accepterer du {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>tjenestevilkår</value>
   </data>
   <data name="disabled.title" xml:space="preserve">
     <value>Uh-oh! Det ser ud som om din account er blevet midlertidigt lukket.</value>
@@ -174,6 +180,9 @@
   </data>
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>Medlemmer efter spiltilstand</value>
+  </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Din konto har ikke været brugt i lang tid.</value>
   </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Din account har ikke været i brug i lang tid.</value>
@@ -226,8 +235,26 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supportere ville kunne komme ind snart)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Afsluttet</value>
+  </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Beatmaps {0}</value>
+  </data>
   <data name="ogp.modding_description_empty" xml:space="preserve">
     <value>Brugeren har ingen beatmaps...</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Rang ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>Land {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Global {0}</value>
   </data>
   <data name="posts.title" xml:space="preserve">
     <value>{0}'s opslag</value>
@@ -271,8 +298,23 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Annullér</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Anmeld venligst ophavsretskrænkelser igennem et DMCA-claim til {0} jævnfør {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! ophavsretspolitik</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Dette gælder i tilfælde hvor lydspor, visuelt indhold eller beapmap level indhold anvendes uden tilladelse.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Uærligt spil / Snyd</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Ophavsretskrænkelse</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Upassende chatadfærd</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Fornærmede mig / andre</value>
@@ -349,17 +391,53 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Vis omslag</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Daglig Streak</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Bedste Daglige Streak</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Nuværende Daglige Streak</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Samlet Deltagelse</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Daglig\nUdfordring</value>
+  </data>
   <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
     <value>Top 10%-placeringer</value>
   </data>
   <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
     <value>Top 50%-placeringer</value>
   </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Ugentlig Streak</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Bedste Daglige Streak</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Nuværende Ugentlige Streak</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Skift Coverbillede</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>Flere muligheder for coverbillede kommer snart</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>Det tidligere valgte cover er ikke tilgængeligt længere. Du kan ikke ændre tilbage efter du ændrer til et nyt. Fortsæt?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Cover</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Kunne ikke uploade billedet. Kontroller det uploadede billede og prøv igen.</value>
@@ -394,8 +472,17 @@
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>sæt {0} som din default mode</value>
   </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Nulstil farve til standard? Supporter tag vil kræves for at ændre til en anden farve.</value>
+  </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>Farve</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Tilpassede farvetemaer er kun tilgængelige for {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporters</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>ingen</value>
@@ -484,6 +571,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Replays Set</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Mest Sete Genafspilninger</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Seneste Kudosu Historik</value>
   </data>
@@ -561,6 +651,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>se flere opslag</value>
+  </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>Hurtigt Spil Kampe</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Seneste</value>
@@ -673,6 +766,9 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Hjemmeside</value>
   </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Hurtigt Spil</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>De kan have ændret deres brugernavn.</value>
   </data>
@@ -724,8 +820,20 @@
   <data name="show.rank.global_simple" xml:space="preserve">
     <value>Global Rang</value>
   </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Højeste rang {0} på {1}</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Samlet score</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Præcision</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Pletskud Per Spil</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Level {0}</value>
@@ -786,6 +894,9 @@
   </data>
   <data name="status.offline" xml:space="preserve">
     <value>Offline</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>registrér dig gennem spilklienten i stedet!</value>
   </data>
   <data name="store.from_web" xml:space="preserve">
     <value>fuldfør venligst registrationen via osu!s website</value>

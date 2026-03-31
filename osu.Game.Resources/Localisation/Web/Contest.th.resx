@@ -62,7 +62,7 @@
     <value>แข่งขันกันได้มากกว่าแค่คลิ๊กวงกลม</value>
   </data>
   <data name="header.large" xml:space="preserve">
-    <value>คอมมูนิตี้ ทัวร์นาเมนต์</value>
+    <value>คอมมูนิตี้คอนเทสต์</value>
   </data>
   <data name="index.nav_title" xml:space="preserve">
     <value>รายการ</value>
@@ -86,7 +86,7 @@
     <value>คะแนนที่ขาดหายไป</value>
   </data>
   <data name="judge.validation.contest_vote_judged" xml:space="preserve">
-    <value>ไม่สามารถโหวตในการแข่งขันที่มีการตัดสิน</value>
+    <value>ไม่สามารถโหวตในคอนเทสต์ที่มีการตัดสินแล้ว</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
     <value>คุณได้ส่งโหวตสำหรับรายการนี้ไปแล้ว</value>
@@ -100,14 +100,20 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>คะแนน</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>คะแนนแบบ Standardized</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>คะแนนรวมทั้งหมด</value>
   </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>คะแนนแบบ Standardized ทั้งหมด</value>
+  </data>
   <data name="voting.judge_link" xml:space="preserve">
-    <value>คุณเป็นผู้ตัดสินของการแข่งขันนี้ ตัดสินรายการที่นี่!</value>
+    <value>คุณเป็นผู้ตัดสินของคอนเทสต์นี้ ตัดสินได้ที่นี่!</value>
   </data>
   <data name="voting.judged_notice" xml:space="preserve">
-    <value>การแข่งขันนี้ใช้ระบบการตัดสินอยู่ ขณะนี้ผู้ตัดสินกำลังดำเนินการกับรายการต่างๆ</value>
+    <value>คอนเทสต์นี้ใช้ระบบการตัดสินอยู่ ขณะนี้ผู้ตัดสินกำลังดำเนินการกับรายการต่างๆ</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
     <value>กรุณาเข้าสู่ระบบเพื่อทำการโหวต</value>
@@ -119,7 +125,7 @@
     <value>แสดงโหวต</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>ดูเหมือนคุณจะไม่ได้เล่นบีทแมพที่เข้าประกวดอยู่นะ</value>
+    <value>ดูเหมือนคุณจะไม่ได้เล่นบีทแมพที่ผ่านคอนเทสต์นี้</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>โหวต</value>
@@ -140,22 +146,34 @@
     <value>รายการ</value>
   </data>
   <data name="entry.login_required" xml:space="preserve">
-    <value>กรุณาเข้าสู่ระบบเพื่อร่วมเข้าประกวด</value>
+    <value>กรุณาเข้าสู่ระบบเพื่อเข้าร่วมคอนเทสต์</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
-    <value>คุณไม่สามารถเข้าประกวดได้ในระหว่างที่บัญชีของคุณโดนระงับสิทธิ์หรือเงียบอยู่</value>
+    <value>คุณไม่สามารถเข้าร่วมคอนเทสต์ได้ในระหว่างที่บัญชีของคุณโดนระงับสิทธิ์หรือปิดปากอยู่</value>
   </data>
   <data name="entry.preparation" xml:space="preserve">
-    <value>ทางเรากำลังเตรียมการประกวดอยู่ กรุณารออีกสักพัก</value>
+    <value>ทางเรากำลังเตรียมคอนเทสต์อยู่ กรุณารออีกสักพัก</value>
   </data>
   <data name="entry.drop_here" xml:space="preserve">
     <value>ส่งงานของคุณตรงนี้</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>รองรับไฟล์ {0}</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>ขนาดสูงสุด {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>ขนาดต้องเป็น {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>ดาวน์โหลด .osz</value>
   </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>เฉพาะไฟล์ {0} เท่านั้นที่สามารถส่งเข้าคอนเทสต์นี้ได้</value>
+  </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
-    <value>รายการสำหรับการแข่งขันนี้ต้องมีขนาด {0}{1}</value>
+    <value>รายการสำหรับคอนเทสต์นี้ต้องมีขนาด {0}{1}</value>
   </data>
   <data name="entry.too_big" xml:space="preserve">
     <value>งานประกวดครั้งนี้สามารถส่งได้มากสุด {0} งาน</value>
@@ -171,6 +189,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} แต้ม|{0} แต้มทั้งหมด</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} คะแนน</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>สิ้นสุดเมื่อวันที่ {0}</value>
@@ -192,5 +213,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>ประกาศผล</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>ดูข้อมูลและรายการ</value>
   </data>
 </root>

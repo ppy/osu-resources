@@ -67,6 +67,54 @@
   <data name="index.nav_title" xml:space="preserve">
     <value>katalog</value>
   </data>
+  <data name="judge.comments" xml:space="preserve">
+    <value>kommentarer</value>
+  </data>
+  <data name="judge.hide_judged" xml:space="preserve">
+    <value>skjul bedømte indlæg</value>
+  </data>
+  <data name="judge.nav_title" xml:space="preserve">
+    <value>bedøm</value>
+  </data>
+  <data name="judge.no_current_vote" xml:space="preserve">
+    <value>du har ikke stemt endnu.</value>
+  </data>
+  <data name="judge.update" xml:space="preserve">
+    <value>opdatér</value>
+  </data>
+  <data name="judge.validation.missing_score" xml:space="preserve">
+    <value>mangler score</value>
+  </data>
+  <data name="judge.validation.contest_vote_judged" xml:space="preserve">
+    <value>kan ikke stemme i bedømte konkurrencer</value>
+  </data>
+  <data name="judge.voted" xml:space="preserve">
+    <value>Du har allerede stemt på dette indlæg.</value>
+  </data>
+  <data name="judge_results._" xml:space="preserve">
+    <value>Bedømmer resultater</value>
+  </data>
+  <data name="judge_results.creator" xml:space="preserve">
+    <value>kreatør</value>
+  </data>
+  <data name="judge_results.score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Standardiseret Score</value>
+  </data>
+  <data name="judge_results.total_score" xml:space="preserve">
+    <value>samlet score</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>total samlet score</value>
+  </data>
+  <data name="voting.judge_link" xml:space="preserve">
+    <value>Du er dommeren af denne konkurrence. Bedøm indlæg her!</value>
+  </data>
+  <data name="voting.judged_notice" xml:space="preserve">
+    <value>Denne konkurrence benytter bedømmelsessystemet, dommerne behandler i øjeblikket indlæggene.</value>
+  </data>
   <data name="voting.login_required" xml:space="preserve">
     <value>Log venligst ind for at stemme.</value>
   </data>
@@ -109,8 +157,23 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Aflever dit bidrag her</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} filer er accepteret</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Maks. størrelse. {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Dimensioner skal være {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Download .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Kun {0} filer er accepteret i denne konkurrence.</value>
+  </data>
+  <data name="entry.wrong_dimensions" xml:space="preserve">
+    <value>Indlæg i denne konkurrence skal være {0}{1}</value>
   </data>
   <data name="entry.too_big" xml:space="preserve">
     <value>Bidrag til denne konkurrence kan maks være op til {0}.</value>
@@ -126,6 +189,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} point|{0} point</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} point</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Sluttede den {0}</value>
@@ -147,5 +213,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Resultaterne Er Ude</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Vis info og indlæg</value>
   </data>
 </root>

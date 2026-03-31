@@ -236,6 +236,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(ผู้สนับสนุนจะได้เข้าใช้งานในเร็ว ๆ นี้)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>ใช้งานอยู่</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>จบแล้ว</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>บีทแมป: {0}</value>
   </data>
@@ -261,7 +267,7 @@
     <value>ลงชื่อเข้าใช้</value>
   </data>
   <data name="anonymous.username" xml:space="preserve">
-    <value>ผู้เยี่ยมชม</value>
+    <value>ผู้มีส่วนร่วม</value>
   </data>
   <data name="anonymous.error" xml:space="preserve">
     <value>คุณจะต้องเข้าสู่ระบบเพื่อจะกระทำสิ่งนี้</value>
@@ -293,8 +299,23 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>ตาม {0} กรุณารายงานการละเมิดลิขสิทธิ์มาที่ {1}</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>นโยบายลิขสิทธิ์ osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>ในกรณีที่มีการใช้ภาพ เสียง หรือเนื้อหาบีทแมพโดยไม่ได้รับอนุญาต</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>เล่นผิดกติกา / โกง</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>การละเมิดลิขสิทธิ์</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>พฤติกรรมการสนทนาที่ไม่เหมาะสม</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>ดูหมิ่น เหยียดหยามตนเอง / ผู้อื่น</value>
@@ -333,7 +354,7 @@
     <value>อยู่ตั้งแต่โอสุเริ่มต้น</value>
   </data>
   <data name="show.is_developer" xml:space="preserve">
-    <value>osu!ผู้พัฒนา</value>
+    <value>ผู้พัฒนา osu!</value>
   </data>
   <data name="show.is_supporter" xml:space="preserve">
     <value>ผู้สนับสนุน osu!</value>
@@ -492,7 +513,7 @@
     <value>สุสานบีทแมพ</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>แขกผู้ที่มีส่วนร่วมบีทแมพ</value>
+    <value>บีทแมพที่ได้มีส่วนร่วมในการสร้าง</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>บีทแมพที่ Loved</value>
@@ -550,6 +571,9 @@
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>การดูรีเพลย์</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>รีเพลย์ที่มีคนดูบ่อยที่สุด</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>ประวัติ Kudosu ล่าสุด</value>
@@ -628,6 +652,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>ดูโพสต์อื่นๆ เพิ่มเติม</value>
+  </data>
+  <data name="show.extra.quickplay.title" xml:space="preserve">
+    <value>การแข่งขันควิกเพลย์</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>ล่า​สุด</value>
@@ -740,6 +767,9 @@
   <data name="show.info.website" xml:space="preserve">
     <value>เว็บไซต์</value>
   </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>ควิกเพลย์</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>พวกเขาอาจเปลี่ยนชื่อผู้ใช้</value>
   </data>
@@ -794,8 +824,17 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>อันดับสูงสุด: {0} เมื่อ {1}</value>
   </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>คะแนนรวมทั้งหมด</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>ความแม่นยำเฉลี่ย</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>จำนวนฮิตต่อการเล่น</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>เลเวล {0}</value>
@@ -825,7 +864,7 @@
     <value>อันดับคะแนน</value>
   </data>
   <data name="show.stats.total_hits" xml:space="preserve">
-    <value>Hit รวม</value>
+    <value>ฮิตทั้งหมด</value>
   </data>
   <data name="show.stats.total_score" xml:space="preserve">
     <value>คะแนนรวมทั้งหมด</value>
@@ -834,7 +873,7 @@
     <value>สุสานบีทแมพ</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>บีทแมพที่ Loved</value>
+    <value>บีทแมพเลิฟด์</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>บีทเเมพที่กำลังทำ</value>
