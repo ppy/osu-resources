@@ -131,4 +131,83 @@ Yenilikleri görmek için tıkla!</value>
   <data name="mention" xml:space="preserve">
     <value>Bahsetmek</value>
   </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Çevrimiçi: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Çevrimdışı: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Çevrimiçi servislerde bağlantı kesildi. osu! sınırlı işlevlerle çalışacak.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Hesabınıza başka bir cihazdan giriş yapıldığı için bu cihazda hesabınızdan çıkış yapıldı.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Hesabınızda bir değişiklikten dolayı hesabınızdan çıkış yapıltı. Lütfen tekrar giriş yapın.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>{0} indiriliyor</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Koleksiyon içeri aktarımı başlatılıyor...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Koleksiyonlar okunuyor...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>{0} koleksiyon içeri aktarıldı</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>{1} koleksiyondan {0} içeri aktarıldı</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Bu hata otomatik olarak geliştiricilere bildirildi.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>osu!'nun daha yeni bir sürümü bulundu ({0} → {1})</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Yeni sürümü indirmek için tıklayın. Varolan yüklemenizin üzerine yüklenecektir.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>osu!'yu güncellemek için paket yöneticisini / sağlayıcısını kontrol edin!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Bir diyalog görüntülendiği için bir işlem yarıda kesildi.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Dışa aktarılıyor {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Dışa aktarıldı {0}! Görüntülemek için tıklayın.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Günlükler dışarı aktarılıyor...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Günlükler dışarı aktarıldı! Görüntülemek için tıklayın</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>osu!'yu {0} olarak çalıştırmak performansı iyileştırmez, entegrasyonları bozabilir ve güvenlik riski oluşturur. Lütfen oyunu normal kullanıcı olarak çalıştırın.</value>
+  </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>macOS’ta osu!’yu /Applications veya {0}/Applications dışındaki bir dizine kurmak, oyunu güncellerken sorunlara yol açabilir. Lütfen oyun kurulumunu bu konumlardan birine taşı.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Ekran görüntüsü kaydedildi! Görüntülemek için tıklayın.
+{0}</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Çok oyunculu sunucusu birazdan geri gelecek...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Çok oyunculu sunucusu {0} içinde yeniden başlatılıyor.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Yeni koleksiyon "{0}" {1} beatmaple oluşturuldu.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>{0} beatmap koleksiyona eklendi "{1}".</value>
+  </data>
 </root>

@@ -193,8 +193,11 @@
   <data name="elevated_privileges" xml:space="preserve">
     <value>以 {0} 身份运行 osu! 不会提升性能，可能破坏集成并带来安全风险。请以普通用户身份运行游戏。</value>
   </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>在 macOS 中，将 osu! 安装至 /Applications 或 {0}/Applications 以外的路径下，可能导致游戏在更新时出现异常。请将游戏移至上述任一目录下。</value>
+  </data>
   <data name="screenshot_saved" xml:space="preserve">
-    <value>截图 {0} 已保存！</value>
+    <value>截图已保存！点此处查看： {0} </value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
     <value>多人游戏服务器即将恢复......</value>

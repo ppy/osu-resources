@@ -133,4 +133,82 @@
   <data name="mention" xml:space="preserve">
     <value>언급</value>
   </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>온라인: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>오프라인: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>온라인 서비스에 대한 연결이 중단되었어요. osu!의 기능이 일부 제한돼요.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>다른 기기에서 로그인되어 현재 기기에서 로그아웃되었어요.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>계정 설정에 변경이 있어 로그아웃되었어요. 다시 로그인해 주세요.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>{0} 다운로드 중...</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>컬렉션 가져오기 초기화 중...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>컬렉션 읽는 중...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>컬렉션 {0}개 가져오기 완료</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>컬렉션 {1}개 중 {0}개 가져오기 완료</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>이 오류는 자동으로 개발팀에게 보고되었어요.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>osu!의 최신 버전이 나왔어요 ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>새 버전을 다운로드하려면 여기를 클릭하세요. 새 버전은 기존 버전 위에 설치할 수 있어요.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>패키지 매니저 혹은 다른 설치기를 통해 osu!를 최신 버전으로 업데이트해주세요!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>대화 상자가 표시되어 작업이 중단되었어요.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>{0}를 내보내는 중...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>{0}를 내보냈어요! 여기를 눌러 확인하실 수 있어요.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>로그를 내보내는 중...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>로그를 내보냈어요! 여기를 눌러 확인하실 수 있어요.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>osu!를 {0}로 실행하는 것은 성능을 향상하지 않을뿐더러 여러 통합 기능과 보안에 문제가 발생할 수 있습니다. 게임을 일반 권한으로 실행해 주세요.</value>
+  </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>macOS에서는, /Applications 또는 {0}/Applications 이외의 경로에 osu!를 설치하실 경우 게임 업데이트에 문제가 발생할 수 있어요. 게임 설치본을 이들 중 한 곳으로 옮겨 주세요.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>스크린샷 {0}가 저장되었어요!</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>멀티플레이 서버가 곧 다시 돌아올 거에요...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>멀티플레이 서버가 {0} 후에 다시 시작되요.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>비트맵 {1}개가 들어 있는 새로운 모음집 "{0}" 을 만들었어요.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>{0}개의 비트맵을 "{1}" 모음집에 추가했어요.</value>
+  </data>
 </root>

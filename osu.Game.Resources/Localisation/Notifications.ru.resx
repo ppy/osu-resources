@@ -74,7 +74,7 @@
     <value>Ваша батарея разряжена! Зарядите своё устройство во избежания прерываний во время игры.</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>osu! будет плохо слышно при таком уровне громкости. Нажмите сюда, чтобы восстановить его.</value>
+    <value>Вы ничего не услышите с таким уровнем громкости! Нажмите сюда, чтобы восстановить.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
     <value>Мод Autoplay не доступен для текущего режима игры!</value>
@@ -193,8 +193,12 @@
   <data name="elevated_privileges" xml:space="preserve">
     <value>Запуск osu! от имени {0} не улучшает производительность, может нарушить работу интеграций и представляет угрозу безопасности. Пожалуйста, запустите игру от имени обычного пользователя.</value>
   </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>В macOS установка osu! в каталог, отличный от /Applications или {0}/Applications может вызвать проблемы с обновлением игры. Пожалуйста, переместите установку игры в одно из этих мест.</value>
+  </data>
   <data name="screenshot_saved" xml:space="preserve">
-    <value>Скриншот {0} сохранен!</value>
+    <value>Скриншот сохранён! Нажмите сюда, чтобы посмотреть.
+{0}</value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
     <value>Сервер мультиплеера уходит на короткий технический перерыв...</value>
@@ -203,9 +207,9 @@
     <value>Сервер мультиплеера будет перезагружен через {0}.</value>
   </data>
   <data name="collection_created" xml:space="preserve">
-    <value>Создана новая коллекция "{0}" из {1} карт.</value>
+    <value>Создана новая коллекция "{0}" с количеством карт: {1}.</value>
   </data>
   <data name="collection_beatmaps_added" xml:space="preserve">
-    <value>Добавлено {0} карт в коллекцию "{1}".</value>
+    <value>В коллекцию "{1}" добавлено карт: {0}.</value>
   </data>
 </root>

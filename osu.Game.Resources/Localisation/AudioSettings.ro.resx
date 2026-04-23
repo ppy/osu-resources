@@ -106,4 +106,19 @@
   <data name="offset_wizard" xml:space="preserve">
     <value>Wizard decalaj</value>
   </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajustează decalajul mapei automat</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Dacă este activat, decalajul sugerat de la ultima mapă va fi aplicat automat.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Utilizați modul audio experimental</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Aceasta va încerca inițializarea motorului audio într-un mod de latență mai mică.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Din cauza latenței reduse, va trebui ajustat offset-ul audio atunci când activați această setare. În general, așteptați-vă să scădeți 20 - 60 ms din valoarea cunoscută.</value>
+  </data>
 </root>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Rytmikartan keskustelu</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Jaa rytmikarttasi koko maailmalle!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Sisällön käyttöoikeudet</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Ymmärrän</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Usein kysytyt kysymykset</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Lähetysasetukset</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Lähetä rytmikartta!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Viedään rytmikarttaa yhteensopivuutta varten...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Valmistellaan lähetystä...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Lähetetään rytmikartan sisältöä...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Viimeistellään...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Ennen kuin jatkat, pyydämme sinua varmistamaan, että lähettämälläsi sisällöllä on julkaisulupa. Huomioithan, että olet itse vastuussa alustalle lähettämästäsi sisällöstä. Jos olet epävarma, pyydä lupa tekijöiltä ennen lähettämistä!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Tarkista sisällön käyttöohjeisiin saadaksesi lisätietoja</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Rytmikartan rankkauskriteerit</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Etkö ole varma, täyttääkö rytmikarttasi kriteerit? Tutustu listaan ja nopeuta hyväksyntäprosessia!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Lähettämisprosessi</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Epävarma lähetysprosessista? Lue lisää wikistä!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Kartoituksen apufoorumi</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Onko sinulla kysymyksiä rytmikarttojen tekemisestä tai lähettämisestä? Kysy niistä foorumeilla!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Modausjonojen foorumi</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Vaikeuksia palautteen saamisessa? Kysy ihmeessä modausjonosta!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Mihin haluaisit lähettää rytmikarttasi?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Keskeneräiset / Apua kaivataan (puutteellinen, ei valmiina rankattavaksi)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Odottaa (valmis, valmis rankkaukseen)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Vastaanota ilmoituksia keskusteluvastauksista</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Avaa selaimessa lähetyksen jälkeen</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Huomautus: Jotta kaikkien osu!-versioiden käyttäjät voisivat nauttia rytmikartastasi, se viedään taaksepäin yhteensopivassa muodossa. Olemme pyrkineet varmistamaan, että rytmikartta pysyy pelattavana alkuperäisessä muodossaan, mutta osa tiedoista saattaa kadota sellaisten ominaisuuksien kohdalla, joita vanhemmat versiot eivät tue.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Tyhjiä rytmikarttoja ei pysty lähettää.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Päivitä rytmikartta!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Lähetä UUSI rytmikartta!</value>
+  </data>
+</root>

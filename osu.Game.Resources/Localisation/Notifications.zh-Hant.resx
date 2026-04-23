@@ -125,7 +125,7 @@
     <value>這不是遊戲的正式發行版本。所取得的成績皆不會提交，並且部分線上系統可能無法依預期工作。</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
-    <value>下載更新中...</value>
+    <value>正在下載更新...</value>
   </data>
   <data name="multiplayer_room_ended" xml:space="preserve">
     <value>此多人遊戲房間已結束，點擊這裡來查看成績。</value>
@@ -134,7 +134,7 @@
     <value>提及</value>
   </data>
   <data name="friend_online" xml:space="preserve">
-    <value>已上線：{0}</value>
+    <value>線上：{0}</value>
   </data>
   <data name="friend_offline" xml:space="preserve">
     <value>已下線：{0}</value>
@@ -173,10 +173,10 @@
     <value>點擊這裡來下載最新版本，可以直接覆蓋現有版本。</value>
   </data>
   <data name="update_available_package_managed" xml:space="preserve">
-    <value>請檢查您的軟件包管理系統 / 提供者來更新 osu!</value>
+    <value>請檢查您的套件管理器或供應商，以將 osu! 更新至最新版本！</value>
   </data>
   <data name="action_interrupted_by_dialog" xml:space="preserve">
-    <value>操作已被中斷，因為有對話框在顯示。</value>
+    <value>因顯示對話方塊而中斷動作。</value>
   </data>
   <data name="file_export_ongoing" xml:space="preserve">
     <value>正在匯出 {0}...</value>
@@ -193,8 +193,12 @@
   <data name="elevated_privileges" xml:space="preserve">
     <value>以 {0} 身分開啟 osu! 並不會提升效能，可能會破壞整合並造成安全問題。請以標準使用者身分開啟遊戲。</value>
   </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>在 macOS 裡，把 osu! 安裝在不是「/Applications」或者「{0}/Applications」的資料夾會導致遊戲的更新系統出現問題。請把您的遊戲安裝檔移動到其中一個位置。</value>
+  </data>
   <data name="screenshot_saved" xml:space="preserve">
-    <value>螢幕截圖 {0} 已保存！</value>
+    <value>螢幕截圖已儲存！按一下即可檢視。
+{0}</value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
     <value>多人遊戲伺服器正在維護中，請稍後再進行遊玩...</value>

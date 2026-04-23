@@ -71,7 +71,7 @@
     <value>Äänentoistolaite</value>
   </data>
   <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>Iskuäänien stereokanta</value>
+    <value>Osumaäänien stereoerotus</value>
   </data>
   <data name="master_volume" xml:space="preserve">
     <value>Päävoimakkuus</value>
@@ -89,18 +89,36 @@
     <value>Vastapainon säätö</value>
   </data>
   <data name="audio_offset" xml:space="preserve">
-    <value>Äänen vastapaino</value>
+    <value>Äänen ajoitus</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>Pelaa muutama kartta saadaksesi suositellun vastapainon!</value>
+    <value>Pelaa muutama rytmikartta saadaksesi suositellun ajoituskorjauksen!</value>
+  </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>Perustuen viimeiseen {0} pelaukseen, ajoituksesi on asetettu oikein!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Viimeiseen {0} pelikertaan perustuen, suositeltu vastapaino on {1} ms.</value>
+    <value>Viimeiseen {0} pelikertaan perustuen, suositeltu ajoitus on {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
-    <value>Käytä suositeltua vastapainoa</value>
+    <value>Käytä suositeltua ajoitusta</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Vastapainon opastettu määritys</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Säädä rytmikartan ajoitusta automaattisesti</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Jos käytössä, viimeisimmän pelikerran perusteella ehdotettu ajoituskorjaus otetaan automaattisesti käyttöön rytmikartalla.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Käytä kokeellista äänitilaa</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Tämä pyrkii alustamaan äänimoottorin matalamman latenssin tilassa.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Pienemmän viiveen vuoksi äänen ajoitusta on säädettävä, kun tämä asetus otetaan käyttöön. Nykyisestä arvosta kannattaa yleensä vähentää 20 - 60 ms.</value>
   </data>
 </root>
