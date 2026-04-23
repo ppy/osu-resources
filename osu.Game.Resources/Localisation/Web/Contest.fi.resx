@@ -100,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Pisteet</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Standardoitu Pistemäärä</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>yhteispisteet</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>standardisoitu kokonaispistemäärä</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Olet tämän kilpailun tuomari. Arvostele tuotoksia täällä!</value>
@@ -151,8 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Pudota työsi tähän</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} hyväksytään</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Suurin koko {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Mittojen on oltava {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Lataa .osz-tiedosto</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Vain {0} tiedostot ovat hyväksyttyjä tähän kilpailuun.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Tämän kilpailun kohteiden on oltava {0}{1}</value>
@@ -171,6 +189,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} piste|{0} pistettä</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} pistettä</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Loppui {0}</value>

@@ -40,6 +40,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowPlayerSubmittedOn => new TranslatableString(getKey(@"show.player.submitted_on"), @"Submitted on");
 
         /// <summary>
+        /// "Watched"
+        /// </summary>
+        public static LocalisableString ShowPlayerWatched => new TranslatableString(getKey(@"show.player.watched"), @"Watched");
+
+        /// <summary>
+        /// "{0} time|{0} times"
+        /// </summary>
+        public static LocalisableString ShowPlayerWatchedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.player.watched_count"), @"{0} time|{0} times", countDelimited);
+
+        /// <summary>
         /// "Country Rank"
         /// </summary>
         public static LocalisableString ShowPlayerRankCountry => new TranslatableString(getKey(@"show.player.rank.country"), @"Country Rank");

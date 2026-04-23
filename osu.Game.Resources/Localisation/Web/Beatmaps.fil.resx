@@ -58,11 +58,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Hindi wastong ruleset ang tinukoy.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Masyadong maraming mga guest mappers.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Nabigong i-update ang boto</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
-    <value>payang ang kudosu</value>
+    <value>payagan ang kudosu</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
     <value>Pahina ng Beatmap</value>
@@ -103,6 +109,9 @@
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Pindutin ang Enter para magreply.</value>
   </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Pindotin ang enter para mag-reply. Pindotin ang ctrl+enter para mag-reply at iresolba.</value>
+  </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>I-type ang mensahe dito</value>
   </data>
@@ -120,6 +129,9 @@
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskusyon</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} hindi nalutas na isyu|{0} hindi nalutas na isyu</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Icollapse lahat</value>
@@ -448,6 +460,12 @@
   <data name="nominations.rank_estimate._" xml:space="preserve">
     <value>Ang mapa na ito ay tatantiyahin na maging ranked sa {0} kapag walang isyu ang nahanap. Nasa ika-#{1}  ng {2}.</value>
   </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>Ang map na ito ay kasalukuyang naka-block sa pag-alis sa Qualified section hangga't hindi nareresolba ang {0}.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>itong mga problema</value>
+  </data>
   <data name="nominations.rank_estimate.on" xml:space="preserve">
     <value>sa {0}</value>
   </data>
@@ -480,6 +498,9 @@
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Mga opsyon pa sa pagsesearch</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Ang bilang ng pinakamataas na ranggo sa profile at mga resultang ipinapakita sa pahinang ito ay nakabatay sa iyong pinakamataas na "standardized" (tinataawag ding "lazer") na mga marka sa mga beatmap.</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Ang pag fi-filter ng {0} ay nag re-require ng aktibong osu!supporter tag</value>
@@ -553,6 +574,12 @@
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter tag</value>
   </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>mag-browse ng user tags</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>mag-type para maghanap</value>
+  </data>
   <data name="general.converts" xml:space="preserve">
     <value>Kasamang converted beatmaps</value>
   </data>
@@ -573,6 +600,9 @@
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Kahit Ano</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>hindi na i-set</value>
   </data>
   <data name="status.any" xml:space="preserve">
     <value>Kahit Ano</value>

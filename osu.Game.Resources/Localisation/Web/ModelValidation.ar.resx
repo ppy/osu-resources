@@ -229,6 +229,15 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>رابط نقطة معاودة التطبيق</value>
   </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>طلب الانضمام إلى الفريق</value>
+  </data>
+  <data name="team.attributes.name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="team.attributes.url" xml:space="preserve">
+    <value>عنوان URL</value>
+  </data>
   <data name="user.contains_username" xml:space="preserve">
     <value>كلمة المرور يجب أن لا تحتوي على اسم المستخدم.</value>
   </data>
@@ -311,7 +320,7 @@
     <value>كلمة المرور</value>
   </data>
   <data name="user.change_username.restricted" xml:space="preserve">
-    <value>لا يمكنك تغيير اسم المستخدم اذا كان حسابك مقيد.</value>
+    <value>لا يمكنك تغيير اسم المستخدم أثناء فترة التقييد.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
     <value>تحتاج إلى أن تملك {0} لتغيير اسمك!</value>
@@ -327,6 +336,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>أنت لست في هذه القناة.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>أنت بالفعل جزء من الفريق.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>{0} ليس مقبولا لنوع الأبلاغ هذا.</value>

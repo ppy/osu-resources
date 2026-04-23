@@ -390,6 +390,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ItemChannelChannelPmChannelMessageGroup(LocalisableString username) => new TranslatableString(getKey(@"item.channel.channel.pm.channel_message_group"), @"from {0}", username);
 
         /// <summary>
+        /// "Chat mention"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionDefault => new TranslatableString(getKey(@"item.channel.channel_mention._"), @"Chat mention");
+
+        /// <summary>
+        /// "{0} mentioned you in {1} &quot;{2}&quot;"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMention(LocalisableString username, LocalisableString name, LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention"), @"{0} mentioned you in {1} ""{2}""", username, name, title);
+
+        /// <summary>
+        /// "{0} &quot;{1}&quot;"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMentionCompact(LocalisableString username, LocalisableString title) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention_compact"), @"{0} ""{1}""", username, title);
+
+        /// <summary>
+        /// "mentioned in {0}"
+        /// </summary>
+        public static LocalisableString ItemChannelChannelMentionPublicChannelMentionGroup(LocalisableString name) => new TranslatableString(getKey(@"item.channel.channel_mention.public.channel_mention_group"), @"mentioned in {0}", name);
+
+        /// <summary>
         /// "New team message"
         /// </summary>
         public static LocalisableString ItemChannelChannelTeamDefault => new TranslatableString(getKey(@"item.channel.channel_team._"), @"New team message");
@@ -678,6 +698,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "You&#39;ve received a new message from {0}"
         /// </summary>
         public static LocalisableString MailChannelChannelChannelMessage(LocalisableString username) => new TranslatableString(getKey(@"mail.channel.channel.channel_message"), @"You've received a new message from {0}", username);
+
+        /// <summary>
+        /// "{0} mentioned you in {1} &quot;{2}&quot;"
+        /// </summary>
+        public static LocalisableString MailChannelChannelMentionChannelMention(LocalisableString username, LocalisableString name, LocalisableString title) => new TranslatableString(getKey(@"mail.channel.channel_mention.channel_mention"), @"{0} mentioned you in {1} ""{2}""", username, name, title);
 
         /// <summary>
         /// "There is a new message in team &quot;{0}&quot;"

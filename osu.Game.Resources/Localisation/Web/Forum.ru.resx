@@ -116,7 +116,7 @@
     <value>Вы действительно хотите восстановить этот ответ?</value>
   </data>
   <data name="post.edited" xml:space="preserve">
-    <value>Последний раз редактировал {0} {1}, всего правок: {2}.</value>
+    <value>Последний раз редактировал {0} {1}, всего {2} правка.|Последний раз редактировал {0} {1}, всего {2} правки.|Последний раз редактировал {0} {1}, всего {2} правок.</value>
   </data>
   <data name="post.posted_at" xml:space="preserve">
     <value>создана {0}</value>
@@ -539,7 +539,7 @@
     <value>osu!supporter</value>
   </data>
   <data name="topics.show.feature_vote.user.count" xml:space="preserve">
-    <value>{0} голос|{0} голоса|{0} голосов</value>
+    <value>{0} голосов|{1} {0} голос|[2,*] {0} голоса|[2,*] {0} голосов</value>
   </data>
   <data name="topics.show.feature_vote.user.current" xml:space="preserve">
     <value>У вас осталось {0}.</value>

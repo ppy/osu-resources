@@ -71,10 +71,10 @@
     <value>إصدار رمز جديد...</value>
   </data>
   <data name="box.info.check_spam" xml:space="preserve">
-    <value>تأكد من التحقق من مجلد البريد المزعج الخاص بك إذا تعذر العثور على عنوان البريد الإلكتروني.</value>
+    <value>تأكد من التحقق من مجلد الرسائل غير المرغوب فيها إذا لم تجد البريد الإلكتروني.</value>
   </data>
   <data name="box.info.recover" xml:space="preserve">
-    <value>اذا لم يكن لديك وصول الى بريدك الألكتروني او نسيت ماذا استخدمت, رجائاََ اتبع الـ {0}.</value>
+    <value>إذا لم تتمكن من الوصول إلى بريدك الإلكتروني أو نسيت ما استخدمته، يُرجى اتباع {0}.</value>
   </data>
   <data name="box.info.recover_link" xml:space="preserve">
     <value>عملية استرداد البريد الإلكتروني هنا</value>
@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>تسجيل الخروج</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>الرجاء إدخال الرمز من تطبيق المصادقة الخاص بك.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>يمكنك أيضا {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>إذا لم تتمكن من الوصول إلى تطبيق المصادقة، {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>يمكنك التحقق باستخدام البريد الإلكتروني بدلًا من ذلك</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>رمز التحقق منتهي الصلاحية، تم ارسال بريد تحقق جديد.</value>
   </data>
@@ -95,12 +110,18 @@
     <value>رمز التحقق غير صحيح.</value>
   </data>
   <data name="errors.retries_exceeded" xml:space="preserve">
-    <value>رمز التحقق غير صحيح. تجاوزت حد إعادة المحاولة، تم ارسال بريد تحقق جديد.</value>
+    <value>رمز التحقق غير صحيح. تم تجاوز حدّ المحاولات، وتم إرسال بريد إلكتروني جديد للتحقق.</value>
   </data>
   <data name="errors.reissued" xml:space="preserve">
-    <value>تم اصدار رمز جديد، تم ارسال بريد تحقق جديد.</value>
+    <value>تم إعادة إصدار رمز التحقق، وتم إرسال رسالة تحقق جديدة إلى بريدك الإلكتروني.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>تم استخدام رمز التحقق بالفعل. يُرجى الانتظار واستخدام رمز جديد.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>تمت إزالة رمز المصادقة، جارٍ التحويل إلى التحقق عبر البريد الإلكتروني. تم إرسال رسالة تحقق إلى بريدك الإلكتروني.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
-    <value>حدثت مشكلة غير معروفة، تم ارسال بريد تحقق جديد.</value>
+    <value>حدثت مشكلة غير معروفة، وتم إرسال رسالة تحقق جديدة إلى بريدك الإلكتروني.</value>
   </data>
 </root>

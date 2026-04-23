@@ -245,6 +245,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotificationsOptionsChannelMessage => new TranslatableString(getKey(@"notifications.options.channel_message"), @"private chat messages");
 
         /// <summary>
+        /// "chat mention"
+        /// </summary>
+        public static LocalisableString NotificationsOptionsChannelMention => new TranslatableString(getKey(@"notifications.options.channel_mention"), @"chat mention");
+
+        /// <summary>
         /// "team chat messages"
         /// </summary>
         public static LocalisableString NotificationsOptionsChannelTeam => new TranslatableString(getKey(@"notifications.options.channel_team"), @"team chat messages");

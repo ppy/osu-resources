@@ -155,9 +155,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeKudosu => new TranslatableString(getKey(@"type.kudosu"), @"kudosu");
 
         /// <summary>
-        /// "quick play"
+        /// "ranked play"
         /// </summary>
-        public static LocalisableString TypeMatchmaking => new TranslatableString(getKey(@"type.matchmaking"), @"quick play");
+        public static LocalisableString TypeMatchmaking => new TranslatableString(getKey(@"type.matchmaking"), @"ranked play");
 
         /// <summary>
         /// "playlists"

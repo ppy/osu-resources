@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.BeatmapDiscussions";
 
         /// <summary>
+        /// "{0} reply is hidden.|{0} replies are hidden."
+        /// </summary>
+        public static LocalisableString HiddenReplies(LocalisableString countDelimited) => new TranslatableString(getKey(@"hidden_replies"), @"{0} reply is hidden.|{0} replies are hidden.", countDelimited);
+
+        /// <summary>
         /// "Must be signed in to edit."
         /// </summary>
         public static LocalisableString AuthorizationsUpdateNullUser => new TranslatableString(getKey(@"authorizations.update.null_user"), @"Must be signed in to edit.");

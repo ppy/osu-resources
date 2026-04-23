@@ -110,9 +110,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString HeaderUsersPlaylists => new TranslatableString(getKey(@"header.users.playlists"), @"playlists");
 
         /// <summary>
-        /// "quick play"
+        /// "ranked play"
         /// </summary>
-        public static LocalisableString HeaderUsersQuickplay => new TranslatableString(getKey(@"header.users.quickplay"), @"quick play");
+        public static LocalisableString HeaderUsersRankedPlay => new TranslatableString(getKey(@"header.users.ranked-play"), @"ranked play");
 
         /// <summary>
         /// "multiplayer"
