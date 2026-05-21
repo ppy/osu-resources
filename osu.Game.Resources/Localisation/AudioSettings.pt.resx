@@ -71,7 +71,7 @@
     <value>Dispositivo de Saída</value>
   </data>
   <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>Separação estéreo de hitsound</value>
+    <value>Separação (estéreo) dos sons de acerto</value>
   </data>
   <data name="master_volume" xml:space="preserve">
     <value>Geral</value>
@@ -92,15 +92,33 @@
     <value>Desvio de áudio</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>Joga alguns beatmaps para receber um atraso sugerido!</value>
+    <value>Jogue alguns mapas para receber um desvio sugerido!</value>
+  </data>
+  <data name="suggested_offset_correct" xml:space="preserve">
+    <value>Com base na(s) última(s) {0} partida(s), o seu desvio está configurado corretamente!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Baseado no(s) último(s) {0} jogo(s), o atraso recomendado é {1} ms.</value>
+    <value>Com base no(s) último(s) {0} jogo(s), o desvio recomendado é de {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
-    <value>Aplica o atraso sugerido</value>
+    <value>Aplicar o desvio sugerido</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
     <value>Assistente de desvio</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
+    <value>Ajustar automaticamente o desvio do mapa</value>
+  </data>
+  <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
+    <value>Se ativada, o desvio sugerido da última partida num mapa é automaticamente aplicado.</value>
+  </data>
+  <data name="wasapi_label" xml:space="preserve">
+    <value>Usar o modo de áudio experimental</value>
+  </data>
+  <data name="wasapi_tooltip" xml:space="preserve">
+    <value>Esta opção tentará inicializar o motor de áudio num modo de baixa latência.</value>
+  </data>
+  <data name="wasapi_notice" xml:space="preserve">
+    <value>Devido à redução da latência, o seu desvio de áudio terá de ser ajustado ao ativar esta opção. Regra geral, espere subtrair entre 20 e 60 ms ao valor que já conhece.</value>
   </data>
 </root>
