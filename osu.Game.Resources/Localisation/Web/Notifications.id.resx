@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>dari {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Panggilan obrolan</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} menyebutkan namamu di {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>namamu disebut di {0}</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Pesan tim baru</value>
   </data>
@@ -455,13 +467,16 @@
     <value>Terdapat komentar baru pada beatmap "{0}"</value>
   </data>
   <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
-    <value>Terdapat pengumuman baru pada "{0}"</value>
+    <value>Terdapat pengumuman baru di "{0}"</value>
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Kamu menerima pesan baru dari {0}</value>
   </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} menyebutkan namamu di {1} "{2}"</value>
+  </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
-    <value>Terdapat pesan baru pada tim "{0}"</value>
+    <value>Terdapat pesan baru di tim "{0}"</value>
   </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Terdapat komentar baru pada riwayat perubahan "{0}"</value>

@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>von {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Erwähnung im Chat</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} erwähnte dich in {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>erwähnt in {0}</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Neue Teamnachricht</value>
   </data>
@@ -459,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Du hast eine neue Nachricht von {0} erhalten</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} erwähnte dich in {1} "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Es gibt eine neue Nachricht im Team "{0}"</value>

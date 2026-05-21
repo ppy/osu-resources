@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>від {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Згадки у чатах</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} згадав вас у {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>згадано у {0}</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Нове повідомлення команди</value>
   </data>
@@ -459,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Ви отримали нове повідомлення від {0} </value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} згадав вас у {1} "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Нове повідомлення в команді "{0}"</value>

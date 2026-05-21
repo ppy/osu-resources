@@ -218,10 +218,10 @@
     <value>رابط التطبيق</value>
   </data>
   <data name="oauth.client.too_many" xml:space="preserve">
-    <value>تجاوزت الحد الأقصى لعدد الـ0Auth المسموح به.</value>
+    <value>تم تجاوز الحد الأقصى المسموح به لعدد تطبيقات OAuth.</value>
   </data>
   <data name="oauth.client.url" xml:space="preserve">
-    <value>المرجو إدخال عنوان صحيح.</value>
+    <value>يرجى إدخال عناوين URL صحيحة.</value>
   </data>
   <data name="oauth.client.attributes.name" xml:space="preserve">
     <value>اسم التّطبيق</value>
@@ -234,6 +234,9 @@
   </data>
   <data name="team.attributes.name" xml:space="preserve">
     <value>الاسم</value>
+  </data>
+  <data name="team.attributes.short_name" xml:space="preserve">
+    <value>الاسم المختصر</value>
   </data>
   <data name="team.attributes.url" xml:space="preserve">
     <value>عنوان URL</value>
@@ -251,7 +254,7 @@
     <value>الدولة ليست في قاعدة البيانات.</value>
   </data>
   <data name="user.invalid_discord" xml:space="preserve">
-    <value>اِسم خلاف غير صالح.</value>
+    <value>اسم مستخدم Discord غير صالح.</value>
   </data>
   <data name="user.invalid_email" xml:space="preserve">
     <value>لا يبدو وكأنه بريد الكتروني صالح.</value>
@@ -302,7 +305,7 @@
     <value>كلمة السر الحالية غير صحيحة.</value>
   </data>
   <data name="user.wrong_email_confirmation" xml:space="preserve">
-    <value>تأكيد البريد الألكتروني لا يتطابق.</value>
+    <value>تأكيد البريد الإلكتروني غير متطابق</value>
   </data>
   <data name="user.wrong_password_confirmation" xml:space="preserve">
     <value>تأكيد كلمة المرور لا يتطابق.</value>
@@ -323,13 +326,13 @@
     <value>لا يمكنك تغيير اسم المستخدم أثناء فترة التقييد.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>تحتاج إلى أن تملك {0} لتغيير اسمك!</value>
+    <value>يجب أن تمتلك {0} لتغيير اسمك!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
     <value>اِدعم osu!</value>
   </data>
   <data name="user.change_username.username_is_same" xml:space="preserve">
-    <value>هذا هو اسم المستخدم الخاص بك حالياََ ايها السخيف!</value>
+    <value>هذا هو اسم المستخدم الخاص بك حاليًا أيها السخيف!</value>
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
     <value>الخرائط الـ Ranked لا يمكن الإبلاغ عنها</value>

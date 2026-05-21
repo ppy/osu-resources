@@ -235,6 +235,12 @@
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters хутка атрымаць доступ)</value>
   </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Актыўны</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Завершана</value>
+  </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Карты карыстальніка: {0}</value>
   </data>
@@ -292,8 +298,20 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Скасаваць</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Калі ласка, паведамліце пра парушэнне аўтарскіх правоў праз заяву DMCA на адрас эл. пошты {0} як указана в {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>палітыка аўтарскіх правоў osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Гэта тычыцца выпадкаў, дзе трэкі аўдыё, візуальны кантэнт або змест узроўня бітмапы выкарыстоўваецца без карэктнага дазволю.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Несумленная гульня / Чыты</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Парушэнне аўтарскіх правоў</value>
   </data>
   <data name="report.options.inappropriate_chat" xml:space="preserve">
     <value>Непрыстойныя паводзіны ў чаце</value>
@@ -553,6 +571,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Паўтораў прагледжана</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Найбольш прагляданыя рэплэі</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Нядаўняя гісторыя кудосу</value>
   </data>
@@ -630,6 +651,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>убачыць больш паведамленняў</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Матчы ранкаванай гульні</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Нядаўняя актыўнасць</value>
@@ -742,6 +766,9 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Вэб-сайт</value>
   </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Ранкавана гульня</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Вы маглі змяніць сваё імя карыстальніка.</value>
   </data>
@@ -804,6 +831,9 @@
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Дакладнасць трапленняў</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Удары на гульню</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Узровень {0}</value>

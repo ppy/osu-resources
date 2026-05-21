@@ -86,7 +86,7 @@
     <value>demasiados pedidos</value>
   </data>
   <data name="error.error.500" xml:space="preserve">
-    <value>algo quebrou</value>
+    <value>algo avariou</value>
   </data>
   <data name="error.error.503" xml:space="preserve">
     <value>manutenção</value>
@@ -104,46 +104,52 @@
     <value>artistas destacados</value>
   </data>
   <data name="main.beatmap_discussion_posts_controller._" xml:space="preserve">
-    <value>publicações de discussão de beatmap</value>
+    <value>publicações de discussão do mapa</value>
   </data>
   <data name="main.beatmap_discussions_controller._" xml:space="preserve">
-    <value>discussões do beatmap</value>
+    <value>discussões do mapa</value>
   </data>
   <data name="main.beatmap_packs_controller._" xml:space="preserve">
-    <value>pacotes de beatmaps</value>
+    <value>pacotes de mapas</value>
   </data>
   <data name="main.beatmapset_discussion_votes_controller._" xml:space="preserve">
-    <value>votos de discussão do beatmap</value>
+    <value>votos de discussão do mapa</value>
   </data>
   <data name="main.beatmapset_events_controller._" xml:space="preserve">
-    <value>histórico do beatmap</value>
+    <value>histórico do mapa</value>
   </data>
   <data name="main.beatmapsets_controller.discussion" xml:space="preserve">
-    <value>discussão do beatmap</value>
+    <value>discussão do mapa</value>
   </data>
   <data name="main.beatmapsets_controller.index" xml:space="preserve">
-    <value>listagem de beatmaps</value>
+    <value>listagem de mapas</value>
   </data>
   <data name="main.beatmapsets_controller.show" xml:space="preserve">
-    <value>informação do beatmap</value>
+    <value>informação do mapa</value>
+  </data>
+  <data name="main.beatmapsets_controller.versions" xml:space="preserve">
+    <value>histórico de versões do mapa</value>
   </data>
   <data name="main.changelog_controller._" xml:space="preserve">
     <value>registo de alterações</value>
   </data>
   <data name="main.chat_controller._" xml:space="preserve">
-    <value>chat</value>
+    <value>conversa</value>
   </data>
   <data name="main.comments_controller._" xml:space="preserve">
     <value>comentários</value>
   </data>
   <data name="main.contest_entries_controller.judge_results" xml:space="preserve">
-    <value>resultados da apreciação de prova</value>
+    <value>resultados da avaliação do concurso</value>
   </data>
   <data name="main.contests_controller._" xml:space="preserve">
     <value>concursos</value>
   </data>
   <data name="main.contests_controller.judge" xml:space="preserve">
-    <value>apreciação de prova</value>
+    <value>avaliação do concurso</value>
+  </data>
+  <data name="main.group_history_controller._" xml:space="preserve">
+    <value>histórico do grupo</value>
   </data>
   <data name="main.groups_controller.show" xml:space="preserve">
     <value>grupos</value>
@@ -158,10 +164,10 @@
     <value>pesquisar</value>
   </data>
   <data name="main.home_controller.support_the_game" xml:space="preserve">
-    <value>apoia o jogo</value>
+    <value>apoie o jogo</value>
   </data>
   <data name="main.home_controller.testflight" xml:space="preserve">
-    <value>testflight</value>
+    <value>ensaio</value>
   </data>
   <data name="main.legacy_matches_controller._" xml:space="preserve">
     <value>partidas</value>
@@ -179,7 +185,7 @@
     <value>histórico de notificações</value>
   </data>
   <data name="main.password_reset_controller._" xml:space="preserve">
-    <value>redefinir palavra-passe</value>
+    <value>redefinir a palavra-passe</value>
   </data>
   <data name="main.ranking_controller._" xml:space="preserve">
     <value>classificações</value>
@@ -188,13 +194,13 @@
     <value>desempenho</value>
   </data>
   <data name="main.seasons_controller._" xml:space="preserve">
-    <value>classificação</value>
+    <value>classificações</value>
   </data>
   <data name="main.teams_controller._" xml:space="preserve">
     <value>equipas</value>
   </data>
   <data name="main.teams_controller.create" xml:space="preserve">
-    <value>criar equipa</value>
+    <value>criar uma equipa</value>
   </data>
   <data name="main.teams_controller.edit" xml:space="preserve">
     <value>definições da equipa</value>
@@ -211,17 +217,23 @@
   <data name="main.user_cover_presets_controller._" xml:space="preserve">
     <value>capas predefinidas</value>
   </data>
+  <data name="main.user_totp_controller._" xml:space="preserve">
+    <value>aplicação de autenticação</value>
+  </data>
   <data name="main.users_controller._" xml:space="preserve">
     <value>informação do jogador</value>
   </data>
   <data name="main.users_controller.create" xml:space="preserve">
-    <value>criar conta</value>
+    <value>criar uma conta</value>
   </data>
   <data name="main.users_controller.disabled" xml:space="preserve">
     <value>aviso</value>
   </data>
   <data name="main.wiki_controller._" xml:space="preserve">
     <value>wiki</value>
+  </data>
+  <data name="multiplayer.rooms_controller.events" xml:space="preserve">
+    <value>histórico da sala</value>
   </data>
   <data name="passport.authorization_controller._" xml:space="preserve">
     <value>autorizar aplicação</value>
@@ -233,7 +245,7 @@
     <value>membros da equipa</value>
   </data>
   <data name="users.modding_history_controller._" xml:space="preserve">
-    <value>informação do modder</value>
+    <value>informação do modificador de mapas</value>
   </data>
   <data name="users.multiplayer_controller._" xml:space="preserve">
     <value>histórico do multijogador</value>

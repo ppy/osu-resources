@@ -275,7 +275,7 @@
     <value>Bạn có chắc muốn đăng xuất không? :(</value>
   </data>
   <data name="report.button_text" xml:space="preserve">
-    <value>báo cáo</value>
+    <value>Báo Cáo</value>
   </data>
   <data name="report.comments" xml:space="preserve">
     <value>Bình Luận Khác</value>
@@ -338,7 +338,7 @@
     <value>Tài khoản của bạn đã bị hạn chế!</value>
   </data>
   <data name="restricted_banner.message" xml:space="preserve">
-    <value>Trong khi bị hạn chế, Bạn sẽ không thể tương tác với những người chơi khác và chỉ có bạn thấy được điểm của bạn. Đây thường là kết quả của một quá trình tự động và thường sẽ được gỡ bỏ trong vòng 24 giờ. Nếu bạn muốn kháng nghị về sự hạn chế này, vui lòng &lt;a href="mailto{0}@ppy.sh"&gt;liên hệ hỗ trợ&lt;/a&gt;.</value>
+    <value>Trong khi bị hạn chế, bạn sẽ không thể tương tác với những người chơi khác và chỉ có bạn thấy được điểm số của bạn. Đây thường là kết quả của một quá trình tự động và thường sẽ được gỡ bỏ trong vòng 24 giờ. {0}</value>
   </data>
   <data name="restricted_banner.message_link" xml:space="preserve">
     <value>Kiểm tra trang này để biết thêm chi tiết.</value>
@@ -652,6 +652,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>xem bài viết khác</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Trận đấu xếp hạng</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Gần Đây</value>
   </data>
@@ -713,10 +716,10 @@
     <value>Trạng Thái Tài Khoản</value>
   </data>
   <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
-    <value>Tài khoản của &lt;strong&gt;{0}&lt;/strong&gt; không ở trong trạng thái tốt :(</value>
+    <value>Tài khoản của {0} không ở trong trạng thái tốt :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>&lt;strong&gt;{0}&lt;/strong&gt; sẽ được nói trở lại vào {1}.</value>
+    <value>{0} sẽ được nói trở lại vào {1}.</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>Vi Phạm Gần Đây</value>
@@ -782,7 +785,7 @@
     <value>Không tìm thấy người dùng! ;_;</value>
   </data>
   <data name="show.page.button" xml:space="preserve">
-    <value>Chỉnh sửa trang cá nhân</value>
+    <value>chỉnh sửa trang cá nhân</value>
   </data>
   <data name="show.page.description" xml:space="preserve">
     <value>&lt;strong&gt;tôi!&lt;/strong&gt; là một khu vực cá nhân có thể tùy chỉnh trong trang cá nhân của bạn.</value>
@@ -803,7 +806,7 @@
     <value>Đã đóng góp {0}</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
-    <value>{0} bài đăng forum</value>
+    <value>{0} bài đăng forum|{0} bài đăng forum</value>
   </data>
   <data name="show.rank.country" xml:space="preserve">
     <value>Hạng quốc gia cho {0}</value>
@@ -836,7 +839,7 @@
     <value>Level {0}</value>
   </data>
   <data name="show.stats.level_progress" xml:space="preserve">
-    <value>Tiến độ qua level tiếp theo</value>
+    <value>tiến trình lên cấp tiếp theo</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
     <value>Combo Cao Nhất</value>
@@ -896,7 +899,7 @@
     <value>vui lòng đăng kí thông qua game!</value>
   </data>
   <data name="store.from_web" xml:space="preserve">
-    <value>vui lòng hoàn thành đăng kí thông qua trang web osu!</value>
+    <value>vui lòng hoàn tất đăng kí thông qua trang web osu!</value>
   </data>
   <data name="store.saved" xml:space="preserve">
     <value>Đã tạo người dùng</value>

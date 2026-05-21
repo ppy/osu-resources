@@ -240,14 +240,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotificationsOptionsBeatmapsetModding => new TranslatableString(getKey(@"notifications.options.beatmapset:modding"), @"beatmap modding");
 
         /// <summary>
-        /// "private chat messages"
-        /// </summary>
-        public static LocalisableString NotificationsOptionsChannelMessage => new TranslatableString(getKey(@"notifications.options.channel_message"), @"private chat messages");
-
-        /// <summary>
         /// "chat mention"
         /// </summary>
         public static LocalisableString NotificationsOptionsChannelMention => new TranslatableString(getKey(@"notifications.options.channel_mention"), @"chat mention");
+
+        /// <summary>
+        /// "private chat messages"
+        /// </summary>
+        public static LocalisableString NotificationsOptionsChannelMessage => new TranslatableString(getKey(@"notifications.options.channel_message"), @"private chat messages");
 
         /// <summary>
         /// "team chat messages"
@@ -283,6 +283,51 @@ namespace osu.Game.Resources.Localisation.Web
         /// "push"
         /// </summary>
         public static LocalisableString NotificationsOptionsPush => new TranslatableString(getKey(@"notifications.options.push"), @"push");
+
+        /// <summary>
+        /// "when you are added as a guest mapper on a beatmap difficulty"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsBeatmapOwnerChange => new TranslatableString(getKey(@"notifications.tooltips.beatmap_owner_change"), @"when you are added as a guest mapper on a beatmap difficulty");
+
+        /// <summary>
+        /// "when beatmap discussions you are watching receives updates, or there is a problem or suggestion on your own beatmap."
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsBeatmapsetModding => new TranslatableString(getKey(@"notifications.tooltips.beatmapset:modding"), @"when beatmap discussions you are watching receives updates, or there is a problem or suggestion on your own beatmap.");
+
+        /// <summary>
+        /// "when you are mentioned in a public channel"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsChannelMention => new TranslatableString(getKey(@"notifications.tooltips.channel_mention"), @"when you are mentioned in a public channel");
+
+        /// <summary>
+        /// "when you receive a new private message"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsChannelMessage => new TranslatableString(getKey(@"notifications.tooltips.channel_message"), @"when you receive a new private message");
+
+        /// <summary>
+        /// "when your team chat channel has a new message"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsChannelTeam => new TranslatableString(getKey(@"notifications.tooltips.channel_team"), @"when your team chat channel has a new message");
+
+        /// <summary>
+        /// "when there is a new comment on an item you are following"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsCommentNew => new TranslatableString(getKey(@"notifications.tooltips.comment_new"), @"when there is a new comment on an item you are following");
+
+        /// <summary>
+        /// "when forum topics you are watching receive new replies"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsForumTopicReply => new TranslatableString(getKey(@"notifications.tooltips.forum_topic_reply"), @"when forum topics you are watching receive new replies");
+
+        /// <summary>
+        /// "when a mapper you are following uploads a beatmap"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsMapping => new TranslatableString(getKey(@"notifications.tooltips.mapping"), @"when a mapper you are following uploads a beatmap");
+
+        /// <summary>
+        /// "when there are new news posts"
+        /// </summary>
+        public static LocalisableString NotificationsTooltipsNewsPost => new TranslatableString(getKey(@"notifications.tooltips.news_post"), @"when there are new news posts");
 
         /// <summary>
         /// "authorized clients"

@@ -58,8 +58,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="empty.active" xml:space="preserve">
+    <value>لست حاليًا في أي ألعاب {0} جارية في osu!(lazer)!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>لست في أي ألعاب {0} مكتملة في osu!(lazer) بعد!</value>
+  </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>قائمة التشغيل</value>
+  </data>
+  <data name="empty.ranked-play" xml:space="preserve">
+    <value>اللعب المصنّف</value>
   </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>لعب جماعي</value>
@@ -79,8 +88,20 @@
   <data name="room.time_left" xml:space="preserve">
     <value>تبقى{0}</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>عرض السِّجلّ</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>عرض الملخص</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>المدة طويلة جداً.</value>
+  </data>
+  <data name="room.errors.name_too_long" xml:space="preserve">
+    <value>اسم الغرفة طويل جدًا.</value>
+  </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>عدد عناصر قائمة التشغيل كبير جدًا.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>نشط</value>
@@ -89,6 +110,6 @@
     <value>انتهت</value>
   </data>
   <data name="room.status.soon" xml:space="preserve">
-    <value>ستنتهي قريباً </value>
+    <value>ستنتهي قريباً</value>
   </data>
 </root>

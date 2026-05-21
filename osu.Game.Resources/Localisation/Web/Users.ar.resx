@@ -146,7 +146,7 @@
     <value>اسم المستخدم</value>
   </data>
   <data name="create.form.tos_notice._" xml:space="preserve">
-    <value>من خلال إنشاء الحساب أنت توافق على {0}</value>
+    <value>بإنشائك للحساب، فأنت توافق على {0}</value>
   </data>
   <data name="create.form.tos_notice.link" xml:space="preserve">
     <value>شروط الخدمة</value>
@@ -213,7 +213,7 @@
     <value>فَشِلت الكابتشا، قم بتحديث الصفحة وحاول مرة أخرى.</value>
   </data>
   <data name="login.locked_ip" xml:space="preserve">
-    <value>عنوان IP الخاص بك مؤمن. الرجاء الانتظار بضع دقائق.</value>
+    <value>عنوان IP الخاص بك محظور مؤقتاً. يرجى الانتظار بضع دقائق.</value>
   </data>
   <data name="login.password" xml:space="preserve">
     <value>كلمة السر</value>
@@ -235,6 +235,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(سوف يحصل عليه osu!supporters قريبا)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>نشطة</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>منتهية</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>الخرائط: {0}</value>
@@ -267,7 +273,7 @@
     <value>تحتاج إلى تسجيل الدخول للقيام بذلك.</value>
   </data>
   <data name="logout_confirm" xml:space="preserve">
-    <value>أتريد تسجيل الخروج حقا؟ :(</value>
+    <value>أتريد تسجيل الخروج حقاً؟ :(</value>
   </data>
   <data name="report.button_text" xml:space="preserve">
     <value>اِبلاغ</value>
@@ -285,7 +291,7 @@
     <value>شكرا لبلاغِك!</value>
   </data>
   <data name="report.title" xml:space="preserve">
-    <value>الاِبلاغ عن {0}؟</value>
+    <value>هل تريد الإبلاغ عن المستخدم {0}؟</value>
   </data>
   <data name="report.actions.send" xml:space="preserve">
     <value>إرسال البلاغ</value>
@@ -296,11 +302,20 @@
   <data name="report.dmca.message_1._" xml:space="preserve">
     <value>يرجى الإبلاغ عن انتهاك حقوق الطبع والنشر من خلال مطالبة DMCA إلى {0} حسب {1}.</value>
   </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>سياسة حقوق الطبع والنشر لـ !osu</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>ينطبق هذا على الحالات التي يتم فيها استخدام المقاطع الصوتية، أو المحتوى المرئي، أو محتوى مستويات اللعبة (الخريطة) بدون إذن رسمي.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>لعب مؤذي/ غش</value>
   </data>
   <data name="report.options.copyright_infringement" xml:space="preserve">
     <value>انتهاك حقوق النشر</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>سلوك غير لائق في الدردشة</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>اهانتي / اهانة الاخرين</value>
@@ -315,10 +330,10 @@
     <value>أخرى (اكتب أدناه)</value>
   </data>
   <data name="report.options.spam" xml:space="preserve">
-    <value>سبام</value>
+    <value>إرسال رسائل مزعجة (سبام)</value>
   </data>
   <data name="report.options.unwanted_content" xml:space="preserve">
-    <value>ربط عن محتوى غير لائق</value>
+    <value>محتوى غير مناسب</value>
   </data>
   <data name="restricted_banner.title" xml:space="preserve">
     <value>تم تقييد حسابك!</value>
@@ -348,7 +363,7 @@
     <value>انضم في {0}</value>
   </data>
   <data name="show.lastvisit" xml:space="preserve">
-    <value>اخر ظهور {0}</value>
+    <value>آخر ظهور {0}</value>
   </data>
   <data name="show.lastvisit_online" xml:space="preserve">
     <value>متصل حالياً</value>
@@ -377,6 +392,42 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>إظهار الغلاف</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>التتابع اليومي</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>أفضل تتابع يومي</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>التتابع اليومي الحالي</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>إجمالي المشاركات</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>التحدي\nاليومي</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>أفضل 10% من المراكز</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>أفضل 50% من المراكز</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>التتابع الأسبوعي</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>أفضل تتابع أسبوعي</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>التتابع الأسبوعي الحالي</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>تغيير صورة الغلاف</value>
   </data>
@@ -385,6 +436,9 @@
   </data>
   <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
     <value>الغلاف المحدد سابقاً لم يعد متوفّراً ولن تستطيع اختياره مجدداً بعد تغييره. هل تريد المتابعة؟</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>صورة الغلاف</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>فشلت معالجة الصورة. تحقق من الصورة المرفوعة وحاول مرة أخرى.</value>
@@ -399,7 +453,7 @@
     <value>يمكنك أيضا إسقاط الصورة هنا للرفع</value>
   </data>
   <data name="show.edit.cover.upload.size_info" xml:space="preserve">
-    <value>حجم الغلاف يجب ان يكون 2400x640</value>
+    <value>يجب أن يكون حجم الغلاف 2000×500</value>
   </data>
   <data name="show.edit.cover.upload.too_large" xml:space="preserve">
     <value>الملف المرفوع كبير جدا.</value>
@@ -414,16 +468,22 @@
     <value>osu!supporters</value>
   </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
-    <value>الوضع الافتراضي للعبة</value>
+    <value>وضع اللعبة الافتراضي</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>عين {0} كالوضع الافتراضي للعبة</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
-    <value>إعادة تعيين اللون إلى الافتراضي؟ ستكون علامة الداعم مطلوبة لتغيير اللون إلى لون مختلف.</value>
+    <value>هل تريد إعادة تعيين اللون إلى الافتراضي؟ ستحتاج إلى osu!supporter لتغييره إلى لون مختلف.</value>
   </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>اللون</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>تتوفر سمات ألوان مخصصة فقط لـ {0}</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporters</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>بلا</value>
@@ -444,7 +504,7 @@
     <value>بواسطة {0}</value>
   </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
-    <value>خرائط الايقاع</value>
+    <value>الخرائط</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
     <value>الخرائط المفضلة</value>
@@ -465,7 +525,7 @@
     <value>الخرائط المعلقة</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>الخرائط الـ Ranked</value>
+    <value>الخرائط المصنفة (Ranked)</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>المناقشات</value>
@@ -511,6 +571,9 @@
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>الـ Replays التي شاهدتها</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>الإعادات الأكثر مشاهدة</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>تاريخ الكودوسو الفائت</value>
@@ -561,7 +624,7 @@
     <value>رفض كودوسو بواسطة {0} للمنشور {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>مبنية على اساس مساهمات المستخدم في اعطاء اقتراحات الخرائط. انظر {0} لمزيد من المعلومات.</value>
+    <value>يعتمد على مقدار مساهمة المستخدم في الإشراف على خرائط الإيقاع. راجع {0} لمزيد من المعلومات.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>هذه الصفحة</value>
@@ -579,7 +642,7 @@
     <value>الاوسمة</value>
   </data>
   <data name="show.extra.playlists.title" xml:space="preserve">
-    <value>العاب قائمة التشغيل</value>
+    <value>ألعاب قائمة التشغيل</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>المنشورات</value>
@@ -589,6 +652,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>عرض المزيد من المنشورات</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>مباريات اللعب المصنّف</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>الأخيرة</value>
@@ -600,7 +666,7 @@
     <value>تحميل الـ Replay</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>فقط الخرائط الـ Ranked تعطي نقاط خبرة</value>
+    <value>لا تمنح نقاط pp سوى خرائط الإيقاع المصنفة</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>موزون {0}</value>
@@ -612,7 +678,7 @@
     <value>النتائج</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
-    <value>افضل اداء</value>
+    <value>أفضل أداء</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
     <value>المراكز الاولى</value>
@@ -621,13 +687,13 @@
     <value>إزالة التثبيت</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
-    <value>نتيجة غير مثبتة</value>
+    <value>تم إلغاء تثبيت النتيجة</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
     <value>تثبيت</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
-    <value>نتيجة مثبتة</value>
+    <value>تم تثبيت النتيجة</value>
   </data>
   <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
     <value>النتائج المثبتة</value>
@@ -702,7 +768,7 @@
     <value>الموقع</value>
   </data>
   <data name="show.matchmaking.title" xml:space="preserve">
-    <value>اللعب السريع</value>
+    <value>اللعب المصنّف</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>لربما غير اسم المستخدم الخاص به.</value>
@@ -723,10 +789,10 @@
     <value>تعديل الملف الشخصي</value>
   </data>
   <data name="show.page.description" xml:space="preserve">
-    <value>&lt;strong&gt;انا!&lt;/strong&gt; هي منطقة تخصصها بنفسك لعرض ما تريده للزوار.</value>
+    <value>&lt;strong&gt;انا!&lt;/strong&gt; هي مساحة شخصية قابلة للتخصيص في صفحة ملفك الشخصي.</value>
   </data>
   <data name="show.page.edit_big" xml:space="preserve">
-    <value>عدلني!</value>
+    <value>عدّلني!</value>
   </data>
   <data name="show.page.placeholder" xml:space="preserve">
     <value>ادخل محتوى الصفحة هنا</value>
@@ -741,7 +807,7 @@
     <value>ساهم بـ {0}</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
-    <value>{0} منشور منتدى"{0} منشورات المنتدى</value>
+    <value>{0} منشور في المنتدى|{0} منشورات المنتدى</value>
   </data>
   <data name="show.rank.country" xml:space="preserve">
     <value>ترتيب الدولة لـ {0}</value>
@@ -757,6 +823,9 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>أعلى ترتيب: {0} في {1}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>إجمالي النقاط</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>دقة التصويب</value>
@@ -780,7 +849,7 @@
     <value>وقت اللعب الإجمالي</value>
   </data>
   <data name="show.stats.ranked_score" xml:space="preserve">
-    <value>عدد نقاط الـ Ranked</value>
+    <value>النتيجة المصنفة</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
     <value>الـ Replays التي شاهدها الأخرون</value>
@@ -804,7 +873,7 @@
     <value>الخرائط المعلقة</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>الخرائط الـ Ranked</value>
+    <value>الخرائط المصنفة (Ranked)</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>أنت مُقيد (صامت) حاليا.</value>

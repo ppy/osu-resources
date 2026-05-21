@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="match.beatmap-deleted" xml:space="preserve">
-    <value>beatmap eliminado</value>
+    <value>mapa eliminado</value>
   </data>
   <data name="match.failed" xml:space="preserve">
     <value>FALHADO</value>
@@ -82,20 +82,83 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} por {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>a partida foi cancelada</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>a partida foi cancelada</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>a partida foi concluída</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>a partida foi concluída</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>{0} tornou‑se o anfitrião</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>o anfitrião foi alterado</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} entrou na partida</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>um jogador entrou na partida</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} foi expulso da partida</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>um jogador foi expulso da partida</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} saiu da partida</value>
+  </data>
+  <data name="match.events.player_left_no_user" xml:space="preserve">
+    <value>um jogador saiu da partida</value>
+  </data>
+  <data name="match.events.room_created" xml:space="preserve">
+    <value>{0} criou a partida</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>a partida foi criada</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>a partida foi dissolvida</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>a partida foi dissolvida</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>Precisão</value>
   </data>
   <data name="match.score.stats.combo" xml:space="preserve">
-    <value>Combo</value>
+    <value>Combinação</value>
   </data>
   <data name="match.score.stats.score" xml:space="preserve">
     <value>Pontuação</value>
+  </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>Duelo direto</value>
+  </data>
+  <data name="match.team_types.tag_coop" xml:space="preserve">
+    <value>Caça Cooperativa</value>
+  </data>
+  <data name="match.team_types.tag_team_versus" xml:space="preserve">
+    <value>Caça de Equipa contra Equipa</value>
+  </data>
+  <data name="match.team_types.team_versus" xml:space="preserve">
+    <value>Equipa contra Equipa</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>Equipa Azul</value>
   </data>
   <data name="match.teams.red" xml:space="preserve">
     <value>Equipa Vermelha</value>
+  </data>
+  <data name="game.freestyle" xml:space="preserve">
+    <value>Estilo Livre</value>
   </data>
   <data name="game.scoring-type.score" xml:space="preserve">
     <value>Maior pontuação</value>
@@ -104,7 +167,7 @@
     <value>Maior precisão</value>
   </data>
   <data name="game.scoring-type.combo" xml:space="preserve">
-    <value>Maior combo</value>
+    <value>Maior combinação</value>
   </data>
   <data name="game.scoring-type.scorev2" xml:space="preserve">
     <value>Pontuação V2</value>

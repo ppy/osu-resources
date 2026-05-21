@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="box.sent" xml:space="preserve">
-    <value>Um email foi enviado para {0} com um código de verificação. Introduz o código.</value>
+    <value>Um e-mail foi enviado para {0} com um código de verificação. Introduza-o.</value>
   </data>
   <data name="box.title" xml:space="preserve">
     <value>Verificação da conta</value>
@@ -71,36 +71,57 @@
     <value>A emitir o novo código...</value>
   </data>
   <data name="box.info.check_spam" xml:space="preserve">
-    <value>Assegura-te de que confirmas a pasta de spam se não conseguires encontrar o email.</value>
+    <value>Certifique‑se de verificar a sua pasta de publicidade caso não encontre o e-mail.</value>
   </data>
   <data name="box.info.recover" xml:space="preserve">
-    <value>Se não conseguires aceder ao teu email ou esqueceste-te do que usaste, segue o {0}.</value>
+    <value>Se não conseguir aceder ao seu e-mail ou se já não se lembrar qual utilizou, siga o {0}.</value>
   </data>
   <data name="box.info.recover_link" xml:space="preserve">
     <value>processo de recuperação de email aqui</value>
   </data>
   <data name="box.info.reissue" xml:space="preserve">
-    <value>Também podes {0} ou {1}.</value>
+    <value>Também pode {0} ou {1}.</value>
   </data>
   <data name="box.info.reissue_link" xml:space="preserve">
     <value>pedir outro código</value>
   </data>
   <data name="box.info.logout_link" xml:space="preserve">
-    <value>terminar sessão</value>
+    <value>terminar a sessão</value>
+  </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Por favor, introduza o código do seu autenticador.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Também pode {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>encerrar a sessão</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Se não conseguir aceder à sua aplicação, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>pode, em alternativa, verificar através do e-mail</value>
   </data>
   <data name="errors.expired" xml:space="preserve">
-    <value>O código de verificação está expirado, um novo email de verificação foi enviado.</value>
+    <value>O código de verificação expirou. Foi enviado um novo e-mail de verificação.</value>
   </data>
   <data name="errors.incorrect_key" xml:space="preserve">
-    <value>Código de verificação incorreto.</value>
+    <value>O código de verificação está incorreto.</value>
   </data>
   <data name="errors.retries_exceeded" xml:space="preserve">
-    <value>Código de verificação incorreto. O limite de tentativas foi excedido, um novo email de verificação foi enviado.</value>
+    <value>O código de verificação está incorreto. O limite de tentativas foi excedido, um novo e-mail de verificação foi enviado.</value>
   </data>
   <data name="errors.reissued" xml:space="preserve">
-    <value>Código de verificação reenviado, um novo email de verificação foi enviado.</value>
+    <value>O Código de verificação foi reenviado. Um novo e-mail de verificação foi enviado.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>O código de verificação já foi utilizado. Aguarde e use um novo.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>O token de autenticação foi removido. A verificação passará a ser feita por e-mail. O e-mail de verificação foi enviado.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
-    <value>Ocorreu um problema desconhecido, um novo email de verificação foi enviado.</value>
+    <value>Ocorreu um problema desconhecido. Um novo e-mail de verificação foi enviado.</value>
   </data>
 </root>

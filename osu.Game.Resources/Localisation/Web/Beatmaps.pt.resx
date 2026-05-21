@@ -59,19 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid_ruleset" xml:space="preserve">
-    <value>Conjunto de regras inválido.</value>
+    <value>O conjunto de modos de jogo indicado é inválido.</value>
   </data>
   <data name="change_owner.too_many" xml:space="preserve">
-    <value>Há demasiados mapeadores convidados.</value>
+    <value>Há criadores de mapas convidados a mais.</value>
   </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Falha ao atualizar voto</value>
+    <value>Não foi possível atualizar o voto</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>permitir kudosu</value>
   </data>
   <data name="discussions.beatmap_information" xml:space="preserve">
-    <value>Página do beatmap</value>
+    <value>Página do mapa</value>
   </data>
   <data name="discussions.delete" xml:space="preserve">
     <value>eliminar</value>
@@ -92,31 +92,31 @@
     <value>Dificuldade de convidado feita por {0}</value>
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
-    <value>Estás recusado de obter kudosu.</value>
+    <value>A obtenção de kudosu foi‑lhe recusada.</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Esta dificuldade foi eliminada por isso poderá não ser mais discutida.</value>
+    <value>Esta dificuldade foi eliminada, pelo que já não pode ser discutida.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
-    <value>A discussão para este beatmap foi desativada.</value>
+    <value>A discussão para este mapa foi desativada.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Não é possível publicar uma discussão enquanto estiveres silenciado.</value>
+    <value>Não pode publicar discussões enquanto estiver silenciado.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Selecionar tipo de comentário</value>
   </data>
   <data name="discussions.reply_notice" xml:space="preserve">
-    <value>Prime ENTER para responder.</value>
+    <value>Prima Enter para responder.</value>
   </data>
   <data name="discussions.reply_resolve_notice" xml:space="preserve">
-    <value>Prime enter para responder. Prime ctrl+enter para responder e resolver.</value>
+    <value>Prima Enter para responder. Prima Ctrl+Enter para responder e resolver.</value>
   </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
-    <value>Escreve a tua resposta aqui</value>
+    <value>Escreva a sua resposta aqui</value>
   </data>
   <data name="discussions.require-login" xml:space="preserve">
-    <value>Inicia sessão para publicar ou responder.</value>
+    <value>Por favor, inicie sessão para publicar ou responder</value>
   </data>
   <data name="discussions.resolved" xml:space="preserve">
     <value>Resolvida</value>
@@ -125,22 +125,22 @@
     <value>restaurar</value>
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
-    <value>Exibir eliminados</value>
+    <value>Exibir discussões eliminadas</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussões</value>
   </data>
   <data name="discussions.unresolved_count" xml:space="preserve">
-    <value>{0} casos não resolvidos</value>
+    <value>{0} problema por resolver|{0} problemas por resolver</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
-    <value>Colapsar tudo</value>
+    <value>Recolher tudo</value>
   </data>
   <data name="discussions.collapse.all-expand" xml:space="preserve">
     <value>Expandir tudo</value>
   </data>
   <data name="discussions.empty.empty" xml:space="preserve">
-    <value>Ainda sem discussões!</value>
+    <value>Ainda não existe qualquer discussão!</value>
   </data>
   <data name="discussions.empty.hidden" xml:space="preserve">
     <value>Nenhuma discussão corresponde ao filtro selecionado.</value>
@@ -152,34 +152,34 @@
     <value>Desbloquear discussão</value>
   </data>
   <data name="discussions.lock.prompt.lock" xml:space="preserve">
-    <value>Razão para o bloqueio</value>
+    <value>Motivo do bloqueio</value>
   </data>
   <data name="discussions.lock.prompt.unlock" xml:space="preserve">
-    <value>Tens a certeza que queres desbloquear?</value>
+    <value>Tem a certeza de que deseja desbloquear?</value>
   </data>
   <data name="discussions.message_hint.in_general" xml:space="preserve">
-    <value>Esta publicação irá para a discussão geral do beatmapset. Para modificares este beatmap, começa a mensagem com uma hora (ex: 00:12:345).</value>
+    <value>Esta publicação irá para a discussão geral do mapa. Para modificar esta dificuldade, comece a mensagem com uma determinada marca de tempo (e.g. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Para modificar múltiplas marcas de tempo, publica várias vezes (uma publicação por marca de tempo).</value>
+    <value>Para modificar múltiplas marcas de tempo, publique várias vezes (uma publicação por marca de tempo).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
-    <value>Escreve aqui para publicar em Geral ({0})</value>
+    <value>Escreva aqui para publicar no Geral ({0})</value>
   </data>
   <data name="discussions.message_placeholder.generalall" xml:space="preserve">
-    <value>Escreve aqui para publicar em Geral (Todas as dificuldades)</value>
+    <value>Escreva aqui para publicar no Geral (Todas as dificuldades)</value>
   </data>
   <data name="discussions.message_placeholder.review" xml:space="preserve">
-    <value>Escreve aqui para publicar uma análise</value>
+    <value>Escreva aqui para publicar uma análise</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Escreve aqui para publicar na Cronologia ({0})</value>
+    <value>Escreva aqui para publicar na Cronologia ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Desqualificar</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
-    <value>Prioridade</value>
+    <value>Hype!</value>
   </data>
   <data name="discussions.message_type.mapper_note" xml:space="preserve">
     <value>Nota</value>
@@ -188,16 +188,16 @@
     <value>Reiniciar nomeação</value>
   </data>
   <data name="discussions.message_type.praise" xml:space="preserve">
-    <value>Glorificar</value>
+    <value>Elogiar</value>
   </data>
   <data name="discussions.message_type.problem" xml:space="preserve">
     <value>Problema</value>
   </data>
   <data name="discussions.message_type.problem_warning" xml:space="preserve">
-    <value>Relatar problema</value>
+    <value>Reportar problema</value>
   </data>
   <data name="discussions.message_type.review" xml:space="preserve">
-    <value>Análise</value>
+    <value>Rever</value>
   </data>
   <data name="discussions.message_type.suggestion" xml:space="preserve">
     <value>Sugestão</value>
@@ -254,7 +254,7 @@
     <value>Marca de tempo</value>
   </data>
   <data name="discussions.new.timestamp_missing" xml:space="preserve">
-    <value>faz ctrl-c no modo de edição e cola na tua mensagem para adicionares uma marca de tempo!</value>
+    <value>faça ctrl-c no modo de edição e cole na sua mensagem para adicionar uma marca de tempo!</value>
   </data>
   <data name="discussions.new.title" xml:space="preserve">
     <value>Nova discussão</value>
@@ -279,10 +279,10 @@
     <value>Não guardado</value>
   </data>
   <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
-    <value>As publicações em "Todas as dificuldades" não podem ter carimbo da hora.</value>
+    <value>As publicações em "Todas as dificuldades" não podem ter marca de hora.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Se este {0} começa com um carimbo da hora, será mostrado na barra cronológica.</value>
+    <value>Se esta publicação começar com uma determinada marca de tempo, será exibida na Cronologia.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>inserir parágrafo</value>
@@ -297,7 +297,7 @@
     <value>inserir sugestão</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
-    <value>{0} mapeado por {1}</value>
+    <value>{0} criado por {1}</value>
   </data>
   <data name="discussions.sort.created_at" xml:space="preserve">
     <value>Data de criação</value>
@@ -330,19 +330,19 @@
     <value>Todas</value>
   </data>
   <data name="discussions.status-messages.approved" xml:space="preserve">
-    <value>Este beatmap foi aprovado a {0}!</value>
+    <value>Este mapa foi aprovado a {0}!</value>
   </data>
   <data name="discussions.status-messages.graveyard" xml:space="preserve">
-    <value>Este beatmap não tem sido atualizado desde {0} e muito provavelmente foi abandonado pelo criador...</value>
+    <value>Este mapa não tem sido atualizado desde {0} e muito provavelmente foi abandonado pelo criador...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Este beatmap foi adicionado a adorado em {0}!</value>
+    <value>Este mapa foi adicionado como adorado em {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
-    <value>Este beatmap foi classificado em {0}!</value>
+    <value>Este mapa foi classificado em {0}!</value>
   </data>
   <data name="discussions.status-messages.wip" xml:space="preserve">
-    <value>Nota: este beatmap está marcado como um trabalho em andamento pelo criador.</value>
+    <value>Nota: este mapa está marcado como um trabalho em andamento pelo criador.</value>
   </data>
   <data name="discussions.votes.none.down" xml:space="preserve">
     <value>Ainda sem votos negativos</value>
@@ -363,19 +363,19 @@
     <value>Já foi hypeado!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Tens a certeza? Isto usará um dos teus {0} hypes restantes e não pode ser desfeito.</value>
+    <value>Tem a certeza? Isto usará um dos seus {0} hypes restantes e não pode ser desfeito.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Dá hype neste beatmap para torná-lo mais visível para a nomeação e classificação!</value>
+    <value>Dê hype neste mapa para torná-lo mais visível para a nomeação e classificação!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Regista-te e dá hype neste beatmap para torná-lo mais visível para a nomeação e classificação!</value>
+    <value>Registe-se e dê hype neste mapa para torná-lo mais visível para a nomeação e classificação!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
-    <value>O próximo beatmap estará disponível em {0}.</value>
+    <value>O próximo mapa estará disponível em {0}.</value>
   </data>
   <data name="hype.remaining" xml:space="preserve">
-    <value>Tens {0} publicações restantes.</value>
+    <value>Tem {0} publicações restantes.</value>
   </data>
   <data name="hype.required_text" xml:space="preserve">
     <value>Prioridade: {0}/{1}</value>
@@ -390,19 +390,19 @@
     <value>Deixar feedback</value>
   </data>
   <data name="nominations.already_nominated" xml:space="preserve">
-    <value>Já nomeaste este beatmap.</value>
+    <value>Já nomeou este mapa.</value>
   </data>
   <data name="nominations.cannot_nominate" xml:space="preserve">
-    <value>Não podes nomear este modo de jogo de beatmap.</value>
+    <value>Não pode nomear este modo de jogo de mapa.</value>
   </data>
   <data name="nominations.delete" xml:space="preserve">
     <value>Apagar</value>
   </data>
   <data name="nominations.delete_own_confirm" xml:space="preserve">
-    <value>Tens a certeza? O beatmap será apagado e serás redirecionado de volta para o teu perfil.</value>
+    <value>Tem a certeza? O mapa será apagado e será redirecionado de volta para o seu perfil.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>Tens a certeza? O beatmap será apagado e serás redirecionado de volta para o perfil de utilizador.</value>
+    <value>Tem a certeza? O mapa será apagado e será redirecionado de volta para o perfil de utilizador.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
     <value>Qual a razão pela desqualificação?</value>
@@ -417,7 +417,7 @@
     <value>Desqualificar</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
-    <value>Erro ao desempenhar essa ação, tenta recarregar a página.</value>
+    <value>Erro ao desempenhar essa ação, tente recarregar a página.</value>
   </data>
   <data name="nominations.love" xml:space="preserve">
     <value>Adorar</value>
@@ -426,13 +426,13 @@
     <value>Escolher dificuldade para adorado</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
-    <value>Queres adorar este beatmap?</value>
+    <value>Deseja adorar este mapa?</value>
   </data>
   <data name="nominations.nominate" xml:space="preserve">
     <value>Nomear</value>
   </data>
   <data name="nominations.nominate_confirm" xml:space="preserve">
-    <value>Pretendes nomear este beatmap?</value>
+    <value>Pretende nomear este mapa?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
     <value>nomeado por {0}</value>
@@ -483,22 +483,25 @@
     <value>Desclassificado {0} por {1} com um novo problema {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Tens a certeza? Isto irá remover o beatmap de qualificar-se e reiniciará o processo de nomeação.</value>
+    <value>Tem a certeza? Isto irá remover o mapa de qualificar-se e reiniciará o processo de nomeação.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
-    <value>Tens a certeza? Publicar um novo problema irá reiniciar o processo de nomeação.</value>
+    <value>Tem a certeza? Publicar um novo problema irá reiniciar o processo de nomeação.</value>
   </data>
   <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
-    <value>Tens a certeza de que queres comunicar o problema neste beatmap? Isto irá alertar os Nomeadores do Beatmap.</value>
+    <value>Tem a certeza de que quer comunicar o problema neste mapa? Isto irá alertar os Nomeadores do mapa.</value>
   </data>
   <data name="listing.search.prompt" xml:space="preserve">
-    <value>escreve em palavras-chave...</value>
+    <value>escreva em palavras-chave...</value>
   </data>
   <data name="listing.search.login_required" xml:space="preserve">
-    <value>Inicia sessão para procurares</value>
+    <value>Inicie sessão para procurar.</value>
   </data>
   <data name="listing.search.options" xml:space="preserve">
     <value>Mais opções de pesquisa</value>
+  </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>As contagens de melhores classificações do perfil e os resultados apresentados nesta página baseiam‑se nas suas pontuações "normalizadas" (também conhecidas como "lazer") mais altas nos mapas.</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Filtrar por {0} requer uma etiqueta osu!supporter</value>
@@ -510,7 +513,7 @@
     <value>... não, nada encontrado.</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
-    <value>extra</value>
+    <value>Extra</value>
   </data>
   <data name="listing.search.filters.general" xml:space="preserve">
     <value>Geral</value>
@@ -572,20 +575,26 @@
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>etiqueta de osu!supporter</value>
   </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>explorar etiquetas de utilizador</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>escrever para pesquisar</value>
+  </data>
   <data name="general.converts" xml:space="preserve">
-    <value>Incluir beatmaps convertidos</value>
+    <value>Incluir mapas convertidos</value>
   </data>
   <data name="general.featured_artists" xml:space="preserve">
     <value>Artistas destacados</value>
   </data>
   <data name="general.follows" xml:space="preserve">
-    <value>Mapeadores subscritos</value>
+    <value>Criadores de mapas subscritos</value>
   </data>
   <data name="general.recommended" xml:space="preserve">
     <value>Dificuldade recomendada</value>
   </data>
   <data name="general.spotlights" xml:space="preserve">
-    <value>Beatmaps em destaque</value>
+    <value>Mapas em destaque</value>
   </data>
   <data name="mode.all" xml:space="preserve">
     <value>Todos</value>
@@ -666,7 +675,7 @@
     <value>Clássica</value>
   </data>
   <data name="genre.folk" xml:space="preserve">
-    <value>Música popular</value>
+    <value>Folclore</value>
   </data>
   <data name="genre.jazz" xml:space="preserve">
     <value>Jazz</value>
@@ -735,7 +744,7 @@
     <value>Possui vídeo</value>
   </data>
   <data name="extra.storyboard" xml:space="preserve">
-    <value>Possui storyboard</value>
+    <value>Possui visuais gráficos</value>
   </data>
   <data name="rank.any" xml:space="preserve">
     <value>Qualquer</value>

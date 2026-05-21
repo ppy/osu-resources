@@ -62,19 +62,22 @@
     <value>Falha ao carregar os dados.</value>
   </data>
   <data name="missing_route" xml:space="preserve">
-    <value>Hiperligação inválida ou método de pedido incorreto.</value>
+    <value>URL inválido ou método de pedido incorreto.</value>
   </data>
   <data name="no_restricted_access" xml:space="preserve">
-    <value>Tu não és capaz de desempenhar esta ação enquanto a tua conta estiver num estado restrito.</value>
+    <value>Não pode realizar esta ação enquanto a sua conta estiver em estado restrito.</value>
+  </data>
+  <data name="param_too_large" xml:space="preserve">
+    <value>O parâmetro {0} tem um máximo de {1} artigo|O parâmetro {0} tem um máximo de {1} artigos</value>
   </data>
   <data name="supporter_only" xml:space="preserve">
-    <value>Tens de ser um apoiante para utilizar esta funcionalidade.</value>
+    <value>Tem de ser um osu!supporter para usar esta funcionalidade.</value>
   </data>
   <data name="unknown" xml:space="preserve">
     <value>Ocorreu um erro desconhecido.</value>
   </data>
   <data name="codes.http-401" xml:space="preserve">
-    <value>Inicia sessão para proceder.</value>
+    <value>Por favor, inicie a sessão para proceder.</value>
   </data>
   <data name="codes.http-403" xml:space="preserve">
     <value>Acesso negado.</value>
@@ -83,27 +86,27 @@
     <value>Não encontrado.</value>
   </data>
   <data name="codes.http-429" xml:space="preserve">
-    <value>Demasiadas tentativas. Tenta novamente mais tarde.</value>
+    <value>Demasiadas tentativas. Tente novamente mais tarde.</value>
   </data>
   <data name="account.profile-order.generic" xml:space="preserve">
-    <value>Ocorreu um erro. Tenta recarregar a página.</value>
+    <value>Ocorreu um erro. Tente recarregar a página.</value>
   </data>
   <data name="checkout.generic" xml:space="preserve">
-    <value>Ocorreu um erro ao preparar o teu pagamento.</value>
+    <value>Ocorreu um erro ao preparar o seu pagamento.</value>
   </data>
   <data name="scores.invalid_id" xml:space="preserve">
-    <value>Pontuação ID inválida.</value>
+    <value>ID de pontuação inválida.</value>
   </data>
   <data name="search.default" xml:space="preserve">
-    <value>Não foi possível obter nenhuns resultados, tenta outra vez mais tarde.</value>
+    <value>Não foi possível obter resultados, tente novamente mais tarde.</value>
   </data>
   <data name="search.invalid_cursor_exception" xml:space="preserve">
-    <value>Parâmetro do cursor inválido.</value>
+    <value>Foi especificado um parâmetro de cursor inválido.</value>
   </data>
   <data name="search.operation_timeout_exception" xml:space="preserve">
-    <value>De momento, a pesquisa está mais ocupada que o habitual, tenta outra vez mais tarde.</value>
+    <value>A pesquisa está atualmente mais ocupada do que o habitual, tente novamente mais tarde.</value>
   </data>
   <data name="user_report.recently_reported" xml:space="preserve">
-    <value>Já relataste isto recentemente.</value>
+    <value>Já reportou isto recentemente.</value>
   </data>
 </root>

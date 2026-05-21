@@ -146,29 +146,28 @@
     <value>Góc thảo luận beatmap</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock" xml:space="preserve">
-    <value>Beatmap "{0}" đã bị khóa để thảo luận.</value>
+    <value>Beatmap "{0}" đã bị khóa để thảo luận</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_lock_compact" xml:space="preserve">
     <value>Cuộc thảo luận đã được khóa</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>{0} đã đăng tin nhắn mới trong cuộc thảo luận beatmap "{1}".</value>
+    <value>Bài đăng mới tại "{0}" bởi {1}: "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
     <value>Bài đăng mới trên "{0}" bởi {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact" xml:space="preserve">
-    <value>Bài đăng mới bởi {0}</value>
+    <value>Bài đăng mới bởi {0}: "{1}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_compact_empty" xml:space="preserve">
     <value>Bài đăng mới bởi {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Đánh giá mời về "{0}" bởi {1} có vấn đề: {2}, gợi ý:
-{3}, ca ngợi: {4}</value>
+    <value>Đánh giá mới cho "{0}" bởi {1}, bao gồm {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Đánh giá mới bởi {0} có vấn đề: {1}, gợi ý: {2}, ca ngợi: {3}</value>
+    <value>Đánh giá mới từ {0} với {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Cuộc thảo luận trên "{0}" đã được mở khóa</value>
@@ -286,6 +285,18 @@
   </data>
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>từ {0}</value>
+  </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Nhắc tên trong chat</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} đã nhắc đến bạn trong {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>đã nhắc đến bạn trong {0}</value>
   </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Tin nhắn mới của đội</value>
@@ -460,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Bạn nhận được tin nhắn mới từ {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} đã nhắc đến bạn trong {1} "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Có tin nhắn mới trong đội "{0}"</value>

@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Hinay lang, maglaro ka muna.</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Walang download servers na magagamit</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Itinatampok na artista</value>
   </data>
@@ -100,23 +103,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>buksan sa osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Ang mga Probationary nominators ay hindi pwedeng mag-nominate ng maramihan na rulesets.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Dapat kang maging isang full nominator upang magawa ang huling nominasyon ng ruleset.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Ang isang hybrid na beatmap ay kinailangan na ikaw ay pumili ng kahit isang playmode upang makanominate.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Wala kang pahintulot na mag-nominate para sa mode {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Ang beatmap na ito ay may hindi wastong nominasyon at hindi maaaring makwalipika sa state na ito.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Ang nominasyon na ito ay may hindi wastong rulesets.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nabuo na ang pangangailangan sa nominasyon.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nakuha na ang nomination requirement para sa non-main ruleset.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Sigurado ka bang gusto mong i-nomina ito?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Mababaliwala ang pwesto nito sa qualification queue kapag pinalitan ang mga nominators.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Inomina ang Beatmap</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>tandaan: ikaw ay maaaring mag-nominate nang isang beses lamang, kaya siguraduhin na ikaw ay nagno-nominate para sa lahat ng game mode na iyong binabalak</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Ang pangunahing ruleset ay: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Inomina para sa aling mga mode?</value>
@@ -129,6 +153,9 @@
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Tingnan ang buong laki ng cover sa larawan</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Tingnan ang admin page</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Ang beatmap na ito ay binura na.</value>
@@ -232,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Wika</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Mga Mapper Tags</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Kinakalkula pa ang mga datos...</value>
   </data>
@@ -244,6 +274,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Online na offset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Mga Beatmap Packs</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Mga punto ng pagkabigo</value>
   </data>
@@ -255,6 +288,12 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Rate ng Pagkakapasa</value>
+  </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} ng {1} laro|{0} ng {1} mga laro</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Mga User Tags</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Ang beatmap na ito ay may bidyo</value>
@@ -294,6 +333,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Kailangan mong maging osu!supporter para mabuksan ang Ranggo sa Kaibigan at Pambansang Ranggo!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Team Ranking</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Talaan ng Iskor</value>
@@ -339,6 +381,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Nilo-load ang mga iskor...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Wala pa sa iyong team ang nagka-iskor sa map na ito!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Hindi Ranked na beatmap.</value>
@@ -399,6 +444,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Bilang ng Paglaro</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Mga Paborito</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Wala pang paborito</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

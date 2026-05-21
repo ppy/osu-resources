@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>de {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Menció al xat</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} us ha mencionat a {1} «{2}»</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} «{1}»</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>mencionat al {0}</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Missatge d'equip nou</value>
   </data>
@@ -459,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Has rebut un nou missatge de {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} us ha mencionat a {1} «{2}»</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Hi ha un missatge a l'equip «{0}».</value>

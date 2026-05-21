@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="header.small" xml:space="preserve">
-    <value>Compete em mais maneiras do que só clicar em círculos.</value>
+    <value>Compita de mais maneiras do que apenas clicar em círculos.</value>
   </data>
   <data name="header.large" xml:space="preserve">
     <value>Concursos da comunidade</value>
@@ -77,7 +77,7 @@
     <value>avaliar</value>
   </data>
   <data name="judge.no_current_vote" xml:space="preserve">
-    <value>Ainda não votaste.</value>
+    <value>ainda não votou.</value>
   </data>
   <data name="judge.update" xml:space="preserve">
     <value>atualizar</value>
@@ -86,10 +86,10 @@
     <value>pontuação em falta</value>
   </data>
   <data name="judge.validation.contest_vote_judged" xml:space="preserve">
-    <value>Não podes votar em concursos apreciados.</value>
+    <value>não pode votar em concursos apreciados</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
-    <value>Já votaste nesta inscrição.</value>
+    <value>Já submetou um voto nesta participação.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
     <value>Resultados da apreciação</value>
@@ -100,17 +100,23 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Pontuação</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Pontuação padronizada</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>pontuação total</value>
   </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>pontuação padronizada total</value>
+  </data>
   <data name="voting.judge_link" xml:space="preserve">
-    <value>Tu fazes parte do júri deste concurso. Avalia aqui as participações!</value>
+    <value>É um dos jurados deste concurso. Avalie as participações aqui!</value>
   </data>
   <data name="voting.judged_notice" xml:space="preserve">
-    <value>Este concurso está a usar o sistema de apreciação. O júri está neste momento a tratar das participações.</value>
+    <value>Este concurso está a utilizar o sistema de avaliação. Os jurados estão atualmente a analisar as participações.</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
-    <value>Inicia sessão para votar.</value>
+    <value>Inicie a sessão para votar.</value>
   </data>
   <data name="voting.over" xml:space="preserve">
     <value>A votação para este concurso terminou</value>
@@ -119,7 +125,7 @@
     <value>Mostrar votados</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>Não parece que jogaste nenhuns beatmaps que se qualificam para este concurso!</value>
+    <value>Parece que não jogou nenhum mapa que se qualifique para este concurso!</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>Votar</value>
@@ -128,31 +134,43 @@
     <value>Remover voto</value>
   </data>
   <data name="voting.button.used_up" xml:space="preserve">
-    <value>Usaste todos os teus votos</value>
+    <value>Usou todos os seus votos</value>
   </data>
   <data name="voting.progress._" xml:space="preserve">
     <value>{0} / {1} votos utilizados</value>
   </data>
   <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
-    <value>Precisas de jogar todos os beatmaps nas playlists especificadas antes de votares</value>
+    <value>Tem de jogar todos os mapas das listas de reprodução especificadas antes de votar</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>inscrição</value>
   </data>
   <data name="entry.login_required" xml:space="preserve">
-    <value>Inicia sessão para entrar no concurso.</value>
+    <value>Inicie a sessão para entrar no concurso.</value>
   </data>
   <data name="entry.silenced_or_restricted" xml:space="preserve">
-    <value>Não podes entrar em concursos enquanto estiveres restrito ou silenciado.</value>
+    <value>Não pode entrar em concursos enquanto estiver restrito ou silenciado.</value>
   </data>
   <data name="entry.preparation" xml:space="preserve">
-    <value>Estamos de momento a preparar este concurso. Agradecemos a tua paciência!</value>
+    <value>Estamos atualmente a preparar este concurso. Por favor, aguarde pacientemente!</value>
   </data>
   <data name="entry.drop_here" xml:space="preserve">
-    <value>Larga a tua inscrição aqui</value>
+    <value>Largue a sua inscrição aqui</value>
+  </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>os ficheiros {0} são aceites</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Tamanho máximo: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>As dimensões devem ser {0}{1}</value>
   </data>
   <data name="entry.download" xml:space="preserve">
     <value>Transferir .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Apenas os ficheiros {0} são aceites para este concurso.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>As entradas para este concurso devem ser {0}{1}</value>
@@ -171,6 +189,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} ponto|{0} pontos</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} pontos</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Terminou em {0}</value>
@@ -192,5 +213,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Resultados</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Ver informações e participações</value>
   </data>
 </root>

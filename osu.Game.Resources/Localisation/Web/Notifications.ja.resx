@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>{0} より</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>チャットのメンション</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} が {1} の "{2}" であなたにメンションしました</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>{0} でメンション</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>新しいチームメッセージ</value>
   </data>
@@ -459,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>{0}から新しいメッセージが届きました</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} が {1} の "{2}" であなたにメンションしました</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>チーム "{0}" に新しいメッセージがあります</value>

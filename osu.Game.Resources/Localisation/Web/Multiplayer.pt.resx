@@ -58,17 +58,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="empty.active" xml:space="preserve">
+    <value>Atualmente não está em nenhum jogo de osu!(lazer) do grupo {0} em progresso!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Ainda não participou em nenhum jogo de osu!(lazer) do grupo {0} que seja concluído!</value>
+  </data>
   <data name="empty.playlists" xml:space="preserve">
-    <value>playlist</value>
+    <value>lista de reprodução</value>
+  </data>
+  <data name="empty.ranked-play" xml:space="preserve">
+    <value>partida classificada</value>
   </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>multijogador</value>
   </data>
   <data name="room.hosted_by" xml:space="preserve">
-    <value>alojado por {0}</value>
+    <value>organizado por {0}</value>
   </data>
   <data name="room.invalid_password" xml:space="preserve">
-    <value>Palavra-passe de sala inválida</value>
+    <value>Palavra-passe da sala inválida</value>
   </data>
   <data name="room.map_count" xml:space="preserve">
     <value>{0} mapa|{0} mapas</value>
@@ -79,14 +88,23 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} restante</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Ver o Histórico</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Ver o Sumário</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>A duração é muito longa.</value>
   </data>
   <data name="room.errors.name_too_long" xml:space="preserve">
     <value>O nome da sala é demasiado longo.</value>
   </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>A lista de reprodução contém itens em excesso.</value>
+  </data>
   <data name="room.status.active" xml:space="preserve">
-    <value>activo</value>
+    <value>ativo</value>
   </data>
   <data name="room.status.ended" xml:space="preserve">
     <value>terminado</value>

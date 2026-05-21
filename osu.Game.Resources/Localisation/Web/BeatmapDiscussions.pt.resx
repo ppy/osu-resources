@@ -58,26 +58,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="hidden_replies" xml:space="preserve">
+    <value>{0} resposta está oculta.|{0} respostas estão ocultas.</value>
+  </data>
   <data name="authorizations.update.null_user" xml:space="preserve">
-    <value>Tens que ter sessão iniciada para editar.</value>
+    <value>Precisa de estar autenticado para editar.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
-    <value>Não se pode editar uma publicação gerada pelo sistema.</value>
+    <value>Uma publicação gerada pelo sistema não pode ser editada.</value>
   </data>
   <data name="authorizations.update.wrong_user" xml:space="preserve">
-    <value>Tens que ser dono da publicação para editar.</value>
+    <value>Tem de ser o proprietário da publicação para a editar.</value>
   </data>
   <data name="events.empty" xml:space="preserve">
-    <value>Nada aconteceu... por enquanto.</value>
+    <value>Ainda não aconteceu nada… por agora.</value>
   </data>
   <data name="index.deleted_beatmap" xml:space="preserve">
     <value>apagado</value>
   </data>
   <data name="index.none_found" xml:space="preserve">
-    <value>Não foram encontradas discussões que correspondam a esse critério de pesquisa.</value>
+    <value>Nenhuma discussão correspondente aos critérios de pesquisa foi encontrada.</value>
   </data>
   <data name="index.title" xml:space="preserve">
-    <value>Discussões do beatmap</value>
+    <value>Discussões do mapa</value>
   </data>
   <data name="index.form._" xml:space="preserve">
     <value>Pesquisar</value>
@@ -86,7 +89,7 @@
     <value>Incluir discussões eliminadas</value>
   </data>
   <data name="index.form.mode" xml:space="preserve">
-    <value>Modo beatmap</value>
+    <value>Modo do mapa</value>
   </data>
   <data name="index.form.only_unresolved" xml:space="preserve">
     <value>Mostrar apenas as discussões não resolvidas</value>
@@ -101,7 +104,7 @@
     <value>Nome de utilizador</value>
   </data>
   <data name="index.form.beatmapset_status._" xml:space="preserve">
-    <value>Estado do beatmap</value>
+    <value>Estado do mapa</value>
   </data>
   <data name="index.form.beatmapset_status.all" xml:space="preserve">
     <value>Todos</value>
@@ -137,10 +140,10 @@
     <value>Link permanente</value>
   </data>
   <data name="nearby_posts.confirm" xml:space="preserve">
-    <value>Nenhuma das publicações abordam a minha preocupação</value>
+    <value>Nenhuma das publicações responde à minha questão</value>
   </data>
   <data name="nearby_posts.notice" xml:space="preserve">
-    <value>Há publicações à volta de {0} ({1}). Consulta-as antes de publicares.</value>
+    <value>Existem publicações por volta de {0} ({1}). Por favor, verifique‑as antes de publicar.</value>
   </data>
   <data name="nearby_posts.unsaved" xml:space="preserve">
     <value>{0} nesta revisão</value>
@@ -161,7 +164,7 @@
     <value>A procurar atualizações...</value>
   </data>
   <data name="refresh.has_updates" xml:space="preserve">
-    <value>A discussão possui atualizações. Clica para atualizá-la.</value>
+    <value>A discussão possui atualizações. Clique para atualizá‑la.</value>
   </data>
   <data name="refresh.no_updates" xml:space="preserve">
     <value>Não há atualizações.</value>
@@ -170,7 +173,7 @@
     <value>A atualizar...</value>
   </data>
   <data name="reply.open.guest" xml:space="preserve">
-    <value>Inicia sessão para responder</value>
+    <value>Inicie sessão para responder</value>
   </data>
   <data name="reply.open.user" xml:space="preserve">
     <value>Responder</value>
@@ -185,10 +188,10 @@
     <value>Ver discussão</value>
   </data>
   <data name="review.validation.block_too_large" xml:space="preserve">
-    <value>cada bloco apenas pode conter até {0} caracteres</value>
+    <value>cada bloco deve limitar‑se a {0} caracteres</value>
   </data>
   <data name="review.validation.external_references" xml:space="preserve">
-    <value>a revisão contém referências a problemas que não pertencem a esta revisão</value>
+    <value>a revisão contém menções a problemas que não estão associados a esta revisão</value>
   </data>
   <data name="review.validation.invalid_block_type" xml:space="preserve">
     <value>tipo de bloco inválido</value>
@@ -203,7 +206,7 @@
     <value>a revisão deve conter um mínimo de {0} problema|a revisão deve conter um mínimo de {0} problemas</value>
   </data>
   <data name="review.validation.missing_text" xml:space="preserve">
-    <value>o bloco tem texto em falta</value>
+    <value>o bloco não contém texto</value>
   </data>
   <data name="review.validation.too_many_blocks" xml:space="preserve">
     <value>as revisões só podem conter {0} parágrafo/problema|as revisões só podem conter até {0} parágrafos/problemas</value>
@@ -221,7 +224,7 @@
     <value>geral (todas)</value>
   </data>
   <data name="user_filter.everyone" xml:space="preserve">
-    <value>Toda a gente</value>
+    <value>Todos</value>
   </data>
   <data name="user_filter.label" xml:space="preserve">
     <value>Filtrar por utilizador</value>

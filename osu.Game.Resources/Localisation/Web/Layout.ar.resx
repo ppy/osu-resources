@@ -62,7 +62,7 @@
     <value>تشغيل الأغنية التالية تلقائياً</value>
   </data>
   <data name="defaults.page_description" xml:space="preserve">
-    <value>osu! - الأغنية قريبة *نقرة* واحدة فقط! مع Ouendan/EBA, تايكو واوضاع اللعب الأصلية, وكذلك مُعدل مستويات متكامل.</value>
+    <value>!osu - الإيقاع على بُعد نقرة واحدة فقط! مع أنماط لعب متنوعة تشمل Ouendan/EBA وTaiko والنمط الأصلي، بالإضافة إلى محرر مستويات متكامل المزايا.</value>
   </data>
   <data name="header.admin.beatmapset" xml:space="preserve">
     <value>حزمة الأغنية</value>
@@ -118,6 +118,9 @@
   <data name="header.users.playlists" xml:space="preserve">
     <value>قوائم التشغيل</value>
   </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>اللعب المصنّف</value>
+  </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>لعب جماعي</value>
   </data>
@@ -140,7 +143,7 @@
     <value>التالي (السهم اليمين)</value>
   </data>
   <data name="menu.beatmaps._" xml:space="preserve">
-    <value>خرائط الموسيقى</value>
+    <value>الخرائط</value>
   </data>
   <data name="menu.community._" xml:space="preserve">
     <value>المجتمع</value>
@@ -227,7 +230,7 @@
     <value>الشفرة المصدرية</value>
   </data>
   <data name="footer.legal.terms" xml:space="preserve">
-    <value>المفردات</value>
+    <value>الشروط</value>
   </data>
   <data name="errors.400.error" xml:space="preserve">
     <value>تعديلات الطلب خاطئة</value>
@@ -263,13 +266,13 @@
     <value>تجاوزت افصى حد</value>
   </data>
   <data name="errors.500.error" xml:space="preserve">
-    <value>اوه لا! كسر شيء! ;_;</value>
+    <value>أوه لا! تعطل شيء ما! ;_;</value>
   </data>
   <data name="errors.500.description" xml:space="preserve">
     <value>نحن معلمون تلقائيا بكل خطأ.</value>
   </data>
   <data name="errors.fatal.error" xml:space="preserve">
-    <value>اوه لا! كسر شيء (badly)! ;_;</value>
+    <value>أوه لا! تعطل شيء ما (بشكل سيئ)! ;_;</value>
   </data>
   <data name="errors.fatal.description" xml:space="preserve">
     <value>نحن معلمون تلقائيا بكل خطأ.</value>
@@ -308,13 +311,13 @@
     <value>تحميل</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>تحتاج الى حساب، سيدي. لماذا لا تملك واحد اساساََ؟</value>
+    <value>حمّل osu! لإنشاء حسابك الخاص!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
-    <value>ليس لديك حساب؟</value>
+    <value>لا تملك حسابًا؟</value>
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
-    <value>الاعدادات</value>
+    <value>الإعدادات</value>
   </data>
   <data name="popup_user.links.follows" xml:space="preserve">
     <value>قوائم المشاهدة</value>
@@ -326,16 +329,19 @@
     <value>وضع ليزر</value>
   </data>
   <data name="popup_user.links.legacy_score_only_toggle_tooltip" xml:space="preserve">
-    <value>يُظهر وضع ليزر الدرجات التي سُجّلت في ليزر وبخوارزمية تدريج جديدة</value>
+    <value>يُعرض وضع ليزر النتائج المسجّلة من (osu!(lazer باستخدام خوارزمية تسجيل جديدة</value>
   </data>
   <data name="popup_user.links.logout" xml:space="preserve">
     <value>تسجيل الخروج</value>
   </data>
   <data name="popup_user.links.profile" xml:space="preserve">
-    <value>الصفحة الشخصية</value>
+    <value>ملفي الشخصي</value>
   </data>
   <data name="popup_user.links.scoring_mode_toggle" xml:space="preserve">
     <value>نظام التسجيل القديم</value>
+  </data>
+  <data name="popup_user.links.scoring_mode_toggle_tooltip" xml:space="preserve">
+    <value>اضبط قيم النقاط لتشبه نظام التسجيل الكلاسيكي ScoreV1 غير المحدود</value>
   </data>
   <data name="popup_user.links.team" xml:space="preserve">
     <value>فريقي</value>

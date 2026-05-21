@@ -69,10 +69,16 @@
     <value>Dificuldade</value>
   </data>
   <data name="daily_challenge.top_10p" xml:space="preserve">
-    <value>Pontuação do top 10%</value>
+    <value>Pontuação do Topo 10%</value>
   </data>
   <data name="daily_challenge.top_50p" xml:space="preserve">
-    <value>Pontuação do top 50%</value>
+    <value>Pontuação do Topo 50%</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Ainda não existe um desafio diário para a data especificada!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Não existe um desafio diário para a data especificada!</value>
   </data>
   <data name="filter.title" xml:space="preserve">
     <value>Mostrar</value>
@@ -89,8 +95,44 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>Gasto</value>
   </data>
+  <data name="matchmaking.plays" xml:space="preserve">
+    <value>Partidas</value>
+  </data>
+  <data name="matchmaking.points" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="matchmaking.provisional" xml:space="preserve">
+    <value>Não foram jogadas partidas suficientes para determinar a classificação com precisão</value>
+  </data>
+  <data name="matchmaking.rating" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="matchmaking.wins" xml:space="preserve">
+    <value>Vitórias</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>Nome da Sala</value>
+  </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>Este utilizador tem menos de 30 dias de histórico de classificações recentes.</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>Os dados estão a ser calculados...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>Última atualização</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>destaques (antigo)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>em destaque</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>sala da temporada</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>temporadas</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>País</value>
@@ -104,29 +146,41 @@
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>partida classificada</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>listas de reprodução</value>
+  </data>
   <data name="type.team" xml:space="preserve">
     <value>equipa</value>
   </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>melhores partidas</value>
+  </data>
   <data name="seasons.empty" xml:space="preserve">
-    <value>Ainda não há salas nesta temporada.</value>
+    <value>Ainda não existem salas nesta temporada.</value>
   </data>
   <data name="seasons.ongoing" xml:space="preserve">
-    <value>Esta temporada ainda está em curso (serão acrescentadas mais listas de reprodução).</value>
+    <value>Esta temporada ainda está em curso (serão adicionadas mais listas de reprodução).</value>
   </data>
   <data name="seasons.room_count" xml:space="preserve">
-    <value>Soma das listas de reprodução</value>
+    <value>Número de listas de reprodução</value>
+  </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>Ver o Sumário da Temporada</value>
   </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Mostrar mais informações sobre a época.</value>
   </data>
   <data name="seasons.validation.not_enough_factors" xml:space="preserve">
-    <value>não existem elementos de pontuação suficientes para um cálculo correto</value>
+    <value>não existem fatores de pontuação suficientes para um cálculo adequado</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
-    <value>Data final</value>
+    <value>Data Final</value>
   </data>
   <data name="spotlight.map_count" xml:space="preserve">
-    <value>Nº de mapas</value>
+    <value>Número de Mapas</value>
   </data>
   <data name="spotlight.participants" xml:space="preserve">
     <value>Participantes</value>
@@ -138,7 +192,7 @@
     <value>Precisão</value>
   </data>
   <data name="stat.active_users" xml:space="preserve">
-    <value>Utilizadores ativos</value>
+    <value>Utilizadores Ativos</value>
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>País</value>
@@ -150,21 +204,21 @@
     <value>Membros</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
-    <value>Nº de partidas</value>
+    <value>Número de Partidas</value>
   </data>
   <data name="stat.performance" xml:space="preserve">
     <value>Desempenho</value>
   </data>
   <data name="stat.total_score" xml:space="preserve">
-    <value>Pontuação total</value>
+    <value>Pontuação Total</value>
   </data>
   <data name="stat.ranked_score" xml:space="preserve">
-    <value>Pontuação classificada</value>
+    <value>Pontuação Classificada</value>
   </data>
   <data name="stat.average_score" xml:space="preserve">
-    <value>Pontuação média</value>
+    <value>Pontuação Média</value>
   </data>
   <data name="stat.average_performance" xml:space="preserve">
-    <value>Desempenho médio</value>
+    <value>Desempenho Médio</value>
   </data>
 </root>

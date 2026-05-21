@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="landing.download" xml:space="preserve">
-    <value>Descarregar agora</value>
+    <value>Transferir agora</value>
   </data>
   <data name="landing.online" xml:space="preserve">
     <value>&lt;strong&gt;{0}&lt;/strong&gt; atualmente online em &lt;strong&gt;{1}&lt;/strong&gt; jogos</value>
@@ -95,7 +95,7 @@
     <value>É necessária uma palavra-chave de pesquisa</value>
   </data>
   <data name="search.placeholder" xml:space="preserve">
-    <value>escreve para procurar</value>
+    <value>escreva para procurar</value>
   </data>
   <data name="search.title" xml:space="preserve">
     <value>Procurar</value>
@@ -104,16 +104,16 @@
     <value>Ver mais resultados da pesquisa de faixas de artistas em destaque</value>
   </data>
   <data name="search.beatmapset.login_required" xml:space="preserve">
-    <value>Inicia a sessão para procurar por beatmaps</value>
+    <value>Inicie a sessão para procurar por mapas</value>
   </data>
   <data name="search.beatmapset.more" xml:space="preserve">
-    <value>Há mais {0} resultados de pesquisa de beatmap</value>
+    <value>mais {0} resultados de pesquisa de mapas</value>
   </data>
   <data name="search.beatmapset.more_simple" xml:space="preserve">
-    <value>Ver mais resultados de pesquisa de beatmap</value>
+    <value>Ver mais resultados de pesquisa de mapas</value>
   </data>
   <data name="search.beatmapset.title" xml:space="preserve">
-    <value>Beatmaps</value>
+    <value>Mapas</value>
   </data>
   <data name="search.forum_post.all" xml:space="preserve">
     <value>Todos os fóruns</value>
@@ -122,7 +122,7 @@
     <value>Pesquisar o fórum</value>
   </data>
   <data name="search.forum_post.login_required" xml:space="preserve">
-    <value>Inicia a sessão para pesquisar no fórum</value>
+    <value>Inicie a sessão para pesquisar no fórum</value>
   </data>
   <data name="search.forum_post.more_simple" xml:space="preserve">
     <value>Ver mais resultados de pesquisa de fórum</value>
@@ -152,7 +152,7 @@
     <value>faixa do artista em destaque</value>
   </data>
   <data name="search.mode.beatmapset" xml:space="preserve">
-    <value>beatmap</value>
+    <value>mapa</value>
   </data>
   <data name="search.mode.forum_post" xml:space="preserve">
     <value>fórum</value>
@@ -166,20 +166,23 @@
   <data name="search.mode.wiki_page" xml:space="preserve">
     <value>wiki</value>
   </data>
+  <data name="search.team.login_required" xml:space="preserve">
+    <value>Inicie a sessão para procurar equipas</value>
+  </data>
   <data name="search.team.more_simple" xml:space="preserve">
     <value>Ver mais resultados da pesquisa por equipa</value>
   </data>
   <data name="search.user.login_required" xml:space="preserve">
-    <value>Inicia a sessão para procurar utilizadores</value>
+    <value>Inicie a sessão para procurar utilizadores</value>
   </data>
   <data name="search.user.more" xml:space="preserve">
-    <value>Há mais {0} resultados de pesquisa de jogador</value>
+    <value>mais {0} resultados de pesquisa de jogadores</value>
   </data>
   <data name="search.user.more_simple" xml:space="preserve">
     <value>Ver mais resultados de pesquisa de jogador</value>
   </data>
   <data name="search.user.more_hidden" xml:space="preserve">
-    <value>A pesquisa de jogador está limitada a {0} jogadores. Tenta redefinir a questão de pesquisa.</value>
+    <value>A pesquisa de jogadores está limitada a {0} jogadores. Tente refinar a consulta de pesquisa.</value>
   </data>
   <data name="search.user.title" xml:space="preserve">
     <value>Jogadores</value>
@@ -194,7 +197,10 @@
     <value>Wiki</value>
   </data>
   <data name="download.action_lazer_info" xml:space="preserve">
-    <value>verifica esta página para obter mais informações</value>
+    <value>verifique esta página para obter mais informações</value>
+  </data>
+  <data name="download.download" xml:space="preserve">
+    <value>Transferir</value>
   </data>
   <data name="download.for_os" xml:space="preserve">
     <value>para {0}</value>
@@ -217,11 +223,20 @@
   <data name="download.quick_start_guide" xml:space="preserve">
     <value>guia de início rápido</value>
   </data>
+  <data name="download.stable_text" xml:space="preserve">
+    <value>se estiver à procura da mais antiga</value>
+  </data>
+  <data name="download.tagline_1" xml:space="preserve">
+    <value>vamos</value>
+  </data>
+  <data name="download.tagline_2" xml:space="preserve">
+    <value>começar!</value>
+  </data>
   <data name="download.video-guide" xml:space="preserve">
     <value>vídeo de guia</value>
   </data>
   <data name="download.help._" xml:space="preserve">
-    <value>se tiveres problemas ao iniciar o jogo ou ao criar uma conta, vê {0} ou {1}.</value>
+    <value>se tiver problemas ao iniciar o jogo ou ao criar uma conta, veja {0} ou {1}.</value>
   </data>
   <data name="download.help.help_forum_link" xml:space="preserve">
     <value>consultar o fórum de ajuda</value>
@@ -239,25 +254,25 @@
     <value>para Linux</value>
   </data>
   <data name="download.steps.register.title" xml:space="preserve">
-    <value>obtém uma conta</value>
+    <value>obtenha uma conta</value>
   </data>
   <data name="download.steps.register.description" xml:space="preserve">
-    <value>segue as indicações ao iniciares o jogo para iniciar sessão ou criar uma nova conta</value>
+    <value>siga as indicações ao iniciar o jogo para iniciar a sessão ou criar uma conta</value>
   </data>
   <data name="download.steps.download.title" xml:space="preserve">
-    <value>descarrega o jogo</value>
+    <value>transfira o jogo</value>
   </data>
   <data name="download.steps.download.description" xml:space="preserve">
-    <value>clica no botão acima para transferir o instalador e depois abre-o!</value>
+    <value>clique no botão acima para transferir o instalador e depois abra‑o!</value>
   </data>
   <data name="download.steps.beatmaps.title" xml:space="preserve">
-    <value>adquire beatmaps</value>
+    <value>adquira mapas</value>
   </data>
   <data name="download.steps.beatmaps.description._" xml:space="preserve">
-    <value>{0} a vasta biblioteca de beatmaps criados por utilizadores e começa a jogar!</value>
+    <value>{0} a vasta biblioteca de mapas criados por utilizadores e comece a jogar!</value>
   </data>
   <data name="download.steps.beatmaps.description.browse" xml:space="preserve">
-    <value>explora</value>
+    <value>explore</value>
   </data>
   <data name="user.title" xml:space="preserve">
     <value>painel de controlo</value>
@@ -266,7 +281,7 @@
     <value>Notícias</value>
   </data>
   <data name="user.news.error" xml:space="preserve">
-    <value>Erro ao carregar notícias, melhor tentares recarregar a página?...</value>
+    <value>Erro ao carregar as notícias, tente atualizar a página?...</value>
   </data>
   <data name="user.header.stats.friends" xml:space="preserve">
     <value>Amigos online</value>
@@ -277,22 +292,34 @@
   <data name="user.header.stats.online" xml:space="preserve">
     <value>Utilizadores online</value>
   </data>
+  <data name="user.beatmaps.daily_challenge" xml:space="preserve">
+    <value>Mapa do Desafio Diário</value>
+  </data>
   <data name="user.beatmaps.new" xml:space="preserve">
-    <value>Novos beatmaps classificados</value>
+    <value>Novos mapas classificados</value>
   </data>
   <data name="user.beatmaps.popular" xml:space="preserve">
-    <value>Beatmaps populares</value>
+    <value>Mapas populares</value>
   </data>
   <data name="user.beatmaps.by_user" xml:space="preserve">
     <value>por {0}</value>
   </data>
+  <data name="user.beatmaps.resets" xml:space="preserve">
+    <value>reinicia a {0}</value>
+  </data>
   <data name="user.buttons.download" xml:space="preserve">
-    <value>Transfere o osu!</value>
+    <value>Transfira o osu!</value>
   </data>
   <data name="user.buttons.support" xml:space="preserve">
-    <value>Apoia o osu!</value>
+    <value>Apoie o osu!</value>
   </data>
   <data name="user.buttons.store" xml:space="preserve">
     <value>osu!store</value>
+  </data>
+  <data name="user.livestream.title" xml:space="preserve">
+    <value>Transmissão Destacada</value>
+  </data>
+  <data name="user.show.admin.page" xml:space="preserve">
+    <value>Abrir terminal de administração</value>
   </data>
 </root>

@@ -59,16 +59,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="audio.autoplay" xml:space="preserve">
-    <value>Reproduzir a próxima faixa automaticamente</value>
+    <value>Reproduzir automaticamente a faixa seguinte</value>
   </data>
   <data name="defaults.page_description" xml:space="preserve">
-    <value>osu! - O ritmo está a um *clique* de distância! Com Ouendan/EBA, Taiko e modos de jogo originais, como também um editor de níveis totalmente funcional.</value>
+    <value>osu! — O ritmo está apenas a um *clique* de distância! Com os modos de jogo Ouendan/EBA, Taiko e original, além de um editor de níveis totalmente funcional.</value>
   </data>
   <data name="header.admin.beatmapset" xml:space="preserve">
-    <value>conjunto de beatmaps</value>
+    <value>conjunto de mapas</value>
   </data>
   <data name="header.admin.beatmapset_covers" xml:space="preserve">
-    <value>capas de conjunto de beatmaps</value>
+    <value>capas de conjunto de mapas</value>
   </data>
   <data name="header.admin.contest" xml:space="preserve">
     <value>concurso</value>
@@ -77,7 +77,7 @@
     <value>concursos</value>
   </data>
   <data name="header.admin.root" xml:space="preserve">
-    <value>consola</value>
+    <value>terminal</value>
   </data>
   <data name="header.artists.index" xml:space="preserve">
     <value>listagem</value>
@@ -88,6 +88,9 @@
   <data name="header.beatmapsets.discussions" xml:space="preserve">
     <value>discussão</value>
   </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>histórico de versões</value>
+  </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>listagem</value>
   </data>
@@ -95,13 +98,13 @@
     <value>índice</value>
   </data>
   <data name="header.help.sitemap" xml:space="preserve">
-    <value>Mapa do site</value>
+    <value>Mapa da página</value>
   </data>
   <data name="header.store.cart" xml:space="preserve">
     <value>carrinho</value>
   </data>
   <data name="header.store.orders" xml:space="preserve">
-    <value>historial de pedidos</value>
+    <value>histórico de encomendas</value>
   </data>
   <data name="header.store.products" xml:space="preserve">
     <value>produtos</value>
@@ -110,10 +113,13 @@
     <value>listagem</value>
   </data>
   <data name="header.users.modding" xml:space="preserve">
-    <value>modding</value>
+    <value>modificação</value>
   </data>
   <data name="header.users.playlists" xml:space="preserve">
-    <value>playlists</value>
+    <value>listas de reprodução</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>partida classificada</value>
   </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>multijogador</value>
@@ -125,7 +131,7 @@
     <value>Fechar (Esc)</value>
   </data>
   <data name="gallery.fullscreen" xml:space="preserve">
-    <value>Ativar/Desativar ecrã inteiro</value>
+    <value>Alternar o modo de ecrã completo</value>
   </data>
   <data name="gallery.zoom" xml:space="preserve">
     <value>Aproximar/Afastar</value>
@@ -137,7 +143,7 @@
     <value>Seguinte (seta direita)</value>
   </data>
   <data name="menu.beatmaps._" xml:space="preserve">
-    <value>beatmaps</value>
+    <value>mapas</value>
   </data>
   <data name="menu.community._" xml:space="preserve">
     <value>comunidade</value>
@@ -158,7 +164,7 @@
     <value>regras</value>
   </data>
   <data name="menu.help.getsupport" xml:space="preserve">
-    <value>a sério, preciso mesmo de ajuda!</value>
+    <value>não, a sério, preciso de ajuda!</value>
   </data>
   <data name="menu.home._" xml:space="preserve">
     <value>início</value>
@@ -182,10 +188,10 @@
     <value>Registo de alterações</value>
   </data>
   <data name="footer.general.beatmaps" xml:space="preserve">
-    <value>Listagem de beatmaps</value>
+    <value>Listagem de mapas</value>
   </data>
   <data name="footer.general.download" xml:space="preserve">
-    <value>Descarrega o osu!</value>
+    <value>Transfira o osu!</value>
   </data>
   <data name="footer.help._" xml:space="preserve">
     <value>Ajuda e Comunidade</value>
@@ -214,11 +220,14 @@
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Privacidade</value>
   </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Regras</value>
+  </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Estado do servidor</value>
   </data>
   <data name="footer.legal.source_code" xml:space="preserve">
-    <value>Código-fonte</value>
+    <value>Código fonte</value>
   </data>
   <data name="footer.legal.terms" xml:space="preserve">
     <value>Termos de serviço</value>
@@ -230,82 +239,82 @@
     <value>Página em falta</value>
   </data>
   <data name="errors.404.description" xml:space="preserve">
-    <value>Lamento, mas a página que pediste não está aqui!</value>
+    <value>Lamentamos, mas a página que procurou não se encontra disponível!</value>
   </data>
   <data name="errors.403.error" xml:space="preserve">
-    <value>Tu não devias estar aqui.</value>
+    <value>Não devia estar aqui.</value>
   </data>
   <data name="errors.403.description" xml:space="preserve">
-    <value>Contudo, podias tentar voltar para trás.</value>
+    <value>Ainda assim, podia tentar retroceder.</value>
   </data>
   <data name="errors.401.error" xml:space="preserve">
-    <value>Tu não devias estar aqui.</value>
+    <value>Não devia estar aqui.</value>
   </data>
   <data name="errors.401.description" xml:space="preserve">
-    <value>Contudo, podias tentar voltar para trás ou talvez iniciares sessão.</value>
+    <value>Ainda assim, podia tentar retroceder. Ou talvez iniciar a sessão.</value>
   </data>
   <data name="errors.405.error" xml:space="preserve">
     <value>Página em falta</value>
   </data>
   <data name="errors.405.description" xml:space="preserve">
-    <value>Lamento, mas a página que pediste não está aqui!</value>
+    <value>Lamentamos, mas a página que procurou não se encontra disponível!</value>
   </data>
   <data name="errors.422.error" xml:space="preserve">
     <value>Parâmetro de pedido inválido</value>
   </data>
   <data name="errors.429.error" xml:space="preserve">
-    <value>Taxa limite excedida</value>
+    <value>Limite de taxa excedido</value>
   </data>
   <data name="errors.500.error" xml:space="preserve">
-    <value>Oh não! Algo se quebrou! ;_;</value>
+    <value>Ó não! Algo avariou! ;_;</value>
   </data>
   <data name="errors.500.description" xml:space="preserve">
-    <value>Somos automaticamente notificados de todos os erros.</value>
+    <value>Somos automaticamente notificados de cada erro.</value>
   </data>
   <data name="errors.fatal.error" xml:space="preserve">
-    <value>Oh não! Algo se quebrou (seriamente)! ;_;</value>
+    <value>Ó não! Algo avariou (mesmo a sério)! ;_;</value>
   </data>
   <data name="errors.fatal.description" xml:space="preserve">
-    <value>Somos automaticamente notificados de todos os erros.</value>
+    <value>Somos automaticamente notificados de cada erro.</value>
   </data>
   <data name="errors.503.error" xml:space="preserve">
-    <value>Offline para manutenção!</value>
+    <value>Em manutenção!</value>
   </data>
   <data name="errors.503.description" xml:space="preserve">
-    <value>A manutenção geralmente demora mais ou menos desde 5 segundos até 10 minutos. Se estivermos offline por mais tempo, vê {0} para mais informações.</value>
+    <value>A manutenção costuma demorar entre 5 segundos e 10 minutos. Se estivermos indisponíveis por mais tempo, consulte {0} para mais informações.</value>
   </data>
   <data name="errors.reference" xml:space="preserve">
-    <value>Só por acaso, aqui está um código que tu podes dar para ajudar!</value>
+    <value>Só por precaução, aqui está um código que pode fornecer ao suporte!</value>
   </data>
   <data name="popup_login.button" xml:space="preserve">
-    <value>iniciar sessão / registar</value>
+    <value>iniciar a sessão / registar</value>
   </data>
   <data name="popup_login.login.forgot" xml:space="preserve">
-    <value>Esqueci-me dos meus detalhes</value>
+    <value>Esqueci‑me dos meus dados</value>
   </data>
   <data name="popup_login.login.password" xml:space="preserve">
     <value>palavra-passe</value>
   </data>
   <data name="popup_login.login.title" xml:space="preserve">
-    <value>Inicia sessão para procederes</value>
+    <value>Inicie a sessão para proceder</value>
   </data>
   <data name="popup_login.login.username" xml:space="preserve">
     <value>nome de utilizador</value>
   </data>
   <data name="popup_login.login.error.email" xml:space="preserve">
-    <value>Nome de utilizador ou endereço de email não existente</value>
+    <value>O nome de utilizador ou o endereço de e-mail não existe</value>
   </data>
   <data name="popup_login.login.error.password" xml:space="preserve">
-    <value>Palavra-passe incorreta</value>
+    <value>Palavra‑passe incorreta</value>
   </data>
   <data name="popup_login.register.download" xml:space="preserve">
-    <value>Descarregar</value>
+    <value>Transferir</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>Transfere o osu! para criares a tua própria conta!</value>
+    <value>Transfira o osu! para criar a sua própria conta!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
-    <value>Não tens uma conta?</value>
+    <value>Não tem uma conta?</value>
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Definições</value>
@@ -320,10 +329,10 @@
     <value>Modo lazer</value>
   </data>
   <data name="popup_user.links.legacy_score_only_toggle_tooltip" xml:space="preserve">
-    <value>O modo Lazer mostra as pontuações estabelecidas a partir do lazer com um novo algoritmo de pontuações.</value>
+    <value>O modo lazer mostra pontuações definidas a partir do lazer com um novo algoritmo de pontuação</value>
   </data>
   <data name="popup_user.links.logout" xml:space="preserve">
-    <value>Terminar sessão</value>
+    <value>Terminar a sessão</value>
   </data>
   <data name="popup_user.links.profile" xml:space="preserve">
     <value>O meu perfil</value>
@@ -332,15 +341,15 @@
     <value>Pontuação clássica</value>
   </data>
   <data name="popup_user.links.scoring_mode_toggle_tooltip" xml:space="preserve">
-    <value>Definir valores de pontuação para sentir-se mais como uma pontuação ilimitada clássica</value>
+    <value>Ajuste os valores da pontuação para se aproximarem mais da pontuação clássica sem limite</value>
   </data>
   <data name="popup_user.links.team" xml:space="preserve">
     <value>A minha equipa</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
-    <value>Escreve para pesquisar!</value>
+    <value>Escreva para pesquisar!</value>
   </data>
   <data name="popup_search.retry" xml:space="preserve">
-    <value>Pesquisa falhada. Clica para tentar outra vez.</value>
+    <value>A pesquisa falhou. Clique para tentar novamente.</value>
   </data>
 </root>

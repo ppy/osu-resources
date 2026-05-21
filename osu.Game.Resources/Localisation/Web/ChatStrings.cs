@@ -125,6 +125,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NotFoundTitle => new TranslatableString(getKey(@"not_found.title"), @"channel not found");
 
         /// <summary>
+        /// "Join the channel to view its messages."
+        /// </summary>
+        public static LocalisableString NotJoinedMessage => new TranslatableString(getKey(@"not_joined.message"), @"Join the channel to view its messages.");
+
+        /// <summary>
+        /// "Join Channel"
+        /// </summary>
+        public static LocalisableString NotJoinedJoin => new TranslatableString(getKey(@"not_joined.join"), @"Join Channel");
+
+        /// <summary>
         /// "Create"
         /// </summary>
         public static LocalisableString InputCreate => new TranslatableString(getKey(@"input.create"), @"Create");

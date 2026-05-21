@@ -152,7 +152,7 @@
     <value>Diskussion er låst</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new" xml:space="preserve">
-    <value>{0} har indsendt en ny besked i "{1}" beatmap diskussion.</value>
+    <value>Nyt opslag på "{0}" af {1}: "{2}"</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_post_new_empty" xml:space="preserve">
     <value>Nyt opslag på "{0}" af {1}</value>
@@ -164,10 +164,10 @@
     <value>Nyt opslag af {0}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new" xml:space="preserve">
-    <value>Ny anmeldelse på "{0}" af {1} indeholder problemer: {2}, forslag: {3}, rose: {4}</value>
+    <value>Ny anmeldelse på "{0}" af {1} som indholder {2}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_review_new_compact" xml:space="preserve">
-    <value>Ny anmeldelse af {0} indeholder problemer: {1}, forslag: {2}, rose: {3}</value>
+    <value>Ny anmeldelse af {0} som indholder {1}</value>
   </data>
   <data name="item.beatmapset.beatmapset_discussion.beatmapset_discussion_unlock" xml:space="preserve">
     <value>Diskussion på "{0}" er blevet åbnet</value>
@@ -203,7 +203,7 @@
     <value>Beatmap status ændret</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>Beatmap "{0}" er blevet diskvalificeret af {1}.</value>
+    <value>"{0}" er blevet diskvalificeret</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
     <value>Beatmap blev diskvalificeret</value>
@@ -285,6 +285,18 @@
   </data>
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>fra {0}</value>
+  </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Nævnt i chat</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} nævnte dig i {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>nævnt i {0}</value>
   </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Ny holdbesked</value>
@@ -459,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Du har modtaget en ny besked fra {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} nævnte dig i {1} "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Der er en ny besked i hold "{0}"</value>

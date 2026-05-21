@@ -205,16 +205,16 @@
     <value>谱面状态更改</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>谱面 "{0}" 已下架 (DQ)。</value>
+    <value>谱面 "{0}" 已下架（DQ）。</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_disqualify_compact" xml:space="preserve">
-    <value>谱面已下架 (DQ)</value>
+    <value>谱面已下架（DQ）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>谱面 "{0}" 已推荐进入社区喜爱 (Loved)</value>
+    <value>谱面 "{0}" 已推荐进入社区喜爱（Loved）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_love_compact" xml:space="preserve">
-    <value>谱面已推荐进入社区喜爱 (Loved)</value>
+    <value>谱面已推荐进入社区喜爱（Loved）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>谱面 "{0}" 已提名。</value>
@@ -229,16 +229,16 @@
     <value>谱面已进入上架队列</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>谱面 "{0}" 已上架 (Ranked)。</value>
+    <value>谱面 "{0}" 已上架（Ranked）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_rank_compact" xml:space="preserve">
-    <value>谱面已上架 (Ranked)</value>
+    <value>谱面已上架（Ranked）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>谱面 "{0}" 已移出社区喜爱 (Loved)</value>
+    <value>谱面 "{0}" 已移出社区喜爱（Loved）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_remove_from_loved_compact" xml:space="preserve">
-    <value>谱面已移出社区喜爱 (Loved)</value>
+    <value>谱面已移出社区喜爱（Loved）</value>
   </data>
   <data name="item.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>谱面 "{0}" 的提名已重置</value>
@@ -287,6 +287,18 @@
   </data>
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>来自 {0}</value>
+  </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>聊天提及</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} 在 {1} 中提到了你 "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>在 {0} 中提及</value>
   </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>新的战队信息</value>
@@ -434,10 +446,10 @@
     <value>有人在谱面 "{0}" 下反馈了一个新问题</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_disqualify" xml:space="preserve">
-    <value>谱面 "{0}" 已下架 (DQ)</value>
+    <value>谱面 "{0}" 已下架（DQ）</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_love" xml:space="preserve">
-    <value>谱面 "{0}" 已推荐进入社区喜爱 (Loved)</value>
+    <value>谱面 "{0}" 已推荐进入社区喜爱（Loved）</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_nominate" xml:space="preserve">
     <value>谱面 "{0}" 已被提名</value>
@@ -446,10 +458,10 @@
     <value>谱面 "{0}" 已经得到足够数量的提名，并进入上架队列</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_rank" xml:space="preserve">
-    <value>谱面 "{0}" 已上架 (Ranked)</value>
+    <value>谱面 "{0}" 已上架（Ranked）</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_remove_from_loved" xml:space="preserve">
-    <value>谱面 "{0}" 已移出社区喜爱 (Loved)</value>
+    <value>谱面 "{0}" 已移出社区喜爱（Loved）</value>
   </data>
   <data name="mail.beatmapset.beatmapset_state.beatmapset_reset_nominations" xml:space="preserve">
     <value>谱面 "{0}" 的提名已被重置</value>
@@ -462,6 +474,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>您收到了 {0} 的新消息</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} 在 {1} 中提到了你 "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>战队 “{0}” 中有新消息</value>

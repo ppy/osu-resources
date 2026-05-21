@@ -82,6 +82,48 @@
   <data name="match.winner_by" xml:space="preserve">
     <value>{0} فاز بفارق {1}</value>
   </data>
+  <data name="match.events.game_aborted" xml:space="preserve">
+    <value>تم إلغاء اللعبة</value>
+  </data>
+  <data name="match.events.game_aborted_no_user" xml:space="preserve">
+    <value>تم إلغاء اللعبة</value>
+  </data>
+  <data name="match.events.game_completed" xml:space="preserve">
+    <value>انتهت اللعبة</value>
+  </data>
+  <data name="match.events.game_completed_no_user" xml:space="preserve">
+    <value>انتهت اللعبة</value>
+  </data>
+  <data name="match.events.host_changed" xml:space="preserve">
+    <value>أصبح {0} المضيف</value>
+  </data>
+  <data name="match.events.host_changed_no_user" xml:space="preserve">
+    <value>تم تغيير المضيف</value>
+  </data>
+  <data name="match.events.player_joined" xml:space="preserve">
+    <value>{0} انضم للغرفة</value>
+  </data>
+  <data name="match.events.player_joined_no_user" xml:space="preserve">
+    <value>انضم لاعب للغرفة</value>
+  </data>
+  <data name="match.events.player_kicked" xml:space="preserve">
+    <value>{0} تم طرده من الغرفة</value>
+  </data>
+  <data name="match.events.player_kicked_no_user" xml:space="preserve">
+    <value>تم طرد لاعب من الغرفة</value>
+  </data>
+  <data name="match.events.player_left" xml:space="preserve">
+    <value>{0} غادر الغرفة</value>
+  </data>
+  <data name="match.events.room_created_no_user" xml:space="preserve">
+    <value>تم إنشاء الغرفة</value>
+  </data>
+  <data name="match.events.room_disbanded" xml:space="preserve">
+    <value>تم إنهاء الغرفة</value>
+  </data>
+  <data name="match.events.room_disbanded_no_user" xml:space="preserve">
+    <value>تم إنهاء الغرفة</value>
+  </data>
   <data name="match.score.stats.accuracy" xml:space="preserve">
     <value>الدقة</value>
   </data>
@@ -90,6 +132,9 @@
   </data>
   <data name="match.score.stats.score" xml:space="preserve">
     <value>المجموع</value>
+  </data>
+  <data name="match.team_types.head_to_head" xml:space="preserve">
+    <value>مواجهة مباشرة</value>
   </data>
   <data name="match.teams.blue" xml:space="preserve">
     <value>الفريق الازرق</value>
@@ -107,6 +152,6 @@
     <value>اعلى كومبو</value>
   </data>
   <data name="game.scoring-type.scorev2" xml:space="preserve">
-    <value>المجموع نسخة 2</value>
+    <value>نظام النقاط V2</value>
   </data>
 </root>

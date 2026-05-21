@@ -131,7 +131,7 @@
     <value>Góc Thảo Luận</value>
   </data>
   <data name="discussions.unresolved_count" xml:space="preserve">
-    <value>{0} vấn đề chưa được giải quyết</value>
+    <value>{0} vấn đề chưa được giải quyết|{0} vấn đề chưa được giải quyết</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Thu gọn tất cả</value>
@@ -161,7 +161,7 @@
     <value>Bài đăng này sẽ vào phần thảo luận chung của beatmap, dùng mốc thởi gian để bắt đầu bài đăng (ví dụ 00:12:345) để mod beatmap này.</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Để mod nhiều mốc thời gian , hãy đăng nhiều lần (một bài đăng trên một mốc thời gian).</value>
+    <value>Để mod nhiều mốc thời gian, hãy đăng nhiều lần (một bài đăng trên một mốc thời gian).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>Nhập vào đây để đăng vào Chung ({0})</value>
@@ -281,7 +281,7 @@
     <value>Các bài đăng trên "Mọi độ khó" không thể gắn mốc thời gian.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Nếu điều {0} này bắt đầu với một dấu thời gian, nó sẽ được hiển thị trong Dòng thời gian.</value>
+    <value>Nếu bài viết này bắt đầu với một dấu thời gian, nó sẽ được hiển thị trong Dòng thời gian.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>chèn đoạn văn</value>
@@ -296,7 +296,7 @@
     <value>chèn gợi ý</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
-    <value>{0} được map bởi {1}</value>
+    <value>{0} được tạo bởi {1}</value>
   </data>
   <data name="discussions.sort.created_at" xml:space="preserve">
     <value>Thời gian tạo</value>
@@ -434,7 +434,7 @@
     <value>Đề cử (nominate) beatmap này?</value>
   </data>
   <data name="nominations.nominated_by" xml:space="preserve">
-    <value>Được {0} đề cử</value>
+    <value>được {0} đề cử</value>
   </data>
   <data name="nominations.not_enough_hype" xml:space="preserve">
     <value>Không đủ hype.</value>
@@ -512,7 +512,7 @@
     <value>... không, chả có gì cả.</value>
   </data>
   <data name="listing.search.filters.extra" xml:space="preserve">
-    <value>thêm</value>
+    <value>Thêm</value>
   </data>
   <data name="listing.search.filters.general" xml:space="preserve">
     <value>Chung</value>
@@ -573,6 +573,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter tag</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>duyệt các thẻ của người dùng</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>gõ để tìm kiếm</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Bao gồm beatmap được chuyển đổi</value>

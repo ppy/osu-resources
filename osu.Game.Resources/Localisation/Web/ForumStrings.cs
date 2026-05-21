@@ -785,6 +785,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TopicsShowTotalPosts => new TranslatableString(getKey(@"topics.show.total_posts"), @"Total Posts");
 
         /// <summary>
+        /// "Total Subscribers"
+        /// </summary>
+        public static LocalisableString TopicsShowTotalWatches => new TranslatableString(getKey(@"topics.show.total_watches"), @"Total Subscribers");
+
+        /// <summary>
         /// "Current Priority: +{0}"
         /// </summary>
         public static LocalisableString TopicsShowFeatureVoteCurrent(LocalisableString count) => new TranslatableString(getKey(@"topics.show.feature_vote.current"), @"Current Priority: +{0}", count);

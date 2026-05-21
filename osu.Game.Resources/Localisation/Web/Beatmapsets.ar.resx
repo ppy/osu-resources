@@ -113,22 +113,25 @@
     <value>تحتاج الخرائط الهجينة إلى تحديد وضع تشغيل واحد على الأقل لِتَرشيحِها.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
-    <value>ليس لديك الصلاحيّات الكافية للترشيح للوضوع: {0}</value>
+    <value>ليس لديك إذن للترشيح في الوضع: {0}</value>
   </data>
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
-    <value>لخريطة الإيقاع هذه ترشيحات لاغية تمنع تأهيلها حالياً.</value>
+    <value>تحتوي خريطة الإيقاع هذه على ترشيحات غير صالحة، ولا يمكن تأهيلها في هذه الحالة.</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
     <value>يشمل هذا الترشيح أنماط لاغية.</value>
   </data>
   <data name="nominate.too_many" xml:space="preserve">
-    <value>تم بالفعل استيفاء شرط الترشيح.</value>
+    <value>تم استيفاء متطلبات الترشيح بالفعل.</value>
   </data>
   <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
-    <value>تم استيفاء متطلّب ترشيح النمط غير الأساسي بالفعل.</value>
+    <value>تم استيفاء متطلبات الترشيح الخاصة بنمط اللعب غير الأساسي بالفعل.</value>
   </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>هل أنت متأكد من أنك تريد ترشيح هذه الخريطة؟</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>تأهيل هذه الخريطة بواسطة مرشحين مختلفين سيؤدي إلى إعادة تعيين موقعها في قائمة الانتظار للتأهيل.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>ترشيح خريطة</value>
@@ -151,6 +154,9 @@
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>عرض صورة الغلاف بحجمها الكامل</value>
   </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>عرض صفحة الإدارة</value>
+  </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>تم حذف هذه الخريطة.</value>
   </data>
@@ -167,13 +173,13 @@
     <value>قم بتسجيل الدخول لتفضيل هذه الخريطة</value>
   </data>
   <data name="show.details.logged-out" xml:space="preserve">
-    <value>تحتاج إلى تسجيل الدخول قبل تنزيل أي خريطة!</value>
+    <value>يجب عليك تسجيل الدخول قبل تنزيل أي خريطة!</value>
   </data>
   <data name="show.details.mapped_by" xml:space="preserve">
     <value>نشأت بواسطة {0}</value>
   </data>
   <data name="show.details.mapped_by_guest" xml:space="preserve">
-    <value>صعوبة إضافية بواسطة {0}</value>
+    <value>صعوبة الضيف بواسطة {0}</value>
   </data>
   <data name="show.details.unfavourite" xml:space="preserve">
     <value>إلغاء تفضيل هذه الخريطة</value>
@@ -218,7 +224,7 @@
     <value>لديك عدد كبير جداََ من الخرائط المحبوبة! رجائاََ قم بألغاء بعضها قبل المحاولة مجدداََ.</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>اَشِد هذه الخريطة ان احببت لعبها لمساعدتها لاِحتلال حالة &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
+    <value>إذا أعجبتك خريطة الإيقاع هذه أثناء اللعب، قم بدعمها (Hype) للمساعدة في وصولها إلى حالة &lt;strong&gt;Ranked&lt;/strong&gt;.</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>هذه الخريطة حاليا {0}.</value>
@@ -253,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>اللغة</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>وسوم صانع الخريطة</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>لا تزال البيانات تُحسب...</value>
   </data>
@@ -279,6 +288,9 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>معدل النجاح</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>وسوم المستخدم</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>تحتوي هذه الخريطة على فيديو</value>
@@ -318,6 +330,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>تحتاج ان تكون osu!supporter للوصول الى ترتيب الدولة والأصدقاء!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>ترتيب الفريق</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>لوح النتائج</value>
@@ -364,8 +379,11 @@
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>جارِ تحميل النتائج...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>لم يسجل أي أحد من فريقك نتيجة على هذه الخريطة بعد!</value>
+  </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>خريطة ليست مصنفة.</value>
+    <value>خريطة ليست مصنّفة.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>في المقدمة</value>
@@ -377,7 +395,7 @@
     <value>انقر {0} لرؤية جميع الميزات الرائعة التي ستحصل عليها!</value>
   </data>
   <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
-    <value>هتا</value>
+    <value>هنا</value>
   </data>
   <data name="show.stats.cs" xml:space="preserve">
     <value>حجم الدائرة</value>
@@ -426,6 +444,9 @@
   </data>
   <data name="show.stats.favourites" xml:space="preserve">
     <value>المفضلات</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>لا توجد مفضلات بعد</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

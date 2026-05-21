@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>выйсці</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Калі ласка, увядзіце код з вашага аўтэнтыфікацйнага дадатку.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Можаце таксама {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>выйсці</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Калі не маеце доступу да дадатку, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>можаце пацвердзіць праз эл. пошту</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Тэрмін коду пацверджання скончыўся, новы код быў адпраўлены на эл. пошту.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Адпраўлены эл. ліст з іншым кодам.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Гэты код пацверджання быў ужо выкарыстаны. Пачакайце, калі ласка, і выкарыстоўвайце новы.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Аўтэнтыфікацйны токэн выдалены, пераключаю на пацверджанне эл. поштай. Верыфікацыйны эл. ліст быў адпраўлены.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Узнікла невядомая памылка, новы код пацверджання быў адпраўлены на эл. пошту.</value>

@@ -61,11 +61,23 @@
   <data name="applications.accept.ok" xml:space="preserve">
     <value>تم إضافة مستخدم إلى الفريق.</value>
   </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>تم إلغاء طلب الانضمام.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>تم رفض طلب الانضمام.</value>
+  </data>
   <data name="applications.store.ok" xml:space="preserve">
     <value>تم إرسال طلب الانضمام إلى الفريق.</value>
   </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} عضو|{0} أعضاء</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
     <value>إنشاء فريق</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>الاسم الذي تختاره سيكون دائمًا في الوقت الحالي، لذا احرص على اختياره بعناية.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>الحد الأقصى 4 أحرف.</value>
@@ -73,11 +85,23 @@
   <data name="create.form.title" xml:space="preserve">
     <value>لنقم بإنشاء فريق جديد</value>
   </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>العب مع أصدقائك، سواء الحاليين أو الجدد. أنت لست ضمن فريق حاليًا. انضم إلى فريق موجود بزيارة صفحته أو أنشئ فريقك الخاص من هذه الصفحة.</value>
+  </data>
+  <data name="create.intro.title" xml:space="preserve">
+    <value>فريق!</value>
+  </data>
+  <data name="destroy.ok" xml:space="preserve">
+    <value>تم حذف الفريق.</value>
+  </data>
   <data name="edit.ok" xml:space="preserve">
     <value>تم حفظ الإعدادات بنجاح.</value>
   </data>
   <data name="edit.title" xml:space="preserve">
     <value>إعدادات الفريق</value>
+  </data>
+  <data name="edit.description.label" xml:space="preserve">
+    <value>الوصف</value>
   </data>
   <data name="edit.description.title" xml:space="preserve">
     <value>وصف الفريق</value>
@@ -88,26 +112,104 @@
   <data name="edit.flag.title" xml:space="preserve">
     <value>تعيين علم الفريق</value>
   </data>
+  <data name="edit.header.label" xml:space="preserve">
+    <value>صورة الغلاف</value>
+  </data>
+  <data name="edit.header.title" xml:space="preserve">
+    <value>تعيين صورة الغلاف</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>ما إذا كان سيُسمح للأشخاص بالتقدم للانضمام إلى الفريق</value>
+  </data>
+  <data name="edit.settings.flag_help" xml:space="preserve">
+    <value>الحد الأقصى للحجم: {0}×{1}</value>
+  </data>
+  <data name="edit.settings.header_help" xml:space="preserve">
+    <value>الحد الأقصى للحجم: {0}×{1}</value>
+  </data>
   <data name="edit.settings.title" xml:space="preserve">
     <value>إعدادات الفريق</value>
   </data>
+  <data name="edit.settings.application_state.state_0" xml:space="preserve">
+    <value>مغلق</value>
+  </data>
+  <data name="edit.settings.application_state.state_1" xml:space="preserve">
+    <value>مفتوح</value>
+  </data>
+  <data name="header_links.edit" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
   <data name="header_links.leaderboard" xml:space="preserve">
-    <value>الترتيب</value>
+    <value>لوحة الصدارة</value>
   </data>
   <data name="header_links.show" xml:space="preserve">
     <value>معلومات</value>
   </data>
+  <data name="header_links.members.index" xml:space="preserve">
+    <value>إدارة الأعضاء</value>
+  </data>
   <data name="leaderboard.global_rank" xml:space="preserve">
-    <value>الترتيب العالمي</value>
+    <value>التصنيف العالمي</value>
   </data>
   <data name="members.destroy.success" xml:space="preserve">
     <value>تمت إزالة عضو من الفريق</value>
   </data>
+  <data name="members.index.title" xml:space="preserve">
+    <value>إدارة الأعضاء</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>هل تريد إضافة المستخدم {0} إلى الفريق؟</value>
+  </data>
+  <data name="members.index.applications.created_at" xml:space="preserve">
+    <value>تم الطلب في</value>
+  </data>
+  <data name="members.index.applications.empty" xml:space="preserve">
+    <value>لا توجد طلبات انضمام في الوقت الحالي.</value>
+  </data>
+  <data name="members.index.applications.empty_slots" xml:space="preserve">
+    <value>الفتحات المتاحة</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} تجاوز المستخدم|{0} تجاوز المستخدمين</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>هل تريد رفض طلب الانضمام من المستخدم {0}؟</value>
+  </data>
+  <data name="members.index.applications.title" xml:space="preserve">
+    <value>طلبات الانضمام</value>
+  </data>
+  <data name="members.index.table.joined_at" xml:space="preserve">
+    <value>تاريخ الانضمام</value>
+  </data>
+  <data name="members.index.table.remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>هل تريد إزالة المستخدم {0} من الفريق؟</value>
+  </data>
   <data name="members.index.table.set_leader" xml:space="preserve">
     <value>نقل قيادة الفريق</value>
   </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>هل تريد نقل قيادة الفريق إلى المستخدم {0}؟</value>
+  </data>
+  <data name="members.index.table.status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="members.index.table.title" xml:space="preserve">
+    <value>الأعضاء الحاليون</value>
+  </data>
+  <data name="members.index.status.status_0" xml:space="preserve">
+    <value>غير نشط</value>
+  </data>
+  <data name="members.index.status.status_1" xml:space="preserve">
+    <value>نشط</value>
+  </data>
   <data name="members.set_leader.success" xml:space="preserve">
     <value>المستخدم {0} هو الآن قائد الفريق.</value>
+  </data>
+  <data name="part.ok" xml:space="preserve">
+    <value>غادر الفريق ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
     <value>محادثة الفريق</value>
@@ -115,8 +217,17 @@
   <data name="show.bar.destroy" xml:space="preserve">
     <value>تفكيك الفريق</value>
   </data>
+  <data name="show.bar.join" xml:space="preserve">
+    <value>أطلب الانضمام</value>
+  </data>
+  <data name="show.bar.join_cancel" xml:space="preserve">
+    <value>إلغاء طلب الانضمام</value>
+  </data>
   <data name="show.bar.part" xml:space="preserve">
     <value>مغادرة الفريق</value>
+  </data>
+  <data name="show.info.created" xml:space="preserve">
+    <value>تأسَّس</value>
   </data>
   <data name="show.members.members" xml:space="preserve">
     <value>أعضاء الفريق</value>
@@ -124,11 +235,29 @@
   <data name="show.members.owner" xml:space="preserve">
     <value>قائد الفريق</value>
   </data>
+  <data name="show.sections.about" xml:space="preserve">
+    <value>نبذة عنا!</value>
+  </data>
   <data name="show.sections.info" xml:space="preserve">
     <value>معلومات</value>
   </data>
+  <data name="show.sections.members" xml:space="preserve">
+    <value>الأعضاء</value>
+  </data>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} فتحة متاحة|{0} فتحات متاحة</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>المراكز الأولى</value>
+  </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>قائد الفريق</value>
+  </data>
+  <data name="show.statistics.rank" xml:space="preserve">
+    <value>الترتيب</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>خرائط الإيقاع المصنّفة</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>تم إنشاء الفريق.</value>
