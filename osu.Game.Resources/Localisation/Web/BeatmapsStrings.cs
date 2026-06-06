@@ -800,6 +800,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ListingSearchFiltersPlayed => new TranslatableString(getKey(@"listing.search.filters.played"), @"Played");
 
         /// <summary>
+        /// "Downloaded"
+        /// </summary>
+        public static LocalisableString ListingSearchFiltersDownloaded => new TranslatableString(getKey(@"listing.search.filters.downloaded"), @"Downloaded");
+
+        /// <summary>
         /// "Rank Achieved"
         /// </summary>
         public static LocalisableString ListingSearchFiltersRank => new TranslatableString(getKey(@"listing.search.filters.rank"), @"Rank Achieved");
@@ -1163,6 +1168,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Unplayed"
         /// </summary>
         public static LocalisableString PlayedUnplayed => new TranslatableString(getKey(@"played.unplayed"), @"Unplayed");
+
+        /// <summary>
+        /// "Any"
+        /// </summary>
+        public static LocalisableString DownloadedAny => new TranslatableString(getKey(@"downloaded.any"), @"Any");
+
+        /// <summary>
+        /// "Not Downloaded"
+        /// </summary>
+        public static LocalisableString DownloadedNotDownloaded => new TranslatableString(getKey(@"downloaded.notdownloaded"), @"Not Downloaded");
 
         /// <summary>
         /// "Has Video"
