@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# requires imagemagick >= 7.1.2
+# requires imagemagick(-full) >= 7.1.2
 
 set -eu
 
