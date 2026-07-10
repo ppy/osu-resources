@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
     <Title>osu!resources</Title>
@@ -29,7 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <!-- Resolves references to LocalisableString. -->
-    <PackageReference Include="ppy.osu.Framework" Version="2021.611.0">
+    <PackageReference Include="ppy.osu.Framework" Version="2026.629.0">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
