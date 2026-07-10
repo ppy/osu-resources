@@ -95,10 +95,10 @@
     <value>Play a few beatmaps to receive a suggested offset!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Based on the last {0} play(s), your offset is set correctly!</value>
+    <value>Based on the last {0} play, your offset is set correctly!|Based on the last {0} plays, your offset is set correctly!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Based on the last {0} play(s), the suggested offset is {1} ms.</value>
+    <value>Based on the last {0} play, the suggested offset is {1} ms.|Based on the last {0} plays, the suggested offset is {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Apply suggested offset</value>
@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>If enabled, the offset suggested from last play on a beatmap is automatically applied.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Use experimental audio mode</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Use legacy audio mode</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>This will attempt to initialise the audio engine in a lower latency mode.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Due to reduced latency, your audio offset will need to be adjusted when enabling this setting. Generally expect to subtract 20 - 60 ms from your known value.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Use this if you are experiencing audio issues. Note that audio latency will be higher when this is toggled on.</value>
   </data>
 </root>

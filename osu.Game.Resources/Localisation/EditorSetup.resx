@@ -160,11 +160,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Audio Track</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>The video will be used instead of the static background, if present. Beatmap downloads are offered both with and without video, so if adding a video, a matching background should also be provided.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Custom sample sets</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Click to select a track</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Click to select a video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Click to select a background image</value>
@@ -201,5 +210,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Drag image here to set beatmap background!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Drag video here to set beatmap video!</value>
   </data>
 </root>
