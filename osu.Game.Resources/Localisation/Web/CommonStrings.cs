@@ -257,87 +257,87 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} badge|{0} badges"
         /// </summary>
-        public static LocalisableString CountBadges(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.badges"), @"{0} badge|{0} badges", countDelimited);
+        public static LocalisableString CountBadges(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.badges"), @"{0} badge|{0} badges", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} day|{0} days"
         /// </summary>
-        public static LocalisableString CountDays(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.days"), @"{0} day|{0} days", countDelimited);
+        public static LocalisableString CountDays(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.days"), @"{0} day|{0} days", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "hr|hrs"
         /// </summary>
-        public static LocalisableString CountHourShortUnit => new TranslatableString(getKey(@"count.hour_short_unit"), @"hr|hrs");
+        public static LocalisableString CountHourShortUnit(int quantity) => new PluralisableString(new TranslatableString(getKey(@"count.hour_short_unit"), @"hr|hrs", quantity), quantity, '|');
 
         /// <summary>
         /// "{0} hour|{0} hours"
         /// </summary>
-        public static LocalisableString CountHours(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.hours"), @"{0} hour|{0} hours", countDelimited);
+        public static LocalisableString CountHours(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.hours"), @"{0} hour|{0} hours", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} unit|{0} units"
         /// </summary>
-        public static LocalisableString CountItem(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.item"), @"{0} unit|{0} units", countDelimited);
+        public static LocalisableString CountItem(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.item"), @"{0} unit|{0} units", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "min|mins"
         /// </summary>
-        public static LocalisableString CountMinuteShortUnit => new TranslatableString(getKey(@"count.minute_short_unit"), @"min|mins");
+        public static LocalisableString CountMinuteShortUnit(int quantity) => new PluralisableString(new TranslatableString(getKey(@"count.minute_short_unit"), @"min|mins", quantity), quantity, '|');
 
         /// <summary>
         /// "{0} minute|{0} minutes"
         /// </summary>
-        public static LocalisableString CountMinutes(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.minutes"), @"{0} minute|{0} minutes", countDelimited);
+        public static LocalisableString CountMinutes(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.minutes"), @"{0} minute|{0} minutes", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} month|{0} months"
         /// </summary>
-        public static LocalisableString CountMonths(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.months"), @"{0} month|{0} months", countDelimited);
+        public static LocalisableString CountMonths(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.months"), @"{0} month|{0} months", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} notification|{0} notifications"
         /// </summary>
-        public static LocalisableString CountNotifications(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.notifications"), @"{0} notification|{0} notifications", countDelimited);
+        public static LocalisableString CountNotifications(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.notifications"), @"{0} notification|{0} notifications", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} player|{0} players"
         /// </summary>
-        public static LocalisableString CountPlayer(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.player"), @"{0} player|{0} players", countDelimited);
+        public static LocalisableString CountPlayer(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.player"), @"{0} player|{0} players", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "+ {0} other!|+ {0} others!"
         /// </summary>
-        public static LocalisableString CountPlusOthers(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.plus_others"), @"+ {0} other!|+ {0} others!", countDelimited);
+        public static LocalisableString CountPlusOthers(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.plus_others"), @"+ {0} other!|+ {0} others!", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} post|{0} posts"
         /// </summary>
-        public static LocalisableString CountPost(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.post"), @"{0} post|{0} posts", countDelimited);
+        public static LocalisableString CountPost(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.post"), @"{0} post|{0} posts", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "sec|secs"
         /// </summary>
-        public static LocalisableString CountSecondShortUnit => new TranslatableString(getKey(@"count.second_short_unit"), @"sec|secs");
+        public static LocalisableString CountSecondShortUnit(int quantity) => new PluralisableString(new TranslatableString(getKey(@"count.second_short_unit"), @"sec|secs", quantity), quantity, '|');
 
         /// <summary>
         /// "{0} star priority|{0} star priorities"
         /// </summary>
-        public static LocalisableString CountStarPriority(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.star_priority"), @"{0} star priority|{0} star priorities", countDelimited);
+        public static LocalisableString CountStarPriority(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.star_priority"), @"{0} star priority|{0} star priorities", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} update|{0} updates"
         /// </summary>
-        public static LocalisableString CountUpdate(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.update"), @"{0} update|{0} updates", countDelimited);
+        public static LocalisableString CountUpdate(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.update"), @"{0} update|{0} updates", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} view|{0} views"
         /// </summary>
-        public static LocalisableString CountView(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.view"), @"{0} view|{0} views", countDelimited);
+        public static LocalisableString CountView(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.view"), @"{0} view|{0} views", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} year|{0} years"
         /// </summary>
-        public static LocalisableString CountYears(LocalisableString countDelimited) => new TranslatableString(getKey(@"count.years"), @"{0} year|{0} years", countDelimited);
+        public static LocalisableString CountYears(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"count.years"), @"{0} year|{0} years", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "days"
@@ -517,12 +517,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} day ago|{0} days ago"
         /// </summary>
-        public static LocalisableString TimeDaysAgo(LocalisableString countDelimited) => new TranslatableString(getKey(@"time.days_ago"), @"{0} day ago|{0} days ago", countDelimited);
+        public static LocalisableString TimeDaysAgo(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"time.days_ago"), @"{0} day ago|{0} days ago", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} hour ago|{0} hours ago"
         /// </summary>
-        public static LocalisableString TimeHoursAgo(LocalisableString countDelimited) => new TranslatableString(getKey(@"time.hours_ago"), @"{0} hour ago|{0} hours ago", countDelimited);
+        public static LocalisableString TimeHoursAgo(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"time.hours_ago"), @"{0} hour ago|{0} hours ago", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "now"

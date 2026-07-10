@@ -32,7 +32,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} member|{0} members"
         /// </summary>
-        public static LocalisableString CardMembers(LocalisableString countDelimited) => new TranslatableString(getKey(@"card.members"), @"{0} member|{0} members", countDelimited);
+        public static LocalisableString CardMembers(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"card.members"), @"{0} member|{0} members", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Create Team"
@@ -55,9 +55,14 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString CreateFormTitle => new TranslatableString(getKey(@"create.form.title"), @"Let's set up a new team");
 
         /// <summary>
-        /// "Play together with friends; existing or new. You&#39;re not currently in a team. Join an existing team by visiting their team page or create your own team from this page."
+        /// "Play together with friends; existing or new. You&#39;re not currently in a team. Join an {0} by visiting their team page or create your own team from this page."
         /// </summary>
-        public static LocalisableString CreateIntroDescription => new TranslatableString(getKey(@"create.intro.description"), @"Play together with friends; existing or new. You're not currently in a team. Join an existing team by visiting their team page or create your own team from this page.");
+        public static LocalisableString CreateIntroDescription(LocalisableString searchLink) => new TranslatableString(getKey(@"create.intro.description"), @"Play together with friends; existing or new. You're not currently in a team. Join an {0} by visiting their team page or create your own team from this page.", searchLink);
+
+        /// <summary>
+        /// "existing team"
+        /// </summary>
+        public static LocalisableString CreateIntroSearchLink => new TranslatableString(getKey(@"create.intro.search_link"), @"existing team");
 
         /// <summary>
         /// "Team!"
@@ -202,7 +207,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} user overflow|{0} users overflow"
         /// </summary>
-        public static LocalisableString MembersIndexApplicationsEmptySlotsOverflow(LocalisableString countDelimited) => new TranslatableString(getKey(@"members.index.applications.empty_slots_overflow"), @"{0} user overflow|{0} users overflow", countDelimited);
+        public static LocalisableString MembersIndexApplicationsEmptySlotsOverflow(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"members.index.applications.empty_slots_overflow"), @"{0} user overflow|{0} users overflow", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Deny join request from user {0}?"
@@ -327,7 +332,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} slot available|{0} slots available"
         /// </summary>
-        public static LocalisableString ShowStatisticsEmptySlots(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.statistics.empty_slots"), @"{0} slot available|{0} slots available", countDelimited);
+        public static LocalisableString ShowStatisticsEmptySlots(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.statistics.empty_slots"), @"{0} slot available|{0} slots available", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "First places"

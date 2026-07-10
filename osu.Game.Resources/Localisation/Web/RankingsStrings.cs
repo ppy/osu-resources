@@ -80,9 +80,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MatchmakingPoints => new TranslatableString(getKey(@"matchmaking.points"), @"Points");
 
         /// <summary>
-        /// "Not enough matches played to accurately determine rating"
+        /// "Provisional rating due to an insufficient number of recent matches"
         /// </summary>
-        public static LocalisableString MatchmakingProvisional => new TranslatableString(getKey(@"matchmaking.provisional"), @"Not enough matches played to accurately determine rating");
+        public static LocalisableString MatchmakingProvisional => new TranslatableString(getKey(@"matchmaking.provisional"), @"Provisional rating due to an insufficient number of recent matches");
 
         /// <summary>
         /// "Rating"

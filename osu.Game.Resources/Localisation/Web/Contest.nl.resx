@@ -67,6 +67,9 @@
   <data name="index.nav_title" xml:space="preserve">
     <value>lijst</value>
   </data>
+  <data name="judge.comments" xml:space="preserve">
+    <value>reacties</value>
+  </data>
   <data name="judge.hide_judged" xml:space="preserve">
     <value>verberg beoordeelde items</value>
   </data>
@@ -97,8 +100,14 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Score</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Gestandaardiseerde Score</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>totale score</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>totale gestandaardiseerde score</value>
   </data>
   <data name="voting.judge_link" xml:space="preserve">
     <value>Jij bent een jurylid voor deze wedstrijd. Beoordeel de inzendingen hier!</value>
@@ -148,8 +157,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Sleep je inzending hier</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} bestanden worden geaccepteerd</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Max grootte: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Afmetingen moeten {0}{1} zijn</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Download .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Alleen {0} bestanden worden geaccepteerd voor deze wedstrijd.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Inzendingen voor deze wedstrijd moeten {0}{1} zijn</value>
@@ -168,6 +189,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} punt|{0} punten</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} punten</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Gesloten {0}</value>
@@ -189,5 +213,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Resultaten uit</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Bekijk info en inzendingen</value>
   </data>
 </root>

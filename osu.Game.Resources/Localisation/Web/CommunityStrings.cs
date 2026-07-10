@@ -332,7 +332,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} other user|{0} other users"
         /// </summary>
-        public static LocalisableString SupportSupporterStatusGiftedUsers(LocalisableString countDelimited) => new TranslatableString(getKey(@"support.supporter_status.gifted.users"), @"{0} other user|{0} other users", countDelimited);
+        public static LocalisableString SupportSupporterStatusGiftedUsers(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"support.supporter_status.gifted.users"), @"{0} other user|{0} other users", countDelimited), countDelimited, '|');
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

@@ -15,6 +15,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString LoadingUsers => new TranslatableString(getKey(@"loading_users"), @"loading users...");
 
         /// <summary>
+        /// "searching for users..."
+        /// </summary>
+        public static LocalisableString SearchingUsers => new TranslatableString(getKey(@"searching_users"), @"searching for users...");
+
+        /// <summary>
         /// "talking in {0}"
         /// </summary>
         public static LocalisableString TalkingIn(LocalisableString channel) => new TranslatableString(getKey(@"talking_in"), @"talking in {0}", channel);

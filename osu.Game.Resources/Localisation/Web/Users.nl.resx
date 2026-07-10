@@ -181,6 +181,9 @@
   <data name="filtering.by_game_mode" xml:space="preserve">
     <value>Leden per spelmodus</value>
   </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Je account is lange tijd niet gebruikt.</value>
+  </data>
   <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
     <value>Je account is lange tijd niet gebruikt.</value>
   </data>
@@ -231,6 +234,12 @@
   </data>
   <data name="login.beta.small" xml:space="preserve">
     <value>(osu!supporters krijgen binnenkort in)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Afgelopen</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
     <value>Beatmaps: {0}</value>
@@ -289,8 +298,23 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Rapporteer graag copyright overschrijding via een DMCA claim aan {0} als per {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>het osu! auteursrechtbeleid</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Dit geldt voor gevallen waarin audio tracks, visuele inhoud of beatmap content wordt gebruikt zonder de juiste toestemming.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Valsspelen</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Copyrightschending</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Ongepast chatgedrag</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Beledigen van mij / anderen</value>
@@ -367,11 +391,53 @@
   <data name="show.cover.to_1" xml:space="preserve">
     <value>Omslagfoto tonen</value>
   </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Dagelijkse Reeks</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Beste Dagelijkse Reeks</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Huidige Dagelijkse Reeks</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Totale deelname</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Dagelijkse\nUitdaging</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Top 10% Plaatsing</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Top 50% Plaatsing</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Wekelijkse Reeks</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Beste wekelijkse reeks</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Huidige wekelijkse reeks</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Verander Profiel Cover</value>
   </data>
   <data name="show.edit.cover.defaults_info" xml:space="preserve">
     <value>In de toekomst zullen er meer cover opties beschikbaar zijn</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>De eerder geselecteerde omslag is niet meer beschikbaar voor selectie. Je kunt deze niet meer selecteren na het overschakelen naar een andere omslag. Doorgaan?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Omslag</value>
   </data>
   <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
     <value>Afbeelding verwerken mislukt. Controleer de geüploade afbeelding en probeer opnieuw.</value>
@@ -405,6 +471,15 @@
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
     <value>zet {0} als standaard profiel spelmode</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Kleur herstellen naar standaard? De supporter tag is vereist om deze in een andere kleur te veranderen.</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Kleur</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporters</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>geen</value>
@@ -493,6 +568,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Aantal Replays Bekeken</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Meest Bekeken Replays</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Recente Kudosu Geschiedenis</value>
   </data>
@@ -570,6 +648,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>bekijk meer berichten</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Ranked Spelen Rondes</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Recent</value>
@@ -682,6 +763,9 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Website</value>
   </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Ranked Spelen</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Misschien is hun gebruikersnaam veranderd.</value>
   </data>
@@ -735,6 +819,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Hoogste rank: {0} op {1}</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Totale score</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Hit Precisie</value>

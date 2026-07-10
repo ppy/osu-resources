@@ -104,10 +104,10 @@
     <value>在 osu!direct 中查看</value>
   </data>
   <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
-    <value>见习谱面提名成员（PBN）无法提名多模式谱面。</value>
+    <value>见习谱面提名成员 (PBN) 无法提名多模式谱面。</value>
   </data>
   <data name="nominate.full_nomination_required" xml:space="preserve">
-    <value>只有正式谱面审核成员（Full），才能作出所属游戏模式的最终提名。</value>
+    <value>只有正式谱面审核成员 (Full)，才能提供所属游戏模式的最终提名。</value>
   </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>您需要在多模式谱面中选择至少一个游戏模式并提名。</value>
@@ -116,7 +116,7 @@
     <value>您没有提名 {0} 模式的权限。</value>
   </data>
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
-    <value>谱面含有无效提名，无法在此状态下过审（Qualified）。</value>
+    <value>谱面含有无效提名，无法在此状态下过审 (Qualified)。</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
     <value>这个提名含有无效的游戏模式。</value>
@@ -203,16 +203,16 @@
     <value>登录</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
-    <value>{0} 达标（Approved）</value>
+    <value>{0} 达标 (Approved)</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>{0} 加入社区喜爱（Loved）</value>
+    <value>{0} 加入社区喜爱 (Loved)</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>{0} 过审（Qualified）</value>
+    <value>{0} 过审 (Qualified)</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
-    <value>{0} 上架（Ranked）</value>
+    <value>{0} 上架 (Ranked)</value>
   </data>
   <data name="show.details_date.submitted" xml:space="preserve">
     <value>{0} 提交</value>
@@ -224,7 +224,7 @@
     <value>谱面收藏数超出限制，请删除一些后再试。</value>
   </data>
   <data name="show.hype.action" xml:space="preserve">
-    <value>如果你觉得这张谱面很好玩，来推荐谱面并推动它进入&lt;strong&gt;上架（Ranked）&lt;/strong&gt; 状态。</value>
+    <value>如果你觉得这张谱面很好玩，来推荐谱面并推动它进入&lt;strong&gt;上架 (Ranked)&lt;/strong&gt; 状态。</value>
   </data>
   <data name="show.hype.current._" xml:space="preserve">
     <value>谱面正处于 {0} 状态。</value>
@@ -233,10 +233,10 @@
     <value>待定 (Pending)</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>过审（Qualified）</value>
+    <value>过审 (Qualified)</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
-    <value>制作中（WIP）</value>
+    <value>制作中 (WIP)</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
     <value>如果你认为此谱面有问题，可以按下 {0} 取消提名。</value>
@@ -275,7 +275,7 @@
     <value>在线偏移值</value>
   </data>
   <data name="show.info.pack_tags" xml:space="preserve">
-    <value>所属曲包</value>
+    <value>曲包</value>
   </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>失败位置</value>
@@ -290,13 +290,25 @@
     <value>成功率</value>
   </data>
   <data name="show.info.success_rate_plays" xml:space="preserve">
-    <value>在 {0} 次游玩中通过了 {1} 次</value>
+    <value>在 {0} 次游玩中通过了 {1} 次|在 {0} 次游玩中通过了 {1} 次</value>
   </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>玩家标签</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>此谱面包含视频</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>仅 Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>由于特殊机制，此谱面仅可在 osu!lazer 上游玩。</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} 以查看此谱面的成绩。</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>启用 Lazer 模式</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>此谱面包含少儿不宜、冒犯性或令人不安的内容。您仍然想查看它吗？</value>
@@ -386,7 +398,7 @@
     <value>您所在的战队中还没有玩家上传过成绩！</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>未上架（Unranked）谱面</value>
+    <value>未上架 (Unranked) 谱面</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>领先</value>

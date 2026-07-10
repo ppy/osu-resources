@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Ongeldige spelmodus opgegeven.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Te veel gast mappers.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Stem bijwerken mislukt</value>
   </data>
@@ -103,6 +109,9 @@
   <data name="discussions.reply_notice" xml:space="preserve">
     <value>Druk op enter om te antwoorden.</value>
   </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Druk op enter om te antwoorden. Druk op ctrl+enter om te antwoorden en op te lossen.</value>
+  </data>
   <data name="discussions.reply_placeholder" xml:space="preserve">
     <value>Type hier je reactie</value>
   </data>
@@ -120,6 +129,9 @@
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussies</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} ongelezen opmerking|{0} opmerkingen</value>
   </data>
   <data name="discussions.collapse.all-collapse" xml:space="preserve">
     <value>Alles invouwen</value>
@@ -487,6 +499,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>Meer Zoekopties</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Profiel top rang nummers en resultaten die op deze pagina worden weergegeven zijn gebaseerd op je hoogste "gestandaardiseerde" (aka "lazer") scores op beatmaps.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>Filteren met {0} vereist een actieve osu!supporter tag</value>
   </data>
@@ -559,6 +574,12 @@
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter tag</value>
   </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>gebruiker labels bekijken</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>typ om te zoeken</value>
+  </data>
   <data name="general.converts" xml:space="preserve">
     <value>Tel geconverteerde beatmaps mee</value>
   </data>
@@ -579,6 +600,9 @@
   </data>
   <data name="mode.any" xml:space="preserve">
     <value>Alles</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>niet ingesteld</value>
   </data>
   <data name="status.any" xml:space="preserve">
     <value>Alles</value>

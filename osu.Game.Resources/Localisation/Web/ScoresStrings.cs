@@ -47,7 +47,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} time|{0} times"
         /// </summary>
-        public static LocalisableString ShowPlayerWatchedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.player.watched_count"), @"{0} time|{0} times", countDelimited);
+        public static LocalisableString ShowPlayerWatchedCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.player.watched_count"), @"{0} time|{0} times", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Country Rank"

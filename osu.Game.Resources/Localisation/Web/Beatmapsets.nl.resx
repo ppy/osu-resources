@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Niet zo snel, speel meer.</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Geen download servers beschikbaar.</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Uitgelichte artiest</value>
   </data>
@@ -100,23 +103,44 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>open in osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Proef nomineurs kunnen niet meerdere regels nomineren.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Je moet een volledige nominator zijn om de eindnominatie van een spelmodus uit te voeren.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Een hybride beatmapset vereist dat je minimaal één speelmodus selecteert om voor te nomineren.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Je hebt geen toestemming om te nomineren voor modus: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Deze beatmap heeft ongeldige nominaties en kan niet gekwalificeerd zijn in deze staat.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Deze nominatie heeft ongeldige spelmodi.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Nominatievereising is al vervuld.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nominatie eisen voor niet-hoofd spelmodus is al vervuld.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Weet je zeker dat je deze Beatmap wilt nomineren?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Door deze beatmap met verschillende nominators te kwalificeren, wordt de kwalificatie rij positie gereset.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Nomineer Beatmap</value>
   </data>
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>opmerking: je mag maar één keer nomineren, dus zorg er alsjeblieft voor dat je nomineert voor alle spelmodi die je van plan bent te nomineren</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>De hoofd spelmodus is momenteel: {0}</value>
   </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Welke modi nomineren?</value>
@@ -129,6 +153,9 @@
   </data>
   <data name="show.admin.full_size_cover" xml:space="preserve">
     <value>Bekijk afbeelding op volledige grootte</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Bekijk admin pagina</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Deze beatmap is verwijderd.</value>
@@ -232,6 +259,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Taal</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Mapper Labels</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Data nog aan het berekenen...</value>
   </data>
@@ -244,6 +274,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Online offset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Beatmap Pakketten</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Faalpunten</value>
   </data>
@@ -255,6 +288,12 @@
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Slagingspercentage</value>
+  </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} van {1} gespeeld{0} van {1} gespeeld</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Gebruiker Labels</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Deze beatmap bevat een video</value>
@@ -294,6 +333,9 @@
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Je moet een osu!supporter zijn om toegang te krijgen tot land- en vriendenrankings, net als mod-specifieke ranglijsten!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Team Ranglijst</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Scorebord</value>
@@ -339,6 +381,9 @@
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Scoren aan het laden...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Niemand uit jouw team heeft nog een score behaald op deze map!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Ongerankte beatmap.</value>
@@ -399,6 +444,12 @@
   </data>
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Playcount</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Favorieten</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Nog geen favorieten</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Ranked</value>

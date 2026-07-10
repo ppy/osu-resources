@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>cerrar la sesión</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Introduce el código de tu aplicación de autenticación.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>También puedes {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>cerrar la sesión</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Por si no puedes aceder a tu aplicación, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>puedes verificarte usando tu correo electrónico en su lugar</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>El código de verificación ha expirado, se ha enviado un nuevo correo electrónico de verificación.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>El código de verificación se ha vuelto a emitir, se ha enviado un nuevo correo electrónico de verificación.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>El código de verificación ya ha sido utilizado. Por favor espera y usa uno nuevo.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>El token de autenticación ha sido removido y hemos cambiado a la verificación de correo electrónico. Se ha enviado un correo de verificación.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Se ha producido un problema desconocido, se ha enviado un nuevo correo electrónico de verificación.</value>

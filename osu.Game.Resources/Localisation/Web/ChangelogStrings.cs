@@ -22,7 +22,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} user online|{0} users online"
         /// </summary>
-        public static LocalisableString BuildsUsersOnline(LocalisableString countDelimited) => new TranslatableString(getKey(@"builds.users_online"), @"{0} user online|{0} users online", countDelimited);
+        public static LocalisableString BuildsUsersOnline(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"builds.users_online"), @"{0} user online|{0} users online", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "by {0}"

@@ -147,7 +147,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} post|{0} posts"
         /// </summary>
-        public static LocalisableString PostInfoPostCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"post.info.post_count"), @"{0} post|{0} posts", countDelimited);
+        public static LocalisableString PostInfoPostCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"post.info.post_count"), @"{0} post|{0} posts", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Topic Starter"
@@ -817,7 +817,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} no votes|{1} {0} vote|[2,*] {0} votes"
         /// </summary>
-        public static LocalisableString TopicsShowFeatureVoteUserCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"topics.show.feature_vote.user.count"), @"{0} no votes|{1} {0} vote|[2,*] {0} votes", countDelimited);
+        public static LocalisableString TopicsShowFeatureVoteUserCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"topics.show.feature_vote.user.count"), @"{0} no votes|{1} {0} vote|[2,*] {0} votes", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "You have {0} remaining."

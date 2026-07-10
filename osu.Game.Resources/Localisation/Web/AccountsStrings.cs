@@ -195,6 +195,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString GithubUserErrorUnverifiedEmail => new TranslatableString(getKey(@"github_user.error.unverified_email"), @"Please verify your primary email on GitHub, then try linking your account again.");
 
         /// <summary>
+        /// "receive notifications for replies to beatmap discussions you are participating in"
+        /// </summary>
+        public static LocalisableString NotificationsBeatmapsetDiscussionReply => new TranslatableString(getKey(@"notifications.beatmapset_discussion_reply"), @"receive notifications for replies to beatmap discussions you are participating in");
+
+        /// <summary>
         /// "receive notifications for new problems on qualified beatmaps of the following modes"
         /// </summary>
         public static LocalisableString NotificationsBeatmapsetDiscussionQualifiedProblem => new TranslatableString(getKey(@"notifications.beatmapset_discussion_qualified_problem"), @"receive notifications for new problems on qualified beatmaps of the following modes");
@@ -383,6 +388,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "without video"
         /// </summary>
         public static LocalisableString OptionsBeatmapsetDownloadNoVideo => new TranslatableString(getKey(@"options.beatmapset_download.no_video"), @"without video");
+
+        /// <summary>
+        /// "default game mode"
+        /// </summary>
+        public static LocalisableString PlaystylesDefaultRuleset => new TranslatableString(getKey(@"playstyles.default_ruleset"), @"default game mode");
 
         /// <summary>
         /// "keyboard"

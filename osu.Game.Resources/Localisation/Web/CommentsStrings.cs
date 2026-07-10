@@ -27,7 +27,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} deleted comment|{0} deleted comments"
         /// </summary>
-        public static LocalisableString DeletedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"deleted_count"), @"{0} deleted comment|{0} deleted comments", countDelimited);
+        public static LocalisableString DeletedCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"deleted_count"), @"{0} deleted comment|{0} deleted comments", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "edited {0} by {1}"
@@ -57,7 +57,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} reply|{0} replies"
         /// </summary>
-        public static LocalisableString RepliesCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"replies_count"), @"{0} reply|{0} replies", countDelimited);
+        public static LocalisableString RepliesCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"replies_count"), @"{0} reply|{0} replies", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Comments"

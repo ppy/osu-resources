@@ -191,7 +191,7 @@
     <value>dyskusje beatmap</value>
   </data>
   <data name="notifications.options.channel_mention" xml:space="preserve">
-    <value>wspomnienie na czacie</value>
+    <value>wzmianka na czacie</value>
   </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>wiadomości prywatne na czacie</value>
@@ -217,6 +217,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>gdy uzyskasz status gościnnego twórcy poziomu trudności beatmapy</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>gdy w obserwowanych dyskusjach pojawią się nowe aktualizacje lub zostanie zgłoszony problem bądź sugestia dla twojej beatmapy</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>gdy otrzymasz wzmiankę na kanale publicznym</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>gdy otrzymasz nową wiadomość prywatną</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>gdy na czacie twojego zespołu pojawi się nowa wiadomość</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>gdy w obserwowanej zawartości pojawi się nowy komentarz</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>gdy w obserwowanych wątkach na forum pojawią się nowe odpowiedzi</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>gdy obserwowany twórca utworzy nową beatmapę</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>gdy pojawią się nowe aktualności</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>autoryzowani klienci</value>
   </data>
@@ -227,7 +254,7 @@
     <value>OAuth</value>
   </data>
   <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
-    <value>Pokazuj okładki stylizowane anime w beatmapach</value>
+    <value>pokaż tła beatmap w stylu anime</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>ukryj ostrzeżenia o treściach dla pełnoletnich w beatmapach</value>
@@ -249,6 +276,9 @@
   </data>
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>bez wideo</value>
+  </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>domyślny tryb gry</value>
   </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>klawiatura</value>
@@ -305,7 +335,7 @@
     <value>Aplikacja uwierzytelniająca</value>
   </data>
   <data name="user_totp.usage_note" xml:space="preserve">
-    <value>Użyj aplikacji uwierzytelniającej zamiast e-mailu, aby się zweryfikować. Weryfikacja przez e-mail będzie nadal dostępna jako opcja zapasowa.</value>
+    <value>Użyj aplikacji uwierzytelniającej jako główną metodę weryfikacji. Weryfikacja poprzez wiadomości e-mail nadal będzie dostępna jako opcja zapasowa.</value>
   </data>
   <data name="user_totp.button.remove" xml:space="preserve">
     <value>Usuń</value>

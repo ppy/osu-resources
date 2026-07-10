@@ -207,17 +207,17 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} praise|{0} praises"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountPraises(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.praises"), @"{0} praise|{0} praises", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountPraises(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.praises"), @"{0} praise|{0} praises", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} problem|{0} problems"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountProblems(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.problems"), @"{0} problem|{0} problems", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountProblems(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.problems"), @"{0} problem|{0} problems", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} suggestion|{0} suggestions"
         /// </summary>
-        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountSuggestions(LocalisableString countDelimited) => new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.suggestions"), @"{0} suggestion|{0} suggestions", countDelimited);
+        public static LocalisableString ItemBeatmapsetBeatmapsetDiscussionReviewCountSuggestions(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"item.beatmapset.beatmapset_discussion.review_count.suggestions"), @"{0} suggestion|{0} suggestions", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Qualified Beatmap problem"

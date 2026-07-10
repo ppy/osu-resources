@@ -37,7 +37,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} cover|{0} covers"
         /// </summary>
-        public static LocalisableString IndexBatchConfirmItems(LocalisableString countDelimited) => new TranslatableString(getKey(@"index.batch_confirm.items"), @"{0} cover|{0} covers", countDelimited);
+        public static LocalisableString IndexBatchConfirmItems(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"index.batch_confirm.items"), @"{0} cover|{0} covers", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Files"

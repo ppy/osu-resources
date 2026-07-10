@@ -552,7 +552,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} comment|{0} comments"
         /// </summary>
-        public static LocalisableString ShowCommentsCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited);
+        public static LocalisableString ShowCommentsCountCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Hide cover"
@@ -1035,9 +1035,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraTopRanksViewDetails => new TranslatableString(getKey(@"show.extra.top_ranks.view_details"), @"View Details");
 
         /// <summary>
-        /// "Ranks"
+        /// "Scores"
         /// </summary>
-        public static LocalisableString ShowExtraTopRanksTitle => new TranslatableString(getKey(@"show.extra.top_ranks.title"), @"Ranks");
+        public static LocalisableString ShowExtraTopRanksTitle => new TranslatableString(getKey(@"show.extra.top_ranks.title"), @"Scores");
 
         /// <summary>
         /// "Best Performance"
@@ -1045,9 +1045,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraTopRanksBestTitle => new TranslatableString(getKey(@"show.extra.top_ranks.best.title"), @"Best Performance");
 
         /// <summary>
-        /// "First Place Ranks"
+        /// "First Place Scores"
         /// </summary>
-        public static LocalisableString ShowExtraTopRanksFirstTitle => new TranslatableString(getKey(@"show.extra.top_ranks.first.title"), @"First Place Ranks");
+        public static LocalisableString ShowExtraTopRanksFirstTitle => new TranslatableString(getKey(@"show.extra.top_ranks.first.title"), @"First Place Scores");
 
         /// <summary>
         /// "Unpin"
@@ -1097,7 +1097,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} vote|{0} votes"
         /// </summary>
-        public static LocalisableString ShowExtraVotesVoteCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited);
+        public static LocalisableString ShowExtraVotesVoteCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Account Standing"
@@ -1267,7 +1267,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} forum post|{0} forum posts"
         /// </summary>
-        public static LocalisableString ShowPostCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited);
+        public static LocalisableString ShowPostCountCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Country rank for {0}"
@@ -1293,6 +1293,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Highest rank: {0} on {1}"
         /// </summary>
         public static LocalisableString ShowRankHighest(LocalisableString rank, LocalisableString date) => new TranslatableString(getKey(@"show.rank.highest"), @"Highest rank: {0} on {1}", rank, date);
+
+        /// <summary>
+        /// "A new Star Rating / PP algorithm is {0}."
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingTitle(LocalisableString link) => new TranslatableString(getKey(@"show.score_processing.title"), @"A new Star Rating / PP algorithm is {0}.", link);
+
+        /// <summary>
+        /// "being deployed"
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingTitleLink => new TranslatableString(getKey(@"show.score_processing.title_link"), @"being deployed");
+
+        /// <summary>
+        /// "Recent scores may not be immediately reflected in user profiles."
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingMessage => new TranslatableString(getKey(@"show.score_processing.message"), @"Recent scores may not be immediately reflected in user profiles.");
 
         /// <summary>
         /// "Top {0}"

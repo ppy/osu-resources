@@ -475,6 +475,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PopupUserLinksAccountEdit => new TranslatableString(getKey(@"popup_user.links.account-edit"), @"Settings");
 
         /// <summary>
+        /// "Create Team"
+        /// </summary>
+        public static LocalisableString PopupUserLinksCreateTeam => new TranslatableString(getKey(@"popup_user.links.create_team"), @"Create Team");
+
+        /// <summary>
         /// "Watchlists"
         /// </summary>
         public static LocalisableString PopupUserLinksFollows => new TranslatableString(getKey(@"popup_user.links.follows"), @"Watchlists");

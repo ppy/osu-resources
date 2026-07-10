@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>uitloggen</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Voer de code van uw Authenticator App in.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Je kan ook {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>uitloggen</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Als je je app niet kan openen, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>je kunt via e-mail verifiëren in plaats daarvan</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Verificatiecode is verlopen, nieuwe verificatie e-mail verstuurd.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Verificatiecode is hermaakt, nieuwe verificatie e-mail verstuurd.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verificatiecode is al gebruikt. Wacht even en gebruik een nieuwe.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Verificatie token is verwijderd, schakel over naar email verificatie. Verificatie email is verzonden.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Onbekend probleem trad op, nieuwe verificatie e-mail verstuurd.</value>

@@ -415,6 +415,26 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoVideo => new TranslatableString(getKey(@"show.info.video"), @"This beatmap contains video");
 
         /// <summary>
+        /// "Lazer Only"
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyTitle => new TranslatableString(getKey(@"show.lazer_only.title"), @"Lazer Only");
+
+        /// <summary>
+        /// "Due to specific mechanics, this beatmap can only be played on osu!lazer."
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyDescription => new TranslatableString(getKey(@"show.lazer_only.description"), @"Due to specific mechanics, this beatmap can only be played on osu!lazer.");
+
+        /// <summary>
+        /// "{0} to view scores set on this beatmap."
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyScoreboardSwitchModeDefault(LocalisableString enableLink) => new TranslatableString(getKey(@"show.lazer_only.scoreboard_switch_mode._"), @"{0} to view scores set on this beatmap.", enableLink);
+
+        /// <summary>
+        /// "Enable lazer mode"
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyScoreboardSwitchModeEnableLink => new TranslatableString(getKey(@"show.lazer_only.scoreboard_switch_mode.enable_link"), @"Enable lazer mode");
+
+        /// <summary>
         /// "This beatmap contains explicit, offensive, or disturbing content. Would you like to view it anyway?"
         /// </summary>
         public static LocalisableString ShowNsfwWarningDetails => new TranslatableString(getKey(@"show.nsfw_warning.details"), @"This beatmap contains explicit, offensive, or disturbing content. Would you like to view it anyway?");

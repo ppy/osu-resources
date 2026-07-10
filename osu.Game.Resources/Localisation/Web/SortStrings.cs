@@ -120,6 +120,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ForumTopicsNew => new TranslatableString(getKey(@"forum_topics.new"), @"Last reply");
 
         /// <summary>
+        /// "Created"
+        /// </summary>
+        public static LocalisableString TeamsCreated => new TranslatableString(getKey(@"teams.created"), @"Created");
+
+        /// <summary>
         /// "Relevance"
         /// </summary>
         public static LocalisableString TeamsRelevance => new TranslatableString(getKey(@"teams.relevance"), @"Relevance");

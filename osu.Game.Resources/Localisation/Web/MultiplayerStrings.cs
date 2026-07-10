@@ -47,12 +47,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} map|{0} maps"
         /// </summary>
-        public static LocalisableString RoomMapCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"room.map_count"), @"{0} map|{0} maps", countDelimited);
+        public static LocalisableString RoomMapCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"room.map_count"), @"{0} map|{0} maps", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} player|{0} players"
         /// </summary>
-        public static LocalisableString RoomPlayerCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"room.player_count"), @"{0} player|{0} players", countDelimited);
+        public static LocalisableString RoomPlayerCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"room.player_count"), @"{0} player|{0} players", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} left"

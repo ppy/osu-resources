@@ -10,6 +10,11 @@ namespace osu.Game.Resources.Localisation.Web
         private const string prefix = @"osu.Game.Resources.Localisation.Web.Friends";
 
         /// <summary>
+        /// "You have been blocked by this user."
+        /// </summary>
+        public static LocalisableString Blocked => new TranslatableString(getKey(@"blocked"), @"You have been blocked by this user.");
+
+        /// <summary>
         /// "friends"
         /// </summary>
         public static LocalisableString TitleCompact => new TranslatableString(getKey(@"title_compact"), @"friends");

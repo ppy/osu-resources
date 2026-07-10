@@ -50,6 +50,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString JudgeUpdate => new TranslatableString(getKey(@"judge.update"), @"update");
 
         /// <summary>
+        /// "unsaved changes"
+        /// </summary>
+        public static LocalisableString JudgeUnsavedChanges => new TranslatableString(getKey(@"judge.unsaved_changes"), @"unsaved changes");
+
+        /// <summary>
         /// "missing score"
         /// </summary>
         public static LocalisableString JudgeValidationMissingScore => new TranslatableString(getKey(@"judge.validation.missing_score"), @"missing score");
@@ -222,12 +227,12 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} vote|{0} votes"
         /// </summary>
-        public static LocalisableString VoteCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"vote.count"), @"{0} vote|{0} votes", countDelimited);
+        public static LocalisableString VoteCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"vote.count"), @"{0} vote|{0} votes", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} point|{0} points"
         /// </summary>
-        public static LocalisableString VotePoints(LocalisableString countDelimited) => new TranslatableString(getKey(@"vote.points"), @"{0} point|{0} points", countDelimited);
+        public static LocalisableString VotePoints(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"vote.points"), @"{0} point|{0} points", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "{0} points"
