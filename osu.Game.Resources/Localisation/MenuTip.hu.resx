@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Nyomja meg a(z) {0} billentyűkombinációt bárhol a játékban az eszköztár be- és kikapcsolásához!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Nyomja meg a(z) {0} billentyűkombinációt bárhol a játékban a beállítások eléréséhez!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Minden beállítás dinamikus, és azonnal érvénybe lép. Próbálja meg az automatikus lejátszás közben megváltoztatni a kinézetet!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Minden frissítéssel új funkciók jelennek meg, ezért ügyeljen arra, hogy naprakész legyen!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Ha a felhasználói felületet túl nagynak vagy kicsinek találja, próbálja meg módosítani a felhasználói felület méretezését a beállításokban!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Próbálja meg beállítani a "Képernyő méretezés" módot, hogy megváltoztassa a játékmenetet vagy a felhasználói felület területét, akár teljes képernyős módban is!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Ami korábban "osu!direct" volt, az mostantól minden felhasználó számára elérhető, akárcsak a weboldalon. Bárhonnan elérheti a(z) {0}! billentyűkombinációval!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>A visszajátszások böngészése a képernyő alján lévő előrehaladási sávon való húzással vagy a bal és jobb nyílbillentyűkkel lehetséges!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Próbálj jobbra görgetni a mod kiválasztásnál, hogy egy csomó új, szórakoztató modot találj!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>A legtöbb webes tartalom (profilok, ranglisták stb.) natív módon elérhető a játékban az eszköztár ikonjaival!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>További részletekért, egy beatmap elrejtéséhez vagy törléséhez kattints a jobb gombbal a beatmap paneljére a dal kiválasztásánál!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Nézd meg a "lejátszási listák" rendszert, amely lehetővé teszi a felhasználók számára, hogy létrehozzák saját egyéni és állandó ranglistáikat!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>A speciális képkocka- és szálstatisztikák be- és kikapcsolása a Ctrl-F11! billentyűkombinációval!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>A visszajátszás közben a(z) {0} billentyű lenyomásával szüneteltetheti a lejátszást!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>A játékban található gyorsbillentyűk többsége beállítható, és tetszés szerint bármire átállítható. Nézd meg a beviteli beállítások alatt található gombkiosztás panelt!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>A játék HUD-ja testre szabható a skin elrendezés szerkesztő segítségével, amelyet bármikor megnyithatsz a(z) {0} billentyűkombinációval!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Létrehozhatsz előre beállított modokat, hogy könnyebben válthasd át kedvenc mod kombinációid között!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Számos modnak vannak olyan testreszabási beállításai, amelyek drasztikusan megváltoztatják a működésüket. A beállítások megtekintéséhez kattints a Testreszabás gombra a mod kiválasztásánál!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Nyomd meg a(z) {0} gombot, hogy véletlenszerű kinézetre válts! A {1} és {2} gombokkal is válthatsz a kinézetek között.</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Visszajátszás közben a(z) {0} billentyűkombinációval válthatsz a visszajátszási beállítások között!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Könnyedén átmásolhatod a módokat a ranglista pontszámaiból, ha a jobb gombbal rájuk kattintasz!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>A dal kiválasztásakor a Ctrl-Enter billentyűkombinációval elindíthatod a beatmapet automatikus lejátszási módban!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>A "Lazer" nem angol szó. Az erős fényt jelölő szó helyes írásmódja "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>A többszálas feldolgozás támogatása azt jelenti, hogy még alacsony "FPS" mellett is pontosak lesznek a bevitelek és a döntéseid!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Minden törlési művelet a program bezárásáig ideiglenes. A véletlenül törölt tartalmakat a karbantartási beállításokból állíthatja vissza!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Vess egy pillantást a rendszer belsejébe, nézd meg a teljesítménymérőket, és engedélyezd a részletes teljesítménynaplózást a Ctrl-F2 billentyűkombinációval!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Ha a játékmenet-HUD el van rejtve, a(z) {0} gombot lenyomva tartva ideiglenesen megjelenítheted!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Húzz bármilyen képet a kinézet-szerkesztőbe, hogy gyorsan betöltsd!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Próbáld meg a jobb egérgombot a beatmap-karusszel közelében lenyomva tartani, hogy gyorsan egy adott pozícióra ugorhass!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>A beatmap-lista felületén lévő beatmap-panelen kattints a Shift billentyűt lenyomva tartva, hogy gyorsan letölthesd vagy megtekintheted a beatmapet a dalválasztóban!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>egy tipp neked:</value>
+  </data>
+</root>

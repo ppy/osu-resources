@@ -59,22 +59,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="rulesets" xml:space="preserve">
-    <value>Rulesets</value>
+    <value>Modos de jogo</value>
   </data>
   <data name="snaking_in_sliders" xml:space="preserve">
-    <value>Sliders serpenteiam para fora</value>
+    <value>Os deslizadores deslizam para fora</value>
   </data>
   <data name="snaking_out_sliders" xml:space="preserve">
-    <value>Sliders serpenteiam para dentro</value>
+    <value>Os deslizadores deslizam para dentro</value>
   </data>
   <data name="cursor_trail" xml:space="preserve">
-    <value>Rastro do cursor</value>
+    <value>Rasto do cursor</value>
   </data>
   <data name="cursor_ripples" xml:space="preserve">
-    <value>Ondulações do rato</value>
+    <value>Ondas do cursor</value>
   </data>
   <data name="playfield_border_style" xml:space="preserve">
-    <value>Estilo de borda do campo do jogo</value>
+    <value>Estilo da borda do campo de jogo</value>
   </data>
   <data name="no_borders" xml:space="preserve">
     <value>Nenhum</value>
@@ -95,28 +95,37 @@
     <value>Baixo</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
-    <value>Velocidade do deslocamento
+    <value>Velocidade de deslocamento
 </value>
   </data>
   <data name="Timing_based_colouring" xml:space="preserve">
-    <value>As notas são coloridas com base no tempo</value>
+    <value>Coloração de notas baseada na temporização</value>
+  </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Animações de acerto ajustadas à velocidade</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Os acertos irão deslocar‑se mais depressa ou mais devagar quando a velocidade do mapa for ajustada através de modificações.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
-    <value>{0}ms ({1}º velocidade)</value>
+    <value>{0}ms (velocidade {1:N1})</value>
   </data>
   <data name="touch_control_scheme" xml:space="preserve">
-    <value>Esquema do controlo tátil</value>
+    <value>Esquema de controlo por toque</value>
   </data>
   <data name="mobile_layout" xml:space="preserve">
-    <value>Layout móvel</value>
+    <value>Disposição móvel</value>
   </data>
-  <data name="portrait_expanded_columns" xml:space="preserve">
-    <value>Retrato (colunas expandidas)</value>
+  <data name="portrait" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="landscape" xml:space="preserve">
+    <value>Paisagem</value>
   </data>
   <data name="landscape_expanded_columns" xml:space="preserve">
     <value>Paisagem (colunas expandidas)</value>
   </data>
-  <data name="landscape_touch_overlay" xml:space="preserve">
-    <value>Paisagem (camada de toque)</value>
+  <data name="touch_overlay" xml:space="preserve">
+    <value>Sobreposição de toque</value>
   </data>
 </root>

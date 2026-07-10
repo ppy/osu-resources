@@ -131,6 +131,9 @@ Sprawdź, co się zmieniło!</value>
   <data name="mention" xml:space="preserve">
     <value>Wzmianka</value>
   </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} na kanale {1}</value>
+  </data>
   <data name="friend_online" xml:space="preserve">
     <value>Online: {0}</value>
   </data>
@@ -138,7 +141,7 @@ Sprawdź, co się zmieniło!</value>
     <value>Offline: {0}</value>
   </data>
   <data name="api_connection_interrupted" xml:space="preserve">
-    <value>Połączenie do serwisów online zostało przerwane. osu! będzie działać z ograniczoną funkcjonalnością.</value>
+    <value>Połączenie z usługami online zostało przerwane. osu! będzie działać z ograniczoną funkcjonalnością.</value>
   </data>
   <data name="another_device_disconnect" xml:space="preserve">
     <value>Nastąpiło wylogowanie z powodu zalogowania się na innym urządzeniu.</value>
@@ -195,7 +198,8 @@ Sprawdź, co się zmieniło!</value>
     <value>Na macOS, instalacja osu! do katalogu innego niż /Applications lub {0}/Applications może powodować problemy z aktualizacją gry. Prosimy o przeniesienie instalacji gry do jednego z podanych katalogów.</value>
   </data>
   <data name="screenshot_saved" xml:space="preserve">
-    <value>Zapisano zrzut ekranu ({0})!</value>
+    <value>Zapisano zrzut ekranu! Kliknij, aby wyświetlić.
+{0}</value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
     <value>Serwer multiplayer niedługo wróci...</value>
@@ -204,7 +208,7 @@ Sprawdź, co się zmieniło!</value>
     <value>Serwer multiplayer zrestartuje się za {0}.</value>
   </data>
   <data name="collection_created" xml:space="preserve">
-    <value>Utworzono nową kolekcję "{0}" z {1} beatmapami.</value>
+    <value>Utworzono nową kolekcję „{0}” z {1} beatmapami.</value>
   </data>
   <data name="collection_beatmaps_added" xml:space="preserve">
     <value>Dodano {0} beatmapów do kolekcji "{1}".</value>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Beatmap beküldés</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Osszd meg a beatmaped a világgal!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Tartalom jogosultságok</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Megértettem</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Gyakran ismételt kérdések</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Beküldési beállítások</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Beatmap beküldése!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Beatmap exportálása a kompatibilitáshoz...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>A feltöltéshez felkészülés...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Beatmap tartalom fetöltése...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Befejezés...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Mielőtt továbbmenne, kérjük, ellenőrizze, hogy a feltöltendő tartalom feltöltésére engedélyt kapott-e. Kérjük, vegye figyelembe, hogy Ön felelős a platformra feltöltött tartalomért, és ha bármilyen kétsége merül fel, a feltöltés előtt kérjen engedélyt az alkotóktól!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>További információkért olvassa el a tartalomhasználati irányelveket</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>A beatmapek rangsorolásának kritériumai</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Nem vagy benne megfelelsz az irányelveknek? Nézd át a listát, és gyorsítsd fel a rangsorolási folyamatot!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Beküldés folyamat</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Nem tudod, hogyan kell beküldeni a hozzászólást? Nézd meg a wiki-cikket!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Mapping-es segítségfórum</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>Van kérdésed a mapok készítésével és beküldésével kapcsolatban? Tedd fel őket a fórumokon!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Modding várólisták fórum</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Nehéz visszajelzést kapnod? Miért nem kérdezel meg a moderátorok várólistáján!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Hová szeretnéd feltölteni a beatmapodat?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Folyamatban lévő munkák / Súgó (befejezetlen, még nem alkalmas rangsorolásra)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Függőben (befejezve, rangsorolásra kész)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Értesítések fogadása a fórumhozzászólásokra adott válaszokról</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Betöltés böngészőben a beküldés után</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Megjegyzés: Annak érdekében, hogy az osu! valamennyi verziójának felhasználói élvezhessék a beatmapodat, azt visszafelé kompatibilis formátumban exportáljuk. Bár igyekeztünk biztosítani, hogy a folyamat során a beatmap a tervezett formájában továbbra is lejátszható maradjon, előfordulhat, hogy az osu! korábbi verziói által nem támogatott funkciókhoz kapcsolódó egyes adatok elvesznek.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Üres Beatmapokat nem lehet beküldeni.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>Beatmap frissítése!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Új beatmap feltöltése!</value>
+  </data>
+</root>

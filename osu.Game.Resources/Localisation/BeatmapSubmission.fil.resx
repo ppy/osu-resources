@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>Pagsusumite ng beatmap</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>Ibahagi ang iyong beatmap sa mundo!</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>Mga pahintulot sa nilalaman</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>Naiintindihan ko</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>Mga madalas na tinatanong</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>Mga setting sa pagsusumite</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>Ipasa ang beatmap!</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>Ine-export ang beatmap para sa kompatibilidad...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>Inihahanda para sa pag-upload...</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>Ina-upload ang laman ng beatmap...</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>Tinatapos...</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>Bago ka magpatuloy, hinihiling namin na mangyaring suriin kung naaprubahan na ang nilalaman ng iyong ina-upload. Mangyaring maunawaan na ikaw ang responsable sa nilalaman ng inia-upload mo sa plataporma at kung may pag-aalinlangan, marapat na humingi ng pahintulot mula sa mga lumikha bago i-upload!</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>Suriin ang mga panununtunan sa paggamit ng nilalaman para sa karagdagang impormasyon</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>Pamantayan sa pagranggo ng beatmap</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>Hindi ka sigurado kung natutugunan ang mga panuntunan? Tignan ang listahan at pabilisin ang proseso ng pagranggo!</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>Proseso ng pagsusumite</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>Hindi sigurado tungkol sa proseso ng pagsusumite? Tignan ang entrada sa wiki!</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>Forum ng tulong sa pagmamapa</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>May tanong tungkol sa pagmamapa at pagsusumite? Itanong ito sa mga forum!</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Forum ng modding queues</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>Nahihirapang makakuha ng suhestiyon? Bakit hindi ka magtanong sa isang mod queue!</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>Saan mo gustong i-post ang iyong beatmap?</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>Ginagawa pa Lamang / Tulong (hindi pa tapos, hindi handa para iranggo)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Nakabinbin (tapos na, handa para iranggo)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>Tumanggap ng mga notipikasyon para sa mga tugon sa diskusyon</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>Buksan sa browser pagkatapos isumite</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>Tandaan: Upang matiyak na mae-enjoy ng mga gumagamit ng lahat ng bersyon ng osu! ang iyong beatmap, ie-export ito sa isang format na compatible sa mga mas lumang bersyon. Bagama't sinikap naming mapanatiling nalalaro ang beatmap gaya ng nilalayon, ang ilang datos na nauugnay sa mga feature na hindi suportado ng mga mas lumang bersyon ng osu! ay maaaring mawala.</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>Bawal magsumite ng mga beatmap na walang laman.</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>I-update ang beatmap!</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>Mag-upload ng BAGONG beatmap!</value>
+  </data>
+</root>

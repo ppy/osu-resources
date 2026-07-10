@@ -62,75 +62,157 @@
     <value>notificações</value>
   </data>
   <data name="header_description" xml:space="preserve">
-    <value>à tua espera</value>
+    <value>à sua espera</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
-    <value>A executar tarefas</value>
+    <value>Tarefas em execução</value>
   </data>
   <data name="clear_all" xml:space="preserve">
     <value>Limpar tudo</value>
   </data>
   <data name="battery_low" xml:space="preserve">
-    <value>O nível da tua bateria está baixa! Carrega o teu telemóvel para prevenir interrupções durante o jogo.</value>
+    <value>O nível da sua bateria está baixo! Carregue o dispositivo para evitar interrupções durante o jogo.</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>O volume do jogo está baixo para ouvir algo! Clica aqui para aumentar.</value>
+    <value>O volume do jogo está demasiado baixo para ouvir algo! Clique aqui para o restaurar.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>A regra atual não tem um autoplay disponível!</value>
+    <value>Os modos de jogo atuais não têm uma modificação de reprodução automática disponível!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
-    <value>osu! Não parece reproduzir áudio corretamente.
+    <value>O osu! parece não conseguir reproduzir áudio corretamente.
 
-Favor tenta mudando o dispositivo de áudio para uma definição funcional.</value>
+Por favor, tente alterar o seu dispositivo de áudio para uma configuração funcional.</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
-    <value>A sobreposição de pontuação está desabilitada. Podes alternar isto por premir {0}.</value>
+    <value>A sobreposição de pontuação está desativada de momento. Pode alterná‑la premindo {0}.</value>
   </data>
   <data name="unsupported_or_dangerous_url_protocol" xml:space="preserve">
-    <value>O URL {0} tem um protocolo não suportado ou perigoso e não será aberto.</value>
+    <value>O URL {0} utiliza um protocolo não suportado ou potencialmente perigoso e não será aberto.</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
-    <value>Mensagens subsequentes iniciaram sessão. Clica para ver os arquivos de registo.</value>
+    <value>As mensagens seguintes foram registadas. Clique para ver os ficheiros de registo.</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
-    <value>Desabilitando suporte ao tablet devido ao erro: "{0}"</value>
+    <value>A desativar o suporte para tablet devido ao erro: "{0}"</value>
   </data>
   <data name="encountered_tablet_warning" xml:space="preserve">
-    <value>Aviso ao tablet resolvido, o teu tablet talvez não funcionará corretamente. Clica aqui para ver a lista de tablets que suportam.</value>
+    <value>Foi detetado um aviso relacionado com o tablet. O seu tablet pode não funcionar corretamente. Clique aqui para ver a lista de tablets suportados.</value>
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
-    <value>Este tipo de ligação não é suportado!</value>
-  </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Recebeste uma mensagem privada de '{0}'. Clica para ler!</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>Teu nome foi mencionado no chat por '{0}'. Clica para ver o porquê!</value>
+    <value>Este tipo de ligação ainda não é suportado!</value>
   </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
-    <value>{0} convidou tu a um jogo multijogador "{1}"! Clica para entrar.</value>
+    <value>{0} convidou‑o para a partida multijogador "{1}"! Clique para entrar.</value>
   </data>
   <data name="missing_beatmap_for_replay" xml:space="preserve">
-    <value>Não tens o beatmap para este replay.</value>
+    <value>Não tem o mapa necessário para esta repetição.</value>
   </data>
   <data name="downloading_beatmap_for_replay" xml:space="preserve">
-    <value>Transferindo um beatmap faltando para este replay...</value>
+    <value>A transferir o mapa em falta para esta repetição...</value>
   </data>
   <data name="mismatching_beatmap_for_replay" xml:space="preserve">
-    <value>A sua cópia local do beatmap para este replay parece ser diferente do esperado. Você pode precisar atualizá-lo ou baixá-lo novamente.</value>
+    <value>A sua cópia local do mapa para esta repetição parece ser diferente do esperado. Pode ser necessário atualizá‑la ou voltar a transferi‑la.</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
-    <value>Agora você está executando o osu! {0}.
+    <value>Agora está a executar o osu! {0}.
 Clique para ver o que há de novo!</value>
   </data>
   <data name="update_ready_to_install" xml:space="preserve">
     <value>Atualização pronta para instalar. Clique para reiniciar!</value>
   </data>
   <data name="not_official_build" xml:space="preserve">
-    <value>Esta não é uma compilação oficial do jogo. Pontuações não serão submetidas e outros sistemas on-line podem não funcionar como esperado.</value>
+    <value>Esta não é uma versão oficial do jogo. As pontuações não serão submetidas e outros sistemas online podem não funcionar como previsto.</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
-    <value>Baixando atualização...</value>
+    <value>A transferir a atualização...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Esta sala multijogador foi encerrada. Clique para ver os resultados da sala.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Menção</value>
+  </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} em {1}</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Online: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Offline: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>A ligação aos serviços online foi interrompida. O osu! continuará a funcionar com funcionalidades limitadas.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>A sua sessão neste dispositivo foi terminada devido a um início de sessão da sua conta noutro dispositivo.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>A sua sessão foi terminada devido a uma alteração na sua conta. Por favor, inicie sessão novamente.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>A transferir {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>A importação de coleções está a iniciar...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>A ler coleções...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>Importadas {0} coleções</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>Importadas {0} de {1} coleções</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Este erro foi comunicado automaticamente à equipa de desenvolvimento.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Foi encontrada uma versão mais recente do osu! ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Clique aqui para transferir a nova versão, que pode ser instalada sobre a sua instalação atual.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Verifique o seu gestor de pacotes/fornecedor para atualizar o osu!!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Uma ação foi interrompida devido à apresentação de uma caixa de diálogo.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>A exportar {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Exportado {0}! Clique para ver.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>A exportar registos...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Registos exportados! Clique para ver.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Executar o osu! como {0} não melhora o desempenho, pode quebrar integrações e representa um risco de segurança. Execute o jogo como um utilizador normal.</value>
+  </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>No macOS, instalar o osu! numa pasta diferente de /Aplicações ou {0}/Aplicações pode causar problemas ao atualizar o jogo. Mova a sua instalação para um destes locais.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Captura de ecrã guardada! Clique para ver.
+{0}</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>O servidor multijogador voltará dentro de momentos...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>O servidor multijogador será reiniciado dentro de {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Nova coleção "{0}" criada com {1} mapas.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Adicionados {0} mapas à coleção "{1}".</value>
   </data>
 </root>

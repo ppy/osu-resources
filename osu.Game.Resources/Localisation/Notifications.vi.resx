@@ -62,7 +62,7 @@
     <value>thông báo</value>
   </data>
   <data name="header_description" xml:space="preserve">
-    <value>đang chờ bạn</value>
+    <value>đang chờ bạn đấy</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
     <value>Các tác vụ đang chạy</value>
@@ -71,18 +71,18 @@
     <value>Xóa tất cả</value>
   </data>
   <data name="battery_low" xml:space="preserve">
-    <value>Mức pin của bạn thấp! Sạc thiết bị để tránh sự gián đoạn khi chơi.</value>
+    <value>Mức pin của bạn thấp! Sạc thiết bị để tránh gián đoạn khi chơi.</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
-    <value>Âm lượng của bạn quá thấp! Bấm vào đây để khôi phục lại.</value>
+    <value>Âm lượng game của bạn quá thấp để nghe mọi thứ! Bấm vào đây để khôi phục lại.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
     <value>Ruleset hiện tại không có mod tự động!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
-    <value>osu! không thể phát âm thanh.
+    <value>osu! dường như không thể phát âm thanh một cách chính xác.
 
-Vui lòng đổi thiết bị âm thanh của bạn.</value>
+Hãy thử thay đổi thiết bị âm thanh của bạn.</value>
   </data>
   <data name="score_overlay_disabled" xml:space="preserve">
     <value>Giao diện chơi hiện tại đang tắt. Bạn có thể bật lại bằng cách bấm {0}.</value>
@@ -91,7 +91,7 @@ Vui lòng đổi thiết bị âm thanh của bạn.</value>
     <value>Đường dẫn {0} có giao thức không được hỗ trợ hoặc nguy hiểm và sẽ không được mở.</value>
   </data>
   <data name="subsequent_messages_logged" xml:space="preserve">
-    <value>Một số bản ghi đã được lưu lại. Nhấn để xem chúng.</value>
+    <value>Một số bản ghi đã được lưu lại. Nhấn để xem tệp nhật log.</value>
   </data>
   <data name="tablet_support_disabled_due_to_error" xml:space="preserve">
     <value>Vô hiệu hoá hỗ trợ bảng vẽ do lỗi: "{0}"</value>
@@ -101,12 +101,6 @@ Vui lòng đổi thiết bị âm thanh của bạn.</value>
   </data>
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Kiểu đường dẫn này chưa được hỗ trợ!</value>
-  </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Bạn đã nhận được tin nhắn riêng từ '{0}'. Bấm vào đây để đọc!</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>Tên của bạn đã được nhắc tới bởi '{0}'. Bấm vào đây để biết tại sao!</value>
   </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
     <value>{0} đã mời bạn tham gia trận đấu nhiều người chơi "{1}"! Nhấn vào đây để tham gia.</value>
@@ -122,7 +116,7 @@ Vui lòng đổi thiết bị âm thanh của bạn.</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
     <value>Bạn đang chạy phiên bản osu! {0}.
-Bấm vào đây để thay đổi!</value>
+Bấm vào đây để xem có gì mới!</value>
   </data>
   <data name="update_ready_to_install" xml:space="preserve">
     <value>Bản cập nhật đã sẵn sàng để cài đặt. Bấm vào đây để khởi động lại!</value>
@@ -132,5 +126,92 @@ Bấm vào đây để thay đổi!</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Đang tải xuống bản cập nhật...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Phòng nhiều người chơi này đã kết thúc. Nhấn để hiển thị kết quả.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Nhắc đến</value>
+  </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} ở trong {1}</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Trực tuyến: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Ngoại Tuyến: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Kết nối tới dịch vụ trực tuyến đã bị gián đoạn. osu! sẽ hoạt động với chức năng hạn chế.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Bạn đã đăng xuất trên thiết bị này vì đã có lượt đăng nhập tài khoản của bạn trên thiết bị khác.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>Bạn đã đăng xuất vì một sự thay đổi về thông tin tài khoản. Vui lòng đăng nhập lại.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>Đang tải {0}</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>Đang thêm bộ sưu tập...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Đang đọc bộ sưu tập...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>Đã nhập {0} bộ sưu tập</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>Đã nhập {0} trên {1} bộ sưu tập</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Lỗi này đã được tự động báo cáo tới đội phát triển.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Đã phát hiện phiên bản osu! mới hơn ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Nhấn vào đây để tải phiên bản mới, có thể cài đặt đè lên bản hiện tại.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Hãy kiểm tra trình quản lý gói / nhà cung cấp của bạn để cập nhật osu!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Một thao tác đã bị gián đoạn do đang hiển thị hộp thoại.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>Đang xuất {0}...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>Đã xuất thành công {0}! Nhấp để xem.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Đang xuất nhật ký...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Đã xuất nhật ký! Nhấn để xem.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Chạy osu! với quyền {0} không giúp cải thiện hiệu năng, có thể làm hỏng các tích hợp và gây rủi ro bảo mật. Vui lòng chạy game với quyền người dùng bình thường.</value>
+  </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>Trên macOS, việc cài đặt osu! vào thư mục khác với /Applications hoặc {0}/Applications có thể gây ra sự cố khi cập nhật trò chơi. Vui lòng di chuyển thư mục cài đặt trò chơi của bạn đến một trong những vị trí này.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>Đã lưu ảnh chụp màn hình! Nhấn để xem. {0}</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>Máy chủ chơi nhiều người sẽ sớm hoạt động lại...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>Máy chủ chơi nhiều người sẽ khởi động lại sau {0}.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Đã tạo bộ sưu tập mới "{0}" với {1} beatmap.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>Đã thêm {0} beatmap vào bộ sưu tập "{1}".</value>
   </data>
 </root>

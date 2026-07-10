@@ -133,6 +133,9 @@
   <data name="mention" xml:space="preserve">
     <value>提及</value>
   </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} 在 {1} 频道</value>
+  </data>
   <data name="friend_online" xml:space="preserve">
     <value>已上线：{0}</value>
   </data>
@@ -140,7 +143,7 @@
     <value>已下线：{0}</value>
   </data>
   <data name="api_connection_interrupted" xml:space="preserve">
-    <value>与在线服务的连接已中断。osu! 将以功能受限的状态运行。</value>
+    <value>与在线服务的连接被中断。osu! 将在功能受限的情况下运行。</value>
   </data>
   <data name="another_device_disconnect" xml:space="preserve">
     <value>由于您已经在另一台设备上登录，该设备已登出。</value>
@@ -167,31 +170,31 @@
     <value>此错误已自动报告给开发团队。</value>
   </data>
   <data name="update_available" xml:space="preserve">
-    <value>发现新的 osu! 版本（{0}→{1}）。</value>
+    <value>发现新的 osu! 版本 ({0} → {1})。</value>
   </data>
   <data name="update_available_manual_install" xml:space="preserve">
     <value>点击此处下载新版本，可直接覆盖安装。</value>
   </data>
   <data name="update_available_package_managed" xml:space="preserve">
-    <value>请通过您的软件包管理器/提供商将 osu! 更新至最新版本！</value>
+    <value>使用软件包管理器更新 osu!</value>
   </data>
   <data name="action_interrupted_by_dialog" xml:space="preserve">
     <value>由于需要显示对话框，操作已被中断。</value>
   </data>
   <data name="file_export_ongoing" xml:space="preserve">
-    <value>正在导出 {0} ......</value>
+    <value>正在导出 {0}……</value>
   </data>
   <data name="file_export_finished" xml:space="preserve">
-    <value>已导出 {0}！点击查看。</value>
+    <value>已导出 {0}！点击此处以查看。</value>
   </data>
   <data name="logs_export_ongoing" xml:space="preserve">
-    <value>正在导出日志......</value>
+    <value>正在导出日志……</value>
   </data>
   <data name="logs_export_finished" xml:space="preserve">
-    <value>已导出日志！点击查看。</value>
+    <value>已导出日志！点击此处以查看。</value>
   </data>
   <data name="elevated_privileges" xml:space="preserve">
-    <value>以 {0} 身份运行 osu! 不会提升性能，可能破坏集成并带来安全风险。请以普通用户身份运行游戏。</value>
+    <value>将 osu! 在 {0} 下运行并不会提升性能，可能会破坏集成并造成安全风险。请以普通用户身份运行游戏。</value>
   </data>
   <data name="macos_app_location" xml:space="preserve">
     <value>在 macOS 中，将 osu! 安装至 /Applications 或 {0}/Applications 以外的路径下，可能导致游戏在更新时出现异常。请将游戏移至上述任一目录下。</value>
@@ -200,15 +203,15 @@
     <value>截图已保存！点此处查看： {0} </value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
-    <value>多人游戏服务器即将恢复......</value>
+    <value>多人游戏服务器将很快恢复运行……</value>
   </data>
   <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
-    <value>多人游戏服务器将在 {0} 后重新启动。</value>
+    <value>多人游戏服务器将在 {0} 后重启。</value>
   </data>
   <data name="collection_created" xml:space="preserve">
-    <value>已创建收藏夹 "{0}"，包含 {1} 张谱面。</value>
+    <value>创建了新的收藏夹 “{0}”，包含 {1} 张谱面。</value>
   </data>
   <data name="collection_beatmaps_added" xml:space="preserve">
-    <value>已将 {0} 张谱面加入收藏夹 "{1}"。</value>
+    <value>已添加 {0} 张谱面到收藏夹 “{1}”。</value>
   </data>
 </root>
