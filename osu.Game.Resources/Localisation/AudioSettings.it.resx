@@ -95,10 +95,10 @@
     <value>Gioca un paio di beatmap per ricevere suggerimenti all'offset!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Basandosi sulle ultime partite ({0} in tutto), il tuo offset è impostato correttamente!</value>
+    <value>Basandosi su {0} partita precedente, il tuo offset è impostato correttamente!|Basandosi su {0} partite precedenti, il tuo offset è impostato correttamente!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Basandosi sulle ultime partite ({0} in tutto), l'offset suggerito è di {1} ms.</value>
+    <value>Basandosi su {0} partita precedente, l'offset suggerito è di {1} ms.|Basandosi su {0} partite precedenti, l'offset suggerito è di {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Applica offset suggerito</value>
@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Se abilitato, l'offset suggerito dall'ultima giocata in una beatmap viene applicato automaticamente.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Usa la modalità audio sperimentale</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Usa la modalità audio legacy</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Questo tenterà di inizializzare il motore audio in una modalità di latenza inferiore.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>A causa della riduzione di latenza, l'offset audio dovrà essere regolato quando si attiva questa impostazione. Puoi generalmente aspettarti di sottrarre circa 20 - 60 ms dal tuo valore iniziale.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Usa questa opzione se si verificano problemi audio. Nota che la latenza audio sarà maggiore quando l'opzione è attiva.</value>
   </data>
 </root>

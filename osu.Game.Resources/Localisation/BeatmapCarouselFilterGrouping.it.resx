@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="never_played" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="other_symbols" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>Ieri</value>
+  </data>
+  <data name="last_week" xml:space="preserve">
+    <value>Ultima settimana</value>
+  </data>
+  <data name="last_month" xml:space="preserve">
+    <value>Ultimo mese</value>
+  </data>
+  <data name="months_ago" xml:space="preserve">
+    <value>{0} mese fa|{0} mesi fa</value>
+  </data>
+  <data name="over_months_ago" xml:space="preserve">
+    <value>Oltre {0} mese fa|Oltre {0} mesi fa</value>
+  </data>
+  <data name="unranked" xml:space="preserve">
+    <value>Non classificate</value>
+  </data>
+  <data name="under_bpm" xml:space="preserve">
+    <value>Meno di {0} BPM</value>
+  </data>
+  <data name="range_bpm" xml:space="preserve">
+    <value>{0} - {1} BPM</value>
+  </data>
+  <data name="over_bpm" xml:space="preserve">
+    <value>Più di {0} BPM</value>
+  </data>
+  <data name="below_stars" xml:space="preserve">
+    <value>Meno di {0} stella|Meno di {0} stelle</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} stella|{0} stelle</value>
+  </data>
+  <data name="over_stars" xml:space="preserve">
+    <value>Oltre {0} stella|Oltre {0} stelle</value>
+  </data>
+  <data name="minutes_or_less" xml:space="preserve">
+    <value>{0} minuto o meno|{0} minuti o meno</value>
+  </data>
+  <data name="over_minutes" xml:space="preserve">
+    <value>Oltre {0} minuto|Oltre {0} minuti</value>
+  </data>
+  <data name="unsourced" xml:space="preserve">
+    <value>Senza origine</value>
+  </data>
+  <data name="not_in_collection" xml:space="preserve">
+    <value>Non in collezione</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Le mie mappe</value>
+  </data>
+  <data name="unplayed" xml:space="preserve">
+    <value>Non giocate</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Preferite</value>
+  </data>
+</root>

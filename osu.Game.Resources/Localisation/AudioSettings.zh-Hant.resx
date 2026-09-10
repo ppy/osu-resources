@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>若開啟，來自上一個圖譜遊玩紀錄的建議偏移設定會自動生效。</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>使用實驗性音訊模式</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>使用舊版音訊模式</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>這會嘗試以低延遲模式啟動音訊引擎。</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>由於延遲程度降低，您需要在開啟此設定時對音訊偏移進行調整。通常會是現在的數值減去 20 ~ 60ms。</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>如果你有音訊方面的問題就開啟它。請留意在開啟這模式時會有較高的音訊延遲。</value>
   </data>
 </root>

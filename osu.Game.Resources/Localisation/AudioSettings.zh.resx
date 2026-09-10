@@ -110,15 +110,13 @@
     <value>自动调整谱面偏移</value>
   </data>
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
-    <value>启用后，将自动应用上次游玩该谱面时所计算出的推荐偏移量。</value>
+    <value>启用后，将自动应用上次游玩谱面的建议偏移量。</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>启用实验性音频模式</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>使用旧版音频引擎</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>启用此选项后会尝试将音频引擎切换至低延迟模式。</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>由于音频延迟降低，启用此选项后你将需要调整音频偏移。通常建议将当前数值减少 20 至 60 毫秒。</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>游玩过程中遇到音频问题时，请开启此选项。
+注意：该选项会增加音频延迟。</value>
   </data>
 </root>

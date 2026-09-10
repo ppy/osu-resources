@@ -71,7 +71,7 @@
     <value>Thiết bị đầu ra</value>
   </data>
   <data name="positional_hitsound_audio_level" xml:space="preserve">
-    <value>Tách âm đánh sang hai bên</value>
+    <value>Tách tiếng bấm sang hai bên</value>
   </data>
   <data name="master_volume" xml:space="preserve">
     <value>Tổng</value>
@@ -104,7 +104,7 @@
     <value>Áp dụng độ trễ đề xuất</value>
   </data>
   <data name="offset_wizard" xml:space="preserve">
-    <value>Thuật sĩ độ trễ</value>
+    <value>Trình hiệu chỉnh độ trễ</value>
   </data>
   <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
     <value>Tự động điều chỉnh độ trễ beatmap</value>
@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Nếu bật, độ trễ beatmap đề xuất từ lần chơi trước sẽ được tự động áp dụng cho beatmap đó.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Sử dụng chế độ âm thanh thử nghiệm</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Dùng chế độ âm thanh cũ</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Sẽ thử sử dụng âm thanh ở chế độ trễ thấp</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Bạn cần chỉnh lại độ trễ âm thanh khi bật tính năng này, do độ trễ giảm đi. Thông thường nên trừ khoảng 20 - 60 ms từ giá trị trước đó.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Bật tùy chọn này nếu bạn gặp sự cố về âm thanh. Lưu ý rằng sau khi bật thì độ trễ âm thanh sẽ cao hơn.</value>
   </data>
 </root>

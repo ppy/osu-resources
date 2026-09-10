@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>활성화하실 경우, 마지막으로 플레이하신 비트맵의 추천 오프셋이 자동으로 적용돼요.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>실험적인 오디오 모드 사용</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>레거시 오디오 모드 사용</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>본 설정은 오디오 엔진을 저지연 모드로 초기화 시도를 할지에 대한 여부를 결정해요.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>본 설정을 활성화할 경우, 오디오 지연이 감소하므로 오디오 오프셋을 재조정하실 필요가 있어요. 통상적으로 기존값에서 20 - 60ms를 뺀 값으로 설정해야 한다고 이해하시면 좋아요.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>오디오에 문제가 있을 때 사용하세요. 이 모드를 사용할 경우 오디오 지연 시간이 늘어날 수 있습니다.</value>
   </data>
 </root>

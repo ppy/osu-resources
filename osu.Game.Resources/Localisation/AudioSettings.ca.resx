@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Si s'activa, s'aplica automàticament la compensació suggerida al mapa de l'última partida.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Fes servir el mode d'àudio experimental</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Fes servir el mode antic d'àudio</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>S'intentarà inicialitzar el motor d'àudio amb un mode de latència més baix.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Degut a la latència reduïda, el modificador d'àudio s'haurà d'ajustar si s'activa aquesta opció. En general, cal restar entre 20 i 60 ms del valor ja conegut.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Feu-ho servir si teniu problemes amb l'àudio. Tingueu en compte que la latència d'àudio serà superior si activeu aquesta opció.</value>
   </data>
 </root>

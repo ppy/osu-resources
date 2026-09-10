@@ -95,7 +95,7 @@
     <value>Сыграйте несколько карт, чтобы узнать рекомендованное значение!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>По данным последних {0} игр, значение сдвига установлено верно!</value>
+    <value>По данным последней {0} игры, значение сдвига установлено верно!|По данным последних {0} игр, значение сдвига установлено верно!|По данным последних {0} игр, значение сдвига установлено верно!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
     <value>Рекомендованное значение сдвига по данным последних {0} игр составляет {1} мс.</value>
@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Если включено, рекомендованное значение сдвига звука последней игры на карте будет применяться автоматически.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Включить экспериментальный аудиорежим</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Включить устаревший звуковой движок</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Попытка инициализировать звуковой движок в режиме низкой задержки.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Из-за уменьшения задержки, после активации этой настройки вам необходимо скорректировать значение сдвига звука. Как правило, оно должно быть меньше на 20 - 60 мс от вашего текущего значения.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Используйте в случае возникновения проблем с воспроизведением звука. Обратите внимание: задержка звука вместе с этим увеличится.</value>
   </data>
 </root>

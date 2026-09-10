@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Si se activa, la compensación sugerida de la última jugada en un mapa se aplica automáticamente.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Usar modo de audio experimental</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Usar modo de audio heredado</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Esto intentará inicializar el motor de audio en un modo de menor latencia.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Debido a la reducción de la latencia, será necesario ajustar la compensación del audio al activar esta opción. Por lo general, se espera restar entre 20 y 60 ms del valor ya conocido.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Utilice esto si está experimentando problemas de audio. Tenga en cuenta que la latencia de audio será mayor cuando esté activada.</value>
   </data>
 </root>
