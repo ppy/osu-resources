@@ -395,6 +395,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsReviewEmbedTimestampDiff => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this post starts with a timestamp, it will be shown under Timeline.");
 
         /// <summary>
+        /// "insert note"
+        /// </summary>
+        public static LocalisableString DiscussionsReviewInsertBlockMapperNote => new TranslatableString(getKey(@"discussions.review.insert-block.mapper_note"), @"insert note");
+
+        /// <summary>
         /// "insert paragraph"
         /// </summary>
         public static LocalisableString DiscussionsReviewInsertBlockParagraph => new TranslatableString(getKey(@"discussions.review.insert-block.paragraph"), @"insert paragraph");

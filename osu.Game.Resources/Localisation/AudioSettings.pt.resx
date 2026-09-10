@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Se ativada, o desvio sugerido da última partida num mapa é automaticamente aplicado.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Usar o modo de áudio experimental</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Usar modo de áudio legado</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Esta opção tentará inicializar o motor de áudio num modo de baixa latência.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Devido à redução da latência, o seu desvio de áudio terá de ser ajustado ao ativar esta opção. Regra geral, espere subtrair entre 20 e 60 ms ao valor que já conhece.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Use isto se estiver experienciando problemas de áudio. Observe que a latência do áudio será maior quando esta opção estiver ativada.</value>
   </data>
 </root>

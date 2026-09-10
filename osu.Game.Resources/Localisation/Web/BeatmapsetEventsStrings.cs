@@ -215,6 +215,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString TypeDiscussionDelete => new TranslatableString(getKey(@"type.discussion_delete"), @"Discussion deletion");
 
         /// <summary>
+        /// "Discussion lock"
+        /// </summary>
+        public static LocalisableString TypeDiscussionLock => new TranslatableString(getKey(@"type.discussion_lock"), @"Discussion lock");
+
+        /// <summary>
         /// "Discussion reply deletion"
         /// </summary>
         public static LocalisableString TypeDiscussionPostDelete => new TranslatableString(getKey(@"type.discussion_post_delete"), @"Discussion reply deletion");
@@ -228,6 +233,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Discussion restoration"
         /// </summary>
         public static LocalisableString TypeDiscussionRestore => new TranslatableString(getKey(@"type.discussion_restore"), @"Discussion restoration");
+
+        /// <summary>
+        /// "Discussion unlock"
+        /// </summary>
+        public static LocalisableString TypeDiscussionUnlock => new TranslatableString(getKey(@"type.discussion_unlock"), @"Discussion unlock");
 
         /// <summary>
         /// "Disqualification"
@@ -323,6 +333,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Loved removal"
         /// </summary>
         public static LocalisableString TypeRemoveFromLoved => new TranslatableString(getKey(@"type.remove_from_loved"), @"Loved removal");
+
+        /// <summary>
+        /// "Tags edit"
+        /// </summary>
+        public static LocalisableString TypeTagsEdit => new TranslatableString(getKey(@"type.tags_edit"), @"Tags edit");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }

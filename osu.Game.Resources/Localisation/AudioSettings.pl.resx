@@ -95,10 +95,10 @@
     <value>Zagraj kilka beatmap, aby wyznaczyć sugerowane opóźnienie!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Na podstawie twoich ostatnich zagrań ({0}) aktualnie ustawione opóźnienie jest prawidłowe!</value>
+    <value>Na podstawie twojego ostatniego zagrania, aktualnie ustawione opóźnienie jest prawidłowe!|Na podstawie twoich ostatnich {0} zagrań, aktualnie ustawione opóźnienie jest prawidłowe!|Na podstawie twoich ostatnich {0} zagrań, aktualnie ustawione opóźnienie jest prawidłowe!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Na podstawie twoich ostatnich zagrań ({0}) sugerowane opóźnienie dźwięku wynosi {1} ms.</value>
+    <value>Na podstawie twojego ostatniego zagrania, sugerowane opóźnienie dźwięku wynosi {1} ms.|Na podstawie twoich ostatnich {0} zagrań, sugerowane opóźnienie dźwięku wynosi {1} ms.|Na podstawie twoich ostatnich {0} zagrań, sugerowane opóźnienie dźwięku wynosi {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Zastosuj sugerowane opóźnienie</value>
@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Automatycznie dostosowuje opóźnienie dźwięku dla beatmapy w oparciu o ostatnie zagranie.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Użyj eksperymentalnego trybu audio</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Użyj starego silnika dźwięku</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Próbuje uruchomić silnik audio w trybie niskiego opóźnienia.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Użycie tej opcji będzie wymagało ręcznego dostosowania opóźnienia dźwięku - w ogólnym przypadku można spodziewać się spadku opóźnienia od 20 do 60 milisekund.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Zaznacz tę opcję, jeżeli doświadczasz problemów z dźwiękiem. Miej na uwadze, że wówczas opóźnienie dźwięku będzie zauważalnie większe.</value>
   </data>
 </root>

@@ -130,11 +130,20 @@
   <data name="select_next" xml:space="preserve">
     <value>Következő kijelölés</value>
   </data>
-  <data name="select_previous_group" xml:space="preserve">
-    <value>Előző csoport kiválasztása</value>
+  <data name="activate_previous_set" xml:space="preserve">
+    <value>Előző set aktíválása</value>
   </data>
-  <data name="select_next_group" xml:space="preserve">
-    <value>Következő csoport kiválasztása</value>
+  <data name="activate_next_set" xml:space="preserve">
+    <value>Következő beállítás aktiválása</value>
+  </data>
+  <data name="expand_previous_group" xml:space="preserve">
+    <value>Előző csoport kibontása</value>
+  </data>
+  <data name="expand_next_group" xml:space="preserve">
+    <value>Következő csoport kibontása</value>
+  </data>
+  <data name="toggle_current_group" xml:space="preserve">
+    <value>Az aktuális csoport kibontásának be- és kikapcsolása</value>
   </data>
   <data name="home" xml:space="preserve">
     <value>Főoldal</value>
@@ -166,8 +175,11 @@
   <data name="editor_clone_selection" xml:space="preserve">
     <value>Kiválasztás klónozása</value>
   </data>
-  <data name="editor_cycle_grid_display_mode" xml:space="preserve">
-    <value>Rácsos megjelenítési mód váltása</value>
+  <data name="editor_cycle_grid_spacing" xml:space="preserve">
+    <value>Rácstávolság változtatása</value>
+  </data>
+  <data name="editor_cycle_grid_type" xml:space="preserve">
+    <value>Rácstípus változtatása</value>
   </data>
   <data name="editor_test_gameplay" xml:space="preserve">
     <value>Játékmenet tesztelése</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>Véletlenszerű kinézet</value>
+  </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>Előző skin</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>Következő skin</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>Visszajátszás megállítása / újraindítása</value>
@@ -253,6 +271,9 @@
   <data name="step_replay_backward" xml:space="preserve">
     <value>Visszajátszás hátra léptetése egy képkockával</value>
   </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>Gyorsított visszajátszás</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Csevegés fókusz váltása</value>
   </data>
@@ -277,10 +298,55 @@
   <data name="editor_toggle_scale_control" xml:space="preserve">
     <value>Méretirányító ki/bekapcsolása</value>
   </data>
+  <data name="editor_test_play_toggle_autoplay" xml:space="preserve">
+    <value>Automatikus lejátszás ki-be kapcsolása</value>
+  </data>
+  <data name="editor_test_play_toggle_quick_pause" xml:space="preserve">
+    <value>Gyors szünet ki-be kapcsolása</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_initial_time" xml:space="preserve">
+    <value>Gyors kilépés a kezdő időpontra</value>
+  </data>
+  <data name="editor_test_play_quick_exit_to_current_time" xml:space="preserve">
+    <value>Gyors kilépés a jelenlegi időpontra</value>
+  </data>
   <data name="increase_mod_speed" xml:space="preserve">
     <value>Mod sebesség növelése</value>
   </data>
   <data name="decrease_mod_speed" xml:space="preserve">
     <value>Mod sebesség csökkentése</value>
+  </data>
+  <data name="editor_seek_to_previous_hit_object" xml:space="preserve">
+    <value>Előző találati objektumra ugrás</value>
+  </data>
+  <data name="editor_seek_to_next_hit_object" xml:space="preserve">
+    <value>Következő találati objektumra ugrás</value>
+  </data>
+  <data name="editor_seek_to_previous_sample_point" xml:space="preserve">
+    <value>Ugrás az előző mintavételi pontra</value>
+  </data>
+  <data name="editor_seek_to_next_sample_point" xml:space="preserve">
+    <value>Ugrás a következő mintavételi pontra</value>
+  </data>
+  <data name="editor_add_bookmark" xml:space="preserve">
+    <value>Könyvjelző hozzáadása</value>
+  </data>
+  <data name="editor_remove_closest_bookmark" xml:space="preserve">
+    <value>A legközelebbi könyvjelző eltávolítása</value>
+  </data>
+  <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
+    <value>Előző könyvjelzőhöz ugrás</value>
+  </data>
+  <data name="editor_seek_to_next_bookmark" xml:space="preserve">
+    <value>Ugrás a következő könyvjelzőre</value>
+  </data>
+  <data name="absolute_scroll_song_list" xml:space="preserve">
+    <value>Absolute dalok listája</value>
+  </data>
+  <data name="editor_toggle_move_control" xml:space="preserve">
+    <value>Mozgásvezérlés be-/kikapcsolása</value>
+  </data>
+  <data name="editor_discard_unsaved_changes" xml:space="preserve">
+    <value>Mentetlen változtatások elvetése</value>
   </data>
 </root>

@@ -65,10 +65,10 @@
     <value>csak rád vár</value>
   </data>
   <data name="running_tasks" xml:space="preserve">
-    <value>Futó feladatok</value>
+    <value>Futó Feladatok</value>
   </data>
   <data name="clear_all" xml:space="preserve">
-    <value>Összes törlése</value>
+    <value>Összes Törlése</value>
   </data>
   <data name="battery_low" xml:space="preserve">
     <value>Az akkumulátor töltöttségi szintje alacsony! Töltsd fel eszközöd, hogy elkerüld a játék közbeni megszakításokat.</value>
@@ -100,12 +100,6 @@
   <data name="unsupported_link_type" xml:space="preserve">
     <value>Ez a link típus még nem támogatott!</value>
   </data>
-  <data name="private_message_received" xml:space="preserve">
-    <value>Privát üzenetet kaptál "{0}" felhasználótól. Kattints az elolvasásához!</value>
-  </data>
-  <data name="your_name_was_mentioned" xml:space="preserve">
-    <value>A neved említve lett a csettben "{0}" által. Kattints, hogy megtudd miért!</value>
-  </data>
   <data name="invited_you_to_the_multiplayer" xml:space="preserve">
     <value>{0} meghívott téged a "{1}" többjátékos meccsre! Kattints a csatlakozáshoz.</value>
   </data>
@@ -130,5 +124,93 @@ Kattints, hogy lásd az újdonságokat!</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Frissítés letöltése...</value>
+  </data>
+  <data name="multiplayer_room_ended" xml:space="preserve">
+    <value>Ez a többjátékos szoba lezárult. Kattintson a szoba eredményeinek megtekintéséhez.</value>
+  </data>
+  <data name="mention" xml:space="preserve">
+    <value>Említés</value>
+  </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} ebben: {1}</value>
+  </data>
+  <data name="friend_online" xml:space="preserve">
+    <value>Online: {0}</value>
+  </data>
+  <data name="friend_offline" xml:space="preserve">
+    <value>Offline: {0}</value>
+  </data>
+  <data name="api_connection_interrupted" xml:space="preserve">
+    <value>Megszakadt a kapcsolat az online szolgáltatásokkal. Az osu! korlátozott funkcionalitással fog működni.</value>
+  </data>
+  <data name="another_device_disconnect" xml:space="preserve">
+    <value>Ezen az eszközön kijelentkeztél, mivel egy másik eszközön bejelentkeztél a fiókodba.</value>
+  </data>
+  <data name="account_change_disconnect" xml:space="preserve">
+    <value>A fiókjában történt változás miatt kijelentkezett. Kérjük, jelentkezzen be újra.</value>
+  </data>
+  <data name="downloading" xml:space="preserve">
+    <value>{0} Letöltése</value>
+  </data>
+  <data name="collections_import_initialising" xml:space="preserve">
+    <value>A gyűjtemények importálása előkészítés alatt áll...</value>
+  </data>
+  <data name="reading_collections" xml:space="preserve">
+    <value>Gyűjtemények olvasása...</value>
+  </data>
+  <data name="collections_import_progress" xml:space="preserve">
+    <value>{0} gyűjtemény importálva</value>
+  </data>
+  <data name="collections_import_progress_total" xml:space="preserve">
+    <value>{1} gyűjteményből {0} darabot importáltak</value>
+  </data>
+  <data name="error_automatically_reported" xml:space="preserve">
+    <value>Ezt a hibát automatikusan jelentették a fejlesztőcsapatnak.</value>
+  </data>
+  <data name="update_available" xml:space="preserve">
+    <value>Az osu! újabb verziója került elő ({0} → {1}).</value>
+  </data>
+  <data name="update_available_manual_install" xml:space="preserve">
+    <value>Kattintson ide az új verzió letöltéséhez, amelyet a meglévő telepítés felett is telepíthet.</value>
+  </data>
+  <data name="update_available_package_managed" xml:space="preserve">
+    <value>Kérdezze meg a csomagkezelőjét vagy szolgáltatóját, hogyan frissítheti az osu!-t!</value>
+  </data>
+  <data name="action_interrupted_by_dialog" xml:space="preserve">
+    <value>Egy művelet megszakadt, mert megjelent egy párbeszédablak.</value>
+  </data>
+  <data name="file_export_ongoing" xml:space="preserve">
+    <value>{0} exportálása...</value>
+  </data>
+  <data name="file_export_finished" xml:space="preserve">
+    <value>{0} exportálva! Kattintson a megtekintéshez.</value>
+  </data>
+  <data name="logs_export_ongoing" xml:space="preserve">
+    <value>Naplófájlok exportálása...</value>
+  </data>
+  <data name="logs_export_finished" xml:space="preserve">
+    <value>Exportált naplófájlok! Kattintson a megtekintéshez.</value>
+  </data>
+  <data name="elevated_privileges" xml:space="preserve">
+    <value>Az osu! {0} felhasználóként való futtatása nem javítja a teljesítményt, megzavarhatja az integrációkat, és biztonsági kockázatot jelent. Kérjük, futtassa a játékot normál felhasználóként.</value>
+  </data>
+  <data name="macos_app_location" xml:space="preserve">
+    <value>MacOS rendszeren az osu! játéknak a /Applications vagy a {0}/Applications könyvtáron kívüli helyre történő telepítése problémákat okozhat a játék frissítésekor. Kérjük, helyezd át a játék telepítési könyvtárát az egyik fenti helyre.</value>
+  </data>
+  <data name="screenshot_saved" xml:space="preserve">
+    <value>A képernyőkép elmentve! Kattintson a megtekintéshez.
+{0}</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
+    <value>A többjátékos szerver hamarosan újra elérhető lesz...</value>
+  </data>
+  <data name="multiplayer_server_shutting_down_remaining" xml:space="preserve">
+    <value>A többjátékos szerver {0} után újraindul.</value>
+  </data>
+  <data name="collection_created" xml:space="preserve">
+    <value>Létrehoztam egy új gyűjteményt „{0}” néven, amely {1} beatmapet tartalmaz.</value>
+  </data>
+  <data name="collection_beatmaps_added" xml:space="preserve">
+    <value>{0} beatmap-et hozzáadtam a „{1}” gyűjteményhez.</value>
   </data>
 </root>

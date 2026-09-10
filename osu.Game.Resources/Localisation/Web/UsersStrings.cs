@@ -625,6 +625,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowDailyChallengeUnitWeek(LocalisableString valuew) => new TranslatableString(getKey(@"show.daily_challenge.unit.week"), @"{0}", valuew);
 
         /// <summary>
+        /// "Show less details"
+        /// </summary>
+        public static LocalisableString ShowDetailSwitchToV1 => new TranslatableString(getKey(@"show.detail_switch.to_v1"), @"Show less details");
+
+        /// <summary>
+        /// "Show more details"
+        /// </summary>
+        public static LocalisableString ShowDetailSwitchToV2 => new TranslatableString(getKey(@"show.detail_switch.to_v2"), @"Show more details");
+
+        /// <summary>
         /// "Change Profile Cover"
         /// </summary>
         public static LocalisableString ShowEditCoverButton => new TranslatableString(getKey(@"show.edit.cover.button"), @"Change Profile Cover");
@@ -1200,9 +1210,44 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoWebsite => new TranslatableString(getKey(@"show.info.website"), @"Website");
 
         /// <summary>
+        /// "Losses"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingLosses => new TranslatableString(getKey(@"show.matchmaking.losses"), @"Losses");
+
+        /// <summary>
+        /// "Total Matches"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingPlays => new TranslatableString(getKey(@"show.matchmaking.plays"), @"Total Matches");
+
+        /// <summary>
+        /// "Rank"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRank => new TranslatableString(getKey(@"show.matchmaking.rank"), @"Rank");
+
+        /// <summary>
+        /// "Rating"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRating => new TranslatableString(getKey(@"show.matchmaking.rating"), @"Rating");
+
+        /// <summary>
+        /// "Latest Match History"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRecentHistory => new TranslatableString(getKey(@"show.matchmaking.recent_history"), @"Latest Match History");
+
+        /// <summary>
+        /// "Tier"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingTier => new TranslatableString(getKey(@"show.matchmaking.tier"), @"Tier");
+
+        /// <summary>
         /// "Ranked Play"
         /// </summary>
         public static LocalisableString ShowMatchmakingTitle => new TranslatableString(getKey(@"show.matchmaking.title"), @"Ranked Play");
+
+        /// <summary>
+        /// "Wins"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingWins => new TranslatableString(getKey(@"show.matchmaking.wins"), @"Wins");
 
         /// <summary>
         /// "They may have changed their username."
@@ -1315,9 +1360,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowSeasonStatsDivisionTopPercentage(LocalisableString value) => new TranslatableString(getKey(@"show.season_stats.division_top_percentage"), @"Top {0}", value);
 
         /// <summary>
+        /// "Spotlights"
+        /// </summary>
+        public static LocalisableString ShowSeasonStatsLabel => new TranslatableString(getKey(@"show.season_stats.label"), @"Spotlights");
+
+        /// <summary>
         /// "Total score"
         /// </summary>
         public static LocalisableString ShowSeasonStatsTotalScore => new TranslatableString(getKey(@"show.season_stats.total_score"), @"Total score");
+
+        /// <summary>
+        /// "Solo Play"
+        /// </summary>
+        public static LocalisableString ShowSoloTitle => new TranslatableString(getKey(@"show.solo.title"), @"Solo Play");
 
         /// <summary>
         /// "Hit Accuracy"

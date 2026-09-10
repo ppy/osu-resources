@@ -24,6 +24,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString NameAppModelsBeatmapset => new TranslatableString(getKey(@"name.app\models\beatmapset"), @"beatmap");
 
+        /// <summary>
+        /// "score"
+        /// </summary>
+        public static LocalisableString NameAppModelsSoloScore => new TranslatableString(getKey(@"name.app\models\solo\score"), @"score");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

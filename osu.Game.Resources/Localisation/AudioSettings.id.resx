@@ -112,13 +112,10 @@
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
     <value>Apabila diaktifkan, offset yang disarankan dari permainan terakhir pada beatmap akan diterapkan secara otomatis.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Gunakan mode audio eksperimental</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Gunakan mode audio lawas</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Pengaturan ini akan mencoba untuk menjalankan mesin audio pada mode latensi yang lebih rendah.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Karena latensi yang lebih rendah, offset audio kamu akan perlu disesuaikan pada saat mengaktifkan pengaturan ini. Pada umumnya, kamu akan harus mengurangi 20 - 60 ms dari offset yang biasa kamu gunakan.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Gunakan pengaturan ini apabila kamu mengalami masalah audio. Mohon diperhatikan bahwa jeda audio yang ada akan lebih tinggi pada saat pengaturan ini aktif.</value>
   </data>
 </root>
