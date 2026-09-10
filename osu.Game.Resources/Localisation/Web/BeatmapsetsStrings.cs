@@ -160,6 +160,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString NsfwBadgeLabel => new TranslatableString(getKey(@"nsfw_badge.label"), @"Explicit");
 
         /// <summary>
+        /// "Invalid rating."
+        /// </summary>
+        public static LocalisableString RateInvalid => new TranslatableString(getKey(@"rate.invalid"), @"Invalid rating.");
+
+        /// <summary>
         /// "Discussion"
         /// </summary>
         public static LocalisableString ShowDiscussion => new TranslatableString(getKey(@"show.discussion"), @"Discussion");

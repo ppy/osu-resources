@@ -35,9 +35,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexBlurbImportant => new TranslatableString(getKey(@"index.blurb.important"), @"READ THIS BEFORE DOWNLOADING");
 
         /// <summary>
-        /// "Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest."
+        /// "Installation: Once a pack has been downloaded, extract the contents of the pack into a folder, select the osz files and then drag and drop them to a running osu! instance."
         /// </summary>
-        public static LocalisableString IndexBlurbInstallInstruction => new TranslatableString(getKey(@"index.blurb.install_instruction"), @"Installation: Once a pack has been downloaded, extract the contents of the pack into your osu! Songs directory and osu! will do the rest.");
+        public static LocalisableString IndexBlurbInstallInstruction => new TranslatableString(getKey(@"index.blurb.install_instruction"), @"Installation: Once a pack has been downloaded, extract the contents of the pack into a folder, select the osz files and then drag and drop them to a running osu! instance.");
 
         /// <summary>
         /// "by {0}"
@@ -48,6 +48,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Download"
         /// </summary>
         public static LocalisableString ShowDownload => new TranslatableString(getKey(@"show.download"), @"Download");
+
+        /// <summary>
+        /// "Challenge"
+        /// </summary>
+        public static LocalisableString ShowNoDiffReductionBadge => new TranslatableString(getKey(@"show.no_diff_reduction_badge"), @"Challenge");
 
         /// <summary>
         /// "cleared"
