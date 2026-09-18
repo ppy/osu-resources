@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Farben</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Akzentfarben aus dem Beatmap-Hintergrund:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Hit-Circle- / Slider-Combos</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Tonspur</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Das Video wird verwendet anstatt dem statischen Hintergrund, falls vorhanden. Beatmap-Downloads werden mit oder ohne Video angeboten, also wenn ein Video hinzugefügt wird, sollte auch ein passender Hintergrund bereitgestellt werden.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Eigene Samplesets</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Klicke, um einen Titel auszuwählen</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Klicken, um ein Video auszuwählen</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klicken, um ein Hintergrundbild auszuwählen</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Nur auf diese Schwierigkeitsstufe anwenden</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Synchronisiere Metadaten mit allen Schwierigkeiten</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Kopiert Künstler, Titel, Quelle und Tags in alle Schwierigkeiten.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Spielmodus ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Ziehe ein Bild hierher, um den Beatmap-Hintergrund einzustellen!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Video hierhin ziehen, um Beatmap-Video festzulegen!</value>
   </data>
 </root>

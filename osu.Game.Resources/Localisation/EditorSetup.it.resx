@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Colori</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Colori principali dallo sfondo della beatmap:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Combo per cerchi/slider</value>
   </data>
@@ -107,16 +110,16 @@
     <value>Aggiunge delle bande nere per dare un aspetto cinematografico durante le pause.</value>
   </data>
   <data name="samples_match_playback_rate" xml:space="preserve">
-    <value>Intona i campionamenti audio alla velocità in gioco</value>
+    <value>Intona i suoni alla velocità in gioco</value>
   </data>
   <data name="samples_match_playback_rate_description" xml:space="preserve">
-    <value>Se abilitato, tutti i campionamenti audio verranno velocizzati o rallentati quando sono attive mod con modifiche alla velocità.</value>
+    <value>Se abilitato, tutti i suoni verranno velocizzati o rallentati quando sono attive mod con modifiche alla velocità.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
     <value>La dimensione di tutti gli oggetti</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
-    <value>Il grado di drenaggio passivo della vita durante il tempo giocabile</value>
+    <value>Il livello di drenaggio passivo della vita durante il tempo giocabile</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
     <value>La velocità con cui gli oggetti vengono mostrati al giocatore</value>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Traccia audio</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Il video verrà usato al posto dell'immagine di sfondo, se presente. I download delle beatmap sono offerti sia con che senza video, quindi se si aggiunge un video, dovrebbe essere aggiunta anche un'immagine di sfondo corrispondente.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
-    <value>Set di campioni audio personalizzati</value>
+    <value>Liste suoni personalizzati</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Clicca per selezionare una traccia</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Clicca per selezionare un video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Clicca per selezionare un'immagine di sfondo</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Applica solo a questa difficoltà</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sincronizza i metadati su tutte le difficoltà</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Applica artista, titolo, origine ed etichette su tutte le difficoltà.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Modalità ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Puoi trascinare qui per applicare lo sfondo!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Trascina qui il video per impostarlo come video della beatmap!</value>
   </data>
 </root>

@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Kolorystyka</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Odcień kolorów z tła beatmapy:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Kolory kółek i sliderów w combo</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Ścieżka audio</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Wideo</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Wideo będzie użyte zamiast tła, jeśli jest obecne. Pobrania z beatmap są oferowane zarówno z jak i bez wideo, więc jeśli zostało dodane wideo, pasujące tło powinno być również zaoferowane.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Niestandardowe zestawy sampli</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Kliknij, by wybrać ścieżkę</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Kliknij, aby wybrać wideo</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Kliknij, by wybrać tło</value>
@@ -178,6 +190,12 @@
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Zastosuj wyłącznie dla tego poziomu trudności</value>
   </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Synchronizuj metadane między poziomami trudności</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Kopiuje artystę, tytuł, źródło oraz tagi do pozostałych poziomów trudności.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>Tryb gry ({0})</value>
   </data>
@@ -188,12 +206,15 @@
     <value>Artysta</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>Tytul</value>
+    <value>Tytuł</value>
   </data>
   <data name="difficulty_header" xml:space="preserve">
     <value>Trudność</value>
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Przeciągnij obraz tutaj, by ustawić tło beatmapy!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Przeciągnij wideo tutaj, aby ustawić wideo dla beatmapy!</value>
   </data>
 </root>

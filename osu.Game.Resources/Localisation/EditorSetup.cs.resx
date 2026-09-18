@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Barvy</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Paleta barev z pozadí beatmapy:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Komba hit koleček / sliderů</value>
   </data>
@@ -116,7 +119,7 @@
     <value>Velikost všech hit objektů</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
-    <value>Rychlost pasivního ubývání života v průběhu hraní</value>
+    <value>Rychlost pasivního vysávání životů v průběhu hraní</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
     <value>Rychlost, kterou se objekty ukazují hráči</value>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Zvuková Stopa</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Video bude použito namísto statického pozadí, když je přítomno. Stahování beatmap je nabízeno jak s videem, tak bez videa, takže pokud přidáš video, měl bys poskytnout také odpovídající pozadí.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Vlastní sady zvukových vzorků</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Klikni pro výběr stopy</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Klikni pro výběr videa</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klikni pro zvolení obrázku pozadí</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Použít pouze pro tuto obtížnost</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Synchronizovat metadata se všemi obtížnostmi</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Zkopíruje umělce, název, zdroj a označení do všech obtížností.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Ruleset ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Přetáhni sem obrázek pro nastavení pozadí beatmapy!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Přetáhni sem video pro nastavení videa beatmapy!</value>
   </data>
 </root>

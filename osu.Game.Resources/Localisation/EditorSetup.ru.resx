@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Цвета</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Акцентные цвета фона карты:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Комбо нот/слайдеров</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Аудиотрек</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Видео заменит статичный фон, если оно есть. Пользователи смогут скачать карту как с видео, так и без, поэтому при добавлении видео необходимо также загрузить подходящий фон.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
-    <value>Пользовательские наборы сэмплов</value>
+    <value>Пользовательские группы сэмплов</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Нажмите здесь, чтобы выбрать трек</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Нажмите здесь, чтобы выбрать видео</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Нажмите здесь, чтобы выбрать фон</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Применить только к этой сложности</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Синхронизировать метаданные всех сложностей</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Копирует исполнителя, название, источник и теги во все сложности.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Настройки режима ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Перетащите изображение сюда, чтобы установить фон карты!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Перетащите видео сюда, чтобы установить его!</value>
   </data>
 </root>

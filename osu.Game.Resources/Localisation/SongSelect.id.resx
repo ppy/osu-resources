@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>Accuracy</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>Jendela hit {0}</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>HP Drain</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Memengaruhi laju hilangnya nyawa pasif dan jumlah nyawa yang hilang akibat miss.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Kecepatan Gulir Not</value>
@@ -131,10 +137,10 @@
     <value>Perbarui beatmap mengikuti perubahan online</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
-    <value>Tandai sebagai sudah dimainkan</value>
+    <value>Tandai sudah dimainkan</value>
   </data>
   <data name="remove_from_played" xml:space="preserve">
-    <value>Hapus dari sudah dimainkan</value>
+    <value>Lepas tanda sudah dimainkan</value>
   </data>
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Hapus semua skor lokal</value>
@@ -213,5 +219,8 @@
   </data>
   <data name="mostly_bpm" xml:space="preserve">
     <value>sebagian besarnya {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} kecocokan|{0:#,0} kecocokan</value>
   </data>
 </root>

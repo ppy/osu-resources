@@ -71,13 +71,16 @@
     <value>标明物件圆圈</value>
   </data>
   <data name="auto_seek_on_placement" xml:space="preserve">
-    <value>放置物件后时间轴自动跳转</value>
+    <value>放置物件后自动跳转时间轴</value>
   </data>
   <data name="timing" xml:space="preserve">
     <value>时间轴</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
-    <value>将预览点设为当前时间</value>
+    <value>设置当前时间为预览点</value>
+  </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>将所有物件吸附到当前节拍细分</value>
   </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>在修改时间轴时，同步移动所有已经放置的物件</value>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (吸附网格)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>使用间距锁定时限制物件时间点</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>限制当前时间的物件数量</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>自动收起侧边栏</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>移至下一书签</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>删除所有书签</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>重置书签...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>打开谱面详情页</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>整个谱面</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>很抱歉，当前游戏模式暂不支持保存！</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>导出失败！</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>导入失败！</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>打开文件夹</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>正在清理...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>正在导出用于外部编辑的文件...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>谱面已在外部挂载</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>对导出文件夹的内容所做的任何更改都将会导入到游戏中，例如：增添、删除、修改文件。</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>新连击</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>音效组</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>基础音效组</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>附加音效组</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>音量</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>样本组</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>样本组</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>同步...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>转到上一个</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>转到下一个</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>转到上一个时间点</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>转到下一个时间点</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>转到第一个物件/音轨起始位置</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>从音轨起始位置开始游玩</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>切换暂停</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>转到最后一个物件/音轨结束位置</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>切换新连击</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>切换 whistle 音效</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>切换 finish 音效</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>切换 clap 音效</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>将默认打击音效设为自动配置</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>将默认打击音效设为 normal 组</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>将默认打击音效设为 soft 组</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>将默认打击音效设为 drum 组</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>将附加打击音效设为自动配置</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>将附加打击音效设为 normal 组</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>将附加打击音效设为 soft 组</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>将附加打击音效设为 drum 组</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>切换距离吸附网格</value>
   </data>
 </root>

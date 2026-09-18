@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Tetapkan waktu saat ini sebagai titik pratinjau</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Ratakan semua objek permainan ke derik ketukan saat ini</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Pindahkan objek yang sudah ditempatkan pada saat mengubah timing</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (sesuai sudut)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Batasi penempatan distance snap pada waktu saat ini</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Batasi penempatan ke waktu saat ini</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Sembunyikan panel samping pada saat tidak dilayangi oleh kursor</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Tuju markah selanjutnya</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Atur ulang markah</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Atur ulang markah...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Buka halaman informasi beatmap</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Keseluruhan set beatmap</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Maaf, penyimpanan saat ini belum didukung untuk ruleset ini!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Ekspor gagal!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Impor gagal!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Buka folder</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Membersihkan...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Mengekspor untuk penyuntingan...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Beatmap ini dikaitkan secara eksternal</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Segala perubahan yang dibuat pada folder yang diekspor akan diimpor ke dalam permainan, yang meliputi penambahan, modifikasi, dan penghapusan berkas.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Kombo baru</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Bank normal</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Bank tambahan</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Sampel</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Set sampel</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Sinkronkan...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Geser mundur</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Geser maju</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Tuju titik timing sebelumnya</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Tuju titik timing selanjutnya</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Tuju objek pertama / awal lagu</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Mainkan dari awal lagu</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Jeda linimasa</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Tuju objek terakhir / akhir lagu</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Pasang kombo baru</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Pasang suara whistle</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Pasang suara finish</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Pasang suara clap</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Atur bank sampel normal ke auto</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Atur bank sampel normal ke normal</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Atur bank sampel normal ke soft</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Atur bank sampel normal ke drum</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Atur bank sampel tambahan ke auto</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Atur bank sampel tambahan ke normal</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Atur bank sampel tambahan ke soft</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Atur bank sampel tambahan ke drum</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Aktifkan jentikan jarak</value>
   </data>
 </root>

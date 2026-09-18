@@ -89,15 +89,36 @@
     <value>Czy na pewno chcesz odrzucić wszystkie niezapisane zmiany? Ta czynność jest nieodwracalna.</value>
   </data>
   <data name="save_required_dialog_header" xml:space="preserve">
-    <value>Beatmapa zostanie zapisana wraz z kontynuowaniem tej operacji.</value>
+    <value>Beatmapa zostanie zapisana, aby kontynuować tę operację.</value>
   </data>
   <data name="sounds_good" xml:space="preserve">
-    <value>Brzmi dobrze, lecimy!</value>
+    <value>Kontynuuj</value>
   </data>
   <data name="delete_difficulty_details" xml:space="preserve">
     <value>Poziom trudności „{0}” ({1} obiektów)</value>
   </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>Spowoduje to nadpisanie artysty, tytułu, źródła oraz tagów w innych poziomach trudności. Ta czynność jest nieodwracalna.</value>
+  </data>
   <data name="all_bookmarks" xml:space="preserve">
     <value>Wszystkie zakładki</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>Przesunąć wszystkie nuty do aktualnego podzielnika rytmu?</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>Każda nuta w tym poziomie będzie przesunięta do najbliższego punktu odliczania dla twojego aktualnego podzielnika rytmu. Czas trwania suwaka i przytrzymania może się zmienić. Możesz to cofnąć z historii edytora.</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>Synchronizować atrybuty timingu?</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>Wybierz atrybuty timingu do synchronizowania z tym poziomem trudności to wszystkich innych trudności. Tego nie da się cofnąć.</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>Zakładki</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>Punkt podglądu</value>
   </data>
 </root>

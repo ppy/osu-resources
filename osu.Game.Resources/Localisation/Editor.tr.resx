@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Önizleme noktasını geçerli saate ayarla</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Tüm notaları mevcut ızgara bölenine göre hizala</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Zamanlamayı değiştirirken yerleştirilmiş nesnelerin yerini de değiştir</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (sabitlendi)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Distance snap yerleşimini geçerli zamanla sınırlayın</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Yerleştirmeyi şu anki zamana sınırla</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Kenar çubuklarını üzerine gelinmediğinde daraltın</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Sonraki yer imine git</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Yer işaretlerini sıfırla</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Yer işaretlerini sıfırla...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Beatmap bilgi sayfasını aç</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Tüm beatmap seti</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Bu kural seti için henüz kaydetme desteklenmiyor, özür dileriz!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Dışa aktarım başarısız!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>İçe aktarma başarısız!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Dosyayı aç</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Temizleniyor...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Edit için dışa aktarılıyor...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Beatmap harici olarak yüklendi</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Dışa aktarılan klasör yapılan; dosya ekleme, modifikasyonlar, ve silmeler dahil bütün değişiklikler oyuna eklenecektir.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Yeni kombo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Kasa</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Normal kasa</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Ek kasa</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Ses Seviyesi</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Örnek</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Örnek seti</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Senkronize et...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Geri sar</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>İleri sar</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Önceki örnek noktasına git</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Sonraki örnek noktasına git</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>İlk nesneye / parça başlangıcına git</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Parça başlangıcından oynat</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Duraklatmayı Aç/Kapat</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Son nesneye / parça başlangıcına git</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Yeni kombo aç/kapat</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Düdük sesini aç/kapat</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Bitirme sesini aç/kapat</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Alkış sesini aç/kapat</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Normal örnek bankasını otomatik olarak ayarla</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Normal örnek bankasını normal olarak ayarla</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Normal örnek bankasını yumuşak olarak ayarla</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Normal örnek bankasını davul olarak ayarla</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Ek örnek bankasını otomatik olarak ayarla</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Ek örnek bankasını normal olarak ayarla</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Ek örnek bankasını yumuşak olarak ayarla</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Ek örnek bankasını davul olarak ayarla</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Mesafe hizalama ızgarasını aç/kapat</value>
   </data>
 </root>
