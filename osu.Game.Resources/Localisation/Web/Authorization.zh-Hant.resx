@@ -136,6 +136,12 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>你不能修改已提名的圖譜資訊。如果你認為有誤，請聯絡 BN 或 NAT 成員。</value>
   </data>
+  <data name="beatmapset.rate.owner" xml:space="preserve">
+    <value>你不能評分你參與的圖譜。</value>
+  </data>
+  <data name="beatmapset.rate.status" xml:space="preserve">
+    <value>你不能在該圖譜目前的狀態下評分。</value>
+  </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
     <value>您必須先在一個圖譜取得分數才能新增標籤。</value>
   </data>
@@ -293,13 +299,13 @@
     <value>無法置頂這類分數。</value>
   </data>
   <data name="score.pin.failed" xml:space="preserve">
-    <value>無法置頂未過關的成績。</value>
+    <value>無法置頂未過關的分數。</value>
   </data>
   <data name="score.pin.not_owner" xml:space="preserve">
     <value>只有擁有者才可置頂成績。</value>
   </data>
   <data name="score.pin.too_many" xml:space="preserve">
-    <value>置頂過多成績。</value>
+    <value>置頂太多分數。</value>
   </data>
   <data name="team.application.store.already_member" xml:space="preserve">
     <value>你已經是此團隊成員了。</value>

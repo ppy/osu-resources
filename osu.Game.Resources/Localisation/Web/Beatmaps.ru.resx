@@ -94,8 +94,11 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Отказано в получении кудосу.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Включая их ответы</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
-    <value>Эта сложность была удалена, и поэтому обсуждать её больше нельзя.</value>
+    <value>Эта сложность была удалена, её больше нельзя обсудить.</value>
   </data>
   <data name="discussions.message_placeholder_locked" xml:space="preserve">
     <value>Возможность обсуждения этой карты закрыта.</value>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Показать удалённые</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Показать ответы других</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Обсуждение</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Если {0} начинается с тайм-кода, он появится в разделе "Тайм-коды".</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>вставить ноту</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>вставить параграф</value>
   </data>
@@ -362,13 +371,13 @@
     <value>Уже хайпанута!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Вы уверены? Это необратимое действие; будет использован один из {0} хайпов.</value>
+    <value>Вы уверены? Будет использован 1 из {0} хайпов. Это действие необратимо.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
-    <value>Хайпаните эту карту, чтобы дать ей доступ к номинированию и выходу в рейтинг!</value>
+    <value>Хайпаните эту карту, чтобы повысить её шансы на номинации и выход в рейтинг!</value>
   </data>
   <data name="hype.explanation_guest" xml:space="preserve">
-    <value>Войдите в аккаунт, чтобы дать этой карте доступ к номинированию и выходу в рейтинг!</value>
+    <value>Войдите в аккаунт, чтобы хайпануть эту карту и повысить её шансы на номинации и выход в рейтинг!</value>
   </data>
   <data name="hype.new_time" xml:space="preserve">
     <value>Вы получите ещё один хайп {0}.</value>

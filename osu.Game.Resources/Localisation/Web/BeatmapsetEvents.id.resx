@@ -104,7 +104,7 @@
     <value>Pemberian kudosu pada topik diskusi {0} ditolak.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>{0} meraup cukup suara untuk memperoleh kudosu dari topik diskusi {1}.</value>
+    <value>Topik diskusi {0} oleh {1} mendapatkan cukup suara untuk memperoleh kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
     <value>{0} kehilangan suara dari topik diskusi {1} dan kudosu yang sebelumnya diberikan telah dianulir.</value>
@@ -137,7 +137,7 @@
     <value>Offset online diubah dari {0} menjadi {1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Beatmap memperoleh jumlah nominasi yang dibutuhkan untuk menyandang status Qualified.</value>
+    <value>Beatmap berhasil memperoleh jumlah nominasi yang dibutuhkan dan sudah berstatus Qualified.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Ranked.</value>
@@ -181,6 +181,9 @@
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Penghapusan topik diskusi</value>
   </data>
+  <data name="type.discussion_lock" xml:space="preserve">
+    <value>Penguncian topik diskusi</value>
+  </data>
   <data name="type.discussion_post_delete" xml:space="preserve">
     <value>Penghapusan pesan balasan</value>
   </data>
@@ -189,6 +192,9 @@
   </data>
   <data name="type.discussion_restore" xml:space="preserve">
     <value>Pemulihan topik diskusi</value>
+  </data>
+  <data name="type.discussion_unlock" xml:space="preserve">
+    <value>Pembukaan kunci topik diskusi</value>
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Diskualifikasi</value>
@@ -246,5 +252,8 @@
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
     <value>Pelepasan status Loved</value>
+  </data>
+  <data name="type.tags_edit" xml:space="preserve">
+    <value>Penyuntingan tag</value>
   </data>
 </root>

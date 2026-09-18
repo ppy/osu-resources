@@ -59,10 +59,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="defaults.page_description" xml:space="preserve">
-    <value>osu! - Rytmus je len o klikaní! Spolu s Quendan/EBA, Taikem a originálnými hernými módmi a plne funkčným level editorom.</value>
+    <value>osu! - Rytmus je len o klikaní! Spolu s Quendan/EBA, Taikom a originálnými hernými módmi a plne funkčným level editorom.</value>
+  </data>
+  <data name="header.admin.contest" xml:space="preserve">
+    <value>súťaž</value>
+  </data>
+  <data name="header.admin.contests" xml:space="preserve">
+    <value>súťaže</value>
+  </data>
+  <data name="header.admin.root" xml:space="preserve">
+    <value>konzola</value>
+  </data>
+  <data name="header.artists.index" xml:space="preserve">
+    <value>výpis</value>
+  </data>
+  <data name="header.beatmapsets.show" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="header.beatmapsets.discussions" xml:space="preserve">
+    <value>diskusia</value>
+  </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>história verzií</value>
+  </data>
+  <data name="header.changelog.index" xml:space="preserve">
+    <value>výpis</value>
+  </data>
+  <data name="header.help.index" xml:space="preserve">
+    <value>index</value>
+  </data>
+  <data name="header.help.sitemap" xml:space="preserve">
+    <value>Mapa webu</value>
+  </data>
+  <data name="header.store.cart" xml:space="preserve">
+    <value>košík</value>
+  </data>
+  <data name="header.store.orders" xml:space="preserve">
+    <value>história objednávok</value>
+  </data>
+  <data name="header.store.products" xml:space="preserve">
+    <value>produkty</value>
+  </data>
+  <data name="header.tournaments.index" xml:space="preserve">
+    <value>výpis</value>
+  </data>
+  <data name="header.users.modding" xml:space="preserve">
+    <value>modovanie</value>
+  </data>
+  <data name="header.users.playlists" xml:space="preserve">
+    <value>playlisty</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>hodnotené hranie</value>
+  </data>
+  <data name="header.users.realtime" xml:space="preserve">
+    <value>hra pre viacerých hráčov</value>
   </data>
   <data name="header.users.show" xml:space="preserve">
     <value>informácie</value>
+  </data>
+  <data name="gallery.close" xml:space="preserve">
+    <value>Zavrieť (Esc)</value>
+  </data>
+  <data name="gallery.fullscreen" xml:space="preserve">
+    <value>Zobraziť na celej obrazovke</value>
+  </data>
+  <data name="gallery.zoom" xml:space="preserve">
+    <value>Priblížiť/Oddialiť</value>
+  </data>
+  <data name="gallery.previous" xml:space="preserve">
+    <value>Predchádzajúce (šípka doľava)</value>
+  </data>
+  <data name="gallery.next" xml:space="preserve">
+    <value>Ďalšie (šípka doprava)</value>
   </data>
   <data name="menu.beatmaps._" xml:space="preserve">
     <value>beatmapy</value>
@@ -75,6 +144,9 @@
   </data>
   <data name="menu.help._" xml:space="preserve">
     <value>pomoc</value>
+  </data>
+  <data name="menu.help.getabuse" xml:space="preserve">
+    <value>nahlásiť zneužitie</value>
   </data>
   <data name="menu.help.getfaq" xml:space="preserve">
     <value>faq</value>
@@ -107,7 +179,7 @@
     <value>Zoznam zmien</value>
   </data>
   <data name="footer.general.beatmaps" xml:space="preserve">
-    <value>Zoznam beatmap</value>
+    <value>Zoznam beatmáp</value>
   </data>
   <data name="footer.general.download" xml:space="preserve">
     <value>Stiahnuť osu!</value>
@@ -138,6 +210,9 @@
   </data>
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Súkromie</value>
+  </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Pravidlá</value>
   </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Stav Serveru</value>
@@ -193,6 +268,9 @@
   <data name="errors.reference" xml:space="preserve">
     <value>Tu je kód, ktorý môžeš napísať na podporu!</value>
   </data>
+  <data name="popup_login.button" xml:space="preserve">
+    <value>prihlásiť sa / registrácia</value>
+  </data>
   <data name="popup_login.login.forgot" xml:space="preserve">
     <value>Zabudol som svoje údaje</value>
   </data>
@@ -202,14 +280,20 @@
   <data name="popup_login.login.title" xml:space="preserve">
     <value>Pre pokračovanie sa prihláste</value>
   </data>
+  <data name="popup_login.login.username" xml:space="preserve">
+    <value>používateľské meno</value>
+  </data>
   <data name="popup_login.login.error.email" xml:space="preserve">
     <value>Užívateľské meno alebo e-mailová adresa neexistuje</value>
   </data>
   <data name="popup_login.login.error.password" xml:space="preserve">
     <value>Nesprávne heslo</value>
   </data>
+  <data name="popup_login.register.download" xml:space="preserve">
+    <value>Stiahnuť</value>
+  </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>Potrebujete účet, pane. Prečo teda jeden nemáte?</value>
+    <value>Stiahni osu! na vytvorenie účtu!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
     <value>Nemáte účet?</value>
@@ -217,14 +301,29 @@
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Nastavenia</value>
   </data>
+  <data name="popup_user.links.create_team" xml:space="preserve">
+    <value>Vytvoriť Tím</value>
+  </data>
+  <data name="popup_user.links.follows" xml:space="preserve">
+    <value>Zoznamy sledovaných</value>
+  </data>
   <data name="popup_user.links.friends" xml:space="preserve">
     <value>Priatelia</value>
+  </data>
+  <data name="popup_user.links.legacy_score_only_toggle" xml:space="preserve">
+    <value>Režim lazer</value>
   </data>
   <data name="popup_user.links.logout" xml:space="preserve">
     <value>Odhlásiť Sa</value>
   </data>
   <data name="popup_user.links.profile" xml:space="preserve">
     <value>Môj Profil</value>
+  </data>
+  <data name="popup_user.links.scoring_mode_toggle" xml:space="preserve">
+    <value>Klasické bodovanie</value>
+  </data>
+  <data name="popup_user.links.team" xml:space="preserve">
+    <value>Môj Tím</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
     <value>Zadaj hladaný výraz!</value>

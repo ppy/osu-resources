@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="deleted" xml:space="preserve">
+    <value>[pengguna dipadam]</value>
+  </data>
+  <data name="beatmapset_activities.title" xml:space="preserve">
+    <value>Sejarah Penyelarasan {0}</value>
+  </data>
+  <data name="beatmapset_activities.title_compact" xml:space="preserve">
+    <value>Penyelarasan</value>
+  </data>
+  <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
+    <value>Perbincangan yang dimulakan terkini</value>
+  </data>
+  <data name="beatmapset_activities.events.title_recent" xml:space="preserve">
+    <value>Peristiwa semasa</value>
+  </data>
+  <data name="beatmapset_activities.posts.title_recent" xml:space="preserve">
+    <value>Hantaran semasa</value>
+  </data>
+  <data name="beatmapset_activities.votes_received.title_most" xml:space="preserve">
+    <value>Paling diundi naik oleh (3 bulan terkini)</value>
+  </data>
+  <data name="beatmapset_activities.votes_made.title_most" xml:space="preserve">
+    <value>Paling diundi naik (3 bulan terkini)</value>
+  </data>
+  <data name="blocks.banner_text" xml:space="preserve">
+    <value>Anda telah menyekat pengguna ini.</value>
+  </data>
+  <data name="blocks.comment_text" xml:space="preserve">
+    <value>Komen ini disorok.</value>
+  </data>
+  <data name="blocks.blocked_count" xml:space="preserve">
+    <value>{0} pengguna disekat</value>
+  </data>
+  <data name="blocks.hide_profile" xml:space="preserve">
+    <value>Sorok profil</value>
+  </data>
+  <data name="blocks.hide_comment" xml:space="preserve">
+    <value>sorok</value>
+  </data>
+  <data name="blocks.forum_post_text" xml:space="preserve">
+    <value>Hantaran ini disorok.</value>
+  </data>
+  <data name="blocks.not_blocked" xml:space="preserve">
+    <value>Pengguna itu tidak disekat.</value>
+  </data>
+  <data name="blocks.show_profile" xml:space="preserve">
+    <value>Tunjuk profil</value>
+  </data>
+  <data name="blocks.show_comment" xml:space="preserve">
+    <value>tunjuk</value>
+  </data>
+  <data name="blocks.too_many" xml:space="preserve">
+    <value>Had sekatan dicapai.</value>
+  </data>
+  <data name="blocks.button.block" xml:space="preserve">
+    <value>Sekat</value>
+  </data>
+  <data name="blocks.button.unblock" xml:space="preserve">
+    <value>Nyahsekat</value>
+  </data>
+  <data name="card.gift_supporter" xml:space="preserve">
+    <value>Hadiahkan tag penyokong</value>
+  </data>
+  <data name="card.loading" xml:space="preserve">
+    <value>Memuatkan...</value>
+  </data>
+  <data name="card.send_message" xml:space="preserve">
+    <value>Kirim pesanan</value>
+  </data>
+  <data name="create.form.password" xml:space="preserve">
+    <value>kata laluan</value>
+  </data>
+  <data name="create.form.password_confirmation" xml:space="preserve">
+    <value>sahkan kata laluan</value>
+  </data>
+  <data name="create.form.submit" xml:space="preserve">
+    <value>cipta akaun</value>
+  </data>
+  <data name="create.form.user_email" xml:space="preserve">
+    <value>e-mel</value>
+  </data>
+  <data name="create.form.user_email_confirmation" xml:space="preserve">
+    <value>sahkan e-mel</value>
+  </data>
+  <data name="create.form.username" xml:space="preserve">
+    <value>nama pengguna</value>
+  </data>
+  <data name="create.form.tos_notice._" xml:space="preserve">
+    <value>dengan mencipta akaun anda menerima {0}</value>
+  </data>
+  <data name="create.form.tos_notice.link" xml:space="preserve">
+    <value>syarat perkhidmatan</value>
+  </data>
+  <data name="disabled.title" xml:space="preserve">
+    <value>Alamak! Nampaknya akaun anda telah dilumpuhkan.</value>
+  </data>
+  <data name="disabled.warning" xml:space="preserve">
+    <value>Sekiranya anda telah melanggar peraturan, sila catat bahawa terdapat tempoh bertenang selama sebulan yang mana kami tidak akan pertimbangkan sebarang permintaan pengampunan. Setelah tempoh ini, anda dipersilakan untuk menghubungi kami jika perlu. Sila catat bahawa jika anda mencipta akaun baru selepas pelumpuhan akaun sebelumnya, &lt;strong&gt;tempoh bertenang sebulan akan dilanjutkan&lt;/strong&gt;. Sila catat juga &lt;strong&gt;anda terus melanggar peraturan untuk setiap akaun yang dicipta&lt;/strong&gt;. Kami sarankan anda tidak membuat demikian!</value>
+  </data>
+  <data name="disabled.if_mistake._" xml:space="preserve">
+    <value>Sekiranya anda berasa ini satu kesilapan, anda dialu-alukan untuk menghubungi kami (melalui {0} atau dengan mengklik "?" pada bucu kanan bahagian bawah halaman ini). Sila catat bahawa kami selalu yakin sepenuhnya dengan tindakan kami kerana berpangkalkan data yang sangat kukuh. Kami berhak mengendah permintaan anda sekiranya kami berasa anda secara sengaja tidak jujur.</value>
+  </data>
+  <data name="disabled.if_mistake.email" xml:space="preserve">
+    <value>e-mel</value>
+  </data>
+  <data name="disabled.reasons.compromised" xml:space="preserve">
+    <value>Akaun anda telah dianggap terjejas. Akaun ini mungkin dilumpuhkan sementara sambil identiti disahkan.</value>
+  </data>
+  <data name="disabled.reasons.opening" xml:space="preserve">
+    <value>Terdapat beberapa sebab yang boleh menyebabkan akaun anda dilumpuhkan:</value>
+  </data>
+  <data name="disabled.reasons.tos._" xml:space="preserve">
+    <value>Anda telah melanggar satu atau lebih daripada {0} atau {1} kami.</value>
+  </data>
+  <data name="disabled.reasons.tos.community_rules" xml:space="preserve">
+    <value>peraturan komuniti</value>
+  </data>
+  <data name="disabled.reasons.tos.tos" xml:space="preserve">
+    <value>syarat perkhidmatan</value>
+  </data>
+  <data name="filtering.by_game_mode" xml:space="preserve">
+    <value>Ahli menurut mod mainan</value>
+  </data>
+  <data name="force_reactivation.reason.inactive" xml:space="preserve">
+    <value>Akaun anda telah lama tidak digunakan.</value>
+  </data>
+  <data name="force_reactivation.reason.inactive_different_country" xml:space="preserve">
+    <value>Akaun anda telah lama tidak digunakan.</value>
+  </data>
+  <data name="login._" xml:space="preserve">
+    <value>Daftar masuk</value>
+  </data>
+  <data name="login.button" xml:space="preserve">
+    <value>Daftar masuk</value>
+  </data>
+  <data name="login.button_posting" xml:space="preserve">
+    <value>Mendaftar masuk...</value>
+  </data>
+  <data name="login.email_login_disabled" xml:space="preserve">
+    <value>Pendaftaran masuk dengan e-mel kini dilumpuhkan. Sila guna nama pengguna pula.</value>
+  </data>
+  <data name="login.failed" xml:space="preserve">
+    <value>Daftar masuk yang salah</value>
+  </data>
+  <data name="login.forgot" xml:space="preserve">
+    <value>Lupa kata laluan?</value>
+  </data>
+  <data name="login.info" xml:space="preserve">
+    <value>Sila daftar masuk untuk teruskan</value>
+  </data>
+  <data name="login.invalid_captcha" xml:space="preserve">
+    <value>Terlalu banyak percubaan log masuk gagal. Sila lengkapkan captcha dan cuba lagi. (Segar semula halaman sekiranya captcha tidak tampak)</value>
+  </data>
+  <data name="login.locked_ip" xml:space="preserve">
+    <value>Alamat IP anda dikunci. Sila tunggu beberapa minit.</value>
+  </data>
+  <data name="login.password" xml:space="preserve">
+    <value>Kata Laluan</value>
+  </data>
+  <data name="login.register" xml:space="preserve">
+    <value>Tiada akaun osu!? Cipta satu sekarang</value>
+  </data>
+  <data name="login.remember" xml:space="preserve">
+    <value>Ingat komputer ini</value>
+  </data>
+  <data name="login.title" xml:space="preserve">
+    <value>Sila daftar masuk untuk teruskan</value>
+  </data>
+  <data name="login.username" xml:space="preserve">
+    <value>Nama Pengguna</value>
+  </data>
+  <data name="login.beta.main" xml:space="preserve">
+    <value>Akses beta kini dihadkan kepada pengguna istimewa.</value>
+  </data>
+  <data name="login.beta.small" xml:space="preserve">
+    <value>(osu!supporters akan masuk sebentar lagi)</value>
+  </data>
+  <data name="multiplayer.index.active" xml:space="preserve">
+    <value>Giat</value>
+  </data>
+  <data name="multiplayer.index.ended" xml:space="preserve">
+    <value>Tamat</value>
+  </data>
+  <data name="ogp.modding_description" xml:space="preserve">
+    <value>Peta rentak: {0}</value>
+  </data>
+  <data name="ogp.modding_description_empty" xml:space="preserve">
+    <value>Pengguna ini tidak mempunyai apa-apa peta rentak...</value>
+  </data>
+  <data name="ogp.description._" xml:space="preserve">
+    <value>Pangkat ({0}): {1} | {2}</value>
+  </data>
+  <data name="ogp.description.country" xml:space="preserve">
+    <value>Kebangsaan {0}</value>
+  </data>
+  <data name="ogp.description.global" xml:space="preserve">
+    <value>Global {0}</value>
+  </data>
+  <data name="posts.title" xml:space="preserve">
+    <value>Hantaran {0}</value>
+  </data>
+  <data name="anonymous.login_link" xml:space="preserve">
+    <value>klik untuk daftar masuk</value>
+  </data>
+  <data name="anonymous.login_text" xml:space="preserve">
+    <value>daftar masuk</value>
+  </data>
+  <data name="anonymous.username" xml:space="preserve">
+    <value>Tamu</value>
+  </data>
+  <data name="anonymous.error" xml:space="preserve">
+    <value>Anda perlu mendaftar masuk untuk melakukan tindakan ini.</value>
+  </data>
+  <data name="logout_confirm" xml:space="preserve">
+    <value>Pastikah nak daftar keluar? :(</value>
+  </data>
+  <data name="report.button_text" xml:space="preserve">
+    <value>Laporkan</value>
+  </data>
+  <data name="report.comments" xml:space="preserve">
+    <value>Komen</value>
+  </data>
+  <data name="report.placeholder" xml:space="preserve">
+    <value>Sila berikan mana-mana maklumat yang anda rasa bermanfaat.</value>
+  </data>
+  <data name="report.reason" xml:space="preserve">
+    <value>Sebab</value>
+  </data>
+  <data name="report.thanks" xml:space="preserve">
+    <value>Terima kasih atas laporan anda!</value>
+  </data>
+  <data name="report.title" xml:space="preserve">
+    <value>Laporkan {0}?</value>
+  </data>
+  <data name="report.actions.send" xml:space="preserve">
+    <value>Kirim Laporan</value>
+  </data>
+  <data name="report.actions.cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Sila laporkan pelanggaran hak cipta melalui aduan Akta Hak Cipta Alaf Digital (DMCA) ke {0} sesuai dengan {1}.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>dasar hak cipta osu!</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Hal ini diterapkan sekiranya runut audio, kandungan tampak atau kandungan tahap peta rentak digunakan tanpa izin yang betul.</value>
+  </data>
+  <data name="report.options.cheating" xml:space="preserve">
+    <value>Menipu</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Pelanggaran hak cipta</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Perilaku perbualan tidak senonoh</value>
+  </data>
+  <data name="report.options.insults" xml:space="preserve">
+    <value>Menghina saya / orang lain</value>
+  </data>
+  <data name="report.options.multiple_accounts" xml:space="preserve">
+    <value>Menggunakan lebih daripada satu akaun</value>
+  </data>
+  <data name="report.options.nonsense" xml:space="preserve">
+    <value>Mengarut</value>
+  </data>
+  <data name="report.options.other" xml:space="preserve">
+    <value>Lain-lain (taip di bawah)</value>
+  </data>
+  <data name="report.options.spam" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="report.options.unwanted_content" xml:space="preserve">
+    <value>Memaut kandungan tidak enak</value>
+  </data>
+  <data name="restricted_banner.title" xml:space="preserve">
+    <value>Akaun anda telah dihadkan!</value>
+  </data>
+  <data name="restricted_banner.message" xml:space="preserve">
+    <value>Ketika dihadkan, anda tidak boleh berinteraksi dengan pemain lain dan markah anda akan tampak untuk anda sahaja. Hal ini biasanya hasil proses automatik dan akan ditarik balik dalam masa 24 jam. {0}</value>
+  </data>
+  <data name="restricted_banner.message_link" xml:space="preserve">
+    <value>Semak halaman ini untuk belajar lebih lanjut.</value>
+  </data>
+  <data name="show.age" xml:space="preserve">
+    <value>{0} tahun</value>
+  </data>
+  <data name="show.change_avatar" xml:space="preserve">
+    <value>ubah avatar anda!</value>
+  </data>
+  <data name="show.first_members" xml:space="preserve">
+    <value>Di sini sejak permulaan</value>
+  </data>
+  <data name="show.is_developer" xml:space="preserve">
+    <value>pembangun osu!</value>
+  </data>
+  <data name="show.is_supporter" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.joined_at" xml:space="preserve">
+    <value>Sertai {0}</value>
+  </data>
+  <data name="show.lastvisit" xml:space="preserve">
+    <value>Pelihatan terkini {0}</value>
+  </data>
+  <data name="show.lastvisit_online" xml:space="preserve">
+    <value>Kini dalam talian</value>
+  </data>
+  <data name="show.missingtext" xml:space="preserve">
+    <value>Anda mungkin tersilap taip! (atau pengguna mungkin dilarang)</value>
+  </data>
+  <data name="show.origin_country" xml:space="preserve">
+    <value>Dari {0}</value>
+  </data>
+  <data name="show.previous_usernames" xml:space="preserve">
+    <value>dahulu dikenali selaku</value>
+  </data>
+  <data name="show.plays_with" xml:space="preserve">
+    <value>Bermain dengan {0}</value>
+  </data>
+  <data name="show.comments_count._" xml:space="preserve">
+    <value>Dihantar {0}</value>
+  </data>
+  <data name="show.comments_count.count" xml:space="preserve">
+    <value>{0} komen</value>
+  </data>
+  <data name="show.cover.to_0" xml:space="preserve">
+    <value>Sorok kulit</value>
+  </data>
+  <data name="show.cover.to_1" xml:space="preserve">
+    <value>Tunjuk kulit</value>
+  </data>
+  <data name="show.daily_challenge.daily" xml:space="preserve">
+    <value>Turutan Harian</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_best" xml:space="preserve">
+    <value>Turutan Harian Terbaik</value>
+  </data>
+  <data name="show.daily_challenge.daily_streak_current" xml:space="preserve">
+    <value>Turutan Harian Terkini</value>
+  </data>
+  <data name="show.daily_challenge.playcount" xml:space="preserve">
+    <value>Jumlah Pesertaan</value>
+  </data>
+  <data name="show.daily_challenge.title" xml:space="preserve">
+    <value>Cabaran\nHarian</value>
+  </data>
+  <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
+    <value>Kedudukan 10% Teratas</value>
+  </data>
+  <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
+    <value>Kedudukan 50% Teratas</value>
+  </data>
+  <data name="show.daily_challenge.weekly" xml:space="preserve">
+    <value>Turutan Mingguan</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_best" xml:space="preserve">
+    <value>Turutan Mingguan Terbaik</value>
+  </data>
+  <data name="show.daily_challenge.weekly_streak_current" xml:space="preserve">
+    <value>Turutan Mingguan Semasa</value>
+  </data>
+  <data name="show.daily_challenge.unit.day" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.daily_challenge.unit.week" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.edit.cover.button" xml:space="preserve">
+    <value>Ubah Kulit Profil</value>
+  </data>
+  <data name="show.edit.cover.defaults_info" xml:space="preserve">
+    <value>Pilihan kulit lain akan tersedia kelak</value>
+  </data>
+  <data name="show.edit.cover.holdover_remove_confirm" xml:space="preserve">
+    <value>Kulit yang dipilih sebelumnya tidak tersedia untuk dipilih lagi. Anda tidak boleh pilih semula setelah mengubah ke kulit lain. Teruskan juga?</value>
+  </data>
+  <data name="show.edit.cover.title" xml:space="preserve">
+    <value>Kulit</value>
+  </data>
+  <data name="show.edit.cover.upload.broken_file" xml:space="preserve">
+    <value>Gagal memproses gambar. Sahkan gambar yang dimuat naik dan cuba lagi.</value>
+  </data>
+  <data name="show.edit.cover.upload.button" xml:space="preserve">
+    <value>Muat naik gambar</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone" xml:space="preserve">
+    <value>Lepaskan di sini untuk memuat naik</value>
+  </data>
+  <data name="show.edit.cover.upload.dropzone_info" xml:space="preserve">
+    <value>Anda juga boleh lepaskan gambar di sini untuk muat naik</value>
+  </data>
+  <data name="show.edit.cover.upload.size_info" xml:space="preserve">
+    <value>Ukuran kulit sepatutnya 2400x640</value>
+  </data>
+  <data name="show.edit.cover.upload.too_large" xml:space="preserve">
+    <value>Fail yang dimuat naik terlalu besar.</value>
+  </data>
+  <data name="show.edit.cover.upload.unsupported_format" xml:space="preserve">
+    <value>Format tidak disokong.</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info._" xml:space="preserve">
+    <value>Muat naik tersedia untuk {0} sahaja</value>
+  </data>
+  <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
+    <value>mod mainan asal</value>
+  </data>
+  <data name="show.edit.default_playmode.set" xml:space="preserve">
+    <value>tetapkan {0} selaku mod mainan asal profil</value>
+  </data>
+  <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
+    <value>Tetap semula warna ke asal? Tag penyokong akan diperlukan untuk mengubahnya ke warna lain.</value>
+  </data>
+  <data name="show.edit.hue.title" xml:space="preserve">
+    <value>Warna</value>
+  </data>
+  <data name="show.edit.hue.supporter._" xml:space="preserve">
+    <value>Tema warna tersuai tersedia untuk {0} sahaja</value>
+  </data>
+  <data name="show.edit.hue.supporter.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.extra.none" xml:space="preserve">
+    <value>tiada</value>
+  </data>
+  <data name="show.extra.unranked" xml:space="preserve">
+    <value>Tiada mainan terkini</value>
+  </data>
+  <data name="show.extra.achievements.achieved-on" xml:space="preserve">
+    <value>Dicapai pada {0}</value>
+  </data>
+  <data name="show.extra.achievements.locked" xml:space="preserve">
+    <value>Dikunci</value>
+  </data>
+  <data name="show.extra.achievements.title" xml:space="preserve">
+    <value>Pencapaian</value>
+  </data>
+  <data name="show.extra.beatmaps.by_artist" xml:space="preserve">
+    <value>oleh {0}</value>
+  </data>
+  <data name="show.extra.beatmaps.title" xml:space="preserve">
+    <value>Peta Rentak</value>
+  </data>
+  <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
+    <value>Peta Rentak Sukaan</value>
+  </data>
+  <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
+    <value>Peta Rentak di Kubur</value>
+  </data>
+  <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
+    <value>Peta Rentak Pesertaan Tamu</value>
+  </data>
+  <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
+    <value>Peta Rentak Kegemaran</value>
+  </data>
+  <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
+    <value>Calon Peta Rentak Berpangkat</value>
+  </data>
+  <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
+    <value>Peta Rentak Tergantung</value>
+  </data>
+  <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
+    <value>Peta Rentak Berpangkat</value>
+  </data>
+  <data name="show.extra.discussions.title" xml:space="preserve">
+    <value>Perbincangan</value>
+  </data>
+  <data name="show.extra.discussions.title_longer" xml:space="preserve">
+    <value>Perbincangan terkini</value>
+  </data>
+  <data name="show.extra.discussions.show_more" xml:space="preserve">
+    <value>lihat perbincangan lain</value>
+  </data>
+  <data name="show.extra.events.title" xml:space="preserve">
+    <value>Peristiwa</value>
+  </data>
+  <data name="show.extra.events.title_longer" xml:space="preserve">
+    <value>Peristiwa Semasa</value>
+  </data>
+  <data name="show.extra.events.show_more" xml:space="preserve">
+    <value>lihat peristiwa lain</value>
+  </data>
+  <data name="show.extra.historical.title" xml:space="preserve">
+    <value>Sejarah</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.title" xml:space="preserve">
+    <value>Sejarah Mainan</value>
+  </data>
+  <data name="show.extra.historical.monthly_playcounts.count_label" xml:space="preserve">
+    <value>Mainan</value>
+  </data>
+  <data name="show.extra.historical.most_played.count" xml:space="preserve">
+    <value>kali dimain</value>
+  </data>
+  <data name="show.extra.historical.most_played.title" xml:space="preserve">
+    <value>Peta Rentak Kerap</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.accuracy" xml:space="preserve">
+    <value>ketepatan: {0}</value>
+  </data>
+  <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
+    <value>Mainan Semasa (24 jam)</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
+    <value>Sejarah Tontonan Ulangan</value>
+  </data>
+  <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
+    <value>Tontonan Ulangan</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Ulangan Paling Banyak Ditonton</value>
+  </data>
+  <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
+    <value>Sejarah Kudosu Semasa</value>
+  </data>
+  <data name="show.extra.kudosu.title" xml:space="preserve">
+    <value>Kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.total" xml:space="preserve">
+    <value>Jumlah Kudosu Diperoleh</value>
+  </data>
+  <data name="show.extra.kudosu.entry.amount" xml:space="preserve">
+    <value>{0} kudosu</value>
+  </data>
+  <data name="show.extra.kudosu.entry.empty" xml:space="preserve">
+    <value>Pengguna ini belum pernah menerima kudosu!</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.allow_kudosu.give" xml:space="preserve">
+    <value>Memperoleh {0} dari pemansuhan penolakan kudosu untuk hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.deny_kudosu.reset" xml:space="preserve">
+    <value>{0} ditolak dari hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.delete.reset" xml:space="preserve">
+    <value>Kehilangan {0} dari pemadaman hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.restore.give" xml:space="preserve">
+    <value>Memperoleh {0} dari pemulihan hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.give" xml:space="preserve">
+    <value>Memperoleh {0} dari pemerolehan undian pada hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.vote.reset" xml:space="preserve">
+    <value>Kehilangan {0} dari kehilangan undian pada hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.give" xml:space="preserve">
+    <value>Memperoleh {0} dari kiraan semula undian pada hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.beatmap_discussion.recalculate.reset" xml:space="preserve">
+    <value>Kehilangan {0} dari kiraan semula undian pada hantaran penyelarasan {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.give" xml:space="preserve">
+    <value>{0} diterima daripada {1} untuk hantaran pada {2}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.reset" xml:space="preserve">
+    <value>Kudosu ditetap semula oleh {0} untuk hantaran {1}</value>
+  </data>
+  <data name="show.extra.kudosu.entry.forum_post.revoke" xml:space="preserve">
+    <value>Kudosu ditolak oleh {0} untuk hantaran {1}</value>
+  </data>
+  <data name="show.extra.kudosu.total_info._" xml:space="preserve">
+    <value>Berpangkalkan jumlah sumbangan yang dibuat pengguna kepada penyelarasan peta rentak. Lihat {0} untuk maklumat lanjut.</value>
+  </data>
+  <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
+    <value>halaman ini</value>
+  </data>
+  <data name="show.extra.me.title" xml:space="preserve">
+    <value>saya!</value>
+  </data>
+  <data name="show.extra.medals.empty" xml:space="preserve">
+    <value>Pengguna ini tidak mempunyai mana-mana lagi. ;m;</value>
+  </data>
+  <data name="show.extra.medals.recent" xml:space="preserve">
+    <value>Terkini</value>
+  </data>
+  <data name="show.extra.medals.title" xml:space="preserve">
+    <value>Pingat</value>
+  </data>
+  <data name="show.extra.playlists.title" xml:space="preserve">
+    <value>Mainan Senarai Main</value>
+  </data>
+  <data name="show.extra.posts.title" xml:space="preserve">
+    <value>Hantaran</value>
+  </data>
+  <data name="show.extra.posts.title_longer" xml:space="preserve">
+    <value>Hantaran Terkini</value>
+  </data>
+  <data name="show.extra.posts.show_more" xml:space="preserve">
+    <value>lihat hantaran lain</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Perlawanan Main Peringkat</value>
+  </data>
+  <data name="show.extra.recent_activity.title" xml:space="preserve">
+    <value>Terkini</value>
+  </data>
+  <data name="show.extra.realtime.title" xml:space="preserve">
+    <value>Mainan Pemain Ramai</value>
+  </data>
+  <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
+    <value>Muat Turun Ulangan</value>
+  </data>
+  <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
+    <value>Hanya peta rentak berpangkat memberi pp</value>
+  </data>
+  <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
+    <value>terwajar {0}</value>
+  </data>
+  <data name="show.extra.top_ranks.view_details" xml:space="preserve">
+    <value>Lihat Butiran</value>
+  </data>
+  <data name="show.extra.top_ranks.title" xml:space="preserve">
+    <value>Gred</value>
+  </data>
+  <data name="show.extra.top_ranks.best.title" xml:space="preserve">
+    <value>Prestasi Terbaik</value>
+  </data>
+  <data name="show.extra.top_ranks.first.title" xml:space="preserve">
+    <value>Gred Pangkat Pertama</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
+    <value>Nyahsemat</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_0_done" xml:space="preserve">
+    <value>Markah dinyahsemat</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1" xml:space="preserve">
+    <value>Semat</value>
+  </data>
+  <data name="show.extra.top_ranks.pin.to_1_done" xml:space="preserve">
+    <value>Markah disemat</value>
+  </data>
+  <data name="show.extra.top_ranks.pinned.title" xml:space="preserve">
+    <value>Markah yang Disemat</value>
+  </data>
+  <data name="show.extra.votes.given" xml:space="preserve">
+    <value>Undian Diberi (3 bulan terkini)</value>
+  </data>
+  <data name="show.extra.votes.received" xml:space="preserve">
+    <value>Undian Diterima (3 bulan terkini)</value>
+  </data>
+  <data name="show.extra.votes.title" xml:space="preserve">
+    <value>Undian</value>
+  </data>
+  <data name="show.extra.votes.title_longer" xml:space="preserve">
+    <value>Undian Terkini</value>
+  </data>
+  <data name="show.extra.votes.vote_count" xml:space="preserve">
+    <value>{0} undian</value>
+  </data>
+  <data name="show.extra.account_standing.title" xml:space="preserve">
+    <value>Kedudukan Akaun</value>
+  </data>
+  <data name="show.extra.account_standing.bad_standing" xml:space="preserve">
+    <value>Akaun {0} tidak berkedudukan baik :(</value>
+  </data>
+  <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
+    <value>{0} boleh bersuara lagi {1}.</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
+    <value>Pelanggaran Terkini</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.date" xml:space="preserve">
+    <value>tarikh</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.action" xml:space="preserve">
+    <value>tindakan</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length" xml:space="preserve">
+    <value>tempoh</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.length_indefinite" xml:space="preserve">
+    <value>Tidak tentu</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.description" xml:space="preserve">
+    <value>keterangan</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actor" xml:space="preserve">
+    <value>oleh {0}</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.restriction" xml:space="preserve">
+    <value>Larang</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.silence" xml:space="preserve">
+    <value>Diamkan</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.tournament_ban" xml:space="preserve">
+    <value>Larang dari kejohanan</value>
+  </data>
+  <data name="show.extra.account_standing.recent_infringements.actions.note" xml:space="preserve">
+    <value>Catat</value>
+  </data>
+  <data name="show.info.interests" xml:space="preserve">
+    <value>Minat</value>
+  </data>
+  <data name="show.info.location" xml:space="preserve">
+    <value>Tempat Semasa</value>
+  </data>
+  <data name="show.info.occupation" xml:space="preserve">
+    <value>Pekerjaan</value>
+  </data>
+  <data name="show.info.website" xml:space="preserve">
+    <value>Laman Sesawang</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Main Peringkat</value>
+  </data>
+  <data name="show.not_found.reason_1" xml:space="preserve">
+    <value>Dia mungkin telah mengubah nama penggunanya.</value>
+  </data>
+  <data name="show.not_found.reason_2" xml:space="preserve">
+    <value>Akaun ini mungkin tiada sementara ekoran isu keselamatan atau penyalahgunaan.</value>
+  </data>
+  <data name="show.not_found.reason_3" xml:space="preserve">
+    <value>Anda mungkin tersilap taip!</value>
+  </data>
+  <data name="show.not_found.reason_header" xml:space="preserve">
+    <value>Ada beberapa sebab yang mungkin:</value>
+  </data>
+  <data name="show.not_found.title" xml:space="preserve">
+    <value>Pengguna tidak ditemui! ;m;</value>
+  </data>
+  <data name="show.page.button" xml:space="preserve">
+    <value>sunting halaman profil</value>
+  </data>
+  <data name="show.page.description" xml:space="preserve">
+    <value>&lt;strong&gt;saya!&lt;/strong&gt; ialah satu kawasan mudah suai peribadi pada halaman profil anda.</value>
+  </data>
+  <data name="show.page.edit_big" xml:space="preserve">
+    <value>Sunting saya!</value>
+  </data>
+  <data name="show.page.placeholder" xml:space="preserve">
+    <value>Taip kandungan halaman di sini</value>
+  </data>
+  <data name="show.page.restriction_info._" xml:space="preserve">
+    <value>Anda perlu menjadi {0} untuk membuka kunci ciri ini.</value>
+  </data>
+  <data name="show.page.restriction_info.link" xml:space="preserve">
+    <value>osu!supporter</value>
+  </data>
+  <data name="show.post_count._" xml:space="preserve">
+    <value>Menyumbang {0}</value>
+  </data>
+  <data name="show.post_count.count" xml:space="preserve">
+    <value>{0} hantaran forum</value>
+  </data>
+  <data name="show.rank.country" xml:space="preserve">
+    <value>Pangkat kebangsaan {0}</value>
+  </data>
+  <data name="show.rank.country_simple" xml:space="preserve">
+    <value>Pangkat Kebangsaan</value>
+  </data>
+  <data name="show.rank.global" xml:space="preserve">
+    <value>Pangkat dunia {0}</value>
+  </data>
+  <data name="show.rank.global_simple" xml:space="preserve">
+    <value>Pangkat Dunia</value>
+  </data>
+  <data name="show.rank.highest" xml:space="preserve">
+    <value>Pangkat tertinggi: {0} pada {1}</value>
+  </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Algoritma Penarafan Bintang / PP baharu {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>sedang dikerahkan</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Skor terkini mungkin tidak serta-merta tercermin dalam profil pengguna.</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>{0} tertinggi</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Jumlah markah</value>
+  </data>
+  <data name="show.stats.hit_accuracy" xml:space="preserve">
+    <value>Ketepatan Pukulan</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Pukulan Setiap Permainan</value>
+  </data>
+  <data name="show.stats.level" xml:space="preserve">
+    <value>Level {0}</value>
+  </data>
+  <data name="show.stats.level_progress" xml:space="preserve">
+    <value>kemajuan ke tahap seterusnya</value>
+  </data>
+  <data name="show.stats.maximum_combo" xml:space="preserve">
+    <value>Gabungan Maksimum</value>
+  </data>
+  <data name="show.stats.medals" xml:space="preserve">
+    <value>Pingat</value>
+  </data>
+  <data name="show.stats.play_count" xml:space="preserve">
+    <value>Jumlah Mainan</value>
+  </data>
+  <data name="show.stats.play_time" xml:space="preserve">
+    <value>Jumlah Masa Permainan</value>
+  </data>
+  <data name="show.stats.ranked_score" xml:space="preserve">
+    <value>Markah Berpangkat</value>
+  </data>
+  <data name="show.stats.replays_watched_by_others" xml:space="preserve">
+    <value>Ulangan Tontonan Orang Lain</value>
+  </data>
+  <data name="show.stats.score_ranks" xml:space="preserve">
+    <value>Pangkat Markah</value>
+  </data>
+  <data name="show.stats.total_hits" xml:space="preserve">
+    <value>Jumlah Pukulan</value>
+  </data>
+  <data name="show.stats.total_score" xml:space="preserve">
+    <value>Jumlah Markah</value>
+  </data>
+  <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
+    <value>Peta Rentak di Kubur</value>
+  </data>
+  <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
+    <value>Peta Rentak Kegemaran</value>
+  </data>
+  <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
+    <value>Peta Rentak Tergantung</value>
+  </data>
+  <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
+    <value>Peta Rentak Berpangkat</value>
+  </data>
+  <data name="silenced_banner.title" xml:space="preserve">
+    <value>Anda kini didiamkan.</value>
+  </data>
+  <data name="silenced_banner.message" xml:space="preserve">
+    <value>Sesetengah tindakan mungkin tidak tersedia.</value>
+  </data>
+  <data name="status.all" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="status.online" xml:space="preserve">
+    <value>Dalam talian</value>
+  </data>
+  <data name="status.offline" xml:space="preserve">
+    <value>Luar Talian</value>
+  </data>
+  <data name="store.from_client" xml:space="preserve">
+    <value>sila mendaftar dari pelanggan mainan!</value>
+  </data>
+  <data name="store.from_web" xml:space="preserve">
+    <value>sila lengkapkan pendaftaran melalui laman sesawang osu!</value>
+  </data>
+  <data name="store.saved" xml:space="preserve">
+    <value>Pengguna dicipta</value>
+  </data>
+  <data name="verify.title" xml:space="preserve">
+    <value>Pengesahan Akaun</value>
+  </data>
+  <data name="view_mode.brick" xml:space="preserve">
+    <value>Penampilan batu-bata</value>
+  </data>
+  <data name="view_mode.card" xml:space="preserve">
+    <value>Penampilan kad</value>
+  </data>
+  <data name="view_mode.list" xml:space="preserve">
+    <value>Penampilan senarai</value>
+  </data>
+</root>

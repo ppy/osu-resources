@@ -427,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0} 周</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>收起详情</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>展开详情</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>更换个人资料封面</value>
   </data>
@@ -467,10 +473,10 @@
     <value>osu! 支持者</value>
   </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
-    <value>默认游戏模式</value>
+    <value>首选游戏模式</value>
   </data>
   <data name="show.edit.default_playmode.set" xml:space="preserve">
-    <value>设置 {0} 为个人资料的默认游戏模式</value>
+    <value>将 {0} 设为个人资料的首选游戏模式</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
     <value>确定重置颜色为默认吗？如果之后想要修改成其他颜色，需要您拥有支持者标签。</value>
@@ -563,7 +569,7 @@
     <value>准确率：{0}</value>
   </data>
   <data name="show.extra.historical.recent_plays.title" xml:space="preserve">
-    <value>最近24小时游玩</value>
+    <value>最近游玩（24小时）</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
     <value>回放被观看记录</value>
@@ -719,7 +725,7 @@
     <value>{0} 的账号存在违规行为 :(</value>
   </data>
   <data name="show.extra.account_standing.remaining_silence" xml:space="preserve">
-    <value>{0} 的禁言将在 {1} 后解除</value>
+    <value>{0} 的禁言将在 {1} 后解除。</value>
   </data>
   <data name="show.extra.account_standing.recent_infringements.title" xml:space="preserve">
     <value>近期违规行为记录</value>
@@ -766,8 +772,29 @@
   <data name="show.info.website" xml:space="preserve">
     <value>网站</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>失败次数</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>所有比赛</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>排名</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>等级分</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>最新比赛历史</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>段位</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
-    <value>匹配模式</value>
+    <value>排位模式</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>获胜次数</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>该用户可能已更改用户名。</value>
@@ -823,11 +850,26 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>{0} 达成生涯最高排名 {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>新的难度星级 / PP 算法 {0} 。</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>正在部署</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>近期上传的成绩可能无法立即反映在你的个人资料上。</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>排名前 {0}</value>
   </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>聚光灯</value>
+  </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>总分</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>单人游戏</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>准确率</value>

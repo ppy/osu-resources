@@ -82,8 +82,17 @@
   <data name="event.message.user_add_with_playmodes" xml:space="preserve">
     <value>{0}, {1} için {2} grubuna eklendi</value>
   </data>
+  <data name="event.message.user_add_playmodes" xml:space="preserve">
+    <value>{0} kullanıcısının {1} üyeliğine {2} eklendi.</value>
+  </data>
   <data name="event.message.user_remove" xml:space="preserve">
     <value>{0}, {1} grubundan kaldırıldı.</value>
+  </data>
+  <data name="event.message.user_remove_playmodes" xml:space="preserve">
+    <value>{0} kullanıcısının {1} üyeliğine {2} kaldırıldı.</value>
+  </data>
+  <data name="event.message.user_set_default" xml:space="preserve">
+    <value>{0} kullanıcısının varsayılan grubu {1} olarak ayarlandı</value>
   </data>
   <data name="form.group" xml:space="preserve">
     <value>Grup</value>
@@ -91,10 +100,22 @@
   <data name="form.group_all" xml:space="preserve">
     <value>Tüm gruplar</value>
   </data>
+  <data name="form.max_date" xml:space="preserve">
+    <value>ya kadar</value>
+  </data>
+  <data name="form.min_date" xml:space="preserve">
+    <value>dan</value>
+  </data>
   <data name="form.user" xml:space="preserve">
     <value>Kullanıcı</value>
   </data>
   <data name="form.user_prompt" xml:space="preserve">
     <value>Kullanıcı adı veya ID</value>
+  </data>
+  <data name="staff_log._" xml:space="preserve">
+    <value>Daha eski grup geçmişi {0} bulunabilir.</value>
+  </data>
+  <data name="staff_log.wiki_articles" xml:space="preserve">
+    <value>destek kayıt wiki makaleleri</value>
   </data>
 </root>

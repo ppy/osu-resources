@@ -229,6 +229,21 @@
   <data name="oauth.client.attributes.redirect" xml:space="preserve">
     <value>Alkalmazás Visszahívási URL</value>
   </data>
+  <data name="team.invalid_characters" xml:space="preserve">
+    <value>Ez a(z) {0} érvénytelen karaktereket tartalmaz.</value>
+  </data>
+  <data name="team.used" xml:space="preserve">
+    <value>Ez a(z) {0} választás már használva volt.</value>
+  </data>
+  <data name="team.word_not_allowed" xml:space="preserve">
+    <value>Ez a(z) {0} választás nem engedélyezett.</value>
+  </data>
+  <data name="team.attributes.default_ruleset_id" xml:space="preserve">
+    <value>Alapértmezett ruleset</value>
+  </data>
+  <data name="team.attributes.is_open" xml:space="preserve">
+    <value>Csapat jelentkezés</value>
+  </data>
   <data name="team.attributes.name" xml:space="preserve">
     <value>Név</value>
   </data>
@@ -336,6 +351,9 @@
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Nem vagy ebben a csatornában.</value>
+  </data>
+  <data name="user_report.in_team" xml:space="preserve">
+    <value>A csapat tagja vagy.</value>
   </data>
   <data name="user_report.reason_not_valid" xml:space="preserve">
     <value>ez a jelentés nem megfelelő, ehhez a jelentés fajtához.{0}.</value>

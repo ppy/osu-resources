@@ -145,6 +145,9 @@
   <data name="invoice.echeck_delay" xml:space="preserve">
     <value>Mivel a fizetésed egy eCheck volt, engedj meg neki legalább 10 napot a PayPal-es feldolgozásra!</value>
   </data>
+  <data name="invoice.echeck_denied" xml:space="preserve">
+    <value>A PayPal elutasította az eCheck-fizetést.</value>
+  </data>
   <data name="invoice.hide_from_activity" xml:space="preserve">
     <value>ebben a vásárlásban szereplő osu!supporter címkék nem jelennek meg a legutóbbi aktivitásaid között.</value>
   </data>
@@ -212,7 +215,7 @@
     <value>küldj nekünk egy emailt</value>
   </data>
   <data name="order.cancel" xml:space="preserve">
-    <value>Megrendelés törlése</value>
+    <value>Megrendelés Törlése</value>
   </data>
   <data name="order.cancel_confirm" xml:space="preserve">
     <value>Ez a megrendelés törlésre kerül, és fizetést nem fogadunk el érte. Előfordulhat, hogy a pénzforgalmi szolgáltató nem enged fel azonnal tartalékot. Biztos vagy ebben?</value>
@@ -221,7 +224,7 @@
     <value>Ez a megrendelés jelenleg nem törölhető.</value>
   </data>
   <data name="order.invoice" xml:space="preserve">
-    <value>Számla megtekintése</value>
+    <value>Számla Megtekintése</value>
   </data>
   <data name="order.no_orders" xml:space="preserve">
     <value>Nincs megtekinthető megrendelés.</value>
@@ -233,7 +236,7 @@
     <value>Fizetés Folytatása</value>
   </data>
   <data name="order.shipping_and_handling" xml:space="preserve">
-    <value>Szállítás és kezelés</value>
+    <value>Szállítás és Kezelés</value>
   </data>
   <data name="order.shopify_expired" xml:space="preserve">
     <value>A rendelés fizetési linkje lejárt.</value>
@@ -248,22 +251,22 @@
     <value>Rendelési szám</value>
   </data>
   <data name="order.details.payment_terms" xml:space="preserve">
-    <value>Fizetési feltételek</value>
+    <value>Fizetési Feltételek</value>
   </data>
   <data name="order.details.salesperson" xml:space="preserve">
     <value>Értékesítő</value>
   </data>
   <data name="order.details.shipping_method" xml:space="preserve">
-    <value>Szállítási mód</value>
+    <value>Szállítási Mód</value>
   </data>
   <data name="order.details.shipping_terms" xml:space="preserve">
-    <value>Szállítási feltételek</value>
+    <value>Szállítási Feltételek</value>
   </data>
   <data name="order.details.title" xml:space="preserve">
-    <value>Rendelés részletei</value>
+    <value>Rendelés Részletei</value>
   </data>
   <data name="order.item.quantity" xml:space="preserve">
-    <value>Mennyiség</value>
+    <value>mennyiség</value>
   </data>
   <data name="order.item.display_name.supporter_tag" xml:space="preserve">
     <value>{0} {1} ({2})</value>
@@ -311,7 +314,7 @@
     <value>Szállítás alatt</value>
   </data>
   <data name="order.status.title" xml:space="preserve">
-    <value>Rendelés állapota</value>
+    <value>Rendelés Állapota</value>
   </data>
   <data name="order.thanks.title" xml:space="preserve">
     <value>Köszönjük a megrendelést!</value>
@@ -332,10 +335,13 @@
     <value>Sajnos ez az elem nincs raktáron. A legördülő lista segítségével válassz egy másik fajtát, vagy nézz vissza később!</value>
   </data>
   <data name="product.add_to_cart" xml:space="preserve">
-    <value>Hozzáadás a kosárhoz</value>
+    <value>Hozzáadás a Kosárhoz</value>
   </data>
   <data name="product.notify" xml:space="preserve">
     <value>Értesíts amikor elérhető!</value>
+  </data>
+  <data name="product.out_of_stock" xml:space="preserve">
+    <value>Elfogyott</value>
   </data>
   <data name="product.notification_success" xml:space="preserve">
     <value>új készlet esetén értesítve leszel. kattints {0} a lemondáshoz</value>

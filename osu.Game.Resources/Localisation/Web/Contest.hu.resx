@@ -82,6 +82,9 @@
   <data name="judge.update" xml:space="preserve">
     <value>frissités</value>
   </data>
+  <data name="judge.unsaved_changes" xml:space="preserve">
+    <value>nem mentett módosítások</value>
+  </data>
   <data name="judge.validation.missing_score" xml:space="preserve">
     <value>hiányzó pontszám</value>
   </data>
@@ -89,7 +92,7 @@
     <value>bírált versenyeken nem szavazhat</value>
   </data>
   <data name="judge.voted" xml:space="preserve">
-    <value>Már leadott szavazatot erről a bejegyzésről.</value>
+    <value>Már leadtál szavazatot erre a bejegyzésre.</value>
   </data>
   <data name="judge_results._" xml:space="preserve">
     <value>Eredmények elbírálása</value>
@@ -100,14 +103,20 @@
   <data name="judge_results.score" xml:space="preserve">
     <value>Pontszám</value>
   </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Szabványosított pontszám</value>
+  </data>
   <data name="judge_results.total_score" xml:space="preserve">
     <value>összpontszám</value>
   </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>teljes szabványosított pontszám</value>
+  </data>
   <data name="voting.judge_link" xml:space="preserve">
-    <value>Ennek a versenynek a bírája vagy. Itt bírálhatod el a bejegyzéseket!</value>
+    <value>Ennek a versenynek a zsűrije vagy. Itt bírálhatod el a bejegyzéseket!</value>
   </data>
   <data name="voting.judged_notice" xml:space="preserve">
-    <value>Ez a verseny a bírálati rendszerrel zajlik, a bírálók jelenleg dolgoznak a bejegyzéseken.</value>
+    <value>Ez a verseny a bírálati rendszerrel zajlik, a zsűrik jelenleg dolgoznak a bejegyzéseken.</value>
   </data>
   <data name="voting.login_required" xml:space="preserve">
     <value>Kérlek jelentkezz be a szavazáshoz.</value>
@@ -151,11 +160,23 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Húzd a jelentkezésedet ide</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>Elfogadott fájlkiterjesztések: {0}</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Maximum méret: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>A méreteknek a következő formátumban kell szerepelniük: {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>.osz letöltése</value>
   </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Csak {0} kiterjesztésű fájlokat engedélyezettek erre a versenyre.</value>
+  </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
-    <value>A beküldéseknek erre a versenyre {0}{1} méretűnek kell lennie</value>
+    <value>A jelentkezéseknek erre a versenyre {0}{1} méretűnek kellenek lennie</value>
   </data>
   <data name="entry.too_big" xml:space="preserve">
     <value>A jelentkezések száma erre a versenyre csak {0} lehet.</value>
@@ -171,6 +192,9 @@
   </data>
   <data name="vote.points" xml:space="preserve">
     <value>{0} pont|{0} pontok</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} pontok</value>
   </data>
   <data name="dates.ended" xml:space="preserve">
     <value>Vége: {0}</value>
@@ -192,5 +216,8 @@
   </data>
   <data name="states.results" xml:space="preserve">
     <value>Kihirdetett Eredmény</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Információ és bejegyzések megtekintése</value>
   </data>
 </root>

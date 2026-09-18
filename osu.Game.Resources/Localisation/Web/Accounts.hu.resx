@@ -86,10 +86,10 @@
     <value>E-Mail</value>
   </data>
   <data name="edit.email.locked._" xml:space="preserve">
-    <value>Kérlek lépj kapcsolatba velük, ha az emailedet akarod frissíteni: {0} .</value>
+    <value>Kérlek lépj kapcsolatba velük, ha az e-mail címed akarod frissíteni: {0} .</value>
   </data>
   <data name="edit.email.locked.accounts" xml:space="preserve">
-    <value>fiók ügyfélszolgáltatás</value>
+    <value>fiók ügyfélszolgálat</value>
   </data>
   <data name="edit.legacy_api.api" xml:space="preserve">
     <value>api</value>
@@ -143,7 +143,7 @@
     <value>mentés</value>
   </data>
   <data name="github_user.info" xml:space="preserve">
-    <value>Ha közreműködsz osu! nyílt forráskódjához, itt összekapcsolhatod a GitHub fiókodat. Ez a változtatási naplóban az osu! profilodhoz linkeli a közreműködéseidet. Olyan fiókok amiknek még nincs közreműködési történelmük osu!-val nem csatlakoztathatók.</value>
+    <value>Ha közreműködsz osu! nyílt forráskódjához, itt összekapcsolhatod a GitHub fiókodat. Ez a változtatási naplóban az osu! profilodhoz linkeli a közreműködéseidet. Olyan fiókok amelyeknek még nincs közreműködési történelmük osu!-val nem csatlakoztathatók.</value>
   </data>
   <data name="github_user.link" xml:space="preserve">
     <value>GitHub fiók csatlakoztatása</value>
@@ -155,22 +155,28 @@
     <value>GitHub fiók csatlakoztatásának megszüntetése</value>
   </data>
   <data name="github_user.error.already_linked" xml:space="preserve">
-    <value>Ez a Gitahub fiók már csatlakozatva van egy másik felhasználóhoz.</value>
+    <value>Ez a GitHub fiók már csatlakoztatva van egy másik felhasználóhoz.</value>
   </data>
   <data name="github_user.error.no_contribution" xml:space="preserve">
-    <value>Nem lehet GitHub fiókot csatlakoztatni, ami még nem tett közreműködést osu! kódtárban.</value>
+    <value>Nem lehet GitHub fiókot csatlakoztatni, ami még nem tett közreműködést az osu! kódtárban.</value>
   </data>
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Kérlek igazold elsődleges GitHub email címedet és próbáld újra.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>értesítések küldése azokról a beatmap-vitákról, amelyekben részt veszel</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>értesítések kérése kvalifikált beatmapok problémáival kapcsolatban a következő módokból</value>
+    <value>értesítések küldése kvalifikált beatmapok problémáival kapcsolatban a következő módokból</value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>értesíts, ha a következő játékmódok egy beatmapje diszkvalifikálva lett</value>
+    <value>értesítések küldése, ha a következő játékmódok egy beatmapje diszkvalifikálva lett</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>értesítések küldése a kommentjeidre érkezett válaszokról</value>
+  </data>
+  <data name="notifications.news_post" xml:space="preserve">
+    <value>értesítések küldése hírekről</value>
   </data>
   <data name="notifications.title" xml:space="preserve">
     <value>Értesítések</value>
@@ -179,7 +185,7 @@
     <value>az általad létrehozott új fórum témák értesítéseinek automatikus bekapcsolása</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
-    <value>szállítási lehetőségek</value>
+    <value>küldési lehetőségek</value>
   </data>
   <data name="notifications.options.beatmap_owner_change" xml:space="preserve">
     <value>vendég nehézség</value>
@@ -187,14 +193,20 @@
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
     <value>beatmap modolás</value>
   </data>
+  <data name="notifications.options.channel_mention" xml:space="preserve">
+    <value>chat említés</value>
+  </data>
   <data name="notifications.options.channel_message" xml:space="preserve">
     <value>Privát üzenetek</value>
+  </data>
+  <data name="notifications.options.channel_team" xml:space="preserve">
+    <value>csapat chat üzenetek</value>
   </data>
   <data name="notifications.options.comment_new" xml:space="preserve">
     <value>Új megjegyzések</value>
   </data>
   <data name="notifications.options.forum_topic_reply" xml:space="preserve">
-    <value>Válaszolj erre a témára</value>
+    <value>fórumbeli válaszok</value>
   </data>
   <data name="notifications.options.mail" xml:space="preserve">
     <value>e-mail</value>
@@ -202,17 +214,50 @@
   <data name="notifications.options.mapping" xml:space="preserve">
     <value>beatmap készítő</value>
   </data>
+  <data name="notifications.options.news_post" xml:space="preserve">
+    <value>hír posztok</value>
+  </data>
   <data name="notifications.options.push" xml:space="preserve">
-    <value>Elöjövő</value>
+    <value>értesítés</value>
+  </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>amikor vendég-mapperként felvesznek egy beatmap nehézségi szintjére</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>amikor a követett beatmap-viták frissülnek, vagy ha a saját beatmapoddal kapcsolatban probléma merül fel, illetve javaslatot kapsz.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>amikor megemlítik a nevedet egy nyilvános csatornán</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>amikor új privát üzenetet kapsz</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>amikor a csapatod csevegőcsatornáján új üzenet érkezik</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>amikor új hozzászólás érkezik egy általad követett bejegyzéshez</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>amikor a követett fórumtémákhoz új hozzászólások érkeznek</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>amikor egy általad követett mapper feltölt egy beatmapet</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>amikor új hírek jelennek meg</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
-    <value>felhatalmazott kliensek</value>
+    <value>engedélyezett kliensek</value>
   </data>
   <data name="oauth.own_clients" xml:space="preserve">
     <value>külső alkalmazások</value>
   </data>
   <data name="oauth.title" xml:space="preserve">
     <value>OAuth</value>
+  </data>
+  <data name="options.beatmapset_show_anime_cover" xml:space="preserve">
+    <value>anime-stílusú beatmap-borítók megjelenítése</value>
   </data>
   <data name="options.beatmapset_show_nsfw" xml:space="preserve">
     <value>beatmapekben lévő felnőtt tartalmakra vonatkozó figyelmeztetések elrejtése</value>
@@ -224,7 +269,7 @@
     <value>Beállítások</value>
   </data>
   <data name="options.beatmapset_download._" xml:space="preserve">
-    <value>alapértelmezett beatmap letöltés típusa</value>
+    <value>alapértelmezett beatmap letöltési típus</value>
   </data>
   <data name="options.beatmapset_download.all" xml:space="preserve">
     <value>videóval, ha elérhető</value>
@@ -234,6 +279,9 @@
   </data>
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>videó nélkül</value>
+  </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>alapértelmezett játékmód</value>
   </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>billentyűzet</value>
@@ -255,6 +303,9 @@
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>online állapot elrejtése</value>
+  </data>
+  <data name="privacy.hide_online_info" xml:space="preserve">
+    <value>ez az osu!lazer „offline megjelenés” módjának felel meg</value>
   </data>
   <data name="privacy.title" xml:space="preserve">
     <value>Adatvédelem</value>
@@ -282,6 +333,27 @@
   </data>
   <data name="update_password.update" xml:space="preserve">
     <value>mentés</value>
+  </data>
+  <data name="user_totp.title" xml:space="preserve">
+    <value>Hitelesítő Alkalmazás</value>
+  </data>
+  <data name="user_totp.usage_note" xml:space="preserve">
+    <value>Azonosító alkalmazás használata e-mail helyett. Az e-mailes hitelesítés továbbra is elérhető lesz tartalék megoldásként.</value>
+  </data>
+  <data name="user_totp.button.remove" xml:space="preserve">
+    <value>Eltávolítás</value>
+  </data>
+  <data name="user_totp.button.setup" xml:space="preserve">
+    <value>Hitelesítő alkalmazás hozzáadása</value>
+  </data>
+  <data name="user_totp.status.label" xml:space="preserve">
+    <value>állapot</value>
+  </data>
+  <data name="user_totp.status.not_set" xml:space="preserve">
+    <value>Nincs beállítva</value>
+  </data>
+  <data name="user_totp.status.set" xml:space="preserve">
+    <value>Beállítva</value>
   </data>
   <data name="verification_completed.text" xml:space="preserve">
     <value>Mostmár bezárhatod ezt az oldalt</value>

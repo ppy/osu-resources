@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pinned_topics" xml:space="preserve">
+    <value>Piespraustās Tēmas</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>ir bīstami spēlēt vienam.</value>
+  </data>
+  <data name="subforums" xml:space="preserve">
+    <value>Apakšforuma</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="covers.edit" xml:space="preserve">
+    <value>Rediģēt Pārklājumu</value>
+  </data>
+  <data name="covers.create._" xml:space="preserve">
+    <value>Uzstādīt pārklājuma bildi</value>
+  </data>
+  <data name="covers.create.button" xml:space="preserve">
+    <value>Augšupielādēt attēlu</value>
+  </data>
+  <data name="covers.create.info" xml:space="preserve">
+    <value>Pārklājuma izmēram būtu jābūt ap {0}. Tu vari arī nomest bildi šeit, lai augšupielādētu.</value>
+  </data>
+  <data name="covers.destroy._" xml:space="preserve">
+    <value>Noņemt pārklājumu</value>
+  </data>
+  <data name="covers.destroy.confirm" xml:space="preserve">
+    <value>Vai tiešām esi pārliecināts, ka vēlies noņemt pārklājuma bildi?</value>
+  </data>
+  <data name="forums.forums" xml:space="preserve">
+    <value>Forumi</value>
+  </data>
+  <data name="forums.latest_post" xml:space="preserve">
+    <value>Beidzamais Raksts</value>
+  </data>
+  <data name="forums.index.title" xml:space="preserve">
+    <value>Foruma Indekss</value>
+  </data>
+  <data name="forums.topics.empty" xml:space="preserve">
+    <value>Nav tēmu!</value>
+  </data>
+  <data name="mark_as_read.forum" xml:space="preserve">
+    <value>Atzīmēt forumu kā lasītu</value>
+  </data>
+  <data name="mark_as_read.forums" xml:space="preserve">
+    <value>Atzīmēt forumus kā lasītus</value>
+  </data>
+  <data name="mark_as_read.busy" xml:space="preserve">
+    <value>Atzīmēt kā lasītu...</value>
+  </data>
+  <data name="post.confirm_destroy" xml:space="preserve">
+    <value>Vai tiešām izdzēst rakstu?</value>
+  </data>
+  <data name="post.confirm_restore" xml:space="preserve">
+    <value>Vai tiešām atjaunot rakstu?</value>
+  </data>
+  <data name="post.edited" xml:space="preserve">
+    <value>Beidzamo reizi rediģēja {0} {1}, rediģēts {2} reizes kopā.|Pēdējo reizi rediģēja {0} {1}, rediģēja {2} reizes kopā.</value>
+  </data>
+  <data name="post.posted_at" xml:space="preserve">
+    <value>publicēts {0}</value>
+  </data>
+  <data name="post.posted_by_in" xml:space="preserve">
+    <value>publicēja {0} , {1}</value>
+  </data>
+  <data name="post.actions.destroy" xml:space="preserve">
+    <value>Izdzēst rakstu</value>
+  </data>
+  <data name="post.actions.edit" xml:space="preserve">
+    <value>Rediģēt rakstu</value>
+  </data>
+  <data name="post.actions.report" xml:space="preserve">
+    <value>Ziņot rakstu</value>
+  </data>
+  <data name="post.actions.restore" xml:space="preserve">
+    <value>Atjaunot rakstu</value>
+  </data>
+  <data name="post.create.title.reply" xml:space="preserve">
+    <value>Jauna atbilde</value>
+  </data>
+  <data name="post.info.post_count" xml:space="preserve">
+    <value>{0} raksts|{0} raksti</value>
+  </data>
+  <data name="post.info.topic_starter" xml:space="preserve">
+    <value>Tēmas Uzsācējs</value>
+  </data>
+  <data name="search.go_to_post" xml:space="preserve">
+    <value>Dodies uz rakstu</value>
+  </data>
+  <data name="search.post_number_input" xml:space="preserve">
+    <value>ievadīt raksta numuru</value>
+  </data>
+  <data name="search.total_posts" xml:space="preserve">
+    <value>{0} raksti kopumā</value>
+  </data>
+  <data name="topic.confirm_destroy" xml:space="preserve">
+    <value>Vai tiešām dzēst tēmu?</value>
+  </data>
+  <data name="topic.confirm_restore" xml:space="preserve">
+    <value>Vai tiešām atjaunot tēmu?</value>
+  </data>
+  <data name="topic.deleted" xml:space="preserve">
+    <value>izdzēstā tēma</value>
+  </data>
+  <data name="topic.go_to_latest" xml:space="preserve">
+    <value>skatīt beidzamo rakstu</value>
+  </data>
+  <data name="topic.go_to_unread" xml:space="preserve">
+    <value>skatīt pirmo neizlasīto rakstu</value>
+  </data>
+  <data name="topic.has_replied" xml:space="preserve">
+    <value>Jūs atbildējāt uz šo tēmu</value>
+  </data>
+  <data name="topic.in_forum" xml:space="preserve">
+    <value>iekš {0}</value>
+  </data>
+  <data name="topic.latest_post" xml:space="preserve">
+    <value>{0} no {1}</value>
+  </data>
+  <data name="topic.latest_reply_by" xml:space="preserve">
+    <value>beidzamā atbilde no {0}</value>
+  </data>
+  <data name="topic.new_topic" xml:space="preserve">
+    <value>Jauna tēma</value>
+  </data>
+  <data name="topic.new_topic_login" xml:space="preserve">
+    <value>Ielogojieties, lai publicētu jaunu tēmu</value>
+  </data>
+  <data name="topic.post_reply" xml:space="preserve">
+    <value>Publicēt</value>
+  </data>
+  <data name="topic.reply_box_placeholder" xml:space="preserve">
+    <value>Rakstiet šeit, lai atbildētu</value>
+  </data>
+  <data name="topic.reply_title_prefix" xml:space="preserve">
+    <value>Re</value>
+  </data>
+  <data name="topic.started_by" xml:space="preserve">
+    <value>autors: {0}</value>
+  </data>
+  <data name="topic.started_by_verbose" xml:space="preserve">
+    <value>iesāka {0}</value>
+  </data>
+  <data name="topic.actions.destroy" xml:space="preserve">
+    <value>Dzēst tēmu</value>
+  </data>
+  <data name="topic.actions.restore" xml:space="preserve">
+    <value>Atjaunot tēmu</value>
+  </data>
+  <data name="topic.create.close" xml:space="preserve">
+    <value>Aizslēgts</value>
+  </data>
+  <data name="topic.create.preview" xml:space="preserve">
+    <value>Priekšskatījums</value>
+  </data>
+  <data name="topic.create.preview_hide" xml:space="preserve">
+    <value>Rakstīt</value>
+  </data>
+  <data name="topic.create.submit" xml:space="preserve">
+    <value>Publicēt</value>
+  </data>
+  <data name="topic.create.necropost.default" xml:space="preserve">
+    <value>Šī tēma jau kādu laiku ir neaktīva. Publicējiet šeit tikai tad, ja jums ir konkrēts iemesls to darīt.</value>
+  </data>
+  <data name="topic.create.necropost.new_topic._" xml:space="preserve">
+    <value>Šī tēma jau kādu laiku ir neaktīva. Ja jums nav konkrēta iemesla šeit rakstīt, lūdzu, tā vietā: {0}</value>
+  </data>
+  <data name="topic.create.necropost.new_topic.create" xml:space="preserve">
+    <value>izveidot jaunu tēmu</value>
+  </data>
+  <data name="topic.create.placeholder.body" xml:space="preserve">
+    <value>Ievadiet raksta saturu šeit</value>
+  </data>
+  <data name="topic.create.placeholder.title" xml:space="preserve">
+    <value>Klikšķiniet šeit, lai iestatītu nosaukumu</value>
+  </data>
+  <data name="topic.jump.enter" xml:space="preserve">
+    <value>noklikšķiniet, lai ievadītu konkrētu raksta numuru</value>
+  </data>
+  <data name="topic.jump.first" xml:space="preserve">
+    <value>doties uz pirmo rakstu</value>
+  </data>
+  <data name="topic.jump.last" xml:space="preserve">
+    <value>doties uz pēdējo rakstu</value>
+  </data>
+  <data name="topic.jump.next" xml:space="preserve">
+    <value>izlaist nākamos 10 rakstus</value>
+  </data>
+  <data name="topic.jump.previous" xml:space="preserve">
+    <value>atgriezties 10 rakstus atpakaļ</value>
+  </data>
+  <data name="topic.logs._" xml:space="preserve">
+    <value>Tēmas žurnāli</value>
+  </data>
+  <data name="topic.logs.button" xml:space="preserve">
+    <value>Pārlūkot tēmas žurnālus</value>
+  </data>
+  <data name="topic.logs.columns.action" xml:space="preserve">
+    <value>Darbība</value>
+  </data>
+  <data name="topic.logs.columns.date" xml:space="preserve">
+    <value>Datums</value>
+  </data>
+  <data name="topic.logs.columns.user" xml:space="preserve">
+    <value>Lietotājs</value>
+  </data>
+  <data name="topic.logs.data.add_tag" xml:space="preserve">
+    <value>pievienots "{0}" tags</value>
+  </data>
+  <data name="topic.logs.data.announcement" xml:space="preserve">
+    <value>tēma ir piesprausta un atzīmēta kā paziņojums</value>
+  </data>
+  <data name="topic.logs.data.edit_topic" xml:space="preserve">
+    <value>uz {0}</value>
+  </data>
+  <data name="topic.logs.data.fork" xml:space="preserve">
+    <value>no {0}</value>
+  </data>
+  <data name="topic.logs.data.pin" xml:space="preserve">
+    <value>piesprausta tēma</value>
+  </data>
+  <data name="topic.logs.data.post_operation" xml:space="preserve">
+    <value>publicēja {0}</value>
+  </data>
+  <data name="topic.logs.data.remove_tag" xml:space="preserve">
+    <value>noņemts "{0}" tags</value>
+  </data>
+  <data name="topic.logs.data.source_forum_operation" xml:space="preserve">
+    <value>no {0}</value>
+  </data>
+  <data name="topic.logs.data.unpin" xml:space="preserve">
+    <value>atsprausta tēma</value>
+  </data>
+  <data name="topic.logs.no_results" xml:space="preserve">
+    <value>žurnāli nav atrasti...</value>
+  </data>
+  <data name="topic.logs.operations.delete_post" xml:space="preserve">
+    <value>Izdzēsts raksts</value>
+  </data>
+  <data name="topic.logs.operations.delete_topic" xml:space="preserve">
+    <value>Izdzēsta tēma</value>
+  </data>
+  <data name="topic.logs.operations.edit_topic" xml:space="preserve">
+    <value>Mainīts tēmas nosaukums</value>
+  </data>
+  <data name="topic.logs.operations.edit_poll" xml:space="preserve">
+    <value>Rediģēta tēmas aptauja</value>
+  </data>
+  <data name="topic.logs.operations.fork" xml:space="preserve">
+    <value>Nokopēta tēma</value>
+  </data>
+  <data name="topic.logs.operations.issue_tag" xml:space="preserve">
+    <value>Izsniegts tags</value>
+  </data>
+  <data name="topic.logs.operations.lock" xml:space="preserve">
+    <value>Slēgta tēma</value>
+  </data>
+  <data name="topic.logs.operations.merge" xml:space="preserve">
+    <value>Apvienot rakstus šajā tematā</value>
+  </data>
+  <data name="topic.logs.operations.move" xml:space="preserve">
+    <value>Pārvietoja tematu</value>
+  </data>
+  <data name="topic.logs.operations.pin" xml:space="preserve">
+    <value>Piesprauda tematu</value>
+  </data>
+  <data name="topic.logs.operations.post_edited" xml:space="preserve">
+    <value>Rediģēja rakstu</value>
+  </data>
+  <data name="topic.logs.operations.restore_post" xml:space="preserve">
+    <value>Atjaunoja rakstu</value>
+  </data>
+  <data name="topic.logs.operations.restore_topic" xml:space="preserve">
+    <value>Atjaunoja tematu</value>
+  </data>
+  <data name="topic.logs.operations.split_destination" xml:space="preserve">
+    <value>Pārvietot sadalītos rakstus</value>
+  </data>
+  <data name="topic.logs.operations.split_source" xml:space="preserve">
+    <value>Sadalīt rakstus</value>
+  </data>
+  <data name="topic.logs.operations.topic_type" xml:space="preserve">
+    <value>Uzstādi temata tipu</value>
+  </data>
+  <data name="topic.logs.operations.topic_type_changed" xml:space="preserve">
+    <value>Izmaini temata tipu</value>
+  </data>
+  <data name="topic.logs.operations.unlock" xml:space="preserve">
+    <value>Neaizslēgts temats</value>
+  </data>
+  <data name="topic.logs.operations.unpin" xml:space="preserve">
+    <value>Nepiesprausts temats</value>
+  </data>
+  <data name="topic.logs.operations.user_lock" xml:space="preserve">
+    <value>Aizslēdzi savu tematu</value>
+  </data>
+  <data name="topic.logs.operations.user_unlock" xml:space="preserve">
+    <value>Atvēri savu tematu</value>
+  </data>
+  <data name="topic.post_edit.cancel" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="topic.post_edit.post" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="topic_watches.index.title_compact" xml:space="preserve">
+    <value>foruma tematu </value>
+  </data>
+  <data name="topic_watches.index.box.total" xml:space="preserve">
+    <value>Abonētie temati</value>
+  </data>
+  <data name="topic_watches.index.box.unread" xml:space="preserve">
+    <value>Temati ar jaunām atbildēm</value>
+  </data>
+  <data name="topic_watches.index.info.total" xml:space="preserve">
+    <value>Tu esi abonējis {0} tematus.</value>
+  </data>
+  <data name="topic_watches.index.info.unread" xml:space="preserve">
+    <value>Tev ir {0} neizlasītas atbildes abonētajos tematos.</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.confirmation" xml:space="preserve">
+    <value>Izbeigt abonementu šim tematam?</value>
+  </data>
+  <data name="topic_watches.topic_buttons.remove.title" xml:space="preserve">
+    <value>Izbeigt abonementu.</value>
+  </data>
+  <data name="topics._" xml:space="preserve">
+    <value>Temati</value>
+  </data>
+  <data name="topics.actions.login_reply" xml:space="preserve">
+    <value>Pierakstīties lai atbildētu</value>
+  </data>
+  <data name="topics.actions.reply" xml:space="preserve">
+    <value>Atbildēt</value>
+  </data>
+  <data name="topics.actions.reply_with_quote" xml:space="preserve">
+    <value>Citēt rakstu priekš atbildes</value>
+  </data>
+  <data name="topics.actions.search" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="topics.create.create_poll" xml:space="preserve">
+    <value>Aptaujas Izveide</value>
+  </data>
+  <data name="topics.create.preview" xml:space="preserve">
+    <value>Raksta Priekšskatījums</value>
+  </data>
+  <data name="topics.create.create_poll_button.add" xml:space="preserve">
+    <value>Izveidot aptauju</value>
+  </data>
+  <data name="topics.create.create_poll_button.remove" xml:space="preserve">
+    <value>Atcelt aptaujas izveidi</value>
+  </data>
+  <data name="topics.create.poll.hide_results" xml:space="preserve">
+    <value>Paslēpt aptaujas rezultātus.</value>
+  </data>
+  <data name="topics.create.poll.hide_results_info" xml:space="preserve">
+    <value>Tie tiks parādīti tikai pēc tam, kad aptauja būs beigusies.</value>
+  </data>
+  <data name="topics.create.poll.length" xml:space="preserve">
+    <value>Publicēt aptauju uz</value>
+  </data>
+  <data name="topics.create.poll.length_days_suffix" xml:space="preserve">
+    <value>dienas</value>
+  </data>
+  <data name="topics.create.poll.length_info" xml:space="preserve">
+    <value>Atstāt tukšu priekš nekad nebeidzošas aptaujas</value>
+  </data>
+  <data name="topics.create.poll.max_options" xml:space="preserve">
+    <value>Opciju daudzums lietotājam</value>
+  </data>
+  <data name="topics.create.poll.max_options_info" xml:space="preserve">
+    <value>Šis ir cik daudz opcijas katrs lietotājs var izvēlēties kad balso.</value>
+  </data>
+  <data name="topics.create.poll.options" xml:space="preserve">
+    <value>Opcijas</value>
+  </data>
+  <data name="topics.create.poll.options_info" xml:space="preserve">
+    <value>Saliec katru opciju uz jaunas līnijas. Tu vari ievadīt līdz 10 opcijām.</value>
+  </data>
+  <data name="topics.create.poll.title" xml:space="preserve">
+    <value>Jautājums</value>
+  </data>
+  <data name="topics.create.poll.vote_change" xml:space="preserve">
+    <value>Atļaut pārbalsot.</value>
+  </data>
+  <data name="topics.create.poll.vote_change_info" xml:space="preserve">
+    <value>Ja ieslēgts, lietotāji var izmainīt savu balsi.</value>
+  </data>
+  <data name="topics.edit_title.start" xml:space="preserve">
+    <value>Rediģēt nosaukumu</value>
+  </data>
+  <data name="topics.index.feature_votes" xml:space="preserve">
+    <value>zvaigznes prioritāte</value>
+  </data>
+  <data name="topics.index.replies" xml:space="preserve">
+    <value>atbildes</value>
+  </data>
+  <data name="topics.index.views" xml:space="preserve">
+    <value>skatījumi</value>
+  </data>
+  <data name="topics.lock.is_locked" xml:space="preserve">
+    <value>Šī tēma ir slēgta un nav iespējams caur to atbildēt</value>
+  </data>
+  <data name="topics.lock.to_0" xml:space="preserve">
+    <value>Atvērt tēmu</value>
+  </data>
+  <data name="topics.lock.to_0_confirm" xml:space="preserve">
+    <value>Atslēgt tematu?</value>
+  </data>
+  <data name="topics.lock.to_0_done" xml:space="preserve">
+    <value>Tēma tika atvērta</value>
+  </data>
+  <data name="topics.lock.to_1" xml:space="preserve">
+    <value>Slēgt tēmu</value>
+  </data>
+  <data name="topics.lock.to_1_confirm" xml:space="preserve">
+    <value>Slēgt tematu?</value>
+  </data>
+  <data name="topics.lock.to_1_done" xml:space="preserve">
+    <value>Tēma tika slēgta</value>
+  </data>
+  <data name="topics.moderate_move.title" xml:space="preserve">
+    <value>Pārvietot uz citu forumu</value>
+  </data>
+  <data name="topics.moderate_pin.to_0" xml:space="preserve">
+    <value>Atspraust tēmu</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_confirm" xml:space="preserve">
+    <value>Atspraust tematu?</value>
+  </data>
+  <data name="topics.moderate_pin.to_0_done" xml:space="preserve">
+    <value>Tēma tika atsprausta</value>
+  </data>
+  <data name="topics.moderate_pin.to_1" xml:space="preserve">
+    <value>Piespraust tēmu</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_confirm" xml:space="preserve">
+    <value>Piespraust tematu?</value>
+  </data>
+  <data name="topics.moderate_pin.to_1_done" xml:space="preserve">
+    <value>Tēma tika piesprausta</value>
+  </data>
+  <data name="topics.moderate_pin.to_2" xml:space="preserve">
+    <value>Piespraust tēmu un atzīmēt kā paziņojumu</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_confirm" xml:space="preserve">
+    <value>Piespraust tematu un atzīmēt kā paziņojumu?</value>
+  </data>
+  <data name="topics.moderate_pin.to_2_done" xml:space="preserve">
+    <value>Tēma tika piesprausta un atzīmēta kā paziņojums</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.show" xml:space="preserve">
+    <value>Rādīt dzēstos rakstus</value>
+  </data>
+  <data name="topics.moderate_toggle_deleted.hide" xml:space="preserve">
+    <value>Slēpt dzēstos rakstus</value>
+  </data>
+  <data name="topics.show.deleted-posts" xml:space="preserve">
+    <value>Dzēstie Raksti</value>
+  </data>
+  <data name="topics.show.total_posts" xml:space="preserve">
+    <value>Raksti Kopumā</value>
+  </data>
+  <data name="topics.show.feature_vote.current" xml:space="preserve">
+    <value>Pašreizējā Prioritāte: +{0}</value>
+  </data>
+  <data name="topics.show.feature_vote.do" xml:space="preserve">
+    <value>Paaugstināt šo pieprasījumu</value>
+  </data>
+  <data name="topics.show.feature_vote.info._" xml:space="preserve">
+    <value>Šī ir {0}. Iezīmētie pieprasījumi var tikt nobalsoti ar {1}.</value>
+  </data>
+  <data name="topics.show.feature_vote.info.feature_request" xml:space="preserve">
+    <value>iezīmēt pieprasījumu</value>
+  </data>
+  <data name="topics.show.feature_vote.info.supporters" xml:space="preserve">
+    <value>atbalstītāji</value>
+  </data>
+  <data name="topics.show.feature_vote.user.count" xml:space="preserve">
+    <value>{0} nav balsu|{1} {0} balss|[2,*] {0} balsis</value>
+  </data>
+  <data name="topics.show.feature_vote.user.current" xml:space="preserve">
+    <value>Jums palikušas {0} balsis.</value>
+  </data>
+  <data name="topics.show.feature_vote.user.not_enough" xml:space="preserve">
+    <value>Tev vairs nav atlikušu balsu</value>
+  </data>
+  <data name="topics.show.poll.edit" xml:space="preserve">
+    <value>Balsošanas Rediģēšana</value>
+  </data>
+  <data name="topics.show.poll.edit_warning" xml:space="preserve">
+    <value>Rediģējot balsošanas metodi tiks noņemti visi esošie rezultāti!</value>
+  </data>
+  <data name="topics.show.poll.vote" xml:space="preserve">
+    <value>Balsot</value>
+  </data>
+  <data name="topics.show.poll.button.change_vote" xml:space="preserve">
+    <value>Mainīt balsi</value>
+  </data>
+  <data name="topics.show.poll.button.edit" xml:space="preserve">
+    <value>Rediģēt balsošanu</value>
+  </data>
+  <data name="topics.show.poll.button.view_results" xml:space="preserve">
+    <value>Pārlēkt uz rezultātiem</value>
+  </data>
+  <data name="topics.show.poll.button.vote" xml:space="preserve">
+    <value>Balsot</value>
+  </data>
+  <data name="topics.show.poll.detail.end_time" xml:space="preserve">
+    <value>Balsošana beigsies {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.ended" xml:space="preserve">
+    <value>Balsošana beidzās {0}</value>
+  </data>
+  <data name="topics.show.poll.detail.results_hidden" xml:space="preserve">
+    <value>Rezultāti tiks parādīti kad aptauja beigsies.</value>
+  </data>
+  <data name="topics.show.poll.detail.total" xml:space="preserve">
+    <value>Balsis kopā: {0}</value>
+  </data>
+  <data name="topics.watch.to_not_watching" xml:space="preserve">
+    <value>Nav izcelts</value>
+  </data>
+  <data name="topics.watch.to_watching" xml:space="preserve">
+    <value>Izceltie</value>
+  </data>
+  <data name="topics.watch.to_watching_mail" xml:space="preserve">
+    <value>Izcelt ar paziņojumiem</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_disable" xml:space="preserve">
+    <value>Paziņojumi ir ieslēgti. Uzspiest lai izslēgtu</value>
+  </data>
+  <data name="topics.watch.tooltip_mail_enable" xml:space="preserve">
+    <value>Paziņojumi ir izslēgti. Uzspiest lai ieslēgtu</value>
+  </data>
+</root>

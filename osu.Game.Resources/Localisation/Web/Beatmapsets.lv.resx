@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="availability.disabled" xml:space="preserve">
+    <value>Šīs ritma-kartes lejupielāde šobrīd nav iespējama.</value>
+  </data>
+  <data name="availability.parts-removed" xml:space="preserve">
+    <value>Daļas no šīs ritma-mapes ir noņemtas pēc autora vai trešās puses tiesību īpašnieka pieprasījuma.</value>
+  </data>
+  <data name="availability.more-info" xml:space="preserve">
+    <value>Lai iegūtu papildu informāciju, noklikšķiniet šeit.</value>
+  </data>
+  <data name="availability.rule_violation" xml:space="preserve">
+    <value>Daži šajā ritma-kartē ietvertie resursi ir izņemti pēc tam, kad tie tika novērtēti kā nepiemēroti izmantošanai osu!.</value>
+  </data>
+  <data name="cover.deleted" xml:space="preserve">
+    <value>Izdzēsta ritma-karte</value>
+  </data>
+  <data name="download.limit_exceeded" xml:space="preserve">
+    <value>Piebremzējiet, spēlējiet vairāk.</value>
+  </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Nav pieejami lejupielādes serveri.</value>
+  </data>
+  <data name="featured_artist_badge.label" xml:space="preserve">
+    <value>Kontraktētais mākslinieks</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Ritma-mapju saraksts</value>
+  </data>
+  <data name="index.guest_title" xml:space="preserve">
+    <value>Ritma-mapes</value>
+  </data>
+  <data name="panel.empty" xml:space="preserve">
+    <value>nav ritma-mapju</value>
+  </data>
+  <data name="panel.download.all" xml:space="preserve">
+    <value>lejupielādēt</value>
+  </data>
+  <data name="panel.download.video" xml:space="preserve">
+    <value>lejupielādēt ar video</value>
+  </data>
+  <data name="panel.download.no_video" xml:space="preserve">
+    <value>lejupielādēt bez video</value>
+  </data>
+  <data name="panel.download.direct" xml:space="preserve">
+    <value>atvērt ar osu!direct</value>
+  </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Prakses nominātori nevar nominēt vairākus pamatlikumus.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Tev vajag būt pilnam nominātoram lai izpildītu pēdēju pamatlikuma nomināciju.</value>
+  </data>
+  <data name="nominate.hybrid_requires_modes" xml:space="preserve">
+    <value>Hibrīda ritma-mapē ir jāizvēlas vismaz viens spēles režīms, kuram veikt nomināciju.</value>
+  </data>
+  <data name="nominate.incorrect_mode" xml:space="preserve">
+    <value>Jums nav atļaujas nominēt modam: {0}</value>
+  </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Šai ritma-mapei ir nepareizi nominātori, un tā šādā stāvoklī nevar tikt kvalificēta.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Nominātoram ir nepareizi pamatlikumi.</value>
+  </data>
+  <data name="nominate.too_many" xml:space="preserve">
+    <value>Nominācijas prasība jau ir izpildīta.</value>
+  </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Nominātoru pieprasījums par ne galvenu pamatlikumu ir jau piepildīts.</value>
+  </data>
+  <data name="nominate.dialog.confirmation" xml:space="preserve">
+    <value>Vai esat pārliecināts, ka vēlaties nominēt šo ritma-mapi?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Kvalificējot šo ritma-mapi ar dažādiem nominātoriem, aizvedīs to uz kvalifikācijas rindas beigām.</value>
+  </data>
+  <data name="nominate.dialog.header" xml:space="preserve">
+    <value>Nominēt Ritma-karti</value>
+  </data>
+  <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
+    <value>piezīme: jūs varat nominēt tikai vienu reizi, tāpēc, lūdzu, pārliecinieties, ka nominējat visus plānotos spēles režīmus</value>
+  </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Galvenais pamatlikums pašlaik ir: {0}</value>
+  </data>
+  <data name="nominate.dialog.which_modes" xml:space="preserve">
+    <value>Kādiem modiem nominēt?</value>
+  </data>
+  <data name="nsfw_badge.label" xml:space="preserve">
+    <value>Nepiemērota satura</value>
+  </data>
+  <data name="show.discussion" xml:space="preserve">
+    <value>Diskusija</value>
+  </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Skatīt pilna izmēra bildes pārvalku</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Apskatīt adminu lapu</value>
+  </data>
+  <data name="show.deleted_banner.title" xml:space="preserve">
+    <value>Šī ritma-mape ir izdzēsta.</value>
+  </data>
+  <data name="show.deleted_banner.message" xml:space="preserve">
+    <value>(šo var redzēt tikai moderatori)</value>
+  </data>
+  <data name="show.details.by_artist" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="show.details.favourite" xml:space="preserve">
+    <value>iemīļot šo ritma-karti</value>
+  </data>
+  <data name="show.details.favourite_login" xml:space="preserve">
+    <value>pierakstieties, lai iemīļotu šo ritma-karti</value>
+  </data>
+  <data name="show.details.logged-out" xml:space="preserve">
+    <value>tev vajag pierakstīties pirms lejupielādēt jebkuru ritma-karti!</value>
+  </data>
+  <data name="show.details.mapped_by" xml:space="preserve">
+    <value>kartēja {0}</value>
+  </data>
+  <data name="show.details.mapped_by_guest" xml:space="preserve">
+    <value>viesa grūtības līmenis: {0}</value>
+  </data>
+  <data name="show.details.unfavourite" xml:space="preserve">
+    <value>noņemt iemīļojumu šajai ritma-kartei</value>
+  </data>
+  <data name="show.details.updated_timeago" xml:space="preserve">
+    <value>pēdējo reizi atjaunots {0}</value>
+  </data>
+  <data name="show.details.download._" xml:space="preserve">
+    <value>Lejupielādēt</value>
+  </data>
+  <data name="show.details.download.no-video" xml:space="preserve">
+    <value>bez Video</value>
+  </data>
+  <data name="show.details.download.video" xml:space="preserve">
+    <value>ar Video</value>
+  </data>
+  <data name="show.details.login_required.bottom" xml:space="preserve">
+    <value>lai piekļūtu vairāk funkcijām</value>
+  </data>
+  <data name="show.details.login_required.top" xml:space="preserve">
+    <value>Pierakstīties</value>
+  </data>
+  <data name="show.details_date.approved" xml:space="preserve">
+    <value>apstiprināja {0}</value>
+  </data>
+  <data name="show.details_date.loved" xml:space="preserve">
+    <value>iemīļoja {0}</value>
+  </data>
+  <data name="show.details_date.qualified" xml:space="preserve">
+    <value>kvalificēja {0}</value>
+  </data>
+  <data name="show.details_date.ranked" xml:space="preserve">
+    <value>novērtēta {0}</value>
+  </data>
+  <data name="show.details_date.submitted" xml:space="preserve">
+    <value>iesniegta {0}</value>
+  </data>
+  <data name="show.details_date.updated" xml:space="preserve">
+    <value>pēdējais atjauninājums {0}</value>
+  </data>
+  <data name="show.favourites.limit_reached" xml:space="preserve">
+    <value>Jums ir pārāk daudz iemīļotu ritma-mapju! Pirms mēģināt vēlreiz, noņem dažas mapes no favorītiem.</value>
+  </data>
+  <data name="show.hype.action" xml:space="preserve">
+    <value>Atbalstiet šo mapi, ja jums patika to spēlēt, palīdziet tai sasniegt &lt;strong&gt;Ierindota&lt;/strong&gt; statusu.</value>
+  </data>
+  <data name="show.hype.current._" xml:space="preserve">
+    <value>Pašlaik šī mape ir {0}.</value>
+  </data>
+  <data name="show.hype.current.status.pending" xml:space="preserve">
+    <value>procesā</value>
+  </data>
+  <data name="show.hype.current.status.qualified" xml:space="preserve">
+    <value>kvalificēta</value>
+  </data>
+  <data name="show.hype.current.status.wip" xml:space="preserve">
+    <value>izstrādes stadijā</value>
+  </data>
+  <data name="show.hype.disqualify._" xml:space="preserve">
+    <value>Ja atrodat problēmu ar šo ritma-karti, lūdzu, diskvalificējiet to {0}.</value>
+  </data>
+  <data name="show.hype.report._" xml:space="preserve">
+    <value>Ja atrodat problēmu ar šo ritma-karti, lūdzu, ziņojiet par to {0}, lai brīdinātu komandu.</value>
+  </data>
+  <data name="show.hype.report.button" xml:space="preserve">
+    <value>Ziņot par problēmu</value>
+  </data>
+  <data name="show.hype.report.link" xml:space="preserve">
+    <value>šeit</value>
+  </data>
+  <data name="show.info.description" xml:space="preserve">
+    <value>Apraksts</value>
+  </data>
+  <data name="show.info.genre" xml:space="preserve">
+    <value>Žanrs</value>
+  </data>
+  <data name="show.info.language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Kartētāju Piekariņš</value>
+  </data>
+  <data name="show.info.no_scores" xml:space="preserve">
+    <value>Rezultāti joprojām tiek aprēķināti...</value>
+  </data>
+  <data name="show.info.nominators" xml:space="preserve">
+    <value>Nominētāji</value>
+  </data>
+  <data name="show.info.nsfw" xml:space="preserve">
+    <value>Nepiemērots saturs</value>
+  </data>
+  <data name="show.info.offset" xml:space="preserve">
+    <value>Tiešsaistes nobīde</value>
+  </data>
+  <data name="show.info.points-of-failure" xml:space="preserve">
+    <value>Izkrišanas punkti</value>
+  </data>
+  <data name="show.info.source" xml:space="preserve">
+    <value>Avots</value>
+  </data>
+  <data name="show.info.storyboard" xml:space="preserve">
+    <value>Šī ritma-mape satur vizuālo saturu</value>
+  </data>
+  <data name="show.info.success-rate" xml:space="preserve">
+    <value>Izdošanās līmenis</value>
+  </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Lietotāju Piekariņš</value>
+  </data>
+  <data name="show.info.video" xml:space="preserve">
+    <value>Šī ritma-mape satur video</value>
+  </data>
+  <data name="show.nsfw_warning.details" xml:space="preserve">
+    <value>Šajā ritma-mapē ir atklāts, aizskarošs vai  satraucošs saturs. Vai tomēr vēlaties to skatīt?</value>
+  </data>
+  <data name="show.nsfw_warning.title" xml:space="preserve">
+    <value>Nepiemērots Saturs</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.disable" xml:space="preserve">
+    <value>Atspējot brīdinājumu</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.listing" xml:space="preserve">
+    <value>Ritma-mapju saraksts</value>
+  </data>
+  <data name="show.nsfw_warning.buttons.show" xml:space="preserve">
+    <value>Rādīt</value>
+  </data>
+  <data name="show.scoreboard.achieved" xml:space="preserve">
+    <value>sasniegts {0}</value>
+  </data>
+  <data name="show.scoreboard.country" xml:space="preserve">
+    <value>Valsts rangi</value>
+  </data>
+  <data name="show.scoreboard.error" xml:space="preserve">
+    <value>Neizdevās ielādēt rangus</value>
+  </data>
+  <data name="show.scoreboard.friend" xml:space="preserve">
+    <value>Draugu rangi</value>
+  </data>
+  <data name="show.scoreboard.global" xml:space="preserve">
+    <value>Pasaules rangi</value>
+  </data>
+  <data name="show.scoreboard.supporter-link" xml:space="preserve">
+    <value>Klikšķiniet &lt;a href="{0}"&gt;šeit&lt;/a&gt;, lai redzētu visas modernās funkcijas, ko saņemat!</value>
+  </data>
+  <data name="show.scoreboard.supporter-only" xml:space="preserve">
+    <value>Jums nepieciešams būt atbalstītājam, lai redzētu draugu un valsts rangus!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Komandas Novietojums</value>
+  </data>
+  <data name="show.scoreboard.title" xml:space="preserve">
+    <value>Rezultātu apkopojums</value>
+  </data>
+  <data name="show.scoreboard.headers.accuracy" xml:space="preserve">
+    <value>Precizitāte</value>
+  </data>
+  <data name="show.scoreboard.headers.combo" xml:space="preserve">
+    <value>Max Kombinācija</value>
+  </data>
+  <data name="show.scoreboard.headers.miss" xml:space="preserve">
+    <value>Netrāpījumi</value>
+  </data>
+  <data name="show.scoreboard.headers.mods" xml:space="preserve">
+    <value>Modifikācijas</value>
+  </data>
+  <data name="show.scoreboard.headers.pin" xml:space="preserve">
+    <value>Piespraust</value>
+  </data>
+  <data name="show.scoreboard.headers.player" xml:space="preserve">
+    <value>Spēlētājs</value>
+  </data>
+  <data name="show.scoreboard.headers.rank" xml:space="preserve">
+    <value>Rangs</value>
+  </data>
+  <data name="show.scoreboard.headers.score" xml:space="preserve">
+    <value>Rezultāts</value>
+  </data>
+  <data name="show.scoreboard.headers.score_total" xml:space="preserve">
+    <value>Kopējie Punkti</value>
+  </data>
+  <data name="show.scoreboard.headers.time" xml:space="preserve">
+    <value>Laiks</value>
+  </data>
+  <data name="show.scoreboard.no_scores.country" xml:space="preserve">
+    <value>Neviens no jūsu valsts vēl nav uzstādījis rezultātu šajā mapē!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.friend" xml:space="preserve">
+    <value>Neviens no jūsu draugiem vēl nav uzstādījis rezultātu šajā mapē!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.global" xml:space="preserve">
+    <value>Pagaidām nav rezultātu. Varbūt pamēģināt kādu uzstādīt?</value>
+  </data>
+  <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
+    <value>Ielādē rezultātus...</value>
+  </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Neviens no tavas komandas pagaidām nav uzstādījis rezultātu uz šīs ritma-kartes!</value>
+  </data>
+  <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
+    <value>Nevērtējama ritma-mape.</value>
+  </data>
+  <data name="show.scoreboard.score.first" xml:space="preserve">
+    <value>Vadībā</value>
+  </data>
+  <data name="show.scoreboard.score.own" xml:space="preserve">
+    <value>Jūsu Labākais</value>
+  </data>
+  <data name="show.scoreboard.supporter_link._" xml:space="preserve">
+    <value>Klikšķiniet {0}, lai redzētu visas modernās funkcijas, ko saņemat!</value>
+  </data>
+  <data name="show.scoreboard.supporter_link.here" xml:space="preserve">
+    <value>šeit</value>
+  </data>
+  <data name="show.stats.cs" xml:space="preserve">
+    <value>Apļu Lielums</value>
+  </data>
+  <data name="show.stats.cs-mania" xml:space="preserve">
+    <value>Taustiņu Skaits</value>
+  </data>
+  <data name="show.stats.drain" xml:space="preserve">
+    <value>HP Izsīkšana</value>
+  </data>
+  <data name="show.stats.accuracy" xml:space="preserve">
+    <value>Precizitāte</value>
+  </data>
+  <data name="show.stats.ar" xml:space="preserve">
+    <value>Pietuvināšanās Ātrums</value>
+  </data>
+  <data name="show.stats.stars" xml:space="preserve">
+    <value>Grūtība Zvaigznēs</value>
+  </data>
+  <data name="show.stats.total_length" xml:space="preserve">
+    <value>Garums (Izsīkšanas garums: {0})</value>
+  </data>
+  <data name="show.stats.bpm" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="show.stats.count_circles" xml:space="preserve">
+    <value>Apļu Skaits</value>
+  </data>
+  <data name="show.stats.count_sliders" xml:space="preserve">
+    <value>Slīdņu Skaits</value>
+  </data>
+  <data name="show.stats.offset" xml:space="preserve">
+    <value>Tiešsaistes nobīde: {0}</value>
+  </data>
+  <data name="show.stats.user-rating" xml:space="preserve">
+    <value>Lietotāju Vērtējums</value>
+  </data>
+  <data name="show.stats.rating-spread" xml:space="preserve">
+    <value>Vērtējumu Diapazons</value>
+  </data>
+  <data name="show.stats.nominations" xml:space="preserve">
+    <value>Nominācijas</value>
+  </data>
+  <data name="show.stats.playcount" xml:space="preserve">
+    <value>Reizes spēlēts</value>
+  </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Iecienītās</value>
+  </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Vēl nav iecienīto</value>
+  </data>
+  <data name="show.status.ranked" xml:space="preserve">
+    <value>Ierindota</value>
+  </data>
+  <data name="show.status.approved" xml:space="preserve">
+    <value>Apstiprināta</value>
+  </data>
+  <data name="show.status.loved" xml:space="preserve">
+    <value>Iemīļota</value>
+  </data>
+  <data name="show.status.qualified" xml:space="preserve">
+    <value>Kvalificēta</value>
+  </data>
+  <data name="show.status.wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="show.status.pending" xml:space="preserve">
+    <value>Procesā</value>
+  </data>
+  <data name="show.status.graveyard" xml:space="preserve">
+    <value>Pamesta</value>
+  </data>
+  <data name="spotlight_badge.label" xml:space="preserve">
+    <value>Uzmanības Centrā</value>
+  </data>
+</root>

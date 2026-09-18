@@ -60,6 +60,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexGuestTitle => new TranslatableString(getKey(@"index.guest_title"), @"Beatmaps");
 
         /// <summary>
+        /// "{0} favourite|{0} favourites"
+        /// </summary>
+        public static LocalisableString OgpFavourites(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"ogp.favourites"), @"{0} favourite|{0} favourites", countDelimited), countDelimited, '|');
+
+        /// <summary>
+        /// "{0} play|{0} plays"
+        /// </summary>
+        public static LocalisableString OgpPlaycount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"ogp.playcount"), @"{0} play|{0} plays", countDelimited), countDelimited, '|');
+
+        /// <summary>
         /// "no beatmaps"
         /// </summary>
         public static LocalisableString PanelEmpty => new TranslatableString(getKey(@"panel.empty"), @"no beatmaps");

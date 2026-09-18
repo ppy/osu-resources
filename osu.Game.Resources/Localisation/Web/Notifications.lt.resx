@@ -286,6 +286,18 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>nuo {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Pokalbio paminėjimas</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} paminėjo jus {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>paminėjo iš {0}</value>
+  </data>
   <data name="item.channel.channel_team._" xml:space="preserve">
     <value>Nauja žinutė komandoje</value>
   </data>
@@ -333,6 +345,15 @@
   </data>
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} atsakė "{1}"</value>
+  </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>Naujienos ({0})</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
   </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Forumo tema</value>
@@ -403,6 +424,9 @@
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medaliai atrakinti!</value>
   </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>Naujienos</value>
+  </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>Dabar esi svečias beatmap'o "{0}"</value>
   </data>
@@ -447,6 +471,9 @@
   </data>
   <data name="mail.channel.channel.channel_message" xml:space="preserve">
     <value>Gavote naują žinutę iš {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} paminėjo jus {1} "{2}"</value>
   </data>
   <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
     <value>Nauja žinutė komandoje "{0}"</value>

@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Érvénytelen mód megadva.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Túl sok vendég mapper.</value>
+  </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
     <value>Hiba a szavazat frissítése közben</value>
   </data>
@@ -87,6 +93,9 @@
   </data>
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Kudosu szerzéstől megtagadva.</value>
+  </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Tartalmazza a válaszokat</value>
   </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Ez a nehézség törölve lett, ezért a beszélgetés nem lehetséges.</value>
@@ -120,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Töröltek megjelenítése</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Más válaszok mutatása</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Megbeszélések</value>
@@ -200,7 +212,7 @@
     <value>Diszkvalifikáció posztolása</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
-    <value>Hype! posztolása</value>
+    <value>Hype posztolása</value>
   </data>
   <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
     <value>Jegyzet posztolása</value>
@@ -275,19 +287,19 @@
     <value>A "Minden nehézség" alatti hozzászólásokat nem lehet időbélyegezni.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Ha {0} típussal fog kezdődni, akkor az idővonal alatt fog megjelenni.</value>
+    <value>Ha a poszt időbélyeggel kezdődik, az Idővonal alatt fog megjelenni.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
-    <value>Bekezdés beszúrása</value>
+    <value>bekezdés beszúrása</value>
   </data>
   <data name="discussions.review.insert-block.praise" xml:space="preserve">
-    <value>Dícséret beszúrása</value>
+    <value>dicséret beszúrása</value>
   </data>
   <data name="discussions.review.insert-block.problem" xml:space="preserve">
-    <value>Probléma beszúrása</value>
+    <value>probléma beszúrása</value>
   </data>
   <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
-    <value>Javaslat beszúrása</value>
+    <value>javaslat beszúrása</value>
   </data>
   <data name="discussions.show.title" xml:space="preserve">
     <value>{0} készítette {1}</value>
@@ -493,6 +505,9 @@
   <data name="listing.search.options" xml:space="preserve">
     <value>További Keresési Beállítások</value>
   </data>
+  <data name="listing.search.rank_filter_note" xml:space="preserve">
+    <value>Az ezen az oldalon megjelenő profilbeli ranglistás helyezések és eredmények a beatmapeken elért legmagasabb „standardizált” (más néven „lazer”) pontszámaidon alapulnak.</value>
+  </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
     <value>{0} általi szűrés aktív osu!supporter cím-et igényel</value>
   </data>
@@ -564,6 +579,12 @@
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
     <value>osu!supporter cím</value>
+  </data>
+  <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
+    <value>felhasználói címkék böngészése</value>
+  </data>
+  <data name="listing.search.tag_picker.prompt" xml:space="preserve">
+    <value>írj a kereséshez</value>
   </data>
   <data name="general.converts" xml:space="preserve">
     <value>Konvertált beatmap-ek tartalmazása</value>

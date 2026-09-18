@@ -148,6 +148,9 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Eksplisit</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Nilai tidak valid.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskusi</value>
   </data>
@@ -189,6 +192,9 @@
   </data>
   <data name="show.details.download._" xml:space="preserve">
     <value>Unduh</value>
+  </data>
+  <data name="show.details.download.direct" xml:space="preserve">
+    <value>osu!direct</value>
   </data>
   <data name="show.details.download.no-video" xml:space="preserve">
     <value>tanpa Video</value>
@@ -239,10 +245,10 @@
     <value>dalam pengerjaan (work-in-progress)</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Apabila kamu menemukan suatu masalah pada beatmap ini, mohon diskualifikasi beatmap yang bersangkutan melalui {0}.</value>
+    <value>Apabila kamu menemukan masalah dengan beatmap ini, mohon diskualifikasi beatmap ini melalui {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
-    <value>Apabila kamu menemukan masalah pada beatmap ini, silakan laporkan melalui {0} untuk memberitahukan tim kami.</value>
+    <value>Apabila kamu menemukan masalah dengan beatmap ini, mohon laporkan melalui {0} untuk memberitahukan tim kami.</value>
   </data>
   <data name="show.hype.report.button" xml:space="preserve">
     <value>Laporkan Masalah</value>
@@ -298,8 +304,20 @@
   <data name="show.info.video" xml:space="preserve">
     <value>Beatmap ini menyertakan video</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Khusus Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Karena mekanisme permainan tertentu, beatmap ini hanya bisa dimainkan di osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} untuk melihat skor-skor yang diraih pada beatmap ini.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Aktifkan mode lazer</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap ini mengandung konten yang bersifat eksplisit, menyinggung, atau meresahkan. Apakah kamu tetap ingin menampilkan beatmap ini?</value>
+    <value>Beatmap ini mengandung konten yang eksplisit, menyinggung, atau meresahkan. Apakah kamu tetap ingin menampilkan beatmap ini?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Konten Eksplisit</value>
@@ -358,6 +376,9 @@
   <data name="show.scoreboard.headers.player" xml:space="preserve">
     <value>Pemain</value>
   </data>
+  <data name="show.scoreboard.headers.pp" xml:space="preserve">
+    <value>pp</value>
+  </data>
   <data name="show.scoreboard.headers.rank" xml:space="preserve">
     <value>Peringkat</value>
   </data>
@@ -377,7 +398,7 @@
     <value>Belum ada seorang pun dari daftar temanmu yang memiliki skor di map ini!</value>
   </data>
   <data name="show.scoreboard.no_scores.global" xml:space="preserve">
-    <value>Belum ada skor yang tercatat. Mungkin kamu tertarik untuk mencetak skormu sendiri?</value>
+    <value>Belum ada skor yang tercatat. Mungkin kamu tertarik untuk mencatatkan skor kamu sendiri?</value>
   </data>
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Memuat skor...</value>

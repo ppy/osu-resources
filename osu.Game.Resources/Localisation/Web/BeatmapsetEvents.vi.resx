@@ -65,28 +65,28 @@
     <value>Chủ sở hữu của chế độ {0} thay đổi để {1}.</value>
   </data>
   <data name="event.discussion_delete" xml:space="preserve">
-    <value>Moderator đã xóa cuộc thảo luận {0}.</value>
+    <value>Điều phối viên đã xóa cuộc thảo luận {0}.</value>
   </data>
   <data name="event.discussion_lock" xml:space="preserve">
     <value>Chức năng bàn luận của beatmap này đã bị vô hiệu hóa. ({0})</value>
   </data>
   <data name="event.discussion_post_delete" xml:space="preserve">
-    <value>Moderator đã xóa bài viết từ cuộc thảo luận {0}.</value>
+    <value>Điều phối viên đã xóa bài đăng từ cuộc thảo luận {0}.</value>
   </data>
   <data name="event.discussion_post_restore" xml:space="preserve">
-    <value>Moderator đã phục hồi bài viết từ cuộc thảo luận {0}.</value>
+    <value>Điều phối viên đã khôi phục bài đăng từ cuộc thảo luận {0}.</value>
   </data>
   <data name="event.discussion_restore" xml:space="preserve">
-    <value>Moderator đã phục hồi cuộc thảo luận {0}.</value>
+    <value>Điều phối viên đã khôi phục cuộc thảo luận {0}.</value>
   </data>
   <data name="event.discussion_unlock" xml:space="preserve">
     <value>Chức năng bàn luận của beatmap này đã được kich hoạt.</value>
   </data>
   <data name="event.disqualify" xml:space="preserve">
-    <value>Bị loại bởi {0}. Lý do: {1} ({2}).</value>
+    <value>Bị hủy trạng thái đủ điều kiện bởi {0}. Lý do: {1} ({2}).</value>
   </data>
   <data name="event.disqualify_legacy" xml:space="preserve">
-    <value>Disqualified bởi {0}. Lí do: {1}.</value>
+    <value>Bị hủy trạng thái đủ điều kiện bởi {0}. Lí do: {1}.</value>
   </data>
   <data name="event.genre_edit" xml:space="preserve">
     <value>Đã thay đổi thể loại từ {0} thành {1}.</value>
@@ -104,10 +104,10 @@
     <value>Cuộc thảo luận {0} đã bị từ chối kudosu.</value>
   </data>
   <data name="event.kudosu_gain" xml:space="preserve">
-    <value>Cuộc thảo luận {0} bởi {1} đã nhận được đủ votes để có kudosu.</value>
+    <value>Cuộc thảo luận {0} bởi {1} đã nhận được đủ lượt bình chọn để có kudosu.</value>
   </data>
   <data name="event.kudosu_lost" xml:space="preserve">
-    <value>Cuộc thảo luận {0} bởi {1} đã mất votes và kudosu đã nhận được bị loại bỏ.</value>
+    <value>Cuộc thảo luận {0} bởi {1} đã mất lượt bình chọn và kudosu nhận được đã bị loại bỏ.</value>
   </data>
   <data name="event.kudosu_recalculate" xml:space="preserve">
     <value>Kudosu của cuộc thảo luận {0} đã được tính lại.</value>
@@ -116,10 +116,10 @@
     <value>Đã thay đổi ngôn ngữ từ {0} thành {1}.</value>
   </data>
   <data name="event.love" xml:space="preserve">
-    <value>Được Yêu Thích bởi {0}</value>
+    <value>Được Loved bởi {0}.</value>
   </data>
   <data name="event.nominate" xml:space="preserve">
-    <value>Được đề cử (nominated) bởi {0}.</value>
+    <value>Được đề cử bởi {0}.</value>
   </data>
   <data name="event.nominate_modes" xml:space="preserve">
     <value>Được đề cử bởi {0} ({1}).</value>
@@ -137,13 +137,13 @@
     <value>Độ trễ chơi trực tuyến đã thay đổi từ {0} thành{1}.</value>
   </data>
   <data name="event.qualify" xml:space="preserve">
-    <value>Beatmap này đã đạt được số đề cử (nominations) cần thiết và đã qualified.</value>
+    <value>Beatmap này đã đạt được số đề cử cần thiết và đã đủ điều kiện xếp hạng.</value>
   </data>
   <data name="event.rank" xml:space="preserve">
     <value>Đã được xếp hạng (Ranked).</value>
   </data>
   <data name="event.remove_from_loved" xml:space="preserve">
-    <value>Yêu thích bị loại bỏ bởi {0}. ({1})</value>
+    <value>Bị gỡ khỏi Loved bởi {0}. ({1})</value>
   </data>
   <data name="event.tags_edit" xml:space="preserve">
     <value>Thể loại đã được thay đổi từ "{0}" sang "{1}".</value>
@@ -185,10 +185,10 @@
     <value>Xóa trả lời của cuộc thảo luận</value>
   </data>
   <data name="type.discussion_post_restore" xml:space="preserve">
-    <value>Phục hồi trả lời của cuộc thảo luận</value>
+    <value>Khôi phục trả lời cuộc thảo luận</value>
   </data>
   <data name="type.discussion_restore" xml:space="preserve">
-    <value>Phục hồi cuộc thảo luận</value>
+    <value>Khôi phục cuộc thảo luận</value>
   </data>
   <data name="type.disqualify" xml:space="preserve">
     <value>Disqualification</value>
@@ -239,12 +239,12 @@
     <value>Chính sửa độ trễ</value>
   </data>
   <data name="type.qualify" xml:space="preserve">
-    <value>Qualification</value>
+    <value>Giai đoạn đủ điều kiện</value>
   </data>
   <data name="type.rank" xml:space="preserve">
     <value>Xếp hạng</value>
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
-    <value>Yêu thích loại bỏ</value>
+    <value>Bị gỡ khỏi Loved</value>
   </data>
 </root>

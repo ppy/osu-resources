@@ -82,6 +82,9 @@
   <data name="judge.update" xml:space="preserve">
     <value>uppdatera</value>
   </data>
+  <data name="judge.unsaved_changes" xml:space="preserve">
+    <value>osparade ändringar</value>
+  </data>
   <data name="judge.validation.missing_score" xml:space="preserve">
     <value>saknar resultat</value>
   </data>
@@ -157,8 +160,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Släpp ditt bidrag här</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} filer är accepterade</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Max storlek: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Dimensioner måste vara {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Ladda ner .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Endast {0} filer accepteras för denna tävling.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Bidrag för denna tävling måste vara {0}{1}</value>

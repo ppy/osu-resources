@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="invalid_ruleset" xml:space="preserve">
+    <value>Nepareiza noteikumu kopa specificēta.</value>
+  </data>
+  <data name="change_owner.too_many" xml:space="preserve">
+    <value>Pārāk daudz viesu karšu veidotāju.</value>
+  </data>
+  <data name="discussion-votes.update.error" xml:space="preserve">
+    <value>Neizdevās atjaunināt balsojumu</value>
+  </data>
+  <data name="discussions.allow_kudosu" xml:space="preserve">
+    <value>atļaut kudosu</value>
+  </data>
+  <data name="discussions.beatmap_information" xml:space="preserve">
+    <value>Ritma-mapes Lapa</value>
+  </data>
+  <data name="discussions.delete" xml:space="preserve">
+    <value>dzēst</value>
+  </data>
+  <data name="discussions.deleted" xml:space="preserve">
+    <value>Izdzēsa: {0} {1}.</value>
+  </data>
+  <data name="discussions.deny_kudosu" xml:space="preserve">
+    <value>neatļaut kudosu</value>
+  </data>
+  <data name="discussions.edit" xml:space="preserve">
+    <value>rediģēt</value>
+  </data>
+  <data name="discussions.edited" xml:space="preserve">
+    <value>Pēdējo reizi rediģēja {0} {1}.</value>
+  </data>
+  <data name="discussions.guest" xml:space="preserve">
+    <value>Viesa grūtības līmenis: {0}</value>
+  </data>
+  <data name="discussions.kudosu_denied" xml:space="preserve">
+    <value>Liegts saņemt kudosu.</value>
+  </data>
+  <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
+    <value>Šis grūtības līmenis ir izdzēsts, tāpēc to vairs nevar apspriest.</value>
+  </data>
+  <data name="discussions.message_placeholder_locked" xml:space="preserve">
+    <value>Šīs ritma-mapes diskusijas ir izslēgtas.</value>
+  </data>
+  <data name="discussions.message_placeholder_silenced" xml:space="preserve">
+    <value>Nevar publicēt diskusiju, kamēr apklusināts.</value>
+  </data>
+  <data name="discussions.message_type_select" xml:space="preserve">
+    <value>Atlasiet Komentāra Tipu</value>
+  </data>
+  <data name="discussions.reply_notice" xml:space="preserve">
+    <value>Nospiediet enter, lai atbildētu.</value>
+  </data>
+  <data name="discussions.reply_resolve_notice" xml:space="preserve">
+    <value>Uzspied enter lai atbildētu. Uzspied ctrl+enter lai atbildētu un atrisinātu.</value>
+  </data>
+  <data name="discussions.reply_placeholder" xml:space="preserve">
+    <value>Raksti atbildi šeit</value>
+  </data>
+  <data name="discussions.require-login" xml:space="preserve">
+    <value>Lūdzu, pieraksties, lai publicētu vai atbildētu</value>
+  </data>
+  <data name="discussions.resolved" xml:space="preserve">
+    <value>Atrisināts</value>
+  </data>
+  <data name="discussions.restore" xml:space="preserve">
+    <value>atjaunot</value>
+  </data>
+  <data name="discussions.show_deleted" xml:space="preserve">
+    <value>Rādīt dzēstos</value>
+  </data>
+  <data name="discussions.title" xml:space="preserve">
+    <value>Diskusijas</value>
+  </data>
+  <data name="discussions.unresolved_count" xml:space="preserve">
+    <value>{0} neatrisināta problēma|{0} neatrisinātas problēmas</value>
+  </data>
+  <data name="discussions.collapse.all-collapse" xml:space="preserve">
+    <value>Sakļaut visu</value>
+  </data>
+  <data name="discussions.collapse.all-expand" xml:space="preserve">
+    <value>Izvērst visu</value>
+  </data>
+  <data name="discussions.empty.empty" xml:space="preserve">
+    <value>Pagaidām nav diskusiju!</value>
+  </data>
+  <data name="discussions.empty.hidden" xml:space="preserve">
+    <value>Neviena diskusija neatbilst atlasītajam filtram.</value>
+  </data>
+  <data name="discussions.lock.button.lock" xml:space="preserve">
+    <value>Slēgt diskusiju</value>
+  </data>
+  <data name="discussions.lock.button.unlock" xml:space="preserve">
+    <value>Atslēgt diskusiju</value>
+  </data>
+  <data name="discussions.lock.prompt.lock" xml:space="preserve">
+    <value>Iemesls slēgšanai</value>
+  </data>
+  <data name="discussions.lock.prompt.unlock" xml:space="preserve">
+    <value>Vai tiešām vēlaties atslēgt?</value>
+  </data>
+  <data name="discussions.message_hint.in_general" xml:space="preserve">
+    <value>Šis raksts tiks nodots vispārējai ritma-mapju diskusijai. Lai modificētu šo grūtības pakāpi, sāciet ziņojumu ar laika zīmogu (piem., 00:12:345).</value>
+  </data>
+  <data name="discussions.message_hint.in_timeline" xml:space="preserve">
+    <value>Lai modificētu vairākus laikus, ziņo vairākas reizes (viens ziņojums uz vienu laika vienību).</value>
+  </data>
+  <data name="discussions.message_placeholder.general" xml:space="preserve">
+    <value>Raksti šeit, lai publicētu uz Vispārīgi ({0})</value>
+  </data>
+  <data name="discussions.message_placeholder.generalall" xml:space="preserve">
+    <value>Raksti šeit, lai publicētu uz Vispārīgi (Visas grūtības)</value>
+  </data>
+  <data name="discussions.message_placeholder.review" xml:space="preserve">
+    <value>Raksti šeit, lai publicētu atsauksmi</value>
+  </data>
+  <data name="discussions.message_placeholder.timeline" xml:space="preserve">
+    <value>Raksti šeit, lai publicētu uz Laika skalu ({0})</value>
+  </data>
+  <data name="discussions.message_type.disqualify" xml:space="preserve">
+    <value>Diskvalificēt</value>
+  </data>
+  <data name="discussions.message_type.hype" xml:space="preserve">
+    <value>Atbalstīt!</value>
+  </data>
+  <data name="discussions.message_type.mapper_note" xml:space="preserve">
+    <value>Piezīme</value>
+  </data>
+  <data name="discussions.message_type.nomination_reset" xml:space="preserve">
+    <value>Atiestatīt Nomināciju</value>
+  </data>
+  <data name="discussions.message_type.praise" xml:space="preserve">
+    <value>Uzslavēt</value>
+  </data>
+  <data name="discussions.message_type.problem" xml:space="preserve">
+    <value>Problēma</value>
+  </data>
+  <data name="discussions.message_type.problem_warning" xml:space="preserve">
+    <value>Sūdzēties par problēmu</value>
+  </data>
+  <data name="discussions.message_type.review" xml:space="preserve">
+    <value>Atsauksme</value>
+  </data>
+  <data name="discussions.message_type.suggestion" xml:space="preserve">
+    <value>Ieteikums</value>
+  </data>
+  <data name="discussions.message_type_title.disqualify" xml:space="preserve">
+    <value>Publicēt Diskvalifikāciju</value>
+  </data>
+  <data name="discussions.message_type_title.hype" xml:space="preserve">
+    <value>Iesūti Uzmudrinājumu!</value>
+  </data>
+  <data name="discussions.message_type_title.mapper_note" xml:space="preserve">
+    <value>Publicēt piezīmi</value>
+  </data>
+  <data name="discussions.message_type_title.nomination_reset" xml:space="preserve">
+    <value>Noņemt visas nominācijas</value>
+  </data>
+  <data name="discussions.message_type_title.praise" xml:space="preserve">
+    <value>Publicēt Slavējumu</value>
+  </data>
+  <data name="discussions.message_type_title.problem" xml:space="preserve">
+    <value>Publicēt Problēmu</value>
+  </data>
+  <data name="discussions.message_type_title.problem_warning" xml:space="preserve">
+    <value>Publicēt Problēmu</value>
+  </data>
+  <data name="discussions.message_type_title.review" xml:space="preserve">
+    <value>Publicēt Atsauksmi</value>
+  </data>
+  <data name="discussions.message_type_title.suggestion" xml:space="preserve">
+    <value>Publicēt Ieteikumu</value>
+  </data>
+  <data name="discussions.mode.events" xml:space="preserve">
+    <value>Vēsture</value>
+  </data>
+  <data name="discussions.mode.general" xml:space="preserve">
+    <value>Vispārējais {0}</value>
+  </data>
+  <data name="discussions.mode.reviews" xml:space="preserve">
+    <value>Atsauksmes</value>
+  </data>
+  <data name="discussions.mode.timeline" xml:space="preserve">
+    <value>Laika skala</value>
+  </data>
+  <data name="discussions.mode.scopes.general" xml:space="preserve">
+    <value>Šis grūtības līmenis</value>
+  </data>
+  <data name="discussions.mode.scopes.generalall" xml:space="preserve">
+    <value>Visi grūtības līmeņi</value>
+  </data>
+  <data name="discussions.new.pin" xml:space="preserve">
+    <value>Piespraust</value>
+  </data>
+  <data name="discussions.new.timestamp" xml:space="preserve">
+    <value>Laika zīmogs</value>
+  </data>
+  <data name="discussions.new.timestamp_missing" xml:space="preserve">
+    <value>ctrl-c rediģēšanas režīmā, un ielīmē ziņu, lai pievienotu laika zīmogu!</value>
+  </data>
+  <data name="discussions.new.title" xml:space="preserve">
+    <value>Jauna Diskusija</value>
+  </data>
+  <data name="discussions.new.unpin" xml:space="preserve">
+    <value>Atspraust</value>
+  </data>
+  <data name="discussions.review.new" xml:space="preserve">
+    <value>Jauna Atsauksme</value>
+  </data>
+  <data name="discussions.review.embed.delete" xml:space="preserve">
+    <value>Izdzēst</value>
+  </data>
+  <data name="discussions.review.embed.missing" xml:space="preserve">
+    <value>[DISKUSIJA DZĒSTA]</value>
+  </data>
+  <data name="discussions.review.embed.unlink" xml:space="preserve">
+    <value>Atvienot</value>
+  </data>
+  <data name="discussions.review.embed.unsaved" xml:space="preserve">
+    <value>Nesaglabāts</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.all-diff" xml:space="preserve">
+    <value>Rakstiem uz "Visas grūtības" nevar pievienot laika zīmogu.</value>
+  </data>
+  <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
+    <value>Ja šis raksts sākas ar laika zīmogu, to parādīs zem Laika Skalas.</value>
+  </data>
+  <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
+    <value>ievietot rindkopu</value>
+  </data>
+  <data name="discussions.review.insert-block.praise" xml:space="preserve">
+    <value>ievietot uzslavu</value>
+  </data>
+  <data name="discussions.review.insert-block.problem" xml:space="preserve">
+    <value>ievietot problēmu</value>
+  </data>
+  <data name="discussions.review.insert-block.suggestion" xml:space="preserve">
+    <value>ievietot ieteikumu</value>
+  </data>
+  <data name="discussions.show.title" xml:space="preserve">
+    <value>{0} izveidoja {1}</value>
+  </data>
+  <data name="discussions.sort.created_at" xml:space="preserve">
+    <value>Izveidošanas laiks</value>
+  </data>
+  <data name="discussions.sort.timeline" xml:space="preserve">
+    <value>Laika skala</value>
+  </data>
+  <data name="discussions.sort.updated_at" xml:space="preserve">
+    <value>Pēdējais atjauninājums</value>
+  </data>
+  <data name="discussions.stats.deleted" xml:space="preserve">
+    <value>Dzēsts</value>
+  </data>
+  <data name="discussions.stats.mapper_notes" xml:space="preserve">
+    <value>Piezīmes</value>
+  </data>
+  <data name="discussions.stats.mine" xml:space="preserve">
+    <value>Mans</value>
+  </data>
+  <data name="discussions.stats.pending" xml:space="preserve">
+    <value>Procesā</value>
+  </data>
+  <data name="discussions.stats.praises" xml:space="preserve">
+    <value>Uzslavas</value>
+  </data>
+  <data name="discussions.stats.resolved" xml:space="preserve">
+    <value>Atrisināts</value>
+  </data>
+  <data name="discussions.stats.total" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="discussions.status-messages.approved" xml:space="preserve">
+    <value>Šī ritma-karte tika apstiprināta: {0}!</value>
+  </data>
+  <data name="discussions.status-messages.graveyard" xml:space="preserve">
+    <value>Šī ritma-karte nav atjaunināta kopš {0}, tāpēc tā ir pamesta...</value>
+  </data>
+  <data name="discussions.status-messages.loved" xml:space="preserve">
+    <value>Šī ritma-karte tika iemīļota {0}!</value>
+  </data>
+  <data name="discussions.status-messages.ranked" xml:space="preserve">
+    <value>Šī ritma-karte tika novērtēta {0}!</value>
+  </data>
+  <data name="discussions.status-messages.wip" xml:space="preserve">
+    <value>Piezīme: Šī ritma-karte ir atzīmēta kā "work-in-progress" (WIP).</value>
+  </data>
+  <data name="discussions.votes.none.down" xml:space="preserve">
+    <value>Pagaidām nav negatīvu balsojumu</value>
+  </data>
+  <data name="discussions.votes.none.up" xml:space="preserve">
+    <value>Pagaidām nav pozitīvu balsojumu</value>
+  </data>
+  <data name="discussions.votes.latest.down" xml:space="preserve">
+    <value>Jaunākie negatīvie balsojumi</value>
+  </data>
+  <data name="discussions.votes.latest.up" xml:space="preserve">
+    <value>Jaunākie pozitīvie balsojumi</value>
+  </data>
+  <data name="hype.button" xml:space="preserve">
+    <value>Uzslavēt Ritma-Karti!</value>
+  </data>
+  <data name="hype.button_done" xml:space="preserve">
+    <value>Jau Uzslavēta!</value>
+  </data>
+  <data name="hype.confirm" xml:space="preserve">
+    <value>Vai esi pārliecināts? Tas izmantos vienu no tavām atlikušajām {0} uzslavām un to nevarēs atgriezt.</value>
+  </data>
+  <data name="hype.explanation" xml:space="preserve">
+    <value>Atbalsti šo ritma-karti, lai to padarītu labāk redzamu priekš nominēšanas un novērtēšanas!</value>
+  </data>
+  <data name="hype.explanation_guest" xml:space="preserve">
+    <value>Pieraksties un atbalsti šo ritma-karti, lai to padarītu labāk redzamu priekš nominēšanas un pieņemšanas!</value>
+  </data>
+  <data name="hype.new_time" xml:space="preserve">
+    <value>Tu esi saņēmis jaunu uzslavu: {0}.</value>
+  </data>
+  <data name="hype.remaining" xml:space="preserve">
+    <value>Tev ir palikušas {0} uzslavas.</value>
+  </data>
+  <data name="hype.required_text" xml:space="preserve">
+    <value>Uzslava: {0}/{1}</value>
+  </data>
+  <data name="hype.section_title" xml:space="preserve">
+    <value>Uzslavu-Banītis</value>
+  </data>
+  <data name="hype.title" xml:space="preserve">
+    <value>Uzslavēt</value>
+  </data>
+  <data name="feedback.button" xml:space="preserve">
+    <value>Atstāt Atsauksmi</value>
+  </data>
+  <data name="nominations.already_nominated" xml:space="preserve">
+    <value>Tu jau esi nominējis šo ritma-karti.</value>
+  </data>
+  <data name="nominations.cannot_nominate" xml:space="preserve">
+    <value>Tu nevari nominēt šīs ritma-kartes spēles režīmu.</value>
+  </data>
+  <data name="nominations.delete" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="nominations.delete_own_confirm" xml:space="preserve">
+    <value>Vai esi pārliecināts? Ritma-Karte tiks izdzēsta un tu tiksi nogādāts atpakaļ uz savu profilu.</value>
+  </data>
+  <data name="nominations.delete_other_confirm" xml:space="preserve">
+    <value>Vai esi drošs? Ritma-Karte tiks izdzēsta un tu tiksi nogādāts atpakaļ lietotāja profilā.</value>
+  </data>
+  <data name="nominations.disqualification_prompt" xml:space="preserve">
+    <value>Iemesls diskvalifikācijai?</value>
+  </data>
+  <data name="nominations.disqualified_at" xml:space="preserve">
+    <value>Diskvalificēts {0} ({1}).</value>
+  </data>
+  <data name="nominations.disqualified_no_reason" xml:space="preserve">
+    <value>nav norādīts iemesls</value>
+  </data>
+  <data name="nominations.disqualify" xml:space="preserve">
+    <value>Diskvalificēt</value>
+  </data>
+  <data name="nominations.incorrect_state" xml:space="preserve">
+    <value>Kļūda veicot šo darbību, mēģiniet atsvaidzināt lapu.</value>
+  </data>
+  <data name="nominations.love" xml:space="preserve">
+    <value>Mīlu</value>
+  </data>
+  <data name="nominations.love_choose" xml:space="preserve">
+    <value>Izvēlieties grūtību priekš iemīļots</value>
+  </data>
+  <data name="nominations.love_confirm" xml:space="preserve">
+    <value>Vai tev patīk šī ritma-karte?</value>
+  </data>
+  <data name="nominations.nominate" xml:space="preserve">
+    <value>Nominēt</value>
+  </data>
+  <data name="nominations.nominate_confirm" xml:space="preserve">
+    <value>Nominēt šo ritma-karti?</value>
+  </data>
+  <data name="nominations.nominated_by" xml:space="preserve">
+    <value>nominēja {0}</value>
+  </data>
+  <data name="nominations.not_enough_hype" xml:space="preserve">
+    <value>Nav pietiekami daudz atbalsta.</value>
+  </data>
+  <data name="nominations.remove_from_loved" xml:space="preserve">
+    <value>Noņemt no Iemīļots</value>
+  </data>
+  <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
+    <value>Iemesls noņemšanai no Iemīļots:</value>
+  </data>
+  <data name="nominations.required_text" xml:space="preserve">
+    <value>Nominācijas {0}/{1}</value>
+  </data>
+  <data name="nominations.reset_message_deleted" xml:space="preserve">
+    <value>dzēsts</value>
+  </data>
+  <data name="nominations.title" xml:space="preserve">
+    <value>Nominācijas status</value>
+  </data>
+  <data name="nominations.unresolved_issues" xml:space="preserve">
+    <value>Ir vēljoprojām neatrisinātas problēmas, kuras ir nepieciešams adresēt.</value>
+  </data>
+  <data name="nominations.rank_estimate._" xml:space="preserve">
+    <value>Tiek paredzēts, ka šī ritma-karte tiks novērtēta {0}, ja netiks konstatētas problēmas. Tā ir #{1} {2}.</value>
+  </data>
+  <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
+    <value>Šī ritma-mape pašlaik ir nobloķēta no iziešanas no Kvalificēts sekcijas, līdz {0} tiks atrisināts.</value>
+  </data>
+  <data name="nominations.rank_estimate.problems" xml:space="preserve">
+    <value>šīs problēmas</value>
+  </data>
+  <data name="nominations.rank_estimate.on" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="nominations.rank_estimate.queue" xml:space="preserve">
+    <value>novērtēšanas rinda</value>
+  </data>
+  <data name="nominations.rank_estimate.soon" xml:space="preserve">
+    <value>drīz</value>
+  </data>
+  <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
+    <value>Nominēšanas procesu atiestatīja {0}  {1} ar jaunu problēmu {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_at.disqualify" xml:space="preserve">
+    <value>Diskvalifcēja {0}  {1} ar jaunu problēmu {2} ({3}).</value>
+  </data>
+  <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
+    <value>Vai tu esi drošs? Šis noņems ritma-karti no kvalificēšanās un atiestatīs tās nominēšanas procesu.</value>
+  </data>
+  <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
+    <value>Vai tu esi drošs? Ziņojot jaunu problēmu tiks atiestatīts nominācijas process.</value>
+  </data>
+  <data name="nominations.reset_confirm.problem_warning" xml:space="preserve">
+    <value>Vai tu esi drošs, ka jāpasūdzas par problēmu ar šo ritma-karti? Tas brīdinās Ritma-Karšu Nominētājus.</value>
+  </data>
+  <data name="listing.search.prompt" xml:space="preserve">
+    <value>rakstiet atslēgas vārdus...</value>
+  </data>
+  <data name="listing.search.login_required" xml:space="preserve">
+    <value>Ieiet, lai meklētu.</value>
+  </data>
+  <data name="listing.search.options" xml:space="preserve">
+    <value>Vairāk Meklēšanas Opcijas</value>
+  </data>
+  <data name="listing.search.supporter_filter" xml:space="preserve">
+    <value>Filtrēšanai pēc {0} ir nepieciešams aktīvs osu!atbalstītāja piekariņš</value>
+  </data>
+  <data name="listing.search.not-found" xml:space="preserve">
+    <value>nav rezultātu</value>
+  </data>
+  <data name="listing.search.not-found-quote" xml:space="preserve">
+    <value>... nah, nekas netika atrasts.</value>
+  </data>
+  <data name="listing.search.filters.extra" xml:space="preserve">
+    <value>Papildus</value>
+  </data>
+  <data name="listing.search.filters.general" xml:space="preserve">
+    <value>Vispārīgi</value>
+  </data>
+  <data name="listing.search.filters.genre" xml:space="preserve">
+    <value>Žanrs</value>
+  </data>
+  <data name="listing.search.filters.language" xml:space="preserve">
+    <value>Valoda</value>
+  </data>
+  <data name="listing.search.filters.mode" xml:space="preserve">
+    <value>Režīms</value>
+  </data>
+  <data name="listing.search.filters.nsfw" xml:space="preserve">
+    <value>Nepiemērots Saturs</value>
+  </data>
+  <data name="listing.search.filters.played" xml:space="preserve">
+    <value>Spēlēts</value>
+  </data>
+  <data name="listing.search.filters.rank" xml:space="preserve">
+    <value>Rangs Sasniegts</value>
+  </data>
+  <data name="listing.search.filters.status" xml:space="preserve">
+    <value>Kategorijas</value>
+  </data>
+  <data name="listing.search.sorting.title" xml:space="preserve">
+    <value>Nosaukums</value>
+  </data>
+  <data name="listing.search.sorting.artist" xml:space="preserve">
+    <value>Mākslinieks</value>
+  </data>
+  <data name="listing.search.sorting.difficulty" xml:space="preserve">
+    <value>Grūtība</value>
+  </data>
+  <data name="listing.search.sorting.favourites" xml:space="preserve">
+    <value>Favorīti</value>
+  </data>
+  <data name="listing.search.sorting.updated" xml:space="preserve">
+    <value>Atjaunināta</value>
+  </data>
+  <data name="listing.search.sorting.ranked" xml:space="preserve">
+    <value>Novērtēta</value>
+  </data>
+  <data name="listing.search.sorting.rating" xml:space="preserve">
+    <value>Reitingi</value>
+  </data>
+  <data name="listing.search.sorting.plays" xml:space="preserve">
+    <value>Spēles</value>
+  </data>
+  <data name="listing.search.sorting.relevance" xml:space="preserve">
+    <value>Aktualitāte</value>
+  </data>
+  <data name="listing.search.sorting.nominations" xml:space="preserve">
+    <value>Nominācijas</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote._" xml:space="preserve">
+    <value>Filtrēšanai pēc {0} ir nepieciešams aktīvs {1}</value>
+  </data>
+  <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
+    <value>osu!atbalstītāja piekariņš</value>
+  </data>
+  <data name="general.converts" xml:space="preserve">
+    <value>Iekļaut pārveidotās ritma-kartes</value>
+  </data>
+  <data name="general.featured_artists" xml:space="preserve">
+    <value>Kontraktētie Mākslinieki</value>
+  </data>
+  <data name="general.follows" xml:space="preserve">
+    <value>Abonētie kartētāji</value>
+  </data>
+  <data name="general.recommended" xml:space="preserve">
+    <value>Ieteiktais grūtības līmenis</value>
+  </data>
+  <data name="general.spotlights" xml:space="preserve">
+    <value>Ritma-Kartes Uzmanības Centrā</value>
+  </data>
+  <data name="mode.all" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="mode.any" xml:space="preserve">
+    <value>Jebkurš</value>
+  </data>
+  <data name="mode.undefined" xml:space="preserve">
+    <value>nav uzstādīts</value>
+  </data>
+  <data name="status.any" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="status.approved" xml:space="preserve">
+    <value>Apstiprināts</value>
+  </data>
+  <data name="status.favourites" xml:space="preserve">
+    <value>Favorīti</value>
+  </data>
+  <data name="status.graveyard" xml:space="preserve">
+    <value>Pamesta</value>
+  </data>
+  <data name="status.leaderboard" xml:space="preserve">
+    <value>Ir Līderu Saraksts</value>
+  </data>
+  <data name="status.loved" xml:space="preserve">
+    <value>Iemīļots</value>
+  </data>
+  <data name="status.mine" xml:space="preserve">
+    <value>Manas kartes</value>
+  </data>
+  <data name="status.pending" xml:space="preserve">
+    <value>Procesā</value>
+  </data>
+  <data name="status.wip" xml:space="preserve">
+    <value>WIP</value>
+  </data>
+  <data name="status.qualified" xml:space="preserve">
+    <value>Kvalificēts</value>
+  </data>
+  <data name="status.ranked" xml:space="preserve">
+    <value>Rangots</value>
+  </data>
+  <data name="genre.any" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="genre.unspecified" xml:space="preserve">
+    <value>Nenorādīts</value>
+  </data>
+  <data name="genre.video-game" xml:space="preserve">
+    <value>Video Spēle</value>
+  </data>
+  <data name="genre.anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="genre.rock" xml:space="preserve">
+    <value>Roks</value>
+  </data>
+  <data name="genre.pop" xml:space="preserve">
+    <value>Pop</value>
+  </data>
+  <data name="genre.other" xml:space="preserve">
+    <value>Citi</value>
+  </data>
+  <data name="genre.novelty" xml:space="preserve">
+    <value>Jaunums</value>
+  </data>
+  <data name="genre.hip-hop" xml:space="preserve">
+    <value>Hip Hop</value>
+  </data>
+  <data name="genre.electronic" xml:space="preserve">
+    <value>Elektroniskā</value>
+  </data>
+  <data name="genre.metal" xml:space="preserve">
+    <value>Metāls</value>
+  </data>
+  <data name="genre.classical" xml:space="preserve">
+    <value>Klasiskais</value>
+  </data>
+  <data name="genre.folk" xml:space="preserve">
+    <value>Tautas</value>
+  </data>
+  <data name="genre.jazz" xml:space="preserve">
+    <value>Džezs</value>
+  </data>
+  <data name="language.any" xml:space="preserve">
+    <value>Jebkura</value>
+  </data>
+  <data name="language.english" xml:space="preserve">
+    <value>Angļu</value>
+  </data>
+  <data name="language.chinese" xml:space="preserve">
+    <value>Ķīniešu</value>
+  </data>
+  <data name="language.french" xml:space="preserve">
+    <value>Franču</value>
+  </data>
+  <data name="language.german" xml:space="preserve">
+    <value>Vāciešu</value>
+  </data>
+  <data name="language.italian" xml:space="preserve">
+    <value>Itāļu</value>
+  </data>
+  <data name="language.japanese" xml:space="preserve">
+    <value>Japāņu</value>
+  </data>
+  <data name="language.korean" xml:space="preserve">
+    <value>Korejiešu</value>
+  </data>
+  <data name="language.spanish" xml:space="preserve">
+    <value>Spāņu</value>
+  </data>
+  <data name="language.swedish" xml:space="preserve">
+    <value>Zviedru</value>
+  </data>
+  <data name="language.russian" xml:space="preserve">
+    <value>Krievu</value>
+  </data>
+  <data name="language.polish" xml:space="preserve">
+    <value>Poļu</value>
+  </data>
+  <data name="language.instrumental" xml:space="preserve">
+    <value>Instrumentālā</value>
+  </data>
+  <data name="language.other" xml:space="preserve">
+    <value>Citi</value>
+  </data>
+  <data name="language.unspecified" xml:space="preserve">
+    <value>Nenorādīts</value>
+  </data>
+  <data name="nsfw.exclude" xml:space="preserve">
+    <value>Slēpt</value>
+  </data>
+  <data name="nsfw.include" xml:space="preserve">
+    <value>Rādīt</value>
+  </data>
+  <data name="played.any" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="played.played" xml:space="preserve">
+    <value>Spēlēts</value>
+  </data>
+  <data name="played.unplayed" xml:space="preserve">
+    <value>Nespēlēts</value>
+  </data>
+  <data name="extra.video" xml:space="preserve">
+    <value>Ir Video</value>
+  </data>
+  <data name="extra.storyboard" xml:space="preserve">
+    <value>Ir montāža</value>
+  </data>
+  <data name="rank.any" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="rank.xh" xml:space="preserve">
+    <value>Sudraba SS</value>
+  </data>
+  <data name="rank.sh" xml:space="preserve">
+    <value>Sudraba S</value>
+  </data>
+  <data name="panel.playcount" xml:space="preserve">
+    <value>Spēlējumu skaits: {0}</value>
+  </data>
+  <data name="panel.favourites" xml:space="preserve">
+    <value>Patīk: {0}</value>
+  </data>
+  <data name="variant.mania.4k" xml:space="preserve">
+    <value>4K</value>
+  </data>
+  <data name="variant.mania.7k" xml:space="preserve">
+    <value>7K</value>
+  </data>
+  <data name="variant.mania.all" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+</root>

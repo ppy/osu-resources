@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>kijelentkezés</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Adjuk meg a hitelesítő alkalmazás által generált kódot.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Ezenkívül a következő lehetőség is rendelkezésre áll: {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>kijelentkezés</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Ha nem tudsz belépni az alkalmazásodba, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>ehelyett e-mailen keresztül is ellenőrizheti</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Érvénytelen ellenőrző kód, új visszaigazoló e-mail lett küldve.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Ellenőrző kód kiadva, új visszaigazoló e-mail lett küldve.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verification code has already been used. Please wait and use a new one.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>A hitelesítési token törlésre került, e-mailes hitelesítésre váltunk. A hitelesítő e-mail elküldésre került.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Ismeretlen hiba történt, új visszaigazoló email küldve.</value>

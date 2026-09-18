@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* ügyfél-hitelesítő adatok használata esetén nem megengedett</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* más hatályokkal együtt nem érvényes</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>Az ügyfélnél hiányzik a tulajdonos.</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>Az ügyfél nem rendelkezik jogosultsággal.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Az ügyfél-hitelesítő adatokkal történő delegálás kizárólag a botok számára elérhető.</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Ez a hatály kizárólag a client_credentials típusú tokenekre vonatkozik.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>A felhatalmazás nem támogatott ebben a hatálykombinációban.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>A delegátum hatókörének megadása kötelező.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>A hatókör nélküli tokenek érvénytelenek.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Ez a hozzáférési kör kizárólag botok vagy a saját klienseid számára érhető el.</value>
+  </data>
 </root>

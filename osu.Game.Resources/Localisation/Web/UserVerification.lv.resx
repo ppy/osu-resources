@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="box.sent" xml:space="preserve">
+    <value>E-pasts ir aizsūtīts uz {0} ar verifikācijas kodu. Ieraksti kodu.</value>
+  </data>
+  <data name="box.title" xml:space="preserve">
+    <value>Konta Verifikācija</value>
+  </data>
+  <data name="box.verifying" xml:space="preserve">
+    <value>Pārbauda...</value>
+  </data>
+  <data name="box.issuing" xml:space="preserve">
+    <value>Sūta jaunu kode...</value>
+  </data>
+  <data name="box.info.check_spam" xml:space="preserve">
+    <value>Pārliecinies ka esi arī pārbaudījis nevēlamajā sadaļā, ja tu nevari to atrast.</value>
+  </data>
+  <data name="box.info.recover" xml:space="preserve">
+    <value>Ja tu nevari piekļūt savam e-pastam vai esi aizmirsis ko esi izmantojis, lūdzu seko saitei {0}.</value>
+  </data>
+  <data name="box.info.recover_link" xml:space="preserve">
+    <value>e-pasta atgūšanas process šeit</value>
+  </data>
+  <data name="box.info.reissue" xml:space="preserve">
+    <value>Tu arī vari {0} vai {1}.</value>
+  </data>
+  <data name="box.info.reissue_link" xml:space="preserve">
+    <value>pieprasīt vēl vienu kodu</value>
+  </data>
+  <data name="box.info.logout_link" xml:space="preserve">
+    <value>izrakstīties</value>
+  </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Lūdzu, ievadi kodu no savas autentifikatora lietotnes.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Tu vari arī {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>izrakstīties</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Ja nevari piekļūt savai lietotnei, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>tu vari verificēt, izmantojot e-pastu</value>
+  </data>
+  <data name="errors.expired" xml:space="preserve">
+    <value>Verifikācijas kodam beidzies termiņš, aizsūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.incorrect_key" xml:space="preserve">
+    <value>Nepareizs verifikācijas kods.</value>
+  </data>
+  <data name="errors.retries_exceeded" xml:space="preserve">
+    <value>Nepareizs verifikācijas kods. Mēģinājumu limits pārsniegts, aizsūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.reissued" xml:space="preserve">
+    <value>Verifikācijas kods atkārtoti izsniegts, aizstūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Verifikācijas kods jau ir izmantots. Lūdzu, uzgaidi un izmanto jaunu.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Autentifikācijas marķieris ir noņemts, pārslēdzamies uz e-pasta verifikāciju. Verifikācijas e-pasts ir nosūtīts.</value>
+  </data>
+  <data name="errors.unknown" xml:space="preserve">
+    <value>Uzradās nepazīstama problēma, aizsūtīts jauns verifikācijas e-pasts.</value>
+  </data>
+</root>
