@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header.small" xml:space="preserve">
+    <value>Sacensties ne tikai klikšķinot apļus, bet arī citos veidos.</value>
+  </data>
+  <data name="header.large" xml:space="preserve">
+    <value>Kopienas Konkursi</value>
+  </data>
+  <data name="index.nav_title" xml:space="preserve">
+    <value>saraksts</value>
+  </data>
+  <data name="judge.comments" xml:space="preserve">
+    <value>komentāri</value>
+  </data>
+  <data name="judge.hide_judged" xml:space="preserve">
+    <value>paslēpt vērtētos ierakstus</value>
+  </data>
+  <data name="judge.nav_title" xml:space="preserve">
+    <value>tiesāt</value>
+  </data>
+  <data name="judge.no_current_vote" xml:space="preserve">
+    <value>tu vēl nebalsoji.</value>
+  </data>
+  <data name="judge.update" xml:space="preserve">
+    <value>atjaunināt</value>
+  </data>
+  <data name="judge.validation.missing_score" xml:space="preserve">
+    <value>trūkst rezultāts</value>
+  </data>
+  <data name="judge.validation.contest_vote_judged" xml:space="preserve">
+    <value>nevar balsot vērtētos konkursos</value>
+  </data>
+  <data name="judge.voted" xml:space="preserve">
+    <value>Tu jau esi balsojis par šo ierakstu.</value>
+  </data>
+  <data name="judge_results._" xml:space="preserve">
+    <value>Vērtēšanas rezultāti</value>
+  </data>
+  <data name="judge_results.creator" xml:space="preserve">
+    <value>autors</value>
+  </data>
+  <data name="judge_results.score" xml:space="preserve">
+    <value>Rezultāts</value>
+  </data>
+  <data name="judge_results.score_std" xml:space="preserve">
+    <value>Standartizēti Rezultāti</value>
+  </data>
+  <data name="judge_results.total_score" xml:space="preserve">
+    <value>Kopējais rezultāts</value>
+  </data>
+  <data name="judge_results.total_score_std" xml:space="preserve">
+    <value>kopējais standartizēto rezultātu skaits</value>
+  </data>
+  <data name="voting.judge_link" xml:space="preserve">
+    <value>Tu esi šī konkursa tiesnesis. Iesniegtos ierakstus vērtē šeit!</value>
+  </data>
+  <data name="voting.judged_notice" xml:space="preserve">
+    <value>Šajā konkursā tiek izmantota vērtēšanas sistēma, vērtētāji pašlaik apstrādā iesniegtos darbus.</value>
+  </data>
+  <data name="voting.login_required" xml:space="preserve">
+    <value>Lūdzu, pierakstieties, lai balsotu.</value>
+  </data>
+  <data name="voting.over" xml:space="preserve">
+    <value>Balsošana par šo konkursu ir beigusies</value>
+  </data>
+  <data name="voting.show_voted_only" xml:space="preserve">
+    <value>Rādīt balsotos</value>
+  </data>
+  <data name="voting.best_of.none_played" xml:space="preserve">
+    <value>Neizskatās, ka jūs spēlējāt kādu no bītmapēm, kas atbilst šim konkursam!</value>
+  </data>
+  <data name="voting.button.add" xml:space="preserve">
+    <value>Balsot</value>
+  </data>
+  <data name="voting.button.remove" xml:space="preserve">
+    <value>Noņemt balsojumu</value>
+  </data>
+  <data name="voting.button.used_up" xml:space="preserve">
+    <value>Jūs esat izlietojis visas savas balsis</value>
+  </data>
+  <data name="voting.progress._" xml:space="preserve">
+    <value>{0} / {1} balsis izmantotas</value>
+  </data>
+  <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
+    <value>Pirms balsošanas ir jāspēlē visas bītmapes norādītajos sarakstos</value>
+  </data>
+  <data name="entry._" xml:space="preserve">
+    <value>pieteikums</value>
+  </data>
+  <data name="entry.login_required" xml:space="preserve">
+    <value>Lūdzu, pierakstieties, lai piedalītos konkursā.</value>
+  </data>
+  <data name="entry.silenced_or_restricted" xml:space="preserve">
+    <value>Jūs nevarat piedalīties konkursos, kamēr esat ierobežots vai apklusināts.</value>
+  </data>
+  <data name="entry.preparation" xml:space="preserve">
+    <value>Mēs pašlaik gatavojam šo konkursu. Lūdzu, pacietīgi gaidiet!</value>
+  </data>
+  <data name="entry.drop_here" xml:space="preserve">
+    <value>Iemetiet savu pieteikumu šeit</value>
+  </data>
+  <data name="entry.download" xml:space="preserve">
+    <value>Lejupielādēt .osz</value>
+  </data>
+  <data name="entry.wrong_dimensions" xml:space="preserve">
+    <value>Šajā konkursā pieteikumiem jābūt {0}{1}</value>
+  </data>
+  <data name="entry.too_big" xml:space="preserve">
+    <value>Dalība šajā konkursā var būt tikai līdz {0}.</value>
+  </data>
+  <data name="beatmaps.download" xml:space="preserve">
+    <value>Lejupielādēt Pieteikumu</value>
+  </data>
+  <data name="vote.list" xml:space="preserve">
+    <value>balsis</value>
+  </data>
+  <data name="vote.count" xml:space="preserve">
+    <value>{0} balss|{0} balsis</value>
+  </data>
+  <data name="vote.points" xml:space="preserve">
+    <value>{0} punkts|{0} punkti</value>
+  </data>
+  <data name="vote.points_float" xml:space="preserve">
+    <value>{0} punkti</value>
+  </data>
+  <data name="dates.ended" xml:space="preserve">
+    <value>Beidzās {0}</value>
+  </data>
+  <data name="dates.ended_no_date" xml:space="preserve">
+    <value>Beidzās</value>
+  </data>
+  <data name="dates.starts._" xml:space="preserve">
+    <value>Sākas {0}</value>
+  </data>
+  <data name="dates.starts.soon" xml:space="preserve">
+    <value>drīz™</value>
+  </data>
+  <data name="states.entry" xml:space="preserve">
+    <value>Pieteikums Atvērts</value>
+  </data>
+  <data name="states.voting" xml:space="preserve">
+    <value>Balsošana Sākās</value>
+  </data>
+  <data name="states.results" xml:space="preserve">
+    <value>Rezultāti Pieejami</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Apskatīt informāciju un ierakstes</value>
+  </data>
+</root>

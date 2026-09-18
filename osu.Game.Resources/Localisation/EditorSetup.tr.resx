@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Renkler</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Beatmap arka planındaki vurgu renkleri:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Hit circle / Slider Komboları</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Ses Parçası</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Eğer varsa, statik arka plan yerine video kullanılacaktır. Beatmap yüklemeleri videolu ve videosuz olarak mevcuttur, bu yüzden video ekliyorsanız ona uygun bir arkaplan da tedarik edilmelidir.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Özel sample setleri</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Bir parça seçmek için tıklayın</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Video seçmek için dokun</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Arka plan resmi seçmek için tıkla</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Sadece bu zorluk için uygula</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Metada ile tüm zorlukları eşleştir</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Sanatçı, başlık, kaynak ve etiketleri tüm zorluklara kopyalar.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Oyun türü ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Beatmap arka planını ayarlamak için buraya resim sürükleyin!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Beatmap videosu oluşturmak için videoyu buraya sürükle!</value>
   </data>
 </root>

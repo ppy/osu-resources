@@ -427,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Zobrazit méně podrobností</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Zobrazit více podrobností</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Změnit záhlaví profilu</value>
   </data>
@@ -674,13 +680,13 @@
     <value>Zobrazit detaily</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>Umístění</value>
+    <value>Skóre</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>Nejlepší výkon</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>Umístění na prvním místě</value>
+    <value>Skóre na prvním místě</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Odepnout</value>
@@ -766,8 +772,29 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Webové stránky</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Prohry</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Celkem zápasů</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Umístění</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Hodnocení</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Historie posledních zápasů</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Úroveň</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
     <value>Hodnocená hra</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Výhry</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Možná si změnil uživatelské jméno.</value>
@@ -821,13 +848,28 @@
     <value>Světové hodnocení</value>
   </data>
   <data name="show.rank.highest" xml:space="preserve">
-    <value>Nejvyšší rank {0} v {1}</value>
+    <value>Nejvyšší umístění {0} dne {1}</value>
+  </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>{0} nového algoritmu pro počet hvězd / PP.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>Dochází k nasazování</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Nedávná skóre nemusí být okamžitě zohledněna na uživatelských profilech.</value>
   </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
   </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Zvýrazněné</value>
+  </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Celkové skóre</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Sólo hra</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Přesnost zásahů</value>
@@ -842,7 +884,7 @@
     <value>postup do dalšího levelu</value>
   </data>
   <data name="show.stats.maximum_combo" xml:space="preserve">
-    <value>Maximální Combo</value>
+    <value>Maximální kombo</value>
   </data>
   <data name="show.stats.medals" xml:space="preserve">
     <value>Medaile</value>

@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Définir le point d'aperçu au temps actuel</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Aligner toutes les notes au diviseur de mesure actuel</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Déplacer les objets déjà placés lors du changement du timing</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (snapped)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Limiter le placement du distance snap au temps actuel</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Limiter le placement au temps actuel</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Contracter les barres latérales lorsqu'elles ne sont pas survolées</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Marque-page suivant</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Réinitialiser les marque-pages</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Réinitialiser les marque-pages...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Ouvrir la page d'informations de la beatmap</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Tout le beatmapset</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>La sauvegarde n'est pas encore prise en compte pour ces règles, désolé!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>L'export a échoué !</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>L'import a échoué !</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Ouvrir le dossier</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Nettoyage en cours...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Export pour édition en cours...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>La beatmap est montée en externe</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Toutes les modifications apportées au dossier exporté seront importées dans le jeu, y compris les ajouts de fichiers, les modifications et les suppressions.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Nouveau combo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Banque</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Banque normale</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Banque d'additions</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Groupe de sample</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Sélectionner</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Synchroniser...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Rembobiner</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Avance rapide</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Aller au point de timing précédent</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Aller au point de timing suivant</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Aller au premier objet/début de la piste</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Jouer depuis le début de la piste</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Activer/désactiver la pause</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Aller au dernier objet/à la fin de la piste</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Activer/désactiver un nouveau combo</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Activer/désactiver le « sifflet »</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Activer/désactiver la « finition »</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Activer/désactiver le « clap »</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Configurer la banque de sons principale sur auto</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Configurer la banque de sons principale sur normal</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Configurer la banque de sons principale sur soft</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Configurer la banque de sons principale sur drum</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Configurer la banque de sons annexe sur auto</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Configurer la banque de sons annexe sur normal</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Configurer la banque de sons annexe sur soft</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Configurer la banque de sons annexe sur drum</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Basculer la grille d'ancrage de distance</value>
   </data>
 </root>

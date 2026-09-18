@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
+    <value>* İstemci Kimlik Bilgileri ile izin verilmez</value>
+  </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* diğer kapsamlarla birlikte geçerli değildir</value>
+  </data>
+  <data name="invalid_scope.client_missing_owner" xml:space="preserve">
+    <value>İstemci sahibi eksik</value>
+  </data>
+  <data name="invalid_scope.client_unauthorized" xml:space="preserve">
+    <value>İstemci yetkilendirilmemiş.</value>
+  </data>
+  <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
+    <value>Müşteri Kimlik Bilgileriyle Yetkilendirme özelliği yalnızca botlar tarafından kullanılabilir.</value>
+  </data>
+  <data name="invalid_scope.client_credentials_only" xml:space="preserve">
+    <value>Bu kapsam yalnızca client_credentials token'ları için geçerlidir.</value>
+  </data>
+  <data name="invalid_scope.delegate_invalid_combination" xml:space="preserve">
+    <value>Bu kapsam kombinasyonu için yetki devri desteklenmemektedir.</value>
+  </data>
+  <data name="invalid_scope.delegate_required" xml:space="preserve">
+    <value>temsilci scope gerekli.</value>
+  </data>
+  <data name="invalid_scope.empty" xml:space="preserve">
+    <value>Scope olmayan tokenler geçerli değil.</value>
+  </data>
+  <data name="invalid_scope.bot_only" xml:space="preserve">
+    <value>Bu scope sadece botlar veya sahip olduğun istemciler için mevcut.</value>
+  </data>
 </root>

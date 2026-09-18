@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="mods" xml:space="preserve">
-    <value>Tùy chỉnh lối chơi</value>
+    <value>Mod</value>
   </data>
   <data name="random" xml:space="preserve">
     <value>Ngẫu nhiên</value>
@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>Độ chính xác</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} Cửa sổ bấm</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>Độ giảm máu</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Ảnh hưởng cường độ mất máu và lượng máu phạt khi bấm trượt.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Tốc độ cuộn</value>
@@ -107,7 +113,7 @@
     <value>Đã gửi</value>
   </data>
   <data name="ranked" xml:space="preserve">
-    <value>Đã được xếp hạng</value>
+    <value>Đã xếp hạng</value>
   </data>
   <data name="details" xml:space="preserve">
     <value>Chi tiết</value>
@@ -131,13 +137,13 @@
     <value>Cập nhật beatmap với thay đổi trực tuyến</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
-    <value>Đánh dấu là đã chơi</value>
+    <value>Đánh dấu đã chơi</value>
   </data>
   <data name="remove_from_played" xml:space="preserve">
     <value>Xóa khỏi đã chơi</value>
   </data>
   <data name="clear_all_local_scores" xml:space="preserve">
-    <value>Xoá tất cả kết quả chơi được lưu</value>
+    <value>Xoá tất cả kết quả chơi được lưu...</value>
   </data>
   <data name="restore_all_hidden" xml:space="preserve">
     <value>Khôi phục tất cả đã ẩn</value>
@@ -213,5 +219,8 @@
   </data>
   <data name="mostly_bpm" xml:space="preserve">
     <value>chủ yếu {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} trận|{0:#,0} trận</value>
   </data>
 </root>

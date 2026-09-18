@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Värit</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Aksenttivärit rytmikartan taustan perusteella:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Iskuympyröiden / Liukureiden putket</value>
   </data>
@@ -160,8 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Äänikappale</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Videota käytetään staattisen taustan sijasta, jos se löytyy. Rytmikarttalataukset tarjotaan sekä videolla että ilman, joten videon lisäämisen yhteydessä tulisi myös tarjota vastaava tausta.</value>
+  </data>
+  <data name="custom_sample_sets" xml:space="preserve">
+    <value>Mukautetut samplejoukot</value>
+  </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Napsauta valitaksesi kappaleen</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Napsauta valitaksesi video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Napsauta valitaksesi taustakuvan</value>
@@ -174,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Aseta vain tähän vaikeustasoon</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Synkronisoi metadata kaikkien vaikeustasojen kanssa</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Kopioi artistin, otsikon ja tägit kaikkiin vaikeustasoihin.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Pelimuoto ({0})</value>
@@ -192,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Aseta rytmikartalle taustakuva raahaamalla kuva tähän!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Raahaa video tähän asettaaksesi sen rytmikartan videoksi!</value>
   </data>
 </root>

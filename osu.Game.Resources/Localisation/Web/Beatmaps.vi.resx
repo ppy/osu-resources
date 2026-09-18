@@ -65,7 +65,7 @@
     <value>Quá nhiều mapper khách.</value>
   </data>
   <data name="discussion-votes.update.error" xml:space="preserve">
-    <value>Cập nhật phiếu thất bại</value>
+    <value>Cập nhật bình chọn thất bại</value>
   </data>
   <data name="discussions.allow_kudosu" xml:space="preserve">
     <value>cho phép kudosu</value>
@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Đã từ chối nhận kudosu.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Bao gồm cả phản hồi</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Độ khó này đã bị xóa nên nó có thể sẽ không còn được thảo luận nữa.</value>
   </data>
@@ -101,7 +104,7 @@
     <value>Chức năng thảo luận của beatmap này đã bị vô hiệu hóa.</value>
   </data>
   <data name="discussions.message_placeholder_silenced" xml:space="preserve">
-    <value>Không thể đăng thảo luận khi bị khoá mõm.</value>
+    <value>Không thể đăng thảo luận khi bị câm lặng.</value>
   </data>
   <data name="discussions.message_type_select" xml:space="preserve">
     <value>Chọn Kiểu Bình Luận</value>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Hiển thị bình luận đã xóa</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Hiển thị phản hồi của người khác</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Góc Thảo Luận</value>
@@ -173,10 +179,10 @@
     <value>Gõ ở đây để đăng một bài đánh giá</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Nhập vào đây để đăng vào dòng thời gian ({0})</value>
+    <value>Nhập vào đây để đăng vào Dòng thời gian ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
-    <value>Hủy tư cách</value>
+    <value>Hủy trạng thái đủ điều kiện</value>
   </data>
   <data name="discussions.message_type.hype" xml:space="preserve">
     <value>Hype!</value>
@@ -203,7 +209,7 @@
     <value>Gợi ý</value>
   </data>
   <data name="discussions.message_type_title.disqualify" xml:space="preserve">
-    <value>Hủy xét duyệt tư cách</value>
+    <value>Hủy trạng thái đủ điều kiện</value>
   </data>
   <data name="discussions.message_type_title.hype" xml:space="preserve">
     <value>Đăng Hype!</value>
@@ -281,7 +287,7 @@
     <value>Các bài đăng trên "Mọi độ khó" không thể gắn mốc thời gian.</value>
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
-    <value>Nếu bài viết này bắt đầu với một dấu thời gian, nó sẽ được hiển thị trong Dòng thời gian.</value>
+    <value>Nếu bài đăng này bắt đầu với một dấu thời gian, nó sẽ được hiển thị trong Dòng thời gian.</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>chèn đoạn văn</value>
@@ -335,7 +341,7 @@
     <value>Beatmap này chưa được cập nhật từ {0} và có thể đã bị đắp mộ...</value>
   </data>
   <data name="discussions.status-messages.loved" xml:space="preserve">
-    <value>Beatmap này đã được love vào {0}!</value>
+    <value>Beatmap này đã được loved vào {0}!</value>
   </data>
   <data name="discussions.status-messages.ranked" xml:space="preserve">
     <value>Beatmap này đã được xếp hạng (ranked) vào {0}!</value>
@@ -404,16 +410,16 @@
     <value>Bạn có chắc không? Beatmap sẽ bị xóa và bạn sẽ được chuyển hướng quay trở lại trang cá nhân của người dùng.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
-    <value>Lý do để disqualify?</value>
+    <value>Lý do hủy trạng thái đủ điều kiện?</value>
   </data>
   <data name="nominations.disqualified_at" xml:space="preserve">
-    <value>Disqualified {0} ({1}).</value>
+    <value>Bị loại khỏi hàng chờ xếp hạng {0} ({1}).</value>
   </data>
   <data name="nominations.disqualified_no_reason" xml:space="preserve">
     <value>không đưa ra lí do</value>
   </data>
   <data name="nominations.disqualify" xml:space="preserve">
-    <value>Disqualify</value>
+    <value>Hủy trạng thái đủ điều kiện</value>
   </data>
   <data name="nominations.incorrect_state" xml:space="preserve">
     <value>Có lỗi khi thực hiện việc này, hãy thử tải lại trang.</value>
@@ -422,7 +428,7 @@
     <value>Yêu thích</value>
   </data>
   <data name="nominations.love_choose" xml:space="preserve">
-    <value>Lựa chọn chế độ yêu thích</value>
+    <value>Chọn độ khó để đề cử loved</value>
   </data>
   <data name="nominations.love_confirm" xml:space="preserve">
     <value>Yêu thích beatmap này?</value>
@@ -440,10 +446,10 @@
     <value>Không đủ hype.</value>
   </data>
   <data name="nominations.remove_from_loved" xml:space="preserve">
-    <value>Gỡ khỏi Được Yêu mến</value>
+    <value>Gỡ khỏi Loved</value>
   </data>
   <data name="nominations.remove_from_loved_prompt" xml:space="preserve">
-    <value>Lý do gỡ khỏi Được Yêu thích:</value>
+    <value>Lý do gỡ khỏi Loved:</value>
   </data>
   <data name="nominations.required_text" xml:space="preserve">
     <value>Trạng thái đề cử: {0}/{1}</value>
@@ -458,10 +464,10 @@
     <value>Vẫn còn một số vấn đề chưa giải quyết cần được xem lại trước.</value>
   </data>
   <data name="nominations.rank_estimate._" xml:space="preserve">
-    <value>Map này ước tính sẽ được Xếp Hạng {0} nếu không tìm ra lỗi nào. Nó đang ở #{1} trong {2}.</value>
+    <value>Map này ước tính sẽ được xếp hạng {0} nếu không tìm ra lỗi nào. Nó đang ở #{1} trong {2}.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
-    <value>Map này bị chặn không cho phép ra khỏi phần Đủ tư cách cho đến khi {0} được giải quyết.</value>
+    <value>Map này không thể cho ra khỏi mục Đủ điều kiện cho đến khi {0} được giải quyết.</value>
   </data>
   <data name="nominations.rank_estimate.problems" xml:space="preserve">
     <value>những vấn đề này</value>
@@ -479,10 +485,10 @@
     <value>Quá trình đề cử (nomination) thiết lập lại vào {0} bởi {1} với vấn đề mới {2} ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>Disqualified {0} bởi {1} với vấn đề mới {2} ({3}).</value>
+    <value>Bị hủy trạng thái đủ điều kiện {0} bởi {1} với vấn đề mới {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Bạn chắc không? Việc này sẽ loại bỏ beatmap khỏi qualify và thiết lập lại quá trình đề cử.</value>
+    <value>Bạn chắc không? Việc này sẽ loại bỏ beatmap khỏi mục đủ điều kiện và thiết lập lại quá trình đề cử.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Bạn chắc không? Đăng một vấn đề mới sẽ thiết lập lại quá trình đề cử (nomination).</value>
@@ -617,10 +623,10 @@
     <value>Đắp mộ</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
-    <value>Có danh sách xếp hạng</value>
+    <value>Có bảng xếp hạng</value>
   </data>
   <data name="status.loved" xml:space="preserve">
-    <value>Được yêu mến</value>
+    <value>Loved</value>
   </data>
   <data name="status.mine" xml:space="preserve">
     <value>Map của tôi</value>
@@ -632,7 +638,7 @@
     <value>Chưa xong</value>
   </data>
   <data name="status.qualified" xml:space="preserve">
-    <value>Đủ tư cách</value>
+    <value>Đủ điều kiện</value>
   </data>
   <data name="status.ranked" xml:space="preserve">
     <value>Đã được xếp hạng</value>

@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>准度要求</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} 击打判定窗口</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>掉血速度</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>影响血量降低的速度和失误时的血量惩罚。</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>滚动速度</value>
@@ -209,9 +215,12 @@
     <value>没有符合筛选条件的谱面！</value>
   </data>
   <data name="temporarily_showing_all_beatmaps_in" xml:space="preserve">
-    <value>临时展示这张谱面下的所有难度：</value>
+    <value>临时展示这张谱面下的所有难度</value>
   </data>
   <data name="mostly_bpm" xml:space="preserve">
-    <value>主要为 {0}</value>
+    <value>基准 {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} 个匹配项目</value>
   </data>
 </root>

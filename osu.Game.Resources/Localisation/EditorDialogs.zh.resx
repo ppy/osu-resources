@@ -97,7 +97,28 @@
   <data name="delete_difficulty_details" xml:space="preserve">
     <value>难度“{0}”，物件数 {1}</value>
   </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>将作曲家、曲名、来源和标签覆盖至所有难度中。此操作将无法撤销。</value>
+  </data>
   <data name="all_bookmarks" xml:space="preserve">
     <value>所有书签</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>将所有物件吸附至当前节拍细分吗？</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>在此难度中的每个物件都会移动到到当前节拍细分所对应的最近节拍上。滑条和长按的持续时间可能会发生变化。您可以在编辑器的历史记录中撤销此操作。</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>是否同步时间点设置？</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>选择时间点设置以从该难度同步到其他所有难度。此操作不可撤销。</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>预览点</value>
   </data>
 </root>

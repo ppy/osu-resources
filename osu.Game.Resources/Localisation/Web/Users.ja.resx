@@ -430,6 +430,12 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>詳細を非表示</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>詳細を表示</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>カバー画像の変更</value>
   </data>
@@ -677,7 +683,7 @@ CAPTCHA認証を成功させてから再試行してください。
     <value>詳細を表示</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>ランク</value>
+    <value>スコア</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>ベストパフォーマンス</value>
@@ -769,8 +775,29 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.info.website" xml:space="preserve">
     <value>ウェブサイト</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>敗北数</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>総試合数</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>ランク</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>レーティング</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>最新の対戦履歴</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>ティア</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
     <value>ランクマッチ</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>勝利数</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>ユーザー名を変更した可能性があります。</value>
@@ -826,11 +853,26 @@ CAPTCHA認証を成功させてから再試行してください。
   <data name="show.rank.highest" xml:space="preserve">
     <value>最高ランク: {0} ({1}に取得)</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>スターレーティングとPPの新しい計算アルゴリズムが、{0}。</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>順次導入されます</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>最新のスコアがユーザープロフィールに反映されるまで、時間がかかる場合があります。</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>トップ {0}</value>
   </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>スポットライト</value>
+  </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>合計スコア</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>ソロプレイ</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>精度</value>

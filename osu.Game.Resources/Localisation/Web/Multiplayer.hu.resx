@@ -58,8 +58,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="empty.active" xml:space="preserve">
+    <value>Jelenleg nincs folyamatban lévő osu!(lazer) {0} játékod!</value>
+  </data>
+  <data name="empty.ended" xml:space="preserve">
+    <value>Még nincs befejezett osu!(lazer) {0} játék!</value>
+  </data>
   <data name="empty.playlists" xml:space="preserve">
     <value>játéklista</value>
+  </data>
+  <data name="empty.ranked-play" xml:space="preserve">
+    <value>ranked</value>
   </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>többjátékos</value>
@@ -79,8 +88,20 @@
   <data name="room.time_left" xml:space="preserve">
     <value>{0} van hátra</value>
   </data>
+  <data name="room.view_history" xml:space="preserve">
+    <value>Előzmény Megtekintése</value>
+  </data>
+  <data name="room.view_summary" xml:space="preserve">
+    <value>Összefoglaló Megtekintése</value>
+  </data>
   <data name="room.errors.duration_too_long" xml:space="preserve">
     <value>Az időtartam túl hosszú.</value>
+  </data>
+  <data name="room.errors.name_too_long" xml:space="preserve">
+    <value>A szoba neve túl hosszú.</value>
+  </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>Túl sok játéklista elem van.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>aktív</value>

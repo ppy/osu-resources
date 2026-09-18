@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Установить аудиопревью с текущего тайм-кода</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Привязать все ноты к текущему музыкальному размеру...</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Сдвигать все объекты на таймлайне с изменениями тайминга</value>
   </data>
@@ -98,13 +101,13 @@
     <value>Сменить сложность</value>
   </data>
   <data name="delete_difficulty" xml:space="preserve">
-    <value>Удалить сложность</value>
+    <value>Удалить сложность...</value>
   </data>
   <data name="edit_externally" xml:space="preserve">
-    <value>Изменить в папке</value>
+    <value>Изменить в папке...</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Опубликовать карту</value>
+    <value>Опубликовать карту...</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>настройка</value>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (шаг 15°)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Интервальная расстановка только для текущего тайм-кода</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Ограничить расстановку объектов текущим тайм-кодом</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Сворачивать боковые панели автоматически</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Перейти к следующей закладке</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Удалить все закладки</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Удалить все закладки...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Открыть страницу с информацией о карте</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Все сложности</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Сохранение пока не поддерживается этим режимом игры, извините!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Не удалось извлечь файлы в систему!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Не удалось импортировать изменения!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Применение изменений...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Идёт экспорт...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Файлы карты извлечены в систему</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Любые операции над файлами в папке, включая удаления, добавления и изменения, будут импортированы в игру.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Новое комбо</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Набор</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Основной набор</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Дополнительный набор</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Сэмпл</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Группа сэмплов</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Выделение</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Синхронизировать...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Перемотать назад</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Перемотать вперёд</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Перейти к предыдущей тайминг-секции</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Перейти к следующей тайминг-секции</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Перейти к первому объекту / к началу трека</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Воспроизвести с самого начала трека</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Воспроизведение/пауза</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Перейти к последнему объекту / к концу трека</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Вкл/откл новое комбо</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Вкл/откл свисток</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Вкл/откл тарелку</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Вкл/откл хлопок</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Выбрать авто набор сэмплов в качестве основного</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Выбрать обычный набор сэмплов в качестве основного</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Выбрать мягкий набор сэмплов в качестве основного</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Выбрать барабанный набор сэмплов в качестве основного</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Выбрать авто набор сэмплов в качестве дополнительного</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Выбрать обычный набор сэмплов в качестве дополнительного</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Выбрать мягкий набор сэмплов в качестве дополнительного</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Выбрать барабанный набор сэмплов в качестве дополнительного</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Вкл/откл интервальную расстановку</value>
   </data>
 </root>

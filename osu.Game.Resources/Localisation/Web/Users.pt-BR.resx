@@ -119,7 +119,7 @@
     <value>Desbloquear</value>
   </data>
   <data name="card.gift_supporter" xml:space="preserve">
-    <value>Presentear supporter tag</value>
+    <value>Presentear tag de osu!supporter</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Carregando...</value>
@@ -407,10 +407,10 @@
     <value>Desafio\ndiário</value>
   </data>
   <data name="show.daily_challenge.top_10p_placements" xml:space="preserve">
-    <value>Melhores 10% nos colocados</value>
+    <value>Colocações nos melhores 10%</value>
   </data>
   <data name="show.daily_challenge.top_50p_placements" xml:space="preserve">
-    <value>Melhores 50% nos colocados</value>
+    <value>Colocações nos melhores 50%</value>
   </data>
   <data name="show.daily_challenge.weekly" xml:space="preserve">
     <value>Sequência semanal</value>
@@ -426,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Mostrar menos detalhes</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mostrar mais detalhes</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Mudar Capa de Perfil</value>
@@ -473,7 +479,7 @@
     <value>definir {0} como modo de jogo padrão</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
-    <value>Redefinir cor para padrão? A etiqueta de apoiador será necessário para alterar a cor.</value>
+    <value>Redefinir a cor para o padrão? Uma tag de osu!supporter será necessária para alterá-la para uma cor diferente.</value>
   </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>Cor</value>
@@ -512,7 +518,7 @@
     <value>Beatmaps no cemitério</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Beatmaps de Participação de Visitantes</value>
+    <value>Beatmaps com participação de convidado</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
     <value>Beatmaps Loved</value>
@@ -623,7 +629,7 @@
     <value>Kudosu negado por {0} pela publicação {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Baseado no quanto o usuário contribuiu à moderação do beatmap. Veja {0} para mais informações.</value>
+    <value>Baseado no quanto o usuário contribuiu à moderação de beatmaps. Veja {0} para mais informações.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>esta página</value>
@@ -641,7 +647,7 @@
     <value>Medalhas</value>
   </data>
   <data name="show.extra.playlists.title" xml:space="preserve">
-    <value>Jogos da Seleção de Música</value>
+    <value>Partidas da playlist</value>
   </data>
   <data name="show.extra.posts.title" xml:space="preserve">
     <value>Publicações</value>
@@ -766,8 +772,29 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Website</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Derrotas</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Total de partidas</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Avaliação</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Histórico da última partida</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Nível</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
     <value>Competitivo</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Vitórias</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Talvez o usuário tenha mudado seu nome.</value>
@@ -823,8 +850,20 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Maior classificação: {0} em {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Um novo algoritmo de dificuldade / PP está {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>sendo lançado</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Pontuações recentes podem não ser refletidas imediatamente nos perfis de usuário.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Destaques</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Pontuação total</value>

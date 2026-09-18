@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="play_more" xml:space="preserve">
+    <value>Apa kata main osu! pula?</value>
+  </data>
+  <data name="require_login" xml:space="preserve">
+    <value>Sila daftar masuk untuk teruskan.</value>
+  </data>
+  <data name="require_verification" xml:space="preserve">
+    <value>Sila sahkan untuk teruskan.</value>
+  </data>
+  <data name="restricted" xml:space="preserve">
+    <value>Tidak boleh dilakukan ketika dihadkan.</value>
+  </data>
+  <data name="silenced" xml:space="preserve">
+    <value>Tidak boleh dilakukan ketika didiamkan.</value>
+  </data>
+  <data name="unauthorized" xml:space="preserve">
+    <value>Capaian ditolak.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.is_hype" xml:space="preserve">
+    <value>Gembaran tidak boleh dibuat asal.</value>
+  </data>
+  <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
+    <value>Perbincangan berbalas tidak boleh dipadam</value>
+  </data>
+  <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
+    <value>Anda telah mencapai had pencalonan anda buat hari ini. Sila cuba lagi esok.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.incorrect_state" xml:space="preserve">
+    <value>Terdapat ralat menjalankan tindakan. Cuba segar semula halaman.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.owner" xml:space="preserve">
+    <value>Peta rentak sendiri tidak boleh dicalonkan.</value>
+  </data>
+  <data name="beatmap_discussion.nominate.set_metadata" xml:space="preserve">
+    <value>Anda mesti menetapkan genre dan bahasa terlebih dahulu sebelum pencalonan.</value>
+  </data>
+  <data name="beatmap_discussion.resolve.not_owner" xml:space="preserve">
+    <value>Hanya pemula bebenang dan pemilik peta rentak boleh menyelesaikan perbincangan.</value>
+  </data>
+  <data name="beatmap_discussion.store.mapper_note_wrong_user" xml:space="preserve">
+    <value>Hanya pencipta peta rentak atau ahli pencalon/NAT boleh menghantar catatan pemeta.</value>
+  </data>
+  <data name="beatmap_discussion.vote.bot" xml:space="preserve">
+    <value>Anda tidak boleh mengundi pada perbincangan buatan bot</value>
+  </data>
+  <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
+    <value>Sila tunggu sebentar sebelum mengundi lagi</value>
+  </data>
+  <data name="beatmap_discussion.vote.owner" xml:space="preserve">
+    <value>Tidak dapat mengundi perbincangan sendiri.</value>
+  </data>
+  <data name="beatmap_discussion.vote.wrong_beatmapset_state" xml:space="preserve">
+    <value>Anda boleh mengundi pada perbincangan tentang peta rentak tergantung sahaja.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.not_owner" xml:space="preserve">
+    <value>Anda hanya boleh memadam hantaran sendiri.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.resolved" xml:space="preserve">
+    <value>Anda tidak boleh memadam hantaran perbincangan yang diselesaikan.</value>
+  </data>
+  <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
+    <value>Hantaran janaan automatik tidak boleh dipadam.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
+    <value>Hanya penghantar boleh menyunting hantaran.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.resolved" xml:space="preserve">
+    <value>Anda tidak boleh menyunting hantaran perbincangan yang diselesaikan.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
+    <value>Hantaran janaan automatik tidak boleh disunting.</value>
+  </data>
+  <data name="beatmapset.discussion_locked" xml:space="preserve">
+    <value>Peta rentak ini dikunci dari perbincangan.</value>
+  </data>
+  <data name="beatmapset.metadata.nominated" xml:space="preserve">
+    <value>Anda tidak boleh mengubah metadata peta yang dicalonkan. Hubungi ahli pencalon or NAT sekiranya anda berasa bahawa tetapan peta ini tidak betul.</value>
+  </data>
+  <data name="beatmap_tag.store.no_score" xml:space="preserve">
+    <value>Anda mesti mencapai markah pada peta rentak untuk menambahkan tag.</value>
+  </data>
+  <data name="chat.blocked" xml:space="preserve">
+    <value>Pengguna yang menyekat atau disekat anda tidak boleh dikirim pesanan.</value>
+  </data>
+  <data name="chat.friends_only" xml:space="preserve">
+    <value>Pengguna menyekat pesanan daripada orang yang tiada dalam senarai kawan.</value>
+  </data>
+  <data name="chat.moderated" xml:space="preserve">
+    <value>Saluran ini kini dimoderasi.</value>
+  </data>
+  <data name="chat.no_access" xml:space="preserve">
+    <value>Anda tidak boleh mencapai saluran itu.</value>
+  </data>
+  <data name="chat.no_announce" xml:space="preserve">
+    <value>Anda tidak diizinkan untuk menghantar pengumuman.</value>
+  </data>
+  <data name="chat.receive_friends_only" xml:space="preserve">
+    <value>Pengguna ini mungkin tidak boleh membalas kerana anda hanya menerima pesanan daripada orang dalam senarai kawan.</value>
+  </data>
+  <data name="chat.restricted" xml:space="preserve">
+    <value>Anda tidak boleh mengirim pesanan ketika didiamkan, dihadkan atau dilarang.</value>
+  </data>
+  <data name="chat.silenced" xml:space="preserve">
+    <value>Anda tidak boleh mengirim pesanan ketika didiamkan, dihadkan atau dilarang.</value>
+  </data>
+  <data name="comment.store.disabled" xml:space="preserve">
+    <value>Pengomenan dilumpuhkan</value>
+  </data>
+  <data name="comment.update.deleted" xml:space="preserve">
+    <value>Hantaran yang dipadam tidak boleh disunting.</value>
+  </data>
+  <data name="contest.judging_not_active" xml:space="preserve">
+    <value>Penilaian untuk peraduan ini tidak giat.</value>
+  </data>
+  <data name="contest.voting_over" xml:space="preserve">
+    <value>Anda tidak boleh mengubah undian setelah tempoh mengundi untuk peraduan ini telah tamat.</value>
+  </data>
+  <data name="contest.entry.limit_reached" xml:space="preserve">
+    <value>Anda telah mencapai had penyertaan untuk peraduan ini</value>
+  </data>
+  <data name="contest.entry.over" xml:space="preserve">
+    <value>Terima kasih atas penyertaan anda! Penyerahan telah tutup untuk peraduan ini dan pengundian akan buka sebentar lagi.</value>
+  </data>
+  <data name="forum.moderate.no_permission" xml:space="preserve">
+    <value>Tidak diizinkan untuk memoderasi forum ini.</value>
+  </data>
+  <data name="forum.post.delete.only_last_post" xml:space="preserve">
+    <value>Hanya hantaran terkini boleh dipadam.</value>
+  </data>
+  <data name="forum.post.delete.locked" xml:space="preserve">
+    <value>Hantaran pada tajuk terkunci tidak boleh dipadam.</value>
+  </data>
+  <data name="forum.post.delete.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.post.delete.not_owner" xml:space="preserve">
+    <value>Hanya penghantar boleh memadam hantaran ini.</value>
+  </data>
+  <data name="forum.post.edit.deleted" xml:space="preserve">
+    <value>Tidak boleh sunting hantaran yang dipadam.</value>
+  </data>
+  <data name="forum.post.edit.locked" xml:space="preserve">
+    <value>Hantaran ini dikunci daripada disunting.</value>
+  </data>
+  <data name="forum.post.edit.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.post.edit.no_permission" xml:space="preserve">
+    <value>Tidak diizinkan untuk menyunting.</value>
+  </data>
+  <data name="forum.post.edit.not_owner" xml:space="preserve">
+    <value>Hanya penghantar boleh menyunting hantaran ini.</value>
+  </data>
+  <data name="forum.post.edit.topic_locked" xml:space="preserve">
+    <value>Hantaran pada tajuk terkunci tidak boleh disunting.</value>
+  </data>
+  <data name="forum.post.store.play_more" xml:space="preserve">
+    <value>Sila cuba bermain sebelum menghantar di forum! Sekiranya anda mempunyai masalah ketika bermain, sila hantar ke forum Bantuan dan Sokongan.</value>
+  </data>
+  <data name="forum.post.store.too_many_help_posts" xml:space="preserve">
+    <value>Anda perlu bermain osu! lagi sebelum anda boleh menghantar lagi. Sekiranya anda masih mempunyai masalah bermain, hantar e-mel ke support@ppy.sh</value>
+  </data>
+  <data name="forum.topic.reply.double_post" xml:space="preserve">
+    <value>Sila sunting hantaran terkini daripada menghantar semula.</value>
+  </data>
+  <data name="forum.topic.reply.locked" xml:space="preserve">
+    <value>Tidak boleh membalas bebenang yang dikunci.</value>
+  </data>
+  <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.topic.reply.no_permission" xml:space="preserve">
+    <value>Tidak diizinkan untuk membalas.</value>
+  </data>
+  <data name="forum.topic.reply.user.require_login" xml:space="preserve">
+    <value>Sila daftar masuk untuk membalas.</value>
+  </data>
+  <data name="forum.topic.reply.user.restricted" xml:space="preserve">
+    <value>Tidak boleh membalas ketika dihadkan.</value>
+  </data>
+  <data name="forum.topic.reply.user.silenced" xml:space="preserve">
+    <value>Tidak boleh membalas ketika didiamkan.</value>
+  </data>
+  <data name="forum.topic.store.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.topic.store.no_permission" xml:space="preserve">
+    <value>Tidak diizinkan untuk memulakan tajuk baharu.</value>
+  </data>
+  <data name="forum.topic.store.forum_closed" xml:space="preserve">
+    <value>Forum ini ditutup dan tidak boleh dibuat hantaran.</value>
+  </data>
+  <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.topic.vote.over" xml:space="preserve">
+    <value>Tinjauan telah tamat dan tidak boleh diundi lagi.</value>
+  </data>
+  <data name="forum.topic.vote.play_more" xml:space="preserve">
+    <value>Anda perlu bermain lagi sebelum mengundi pada forum.</value>
+  </data>
+  <data name="forum.topic.vote.voted" xml:space="preserve">
+    <value>Pengubahan undian tidak dibenarkan.</value>
+  </data>
+  <data name="forum.topic.vote.user.require_login" xml:space="preserve">
+    <value>Sila daftar masuk untuk mengundi.</value>
+  </data>
+  <data name="forum.topic.vote.user.restricted" xml:space="preserve">
+    <value>Tidak boleh mengundi ketika dihadkan.</value>
+  </data>
+  <data name="forum.topic.vote.user.silenced" xml:space="preserve">
+    <value>Tidak boleh mengundi ketika didiamkan.</value>
+  </data>
+  <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
+    <value>Capaian ke forum pintaan diperlukan.</value>
+  </data>
+  <data name="forum.topic_cover.edit.uneditable" xml:space="preserve">
+    <value>Kulit tidak sah ditentukan.</value>
+  </data>
+  <data name="forum.topic_cover.edit.not_owner" xml:space="preserve">
+    <value>Hanya pemilik boleh menyunting kulit.</value>
+  </data>
+  <data name="forum.topic_cover.store.forum_not_allowed" xml:space="preserve">
+    <value>Forum ini tidak menerima kulit tajuk.</value>
+  </data>
+  <data name="forum.view.admin_only" xml:space="preserve">
+    <value>Hanya pentadbir boleh melihat forum ini.</value>
+  </data>
+  <data name="room.destroy.not_owner" xml:space="preserve">
+    <value>Pemilik bilik sahaja boleh menutup.</value>
+  </data>
+  <data name="score.pin.disabled_type" xml:space="preserve">
+    <value>Markah jenis ini tidak boleh disemat</value>
+  </data>
+  <data name="score.pin.failed" xml:space="preserve">
+    <value>Markah tidak lulus tidak boleh disemat.</value>
+  </data>
+  <data name="score.pin.not_owner" xml:space="preserve">
+    <value>Hanya pemilik markah boleh menyemat markah.</value>
+  </data>
+  <data name="score.pin.too_many" xml:space="preserve">
+    <value>Terlalu banyak markah disemat.</value>
+  </data>
+  <data name="team.application.store.already_member" xml:space="preserve">
+    <value>Anda telah memasuki pasukan ini.</value>
+  </data>
+  <data name="team.application.store.already_other_member" xml:space="preserve">
+    <value>Anda telah memasuki pasukan lain.</value>
+  </data>
+  <data name="team.application.store.currently_applying" xml:space="preserve">
+    <value>Anda mempunyai permintaan masuk pasukan yang tergantung.</value>
+  </data>
+  <data name="team.application.store.team_closed" xml:space="preserve">
+    <value>Pasukan ini kini tidak menerima permintaan masuk.</value>
+  </data>
+  <data name="team.application.store.team_full" xml:space="preserve">
+    <value>Pasukan ini penuh dan tidak boleh menerima ahli lagi.</value>
+  </data>
+  <data name="team.part.is_leader" xml:space="preserve">
+    <value>Ketua pasukan tidak boleh meninggalkan pasukan.</value>
+  </data>
+  <data name="team.part.not_member" xml:space="preserve">
+    <value>Anda bukan ahli pasukan.</value>
+  </data>
+  <data name="team.store.require_supporter_tag" xml:space="preserve">
+    <value>Tag osu!supporter diperlukan untuk mencipta pasukan.</value>
+  </data>
+  <data name="user.page.edit.locked" xml:space="preserve">
+    <value>Halaman pengguna dikunci.</value>
+  </data>
+  <data name="user.page.edit.not_owner" xml:space="preserve">
+    <value>Halaman pengguna sendiri sahaja boleh disunting.</value>
+  </data>
+  <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
+    <value>Tag osu!supporter diperlukan.</value>
+  </data>
+  <data name="user.update_email.locked" xml:space="preserve">
+    <value>alamat e-mel dikunci</value>
+  </data>
+</root>

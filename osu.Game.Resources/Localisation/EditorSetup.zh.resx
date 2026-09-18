@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>颜色</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>谱面背景中的主色：</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>打击圈 / 滑条连击颜色</value>
   </data>
@@ -110,13 +113,13 @@
     <value>音效匹配播放速率</value>
   </data>
   <data name="samples_match_playback_rate_description" xml:space="preserve">
-    <value>如果启用此设置，所有音效的播放速率，将会在影响歌曲速度的模组启用时自动变速。</value>
+    <value>如果启用此设置，所有音效将会在启用影响歌曲速度的模组时也应用变速。</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
     <value>所有物件的大小</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
-    <value>整个游玩过程时的掉血速率</value>
+    <value>可游玩过程的掉血速率</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
     <value>物件出现的速度</value>
@@ -131,10 +134,10 @@
     <value>确定在长条类物件中生成多少“滑条点”。1 倍会在每拍上生成 1 个点，而 2 倍会生成 2 个点，以此类推。</value>
   </data>
   <data name="base_velocity" xml:space="preserve">
-    <value>基础滑条速度</value>
+    <value>基础速度</value>
   </data>
   <data name="base_velocity_description" xml:space="preserve">
-    <value>谱面的基础滑条速度，影响某些游戏模式中的的滑条速度和滚动速度。</value>
+    <value>谱面的基础速度，影响某些游戏模式的设置，如滑条速度和滚动速度。</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>元数据</value>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>音轨</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>背景视频</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>背景视频（若有）将用于替换静态背景。谱面在下载前会同时提供包含或不包含背景视频的选项。因此，在添加背景视频的同时也应提供相匹配的静态背景。</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>自定义音效集</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>点击选择音轨</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>点击选择背景视频</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>点击选择背景图片</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>仅应用到这个难度</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>同步所有难度的元数据</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>将作曲家、曲名、来源和标签复制到所有难度中。</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>({0}) 模式</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>把图片拖至此处来将它设为谱面背景！</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>把视频文件拖至此处来将其设为谱面背景视频！</value>
   </data>
 </root>

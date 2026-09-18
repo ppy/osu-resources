@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Perolehan kudosu ditolak.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Sertakan balasan</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Tingkat kesulitan ini sudah dihapus, sehingga tidak lagi bisa didiskusikan.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Tampilkan yang dihapus</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Tampilkan balasan lainnya</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Diskusi</value>
@@ -283,6 +289,9 @@
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Apabila topik diskusi ini dimulai dengan keterangan waktu, topik ini akan muncul pada tab Linimasa.</value>
   </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>sisipkan catatan</value>
+  </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>sisipkan paragraf baru</value>
   </data>
@@ -362,7 +371,7 @@
     <value>Sudah di-Hype!</value>
   </data>
   <data name="hype.confirm" xml:space="preserve">
-    <value>Apakah kamu yakin? Dengan ini, kamu akan menggunakan 1 hype dari {0} hype yang kamu miliki saat ini. Tindakan ini tidak bisa diurungkan.</value>
+    <value>Apakah kamu yakin? Tindakan ini akan menggunakan 1 dari {0} hype kamu yang tersisa dan tidak bisa diurungkan.</value>
   </data>
   <data name="hype.explanation" xml:space="preserve">
     <value>Berikan hype-mu untuk membawa beatmap ini lebih dekat menuju Ranked!</value>
@@ -401,7 +410,7 @@
     <value>Apakah kamu yakin? Beatmap ini akan dihapus dan kamu akan dialihkan kembali ke halaman profilmu.</value>
   </data>
   <data name="nominations.delete_other_confirm" xml:space="preserve">
-    <value>Apakah kamu yakin? Beatmap ini akan dihapus dan kamu akan dialihkan kembali ke halaman profil pengguna yang bersangkutan.</value>
+    <value>Apakah kamu yakin? Beatmap ini akan dihapus dan kamu akan dialihkan kembali ke profil pengguna ini.</value>
   </data>
   <data name="nominations.disqualification_prompt" xml:space="preserve">
     <value>Alasan diskualifikasi?</value>
@@ -461,7 +470,7 @@
     <value>Beatmap ini diperkirakan akan di-rank {0} apabila tidak terdapat masalah yang ditemukan. Beatmap ini berada dalam urutan ke-{1} dalam {2} saat ini.</value>
   </data>
   <data name="nominations.rank_estimate.unresolved_problems" xml:space="preserve">
-    <value>Beatmap ini sedang diblokir untuk dapat melewati kategori Qualified hingga {0} terselesaikan.</value>
+    <value>Beatmap ini sedang diblokir untuk bisa keluar dari kategori Qualified hingga {0} terselesaikan.</value>
   </data>
   <data name="nominations.rank_estimate.problems" xml:space="preserve">
     <value>masalah ini</value>
@@ -476,13 +485,13 @@
     <value>segera</value>
   </data>
   <data name="nominations.reset_at.nomination_reset" xml:space="preserve">
-    <value>Proses nominasi dianulir {0} oleh {1} dengan ditemukannya masalah baru {2} ({3}).</value>
+    <value>Proses nominasi dianulir {0} oleh {1} dengan masalah baru {2} ({3}).</value>
   </data>
   <data name="nominations.reset_at.disqualify" xml:space="preserve">
-    <value>Didiskualifikasi {0} oleh {1} dengan ditemukannya masalah baru {2} ({3}).</value>
+    <value>Didiskualifikasi {0} oleh {1} dengan masalah baru {2} ({3}).</value>
   </data>
   <data name="nominations.reset_confirm.disqualify" xml:space="preserve">
-    <value>Apakah kamu yakin? Tindakan ini akan melepas beatmap ini dari kategori Qualified dan mengulang proses nominasi dari awal.</value>
+    <value>Apakah kamu yakin? Tindakan ini akan melepas beatmap ini dari Qualified dan mengulang proses nominasi dari awal.</value>
   </data>
   <data name="nominations.reset_confirm.nomination_reset" xml:space="preserve">
     <value>Apakah kamu yakin? Memposting masalah baru akan mengulang proses nominasi.</value>
@@ -617,7 +626,7 @@
     <value>Graveyard</value>
   </data>
   <data name="status.leaderboard" xml:space="preserve">
-    <value>Memiliki Leaderboard</value>
+    <value>Berpapan Peringkat</value>
   </data>
   <data name="status.loved" xml:space="preserve">
     <value>Loved</value>

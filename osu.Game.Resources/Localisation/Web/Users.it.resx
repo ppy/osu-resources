@@ -427,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Mostra meno dettagli</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mostra più dettagli</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Cambia copertina del profilo</value>
   </data>
@@ -668,19 +674,19 @@
     <value>Solo le beatmap classificate conferiscono pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
-    <value>valutata {0}</value>
+    <value>valutata al {0}</value>
   </data>
   <data name="show.extra.top_ranks.view_details" xml:space="preserve">
     <value>Visualizza dettagli</value>
   </data>
   <data name="show.extra.top_ranks.title" xml:space="preserve">
-    <value>Classifiche</value>
+    <value>Punteggi</value>
   </data>
   <data name="show.extra.top_ranks.best.title" xml:space="preserve">
     <value>Migliore Performance</value>
   </data>
   <data name="show.extra.top_ranks.first.title" xml:space="preserve">
-    <value>Primi Posti</value>
+    <value>Punteggi in Prima Posizione</value>
   </data>
   <data name="show.extra.top_ranks.pin.to_0" xml:space="preserve">
     <value>Rimuovi</value>
@@ -766,8 +772,23 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Sito</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Sconfitte</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Punteggio</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Grado</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
     <value>Ranked Play</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Vittorie</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Potrebbero aver cambiato il loro nome utente.</value>
@@ -823,8 +844,20 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Posizione più alta: {0} il {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>È {0} un nuovo algoritmo di Valutazione in Stelle / PP.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>in arrivo</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>I punteggi recenti potrebbero non riflettersi subito sui profili utente.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Spotlight</value>
   </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Punteggio totale</value>

@@ -67,6 +67,18 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>Nehézség</value>
   </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>Top 10% Pontszám</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>Top 50% Pontszám</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>A megadott dátumra még nincs napi kihívás!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>A megadott napon nincs napi kihívás!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Mutat</value>
   </data>
@@ -82,8 +94,44 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>Elköltve</value>
   </data>
+  <data name="matchmaking.plays" xml:space="preserve">
+    <value>Játszások</value>
+  </data>
+  <data name="matchmaking.points" xml:space="preserve">
+    <value>Pontok</value>
+  </data>
+  <data name="matchmaking.provisional" xml:space="preserve">
+    <value>Ideiglenes besorolás a közelmúltbeli mérkőzések elégtelen száma miatt</value>
+  </data>
+  <data name="matchmaking.rating" xml:space="preserve">
+    <value>Értékelés</value>
+  </data>
+  <data name="matchmaking.wins" xml:space="preserve">
+    <value>Győzelmek</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>Szoba Neve</value>
+  </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>Ennek a felhasználónak kevesebb, mint 30 napos rangsorolási előzménye van.</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>Az adatok feldolgozása folyamatban van...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>Utóljára frissítve</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>reflektorfények (régi)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>kiemelt</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>szezon szoba</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>szezonok</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>Ország</value>
@@ -91,11 +139,23 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>napi kihívás</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>globális</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
   </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>ranked</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>játéklisták</value>
+  </data>
   <data name="type.team" xml:space="preserve">
     <value>csapat</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>top játszások</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Ebben a szezonban még nincsenek szobák.</value>
@@ -106,20 +166,26 @@
   <data name="seasons.room_count" xml:space="preserve">
     <value>Játéklista száma</value>
   </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>Szezon Összegzés Megtekintése</value>
+  </data>
   <data name="seasons.url" xml:space="preserve">
     <value>További információk megjelenítése az adott szezonról.</value>
   </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>nincs elegendő pontszámtényező a pontos számításhoz</value>
+  </data>
   <data name="spotlight.end_date" xml:space="preserve">
-    <value>Befejezés ideje</value>
+    <value>Befejezés Ideje</value>
   </data>
   <data name="spotlight.map_count" xml:space="preserve">
-    <value>Mapok száma</value>
+    <value>Mapok Száma</value>
   </data>
   <data name="spotlight.participants" xml:space="preserve">
     <value>Résztvevők</value>
   </data>
   <data name="spotlight.start_date" xml:space="preserve">
-    <value>Kezdés ideje</value>
+    <value>Kezdés Ideje</value>
   </data>
   <data name="stat.accuracy" xml:space="preserve">
     <value>Pontosság</value>
@@ -129,6 +195,9 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>Ország</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Osztály</value>
   </data>
   <data name="stat.members" xml:space="preserve">
     <value>Tagok</value>

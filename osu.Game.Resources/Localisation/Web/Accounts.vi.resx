@@ -143,7 +143,7 @@
     <value>cập nhật</value>
   </data>
   <data name="github_user.info" xml:space="preserve">
-    <value>Nếu bạn là người đóng góp cho kho lưu trữ nguồn mở của osu!, việc liên kết tài khoản GitHub của bạn tại đây sẽ liên kết các mục nhật ký thay đổi với trang cá nhân osu! của bạn. Tài khoản GitHub không có lịch sử đóng góp cho osu! không thể liên kết được.</value>
+    <value>Nếu bạn là người đóng góp cho các kho mã nguồn mở của osu!, việc liên kết tài khoản GitHub của bạn tại đây sẽ liên kết các mục nhật ký thay đổi với trang cá nhân osu! của bạn. Tài khoản GitHub không có lịch sử đóng góp cho osu! không thể liên kết được.</value>
   </data>
   <data name="github_user.link" xml:space="preserve">
     <value>Liên kết tài khoản GitHub</value>
@@ -163,11 +163,14 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Vui lòng xác minh email chính của bạn trên GitHub, sau đó thử liên kết lại tài khoản của bạn.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>nhận thông báo khi có phản hồi đến các cuộc thảo luận beatmap bạn đang theo dõi</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
-    <value>nhận thông báo về vấn đề mới ở các beatmap đủ tiêu chuẩn của chế độ này</value>
+    <value>nhận thông báo về các vấn đề mới trên các beatmap đủ điều kiện thuộc các chế độ sau</value>
   </data>
   <data name="notifications.beatmapset_disqualify" xml:space="preserve">
-    <value>nhận thông báo khi beatmap ở các chế độ sau bị từ chối</value>
+    <value>nhận thông báo khi beatmap ở các chế độ sau bị hủy trạng thái đủ điều kiện</value>
   </data>
   <data name="notifications.comment_reply" xml:space="preserve">
     <value>nhận thông báo khi có phản hồi đến bình luận của bạn</value>
@@ -179,7 +182,7 @@
     <value>Thông báo</value>
   </data>
   <data name="notifications.topic_auto_subscribe" xml:space="preserve">
-    <value>tự động nhận thông báo cho các chủ đề mới trên diễn đàn mà bạn tạo hoặc trả lời</value>
+    <value>tự động nhận thông báo cho các chủ đề trên diễn đàn mà bạn mới tạo hoặc trả lời</value>
   </data>
   <data name="notifications.options._" xml:space="preserve">
     <value>cách nhận thông báo</value>
@@ -188,7 +191,7 @@
     <value>độ khó khách mời</value>
   </data>
   <data name="notifications.options.beatmapset:modding" xml:space="preserve">
-    <value>sửa đổi beatmap</value>
+    <value>nhận xét beatmap</value>
   </data>
   <data name="notifications.options.channel_mention" xml:space="preserve">
     <value>nhắc tên trong chat</value>
@@ -242,7 +245,7 @@
     <value>khi một mapper bạn đang theo dõi tải lên một beatmap</value>
   </data>
   <data name="notifications.tooltips.news_post" xml:space="preserve">
-    <value>khi có bài viết tin tức mới</value>
+    <value>khi có bài đăng tin tức mới</value>
   </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>client được cấp quyền</value>
@@ -277,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>không kèm video</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>chế độ chơi mặc định</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>bàn phím</value>
   </data>
@@ -287,7 +293,7 @@
     <value>bảng vẽ</value>
   </data>
   <data name="playstyles.title" xml:space="preserve">
-    <value>Lối Chơi</value>
+    <value>Lối chơi</value>
   </data>
   <data name="playstyles.touch" xml:space="preserve">
     <value>cảm ứng</value>

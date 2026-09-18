@@ -89,7 +89,7 @@
     <value>žiadne beatmapy</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
-    <value>stiahnúť</value>
+    <value>stiahnuť</value>
   </data>
   <data name="panel.download.video" xml:space="preserve">
     <value>stiahnuť s videom</value>
@@ -158,7 +158,7 @@
     <value>naposledy aktualizované {0}</value>
   </data>
   <data name="show.details.download._" xml:space="preserve">
-    <value>Stiahnúť</value>
+    <value>Stiahnuť</value>
   </data>
   <data name="show.details.download.no-video" xml:space="preserve">
     <value>bez Videa</value>
@@ -173,10 +173,10 @@
     <value>Prihláste sa</value>
   </data>
   <data name="show.details_date.approved" xml:space="preserve">
-    <value>schváleno {0}</value>
+    <value>schválené {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>obľúbene {0}</value>
+    <value>milované {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
     <value>kvalifikované {0}</value>
@@ -229,6 +229,9 @@
   <data name="show.info.language" xml:space="preserve">
     <value>Jazyk</value>
   </data>
+  <data name="show.info.mapper_tags" xml:space="preserve">
+    <value>Tagy od Tvorcu</value>
+  </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Vypočítavajú sa dáta...</value>
   </data>
@@ -253,8 +256,17 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Úspešnosť</value>
   </data>
+  <data name="show.info.user_tags" xml:space="preserve">
+    <value>Tagy od Hráčov</value>
+  </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Táto beatmapa obsahuje video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Iba pre Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Kvôli špecifickým mechanikám sa táto mapa môže hrať len na osu!lazer.</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Táto beatmapa obsahuje explicitný, urážlivý alebo rušivý obsah. Chcete ju napriek tomu zobraziť?</value>
@@ -284,13 +296,16 @@
     <value>Rebríček Priateľov</value>
   </data>
   <data name="show.scoreboard.global" xml:space="preserve">
-    <value>Celosvetový Rebríčok</value>
+    <value>Celosvetový Rebríček</value>
   </data>
   <data name="show.scoreboard.supporter-link" xml:space="preserve">
     <value>Kliknite &lt;a href="{0}"&gt;tu&lt;/a&gt; pre zobrazenie všetkych výhod, ktoré dostanete!</value>
   </data>
   <data name="show.scoreboard.supporter-only" xml:space="preserve">
     <value>Pre zobrazenie štátnych a rebriček priateľov potrebujete funkciu supportera!</value>
+  </data>
+  <data name="show.scoreboard.team" xml:space="preserve">
+    <value>Tímový Rebríček</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Tabuľka výsledkov</value>
@@ -337,6 +352,9 @@
   <data name="show.scoreboard.no_scores.loading" xml:space="preserve">
     <value>Načítava sa skóre...</value>
   </data>
+  <data name="show.scoreboard.no_scores.team" xml:space="preserve">
+    <value>Nikto z tvojho tímu zatiaľ nemá skóre na tejto mape!</value>
+  </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
     <value>Nehodnotená beatmapa.</value>
   </data>
@@ -359,7 +377,7 @@
     <value>Počet Kláves</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>Vysávanie bodov života</value>
+    <value>Ubúdanie HP</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Presnosť</value>
@@ -397,6 +415,9 @@
   <data name="show.stats.playcount" xml:space="preserve">
     <value>Počet zahraní</value>
   </data>
+  <data name="show.stats.favourites" xml:space="preserve">
+    <value>Obľúbenia</value>
+  </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Hodnotené</value>
   </data>
@@ -404,7 +425,7 @@
     <value>Schválené</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Obľúbené</value>
+    <value>Milované</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
     <value>Kvalifikované</value>

@@ -116,7 +116,7 @@
     <value>Bạn không có sự cho phép để đề cử cho chế độ: {0}</value>
   </data>
   <data name="nominate.invalid_limited_nomination" xml:space="preserve">
-    <value>Beatmap này có những đề cử không hợp lệ và không thể đủ tư cách trong trạng thái này.</value>
+    <value>Beatmap này có những đề cử không hợp lệ và không thể đủ điều kiện trong trạng thái này.</value>
   </data>
   <data name="nominate.invalid_ruleset" xml:space="preserve">
     <value>Đề cử này có các ruleset không hợp lệ.</value>
@@ -131,7 +131,7 @@
     <value>Bạn có chắc chắn muốn đề cử beatmap này không?</value>
   </data>
   <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
-    <value>Việc đủ điều kiện cho beatmap này với các người đề cử khác sẽ làm reset vị trí trong hàng đợi đủ điều kiện của nó.</value>
+    <value>Việc xét đủ điều kiện cho beatmap này với những người đề cử khác sẽ đặt lại vị trí của nó trong hàng chờ xếp hạng.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Đề cử Beatmap</value>
@@ -146,7 +146,7 @@
     <value>Đề cử cho những chế độ nào?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
-    <value>18+</value>
+    <value>Không lành mạnh</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Góc Thảo Luận</value>
@@ -161,7 +161,7 @@
     <value>Beatmap này đã bị xoá.</value>
   </data>
   <data name="show.deleted_banner.message" xml:space="preserve">
-    <value>(chỉ điều phối viên mới có thể thấy cái này)</value>
+    <value>(chỉ điều phối viên mới có thể thấy điều này)</value>
   </data>
   <data name="show.details.by_artist" xml:space="preserve">
     <value>bởi {0}</value>
@@ -206,10 +206,10 @@
     <value>được chấp nhận {0}</value>
   </data>
   <data name="show.details_date.loved" xml:space="preserve">
-    <value>được yêu mến {0}</value>
+    <value>được loved vào {0}</value>
   </data>
   <data name="show.details_date.qualified" xml:space="preserve">
-    <value>đủ tư cách {0}</value>
+    <value>đủ điều kiện {0}</value>
   </data>
   <data name="show.details_date.ranked" xml:space="preserve">
     <value>được xếp hạng {0}</value>
@@ -233,13 +233,13 @@
     <value>đang chờ</value>
   </data>
   <data name="show.hype.current.status.qualified" xml:space="preserve">
-    <value>đủ tư cách</value>
+    <value>đủ điều kiện</value>
   </data>
   <data name="show.hype.current.status.wip" xml:space="preserve">
     <value>đang thực hiện</value>
   </data>
   <data name="show.hype.disqualify._" xml:space="preserve">
-    <value>Nếu bạn thấy có vấn đề với bản beatmap này, vui lòng loại bỏ nó {0}.</value>
+    <value>Nếu bạn thấy có vấn đề với beatmap này, vui lòng hủy trạng thái đủ điều kiện của nó {0}.</value>
   </data>
   <data name="show.hype.report._" xml:space="preserve">
     <value>Nếu bạn tìm thấy vấn đề với beatmap này, vui lòng báo cáo nó tại {0} để cảnh báo cho chúng tôi.</value>
@@ -298,8 +298,20 @@
   <data name="show.info.video" xml:space="preserve">
     <value>Beatmap này chứa video</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Chỉ Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Do cơ chế đặc thù, beatmap này chỉ có thể chơi được trên osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} để xem các điểm số được lập tại beatmap này.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Bật chế độ lazer</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
-    <value>Beatmap này chứa nội dung không lành mạn, phản cảm, hoặc đáng lo ngại. Bạn có muốn xem nó không?</value>
+    <value>Beatmap này chứa nội dung không lành mạnh, phản cảm hoặc gây khó chịu. Bạn có muốn xem nó không?</value>
   </data>
   <data name="show.nsfw_warning.title" xml:space="preserve">
     <value>Nội dung không lành mạnh</value>
@@ -458,10 +470,10 @@
     <value>Được Chấp Nhận</value>
   </data>
   <data name="show.status.loved" xml:space="preserve">
-    <value>Được yêu mến</value>
+    <value>Loved</value>
   </data>
   <data name="show.status.qualified" xml:space="preserve">
-    <value>Đủ tư cách</value>
+    <value>Đủ điều kiện</value>
   </data>
   <data name="show.status.wip" xml:space="preserve">
     <value>WIP</value>

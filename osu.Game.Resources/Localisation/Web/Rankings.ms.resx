@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="countries.all" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="countries.title" xml:space="preserve">
+    <value>Negara</value>
+  </data>
+  <data name="daily_challenge.beatmap" xml:space="preserve">
+    <value>Kesukaran</value>
+  </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>Markah 10% Teratas</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>Markah 50% Teratas</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Belum ada cabaran harian pada tarikh yang ditentukan!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Tiada cabaran harian pada tarikh yang ditentukan!</value>
+  </data>
+  <data name="filter.title" xml:space="preserve">
+    <value>Paparkan</value>
+  </data>
+  <data name="filter.variant.title" xml:space="preserve">
+    <value>Pelbagai</value>
+  </data>
+  <data name="kudosu.total" xml:space="preserve">
+    <value>Diperoleh</value>
+  </data>
+  <data name="kudosu.available" xml:space="preserve">
+    <value>Tersedia</value>
+  </data>
+  <data name="kudosu.used" xml:space="preserve">
+    <value>Digunakan</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>Nama Bilik</value>
+  </data>
+  <data name="performance.insufficient_history" xml:space="preserve">
+    <value>Sejarah pangkat terkini pengguna ini kurang daripada 30 hari.</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>Data ini sedang dikira...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>Terakhir dikemas kini</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>lampu sorot (lama)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>dipaparkan</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>bilik musim</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>musim-musim</value>
+  </data>
+  <data name="type.country" xml:space="preserve">
+    <value>negara</value>
+  </data>
+  <data name="type.daily_challenge" xml:space="preserve">
+    <value>cabaran harian</value>
+  </data>
+  <data name="type.global" xml:space="preserve">
+    <value>sejagat</value>
+  </data>
+  <data name="type.kudosu" xml:space="preserve">
+    <value>kudosu</value>
+  </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>permainan berperingkat</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>senarai main</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>pasukan</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>permainan terbaik</value>
+  </data>
+  <data name="seasons.empty" xml:space="preserve">
+    <value>Musim ini belum memiliki bilik.</value>
+  </data>
+  <data name="seasons.ongoing" xml:space="preserve">
+    <value>Musim ini masih berlangsung (lebih banyak senarai main akan ditambah).</value>
+  </data>
+  <data name="seasons.room_count" xml:space="preserve">
+    <value>Jumlah senarai main</value>
+  </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>Lihat Ringkasan Musim</value>
+  </data>
+  <data name="seasons.url" xml:space="preserve">
+    <value>Paparkan lebih banyak maklumat tentang musim tersebut.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>faktor permarkahan tidak cukup untuk pengiraan sah</value>
+  </data>
+  <data name="spotlight.end_date" xml:space="preserve">
+    <value>Tarikh Akhir</value>
+  </data>
+  <data name="spotlight.map_count" xml:space="preserve">
+    <value>Jumlah Peta</value>
+  </data>
+  <data name="spotlight.participants" xml:space="preserve">
+    <value>Peserta</value>
+  </data>
+  <data name="spotlight.start_date" xml:space="preserve">
+    <value>Tarikh Mula</value>
+  </data>
+  <data name="stat.accuracy" xml:space="preserve">
+    <value>Kejituan</value>
+  </data>
+  <data name="stat.active_users" xml:space="preserve">
+    <value>Pengguna Giat</value>
+  </data>
+  <data name="stat.country" xml:space="preserve">
+    <value>Negara</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Pembahagian</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Ahli</value>
+  </data>
+  <data name="stat.play_count" xml:space="preserve">
+    <value>Jumlah Mainan</value>
+  </data>
+  <data name="stat.performance" xml:space="preserve">
+    <value>Prestasi</value>
+  </data>
+  <data name="stat.total_score" xml:space="preserve">
+    <value>Jumlah Markah</value>
+  </data>
+  <data name="stat.ranked_score" xml:space="preserve">
+    <value>Markah Berpangkat</value>
+  </data>
+  <data name="stat.average_score" xml:space="preserve">
+    <value>Markah Purata</value>
+  </data>
+  <data name="stat.average_performance" xml:space="preserve">
+    <value>Prestasi Purata</value>
+  </data>
+</root>

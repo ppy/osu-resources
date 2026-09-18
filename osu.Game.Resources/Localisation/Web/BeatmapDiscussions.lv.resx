@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authorizations.update.null_user" xml:space="preserve">
+    <value>Vajag būt pierakstījušamies, lai rediģētu.</value>
+  </data>
+  <data name="authorizations.update.system_generated" xml:space="preserve">
+    <value>Sistēmas-ģenerēto rakstu nevar rediģēt.</value>
+  </data>
+  <data name="authorizations.update.wrong_user" xml:space="preserve">
+    <value> Lai rediģētu, ir jābūt raksta īpašniekam.</value>
+  </data>
+  <data name="events.empty" xml:space="preserve">
+    <value>Nekas nav noticis... pagaidām.</value>
+  </data>
+  <data name="index.deleted_beatmap" xml:space="preserve">
+    <value>izdzēsts</value>
+  </data>
+  <data name="index.none_found" xml:space="preserve">
+    <value>Netika atrastas diskusijas šim meklēšanas kritērijam.</value>
+  </data>
+  <data name="index.title" xml:space="preserve">
+    <value>Ritma-Karšu Diskusijas</value>
+  </data>
+  <data name="index.form._" xml:space="preserve">
+    <value>Meklēt</value>
+  </data>
+  <data name="index.form.deleted" xml:space="preserve">
+    <value>Iekļaut dzēstās diskusijas</value>
+  </data>
+  <data name="index.form.mode" xml:space="preserve">
+    <value>Ritma-Karšu mods</value>
+  </data>
+  <data name="index.form.only_unresolved" xml:space="preserve">
+    <value>Rādīt tikai neatrisinātās diskusijas</value>
+  </data>
+  <data name="index.form.show_review_embeds" xml:space="preserve">
+    <value>Rādīt apskata rakstus</value>
+  </data>
+  <data name="index.form.types" xml:space="preserve">
+    <value>Ziņu tipi</value>
+  </data>
+  <data name="index.form.username" xml:space="preserve">
+    <value>Lietotājvārds</value>
+  </data>
+  <data name="index.form.beatmapset_status._" xml:space="preserve">
+    <value>Ritma-Kartes Statuss</value>
+  </data>
+  <data name="index.form.beatmapset_status.all" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="index.form.beatmapset_status.disqualified" xml:space="preserve">
+    <value>Diskvalificēta</value>
+  </data>
+  <data name="index.form.beatmapset_status.never_qualified" xml:space="preserve">
+    <value>Nekad Nav Bijusi Kvalificēta</value>
+  </data>
+  <data name="index.form.beatmapset_status.qualified" xml:space="preserve">
+    <value>Kvalificēta</value>
+  </data>
+  <data name="index.form.beatmapset_status.ranked" xml:space="preserve">
+    <value>Novērtēta</value>
+  </data>
+  <data name="index.form.user.label" xml:space="preserve">
+    <value>Lietotājs</value>
+  </data>
+  <data name="index.form.user.overview" xml:space="preserve">
+    <value>Aktivitāšu pārskats</value>
+  </data>
+  <data name="item.created_at" xml:space="preserve">
+    <value>Raksta datums</value>
+  </data>
+  <data name="item.deleted_at" xml:space="preserve">
+    <value>Dzēšanas datums</value>
+  </data>
+  <data name="item.message_type" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="item.permalink" xml:space="preserve">
+    <value>Patstāvīgā saitne</value>
+  </data>
+  <data name="nearby_posts.confirm" xml:space="preserve">
+    <value>Neviens no šiem rakstiem neattiecas uz manu problēmu</value>
+  </data>
+  <data name="nearby_posts.notice" xml:space="preserve">
+    <value>Ir raksti ap {0} ({1}). Lūdzu, pārbaudi tos pirms publicēšanas.</value>
+  </data>
+  <data name="nearby_posts.unsaved" xml:space="preserve">
+    <value>{0} šajā atsauksmē</value>
+  </data>
+  <data name="owner_editor.button" xml:space="preserve">
+    <value>Grūtības Īpašnieks</value>
+  </data>
+  <data name="owner_editor.reset_confirm" xml:space="preserve">
+    <value>Atiestatīt īpašnieku šai grūtībai?</value>
+  </data>
+  <data name="owner_editor.user" xml:space="preserve">
+    <value>Īpašnieks</value>
+  </data>
+  <data name="owner_editor.version" xml:space="preserve">
+    <value>Grūtība</value>
+  </data>
+  <data name="refresh.checking" xml:space="preserve">
+    <value>Pārbauda atjauninājumus...</value>
+  </data>
+  <data name="refresh.has_updates" xml:space="preserve">
+    <value>Šai diskusijai ir atjauninājumi, uzspiest lai atsvaidzinātu.</value>
+  </data>
+  <data name="refresh.no_updates" xml:space="preserve">
+    <value>Nav atjauninājumu.</value>
+  </data>
+  <data name="refresh.updating" xml:space="preserve">
+    <value>Atjauninās...</value>
+  </data>
+  <data name="reply.open.guest" xml:space="preserve">
+    <value>Pierakstieties, lai atbildētu</value>
+  </data>
+  <data name="reply.open.user" xml:space="preserve">
+    <value>Atbildēt</value>
+  </data>
+  <data name="review.block_count" xml:space="preserve">
+    <value>{0} / {1} bloki izmantoti</value>
+  </data>
+  <data name="review.go_to_parent" xml:space="preserve">
+    <value>Skatīt Atsauksmes Rakstu</value>
+  </data>
+  <data name="review.go_to_child" xml:space="preserve">
+    <value>Skatīt Diskusiju</value>
+  </data>
+  <data name="review.validation.block_too_large" xml:space="preserve">
+    <value>katrā blokā drīkst būt ne vairāk kā {0} rakstzīmes</value>
+  </data>
+  <data name="review.validation.external_references" xml:space="preserve">
+    <value>atsauksmē ir atsauces uz problēmām, kas neietilpst šajā atsauksmē</value>
+  </data>
+  <data name="review.validation.invalid_block_type" xml:space="preserve">
+    <value>nederīgs bloka tips</value>
+  </data>
+  <data name="review.validation.invalid_document" xml:space="preserve">
+    <value>nederīga atsauksme</value>
+  </data>
+  <data name="review.validation.invalid_discussion_type" xml:space="preserve">
+    <value>nederīgs diskusijas tips</value>
+  </data>
+  <data name="review.validation.minimum_issues" xml:space="preserve">
+    <value>atsauksmē jābūt vismaz {0} problēma|atsauksmē jābūt vismaz {0} problēmas</value>
+  </data>
+  <data name="review.validation.missing_text" xml:space="preserve">
+    <value>blokā trūkst teksta</value>
+  </data>
+  <data name="review.validation.too_many_blocks" xml:space="preserve">
+    <value>atsauksmēs var būt tikai {0} rindkopa/problēma|atsauksmēs var būt tikai līdz {0} rindkopām/problēmām</value>
+  </data>
+  <data name="system.resolved.true" xml:space="preserve">
+    <value>{0} ir atzīmējis kā atrisinātu</value>
+  </data>
+  <data name="system.resolved.false" xml:space="preserve">
+    <value>{0} ir atkārtoti atvēris</value>
+  </data>
+  <data name="timestamp_display.general" xml:space="preserve">
+    <value>visparīgi</value>
+  </data>
+  <data name="timestamp_display.general_all" xml:space="preserve">
+    <value>vispārīgi (viss)</value>
+  </data>
+  <data name="user_filter.everyone" xml:space="preserve">
+    <value>Visi</value>
+  </data>
+  <data name="user_filter.label" xml:space="preserve">
+    <value>Filtrēt pēc lietotāja</value>
+  </data>
+</root>

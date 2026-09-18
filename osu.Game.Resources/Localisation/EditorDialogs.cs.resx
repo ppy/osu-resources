@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="new_difficulty_dialog_header" xml:space="preserve">
-    <value>Chcete vytvořit prázdnout obtížnost?</value>
+    <value>Chceš vytvořit prázdnout obtížnost?</value>
   </data>
   <data name="create_new" xml:space="preserve">
     <value>Ano, začít od začátku!</value>
@@ -71,7 +71,7 @@
     <value>Rozmyslel jsem se, chci upravovat tuto obížnost</value>
   </data>
   <data name="save_dialog_header" xml:space="preserve">
-    <value>Chcete uložit změny?</value>
+    <value>Chceš uložit svoje změny?</value>
   </data>
   <data name="save" xml:space="preserve">
     <value>Uložit mé mistrovské dílo!</value>
@@ -97,7 +97,28 @@
   <data name="delete_difficulty_details" xml:space="preserve">
     <value>Obtížnost "{0}" s {1} objekty</value>
   </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>Toto přepíše umělce, název, zdroj a označení ve všech ostatních obtížnostech. Tuto akci nelze vrátit zpět.</value>
+  </data>
   <data name="all_bookmarks" xml:space="preserve">
     <value>Všechny záložky</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>Přichytit všechny noty k aktuálnímu oddělovači taktů?</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>Každý hit objekt v této obtížnosti se přesune na nejbližší tik pro tvůj aktuální oddělovač taktů. Délky sliderů a doby držení se mohou změnit. Toto lze vrátit pomocí historie editoru.</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>Synchronizovat atributy časování?</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>Vyber atributy časování, které chceš synchronizovat z této obtížnosti do všech ostatních obtížností. Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>Záložky</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>Místo náhledu</value>
   </data>
 </root>

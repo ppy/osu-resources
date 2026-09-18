@@ -88,6 +88,9 @@
   <data name="header.beatmapsets.discussions" xml:space="preserve">
     <value>beszélgetés</value>
   </data>
+  <data name="header.beatmapsets.versions" xml:space="preserve">
+    <value>verzió előzmény</value>
+  </data>
   <data name="header.changelog.index" xml:space="preserve">
     <value>listázás</value>
   </data>
@@ -114,6 +117,9 @@
   </data>
   <data name="header.users.playlists" xml:space="preserve">
     <value>játéklisták</value>
+  </data>
+  <data name="header.users.ranked-play" xml:space="preserve">
+    <value>ranked</value>
   </data>
   <data name="header.users.realtime" xml:space="preserve">
     <value>többjátékos</value>
@@ -214,6 +220,9 @@
   <data name="footer.legal.privacy" xml:space="preserve">
     <value>Adatvédelem</value>
   </data>
+  <data name="footer.legal.rules" xml:space="preserve">
+    <value>Szabályok</value>
+  </data>
   <data name="footer.legal.server_status" xml:space="preserve">
     <value>Szerver Állapot</value>
   </data>
@@ -254,7 +263,7 @@
     <value>Érvénytelen lekérési paraméterek</value>
   </data>
   <data name="errors.429.error" xml:space="preserve">
-    <value>Ráta korlát túllépve</value>
+    <value>Kéréskorlát túllépve</value>
   </data>
   <data name="errors.500.error" xml:space="preserve">
     <value>Jaj ne! Valami elromlott! ;_;</value>
@@ -302,13 +311,16 @@
     <value>Letöltés</value>
   </data>
   <data name="popup_login.register.info" xml:space="preserve">
-    <value>Önnek szüksége van egy fiókra uram. Miért nem rendelkezik még egyel?</value>
+    <value>Töltsd le az osu!-t, hogy csinálj egy fiókot!</value>
   </data>
   <data name="popup_login.register.title" xml:space="preserve">
     <value>Nincs még fiókod?</value>
   </data>
   <data name="popup_user.links.account-edit" xml:space="preserve">
     <value>Beállítások</value>
+  </data>
+  <data name="popup_user.links.create_team" xml:space="preserve">
+    <value>Csapat Létrehozása</value>
   </data>
   <data name="popup_user.links.follows" xml:space="preserve">
     <value>Figyelőlisták</value>
@@ -320,7 +332,7 @@
     <value>Lazer mód</value>
   </data>
   <data name="popup_user.links.legacy_score_only_toggle_tooltip" xml:space="preserve">
-    <value>A Lazer mód a Lazer által beállított pontszámokat mutatja egy új pontozási algoritmussal</value>
+    <value>A Lazer mód a Lazer kliensen elért eredményeket mutatja, egy új pontozási algoritmussal</value>
   </data>
   <data name="popup_user.links.logout" xml:space="preserve">
     <value>Kijelentkezés</value>
@@ -338,9 +350,9 @@
     <value>Csapatom</value>
   </data>
   <data name="popup_search.initial" xml:space="preserve">
-    <value>Keresendő szöveg!</value>
+    <value>Írj a kereséshez!</value>
   </data>
   <data name="popup_search.retry" xml:space="preserve">
-    <value>A keresés eredménytelen. Kattintson az ismételt próbálkozáshoz.</value>
+    <value>A keresés eredménytelen. Kattints az újrapróbáláshoz.</value>
   </data>
 </root>

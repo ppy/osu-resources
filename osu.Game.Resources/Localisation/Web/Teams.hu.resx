@@ -58,11 +58,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="applications.accept.ok" xml:space="preserve">
+    <value>Felvettem egy felhasználót a csapatba.</value>
+  </data>
+  <data name="applications.destroy.ok" xml:space="preserve">
+    <value>Kérelem megszakítva.</value>
+  </data>
+  <data name="applications.reject.ok" xml:space="preserve">
+    <value>Elutasították a kérelmet.</value>
+  </data>
+  <data name="applications.store.ok" xml:space="preserve">
+    <value>Kérelem elküldve.</value>
+  </data>
+  <data name="card.members" xml:space="preserve">
+    <value>{0} tag|{0} tagok</value>
+  </data>
   <data name="create.submit" xml:space="preserve">
-    <value>Csapat létrehozása</value>
+    <value>Csapat Létrehozása</value>
+  </data>
+  <data name="create.form.name_help" xml:space="preserve">
+    <value>A csapatod neve. A név jelenleg végleges.</value>
   </data>
   <data name="create.form.short_name_help" xml:space="preserve">
     <value>Legfeljebb 4 karakter.</value>
+  </data>
+  <data name="create.form.title" xml:space="preserve">
+    <value>Alkossunk egy új csapatot</value>
+  </data>
+  <data name="create.intro.description" xml:space="preserve">
+    <value>Játssz együtt barátaiddal – akár a régiekkel, akár újakkal. Jelenleg nem vagy tagja egyetlen csapatnak sem. Csatlakozz egy {0} csapathoz a csapat oldalának felkeresésével, vagy hozz létre saját csapatot ezen az oldalon.</value>
+  </data>
+  <data name="create.intro.search_link" xml:space="preserve">
+    <value>létező csapat</value>
   </data>
   <data name="create.intro.title" xml:space="preserve">
     <value>Csapat!</value>
@@ -74,7 +101,7 @@
     <value>A beállítások mentése sikeresen megtörtént.</value>
   </data>
   <data name="edit.title" xml:space="preserve">
-    <value>Csapat beállításai</value>
+    <value>Csapat Beállításai</value>
   </data>
   <data name="edit.description.label" xml:space="preserve">
     <value>Leírás</value>
@@ -86,13 +113,19 @@
     <value>Csapatzászló</value>
   </data>
   <data name="edit.flag.title" xml:space="preserve">
-    <value>Csapatzászló beállítása</value>
+    <value>Csapatzászló Beállítása</value>
   </data>
   <data name="edit.header.label" xml:space="preserve">
-    <value>Fejléc kép</value>
+    <value>Fejléc Kép</value>
   </data>
   <data name="edit.header.title" xml:space="preserve">
-    <value>Fejléc kép beállítása</value>
+    <value>Fejléc Kép Beállítása</value>
+  </data>
+  <data name="edit.settings.application_help" xml:space="preserve">
+    <value>Hogy engedélyezzék-e az embereknek, hogy jelentkezzenek a csapatba</value>
+  </data>
+  <data name="edit.settings.default_ruleset_help" xml:space="preserve">
+    <value>A csapatoldal megnyitásakor alapértelmezésként kiválasztandó szabálykészlet</value>
   </data>
   <data name="edit.settings.flag_help" xml:space="preserve">
     <value>Legfeljebb {0}×{1} méretű</value>
@@ -128,31 +161,49 @@
     <value>Csapattag eltávolítva</value>
   </data>
   <data name="members.index.title" xml:space="preserve">
-    <value>Tagok kezelése</value>
+    <value>Tagok Kezelése</value>
+  </data>
+  <data name="members.index.applications.accept_confirm" xml:space="preserve">
+    <value>Fel kell venni a(z) {0} felhasználót a csapatba?</value>
   </data>
   <data name="members.index.applications.created_at" xml:space="preserve">
-    <value>Kérelem ideje</value>
+    <value>Kérelem Ideje</value>
   </data>
   <data name="members.index.applications.empty" xml:space="preserve">
     <value>Nincs csatlakozási kérelem.</value>
   </data>
   <data name="members.index.applications.empty_slots" xml:space="preserve">
-    <value>Szabad helyek</value>
+    <value>Szabad Helyek</value>
+  </data>
+  <data name="members.index.applications.empty_slots_overflow" xml:space="preserve">
+    <value>{0} felhasználó túlcsordulás|{0} felhasználók túlcsordulás</value>
+  </data>
+  <data name="members.index.applications.reject_confirm" xml:space="preserve">
+    <value>Elutasítsa a(z) {0} felhasználó csatlakozási kérését?</value>
   </data>
   <data name="members.index.applications.title" xml:space="preserve">
-    <value>Csatlakozási kérelmek</value>
+    <value>Csatlakozási Kérelmek</value>
   </data>
   <data name="members.index.table.joined_at" xml:space="preserve">
-    <value>Csatlakozás ideje</value>
+    <value>Csatlakozás Ideje</value>
   </data>
   <data name="members.index.table.remove" xml:space="preserve">
     <value>Eltávolítás</value>
+  </data>
+  <data name="members.index.table.remove_confirm" xml:space="preserve">
+    <value>Töröljük a(z) {0} felhasználót a csapatból?</value>
+  </data>
+  <data name="members.index.table.set_leader" xml:space="preserve">
+    <value>A csapat vezetésének átadása</value>
+  </data>
+  <data name="members.index.table.set_leader_confirm" xml:space="preserve">
+    <value>A csapat vezetését átadni a(z) {0} felhasználónak?</value>
   </data>
   <data name="members.index.table.status" xml:space="preserve">
     <value>Állapot</value>
   </data>
   <data name="members.index.table.title" xml:space="preserve">
-    <value>Jelenlegi tagok</value>
+    <value>Jelenlegi Tagok</value>
   </data>
   <data name="members.index.status.status_0" xml:space="preserve">
     <value>Inaktív</value>
@@ -160,23 +211,26 @@
   <data name="members.index.status.status_1" xml:space="preserve">
     <value>Aktív</value>
   </data>
+  <data name="members.set_leader.success" xml:space="preserve">
+    <value>A {0} felhasználó mostantól a csapatvezető.</value>
+  </data>
   <data name="part.ok" xml:space="preserve">
     <value>Kilépett a csapatból ;_;</value>
   </data>
   <data name="show.bar.chat" xml:space="preserve">
-    <value>Csapat chat</value>
+    <value>Csapat Chat</value>
   </data>
   <data name="show.bar.destroy" xml:space="preserve">
-    <value>Csapat feloszlatása</value>
+    <value>Csapat Feloszlatása</value>
   </data>
   <data name="show.bar.join" xml:space="preserve">
     <value>Jelentkezés</value>
   </data>
   <data name="show.bar.join_cancel" xml:space="preserve">
-    <value>Jelentkezés visszavonása</value>
+    <value>Jelentkezés Visszavonása</value>
   </data>
   <data name="show.bar.part" xml:space="preserve">
-    <value>Kilépés a csapatból</value>
+    <value>Kilépés a Csapatból</value>
   </data>
   <data name="show.info.created" xml:space="preserve">
     <value>Létrehozva</value>
@@ -196,11 +250,20 @@
   <data name="show.sections.members" xml:space="preserve">
     <value>Tagok</value>
   </data>
+  <data name="show.statistics.empty_slots" xml:space="preserve">
+    <value>{0} szabad hely|{0} szabad helyek</value>
+  </data>
+  <data name="show.statistics.first_places" xml:space="preserve">
+    <value>Első helyek</value>
+  </data>
   <data name="show.statistics.leader" xml:space="preserve">
     <value>Csapatvezető</value>
   </data>
   <data name="show.statistics.rank" xml:space="preserve">
     <value>Rang</value>
+  </data>
+  <data name="show.statistics.ranked_beatmapsets" xml:space="preserve">
+    <value>Rangsorolt beatmapek</value>
   </data>
   <data name="store.ok" xml:space="preserve">
     <value>Csapat létrehozva.</value>

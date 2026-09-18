@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Nastavit bod náhledu na aktuální čas</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Přichytit všechny noty k aktuálnímu oddělovači taktů...</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Přesunout již umístěné objekty při změně časování</value>
   </data>
@@ -98,19 +101,19 @@
     <value>Změnit obtížnost</value>
   </data>
   <data name="delete_difficulty" xml:space="preserve">
-    <value>Odstranit obtížnost</value>
+    <value>Odstranit obtížnost...</value>
   </data>
   <data name="edit_externally" xml:space="preserve">
-    <value>Upravit externě</value>
+    <value>Upravit externě...</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Odeslat beatmapu</value>
+    <value>Odeslat beatmapu...</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>nastavení</value>
   </data>
   <data name="compose_screen" xml:space="preserve">
-    <value>vytvoření</value>
+    <value>skládání</value>
   </data>
   <data name="design_screen" xml:space="preserve">
     <value>design</value>
@@ -119,7 +122,7 @@
     <value>časování</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
-    <value>ověřit</value>
+    <value>ověření</value>
   </data>
   <data name="playback_speed" xml:space="preserve">
     <value>Rychlost přehrávání</value>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (po krocích)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Omezit přichycení umístění dle vzdálenosti na aktuální čas</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Omezit umisťování na aktuální čas</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Smrštit postranní panely, když nad nimi není ukazatel myši</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Přejít na další záložku</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Resetovat záložky</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Resetovat záložky...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Otevřít stránku s informacemi beatmapy</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Celá sada beatmap</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Omlouváme se, ale kládání není zatím pro tento ruleset podporováno.</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Export selhal!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Import selhal!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Otevřít složku</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Probíhá čištění...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Exportování pro editaci...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Beatmapa je otevřena externě</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Veškeré změny provedené v exportované složce budou importovány do hry, včetně nových souborů, jejich změn a smazání.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Nové kombo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Zvuková banka</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Normální banka</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Dodatečná banka</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Hlasitost</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Zvukový vzorek</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Sada vzorků</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Vybrat</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Synchronizovat...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Přetočit dozadu</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Přetočit dopředu</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Přejít k předchozímu časovému bodu</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Přejít k dalšímu časovému bodu</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Přejít na první objekt / začátek skladby</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Hrát od začátku skladby</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Začít/skončit pauzu</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Přejít na poslední objekt / konec skladby</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Začít/skončit nové kombo</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Zapnout/vypnout zvuk pískání</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Zapnout/vypnout zvuk finiše</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Zapnout/vypnout zvuk tleskání</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Nastavit normální banku zvukového vzorku na auto</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Nastavit normální banku zvukového vzorku na normální</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Nastavit normální banku zvukového vzorku na tlumenou</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Nastavit normální banku zvukového vzorku na buben</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Nastavit dodatečnou banku zvukového vzorku na auto</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Nastavit dodatečnou banku zvukového vzorku na normální</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Nastavit dodatečnou banku zvukového vzorku na tlumenou</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Nastavit dodatečnou banku zvukového vzorku na buben</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Zapnout/vypnout mřížku vzdáleností</value>
   </data>
 </root>

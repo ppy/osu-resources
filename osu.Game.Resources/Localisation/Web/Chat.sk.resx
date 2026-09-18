@@ -58,6 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="loading_users" xml:space="preserve">
+    <value>načítavanie používateľov...</value>
+  </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>hľadanie používateľov...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>píšete do {0}</value>
   </data>
@@ -67,14 +73,29 @@
   <data name="title_compact" xml:space="preserve">
     <value>chat</value>
   </data>
+  <data name="unread_messages" xml:space="preserve">
+    <value>neprečítané správy</value>
+  </data>
   <data name="cannot_send.channel" xml:space="preserve">
     <value>Momentálne nemôžete poslať správu do tohto kanálu. Toto môže byť zapríčinené hociktorým z týchto dôvodov:</value>
   </data>
   <data name="cannot_send.user" xml:space="preserve">
     <value>Momentálne nemôžete poslať správu tomuto užívateľovi. Toto môže byť zapríčinené hociktorým z týchto dôvodov:</value>
   </data>
+  <data name="channels.confirm_part" xml:space="preserve">
+    <value>Chceš skryť tento kanál? Budeš stále dostávať správy z tohto kanálu.</value>
+  </data>
+  <data name="channels.create" xml:space="preserve">
+    <value>vytvoriť oznam</value>
+  </data>
+  <data name="channels.join" xml:space="preserve">
+    <value>pripojiť sa do kanálu</value>
+  </data>
+  <data name="channels.none" xml:space="preserve">
+    <value>žiadny kanál</value>
+  </data>
   <data name="channels.list.title.announce" xml:space="preserve">
-    <value>Oznámenia</value>
+    <value>Oznamy</value>
   </data>
   <data name="channels.list.title.group" xml:space="preserve">
     <value>Skupiny</value>
@@ -85,11 +106,35 @@
   <data name="channels.list.title.public" xml:space="preserve">
     <value>Kanály</value>
   </data>
+  <data name="channels.list.title.team" xml:space="preserve">
+    <value>Tím</value>
+  </data>
+  <data name="form.title.announcement" xml:space="preserve">
+    <value>Vytvoriť Nový Oznam</value>
+  </data>
   <data name="form.labels.description" xml:space="preserve">
     <value>popis</value>
   </data>
+  <data name="form.labels.message" xml:space="preserve">
+    <value>správa</value>
+  </data>
   <data name="form.labels.name" xml:space="preserve">
     <value>názov miestnosti</value>
+  </data>
+  <data name="form.labels.users" xml:space="preserve">
+    <value>hráči na pridanie</value>
+  </data>
+  <data name="not_found.message" xml:space="preserve">
+    <value>Nič tu nie je, možno si odišiel z kanálu alebo neexistuje...</value>
+  </data>
+  <data name="not_found.title" xml:space="preserve">
+    <value>kanál nebol nájdený</value>
+  </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Pripoj sa do kanálu aby si si pozrel jeho správy.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Pripojiť sa do kanálu</value>
   </data>
   <data name="input.create" xml:space="preserve">
     <value>Vytvoriť</value>
@@ -97,10 +142,16 @@
   <data name="input.disabled" xml:space="preserve">
     <value>nedá sa poslať správa...</value>
   </data>
+  <data name="input.disconnected" xml:space="preserve">
+    <value>Odpojený</value>
+  </data>
   <data name="input.placeholder" xml:space="preserve">
     <value>napíšte správu...</value>
   </data>
   <data name="input.send" xml:space="preserve">
     <value>Odoslať</value>
+  </data>
+  <data name="join_channels.loading" xml:space="preserve">
+    <value>Načítavanie zoznamu kanálov...</value>
   </data>
 </root>
