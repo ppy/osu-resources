@@ -92,13 +92,13 @@
     <value>Audio nobīde</value>
   </data>
   <data name="suggested_offset_note" xml:space="preserve">
-    <value>Spēlējiet dažas bītmapes, lai saņemtu ieteikto nobīdi!</value>
+    <value>Spēlējiet dažas bītkartes, lai saņemtu ieteikto nobīdi!</value>
   </data>
   <data name="suggested_offset_correct" xml:space="preserve">
-    <value>Balstīts uz pēdējiem {0} mēģinājuma(iem), tava nobīde ir uzstādīta pareizi!</value>
+    <value>Balstoties uz pēdējās {0} spēles, tava nobīde ir iestatīta pareizi!|Balstoties uz pēdējām {0} spēlēm, tava nobīde ir iestatīta pareizi!</value>
   </data>
   <data name="suggested_offset_value_received" xml:space="preserve">
-    <value>Pamatojoties uz pēdējo(-ām) {0} spēli(-ām), ieteicama nobīde ir {1} ms.</value>
+    <value>Balstoties uz pēdējās {0} spēles, ieteicamā nobīde ir {1} ms.|Balstoties uz pēdējām {0} spēlēm, ieteicamā nobīde ir {1} ms.</value>
   </data>
   <data name="apply_suggested_offset" xml:space="preserve">
     <value>Izmantot ieteikto nobīdi</value>
@@ -107,18 +107,15 @@
     <value>Nobīdes vednis</value>
   </data>
   <data name="adjust_beatmap_offset_automatically" xml:space="preserve">
-    <value>Automātiski pielāgot beatmapes nobīdi</value>
+    <value>Automātiski pielāgot bītkartes nobīdi</value>
   </data>
   <data name="adjust_beatmap_offset_automatically_tooltip" xml:space="preserve">
-    <value>Ja ieslēgts, pēdējās spēles laikā ieteiktā beatmapes nobīde tiks automātiski piemērota.</value>
+    <value>Ja ieslēgts, pēdējās spēles laikā ieteiktā bītkartes nobīde tiks automātiski piemērota.</value>
   </data>
-  <data name="wasapi_label" xml:space="preserve">
-    <value>Lietot eksperimentālo audio režīmu</value>
+  <data name="legacy_audio_label" xml:space="preserve">
+    <value>Izmantot iepriekšējo audio režīmu</value>
   </data>
-  <data name="wasapi_tooltip" xml:space="preserve">
-    <value>Tas mēģinās inicializēt audio dzini ar zemākas aiztures režīmu.</value>
-  </data>
-  <data name="wasapi_notice" xml:space="preserve">
-    <value>Samazinātās aiztures dēļ, ieslēdzot šo iestatījumu, būs jāpielāgo audio nobīde. Parasti vajadzētu atņemt aptuveni 20–60 ms no zināmās vērtības.</value>
+  <data name="legacy_audio_tooltip" xml:space="preserve">
+    <value>Izmantojiet šo ja rodas problēmas ar skaņu. Ņemiet vērā ka ieslēdzot šo režīmu skaņas aizkave būs lielāka.</value>
   </data>
 </root>

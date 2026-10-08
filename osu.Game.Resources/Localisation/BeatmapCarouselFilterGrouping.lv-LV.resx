@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="never_played" xml:space="preserve">
+    <value>Nekad</value>
+  </data>
+  <data name="other_symbols" xml:space="preserve">
+    <value>Cits</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>Šodien</value>
+  </data>
+  <data name="yesterday" xml:space="preserve">
+    <value>Vakar</value>
+  </data>
+  <data name="last_week" xml:space="preserve">
+    <value>Pagājušajā nedēļā</value>
+  </data>
+  <data name="last_month" xml:space="preserve">
+    <value>Pagājušajā mēnesī</value>
+  </data>
+  <data name="months_ago" xml:space="preserve">
+    <value>Pirms {0} mēneša|Pirms {0} mēnešiem</value>
+  </data>
+  <data name="over_months_ago" xml:space="preserve">
+    <value>Pirms vairāk nekā {0} mēneša|Pirms vairāk nekā {0} mēnešiem</value>
+  </data>
+  <data name="unranked" xml:space="preserve">
+    <value>Nerangots</value>
+  </data>
+  <data name="under_bpm" xml:space="preserve">
+    <value>Zem {0} BPM</value>
+  </data>
+  <data name="range_bpm" xml:space="preserve">
+    <value>{0} - {1} BPM</value>
+  </data>
+  <data name="over_bpm" xml:space="preserve">
+    <value>Virs {0} BPM</value>
+  </data>
+  <data name="below_stars" xml:space="preserve">
+    <value>Zem {0} zvaigznes|Zem {0} zvaigznēm</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>{0} zvaigzne|{0} zvaigznes</value>
+  </data>
+  <data name="over_stars" xml:space="preserve">
+    <value>Virs {0} zvaigznes|Virs {0} zvaigznēm</value>
+  </data>
+  <data name="minutes_or_less" xml:space="preserve">
+    <value>{0} minūte vai mazāk|{0} minūtes vai mazāk</value>
+  </data>
+  <data name="over_minutes" xml:space="preserve">
+    <value>{0} minūte vai vairāk|{0} minūtes vai vairāk</value>
+  </data>
+  <data name="unsourced" xml:space="preserve">
+    <value>Bez avota</value>
+  </data>
+  <data name="not_in_collection" xml:space="preserve">
+    <value>Nav kolekcijā</value>
+  </data>
+  <data name="my_maps" xml:space="preserve">
+    <value>Manas kartes</value>
+  </data>
+  <data name="unplayed" xml:space="preserve">
+    <value>Nav spēlēts</value>
+  </data>
+  <data name="favourites" xml:space="preserve">
+    <value>Favorīti</value>
+  </data>
+</root>

@@ -62,13 +62,16 @@
     <value>Thiết lập Beatmap</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
-    <value>thay đổi cài đặt chung Beatmap của bạn </value>
+    <value>thay đổi cài đặt chung beatmap của bạn </value>
   </data>
   <data name="colours_header" xml:space="preserve">
-    <value>Màu sắc</value>
+    <value>Màu sắc</value>
+  </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Màu nhấn từ ảnh nền beatmap:</value>
   </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
-    <value>Combo nhấn / trượt</value>
+    <value>Combo nốt tròn /  nốt trượt</value>
   </data>
   <data name="design_header" xml:space="preserve">
     <value>Thiết kế</value>
@@ -77,7 +80,7 @@
     <value>Bật đếm ngược</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Nếu được bật, dòng đếm ngược "Sẵn sàng chưa? 3, 2, 1, BẮT ĐẦU!" sẽ được đặt vào đầu màn chơi, khi có đủ thời gian để làm điều đó.</value>
+    <value>Nếu được bật, dòng đếm ngược "Sẵn sàng chưa? 3, 2, 1, BẮT ĐẦU!" sẽ được đặt vào đầu màn chơi, nếu có đủ thời gian để làm điều đó.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Tốc độ đếm ngược</value>
@@ -89,10 +92,10 @@
     <value>Độ lệch đếm ngược</value>
   </data>
   <data name="widescreen_support" xml:space="preserve">
-    <value>Hỗ trợ màn hình rộng</value>
+    <value>Hỗ trợ màn hình rộng </value>
   </data>
   <data name="widescreen_support_description" xml:space="preserve">
-    <value>Cho phép các storyboard sử dụng toàn màn hình, thay vì sử dụng khu vực tỉ lệ 4:3.</value>
+    <value>Cho phép các storyboard sử dụng toàn bộ không gian màn hình, thay vì sử dụng khu vực tỉ lệ 4:3.</value>
   </data>
   <data name="epilepsy_warning" xml:space="preserve">
     <value>Cảnh báo động kinh</value>
@@ -113,22 +116,22 @@
     <value>Nếu được bật, mọi sample sẽ tăng hoặc giảm tốc độ khi các mod thay đổi tốc độ được bật.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
-    <value>Kích cỡ của các đối tượng bấm</value>
+    <value>Kích cỡ của các nốt bấm</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
     <value>Tốc độ giảm máu nền trong lúc chơi</value>
   </data>
   <data name="approach_rate_description" xml:space="preserve">
-    <value>Tốc độ xuất hiện của các mục tiêu</value>
+    <value>Tốc độ xuất hiện của các nốt</value>
   </data>
   <data name="overall_difficulty_description" xml:space="preserve">
-    <value>Độ chặt chẽ của cửa sổ bấm và độ khó của các đối tượng đặc biệt (nốt quay chẳng hạn)</value>
+    <value>Độ khắt khe của cửa sổ bấm và độ khó của các nốt đặc biệt (nốt quay chẳng hạn)</value>
   </data>
   <data name="tick_rate" xml:space="preserve">
-    <value>Tốc độ tích</value>
+    <value>Tần suất Tick</value>
   </data>
   <data name="tick_rate_description" xml:space="preserve">
-    <value>Quyết định số lượng "tích" được sinh ra trong các đối tượng dài. Tốc độ tích là 1 sẽ sinh ra các tích ở mỗi phách, 2 sẽ là hai tích mỗi phách, vân vân.</value>
+    <value>Quyết định số lượng "tick" được sinh ra trong các nốt dài. Tỉ lệ tick là 1 sẽ sinh ra các tick ở mỗi phách, 2 sẽ là hai tick mỗi phách, vân vân.</value>
   </data>
   <data name="base_velocity" xml:space="preserve">
     <value>Tốc Độ Gốc</value>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Đoạn nhạc</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Video sẽ được sử dụng thay cho ảnh nền tĩnh, nếu có. Beatmap được cung cấp dưới cả hai dạng có và không có video, vì vậy nếu thêm video thì cũng cần phải cung cấp ảnh nền tương ứng.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Bộ sample tuỳ chỉnh</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Nhấn để chọn nhạc</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Nhấn để chọn video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Nhấn để chọn ảnh nền</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Áp dụng cho mỗi độ khó này</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Đồng bộ thông tin bài nhạc với tất cả độ khó</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Sao chép tên nghệ sĩ, tiêu đề, nguồn, và thẻ cho tất cả độ khó.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Quy luật ({0})</value>
@@ -194,6 +212,9 @@
     <value>Độ khó</value>
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
-    <value>Kéo ảnh vào đây để đặt nền beatmap!</value>
+    <value>Kéo ảnh vào đây để đặt ảnh nền beatmap!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Kéo video vào đây để đặt video cho beatmap!</value>
   </data>
 </root>

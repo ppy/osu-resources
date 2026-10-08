@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beatmap_submission_title" xml:space="preserve">
+    <value>譜面の投稿</value>
+  </data>
+  <data name="beatmap_submission_description" xml:space="preserve">
+    <value>譜面を世界に共有しよう！</value>
+  </data>
+  <data name="content_permissions" xml:space="preserve">
+    <value>コンテンツの権限</value>
+  </data>
+  <data name="content_permissions_acknowledgement" xml:space="preserve">
+    <value>分かりました</value>
+  </data>
+  <data name="frequently_asked_questions" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
+  <data name="submission_settings" xml:space="preserve">
+    <value>投稿設定</value>
+  </data>
+  <data name="confirm_submission" xml:space="preserve">
+    <value>譜面を投稿！</value>
+  </data>
+  <data name="exporting" xml:space="preserve">
+    <value>互換性のために譜面をエクスポートしています...</value>
+  </data>
+  <data name="preparing" xml:space="preserve">
+    <value>アップロードの準備中…</value>
+  </data>
+  <data name="uploading" xml:space="preserve">
+    <value>譜面をアップロードしています…</value>
+  </data>
+  <data name="finishing" xml:space="preserve">
+    <value>仕上げ中…</value>
+  </data>
+  <data name="content_permissions_disclaimer" xml:space="preserve">
+    <value>投稿する前に、アップロードしようとしているコンテンツが、許可を得ているものかご確認ください。プラットフォームにアップロードするコンテンツの責任はご自身にあります。もし確信が持てない場合は、アップロードする前に必ずクリエイター（著作者）に許可を求めてください！</value>
+  </data>
+  <data name="check_content_usage_guidelines" xml:space="preserve">
+    <value>詳細はコンテンツ利用ガイドラインをご確認ください</value>
+  </data>
+  <data name="beatmap_ranking_criteria" xml:space="preserve">
+    <value>ランキング基準</value>
+  </data>
+  <data name="beatmap_ranking_criteria_description" xml:space="preserve">
+    <value>ガイドラインを満たしているか分かりませんか？リストをチェックして譜面をランクさせましょう！</value>
+  </data>
+  <data name="submission_process" xml:space="preserve">
+    <value>投稿プロセス</value>
+  </data>
+  <data name="submission_process_description" xml:space="preserve">
+    <value>投稿の仕方が分かりませんか？wikiの記事をチェックしてください！</value>
+  </data>
+  <data name="mapping_help_forum" xml:space="preserve">
+    <value>マッピングお助けフォーラム</value>
+  </data>
+  <data name="mapping_help_forum_description" xml:space="preserve">
+    <value>マッピングと投稿に関する質問がありますか？フォーラムで聞いてみましょう！</value>
+  </data>
+  <data name="modding_queues_forum" xml:space="preserve">
+    <value>Moddingキュー フォーラム</value>
+  </data>
+  <data name="modding_queues_forum_description" xml:space="preserve">
+    <value>フィードバックが欲しいですか？Modキューで質問してみましょう！</value>
+  </data>
+  <data name="beatmap_submission_target_caption" xml:space="preserve">
+    <value>どちらに譜面を投稿しますか？</value>
+  </data>
+  <data name="beatmap_submission_target_wip" xml:space="preserve">
+    <value>WIP / ヘルプ (未完成 / Ranked基準を満たしていない)</value>
+  </data>
+  <data name="beatmap_submission_target_pending" xml:space="preserve">
+    <value>Pending (完成済み / Rankedへの準備完了)</value>
+  </data>
+  <data name="notify_for_discussion_replies" xml:space="preserve">
+    <value>ディスカッションの通知を受け取る</value>
+  </data>
+  <data name="load_in_browser_after_submission" xml:space="preserve">
+    <value>投稿後にブラウザで開く</value>
+  </data>
+  <data name="legacy_export_disclaimer" xml:space="preserve">
+    <value>注意：全てのバージョンのユーザーが楽しめるようにするため、譜面は後方互換性のあるフォーマットでエクスポートされます。こうすることで意図したとおりに譜面がプレイできるように取り組んでいますが、以前のバージョンにのみある機能に関連したデータは失われる可能性があります。</value>
+  </data>
+  <data name="empty_beatmaps_cannot_be_submitted" xml:space="preserve">
+    <value>空の譜面は提出できません。</value>
+  </data>
+  <data name="update_beatmap" xml:space="preserve">
+    <value>譜面を更新！</value>
+  </data>
+  <data name="upload_new_beatmap" xml:space="preserve">
+    <value>新しい譜面をアップロード！</value>
+  </data>
+</root>

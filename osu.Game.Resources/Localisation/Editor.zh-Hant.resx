@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>將預覽時間點設為目前時間</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>將所有物件對齊到目前的拍點分割</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>在時機改變時移動已放置的物件</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (吸附)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>鎖定間距時限制物件的時間點</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>僅在目前時間放置物件</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>在滑鼠離開時合閉側邊欄</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>前往下一個書籤</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>重設書籤</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>重置書籤……</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>開啟圖譜資訊頁面</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>整個圖譜</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>此遊戲模式還不支援資料儲存，對不起！</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>匯出失敗！</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>導入失敗！</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>打開資料夾</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>清除中……</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>正在為編輯匯出……</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>圖譜已外部掛載</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>在被匯出的資料夾中進行的任何變更都會被匯入遊戲，包含新增檔案、修改與刪除。</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>新連擊</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>音色庫</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>普通音效組</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>額外音效組</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>音量</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>音效</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>音效組</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>同步……</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>後退</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>前進</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>前往上一個時機點</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>前往下一個時機點</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>前往第一個物件/歌曲開頭</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>重頭播放</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>切換暫停</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>前往最後一個物件/歌曲結尾</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>切換新連擊</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>切換 whistle 音效</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>切換 finish 音效</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>切換 clap 音效</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>將基礎打擊音效設為自動配置</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>將基礎打擊音效設為 normal 組</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>將基礎打擊音效設為 soft 組</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>將基礎打擊音效設為 drum 組</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>將附加打擊音效設為自動配置</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>將附加打擊音效設為 normal 組</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>將附加打擊音效設為 soft 組</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>将附加打击音效设为 drum 组</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>切換距離吸附網格</value>
   </data>
 </root>

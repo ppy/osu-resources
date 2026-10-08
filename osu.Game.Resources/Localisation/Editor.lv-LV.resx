@@ -59,10 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_editor" xml:space="preserve">
-    <value>Ritma-mapes rediģētājs</value>
+    <value>Bītkaršu redaktors</value>
   </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Viļņu formas caurspīdīgums</value>
+  </data>
+  <data name="show_storyboard" xml:space="preserve">
+    <value>Rādīt montāžu</value>
   </data>
   <data name="show_hit_markers" xml:space="preserve">
     <value>Rādīt trāpījumu marķierus</value>
@@ -76,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Iestatīt priekšskatījuma punktu uz pašreizējo laiku</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Piesaistīt visas notis pašreizējam dalījumam...</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Bīdīt jau novietotus objektus, kad izmaina laiku</value>
   </data>
@@ -84,6 +90,9 @@
   </data>
   <data name="export_for_compatibility" xml:space="preserve">
     <value>Savienojamībai (.osz)</value>
+  </data>
+  <data name="export_guest_difficulty" xml:space="preserve">
+    <value>Viesautora grūtību. (.osu)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Izveidot jaunu grūtību</value>
@@ -95,10 +104,10 @@
     <value>Dzēst grūtību</value>
   </data>
   <data name="edit_externally" xml:space="preserve">
-    <value>Rediģēt ārēji</value>
+    <value>Rediģēt ārēji...</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Iesūtīt ritma-karti</value>
+    <value>Iesūtīt ritma-karti...</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>uzstādīšana</value>
@@ -127,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (pa 15°)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Ierobežot attāluma izvietošanu uz pašreizējo laiku</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Atļaut novietošanu tikai pašreizējā laikā</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Samazināt sāna slīdņus, kad nav aizskarti</value>
@@ -146,7 +155,7 @@
     <value>Rādīt grafika izmaiņas</value>
   </data>
   <data name="Finish editing and import changes" xml:space="preserve">
-    <value>Pabaidz rediģēt un importē izmaiņas</value>
+    <value>Pabeidz rediģēt un importē izmaiņas</value>
   </data>
   <data name="timeline_show_breaks" xml:space="preserve">
     <value>Rādīt pārtraukumus</value>
@@ -169,19 +178,133 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Iet uz nākamo grāmatzīmi</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Atiestatīt grāmatzīmes</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Atiestatīt grāmatzīmes...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
-    <value>Atver ritma-karšu informācijas lapu</value>
+    <value>Atver bītkaršu informācijas lapu</value>
   </data>
   <data name="open_discussion_page" xml:space="preserve">
-    <value>Atvērti ritma-karšu diskusiju lapa</value>
+    <value>Atvērti bītkaršu diskusiju lapa</value>
   </data>
   <data name="check_current_difficulty" xml:space="preserve">
     <value>Pašreizējā grūtība</value>
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
-    <value>Viss ritma-karšu komplekts</value>
+    <value>Viss bītkaršu komplekts</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Šajā spēles režīmā saglabāšana vēl nav pieejama, atvaino!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Eksportēšana neizdevās!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Importēšana neizdevās!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Atvērt mapi</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Sakopj...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Eksportē rediģēšanai...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Bītkarte ir pievienota no ārēja avota</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Visas eksportētajā mapē veiktās izmaiņas tiks importētas spēlē, tostarp failu pievienošana, mainīšana un dzēšana.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Jauns kombo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Krātuve</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Parastā krātuve</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Papildskaņu krātuve</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Skaļums</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Paraugs</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Paraugu kopa</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Atlasīt</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Sinhronizēt...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Pārtīt atpakaļ</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Pārtīt uz priekšu</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Pāriet uz iepriekšējo ritma punktu</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Pāriet uz nākošo ritma punktu</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Pāriet uz pirmo objektu / dziesmas sākumu</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Atskaņot no dziesmas sākuma</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Pauzēt</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Pāriet uz pēdējo objektu / dziesmas beigām</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Pārslēgt jaunu kombo</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Pārslēgt svilpi</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Pārslēgt finišu</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Pārslēgt plaukšķi</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Iestatīt pamatskaņu krātuvi uz auto</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Iestatīt pamatskaņu krātuvi uz normal</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Iestatīt pamatskaņu krātuvi uz soft</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Iestatīt pamatskaņu krātuvi uz drum</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Iestatīt papildskaņu krātuvi uz auto</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Iestatīt papildskaņu krātuvi uz normal</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Iestatīt papildskaņu krātuvi uz soft</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Iestatīt papildskaņu krātuvi uz drum</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Pārslēgt attāluma piesaistes režģi</value>
   </data>
 </root>

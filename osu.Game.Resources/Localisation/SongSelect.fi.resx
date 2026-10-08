@@ -65,7 +65,7 @@
     <value>Satunnainen</value>
   </data>
   <data name="rewind" xml:space="preserve">
-    <value>Kelaa</value>
+    <value>Kelaa taaksepäin</value>
   </data>
   <data name="options" xml:space="preserve">
     <value>Valinnat</value>
@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>Tarkkuus</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} osumaikkuna</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
-    <value>HP Valutus</value>
+    <value>HP Kuluminen</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Vaikuttaa elämäpalkin tyhjenemisnopeuteen ja siihen, kuinka paljon ohilyönnit kuluttavat elämäpalkkia.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Vieritysnopeus</value>
@@ -118,6 +124,9 @@
   <data name="use_these_mods" xml:space="preserve">
     <value>Käytä näitä muunnelmia</value>
   </data>
+  <data name="watch_replay" xml:space="preserve">
+    <value>Katso uusinta</value>
+  </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Kaikille vaikeustasoille</value>
   </data>
@@ -130,11 +139,11 @@
   <data name="mark_as_played" xml:space="preserve">
     <value>Merkitse pelatuksi</value>
   </data>
+  <data name="remove_from_played" xml:space="preserve">
+    <value>Poista pelatuista</value>
+  </data>
   <data name="clear_all_local_scores" xml:space="preserve">
     <value>Tyhjennä kaikki paikalliset tulokset</value>
-  </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Poista rytmikartta</value>
   </data>
   <data name="restore_all_hidden" xml:space="preserve">
     <value>Palauta kaikki piilotetut</value>
@@ -204,5 +213,14 @@
   </data>
   <data name="no_matching_beatmaps_description" xml:space="preserve">
     <value>Rytmikarttoja ei löytynyt antamillasi suodatuskriteereillä!</value>
+  </data>
+  <data name="temporarily_showing_all_beatmaps_in" xml:space="preserve">
+    <value>Näytetään väliaikaisesti kaikki rytmikartat kohteessa</value>
+  </data>
+  <data name="mostly_bpm" xml:space="preserve">
+    <value>enimmäkseen {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} tulos {0:#,0} tulosta</value>
   </data>
 </root>

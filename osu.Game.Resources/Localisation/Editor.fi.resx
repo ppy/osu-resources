@@ -64,6 +64,9 @@
   <data name="waveform_opacity" xml:space="preserve">
     <value>Aaltomuodon läpinäkyvyys</value>
   </data>
+  <data name="show_storyboard" xml:space="preserve">
+    <value>Näytä storyboard</value>
+  </data>
   <data name="show_hit_markers" xml:space="preserve">
     <value>Näytä osumamerkit</value>
   </data>
@@ -76,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Aseta esikatselupiste nykyiseen aikaan</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Napsauta kaikki nuotit tämänhetkiseen snap divisoriin</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Siirrä jo asetetut objektit ajastusta muuttaessasi</value>
   </data>
@@ -84,6 +90,9 @@
   </data>
   <data name="export_for_compatibility" xml:space="preserve">
     <value>Yhteensopivuutta varten (.osz)</value>
+  </data>
+  <data name="export_guest_difficulty" xml:space="preserve">
+    <value>Vieraileva vaikeustaso (.osu)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Luo uusi vaikeustaso</value>
@@ -127,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (naksautettu)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Rajoita etäisyyspohjainen naksautus nykyiseen aikaan</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Rajoita asettaminen nykyiseen aikaan</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Pienennä sivupalkit osoittimen ollessa muualla</value>
@@ -169,8 +178,9 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Siirry seuraavaan kirjanmerkkiin</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Nollaa kirjanmerkit</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Nollaa kirjanmerkit...
+</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Avaa rytmikartan infosivu</value>
@@ -183,5 +193,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Koko rytmikartta -sarja</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Tämä sääntöjoukko ei tue vielä tallentamista, pahoittelut!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Vienti epäonnistui!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Tuonti epäonnistui!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Avaa kansio</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Siivotaan jälkiä...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Viedään muokkausta varten...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Rytmikartta on asennettu ulkoisesti</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Kaikki muutokset, mukaanlukien tiedostojen lisäykset, muutokset sekä poistot, tuodaan peliin.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Uusi kombo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Tyyli</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Normaali tyyli</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Lisätyyli</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Äänenvoimakkuus</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Samplejoukko</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Valitse</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Synkronoi...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Siirry taaksepäin</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Siirry eteenpäin</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Siirry edelliseen ajoituspisteeseen</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Siirry seuraavaan ajoituspisteeseen</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Siirry ensimmäiseen objektiin / kappaleen alkuun</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Soita kappaleen alusta</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Aseta tauko</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Siirry viimeiseen objektiin / kappaleen loppuun</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Uusi kombo päälle/pois</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Vihellysääni päälle/pois</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Lopetusääni päälle/pois</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Taputusääni päälle/pois</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Aseta normaali äänipankki muotoon automaattinen</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Aseta normaali äänipankki muotoon normaali</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Aseta normaali äänipankki muotoon pehmeä</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Aseta normaali äänipankki muotoon rumpu</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Aseta lisääänipankki muotoon automaattinen</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Aseta lisääänipankki muotoon normaali</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Aseta lisääänipankki muotoon pehmeä</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Aseta lisääänipankki muotoon rumpu</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Ota käyttöön/poista käytöstä etäisyyden kohdistusruudukko</value>
   </data>
 </root>

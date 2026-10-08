@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toggle_toolbar_shortcut" xml:space="preserve">
+    <value>Paina {0} missä tahansa pelin sisässä avataksesi työkalupalkin!</value>
+  </data>
+  <data name="game_settings_shortcut" xml:space="preserve">
+    <value>Paina {0} avataksesi asetukset pelin sisällä!</value>
+  </data>
+  <data name="dynamic_settings" xml:space="preserve">
+    <value>Kaikki asetukset ovat dynaamisia ja tulevat voimaan reaaliajassa. Kokeile muuttaa ulkoasua katsoessasi automaattista pelaajaa!</value>
+  </data>
+  <data name="new_features_are_coming_online" xml:space="preserve">
+    <value>Uusia ominaisuuksia tulee jokaisessa päivityksessä. Varmista, että pysyt ajan tasalla!</value>
+  </data>
+  <data name="ui_scaling_settings" xml:space="preserve">
+    <value>Jos käyttöliittymä tuntuu liian suurelta tai pieneltä, kokeile säätää käyttöliittymän skaalausta asetuksissa!</value>
+  </data>
+  <data name="screen_scaling_settings" xml:space="preserve">
+    <value>Kokeile muuttaa "Screen Scaling" -tilaa muuttaaksesi pelattavuutta tai käyttöliittymän aluetta, jopa koko näytön tilassa!</value>
+  </data>
+  <data name="free_osu_direct" xml:space="preserve">
+    <value>Mikä ennen oli "osu!direct" on kaikkien käyttäjien saatavilla, aivan kuten verkkosivuilla. Voit käyttää sitä missä tahansa käyttäen {0}!</value>
+  </data>
+  <data name="replay_seeking" xml:space="preserve">
+    <value>Uusintojen kelaaminen onnistuu vetämällä ruudun alareunassa olevaa edistymispalkkia tai käyttämällä nuolinäppäimiä vasemmalle ja oikealle!</value>
+  </data>
+  <data name="try_new_mods" xml:space="preserve">
+    <value>Kokeile oikealle vierittämistä muunnelmien valinnassa löytääksesi useita uusia hauskoja muunnelmia!</value>
+  </data>
+  <data name="embedded_web_content" xml:space="preserve">
+    <value>Suurin osa verkkosisällöstä (profiilit, sijoitukset, jne.) on saatavilla suoraan pelin sisältä työkalupalkin kuvakkeista!</value>
+  </data>
+  <data name="beatmap_right_click" xml:space="preserve">
+    <value>Saa lisää tietoja, piilota tai poista rytmikartta napauttamalla sen kuvaketta hiiren oikealla painikkeella kappalevalinnassa!</value>
+  </data>
+  <data name="discover_playlists" xml:space="preserve">
+    <value>Tutustu soittolistajärjestelmään, jonka avulla käyttäjät voivat luoda omia mukautettuja ja pysyviä tulosluetteloita!</value>
+  </data>
+  <data name="toggle_advanced_fps_counter" xml:space="preserve">
+    <value>Ota käyttöön edistykselliset ruutu / säie -statistiikat Ctrl+F11 näppäinyhdistelmän avulla!</value>
+  </data>
+  <data name="replay_pausing" xml:space="preserve">
+    <value>Voit pysäyttää uusinnan painamalla {0}!</value>
+  </data>
+  <data name="configurable_hotkeys" xml:space="preserve">
+    <value>Lähes kaikki pelin pikanäppäimet ovat vapaasti muutettavissa haluamiksesi. Löydät näppäinmääritykset syöttöasetusten paneelista!</value>
+  </data>
+  <data name="skin_editor" xml:space="preserve">
+    <value>Voit mukauttaa pelinaikaista HUD-näkymää ulkoasun asettelueditorilla. Avaa se milloin tahansa näppäimellä {0}!</value>
+  </data>
+  <data name="mod_presets" xml:space="preserve">
+    <value>Voit luoda muunnelmista esiasetuksia, joiden avulla teet suosikkimuunnelmayhdistelmien vaihtamisesta helpompaa!</value>
+  </data>
+  <data name="mod_customisation_settings" xml:space="preserve">
+    <value>Monissa muunnelmissa on mukautusasetukset, jotka muuttavat radikaalisesti niiden toimivuutta. Napsauta mukauta -painiketta muunnelma valikossa nähdäksesi asetukset!</value>
+  </data>
+  <data name="random_skin_shortcut" xml:space="preserve">
+    <value>Paina {0} vaihtaaksesi satunnaiseen ulkoasuun! Voit myös käyttää {1} ja {2} selataksesi ulkoasuja.</value>
+  </data>
+  <data name="toggle_replay_settings_shortcut" xml:space="preserve">
+    <value>Katsoessasi uusintaa, paina Ctrl+H vaihtaaksesi uusinnan asetuksia!</value>
+  </data>
+  <data name="copy_mods_from_score" xml:space="preserve">
+    <value>Pystyt helposti kopioimaan muunnelmat tulostaulukon tuloksista hiiren oikealla painikkeella!</value>
+  </data>
+  <data name="autoplay_beatmap_shortcut" xml:space="preserve">
+    <value>Ctrl+Enter kappaleen valinnassa aloittaa rytmikartan automaattisen toiston tilassa!</value>
+  </data>
+  <data name="lazer_is_not_a_word" xml:space="preserve">
+    <value>"Lazer" ei ole englanninkielinen sana. Oikea tapa kirjoittaa valon vahvistaminen säteilyn stimuloidulla emissiolla on "laser".</value>
+  </data>
+  <data name="multithreading_support" xml:space="preserve">
+    <value>Monisäkeistuki tarkoittaa sitä, että jopa alhaisella ruudunpäivitysnopeudella syöttösi ja arviointisi ovat tarkkoja!</value>
+  </data>
+  <data name="temporary_delete_operations" xml:space="preserve">
+    <value>Kaikki poistotoiminnot ovat väliaikaisia poistumiseen asti. Palauta vahingossa poistetut sisällöt huoltoasetuksista!</value>
+  </data>
+  <data name="global_statistics_shortcut" xml:space="preserve">
+    <value>Kurkista konepellin alle suorituskykylaskureihin ja ota yksityiskohtainen suorituskykyloki käyttöön näppäinyhdistelmällä Ctrl-F2!</value>
+  </data>
+  <data name="peek_hud_when_hidden" xml:space="preserve">
+    <value>Kun pelisi HUD on piiloitettu, voit painaa ja pitää pohjassa Ctrl nähdäksesi sen tilapäisesti!</value>
+  </data>
+  <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
+    <value>Vedä ja pudota mikä tahansa kuva ulkoasu muokkaimeen ladataksesi sen nopeasti!</value>
+  </data>
+  <data name="right_mouse_absolute_scroll" xml:space="preserve">
+    <value>Pidä pohjassa hiiren oikeaa painiketta rytmikarttakarusellin lähellä vierittääksesi nopeasti suoraan tiettyyn kohtaan!</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Shift-klikkaamalla rytmikarttapaneelia listanäkymässä voit ladata sen nopeasti tai tarkastella sitä kappalevalinnassa!</value>
+  </data>
+  <data name="menu_tip_title" xml:space="preserve">
+    <value>vinkki sinulle:</value>
+  </data>
+</root>

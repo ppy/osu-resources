@@ -59,16 +59,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_setup" xml:space="preserve">
-    <value>Ritma-mapes Uzstādīšana</value>
+    <value>Bītkartes iestatījumi</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
-    <value>mainīt savas ritma-mapes vispārējos iestatījumus</value>
+    <value>maini savas bītkartes vispārīgos iestatījumus</value>
   </data>
   <data name="colours_header" xml:space="preserve">
     <value>Krāsas</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Akcenta krāsas no bītkartes fona:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
-    <value>Apļu  / Slīdņu Kombinācija</value>
+    <value>Apļu  / Slīdņu Kombo</value>
   </data>
   <data name="design_header" xml:space="preserve">
     <value>Dizains</value>
@@ -77,13 +80,13 @@
     <value>Ieslēgt atskaiti</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Ja ieslēgts, tiek parādīts paziņojums "Vai esat gatavs? 3, 2, 1, AIZIET!" atskaite tiks ievietota ritma-mapes sākumā, ja vien ir pietiekami daudz laika.</value>
+    <value>Ja ieslēgts, tiek parādīts paziņojums "Vai esat gatavs? 3, 2, 1, AIZIET!" atskaite tiks ievietota bītmapes sākumā, ja vien ir pietiekami daudz laika.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Atskaites ātrums</value>
   </data>
   <data name="countdown_offset_description" xml:space="preserve">
-    <value>Ja atskaites skaņas izklausās nelaikā, izmantojiet šo, lai tā parādītos par vienu vai vairākiem sitieniem agrāk.</value>
+    <value>Ja atskaite nesakrīt ar ritmu, izmanto šo opciju, lai tā parādītos vienu vai vairākus sitienus agrāk.</value>
   </data>
   <data name="countdown_offset" xml:space="preserve">
     <value>Atskaites nobīde</value>
@@ -135,7 +138,7 @@
     <value>Pamatātrums</value>
   </data>
   <data name="base_velocity_description" xml:space="preserve">
-    <value>Ritma-mapes pamatātrums, kas ietekmē, piemēram, slīdņa ātrumu un ritināšanas ātrumu dažādos spēles režīmos.</value>
+    <value>Bītkartes pamatātrums, kas ietekmē, piemēram, slīdņa ātrumu un ritināšanas ātrumu dažādos spēles režīmos.</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadati</value>
@@ -161,8 +164,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Audio Celiņš</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>Video tiks izmantots statiskā fona vietā, ja tas būs pieejams. Bītkarti var lejupielādēt gan ar video, gan bez tā, tāpēc, pievienojot video, jānodrošina arī tam atbilstošs fons.</value>
+  </data>
+  <data name="custom_sample_sets" xml:space="preserve">
+    <value>Pielāgotas skaņu paraugu kopas</value>
+  </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Klikšķiniet, lai atlasītu celiņu</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Noklikšķini, lai atlasītu video</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Klikšķiniet, lai atlasītu fona attēlu</value>
@@ -176,14 +191,20 @@
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Piemērot to tikai šajai grūtībai</value>
   </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sinhronizēt metadatus ar visām grūtībām</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Kopē izpildītāju, nosaukumu, avotu un tagus uz visām grūtībām.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
     <value>Spēles režīms ({0})</value>
   </data>
   <data name="combo_colour_prefix" xml:space="preserve">
-    <value>Kombinācija</value>
+    <value>Kombo</value>
   </data>
   <data name="artist" xml:space="preserve">
-    <value>Mākslinieks</value>
+    <value>Izpildītājs</value>
   </data>
   <data name="title" xml:space="preserve">
     <value>Nosaukums</value>
@@ -192,6 +213,9 @@
     <value>Grūtība</value>
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
-    <value>Ievilkt attēlu šeit, lai iestatītu ritma-mapes fonu!</value>
+    <value>Ievelc attēlu šeit, lai iestatītu bītkartes fonu!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Ievelc video šeit, lai iestatītu bītkartes video!</value>
   </data>
 </root>

@@ -59,10 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_editor" xml:space="preserve">
-    <value>Editor de beatmap</value>
+    <value>Editor de mapas</value>
   </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Opacidade das ondas</value>
+  </data>
+  <data name="show_storyboard" xml:space="preserve">
+    <value>Mostrar a sequência gráfica</value>
   </data>
   <data name="show_hit_markers" xml:space="preserve">
     <value>Mostrar marcadores de acerto</value>
@@ -71,13 +74,16 @@
     <value>Procurar automaticamente após colocar objetos</value>
   </data>
   <data name="timing" xml:space="preserve">
-    <value>Tempo</value>
+    <value>Temporização</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
-    <value>Definir amostra ao momento atual</value>
+    <value>Definir o ponto de pré‑visualização para o momento atual</value>
+  </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Encaixar todas as notas no divisor de encaixe atual</value>
   </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
-    <value>Mover objetos já colocados quando mudar o tempo</value>
+    <value>Mover os objetos já colocados ao alterar a temporização</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Para edição (.olz)</value>
@@ -85,8 +91,11 @@
   <data name="export_for_compatibility" xml:space="preserve">
     <value>Para compatibilidade (.osz)</value>
   </data>
+  <data name="export_guest_difficulty" xml:space="preserve">
+    <value>Dificuldade de convidado (.osu)</value>
+  </data>
   <data name="create_new_difficulty" xml:space="preserve">
-    <value>Criar nova dificuldade</value>
+    <value>Criar dificuldade</value>
   </data>
   <data name="change_difficulty" xml:space="preserve">
     <value>Alterar dificuldade</value>
@@ -98,19 +107,19 @@
     <value>Editar externamente</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Enviar beatmap</value>
+    <value>Submeter mapa</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
-    <value>definição</value>
+    <value>configuração</value>
   </data>
   <data name="compose_screen" xml:space="preserve">
-    <value>compôs</value>
+    <value>compor</value>
   </data>
   <data name="design_screen" xml:space="preserve">
-    <value>aparência</value>
+    <value>aspeto</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>tempo</value>
+    <value>temporização</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
     <value>verificar</value>
@@ -125,25 +134,28 @@
     <value>{0:0}°</value>
   </data>
   <data name="rotation_snapped" xml:space="preserve">
-    <value>{0:0}° (posicionado)</value>
+    <value>{0:0}° (alinhado)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Limitar distância de posição do encaixo no tempo atual</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Limitar a colocação para agora</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
-    <value>Barras laterais do contrato quando não estiverem pairadas</value>
+    <value>Contrair as barras laterais quando não estão sob o cursor</value>
   </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
-    <value>Deve estar no modo editor para manipular ligações de editor</value>
+    <value>É necessário estar no modo de edição para gerir ligações do editor</value>
   </data>
   <data name="failed_to_parse_edtior_link" xml:space="preserve">
-    <value>Falhou ao analisar ligação de editor</value>
+    <value>Falha ao analisar a ligação do editor</value>
   </data>
   <data name="timeline" xml:space="preserve">
-    <value>Cronologia</value>
+    <value>Linha temporal</value>
   </data>
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>Mostrar alterações de temporização</value>
+  </data>
+  <data name="Finish editing and import changes" xml:space="preserve">
+    <value>Concluir a edição e importar as alterações</value>
   </data>
   <data name="timeline_show_breaks" xml:space="preserve">
     <value>Mostrar pausas</value>
@@ -164,15 +176,135 @@
     <value>Ir para o marcador anterior</value>
   </data>
   <data name="seek_to_next_bookmark" xml:space="preserve">
-    <value>Ir para o próximo marcador</value>
+    <value>Ir para o marcador seguinte</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Redefinir favoritos</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Repor favoritos...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
-    <value>Abrir página de informações do beatmap</value>
+    <value>Abrir página de informações do mapa</value>
   </data>
   <data name="open_discussion_page" xml:space="preserve">
-    <value>Abrir página de discussão do beatmap</value>
+    <value>Abrir página de discussão do mapa</value>
+  </data>
+  <data name="check_current_difficulty" xml:space="preserve">
+    <value>Dificuldade atual</value>
+  </data>
+  <data name="check_entire_beatmap_set" xml:space="preserve">
+    <value>Conjunto completo do mapa</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>A gravação ainda não é suportada para este conjunto de regras. Lamentamos!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Exportação falhou!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Importação falhou!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Abrir pasta</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>A limpar...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Exportando para edição...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>O beatmap foi montado externamente</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Quaisquer alterações feitas na pasta exportada serão importadas para o jogo, incluindo adições de arquivo, modificações e exclusões.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Novo combo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Banco normal</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Banco adicional</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Som</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Conjunto de sons</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Sincronizar...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Recuar</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Avançar</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Recuar para o ponto de temporização anterior</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Avançar para o ponto de temporização seguinte</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Recuar ao primeiro objeto / começo da música</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Reproduzir desde o começo da música</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Alternar a pausa</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Avançar ao último objeto / fim da música</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Alternar uma nova combinação</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Alternar o som do apito</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Alternar o som de conclusão</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Alternar o som dos aplausos</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Definir a base de amostras de normal para automático</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Definir a base de amostras de normal para normal</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Definir a base de amostras de normal para suave</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Definir a base de amostras de normal para tambor</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Definir a base de amostras de adição para automático</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Definir a base de amostras de adição para normal</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Definir a base de amostras de adição para suave</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Definir a base de amostras de adição para tambor</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Alternar a grelha de alinhamento de distâncias</value>
   </data>
 </root>

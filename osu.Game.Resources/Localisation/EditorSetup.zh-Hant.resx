@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>顔色</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>取自圖譜背景的主色：</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>點擊圈圈 / 滑條連擊數</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>音樂曲目</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>影片</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>若有提供背景影片，則此影片會取代背景圖片在背景播放。下載圖譜時可選擇包含或不包含背景影片的選項，因此若提供了背景影片，則也須提供一張靜態的背景圖片。</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>自訂音效組</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>按一下以選擇歌曲</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>按一下以選取影片</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>按一下以選擇背景圖片</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>僅套用到這個難度</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>同步所有難度的數據</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>將藝術家、標題、來源以及標籤複製到所有難度。</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>模式 ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>將圖片拖曳至這裡即可將其設為圖譜背景！</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>拖曳影片到這裡以設定圖譜影片！</value>
   </data>
 </root>

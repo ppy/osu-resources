@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>準確率</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} 判定範圍</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>扣血速度</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>影響扣血的嚴苛程度，以及失誤時的血量懲罰。</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>捲動速度</value>
@@ -213,5 +219,8 @@
   </data>
   <data name="mostly_bpm" xml:space="preserve">
     <value>大部分 {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} 個相符項目</value>
   </data>
 </root>

@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>색상</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>비트맵 배경에서 강조 색상 추출:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>히트 서클 / 슬라이더 콤보</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>오디오 트랙</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>동영상</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>설정한 경우 정적 배경을 대신하여 동영상을 표시합니다. 비트맵 다운로드는 동영상 포함 및 미포함 버전 모두 제공되므로, 동영상을 추가한다면 이에 맞는 배경 이미지도 함께 설정해야 합니다.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>사용자 지정 샘플 세트</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>클릭하여 트랙을 고릅니다</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>클릭하여 영상을 고릅니다</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>클릭하여 배경 이미지를 고릅니다</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>이 난이도에만 적용</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>모든 난이도의 메타데이터를 동기화</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>모든 난이도의 아티스트명, 제목, 출처, 그리고 태그를 복사합니다.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>룰셋 ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>여기로 이미지를 끌어다 두어 비트맵 배경을 설정할 수 있어요!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>여기에 영상을 드래그하여 비트맵 동영상을 설정하세요!</value>
   </data>
 </root>
