@@ -80,7 +80,7 @@
     <value>Nav pieejami lejupielādes serveri.</value>
   </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
-    <value>Kontraktētais mākslinieks</value>
+    <value>Sadarbības izpildītājs</value>
   </data>
   <data name="index.title" xml:space="preserve">
     <value>Ritma-mapju saraksts</value>
@@ -88,8 +88,14 @@
   <data name="index.guest_title" xml:space="preserve">
     <value>Ritma-mapes</value>
   </data>
+  <data name="ogp.favourites" xml:space="preserve">
+    <value>{0} favorīts|{0} favorīti</value>
+  </data>
+  <data name="ogp.playcount" xml:space="preserve">
+    <value>{0} izspēle|{0} izspēles</value>
+  </data>
   <data name="panel.empty" xml:space="preserve">
-    <value>nav ritma-mapju</value>
+    <value>nav ritma-karšu</value>
   </data>
   <data name="panel.download.all" xml:space="preserve">
     <value>lejupielādēt</value>
@@ -148,6 +154,9 @@
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Nepiemērota satura</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Nederīgs vērtējums.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskusija</value>
   </data>
@@ -155,7 +164,7 @@
     <value>Skatīt pilna izmēra bildes pārvalku</value>
   </data>
   <data name="show.admin.page" xml:space="preserve">
-    <value>Apskatīt adminu lapu</value>
+    <value>Apskatīt  lapu</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Šī ritma-mape ir izdzēsta.</value>
@@ -260,7 +269,7 @@
     <value>Valoda</value>
   </data>
   <data name="show.info.mapper_tags" xml:space="preserve">
-    <value>Kartētāju Piekariņš</value>
+    <value>Ritma-karšu Izveidotāju Piekariņš</value>
   </data>
   <data name="show.info.no_scores" xml:space="preserve">
     <value>Rezultāti joprojām tiek aprēķināti...</value>
@@ -274,6 +283,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Tiešsaistes nobīde</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Ritma-Karšu Pakas</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Izkrišanas punkti</value>
   </data>
@@ -284,13 +296,28 @@
     <value>Šī ritma-mape satur vizuālo saturu</value>
   </data>
   <data name="show.info.success-rate" xml:space="preserve">
-    <value>Izdošanās līmenis</value>
+    <value>Sekmības rādītājs</value>
+  </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} no {1} izspēles|{0} no {1} izspēlēm</value>
   </data>
   <data name="show.info.user_tags" xml:space="preserve">
-    <value>Lietotāju Piekariņš</value>
+    <value>Lietotāju Birkas</value>
   </data>
   <data name="show.info.video" xml:space="preserve">
     <value>Šī ritma-mape satur video</value>
+  </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Debīl Ekskluzīvs</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Īpašu mehāniku dēļ šo ritma-karti var spēlēt tikai osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0}, lai skatītu šajā ritma-kartē sasniegtos rezultātus.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Ieslēgt debīl režīmu</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Šajā ritma-mapē ir atklāts, aizskarošs vai  satraucošs saturs. Vai tomēr vēlaties to skatīt?</value>
@@ -329,7 +356,7 @@
     <value>Jums nepieciešams būt atbalstītājam, lai redzētu draugu un valsts rangus!</value>
   </data>
   <data name="show.scoreboard.team" xml:space="preserve">
-    <value>Komandas Novietojums</value>
+    <value>Komandas Rangs</value>
   </data>
   <data name="show.scoreboard.title" xml:space="preserve">
     <value>Rezultātu apkopojums</value>
@@ -338,13 +365,13 @@
     <value>Precizitāte</value>
   </data>
   <data name="show.scoreboard.headers.combo" xml:space="preserve">
-    <value>Max Kombinācija</value>
+    <value>Maksimālā Kombinācija</value>
   </data>
   <data name="show.scoreboard.headers.miss" xml:space="preserve">
     <value>Netrāpījumi</value>
   </data>
   <data name="show.scoreboard.headers.mods" xml:space="preserve">
-    <value>Modifikācijas</value>
+    <value>Modi</value>
   </data>
   <data name="show.scoreboard.headers.pin" xml:space="preserve">
     <value>Piespraust</value>
@@ -380,7 +407,7 @@
     <value>Neviens no tavas komandas pagaidām nav uzstādījis rezultātu uz šīs ritma-kartes!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Nevērtējama ritma-mape.</value>
+    <value>Nenovērtēta ritma-mape.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Vadībā</value>
@@ -401,7 +428,7 @@
     <value>Taustiņu Skaits</value>
   </data>
   <data name="show.stats.drain" xml:space="preserve">
-    <value>HP Izsīkšana</value>
+    <value>HP zudums</value>
   </data>
   <data name="show.stats.accuracy" xml:space="preserve">
     <value>Precizitāte</value>
@@ -413,7 +440,7 @@
     <value>Grūtība Zvaigznēs</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Garums (Izsīkšanas garums: {0})</value>
+    <value>Garums (spēles ilgums: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>
@@ -443,10 +470,10 @@
     <value>Iecienītās</value>
   </data>
   <data name="show.stats.no_favourites" xml:space="preserve">
-    <value>Vēl nav iecienīto</value>
+    <value>Pagaidām nav iemīļota</value>
   </data>
   <data name="show.status.ranked" xml:space="preserve">
-    <value>Ierindota</value>
+    <value>Novērtēta</value>
   </data>
   <data name="show.status.approved" xml:space="preserve">
     <value>Apstiprināta</value>
@@ -467,6 +494,6 @@
     <value>Pamesta</value>
   </data>
   <data name="spotlight_badge.label" xml:space="preserve">
-    <value>Uzmanības Centrā</value>
+    <value>Izcelta</value>
   </data>
 </root>

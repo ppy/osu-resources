@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="deleted" xml:space="preserve">
-    <value>Dzēsts lietotājs</value>
+    <value>[dzēsts lietotājs]</value>
   </data>
   <data name="beatmapset_activities.title" xml:space="preserve">
-    <value>Lietotāja Mooficēšanas Vēsture</value>
+    <value>{0} bītkaršu pārbaudes vēsture</value>
   </data>
   <data name="beatmapset_activities.title_compact" xml:space="preserve">
-    <value>Regulēšana</value>
+    <value>Bītkaršu pārbaude</value>
   </data>
   <data name="beatmapset_activities.discussions.title_recent" xml:space="preserve">
     <value>Nesen sāktas diskusijas</value>
@@ -119,7 +119,7 @@
     <value>Atbloķēt</value>
   </data>
   <data name="card.gift_supporter" xml:space="preserve">
-    <value>Uzdāvināt supporter statusu.</value>
+    <value>Uzdāvināt supporter birku.</value>
   </data>
   <data name="card.loading" xml:space="preserve">
     <value>Notiek ielāde...</value>
@@ -155,16 +155,16 @@
     <value>Ak nē! Izskatās ka tavs konts ir atslēgts.</value>
   </data>
   <data name="disabled.warning" xml:space="preserve">
-    <value>Ja nu gadijumā tu esi pārkoiāpis noteikumu, lūdzu iegaumē, ka mums galvenokārt ir 1 mēneša uzgadīšanas laiks, kurā mēs attaisnojumus nepieņemsim. Pēc šī perioda, tu vari ar mums sazināties, ja uzskati ka tas ir nepieciešams. Lūdzu iegaumē, ja tu izveidosi jaunu kontu pēc tam kad viens tika atslēgts, &lt;strong&gt;1 mēneša uzgaidīsanas periods tiks pagarināts&lt;/strong&gt;. Lūdzu arī iegaumē ka &lt;strong&gt;jo vairāk kontus tu izveidosi, jo tālāk tu pārkāpsi noteikumus&lt;/strong&gt;. Mēs stingri iesakam nenoiet uz to ceļu.</value>
+    <value>Ja esi pārkāpis kādu noteikumu, ņem vērā, ka parasti tiek piemērots viena mēneša gaidīšanas periods, kura laikā mēs neizskatām nekādus apžēlošanas pieprasījumus. Pēc šī perioda vari ar mums sazināties, ja uzskati to par nepieciešamu. Ņem vērā, ka jaunu kontu izveide pēc tam, kad kāds no taviem kontiem ir atspējots, &lt;strong&gt;pagarinās šo viena mēneša nogaidīšanas periodu&lt;/strong&gt;. Tāpat ņem vērā, ka &lt;strong&gt;ar katru izveidoto kontu tu turpini pārkāpt noteikumus&lt;/strong&gt;. Mēs stingri iesakām tā nerīkoties!</value>
   </data>
   <data name="disabled.if_mistake._" xml:space="preserve">
-    <value>Ja tu domā ka tā ir kļūda, droši vari sazināties ar mums (caur {0} vai uzspiežot "?" apakšējā labajā stūrī šajā lapā). Lūdzu iegum'ē to ka mēs vienmēr esam ļoti pārliecināti par saviem lēmumiem, jo tie tiek balstīti uz ļoti stipru informāciju. Mums arī paliek opcija noraidīt tavu pieprasījumu, ja mums ir aizdomas, ka tu esi tīšām negodīgs.</value>
+    <value>Ja tu domā ka tā ir kļūda, droši vari sazināties ar mums (caur {0} vai uzspiežot "?" apakšējā labajā stūrī šajā lapā). Lūdzu iegaumē to ka mēs vienmēr esam ļoti pārliecināti par saviem lēmumiem, jo tie tiek balstīti uz ļoti stipru informāciju. Mums arī paliek opcija noraidīt tavu pieprasījumu, ja mums ir aizdomas, ka tu esi tīšām negodīgs.</value>
   </data>
   <data name="disabled.if_mistake.email" xml:space="preserve">
     <value>e-pasts</value>
   </data>
   <data name="disabled.reasons.compromised" xml:space="preserve">
-    <value>Tavs konts ir konpensējams. Tas var būt uz neilgu laiku izslēgts, kamēr tā identitāe tiek apstiprināta.</value>
+    <value>Tavs konts ir atzīts par uzlauztu. Tas var tikt īslaicīgi atspējots, kamēr tiek apstiprināta tā identitāte.</value>
   </data>
   <data name="disabled.reasons.opening" xml:space="preserve">
     <value>Ir daudzi iesmesli, kuru rezultātā tavs konts var tikt izslēgt:</value>
@@ -242,10 +242,10 @@
     <value>Beidzies</value>
   </data>
   <data name="ogp.modding_description" xml:space="preserve">
-    <value>Ritma-mapes {0}</value>
+    <value>Bītkartes {0}</value>
   </data>
   <data name="ogp.modding_description_empty" xml:space="preserve">
-    <value>Lietotājam nav ritma-mapes...</value>
+    <value>Lietotājam nav bītkartes...</value>
   </data>
   <data name="ogp.description._" xml:space="preserve">
     <value>Vieta ({0}): {1} | {2}</value>
@@ -305,7 +305,7 @@
     <value>osu! autortiesību politika</value>
   </data>
   <data name="report.dmca.message_2" xml:space="preserve">
-    <value>Šis tiek piemērots visiem gadijumiem, kad audioieraksta vizuālais saturs vai ritma-kartes līmeis tiek izmantots bez pareizajām atļaujām.</value>
+    <value>Tas attiecas uz gadījumiem, kad audio ieraksti, vizuālais saturs vai bītkartes saturs tiek izmantots bez atbilstošas atļaujas.</value>
   </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Netīra spēle / Krāpšanās</value>
@@ -427,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Rādīt mazāk informācijas</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Rādīt vairāk informācijas</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Mainīt Profila Pārklāju</value>
   </data>
@@ -488,7 +494,7 @@
     <value>neviens</value>
   </data>
   <data name="show.extra.unranked" xml:space="preserve">
-    <value>Nav beidzamo spēļu</value>
+    <value>Nav pēdējo izspēļu</value>
   </data>
   <data name="show.extra.achievements.achieved-on" xml:space="preserve">
     <value>Sasniegts {0}</value>
@@ -503,28 +509,28 @@
     <value>no {0}</value>
   </data>
   <data name="show.extra.beatmaps.title" xml:space="preserve">
-    <value>Bītmape</value>
+    <value>Bītkarte</value>
   </data>
   <data name="show.extra.beatmaps.favourite.title" xml:space="preserve">
-    <value>Mīļākās Bītmapes</value>
+    <value>Mīļākās Bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.graveyard.title" xml:space="preserve">
-    <value>Kapā Metamās Bītmapes</value>
+    <value>Pamestās Bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.guest.title" xml:space="preserve">
-    <value>Viesu Dalības Ritma-Mapēs</value>
+    <value>Viesautoru bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.loved.title" xml:space="preserve">
-    <value>Mīļākās Bītmapes</value>
+    <value>Mīļākās Bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
-    <value>Nominētās Novērtētās Ritma-mapes</value>
+    <value>Nominētās Rangotās Bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
-    <value>Gaidošās Ritma-mapes</value>
+    <value>Gaidošās Bītkartes</value>
   </data>
   <data name="show.extra.beatmaps.ranked.title" xml:space="preserve">
-    <value>Novērtētās Ritma-mapes</value>
+    <value>Rangotās Bītkartes</value>
   </data>
   <data name="show.extra.discussions.title" xml:space="preserve">
     <value>Diskusijas</value>
@@ -566,10 +572,13 @@
     <value>Beidzamās Spēles (24h)</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.title" xml:space="preserve">
-    <value>Skatītie Atkārtojumi Vēsturiski</value>
+    <value>Skatīto ierakstu vēsture</value>
   </data>
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
-    <value>Atkārtojumi Apskatīti</value>
+    <value>Skatītie ieraksti</value>
+  </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Visvairāk skatītie ieraksti</value>
   </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Beidzamo Kudosu Vēsture</value>
@@ -620,7 +629,7 @@
     <value>Noliedza kudosu {0} rakstam {1}</value>
   </data>
   <data name="show.extra.kudosu.total_info._" xml:space="preserve">
-    <value>Balstīts uz to lielu ieguldījumu lietotājs ir veicis ritma-mapes modificēšanā. Apskatīt {0} priekš vairāk informācijas.</value>
+    <value>Balstīts uz lietotāja ieguldījumu bītkaršu pārbaudē. Plašāku informāciju skatiet {0}.</value>
   </data>
   <data name="show.extra.kudosu.total_info.link" xml:space="preserve">
     <value>šī lapa</value>
@@ -649,6 +658,9 @@
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>apskatīt vairāk rakstus</value>
   </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Rangotās spēles mači</value>
+  </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Nesenie</value>
   </data>
@@ -656,10 +668,10 @@
     <value>Daudzspēlētāju Spēles</value>
   </data>
   <data name="show.extra.top_ranks.download_replay" xml:space="preserve">
-    <value>Lejupielādēt Spēles Ierakstu</value>
+    <value>Lejupielādēt Ierakstu</value>
   </data>
   <data name="show.extra.top_ranks.not_ranked" xml:space="preserve">
-    <value>Tikai ierindotās bītmapes dod pp.</value>
+    <value>Tikai rangotas bītkartes piešķir pp</value>
   </data>
   <data name="show.extra.top_ranks.pp_weight" xml:space="preserve">
     <value>nosvērti {0}</value>
@@ -760,6 +772,30 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Mājaslapa</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Zaudējumi</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Kopējaie mači</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Rangs</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Reitings</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Pēdējo maču vēsture</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Līga</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Rangota spēle</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Uzvaras</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Meklējamais cilvēks, iespējams nomainīja savu lietotājvārdu.</value>
   </data>
@@ -814,11 +850,26 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Augstākais novietojums: {0} {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Jauns zvaigžņu vērtējuma / PP algoritms ir {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>tiek ieviests</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Jaunākie rezultāti var netikt uzreiz atspoguļoti lietotāju profilos.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Top {0}</value>
   </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Spotlights</value>
+  </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Kopējais punktu skaits</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Solo spēle</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Trāpījuma Precizitāte</value>
@@ -845,10 +896,10 @@
     <value>Kopējais Spēlēšanas Laiks</value>
   </data>
   <data name="show.stats.ranked_score" xml:space="preserve">
-    <value>Novērtēto Punktu Daudzums</value>
+    <value>Rangotie Punkti</value>
   </data>
   <data name="show.stats.replays_watched_by_others" xml:space="preserve">
-    <value>Atkārtojumi, kurus citi ir noskatījušies</value>
+    <value>Citu skatītie ieraksti</value>
   </data>
   <data name="show.stats.score_ranks" xml:space="preserve">
     <value>Punktu Reitingi</value>
@@ -860,16 +911,16 @@
     <value>Totālais Punktu Skaits</value>
   </data>
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
-    <value>Izmirušās Ritma-mapes</value>
+    <value>Pamestās Bītkartes</value>
   </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
-    <value>Iemīlētās Ritma-Mapes</value>
+    <value>Iemīlētās Bītkartes</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
-    <value>Uzgaidāmās Ritma-mapes</value>
+    <value>Gaidošās Bītkartes</value>
   </data>
   <data name="show.stats.ranked_beatmapset_count" xml:space="preserve">
-    <value>Novērtētās Ritma-mapes</value>
+    <value>Rangotās Bītkartes</value>
   </data>
   <data name="silenced_banner.title" xml:space="preserve">
     <value>Tu pašlaik esi apklusināts.</value>

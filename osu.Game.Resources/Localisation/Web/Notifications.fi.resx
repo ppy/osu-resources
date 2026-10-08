@@ -286,6 +286,30 @@
   <data name="item.channel.channel.pm.channel_message_group" xml:space="preserve">
     <value>käyttäjältä {0}</value>
   </data>
+  <data name="item.channel.channel_mention._" xml:space="preserve">
+    <value>Keskustelumaininta</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention" xml:space="preserve">
+    <value>{0} mainitsi sinut kohteessa {1} "{2}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_compact" xml:space="preserve">
+    <value>{0} "{1}"</value>
+  </data>
+  <data name="item.channel.channel_mention.public.channel_mention_group" xml:space="preserve">
+    <value>mainittu kohteessa {0}</value>
+  </data>
+  <data name="item.channel.channel_team._" xml:space="preserve">
+    <value>Uusi tiimiviesti</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team" xml:space="preserve">
+    <value>{0} sanoo "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_compact" xml:space="preserve">
+    <value>{0} sanoo "{1}"</value>
+  </data>
+  <data name="item.channel.channel_team.team.channel_team_group" xml:space="preserve">
+    <value>{0} sanoo "{1}"</value>
+  </data>
   <data name="item.build._" xml:space="preserve">
     <value>Muutosloki</value>
   </data>
@@ -322,6 +346,15 @@
   <data name="item.news_post.comment.comment_reply_compact" xml:space="preserve">
     <value>{0} vastasi "{1}"</value>
   </data>
+  <data name="item.news_post.news_post._" xml:space="preserve">
+    <value>Uutiset ({0})</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="item.news_post.news_post.news_post_new_compact" xml:space="preserve">
+    <value>{0}</value>
+  </data>
   <data name="item.forum_topic._" xml:space="preserve">
     <value>Foorumin aihe</value>
   </data>
@@ -343,11 +376,20 @@
   <data name="item.team.team_application.team_application_accept_compact" xml:space="preserve">
     <value>Olet nyt tiimin {0} jäsen</value>
   </data>
+  <data name="item.team.team_application.team_application_group" xml:space="preserve">
+    <value>Tiimin liittymispyyntöjen päivitykset</value>
+  </data>
   <data name="item.team.team_application.team_application_reject" xml:space="preserve">
     <value>Sinun pyyntösi tiimiin {0} on hylätty</value>
   </data>
   <data name="item.team.team_application.team_application_reject_compact" xml:space="preserve">
     <value>Sinun pyyntösi tiimiin {0} on hylätty</value>
+  </data>
+  <data name="item.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} pyysi päästä liittymään tiimiisi</value>
+  </data>
+  <data name="item.team.team_application.team_application_store_compact" xml:space="preserve">
+    <value>{0} pyysi päästä liittymään tiimiisi</value>
   </data>
   <data name="item.user.user_beatmapset_new._" xml:space="preserve">
     <value>Uusi rytmikartta</value>
@@ -381,6 +423,9 @@
   </data>
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Mitaleja ansaittu!</value>
+  </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>Uutiset</value>
   </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>Olet nyt vieraana rytmikartassa "{0}"</value>
@@ -421,6 +466,18 @@
   <data name="mail.beatmapset.comment.comment_new" xml:space="preserve">
     <value>Rytmikartassa "{0}" on uusia kommentteja</value>
   </data>
+  <data name="mail.channel.announcement.channel_announcement" xml:space="preserve">
+    <value>Uusi ilmoitus kohteessa "{0}"</value>
+  </data>
+  <data name="mail.channel.channel.channel_message" xml:space="preserve">
+    <value>Olet saanut uuden viestin käyttäjältä {0}</value>
+  </data>
+  <data name="mail.channel.channel_mention.channel_mention" xml:space="preserve">
+    <value>{0} mainitsi sinut kohteessa {1} "{2}"</value>
+  </data>
+  <data name="mail.channel.channel_team.channel_team" xml:space="preserve">
+    <value>Uusi viesti tiimissä "{0}"</value>
+  </data>
   <data name="mail.build.comment.comment_new" xml:space="preserve">
     <value>Muutosloki "{0}" on saanut uusia kommentteja</value>
   </data>
@@ -435,6 +492,9 @@
   </data>
   <data name="mail.team.team_application.team_application_reject" xml:space="preserve">
     <value>Pyyntösi tiimiin {0} on hylätty</value>
+  </data>
+  <data name="mail.team.team_application.team_application_store" xml:space="preserve">
+    <value>{0} pyysi päästä liittymään tiimiisi</value>
   </data>
   <data name="mail.user.user_beatmapset_new.user_beatmapset_new" xml:space="preserve">
     <value>{0} on luonut uusia rytmikarttoja</value>

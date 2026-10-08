@@ -58,8 +58,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="hidden_replies" xml:space="preserve">
+    <value>{0} atbilde ir paslēpta.|{0} atbildes ir paslēptas.</value>
+  </data>
   <data name="authorizations.update.null_user" xml:space="preserve">
-    <value>Vajag būt pierakstījušamies, lai rediģētu.</value>
+    <value>Lai rediģētu, ir jāpierakstās.</value>
   </data>
   <data name="authorizations.update.system_generated" xml:space="preserve">
     <value>Sistēmas-ģenerēto rakstu nevar rediģēt.</value>
@@ -134,7 +137,7 @@
     <value>Tips</value>
   </data>
   <data name="item.permalink" xml:space="preserve">
-    <value>Patstāvīgā saitne</value>
+    <value>Bezgalīgā saitne</value>
   </data>
   <data name="nearby_posts.confirm" xml:space="preserve">
     <value>Neviens no šiem rakstiem neattiecas uz manu problēmu</value>
@@ -215,7 +218,7 @@
     <value>{0} ir atkārtoti atvēris</value>
   </data>
   <data name="timestamp_display.general" xml:space="preserve">
-    <value>visparīgi</value>
+    <value>vispārīgi</value>
   </data>
   <data name="timestamp_display.general_all" xml:space="preserve">
     <value>vispārīgi (viss)</value>
@@ -225,5 +228,8 @@
   </data>
   <data name="user_filter.label" xml:space="preserve">
     <value>Filtrēt pēc lietotāja</value>
+  </data>
+  <data name="user_filter.multiple" xml:space="preserve">
+    <value>{0} lietotājs atlasīts|{0} lietotāji atlasīti</value>
   </data>
 </root>

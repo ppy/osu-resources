@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="invalid" xml:space="preserve">
-    <value>Указан неверный {0}.</value>
+    <value>Указан неверный параметр {0}.</value>
   </data>
   <data name="not_negative" xml:space="preserve">
     <value>{0} не может быть отрицательным.</value>
@@ -77,19 +77,19 @@
     <value>Поля не совпадают.</value>
   </data>
   <data name="beatmapset_discussion.beatmap_missing" xml:space="preserve">
-    <value>Временная отметка указана, но карта не найдена.</value>
+    <value>Тайм-код указан, но сложность карты не найдена.</value>
   </data>
   <data name="beatmapset_discussion.beatmapset_no_hype" xml:space="preserve">
-    <value>К карте нельзя применить функции хайпа.</value>
+    <value>Нельзя хайпануть эту карту.</value>
   </data>
   <data name="beatmapset_discussion.hype_requires_null_beatmap" xml:space="preserve">
     <value>Хайп может быть применен только в Общей (все сложности) секции.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmap_id" xml:space="preserve">
-    <value>Указана неверная сложность.</value>
+    <value>Указана несуществующая сложность.</value>
   </data>
   <data name="beatmapset_discussion.invalid_beatmapset_id" xml:space="preserve">
-    <value>Указана неправильная карта.</value>
+    <value>Указана несуществующая карта.</value>
   </data>
   <data name="beatmapset_discussion.locked" xml:space="preserve">
     <value>Обсуждение закрыто.</value>
@@ -98,10 +98,10 @@
     <value>Тип сообщения</value>
   </data>
   <data name="beatmapset_discussion.attributes.timestamp" xml:space="preserve">
-    <value>Временная отметка</value>
+    <value>Тайм-код</value>
   </data>
   <data name="beatmapset_discussion.hype.discussion_locked" xml:space="preserve">
-    <value>Эта карта закрыта для обсуждения, поэтому на данный момент её нельзя хайпануть</value>
+    <value>Обсуждение этой карты закрыто, поэтому её пока нельзя хайпануть</value>
   </data>
   <data name="beatmapset_discussion.hype.guest" xml:space="preserve">
     <value>Вам нужно войти, чтобы хайпить.</value>
@@ -119,10 +119,10 @@
     <value>Вы не можете хайпить свои карты.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.exceeds_beatmapset_length" xml:space="preserve">
-    <value>Указанная временная отметка выходит за рамки её длины.</value>
+    <value>Указанный тайм-код выходит за рамки длительности карты.</value>
   </data>
   <data name="beatmapset_discussion.timestamp.negative" xml:space="preserve">
-    <value>Временная отметка не может быть отрицательной.</value>
+    <value>Тайм-код не может быть отрицательным.</value>
   </data>
   <data name="beatmapset_discussion_post.discussion_locked" xml:space="preserve">
     <value>Обсуждение закрыто.</value>
@@ -143,7 +143,7 @@
     <value>Сообщение</value>
   </data>
   <data name="follow.invalid" xml:space="preserve">
-    <value>Указан неверный {0}.</value>
+    <value>Указан неверный параметр {0}.</value>
   </data>
   <data name="forum.feature_vote.not_feature_topic" xml:space="preserve">
     <value>Можно только проголосовать за запрос функции.</value>
@@ -155,10 +155,10 @@
     <value>Указан недопустимый вариант.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_delete" xml:space="preserve">
-    <value>Нельзя удалить метаданные карты.</value>
+    <value>Нельзя удалить пост с метаданными карты.</value>
   </data>
   <data name="forum.post.beatmapset_post_no_edit" xml:space="preserve">
-    <value>Нельзя изменить метаданные карты.</value>
+    <value>Нельзя редактировать пост с метаданными карты.</value>
   </data>
   <data name="forum.post.first_post_no_delete" xml:space="preserve">
     <value>Невозможно удалить первый пост</value>
@@ -323,7 +323,7 @@
     <value>Пароли не совпадают.</value>
   </data>
   <data name="user.too_long" xml:space="preserve">
-    <value>Превышено максимальное количество символов - можно использовать только до {0} characters символов.</value>
+    <value>Превышено максимальное количество символов - можно использовать только до {0} символов.</value>
   </data>
   <data name="user.attributes.username" xml:space="preserve">
     <value>Ник</value>
@@ -338,7 +338,7 @@
     <value>Вы не можете сменить свой ник, пока ваш аккаунт ограничен.</value>
   </data>
   <data name="user.change_username.supporter_required._" xml:space="preserve">
-    <value>Вы должны {0} , чтобы изменить свой ник!</value>
+    <value>Вы должны {0}, чтобы изменить свой ник!</value>
   </data>
   <data name="user.change_username.supporter_required.link_text" xml:space="preserve">
     <value>поддержать osu!</value>
@@ -347,7 +347,7 @@
     <value>Это уже и есть Ваш никнейм!</value>
   </data>
   <data name="user_report.no_ranked_beatmapset" xml:space="preserve">
-    <value>На рейтинговые карты нельзя пожаловаться</value>
+    <value>Нельзя пожаловаться на рейтинговые карты</value>
   </data>
   <data name="user_report.not_in_channel" xml:space="preserve">
     <value>Вас нет в этом канале.</value>

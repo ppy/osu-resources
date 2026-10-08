@@ -88,6 +88,21 @@
   <data name="box.info.logout_link" xml:space="preserve">
     <value>kirjautua ulos</value>
   </data>
+  <data name="box_totp.heading" xml:space="preserve">
+    <value>Anna koodi todennussovelluksesta.</value>
+  </data>
+  <data name="box_totp.info.logout._" xml:space="preserve">
+    <value>Voit myös {0}.</value>
+  </data>
+  <data name="box_totp.info.logout.link" xml:space="preserve">
+    <value>kirjaudu ulos</value>
+  </data>
+  <data name="box_totp.info.mail_fallback._" xml:space="preserve">
+    <value>Jos et pääse sovellukseesi, {0}.</value>
+  </data>
+  <data name="box_totp.info.mail_fallback.link" xml:space="preserve">
+    <value>voit vahvistaa sähköpostilla sen sijaan</value>
+  </data>
   <data name="errors.expired" xml:space="preserve">
     <value>Vahvistuskoodi erääntyi, uusi vahvistussähköposti lähetetty.</value>
   </data>
@@ -99,6 +114,12 @@
   </data>
   <data name="errors.reissued" xml:space="preserve">
     <value>Vahvistuskoodi uusittu, uusi vahvistussähköposti lähetetty.</value>
+  </data>
+  <data name="errors.totp_used_key" xml:space="preserve">
+    <value>Vahvistuskoodi on jo käyetty. Odota ja käytä uutta koodia.</value>
+  </data>
+  <data name="errors.totp_gone" xml:space="preserve">
+    <value>Todennustunnus on poistettu, vaihdetaan sähköpostivahvistukseen. Vahvistussähköposti on lähetetty.</value>
   </data>
   <data name="errors.unknown" xml:space="preserve">
     <value>Tuntematon virhe tapahtui, uusi vahvistussähköposti lähetetty.</value>
