@@ -61,6 +61,9 @@
   <data name="input_section_header" xml:space="preserve">
     <value>Ievade</value>
   </data>
+  <data name="device" xml:space="preserve">
+    <value>Ierīce {0}</value>
+  </data>
   <data name="global_key_binding_header" xml:space="preserve">
     <value>Globāli</value>
   </data>
@@ -70,11 +73,8 @@
   <data name="song_select_section" xml:space="preserve">
     <value>Dziesmas Izvēlne</value>
   </data>
-  <data name="in_game_section" xml:space="preserve">
-    <value>Spēlē</value>
-  </data>
   <data name="replay_section" xml:space="preserve">
-    <value>Atkārtojums</value>
+    <value>Ieraksts</value>
   </data>
   <data name="audio_section" xml:space="preserve">
     <value>Audio</value>
@@ -83,7 +83,7 @@
     <value>Redaktors</value>
   </data>
   <data name="editor_test_play_section" xml:space="preserve">
-    <value>Redaktors: Sākt testa spēli</value>
+    <value>Izmēģināt</value>
   </data>
   <data name="reset_section_button" xml:space="preserve">
     <value>Atiestatīt visas sasaistes sekcijā</value>
@@ -95,7 +95,7 @@
     <value>Pielāgojiet savus taustiņus!</value>
   </data>
   <data name="key_binding_conflict_detected" xml:space="preserve">
-    <value>Saiste, ko esat izvēlējies, sakrīt ar citu eksistējošu saisti.</value>
+    <value>Atlasītā saīsne konfliktē ar citu jau esošu saīsni.</value>
   </data>
   <data name="keep_existing_binding" xml:space="preserve">
     <value>Paturēt eksistējošos</value>
@@ -105,5 +105,11 @@
   </data>
   <data name="action_has_no_key_binding" xml:space="preserve">
     <value>(nekas)</value>
+  </data>
+  <data name="press_akey_combination_to" xml:space="preserve">
+    <value>Nospied taustiņu kombināciju, lai iestatītu jaunu saīsni...</value>
+  </data>
+  <data name="clear_binding_button" xml:space="preserve">
+    <value>Notīrīt saīsni</value>
   </data>
 </root>

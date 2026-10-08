@@ -68,10 +68,10 @@
     <value>Пожалуйста, подтвердите свой аккаунт.</value>
   </data>
   <data name="restricted" xml:space="preserve">
-    <value>Это нельзя сделать, пока ваши права ограничены.</value>
+    <value>Вы не можете это сделать, пока ваш аккаунт ограничен.</value>
   </data>
   <data name="silenced" xml:space="preserve">
-    <value>Это сделать нельзя, пока Вы заглушены.</value>
+    <value>Вы не можете это сделать, пока заглушены.</value>
   </data>
   <data name="unauthorized" xml:space="preserve">
     <value>Доступ запрещён.</value>
@@ -131,16 +131,16 @@
     <value>Нельзя редактировать автоматически созданный пост.</value>
   </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
-    <value>Возможность обсуждения этой карты закрыта.</value>
+    <value>Обсуждение этой карты закрыто.</value>
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Вы не можете изменить метаданные номинированной карты. Чтобы исправить возможные ошибки, свяжитесь с номинаторами или членом NAT.</value>
   </data>
   <data name="beatmapset.rate.owner" xml:space="preserve">
-    <value>Вы не можете оценивать набор карт, в создании которого вы участвовали.</value>
+    <value>Вы не можете оценить собственную карту.</value>
   </data>
   <data name="beatmapset.rate.status" xml:space="preserve">
-    <value>Вы не можете оценить набор карт с этим статусом.</value>
+    <value>Вы не можете оценить карту с этим статусом.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
     <value>Сыграйте эту карту, чтобы добавить тег.</value>
@@ -164,10 +164,10 @@
     <value>Пользователь может не ответить, потому что вы принимаете сообщения только от людей из вашего списка друзей.</value>
   </data>
   <data name="chat.restricted" xml:space="preserve">
-    <value>Нельзя отправлять сообщения, пока вы заглушены, вас ограничили или забанили.</value>
+    <value>Вы не можете отправлять сообщения, пока вы заглушены, ограничены или заблокированы.</value>
   </data>
   <data name="chat.silenced" xml:space="preserve">
-    <value>Нельзя отправлять сообщения, пока вы заглушены, вас ограничили или забанили.</value>
+    <value>Вы не можете отправлять сообщения, пока вы заглушены, ограничены или заблокированы.</value>
   </data>
   <data name="comment.store.disabled" xml:space="preserve">
     <value>Комментарии отключены</value>
@@ -176,7 +176,7 @@
     <value>Нельзя редактировать удалённый пост.</value>
   </data>
   <data name="contest.judging_not_active" xml:space="preserve">
-    <value>Судейство этого конкурса пока ещё не доступно.</value>
+    <value>Судейство этого конкурса пока ещё недоступно.</value>
   </data>
   <data name="contest.voting_over" xml:space="preserve">
     <value>Вы не можете изменить свой голос после окончания периода голосования.</value>
@@ -185,7 +185,7 @@
     <value>Вы исчерпали количество заявок для этого конкурса</value>
   </data>
   <data name="contest.entry.over" xml:space="preserve">
-    <value>Благодарим за ваши заявки на участие в этом конкурсе! Голосование начнется в ближайшее время.</value>
+    <value>Благодарим за ваши заявки на участие в этом конкурсе! Голосование начнётся в ближайшее время.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
     <value>У вас недостаточно прав на модерацию этого форума.</value>
@@ -230,7 +230,7 @@
     <value>Пожалуйста, отредактируйте ваш последний пост, не создавайте новый.</value>
   </data>
   <data name="forum.topic.reply.locked" xml:space="preserve">
-    <value>Эта тема закрыта — ответы отключены.</value>
+    <value>Нельзя ответить в закрытой теме.</value>
   </data>
   <data name="forum.topic.reply.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
@@ -245,7 +245,7 @@
     <value>Нельзя отвечать, когда аккаунт ограничен.</value>
   </data>
   <data name="forum.topic.reply.user.silenced" xml:space="preserve">
-    <value>Нельзя отвечать, пока у Вы заглушены.</value>
+    <value>Нельзя отвечать, пока вы заглушены.</value>
   </data>
   <data name="forum.topic.store.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
@@ -254,7 +254,7 @@
     <value>У вас недостаточно прав на создание новой темы.</value>
   </data>
   <data name="forum.topic.store.forum_closed" xml:space="preserve">
-    <value>Форум закрыт.</value>
+    <value>Тема форума закрыта, ответы отключены.</value>
   </data>
   <data name="forum.topic.vote.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>
@@ -275,7 +275,7 @@
     <value>Нельзя голосовать, когда аккаунт ограничен.</value>
   </data>
   <data name="forum.topic.vote.user.silenced" xml:space="preserve">
-    <value>Нельзя голосовать, пока у вы заглушены.</value>
+    <value>Нельзя голосовать, пока вы заглушены.</value>
   </data>
   <data name="forum.topic.watch.no_forum_access" xml:space="preserve">
     <value>Необходим доступ к запрашиваемому форуму.</value>

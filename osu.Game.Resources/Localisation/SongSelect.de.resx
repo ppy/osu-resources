@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>Genauigkeit</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>Trefferfenster {0}</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>HP-Drain</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Beeinflusst die Stärke des Gesundheitsverlusts und die Strafe für das Verfehlen von Objekten.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Scrollgeschwindigkeit</value>
@@ -137,7 +143,7 @@
     <value>Als ungespielt markieren</value>
   </data>
   <data name="clear_all_local_scores" xml:space="preserve">
-    <value>Alle lokalen Scores löschen</value>
+    <value>Alle lokalen Scores löschen...</value>
   </data>
   <data name="restore_all_hidden" xml:space="preserve">
     <value>Alle versteckten Level wiederherstellen</value>
@@ -213,5 +219,8 @@
   </data>
   <data name="mostly_bpm" xml:space="preserve">
     <value>meist {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} Treffer|{0:#,0} Treffer</value>
   </data>
 </root>

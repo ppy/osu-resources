@@ -298,8 +298,23 @@
   <data name="report.actions.cancel" xml:space="preserve">
     <value>Peruuta</value>
   </data>
+  <data name="report.dmca.message_1._" xml:space="preserve">
+    <value>Ilmoita tekijänoikeusrikkomuksesta DMCA-vaatimuksella osoitteeseen {0} {1} -käytännön mukaisesti.</value>
+  </data>
+  <data name="report.dmca.message_1.policy" xml:space="preserve">
+    <value>osu! tekijänoikeuspolitiikka</value>
+  </data>
+  <data name="report.dmca.message_2" xml:space="preserve">
+    <value>Tämä koskee tapauksia, joissa ääniraitoja, visuaalista sisältöä tai rytmikartan sisältöä käytetään ilman asianmukaista lupaa.</value>
+  </data>
   <data name="report.options.cheating" xml:space="preserve">
     <value>Huijaaminen</value>
+  </data>
+  <data name="report.options.copyright_infringement" xml:space="preserve">
+    <value>Tekijänoikeusrikkomus</value>
+  </data>
+  <data name="report.options.inappropriate_chat" xml:space="preserve">
+    <value>Sopimaton chat-käyttäytyminen</value>
   </data>
   <data name="report.options.insults" xml:space="preserve">
     <value>Loukkaa minua / muita</value>
@@ -411,6 +426,12 @@
   </data>
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
+  </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Näytä vähemmän</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Näytä lisätiedot</value>
   </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Muuta profiilin kansikuvaa</value>
@@ -556,6 +577,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Uusintoja katsottu</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Katsotuimmat Uusinnat</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Viimeaikainen kudosuhistoria</value>
   </data>
@@ -633,6 +657,9 @@
   </data>
   <data name="show.extra.posts.show_more" xml:space="preserve">
     <value>katso lisää julkaisuja</value>
+  </data>
+  <data name="show.extra.ranked-play.title" xml:space="preserve">
+    <value>Kilpailulliset Ottelut</value>
   </data>
   <data name="show.extra.recent_activity.title" xml:space="preserve">
     <value>Viimeisimmät</value>
@@ -745,6 +772,30 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Verkkosivu</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Häviöt</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Otteluita Yhteensä</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Sijoitus</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Luokitus</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Viimeisin Otteluhistoria</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Taso</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Kilpailullinen</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Voitot</value>
+  </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Hän on saattanut vaihtaa käyttäjänimensä.</value>
   </data>
@@ -799,8 +850,32 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Korkein sija {0} oli {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Uutta tähtiluokitus / PP algoritmia {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>otetaan käyttöön</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>Viimeisimmät tulokset eivät välttämättä näy heti käyttäjäprofiileissa.</value>
+  </data>
+  <data name="show.season_stats.division_top_percentage" xml:space="preserve">
+    <value>Top {0}</value>
+  </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Kohdevaloissa</value>
+  </data>
+  <data name="show.season_stats.total_score" xml:space="preserve">
+    <value>Yhteispisteet</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Yksinpeli</value>
+  </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Iskutarkkuus</value>
+  </data>
+  <data name="show.stats.hits_per_play" xml:space="preserve">
+    <value>Osumia pelausta kohden</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Taso {0}</value>

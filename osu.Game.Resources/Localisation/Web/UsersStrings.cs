@@ -1235,6 +1235,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowMatchmakingRecentHistory => new TranslatableString(getKey(@"show.matchmaking.recent_history"), @"Latest Match History");
 
         /// <summary>
+        /// "Not enough data to display accurate stats. Play more games!"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRecentHistoryProvisional => new TranslatableString(getKey(@"show.matchmaking.recent_history_provisional"), @"Not enough data to display accurate stats. Play more games!");
+
+        /// <summary>
         /// "Tier"
         /// </summary>
         public static LocalisableString ShowMatchmakingTier => new TranslatableString(getKey(@"show.matchmaking.tier"), @"Tier");
@@ -1338,6 +1343,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Highest rank: {0} on {1}"
         /// </summary>
         public static LocalisableString ShowRankHighest(LocalisableString rank, LocalisableString date) => new TranslatableString(getKey(@"show.rank.highest"), @"Highest rank: {0} on {1}", rank, date);
+
+        /// <summary>
+        /// "Rank is only shown after entering the top 1,000"
+        /// </summary>
+        public static LocalisableString ShowRankKudosuOutsideTop1000 => new TranslatableString(getKey(@"show.rank.kudosu_outside_top_1000"), @"Rank is only shown after entering the top 1,000");
+
+        /// <summary>
+        /// "Kudosu Ranking"
+        /// </summary>
+        public static LocalisableString ShowRankKudosuSimple => new TranslatableString(getKey(@"show.rank.kudosu_simple"), @"Kudosu Ranking");
 
         /// <summary>
         /// "A new Star Rating / PP algorithm is {0}."
@@ -1445,9 +1460,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsGraveyardBeatmapsetCount => new TranslatableString(getKey(@"show.stats.graveyard_beatmapset_count"), @"Graveyarded Beatmaps");
 
         /// <summary>
+        /// "Guest Participation Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowStatsGuestBeatmapsetCount => new TranslatableString(getKey(@"show.stats.guest_beatmapset_count"), @"Guest Participation Beatmaps");
+
+        /// <summary>
         /// "Loved Beatmaps"
         /// </summary>
         public static LocalisableString ShowStatsLovedBeatmapsetCount => new TranslatableString(getKey(@"show.stats.loved_beatmapset_count"), @"Loved Beatmaps");
+
+        /// <summary>
+        /// "Nominated Ranked Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowStatsNominatedBeatmapsetCount => new TranslatableString(getKey(@"show.stats.nominated_beatmapset_count"), @"Nominated Ranked Beatmaps");
 
         /// <summary>
         /// "Pending Beatmaps"

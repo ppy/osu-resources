@@ -79,6 +79,9 @@
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>현재 지점으로 미리보기 맞추기</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>모든 노트를 현재 스냅 단위에 맞추기</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>타이밍 변경 시에 이미 배치된 오브젝트들을 옮기기</value>
   </data>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (스냅)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>거리 스냅 배치를 현재 시점으로 제한</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>현재 시점으로 배치 제한</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>호버하지 않을 때에는 사이드바 축소</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>다음 북마크 지점으로 이동</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>북마크 초기화</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>북마크 초기화...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>비트맵 정보 페이지 열기</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>전체 비트맵 세트</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>죄송하지만, 본 룰셋이 적용된 상태에서의 저장은 아직 불가능해요!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>내보내기 실패!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>가져오기 실패!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>폴더 열기</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>정리 중...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>편집용으로 내보내기...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>비트맵이 외부에서 마운트 됨</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>내보낸 폴더에서 변경한 내용은 파일 추가, 수정, 삭제를 포함하여 모두 게임에 반영됩니다.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>새 콤보</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>뱅크</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>기본 뱅크</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>추가 뱅크</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>음량</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>샘플</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>샘플 셋</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>동기화...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>뒤로 이동</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>앞으로 이동</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>이전 타이밍 포인트로 이동</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>다음 타이밍 포인트로 이동</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>첫 오브젝트 / 트랙 시작으로 이동</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>트랙 시작부터 재생</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>일시 정지 전환</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>마지막 오브젝트 / 트랙 끝으로 이동</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>새 콤보 모드 전환</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>휘슬 사운드 모드 전환</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>피니시 사운드 모드 전환</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>클랩 사운드 모드 전환</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>일반 샘플 뱅크를 자동으로 설정</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>일반 샘플 뱅크를 일반으로 설정</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>일반 샘플 뱅크를 Soft로 설정</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>일반 샘플 뱅크를 Drum으로 설정</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>추가 샘플 뱅크를 자동으로 설정</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>추가 샘플 뱅크를 일반으로 설정</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>추가 샘플 뱅크를 Soft로 설정</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>추가 샘플 뱅크를 Drum으로 설정</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>거리 스냅 그리드 전환</value>
   </data>
 </root>

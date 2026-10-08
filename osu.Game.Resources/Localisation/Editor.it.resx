@@ -71,13 +71,16 @@
     <value>Mostra gli indicatori di colpo</value>
   </data>
   <data name="auto_seek_on_placement" xml:space="preserve">
-    <value>Spostati automaticamente dopo aver posizionato oggetti</value>
+    <value>Scorri in automatico quando posizioni gli oggetti</value>
   </data>
   <data name="timing" xml:space="preserve">
     <value>Tempo</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Imposta il punto di anteprima in questo momento</value>
+  </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Allinea tutte le note sul divisore di battuta...</value>
   </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
     <value>Sposta gli elementi già inseriti quando cambi il tempo</value>
@@ -98,13 +101,13 @@
     <value>Cambia difficoltà</value>
   </data>
   <data name="delete_difficulty" xml:space="preserve">
-    <value>Elimina difficoltà</value>
+    <value>Elimina difficoltà...</value>
   </data>
   <data name="edit_externally" xml:space="preserve">
-    <value>Modifica esternamente</value>
+    <value>Modifica esternamente...</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Carica beatmap</value>
+    <value>Carica beatmap...</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>opzioni</value>
@@ -133,11 +136,11 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (fisso)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Limita il posizionamento distanziato a scatto al momento corrente</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Limita il posizionamento alla battuta corrente</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
-    <value>Restringi i pannelli laterali se non attivi</value>
+    <value>Restringi i pannelli laterali quando non c'è sopra il cursore</value>
   </data>
   <data name="must_be_in_editor_to_handle_links" xml:space="preserve">
     <value>Deve essere in modalità modifica per gestire i collegamenti dell'editor</value>
@@ -146,7 +149,7 @@
     <value>Analisi del collegamento all'editor non riuscita</value>
   </data>
   <data name="timeline" xml:space="preserve">
-    <value>Cronologia</value>
+    <value>Linea temporale</value>
   </data>
   <data name="timeline_show_timing_changes" xml:space="preserve">
     <value>Mostra modifiche tempo</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Scorri al segnalibro successivo</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Reimposta segnalibri</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Resetta segnalibri...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Apri pagina dettagli beatmap</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Intero set beatmap</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Spiacente, il salvataggio non è ancora supportato per questa modalità!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Esportazione non riuscita!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Importazione non riuscita!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Apri cartella</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Pulizia in corso...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Esportazione per la modifica...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>La beatmap è disponibile esternamente</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Qualsiasi modifica effettuata alla cartella esportata verrà importata nel gioco, comprese aggiunte di file, modifiche ed eliminazioni.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Nuova combo</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Timbro</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Timbro base</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Timbro aggiuntivo</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Suono</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Lista suoni</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Selezione</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Sincronizza...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Scorri indietro</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Scorri avanti</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Vai al segnatempo precedente</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Vai al segnatempo successivo</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Vai a inizio traccia / primo oggetto</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Riproduci da inizio traccia</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Vai a fine traccia / ultimo oggetto</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Imposta nuova combo</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Imposta suono "whistle"</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Imposta suono "finish"</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Imposta suono "clap"</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono base ad "auto"</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono base a "normal"</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono base a "soft"</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono base a "drum"</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono aggiuntivo ad "auto"</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono aggiuntivo a "normal"</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono aggiuntivo a "soft"</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Imposta il timbro del suono aggiuntivo a "drum"</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Attiva allineamento sul divisore in distanze</value>
   </data>
 </root>

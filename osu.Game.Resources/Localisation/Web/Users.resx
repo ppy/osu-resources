@@ -793,6 +793,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Latest Match History</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Not enough data to display accurate stats. Play more games!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Tier</value>
   </data>
@@ -855,6 +858,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Highest rank: {0} on {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Rank is only shown after entering the top 1,000</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Kudosu Ranking</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>A new Star Rating / PP algorithm is {0}.</value>
@@ -919,8 +928,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Graveyarded Beatmaps</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Guest Participation Beatmaps</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Loved Beatmaps</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Nominated Ranked Beatmaps</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Pending Beatmaps</value>

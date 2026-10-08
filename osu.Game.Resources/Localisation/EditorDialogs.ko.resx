@@ -97,7 +97,28 @@
   <data name="delete_difficulty_details" xml:space="preserve">
     <value>{1} 개의 오브젝트들이 포함된 "{0}" 난이도</value>
   </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>본 작업은 모든 난이도의 아티스트명, 제목, 출처, 그리고 태그를 덮어씌웁니다. 취소는 불가능해요.</value>
+  </data>
   <data name="all_bookmarks" xml:space="preserve">
     <value>모든 북마크</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>모든 노트를 현재 스냅 단위에 맞출까요?</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>이 난이도의 모든 히트 오브젝트가 현재 스냅 단위에서 가장 가까운 틱으로 이동합니다. 슬라이더와 홀드 노트의 길이가 변경될 수 있습니다. 이 작업은 에디터 기록에서 되돌릴 수 있습니다.</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>타이밍 속성을 동기화할까요?</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>이 난이도의 타이밍 속성 중 다른 모든 난이도에 동기화할 항목을 선택하세요. 이 작업은 되돌릴 수 없습니다.</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>북마크</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>미리보기 지점</value>
   </data>
 </root>

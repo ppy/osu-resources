@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="event.approve" xml:space="preserve">
-    <value>Được Chấp Nhận.</value>
+    <value>Được chấp nhận.</value>
   </data>
   <data name="event.beatmap_owner_change" xml:space="preserve">
     <value>Chủ sở hữu của chế độ {0} thay đổi để {1}.</value>
@@ -181,6 +181,9 @@
   <data name="type.discussion_delete" xml:space="preserve">
     <value>Xóa cuộc thảo luận</value>
   </data>
+  <data name="type.discussion_lock" xml:space="preserve">
+    <value>Khóa phần thảo luận</value>
+  </data>
   <data name="type.discussion_post_delete" xml:space="preserve">
     <value>Xóa trả lời của cuộc thảo luận</value>
   </data>
@@ -190,8 +193,11 @@
   <data name="type.discussion_restore" xml:space="preserve">
     <value>Khôi phục cuộc thảo luận</value>
   </data>
+  <data name="type.discussion_unlock" xml:space="preserve">
+    <value>Mở khoá phần thảo luận</value>
+  </data>
   <data name="type.disqualify" xml:space="preserve">
-    <value>Disqualification</value>
+    <value>Loại bỏ</value>
   </data>
   <data name="type.genre_edit" xml:space="preserve">
     <value>Thay đổi thể loại</value>
@@ -203,10 +209,10 @@
     <value>Giải quyết cuộc thảo luận</value>
   </data>
   <data name="type.kudosu_allow" xml:space="preserve">
-    <value>Cho phép kudosu</value>
+    <value>Cho phép Kudosu</value>
   </data>
   <data name="type.kudosu_deny" xml:space="preserve">
-    <value>Từ chối kudosu</value>
+    <value>Từ chối Kudosu</value>
   </data>
   <data name="type.kudosu_gain" xml:space="preserve">
     <value>Kudosu đạt được</value>
@@ -221,7 +227,7 @@
     <value>Thay đổi ngôn ngữ</value>
   </data>
   <data name="type.love" xml:space="preserve">
-    <value>Love</value>
+    <value>Yêu thích</value>
   </data>
   <data name="type.nominate" xml:space="preserve">
     <value>Đề cử</value>
@@ -246,5 +252,8 @@
   </data>
   <data name="type.remove_from_loved" xml:space="preserve">
     <value>Bị gỡ khỏi Loved</value>
+  </data>
+  <data name="type.tags_edit" xml:space="preserve">
+    <value>Chỉnh sửa thẻ</value>
   </data>
 </root>

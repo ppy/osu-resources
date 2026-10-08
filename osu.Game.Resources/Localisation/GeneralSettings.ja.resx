@@ -70,6 +70,12 @@
   <data name="prefer_24_hour_time_display" xml:space="preserve">
     <value>24時間表示を優先</value>
   </data>
+  <data name="installation_header" xml:space="preserve">
+    <value>インストール</value>
+  </data>
+  <data name="quick_actions_header" xml:space="preserve">
+    <value>クイックアクション</value>
+  </data>
   <data name="update_header" xml:space="preserve">
     <value>アップデート</value>
   </data>
@@ -91,23 +97,35 @@
   <data name="change_folder_location" xml:space="preserve">
     <value>フォルダの場所を変更...</value>
   </data>
+  <data name="change_folder_location_tooltip" xml:space="preserve">
+    <value>現在のデータを新しいフォルダに移動させる、もしくは既存のバックアップデータがある場所にosu!を移動させてください。</value>
+  </data>
   <data name="run_setup_wizard" xml:space="preserve">
-    <value>セットアップ ウィザードを実行</value>
+    <value>セットアップウィザードを実行</value>
   </data>
   <data name="learn_more_about_lazer" xml:space="preserve">
     <value>lazerについてさらに知る</value>
   </data>
   <data name="check_out_the_feature_comparison" xml:space="preserve">
-    <value>機能の比較とFAQをチェックしてください</value>
+    <value>機能の比較とFAQをチェック</value>
+  </data>
+  <data name="report_issue" xml:space="preserve">
+    <value>問題を報告する</value>
+  </data>
+  <data name="report_issue_tooltip" xml:space="preserve">
+    <value>ゲームの問題を開発者に報告してください。</value>
   </data>
   <data name="change_release_stream_package_warning" xml:space="preserve">
-    <value>あなたのパッケージマネージャーで他のリリースストリームを確認してください。</value>
+    <value>パッケージマネージャーで他のリリースストリームを確認してください。</value>
   </data>
   <data name="change_release_stream_confirmation" xml:space="preserve">
-    <value>不安定な可能性があるゲームを実行してもよろしいですか？</value>
+    <value>不安定な可能性があるバージョンを実行してもよろしいですか？</value>
   </data>
   <data name="change_release_stream_confirmation_info" xml:space="preserve">
     <value>ゲームの起動時に問題が発生した場合、通常は公式サイトからインストーラーを実行して回復できます。</value>
+  </data>
+  <data name="release_stream_non_stable_upgrade_information" xml:space="preserve">
+    <value>安定版でないリリースストリームを使用していても、より新しい安定版のリリースがあればそちらにアップデートされることがあります。</value>
   </data>
   <data name="running_latest_release" xml:space="preserve">
     <value>既に最新版を実行中です ({0})</value>

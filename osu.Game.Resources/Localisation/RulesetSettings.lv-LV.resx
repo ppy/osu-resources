@@ -68,7 +68,7 @@
     <value>Aizplūstoši slīdņi</value>
   </data>
   <data name="cursor_trail" xml:space="preserve">
-    <value>Kursora ceļš</value>
+    <value>Kursora aste</value>
   </data>
   <data name="cursor_ripples" xml:space="preserve">
     <value>Kursora viļņi</value>
@@ -100,8 +100,23 @@
   <data name="Timing_based_colouring" xml:space="preserve">
     <value>Uz laiku balstīts notu krāsojums</value>
   </data>
+  <data name="rate_adjusted_hit_animation" xml:space="preserve">
+    <value>Ātrum-pielāgotas trāpījumu animācijas</value>
+  </data>
+  <data name="rate_adjusted_hit_animation_tooltip" xml:space="preserve">
+    <value>Trāpījumi aizlidos ātrāk vai lēnāk, ja bītkartes ātrums tiek mainīts ar modiem.</value>
+  </data>
+  <data name="hit_animations" xml:space="preserve">
+    <value>Trāpījumu animācijas</value>
+  </data>
+  <data name="hit_animations_taiko_tooltip" xml:space="preserve">
+    <value>Ja šī opcija ir ieslēgta, trāpījumi aizlidos no ekrāna. Ja tā ir izslēgta, trāpījumi uzreiz pazudīs.</value>
+  </data>
+  <data name="hit_animations_osu_tooltip" xml:space="preserve">
+    <value>Ja šī opcija ir ieslēgta, sitiena apļi pēc trāpījuma atskaņos animāciju. Ja tā ir izslēgta, tie gandrīz uzreiz pazudīs.</value>
+  </data>
   <data name="ruleset" xml:space="preserve">
-    <value>{0}ms (ātrums {1})</value>
+    <value>{0}ms (ātrums {1:N1})</value>
   </data>
   <data name="touch_control_scheme" xml:space="preserve">
     <value>Skāriena kontroles shēma</value>

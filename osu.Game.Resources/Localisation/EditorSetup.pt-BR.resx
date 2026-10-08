@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_setup" xml:space="preserve">
-    <value>Configuração do Beatmap</value>
+    <value>Configuração do beatmap</value>
   </data>
   <data name="beatmap_setup_description" xml:space="preserve">
     <value>alterar configurações gerais de seu beatmap</value>
@@ -67,8 +67,11 @@
   <data name="colours_header" xml:space="preserve">
     <value>Cores</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Cores de destaque do plano de fundo do beatmap:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
-    <value>Hit circle / Slider Combos</value>
+    <value>Combos de círculo / slider</value>
   </data>
   <data name="design_header" xml:space="preserve">
     <value>Aparência</value>
@@ -77,7 +80,7 @@
     <value>Habilitar contagem regressiva</value>
   </data>
   <data name="countdown_description" xml:space="preserve">
-    <value>Se ativado, um "Você está pronto? 3, 2, 1, VAI!" A contagem regressiva será inserida no início do beatmap, supondo que haja tempo suficiente para isso.</value>
+    <value>Se ativado, uma contagem regressiva "Você está pronto? 3, 2, 1, VAI!" será inserida no início do beatmap, supondo que haja tempo suficiente para isso.</value>
   </data>
   <data name="countdown_speed" xml:space="preserve">
     <value>Velocidade da contagem regressiva</value>
@@ -92,7 +95,7 @@
     <value>Suporte a widescreen</value>
   </data>
   <data name="widescreen_support_description" xml:space="preserve">
-    <value>Permita que storyboards utilizem a tela cheia ao invés de uma área 4:3.</value>
+    <value>Permita que storyboards utilizem a tela cheia em vez de uma área 4:3.</value>
   </data>
   <data name="epilepsy_warning" xml:space="preserve">
     <value>Aviso de epilepsia</value>
@@ -101,7 +104,7 @@
     <value>Recomendado se o storyboard ou vídeo contém cenas com cores piscantes rápidas.</value>
   </data>
   <data name="letterbox_during_breaks" xml:space="preserve">
-    <value>Letterbox durante pausas</value>
+    <value>Faixas pretas durante pausas</value>
   </data>
   <data name="letterbox_during_breaks_description" xml:space="preserve">
     <value>Adiciona faixas horizontais para uma dar visão cinematográfica durante pausas.</value>
@@ -113,7 +116,7 @@
     <value>Quando ativado, todas as amostras vão aumentar ou reduzir a velocidade quando mods que alteram a taxa estiverem ativados.</value>
   </data>
   <data name="circle_size_description" xml:space="preserve">
-    <value>O tamanho de todos os objetos acertáveis</value>
+    <value>O tamanho de todos os objetos</value>
   </data>
   <data name="drain_rate_description" xml:space="preserve">
     <value>A taxa de drenagem de vida passiva durante o tempo jogável</value>
@@ -122,28 +125,28 @@
     <value>A velocidade em que objetos são mostrados ao jogador</value>
   </data>
   <data name="overall_difficulty_description" xml:space="preserve">
-    <value>A dureza da janela de acerto e a dificuldade de objetos especiais (ex: spinners)</value>
+    <value>A precisão da janela de acerto e a dificuldade de objetos especiais (ex: spinners)</value>
   </data>
   <data name="tick_rate" xml:space="preserve">
     <value>Taxa de tick</value>
   </data>
   <data name="tick_rate_description" xml:space="preserve">
-    <value>Determina quantos "ticks" são gerados dentro de objetos longos. Taxa de tick de 1 gerará ticks em cada beat, 2 gerará duas vezes por beat e assim por diante.</value>
+    <value>Determina quantos "ticks" são gerados dentro de objetos longos. Uma taxa de tick de 1 gerará ticks em cada beat, 2 gerará duas vezes por beat e assim por diante.</value>
   </data>
   <data name="base_velocity" xml:space="preserve">
-    <value>Velocidade Base </value>
+    <value>Velocidade base </value>
   </data>
   <data name="base_velocity_description" xml:space="preserve">
-    <value>A velocidade base do beatmap, afetando coisas como velocidade do slider e a velocidade de rolagem em algumas rulesets.</value>
+    <value>A velocidade base do beatmap, afetando coisas como velocidade do slider e a velocidade de rolagem em algumas modalidades.</value>
   </data>
   <data name="metadata_header" xml:space="preserve">
     <value>Metadados</value>
   </data>
   <data name="romanised_artist" xml:space="preserve">
-    <value>Artista Romanizado</value>
+    <value>Artista romanizado</value>
   </data>
   <data name="romanised_title" xml:space="preserve">
-    <value>Título Romanizado</value>
+    <value>Título romanizado</value>
   </data>
   <data name="creator" xml:space="preserve">
     <value>Criador</value>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Faixa de áudio</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>O vídeo será usado no lugar do plano de fundo estático, se presente. São oferecidos downloads de beatmaps com e sem vídeo, portanto, se adicionar um vídeo, também deverá ser fornecido um plano de fundo correspondente.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Conjuntos de sons personalizados</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Clique para selecionar uma faixa</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Clique para selecionar um vídeo</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Clique para selecionar uma imagem de fundo</value>
@@ -176,10 +188,16 @@
     <value>Aplicar a todas as dificuldades</value>
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
-    <value>Apenas aplicar para esta dificuldade</value>
+    <value>Aplicar somente a essa dificuldade</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sincronizar metadados com todas as dificuldades</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Copia o artista, título, fonte e etiquetas para todas as dificuldades.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
-    <value>Ruleset ({0})</value>
+    <value>Modalidade ({0})</value>
   </data>
   <data name="combo_colour_prefix" xml:space="preserve">
     <value>Combo</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>Arraste uma imagem aqui para definir o plano de fundo do beatmap!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>Arraste o vídeo aqui para definir o vídeo do beatmap!</value>
   </data>
 </root>

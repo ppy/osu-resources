@@ -92,13 +92,19 @@
     <value>Número de Teclas</value>
   </data>
   <data name="approach_rate" xml:space="preserve">
-    <value>Velocidade de Aproximação</value>
+    <value>Velocidade de aproximação</value>
   </data>
   <data name="accuracy" xml:space="preserve">
     <value>Precisão</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>Janela de acerto {0}</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>Dreno de HP</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Afeta a severidade do dreno de vida e as penalidades de vida por erros.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Velocidade de Rolagem</value>
@@ -167,16 +173,16 @@
     <value>BPM</value>
   </data>
   <data name="date_submitted" xml:space="preserve">
-    <value>Data de Submissão</value>
+    <value>Data de submissão</value>
   </data>
   <data name="date_ranked" xml:space="preserve">
-    <value>Data Ranqueada</value>
+    <value>Data de ranqueamento</value>
   </data>
   <data name="date_added" xml:space="preserve">
     <value>Data de adição</value>
   </data>
   <data name="last_played" xml:space="preserve">
-    <value>Último jogo</value>
+    <value>Última vez jogado</value>
   </data>
   <data name="difficulty" xml:space="preserve">
     <value>Dificuldade</value>
@@ -197,7 +203,7 @@
     <value>Rank Conquistado</value>
   </data>
   <data name="ranked_status" xml:space="preserve">
-    <value>Status Ranqueado</value>
+    <value>Estado de ranqueamento</value>
   </data>
   <data name="source" xml:space="preserve">
     <value>Fonte</value>
@@ -212,6 +218,9 @@
     <value>Mostrar temporariamente todos os beatmaps em</value>
   </data>
   <data name="mostly_bpm" xml:space="preserve">
-    <value>grande parte{0}</value>
+    <value>majoritariamente {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} partida|{0:#,0} partidas</value>
   </data>
 </root>

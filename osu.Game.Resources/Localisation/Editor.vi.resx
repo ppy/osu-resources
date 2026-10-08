@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="beatmap_editor" xml:space="preserve">
-    <value>Trình chỉnh sửa beatmap</value>
+    <value>Chỉnh sửa beatmap</value>
   </data>
   <data name="waveform_opacity" xml:space="preserve">
     <value>Độ mờ phổ âm thanh</value>
@@ -74,13 +74,16 @@
     <value>Tự động di chuyển con trỏ sau khi đặt nốt</value>
   </data>
   <data name="timing" xml:space="preserve">
-    <value>Thời gian</value>
+    <value>Căn nhịp</value>
   </data>
   <data name="set_preview_point_to_current" xml:space="preserve">
     <value>Đặt mốc thời gian hiện tại làm điểm xem trước</value>
   </data>
+  <data name="snap_all_notes_to_current_snap_divisor" xml:space="preserve">
+    <value>Căn tất cả nốt theo mức chia nhịp hiện tại</value>
+  </data>
   <data name="adjust_existing_objects_on_timing_changes" xml:space="preserve">
-    <value>Di chuyển các đối tượng đã đặt khi thay đổi thời gian</value>
+    <value>Di chuyển các nốt đã đặt khi thay đổi thời gian</value>
   </data>
   <data name="export_for_editing" xml:space="preserve">
     <value>Cho việc chỉnh sửa (.olz)</value>
@@ -104,7 +107,7 @@
     <value>Sửa ở bên ngoài</value>
   </data>
   <data name="submit_beatmap" xml:space="preserve">
-    <value>Gửi beatmap</value>
+    <value>Đăng tải beatmap</value>
   </data>
   <data name="setup_screen" xml:space="preserve">
     <value>thiết lập</value>
@@ -116,7 +119,7 @@
     <value>thiết kế</value>
   </data>
   <data name="timing_screen" xml:space="preserve">
-    <value>timing</value>
+    <value>căn nhịp</value>
   </data>
   <data name="verify_screen" xml:space="preserve">
     <value>xác minh</value>
@@ -133,8 +136,8 @@
   <data name="rotation_snapped" xml:space="preserve">
     <value>{0:0}° (đã snap)</value>
   </data>
-  <data name="limited_distance_snap_grid" xml:space="preserve">
-    <value>Giới hạn làm tròn khoảng cách đến thời điểm hiện tại</value>
+  <data name="limit_placement_to_current_time" xml:space="preserve">
+    <value>Chỉ đặt vật thể tại mốc thời gian hiện tại</value>
   </data>
   <data name="contract_sidebars" xml:space="preserve">
     <value>Thu gọn các thanh bên khi không di chuột vào</value>
@@ -152,13 +155,13 @@
     <value>Hiện thay đổi timing</value>
   </data>
   <data name="Finish editing and import changes" xml:space="preserve">
-    <value>Hoàn thành chỉnh sửa và xuất thay đổi</value>
+    <value>Hoàn thành chỉnh sửa và nhập thay đổi</value>
   </data>
   <data name="timeline_show_breaks" xml:space="preserve">
-    <value>Hiển thị các điểm ngắt</value>
+    <value>Hiện phiên nghỉ</value>
   </data>
   <data name="timeline_show_ticks" xml:space="preserve">
-    <value>Hiện dấu tích</value>
+    <value>Hiện mốc chia nhịp</value>
   </data>
   <data name="bookmarks" xml:space="preserve">
     <value>Các dấu trang</value>
@@ -175,8 +178,8 @@
   <data name="seek_to_next_bookmark" xml:space="preserve">
     <value>Chuyển sang dấu trang tiếp theo</value>
   </data>
-  <data name="reset_bookmarks" xml:space="preserve">
-    <value>Đặt lại dấu trang</value>
+  <data name="reset_bookmarks..." xml:space="preserve">
+    <value>Xóa toàn bộ đánh dấu...</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Mở trang thông tin beatmap</value>
@@ -189,5 +192,119 @@
   </data>
   <data name="check_entire_beatmap_set" xml:space="preserve">
     <value>Cả bộ beatmap</value>
+  </data>
+  <data name="ruleset_not_support_saving" xml:space="preserve">
+    <value>Chưa hỗ trợ lưu cho chế độ chơi này, xin lỗi!</value>
+  </data>
+  <data name="export_failed" xml:space="preserve">
+    <value>Xuất thất bại!</value>
+  </data>
+  <data name="import_failed" xml:space="preserve">
+    <value>Nhập thất bại!</value>
+  </data>
+  <data name="open_folder" xml:space="preserve">
+    <value>Mở thư mục</value>
+  </data>
+  <data name="external_edit_cleaning_up" xml:space="preserve">
+    <value>Đang dọn dẹp...</value>
+  </data>
+  <data name="external_edit_exporting" xml:space="preserve">
+    <value>Đang xuất để chỉnh sửa...</value>
+  </data>
+  <data name="beatmap_mounted_externally" xml:space="preserve">
+    <value>Beatmap đang liên kết với thư mục bên ngoài</value>
+  </data>
+  <data name="external_edit_mounted_explanation" xml:space="preserve">
+    <value>Mọi thay đổi được thực hiện đối với thư mục đã xuất sẽ được nhập vào trò chơi, bao gồm việc thêm, sửa đổi và xóa tệp.</value>
+  </data>
+  <data name="new_combo" xml:space="preserve">
+    <value>Combo mới</value>
+  </data>
+  <data name="bank" xml:space="preserve">
+    <value>Bộ âm</value>
+  </data>
+  <data name="normal_bank" xml:space="preserve">
+    <value>Bộ âm chính</value>
+  </data>
+  <data name="addition_bank" xml:space="preserve">
+    <value>Bộ âm bổ sung</value>
+  </data>
+  <data name="sample_volume" xml:space="preserve">
+    <value>Âm lượng</value>
+  </data>
+  <data name="sample" xml:space="preserve">
+    <value>Âm</value>
+  </data>
+  <data name="sample_set" xml:space="preserve">
+    <value>Bộ mẫu</value>
+  </data>
+  <data name="select_tool" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="synchronise" xml:space="preserve">
+    <value>Đồng bộ hoá...</value>
+  </data>
+  <data name="seek_backwards" xml:space="preserve">
+    <value>Tua ngược</value>
+  </data>
+  <data name="seek_forwards" xml:space="preserve">
+    <value>Tua đi</value>
+  </data>
+  <data name="seek_to_previous_timing_point" xml:space="preserve">
+    <value>Tua đến mốc căn nhịp trước</value>
+  </data>
+  <data name="seek_to_next_timing_point" xml:space="preserve">
+    <value>Tua đến mốc căn nhịp tiếp theo</value>
+  </data>
+  <data name="seek_to_start" xml:space="preserve">
+    <value>Tua về vật thể đầu tiên / đầu bài nhạc</value>
+  </data>
+  <data name="play_from_start" xml:space="preserve">
+    <value>Phát từ đầu bài nhạc</value>
+  </data>
+  <data name="toggle_pause" xml:space="preserve">
+    <value>Bật/tắt tạm dừng</value>
+  </data>
+  <data name="seek_to_end" xml:space="preserve">
+    <value>Tua đến vật thể cuối cùng / cuối bài nhạc</value>
+  </data>
+  <data name="toggle_new_combo" xml:space="preserve">
+    <value>Bật/tắt combo mới</value>
+  </data>
+  <data name="toggle_whistle_sound" xml:space="preserve">
+    <value>Bật/tắt âm huýt sáo</value>
+  </data>
+  <data name="toggle_finish_sound" xml:space="preserve">
+    <value>Bật/tắt âm kết thúc</value>
+  </data>
+  <data name="toggle_clap_sound" xml:space="preserve">
+    <value>Bật/tắt âm vỗ tay</value>
+  </data>
+  <data name="toggle_normal_auto_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu cơ bản sang tự động</value>
+  </data>
+  <data name="toggle_normal_normal_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu cơ bản sang mặc định</value>
+  </data>
+  <data name="toggle_normal_soft_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu cơ bản sang soft</value>
+  </data>
+  <data name="toggle_normal_drum_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu cơ bản sang tiếng trống</value>
+  </data>
+  <data name="toggle_addition_auto_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu bổ sung sang tự động</value>
+  </data>
+  <data name="toggle_addition_normal_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu bổ sung sang mặc định</value>
+  </data>
+  <data name="toggle_addition_soft_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu bổ sung sang êm dịu</value>
+  </data>
+  <data name="toggle_addition_drum_bank" xml:space="preserve">
+    <value>Đặt bộ mẫu bổ sung sang tiếng trống</value>
+  </data>
+  <data name="toggle_distance_snap" xml:space="preserve">
+    <value>Bật/tắt lưới căn khoảng cách</value>
   </data>
 </root>

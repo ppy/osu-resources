@@ -154,6 +154,21 @@ namespace osu.Game.Resources.Localisation.Web
         /// </summary>
         public static LocalisableString OwnClientsRevokedTrue => new TranslatableString(getKey(@"own_clients.revoked.true"), @"Deleted");
 
+        /// <summary>
+        /// "Make sure to copy the value before navigating away."
+        /// </summary>
+        public static LocalisableString OwnClientsSecretCopy => new TranslatableString(getKey(@"own_clients.secret.copy"), @"Make sure to copy the value before navigating away.");
+
+        /// <summary>
+        /// "Reset client secret to generate a new one."
+        /// </summary>
+        public static LocalisableString OwnClientsSecretGenerateNew => new TranslatableString(getKey(@"own_clients.secret.generate_new"), @"Reset client secret to generate a new one.");
+
+        /// <summary>
+        /// "Client secret is only visible after initial creation."
+        /// </summary>
+        public static LocalisableString OwnClientsSecretVisibleOnce => new TranslatableString(getKey(@"own_clients.secret.visible_once"), @"Client secret is only visible after initial creation.");
+
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
 }

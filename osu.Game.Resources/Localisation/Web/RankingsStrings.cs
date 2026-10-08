@@ -25,6 +25,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DailyChallengeBeatmap => new TranslatableString(getKey(@"daily_challenge.beatmap"), @"Difficulty");
 
         /// <summary>
+        /// "Theme"
+        /// </summary>
+        public static LocalisableString DailyChallengeTheme => new TranslatableString(getKey(@"daily_challenge.theme"), @"Theme");
+
+        /// <summary>
         /// "Top 10% Score"
         /// </summary>
         public static LocalisableString DailyChallengeTop10p => new TranslatableString(getKey(@"daily_challenge.top_10p"), @"Top 10% Score");

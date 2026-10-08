@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="toggle_toolbar_shortcut" xml:space="preserve">
-    <value>Ctrl+Tを押せばゲームのどこでもツールバーを切り替えできます！</value>
+    <value>{0} を押せばゲームのどこでもツールバーを切り替えできます！</value>
   </data>
   <data name="game_settings_shortcut" xml:space="preserve">
-    <value>Ctrl+Oを押せばゲームのどこでも設定にアクセスできます！</value>
+    <value>{0} を押せばゲームのどこでも設定にアクセスできます！</value>
   </data>
   <data name="dynamic_settings" xml:space="preserve">
     <value>すべての設定はリアルタイムで変更されます。オートプレイを見ながらスキンを変更してみましょう！</value>
@@ -77,7 +77,7 @@
     <value>フルスクリーンでもゲームプレイやUIエリアを変更するには、「画面の拡大縮小」モードを調整してみてください！</value>
   </data>
   <data name="free_osu_direct" xml:space="preserve">
-    <value>以前「osu!direct」だったものは全てのユーザーがWebサイトと同じように使えます。Ctrl+Bでどこでもアクセスできます！</value>
+    <value>以前「osu!direct」だったものは全てのユーザーがWebサイトと同じように使えます。{0} でどこでもアクセスできます！</value>
   </data>
   <data name="replay_seeking" xml:space="preserve">
     <value>画面下部のプログレスバーをドラッグするか矢印キーの左右を使用してリプレイをシークすることができます！</value>
@@ -98,31 +98,31 @@
     <value>Ctrl-F11で高度なフレーム/スレッドの統計情報を切り替えます！</value>
   </data>
   <data name="replay_pausing" xml:space="preserve">
-    <value>スペースを押すとリプレイ中に一時停止できます！</value>
+    <value>{0} を押すとリプレイ中に一時停止できます！</value>
   </data>
   <data name="configurable_hotkeys" xml:space="preserve">
     <value>ゲーム内のほとんどのホットキーは設定可能で、好きなものに変更できます。入力設定のショートカットとゲームプレイの割り当てをチェックしてください！</value>
   </data>
   <data name="skin_editor" xml:space="preserve">
-    <value>スキンレイアウトエディターを使用してゲームプレイHUDをカスタマイズできます。Ctrl-Shift-Sでいつでも開けます！</value>
+    <value>スキンレイアウトエディターを使用してゲームプレイHUDをカスタマイズできます。{0} でいつでも開けます！</value>
   </data>
   <data name="mod_presets" xml:space="preserve">
     <value>Modプリセットを作成すると、お気に入りのModの組み合わせを簡単に切り替えることができます！</value>
   </data>
   <data name="mod_customisation_settings" xml:space="preserve">
-    <value>多くのMODは機能を大幅に変更するカスタマイズ設定を持っています。Modのカスタマイズボタンをクリックして設定を見てみましょう！</value>
+    <value>多くのModは機能を大幅に変更するカスタマイズ設定を持っています。Modのカスタマイズボタンをクリックして設定を見てみましょう！</value>
   </data>
   <data name="random_skin_shortcut" xml:space="preserve">
-    <value>Ctrl-Shift-R を押してランダムなスキンに切り替えます！</value>
+    <value>{0} を押すとランダムなスキンに切り替わります！{1} と {2} を使って次・前のスキンを選ぶこともできます。</value>
   </data>
   <data name="toggle_replay_settings_shortcut" xml:space="preserve">
-    <value>リプレイを見ながら、Ctrl+Hでリプレイ設定を切り替えます！</value>
+    <value>リプレイを見ながら、{0} でリプレイ設定を切り替えます！</value>
   </data>
   <data name="copy_mods_from_score" xml:space="preserve">
     <value>リーダーボードのスコアからModを簡単にコピーできます！</value>
   </data>
   <data name="autoplay_beatmap_shortcut" xml:space="preserve">
-    <value>ソングセレクト中にCtrl+Enterでビートマップをオートプレイで開始します！</value>
+    <value>曲選択中にCtrl+Enterでビートマップをオートプレイで開始します！</value>
   </data>
   <data name="lazer_is_not_a_word" xml:space="preserve">
     <value>「Lazer」は英単語ではありません。明るい光を表す正しい綴りは「laser」です。</value>
@@ -137,13 +137,16 @@
     <value>Ctrl-F2を押せばパフォーマンス統計を有効にできます！</value>
   </data>
   <data name="peek_hud_when_hidden" xml:space="preserve">
-    <value>ゲームプレイHUDが非表示でも、Ctrlを長押しすると一時的に表示できます！</value>
+    <value>ゲームプレイHUDが非表示でも、{0} を長押しすると一時的に表示できます！</value>
   </data>
   <data name="drag_and_drop_image_in_skin_editor" xml:space="preserve">
     <value>スキンエディターに画像をドラッグ&amp;ドロップして素早く読み込むことができます！</value>
   </data>
   <data name="right_mouse_absolute_scroll" xml:space="preserve">
     <value>ビートマップカルーセルの近くでマウスの右ボタンを押したまま、すぐに絶対位置までスクロールできます！</value>
+  </data>
+  <data name="shift_click_in_beatmap_overlay" xml:space="preserve">
+    <value>Shiftキーを押しながらビートマップのパネルをクリックすることで、素早くダウンロードしたり、曲選択画面でビートマップを開いたりすることができます！</value>
   </data>
   <data name="menu_tip_title" xml:space="preserve">
     <value>あなたのためのヒント：</value>

@@ -67,6 +67,18 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>Vaikeustaso</value>
   </data>
+  <data name="daily_challenge.top_10p" xml:space="preserve">
+    <value>Top 10% Tulokset</value>
+  </data>
+  <data name="daily_challenge.top_50p" xml:space="preserve">
+    <value>Top 50% Tulokset</value>
+  </data>
+  <data name="daily_challenge.unavailable.future" xml:space="preserve">
+    <value>Ei päivittäistä haastetta valitulle päivälle!</value>
+  </data>
+  <data name="daily_challenge.unavailable.past" xml:space="preserve">
+    <value>Ei päivittäistä haastetta valitulle päivälle!</value>
+  </data>
   <data name="filter.title" xml:space="preserve">
     <value>Näytä</value>
   </data>
@@ -82,8 +94,44 @@
   <data name="kudosu.used" xml:space="preserve">
     <value>Käytetty</value>
   </data>
+  <data name="matchmaking.plays" xml:space="preserve">
+    <value>Pelikerrat</value>
+  </data>
+  <data name="matchmaking.points" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="matchmaking.provisional" xml:space="preserve">
+    <value>Alustava luokitus, joka johtuu viimeaikaisten otteluiden vähyydestä</value>
+  </data>
+  <data name="matchmaking.rating" xml:space="preserve">
+    <value>Luokitus</value>
+  </data>
+  <data name="matchmaking.wins" xml:space="preserve">
+    <value>Voitot</value>
+  </data>
+  <data name="multiplayer.room_name" xml:space="preserve">
+    <value>Huoneen Nimi</value>
+  </data>
   <data name="performance.insufficient_history" xml:space="preserve">
     <value>Tällä käyttäjällä on alle 30 päivää viimeaikaista rankkaushistoriaa.</value>
+  </data>
+  <data name="top_plays.empty" xml:space="preserve">
+    <value>Dataa lasketaan...</value>
+  </data>
+  <data name="top_plays.last_updated" xml:space="preserve">
+    <value>Viimeksi päivitetty</value>
+  </data>
+  <data name="playlists.charts" xml:space="preserve">
+    <value>kohdevalot (vanha)</value>
+  </data>
+  <data name="playlists.featured" xml:space="preserve">
+    <value>esillä</value>
+  </data>
+  <data name="playlists.season_room" xml:space="preserve">
+    <value>kausihuone</value>
+  </data>
+  <data name="playlists.seasons" xml:space="preserve">
+    <value>kaudet</value>
   </data>
   <data name="type.country" xml:space="preserve">
     <value>maat</value>
@@ -91,8 +139,23 @@
   <data name="type.daily_challenge" xml:space="preserve">
     <value>päivittäinen haaste</value>
   </data>
+  <data name="type.global" xml:space="preserve">
+    <value>maailma</value>
+  </data>
   <data name="type.kudosu" xml:space="preserve">
     <value>kudosu</value>
+  </data>
+  <data name="type.matchmaking" xml:space="preserve">
+    <value>kilpailullinen</value>
+  </data>
+  <data name="type.playlists" xml:space="preserve">
+    <value>soittolistat</value>
+  </data>
+  <data name="type.team" xml:space="preserve">
+    <value>tiimi</value>
+  </data>
+  <data name="type.top_plays" xml:space="preserve">
+    <value>parhaat suoritukset</value>
   </data>
   <data name="seasons.empty" xml:space="preserve">
     <value>Tällä kaudella ei ole vielä huoneita.</value>
@@ -103,8 +166,14 @@
   <data name="seasons.room_count" xml:space="preserve">
     <value>Soittolistojen määrä</value>
   </data>
+  <data name="seasons.summary" xml:space="preserve">
+    <value>Näytä kauden yhteenveto</value>
+  </data>
   <data name="seasons.url" xml:space="preserve">
     <value>Lisätietoja tästä kaudesta.</value>
+  </data>
+  <data name="seasons.validation.not_enough_factors" xml:space="preserve">
+    <value>tulostietoja ei ole tarpeeksi oikeaa laskentaa varten</value>
   </data>
   <data name="spotlight.end_date" xml:space="preserve">
     <value>Päättymispäivä</value>
@@ -126,6 +195,12 @@
   </data>
   <data name="stat.country" xml:space="preserve">
     <value>Maa</value>
+  </data>
+  <data name="stat.division" xml:space="preserve">
+    <value>Divisioona</value>
+  </data>
+  <data name="stat.members" xml:space="preserve">
+    <value>Jäsenet</value>
   </data>
   <data name="stat.play_count" xml:space="preserve">
     <value>Pelikerrat</value>

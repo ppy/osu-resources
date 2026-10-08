@@ -59,10 +59,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="new_difficulty_dialog_header" xml:space="preserve">
-    <value>Чи хочете ви створити пусту складність?</value>
+    <value>Створити порожню складність?</value>
   </data>
   <data name="create_new" xml:space="preserve">
-    <value>Так, почнемо с початку!</value>
+    <value>Так, почнемо спочатку!</value>
   </data>
   <data name="create_copy" xml:space="preserve">
     <value>Ні, створити точну копію цієї ж складності</value>
@@ -87,5 +87,38 @@
   </data>
   <data name="discard_unsaved_changes_dialog_header" xml:space="preserve">
     <value>Скасувати всі незбережені зміни? Це буде неможливо відновити.</value>
+  </data>
+  <data name="save_required_dialog_header" xml:space="preserve">
+    <value>Перед виконанням цієї операції бітмапу буде збережено.</value>
+  </data>
+  <data name="sounds_good" xml:space="preserve">
+    <value>Як здорово, вперед!</value>
+  </data>
+  <data name="delete_difficulty_details" xml:space="preserve">
+    <value>Складність "{0}" з {1} об'єктами</value>
+  </data>
+  <data name="sync_metadata_confirmation_body" xml:space="preserve">
+    <value>Це перезапише ім'я виконавця, назву, джерело, а також теги в усіх інших складностях. Це неможливо буде скасувати.</value>
+  </data>
+  <data name="all_bookmarks" xml:space="preserve">
+    <value>Усі закладки</value>
+  </data>
+  <data name="snap_all_notes_confirmation_header" xml:space="preserve">
+    <value>Прив'язати всі ноти до поточного музичного розміру?</value>
+  </data>
+  <data name="snap_all_notes_confirmation_body" xml:space="preserve">
+    <value>Кожну ноту цієї складності буде переміщено до найближчого тіку вашого поточного музичного розміру. Тривалість слайдерів та затиснених нот може збільшитися. Ви можете скасувати цю зміну так само як і будь-яку іншу дію.</value>
+  </data>
+  <data name="sync_timing_confirmation_header" xml:space="preserve">
+    <value>Синхронізувати атрибути таймінгу?</value>
+  </data>
+  <data name="sync_timing_confirmation_body" xml:space="preserve">
+    <value>Виберіть атрибути таймінгу, щоб синхронізувати із цієї складності на всі інші. Цю зміну неможливо повернути назад.</value>
+  </data>
+  <data name="sync_timing_option_bookmarks" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="sync_timing_option_preview_point" xml:space="preserve">
+    <value>Точка прев'ю</value>
   </data>
 </root>

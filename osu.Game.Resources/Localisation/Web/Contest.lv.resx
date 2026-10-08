@@ -82,6 +82,9 @@
   <data name="judge.update" xml:space="preserve">
     <value>atjaunināt</value>
   </data>
+  <data name="judge.unsaved_changes" xml:space="preserve">
+    <value>nesaglabātās izmaiņas</value>
+  </data>
   <data name="judge.validation.missing_score" xml:space="preserve">
     <value>trūkst rezultāts</value>
   </data>
@@ -104,7 +107,7 @@
     <value>Standartizēti Rezultāti</value>
   </data>
   <data name="judge_results.total_score" xml:space="preserve">
-    <value>Kopējais rezultāts</value>
+    <value>kopējais rezultāts</value>
   </data>
   <data name="judge_results.total_score_std" xml:space="preserve">
     <value>kopējais standartizēto rezultātu skaits</value>
@@ -125,7 +128,7 @@
     <value>Rādīt balsotos</value>
   </data>
   <data name="voting.best_of.none_played" xml:space="preserve">
-    <value>Neizskatās, ka jūs spēlējāt kādu no bītmapēm, kas atbilst šim konkursam!</value>
+    <value>Neizskatās, ka tu esi spēlējis kādu ritma-karti, kas atbilst šim konkursam!</value>
   </data>
   <data name="voting.button.add" xml:space="preserve">
     <value>Balsot</value>
@@ -140,7 +143,7 @@
     <value>{0} / {1} balsis izmantotas</value>
   </data>
   <data name="voting.requirement.playlist_beatmapsets.incomplete_play" xml:space="preserve">
-    <value>Pirms balsošanas ir jāspēlē visas bītmapes norādītajos sarakstos</value>
+    <value>Pirms balsošanas ir jāiziet visas ritma-kartes norādītajos sarakstos</value>
   </data>
   <data name="entry._" xml:space="preserve">
     <value>pieteikums</value>
@@ -157,8 +160,20 @@
   <data name="entry.drop_here" xml:space="preserve">
     <value>Iemetiet savu pieteikumu šeit</value>
   </data>
+  <data name="entry.allowed_extensions" xml:space="preserve">
+    <value>{0} faili tiek pieņemti</value>
+  </data>
+  <data name="entry.max_size" xml:space="preserve">
+    <value>Maks. izmērs: {0}</value>
+  </data>
+  <data name="entry.required_dimensions" xml:space="preserve">
+    <value>Izmēriem jābūt {0}{1}</value>
+  </data>
   <data name="entry.download" xml:space="preserve">
     <value>Lejupielādēt .osz</value>
+  </data>
+  <data name="entry.wrong_file_type" xml:space="preserve">
+    <value>Šajā konkursā tiek pieņemti tikai {0} faili.</value>
   </data>
   <data name="entry.wrong_dimensions" xml:space="preserve">
     <value>Šajā konkursā pieteikumiem jābūt {0}{1}</value>
@@ -203,6 +218,6 @@
     <value>Rezultāti Pieejami</value>
   </data>
   <data name="show.admin.page" xml:space="preserve">
-    <value>Apskatīt informāciju un ierakstes</value>
+    <value>Skatīt informāciju un iesniegumus</value>
   </data>
 </root>

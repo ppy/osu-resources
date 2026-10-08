@@ -97,8 +97,14 @@
   <data name="accuracy" xml:space="preserve">
     <value>정확도</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} 판정 범위</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
     <value>HP 감소</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>체력 감소의 강도와 미스 시 적용되는 체력 페널티에 영향을 줍니다.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>스크롤 속도</value>
@@ -214,5 +220,8 @@
   </data>
   <data name="mostly_bpm" xml:space="preserve">
     <value>대부분 {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0}개 일치|{0:#,0}개 일치</value>
   </data>
 </root>

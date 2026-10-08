@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="play_more" xml:space="preserve">
-    <value>Kā būtu, ja tā vietā tu nedaudz paspēlētu osu!?</value>
+    <value>Kā būtu, ja tā vietā tu nedaudz paspēlētu osu! {0}</value>
   </data>
   <data name="require_login" xml:space="preserve">
     <value>Lūdzu, pieraksties, lai turpinātu.</value>
@@ -101,7 +101,7 @@
     <value>Tikai ritma-kartes īpašnieks vai tās nominētājs/NAT grupas loceklis var publicēt veidotāja piezīmes.</value>
   </data>
   <data name="beatmap_discussion.vote.bot" xml:space="preserve">
-    <value>Nevar balsot par diskusiju, ko izveidojis bots</value>
+    <value>Nevar balsot diskusijā, kuru izveidoja robots</value>
   </data>
   <data name="beatmap_discussion.vote.limit_exceeded" xml:space="preserve">
     <value>Lūdzu, uzgaidi kādu laiku, pirms balso vēlreiz</value>
@@ -135,6 +135,12 @@
   </data>
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Nominētas mapes metadatus mainīt nevar. Sazinies ar BN vai NAT locekli, ja uzskati, ka tā ir iestatīta nepareizi.</value>
+  </data>
+  <data name="beatmapset.rate.owner" xml:space="preserve">
+    <value>Tu nevari novērtēt ritma-karšu kopu, kuras veidošanā tu esi piedalījies.</value>
+  </data>
+  <data name="beatmapset.rate.status" xml:space="preserve">
+    <value>Tu nevari novērtēt ritma-karšu kopu ar šādu statusu.</value>
   </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
     <value>Tev vajag uzstādīt rezultātu uz ritma-mapi lai pievienotu piekariņu.</value>
@@ -182,7 +188,7 @@
     <value>Paldies par tavu pieteikumiem! Iesniegumi šim konkursam ir slēgti, un drīzumā sāksies balsošana.</value>
   </data>
   <data name="forum.moderate.no_permission" xml:space="preserve">
-    <value>Nav atļaujas moderēt šo forumu.</value>
+    <value>Tev nav atļauja uzraudzīt šo forumu.</value>
   </data>
   <data name="forum.post.delete.only_last_post" xml:space="preserve">
     <value>Izdzēst var tikai pēdējo ziņu.</value>
@@ -287,7 +293,7 @@
     <value>Tikai administrators var skatīt šo forumu.</value>
   </data>
   <data name="room.destroy.not_owner" xml:space="preserve">
-    <value>Tikai izstabas īpašnieks var to aizvērt.</value>
+    <value>Tikai istabas īpašnieks var to aizvērt.</value>
   </data>
   <data name="score.pin.disabled_type" xml:space="preserve">
     <value>Nevar piespraust šāda veida rezultātu</value>

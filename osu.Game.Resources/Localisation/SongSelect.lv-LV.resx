@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="mods" xml:space="preserve">
-    <value>Modifikācijas</value>
+    <value>Modi</value>
   </data>
   <data name="random" xml:space="preserve">
     <value>Nejaušs</value>
@@ -80,13 +80,13 @@
     <value>Nezināms</value>
   </data>
   <data name="total_plays" xml:space="preserve">
-    <value>Izspēlējumi Kopā</value>
+    <value>Kopā izspēlēts</value>
   </data>
   <data name="personal_plays" xml:space="preserve">
-    <value>Personīgie Izspēlējumi</value>
+    <value>Personīgi izspēlēts</value>
   </data>
   <data name="circle_size" xml:space="preserve">
-    <value>Nošu Lielums</value>
+    <value>Apļu Lielums</value>
   </data>
   <data name="key_count" xml:space="preserve">
     <value>Taustiņu Skaits</value>
@@ -97,17 +97,23 @@
   <data name="accuracy" xml:space="preserve">
     <value>Precizitāte</value>
   </data>
+  <data name="hit_result_window" xml:space="preserve">
+    <value>{0} trāpījuma logs</value>
+  </data>
   <data name="hp_drain" xml:space="preserve">
-    <value>HP Izsūkšana</value>
+    <value>HP zudums</value>
+  </data>
+  <data name="hp_drain_description" xml:space="preserve">
+    <value>Ietekmē dzīvības samazināšanās ātrumu un sodu par netrāpījumiem.</value>
   </data>
   <data name="scroll_speed" xml:space="preserve">
     <value>Ritēšanas ātrums</value>
   </data>
   <data name="submitted" xml:space="preserve">
-    <value>Iesūtīts</value>
+    <value>Iesniegts</value>
   </data>
   <data name="ranked" xml:space="preserve">
-    <value>Novērtēts</value>
+    <value>Rangots</value>
   </data>
   <data name="details" xml:space="preserve">
     <value>Detaļas</value>
@@ -116,7 +122,10 @@
     <value>Novietojums</value>
   </data>
   <data name="use_these_mods" xml:space="preserve">
-    <value>Izmantot šīs modifikācijas</value>
+    <value>Izmantot šos modus</value>
+  </data>
+  <data name="watch_replay" xml:space="preserve">
+    <value>Skatīties ierakstu</value>
   </data>
   <data name="for_all_difficulties" xml:space="preserve">
     <value>Visām grūtībām</value>
@@ -125,16 +134,16 @@
     <value>Izvēlētajai grūtībai</value>
   </data>
   <data name="update_beatmap_tooltip" xml:space="preserve">
-    <value>Atjaunināt ritma-karti ar tiešsaistes atjauninājumiem</value>
+    <value>Atjaunināt bītkarti ar tiešsaistes izmaiņām</value>
   </data>
   <data name="mark_as_played" xml:space="preserve">
     <value>Atzīmēt kā spēlētu</value>
   </data>
-  <data name="clear_all_local_scores" xml:space="preserve">
-    <value>Dzēst visus lokālos rezultātus</value>
+  <data name="remove_from_played" xml:space="preserve">
+    <value>Noņemt no spēlētajām</value>
   </data>
-  <data name="delete_beatmap" xml:space="preserve">
-    <value>Izdzēst bītmapi</value>
+  <data name="clear_all_local_scores" xml:space="preserve">
+    <value>Dzēst visus lokālos rezultātus...</value>
   </data>
   <data name="restore_all_hidden" xml:space="preserve">
     <value>Atjaunot visus paslēptos</value>
@@ -149,13 +158,13 @@
     <value>Grupa</value>
   </data>
   <data name="none" xml:space="preserve">
-    <value>Nekas</value>
+    <value>Nav</value>
   </data>
   <data name="title" xml:space="preserve">
     <value>Nosaukums</value>
   </data>
   <data name="artist" xml:space="preserve">
-    <value>Mākslinieks</value>
+    <value>Izpildītājs</value>
   </data>
   <data name="author" xml:space="preserve">
     <value>Autors</value>
@@ -164,10 +173,10 @@
     <value>BPM</value>
   </data>
   <data name="date_submitted" xml:space="preserve">
-    <value>Iesūtīšanas Datums</value>
+    <value>Iesniegšanas Datums</value>
   </data>
   <data name="date_ranked" xml:space="preserve">
-    <value>Novērtēšanas Datums</value>
+    <value>Rangošanas Datums</value>
   </data>
   <data name="date_added" xml:space="preserve">
     <value>Pievienošanas datums</value>
@@ -185,7 +194,7 @@
     <value>Favorīti</value>
   </data>
   <data name="my_maps" xml:space="preserve">
-    <value>Manas ritma-kartes</value>
+    <value>Manas kartes</value>
   </data>
   <data name="collections" xml:space="preserve">
     <value>Kolekcijas</value>
@@ -200,9 +209,18 @@
     <value>Avots</value>
   </data>
   <data name="no_matching_beatmaps" xml:space="preserve">
-    <value>Nav atbilstošas ritma-kartes</value>
+    <value>Nav atbilstošas bītkartes</value>
   </data>
   <data name="no_matching_beatmaps_description" xml:space="preserve">
-    <value>Nav ritma-kartes, kuras atbilst taviem kritērijiem</value>
+    <value>Nav bītkartes, kuras atbilst taviem kritērijiem!</value>
+  </data>
+  <data name="temporarily_showing_all_beatmaps_in" xml:space="preserve">
+    <value>Īslaicīgi rāda visas bītkartes no</value>
+  </data>
+  <data name="mostly_bpm" xml:space="preserve">
+    <value>pārsvarā {0}</value>
+  </data>
+  <data name="matches_count" xml:space="preserve">
+    <value>{0:#,0} rezultāts|{0:#,0} rezultāti</value>
   </data>
 </root>

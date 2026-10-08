@@ -76,6 +76,9 @@
   <data name="download.limit_exceeded" xml:space="preserve">
     <value>Spomal, hraj viac.</value>
   </data>
+  <data name="download.no_mirrors" xml:space="preserve">
+    <value>Nie sú žiadne dostupné servery pre stiahnutie.</value>
+  </data>
   <data name="featured_artist_badge.label" xml:space="preserve">
     <value>Významný skladateľ </value>
   </data>
@@ -84,6 +87,12 @@
   </data>
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmapy</value>
+  </data>
+  <data name="ogp.favourites" xml:space="preserve">
+    <value>{0} obľúbenie|{0} obľúbení</value>
+  </data>
+  <data name="ogp.playcount" xml:space="preserve">
+    <value>{0} zahranie|{0} zahraní</value>
   </data>
   <data name="panel.empty" xml:space="preserve">
     <value>žiadne beatmapy</value>
@@ -100,17 +109,35 @@
   <data name="panel.download.direct" xml:space="preserve">
     <value>otvoriť v osu!direct</value>
   </data>
+  <data name="nominate.bng_limited_too_many_rulesets" xml:space="preserve">
+    <value>Skušobný nominátori nemôžu nominovať viaceré herné módy.</value>
+  </data>
+  <data name="nominate.full_nomination_required" xml:space="preserve">
+    <value>Musíš byť plnohodnotný nominátor aby si mohol finálne nominovať herný mód.</value>
+  </data>
   <data name="nominate.hybrid_requires_modes" xml:space="preserve">
     <value>Hybridná beatmapa vyžaduje, aby ste vybrali aspoň jeden herný režim k nominovaní.</value>
   </data>
   <data name="nominate.incorrect_mode" xml:space="preserve">
     <value>Nemáte oprávnenie nominovať za mód: {0}</value>
   </data>
+  <data name="nominate.invalid_limited_nomination" xml:space="preserve">
+    <value>Táto beatmapa má neplatné nominácie a nemôže byť kvalifikovaná.</value>
+  </data>
+  <data name="nominate.invalid_ruleset" xml:space="preserve">
+    <value>Táto nominácia má neplatné herné módy.</value>
+  </data>
   <data name="nominate.too_many" xml:space="preserve">
     <value>Požiadavka na nomináciu je už splnená.</value>
   </data>
+  <data name="nominate.too_many_non_main_ruleset" xml:space="preserve">
+    <value>Požiadavky pre nomináciu pre nie hlavný herný mód bol splnený.</value>
+  </data>
   <data name="nominate.dialog.confirmation" xml:space="preserve">
     <value>Ste si istí, že chcete nominovať tuto beatmapu?</value>
+  </data>
+  <data name="nominate.dialog.different_nominator_warning" xml:space="preserve">
+    <value>Kvalifikovanie tejto beatmapy s inými nominátormi resetuje jej pozíciu v rade kvalifikovaných beatmáp.</value>
   </data>
   <data name="nominate.dialog.header" xml:space="preserve">
     <value>Nominovať beatmapu</value>
@@ -118,14 +145,26 @@
   <data name="nominate.dialog.hybrid_warning" xml:space="preserve">
     <value>poznámka: môžete nominovať len raz, takže sa uistite, že nominujete za všetky herné režimy, ktoré chcete</value>
   </data>
+  <data name="nominate.dialog.current_main_ruleset" xml:space="preserve">
+    <value>Hlavný herný mód je: {0}</value>
+  </data>
   <data name="nominate.dialog.which_modes" xml:space="preserve">
     <value>Nominovať pre aké módy?</value>
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicitné</value>
   </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Neplatné hodnotenie.</value>
+  </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Diskusia</value>
+  </data>
+  <data name="show.admin.full_size_cover" xml:space="preserve">
+    <value>Zobraziť plnú veľkosť úvodného obrázku</value>
+  </data>
+  <data name="show.admin.page" xml:space="preserve">
+    <value>Zobraziť administratívnu stránku</value>
   </data>
   <data name="show.deleted_banner.title" xml:space="preserve">
     <value>Táto beatmapa bola odstránená. </value>
@@ -244,6 +283,9 @@
   <data name="show.info.offset" xml:space="preserve">
     <value>Online offset</value>
   </data>
+  <data name="show.info.pack_tags" xml:space="preserve">
+    <value>Balíčky beatmáp</value>
+  </data>
   <data name="show.info.points-of-failure" xml:space="preserve">
     <value>Body Neúspechu</value>
   </data>
@@ -256,6 +298,9 @@
   <data name="show.info.success-rate" xml:space="preserve">
     <value>Úspešnosť</value>
   </data>
+  <data name="show.info.success_rate_plays" xml:space="preserve">
+    <value>{0} z {1} zahrania|{0} z {1} zahraní</value>
+  </data>
   <data name="show.info.user_tags" xml:space="preserve">
     <value>Tagy od Hráčov</value>
   </data>
@@ -267,6 +312,12 @@
   </data>
   <data name="show.lazer_only.description" xml:space="preserve">
     <value>Kvôli špecifickým mechanikám sa táto mapa môže hrať len na osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} pre zobrazenie skóre zahraných na tejto beatmape.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Zapni lazer režim</value>
   </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Táto beatmapa obsahuje explicitný, urážlivý alebo rušivý obsah. Chcete ju napriek tomu zobraziť?</value>
@@ -290,7 +341,7 @@
     <value>Rebríček Krajiny</value>
   </data>
   <data name="show.scoreboard.error" xml:space="preserve">
-    <value>Nepodarilo sa načisť rebríčky</value>
+    <value>Nepodarilo sa načítať rebríčky</value>
   </data>
   <data name="show.scoreboard.friend" xml:space="preserve">
     <value>Rebríček Priateľov</value>
@@ -418,6 +469,9 @@
   <data name="show.stats.favourites" xml:space="preserve">
     <value>Obľúbenia</value>
   </data>
+  <data name="show.stats.no_favourites" xml:space="preserve">
+    <value>Zatiaľ žiadne obľúbenia</value>
+  </data>
   <data name="show.status.ranked" xml:space="preserve">
     <value>Hodnotené</value>
   </data>
@@ -434,7 +488,7 @@
     <value>Nedorobené</value>
   </data>
   <data name="show.status.pending" xml:space="preserve">
-    <value>Nevybavené</value>
+    <value>Čakajúce</value>
   </data>
   <data name="show.status.graveyard" xml:space="preserve">
     <value>Cintorín</value>
