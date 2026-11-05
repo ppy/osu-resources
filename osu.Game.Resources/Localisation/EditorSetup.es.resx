@@ -67,6 +67,9 @@
   <data name="colours_header" xml:space="preserve">
     <value>Colores</value>
   </data>
+  <data name="accent_colours_in_beatmap_background" xml:space="preserve">
+    <value>Colores destacados del fondo del mapa:</value>
+  </data>
   <data name="hit_circle_slider_combos" xml:space="preserve">
     <value>Combos de los sliders/círculos</value>
   </data>
@@ -160,11 +163,20 @@
   <data name="audio_track" xml:space="preserve">
     <value>Pista de audio</value>
   </data>
+  <data name="video" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="video_hint" xml:space="preserve">
+    <value>El vídeo se usará en lugar del fondo estático, si lo hay. Las descargas del mapa se ofrecerán tanto con vídeo como sin él, por lo que si se añade un vídeo, también se debe proporcionar un fondo adecuado.</value>
+  </data>
   <data name="custom_sample_sets" xml:space="preserve">
     <value>Conjuntos de muestras personalizadas</value>
   </data>
   <data name="click_to_select_track" xml:space="preserve">
     <value>Haz clic para seleccionar una pista</value>
+  </data>
+  <data name="click_to_select_video" xml:space="preserve">
+    <value>Haz clic para seleccionar un vídeo</value>
   </data>
   <data name="click_to_select_background" xml:space="preserve">
     <value>Haz clic para seleccionar una imagen de fondo</value>
@@ -177,6 +189,12 @@
   </data>
   <data name="apply_to_this_difficulty" xml:space="preserve">
     <value>Solo aplicar a esta dificultad</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties" xml:space="preserve">
+    <value>Sincronizar los metadatos con todas las dificultades</value>
+  </data>
+  <data name="sync_metadata_with_all_difficulties_tooltip" xml:space="preserve">
+    <value>Copia el nombre del artista, el título, la fuente y las etiquetas a todas las dificultades.</value>
   </data>
   <data name="ruleset" xml:space="preserve">
     <value>Modo de juego ({0})</value>
@@ -195,5 +213,8 @@
   </data>
   <data name="drag_to_set_background" xml:space="preserve">
     <value>¡Arrastra una imagen aquí para establecer el fondo del mapa!</value>
+  </data>
+  <data name="drag_to_set_video" xml:space="preserve">
+    <value>¡Arrastra el vídeo aquí para poner el vídeo del mapa!</value>
   </data>
 </root>

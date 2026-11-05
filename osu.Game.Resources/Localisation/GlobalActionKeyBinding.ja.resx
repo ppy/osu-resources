@@ -83,7 +83,7 @@
     <value>音量を下げる</value>
   </data>
   <data name="toggle_mute" xml:space="preserve">
-    <value>ミュートを切り替える</value>
+    <value>ミュートの切り替え</value>
   </data>
   <data name="skip_cutscene" xml:space="preserve">
     <value>カットシーンをスキップ</value>
@@ -92,10 +92,13 @@
     <value>クイックリトライ（長押し）</value>
   </data>
   <data name="take_screenshot" xml:space="preserve">
-    <value>スクリーンショットを撮る</value>
+    <value>スクリーンショットを撮影</value>
+  </data>
+  <data name="take_and_upload_screenshot" xml:space="preserve">
+    <value>スクリーンショットを撮ってアップロード</value>
   </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
-    <value>ゲームプレイ中のマウスボタンを切り替える</value>
+    <value>プレイ中のマウスボタンの有効 / 無効の切り替え</value>
   </data>
   <data name="back" xml:space="preserve">
     <value>戻る</value>
@@ -110,7 +113,7 @@
     <value>選択</value>
   </data>
   <data name="quick_exit" xml:space="preserve">
-    <value>終わる（長押し）</value>
+    <value>クイック終了（長押し）</value>
   </data>
   <data name="music_next" xml:space="preserve">
     <value>次の曲</value>
@@ -122,13 +125,13 @@
     <value>再生/一時停止</value>
   </data>
   <data name="toggle_now_playing" xml:space="preserve">
-    <value>再生中オーバーレイを切り替える</value>
+    <value>曲再生オーバーレイの切り替え</value>
   </data>
   <data name="select_previous" xml:space="preserve">
-    <value>前回の選択</value>
+    <value>前へ</value>
   </data>
   <data name="select_next" xml:space="preserve">
-    <value>次の選択</value>
+    <value>次へ</value>
   </data>
   <data name="activate_previous_set" xml:space="preserve">
     <value>前のセットを選択</value>
@@ -185,16 +188,22 @@
     <value>ゲームプレイのテスト</value>
   </data>
   <data name="hold_for_hud" xml:space="preserve">
-    <value>長押しでHUD</value>
+    <value>長押しでHUDを表示</value>
   </data>
   <data name="random_skin" xml:space="preserve">
     <value>ランダムなスキン</value>
+  </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>前のスキン</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>次のスキン</value>
   </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>リプレイを一時停止/再開する</value>
   </data>
   <data name="toggle_in_game_interface" xml:space="preserve">
-    <value>ゲーム内インターフェイスを切り替え</value>
+    <value>ゲーム内インターフェイスの切り替え</value>
   </data>
   <data name="toggle_in_game_leaderboard" xml:space="preserve">
     <value>ゲーム内リーダーボードの切り替え</value>
@@ -264,6 +273,9 @@
   </data>
   <data name="step_replay_backward" xml:space="preserve">
     <value>リプレイを1フレーム戻す</value>
+  </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>リプレイの早送り</value>
   </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>チャットフォーカスの切り替え</value>
