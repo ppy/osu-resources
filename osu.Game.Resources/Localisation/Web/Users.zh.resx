@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>最新比赛历史</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>没有足够的数据来计算并展示准确的信息。参加更多对局吧！</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>段位</value>
   </data>
@@ -849,6 +852,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>{0} 达成生涯最高排名 {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>排名仅在进入前 1000 名后显示</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Kudosu 排名</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>新的难度星级 / PP 算法 {0} 。</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>坟场里的谱面</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>客串制作的谱面</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>社区喜爱 (Loved) 谱面</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>提名并上架 (Ranked) 的谱面</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>待定 (Pending) 谱面</value>

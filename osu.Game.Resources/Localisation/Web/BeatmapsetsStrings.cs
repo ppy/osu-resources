@@ -95,6 +95,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString PanelDownloadDirect => new TranslatableString(getKey(@"panel.download.direct"), @"open in osu!direct");
 
         /// <summary>
+        /// "open in osu!"
+        /// </summary>
+        public static LocalisableString PanelDownloadLazer => new TranslatableString(getKey(@"panel.download.lazer"), @"open in osu!");
+
+        /// <summary>
         /// "Probationary nominators cannot nominate multiple rulesets."
         /// </summary>
         public static LocalisableString NominateBngLimitedTooManyRulesets => new TranslatableString(getKey(@"nominate.bng_limited_too_many_rulesets"), @"Probationary nominators cannot nominate multiple rulesets.");
@@ -248,6 +253,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "osu!direct"
         /// </summary>
         public static LocalisableString ShowDetailsDownloadDirect => new TranslatableString(getKey(@"show.details.download.direct"), @"osu!direct");
+
+        /// <summary>
+        /// "Open in osu!"
+        /// </summary>
+        public static LocalisableString ShowDetailsDownloadLazer => new TranslatableString(getKey(@"show.details.download.lazer"), @"Open in osu!");
 
         /// <summary>
         /// "without Video"

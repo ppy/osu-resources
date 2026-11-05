@@ -524,7 +524,7 @@
     <value>Mapas adorados</value>
   </data>
   <data name="show.extra.beatmaps.nominated.title" xml:space="preserve">
-    <value>Mapas classificados nomeados</value>
+    <value>Mapas Classificados Nomeados</value>
   </data>
   <data name="show.extra.beatmaps.pending.title" xml:space="preserve">
     <value>Mapas pendentes</value>
@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Histórico da Última Partida</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Não há dados suficientes para mostrar estatísticas precisas. Jogue mais jogos!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Patamar</value>
   </data>
@@ -849,6 +852,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Classificação mais alta: {0} em {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>A classificação só é mostrada após entrar nos 1000 melhores</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Classificação do Kudosu</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Um novo algoritmo de classificação por estrelas/PP está {0}.</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Mapas no cemitério</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Mapas Onde Participaram Convidados</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Mapas adorados</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Mapas Classificados Nomeados</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Mapas pendentes</value>

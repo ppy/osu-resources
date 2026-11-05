@@ -479,7 +479,7 @@
     <value>установить {0} основным режимом игры</value>
   </data>
   <data name="show.edit.hue.reset_no_supporter" xml:space="preserve">
-    <value>Вы уверены, что хотите сбросить цвет профиля к стандартному? Изменять цвет можно только с тегом osu!supporter.</value>
+    <value>Вы действительно хотите сбросить цвет профиля к стандартному? Изменять цвет можно только с тегом osu!supporter.</value>
   </data>
   <data name="show.edit.hue.title" xml:space="preserve">
     <value>Цвет</value>
@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>История последних матчей</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Недостаточно данных для отображения точной статистики. Сыграйте больше матчей!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Ранг</value>
   </data>
@@ -830,7 +833,7 @@
     <value>тега osu!supporter</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
-    <value>Всего {0} на форуме,</value>
+    <value>{0} на форуме</value>
   </data>
   <data name="show.post_count.count" xml:space="preserve">
     <value>{0} пост|{0} поста|{0} постов</value>
@@ -849,6 +852,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Наивысший: {0} от {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Рейтинг будет отображён только после вхождения в топ 1,000</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Рейтинг по Кудосу</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Сейчас ко всем рекордам применяется {0} подсчёта сложности / PP.</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Заброшенные карты</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Карты с гостевым участием</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Любимые карты</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Номинированные рейтинговые карты</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Карты на рассмотрении</value>

@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Historie posledních zápasů</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Nedostatek dat pro zobrazení přesných statistik. Zahraj si více her!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Úroveň</value>
   </data>
@@ -839,16 +842,22 @@
     <value>Státní pozice pro {0}</value>
   </data>
   <data name="show.rank.country_simple" xml:space="preserve">
-    <value>Místní hodnocení</value>
+    <value>Místní pozice</value>
   </data>
   <data name="show.rank.global" xml:space="preserve">
     <value>Globální pozice pro {0}</value>
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
-    <value>Světové hodnocení</value>
+    <value>Světová pozice</value>
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Nejvyšší umístění {0} dne {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Pozice se zobrazuje pouze po vstupu do top 1000</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Kudosu pozice</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>{0} nového algoritmu pro počet hvězd / PP.</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Pohřbené beatmapy</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Beatmapy s účastí jako host</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Beatmapy oblíbené komunitou</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Nominované hodnocené beatmapy</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Čekající beatmapy</value>

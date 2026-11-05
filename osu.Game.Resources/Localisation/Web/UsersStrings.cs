@@ -545,6 +545,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowPlaysWith(LocalisableString devices) => new TranslatableString(getKey(@"show.plays_with"), @"Plays with {0}", devices);
 
         /// <summary>
+        /// "Unpin badge"
+        /// </summary>
+        public static LocalisableString ShowBadgePinTo0 => new TranslatableString(getKey(@"show.badge.pin.to_0"), @"Unpin badge");
+
+        /// <summary>
+        /// "Pin badge"
+        /// </summary>
+        public static LocalisableString ShowBadgePinTo1 => new TranslatableString(getKey(@"show.badge.pin.to_1"), @"Pin badge");
+
+        /// <summary>
         /// "Posted {0}"
         /// </summary>
         public static LocalisableString ShowCommentsCountDefault(LocalisableString link) => new TranslatableString(getKey(@"show.comments_count._"), @"Posted {0}", link);
@@ -1508,6 +1518,26 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Offline"
         /// </summary>
         public static LocalisableString StatusOffline => new TranslatableString(getKey(@"status.offline"), @"Offline");
+
+        /// <summary>
+        /// "Relationship"
+        /// </summary>
+        public static LocalisableString RelationshipTitle => new TranslatableString(getKey(@"relationship.title"), @"Relationship");
+
+        /// <summary>
+        /// "All"
+        /// </summary>
+        public static LocalisableString RelationshipAll => new TranslatableString(getKey(@"relationship.all"), @"All");
+
+        /// <summary>
+        /// "Mutual"
+        /// </summary>
+        public static LocalisableString RelationshipMutual => new TranslatableString(getKey(@"relationship.mutual"), @"Mutual");
+
+        /// <summary>
+        /// "Non-mutual"
+        /// </summary>
+        public static LocalisableString RelationshipNonMutual => new TranslatableString(getKey(@"relationship.non_mutual"), @"Non-mutual");
 
         /// <summary>
         /// "please register via the game client instead!"

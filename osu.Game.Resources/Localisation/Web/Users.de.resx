@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Neuester Spielverlauf</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Nicht genügend Daten, um präzise Statistiken anzuzeigen. Spiel mehr!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Stufe</value>
   </data>
@@ -850,6 +853,12 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Höchster Rang: {0} am {1}</value>
   </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Der Rang wird nur bei den 1000 besten Plätzen angezeigt</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Kudosu-Rang</value>
+  </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Eine neue Sternbewertung / PP-Algorithmus {0}.</value>
   </data>
@@ -869,7 +878,7 @@
     <value>Gesamtpunktzahl</value>
   </data>
   <data name="show.solo.title" xml:space="preserve">
-    <value>Einzelspieler</value>
+    <value>Einzelspielermodus</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Genauigkeit</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Begrabene Beatmaps</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Als Gast beigetragene Beatmaps</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Loved Beatmaps</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Nominierte Ranked Beatmaps</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Ausstehende Beatmaps</value>

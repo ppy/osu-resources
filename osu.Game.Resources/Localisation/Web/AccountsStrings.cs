@@ -385,6 +385,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString OptionsBeatmapsetDownloadDirect => new TranslatableString(getKey(@"options.beatmapset_download.direct"), @"open in osu!direct");
 
         /// <summary>
+        /// "open in osu!"
+        /// </summary>
+        public static LocalisableString OptionsBeatmapsetDownloadLazer => new TranslatableString(getKey(@"options.beatmapset_download.lazer"), @"open in osu!");
+
+        /// <summary>
         /// "without video"
         /// </summary>
         public static LocalisableString OptionsBeatmapsetDownloadNoVideo => new TranslatableString(getKey(@"options.beatmapset_download.no_video"), @"without video");

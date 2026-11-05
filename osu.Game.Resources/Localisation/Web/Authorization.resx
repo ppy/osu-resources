@@ -82,6 +82,9 @@
   <data name="beatmap_discussion.destroy.has_reply" xml:space="preserve">
     <value>Can not delete discussion with replies</value>
   </data>
+  <data name="beatmap_discussion.destroy.caused_disqualify_or_nomination_reset" xml:space="preserve">
+    <value>Can not delete a discussion that caused a disqualification or nomination reset.</value>
+  </data>
   <data name="beatmap_discussion.nominate.exhausted" xml:space="preserve">
     <value>You have reached your nomination limit for the day, please try again tomorrow.</value>
   </data>
@@ -121,6 +124,9 @@
   <data name="beatmap_discussion_post.destroy.system_generated" xml:space="preserve">
     <value>Automatically generated post can not be deleted.</value>
   </data>
+  <data name="beatmap_discussion_post.destroy.caused_disqualify_or_nomination_reset" xml:space="preserve">
+    <value>Can not delete a post that caused a disqualification or nomination reset.</value>
+  </data>
   <data name="beatmap_discussion_post.edit.not_owner" xml:space="preserve">
     <value>Only the poster can edit post.</value>
   </data>
@@ -129,6 +135,9 @@
   </data>
   <data name="beatmap_discussion_post.edit.system_generated" xml:space="preserve">
     <value>Automatically generated post can not be edited.</value>
+  </data>
+  <data name="beatmap_discussion_post.edit.caused_disqualify_or_nomination_reset" xml:space="preserve">
+    <value>Can not edit a post that caused a disqualification or nomination reset.</value>
   </data>
   <data name="beatmapset.discussion_locked" xml:space="preserve">
     <value>This beatmap is locked for discussion.</value>

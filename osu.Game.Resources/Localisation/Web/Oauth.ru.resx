@@ -74,7 +74,7 @@
     <value>Запрос авторизации</value>
   </data>
   <data name="authorized_clients.confirm_revoke" xml:space="preserve">
-    <value>Вы уверены, что хотите отозвать права доступа у этого приложения?</value>
+    <value>Вы действительно хотите отозвать права доступа у этого приложения?</value>
   </data>
   <data name="authorized_clients.scopes_title" xml:space="preserve">
     <value>Это приложение может:</value>
@@ -101,13 +101,13 @@
     <value>Callback URL приложения</value>
   </data>
   <data name="client.reset" xml:space="preserve">
-    <value>Сбросить ключ приложения</value>
+    <value>Сбросить ключ</value>
   </data>
   <data name="client.reset_failed" xml:space="preserve">
-    <value>Не удалось сбросить ключ приложения</value>
+    <value>Не удалось сбросить секретный ключ приложения</value>
   </data>
   <data name="client.secret" xml:space="preserve">
-    <value>Ключ приложения</value>
+    <value>Секретный ключ приложения</value>
   </data>
   <data name="client.secret_visible.false" xml:space="preserve">
     <value>Показать ключ</value>
@@ -128,10 +128,10 @@
     <value>условиями предоставления услуг</value>
   </data>
   <data name="own_clients.confirm_delete" xml:space="preserve">
-    <value>Вы уверены, что хотите удалить это приложение?</value>
+    <value>Вы действительно хотите удалить это приложение?</value>
   </data>
   <data name="own_clients.confirm_reset" xml:space="preserve">
-    <value>Вы уверены, что хотите сбросить ключ приложения? Это действие приведет к аннулированию всех существующих токенов.</value>
+    <value>Вы действительно хотите сбросить секретный ключ приложения? Это действие приведёт к аннулированию всех существующих токенов.</value>
   </data>
   <data name="own_clients.new" xml:space="preserve">
     <value>Новое приложение OAuth</value>
@@ -144,5 +144,14 @@
   </data>
   <data name="own_clients.revoked.true" xml:space="preserve">
     <value>Удалено</value>
+  </data>
+  <data name="own_clients.secret.copy" xml:space="preserve">
+    <value>Убедитесь, что ключ скопирован, прежде чем закрыть это окно.</value>
+  </data>
+  <data name="own_clients.secret.generate_new" xml:space="preserve">
+    <value>Сбросьте текущий ключ, чтобы сгенерировать новый.</value>
+  </data>
+  <data name="own_clients.secret.visible_once" xml:space="preserve">
+    <value>Секретный ключ отображается только на первоначальном этапе регистрации приложения.</value>
   </data>
 </root>
