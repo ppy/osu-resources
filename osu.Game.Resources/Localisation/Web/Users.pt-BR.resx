@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Histórico de partidas</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Dados insuficientes para mostrar estatísticas precisas. Jogue mais partidas!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Nível</value>
   </data>
@@ -839,16 +842,22 @@
     <value>Ranking nacional de {0}</value>
   </data>
   <data name="show.rank.country_simple" xml:space="preserve">
-    <value>Classificação nacional</value>
+    <value>Ranking nacional</value>
   </data>
   <data name="show.rank.global" xml:space="preserve">
     <value>Ranking global de {0}</value>
   </data>
   <data name="show.rank.global_simple" xml:space="preserve">
-    <value>Classificação global</value>
+    <value>Ranking global</value>
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Maior classificação: {0} em {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>O rank só é exibido após entrar nos melhores 1.000</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Ranking de Kudosu</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Um novo algoritmo de dificuldade / PP está {0}.</value>
@@ -875,7 +884,7 @@
     <value>Precisão</value>
   </data>
   <data name="show.stats.hits_per_play" xml:space="preserve">
-    <value>Acertos por jogada</value>
+    <value>Acertos por Jogada</value>
   </data>
   <data name="show.stats.level" xml:space="preserve">
     <value>Nível {0}</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Beatmaps no Cemitério</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Beatmaps com participação de convidado</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Beatmaps Loved</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Beatmaps ranqueados nominados</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Beatmaps Pendentes</value>

@@ -80,6 +80,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString JudgeResultsCreator => new TranslatableString(getKey(@"judge_results.creator"), @"creator");
 
         /// <summary>
+        /// "Only contest hosts and admins can currently see the results."
+        /// </summary>
+        public static LocalisableString JudgeResultsHostsOnly => new TranslatableString(getKey(@"judge_results.hosts_only"), @"Only contest hosts and admins can currently see the results.");
+
+        /// <summary>
+        /// "Judging has not been finalised yet, and scores may not be accurate!"
+        /// </summary>
+        public static LocalisableString JudgeResultsProvisional => new TranslatableString(getKey(@"judge_results.provisional"), @"Judging has not been finalised yet, and scores may not be accurate!");
+
+        /// <summary>
         /// "Score"
         /// </summary>
         public static LocalisableString JudgeResultsScore => new TranslatableString(getKey(@"judge_results.score"), @"Score");
@@ -98,6 +108,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "total standardised score"
         /// </summary>
         public static LocalisableString JudgeResultsTotalScoreStd => new TranslatableString(getKey(@"judge_results.total_score_std"), @"total standardised score");
+
+        /// <summary>
+        /// "You are a host of this contest. View the premilinary results here!"
+        /// </summary>
+        public static LocalisableString VotingHostLink => new TranslatableString(getKey(@"voting.host_link"), @"You are a host of this contest. View the premilinary results here!");
 
         /// <summary>
         /// "You are a judge of this contest. Judge the entries here!"

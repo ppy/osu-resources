@@ -50,6 +50,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapDiscussionDestroyHasReply => new TranslatableString(getKey(@"beatmap_discussion.destroy.has_reply"), @"Can not delete discussion with replies");
 
         /// <summary>
+        /// "Can not delete a discussion that caused a disqualification or nomination reset."
+        /// </summary>
+        public static LocalisableString BeatmapDiscussionDestroyCausedDisqualifyOrNominationReset => new TranslatableString(getKey(@"beatmap_discussion.destroy.caused_disqualify_or_nomination_reset"), @"Can not delete a discussion that caused a disqualification or nomination reset.");
+
+        /// <summary>
         /// "You have reached your nomination limit for the day, please try again tomorrow."
         /// </summary>
         public static LocalisableString BeatmapDiscussionNominateExhausted => new TranslatableString(getKey(@"beatmap_discussion.nominate.exhausted"), @"You have reached your nomination limit for the day, please try again tomorrow.");
@@ -115,6 +120,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString BeatmapDiscussionPostDestroySystemGenerated => new TranslatableString(getKey(@"beatmap_discussion_post.destroy.system_generated"), @"Automatically generated post can not be deleted.");
 
         /// <summary>
+        /// "Can not delete a post that caused a disqualification or nomination reset."
+        /// </summary>
+        public static LocalisableString BeatmapDiscussionPostDestroyCausedDisqualifyOrNominationReset => new TranslatableString(getKey(@"beatmap_discussion_post.destroy.caused_disqualify_or_nomination_reset"), @"Can not delete a post that caused a disqualification or nomination reset.");
+
+        /// <summary>
         /// "Only the poster can edit post."
         /// </summary>
         public static LocalisableString BeatmapDiscussionPostEditNotOwner => new TranslatableString(getKey(@"beatmap_discussion_post.edit.not_owner"), @"Only the poster can edit post.");
@@ -128,6 +138,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Automatically generated post can not be edited."
         /// </summary>
         public static LocalisableString BeatmapDiscussionPostEditSystemGenerated => new TranslatableString(getKey(@"beatmap_discussion_post.edit.system_generated"), @"Automatically generated post can not be edited.");
+
+        /// <summary>
+        /// "Can not edit a post that caused a disqualification or nomination reset."
+        /// </summary>
+        public static LocalisableString BeatmapDiscussionPostEditCausedDisqualifyOrNominationReset => new TranslatableString(getKey(@"beatmap_discussion_post.edit.caused_disqualify_or_nomination_reset"), @"Can not edit a post that caused a disqualification or nomination reset.");
 
         /// <summary>
         /// "This beatmap is locked for discussion."

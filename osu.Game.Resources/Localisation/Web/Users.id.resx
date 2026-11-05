@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Riwayat Pertandingan Terkini</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Data tidak memadai untuk menampilkan statistik yang akurat. Cobalah untuk bermain lebih banyak!</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Tingkatan</value>
   </data>
@@ -849,6 +852,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Peringkat tertinggi: {0} pada {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Peringkat hanya ditampikan setelah memasuki rentang 1000 teratas</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Peringkat Kudosu</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Algoritma Star Rating / PP yang baru saat ini sedang {0}.</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Beatmap Graveyard</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Beatmap dengan Kontribusi Tingkat Kesulitan</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Beatmap Loved</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Beatmap Ranked yang Dinominasikan</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Beatmap Pending</value>

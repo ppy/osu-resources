@@ -71,13 +71,13 @@
     <value>Очистить</value>
   </data>
   <data name="battery_low" xml:space="preserve">
-    <value>Ваша батарея разряжена! Зарядите своё устройство во избежания прерываний во время игры.</value>
+    <value>Ваша батарея разряжена! Зарядите своё устройство во избежание прерываний во время игры.</value>
   </data>
   <data name="game_volume_too_low" xml:space="preserve">
     <value>Вы ничего не услышите с таким уровнем громкости! Нажмите сюда, чтобы восстановить.</value>
   </data>
   <data name="no_autoplay_mod" xml:space="preserve">
-    <value>Мод Autoplay не доступен для текущего режима игры!</value>
+    <value>Мод Autoplay недоступен для текущего режима игры!</value>
   </data>
   <data name="audio_playback_issue" xml:space="preserve">
     <value>Кажется, osu! неправильно проигрывает звук.
@@ -122,7 +122,7 @@
     <value>Обновление готово к установке. Нажмите сюда для перезапуска!</value>
   </data>
   <data name="not_official_build" xml:space="preserve">
-    <value>Вы запустили неофициальную сборку osu!. Рекорды не могут быть отправлены на сервер. Некоторые онлайн-функции могут быть недоступны.</value>
+    <value>Вы запустили неофициальную сборку osu!. Рекорды не могут быть отправлены на сервер, некоторые онлайн-функции могут работать непредсказуемо.</value>
   </data>
   <data name="downloading_update" xml:space="preserve">
     <value>Загрузка обновления...</value>
@@ -197,11 +197,23 @@
     <value>Запуск osu! от имени {0} не улучшает производительность, может нарушить работу интеграций и представляет угрозу безопасности. Пожалуйста, запустите игру от имени обычного пользователя.</value>
   </data>
   <data name="macos_app_location" xml:space="preserve">
-    <value>В macOS установка osu! в каталог, отличный от /Applications или {0}/Applications может вызвать проблемы с обновлением игры. Пожалуйста, переместите установку игры в одно из этих мест.</value>
+    <value>В macOS установка osu! в каталог, отличный от /Applications или {0}/Applications, может вызвать проблемы с обновлением игры. Пожалуйста, переместите установку игры в одно из этих мест.</value>
   </data>
   <data name="screenshot_saved" xml:space="preserve">
     <value>Скриншот сохранён! Нажмите сюда, чтобы посмотреть.
 {0}</value>
+  </data>
+  <data name="uploading_screenshot" xml:space="preserve">
+    <value>Публикация скриншота...</value>
+  </data>
+  <data name="screenshot_upload_success" xml:space="preserve">
+    <value>Скриншот опубликован! Ссылка скопирована в буфер обмена.</value>
+  </data>
+  <data name="screenshot_upload_failure" xml:space="preserve">
+    <value>Не удалось опубликовать скриншот.</value>
+  </data>
+  <data name="screenshot_too_many_uploads" xml:space="preserve">
+    <value>Вы пытаетесь публиковать скриншоты слишком часто!</value>
   </data>
   <data name="multiplayer_server_shutting_down_immediately" xml:space="preserve">
     <value>Сервер мультиплеера уходит на короткий технический перерыв...</value>

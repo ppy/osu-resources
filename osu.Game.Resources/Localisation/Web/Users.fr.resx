@@ -787,6 +787,9 @@
   <data name="show.matchmaking.recent_history" xml:space="preserve">
     <value>Historique des derniers matchs</value>
   </data>
+  <data name="show.matchmaking.recent_history_provisional" xml:space="preserve">
+    <value>Pas assez de données pour afficher des statistiques précises. Jouez plus !</value>
+  </data>
   <data name="show.matchmaking.tier" xml:space="preserve">
     <value>Palier</value>
   </data>
@@ -849,6 +852,12 @@
   </data>
   <data name="show.rank.highest" xml:space="preserve">
     <value>Meilleur rang : {0} le {1}</value>
+  </data>
+  <data name="show.rank.kudosu_outside_top_1000" xml:space="preserve">
+    <value>Le classement est affiché seulement après être entré dans le top 1 000</value>
+  </data>
+  <data name="show.rank.kudosu_simple" xml:space="preserve">
+    <value>Classement Kudosu</value>
   </data>
   <data name="show.score_processing.title" xml:space="preserve">
     <value>Un nouvel algorithme de difficulté/PP est {0}.</value>
@@ -913,8 +922,14 @@
   <data name="show.stats.graveyard_beatmapset_count" xml:space="preserve">
     <value>Beatmaps dans le cimetière</value>
   </data>
+  <data name="show.stats.guest_beatmapset_count" xml:space="preserve">
+    <value>Beatmaps en tant qu'Invité</value>
+  </data>
   <data name="show.stats.loved_beatmapset_count" xml:space="preserve">
     <value>Beatmaps loved</value>
+  </data>
+  <data name="show.stats.nominated_beatmapset_count" xml:space="preserve">
+    <value>Beatmaps Classées Nominées</value>
   </data>
   <data name="show.stats.pending_beatmapset_count" xml:space="preserve">
     <value>Beatmaps en attente</value>

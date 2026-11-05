@@ -35,6 +35,41 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString EventsEmpty => new TranslatableString(getKey(@"events.empty"), @"Nothing has happened... yet.");
 
         /// <summary>
+        /// "Quote"
+        /// </summary>
+        public static LocalisableString FormattingBlockquote => new TranslatableString(getKey(@"formatting.blockquote"), @"Quote");
+
+        /// <summary>
+        /// "Bold"
+        /// </summary>
+        public static LocalisableString FormattingBold => new TranslatableString(getKey(@"formatting.bold"), @"Bold");
+
+        /// <summary>
+        /// "Code block"
+        /// </summary>
+        public static LocalisableString FormattingCodeBlock => new TranslatableString(getKey(@"formatting.code_block"), @"Code block");
+
+        /// <summary>
+        /// "Inline code"
+        /// </summary>
+        public static LocalisableString FormattingCodeInline => new TranslatableString(getKey(@"formatting.code_inline"), @"Inline code");
+
+        /// <summary>
+        /// "Image"
+        /// </summary>
+        public static LocalisableString FormattingImage => new TranslatableString(getKey(@"formatting.image"), @"Image");
+
+        /// <summary>
+        /// "Italic"
+        /// </summary>
+        public static LocalisableString FormattingItalic => new TranslatableString(getKey(@"formatting.italic"), @"Italic");
+
+        /// <summary>
+        /// "Link"
+        /// </summary>
+        public static LocalisableString FormattingLink => new TranslatableString(getKey(@"formatting.link"), @"Link");
+
+        /// <summary>
         /// "deleted"
         /// </summary>
         public static LocalisableString IndexDeletedBeatmap => new TranslatableString(getKey(@"index.deleted_beatmap"), @"deleted");
