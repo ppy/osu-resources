@@ -8,5 +8,5 @@
 
 for src_file in ./*.png; do
 	echo $src_file
-	magick $src_file -alpha set -fill white -colorize 100,100,100 -compose CopyOpacity $src_file
+	magick "$src_file" -alpha set -fill white -colorize 100,100,100 -compose CopyOpacity "$src_file"
 done
